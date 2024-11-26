@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Папулярныя гарады</string>
     <string name="act_find_city_location_button_text">Атрымаць месцазнаходжанне</string>
     <string name="act_find_city_location_title">Цяперашняе месцазнаходжанне</string>
+    <string name="act_find_city_major_city_title">Папулярныя месцы</string>
+    <string name="act_find_city_search_history_title">Гісторыя пошуку</string>
     <string name="act_location_error_to_find_city">Не атрымалася атрымаць інфармацыю пра месцазнаходжанне. Вы можаце дадаць месцазнаходжанне ўручную.</string>
     <string name="act_set_city_find_side">Пошук месцазнаходжання</string>
     <string name="act_set_city_find_side_error">Месцазнаходжанне не вызначана</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Дыаксід серы</string>
     <string name="aqi_station_best_quality_station">Лепшая станцыя</string>
     <string name="aqi_station_min_distance_station">Найбліжэйшая станцыя</string>
-    <string name="aqi_title_pad">ІЯП: %1$s</string>
     <string name="aqi_top_pollution">Забруджвальныя агенты</string>
     <string name="background_location_dialog_authorize_button">Налады</string>
     <string name="background_location_guide_dialog_msg">"Дазвольце гэтай праграме доступ да месцазнаходжання падчас працы ў фонавым рэжыме і абярыце «Дазваляць заўсёды», каб атрымліваць актуальную інфармацыю аб надвор'і."</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">Пацвердзіць</string>
     <string name="button_confirm">Згадзіцца</string>
     <string name="button_exit">Не згадзіцца</string>
+    <string name="button_manage">Кіраванне</string>
     <string name="button_settings_cancel">Скасаваць</string>
     <string name="button_settings_confirm">Адклікаць</string>
     <string name="button_settings_confirm_to_revoke_msg">"Выключаючы перамыкач, вы адклікаеце сваю згоду з Палітыкай прыватнасці праграмы \"Надвор'е\". Мы перастанем збіраць вашу асабістую інфармацыю, а ўжо сабраныя і захаваныя асабістыя дадзеныя будуць выдалены на працягу пэўнага перыяду ў адпаведнасці з патрабаваннямі заканадаўства, якое ўжываецца. Праграме \"Надвор'е\" трэба збіраць неабходную асабістую інфармацыю для прадастаўлення вам асноўных паслуг. Адкліканне згоды з Палітыкай прыватнасці праграмы будзе разглядацца як адмова прыняць яе паслугі, якія аказваюцца на аснове сабраных асабістых дадзеных."</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Праверце злучэнне і паўтарыце спробу</string>
+    <string name="city_exceeded_tips">Немагчыма дадаць больш месцаў. Выдаліце ​​некаторыя месцы, перш чым дадаць новае.</string>
+    <string name="city_exceeded_tips_title">Немагчыма дадаць месца</string>
     <string name="city_exceeded_warning">Немагчыма дадаць больш гарадоў. Выдаліце ​​адзін з гарадоў, каб дадаць новы.</string>
     <string name="clearable_edittext_clear_description">Ачысціць</string>
     <string name="close">Закрыць</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Не атрымалася злучыцца з сеткай, паспрабуйце яшчэ раз</string>
     <string name="content_desc_activity_main_add_city">Дадаць горад</string>
     <string name="content_desc_activity_main_add_city_manage">Наладзіць гарады</string>
+    <string name="content_desc_activity_main_already_add_city">Дададзеныя месцы</string>
     <string name="content_desc_activity_main_more_settings">Больш наладаў</string>
     <string name="content_desc_activity_main_page">Старонка %1$d з %2$d</string>
     <string name="content_desc_back_button">Назад</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Выдаліць</string>
     <string name="miuix_appcompat_deselect_all">Зняць выбар з усіх</string>
     <string name="miuix_appcompat_deselect_all_description">Зняць выбар</string>
+    <string name="miuix_appcompat_edit">Змяніць</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Скасаваць</string>
     <string name="miuix_appcompat_search_input_description">Пошук</string>
     <string name="miuix_appcompat_select_all">Выбраць усё</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">Сённяшні ІЯП — %1$d у %2$s сёння</string>
     <string name="notif_weather_title">%1$s у %2$s сення</string>
     <string name="other_settings">Іншыя налады</string>
-    <string name="pad_keyboard_add_city">Дадаць месцазнаходжанне</string>
-    <string name="pad_keyboard_left_switch">Папярэдняе месца</string>
-    <string name="pad_keyboard_right_switch">Наступнае месца</string>
-    <string name="pad_real_time_detail_title">Індэксы</string>
     <string name="particulate_matter_exceeded">Перавышэнне</string>
     <string name="particulate_matter_not_exceeded">Норма</string>
     <string name="particulate_matter_serious_exceeded">Моцнае перавышэнне</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Адкліканне згоды</string>
     <string name="privacy_grant_success">Дазвол прадастаўлены</string>
     <string name="privacy_policy">Палітыка прыватнасці</string>
-    <string name="privacy_policy_msg">"&lt;Data>Гэтая праграма мае наступныя функцыі:&lt;br/>• Інфармацыя пра надвор'е для вашага месцазнаходжання&lt;br/>• Прагнозы надвор'я&lt;br/>• Папярэджання аб надвор'і&lt;br/>&lt;br/>Праграме Надвор'е патрабуецца ажыццяўляць збор неабходнай асабістай інфармацыі, каб прадастаўляць вам базавыя паслугі. Вы можаце падрабязней даведацца пра тое, як мы апрацоўваем інфармацыю, якую збіраем, у нашай &lt;a href=\"%1$s\">Палітыцы прыватнасці&lt;/a>. Перад выкарыстаннем праграмы Надвор'е азнаёмцеся і пагадзіцеся з нашымі нашымі &lt;a href=\"%2$s\">Карыстальніцкім пагадненнем&lt;/a> і &lt;a href=\"%3$s\">Палітыкай прыватнасці&lt;/a>. Вы можаце ў любы час адклікаць сваю згоду з Палітыкай прыватнасці праграмы Надвор'е у Наладах.&lt;/Data>"</string>
-    <string name="privacy_policy_msg_for_gp">"&lt;Data>Гэтая праграма мае наступныя функцыі:&lt;br/>• Інфармацыя пра надвор'е для вашага месцазнаходжання&lt;br/>• Прагнозы надвор'я&lt;br/>• Папярэджання аб надвор'е&lt;br/>&lt;br/>Праграме Надвор'е патрабуецца ажыццяўляць збор неабходнай асабістай інфармацыі, уключаючы дадзеныя пра месцазнаходжанне, каб прадастаўляць вам гэтыя функцыі, нават калі праграма закрыта ці не выкарыстоўваецца. Вы можаце падрабязней даведацца пра тое, як мы апрацоўваем інфармацыю, якую збіраем, у нашай &lt;a href=\"%1$s\">Палітыцы прыватнасці&lt;/a>. Перад выкарыстаннем праграмы Надвор'е азнаёмцеся і пагадзіцеся з нашымі нашымі &lt;a href=\"%2$s\">Карыстальніцкім пагадненнем&lt;/a> і &lt;a href=\"%3$s\">Палітыкай прыватнасці&lt;/a>. Вы можаце ў любы час адклікаць сваю згоду з Палітыкай прыватнасці праграмы Надвор'е у Наладах.&lt;/Data>"</string>
+    <string name="privacy_policy_msg"><Data>"Гэтая праграма мае наступныя функцыі:&lt;br/>• Інфармацыя пра надвор'е для вашага месцазнаходжання&lt;br/>• Прагнозы надвор'я&lt;br/>• Папярэджання аб надвор'і&lt;br/>&lt;br/>Праграме Надвор'е патрабуецца ажыццяўляць збор неабходнай асабістай інфармацыі, каб прадастаўляць вам базавыя паслугі. Вы можаце падрабязней даведацца пра тое, як мы апрацоўваем інфармацыю, якую збіраем, у нашай &lt;a href=\"%1$s\">Палітыцы прыватнасці&lt;/a>. Перад выкарыстаннем праграмы Надвор'е азнаёмцеся і пагадзіцеся з нашымі нашымі &lt;a href=\"%2$s\">Карыстальніцкім пагадненнем&lt;/a> і &lt;a href=\"%3$s\">Палітыкай прыватнасці&lt;/a>. Вы можаце ў любы час адклікаць сваю згоду з Палітыкай прыватнасці праграмы Надвор'е у Наладах."</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>"Гэтая праграма мае наступныя функцыі:&lt;br/>• Інфармацыя пра надвор'е для вашага месцазнаходжання&lt;br/>• Прагнозы надвор'я&lt;br/>• Папярэджання аб надвор'е&lt;br/>&lt;br/>Праграме Надвор'е патрабуецца ажыццяўляць збор неабходнай асабістай інфармацыі, уключаючы дадзеныя пра месцазнаходжанне, каб прадастаўляць вам гэтыя функцыі, нават калі праграма закрыта ці не выкарыстоўваецца. Вы можаце падрабязней даведацца пра тое, як мы апрацоўваем інфармацыю, якую збіраем, у нашай &lt;a href=\"%1$s\">Палітыцы прыватнасці&lt;/a>. Перад выкарыстаннем праграмы Надвор'е азнаёмцеся і пагадзіцеся з нашымі нашымі &lt;a href=\"%2$s\">Карыстальніцкім пагадненнем&lt;/a> і &lt;a href=\"%3$s\">Палітыкай прыватнасці&lt;/a>. Вы можаце ў любы час адклікаць сваю згоду з Палітыкай прыватнасці праграмы Надвор'е у Наладах."</Data></string>
     <string name="privacy_revoke_success">Аўтарызацыя паспяхова скасавана</string>
     <string name="privacy_settings">Палітыка прыватнасці</string>
     <string name="pull_fresh_updated">Паспяхова абноўлена</string>

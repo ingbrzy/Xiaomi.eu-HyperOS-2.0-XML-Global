@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Actualizați cheia de securitate</string>
     <string name="e2ee_device_delete">Eliminați dispozitivul</string>
     <string name="e2ee_device_delete_tip">Odată ce eliminați acest dispozitiv din Contul Xiaomi, acesta va fi deconectat și nu veți putea folosi serviciile Xiaomi Cloud, căutarea și alte funcții legate de cont până când nu vă conectați din nou.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Acest dispozitiv nu acceptă Protecția avansată a datelor, așa că nu vă veți putea conecta la contul dvs. dacă activați această funcție. Actualizați acest dispozitiv la Xiaomi HyperOS 2 pentru a vă putea conecta la contul dvs.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Nu se poate conecta</string>
     <string name="e2ee_device_exit_failed_tip">Nu s-a putut deconecta. Așteptați un minut sau două și încercați din nou.</string>
     <string name="e2ee_device_exit_failed_toast">Nu s-a putut deconecta. Așteptați un minut sau două și încercați din nou.</string>
     <string name="e2ee_device_exit_tip">%s este deconectat</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Această funcție nu este acceptată în regiunea dvs.</string>
     <string name="e2ee_error_init">Nu s-a putut inițializa. Așteptați un minut sau două și încercați din nou.</string>
     <string name="e2ee_error_network">Nu s-a putut conecta la rețea. Verifică setările de conexiune la rețea și încearcă din nou.</string>
+    <string name="e2ee_error_real_device">Acest mediu nu este sigur. Încercați să utilizați un alt dispozitiv.</string>
     <string name="e2ee_exit_account_button_close">Dezactivează</string>
     <string name="e2ee_exit_account_button_exit">Deconectează-te</string>
     <string name="e2ee_exit_account_subtitle">Sunteți pe cale să vă deconectați de la ultimul dispozitiv conectat în prezent asociat cu Contul Xiaomi. Va trebui să utilizați o blocare de ecran sau o cheie de securitate pentru a vă conecta din nou și a accesa datele stocate în cloud. Ca alternativă, atingeți \"Dezactivați\" de mai jos pentru a dezactiva Protecția avansată a datelor.</string>
@@ -504,7 +507,7 @@ De asemenea, puteți ajuta anonim pe alții să-și localizeze dispozitivele Xia
     <string name="micloud_last_sync_canceled">Sincronizarea a fost anulată. Încercați din nou.</string>
     <string name="micloud_main_head_menu_cloud_backup">Copii de rezervă</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Găsește dispozitiv nu este disponibil în Al doilea spațiu. Puteți să utlizați în Primul spațiu.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Elemente șterse</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Elemente șterse recent</string>
     <string name="micloud_main_network_error">Nu se poate conecta la rețea</string>
     <string name="micloud_main_sync_mode_summary">Sincronizați datele aplicației în timp real. Consumul de energie va crește atunci când această funcție este activată.</string>
     <string name="micloud_main_sync_mode_title">Sincronizare rapidă</string>
@@ -746,6 +749,7 @@ Asigurați-vă că utilizați Contul Xiaomi asociat ca și cont de sistem."</str
     <string name="other_lockscreen_forget_pin_dialog_title">Am uitat blocarea ecranului</string>
     <string name="other_lockscreen_sub_title">Introduceți blocarea ecranului acestui dispozitiv pentru a finaliza verificarea</string>
     <string name="other_lockscreen_title">Introduceți blocarea ecranului a %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Ți-ai schimbat recent blocarea ecranului? Încercați să introduceți vechea blocare a ecranului pentru verificare.</string>
     <string name="pay_info_dialog_confirm_to_pay">Plătește %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Utilizați restul de Monede Mi: %s</string>
     <string name="pay_info_dialog_title">Selectați metoda de plată</string>
@@ -828,6 +832,10 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud are nevoie de permisiunea de a accesa elemente stocate pe dispozitivul dvs. pentru a putea identifica elementele nesincronizate și cantitatea acestora. Acordați această permisiune acum?</string>
+    <string name="request_os_permissions_dialog_neg_button">Nu sunt de acord</string>
+    <string name="request_os_permissions_dialog_pos_button">De acord</string>
+    <string name="request_os_permissions_dialog_title">Permisiuni necesare</string>
     <string name="retain_data_high_quality_photo_waring_message">Copiile de înaltă calitate ale fotografiilor și videoclipurilor dvs. vor fi șterse din Galerie după ce vă deconectați. Fișierele originale corespunzătoare vor fi în continuare stocate în cloud. De asemenea, puteți descărca fișiere originale înainte de a vă deconecta.</string>
     <string name="retain_data_high_quality_photo_waring_title">Nu vor fi disponibile imagini de înaltă calitate</string>
     <string name="revoke_block_by_find_device">Retragerea consimțământului va dezactiva și Găsește dispozitiv. Va trebui să vă verificați parola după ce continuați.</string>
@@ -1054,7 +1062,7 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="tuesday">Marţi</string>
     <string name="tuesday_short">Mar</string>
     <string name="tuesday_shortest">Mar</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Necunoscut</string>
     <string name="update_dialog_check_button_text">Verifică pentru actualizări</string>
     <string name="update_dialog_ignore_button_text">Nu, mulțumesc</string>
     <string name="update_dialog_no_internet_toast_text">Verificați-vă conexiunea la internet și încercați din nou</string>
@@ -1070,6 +1078,8 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="v7_preference_off">DEZACTIVAT</string>
     <string name="v7_preference_on">ACTIVAT</string>
     <string name="verify_camera_error_toast">Nu s-a putut recunoaște cheia de acces</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud are nevoie de permisiuni ale aparatului foto pentru a putea scana cheia de securitate. Puteți acorda această permisiune în Setări.</string>
+    <string name="verify_camera_google_permission_positive_button">Am înțeles</string>
     <string name="verify_camera_permission_message">Permiteți acestei aplicații să acceseze camera pentru a putea scana cheia dvs. de securitate. Puteți acorda această permisiune în Setări.</string>
     <string name="verify_camera_permission_negative_button">Anulează</string>
     <string name="verify_camera_permission_positive_button">Setări</string>
@@ -1090,7 +1100,7 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="verify_code_warning_toast_limit">Nu au mai rămas încercări de verificare</string>
     <string name="verify_dialog_message">Trimiteți un nou cod de verificare sau selectați o altă metodă de recuperare</string>
     <string name="verify_dialog_negative_btn">Anulează</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Ați activat Protecția avansată a datelor pe alt dispozitiv. Setați o blocare a ecranului pe acest dispozitiv pentru a vă putea accesa datele stocate în Xiaomi Cloud.</string>
     <string name="verify_dialog_point">Nu împărtășiți nimănui acest cod de verificare</string>
     <string name="verify_dialog_point_choose_method">Selectați o altă metodă de verificare</string>
     <string name="verify_dialog_point_device_password">Introduceți blocarea ecranului altui dispozitiv</string>
@@ -1112,7 +1122,7 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="verify_scan_error_not_support_toast">Acest dispozitiv nu acceptă scanarea</string>
     <string name="verify_scan_input_textview">Introduceți manual</string>
     <string name="verify_scan_photo_textview">Scanează</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Atingeți pe centru pentru a focaliza</string>
     <string name="verify_scan_point_text_view">Scrieți cheia de acces din %d cifre în caseta de mai jos</string>
     <string name="verify_scan_title">Verificați cheia de securitate</string>
     <string name="verify_send_code_btn">Trimite cod</string>
@@ -1132,6 +1142,8 @@ Informațiile despre locație nu pot fi raportate atunci când conexiunea la re�
     <string name="verify_warning_dialog_title">Un alt dispozitiv a activat criptarea end-to-end</string>
     <string name="verify_warning_dialog_title_pc">Permisiuni necesare</string>
     <string name="verify_warning_dialog_title_web">Permisiuni necesare</string>
+    <string name="verify_warning_verify_dialog_message">Introduceți codul de verificare pe %s</string>
+    <string name="verify_warning_verify_dialog_title">Verificați Contul Xiaomi</string>
     <string name="waiting_for_sync">Se așteaptă…</string>
     <string name="web_view_auto_login_fail">Nu s-a putut conecta. Încercați din nou.</string>
     <string name="web_view_login_text">Se conectează…</string>

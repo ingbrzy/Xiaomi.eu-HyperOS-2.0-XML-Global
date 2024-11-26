@@ -633,9 +633,12 @@ Je beheerder kan instellingen, toegang, apps en gegevens van deze gebruiker bijh
     <string name="agps_roaming_dia">A-GPS gebruiken tijdens roaming kan uw mobiele dataverbruik verhogen. Als u de datalimiet overschrijdt, kan uw provider extra kosten in rekening brengen.</string>
     <string name="agps_roaming_dia_title">A-GPS bij roaming gebruiken</string>
     <string name="agps_roaming_summary">Gebruik mobiele data om GPS tijdens roaming te ondersteunen</string>
+    <string name="agree_btn">Akkoord</string>
+    <string name="agree_scanner_app_use">Scan QR-codes en herken afbeeldingen. Sommige functies moeten toegang hebben tot de locatie, de camera gebruiken of screenshots maken.</string>
     <string name="ai_button_title">Mi AI knop</string>
     <string name="ai_button_title_global">AI-knop</string>
     <string name="ai_call_assistant">AI gesprekken</string>
+    <string name="ai_services_title">AI-services</string>
     <string name="ai_settings_click_title">Drukken</string>
     <string name="ai_settings_double_click_category">Druk twee keer op de AI-knop</string>
     <string name="ai_settings_double_click_title">Twee keer drukken</string>
@@ -749,22 +752,52 @@ Widget: %2$s
     <string name="aon_gesture_cue_tone_title">Bevestigingsgeluid afspelen</string>
     <string name="aon_gesture_dialog_message">Als deze functie is ingeschakeld, detecteert en analyseert dit apparaat uw gebaren. Uw persoonlijke informatie wordt niet verwerkt, er worden geen gegevens lokaal of in de cloud opgeslagen.</string>
     <string name="aon_gesture_dialog_title">Privacyverklaring</string>
+    <string name="aon_gesture_double_press_diagram_summary" formatted="false">Plaats uw hand %d–%d cm van de camera, met uw vingers omhoog, en pauzeer dan. Wanneer het handpictogram verschijnt, voert u een dubbele drukbeweging uit om media af te spelen of te pauzeren.</string>
+    <string name="aon_gesture_double_press_diagram_title">Maak een dubbele drukbeweging voor het scherm</string>
     <string name="aon_gesture_double_press_summary">Afspelen en pauzeren</string>
     <string name="aon_gesture_double_press_title">Voer een dubbele drukbeweging uit</string>
+    <string name="aon_gesture_down_waving_diagram_summary" formatted="false">Plaats uw hand %d–%d cm van de camera met uw vingers omhoog, en pauzeer dan. Wanneer het handpictogram verschijnt, zwaait u uw hand naar beneden.</string>
+    <string name="aon_gesture_down_waving_diagram_title">Zwaai naar beneden voor het scherm</string>
     <string name="aon_gesture_draw_circle_summary_pad">Beantwoord of beëindig oproepen die zijn overgezet naar tablet</string>
     <string name="aon_gesture_draw_circle_summary_phone">Oproepen beantwoorden en beëindigen</string>
     <string name="aon_gesture_draw_circle_title">Teken een cirkel</string>
     <string name="aon_gesture_enable_summary" formatted="false">Houd uw hand %d tot %d van de camera en voer gebaren uit nadat het handpictogram bovenaan het scherm verschijnt</string>
+    <string name="aon_gesture_learn_double_press_title">Leer het gebaar \"Dubbele drukbeweging\"</string>
+    <string name="aon_gesture_learn_left_right_waving_title">Leer het gebaar \"Zwaai horizontaal\"</string>
     <string name="aon_gesture_learn_title">Gebaren leren</string>
+    <string name="aon_gesture_learn_up_down_waving_title">Leer het gebaar \"Zwaai verticaal\"</string>
+    <string name="aon_gesture_learning_dialog_title">Nu gebaren leren?</string>
+    <string name="aon_gesture_learning_toast">U kunt hier later altijd gebaren leren</string>
     <string name="aon_gesture_left_right_waving_summary">Pas de voortgang van het afspelen aan en schakel tussen nummers</string>
     <string name="aon_gesture_left_right_waving_title">Zwaai horizontaal</string>
+    <string name="aon_gesture_left_waving_diagram_summary" formatted="false">Plaats uw hand %d–%d cm van de camera met uw vingers naar rechts, en pauzeer dan. Wanneer het handpictogram verschijnt, zwaait u uw hand naar links.</string>
+    <string name="aon_gesture_left_waving_diagram_title">Zwaai naar links voor het scherm</string>
+    <string name="aon_gesture_right_waving_diagram_summary" formatted="false">Plaats uw hand %d–%d cm van de camera met uw vingers naar links, en pauzeer dan. Wanneer het handpictogram verschijnt, zwaait u uw hand naar rechts.</string>
+    <string name="aon_gesture_right_waving_diagram_title">Zwaai recht voor het scherm</string>
     <string name="aon_gesture_settings">Contactloze gebaren</string>
     <string name="aon_gesture_status_close">Uit</string>
+    <string name="aon_gesture_status_not_open">Uit</string>
     <string name="aon_gesture_status_open">Aan</string>
     <string name="aon_gesture_supported_app_title">Ondersteunde apps</string>
     <string name="aon_gesture_supported_title">Beschikbare gebaren</string>
     <string name="aon_gesture_up_down_waving_summary">"Pas het mediavolume aan, schakel tussen korte video's en sla pagina's in documenten om"</string>
     <string name="aon_gesture_up_down_waving_title">Zwaai verticaal</string>
+    <string name="aon_gesture_up_waving_diagram_summary" formatted="false">Plaats uw hand %d–%d cm van de camera met uw vingers naar beneden, en pauzeer dan. Wanneer het handpictogram verschijnt, zwaait u uw hand omhoog.</string>
+    <string name="aon_gesture_up_waving_diagram_title">Zwaai omhoog voor het scherm</string>
+    <string name="aon_scanner_default_payment_method_title">Standaard betaalmethode</string>
+    <string name="aon_scanner_dialog_message">Wanneer u Snelle scanner inschakelt, worden de QR-codes die u scant gedeeld met Mi AI Scanner. Zorg ervoor dat u dit begrijpt en ermee akkoord gaat voordat u verdergaat. De QR-codes die u scant, worden niet lokaal opgeslagen of geüpload naar de cloud. Houd er rekening mee dat het gebruik van deze functie het totale stroomverbruik enigszins kan verhogen.</string>
+    <string name="aon_scanner_dialog_message_new">Wanneer u Snelle scanner gebruikt, worden QR-codes die u scant gedeeld met AI Scanner. Deze informatie wordt niet opgeslagen op uw apparaat en ook niet geüpload naar de cloud. Als u deze functie inschakelt, neemt het stroomverbruik licht toe.</string>
+    <string name="aon_scanner_dialog_title">Privacyverklaring</string>
+    <string name="aon_scanner_disclaimer_message">"Snelle scanner biedt een snelle en eenvoudige manier om QR-codes te scannen. Zodra u deze functie inschakelt, kunt u snel QR-codes scannen en direct naar de bijbehorende pagina gaan. Zorg ervoor dat u de inhoud en services die door de QR-code worden aangeboden volledig begrijpt voordat u scant. Beslis of u deze wilt scannen of door wilt gaan met de link naar de service van derden. Als u ervoor kiest om toegang te krijgen tot de service van derden, zijn alle gevolgen en juridische risico's uw verantwoordelijkheid. Houd er rekening mee dat Xiaomi geen expliciete of impliciete garanties of waarborgen biedt voor de inhoud, producten en services van de QR-code die door derden worden aangeboden."</string>
+    <string name="aon_scanner_disclaimer_title">Disclaimer</string>
+    <string name="aon_scanner_download_message">Snelle scanner gebruikt Mi AI Scanner om zijn services te leveren. Dit betekent dat de QR-codes die u scant, worden gedeeld met Mi AI Scanner. Zorg ervoor dat u dit begrijpt en ermee akkoord gaat voordat u doorgaat met de installatie.</string>
+    <string name="aon_scanner_download_message_new">Omdat Snelle scanner-services worden geleverd door AI Scanner, moeten we de QR-codes die u scant met AI Scanner delen. Installeer AI Scanner voordat u doorgaat.</string>
+    <string name="aon_scanner_download_title">Installeer Mi AI Scanner</string>
+    <string name="aon_scanner_download_title_new">AI Scanner installeren</string>
+    <string name="aon_scanner_settings">Snelle scanner</string>
+    <string name="aon_scanner_status_close">Uit</string>
+    <string name="aon_scanner_status_open">Aan</string>
+    <string name="aon_scanner_summary" formatted="false">Richt uw apparaat op een QR-code binnen %d terwijl u op het startscherm bent, totdat er een prompt verschijnt en houd deze %d seconden vast om te scannen</string>
     <string name="ap_connect_failed">Kon niet verbinden</string>
     <string name="ap_connected_battery_level">" | Batterij %1$s"</string>
     <string name="ap_p2p_dialog_message">De huidige gedeelde wifi-verbinding wordt al gebruikt. Zorg ervoor dat u Wi-Fi Direct, Mi Share, casten of andere draadloze overdrachtsservices niet gebruikt voordat u uw persoonlijke hotspot inschakelt.</string>
@@ -1187,6 +1220,10 @@ Laatst uitgevoerd op %2$s"</string>
     <string name="back_navigation_animation_summary">Systeemanimaties aanzetten voor voorspellende animaties voor gebaren voor terug.</string>
     <string name="back_sensitivity_dialog_message">Een hogere gevoeligheid kan conflicteren met app-gebaren langs de randen van het scherm.</string>
     <string name="back_sensitivity_dialog_title">Gevoeligheid van gebaar voor teruggaan</string>
+    <string name="back_strap_image_text">Ontvang meldingsherinneringen en lichteffecten voor verschillende scènes</string>
+    <string name="back_strap_status_close">Uit</string>
+    <string name="back_strap_status_open">Aan</string>
+    <string name="back_strap_title">Tegenlichteffecten</string>
     <string name="back_tap">Klik op terug</string>
     <string name="back_triple_tap">Klik driemaal op Terug</string>
     <string name="background_activity_disabled_dialog_text">"Batterijoptimalisatie is niet ingesteld voor deze app. Je kunt de app dus niet beperken.
@@ -1585,6 +1622,7 @@ Ontgrendelen via smartwatch is een andere handige manier om je telefoon te ontgr
     <string name="bluetooth_auracast_source_and_assistant_text">Zend audio uit naar andere apparaten en zoek naar audio-uitzendingen in de buurt</string>
     <string name="bluetooth_auracast_source_available_connect">Uitzendingen in de buurt</string>
     <string name="bluetooth_auracast_source_explain_summary">Als dit is ingeschakeld, kunnen mensen in de buurt audio van uw apparaat ontvangen met een verbindingscode</string>
+    <string name="bluetooth_auracast_source_explain_summary_qcom">Om deze functie te gebruiken, koppelt u het momenteel verbonden apparaat los of verbindt u ten minste één Bluetooth LE Audio-apparaat</string>
     <string name="bluetooth_auracast_source_opend_summary">"Verbindingscode: "</string>
     <string name="bluetooth_battery_level">Batterijniveau %1$s</string>
     <string name="bluetooth_battery_level_lea_support">Verbonden (ondersteunt audio delen), batterijniveau %1$s.</string>
@@ -1747,12 +1785,15 @@ Je hebt nog niet eerder verbinding gemaakt met %2$s."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Gebruikt voor geluid van de telefoon</string>
     <string name="bluetooth_hearing_aid_left_active">Actief (alleen links)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Actief (links en rechts)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Beide gehoorapparaten zijn verbonden met %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Linker gehoorapparaat aangesloten op %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Actief (alleen media), alleen links</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Actief (alleen media), links en rechts</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Actief (alleen media), alleen rechts</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Verbonden met gehoorapparaat</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Gebruikt voor gehoorapparaat</string>
     <string name="bluetooth_hearing_aid_right_active">Actief (alleen rechts)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Rechter gehoorapparaat aangesloten op %1$s</string>
     <string name="bluetooth_hearing_aids_presets">Voorinstelling</string>
     <string name="bluetooth_hearing_aids_presets_error">Kan voorinstelling niet updaten</string>
     <string name="bluetooth_hearing_device_settings_summary">Sneltoets, geschiktheid voor hoortoestellen</string>
@@ -1821,6 +1862,10 @@ Als je het rechterhoortoestel wilt koppelen, zorg dan dat dit aanstaat en klaar 
 Als je het linkerhoortoestel wilt koppelen, zorg dan dat dit aanstaat en klaar is voor koppelen."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Rechteroor koppelen</string>
     <string name="bluetooth_pair_other_ear_dialog_title">Je andere oor koppelen</string>
+    <string name="bluetooth_pair_other_hearing_dialog_positive_button">Koppelen</string>
+    <string name="bluetooth_pair_other_hearing_dialog_title">Koppelen met ander gehoorapparaat</string>
+    <string name="bluetooth_pair_other_left_hearing_dialog_message">Het rechter gehoorapparaat is verbonden. Zorg ervoor dat het linker gehoorapparaat is ingeschakeld en klaar is om te koppelen.</string>
+    <string name="bluetooth_pair_other_right_hearing_dialog_message">Het linker gehoorapparaat is verbonden. Zorg ervoor dat het rechter gehoorapparaat is ingeschakeld en klaar is om te koppelen.</string>
     <string name="bluetooth_pair_right_ear_button">Rechteroor koppelen</string>
     <string name="bluetooth_paired">Opgeslagen</string>
     <string name="bluetooth_paired_device_title">Je apparaten</string>
@@ -2225,6 +2270,10 @@ Als je een CA-certificaat installeert, kan de eigenaar van het certificaat toega
     <string name="call_records_summary_1">%1$d:%2$d AM | %3$d seconden</string>
     <string name="call_records_summary_2">%1$d augustus | %2$d min. %3$d s</string>
     <string name="call_records_summary_3">%1$d augustus | %2$d min. %3$d s</string>
+    <string name="call_reminder_all">Alle gesprekken</string>
+    <string name="call_reminder_contact">Contacten</string>
+    <string name="call_reminder_favorite_contacts">Favoriete contacten</string>
+    <string name="call_reminder_title">Herinneringen voor inkomende oproepen</string>
     <string name="call_settings_primary_user_only">Oproepinstellingen in Eerste ruimte wijzigen</string>
     <string name="call_settings_summary">Voicemail, gesprekken doorschakelen, wisselgesprek, beller-ID instellen</string>
     <string name="call_settings_title">Gespreksinstellingen</string>
@@ -2394,13 +2443,17 @@ Als dit recht aanstaat, is de app beschikbaar als optie wanneer er een tag wordt
     <string name="check_find_device_status_failure_confirm">OК</string>
     <string name="check_update">Controleren op updates</string>
     <string name="checkbox_text">Schakelen</string>
+    <string name="checked_app_title">Lichteffecten aan</string>
     <string name="checking_find_device_status">Status van Apparaat zoeken controleren…</string>
     <string name="checking_for_updates">Controleren op updates…</string>
     <string name="choose_a_card_to_reset">Selecteer SIM-kaart om te resetten</string>
+    <string name="choose_ali_payment">Alipay</string>
     <string name="choose_keyguard_clock_style">Vergrendelscherm klokformaat</string>
     <string name="choose_keyguard_clock_summary">"Deze instelling werkt niet met thema's van derden"</string>
     <string name="choose_lock_pattern_header_text">Stel een patroon in</string>
+    <string name="choose_mi_payment">Mi Pay</string>
     <string name="choose_network_title">Netwerk kiezen</string>
+    <string name="choose_nothing_payment">Niet ingesteld</string>
     <string name="choose_profile">Profiel kiezen</string>
     <string name="choose_sim_activating">Aanzetten…</string>
     <string name="choose_sim_could_not_activate">Kan deze sim nu niet aanzetten</string>
@@ -2410,6 +2463,7 @@ Als dit recht aanstaat, is de app beschikbaar als optie wanneer er een tag wordt
     <string name="choose_spell_checker">Spellingcontrole kiezen</string>
     <string name="choose_unlock_face_msg">Stel vergrendelscherm in voordat u uw gezichtsgegevens toevoegt.</string>
     <string name="choose_unlock_fingerprint_msg">Stel schermvergrendeling in voordat u uw vingerafdruk toevoegt.</string>
+    <string name="choose_wechat_payment">WeChat</string>
     <string name="classic_mode_summary">Schakel over naar warmere kleuren om de hoeveelheid blauw licht te verminderen</string>
     <string name="classic_mode_title">Klassiek</string>
     <string name="cleaner">Opruimer</string>
@@ -2562,6 +2616,8 @@ Als dit recht aanstaat, is de app beschikbaar als optie wanneer er een tag wordt
     <string name="complete_parameters">Alle specificaties</string>
     <string name="complete_parameters_new">Gedetailleerde info en specificaties</string>
     <string name="complete_settings">Algemene instellingen</string>
+    <string name="compute_power_sharing">Computerondersteuning</string>
+    <string name="compute_power_sharing_summary">Benut de rekenkracht van uw telefoon om AI-functies op uw tablet te gebruiken</string>
     <string name="computer_backup_summary">Maak een back-up en herstel items met een computer</string>
     <string name="computer_backup_title">Computer</string>
     <string name="computing_size">Berekenen…</string>
@@ -2630,7 +2686,7 @@ Als dit recht aanstaat, is de app beschikbaar als optie wanneer er een tag wordt
     <string name="confirmation_turn_on">Aanzetten</string>
     <string name="connect_mode">Verbindingstype</string>
     <string name="connect_to_internet">Verbinding met netwerk maken</string>
-    <string name="connect_to_windows">Verbinden met Windows</string>
+    <string name="connect_to_windows">Koppeling met Windows</string>
     <string name="connected_device_add_device_summary">Bluetooth wordt aangezet om te koppelen</string>
     <string name="connected_device_bluetooth_turned_on_toast">Bluetooth staat aan</string>
     <string name="connected_device_call_device_title">Apparaten voor gesprekken</string>
@@ -3608,6 +3664,8 @@ Dit helpt gegevens op verloren of gestolen apparaten te beschermen. PIN nodig om
     <string name="enhanced_4g_lte_mode_title">VoLTE</string>
     <string name="enhanced_4g_lte_mode_title_4g_calling">Bellen via 4G</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Geavanceerd bellen</string>
+    <string name="enhanced_ai_applications">Boost voor AI-apps</string>
+    <string name="enhanced_ai_applications_summary">Gebruik AI om apps te upgraden en te genieten van slimmere diensten</string>
     <string name="enhanced_connectivity_summary">Hiermee wordt de functie voor verbeterde connectiviteit aangezet.</string>
     <string name="enrol_fingerprint_data">Vingerafdruk toevoegen</string>
     <string name="enterprise_mode">Bedrijfsmodus</string>
@@ -3989,6 +4047,7 @@ Neem contact op met je kredietverstrekker voor meer informatie."</string>
     <string name="flash_notifications_keywords">flitsen, licht, slechthorend, gehoorverlies</string>
     <string name="flash_notifications_note">\"Beam voor meldingen\" visualiseert meldingsgeluiden en beltonen met behulp van camera flits en scherm. Gebruik deze functie met de nodige voorzichtigheid als u gevoelig bent voor licht.</string>
     <string name="flash_notifications_preview">Voorbeeld</string>
+    <string name="flash_notifications_settings_title">Flits-meldingen</string>
     <string name="flash_notifications_summary">Gebruik de flitser van de camera of toon gekleurde balken op het scherm als er meldingen binnenkomen of als het apparaat overgaat</string>
     <string name="flash_notifications_summary_off">Uit</string>
     <string name="flash_notifications_summary_on_camera">Aan: cameraflits</string>
@@ -4376,7 +4435,7 @@ Het gebied waar u uw schermvergrendeling kunt bevestigen, wordt naar rechts verp
     <string name="gxzw_anim_pulse">Trilling</string>
     <string name="gxzw_anim_rhythm">Ritme</string>
     <string name="gxzw_anim_star">Sterrenlicht</string>
-    <string name="gxzw_anim_title">Animatie vingerafdruk</string>
+    <string name="gxzw_anim_title">Vingerafdrukherkenning</string>
     <string name="gxzw_aod_show_summary">Til het apparaat op of tik op het scherm om het vingerafdruk icoon te laten verschijnen. Deze functie verhoogt het stroomverbruik van het systeem, maar stelt u in staat het apparaat sneller te ontgrendelen.</string>
     <string name="gxzw_aod_show_tittle">Vingerafdruk icoon weergeven wanneer het scherm uit staat</string>
     <string name="gxzw_dialog_message">Schermbeschermers kunnen de vingerafdrukherkenning van het scherm verstoren. We raden aan om een officiële Xiaomi-film te gebruiken als u schermbescherming nodig hebt.</string>
@@ -4501,6 +4560,7 @@ Het gebied waar u uw schermvergrendeling kunt bevestigen, wordt naar rechts verp
     <string name="health_use_of_pad">Gezond apparaatgebruik</string>
     <string name="health_use_of_phone">Gezond apparaatgebruik</string>
     <string name="hearing_aids_category">Hulpmiddelen voor gehoor</string>
+    <string name="hearing_stream_option">Audio-opties</string>
     <string name="heavy_weight_stop_description">Deze app kan niet veilig worden gestopt. Als je de app stopt, kun je een deel van je huidige werk kwijtraken.</string>
     <string name="height_light_list_text">Een lijst met belangrijke items</string>
     <string name="help_and_feedback_title">Hulp en feedback</string>
@@ -4613,6 +4673,8 @@ Open Xiaomi Cloud en herstel items vanaf daar."</string>
     <string name="important_conversations">Prioriteitsgesprekken</string>
     <string name="important_conversations_summary">Bovenaan het gespreksgedeelte tonen</string>
     <string name="important_conversations_summary_bubbles">Toon als zwevende bubbels bovenaan het gespreksgedeelte</string>
+    <string name="impunity_declaration_content">"Scanner moet uw camera gebruiken en de afbeeldingen verwerken die u maakt terwijl u de app gebruikt. Gebruik Scanner niet om foto's te maken van de objecten die uw persoonlijke informatie bevatten. Door op \"Akkoord\" te tikken, gaat u akkoord met onze &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">Privacybeleid&lt;/a>&lt;/font> en Scanner toestaan om verbinding te maken met het internet."</string>
+    <string name="impunity_declaration_negative_text">Afsluiten</string>
     <string name="ims_reg_status_not_registered">Niet geregistreerd</string>
     <string name="ims_reg_status_registered">Geregistreerd</string>
     <string name="ims_reg_title">IMS-registratiestatus</string>
@@ -4786,6 +4848,7 @@ Open Xiaomi Cloud en herstel items vanaf daar."</string>
     <string name="keyboard_layout_dialog_setup_button">Toetsenbordindelingen instellen</string>
     <string name="keyboard_layout_dialog_switch_hint">Druk op Ctrl-spatiebalk om te schakelen</string>
     <string name="keyboard_layout_dialog_title">Toetsenbordindeling kiezen</string>
+    <string name="keyboard_layout_not_support_hint">Niet-ondersteunde lay-out</string>
     <string name="keyboard_layout_picker_category_title">Indelingen fysiek toetsenbord</string>
     <string name="keyboard_layout_picker_title">Toetsenbordindelingen</string>
     <string name="keyboard_mouse_touch">Toetsenbord, muis en trackpad</string>
@@ -4984,6 +5047,7 @@ Open Xiaomi Cloud en herstel items vanaf daar."</string>
     <string name="knock_slide_shape">Teken een cirkel met een knokkel</string>
     <string name="knock_slide_v">Teken V met een knokkel</string>
     <string name="label_mi_stats">Mi Analytics</string>
+    <string name="lamp_effect_settings">Effecten</string>
     <string name="language_and_input_for_work_category_title">Toetsenborden en tools van werkprofiel</string>
     <string name="language_empty_list_user_restricted">Je hebt geen rechten om de apparaattaal te wijzigen.</string>
     <string name="language_input_gesture_title">Talen, invoer en gebaren</string>
@@ -5054,6 +5118,7 @@ Open Xiaomi Cloud en herstel items vanaf daar."</string>
     <string name="led_settings">LED-licht</string>
     <string name="left_edge">Linkerrand</string>
     <string name="left_function_key">Linker snelkoppeling</string>
+    <string name="left_hearing_aid">Linker gehoorapparaat</string>
     <string name="left_right_hand_switch">Links en rechts</string>
     <string name="left_right_hand_switch_summary">Verwissel linker- en rechtergedeelte van het toetsenbord met een enkele tik</string>
     <string name="left_shoulder_key">Links</string>
@@ -5719,8 +5784,13 @@ U kunt deze actie niet ongedaan maken."</string>
     <string name="media_controls_resume_title">Mediaspeler vastzetten</string>
     <string name="media_controls_show_player">Toon speler</string>
     <string name="media_controls_title">Media</string>
+    <string name="media_dialog_ok">Begrepen</string>
+    <string name="media_dialog_summary">Wanneer deze functie is ingeschakeld, trilt het apparaat mee met het ritme van de ondersteunde muziek, wat zorgt voor een rijkere, meeslependere ervaring.</string>
+    <string name="media_dialog_title">Schakel Media haptische feedback in</string>
     <string name="media_drm_settings_title">DRM-instellingen voor media</string>
     <string name="media_feedback_enable_title">Trillen op de maat</string>
+    <string name="media_haptic">Media haptische feedback</string>
+    <string name="media_haptic_summary">Ontvang haptische feedback op basis van het ritme van uw muziek</string>
     <string name="media_management_apps_description">Als je dit toestaat, kan deze app ongevraagd mediabestanden bewerken of verwijderen die met andere apps zijn gemaakt. De app heeft toegangsrechten nodig voor bestanden en media.</string>
     <string name="media_management_apps_title">Apps voor mediabeheer</string>
     <string name="media_management_apps_toggle_label">Toestaan dat app media beheert</string>
@@ -5982,8 +6052,6 @@ U kunt deze actie niet ongedaan maken."</string>
     <string name="miheadset_windnoise">Wind</string>
     <string name="mild_reminder">Melding</string>
     <string name="mipush_fake_channel_group_name">Mi Push</string>
-    <string name="miracast_wireless_display">Miracast draadloos scherm</string>
-    <string name="miracast_wireless_display_description">Cast het scherm van een nabijgelegen Windows-computer naar dit apparaat</string>
     <string name="mishow_disable_password_setting">Kan geen wachtwoorden instellen in demomodus</string>
     <string name="miui_accessibility_asr_summary">Audio transcriberen en tekst opslaan</string>
     <string name="miui_accessibility_asr_title">Mi Ditto</string>
@@ -6213,6 +6281,8 @@ Elke gebruiker kan toestemmingen verlenen namens alle gebruikersprofielen die op
     <string name="mode_wallpaper_title">Achtergrond dimmen</string>
     <string name="mode_wallpaper_title_secondary_list">achtergrond dimmen</string>
     <string name="model_info">Model</string>
+    <string name="model_management">Modellen beheren</string>
+    <string name="model_management_summary">Grote modellen op uw apparaat downloaden, bijwerken en verwijderen</string>
     <string name="model_name">Model</string>
     <string name="model_number">Apparaat</string>
     <string name="modern_control_center_desc">Trek de statusbalk aan de linkerkant naar beneden om meldingen te bekijken. Trek de statusbalk aan de rechterkant naar beneden om het Controlecentrum te openen.</string>
@@ -6415,6 +6485,7 @@ Selecteer uw besturingssysteem:"</string>
     <string name="music_equalizer">Equalizer</string>
     <string name="music_playback_control_cross_device_flow">Audio afspelen overzetten naar verschillende apparaten</string>
     <string name="music_video_flow_across_device">Bedien het afspelen van audio en draag het over naar verschillende apparaten</string>
+    <string name="musical_rhythm_app_title">Ritmische lichteffecten</string>
     <string name="mute">Stille modus</string>
     <string name="mute_media_sound_summary">"Games, muziek, video's en andere apps"</string>
     <string name="mute_media_sound_title">Demp media in de Stille modus</string>
@@ -6471,6 +6542,7 @@ Selecteer uw besturingssysteem:"</string>
     <string name="near_loclscreen_summary">Het scherm licht automatisch op wanneer u in de buurt van uw apparaat komt. Meldingen worden verborgen.</string>
     <string name="near_loclscreen_title">Scherm wordt geactiveerd bij terugkeer</string>
     <string name="nearby_wifi">Beschikbare netwerken</string>
+    <string name="nearby_wifi_refresh">Vernieuwen</string>
     <string name="need_reboot_now">Start opnieuw op om de update te installeren.</string>
     <string name="net_slicing_switch_summary">Gebruik multiplexing van netwerken op dezelfde infrastructuur voor debugging (beschikbaar indien aangeboden door uw provider)</string>
     <string name="net_slicing_switch_title">5G slicing</string>
@@ -6742,7 +6814,9 @@ Deze app vervangt %2$s als standaard betaal-app."</string>
     <string name="notification_alert_title">Standaard</string>
     <string name="notification_animation_style">Speciale effecten</string>
     <string name="notification_app_permissions">Notificatietoestemmingen</string>
+    <string name="notification_app_summary">Andere apps</string>
     <string name="notification_app_switch_label">Alle meldingen van %1$s</string>
+    <string name="notification_app_title">Meldingen</string>
     <string name="notification_assistant_security_warning_summary">"In Android 12 hebben verbeterde meldingen aanpasbare Android-meldingen vervangen. Deze functie toont voorgestelde acties en antwoorden, en ordent je meldingen. 
 
 Verbeterde meldingen hebben toegang tot meldingsinhoud, waaronder persoonlijke informatie zoals contactnamen en berichten. Deze functie kan ook meldingen sluiten of erop reageren, zoals telefoongesprekken aannemen, en Niet storen beheren."</string>
@@ -6953,7 +7027,7 @@ Algemene voorwaarden op %s"</string>
     <string name="ota_disable_automatic_update_summary">Pas updates toe wanneer apparaat opnieuw wordt opgestart</string>
     <string name="otg_button">OTG</string>
     <string name="otg_closed">Uit</string>
-    <string name="otg_new_tip">Schakel OTG in om uw apparaat via USB rechtstreeks op andere apparaten aan te sluiten. Deze functie wordt automatisch uitgeschakeld na %d minuten inactiviteit.</string>
+    <string name="otg_new_tip">Met deze functie kunt u verbinding maken met en stroom leveren aan Type-C-apparaten. Als aangesloten oortelefoons, USB-drives of andere apparaten niet worden herkend, schakelt u de OTG-schakelaar in. Deze schakelt automatisch uit na %d minuten inactiviteit.</string>
     <string name="otg_opened">Aan</string>
     <string name="otg_settings">OTG</string>
     <string name="otg_tip">"Met USB On-The-Go kunnen USB-apparaten en draagbare toetsenborden verbinding maken met uw mobiele apparaat en gegevens uitwisselen.
@@ -6990,6 +7064,7 @@ OTG wordt na 10 minuten inactiviteit automatisch uitgeschakeld."</string>
     <string name="packages_subtitle">Bijgeleverde pakketten</string>
     <string name="pad_add_fingerprint_finish_message">Ga door om toegang te krijgen tot aanvullende instellingen.</string>
     <string name="pad_add_fingerprint_message">Plaats uw vinger op de Aan/uit-knop</string>
+    <string name="pad_application_mode_name">Horizontale app-lay-out</string>
     <string name="page_agnostic_16k_pages_text">Je zit in de 16 KB-modus van de niet-paginagebonden modus. In deze modus kan de software-integriteit niet worden gegarandeerd en kunnen alle gegevens die op de telefoon zijn opgeslagen terwijl de bootloader is ontgrendeld, gevaar lopen. Sommige functies worden in deze modi uitgezet, dus sommige apps werken misschien niet. Als je wilt terugkeren naar de productiemodus, moet je teruggaan naar de 4 KB-modus en daarna de bootloader van het apparaat vergrendelen. Hierdoor worden de fabrieksinstellingen teruggezet en worden de productie-instellingen hersteld op het apparaat. Nadat het apparaat succesvol is opgestart in Android, zet je OEM-ontgrendeling uit in de Ontwikkelaarsopties. Als het apparaat niet opstart in Android of instabiel is, flash het apparaat dan opnieuw met de nieuwste fabrieksimages van &lt;a href=\"https://developers.google.com/android/images\">https://developers.google.com/android/images&lt;/a> of gebruik &lt;a href=\"https://flash.android.com/back-to-public\">https://flash.android.com/back-to-public&lt;/a> en selecteer Apparaat wissen, Bootloader vergrendelen en Alle partities geforceerd flashen.</string>
     <string name="page_agnostic_16k_pages_text_short">Je zit in de 16 KB-modus van de niet-paginagebonden modus. In deze modus kan de software-integriteit niet worden gegarandeerd. Ook kunnen alle gegevens die op de telefoon zijn opgeslagen terwijl de bootloader is ontgrendeld gevaar lopen. Sommige functies worden in deze modi uitgezet, dus sommige apps werken misschien niet. Als je wilt terugkeren naar de productiemodus, moet je teruggaan naar de 4 KB-modus en daarna de bootloader van het apparaat vergrendelen. Tik om meer te lezen.</string>
     <string name="page_agnostic_16k_pages_title">Niet-paginagebonden modus van 16 KB gebruiken</string>
@@ -7904,6 +7979,7 @@ Alle apps in je gedeelte en hun gegevens worden ook definitief verwijderd uit de
     <string name="rhythmic_mode_enable_title">Cyclus</string>
     <string name="right_edge">Rechterrand</string>
     <string name="right_function_key">Rechter snelkoppeling</string>
+    <string name="right_hearing_aid">Rechter gehoorapparaat</string>
     <string name="right_shoulder_key">Rechts</string>
     <string name="ring_to_you">Aangepaste beltoon</string>
     <string name="ring_to_you_info">Stel een aangepaste toon in die andere mensen horen voordat u opneemt</string>
@@ -7985,6 +8061,7 @@ Het kan even duren voordat accountwijzigingen in Instellingen worden getoond. Ne
     <string name="saved_network">"Opgeslagen door '%1$s'"</string>
     <string name="saved_wifi">Opgeslagen netwerken beheren</string>
     <string name="saved_wifi_delete">Verwijderen</string>
+    <string name="scanner_app_name">Scanner</string>
     <string name="scanning_status_text_off">Uit</string>
     <string name="scanning_status_text_on">Aan</string>
     <string name="scanning_status_text_wifi_off_ble_off">Zowel Wifi- als Bluetooth-scannen zijn uitgeschakeld</string>
@@ -8327,6 +8404,8 @@ Zo zet je apps vast: \u0009
     <string name="search_ntts_settings_title">TTS;TTS instellingen</string>
     <string name="search_oldman_mode_entry_name">Lite-modus;Oldman-modus;Litemodus</string>
     <string name="search_onekey_migrate">Overzetten;Mi Mover;Oude telefoon;Nieuwe telefoon;Bestanden overzetten</string>
+    <string name="search_otg_button">hoofdtelefoons;hoofdtelefoon;oortelefoons;oortelefoon;oordoppen;oordop;headset;knoppen</string>
+    <string name="search_otg_settings">hoofdtelefoons;hoofdtelefoon;oortelefoons;oortelefoon;oordoppen;oordop;headset;knoppen</string>
     <string name="search_other_advanced_settings">Aanvullende instellingen;Meer instellingen</string>
     <string name="search_other_settings_sync_settings">Synchroniseren;Automatisch;Alleen via wifi</string>
     <string name="search_owner_info_settings_title">Eigenaarsgegevens</string>
@@ -8789,6 +8868,7 @@ Beweeg je vinger een beetje na elke trilling. Zo kan er meer van je vingerafdruk
     <string name="select_webview_provider_title">WebView-implementatie</string>
     <string name="select_webview_provider_toast_text">Deze keuze is niet meer geldig. Probeer het opnieuw.</string>
     <string name="selected">Geselecteerd</string>
+    <string name="selected_app_title">Geselecteerde apps</string>
     <string name="selective_stay_awake_summary">Het scherm aan de voorkant gaat aan voor apps die voorkomen dat je scherm inactief wordt</string>
     <string name="selective_stay_awake_title">"Alleen games, video's en meer"</string>
     <string name="send">Verzenden</string>
@@ -8807,6 +8887,7 @@ Beweeg je vinger een beetje na elke trilling. Zo kan er meer van je vingerafdruk
     <string name="service_started_by_app">Gestart door app.</string>
     <string name="service_stop">Stoppen</string>
     <string name="service_stop_description">Deze service is door de app opgestart. Stoppen kan fouten veroorzaken.</string>
+    <string name="service_support">Ondersteuning</string>
     <string name="services_subtitle">Services</string>
     <string name="set_data_limit">Datalimiet instellen</string>
     <string name="set_data_warning">Datawaarschuwing instellen</string>
@@ -9100,10 +9181,12 @@ Tik op de Home-knop om terug te gaan.
 Dubbeltik om Recent te openen."</string>
     <string name="single_press_AI_button">Druk op de AI-knop</string>
     <string name="size_byte">B</string>
+    <string name="size_compat">Midden</string>
     <string name="size_compat1">%1$d:%2$d</string>
     <string name="size_compat2">%1$d:%2$d</string>
     <string name="size_embedded">Parallelle vensters</string>
     <string name="size_full">Volledig scherm</string>
+    <string name="size_fullscreen">Volledig scherm</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
@@ -9200,6 +9283,8 @@ Dubbeltik om Recent te openen."</string>
     <string name="solid_text">Gebruikt laagfrequente tactiele feedback en bijbehorende visuele overgangen om een solide, krachtige bewegingservaring te creëren</string>
     <string name="sometimes_running">Soms actief (%s)</string>
     <string name="sort_avg_use">Sorteren op gem. gebruik</string>
+    <string name="sort_by_frequency">Sorteren op frequentie</string>
+    <string name="sort_by_time">Sorteren op tijd</string>
     <string name="sort_max_use">Sorteren op max. gebruik</string>
     <string name="sort_order_alpha">Sorteren op naam</string>
     <string name="sort_order_frequent_notification">Vaakst</string>
@@ -9283,6 +9368,7 @@ Voordat u onze services gebruikt, lees en ga akkoord met ons %s."</string>
     <string name="spatial_summary_off">Uit</string>
     <string name="spatial_summary_on_one">Aan: %1$s</string>
     <string name="spatial_summary_on_two">Aan: %1$s en %2$s</string>
+    <string name="speaker_clean">Speaker schoonmaken</string>
     <string name="special_access">Speciale toestemmingen</string>
     <string name="special_access_more">Meer tonen</string>
     <string name="special_preview">"Demo's"</string>
@@ -9684,10 +9770,12 @@ Probeer het met een snellere ^3 of gebruik deze ^4 voor draagbare opslag."</stri
     <string name="sunday_first_day_of_week">Zondag</string>
     <string name="sunday_short">Zo</string>
     <string name="sunday_shortest">Zon</string>
-    <string name="sunlight_low_power_notification">Kan Zonlichtmodus niet inschakelen. Batterij is te laag.</string>
+    <string name="sunlight_low_power_notification">Kan Zonlichtmodus niet inschakelen als het batterijniveau of de temperatuur te laag is</string>
     <string name="sunlight_mode">Zonlichtmodus</string>
     <string name="sunlight_mode_boost_summary">Breid het helderheidsbereik uit en pas de helderheid automatisch aan onder heldere omstandigheden. Deze functie zorgt ervoor dat uw apparaat warmer wordt en meer stroom verbruikt.</string>
     <string name="sunlight_mode_summary">Pas de helderheid aan op sterk omgevingslicht om te voorkomen dat het scherm te donker wordt</string>
+    <string name="super_voice_assist">Super Mi AI</string>
+    <string name="super_volume_tip">Maximaal volume %s</string>
     <string name="supl_not_set">&lt;Niet ingesteld></string>
     <string name="support_summary">Help-artikelen, telefoon en chat</string>
     <string name="sure_sync_now">Items nu synchroniseren?</string>
@@ -9760,6 +9848,7 @@ Probeer het met een snellere ^3 of gebruik deze ^4 voor draagbare opslag."</stri
     <string name="system_language">Systeemtalen</string>
     <string name="system_navigation_title">Navigatiemodus</string>
     <string name="system_package">Systeemupdates kunnen niet worden geïnstalleerd op externe media.</string>
+    <string name="system_personalize_title">Personalisatie</string>
     <string name="system_print_service_help">Over printen</string>
     <string name="system_shortcut_wake">Wekken met sneltoetsen voor knoppen</string>
     <string name="system_sound_effect_settings">Systeemgeluiden</string>
@@ -10164,6 +10253,7 @@ Als dit aanstaat, kan dit apparaat deelnemen aan een Thread-netwerk, zodat je vi
     <string name="tx_wifi_speed">Linksnelheid voor sturen</string>
     <string name="ucar_screen_projection_title">CarWith</string>
     <string name="unadapt_embedded">Parallelle vensters zijn niet beschikbaar</string>
+    <string name="unchecked_app_title">Lichteffecten uit</string>
     <string name="under_keyguard">Scherm uitgeschakeld</string>
     <string name="unimportant">Onbelangrijk</string>
     <string name="uninstall_all_users_text">Verwijderen voor alle gebruikers</string>
@@ -10674,6 +10764,7 @@ Druk op de plus om woorden toe te voegen."</string>
     <string name="vision_settings_title">Visuele instellingen</string>
     <string name="voice_access">Spraakbediening</string>
     <string name="voice_assist">Mi AI</string>
+    <string name="voice_assist_summary">Uw persoonlijke slimme assistent</string>
     <string name="voice_assist_volume_option_title">@string/voice_assist</string>
     <string name="voice_category">Spraak</string>
     <string name="voice_helper_title">Spraakassistent</string>
@@ -10716,6 +10807,8 @@ Tijdens een audiogesprek kun je internet niet gebruiken en werken bepaalde apps 
     <string name="vpn_always_on_summary">Continu verbonden blijven met VPN</string>
     <string name="vpn_always_on_summary_active">Altijd aan</string>
     <string name="vpn_always_on_summary_not_supported">Niet ondersteund door deze app</string>
+    <string name="vpn_build_about">Over</string>
+    <string name="vpn_build_version">Versie %1$s</string>
     <string name="vpn_cancel">Annuleren</string>
     <string name="vpn_cant_connect_message">Deze app biedt geen ondersteuning voor Always-on VPN</string>
     <string name="vpn_cant_connect_title">%1$s kan geen verbinding maken</string>
@@ -11348,6 +11441,7 @@ kunt u ook netwerken van andere gebruikers gebruiken."</string>
     <string name="wifi_share_login_summary">Als dit een openbaar netwerk is, kunt u deze met andere Xiaomi-gebruikers delen.</string>
     <string name="wifi_share_notification_summary">U bent verbonden met een openbaar wifi-netwerk.</string>
     <string name="wifi_share_other_network">Andere netwerken</string>
+    <string name="wifi_share_plain_password_text">Wachtwoord: %s</string>
     <string name="wifi_share_qrcode_finish">Voltooid</string>
     <string name="wifi_share_qrcode_summary">Scan de QR-code hierboven om te delen.</string>
     <string name="wifi_share_qrcode_title">Wifi-netwerk delen</string>
@@ -11548,6 +11642,8 @@ kunt u ook netwerken van andere gebruikers gebruiken."</string>
     <string name="wireless_networks_settings_title">Draadloos en netwerken</string>
     <string name="wireless_off">Uit</string>
     <string name="wireless_on">Aan</string>
+    <string name="wireless_secondary_display">Draadloos scherm-uitbreiding</string>
+    <string name="wireless_secondary_display_description">Gebruik uw tablet als een draadloos scherm-uitbreiding voor een computer in de buurt</string>
     <string name="wizard_back">Terug</string>
     <string name="wizard_back_adoptable">Op een andere manier formatteren</string>
     <string name="wizard_next">Volgende</string>
@@ -11591,6 +11687,7 @@ kunt u ook netwerken van andere gebruikers gebruiken."</string>
     <string name="wrong_pin_code">{count,plural, =1{Onjuiste pincode voor simkaart. Je hebt nog # poging over voordat je contact met je provider moet opnemen om je apparaat te laten ontgrendelen.}other{Onjuiste pincode voor simkaart. Je hebt nog # pogingen over.}}</string>
     <string name="wrong_pin_code_one">Onjuiste pincode voor simkaart. Je hebt nog één poging over voordat je contact met je provider moet opnemen om je apparaat te ontgrendelen.</string>
     <string name="wrong_pin_code_pukked">Onjuiste pincode voor simkaart. Je moet nu contact opnemen met je provider om je apparaat te ontgrendelen.</string>
+    <string name="xiao_mi_hyperos_ai">Xiaomi HyperAI</string>
     <string name="xiaoai_global_shortcut">Algemeen</string>
     <string name="xiaoai_key_shortcut">Knoppen</string>
     <string name="xiaoai_other_shortcut">Andere methodes</string>

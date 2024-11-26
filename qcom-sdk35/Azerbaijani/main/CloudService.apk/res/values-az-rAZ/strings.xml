@@ -129,6 +129,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Təhlükəsizlik keçid açarını yenilə</string>
     <string name="e2ee_device_delete">Cihazı çıxar</string>
     <string name="e2ee_device_delete_tip">Bu cihazı Xiaomi Hesabından sildikdən sonra o çıxacaq və o hesaba yenidən giriş etməyənə qədər Xiaomi Cloud xidmətləri, axtarış və digər hesabla bağlı funksiyalardan istifadə edə bilməyəcəksən.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Bu cihaz Qabaqcıl məlumat müdafiəsini dəstəkləmir, bu funksiyanı aktiv etsən hesabına daxil ola bilməyəcəksən. Hesabına daxil ola bilmək üçün bu cihazı Xiaomi HyperOS-a yenilə.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Daxil ola bilmir</string>
     <string name="e2ee_device_exit_failed_tip">Çıxış oluna bilmədi. Bir və ya iki dəqiqə gözləyin və yenidən cəhd edin.</string>
     <string name="e2ee_device_exit_failed_toast">Çıxış oluna bilmədi. Bir və ya iki dəqiqə gözləyin və yenidən cəhd edin.</string>
     <string name="e2ee_device_exit_tip">%s sistemdən çıxış etdi</string>
@@ -152,6 +154,7 @@
     <string name="e2ee_error_global_account">Bu funksiya sizin bölgədə dəstəklənmir.</string>
     <string name="e2ee_error_init">Başladıla bilmədi. Bir-iki dəqiqə gözləyin və yenidən cəhd edin.</string>
     <string name="e2ee_error_network">Şəbəkəyə qoşula bilmədi. Şəbəkə tənzimləmələrini yoxlayın və yenidən cəhd edin.</string>
+    <string name="e2ee_error_real_device">Bu ətraf mühit təhlükəsiz deyil. Başqa cihazdan istifadə etməyə çalış.</string>
     <string name="e2ee_exit_account_button_close">Söndür</string>
     <string name="e2ee_exit_account_button_exit">Çıxış et</string>
     <string name="e2ee_exit_account_subtitle">Xiaomi Hesabınızla əlaqəli son qoşulmuş cihazdan çıxmaq üzrəsiniz. Yenidən daxil olmaq və buludda saxlanılan datanıza daxil olmaq üçün ekran kilidi və ya təhlükəsizlik açarından istifadə etməlisiniz. Alternativ olaraq, Qabaqcıl məlumatların qorunmasını söndürmək üçün aşağıda \"Söndür\" seçiminə klikləyin.</string>
@@ -457,7 +460,7 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="micloud_last_sync_canceled">Sinxronlaşdırma ləğv edildi. Yenidən cəhd edin.</string>
     <string name="micloud_main_head_menu_cloud_backup">Yedəkləmələr</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Cihaz tapma İkinci sahədə istifadə edilə bilmir. Bu xüsusiyyəti Birinci sahədə istifadə edə bilərsiniz.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Elementləri sil</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Son silinən elementlər</string>
     <string name="micloud_main_network_error">Şəbəkəyə qoşula bilmir</string>
     <string name="micloud_main_sync_mode_summary">Tətbiq məlumatını gerçək vaxtda sinxronlaşdır. Bu xüsusiyyət açıq olduqda enerji sərfiyyatı artar.</string>
     <string name="micloud_main_sync_mode_title">Cəld sinxronlaşdırma</string>
@@ -698,6 +701,7 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="other_lockscreen_forget_pin_dialog_title">Ekran kilidini unutmuşam</string>
     <string name="other_lockscreen_sub_title">Doğrulamanı başa çatdırmaq üçün bu cihazın ekran kilidini daxil edin</string>
     <string name="other_lockscreen_title">%s ekran kilidini daxil et</string>
+    <string name="other_lockscreen_update_password_error_hint">Ekran kilidini bu yaxınlarda dəyişmisən? Təsdiq üçün köhnə Ekran kilidini daxil etməyə çalış.</string>
     <string name="pay_info_dialog_confirm_to_pay">%s ödə</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Qalan Mi Sikkələri: %s</string>
     <string name="pay_info_dialog_title">Ödəniş üsulu seçin</string>
@@ -779,6 +783,10 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="recommend_service_cloudservice_description">Sistem tətbiqi məlumatlarını sinxronlaşdırın, tənzimləmələri yedəkləyin, Əsas ekran düzülüşü və s</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Tövsiyə edilən xidmətlər</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud sixronlaşdırılmayan elementləri və onların sayını müəyyən etmək üçün cihazında saxlanmış elementlərə giriş üçün İcazə istəyir. İcazə indi verilsin?</string>
+    <string name="request_os_permissions_dialog_neg_button">Razı deyiləm</string>
+    <string name="request_os_permissions_dialog_pos_button">Razıyam</string>
+    <string name="request_os_permissions_dialog_title">İcazələr tələb edilir</string>
     <string name="retain_data_high_quality_photo_waring_message">Çıxış etdikdən sonra şəkil və videolarınızın yüksək keyfiyyətli nüsxələri Qalereyadan silinəcəkdir. Müvafiq orijinal fayllar hələ də cloud-da saxlanılacaq. Çıxmadan əvvəl orijinal faylları da yükləyə bilərsiniz.</string>
     <string name="retain_data_high_quality_photo_waring_title">Yüksək keyfiyyətli şəkillər mövcud olmayacaq</string>
     <string name="revoke_block_by_find_device">Razılığın geri çəkilməsi, Cihazı tap funksiyasını da söndürəcək. Davam etdikdən sonra şifrənizi təsdiq etməlisiniz.</string>
@@ -1002,7 +1010,7 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="tuesday">Çərşənbə axşamı</string>
     <string name="tuesday_short">Ç.a.</string>
     <string name="tuesday_shortest">Ç.a.</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Naməlum</string>
     <string name="update_dialog_check_button_text">Yeniləmələri yoxla</string>
     <string name="update_dialog_ignore_button_text">Xeyr, təşəkkürlər</string>
     <string name="update_dialog_no_internet_toast_text">İnternet əlaqəsini yoxlayın və yenidən cəhd edin</string>
@@ -1016,6 +1024,8 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
 "</string>
     <string name="user_agreement_title">Xiaomi Cloud-un Xidmət Şərtləri</string>
     <string name="verify_camera_error_toast">Keçid açarını tanıya bilmədi</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud-a sənin təhlükəsizlik açarını skan etmək üçün kamera İcazələri lazımdır. Bu icazəni Tənzimləmələrdə verə bilərsən.</string>
+    <string name="verify_camera_google_permission_positive_button">Anladım</string>
     <string name="verify_camera_permission_message">Təhlükəsizlik keçid açarı üçün skan edə bilməsi üçün bu tətbiqə kameraya daxil olmağa icazə ver. Bu icazəni Tənzimləmərdə verə bilərsən.</string>
     <string name="verify_camera_permission_negative_button">Ləğv et</string>
     <string name="verify_camera_permission_positive_button">Tənzimləmələr</string>
@@ -1036,7 +1046,7 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="verify_code_warning_toast_limit">Təsdiqləmə cəhdi qalmadı</string>
     <string name="verify_dialog_message">Yeni təsdiqləmə kodu göndər və ya digər bərpa üsulu seç</string>
     <string name="verify_dialog_negative_btn">Ləğv et</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Digər cihazda Qabaqcıl məlumat müdafiəsini aktiv etmisən. Xiaomi Cloud-da saxlanan məlumatına daxil ola bilmək üçün ekran kilidi təyin et.</string>
     <string name="verify_dialog_point">Doğrulama kodunu heç kimlə paylaşma</string>
     <string name="verify_dialog_point_choose_method">Başqa bir təsdiqləmə üsulu seç</string>
     <string name="verify_dialog_point_device_password">Digər cihazın ekran kilidini daxil et</string>
@@ -1058,7 +1068,7 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="verify_scan_error_not_support_toast">Bu cihaz skanı dəstəkləmir</string>
     <string name="verify_scan_input_textview">Əl ilə daxil et</string>
     <string name="verify_scan_photo_textview">Skan et</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Fokuslamaq üçün mərkəzə toxunun</string>
     <string name="verify_scan_point_text_view">Aşağıdakı qutuya %d rəqəmli keçid açarını daxil et</string>
     <string name="verify_scan_title">Təhlükəsizlik keçid açarını təsdiqlə</string>
     <string name="verify_send_code_btn">Kod göndər</string>
@@ -1078,6 +1088,8 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="verify_warning_dialog_title">Digər cihaz başdan sona şifrələməni aktiv edib</string>
     <string name="verify_warning_dialog_title_pc">İcazələr tələb edilir</string>
     <string name="verify_warning_dialog_title_web">İcazələr tələb edilir</string>
+    <string name="verify_warning_verify_dialog_message">%s təsdiqləmə kodunu daxil et</string>
+    <string name="verify_warning_verify_dialog_title">Xiaomi Hesabınızı təsdiqləyin</string>
     <string name="waiting_for_sync">Gözləyir…</string>
     <string name="web_view_auto_login_fail">Daxil ola bilmədiniz. Yenidən cəhd edin.</string>
     <string name="web_view_login_text">Daxil olunur…</string>

@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Päivitä suojausavainta</string>
     <string name="e2ee_device_delete">Poista laite</string>
     <string name="e2ee_device_delete_tip">Kun poistat tämän laitteen Xiaomi-tililtäsi, se kirjataan ulos etkä voi käyttää Xiaomi Cloud -palveluita, hakua ja muita tiliin liittyviä ominaisuuksia sillä ennen kuin kirjaudut sisään uudelleen.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Tämä laite ei tue lisätietosuojausta, joten et voi kirjautua tilillesi, jos otat tämän ominaisuuden käyttöön. Päivitä tämä laite Xiaomi HyperOS 2:ksi, jotta voit kirjautua tilillesi.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Kirjautuminen epäonnistui</string>
     <string name="e2ee_device_exit_failed_tip">Uloskirjautuminen epäonnistui. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="e2ee_device_exit_failed_toast">Uloskirjautuminen epäonnistui. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="e2ee_device_exit_tip">%s on kirjautunut ulos</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Tätä ominaisuutta ei tueta alueellasi.</string>
     <string name="e2ee_error_init">Alustus epäonnistui. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="e2ee_error_network">Ei voitu yhdistää verkkoon. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
+    <string name="e2ee_error_real_device">Tämä ympäristö ei ole turvallinen. Kokeile käyttää toista laitetta.</string>
     <string name="e2ee_exit_account_button_close">Poista käytöstä</string>
     <string name="e2ee_exit_account_button_exit">Kirjaudu ulos</string>
     <string name="e2ee_exit_account_subtitle">Olet kirjautumassa ulos viimeisimmästä Xiaomi-tiliisi yhdistetystä laitteesta. Sinun on käytettävä näytön lukitusta tai suojausavainta, jotta voit kirjautua uudelleen sisään ja käyttää pilveen tallennettuja tietojasi. Vaihtoehtoisesti voit poistaa lisätietosuojauksen käytöstä napauttamalla alta \"Poista käytöstä\".</string>
@@ -504,7 +507,7 @@ Voit myös anonyymisti auttaa muita löytämään Xiaomi-laitteensa."</string>
     <string name="micloud_last_sync_canceled">Synkronointi peruutettiin. Yritä uudelleen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Varmuuskopiot</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Etsi laite -toimintoa ei voida käyttää toisessa tilassa. Voit käyttää sitä ensimmäisessä tilassa.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Poistetut kohteet</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Äskettäin poistetut kohteet</string>
     <string name="micloud_main_network_error">Ei voi yhdistää verkkoon</string>
     <string name="micloud_main_sync_mode_summary">Synkronoi sovellustietoja reaaliajassa. Virrankulutus kasvaa, kun tämä ominaisuus on käytössä.</string>
     <string name="micloud_main_sync_mode_title">Pikasynkronointi</string>
@@ -746,6 +749,7 @@ Varmista, että käytät siihen liittyvää Xiaomi-tiliä järjestelmätilinä."
     <string name="other_lockscreen_forget_pin_dialog_title">Unohtunut näytön lukitus</string>
     <string name="other_lockscreen_sub_title">Viimeistele vahvistus antamalla tämän laitteen näytön lukitus</string>
     <string name="other_lockscreen_title">Anna käyttäjän %s näytön lukitus</string>
+    <string name="other_lockscreen_update_password_error_hint">Vaihdoitko näytönlukitusta äskettäin? Yritä syöttää vanha näytönlukitus vahvistusta varten.</string>
     <string name="pay_info_dialog_confirm_to_pay">Maksa %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Käytä jäljellä olevat Mi-kolikot: %s</string>
     <string name="pay_info_dialog_title">Valitse maksutapa</string>
@@ -828,6 +832,10 @@ Sijaintitietoja ei ehkä ilmoiteta, kun verkkoyhteys on heikko."</string>
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud tarvitsee luvan käyttää laitteellesi tallennettuja kohteita voidakseen tunnistaa synkronoimattomat kohteet ja niiden määrän. Myönnetäänkö tämä lupa nyt?</string>
+    <string name="request_os_permissions_dialog_neg_button">Älä hyväksy</string>
+    <string name="request_os_permissions_dialog_pos_button">Hyväksy</string>
+    <string name="request_os_permissions_dialog_title">Käyttöoikeuksia vaaditaan</string>
     <string name="retain_data_high_quality_photo_waring_message">Laadukkaat kopiot valokuvistasi ja videoistasi poistetaan Galleriasta, kun olet kirjautunut ulos. Vastaavat alkuperäiset tiedostot tallennetaan edelleen pilveen. Voit myös ladata alkuperäiset tiedostot ennen uloskirjautumista.</string>
     <string name="retain_data_high_quality_photo_waring_title">Laadukkaita kuvia ei ole saatavilla</string>
     <string name="revoke_block_by_find_device">Suostumuksen peruuttaminen sammuttaa myös Etsi laitteen. Sinun on vahvistettava salasanasi, kun jatkat.</string>
@@ -1054,7 +1062,7 @@ Sijaintitietoja ei ehkä ilmoiteta, kun verkkoyhteys on heikko."</string>
     <string name="tuesday">Tiistai</string>
     <string name="tuesday_short">Ti</string>
     <string name="tuesday_shortest">Ti</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Tuntematon</string>
     <string name="update_dialog_check_button_text">Tarkista päivitykset</string>
     <string name="update_dialog_ignore_button_text">Ei kiitos</string>
     <string name="update_dialog_no_internet_toast_text">Tarkista internet-yhteytesi ja yritä uudelleen</string>
@@ -1070,6 +1078,8 @@ Sijaintitietoja ei ehkä ilmoiteta, kun verkkoyhteys on heikko."</string>
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="verify_camera_error_toast">Salasanaa ei voitu tunnistaa</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud tarvitsee kameran käyttöoikeudet voidakseen skannata suojausavaimesi. Voit myöntää tämän luvan asetuksista.</string>
+    <string name="verify_camera_google_permission_positive_button">Selvä</string>
     <string name="verify_camera_permission_message">Salli tämän sovelluksen käyttää kameraa, jotta se voi skannata suojausavaimesi. Voit myöntää tämän luvan asetuksista.</string>
     <string name="verify_camera_permission_negative_button">Peruuta</string>
     <string name="verify_camera_permission_positive_button">Asetukset</string>
@@ -1090,7 +1100,7 @@ Sijaintitietoja ei ehkä ilmoiteta, kun verkkoyhteys on heikko."</string>
     <string name="verify_code_warning_toast_limit">Ei enää vahvistusyrityksiä jäljellä</string>
     <string name="verify_dialog_message">Lähetä uusi vahvistuskoodi tai valitse toinen palautustapa</string>
     <string name="verify_dialog_negative_btn">Peruuta</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Olet ottanut lisätietosuojauksen käyttöön toisella laitteella. Aseta näytönlukitus tälle laitteelle, jotta voit käyttää Xiaomi Cloudiin tallennettuja tietojasi.</string>
     <string name="verify_dialog_point">Älä jaa tätä vahvistuskoodia kenenkään kanssa</string>
     <string name="verify_dialog_point_choose_method">Valitse toinen vahvistustapa</string>
     <string name="verify_dialog_point_device_password">Anna toisen laitteen näytön lukitus</string>
@@ -1112,7 +1122,7 @@ Sijaintitietoja ei ehkä ilmoiteta, kun verkkoyhteys on heikko."</string>
     <string name="verify_scan_error_not_support_toast">Tämä laite ei tue skannausta</string>
     <string name="verify_scan_input_textview">Syötä manuaalisesti</string>
     <string name="verify_scan_photo_textview">Skannaa</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Tarkenna napauttamalla keskiosaa</string>
     <string name="verify_scan_point_text_view">Aseta %d-numeroinen salasana alla olevaan laatikkoon</string>
     <string name="verify_scan_title">Tarkista suojausavain</string>
     <string name="verify_send_code_btn">Lähetä koodi</string>
@@ -1132,6 +1142,8 @@ Sijaintitietoja ei ehkä ilmoiteta, kun verkkoyhteys on heikko."</string>
     <string name="verify_warning_dialog_title">Toinen laite otti päittäin salauksen käyttöön</string>
     <string name="verify_warning_dialog_title_pc">Käyttöoikeuksia vaaditaan</string>
     <string name="verify_warning_dialog_title_web">Käyttöoikeuksia vaaditaan</string>
+    <string name="verify_warning_verify_dialog_message">Kirjoita vahvistuskoodi kohteeseen %s</string>
+    <string name="verify_warning_verify_dialog_title">Vahvista Xiaomi-tili</string>
     <string name="waiting_for_sync">Odotetaan…</string>
     <string name="web_view_auto_login_fail">Ei voitu kirjautua. Yritä uudelleen.</string>
     <string name="web_view_login_text">Kirjaudutaan…</string>

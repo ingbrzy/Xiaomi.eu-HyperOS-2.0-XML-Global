@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Atualizar chave de acesso</string>
     <string name="e2ee_device_delete">Remover dispositivo</string>
     <string name="e2ee_device_delete_tip">Depois de remover este dispositivo da sua Conta Xiaomi, ele será encerrado e não poderá utilizar os serviços Xiaomi Cloud, a pesquisa e outras funcionalidades relacionadas com a conta até iniciar sessão novamente.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Este dispositivo não suporta a Proteção avançada de dados, por isso não será possível iniciar a sessão na sua conta se ligar esta funcionalidade. Atualize este dispositivo para o Xiaomi HyperOS 2 para iniciar a sessão na sua conta.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Não é possível iniciar a sessão</string>
     <string name="e2ee_device_exit_failed_tip">Não foi possível terminar a sessão. Espere um minuto ou dois e tente novamente.</string>
     <string name="e2ee_device_exit_failed_toast">Não foi possível terminar a sessão. Espere um minuto ou dois e tente novamente.</string>
     <string name="e2ee_device_exit_tip">%s não tem uma sessão iniciada</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Esta funcionalidade não é suportada na sua região.</string>
     <string name="e2ee_error_init">Não foi possível inicializar. Espere um minuto ou dois e tente novamente.</string>
     <string name="e2ee_error_network">Não foi possível ligar à rede. Verifique as suas definições de rede e tente novamente.</string>
+    <string name="e2ee_error_real_device">Este ambiente não é seguro. Tente utilizar outro dispositivo.</string>
     <string name="e2ee_exit_account_button_close">Desligar</string>
     <string name="e2ee_exit_account_button_exit">Terminar sessão</string>
     <string name="e2ee_exit_account_subtitle">Está prestes a terminar a sessão do último dispositivo atualmente ligado que está associado à sua Conta Xiaomi. Terá de utilizar um bloqueio de ecrã ou chave de acesso para iniciar a sessão novamente e aceder aos seus dados armazenados na nuvem. Como alternativa, toque em \"Desligar\" abaixo para desligar a Proteção avançada de dados.</string>
@@ -504,7 +507,7 @@ Também pode ajudar outros anonimamente a localizarem seus dispositivos Xiaomi."
     <string name="micloud_last_sync_canceled">A sincronização foi cancelada. Tente novamente.</string>
     <string name="micloud_main_head_menu_cloud_backup">Cópias de segurança</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Localizar dispositivo não está disponível no Segundo Espaço. Pode utilizá-lo no Primeiro Espaço.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Itens eliminados</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Itens eliminados recentemente</string>
     <string name="micloud_main_network_error">Não é possível ligar à rede</string>
     <string name="micloud_main_sync_mode_summary">Sincronizar dados das aplicações em tempo real. O consumo de energia irá aumentar quando esta funcionalidade estiver ligada.</string>
     <string name="micloud_main_sync_mode_title">Sincronização rápida</string>
@@ -746,6 +749,7 @@ Certifique-se de estar a utilizar a Conta Xiaomi associada como a sua conta do s
     <string name="other_lockscreen_forget_pin_dialog_title">Esqueci o bloqueio de ecrã</string>
     <string name="other_lockscreen_sub_title">Introduza o bloqueio de ecrã deste dispositivo para completar a verificação</string>
     <string name="other_lockscreen_title">Introduza o bloqueio de ecrã de %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Alterou o bloqueio de ecrã recentemente? Tente introduzir o bloqueio de ecrã antigo para verificação.</string>
     <string name="pay_info_dialog_confirm_to_pay">Pagar %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Utilizar Mi Coins restantes: %s</string>
     <string name="pay_info_dialog_title">Selecionar método de pagamento</string>
@@ -828,6 +832,10 @@ As informações de localização podem não ser reportadas quando a ligação d
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">A Xiaomi Cloud precisa de permissão para aceder aos itens guardados no seu dispositivo para identificar os itens não sincronizados e a sua quantidade. Conceder esta permissão agora?</string>
+    <string name="request_os_permissions_dialog_neg_button">Não aceitar</string>
+    <string name="request_os_permissions_dialog_pos_button">Aceitar</string>
+    <string name="request_os_permissions_dialog_title">Permissões necessárias</string>
     <string name="retain_data_high_quality_photo_waring_message">Cópias de alta qualidade de suas fotos e vídeos vão ser eliminadas da Galeria após terminar a sessão. Os ficheiros correspondentes originais ainda vão ser armazenados na nuvem. Também pode transferir os ficheiros originais antes de terminar a sessão</string>
     <string name="retain_data_high_quality_photo_waring_title">Imagens de alta qualidade não vão estar disponíveis</string>
     <string name="revoke_block_by_find_device">A retirada do consentimento também desligará o Localizar dispositivo. Terá que verificar a sua palavra-passe após continuar.</string>
@@ -1070,6 +1078,8 @@ As informações de localização podem não ser reportadas quando a ligação d
     <string name="v7_preference_off">DESATIVADO</string>
     <string name="v7_preference_on">ATIVADO</string>
     <string name="verify_camera_error_toast">Não foi possível reconhecer a chave-passe</string>
+    <string name="verify_camera_google_permission_message">A Xiaomi Cloud precisa de permissões de câmara para digitalizar a sua chave de segurança. Pode conceder esta permissão nas Definições.</string>
+    <string name="verify_camera_google_permission_positive_button">Percebi</string>
     <string name="verify_camera_permission_message">Permita que esta aplicação aceda à câmara para digitalizar a sua chave-passe de segurança. Pode conceder esta permissão nas Definições.</string>
     <string name="verify_camera_permission_negative_button">Cancelar</string>
     <string name="verify_camera_permission_positive_button">Definições</string>
@@ -1132,6 +1142,8 @@ As informações de localização podem não ser reportadas quando a ligação d
     <string name="verify_warning_dialog_title">Outro dispositivo ligou a encriptação ponta-a-ponta</string>
     <string name="verify_warning_dialog_title_pc">Permissões necessárias</string>
     <string name="verify_warning_dialog_title_web">Permissões necessárias</string>
+    <string name="verify_warning_verify_dialog_message">Introduza o código de verificação no %s</string>
+    <string name="verify_warning_verify_dialog_title">Verificar Conta Xiaomi</string>
     <string name="waiting_for_sync">A aguardar…</string>
     <string name="web_view_auto_login_fail">Não foi possível iniciar sessão. Tente outra vez.</string>
     <string name="web_view_login_text">A iniciar sessão…</string>

@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Oraşe populare</string>
     <string name="act_find_city_location_button_text">Obține locația</string>
     <string name="act_find_city_location_title">Locație curentă</string>
+    <string name="act_find_city_major_city_title">Locații populare</string>
+    <string name="act_find_city_search_history_title">Caută în istoric</string>
     <string name="act_location_error_to_find_city">Nu s-a putut obține informații despre locație. Puteți adăuga o locație manual.</string>
     <string name="act_set_city_find_side">Se localizează</string>
     <string name="act_set_city_find_side_error">Dispozitivul nu poate fi localizat</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Dioxid de sulf</string>
     <string name="aqi_station_best_quality_station">Cel mai bine în jur</string>
     <string name="aqi_station_min_distance_station">Cea mai apropiată stație</string>
-    <string name="aqi_title_pad">ICA: %1$s</string>
     <string name="aqi_top_pollution">Poluanți majori</string>
     <string name="background_location_dialog_authorize_button">Setări</string>
     <string name="background_location_guide_dialog_msg">Permiteți acestei aplicații să acceseze locația în timp ce rulează în fundal și selectați \"Permite întotdeauna\" pentru a vă asigura că primiți informații meteo actualizate.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">OK</string>
     <string name="button_confirm">De acord</string>
     <string name="button_exit">Nu sunt de acord</string>
+    <string name="button_manage">Gestionează</string>
     <string name="button_settings_cancel">Anulează</string>
     <string name="button_settings_confirm">Retrage</string>
     <string name="button_settings_confirm_to_revoke_msg">Prin dezactivarea comutatorului, vă retrageți consimțământul la Politica de confidențialitate de la Meteo. Vom înceta să colectăm informațiile dvs. personale. Informațiile cu caracter personal deja colectate și păstrate vor fi șterse în perioada specificată, așa cum este cerut de legile aplicabile. Meteo trebuie să colecteze informațiile personale necesare pentru a vă oferi servicii de bază. Retragerea dvs. de consimțământ pentru politica sa de confidențialitate va fi considerată ca refuzând să acceptați serviciile sale pe baza informațiilor personale colectate.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Verificați conexiunea la rețea și încercați din nou</string>
+    <string name="city_exceeded_tips">Nu se pot adăuga mai multe locații. Eliminați unele locații înainte de a adăuga una nouă.</string>
+    <string name="city_exceeded_tips_title">Nu se poate adăuga locația</string>
     <string name="city_exceeded_warning">Nu se poate adăuga mai multe orașe. Pentru a adăuga unul nou, ștergeți mai întâi un oraș care este deja pe listă.</string>
     <string name="clearable_edittext_clear_description">Șterge</string>
     <string name="close">Închide</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Nu s-a putut conecta la rețea, încercați din nou</string>
     <string name="content_desc_activity_main_add_city">Adaugă oraș</string>
     <string name="content_desc_activity_main_add_city_manage">Administrează oraşe</string>
+    <string name="content_desc_activity_main_already_add_city">Locații adăugate</string>
     <string name="content_desc_activity_main_more_settings">Mai multe setări</string>
     <string name="content_desc_activity_main_page">Pagina %1$d din %2$d</string>
     <string name="content_desc_back_button">Înapoi</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Șterge</string>
     <string name="miuix_appcompat_deselect_all">Deselectează tot</string>
     <string name="miuix_appcompat_deselect_all_description">Deselectează tot</string>
+    <string name="miuix_appcompat_edit">Editează</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Anulează</string>
     <string name="miuix_appcompat_search_input_description">Caută</string>
     <string name="miuix_appcompat_select_all">Selectează tot</string>
@@ -326,43 +332,43 @@
     <string name="monday">Luni</string>
     <string name="monday_short">Lun</string>
     <string name="monday_shortest">Lun</string>
-    <string name="month_april">Aprilie</string>
+    <string name="month_april">aprilie</string>
     <string name="month_april_short">Apr</string>
     <string name="month_april_shortest">Apr</string>
-    <string name="month_august">August</string>
+    <string name="month_august">august</string>
     <string name="month_august_short">Aug</string>
     <string name="month_august_shortest">Aug</string>
-    <string name="month_december">Decembrie</string>
+    <string name="month_december">decembrie</string>
     <string name="month_december_short">Dec</string>
     <string name="month_december_shortest">Dec</string>
-    <string name="month_february">Februarie</string>
+    <string name="month_february">februarie</string>
     <string name="month_february_short">Feb</string>
     <string name="month_february_shortest">Feb</string>
-    <string name="month_january">Ianuarie</string>
+    <string name="month_january">ianuarie</string>
     <string name="month_january_short">Ian</string>
     <string name="month_january_shortest">Ian</string>
-    <string name="month_july">Iulie</string>
+    <string name="month_july">iulie</string>
     <string name="month_july_short">Iul</string>
     <string name="month_july_shortest">Iul</string>
-    <string name="month_june">Iunie</string>
+    <string name="month_june">iunie</string>
     <string name="month_june_short">Iun</string>
     <string name="month_june_shortest">Iun</string>
-    <string name="month_march">Martie</string>
+    <string name="month_march">martie</string>
     <string name="month_march_short">Mar</string>
     <string name="month_march_shortest">Mar</string>
-    <string name="month_may">Mai</string>
+    <string name="month_may">mai</string>
     <string name="month_may_short">Mai</string>
     <string name="month_may_shortest">Mai</string>
-    <string name="month_november">Noiembrie</string>
+    <string name="month_november">noiembrie</string>
     <string name="month_november_short">Nov</string>
     <string name="month_november_shortest">Nov</string>
-    <string name="month_october">Octombrie</string>
+    <string name="month_october">octombrie</string>
     <string name="month_october_short">Oct</string>
     <string name="month_october_shortest">Oct</string>
-    <string name="month_september">Septembrie</string>
+    <string name="month_september">septembrie</string>
     <string name="month_september_short">Sep</string>
     <string name="month_september_shortest">Sep</string>
-    <string name="more">Mai mult</string>
+    <string name="more">Mai multe</string>
     <string name="more_details">Mai multe detalii</string>
     <string name="morning">Dimineaţa</string>
     <string name="network_unavailable">Nu se poate conecta la rețea.</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">ICA este %1$d în %2$s astăzi</string>
     <string name="notif_weather_title">%1$s în %2$s astăzi</string>
     <string name="other_settings">Alte setări</string>
-    <string name="pad_keyboard_add_city">Adaugă locații</string>
-    <string name="pad_keyboard_left_switch">Locația anterioară</string>
-    <string name="pad_keyboard_right_switch">Locația următoare</string>
-    <string name="pad_real_time_detail_title">Indici</string>
     <string name="particulate_matter_exceeded">Mare</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">Foarte mare</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Retragerea consimțământului</string>
     <string name="privacy_grant_success">A fost acordată autorizația cu succes</string>
     <string name="privacy_policy">Politica de confidențialitate</string>
-    <string name="privacy_policy_msg">&lt;Data>Această aplicație conține următoarele funcții:&lt;br/>• Informații despre vreme specifice locației dvs.&lt;br/>• Prognoză meteo&lt;br/>• Avertismente meteorologice&lt;br/>&lt;br/>Meteo trebuie să colecteze informațiile personale necesare pentru a vă oferi servicii de bază. Puteți afla cum gestionăm informațiile pe care le colectăm în &lt;a href=\"%1$s\">Politica de confidențialitate&lt;/a>. Citiți și acceptați &lt;a href=\"%2$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%3$s\">Politica de confidențialitate&lt;/a> Înainte de a utiliza Meteo. Puteți să vă retrageți consimțământul pentru Politica de confidențialitate de la Meteo în Setări în orice moment.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Această aplicație conține următoarele funcții:&lt;br/>• Informații despre vreme specifice locației dvs.&lt;br/>•Prognoza meteo&lt;br/>•Avertismente meteorologice&lt;br/>&lt;br/>Meteo trebuie să colecteze informațiile personale necesare, inclusiv date despre locație, pentru a face disponibile aceste funcții, chiar și atunci când aplicația este închisă sau nu este utilizată. Puteți afla cum gestionăm informațiile pe care le colectăm în &lt;a href=\"%1$s\">Politica de confidențialitate&lt;/a>. Citiți și acceptați &lt;a href=\"%2$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%3$s\">Politica de confidențialitate&lt;/a> înainte de a utiliza Meteo. Puteți să vă retrageți consimțământul pentru Politica de confidențialitate de la Meteo în Setări în orice moment.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Această aplicație conține următoarele funcții:&lt;br/>• Informații despre vreme specifice locației dvs.&lt;br/>• Prognoză meteo&lt;br/>• Avertismente meteorologice&lt;br/>&lt;br/>Meteo trebuie să colecteze informațiile personale necesare pentru a vă oferi servicii de bază. Puteți afla cum gestionăm informațiile pe care le colectăm în &lt;a href=\"%1$s\">Politica de confidențialitate&lt;/a>. Citiți și acceptați &lt;a href=\"%2$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%3$s\">Politica de confidențialitate&lt;/a> Înainte de a utiliza Meteo. Puteți să vă retrageți consimțământul pentru Politica de confidențialitate de la Meteo în Setări în orice moment.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Această aplicație conține următoarele funcții:&lt;br/>• Informații despre vreme specifice locației dvs.&lt;br/>•Prognoza meteo&lt;br/>•Avertismente meteorologice&lt;br/>&lt;br/>Meteo trebuie să colecteze informațiile personale necesare, inclusiv date despre locație, pentru a face disponibile aceste funcții, chiar și atunci când aplicația este închisă sau nu este utilizată. Puteți afla cum gestionăm informațiile pe care le colectăm în &lt;a href=\"%1$s\">Politica de confidențialitate&lt;/a>. Citiți și acceptați &lt;a href=\"%2$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%3$s\">Politica de confidențialitate&lt;/a> înainte de a utiliza Meteo. Puteți să vă retrageți consimțământul pentru Politica de confidențialitate de la Meteo în Setări în orice moment.</Data></string>
     <string name="privacy_revoke_success">Autorizația a fost revocată cu succes</string>
     <string name="privacy_settings">Politica de confidențialitate</string>
     <string name="pull_fresh_updated">Actualizat cu succes</string>

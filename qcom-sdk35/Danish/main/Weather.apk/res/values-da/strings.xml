@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Populære byer</string>
     <string name="act_find_city_location_button_text">Hent placering</string>
     <string name="act_find_city_location_title">Aktuel placering</string>
+    <string name="act_find_city_major_city_title">Populære placeringer</string>
+    <string name="act_find_city_search_history_title">Søgehistorik</string>
     <string name="act_location_error_to_find_city">Kunne ikke få placeringsoplysninger. Du kan tilføje en placering manuelt.</string>
     <string name="act_set_city_find_side">Finder</string>
     <string name="act_set_city_find_side_error">Kan ikke finde enheden</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Svovldioxid</string>
     <string name="aqi_station_best_quality_station">Bedste i nærheden</string>
     <string name="aqi_station_min_distance_station">Nærmeste station</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Større forureninger</string>
     <string name="background_location_dialog_authorize_button">Indstillinger</string>
     <string name="background_location_guide_dialog_msg">Tillad denne app at få adgang til placering, mens appen kører i baggrunden, og vælg \"Tillad altid\" for at sikre, at du modtager opdaterede vejroplysninger.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">OK</string>
     <string name="button_confirm">Godkend</string>
     <string name="button_exit">Er ikke enig</string>
+    <string name="button_manage">Administrer</string>
     <string name="button_settings_cancel">Annuller</string>
     <string name="button_settings_confirm">Tilbagetræk</string>
     <string name="button_settings_confirm_to_revoke_msg">Ved at slå knappen fra for at tilbagetrække dit samtykke til fortrolighedspolitikken for Vejret. Vi vil ophøre med at indsamle dine personlige oplysninger. De personlige oplysninger, som vi allerede har indsamlet og gemt, vil blive slettet inden for den specifikke periode, som loven foreskriver. Vejret skal indsamle nødvendige personlige oplysninger for at kunne tilbyde dig grundlæggende tjenester. Din tilbagetrækning af samtykke til denne fortrolighedspolitik betragtes som en afvisning af deres tjenester baseret på indsamlede personlige oplysninger.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Kontroller din netværksforbindelse og prøv igen</string>
+    <string name="city_exceeded_tips">Kan ikke tilføje flere placering. Fjern placeringer, før du kan tilføje en ny.</string>
+    <string name="city_exceeded_tips_title">Kan ikke tilføje placering</string>
     <string name="city_exceeded_warning">Kan ikke tilføje flere byer. For tilføje en ny by, skal du først slette en by, der allerede er på listen.</string>
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="close">Luk</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Kunne ikke oprette forbindelse til netværket, prøv igen</string>
     <string name="content_desc_activity_main_add_city">Tilføj by</string>
     <string name="content_desc_activity_main_add_city_manage">Administrer byer</string>
+    <string name="content_desc_activity_main_already_add_city">Tilføjede placeringer</string>
     <string name="content_desc_activity_main_more_settings">Flere indstillinger</string>
     <string name="content_desc_activity_main_page">Side %1$d af %2$d</string>
     <string name="content_desc_back_button">Tilbage</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Slet</string>
     <string name="miuix_appcompat_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_deselect_all_description">Fravælg alt</string>
+    <string name="miuix_appcompat_edit">Redigér</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Annuller</string>
     <string name="miuix_appcompat_search_input_description">Søg</string>
     <string name="miuix_appcompat_select_all">Vælg alle</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">AQI er %1$d i %2$s i dag</string>
     <string name="notif_weather_title">%1$s i %2$s i dag</string>
     <string name="other_settings">Andre indstillinger</string>
-    <string name="pad_keyboard_add_city">Tilføj placering</string>
-    <string name="pad_keyboard_left_switch">Forrige placering</string>
-    <string name="pad_keyboard_right_switch">Næste placering</string>
-    <string name="pad_real_time_detail_title">Indekser</string>
     <string name="particulate_matter_exceeded">Høj</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">For høj</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Tilbagetrækning af samtykke</string>
     <string name="privacy_grant_success">Tilladelse givet</string>
     <string name="privacy_policy">Privatlivspolitik</string>
-    <string name="privacy_policy_msg">&lt;Data>Denne app indeholder følgende funktioner:&lt;br/>• Oplysninger om vejret specifikt for din placering&lt;br/>• Vejrudsigter&lt;br/>• Vejrvarsler&lt;br/>&lt;br/>Vejret har brug for at indsamle nødvendige personoplysninger for at kunne forsyne dig med de grundlæggende tjenester. Hvordan vi håndterer de oplysninger, vi indsamler, kan du læse mere om i vores &lt;a href=\"%1$s\">Fortrolighedspolitik&lt;/a>. Læs og accepter vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%3$s\">Fortrolighedspolitik&lt;/a>, før du bruger Vejret. Du kan når som helst ophæve din accept af Fortrolighedspolitikken af Vejret under Indstillinger.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Denne app indeholder følgende funktioner:&lt;br/>• Oplysninger om vejret specifikt for din placering&lt;br/>• Vejrudsigter&lt;br/>• Vejrvarsler&lt;br/>&lt;br/>Vejret skal indsamle nødvendige personoplysninger, herunder placeringsdata, for at kunne gøre disse funktioner tilgængelige, selv når appen er lukket eller ikke i brug. Du kan læse mere om, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">brugeraftale&lt;/a> og &lt;a href=\"%3$s\">privatlivspolitik&lt;/a>, før du bruger Vejret. Du kan når som helst tilbagetrække din accept af Vejrets privatlivspolitik under Indstillinger.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Denne app indeholder følgende funktioner:&lt;br/>• Oplysninger om vejret specifikt for din placering&lt;br/>• Vejrudsigter&lt;br/>• Vejrvarsler&lt;br/>&lt;br/>Vejret har brug for at indsamle nødvendige personoplysninger for at kunne forsyne dig med de grundlæggende tjenester. Hvordan vi håndterer de oplysninger, vi indsamler, kan du læse mere om i vores &lt;a href=\"%1$s\">Fortrolighedspolitik&lt;/a>. Læs og accepter vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%3$s\">Fortrolighedspolitik&lt;/a>, før du bruger Vejret. Du kan når som helst ophæve din accept af Fortrolighedspolitikken af Vejret under Indstillinger.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Denne app indeholder følgende funktioner:&lt;br/>• Oplysninger om vejret specifikt for din placering&lt;br/>• Vejrudsigter&lt;br/>• Vejrvarsler&lt;br/>&lt;br/>Vejret skal indsamle nødvendige personoplysninger, herunder placeringsdata, for at kunne gøre disse funktioner tilgængelige, selv når appen er lukket eller ikke i brug. Du kan læse mere om, hvordan vi behandler de oplysninger, vi indsamler, i vores &lt;a href=\"%1$s\">privatlivspolitik&lt;/a>. Læs og acceptér vores &lt;a href=\"%2$s\">brugeraftale&lt;/a> og &lt;a href=\"%3$s\">privatlivspolitik&lt;/a>, før du bruger Vejret. Du kan når som helst tilbagetrække din accept af Vejrets privatlivspolitik under Indstillinger.</Data></string>
     <string name="privacy_revoke_success">Det lykkedes at tilbagekalde tilladelsen</string>
     <string name="privacy_settings">Privatlivspolitik</string>
     <string name="pull_fresh_updated">Opdatering fuldført</string>

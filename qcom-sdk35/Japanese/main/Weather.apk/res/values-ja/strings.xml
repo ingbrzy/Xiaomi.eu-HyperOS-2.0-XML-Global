@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">よく検索されている都市</string>
     <string name="act_find_city_location_button_text">位置情報を取得</string>
     <string name="act_find_city_location_title">現在地</string>
+    <string name="act_find_city_major_city_title">主要な都市</string>
+    <string name="act_find_city_search_history_title">検索履歴</string>
     <string name="act_location_error_to_find_city">位置情報を取得できませんでした。都市は手動で追加できます。</string>
     <string name="act_set_city_find_side">位置を特定中</string>
     <string name="act_set_city_find_side_error">デバイスの位置を特定できません</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">二酸化硫黄</string>
     <string name="aqi_station_best_quality_station">この付近で一番良い</string>
     <string name="aqi_station_min_distance_station">最寄りの観測地点</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">主要な汚染物質</string>
     <string name="background_location_dialog_authorize_button">設定</string>
     <string name="background_location_guide_dialog_msg">このアプリがバックグラウンドでの実行中に位置情報にアクセスすることを許可し、[常に許可] を選択すると、最新の気象情報を確実に受信できます。</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">OK</string>
     <string name="button_confirm">同意</string>
     <string name="button_exit">同意しない</string>
+    <string name="button_manage">管理</string>
     <string name="button_settings_cancel">キャンセル</string>
     <string name="button_settings_confirm">撤回</string>
     <string name="button_settings_confirm_to_revoke_msg">このスイッチをオフにすると、天気アプリに対するプライバシーポリシーへの同意を撤回したことになります。撤回すると、ご利用者の個人情報の収集は中止されます。すでに収集および保持されている個人情報は、適用法で義務付けられている特定の期間内に削除されます。天気アプリは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。プライバシーポリシーへの同意を撤回した場合は、収集した個人情報に基づくサービスの提供を拒否したものとみなされます。</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">ネットワーク接続を確認して、もう一度お試しください</string>
+    <string name="city_exceeded_tips">これ以上都市を追加できません。新しい都市を追加する前に、いくつか削除してください。</string>
+    <string name="city_exceeded_tips_title">都市を追加できません</string>
     <string name="city_exceeded_warning">これ以上都市を追加できません。新しい都市を追加するには、まずリストにある都市を削除してください。</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">ネットワークに接続できませんでした。もう一度お試しください。</string>
     <string name="content_desc_activity_main_add_city">都市を追加</string>
     <string name="content_desc_activity_main_add_city_manage">都市を管理</string>
+    <string name="content_desc_activity_main_already_add_city">追加した都市</string>
     <string name="content_desc_activity_main_more_settings">その他の設定</string>
     <string name="content_desc_activity_main_page">ページ %1$d/%2$d</string>
     <string name="content_desc_back_button">戻る</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">削除</string>
     <string name="miuix_appcompat_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_deselect_all_description">すべての選択を解除</string>
+    <string name="miuix_appcompat_edit">編集</string>
     <string name="miuix_appcompat_search_action_mode_cancel">キャンセル</string>
     <string name="miuix_appcompat_search_input_description">検索</string>
     <string name="miuix_appcompat_select_all">すべて選択</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">今日の%2$sのAQIは%1$dです</string>
     <string name="notif_weather_title">今日の%2$sは%1$sです</string>
     <string name="other_settings">その他の設定</string>
-    <string name="pad_keyboard_add_city">場所を追加</string>
-    <string name="pad_keyboard_left_switch">前の場所</string>
-    <string name="pad_keyboard_right_switch">次の場所</string>
-    <string name="pad_real_time_detail_title">指数</string>
     <string name="particulate_matter_exceeded">基準越え</string>
     <string name="particulate_matter_not_exceeded">標準</string>
     <string name="particulate_matter_serious_exceeded">深刻な基準越え</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">同意の撤回</string>
     <string name="privacy_grant_success">正常に承認を付与しました</string>
     <string name="privacy_policy">プライバシーポリシー</string>
-    <string name="privacy_policy_msg">&lt;Data>このアプリには次の機能が含まれます。&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、設定でいつでも撤回することができます。&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>このアプリには次の機能が含まれます：&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、アプリを閉じているときや使用していないときでも、これらの機能を利用できるようにするために、位置情報などの必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>このアプリには次の機能が含まれます。&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、設定でいつでも撤回することができます。</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>このアプリには次の機能が含まれます：&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、アプリを閉じているときや使用していないときでも、これらの機能を利用できるようにするために、位置情報などの必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。</Data></string>
     <string name="privacy_revoke_success">承認は正常に撤回されました</string>
     <string name="privacy_settings">プライバシーポリシー</string>
     <string name="pull_fresh_updated">正常にアップデートされました</string>

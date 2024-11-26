@@ -7,7 +7,7 @@
     <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
     <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
     <string name="abc_capital_off">إيقاف</string>
-    <string name="abc_capital_on">مفعّلة</string>
+    <string name="abc_capital_on">تفعيل</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
     <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
     <string name="abc_menu_delete_shortcut_label">حذف</string>
@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">مدن مشهورة</string>
     <string name="act_find_city_location_button_text">احصل على الموقع</string>
     <string name="act_find_city_location_title">الموقع الحالي</string>
+    <string name="act_find_city_major_city_title">مواقع مشهورة</string>
+    <string name="act_find_city_search_history_title">سجل البحث</string>
     <string name="act_location_error_to_find_city">تعذر الحصول على معلومات الموقع. يمكنك إضافة موقع يدويُا.</string>
     <string name="act_set_city_find_side">تحديد الموقع</string>
     <string name="act_set_city_find_side_error">لا يمكن تحديد موقع الجهاز</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">ثاني أكسيد الكبريت</string>
     <string name="aqi_station_best_quality_station">الأفضل في الجوار</string>
     <string name="aqi_station_min_distance_station">أقرب محطة</string>
-    <string name="aqi_title_pad">جودة الهواء: %1$s</string>
     <string name="aqi_top_pollution">الملوثات الرئيسية</string>
     <string name="background_location_dialog_authorize_button">الإعدادات</string>
     <string name="background_location_guide_dialog_msg">اسمح لهذا التطبيق بالوصول إلى الموقع أثناء التشغيل في الخلفية وحدد \"السماح دائمًا\" لضمان حصولك على معلومات الطقس المحدثة.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">موافق</string>
     <string name="button_confirm">أوافق</string>
     <string name="button_exit">لا أوافق</string>
+    <string name="button_manage">إدارة</string>
     <string name="button_settings_cancel">إلغاء</string>
     <string name="button_settings_confirm">سحب</string>
     <string name="button_settings_confirm_to_revoke_msg">إذا قمت بإيقاف تشغيل المفتاح، فسيعتبر ذلك سحب لموافقتك على سياسة خصوصية التقويم، وسنتوقف عن جمع بياناتك الشخصية وحذف المعلومات الشخصية التي جمعها التطبيق خلال الفترة التي تحددها القوانين المعمول بها. نظرًا لأن الخدمات الأساسية التي يقدمها التقويم تتطلب جمع البيانات الشخصية الضرورية، فأن سحب موافقتك يعتبر عدم موافقتك على استمرارنا في تزويدك بالخدمات التي تعمل على أساس جمع البيانات.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">تحقق من اتصال الشبكة ثم حاول مرة أخرى</string>
+    <string name="city_exceeded_tips">لا يمكن إضافة المزيد من المواقع. قم بإزالة بعض المواقع قبل إضافة موقع جديد.</string>
+    <string name="city_exceeded_tips_title">لا يمكن إضافة الموقع</string>
     <string name="city_exceeded_warning">لا يمكن إضافة المزيد من المدن. احذف أولاً إحدى المدن لإضافة مدينة جديدة.</string>
     <string name="clearable_edittext_clear_description">مسح</string>
     <string name="close">إغلاق</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">تعذر الاتصال بالشبكة، حاول مرة أخرى</string>
     <string name="content_desc_activity_main_add_city">إضافة مدينة</string>
     <string name="content_desc_activity_main_add_city_manage">إدارة المدن</string>
+    <string name="content_desc_activity_main_already_add_city">المواقع المضافة</string>
     <string name="content_desc_activity_main_more_settings">المزيد من الإعدادات</string>
     <string name="content_desc_activity_main_page">الصفحة %1$d من %2$d</string>
     <string name="content_desc_back_button">رجوع</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">حذف</string>
     <string name="miuix_appcompat_deselect_all">الغاء تحديد الكل</string>
     <string name="miuix_appcompat_deselect_all_description">الغاء تحديد الكل</string>
+    <string name="miuix_appcompat_edit">تعديل</string>
     <string name="miuix_appcompat_search_action_mode_cancel">إلغاء</string>
     <string name="miuix_appcompat_search_input_description">بحث</string>
     <string name="miuix_appcompat_select_all">تحديد الكل</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">جودة الهواء اليوم: %1$d في %2$s</string>
     <string name="notif_weather_title">%1$s في %2$s اليوم</string>
     <string name="other_settings">إعدادات أخرى</string>
-    <string name="pad_keyboard_add_city">إضافة موقع</string>
-    <string name="pad_keyboard_left_switch">الموقع السابق</string>
-    <string name="pad_keyboard_right_switch">الموقع التالي</string>
-    <string name="pad_real_time_detail_title">المؤشرات</string>
     <string name="particulate_matter_exceeded">عالي</string>
     <string name="particulate_matter_not_exceeded">عادي</string>
     <string name="particulate_matter_serious_exceeded">عالي جدا</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">سحب الموافقة</string>
     <string name="privacy_grant_success">تم منح الترخيص بنجاح</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
-    <string name="privacy_policy_msg">&lt;Data>يحتوي هذا التطبيق على الوظائف التالية:&lt;br/>• معلومات الطقس المحلية&lt;br/>• توقعات الطقس&lt;br/>• تحذيرات الطقس&lt;br/>&lt;br/>يحتاج الطقس إلى جمع البيانات الشخصية الضرورية لتزويدك بالخدمات الأساسية. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الطقس. يمكنك سحب الموافقة على سياسة خصوصية الطقس في أي وقت من الإعدادات.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>يحتوي هذا التطبيق على الميزات التالية:&lt;br/>• معلومات الطقس المحلية&lt;br/>• توقعات الطقس&lt;br/>• تحذيرات الطقس&lt;br/>&lt;br/>يحتاج الطقس إلى جمع البيانات الشخصية الضرورية بما في ذلك بيانات الموقع لتوفير هذه الخدمات حتى وأن كان التطبيق مغلق أو غير مستخدم. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الطقس. يمكنك سحب الموافقة على سياسة خصوصية الطقس في أي وقت من الإعدادات.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>يحتوي هذا التطبيق على الوظائف التالية:&lt;br/>• معلومات الطقس المحلية&lt;br/>• توقعات الطقس&lt;br/>• تحذيرات الطقس&lt;br/>&lt;br/>يحتاج الطقس إلى جمع البيانات الشخصية الضرورية لتزويدك بالخدمات الأساسية. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الطقس. يمكنك سحب الموافقة على سياسة خصوصية الطقس في أي وقت من الإعدادات.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>يحتوي هذا التطبيق على الميزات التالية:&lt;br/>• معلومات الطقس المحلية&lt;br/>• توقعات الطقس&lt;br/>• تحذيرات الطقس&lt;br/>&lt;br/>يحتاج الطقس إلى جمع البيانات الشخصية الضرورية بما في ذلك بيانات الموقع لتوفير هذه الخدمات حتى وأن كان التطبيق مغلق أو غير مستخدم. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الطقس. يمكنك سحب الموافقة على سياسة خصوصية الطقس في أي وقت من الإعدادات.</Data></string>
     <string name="privacy_revoke_success">تم إلغاء الترخيص بنجاح</string>
     <string name="privacy_settings">سياسة الخصوصية</string>
     <string name="pull_fresh_updated">تم التحديث بنجاح</string>

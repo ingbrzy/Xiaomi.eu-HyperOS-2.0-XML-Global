@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Actualitzeu la clau de seguretat</string>
     <string name="e2ee_device_delete">Elimina el dispositiu</string>
     <string name="e2ee_device_delete_tip">Un cop suprimiu aquest dispositiu del vostre Compte Xiaomi, es tancarà la sessió i no podreu utilitzar els Serveis del Núvol Xiaomi, la cerca i altres funcions relacionades amb el compte fins que no torneu a iniciar la sessió.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Aquest dispositiu no admet la Protecció de dades avançada, de manera que no podreu iniciar la sessió al vostre compte si activeu aquesta funció. Actualitzeu aquest dispositiu a Xiaomi HyperOS 2 per poder iniciar la sessió al vostre compte.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">No es pot iniciar sessió</string>
     <string name="e2ee_device_exit_failed_tip">"No s'ha pogut tancar la sessió. Espereu un minut o dos i proveu-ho de nou."</string>
     <string name="e2ee_device_exit_failed_toast">"No s'ha pogut tancar la sessió. Espereu un minut o dos i proveu-ho de nou."</string>
     <string name="e2ee_device_exit_tip">%s ha tancat la sessió</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">"Aquesta funció no s'admet a la vostra regió."</string>
     <string name="e2ee_error_init">"No s'ha pogut iniciar. Espereu un minut i proveu-ho de nou."</string>
     <string name="e2ee_error_network">"No s'ha pogut connectar a la xarxa. Comproveu la configuració de la xarxa i proveu-ho de nou."</string>
+    <string name="e2ee_error_real_device">"Aquest entorn no és segur. Proveu d'utilitzar un altre dispositiu."</string>
     <string name="e2ee_exit_account_button_close">Desactiva</string>
     <string name="e2ee_exit_account_button_exit">Tanca sessió</string>
     <string name="e2ee_exit_account_subtitle">"Esteu a punt de tancar la sessió de l'últim dispositiu connectat actualment associat al vostre Compte Xiaomi. Haureu d'utilitzar un bloqueig de pantalla o una clau de seguretat per tornar a iniciar la sessió i accedir a les vostres dades emmagatzemades al núvol. Alternativament, toqueu \"Desactiva\" a continuació per desactivar la Protecció avançada de dades."</string>
@@ -504,7 +507,7 @@ També podeu ajudar altres persones a localitzar els vostres dispositius Xiaomi 
     <string name="micloud_last_sync_canceled">"S'ha cancel·lat la sincronització. Proveu-ho de nou."</string>
     <string name="micloud_main_head_menu_cloud_backup">Còpies de seguretat</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Troba dispositiu no està disponible al Segon espai. Podeu fer-la servir al Primer espai.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">"S'han eliminat els elements"</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Elements suprimits fa poc</string>
     <string name="micloud_main_network_error">"No s'ha pogut connectar a la xarxa"</string>
     <string name="micloud_main_sync_mode_summary">"Sincronitza les dades de l'aplicació en temps real. El consum d’energia augmentarà quan aquesta funció estigui activada."</string>
     <string name="micloud_main_sync_mode_title">Sincronització ràpida</string>
@@ -746,6 +749,7 @@ Assegureu-vos que feu servir el Compte Xiaomi associat com a compte del sistema.
     <string name="other_lockscreen_forget_pin_dialog_title">Heu oblidat el bloqueig de pantalla</string>
     <string name="other_lockscreen_sub_title">"Introduïu el bloqueig de pantalla d'aquest dispositiu per completar la verificació"</string>
     <string name="other_lockscreen_title">Introduïu el bloqueig de pantalla de %s</string>
+    <string name="other_lockscreen_update_password_error_hint">"Heu canviat el bloqueig de pantalla recentment? Proveu d'introduir el bloqueig de pantalla antic per verificar-lo."</string>
     <string name="pay_info_dialog_confirm_to_pay">Paga %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Utilitzeu els Crèdits Mi restants: %s</string>
     <string name="pay_info_dialog_title">Selecciona el mètode de pagament</string>
@@ -828,6 +832,10 @@ Pot ser que la informació sobre la ubicació no es notifiqui quan la connexió 
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Núvol Xiaomi necessita permís per accedir als articles emmagatzemats al dispositiu per poder identificar els articles no sincronitzats i la seva quantitat. Voleu donar aquest permís ara?</string>
+    <string name="request_os_permissions_dialog_neg_button">No accepto</string>
+    <string name="request_os_permissions_dialog_pos_button">Accepto</string>
+    <string name="request_os_permissions_dialog_title">Permisos requerits</string>
     <string name="retain_data_high_quality_photo_waring_message">"Còpies d'alta qualitat de les vostres fotos i vídeos s'eliminaran de la Galeria després de tancar la sessió. Els fitxers originals corresponents continuaran emmagatzemats al núvol. També podeu baixar fitxers originals abans de tancar la sessió."</string>
     <string name="retain_data_high_quality_photo_waring_title">Les imatges d’alta qualitat no estaran disponibles</string>
     <string name="revoke_block_by_find_device">La retirada del consentiment també desactivarà Troba dispositiu. Després de continuar, haureu de verificar la vostra contrasenya.</string>
@@ -1070,6 +1078,8 @@ Pot ser que la informació sobre la ubicació no es notifiqui quan la connexió 
     <string name="v7_preference_off">DESACTIVAT</string>
     <string name="v7_preference_on">ACTIVAT</string>
     <string name="verify_camera_error_toast">"No s'ha pogut reconèixer la clau de pas"</string>
+    <string name="verify_camera_google_permission_message">Núvol Xiaomi necessita permisos de càmera per poder escanejar la vostra clau de seguretat. Podeu concedir aquest permís a Configuració.</string>
+    <string name="verify_camera_google_permission_positive_button">Entesos</string>
     <string name="verify_camera_permission_message">Permeteu que aquesta aplicació accedeixi a la càmera per poder buscar la vostra clau de seguretat. Podeu concedir aquest permís a Configuració.</string>
     <string name="verify_camera_permission_negative_button">Cancel·la</string>
     <string name="verify_camera_permission_positive_button">Configuració</string>
@@ -1132,6 +1142,8 @@ Pot ser que la informació sobre la ubicació no es notifiqui quan la connexió 
     <string name="verify_warning_dialog_title">"Un altre dispositiu ha activat el xifratge d'extrem a extrem"</string>
     <string name="verify_warning_dialog_title_pc">Permisos requerits</string>
     <string name="verify_warning_dialog_title_web">Permisos requerits</string>
+    <string name="verify_warning_verify_dialog_message">Introduïu el codi de verificació a %s</string>
+    <string name="verify_warning_verify_dialog_title">Verifiqueu el Compte Xiaomi</string>
     <string name="waiting_for_sync">"S'està esperant…"</string>
     <string name="web_view_auto_login_fail">"No s'ha pogut iniciar la sessió. Proveu-ho de nou."</string>
     <string name="web_view_login_text">"S'està iniciant sessió…"</string>

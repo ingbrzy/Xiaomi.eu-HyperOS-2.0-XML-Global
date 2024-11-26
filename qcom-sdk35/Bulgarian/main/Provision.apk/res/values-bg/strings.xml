@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">За да може да Ви предоставя по-качествени услуги, процесите опериращи върху Вашето устройство (включително SystemHelper, RegService и Операторски Услуги) може периодично да изпращат информация свързана с Вашето устройство и SIM карта (включително IMEI, IMSI, MSISDN, MEID, ICCID, MAC адрес, версия на системата, версия на Android, модел на устройството и основни специфики на хардуера), както и данни за приблизително местоположение (включително региона, координатите идентификатор на района и номера на базовата станция) на оператора чрез WLAN, мрежата за мобилни данни или безплатен SMS. Операторът обещава да анализира съответната информация само с цел подобряване качеството на услугите и технологиите и няма да разкрива тази информация на трети страни под каквато и да било форма, в която можете да бъдете идентифицирани лично. Преимущество ще има декларацията на конкретния оператор. Консултирайте се с оператора си, за да разберете цената на тази услуга.</string>
     <string name="carrier_introduction_china_rothko">За да се подобри качеството на услугите, които Ви се предоставят, програмите, работещи на това устройство (включително SystemHelper, RegService и Carrier services) може да изпращат информация за това устройство или Вашата SIM карта (включително IMEI, IMSI, MSISDN, MEID, ICCID , MAC адрес, версия на системата, версия на Android, модел на устройството, основна хардуерна конфигурация и телефонен номер), както и Вашето приблизително местоположение (включително регион, координати, идентификатор на квартала и идентификатор на базова станция), до Вашия оператор чрез WLAN, мобилен мрежи или SMS. Когато извършвате повиквания, DCService ще се свърже с мрежата. Мобилните оператори гарантират, че тази информация ще бъде използвана само за анализ, подобряване на качеството на услугите или предоставяне на персонализирани услуги или технологии и никога няма да бъде споделяна с никого по начин, който би могъл да позволи идентифицирането Ви лично. Вижте съответното изявление от своя оператор за подробности. Можете да попитате за всички свързани такси за услуги директно от своя оператор.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>Можеш да използваt Xiaomi Взаимосвързаност за контрол и прехвърляне на данни между устройства. Приеми &lt;a href=%1$s>Политиката за поверителност&lt;/a > на Xiaomi Взаимосвързаност, преди да използваш нейните функции. Това приложение има нужда от връзка с интернет и изисква следните разрешения:</Data></string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="clock_introduction">Можете да използвате това приложение, за да проверявате колко е часът, да използвате таймер, часовник с различни часови зони и хронометър, да настройвате аларми и други.</string>
     <string name="close">Затваряне</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
-    <string name="default_font">По подразбиране</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Използвайте Вашия пръстов отпечатък за отключване на устройството, за проверка на Mi Pay транзакции, или за вписване в приложения и услуги.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Увеличи размера на текста</string>
     <string name="font_settings_sub_title">Изберете системен шрифт</string>
     <string name="font_settings_title">Настройки на шрифт</string>
+    <string name="font_size_title">Размер на текст</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Основна част</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">Класика</string>
     <string name="home_settings_poco_launcher">Чекмедже за приложения</string>
     <string name="home_settings_title">Изберете работен стил по подразбиране</string>
+    <string name="image_brain_configuration_service">Услуга за конфигурация на Xiaomi Imaging Engine</string>
     <string name="ime_privacy_policy">Правила за поверителност за избраната клавиатура</string>
     <string name="ime_privacy_policy_no_network">Вашият телефон не е свързан с интернет. Вижте информацията на адрес: %s</string>
     <string name="ims_introduction">IMS услугата Ви предоставя основни методи за комуникация и се използва за аудио и видео разговори с висока резолюция.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">Услугите за интернет комуникация на Xiaomi Ви позволяват да откривате, да се свързвате и да комуникирате с други Xiaomi устройства.</string>
     <string name="interconnection_service_global_item_title">Xiaomi Взаимосвързаност</string>
     <string name="interconnection_service_global_label">&lt;Data>Xiaomi Взаимосвързаност позволява на вашите устройства да взаимодействат едно с друго безжично. Включвайки този превключвател, вие се съгласявате с &lt;a href=%1$s>Правилата за поверителност&lt;/a > на Xiaomi Взаимосвързаност.&lt;/Data></string>
+    <string name="interconnection_service_permission1">Включване и изключване на Bluetooth</string>
+    <string name="interconnection_service_permission10">За откриване на устройства наблизо</string>
+    <string name="interconnection_service_permission11">Прехвърляне на данни между устройства</string>
+    <string name="interconnection_service_permission12">За прехвърляне на данни между свързани устройства</string>
+    <string name="interconnection_service_permission13">Достъп до съдържанието на екрана</string>
+    <string name="interconnection_service_permission14">За достъп до съдържание на екрана при запис или проектиране, включително чувствителна информация като аудио, пароли, пароли за плащане, снимки, съобщения и др.</string>
+    <string name="interconnection_service_permission15">Достъп до хронология на повикванията</string>
+    <string name="interconnection_service_permission16">За прехвърляне на повиквания между устройства при огледален екран</string>
+    <string name="interconnection_service_permission17">Достъп до списъка с инсталирани приложения</string>
+    <string name="interconnection_service_permission18">За достъп до списъка с приложения, инсталирани на мобилно устройство, и огледално предаване на екрана на компютри</string>
+    <string name="interconnection_service_permission2">За свързване на две устройства и прехвърляне на данни между тях.</string>
+    <string name="interconnection_service_permission3">Включване и изключване на WLAN</string>
+    <string name="interconnection_service_permission4">За прехвърляне на данни между две устройства чрез WLAN</string>
+    <string name="interconnection_service_permission5">Запис на аудио</string>
+    <string name="interconnection_service_permission6">За записване на аудио от устройството при проекция и огледално предаване</string>
+    <string name="interconnection_service_permission7">Достъп до устройството и редактиране на снимки на него</string>
+    <string name="interconnection_service_permission8">За проектиране и прехвърляне на съдържание от това устройство</string>
+    <string name="interconnection_service_permission9">Идентификатор на устройството за достъп</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s Функциите на Xiaomi Взаимосвързаност, налични на устройството, може да се различават поради разликите във версиите на системи и модели на устройства. Провери нашия официален уебсайт (%2$s) за повече информация.</string>
     <string name="interconnection_service_summary_global">Функциите на Xiaomi Взаимосвързаност може да варират в зависимост от модела на устройството и версията на системата. Посетете официалния уебсайт на системата, за да научите повече.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">В случай, че устройството ви бъде изгубено, няма да можете да предпазите личните си данни от други лица, ако нямате зададена парола или шаблон за Заключване на екрана. Желаете ли да пропуснете тази стъпка въпреки това?</string>
@@ -307,10 +328,22 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="item_lock_screen_password_only">Заключване на екран</string>
     <string name="item_return">Задаване</string>
     <string name="item_skip">Пропускане</string>
+    <string name="kind_tip_details_inner_details">Избягвайте да натискате екрана с остри предмети (върхове на химикалки, нокти и т.н.), докато използвате или носите устройството. Преди да сгъвате устройството се уверявайте, че на вътрешния екран няма твърди предмети като карти, монети или ключове.</string>
+    <string name="kind_tip_details_inner_title">Не натискайте вътрешния екран с остри или твърди предмети.</string>
+    <string name="kind_tip_details_pocket_details">Сгъвайте устройството винаги, когато не го използвате. Избягвайте контакта на вътрешния екран с остри и твърди предмети в чантата или джоба.</string>
+    <string name="kind_tip_details_pocket_title">Не поставяйте разгънато устройство директно в чантата или джоба си.</string>
+    <string name="kind_tip_details_protective_details_cn">Вътрешният екран на устройството има специално защитно покритие, чиято смяна изисква професионално оборудване. Не отстранявайте и не подменяйте вътрешния протектор на екрана самостоятелно, тъй като получената повреда на вътрешния екран ще повлияе на гаранцията. Ако трябва да смените протектора на екрана, свържете се с отдела за следпродажбено обслужване на Xiaomi.</string>
+    <string name="kind_tip_details_protective_details_global">Вътрешният екран на устройството има специално защитно покритие. Отстраняването или смяната на покритието може да причини повреда на вътрешния екран.</string>
+    <string name="kind_tip_details_protective_title">Не отстранявайте вътрешния протектор на екрана самостоятелно.</string>
+    <string name="kind_tip_subtitle">Това устройство е оборудвано със сгъваем екран. За да избегнете повреждане и за да гарантирате, че екранът работи нормално, вземете следните предпазни мерки по време на употреба:</string>
+    <string name="kind_tip_title">Внимание</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Споделяне на информация за местоположението с агенции за спешно реагиране</string>
     <string name="language_picker_other_languages_title">Други езици</string>
     <string name="language_settings">Избор на език</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Голям</string>
+    <string name="layout_size_normal">Стандартен</string>
     <string name="locale_picker_other_locale_title">Още региони</string>
     <string name="locale_picker_title">Изберете регион</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +620,10 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="privacy_provision_title">Поверителност</string>
     <string name="privacy_refuse">Не приемам</string>
     <string name="privacy_title">Условия и Правила за поверителност</string>
+    <string name="prompt_fingerprint">За твоя профил е включена разширена защита на данните. Задай заключен екран за това устройство.</string>
     <string name="protect_persoanl_info_statement">Ние ще пазим Вашата лична информация в съответствие с приложимите закони, разпоредби и политики за поверителност.</string>
     <string name="provision_back">Назад</string>
+    <string name="provision_complete_text">Продължи</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Прегледайте &lt;a href=%1$s>Правилата за поверителност&lt;/a > на избраната клавиатура.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Правила за поверителност</string>
     <string name="provision_next">Напред</string>
@@ -613,6 +648,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="require_telephone_location">Достъп до местоположението</string>
     <string name="require_telephone_location_summary">За достъп до приблизително местоположение и предоставяне на базирани на местоположение услуги за мрежова оптимизация</string>
     <string name="require_telephone_statement">За да се предоставят основни услуги, са необходими следните разрешения:</string>
+    <string name="sample_text_summary">Xiaomi неуморно създава впечатляващи продукти на честни цени, за да даде възможност на всички по света да се наслаждават на по-добър живот благодарение на иновативните технологии.</string>
+    <string name="sample_text_title">Примерен текст:</string>
     <string name="saturday">Събота</string>
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>
@@ -689,7 +726,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="skip_gesture_guide_dialog_title">Жестове на цял екран</string>
     <string name="skip_underline">Пропусни тази стъпка</string>
     <string name="start_up_slogan">Само твой</string>
+    <string name="startup_page_text_hint">Разгънете, за да активирате устройството</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Научете жестове за навигация</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Не е настроено</string>
     <string name="sunday">Неделя</string>
@@ -700,6 +739,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">Плъгина за услуги на Началния екран Ви предоставят основни функции като Начален екран, системен интерфейс и екранни снимки.</string>
     <string name="term_condition_detail">Получавайте зашеметяващи изображения и вълнуващи истории на Заключен екран всеки ден. Тази функция няма да използва Вашите данни за персонализация без Ваше съгласие. Прочетете и приемете &lt;a href =%1$s>Правилата за поверителност&lt;/a> и &lt;a href =%2$s>Потребителското споразумение&lt;/a> на трета страна преди да използвате тази функция.</string>
+    <string name="terms_and_statement_title">Правила и условия</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Правила и условия</string>
@@ -743,7 +783,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Сигурен Елемент (Xiaomi версия)</string>
     <string name="terms_of_use_label_updater">Услуга за системно обновление (проверява за обновления онлайн и уведомява за нови версии)</string>
     <string name="terms_of_use_label_use_location_and_network_global">Преди да използвате системата, прочетете и приемете нашето Потребителско споразумение и Правила за поверителност. Ние ще защитаваме Вашата лична информация в съответствие със съответните закони, регулации и правила за поверителност. След активиране на устройството Ви, следните услуги ще се свържат с интернет и ще получат достъп до Вашето местоположение:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">Преди да използвате системата, прочетете и приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Правила за поверителност&lt;/a>. Ние ще защитаваме Вашата лична информация в съответствие с приложимите закони, регулации и правила за поверителност.</string>
+    <string name="terms_of_use_label_use_network_china_append">Когато Вашето устройство е активирано, следните услуги ще се свържат към мрежата:</string>
     <string name="terms_of_use_label_wallpaper">Тапет</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

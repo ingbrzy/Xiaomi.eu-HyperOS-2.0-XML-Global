@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Biztonsági jelkód frissítése</string>
     <string name="e2ee_device_delete">Készülék eltávolítása</string>
     <string name="e2ee_device_delete_tip">Az eszköz a Xiaomi Fiókjából való eltávolítását követően kijelentkezik, és az újbóli bejelentkezésig nem tudja használni rajta a Xiaomi Cloud szolgáltatásokat, a keresést és a fiókhoz kapcsolódó egyéb funkciókat.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">A készülék nem támogatja a Speciális adatvédelmet, ezért a funkció bekapcsolása esetén nem tud majd bejelentkezni a fiókjába. Frissítse készülékét Xiaomi HyperOS 2-re, hogy be tudjon jelentkezni a fiókjába.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Nem sikerült a bejelentkezés</string>
     <string name="e2ee_device_exit_failed_tip">A kijelentkezés nem sikerült. Várjon egy percet és próbálja újra.</string>
     <string name="e2ee_device_exit_failed_toast">A kijelentkezés nem sikerült. Várjon egy percet és próbálja újra.</string>
     <string name="e2ee_device_exit_tip">%s kijelentkezve</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Ez a funkció nem támogatott az Ön régiójában.</string>
     <string name="e2ee_error_init">Nem sikerült inicializálni. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="e2ee_error_network">Nem tud csatlakozni a hálózathoz. Ellenőrizze a beállításokat és próbálja újra.</string>
+    <string name="e2ee_error_real_device">Ez a környezet nem biztonságos. Próbáljon meg másik eszközt használni.</string>
     <string name="e2ee_exit_account_button_close">Kikapcsolás</string>
     <string name="e2ee_exit_account_button_exit">Kijelentkezés</string>
     <string name="e2ee_exit_account_subtitle">A Xiaomi Fiókjához tartozó utolsó, jelenleg csatlakoztatott készülékről készül kijelentkezni. A képernyőzár vagy biztonsági jelkód használatával újra be kell jelentkeznie, hogy hozzáférhessen a felhőben tárolt adataihoz. Másik megoldásként koppintson az alábbi „Kikapcsolás” lehetőségre a Speciális adatvédelem kikapcsolásához.</string>
@@ -504,7 +507,7 @@ Másoknak is segíthet névtelenül a Xiaomi-készülékeik helymeghatározásá
     <string name="micloud_last_sync_canceled">A szinkronizálás törölve lett. Próbálja újra.</string>
     <string name="micloud_main_head_menu_cloud_backup">Biztonsági mentések</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">A Második asztalon nem elérhető a Készülékkeresés, az Első asztalon tudja használni.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Törölt elemek</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Nemrég törölt elemek</string>
     <string name="micloud_main_network_error">Nem tud csatlakozni a hálózathoz</string>
     <string name="micloud_main_sync_mode_summary">Valós időben szinkronizálja az alkalmazásadatokat. Ha ez a funkció be van kapcsolva, megnőhet az energiafogyasztás.</string>
     <string name="micloud_main_sync_mode_title">Gyors szinkronizálás</string>
@@ -746,6 +749,7 @@ Ellenőrizze, hogy a társított Xiaomi Fiókot használja rendszerfiókként."<
     <string name="other_lockscreen_forget_pin_dialog_title">Elfelejtett képernyőzár</string>
     <string name="other_lockscreen_sub_title">A hitelesítés befejezéséhez adja meg a készülék képernyőzárát</string>
     <string name="other_lockscreen_title">Adja meg ar %s képernyőzárát</string>
+    <string name="other_lockscreen_update_password_error_hint">Módosította a képernyőzárat mostanában? Próbálja meg beírni a régi képernyőzárat az ellenőrzéshez.</string>
     <string name="pay_info_dialog_confirm_to_pay">Fizessen %s összeget</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Hátralévő Mi érmék felhasználása: %s</string>
     <string name="pay_info_dialog_title">Válasszon fizetési módot</string>
@@ -828,6 +832,10 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">A Xiaomi Cloudnak engedélyre van szüksége a készülékén tárolt elemek eléréséhez, hogy azonosítani tudja a nem szinkronizált elemeket és azok mennyiségét. Megadja ezt az engedélyt most?</string>
+    <string name="request_os_permissions_dialog_neg_button">Elutasítom</string>
+    <string name="request_os_permissions_dialog_pos_button">Elfogadom</string>
+    <string name="request_os_permissions_dialog_title">Engedélyek szükségesek</string>
     <string name="retain_data_high_quality_photo_waring_message">A fényképek és videók jó minőségű másolatai a kijelentkezés után törlődnek a Galériából. A megfelelő eredeti fájlok továbbra is a felhőben maradnak. Az eredeti fájlokat a kijelentkezés előtt is letöltheti.</string>
     <string name="retain_data_high_quality_photo_waring_title">Kiváló minőségű képek nem lesznek elérhetők</string>
     <string name="revoke_block_by_find_device">A hozzájárulás visszavonása kikapcsolja a Készülékkeresés funkciót is. A folytatás után meg kell erősítenie a jelszavát.</string>
@@ -1054,7 +1062,7 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="tuesday">Kedd</string>
     <string name="tuesday_short">Kedd</string>
     <string name="tuesday_shortest">Kedd</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Ismeretlen</string>
     <string name="update_dialog_check_button_text">Frissítések keresése</string>
     <string name="update_dialog_ignore_button_text">Nem, köszönöm</string>
     <string name="update_dialog_no_internet_toast_text">Ellenőrizze internetkapcsolatát, és próbálja újra</string>
@@ -1070,6 +1078,8 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="v7_preference_off">KI</string>
     <string name="v7_preference_on">BE</string>
     <string name="verify_camera_error_toast">Nem sikerült felismerni a jelkódot</string>
+    <string name="verify_camera_google_permission_message">A Xiaomi Cloudnak kameraengedélyekre van szüksége a biztonsági kulcs beolvasásához. Ezt az engedélyt a Beállításokban adhatja meg.</string>
+    <string name="verify_camera_google_permission_positive_button">Rendben</string>
     <string name="verify_camera_permission_message">Engedélyezze az alkalmazásnak a kamerához való hozzáférést, hogy beolvashassa a biztonsági jelkódot. Ezt az engedélyt a Beállításokban adhatja meg.</string>
     <string name="verify_camera_permission_negative_button">Mégse</string>
     <string name="verify_camera_permission_positive_button">Beállítások</string>
@@ -1090,7 +1100,7 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="verify_code_warning_toast_limit">Nem maradt több hitelesítési kísérlet</string>
     <string name="verify_dialog_message">Új hitelesítő kód küldése vagy más helyreállítási módszer kiválasztása</string>
     <string name="verify_dialog_negative_btn">Mégse</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Bekapcsolta a Speciális adatvédelem funkciót egy másik eszközön. Állítson be képernyőzárat ezen a készüléken, hogy hozzáférhessen a Xiaomi Cloudban tárolt adataihoz.</string>
     <string name="verify_dialog_point">Ne ossza meg ezt a hitelesítő kódot senkivel</string>
     <string name="verify_dialog_point_choose_method">Másik hitelesítési mód kiválasztása</string>
     <string name="verify_dialog_point_device_password">Másik készülék képernyőzárának megadása</string>
@@ -1112,7 +1122,7 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="verify_scan_error_not_support_toast">Ez a készülék nem támogatja a beolvasást</string>
     <string name="verify_scan_input_textview">Manuálisan bevitel</string>
     <string name="verify_scan_photo_textview">Beolvasás</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Koppintson középre a fókuszáláshoz</string>
     <string name="verify_scan_point_text_view">Helyezze a %d számjegyű jelkódot az alábbi mezőbe</string>
     <string name="verify_scan_title">Biztonsági jelkód hitelesítése</string>
     <string name="verify_send_code_btn">Kód küldése</string>
@@ -1132,6 +1142,8 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="verify_warning_dialog_title">Egy másik készülék bekapcsolta a végponttól végpontig titkosítást</string>
     <string name="verify_warning_dialog_title_pc">Engedélyek szükségesek</string>
     <string name="verify_warning_dialog_title_web">Engedélyek szükségesek</string>
+    <string name="verify_warning_verify_dialog_message">Írja be ide az ellenőrző kódot: %s</string>
+    <string name="verify_warning_verify_dialog_title">Xiaomi Fiók hitelesítése</string>
     <string name="waiting_for_sync">Várakozás…</string>
     <string name="web_view_auto_login_fail">A bejelentkezés sikertelen. Próbálja újra.</string>
     <string name="web_view_login_text">Bejelentkezés…</string>

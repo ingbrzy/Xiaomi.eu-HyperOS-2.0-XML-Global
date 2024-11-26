@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Ciutats populars</string>
     <string name="act_find_city_location_button_text">Obtén la ubicació</string>
     <string name="act_find_city_location_title">Ubicació actual</string>
+    <string name="act_find_city_major_city_title">Ubicacions populars</string>
+    <string name="act_find_city_search_history_title">Historial de cerca</string>
     <string name="act_location_error_to_find_city">"No s'ha pogut obtenir la informació d'ubicació. Podeu afegir una ubicació manualment."</string>
     <string name="act_set_city_find_side">"S'està ubicant"</string>
     <string name="act_set_city_find_side_error">No es pot ubicar el dispositiu</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Diòxid de sulfur</string>
     <string name="aqi_station_best_quality_station">El millor per aquí</string>
     <string name="aqi_station_min_distance_station">Estació més propera</string>
-    <string name="aqi_title_pad">IQA: %1$s</string>
     <string name="aqi_top_pollution">Principals contaminants</string>
     <string name="background_location_dialog_authorize_button">Configuració</string>
     <string name="background_location_guide_dialog_msg">"Permet que aquesta aplicació accedeixi a la ubicació mentre s'executa en segon pla i seleccioneu \"Permetre sempre\" per assegurar-vos que rebeu informació meteorològica actualitzada."</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">"D'acord"</string>
     <string name="button_confirm">Acceptar</string>
     <string name="button_exit">No accepto</string>
+    <string name="button_manage">Gestiona</string>
     <string name="button_settings_cancel">Cancel·leu</string>
     <string name="button_settings_confirm">Retirar</string>
     <string name="button_settings_confirm_to_revoke_msg">"En desactivar l'interruptor, retirareu el vostre consentiment a la Política de privadesa de Temps. Deixarem de recollir la vostra informació personal. La informació personal ja recollida i conservada se suprimirà en el termini específic que exigeix la legislació aplicable. Temps necessita recollir la informació personal necessària per proporcionar-vos serveis bàsics. La retirada del consentiment a la seva Política de privadesa es considerarà com a denegació d’acceptar els seus serveis basats en la informació personal recollida."</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Comproveu la vostra connexió a la xarxa i proveu-ho de nou</string>
+    <string name="city_exceeded_tips">"No es poden afegir més ubicacions. Elimina algunes ubicacions abans d'afegir-ne una de nova."</string>
+    <string name="city_exceeded_tips_title">No es pot afegir la ubicació</string>
     <string name="city_exceeded_warning">No es poden afegir més ciutats. Per afegir-ne una de nova, primer has de suprimir una ciutat que ja es trobi a la llista.</string>
     <string name="clearable_edittext_clear_description">Netejar</string>
     <string name="close">Tanca</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">"No s'ha pogut connectar a la xarxa, proveu-ho de nou"</string>
     <string name="content_desc_activity_main_add_city">Afegir ciutat</string>
     <string name="content_desc_activity_main_add_city_manage">Gestionar ciutats</string>
+    <string name="content_desc_activity_main_already_add_city">Ubicacions afegides</string>
     <string name="content_desc_activity_main_more_settings">Més configuracions</string>
     <string name="content_desc_activity_main_page">Pàgina %1$d de %2$d</string>
     <string name="content_desc_back_button">Enrere</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Suprimeix</string>
     <string name="miuix_appcompat_deselect_all">Deseleccionar tot</string>
     <string name="miuix_appcompat_deselect_all_description">Desseleccioneu-ho tot</string>
+    <string name="miuix_appcompat_edit">Edita</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Cancel·leu</string>
     <string name="miuix_appcompat_search_input_description">Cerca</string>
     <string name="miuix_appcompat_select_all">Seleccioneu-ho tot</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">"Avui l'IQA és de %1$d en %2$s"</string>
     <string name="notif_weather_title">%1$s en %2$s avui</string>
     <string name="other_settings">Altres ajustos</string>
-    <string name="pad_keyboard_add_city">Afegeix ubicació</string>
-    <string name="pad_keyboard_left_switch">Ubicació anterior</string>
-    <string name="pad_keyboard_right_switch">Propera ubicació</string>
-    <string name="pad_real_time_detail_title">Índexs</string>
     <string name="particulate_matter_exceeded">Alta</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">Massa alt</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Retirada del consentiment</string>
     <string name="privacy_grant_success">Autorització concedida amb èxit</string>
     <string name="privacy_policy">Política de privadesa</string>
-    <string name="privacy_policy_msg">"&lt;Data>Aquesta aplicació conté les següents funcions:&lt;br/>• Informació meteorològica específica de la vostra ubicació &lt;br/>• Previsions meteorològiques &lt;br/>• Advertiments meteorològics &lt;br/>&lt;br/> El temps ha de recollir la informació personal necessària per proporcionar-vos serveis bàsics. Podeu obtenir informació sobre com gestionem la informació que recopilem a la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a>. Llegiu i accepteu el nostre &lt;a href=\"%2$s\">Acord d'usuari&lt;/a> i la &lt;a href=\"%3$s\">Política de privadesa&lt;/a> abans d'utilitzar El temps. Podeu retirar el vostre consentiment a la Política de privadesa de El temps a Configuració en qualsevol moment.&lt;/Data>"</string>
-    <string name="privacy_policy_msg_for_gp">"&lt;Data>Aquesta aplicació conté les següents funcions:&lt;br/>• Informació meteorològica específica de la vostra ubicació &lt;br/>• Previsions meteorològiques &lt;br/>• Advertiments meteorològics &lt;br/>&lt;br/> El temps ha de recollir la informació personal necessària per proporcionar-vos serveis bàsics, inclohent dades d'ubicació per facilitar aquestes funcions, inclús quan l'aplicació estigui apagada. Podeu obtenir informació sobre com gestionem la informació que recopilem a la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a>. Llegiu i accepteu el nostre &lt;a href=\"%2$s\">Acord d'usuari&lt;/a> i la &lt;a href=\"%3$s\">Política de privadesa&lt;/a> abans d'utilitzar El temps. Podeu retirar el vostre consentiment a la Política de privadesa de El temps a Configuració en qualsevol moment.&lt;/Data>"</string>
+    <string name="privacy_policy_msg"><Data>"Aquesta aplicació conté les següents funcions:&lt;br/>• Informació meteorològica específica de la vostra ubicació &lt;br/>• Previsions meteorològiques &lt;br/>• Advertiments meteorològics &lt;br/>&lt;br/> El temps ha de recollir la informació personal necessària per proporcionar-vos serveis bàsics. Podeu obtenir informació sobre com gestionem la informació que recopilem a la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a>. Llegiu i accepteu el nostre &lt;a href=\"%2$s\">Acord d'usuari&lt;/a> i la &lt;a href=\"%3$s\">Política de privadesa&lt;/a> abans d'utilitzar El temps. Podeu retirar el vostre consentiment a la Política de privadesa de El temps a Configuració en qualsevol moment."</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>"Aquesta aplicació conté les següents funcions:&lt;br/>• Informació meteorològica específica de la vostra ubicació &lt;br/>• Previsions meteorològiques &lt;br/>• Advertiments meteorològics &lt;br/>&lt;br/> El temps ha de recollir la informació personal necessària per proporcionar-vos serveis bàsics, inclohent dades d'ubicació per facilitar aquestes funcions, inclús quan l'aplicació estigui apagada. Podeu obtenir informació sobre com gestionem la informació que recopilem a la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a>. Llegiu i accepteu el nostre &lt;a href=\"%2$s\">Acord d'usuari&lt;/a> i la &lt;a href=\"%3$s\">Política de privadesa&lt;/a> abans d'utilitzar El temps. Podeu retirar el vostre consentiment a la Política de privadesa de El temps a Configuració en qualsevol moment."</Data></string>
     <string name="privacy_revoke_success">"L'autorització ha sigut revocada satisfactoriament"</string>
     <string name="privacy_settings">Política de privadesa</string>
     <string name="pull_fresh_updated">"S'ha actualitzat amb èxit"</string>

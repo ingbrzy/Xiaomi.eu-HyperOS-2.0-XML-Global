@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">Za účelom poskytovania lepších služieb môžu procesy bežiace na vašom zariadení (vrátane služieb SystemHelper, RegService a Carrier Services) pravidelne odosielať informácie týkajúce sa vášho zariadenia a SIM karty (vrátane IMEI, IMSI, MSISDN, MEID, ICCID, MAC adresy, verzie systému, verzie systému Android, modelu zariadenia a základných hardvérových špecifikácií), ako aj približné informácie o polohe (vrátane regiónu, súradníc, identifikátora oblasti a ID základňovej stanice) operátorovi prostredníctvom siete WLAN, mobilnej dátovej siete alebo bezplatných SMS. Operátor sa zaväzuje, že bude analyzovať príslušné informácie iba za účelom zlepšovania kvality služieb alebo poskytovania prispôsobených služieb alebo technológií, a nebude poskytovať príslušné informácie tretím stranám v akejkoľvek podobe, ktorá by vás mohla konkrétne identifikovať. Platí osobitné vyhlásenie operátora. Informácie o nákladoch na používanie tejto služby získate od svojho operátora.</string>
     <string name="carrier_introduction_china_rothko">S cieľom zlepšiť kvalitu poskytovaných služieb vám môžu programy spustené v tomto zariadení (vrátane služieb SystemHelper, RegService a Carrier) odosielať informácie o tomto zariadení alebo vašej SIM karte (vrátane IMEI, IMSI, MSISDN, MEID, ICCID, MAC adresy, verzie systému, verzie Androidu, modelu zariadenia, základnej hardvérovej konfigurácie a telefónneho čísla), ako aj vašu približnú polohu (vrátane regiónu, súradníc, identifikátora okolia a identifikátora základňovej stanice) vášmu operátorovi prostredníctvom siete WLAN, mobilných sietí alebo SMS. Pri uskutočňovaní hovorov sa služba DCService pripojí k sieti. Mobilní operátori zaručujú, že tieto informácie sa použijú len na analýzu, zlepšenie kvality služieb alebo poskytovanie prispôsobených služieb alebo technológií a nikdy sa nikomu neposkytnú spôsobom, ktorý by umožnil vašu osobnú identifikáciu. Podrobnosti nájdete v príslušnom vyhlásení vášho operátora. O všetkých súvisiacich poplatkoch za služby sa môžete informovať priamo u svojho operátora.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>Na ovládanie a prenos údajov medzi zariadeniami môžete používať službu Prepojenie Xiaomi. Pred použitím funkcií služby Prepojenie Xiaomi vyjadrite svoj súhlas so zmluvou &lt;a href=%1$s>Zásady ochrany osobných údajov&lt;/a>. Táto aplikácia sa musí pripojiť k internetu a vyžaduje nasledujúce povolenia:</Data></string>
     <string name="clearable_edittext_clear_description">Vymazať</string>
     <string name="clock_introduction">Túto aplikáciu môžete použiť na zobrazovanie času, ako aj časovača, svetového času, stopiek, nastavovanie budíkov a pod.</string>
     <string name="close">Zatvoriť</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Čínsky tradičný kalendár</string>
     <string name="date_time_picker_dialog_title">Nastavte dátum a čas</string>
-    <string name="default_font">Predvolené</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Použiť odtlačok prsta pre odomknutie zariadenia, overenie Mi Pay transakcií alebo pre prihlasovanie do aplikácií a služieb.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Zväčšiť veľkosť písma</string>
     <string name="font_settings_sub_title">Vyberte písmo systému</string>
     <string name="font_settings_title">Nastavenia písma</string>
+    <string name="font_size_title">Veľkosť písma</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Telo</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">Klasický</string>
     <string name="home_settings_poco_launcher">Ponuka aplikácií</string>
     <string name="home_settings_title">Vyberte predvolený launcher</string>
+    <string name="image_brain_configuration_service">Služba konfigurácie Xiaomi Imaging Engine</string>
     <string name="ime_privacy_policy">Zásady ochrany osobných údajov pre vybranú klávesnicu</string>
     <string name="ime_privacy_policy_no_network">Nie je možné sa pripojiť k sieti. Zásady ochrany osobných údajov pre túto klávesnicu zobraziť na %s.</string>
     <string name="ims_introduction">Služba IMS poskytuje základné komunikačné možnosti a používa sa na audio a video hovory vo vysokej kvalite.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">Internetové komunikačné služby Xiaomi vám umožňujú objavovať, pripájať sa a komunikovať s inými zariadeniami Xiaomi.</string>
     <string name="interconnection_service_global_item_title">Xiaomi prepojiteľnosť</string>
     <string name="interconnection_service_global_label">&lt;Data>Xiaomi prepojiteľnosť umožňuje vašim zariadeniam vzájomne bezdrôtovo interagovať. Zapnutím tohto prepínača súhlasíte so zmluvou &lt;a href=%1$s>Zásady ochrany osobných údajov&lt;/a > Xiaomi prepojiteľnosť.&lt;/Data></string>
+    <string name="interconnection_service_permission1">Zapínanie a vypínanie Bluetooth</string>
+    <string name="interconnection_service_permission10">Na objavovanie zariadení v okolí</string>
+    <string name="interconnection_service_permission11">Prenos údajov medzi zariadeniami</string>
+    <string name="interconnection_service_permission12">Na prenos údajov medzi pripojenými zariadeniami</string>
+    <string name="interconnection_service_permission13">Prístup k obsahu obrazovky</string>
+    <string name="interconnection_service_permission14">Pre prístup k obsahu obrazovky počas nahrávania alebo prenosu videa vrátane citlivých informácií, ako sú zvuky, heslá, platobné heslá, fotografie, správy atď.</string>
+    <string name="interconnection_service_permission15">Prístup k histórii hovorov</string>
+    <string name="interconnection_service_permission16">Pre prenos hovorov medzi zariadeniami počas zrkadlenia obrazu</string>
+    <string name="interconnection_service_permission17">Prístup k zoznamu nainštalovaných aplikácií</string>
+    <string name="interconnection_service_permission18">Pre prístup k zoznamu aplikácií nainštalovaných v mobilnom zariadení a zrkadlenie obrazovky v počítači</string>
+    <string name="interconnection_service_permission2">Pre pripojenie a prenos údajov medzi dvoma zariadeniami</string>
+    <string name="interconnection_service_permission3">Zapínanie a vypínanie WLAN</string>
+    <string name="interconnection_service_permission4">Na prenos údajov medzi dvoma zariadeniami prostredníctvom siete WLAN</string>
+    <string name="interconnection_service_permission5">Nahrať zvuk</string>
+    <string name="interconnection_service_permission6">Pre nahrávanie zvuku zariadenia počas prenosu obrazu a zrkadlenia</string>
+    <string name="interconnection_service_permission7">Prístup k fotografiám a súborom v zariadení a ich ukladanie</string>
+    <string name="interconnection_service_permission8">Pre prenos videa a obsahu z tohto zariadenia</string>
+    <string name="interconnection_service_permission9">Prístup k identifikátoru zariadenia</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s Funkcie prepojenia Xiaomi dostupné vo vašom zariadení sa môžu líšiť v dôsledku rozdielov vo verziách systému a modelov zariadení. Viac informácií nájdete na našej oficiálnej webovej stránke (%2$s).</string>
     <string name="interconnection_service_summary_global">Funkcie Xiaomi prepojiteľnosti sa môžu líšiť v závislosti od modelu zariadenia a verzie systému. Podrobnosti nájdete na oficiálnom webe systému.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Ak zariadenie stratíte, bez nastavenia Zámku obrazovky nebudete môcť zabrániť iným osobám v neoprávnenom využívaní vášho zariadenia a v prístupe k vašim dátam. Napriek tomu preskočiť?</string>
@@ -307,10 +328,22 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="item_lock_screen_password_only">Zámok obrazovky</string>
     <string name="item_return">Nastaviť</string>
     <string name="item_skip">Preskočiť</string>
+    <string name="kind_tip_details_inner_details">Pri používaní a prenášaní zariadenia sa vyhnite kontaktu s ostrými predmetmi (hrot pera, nechty atď.). Pred zložením zariadenia sa uistite, že sa vnútorná obrazovka nedotýka žiadnych tvrdých predmetov, ako sú karty, mince alebo kľúče.</string>
+    <string name="kind_tip_details_inner_title">Zabráňte kontaktu ostrých a tvrdých predmetov s vnútornou obrazovkou.</string>
+    <string name="kind_tip_details_pocket_details">Keď zariadenie nepoužívate, majte ho zložené. Zabráňte kontaktu vnútornej obrazovky s ostrými a tvrdými predmetmi vo vrecku alebo v taške.</string>
+    <string name="kind_tip_details_pocket_title">Otvorené zariadenie nevkladajte priamo do vrecka alebo tašky.</string>
+    <string name="kind_tip_details_protective_details_cn">Vnútorná obrazovka zariadenia má špeciálnu ochrannú fóliu, ktorej výmena si vyžaduje profesionálne vybavenie. Vnútornú ochrannú fóliu neodstraňujte ani nevymieňajte sami, pretože akékoľvek poškodenie vnútornej obrazovky bude mať vplyv na záruku. Pre výmenu ochrannej fólie obrazovky kontaktujte popredajný servis Xiaomi.</string>
+    <string name="kind_tip_details_protective_details_global">Vnútorná obrazovka tohto zariadenia je potiahnutá špeciálnou ochrannou fóliou. Odstránenie alebo výmena tejto fólie môže poškodiť vnútornú obrazovku.</string>
+    <string name="kind_tip_details_protective_title">Ochranný kryt obrazovky neodstraňujte sami.</string>
+    <string name="kind_tip_subtitle">Toto zariadenie používa skladací displej. Aby ste ho ochránili pred poškodením a zabezpečili jeho normálnu funkciu, dodržiavajte pri jeho používaní nasledujúce bezpečnostné opatrenia.</string>
+    <string name="kind_tip_title">Upozornenie</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Zdieľanie údajov o polohe so záchrannými zložkami</string>
     <string name="language_picker_other_languages_title">Viac jazykov</string>
     <string name="language_settings">Vyberte jazyk</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Veľké</string>
+    <string name="layout_size_normal">Bežné</string>
     <string name="locale_picker_other_locale_title">Viac regiónov</string>
     <string name="locale_picker_title">Vyberte váš región</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +620,10 @@ Túto funkciu môžete ovládať v časti Nastavenia > Odtlačky prstov, údaje 
     <string name="privacy_provision_title">Súkromie</string>
     <string name="privacy_refuse">Nesúhlasím</string>
     <string name="privacy_title">Pravidlá a Zásady ochrany osobných údajov</string>
+    <string name="prompt_fingerprint">Pre vaše konto je povolená rozšírená ochrana údajov. Nastavte zámok obrazovky pre toto zariadenie.</string>
     <string name="protect_persoanl_info_statement">Budeme zbierať vaše osobné informácie v súlade s platnými zákonmi, nariadeniami a politikami súkromia.</string>
     <string name="provision_back">Späť</string>
+    <string name="provision_complete_text">Pokračovať</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Pozrite si &lt;a href=%1$s>Zásady ochrany osobných údajov&lt;/a > vašej zvolenej klávesnice.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Zásady ochrany osobných údajov</string>
     <string name="provision_next">Ďalej</string>
@@ -613,6 +648,8 @@ Túto funkciu môžete ovládať v časti Nastavenia > Odtlačky prstov, údaje 
     <string name="require_telephone_location">Prístup k polohe</string>
     <string name="require_telephone_location_summary">Na prístup k približnej polohe a poskytovanie služieb optimalizácie siete na základe polohy</string>
     <string name="require_telephone_statement">Na poskytovanie základných služieb sú potrebné tieto povolenia:</string>
+    <string name="sample_text_summary">Spoločnosť Xiaomi neúnavne vytvára úžasné produkty za poctivé ceny, aby si každý na svete mohol užívať lepší život vďaka inovatívnej technológii.</string>
+    <string name="sample_text_title">Ukážka textu:</string>
     <string name="saturday">Sobota</string>
     <string name="saturday_short">Sob</string>
     <string name="saturday_shortest">Sob</string>
@@ -689,7 +726,9 @@ Túto funkciu môžete ovládať v časti Nastavenia > Odtlačky prstov, údaje 
     <string name="skip_gesture_guide_dialog_title">Gestá na celú obrazovku</string>
     <string name="skip_underline">Preskočiť tento krok</string>
     <string name="start_up_slogan">Jedine váš</string>
+    <string name="startup_page_text_hint">Rozložením aktivujte zariadenie</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Naučte sa gestá navigácie</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Nenastavené</string>
     <string name="sunday">Nedeľa</string>
@@ -700,6 +739,7 @@ Túto funkciu môžete ovládať v časti Nastavenia > Odtlačky prstov, údaje 
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">Plug-in služby Domovská obrazovka vám poskytuje základné funkcie, ako sú Domovská obrazovka, systémové používateľské rozhranie a snímky obrazovky.</string>
     <string name="term_condition_detail">Získajte úžasné obrázky a vzrušujúce príbehy, ktoré sa vám denne doručia na Zamknutú obrazovku. Táto funkcia nebude používať vaše údaje na prispôsobenie bez vášho súhlasu. Pred použitím tejto funkcie si prečítajte a vyjadrite súhlas so zmluvami poskytovateľa tretej strany &lt;a href =%1$s>Zásady ochrany osobných údajov&lt;/a> a &lt;a href =%2$s>Podmienky používania&lt;/a>.</string>
+    <string name="terms_and_statement_title">Pravidlá a podmienky</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Pravidlá a podmienky</string>
@@ -743,7 +783,8 @@ Túto funkciu môžete ovládať v časti Nastavenia > Odtlačky prstov, údaje 
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Služba aktualizácie systému (kontroluje aktualizácie online a informuje o nových verziách)</string>
     <string name="terms_of_use_label_use_location_and_network_global">Pred použitím systému si musíte prečítať a vyjadriť súhlas s našimi zmluvami Podmienky používania a Zásady ochrany osobných údajov. Vaše osobné údaje budeme chrániť v súlade s príslušnými zákonmi, nariadeniami a zásadami ochrany osobných údajov. Keď je vaše zariadenie aktivované, k sieti sa pripoja nasledujúce služby a získajú prístup k vašej polohe:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">Pred použitím systému si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%1$s\">Podmienky používania&lt;/a> a &lt;a href=\"%2$s\">Zásady ochrany osobných údajov&lt;/a>. Vaše osobné údaje budeme chrániť v súlade s príslušnými zákonmi, predpismi a zásadami ochrany osobných údajov.</string>
+    <string name="terms_of_use_label_use_network_china_append">Po aktivácii zariadenia sa k sieti pripojia nasledujúce služby:</string>
     <string name="terms_of_use_label_wallpaper">Tapeta</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

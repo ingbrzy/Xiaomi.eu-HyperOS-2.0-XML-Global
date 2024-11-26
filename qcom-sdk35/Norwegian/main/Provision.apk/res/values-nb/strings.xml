@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">For å gi deg bedre tjenester kan prosesser som kjøres på enheten (inkludert SystemHelper, RegService og operatørtjenester) fra tid til annen sende informasjon knyttet til enheten og SIM-kortet (inkludert IMEI, IMSI, MSISDN, MEID, ICCID, MAC-adresse, systemversjon, Android-versjon, enhetsmodell og grunnleggende maskinvarespesifikasjoner), samt omtrentlig stedsinformasjon (inkludert region, koordinater, områdeidentifikator og basestasjons-ID) til operatøren via WLAN, mobildatanettverk eller gratis SMS-meldinger. Operatøren påtar seg å analysere relevant informasjon utelukkende for å forbedre kvaliteten på tjenestene eller for å tilby tilpassede tjenester eller teknologier, og å ikke avsløre relevant informasjon til tredjeparter i noen form som kan identifisere deg personlig. Den spesifikke operatøroppgaven skal gå foran. Ta kontakt med operatøren din angående kostnadene ved å bruke denne tjenesten.</string>
     <string name="carrier_introduction_china_rothko">For å forbedre kvaliteten på tjenestene vi leverer til deg kan programmene som kjøres på denne enheten (herunder SystemHelper-, RegService og Carrier-tjenestene) sende informasjon om denne enheten eller SIM-kortet ditt (herunder IMEI, IMSI, MSISDN, MEID, ICCID, MAC-adresse, systemversjon, Android-versjon, enhetsmodell, grunnleggende maskinvarekonfigurasjon og telefonnummer), samt din omtrentlige plassering (herunder region, koordinater, nabolagsidentifikator og basestasjons-ID) til operatøren din via WLAN, mobilnettverk eller SMS. Når du ringer, vil DCService kobles til nettverket. Mobiloperatører garanterer at denne informasjonen bare vil bli brukt til analysering, forbedring av tjenestene og levering av tilpassede tjenester eller tilpasset teknologi, og at den aldri vil bli delt med andre på en måte som kan gjøre det mulig å identifisere deg personlig. Se erklæringen fra den aktuelle leverandøren for ytterligere informasjon. Du kan spørre operatøren om eventuelle relaterte tjenestegebyrer.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>Du kan bruke Xiaomi Sammenkobling for å kontrollere og overføre data på tvers av enheter. Godta Xiaomi Sammenkoblings &lt;a href=%1$s>personvernerklæring&lt;/a> før du bruker funksjonene. Denne appen må kobles til internett og krever følgende tillatelser:</Data></string>
     <string name="clearable_edittext_clear_description">Fjern</string>
     <string name="clock_introduction">Du kan bruke denne appen til å se tid, samt til å bruke tidtaker, verdensklokke, stoppeklokke, angi alarmer og mer.</string>
     <string name="close">Lukk</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradisjonell kinesisk kalender</string>
     <string name="date_time_picker_dialog_title">Angi dato og tid</string>
-    <string name="default_font">Standard</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Bruk fingeravtrykket ditt til å låse opp enheten din, bekrefte Mi Pay-transaksjoner eller for å logge inn på apper og tjenester.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Øk tekststørrelse</string>
     <string name="font_settings_sub_title">Velg systemskrifttype</string>
     <string name="font_settings_title">Skrifttypeinnstillinger</string>
+    <string name="font_size_title">Tekststørrelse</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Hoveddel</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">Klassisk</string>
     <string name="home_settings_poco_launcher">App-skuff</string>
     <string name="home_settings_title">Velg standardstarter</string>
+    <string name="image_brain_configuration_service">Konfigurasjonstjeneste for Xiaomi Imaging Engine</string>
     <string name="ime_privacy_policy">Personverninnstillinger for valgt tastatur</string>
     <string name="ime_privacy_policy_no_network">Ingen nettverksforbindelse. Se personverninnstillinger for dette tastaturet på %s.</string>
     <string name="ims_introduction">IMS-tjenesten gir grunnleggende kommunikasjonsevner og brukes til HD-lyd og HD-videosamtaler.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">Xiaomi Internettkommunikasjonstjenester lar deg oppdage, koble til og kommunisere med andre Xiaomi-enheter.</string>
     <string name="interconnection_service_global_item_title">Xiaomi Sammenkobling</string>
     <string name="interconnection_service_global_label">&lt;Data>Med Xiaomi Sammenkobling kan enhetene dine samhandle trådløst. Ved å slå denne bryteren på godtar du Xiaomi Sammenkoblings &lt;a href=%1$s>personvernerklæring&lt;/a >.&lt;/Data></string>
+    <string name="interconnection_service_permission1">Aktiver og deaktiver Bluetooth</string>
+    <string name="interconnection_service_permission10">For å oppdage enheter i nærheten</string>
+    <string name="interconnection_service_permission11">Overfør data mellom enheter</string>
+    <string name="interconnection_service_permission12">For overføring av data mellom tilkoblede enheter</string>
+    <string name="interconnection_service_permission13">Få tilgang til skjerminnhold</string>
+    <string name="interconnection_service_permission14">For å få tilgang til skjerminnhold under opptak eller strømming, inkludert sensitiv informasjon som bl.a. lyd, passord, betalingspassord, bilder, meldinger osv.</string>
+    <string name="interconnection_service_permission15">Tilgang til anropshistorikk</string>
+    <string name="interconnection_service_permission16">For overføring av anrop på tvers av enheter under skjermspeiling</string>
+    <string name="interconnection_service_permission17">Få tilgang til listen over installerte apper</string>
+    <string name="interconnection_service_permission18">For å få tilgang til listen over programmer som er installert på en mobilenhet og skjermspeiling på datamaskiner</string>
+    <string name="interconnection_service_permission2">For tilkobling og overføring av data mellom to enheter</string>
+    <string name="interconnection_service_permission3">Aktiver og deaktiver WLAN</string>
+    <string name="interconnection_service_permission4">For overføring av data mellom to enheter via WLAN</string>
+    <string name="interconnection_service_permission5">Ta opp lyd</string>
+    <string name="interconnection_service_permission6">For opptak av lyd fra enheten ved strømming og speiling</string>
+    <string name="interconnection_service_permission7">Få tilgang til og redigere filer på denne enheten</string>
+    <string name="interconnection_service_permission8">For strømming og overføring av innhold fra denne enheten</string>
+    <string name="interconnection_service_permission9">Få tilgang til enhetsidentifikator</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s Hvilke Xiaomi Sammenkobling-funksjonene som er tilgjengelige på enheten din kan variere grunnet forskjeller i systemversjoner og enhetsmodeller. Se vår offisielle nettside (%2$s) for ytterligere informasjon.</string>
     <string name="interconnection_service_summary_global">Funksjonene i Xiaomi Sammenkobling kan variere avhengig av enhetens modell og systemversjonen. Gå til systemets offisielle nettside for å lese mer.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Hvis enheten går tapt, vil du ikke kunne hindre andre mot å bruke den og få tilgang til dine data, med mindre du har aktivert en skjermlås. Vil du fortsatt ignorere dette?</string>
@@ -307,10 +328,22 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="item_lock_screen_password_only">Skjermlås</string>
     <string name="item_return">Angi</string>
     <string name="item_skip">Hopp over</string>
+    <string name="kind_tip_details_inner_details">Unngå å trykke på skjermen med skarpe gjenstander (pennespisser, negler el. lign.) når du bruker eller bærer enheten. Før enheten legges sammen, må du være sikker på at den innvendige skjermen er fri for harde gjenstander som f.eks. kort, mynter og nøkler.</string>
+    <string name="kind_tip_details_inner_title">Ikke trykk på den innvendige skjermen med skarpe eller harde gjenstander.</string>
+    <string name="kind_tip_details_pocket_details">Legg sammen enheten når du ikke bruker den. Unngå at den innvendige skjermen kommer i kontakt med skarpe eller harde gjenstander i vesken eller lommen.</string>
+    <string name="kind_tip_details_pocket_title">Ikke legg en ikke-sammenlagt enhet rett i vesken eller lommen</string>
+    <string name="kind_tip_details_protective_details_cn">Den innvendige skjermen på denne enheten er dekket av en spesiell beskyttende film. Denne skal bare skiftes ut med profesjonelt utstyr. Ikke ta av eller skift ut den innvendige skjermen på egen hånd, da det kan skade den innvendige skjermen og påvirke garantien. Hvis du må skifte ut skjermbeskyttelsen på den innvendige skjermen, må du kontkate Xiaomis ettersalgsservice.</string>
+    <string name="kind_tip_details_protective_details_global">Den innvendige skjermen på denne enheten er dekket av en spesiell beskyttende film. Hvis den fjernes eller skiftes ut, kan det medføre skade på den innvendige skjermen.</string>
+    <string name="kind_tip_details_protective_title">Ikke ta av beskyttelsesfilmen på den innvendige skjermen selv</string>
+    <string name="kind_tip_subtitle">Denne enheten er utstyrt med en sammenleggbar skjerm. For å unngå skade og sikre at skjermen fungerer slik den skal må du ta følgende forholdsregler ved bruk.</string>
+    <string name="kind_tip_title">Obs</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Deler plasseringsinformasjon med nødhjelpsetater</string>
     <string name="language_picker_other_languages_title">Flere språk</string>
     <string name="language_settings">Velg språk</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Stor</string>
+    <string name="layout_size_normal">Vanlig</string>
     <string name="locale_picker_other_locale_title">Flere regioner</string>
     <string name="locale_picker_title">Velg din region</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +620,10 @@ Du kan kontrollere denne funksjonen fra Innstillinger > Fingeravtrykk, ansiktsda
     <string name="privacy_provision_title">Personvern</string>
     <string name="privacy_refuse">Ikke godta</string>
     <string name="privacy_title">Brukervilkår og personvernerklæring</string>
+    <string name="prompt_fingerprint">Avansert databeskyttelse er aktivert for kontoen din. Angi en skjermlås for denne enheten.</string>
     <string name="protect_persoanl_info_statement">Vi beskytter personopplysningene dine i henhold til relevante lover, forskrifter og personvernerklæringer.</string>
     <string name="provision_back">Tilbake</string>
+    <string name="provision_complete_text">Fortsett</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Vis &lt;a href=%1$s>Personvernerklæringen&lt;/a > for ditt valgte tastatur.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Personvernerklæring</string>
     <string name="provision_next">Neste</string>
@@ -613,6 +648,8 @@ Du kan kontrollere denne funksjonen fra Innstillinger > Fingeravtrykk, ansiktsda
     <string name="require_telephone_location">Tilgang til plassering</string>
     <string name="require_telephone_location_summary">For å få tilgang til omtrentlig plassering og levering av posisjonsbaserte tjenester for nettverksoptimalisering</string>
     <string name="require_telephone_statement">For å kunne levere grunnleggende tjenester kreves følgende tillatelser:</string>
+    <string name="sample_text_summary">Xiaomi bygger hele tiden fantastiske produkter til gode priser, slik at alle i verden kan få bedre liv gjennom innovativ teknologi.</string>
+    <string name="sample_text_title">Eksempeltekst.</string>
     <string name="saturday">Lørdag</string>
     <string name="saturday_short">Lør</string>
     <string name="saturday_shortest">Lør</string>
@@ -689,7 +726,9 @@ Du kan kontrollere denne funksjonen fra Innstillinger > Fingeravtrykk, ansiktsda
     <string name="skip_gesture_guide_dialog_title">Fullskjermbevegelser</string>
     <string name="skip_underline">Hopp over dette trinnet</string>
     <string name="start_up_slogan">Yours alone</string>
+    <string name="startup_page_text_hint">Fold ut for å aktivere enheten</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Lær navigasjonsbevegelser</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Ikke satt</string>
     <string name="sunday">Søndag</string>
@@ -700,6 +739,7 @@ Du kan kontrollere denne funksjonen fra Innstillinger > Fingeravtrykk, ansiktsda
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">Tilleggsprogrammet for startskjerm gir deg grunnleggende funksjoner som startskjerm, systemgrensesnitt og skjermbilder.</string>
     <string name="term_condition_detail">Få fantastiske bilder og spennende historier levert på låseskjermen daglig. Denne funksjonen bruker ikke opplysningene dine for tilpasning uten ditt samtykke. Les og godta tredjepartsinnholdsleverandørens &lt;a href =%1$s>personvernerklæring&lt;/a> og &lt;a href =%2$s>brukeravtale&lt;/a> før du bruker denne funksjonen.</string>
+    <string name="terms_and_statement_title">Vilkår og betingelser</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Vilkår og betingelser</string>
@@ -743,7 +783,8 @@ Du kan kontrollere denne funksjonen fra Innstillinger > Fingeravtrykk, ansiktsda
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Systemoppdateringstjeneste (ser etter oppdateringer på nett og varsler om nye versjoner)</string>
     <string name="terms_of_use_label_use_location_and_network_global">Før du bruker systemet, må du lese og godta vår brukeravtale og personvernerklæring. Vi vil beskytte dine personlige opplysninger i samsvar med gjeldende lover, forskrifter og retningslinjer for personvern. Når enheten din er aktivert, kobler følgende tjenester seg til nettverket og får tilgang til posisjonen din:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">Før du bruker systemet må du lese og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a>. Vi vill beskytte personopplysningene dine i samsvar med gjeldende lover, forskrifter og personvererklæringer.</string>
+    <string name="terms_of_use_label_use_network_china_append">Når enheten er aktivert, kobles følgende tjenester til nettverket:</string>
     <string name="terms_of_use_label_wallpaper">Bakgrunn</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

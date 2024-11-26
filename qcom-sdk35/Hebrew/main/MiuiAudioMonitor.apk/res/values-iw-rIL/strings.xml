@@ -4,11 +4,14 @@
     <string name="actionbar_button_up_description">הקודם</string>
     <string name="afternoon">אחר הצהריים</string>
     <string name="am">AM</string>
-    <string name="app_name">עוזר הקלטה</string>
+    <string name="app_name">מקליט שיחות קוליות</string>
     <string name="assistant_note_one">במהלך שיחות קוליות יופיע קיצור דרך בשורת המצב</string>
     <string name="assistant_note_two">הקש על קיצור הדרך כדי להקליט שיחות</string>
+    <string name="button_disagree">ביטול</string>
+    <string name="button_record_start">להקליט</string>
     <string name="call_assistant">עוזר VoIP</string>
-    <string name="call_recording_notification_complete_one">ההקלטה בוצעה בהצלחה. הקש כדי להציג</string>
+    <string name="call_in_progress">call in progress</string>
+    <string name="call_recording_notification_complete_one">ההקלטה בוצעה בהצלחה. הקש כדי להציג.</string>
     <string name="call_recording_notification_complete_other">Recorded %d calls successfully</string>
     <string name="call_recording_notification_title">מקליט שיחות קוליות</string>
     <string name="call_recording_notification_title_error">לא ניתן היה להקליט שיחה קולית</string>
@@ -19,8 +22,8 @@
     <string name="clearable_edittext_clear_description">ניקוי</string>
     <string name="close">סגירה</string>
     <string name="cta_HIPS_Perm_Location_Desc">כדי להקליט שיחות ושמע</string>
-    <string name="cta_main_purpose">"Welcome to App recordings! You can use this app to record voice calls made in third party apps. This app will access caller nicknames to name saved recordings.
-Note that infringement of other people's privacy rights is illegal. You may not use any information obtained through this feature to violate the privacy of others. If you use the above information illegally, you shall assume all the legal risks arising therefrom.
+    <string name="cta_main_purpose">"ברוכים הבאים למקליט שיחות קוליות! ניתן להשתמש ביישום זה כדי להקליט שיחות קוליות שמבוצעות ביישומים של צד שלישי. יישום זה ייגש לכינויים של מתקשרים כדי לתת שמות להקלטות שנשמרו.
+שים לב שהפרה של זכויות הפרטיות של אנשים אחרים אינה חוקית. אינך רשאי להשתמש במידע כלשהו שהושג באמצעות תכונה זו כדי להפר את הפרטיות של אחרים. אם תשתמש במידע כזה באופן לא חוקי, אתה תישא בכל הסיכונים המשפטיים הנובעים מכך.
 "</string>
     <string name="custom_define_perference_title">פרטי הרשאות</string>
     <string name="custom_define_permission_desc_android.permission_group.MICROPHONE">כדי להקליט שיחות ושמע</string>
@@ -30,6 +33,9 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">לוח שנה סיני מסורתי</string>
     <string name="date_time_picker_dialog_title">הגדר תאריך ושעה</string>
+    <string name="desc_privacy_policy_cn">"מקליט שיחות קוליות מאפשר להקליט שיחות קוליות שמבוצעות ביישומים של צד שלישי. יישום זה יקבל גישה לכינויי המתקשרים כדי לתת שמות להקלטות שנשמרו.
+לתשומת ליבכם, פגיעה בזכויות הפרטיות של אנשים אחרים אינה חוקית. אינכם רשאים להשתמש במידע כלשהו שהתקבל באמצעות מאפיין זה כדי לפגוע בפרטיותם של אחרים. אם אתם משתמשים במידע כזה באופן לא חוקי, כל הסיכונים המשפטיים הנובעים מכך הם באחריותכם."</string>
+    <string name="desc_privacy_policy_global">החוקים המקומיים שחלים עליכם או על כל צד אחר שמשתתף בשיחה זו עשויים לחייב קבלת הסכמה מכולם כדי להקליט את השיחה הזו. אתם אחראים לציות לחוקים מסוג זה. Xiaomi לא תישא בכל אחריות בגין כל הפרה של החוק עקב המעשים שלכם או עקב רשלנות מצדכם. השתמשו בהקלטת השיחות בצורה אחראית. ההקלטות מאוחסנות במכשיר שלכם בלבד, ולא תהיה ל-Xiaomi גישה אליהן. להתחיל הקלטה עכשיו?</string>
     <string name="early_morning">מוקדם בבוקר</string>
     <string name="empty" />
     <string name="eras_ad">לספירה</string>
@@ -227,15 +233,18 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="time_picker_dialog_title">הגדרת זמן</string>
     <string name="time_picker_label_hour">"שע'"</string>
     <string name="time_picker_label_minute">"ד'"</string>
+    <string name="title_record_call">להקליט שיחה</string>
     <string name="today">היום</string>
     <string name="tomorrow">מחר</string>
     <string name="tuesday">שלישי</string>
     <string name="tuesday_short">"ג'"</string>
     <string name="tuesday_shortest">"ג'"</string>
     <string name="verify">אישור</string>
+    <string name="video_call">שיחת וידאו בעיצומה</string>
+    <string name="voice_call">נעשה שימוש בשיחה קולית</string>
     <string name="voice_noise_reduction_open">מיטוב טביעת קול מופעל</string>
     <string name="voice_opti_always_on">מיטוב טביעת קול</string>
-    <string name="voice_opti_summer">מסנן רעשים וכדי לשמור על הקול שלך צלול. יש להפעיל תכונה זו ידנית בכל פעם.</string>
+    <string name="voice_opti_summer">מסנן רעשים כדי לשמור על הקול שלך צלול. יש להפעיל תכונה זו באופן ידני בכל פעם.</string>
     <string name="voice_recoding">הקלט שיחות</string>
     <string name="voice_recoding_progress">"מקליט שיחה: "</string>
     <string name="voice_recoding_summer">הקלט שיחות קוליות ושמור אותן ברשמקול</string>

@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">لتزويدك بخدمات أفضل، قد يرسل جهازك (SystemHelper و RegService و Carrier Services) بشكل دوري معلومات الجهاز وبطاقة SIM (بما في ذلك IMEI و IMSI و MSISDN و MEID و ICCID وعنوان MAC وإصدار النظام وإصدار Android وطراز الجهاز ومواصفات الأجهزة الأساسية)، وكذلك معلومات الموقع التقريبية (بما في ذلك المنطقة والإحداثيات ومعرف المنطقة ومعرف المحطة الأساسية) إلى شركة الاتصالات عبر Wi-Fi أو شبكة بيانات الهاتف أو الرسائل القصيرة المجانية. تتعهد شركة الاتصالات بتحليل المعلومات ذات الصلة فقط لتحسين جودة الخدمات أو لتوفير خدمات أو تقنيات مخصصة، ولن تكشف عن المعلومات ذات الصلة لأطراف ثالثة بأي شكل يحدد هويتك شخصيًا. يجب أن يسود بيان الناقل المحدد. استشر شركة الاتصالات الخاصة بك بشأن تكلفة استخدام هذه الخدمة.</string>
     <string name="carrier_introduction_china_rothko">من أجل تحسين جودة الخدمات المقدمة لك، قد ترسل البرامج التي تعمل على هذا الجهاز (بما في ذلك SystemHelper و RegService وخدمات المشغل) المعلومات حول هذا الجهاز أو بطاقة SIM الخاصة بك (بما في ذلك IMEI و IMSI و MSISDN و MEID و ICCID وعنوان MAC وإصدار النظام وإصدار Android وطراز الجهاز والتكوين الأساسي للأجهزة ورقم الهاتف)، وكذلك موقعك التقريبي (بما في ذلك المنطقة والإحداثيات ومعرف الحي ومعرف المحطة الأساسية)، إلى شركة الاتصالات الخاصة بك عبر شبكة WLAN أو شبكات الهاتف المحمول أو الرسائل القصيرة. عند إجراء المكالمات، ستتصل DCService بالشبكة. تضمن شركات الاتصالات المحمولة أن هذه المعلومات لن تُستخدم إلا للتحليل أو تحسين جودة الخدمة أو تقديم خدمات أو تقنيات مخصصة ولن تتم مشاركتها مع أي شخص على الإطلاق بطريقة قد تسمح بتحديد هويتك شخصيًا. راجع البيان ذي الصلة من شركة الاتصالات الخاصة بك للحصول على التفاصيل. يمكنك الاستعلام عن جميع رسوم الخدمة ذات الصلة مباشرة من شركة الاتصالات الخاصة بك.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>يمكنك استخدام اتصال Xiaomi للتحكم في البيانات ونقلها عبر الأجهزة. يرجى الموافقة على &lt;a href=%1$s>سياسة خصوصية&lt;/a > اتصال Xiaomi قبل استخدام ميزاته. يحتاج هذا التطبيق إلى الاتصال بالإنترنت ويتطلب الأذونات التالية:</Data></string>
     <string name="clearable_edittext_clear_description">مسح</string>
     <string name="clock_introduction">يمكنك استخدام هذا التطبيق لعرض الوقت، وكذلك استخدام المؤقت والساعة العالمية وساعة الايقاف وتعيين التنبيهات واكثر من ذلك.</string>
     <string name="close">إغلاق</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">التقويم الصيني التقليدي</string>
     <string name="date_time_picker_dialog_title">تعيين التاريخ والوقت</string>
-    <string name="default_font">الافتراضي</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">استخدم بصمة الاصبع لإلغاء قفل الجهاز أو التحقق من عمليات دفع Mi او لتسجيل الدخول الى التطبيقات والخدمات.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">زيادة حجم النص</string>
     <string name="font_settings_sub_title">حدد نوع خط النظام</string>
     <string name="font_settings_title">إعدادات الخط</string>
+    <string name="font_size_title">حجم النص</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">النص</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">كلاسيكي</string>
     <string name="home_settings_poco_launcher">درج التطبيقات</string>
     <string name="home_settings_title">اختر المشغل الافتراضي</string>
+    <string name="image_brain_configuration_service">خدمة تكوين محرك Xiaomi Imaging Engine</string>
     <string name="ime_privacy_policy">سياسة الخصوصية للوحة المفاتيح المحددة</string>
     <string name="ime_privacy_policy_no_network">لا يوجد اتصال بالشبكة. راجع سياسة الخصوصية لوحة المفاتيح هذه على %s.</string>
     <string name="ims_introduction">توفر خدمة IMS وظائف الاتصال الاساسية وتٌستخدم لمكالمات الصوت والفيديو عالية الدقة.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">تسمح لك خدمات اتصال Xiaomi عبر الإنترنت بالعثور على أجهزة Xiaomi الأخرى والاتصال بها والتواصل معها.</string>
     <string name="interconnection_service_global_item_title">اتصال Xiaomi</string>
     <string name="interconnection_service_global_label">&lt;Data>يسمح اتصال Xiaomi لأجهزتك بالتفاعل مع بعضها البعض لاسلكيًا. من خلال تشغيل هذا المفتاح، فإنك توافق على &lt;a href=%1$s>سياسة خصوصية اتصال Xiaomi&lt;/a >.&lt;/Data>&lt;/Data></string>
+    <string name="interconnection_service_permission1">تشغيل البلوتوث وإيقافه</string>
+    <string name="interconnection_service_permission10">لاكتشاف الأجهزة القريبة</string>
+    <string name="interconnection_service_permission11">نقل البيانات بين الأجهزة</string>
+    <string name="interconnection_service_permission12">لنقل البيانات بين الأجهزة المتصلة</string>
+    <string name="interconnection_service_permission13">الوصول إلى محتوى الشاشة</string>
+    <string name="interconnection_service_permission14">للوصول إلى محتويات الشاشة أثناء التسجيل أو العرض، بما في ذلك المعلومات الحساسة مثل الصوت وكلمات المرور وكلمات مرور الدفع والصور والرسائل وما إلى ذلك.</string>
+    <string name="interconnection_service_permission15">الوصول إلى سجل المكالمات</string>
+    <string name="interconnection_service_permission16">لنقل المكالمات بين الأجهزة أثناء انعكاس الشاشة</string>
+    <string name="interconnection_service_permission17">الوصول إلى قائمة التطبيقات المثبتة</string>
+    <string name="interconnection_service_permission18">للوصول إلى قائمة التطبيقات المثبتة على الأجهزة المحمولة وانعكاس الشاشة على أجهزة الكمبيوتر</string>
+    <string name="interconnection_service_permission2">للاتصال ونقل البيانات بين جهازين</string>
+    <string name="interconnection_service_permission3">تشغيل WLAN وإيقافها</string>
+    <string name="interconnection_service_permission4">لنقل البيانات بين جهازين عبر شبكة WLAN</string>
+    <string name="interconnection_service_permission5">تسجيل الصوت</string>
+    <string name="interconnection_service_permission6">لتسجيل صوت الجهاز عند البث وعكس الشاشة</string>
+    <string name="interconnection_service_permission7">الوصول إلى الصور والملفات الموجودة على جهازك وتغييرها</string>
+    <string name="interconnection_service_permission8">لعرض ونقل المحتوى من هذا الجهاز</string>
+    <string name="interconnection_service_permission9">الوصول إلى معرف الجهاز</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s قد تختلف ميزات الاتصال البيني من Xiaomi المتوفرة على جهازك بسبب الاختلافات في إصدار النظام وطراز الجهاز. تفضل بزيارة موقعنا الرسمي (%2$s) لمزيد من المعلومات.</string>
     <string name="interconnection_service_summary_global">قد تختلف ميزات اتصال Xiaomi وفقًا لطراز الجهاز وإصدار النظام. قم بزيارة الموقع الرسمي للنظام لمعرفة المزيد.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">إذا لم تقم بتعيين قفل للشاشة، فلن تتمكن من منع الآخرين من استخدام جهازك أو الوصول إلى بياناتك إذا فقدته.</string>
@@ -307,10 +328,22 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="item_lock_screen_password_only">قفل الشاشة</string>
     <string name="item_return">تعيين</string>
     <string name="item_skip">تخطي</string>
+    <string name="kind_tip_details_inner_details">تجنب الضغط على الشاشة بأشياء حادة (أطراف القلم والأظافر وما إلى ذلك) أثناء استخدام جهازك أو حمله، قبل طي الجهاز، تأكد من خلو الشاشة الداخلية من الأشياء الصلبة مثل البطاقات أو العملات المعدنية أو المفاتيح.</string>
+    <string name="kind_tip_details_inner_title">لا تضغط على الشاشة الداخلية بأشياء حادة أو صلبة</string>
+    <string name="kind_tip_details_pocket_details">قم بطي جهازك عندما لا تستخدمه، وتجنب ملامسة الشاشة الداخلية لأي أشياء حادة وصلبة في حقيبتك أو جيبك.</string>
+    <string name="kind_tip_details_pocket_title">لا تضع الهاتف مباشرة في حقيبتك أو جيبك قبل طيه</string>
+    <string name="kind_tip_details_protective_details_cn">الشاشة الداخلية لهذا الجهاز مغطاة بطبقة حماية خاصة، ويتطلب معدات احترافية لاستبدالها. يرجى عدم إزالة الطبقة الواقية للشاشة الداخلية أو استبدالها بنفسك، حيث سيؤثر الضرر الناتج على الشاشة الداخلية على الضمان. إذا كنت بحاجة إلى استبدال واقي الشاشة، فاتصل بخدمة ما بعد البيع لدى Xiaomi.</string>
+    <string name="kind_tip_details_protective_details_global">الشاشة الداخلية لهذا الجهاز مغطاة بطبقة حماية خاصة. سيؤدي إزالة هذه الطبقة الواقية أو استبدالها إلى تلف الشاشة الداخلية.</string>
+    <string name="kind_tip_details_protective_title">لا تقم بإزالة واقي الشاشة الداخلية بنفسك</string>
+    <string name="kind_tip_subtitle">تم تجهيز هذا الجهاز بشاشة قابلة للطي. لتجنب التلف والتأكد من أن الشاشة تعمل بشكل طبيعي، اتخذ الاحتياطات التالية أثناء الاستخدام.</string>
+    <string name="kind_tip_title">تنبيه</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">مشاركة معلومات الموقع مع وكالات الإنقاذ في حالات الطوارئ</string>
     <string name="language_picker_other_languages_title">المزيد من اللغات</string>
     <string name="language_settings">اختر اللغة</string>
+    <string name="layout_size_huge">كبير جداً</string>
+    <string name="layout_size_large">كبير</string>
+    <string name="layout_size_normal">قياسية</string>
     <string name="locale_picker_other_locale_title">المزيد من المناطق</string>
     <string name="locale_picker_title">اختر المنطقة</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +620,10 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="privacy_provision_title">الخصوصية</string>
     <string name="privacy_refuse">لا أوافق</string>
     <string name="privacy_title">الشروط وسياسة الخصوصية</string>
+    <string name="prompt_fingerprint">تم تفعيل الحماية المتقدمة للبيانات لحسابك. قم بتعيين قفل الشاشة لهذا الجهاز.</string>
     <string name="protect_persoanl_info_statement">يجب علينا حماية معلوماتك الشخصية وفقًا للقوانين واللوائح وسياسات الخصوصية ذات الصلة.</string>
     <string name="provision_back">رجوع</string>
+    <string name="provision_complete_text">متابعة</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>عرض &lt;a href=%1$s>سياسة خصوصية&lt;/a > لوحة المفاتيح المحددة.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">سياسة الخصوصية</string>
     <string name="provision_next">التالي</string>
@@ -613,6 +648,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="require_telephone_location">الوصول إلى الموقع</string>
     <string name="require_telephone_location_summary">للوصول إلى الموقع التقريبي وتوفير خدمات تحسين الشبكة المستندة إلى الموقع</string>
     <string name="require_telephone_statement">لنتمكن من تقديم الخدمات الأساسية، يلزم الحصول على الأذونات التالية:</string>
+    <string name="sample_text_summary">تصنّع Xiaomi باستمرار منتجات رائعة بأسعار معقولة للسماح لكل شخص حول العالم بالحصول على حياة أفضل من خلال التقنية المبتكرة.</string>
+    <string name="sample_text_title">نص العينة:</string>
     <string name="saturday">السبت</string>
     <string name="saturday_short">السبت</string>
     <string name="saturday_shortest">السبت</string>
@@ -689,7 +726,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="skip_gesture_guide_dialog_title">إيماءات ملء الشاشة</string>
     <string name="skip_underline">تخطي هذه الخطوة</string>
     <string name="start_up_slogan">لك وحدك</string>
+    <string name="startup_page_text_hint">قم بتوسيع الجهاز لتفعيله</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">تعلم إيماءات التنقل</string>
     <string name="summary_collapsed_preference_list">%1$s، %2$s</string>
     <string name="summary_not_set">غير معين</string>
     <string name="sunday">الأحد</string>
@@ -700,6 +739,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">يوفر المكون الإضافي للشاشة الرئيسية ميزات أساسية مثل الشاشة الرئيسية وواجهة مستخدم النظام ولقطات الشاشة.</string>
     <string name="term_condition_detail">احصل على أفضل الصور وأحدث القصص مباشرة على شاشة القفل كل يوم. لن تستخدم هذه الميزة معلوماتك لتخصيص المحتوى الخاص بك دون موافقتك. يرجى قراءة والموافقة على &lt;a href =%1$s>سياسة الخصوصية&lt;/a> و&lt;a href =%2$s>اتفاقية المستخدم&lt;/a> قبل استخدام هذه الميزة.</string>
+    <string name="terms_and_statement_title">الأحكام والشروط</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">"، "</string>
     <string name="terms_of_use">الأحكام والشروط</string>
@@ -743,7 +783,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">خدمة تحديث النظام (التحقق عبر الإنترنت من وجود تحديثات والإشعار بالإصدارات الجديدة)</string>
     <string name="terms_of_use_label_use_location_and_network_global">يجب عليك قراءة والموافقة على اتفاقية المستخدم وسياسة الخصوصية قبل استخدام النظام. نحن نحمي معلوماتك الشخصية وفقًا للقوانين والقواعد وسياسات الخصوصية ذات الصلة. بمجرد تنشيط جهازك، ستتصل الخدمات التالية بالشبكة وستصل إلى معلومات موقعك:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">قبل استخدام النظام، يرجى قراءة &lt;a href=\"%1$s\">الشروط والأحكام&lt;/a> و&lt;a href=\"%2$s\">سياسة الخصوصية&lt;/a> والموافقة عليهما. أ> أ>. وسوف يحمي بياناتك الشخصية وفقًا للقوانين واللوائح وسياسات الخصوصية المعمول بها.</string>
+    <string name="terms_of_use_label_use_network_china_append">عند تنشيط جهازك، ستتصل الخدمات التالية بالشبكة:</string>
     <string name="terms_of_use_label_wallpaper">خلفية الشاشة</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Оновити код доступу</string>
     <string name="e2ee_device_delete">Перейменувати пристрій</string>
     <string name="e2ee_device_delete_tip">"Після видалення цього пристрою зі свого Xiaomi акаунту його буде вимкнено, і ви не зможете користуватися послугами Xiaomi Cloud, пошуком та іншими функціями, пов'язаними з акаунтом, поки не увійдете знову."</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Цей пристрій не підтримує Розширений захист даних, тому ви не зможете увійти до свого акаунту, якщо увімкните цю функцію. Оновіть ОС цього пристрою до Xiaomi HyperOS 2, щоб увійти до акаунту.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Не вдається увійти</string>
     <string name="e2ee_device_exit_failed_tip">Не вдалося вийти. Зачекайте хвилинку та повторіть спробу.</string>
     <string name="e2ee_device_exit_failed_toast">Не вдалося вийти. Зачекайте хвилинку та повторіть спробу.</string>
     <string name="e2ee_device_exit_tip">%s вийшов із системи</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Функція не підтримується у вашому регіоні.</string>
     <string name="e2ee_error_init">Не вдалося ініціалізувати. Зачекайте хвилинку та повторіть спробу.</string>
     <string name="e2ee_error_network">Не вдалося підключитися до мережі. Перевірте налаштування та повторіть спробу.</string>
+    <string name="e2ee_error_real_device">Небезпечне середовище. Спробуйте використати інший пристрій.</string>
     <string name="e2ee_exit_account_button_close">Вимкнути</string>
     <string name="e2ee_exit_account_button_exit">Вийти</string>
     <string name="e2ee_exit_account_subtitle">"Ви збираєтеся вийти з вашого Xiaomi акаунту на пристрої, на якому ви в останнє виконували прив'язування до вашого акаунту. Вам потрібно буде використовувати пароль блокування екрана або код доступу до безпеки, щоб знову увійти та отримати доступ до даних, що зберігаються у хмарі. Або натисніть \"Вимкнути“ нижче, щоб вимкнути Розширений захист даних."</string>
@@ -504,7 +507,7 @@
     <string name="micloud_last_sync_canceled">Синхронізацію було скасовано. Повторіть спробу.</string>
     <string name="micloud_main_head_menu_cloud_backup">Резервні копії</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Пошук пристрою недоступний із Другого простору. Ви можете скористатися цією функцією у Першому просторі.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">"Видалені об'єкти"</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">"Нещодавно видалені об'єкти"</string>
     <string name="micloud_main_network_error">Інтернет недоступний</string>
     <string name="micloud_main_sync_mode_summary">Синхронізовувати дані в режимі реального часу. Ця функція збільшить споживання енергії.</string>
     <string name="micloud_main_sync_mode_title">Швидка синхронізація</string>
@@ -746,6 +749,7 @@
     <string name="other_lockscreen_forget_pin_dialog_title">Забув(-ла) пароль блокування екрана</string>
     <string name="other_lockscreen_sub_title">Введіть пароль блокування екрана цього пристрою, щоб завершити перевірку</string>
     <string name="other_lockscreen_title">Введіть пароль блокування екрана %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Нещодавно змінювали пароль блокування екрана? Спробуйте ввести старий пароль блокування екрана для підтверждення.</string>
     <string name="pay_info_dialog_confirm_to_pay">Сплатити %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Використати залишок Mi Coins: %s</string>
     <string name="pay_info_dialog_title">Оберіть спосіб оплати</string>
@@ -828,6 +832,10 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">"Xiaomi Cloud необхідні дозволи на доступ до об'єктів, що зберігаються на вашому пристрої, щоб мати можливість ідентифікувати несинхронізовані об'єкти та їх кількість. Надати цей дозвіл зараз?"</string>
+    <string name="request_os_permissions_dialog_neg_button">Відхилити</string>
+    <string name="request_os_permissions_dialog_pos_button">Прийняти</string>
+    <string name="request_os_permissions_dialog_title">Необхідні дозволи</string>
     <string name="retain_data_high_quality_photo_waring_message">Після виходу з системи копії ваших фото та відео у високій якості будуть видалені з Галереї. Відповідні вихідні файли як і раніше будуть зберігатися у хмарі. Ви також можете завантажити вихідні файли перед виходом із системи.</string>
     <string name="retain_data_high_quality_photo_waring_title">Зображення у високій якості будуть недоступні</string>
     <string name="revoke_block_by_find_device">Відкликання згоди також відключить програму \"Пошук пристрою\". Вам буде необхідно підтвердити свій пароль після продовження.</string>
@@ -1070,6 +1078,8 @@
     <string name="v7_preference_off">ВИМКНЕНО</string>
     <string name="v7_preference_on">УВІМКНЕНО</string>
     <string name="verify_camera_error_toast">Не вдалося розпізнати код доступу</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud необхідні дозволи на доступ до камери для сканування вашого ключа безпеки. Ви можете надати їх у розділі \"Налаштування\".</string>
+    <string name="verify_camera_google_permission_positive_button">Зрозуміло</string>
     <string name="verify_camera_permission_message">Надайте цій програмі доступ до камери, щоб вона могла сканувати ваш код доступу до безпеки. Ви можете надати цей дозвіл у Налаштуваннях.</string>
     <string name="verify_camera_permission_negative_button">Скасувати</string>
     <string name="verify_camera_permission_positive_button">Налаштування</string>
@@ -1090,7 +1100,7 @@
     <string name="verify_code_warning_toast_limit">Були вичерпані всі спроби перевірки</string>
     <string name="verify_dialog_message">Відправити новий код перевірки або вибрати інший метод відновлення</string>
     <string name="verify_dialog_negative_btn">Скасувати</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Ви увімкнули Розширений захист даних на іншому пристрої. Встановіть пароль блокування екрана на цьому пристрої, щоб отримати доступ до даних, що зберігаються в Xiaomi Cloud.</string>
     <string name="verify_dialog_point">Нікому не показуйте цей код перевірки</string>
     <string name="verify_dialog_point_choose_method">Виберіть інший спосіб перевірки</string>
     <string name="verify_dialog_point_device_password">Введіть пароль блокування екрана іншого пристрою</string>
@@ -1112,7 +1122,7 @@
     <string name="verify_scan_error_not_support_toast">Цей пристрій не підтримує сканування</string>
     <string name="verify_scan_input_textview">Введіть вручну</string>
     <string name="verify_scan_photo_textview">Сканувати</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Натисніть на центр, щоб сфокусуватися</string>
     <string name="verify_scan_point_text_view">Помістіть %d-значний код доступу у поле нижче</string>
     <string name="verify_scan_title">Підтвердити код доступу</string>
     <string name="verify_send_code_btn">Надіслати код</string>
@@ -1132,6 +1142,8 @@
     <string name="verify_warning_dialog_title">Інший пристрій увімкнув наскрізне шифрування</string>
     <string name="verify_warning_dialog_title_pc">Необхідні дозволи</string>
     <string name="verify_warning_dialog_title_web">Необхідні дозволи</string>
+    <string name="verify_warning_verify_dialog_message">Введіть код підтвердження на %s</string>
+    <string name="verify_warning_verify_dialog_title">Підтвердіть Xiaomi акаунт</string>
     <string name="waiting_for_sync">Очікування…</string>
     <string name="web_view_auto_login_fail">Не вдалося увійти. Повторіть спробу.</string>
     <string name="web_view_login_text">Вхід…</string>

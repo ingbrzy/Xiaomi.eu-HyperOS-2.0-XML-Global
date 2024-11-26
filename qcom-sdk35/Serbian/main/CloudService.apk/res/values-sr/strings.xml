@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Ажурирајте безбедносни приступни кључ</string>
     <string name="e2ee_device_delete">Уклони уређај</string>
     <string name="e2ee_device_delete_tip">Када уклоните овај уређај са свог Xiaomi Налога, он ће бити одјављен и нећете моћи да користите Xiaomi Cloud услуге, претрагу и друге функције везане за налог на њему док се поново не пријавите.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Овај уређај не подржава Напредну заштиту података, тако да нећете моћи да се пријавите на свој налог ако укључите ову функцију. Ажурирајте овај уређај на Xiaomi HyperOS 2 да бисте могли да се пријавите на свој налог.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Онемогућено пријављивање</string>
     <string name="e2ee_device_exit_failed_tip">Одјављивање није успело. Сачекајте минут-два и покушајте опет.</string>
     <string name="e2ee_device_exit_failed_toast">Одјављивање није успело. Сачекајте минут-два и покушајте опет.</string>
     <string name="e2ee_device_exit_tip">%s је одјављен</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Ова функција није подржана у вашем региону.</string>
     <string name="e2ee_error_init">Иницијализација није успела. Сачекајте минут-два и покушајте опет.</string>
     <string name="e2ee_error_network">Неуспешно умрежавање. Проверите подешавање мреже и покушајте опет.</string>
+    <string name="e2ee_error_real_device">Ово окружење није безбедно. Покушајте да користите други уређај.</string>
     <string name="e2ee_exit_account_button_close">Искључи</string>
     <string name="e2ee_exit_account_button_exit">Одјави се</string>
     <string name="e2ee_exit_account_subtitle">Са вашег Xiaomi Налога ће бити одјављен уређај којег сте последњег повезали. Мораћете да користите закључавање екрана или безбедносни приступни кључ да бисте се поново пријавили и приступили подацима ускладиштеним у cloud-у. Алтернативно, додирните „Искључи“ испод да бисте искључили Напредну заштиту података.</string>
@@ -504,7 +507,7 @@
     <string name="micloud_last_sync_canceled">Синхронизација је отказана. Покушајте опет.</string>
     <string name="micloud_main_head_menu_cloud_backup">Бекапи</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Функција Пронађи уређај није доступна у Другом простору. Можете је користити у Првом простору.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Oбрисане ставке</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Недавно обрисане ставке</string>
     <string name="micloud_main_network_error">Није могуће повезивање на мрежу</string>
     <string name="micloud_main_sync_mode_summary">Синхронизовање података апликације у реалном времену. Укључивање ове функције повећава потрошњу енергије.</string>
     <string name="micloud_main_sync_mode_title">Брза синронизација</string>
@@ -746,6 +749,7 @@
     <string name="other_lockscreen_forget_pin_dialog_title">Заборавили сте закључавање екрана</string>
     <string name="other_lockscreen_sub_title">Унесите закључавање екрана овог уређаја да бисте довршили потврђивање</string>
     <string name="other_lockscreen_title">Унесите закључавање екрана за %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Недавно сте променили закључавање екрана? Покушајте да унесете старо закључавање екрана ради потврде.</string>
     <string name="pay_info_dialog_confirm_to_pay">Платити %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Користите преостале Mi Новчиће: %s</string>
     <string name="pay_info_dialog_title">Изаберите начин плаћања</string>
@@ -828,6 +832,10 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud-у је потребна дозвола за приступ ставкама ускладиштеним на вашем уређају да би могао да идентификује несинхронизоване ставке и њихову количину. Дати ову дозволу сада?</string>
+    <string name="request_os_permissions_dialog_neg_button">Не прихватам</string>
+    <string name="request_os_permissions_dialog_pos_button">Прихватам</string>
+    <string name="request_os_permissions_dialog_title">Потребне су дозволе</string>
     <string name="retain_data_high_quality_photo_waring_message">Копије ваших фотографија и видео снимака високог квалитета биће обрисане из Галерије након што се одјавите. Одговарајући оригинали фајлови ће и даље бити ускладиштени у cloud-у. Такође можете да преузмете оригиналне фајлове пре него што се одјавите.</string>
     <string name="retain_data_high_quality_photo_waring_title">Слике високог квалитета неће бити достпуне</string>
     <string name="revoke_block_by_find_device">Повлачење пристанка ће такође искључити функцију Пронађи уређај. Мораћете да потврдите лозинку након што наставите.</string>
@@ -1054,7 +1062,7 @@
     <string name="tuesday">Уторак</string>
     <string name="tuesday_short">Уто</string>
     <string name="tuesday_shortest">Уто</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Непознато</string>
     <string name="update_dialog_check_button_text">Провери ажурирања</string>
     <string name="update_dialog_ignore_button_text">Не, хвала</string>
     <string name="update_dialog_no_internet_toast_text">Проверите интернет везу и покушајте опет</string>
@@ -1070,6 +1078,8 @@
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="verify_camera_error_toast">Препознавање приступног кључа није успело</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud-у су потребне дозволе за камеру да би могао да скенира ваш безбедносни кључ. Ову дозволу можете дати у Подешавањима.</string>
+    <string name="verify_camera_google_permission_positive_button">Схватам</string>
     <string name="verify_camera_permission_message">Дозволите овој апликацији да приступи камери да би могла да скенира ваш безбедносни приступни кључ. Ову дозволу можете дати у Подешавањима.</string>
     <string name="verify_camera_permission_negative_button">Откажи</string>
     <string name="verify_camera_permission_positive_button">Подешавања</string>
@@ -1090,7 +1100,7 @@
     <string name="verify_code_warning_toast_limit">Нема више покушаја потврђивања</string>
     <string name="verify_dialog_message">Пошаљите нови код за потврђивање или изаберите други метод опоравка</string>
     <string name="verify_dialog_negative_btn">Откажи</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Укључили сте Напредну заштиту података на другом уређају. Подесите закључавање екрана на овом уређају да бисте могли да приступите својим подацима ускладиштеним у Xiaomi Cloud-у.</string>
     <string name="verify_dialog_point">Не делите ни са ким овај код за потврду</string>
     <string name="verify_dialog_point_choose_method">Изаберите други начин потврђивања</string>
     <string name="verify_dialog_point_device_password">Унесите закључавање екрана другог уређаја</string>
@@ -1112,7 +1122,7 @@
     <string name="verify_scan_error_not_support_toast">Овај уређај не подржава скенирање</string>
     <string name="verify_scan_input_textview">Унесите ручно</string>
     <string name="verify_scan_photo_textview">Скенирај</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Додирните центар да бисте фокусирали</string>
     <string name="verify_scan_point_text_view">Унесите %d-цифрени приступни кључ у поље испод</string>
     <string name="verify_scan_title">Потврдите безбедносни приступни кључ</string>
     <string name="verify_send_code_btn">Пошаљи код</string>
@@ -1132,6 +1142,8 @@
     <string name="verify_warning_dialog_title">Други уређај је укључио шифровање с краја на крај</string>
     <string name="verify_warning_dialog_title_pc">Потребне су дозволе</string>
     <string name="verify_warning_dialog_title_web">Потребне су дозволе</string>
+    <string name="verify_warning_verify_dialog_message">Унесите код за потврду на %s</string>
+    <string name="verify_warning_verify_dialog_title">Потврди Xiaomi Налог</string>
     <string name="waiting_for_sync">Чекање…</string>
     <string name="web_view_auto_login_fail">Неуспешно пријављивање. Покушајте опет.</string>
     <string name="web_view_login_text">Пријављивање…</string>

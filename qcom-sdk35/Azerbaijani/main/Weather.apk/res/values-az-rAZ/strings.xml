@@ -8,6 +8,8 @@
     <string name="act_find_city_hot_city_title">Məşhur şəhərlər</string>
     <string name="act_find_city_location_button_text">Məkanı al</string>
     <string name="act_find_city_location_title">Cari məkan</string>
+    <string name="act_find_city_major_city_title">Məşhur məkanlar</string>
+    <string name="act_find_city_search_history_title">Axtarış tarixçəsi</string>
     <string name="act_location_error_to_find_city">Məkan məlumatını əldə etmək mümkün olmadı. Məkanı əl ilə əlavə edə bilərsiniz.</string>
     <string name="act_set_city_find_side">Məkan aşkarlanır</string>
     <string name="act_set_city_find_side_error">Cihaz məkanı tapılmadı</string>
@@ -63,7 +65,6 @@
     <string name="aqi_quality_so2_desc">Kükürd dioksid</string>
     <string name="aqi_station_best_quality_station">Ətrafdakı ən yaxşı</string>
     <string name="aqi_station_min_distance_station">Yaxındaki stansiya</string>
-    <string name="aqi_title_pad">HKİ: %1$s</string>
     <string name="aqi_top_pollution">Əsas çirkləndiricilər</string>
     <string name="background_location_dialog_authorize_button">Tənzimləmələr</string>
     <string name="background_location_guide_dialog_msg">Bu tətbiqin arxa fonda işləyərkən məkana daxil olmasına icazə verin və ən son hava məlumatı aldığınızdan əmin olmaq üçün \"Həmişə icazə verin\" seçimini edin.</string>
@@ -71,11 +72,14 @@
     <string name="button_allow">Oldu</string>
     <string name="button_confirm">Qəbul et</string>
     <string name="button_exit">Rədd et</string>
+    <string name="button_manage">İdarə et</string>
     <string name="button_settings_cancel">Ləğv et</string>
     <string name="button_settings_confirm">Geri çək</string>
     <string name="button_settings_confirm_to_revoke_msg">Keçidi bağlayaraq Hava məlumatları Gizlilik Siyasəti ilə razılığınızı geri çəkəcəksiniz. Şəxsi məlumatlarınızı toplamağa son verəcəyik. Artıq toplanmış və saxlanılan şəxsi məlumatlar, tətbiq olunan qanunların tələb etdiyi müddətdə silinəcəkdir. Hava məlumatları-nın əsas xidmətləri təmin etməsi üçün lazımi şəxsi məlumatları toplaması lazımdır. Gizlilik Siyasəti ilə razılığınızı geri çəkməyiniz, toplanmış şəxsi məlumatlara əsaslanaraq xidmətlərini qəbul etməmək kimi qəbul ediləcəkdir.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Şəbəkə əlaqənizi yoxlayın və yenidən cəhd edin</string>
+    <string name="city_exceeded_tips">Daha çox məkan əlavə etmək mümkün deyil. Yenisini əlavə etməzdən əvvəl bəzi məkanları silin.</string>
+    <string name="city_exceeded_tips_title">Məkan əlavə etmək mümkün deyil</string>
     <string name="city_exceeded_warning">Daha çox şəhər əlavə etmək olmur. Yenisini əlavə etmək üçün əvvəlcə siyahıda olan bir şəhəri silin.</string>
     <string name="clearable_edittext_clear_description">Təmizlə</string>
     <string name="close">Bağla</string>
@@ -83,6 +87,7 @@
     <string name="connect_fail">Şəbəkəyə qoşula bilmədi, yenidən cəhd edin</string>
     <string name="content_desc_activity_main_add_city">Şəhər əlavə et</string>
     <string name="content_desc_activity_main_add_city_manage">Şəhərləri idarə et</string>
+    <string name="content_desc_activity_main_already_add_city">Əlavə edilmiş məkanlar</string>
     <string name="content_desc_activity_main_more_settings">Daha çox tənzimləmə</string>
     <string name="content_desc_activity_main_page">Səhifə %1$d/%2$d</string>
     <string name="content_desc_back_button">Geri</string>
@@ -231,6 +236,7 @@
     <string name="miuix_appcompat_delete_description">Sil</string>
     <string name="miuix_appcompat_deselect_all">Bütün seçimi ləğv et</string>
     <string name="miuix_appcompat_deselect_all_description">Bütün seçimi ləğv et</string>
+    <string name="miuix_appcompat_edit">Düzəliş et</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Ləğv et</string>
     <string name="miuix_appcompat_search_input_description">Axtar</string>
     <string name="miuix_appcompat_select_all">Hamısını seç</string>
@@ -297,10 +303,6 @@
     <string name="notif_aqi_title">Bügün %2$s-də HKİ %1$d</string>
     <string name="notif_weather_title">Bugün %2$s-də %1$s</string>
     <string name="other_settings">Digər tənzimləmələr</string>
-    <string name="pad_keyboard_add_city">Məkan əlavə et</string>
-    <string name="pad_keyboard_left_switch">Əvvəlki məkan</string>
-    <string name="pad_keyboard_right_switch">Növbəti məkan</string>
-    <string name="pad_real_time_detail_title">İndekslər</string>
     <string name="particulate_matter_exceeded">Yüksək</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">Çox yüksək</string>
@@ -316,8 +318,8 @@
     <string name="privacy_grant_or_revoke_settings">Razılığın geri çəkilməsi</string>
     <string name="privacy_grant_success">Səlahiyyət uğurla verildi</string>
     <string name="privacy_policy">Gizlilik Siyasəti</string>
-    <string name="privacy_policy_msg">&lt;Data>Tətbiq aşağıdakı xüsusiyyətləri ehtiva edir&lt;br/>• Məkanınıza xüsusi hava məlumatı&lt;br/>• Hava proqnozu&lt;br/>• Hava məlumatı xəbərdarlıqları&lt;br/>&lt;br/>Hava məlumatları, əsas xidmətləri təmin etmək üçün lazımi şəxsi məlumatları toplamalıdır. Topladığımız məlumatları necə işlətdiyimizi &lt;a href=\"%1$s\">Gizlilik Siyasəti&lt;/a> sazişimizdə öyrənə bilərsiniz. Hava məlumatlarını istifadə etməzdən əvvəl&lt;a href=\"%2$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%3$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi oxuyun və qəbul edin.İstədiyiniz zaman Tənzimləmələrdə Hava məlumatları Gizlilik Siyasətinə razılığınızı geri çəkə bilərsiniz..&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Bu tətbiq aşağıdakı xüsusiyyətləri ehtiva edir:&lt;br/>• Məkanınız üçün xüsusi hava məlumatı&lt;br/>• Hava proqnozu&lt;br/>• Hava xəbərdarlıqları&lt;br/>&lt;br/>Tətbiq bağlandıqda və ya istifadə edilmədikdə belə bu xüsusiyyətləri əlçatan etmək üçün hava şəraiti, məkan məlumatları daxil olmaqla lazımi şəxsi məlumatları toplamalıdır. Topladığımız məlumatları necə işətdiyimizi &lt;a href=\"%1$s\">Gizlilik Siyasəti&lt;/a> sazişimizdə öyrənə bilərsiniz. Hava tətbiqini istifadə etməzdən əvvəl &lt;a href=\"%2$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%3$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi oxuyun və qəbul edin. İstədiyiniz zaman Tənzimləmələrdə Hava Gizlilik Siyasəti ilə razılığınızı geri çəkə bilərsiniz.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Tətbiq aşağıdakı xüsusiyyətləri ehtiva edir&lt;br/>• Məkanınıza xüsusi hava məlumatı&lt;br/>• Hava proqnozu&lt;br/>• Hava məlumatı xəbərdarlıqları&lt;br/>&lt;br/>Hava məlumatları, əsas xidmətləri təmin etmək üçün lazımi şəxsi məlumatları toplamalıdır. Topladığımız məlumatları necə işlətdiyimizi &lt;a href=\"%1$s\">Gizlilik Siyasəti&lt;/a> sazişimizdə öyrənə bilərsiniz. Hava məlumatlarını istifadə etməzdən əvvəl&lt;a href=\"%2$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%3$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi oxuyun və qəbul edin.İstədiyiniz zaman Tənzimləmələrdə Hava məlumatları Gizlilik Siyasətinə razılığınızı geri çəkə bilərsiniz..</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Bu tətbiq aşağıdakı xüsusiyyətləri ehtiva edir:&lt;br/>• Məkanınız üçün xüsusi hava məlumatı&lt;br/>• Hava proqnozu&lt;br/>• Hava xəbərdarlıqları&lt;br/>&lt;br/>Tətbiq bağlandıqda və ya istifadə edilmədikdə belə bu xüsusiyyətləri əlçatan etmək üçün hava şəraiti, məkan məlumatları daxil olmaqla lazımi şəxsi məlumatları toplamalıdır. Topladığımız məlumatları necə işətdiyimizi &lt;a href=\"%1$s\">Gizlilik Siyasəti&lt;/a> sazişimizdə öyrənə bilərsiniz. Hava tətbiqini istifadə etməzdən əvvəl &lt;a href=\"%2$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%3$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi oxuyun və qəbul edin. İstədiyiniz zaman Tənzimləmələrdə Hava Gizlilik Siyasəti ilə razılığınızı geri çəkə bilərsiniz.</Data></string>
     <string name="privacy_revoke_success">Səlahiyyət uğurla ləğv edildi</string>
     <string name="privacy_settings">Gizlilik Siyasəti</string>
     <string name="pull_fresh_updated">Uğurla yeniləndi</string>

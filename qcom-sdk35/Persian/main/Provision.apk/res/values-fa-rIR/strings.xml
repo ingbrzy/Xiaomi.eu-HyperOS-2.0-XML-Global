@@ -49,6 +49,7 @@
     <string name="carrier_introduction_china">به منظور ارائه خدمات بهتر به شما، فرآیندهای در حال انجام دستگاه شما (شامل SystemHelper، RegService و خدمات کارور) ممکن است به صورت دوره‌ای اطلاعات مربوط به دستگاه و سیم‌کارت (شامل IMEI،IMSI،MSISDN،نشانی MAC، MEID،ICCID، نسخه سیستم، نسخه Android، مدل دستگاه و مشخصات پایه‌ای سخت‌افزار) و همچنین اطلاعات موقعیت تقریبی (شامل منطقه، مختصات، شناساگر منطقه و شناسه ایستگاه پایه‌ای) را از طریق WLAN، شبکه اینترنت همراه و یا پیامک رایگان به کارور ارسال کند. کارور متعهد می‌شود که اطلاعات مربوطه را فقط به منظور بهبود کیفیت خدمات یا ارائه خدمات یا فناوری‌های سفارشی‌شده تجزیه و تحلیل کرده و اطلاعات مربوطه به هر شکلی که شخص شما را شناسایی کند را برای هیچ سوم‌شخصی فاش نخواهد کرد. توضیحات کارور مشخص مناط اعتبار است. درباره هزینه استفاده از این خدمات با کارور خود مشورت کنید.</string>
     <string name="carrier_introduction_china_rothko">به منظور بهبود کیفیت خدمات ارائه شده به شما، برنامه‌های در حال اجرا در این دستگاه (از جمله خدمات SystemHelper، RegService و کارور) ممکن است اطلاعات مربوط به این دستگاه یا سیم‌کارت شما (شامل IMEI، IMSI، MSISDN، MEID، ICCID، نشانی MAC، نسخه سیستم، نسخه Android، مدل دستگاه، پیکربندی سخت افزار اصلی، و شماره تلفن)، و همچنین مکان تقریبی شما (شامل منطقه، مختصات، شناسه محله، و شناسه ایستگاه پایه)، به کارور (شرکت مخابراتی) شما از طریق WLAN، شبکه‌های موبایلی یا پیامک ارسال کنند. هنگام برقراری تماس، DCService به شبکه متصل می‌شود. کارورهای موبایلی تضمین می‌کنند که این اطلاعات فقط برای تجزیه و تحلیل، بهبود کیفیت خدمات، یا ارائه خدمات یا فناوری‌های سفارشی‌سازی شده استفاده می‌شود و هرگز به‌گونه‌ای که امکان شناسایی شخصی شما را فراهم کند با کسی به اشتراک گذاشته نمی‌شود. برای جزئیات به بیانیه مربوطه از سوی کارور خود مراجعه کنید. می‌توانید تمام هزینه‌های خدمات مرتبط را مستقیماً از کارور خود استعلام کنید.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>شما می‌توانید از قابلیت هم‌اتصالی Xiaomi برای کنترل و انتقال داده‌ها بین دستگاه‌ها استفاده کنید. قبل از استفاده از این قابلیت‌، &lt;a href=%1$s>سیاست حفظ حریم خصوصی&lt;/a > هم‌اتصالی Xiaomi را بپذیرید. این برنامه نیاز به اتصال به اینترنت دارد و به مجوزهای زیر نیاز دارد:</Data></string>
     <string name="clearable_edittext_clear_description">پاک‌سازی</string>
     <string name="clock_introduction">از این برنامه می‌توانید برای دیدن زمان و همچنین استفاده از زمان‌سنج، ساعت جهانی، کرنومتر، تنظیم هشدار و موارد بیشتر استفاده کنید.</string>
     <string name="close">بستن</string>
@@ -74,7 +75,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">سالنامه سنتی چینی</string>
     <string name="date_time_picker_dialog_title">تنظیم تاریخ و ساعت</string>
-    <string name="default_font">پیش‌فرض</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">برای باز کردن قفل دستگاه، تأیید معاملات پرداخت Mi یا برای ورود به سیستم برنامه‌ها و خدمات، از اثر انگشت خود استفاده کنید.</string>
@@ -170,6 +170,7 @@
     <string name="font_hint_normal">افزایش اندازه متن</string>
     <string name="font_settings_sub_title">انتخاب فونت سیستم</string>
     <string name="font_settings_title">تنظیمات فونت</string>
+    <string name="font_size_title">اندازه متن</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">متن</string>
@@ -187,6 +188,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">کلاسیک</string>
     <string name="home_settings_poco_launcher">کشوی برنامه</string>
     <string name="home_settings_title">انتخاب لانچر پیش‌فرض</string>
+    <string name="image_brain_configuration_service">خدمات پیکربندی موتور تصویربرداری Xiaomi</string>
     <string name="ime_privacy_policy">سیاست حفظ حریم خصوصی مربوط به صفحه کلید انتخاب شده</string>
     <string name="ime_privacy_policy_no_network">اتصال شبکه وجود ندارد. سیاست حفظ حریم خصوصی این صفحه کلید را در %s نمایش کنید.</string>
     <string name="ims_introduction">خدمات IMS ظرفیت‌های مخابراتی پایه‌ای ارائه داده و برای تماس‌های صوتی و تصویری با وضوح بالا استفاده می‌شود.</string>
@@ -196,6 +198,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">خدمات مخابراتی اینترنت Xiaomi به شما امکان یافتن، اتصال و ارتباط با سایر دستگاه‌های Xiaomi را می‌دهد.</string>
     <string name="interconnection_service_global_item_title">هم‌اتصالی Xiaomi</string>
     <string name="interconnection_service_global_label">&lt;Data>هم‌اتصالی Xiaomi، به دستگاه‌های شما امکان تعامل بی‌سیم با یکدیگر را می‌دهد. با روشن کردن این گزینه، شما &lt;a href=%1$s>سیاست حفظ حریم خصوصی&lt;/a > هم‌اتصالی Xiaomi را می‌پذیرید.&lt;/Data></string>
+    <string name="interconnection_service_permission1">روشن و خاموش کردن بلوتوث</string>
+    <string name="interconnection_service_permission10">برای یافتن دستگاه‌های نزدیک</string>
+    <string name="interconnection_service_permission11">انتقال داده‌ها بین دستگاه‌ها</string>
+    <string name="interconnection_service_permission12">برای انتقال داده بین دستگاه‌های متصل</string>
+    <string name="interconnection_service_permission13">دسترسی به محتوای صفحه</string>
+    <string name="interconnection_service_permission14">دسترسی به محتوای صفحه هنگام ضبط یا بازتاباندن محتوا، از جمله اطلاعات حساس مانند صدا، گذرواژه‌ها، گذرواژه‌های پرداخت، عکس‌ها، پیام‌ها و غیره.</string>
+    <string name="interconnection_service_permission15">دسترسی به تاریخچه تماس</string>
+    <string name="interconnection_service_permission16">انتقال تماس‌ها بین دستگاه‌ها در حین بازتاب صفحه</string>
+    <string name="interconnection_service_permission17">دسترسی به فهرست برنامه‌های نصب شده</string>
+    <string name="interconnection_service_permission18">دسترسی به فهرست برنامه‌های نصب شده بر روی دستگاه تلفن همراه و بازتاب صفحه در رایانه ها</string>
+    <string name="interconnection_service_permission2">برای اتصال و انتقال داده میان دو دستگاه</string>
+    <string name="interconnection_service_permission3">روشن و خاموش کردن WLAN</string>
+    <string name="interconnection_service_permission4">برای انتقال داده بین دو دستگاه از طریق WLAN</string>
+    <string name="interconnection_service_permission5">ضبط صدا</string>
+    <string name="interconnection_service_permission6">برای ضبط صدای دستگاه هنگام بازتاباندن و انعکاس صفحه</string>
+    <string name="interconnection_service_permission7">به عکس‌ها و فایل‌های دستگاه خود دسترسی پیدا کرده و ویرایش کنید</string>
+    <string name="interconnection_service_permission8">بازتاباندن و انتقال محتوا از این دستگاه</string>
+    <string name="interconnection_service_permission9">دسترسی به شناساگر دستگاه</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -269,6 +289,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s به دلیل تفاوت در نسخه‌های سیستم و مدل‌های دستگاه، قابلیت‌های هم‌اتصالی Xiaomi موجود در دستگاه شما ممکن است متفاوت باشد. برای کسب اطلاعات بیشتر به وب سایت رسمی ما (%2$s) مراجعه کنید.</string>
     <string name="interconnection_service_summary_global">ویژگی‌های هم‌اتصالی Xiaomi بسته به مدل دستگاه و نسخه سیستم ممکن است متفاوت باشد. برای جزئیات بیشتر به وب سایت رسمی سیستم مراجعه کنید.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">چنانچه دستگاه شما گم شود، نمی‌توانید از استفاده دیگران از آن و دسترسی آن‌ها به داده‌های خود جلوگیری کنید، مگر آن که قفل صفحه‌ای تنظیم کرده باشید. در هر صورت رد شود؟</string>
@@ -278,10 +299,22 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="item_lock_screen_password_only">قفل صفحه</string>
     <string name="item_return">تنظیم</string>
     <string name="item_skip">رد شدن</string>
+    <string name="kind_tip_details_inner_details">از فشار دادن نمایشگر با اشیاء تیز (نوک قلم، ناخن و غیره) در هنگام استفاده یا حمل دستگاه خودداری کنید. پیش از تا کردن دستگاه، مطمئن شوید که نمایشگر درونی آن فاقد اجسام سخت مانند کارت، سکه یا کلید است.</string>
+    <string name="kind_tip_details_inner_title">نمایشگر درونی را با اجسام تیز یا سخت فشار ندهید</string>
+    <string name="kind_tip_details_pocket_details">دستگاه خود را هر زمان که از آن استفاده نمی‌کنید تا کنید. از تماس نمایشگر درونی با هر گونه اجسام تیز و سخت در کیف یا جیب خودداری کنید.</string>
+    <string name="kind_tip_details_pocket_title">دستگاه تا شده را مستقیماً در کیف یا جیب خود قرار ندهید</string>
+    <string name="kind_tip_details_protective_details_cn">نمایشگر داخلی این دستگاه توسط یک فیلم محافظ مخصوص پوشانده شده است که تعویض آن نیاز به تجهیزات حرفه‌ای دارد. محافظ نمایشگر داخلی را خودتان جدا یا تعویض نکنید، زیرا آسیب به نمایشگر درونی بر روی ضمانت تاثیر می‌گذارد. در صورت نیاز به تعویض محافظ صفحه، با خدمات پس از فروش Xiaomi تماس بگیرید.</string>
+    <string name="kind_tip_details_protective_details_global">نمایشگر داخلی این دستگاه توسط یک فیلم محافظ مخصوص پوشانده شده است. جدا کردن یا تعویض فیلم ممکن است به صفحه داخلی آسیب برساند.</string>
+    <string name="kind_tip_details_protective_title">محافظ نمایشگر درونی را خودتان جدا نکنید</string>
+    <string name="kind_tip_subtitle">این دستگاه مجهز به نمایشگر تاشو است. برای جلوگیری از آسیب و اطمینان از کارایی عادی نمایشگر، موارد احتیاطی زیر را در هنگام استفاده انجام دهید.</string>
+    <string name="kind_tip_title">توجه</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">هم‌رسانی اطلاعات موقعیت با سازمان‌های امداد و نجات</string>
     <string name="language_picker_other_languages_title">زبان‌های بیشتر</string>
     <string name="language_settings">انتخاب زبان</string>
+    <string name="layout_size_huge">خیلی بزرگ</string>
+    <string name="layout_size_large">بزرگ</string>
+    <string name="layout_size_normal">عادی</string>
     <string name="locale_picker_other_locale_title">مناطق بیشتر</string>
     <string name="locale_picker_title">ناحیه خود را انتخاب کنید</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -556,8 +589,10 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="privacy_provision_title">حریم خصوصی</string>
     <string name="privacy_refuse">نمی‌پذیرم</string>
     <string name="privacy_title">شرایط و سیاست حفظ حریم خصوصی</string>
+    <string name="prompt_fingerprint">حفاظت از داده‌های پیشرفته برای حساب شما روشن است. یک قفل صفحه برای این دستگاه تنظیم کنید.</string>
     <string name="protect_persoanl_info_statement">ما بر اساس قوانین، مقررات و سیاست‌های حفظ حریم خصوصی مربوطه از اطلاعات شخصی شما محافظت می‌کنیم.</string>
     <string name="provision_back">بازگشت</string>
+    <string name="provision_complete_text">ادامه</string>
     <string name="provision_inputmethod_policy_description">&lt;Data> نمایش &lt;a href=%1$s>سیاست حفظ حریم خصوصی&lt;/a > صفحه کلید انتخابی خود.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">سیاست حفظ حریم خصوصی</string>
     <string name="provision_next">بعدی</string>
@@ -582,6 +617,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="require_telephone_location">دسترسی به موقعیت</string>
     <string name="require_telephone_location_summary">برای دسترسی به موقعیت مکانی تقریبی و ارائه خدمات بهینه‌سازی شبکه مبتنی بر مکان</string>
     <string name="require_telephone_statement">به منظور ارائه خدمات پایه‌ای، مجوزهای زیر مورد نیاز است:</string>
+    <string name="sample_text_summary">Xiaomi بدون مکث محصولات شگفت‌انگیزی را با قیمت‌های صادقانه می‌سازد تا همه مردم جهان از طریق فناوری نوآورانه لذت ببرند.</string>
+    <string name="sample_text_title">نمونه متن:</string>
     <string name="saturday">شنبه</string>
     <string name="saturday_short">شنبه</string>
     <string name="saturday_shortest">شنبه</string>
@@ -657,6 +694,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="skip_gesture_guide_dialog_title">اشارات تمام‌صفحه</string>
     <string name="skip_underline">رد شدن از این مرحله</string>
     <string name="start_up_slogan">فقط مال شماست</string>
+    <string name="startup_page_text_hint">با تا کردن دستگاه را فعال کنید</string>
+    <string name="study_full_screen_gesture_text">یادگیری اشاره‌های ناوبری</string>
     <string name="summary_not_set">تنظیم نشده است</string>
     <string name="sunday">یک‌شنبه</string>
     <string name="sunday_short">یک‌شنبه</string>
@@ -666,6 +705,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">افزونه خدمات صفحه اصلی به شما ویژگی‌های پایه‌ای همچون صفحه اصلی، رابط کاربری سیستم و عکس‌های صفحه ارائه می‌دهد.</string>
     <string name="term_condition_detail">تصاویر خیره کننده همراه با توضیحات جذاب را روزانه در صفحه قفل خود دریافت کنید. این ویژگی بدون رضایت شما از داده‌هایتان برای شخصی‌سازی استفاده نخواهد کرد. پیش از استفاده از این ویژگی &lt;a href =%1$s>سیاست حفظ حریم خصوصی&lt;/a> و &lt;a href =%2$s>توافق‌نامه کاربر&lt;/a> ارائه کننده سوم‌شخص را خوانده و بپذیرید.</string>
+    <string name="terms_and_statement_title">شرایط و ضوابط</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">"، "</string>
     <string name="terms_of_use">شرایط و ضوابط</string>
@@ -709,7 +749,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">خدمات به‌روزرسانی سیستم (به‌روزرسانی‌های آنلاین را چک می‌کند و درباره نسخه‌ها اطلاع‌رسانی می‌کند)</string>
     <string name="terms_of_use_label_use_location_and_network_global">پیش از استفاده از سیستم، شما باید توافق‌نامه کاربر و سیاست حفظ حریم خصوصی ما را خوانده و پذیرید. ما بر اساس قوانین، مقررات و سیاست‌های حفظ حریم خصوصی مربوطه از اطلاعات شخصی شما محافظت می‌کنیم. هرگاه دستگاه شما فعال شد، خدمات زیر به شبکه متصل شده و به موقعیت شما دسترسی پیدا خواهد شد:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">پیش از استفاده از سیستم، &lt;a href=\"%1$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%2$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را خوانده و با آن موافقت کنید. ما بر اساس قوانین، مقررات و سیاست‌های حفظ حریم خصوصی مربوطه از اطلاعات شخصی شما محافظت می‌کنیم.</string>
+    <string name="terms_of_use_label_use_network_china_append">هنگامی که دستگاه شما فعال شود، خدمات زیر به شبکه متصل می‌شوند:</string>
     <string name="terms_of_use_label_wallpaper">تصویر زمینه</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

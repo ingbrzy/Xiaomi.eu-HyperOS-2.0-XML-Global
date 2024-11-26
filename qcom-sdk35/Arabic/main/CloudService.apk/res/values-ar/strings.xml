@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">تحديث مفتاح المرور الأمني</string>
     <string name="e2ee_device_delete">حذف الجهاز</string>
     <string name="e2ee_device_delete_tip">بمجرد إزالة هذا الجهاز من حسابك Mi، سيتم تسجيل الخروج منه ولن تتمكن من استخدام خدمات Xiaomi Cloud والبحث والميزات الأخرى المتعلقة بالحساب عليه حتى تقوم بتسجيل الدخول مرة أخرى.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">لا يدعم هذا الجهاز حماية البيانات المتقدمة، لذلك لن تتمكن من تسجيل الدخول إلى حسابك إذا قمت بتشغيل هذه الميزة. قم بتحديث هذا الجهاز إلى Xiaomi HyperOS 2 لتتمكن من تسجيل الدخول إلى حسابك.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">لا يمكن تسجيل الدخول</string>
     <string name="e2ee_device_exit_failed_tip">لا يمكن تسجيل الخروج. انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
     <string name="e2ee_device_exit_failed_toast">لا يمكن تسجيل الخروج. انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
     <string name="e2ee_device_exit_tip">لقد تم الخروج من %s</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">هذه الميزة غير مدعومة في منطقتك.</string>
     <string name="e2ee_error_init">غير قادر على التهيئة. انتظر لحظة وحاول مرة أخرى.</string>
     <string name="e2ee_error_network">تعذر الاتصال بالشبكة. تحقق من الإعدادات وحاول مجددًا.</string>
+    <string name="e2ee_error_real_device">هذه البيئة غير آمنة. حاول استخدام جهاز آخر.</string>
     <string name="e2ee_exit_account_button_close">إيقاف التشغيل</string>
     <string name="e2ee_exit_account_button_exit">تسجيل الخروج</string>
     <string name="e2ee_exit_account_subtitle">سيتم تسجيل خروجك من آخر جهاز متصل بحساب Xiaomi الخاص بك. يجب عليك استخدام قفل الشاشة أو مفتاح مرور الأمان لتسجيل الدخول مرة أخرى والوصول إلى بياناتك المخزنة في السحابة. وبدلاً من ذلك، انقر فوق \"إيقاف\" أدناه لإيقاف تشغيل الحماية المتقدمة للبيانات.</string>
@@ -504,7 +507,7 @@
     <string name="micloud_last_sync_canceled">تم إلغاء المزامنة. إعد المحاولة.</string>
     <string name="micloud_main_head_menu_cloud_backup">النسخ الاحتياطي</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">\"العثور على الجهاز\" غير متوفر في الواجهة الثانية. يمكنك استخدام هذه الميزة في الواجهة الاولى.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">العناصر المحذوفة</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">العناصر المحذوفة مؤخرا</string>
     <string name="micloud_main_network_error">يتعذر الاتصال بالشبكة</string>
     <string name="micloud_main_sync_mode_summary">مزامنة البيانات في الوقت الحقيقي. هذه الميزة سوف تزيد من استهلاك الطاقة.</string>
     <string name="micloud_main_sync_mode_title">مزامنة سريعة</string>
@@ -746,6 +749,7 @@
     <string name="other_lockscreen_forget_pin_dialog_title">نسيت قفل الشاشة</string>
     <string name="other_lockscreen_sub_title">أدخل قفل شاشة هذا الجهاز لإكمال عملية التحقق</string>
     <string name="other_lockscreen_title">أدخل %s قفل الشاشة</string>
+    <string name="other_lockscreen_update_password_error_hint">هل قمت بتغيير قفل الشاشة مؤخرًا؟ حاول إدخال قفل الشاشة القديم للتحقق.</string>
     <string name="pay_info_dialog_confirm_to_pay">دفع %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">استخدام عملات Mi النقدية المتبقية: %s</string>
     <string name="pay_info_dialog_title">تحديد طريقه الدفع</string>
@@ -828,6 +832,10 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">تحتاج خدمة Xiaomi Cloud إلى إذن للوصول إلى العناصر المخزنة على جهازك حتى تتمكن من تحديد العناصر غير المتزامنة وكميتها. هل تريد منح هذا الإذن الآن؟</string>
+    <string name="request_os_permissions_dialog_neg_button">لا أوافق</string>
+    <string name="request_os_permissions_dialog_pos_button">أوافق</string>
+    <string name="request_os_permissions_dialog_title">الأذونات مطلوبة</string>
     <string name="retain_data_high_quality_photo_waring_message">ستتم إزالة النسخ عالية الجودة من الصور ومقاطع الفيديو من المعرض بعد تسجيل الخروج. وسيتم تخزين الملفات الأصلية المقابلة على Cloud الخاصة بك. يمكنك تنزيل هذه الملفات من السحابة قبل تسجيل الخروج.</string>
     <string name="retain_data_high_quality_photo_waring_title">لن تكون الصور عالية الجودة متاحة</string>
     <string name="revoke_block_by_find_device">سيؤدي سحبك للموافقة إلى إيقاف ميزة العثور على الجهاز. ستوجب عليك تأكيد كلمة مرورك بعد المتابعة.</string>
@@ -1070,6 +1078,8 @@
     <string name="v7_preference_off">إيقاف</string>
     <string name="v7_preference_on">مفعّلة</string>
     <string name="verify_camera_error_toast">لا يمكن التعرف على مفتاح المرور</string>
+    <string name="verify_camera_google_permission_message">يحتاج Xiaomi Cloud إلى أذونات الكاميرا ليتمكن من المسح الضوئي لمفتاح الأمان الخاص بك. يمكنك منح هذا الإذن في الإعدادات.</string>
+    <string name="verify_camera_google_permission_positive_button">حسنا</string>
     <string name="verify_camera_permission_message">اسمح لهذا التطبيق بالوصول إلى الكاميرا حتى يتمكن من فحص مفتاح مرور الأمان. يمكنك منح هذه الأذونات في الإعدادات.</string>
     <string name="verify_camera_permission_negative_button">إلغاء</string>
     <string name="verify_camera_permission_positive_button">الإعدادات</string>
@@ -1132,6 +1142,8 @@
     <string name="verify_warning_dialog_title">تقوم الأجهزة الأخرى بتشغيل التشفير الشامل</string>
     <string name="verify_warning_dialog_title_pc">الأذونات المطلوبة</string>
     <string name="verify_warning_dialog_title_web">الأذونات المطلوبة</string>
+    <string name="verify_warning_verify_dialog_message">أدخل رمز التحقق في %s</string>
+    <string name="verify_warning_verify_dialog_title">التحقق من حسابك Mi</string>
     <string name="waiting_for_sync">جارٍ الانتظار…</string>
     <string name="web_view_auto_login_fail">تعذر تسجيل الدخول، حاول مجددا.</string>
     <string name="web_view_login_text">تسجيل الدخول…</string>

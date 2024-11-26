@@ -31,11 +31,14 @@
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Після обіду</string>
     <string name="am">ДО</string>
-    <string name="app_name">Recording assistant</string>
+    <string name="app_name">Реєстратор голосових викликів</string>
     <string name="assistant_note_one">"Ярлик рядка стану буде з'являтися під час голосових викликів"</string>
     <string name="assistant_note_two">Натисніть на ярлик для запису викликів</string>
+    <string name="button_disagree">Скасувати</string>
+    <string name="button_record_start">Запис</string>
     <string name="call_assistant">VoIP-помічник</string>
-    <string name="call_recording_notification_complete_one">Записано успішно. Натисніть для перегляду</string>
+    <string name="call_in_progress">call in progress</string>
+    <string name="call_recording_notification_complete_one">Записано успішно. Натисніть для перегляду.</string>
     <string name="call_recording_notification_complete_other">Recorded %d calls successfully</string>
     <string name="call_recording_notification_title">Реєстратор голосових викликів</string>
     <string name="call_recording_notification_title_error">Не вдалося записати голосовий виклик</string>
@@ -47,8 +50,8 @@
     <string name="close">Закрити</string>
     <string name="copy">Скопіювати</string>
     <string name="cta_HIPS_Perm_Location_Desc">Для запису викликів та аудіо</string>
-    <string name="cta_main_purpose">"Welcome to App recordings! You can use this app to record voice calls made in third party apps. This app will access caller nicknames to name saved recordings.
-Note that infringement of other people's privacy rights is illegal. You may not use any information obtained through this feature to violate the privacy of others. If you use the above information illegally, you shall assume all the legal risks arising therefrom.
+    <string name="cta_main_purpose">"Ласкаво просимо до Реєстратора голосових викликів! Ви можете використовувати цю програму для запису викликів, зроблених у сторонніх програмах. У цієї програми буде доступ до імен абонентів, щоб надавати імена збереженим записам.
+Зверніть увагу, що порушення прав інших людей на конфіденційність є незаконним. Ви не маєте права використовувати будь-яку інформацію, отриману за допомогою цієї функції, для порушення права конфіденційності інших осіб. Якщо ви використовуєте вищевказану інформацію незаконно, ви приймаєте на себе всі юридичні ризики, що випливають з таких дій.
 "</string>
     <string name="custom_define_perference_title">Інформація про дозволи</string>
     <string name="custom_define_permission_desc_android.permission_group.MICROPHONE">Для запису викликів та аудіо</string>
@@ -58,6 +61,9 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиційний китайський календар</string>
     <string name="date_time_picker_dialog_title">Встановити дату та час</string>
+    <string name="desc_privacy_policy_cn">"Ви можете використовувати Режстратор голосових викликів для запису викликів, зроблених у сторонніх програмах. У цієї програми буде доступ до імен абонентів, щоб надавати імена збереженим записам.
+Зверніть увагу, що порушення прав інших людей на конфіденційність є незаконним. Ви не маєте права використовувати будь-яку інформацію, отриману за допомогою цієї функції, для порушення права конфіденційності інших осіб. Якщо ви використовуєте вищевказану інформацію незаконно, ви приймаєте на себе всі юридичні ризики, що випливають з таких дій."</string>
+    <string name="desc_privacy_policy_global">Місцеві закони, які застосовуються до вас або будь-якої іншої сторони цього виклику, можуть вимагати від кожної зі сторін дати згоду на запис розмови. Ви несете відповідальність за дотримання таких законів, і Xiaomi не несе відповідальності за будь-яке порушення законів через ваші дії або бездіяльність. Використовуйте Запис викликів відповідально. Записи зберігаються лише на вашому пристрої, і Xiaomi не матиме до них доступу. Почати запис зараз?</string>
     <string name="early_morning">Ранок</string>
     <string name="empty" />
     <string name="eras_ad">н. е.</string>
@@ -123,7 +129,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="introduct_always_on">Автоматично записувати всі виклики у сторонніх програмах</string>
     <string name="introduct_open">Відображати кнопку запису під час викликів у сторонніх програмах</string>
     <string name="introduct_open_new">Автоматично записувати голосові виклики та зберігати їх у Реєстраторі</string>
-    <string name="introduct_voice_opti_on">Оптимізація розпізнавання голосу фільтрує шуми та зберігає ваш голос чітким</string>
+    <string name="introduct_voice_opti_on">Оптимізація зразком голосу фільтрує шуми та зберігає ваш голос чітким</string>
     <string name="introduct_voip_assistant">"Ярлик рядка стану буде з'являтися під час викликів у WeChat та QQ. Натисніть на ярлик для запису викликів."</string>
     <string name="midnight">Ніч</string>
     <string name="miliao">Mi Talk</string>
@@ -200,7 +206,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="preference_copied">\"%1$s\": скопійовано в буфер обміну.</string>
     <string name="record_cancel">Скасувати</string>
     <string name="record_name">Реєстратор голосових викликів</string>
-    <string name="record_now">Прийняти</string>
+    <string name="record_now">Погодитися</string>
     <string name="record_prompt">Розпізнавання голосу</string>
     <string name="record_prompt_str">Щоб приглушати шуми під час викликів, ця програма повинна отримати зразок вашого голосу. Зразок голосу буде збережений локально на цьому пристрої, і ви зможете видалити його, виконавши скидання пристрою до заводських налаштувань. Ви не зможете скористатися цією послугою, якщо не приймите умови використання.</string>
     <string name="record_restart">Записати зразок голосу ще раз</string>
@@ -261,6 +267,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="time_picker_dialog_title">Задати час</string>
     <string name="time_picker_label_hour">Г</string>
     <string name="time_picker_label_minute">Х</string>
+    <string name="title_record_call">Запис виклику</string>
     <string name="today">Сьогодні</string>
     <string name="tomorrow">Завтра</string>
     <string name="tuesday">Вівторок</string>
@@ -269,8 +276,10 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="v7_preference_off">ВИМКНЕНО</string>
     <string name="v7_preference_on">УВІМКНЕНО</string>
     <string name="verify">ОК</string>
-    <string name="voice_noise_reduction_open">Оптимізація розпізнавання голосу увімкнена</string>
-    <string name="voice_opti_always_on">Оптимізація розпізнавання голосу</string>
+    <string name="video_call">Виконується відеовиклик</string>
+    <string name="voice_call">Використовується функція відеовиклику</string>
+    <string name="voice_noise_reduction_open">Оптимізація зразком голосу увімкнена</string>
+    <string name="voice_opti_always_on">Оптимізація зразком голосу</string>
     <string name="voice_opti_summer">Фільтрує шуми та зберігає ваш голос чітким. Вам потрібно щоразу вмикати цю функцію вручну.</string>
     <string name="voice_recoding">Записувати виклики</string>
     <string name="voice_recoding_progress">"Запис виклику: "</string>

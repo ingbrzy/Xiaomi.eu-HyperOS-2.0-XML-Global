@@ -31,11 +31,14 @@
     <string name="actionbar_button_up_description">Geri</string>
     <string name="afternoon">Öğleden sonra</string>
     <string name="am">ÖÖ</string>
-    <string name="app_name">Kayıt asistanı</string>
+    <string name="app_name">Sesli Arama Kaydedici</string>
     <string name="assistant_note_one">Sesli aramalar sırasında bir durum çubuğu kısayolu görünecektir</string>
     <string name="assistant_note_two">Aramaları kaydetmek için kısayola dokunun</string>
+    <string name="button_disagree">İptal</string>
+    <string name="button_record_start">Kaydet</string>
     <string name="call_assistant">VoIP yardımcı</string>
-    <string name="call_recording_notification_complete_one">Başarıyla kaydedildi. Görüntülemek için dokunun</string>
+    <string name="call_in_progress">arama devam ediyor</string>
+    <string name="call_recording_notification_complete_one">Başarıyla kaydedildi. Görüntülemek için dokunun.</string>
     <string name="call_recording_notification_complete_other">Recorded %d calls successfully</string>
     <string name="call_recording_notification_title">Sesli Arama Kaydedici</string>
     <string name="call_recording_notification_title_error">Sesli arama kaydedilemedi</string>
@@ -47,8 +50,8 @@
     <string name="close">Kapat</string>
     <string name="copy">Kopyala</string>
     <string name="cta_HIPS_Perm_Location_Desc">Aramaları ve sesleri kaydetmek için</string>
-    <string name="cta_main_purpose">"Welcome to App recordings! You can use this app to record voice calls made in third party apps. This app will access caller nicknames to name saved recordings.
-Note that infringement of other people's privacy rights is illegal. You may not use any information obtained through this feature to violate the privacy of others. If you use the above information illegally, you shall assume all the legal risks arising therefrom.
+    <string name="cta_main_purpose">"Sesli Arama Kaydedici'ye hoş geldiniz! Bu uygulamayı üçüncü taraf uygulamalarda yapılan sesli aramaları kaydetmek için kullanabilirsiniz. Bu uygulama, kaydedilen kayıtları adlandırmak için arama takma adlarına erişecektir.
+Diğer kişilerin gizlilik haklarının ihlalinin yasa dışı olduğunu unutmayın. Bu özellik aracılığıyla elde edilen hiçbir bilgiyi başkalarının gizliliğini ihlal etmek için kullanamazsınız. Yukarıdaki bilgileri yasa dışı kullanırsanız, bundan kaynaklanan tüm yasal riskleri üstleneceksiniz.
 "</string>
     <string name="custom_define_perference_title">İzin ayrıntıları</string>
     <string name="custom_define_permission_desc_android.permission_group.MICROPHONE">Aramaları ve sesleri kaydetmek için</string>
@@ -58,6 +61,9 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Çin Geleneksel Takvimi</string>
     <string name="date_time_picker_dialog_title">Tarih ve saati ayarla</string>
+    <string name="desc_privacy_policy_cn">"Sesli Arama Kaydedici ile üçüncü taraf uygulamalarda yapılan sesli aramaları kaydedebilirsiniz. Bu uygulama, kaydedilen kayıtları adlandırmak için arama takma adlarına erişecektir.
+Diğer kişilerin gizlilik haklarının ihlalinin yasa dışı olduğunu unutmayın. Bu özellik aracılığıyla elde edilen hiçbir bilgiyi başkalarının gizliliğini ihlal etmek için kullanamazsınız. Yukarıdaki bilgileri yasa dışı kullanırsanız bundan kaynaklanan tüm yasal riskleri üstleneceksiniz."</string>
+    <string name="desc_privacy_policy_global">"Sizin veya bu görüşmenin diğer tarafları için geçerli olan yerel yasalar, görüşmenin kaydedilmesi için herkesin izin vermesini gerektirebilir. Bu tür yasalara uymak sizin sorumluluğunuzdadır ve Xiaomi, eylemleriniz veya ihmalleriniz nedeniyle herhangi bir yasa ihlalinden sorumlu olmayacaktır. Arama kaydını sorumlu bir şekilde kullanın. Kayıtlar yalnızca cihazınızda saklanır ve Xiaomi'nin bunlara erişimi olmayacaktır. Kayıt şimdi başlatılsın mi?"</string>
     <string name="early_morning">Sabah</string>
     <string name="empty" />
     <string name="eras_ad">M.S.</string>
@@ -261,6 +267,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="time_picker_dialog_title">Zamanı ayarla</string>
     <string name="time_picker_label_hour">S</string>
     <string name="time_picker_label_minute">D</string>
+    <string name="title_record_call">Aramayı kaydet</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>
     <string name="tuesday">Salı</string>
@@ -269,14 +276,16 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="v7_preference_off">KAPALI</string>
     <string name="v7_preference_on">AÇIK</string>
     <string name="verify">Tamam</string>
+    <string name="video_call">Görüntülü arama devam ediyor</string>
+    <string name="voice_call">Sesli arama kullanımda</string>
     <string name="voice_noise_reduction_open">Ses izi optimizasyonu açık</string>
     <string name="voice_opti_always_on">Ses izi optimizasyonu</string>
-    <string name="voice_opti_summer">Gültürüleri filtreleyin ve sesinizi net tutar. Bu özeliği her seferinde manul açmanız gerekir.</string>
+    <string name="voice_opti_summer">Sesinizi net tutmak için gürültüleri filtreler. Bu özeliği her seferinde manuel açmanız gerekir.</string>
     <string name="voice_recoding">Aramaları kaydet</string>
     <string name="voice_recoding_progress">"Arama kaydediliyor: "</string>
     <string name="voice_recoding_summer">"Sesli aramaları kaydedin ve Kaydedici'ye kaydedin"</string>
     <string name="voip_assistant">VoIP yardımcı</string>
-    <string name="voip_assistant_purpose">"VoIP yardımcısı'na hoş geldiniz! Bu uygulamayı üçüncü taraf uygulamalarda yapılan sesli aramaları kaydetmek için kullanabilirsiniz. Bu uygulama, kaydedilen kayıtları adlandırmak için arama takma adlarına erişecektir.
+    <string name="voip_assistant_purpose">"VoIP yardımcı'ya hoş geldiniz! Bu uygulamayı üçüncü taraf uygulamalarda yapılan sesli aramaları kaydetmek için kullanabilirsiniz. Bu uygulama, kaydedilen kayıtları adlandırmak için arama takma adlarına erişecektir.
 Diğer kişilerin gizlilik haklarının ihlalinin yasa dışı olduğunu unutmayın. Bu özellik aracılığıyla elde edilen hiçbir bilgiyi başkalarının gizliliğini ihlal etmek için kullanamazsınız. Yukarıdaki bilgileri yasa dışı kullanırsanız, bundan kaynaklanan tüm yasal riskleri üstleneceksiniz.
 "</string>
     <string name="voip_call_assistant">VoIP yardımcı</string>

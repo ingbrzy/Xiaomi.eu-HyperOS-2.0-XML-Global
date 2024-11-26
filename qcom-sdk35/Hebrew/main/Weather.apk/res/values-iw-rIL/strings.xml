@@ -8,6 +8,8 @@
     <string name="act_find_city_hot_city_title">ערים פופולריות</string>
     <string name="act_find_city_location_button_text">לקבל מיקום</string>
     <string name="act_find_city_location_title">המיקום הנוכחי</string>
+    <string name="act_find_city_major_city_title">מיקומים פופולריים</string>
+    <string name="act_find_city_search_history_title">היסטוריית חיפוש</string>
     <string name="act_location_error_to_find_city">לא ניתן היה לקבל פרטי מיקום. ניתן להוסיף מיקום באופן ידני.</string>
     <string name="act_set_city_find_side">מאתר</string>
     <string name="act_set_city_find_side_error">לא ניתן לאתר את המכשיר</string>
@@ -63,7 +65,6 @@
     <string name="aqi_quality_so2_desc">גופרית דו-חמצנית</string>
     <string name="aqi_station_best_quality_station">הכי טובה בסביבה</string>
     <string name="aqi_station_min_distance_station">התחנה הקרובה ביותר</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">מזהמים עיקריים</string>
     <string name="background_location_dialog_authorize_button">הגדרות</string>
     <string name="background_location_guide_dialog_msg">אפשר ליישום לגשת למיקום בזמן שהוא פועל ברקע ובחר ב\"אפשר תמיד\" כדי להבטיח שתקבל מידע עדכני על מזג האוויר.</string>
@@ -71,11 +72,14 @@
     <string name="button_allow">אישור</string>
     <string name="button_confirm">מסכים</string>
     <string name="button_exit">לא מסכים</string>
+    <string name="button_manage">ניהול</string>
     <string name="button_settings_cancel">ביטול</string>
     <string name="button_settings_confirm">ביטול הסכמה</string>
     <string name="button_settings_confirm_to_revoke_msg">בכיבוי המתג אתה מבטל את הסכמתך למדיניות הפרטיות של יישום מזג האוויר. אנו נפסיק לאסוף ממך מידע אישי. המידע האישי שכבר נאסף ונשמר, יימחק תוך פרק הזמן הנדרש על פי החוקים הרלוונטיים. יישום מזג האוויר צריך לאסוף מידע אישי אשר נדרש כדי לספק לך שירותים בסיסיים. ביטול הסכמתך למדיניות הפרטיות שלו ייחשב כסירוב לקבל את שירותיו המבוססים על איסוף מידע אישי.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">בדוק את חיבור הרשת שלך ונסה שוב</string>
+    <string name="city_exceeded_tips">לא ניתן להוסיף מיקומים נוספים. נא להסיר כמה מיקומים כדי להוסיף מיקום חדש.</string>
+    <string name="city_exceeded_tips_title">לא ניתן להוסיף מיקום</string>
     <string name="city_exceeded_warning">לא ניתן להוסיף עוד ערים. כדי להוסיף עיר חדשה, מחק קודם עיר שכבר נמצאת ברשימה.</string>
     <string name="clearable_edittext_clear_description">ניקוי</string>
     <string name="close">סגירה</string>
@@ -83,6 +87,7 @@
     <string name="connect_fail">לא ניתן היה להתחבר לרשת, נסה שוב</string>
     <string name="content_desc_activity_main_add_city">הוספת עיר</string>
     <string name="content_desc_activity_main_add_city_manage">ניהול ערים</string>
+    <string name="content_desc_activity_main_already_add_city">המיקומים שנוספו</string>
     <string name="content_desc_activity_main_more_settings">הגדרות נוספות</string>
     <string name="content_desc_activity_main_page">עמוד %1$d מתוך %2$d</string>
     <string name="content_desc_back_button">חזרה</string>
@@ -231,6 +236,7 @@
     <string name="miuix_appcompat_delete_description">מחק</string>
     <string name="miuix_appcompat_deselect_all">לבטל בחירת הכול</string>
     <string name="miuix_appcompat_deselect_all_description">בטל בחירת הכל</string>
+    <string name="miuix_appcompat_edit">עריכה</string>
     <string name="miuix_appcompat_search_action_mode_cancel">ביטול</string>
     <string name="miuix_appcompat_search_input_description">חיפוש</string>
     <string name="miuix_appcompat_select_all">בחר הכל</string>
@@ -297,10 +303,6 @@
     <string name="notif_aqi_title">היום מדד איכות האוויר (AQI) ב-%2$s הוא %1$d</string>
     <string name="notif_weather_title">%1$s ב-%2$s היום</string>
     <string name="other_settings">הגדרות נוספות</string>
-    <string name="pad_keyboard_add_city">הוספת מיקום</string>
-    <string name="pad_keyboard_left_switch">המיקום הקודם</string>
-    <string name="pad_keyboard_right_switch">המיקום הבא</string>
-    <string name="pad_real_time_detail_title">מדדים</string>
     <string name="particulate_matter_exceeded">גבוהה</string>
     <string name="particulate_matter_not_exceeded">רגילה</string>
     <string name="particulate_matter_serious_exceeded">גבוהה מידי</string>
@@ -316,8 +318,8 @@
     <string name="privacy_grant_or_revoke_settings">ביטול הסכמה</string>
     <string name="privacy_grant_success">ההרשאה הוענקה בהצלחה</string>
     <string name="privacy_policy">מדיניות הפרטיות</string>
-    <string name="privacy_policy_msg">&lt;Data>יישום זה מכיל את המאפיינים הבאים:&lt;br/>• נתוני מזג אוויר בהתאם למיקומך&lt;br/>•תחזיות מזג אוויר&lt;br/>•אזהרות מזג אוויר&lt;br/>&lt;br/>יישום מזג האוויר צריך לאסוף את המידע האישי הנדרש כדי לספק לך שירותים בסיסיים. ניתן למצוא פרטים על אופן הטיפול במידע שאנו אוספים &lt;a href=\"%1$s\">במדיניות הפרטיות&lt;/a> שלנו. עליך לקרוא את &lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ואת &lt;a href=\"%3$s\">מדיניות הפרטיות&lt;/a> שלנו כדי להשתמש ביישום מזג האוויר. באפשרותך למשוך את הסכמתך למדיניות הפרטיות של יישום מזג האוויר בכל עת, תחת ההגדרות.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>יישום זה מכיל את המאפיינים הבאים:&lt;br/>• נתוני מזג אוויר בהתאם למיקומך&lt;br/>•תחזיות מזג אוויר&lt;br/>•אזהרות מזג אוויר&lt;br/>&lt;br/>כדי לספק לך את המאפיינים הללו, יישום מזג האוויר צריך לאסוף את המידע האישי הנדרש, כולל פרטי המיקום, אפילו כאשר היישום סגור או אינו בשימוש. ניתן למצוא פרטים על אופן הטיפול במידע שאנו אוספים &lt;a href=\"%1$s\">במדיניות הפרטיות&lt;/a> שלנו. עליך לקרוא את &lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ואת &lt;a href=\"%3$s\">מדיניות הפרטיות&lt;/a> שלנו כדי להשתמש ביישום מזג האוויר. באפשרותך למשוך את הסכמתך למדיניות הפרטיות של יישום מזג האוויר בכל עת, תחת ההגדרות.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>יישום זה מכיל את המאפיינים הבאים:&lt;br/>• נתוני מזג אוויר בהתאם למיקומך&lt;br/>•תחזיות מזג אוויר&lt;br/>•אזהרות מזג אוויר&lt;br/>&lt;br/>יישום מזג האוויר צריך לאסוף את המידע האישי הנדרש כדי לספק לך שירותים בסיסיים. ניתן למצוא פרטים על אופן הטיפול במידע שאנו אוספים &lt;a href=\"%1$s\">במדיניות הפרטיות&lt;/a> שלנו. עליך לקרוא את &lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ואת &lt;a href=\"%3$s\">מדיניות הפרטיות&lt;/a> שלנו כדי להשתמש ביישום מזג האוויר. באפשרותך למשוך את הסכמתך למדיניות הפרטיות של יישום מזג האוויר בכל עת, תחת ההגדרות.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>יישום זה מכיל את המאפיינים הבאים:&lt;br/>• נתוני מזג אוויר בהתאם למיקומך&lt;br/>•תחזיות מזג אוויר&lt;br/>•אזהרות מזג אוויר&lt;br/>&lt;br/>כדי לספק לך את המאפיינים הללו, יישום מזג האוויר צריך לאסוף את המידע האישי הנדרש, כולל פרטי המיקום, אפילו כאשר היישום סגור או אינו בשימוש. ניתן למצוא פרטים על אופן הטיפול במידע שאנו אוספים &lt;a href=\"%1$s\">במדיניות הפרטיות&lt;/a> שלנו. עליך לקרוא את &lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ואת &lt;a href=\"%3$s\">מדיניות הפרטיות&lt;/a> שלנו כדי להשתמש ביישום מזג האוויר. באפשרותך למשוך את הסכמתך למדיניות הפרטיות של יישום מזג האוויר בכל עת, תחת ההגדרות.</Data></string>
     <string name="privacy_revoke_success">ההרשאה נשללה בהצלחה</string>
     <string name="privacy_settings">מדיניות הפרטיות</string>
     <string name="pull_fresh_updated">עודכן בהצלחה</string>

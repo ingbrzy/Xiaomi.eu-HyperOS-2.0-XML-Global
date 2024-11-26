@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Atnaujinti saugumo slaptažodį</string>
     <string name="e2ee_device_delete">Pašalinti įrenginį</string>
     <string name="e2ee_device_delete_tip">Kai pašalinsite šį įrenginį iš savo „Xiaomi“ paskyros, būsite atjungti ir nebegalėsite naudotis „Xiaomi debesies“ paslaugomis, paieška ir kitomis su paskyra susijusiomis funkcijomis tol, kol neprisijungsite vėl.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Jūsų įrenginys nepalaiko išplėstinės duomenų apsaugos, todėl įjungę šią funkciją negalėsite prisijungti prie paskyros. Atnaujinkite įrenginį į „Xiaomi HyperOS 2“, kad galėtumėte prisijungti prie paskyros.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Nepavyksta prisijungti</string>
     <string name="e2ee_device_exit_failed_tip">Nepavyko atsijungti. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="e2ee_device_exit_failed_toast">Nepavyko atsijungti. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="e2ee_device_exit_tip">Atsijungta iš %s</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Ši funkcija nepalaikoma jūsų regione.</string>
     <string name="e2ee_error_init">Nepavyko inicijuoti. Minutėlę palaukite ir pabandykite dar kartą</string>
     <string name="e2ee_error_network">Nepavyksta prisijungti prie tinklo. Patikrinkite tinklo parametrus ir bandykite dar kartą.</string>
+    <string name="e2ee_error_real_device">Ši aplinka nėra saugi. Pabandykite naudoti kitą įrenginį.</string>
     <string name="e2ee_exit_account_button_close">Išjungti</string>
     <string name="e2ee_exit_account_button_exit">Atsijungti</string>
     <string name="e2ee_exit_account_subtitle">Netrukus atsijungsite iš paskutiniojo prijungto įrenginio, siejamo su jūsų „Xiaomi“ paskyra. Norėdami vėl prisijungti ir pasiekti savo debesyje saugomus duomenis, turėsite naudoti ekrano užraktą arba saugumo slaptažodį. Arba galite spustelėti žemiau esantį mygtuką „Išjungti“, kad išjungtumėte išplėstinę duomenų apsaugą.</string>
@@ -504,7 +507,7 @@ Taip pat galite anonimiškai padėti kitiems rasti jų „Xiaomi“ įrenginius.
     <string name="micloud_last_sync_canceled">Sinchronizavimas atšauktas. Pabandykite dar kartą.</string>
     <string name="micloud_main_head_menu_cloud_backup">Atsarginės kopijos</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">„Rasti įrenginį“ nėra pasiekiamas „Antrojoje erdvėje“. Šią funkciją galite naudoti tik „Pirmojoje erdvėje“.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Ištrinti elementai</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Nesenai ištrinti elementai</string>
     <string name="micloud_main_network_error">Nepavyko prisijungti prie tinklo</string>
     <string name="micloud_main_sync_mode_summary">Sinchronizuoti programos duomenis realiu laiku. Įjungus šią funkciją, padidės energijos sąnaudų lygis.</string>
     <string name="micloud_main_sync_mode_title">Greitasis sinchronizavimas</string>
@@ -746,6 +749,7 @@ Taip pat galite anonimiškai padėti kitiems rasti jų „Xiaomi“ įrenginius.
     <string name="other_lockscreen_forget_pin_dialog_title">Pamiršau ekrano užraktą</string>
     <string name="other_lockscreen_sub_title">Norėdami užbaigti patvirtinimo procesą, įveskite šio įrenginio ekrano užraktą</string>
     <string name="other_lockscreen_title">Įveskite %s ekrano užraktą</string>
+    <string name="other_lockscreen_update_password_error_hint">Neseniai pakeitėte ekrano užraktą? Pabandykite įvesti seną ekrano užraktą patvirtinimui.</string>
     <string name="pay_info_dialog_confirm_to_pay">Mokėti %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Naudoti likusias „Mi“ monetas: %s</string>
     <string name="pay_info_dialog_title">Pasirinkite mokėjimo būdą</string>
@@ -828,6 +832,10 @@ Vietos informacija gali nebūti perduota, jei prastas tinklo ryšys."</string>
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">„Xiaomi debesies“ programai reikia leidimo pasiekti jūsų įrenginyje saugomus elementus, kad būtų galima identifikuoti nesinchronizuotus elementus ir jų kiekį. Suteikti šį leidimą dabar?</string>
+    <string name="request_os_permissions_dialog_neg_button">Nesutinku</string>
+    <string name="request_os_permissions_dialog_pos_button">Sutinku</string>
+    <string name="request_os_permissions_dialog_title">Reikalingi leidimai</string>
     <string name="retain_data_high_quality_photo_waring_message">Aukštos kokybės nuotraukų ir vaizdo įrašų kopijos bus pašalintos iš jūsų galerijos atsijungus. Atitinkami originalūs failai ir toliau bus saugomi debesyje. Originalius failus taip pat galite atsisiųsti prieš atsijungdami.</string>
     <string name="retain_data_high_quality_photo_waring_title">Aukštos kokybės vaizdai nebus pasiekiami</string>
     <string name="revoke_block_by_find_device">Atšaukus sutikimą bus išjungta „Rasti įrenginį“ funkcija. Tęsdami turėsite patvirtinti savo slaptažodį.</string>
@@ -1054,7 +1062,7 @@ Vietos informacija gali nebūti perduota, jei prastas tinklo ryšys."</string>
     <string name="tuesday">Antradienis</string>
     <string name="tuesday_short">An.</string>
     <string name="tuesday_shortest">An.</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Nežinoma</string>
     <string name="update_dialog_check_button_text">Tikrinti, ar yra atnaujinimų</string>
     <string name="update_dialog_ignore_button_text">Ne, ačiū</string>
     <string name="update_dialog_no_internet_toast_text">Patikrinkite interneto ryšį ir bandykite dar kartą</string>
@@ -1070,6 +1078,8 @@ Vietos informacija gali nebūti perduota, jei prastas tinklo ryšys."</string>
     <string name="v7_preference_off">IŠJUNGTA</string>
     <string name="v7_preference_on">ĮJUNGTA</string>
     <string name="verify_camera_error_toast">Nepavyko atpažinti slaptažodžio</string>
+    <string name="verify_camera_google_permission_message">Kad galėtų nuskaityti jūsų saugos raktą, „Xiaomi Cloud“ reikalingas fotoaparato leidimas. Šį leidimą galite suteikti parametruose.</string>
+    <string name="verify_camera_google_permission_positive_button">Supratau</string>
     <string name="verify_camera_permission_message">Leiskite šiai programėlei pasiekti kamerą, kad galėtumėte nuskaityti savo saugumo slaptažodį. Šią teisę galite suteikti parametruose.</string>
     <string name="verify_camera_permission_negative_button">Atšaukti</string>
     <string name="verify_camera_permission_positive_button">Parametrai</string>
@@ -1090,7 +1100,7 @@ Vietos informacija gali nebūti perduota, jei prastas tinklo ryšys."</string>
     <string name="verify_code_warning_toast_limit">Daugiau neliko patvirtinimo galimybių</string>
     <string name="verify_dialog_message">Siųskite naują patvirtinimo kodą arba pasirinkite kitą atkūrimo būdą</string>
     <string name="verify_dialog_negative_btn">Atšaukti</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Kitame įrenginyje įjungėte išplėstinę duomenų apsaugą. Nustatykite šio įrenginio ekrano užsklandą, kad galėtumėte pasiekti savo „Xiaomi debesyje“ laikomus duomenis.</string>
     <string name="verify_dialog_point">Su niekuo nesidalinkite šiuo patvirtinimo kodu</string>
     <string name="verify_dialog_point_choose_method">Pasirinkti kitą patvirtinimo būdą</string>
     <string name="verify_dialog_point_device_password">Įveskite kito įrenginio ekrano užraktą</string>
@@ -1112,7 +1122,7 @@ Vietos informacija gali nebūti perduota, jei prastas tinklo ryšys."</string>
     <string name="verify_scan_error_not_support_toast">Šiame įrenginyje nepalaikomas nuskaitymas</string>
     <string name="verify_scan_input_textview">Įvesti rankiniu būdu</string>
     <string name="verify_scan_photo_textview">Nuskaityti</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Palieskite centrą, kad sufokusuotumėte</string>
     <string name="verify_scan_point_text_view">Į žemiau esantį laukelį įveskite %d skaitmenų slaptažodį</string>
     <string name="verify_scan_title">Patvirtinti saugumo slaptažodį</string>
     <string name="verify_send_code_btn">Siųsti kodą</string>
@@ -1132,6 +1142,8 @@ Vietos informacija gali nebūti perduota, jei prastas tinklo ryšys."</string>
     <string name="verify_warning_dialog_title">Kitas įrenginys įjungė „end-to-end“ šifravimą</string>
     <string name="verify_warning_dialog_title_pc">Reikalingi leidimai</string>
     <string name="verify_warning_dialog_title_web">Reikalingi leidimai</string>
+    <string name="verify_warning_verify_dialog_message">Įveskite patvirtinimo kodą %s</string>
+    <string name="verify_warning_verify_dialog_title">Patvirtinkite „Xiaomi“ paskyrą</string>
     <string name="waiting_for_sync">Laukiama…</string>
     <string name="web_view_auto_login_fail">Nepavyko prisijungti. Bandykite dar kartą.</string>
     <string name="web_view_login_text">Prisijungiama…</string>

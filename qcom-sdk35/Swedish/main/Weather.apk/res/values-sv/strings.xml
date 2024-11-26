@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Populära städer</string>
     <string name="act_find_city_location_button_text">Hämta plats</string>
     <string name="act_find_city_location_title">Nuvarande position</string>
+    <string name="act_find_city_major_city_title">Populära platser</string>
+    <string name="act_find_city_search_history_title">Sökhistorik</string>
     <string name="act_location_error_to_find_city">Kunde inte hämta platsinformation. Du kan lägga till en plats manuellt.</string>
     <string name="act_set_city_find_side">Lokalisering</string>
     <string name="act_set_city_find_side_error">Kan inte lokalisera enhet</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Svaveldioxid</string>
     <string name="aqi_station_best_quality_station">Bäst omkring</string>
     <string name="aqi_station_min_distance_station">Närmaste station</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Stora föroreningar</string>
     <string name="background_location_dialog_authorize_button">Inställningar</string>
     <string name="background_location_guide_dialog_msg">Låt denna app få åtkomst till plats medan den körs i bakgrunden och välj \"Tillåt alltid\" för att säkerställa att du får uppdaterad väderinformation.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">OK</string>
     <string name="button_confirm">Samtycker</string>
     <string name="button_exit">Godkänn inte</string>
+    <string name="button_manage">Hantera</string>
     <string name="button_settings_cancel">Avbryt</string>
     <string name="button_settings_confirm">Återkalla</string>
     <string name="button_settings_confirm_to_revoke_msg">Genom att växla till av, så drar du tillbaka ditt samtycke till integritetspolicyn för Väder. Vi kommer upphöra att samla in din personliga information. De personliga data som redan samlats in och bevaras kommer att raderas inom en specifik period som krav enligt gällande lagar. Väder behöver samla in nödvändig personlig information för att förse dig med grundläggande tjänster. Ditt tillbakadragande av samtycke till dess integritetspolicy kommer hållas som vägran att acceptera dess tjänster baserat på insamlad personlig information.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Kontrollera din nätverksanslutning och försök igen</string>
+    <string name="city_exceeded_tips">Kan inte lägga till fler platser. Ta bort vissa platser innan en ny läggs till.</string>
+    <string name="city_exceeded_tips_title">Kan inte lägga till plats</string>
     <string name="city_exceeded_warning">Kan inte lägga till fler städer. För att lägga till en ny, radera en stad som redan finns i listan först.</string>
     <string name="clearable_edittext_clear_description">Rensa</string>
     <string name="close">Stäng</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Det gick inte att ansluta till nätverket, försök igen</string>
     <string name="content_desc_activity_main_add_city">Lägg till stad</string>
     <string name="content_desc_activity_main_add_city_manage">Hantera städer</string>
+    <string name="content_desc_activity_main_already_add_city">Tillagda platser</string>
     <string name="content_desc_activity_main_more_settings">Fler inställningar</string>
     <string name="content_desc_activity_main_page">Sidan %1$d av %2$d</string>
     <string name="content_desc_back_button">Tillbaka</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Ta bort</string>
     <string name="miuix_appcompat_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_deselect_all_description">Avmarkera alla</string>
+    <string name="miuix_appcompat_edit">Redigera</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Avbryt</string>
     <string name="miuix_appcompat_search_input_description">Sök</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">AQI är %1$d i %2$s idag</string>
     <string name="notif_weather_title">%1$s i %2$s idag</string>
     <string name="other_settings">Andra inställningar</string>
-    <string name="pad_keyboard_add_city">Lägg till plats</string>
-    <string name="pad_keyboard_left_switch">Föregående plas</string>
-    <string name="pad_keyboard_right_switch">Nästa plats</string>
-    <string name="pad_real_time_detail_title">Index</string>
     <string name="particulate_matter_exceeded">Hög</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">För hög</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Återkallelse av ditt samtycke</string>
     <string name="privacy_grant_success">Befogenhet beviljad</string>
     <string name="privacy_policy">Integritetspolicy</string>
-    <string name="privacy_policy_msg">&lt;Data>Den här appen innehåller följande funktioner:&lt;br/>• Väderinfo specifik för din plats&lt;br/>• Väderprognoser&lt;br/>• Vädervarningar&lt;br/>&lt;br/>Väder behöver samla in nödvändig personlig information för att förse dig med grundläggande tjänster. Du kan läsa mer om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Väder. Du kan dra tillbaka ditt samtycke till Integritetspolicyn för Väder i inställningarna när som helst.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Den här appen innehåller följande funktioner:&lt;br/>• Väderinfo specifik för din plats&lt;br/>• Väderprognoser&lt;br/>• Vädervarningar&lt;br/>&lt;br/>Väder behöver samla in nödvändig personlig information, inklusive platsdata, för att göra dessa funktioner tillgängliga, även när appen är stängd eller inte används. Du kan läsa mer om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Väder. Du kan dra tillbaka ditt samtycke till Integritetspolicyn för Väder i inställningarna när som helst.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Den här appen innehåller följande funktioner:&lt;br/>• Väderinfo specifik för din plats&lt;br/>• Väderprognoser&lt;br/>• Vädervarningar&lt;br/>&lt;br/>Väder behöver samla in nödvändig personlig information för att förse dig med grundläggande tjänster. Du kan läsa mer om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Väder. Du kan dra tillbaka ditt samtycke till Integritetspolicyn för Väder i inställningarna när som helst.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Den här appen innehåller följande funktioner:&lt;br/>• Väderinfo specifik för din plats&lt;br/>• Väderprognoser&lt;br/>• Vädervarningar&lt;br/>&lt;br/>Väder behöver samla in nödvändig personlig information, inklusive platsdata, för att göra dessa funktioner tillgängliga, även när appen är stängd eller inte används. Du kan läsa mer om hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Väder. Du kan dra tillbaka ditt samtycke till Integritetspolicyn för Väder i inställningarna när som helst.</Data></string>
     <string name="privacy_revoke_success">Befogenhet upphävd</string>
     <string name="privacy_settings">Integritetspolicy</string>
     <string name="pull_fresh_updated">Uppdaterats</string>

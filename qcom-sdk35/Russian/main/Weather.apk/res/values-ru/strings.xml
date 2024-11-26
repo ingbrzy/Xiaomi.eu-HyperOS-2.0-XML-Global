@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Популярные города</string>
     <string name="act_find_city_location_button_text">Получить местоположение</string>
     <string name="act_find_city_location_title">Настоящее местоположение</string>
+    <string name="act_find_city_major_city_title">Популярные места</string>
+    <string name="act_find_city_search_history_title">История поиска</string>
     <string name="act_location_error_to_find_city">Не удалось получить данные о местоположении. Вы можете добавить место вручную.</string>
     <string name="act_set_city_find_side">Поиск местоположения</string>
     <string name="act_set_city_find_side_error">Местоположение не определено</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Диоксид серы</string>
     <string name="aqi_station_best_quality_station">Лучшая станция</string>
     <string name="aqi_station_min_distance_station">Ближайшая станция</string>
-    <string name="aqi_title_pad">ИКВ: %1$s</string>
     <string name="aqi_top_pollution">Загрязняющие агенты</string>
     <string name="background_location_dialog_authorize_button">Настройки</string>
     <string name="background_location_guide_dialog_msg">Разрешите этому приложению доступ к местоположению во время работы в фоновом режиме и выберите \"Разрешать всегда\", чтобы получать актуальную информацию о погоде.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">OK</string>
     <string name="button_confirm">Согласиться</string>
     <string name="button_exit">Отмена</string>
+    <string name="button_manage">Управление</string>
     <string name="button_settings_cancel">Отмена</string>
     <string name="button_settings_confirm">Отозвать</string>
     <string name="button_settings_confirm_to_revoke_msg">Переводя переключатель в положение \"Выкл.\", вы отзываете свое согласие с Политикой конфиденциальности приложения \"Погода\". Мы прекратим осуществлять сбор вашей личной информации. Уже собранная и сохраненная личная информация будет удалена в течение определенного периода времени в соответствии с действующим законодательством. Приложению \"Погода\" требуется осуществлять сбор необходимой личной информации для предоставления вам основных услуг. Отзыв согласия с Политикой конфиденциальности будет рассматриваться как отказ от служб приложения, функционирующих на основе сбора личной информации.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Проверьте подключение и повторите попытку</string>
+    <string name="city_exceeded_tips">Невозможно добавить больше мест. Удалите некоторые места, прежде чем добавить новое.</string>
+    <string name="city_exceeded_tips_title">Невозможно добавить место</string>
     <string name="city_exceeded_warning">Невозможно добавить больше городов. Удалите один из городов, чтобы добавить новый.</string>
     <string name="clearable_edittext_clear_description">Очистить</string>
     <string name="close">Закрыть</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Не удалось подключиться к сети, повторите попытку</string>
     <string name="content_desc_activity_main_add_city">Добавить город</string>
     <string name="content_desc_activity_main_add_city_manage">Управление городами</string>
+    <string name="content_desc_activity_main_already_add_city">Добавленные места</string>
     <string name="content_desc_activity_main_more_settings">Прочие настройки</string>
     <string name="content_desc_activity_main_page">Страница %1$d из %2$d</string>
     <string name="content_desc_back_button">Назад</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Удалить</string>
     <string name="miuix_appcompat_deselect_all">Отменить выбор</string>
     <string name="miuix_appcompat_deselect_all_description">Снять выбор</string>
+    <string name="miuix_appcompat_edit">Изменить</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отмена</string>
     <string name="miuix_appcompat_search_input_description">Поиск</string>
     <string name="miuix_appcompat_select_all">Выбрать все</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">ИКВ в городе %2$s сегодня: %1$d</string>
     <string name="notif_weather_title">Сегодня в городе %2$s: %1$s</string>
     <string name="other_settings">Прочие настройки</string>
-    <string name="pad_keyboard_add_city">Добавить место</string>
-    <string name="pad_keyboard_left_switch">Предыдущее место</string>
-    <string name="pad_keyboard_right_switch">Следующее место</string>
-    <string name="pad_real_time_detail_title">Индексы</string>
     <string name="particulate_matter_exceeded">Превышение</string>
     <string name="particulate_matter_not_exceeded">Норма</string>
     <string name="particulate_matter_serious_exceeded">Сильное превышение</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Отзыв согласия</string>
     <string name="privacy_grant_success">Разрешение успешно предоставлено</string>
     <string name="privacy_policy">Политика конфиденциальности</string>
-    <string name="privacy_policy_msg">&lt;Data>Это приложение содержит следующие функции:&lt;br/>• Информация о погоде на основе вашего местоположения&lt;br/>• Прогноз погоды&lt;br/>• Важные предупреждения о погоде&lt;br/>&lt;br/>Приложению Погода требуется осуществлять сбор необходимой личной информации, чтобы предоставлять вам базовые службы. Вы можете подробнее узнать о том, как мы обрабатываем собираемую информацию в нашей &lt;a href=\"%1$s\">Политике конфиденциальности&lt;/a>. Перед началом использования приложения Погода, ознакомьтесь и согласитесь с нашими &lt;a href=\"%2$s\">Условиями использования&lt;/a> и &lt;a href=\"%3$s\">Политикой конфиденциальности&lt;/a>. Вы можете в любое время отозвать свое согласие с Политикой конфиденциальности приложения Погода в Настройках.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Это приложение содержит следующие функции:&lt;br/>• Информация о погоде на основе вашего местоположения&lt;br/>• Прогноз погоды&lt;br/>• Важные предупреждения о погоде&lt;br/>&lt;br/>Для правильной работы этих функций приложению Погода требуется осуществлять сбор необходимой личной информации, включая данные о местоположении, даже когда приложение закрыто или не используется. Вы можете подробнее узнать о том, как мы обрабатываем собираемую информацию в нашей &lt;a href=\"%1$s\">Политике конфиденциальности&lt;/a>. Перед использованием приложения Погода, ознакомьтесь и согласитесь с нашими &lt;a href=\"%2$s\">Условиями использования&lt;/a> и &lt;a href=\"%3$s\">Политикой конфиденциальности&lt;/a>. Вы можете в любое время отозвать свое согласие с Политикой конфиденциальности приложения Погода в Настройках.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Это приложение содержит следующие функции:&lt;br/>• Информация о погоде на основе вашего местоположения&lt;br/>• Прогноз погоды&lt;br/>• Важные предупреждения о погоде&lt;br/>&lt;br/>Приложению Погода требуется осуществлять сбор необходимой личной информации, чтобы предоставлять вам базовые службы. Вы можете подробнее узнать о том, как мы обрабатываем собираемую информацию в нашей &lt;a href=\"%1$s\">Политике конфиденциальности&lt;/a>. Перед началом использования приложения Погода, ознакомьтесь и согласитесь с нашими &lt;a href=\"%2$s\">Условиями использования&lt;/a> и &lt;a href=\"%3$s\">Политикой конфиденциальности&lt;/a>. Вы можете в любое время отозвать свое согласие с Политикой конфиденциальности приложения Погода в Настройках.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Это приложение содержит следующие функции:&lt;br/>• Информация о погоде на основе вашего местоположения&lt;br/>• Прогноз погоды&lt;br/>• Важные предупреждения о погоде&lt;br/>&lt;br/>Для правильной работы этих функций приложению Погода требуется осуществлять сбор необходимой личной информации, включая данные о местоположении, даже когда приложение закрыто или не используется. Вы можете подробнее узнать о том, как мы обрабатываем собираемую информацию в нашей &lt;a href=\"%1$s\">Политике конфиденциальности&lt;/a>. Перед использованием приложения Погода, ознакомьтесь и согласитесь с нашими &lt;a href=\"%2$s\">Условиями использования&lt;/a> и &lt;a href=\"%3$s\">Политикой конфиденциальности&lt;/a>. Вы можете в любое время отозвать свое согласие с Политикой конфиденциальности приложения Погода в Настройках.</Data></string>
     <string name="privacy_revoke_success">Разрешение успешно отозвано</string>
     <string name="privacy_settings">Политика конфиденциальности</string>
     <string name="pull_fresh_updated">Данные обновлены</string>
@@ -533,7 +535,7 @@
     <string name="thursday">Четверг</string>
     <string name="thursday_short">Чт</string>
     <string name="thursday_shortest">Чт</string>
-    <string name="time_picker_dialog_title">Настройка времени</string>
+    <string name="time_picker_dialog_title">Выберите время</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">М</string>
     <string name="today">Сегодня</string>

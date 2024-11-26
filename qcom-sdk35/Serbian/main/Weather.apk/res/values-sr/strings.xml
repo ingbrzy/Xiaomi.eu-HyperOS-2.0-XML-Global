@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Популарни градови</string>
     <string name="act_find_city_location_button_text">Добијање локације</string>
     <string name="act_find_city_location_title">Тренутна локација</string>
+    <string name="act_find_city_major_city_title">Популарне локације</string>
+    <string name="act_find_city_search_history_title">Историја претраживања</string>
     <string name="act_location_error_to_find_city">Није могуће добити информације о локацији. Локацију можете додати ручно.</string>
     <string name="act_set_city_find_side">Лоцирање</string>
     <string name="act_set_city_find_side_error">Не може се лоцирати уређај</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Сумпор-диоксид</string>
     <string name="aqi_station_best_quality_station">Најбоље окружење</string>
     <string name="aqi_station_min_distance_station">Најближа станица</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Велики загађивачи</string>
     <string name="background_location_dialog_authorize_button">Подешавања</string>
     <string name="background_location_guide_dialog_msg">Дозволите овој апликацији да приступи локацији док ради у позадини и изаберите „Увек дозволи“ да бисте били сигурни да добијате ажурне информације о времену.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">ОК</string>
     <string name="button_confirm">Прихватам</string>
     <string name="button_exit">Не прихватам</string>
+    <string name="button_manage">Управљај</string>
     <string name="button_settings_cancel">Откажи</string>
     <string name="button_settings_confirm">Повуци</string>
     <string name="button_settings_confirm_to_revoke_msg">Пребацивањем прекидача повлачите пристанак на Правила о приватности апликације Време. Престаћемо да прикупљамо ваше личне податке. Лични подаци који су већ прикупљени и задржани биће обрисани у законом одређеном року. Потребно је да апликација Време прикупља личне податке неопходне за пружање основних услуга. Повлачењем пристанка на Правила о приватности апликације Време одбијате услуге апликације засноване на прикупљеним личним подацима.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Проверите мрежу и покушајте опет</string>
+    <string name="city_exceeded_tips">Не може се додати више локација. Уклоните неке локације пре него што додате нову.</string>
+    <string name="city_exceeded_tips_title">Не може се додати локација</string>
     <string name="city_exceeded_warning">Не може се додати више градова. За додавање новог града, прво обришите један са листе.</string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="close">Затвори</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Повезивање на мрежу није успело, покушајте опет</string>
     <string name="content_desc_activity_main_add_city">Додај град</string>
     <string name="content_desc_activity_main_add_city_manage">Управљање градовима</string>
+    <string name="content_desc_activity_main_already_add_city">Додате локације</string>
     <string name="content_desc_activity_main_more_settings">Више подешавања</string>
     <string name="content_desc_activity_main_page">Страница %1$d од %2$d</string>
     <string name="content_desc_back_button">Назад</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Oбриши</string>
     <string name="miuix_appcompat_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_deselect_all_description">Опозови све</string>
+    <string name="miuix_appcompat_edit">Уреди</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Откажи</string>
     <string name="miuix_appcompat_search_input_description">Тражи</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">AQI је %1$d у %2$s данас</string>
     <string name="notif_weather_title">%1$s у %2$s данас</string>
     <string name="other_settings">Друга подешавања</string>
-    <string name="pad_keyboard_add_city">Додај локацију</string>
-    <string name="pad_keyboard_left_switch">Претходна локација</string>
-    <string name="pad_keyboard_right_switch">Следећа локација</string>
-    <string name="pad_real_time_detail_title">Индекси</string>
     <string name="particulate_matter_exceeded">Високo</string>
     <string name="particulate_matter_not_exceeded">Нормално</string>
     <string name="particulate_matter_serious_exceeded">Превисоко</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Повлачење пристанка</string>
     <string name="privacy_grant_success">Овлашћење успешно одобрено</string>
     <string name="privacy_policy">Правила о приватности</string>
-    <string name="privacy_policy_msg">&lt;Data>Ова апликација садржи следеће фунцкије:&lt;br/>• информисање о времену на вашој локацији&lt;br/>• временске прогнозе&lt;br/>• временска упозорења&lt;br/>&lt;br/>Потребно је да апликација Време прикупља личне податке неопходне за пружање основних услуга. Можете сазнати како третирамо податке које прикупљамо у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења апликације Време. Увек можете повући пристанак на Правила о приватности апликације Време у Подешавањима.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Ова апликација садржи следеће функције:&lt;br/>• Временски подаци према вашој локацији&lt;br/>• Временске прогнозе&lt;br/>• Временска упозорења&lt;br/>&lt;br/>Потребно је да апликација Време прикупља неопходне личне податке, укључујући податке о локацији, да би вам ове функције биле доступне чак и када је апликација затворена и ван употребе. Можете сазнати како рукујемо прикупљеним подацима у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења апликације Време. Увек можете повући пристанак на Правила о приватности апликације Време у Подешавањима.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Ова апликација садржи следеће фунцкије:&lt;br/>• информисање о времену на вашој локацији&lt;br/>• временске прогнозе&lt;br/>• временска упозорења&lt;br/>&lt;br/>Потребно је да апликација Време прикупља личне податке неопходне за пружање основних услуга. Можете сазнати како третирамо податке које прикупљамо у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења апликације Време. Увек можете повући пристанак на Правила о приватности апликације Време у Подешавањима.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Ова апликација садржи следеће функције:&lt;br/>• Временски подаци према вашој локацији&lt;br/>• Временске прогнозе&lt;br/>• Временска упозорења&lt;br/>&lt;br/>Потребно је да апликација Време прикупља неопходне личне податке, укључујући податке о локацији, да би вам ове функције биле доступне чак и када је апликација затворена и ван употребе. Можете сазнати како рукујемо прикупљеним подацима у нашим &lt;a href=\"%1$s\">Правилима о приватности&lt;/a>. Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%3$s\">Правила о приватности&lt;/a> пре коришћења апликације Време. Увек можете повући пристанак на Правила о приватности апликације Време у Подешавањима.</Data></string>
     <string name="privacy_revoke_success">Овлашћење успешно опозвано</string>
     <string name="privacy_settings">Правила о приватности</string>
     <string name="pull_fresh_updated">Успешно ажурирано</string>

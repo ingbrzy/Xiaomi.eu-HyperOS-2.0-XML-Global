@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">Pentru a vă oferi servicii mai bune, procesele care rulează pe dispozitivul dvs. (inclusiv SystemHelper, RegService și Serviciile Operatorului) pot trimite periodic informații legate de dispozitiv și cartela SIM (inclusiv IMEI, IMSI, MSISDN, MEID, ICCID, adresa MAC). , versiunea de sistem, versiunea Android, modelul dispozitivului și specificațiile hardware de bază), precum și informații aproximative despre locație (inclusiv regiune, coordonate, identificatorul zonei și ID-ul stației de bază) către operator prin WLAN, rețea de date mobile sau SMS gratuit. Operatorul promite să analizeze informațiile relevante doar pentru a îmbunătăți calitatea serviciilor sau pentru a oferi servicii sau tehnologii personalizate și nu va dezvălui informații relevante către părți terță sub nicio formă care vă identifică personal. Declarația specifică a operatorului va prevala. Consultați operatorul cu privire la costul utilizării acestui serviciu.</string>
     <string name="carrier_introduction_china_rothko">Pentru a îmbunătăți calitatea serviciilor oferite, programele care rulează pe acest dispozitiv (inclusiv serviciile SystemHelper, RegService și Carrier) pot trimite informații despre acest dispozitiv sau cartela SIM (inclusiv IMEI, IMSI, MSISDN, MEID, ICCID, adresa MAC, versiunea sistemului, versiunea Android, modelul dispozitivului, configurația hardware de bază și numărul de telefon), precum și locația dvs. aproximativă (inclusiv regiunea, coordonatele, identificatorul cartierului și ID-ul stației de bază), către operatorul dvs. prin WLAN, rețele mobile sau SMS. Când efectuați apeluri, DCService se va conecta la rețea. Operatorii de telefonie mobilă garantează că aceste informații vor fi utilizate numai pentru analiză, îmbunătățirea calității serviciilor sau pentru furnizarea de servicii sau tehnologii personalizate și nu vor fi niciodată partajate cu nimeni într-un mod care ar putea permite să vă identifice personal. Consultați declarația relevantă de la operatorul dvs. pentru detalii. Puteți întreba despre toate taxele de servicii aferente direct de la operatorul dvs.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>Puteți folosi Interconectivitate Xiaomi pentru a controla și a transfera date între dispozitive. Sunteți de acord cu &lt;a href=%1$s>Politica de confidențialitate&lt;/a > a Interconectivitate Xiaomi înainte de a utiliza caracteristicile sale. Această aplicație trebuie să se conecteze la internet și necesită următoarele permisiuni:</Data></string>
     <string name="clearable_edittext_clear_description">Șterge</string>
     <string name="clock_introduction">Puteți utiliza această aplicație pentru a vizualiza ora, precum și pentru a utiliza temporizatorul, ceasul mondial, cronometrul, setați alarme și multe altele.</string>
     <string name="close">Închide</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Calendar Tradițional Chinezesc</string>
     <string name="date_time_picker_dialog_title">Setează data și ora</string>
-    <string name="default_font">Implicit</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Folosește amprenta pentru a debloca dispozitivul, a verifica tranzacțiile Mi Plată, sau pentru a se conecta la aplicații și servicii.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Măriți dimensiunea textului</string>
     <string name="font_settings_sub_title">Selectează fonturile de sistem</string>
     <string name="font_settings_title">Setări font</string>
+    <string name="font_size_title">Mărime text</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Corp</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">Clasic</string>
     <string name="home_settings_poco_launcher">Aplicație sertar</string>
     <string name="home_settings_title">Selectează lansator implicit</string>
+    <string name="image_brain_configuration_service">Serviciu de configurare Motorul de imagistică Xiaomi</string>
     <string name="ime_privacy_policy">Politica de confidențialitate pentru tastatura selectată</string>
     <string name="ime_privacy_policy_no_network">Nu există conexiune la rețea. Vezi Politica de confidențialitate pentru această tastatură la %s.</string>
     <string name="ims_introduction">Serviciul IMS oferă capabilități de comunicare de bază și este utilizat pentru apeluri audio și video de înaltă definiție.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">Serviciile de Comunicare prin Internet Xiaomi vă permit să descoperiți, să vă conectați și să comunicați cu alte dispozitive Xiaomi.</string>
     <string name="interconnection_service_global_item_title">Interconectivitate Xiaomi</string>
     <string name="interconnection_service_global_label">&lt;Data>Interconectivitate Xiaomi vă permite ca dispozitivele tale pentru a interacționa între ele wireless. Prin activarea acestui comutator, sunteți de acord cu &lt;a href=%1$s>Politica de confidențialitate&lt;/a > a Interconectivitate Xiaomi.&lt;/Data></string>
+    <string name="interconnection_service_permission1">Activare/Dezactivare Bluetooth</string>
+    <string name="interconnection_service_permission10">Pentru descoperirea dispozitivelor din apropiere</string>
+    <string name="interconnection_service_permission11">Transferați date între dispozitive</string>
+    <string name="interconnection_service_permission12">Pentru transferul de date între dispozitivele conectate</string>
+    <string name="interconnection_service_permission13">Accesare conținut ecran</string>
+    <string name="interconnection_service_permission14">Pentru accesarea conținutului ecranului în timpul înregistrării sau al proiectări, inclusiv informații sensibile, cum ar fi audio, parole, parole de plată, fotografii, mesaje, etc.</string>
+    <string name="interconnection_service_permission15">Accesare istoric apeluri</string>
+    <string name="interconnection_service_permission16">Pentru transferul de apeluri între dispozitive în timpul oglinzii ecranului</string>
+    <string name="interconnection_service_permission17">Accesați lista de aplicații instalate</string>
+    <string name="interconnection_service_permission18">Pentru accesarea listei de aplicații instalate pe un dispozitiv mobil și oglindirea ecranului pe computere</string>
+    <string name="interconnection_service_permission2">Pentru conectarea și transferul de date între două dispozitive</string>
+    <string name="interconnection_service_permission3">Activare/Dezactivare WLAN</string>
+    <string name="interconnection_service_permission4">Pentru transferul de date între două dispozitive prin WLAN</string>
+    <string name="interconnection_service_permission5">Înregistrează audio</string>
+    <string name="interconnection_service_permission6">Pentru înregistrarea audio a dispozitivului la proiectare și oglindire</string>
+    <string name="interconnection_service_permission7">Accesați și editați fotografii și fișiere de pe dispozitivul dvs.</string>
+    <string name="interconnection_service_permission8">Pentru proiectarea și transferul de conținut de pe acest dispozitiv</string>
+    <string name="interconnection_service_permission9">accesare identificator dispozitiv</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s Caracteristicile de Interconectivitate Xiaomi disponibile pe dispozitivul dvs. pot varia din cauza diferențelor dintre versiunile de sistem și modelele de dispozitiv. Consultați site-ul nostru oficial (%2$s) pentru mai multe informații.</string>
     <string name="interconnection_service_summary_global">Funcțiile de Interconectivitate Xiaomi pot varia în funcție de modelul dispozitivului și versiunea sistemului. Vizitați site-ul oficial al sistemului pentru a afla mai multe.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Dacă dispozitivul dvs. se pierde, nu veți putea împiedica alte persoane să îl folosească și să vă acceseze datele decât dacă setați o blocare a ecranului. Omiteți oricum?</string>
@@ -307,10 +328,22 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="item_lock_screen_password_only">Blocare ecran</string>
     <string name="item_return">Setează</string>
     <string name="item_skip">Treci peste</string>
+    <string name="kind_tip_details_inner_details">Evitați să apăsați ecranul cu obiecte ascuțite (vârfurile stiloului, unghiile etc.) în timp ce utilizați sau transportați dispozitivul. Înainte de a plia dispozitivul, asigurați-vă că ecranul interior nu are obiecte dure, cum ar fi carduri, monede sau chei.</string>
+    <string name="kind_tip_details_inner_title">Nu apăsați pe ecranul interior cu obiecte ascuțite sau dure</string>
+    <string name="kind_tip_details_pocket_details">Pliați dispozitivul ori de câte ori nu îl utilizați. Evitați contactul ecranului interior cu orice obiecte ascuțite și dure din geantă sau buzunar.</string>
+    <string name="kind_tip_details_pocket_title">Nu puneți dispozitivul deschis direct în geantă sau în buzunar</string>
+    <string name="kind_tip_details_protective_details_cn">Ecranul interior al acestui dispozitiv este acoperit de o folie de protecție specială, a cărei înlocuire necesită echipament profesional. Nu îndepărtați și nu înlocuiți singuri protecția interioară a ecranului, deoarece deteriorarea rezultată a ecranului interior va afecta garanția. Dacă trebuie să înlocuiți protecția ecranului, contactați serviciul post-vânzare Xiaomi.</string>
+    <string name="kind_tip_details_protective_details_global">Ecranul interior al acestui dispozitiv este acoperit de o folie de protecție specială. Îndepărtarea sau înlocuirea foliei poate cauza deteriorarea ecranului interior.</string>
+    <string name="kind_tip_details_protective_title">Nu îndepărtați singur protectorul interior al ecranului</string>
+    <string name="kind_tip_subtitle">Acest dispozitiv este echipat cu un ecran pliabil. Pentru a evita deteriorarea și pentru a vă asigura că ecranul funcționează normal, luați următoarele măsuri de precauție în timpul utilizării.</string>
+    <string name="kind_tip_title">Atenție</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Partajarea informațiilor despre locație cu agențiile de salvare de urgență</string>
     <string name="language_picker_other_languages_title">Mai multe limbi</string>
     <string name="language_settings">Alege limbă</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Imens</string>
+    <string name="layout_size_normal">Normal</string>
     <string name="locale_picker_other_locale_title">Mai multe regiuni</string>
     <string name="locale_picker_title">Alegeți locația dvs.</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +620,10 @@ Puteți controla această funcție din Setări > Amprente, date faciale și bloc
     <string name="privacy_provision_title">Confidențialitate</string>
     <string name="privacy_refuse">Nu sunt de acord</string>
     <string name="privacy_title">Termeni și Politica de confidențialitate</string>
+    <string name="prompt_fingerprint">Protecția avansată a datelor este activată pentru contul dvs. Setați o blocare a ecranului pentru acest dispozitiv.</string>
     <string name="protect_persoanl_info_statement">Vă vom proteja informațiile personale în conformitate cu legile, reglementările și politicile de confidențialitate relevante.</string>
     <string name="provision_back">Înapoi</string>
+    <string name="provision_complete_text">Continuă</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Vezi &lt;a href=%1$s>Politica de confidențialitate&lt;/a > a tastaturii selectate.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Politica de confidențialitate</string>
     <string name="provision_next">Următorul</string>
@@ -613,6 +648,8 @@ Puteți controla această funcție din Setări > Amprente, date faciale și bloc
     <string name="require_telephone_location">Accesare locație</string>
     <string name="require_telephone_location_summary">Pentru accesarea locației aproximative și furnizarea de servicii de optimizare a rețelei bazate pe locație</string>
     <string name="require_telephone_statement">Pentru a furniza servicii de bază, sunt necesare următoarele permisiuni:</string>
+    <string name="sample_text_summary">Xiaomi construiește fără încetare produse uimitoare cu prețuri oneste pentru a permite tuturor din lume să se bucure de o viață mai bună prin intermediul tehnologiei inovatoare.</string>
+    <string name="sample_text_title">Exemplu de text:</string>
     <string name="saturday">Sâmbătă</string>
     <string name="saturday_short">Sâm</string>
     <string name="saturday_shortest">Sâm</string>
@@ -689,7 +726,9 @@ Puteți controla această funcție din Setări > Amprente, date faciale și bloc
     <string name="skip_gesture_guide_dialog_title">Gesturi pe ecran complet</string>
     <string name="skip_underline">Treci peste</string>
     <string name="start_up_slogan">Doar al tău</string>
+    <string name="startup_page_text_hint">Depliază pentru a activa dispozitivul</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Învață gesturile de navigare</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Nu este setat</string>
     <string name="sunday">Duminică</string>
@@ -700,6 +739,7 @@ Puteți controla această funcție din Setări > Amprente, date faciale și bloc
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">Ecran principal plug-in serviciu vă oferă funcții de bază, cum ar fi Ecranul principal, interfața de utilizare a sistemului și capturile de ecran.</string>
     <string name="term_condition_detail">Obțineți imagini uimitoare și povești captivante livrate zilnic pe ecranul dvs. de blocare. Această funcție nu vă va folosi datele pentru personalizare fără consimțământul dvs. Citiți și acceptați conținutul de la furnizorul terță parte &lt;a href =%1$s>Politica de confidențialitate&lt;/a> și &lt;a href =%2$s>Acordul utilizatorului&lt;/a> înainte de a utiliza această funcție.</string>
+    <string name="terms_and_statement_title">Termeni și condiții</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Termeni și condiții</string>
@@ -743,7 +783,8 @@ Puteți controla această funcție din Setări > Amprente, date faciale și bloc
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Serviciul de actualizare a sistemului (verifică actualizările online și notifică despre noile versiuni)</string>
     <string name="terms_of_use_label_use_location_and_network_global">Înainte de a utiliza sistemul, trebuie să citiți și să fiți de acord cu Acordul utilizatorului și Politica de confidențialitate. Vă vom proteja informațiile personale în conformitate cu legile, reglementările și politicile de confidențialitate relevante. Când dispozitivul dvs. este activat, următoarele servicii se vor conecta la rețea și vă vor accesa locația:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">Înainte de a utiliza sistemul, citiți și acceptați &lt;a href=\"%1$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%2$s\">Politica de confidențialitate&lt;/a>. Vă vom proteja informațiile personale în conformitate cu legile, reglementările și politicile de confidențialitate relevante.</string>
+    <string name="terms_of_use_label_use_network_china_append">Când dispozitivul dvs. este activat, următoarele servicii se vor conecta la rețea:</string>
     <string name="terms_of_use_label_wallpaper">Imagine de fundal</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

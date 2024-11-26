@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">อัปเดตรหัสผ่านความปลอดภัย</string>
     <string name="e2ee_device_delete">ลบอุปกรณ์</string>
     <string name="e2ee_device_delete_tip">เมื่อคุณลบอุปกรณ์นี้ออกจากบัญชี Xiaomi แล้ว อุปกรณ์จะออกจากระบบและคุณจะไม่สามารถใช้บริการ บริการ Xiaomi คลาวด์ การค้นหา และฟีเจอร์ที่เกี่ยวข้องกับบัญชีอื่น ๆ ได้จนกว่าคุณจะลงชื่อเข้าใช้อีกครั้ง</string>
+    <string name="e2ee_device_delete_warning_dialog_content">อุปกรณ์นี้ไม่รองรับการปกป้องข้อมูลขั้นสูง ดังนั้นคุณจะไม่สามารถลงชื่อเข้าใช้บัญชีของคุณได้หากเปิดฟีเจอร์นี้ อัปเดตอุปกรณ์นี้เป็น Xiaomi HyperOS 2 เพื่อให้สามารถลงชื่อเข้าใช้บัญชีของคุณได้</string>
+    <string name="e2ee_device_delete_warning_dialog_title">ไม่สามารถลงชื่อเข้าใช้งานได้</string>
     <string name="e2ee_device_exit_failed_tip">ไม่สามารถออกจากระบบได้ รอสักครู่แล้วลองอีกครั้ง</string>
     <string name="e2ee_device_exit_failed_toast">ไม่สามารถออกจากระบบได้ รอสักครู่แล้วลองอีกครั้ง</string>
     <string name="e2ee_device_exit_tip">%s ออกจากระบบแล้ว</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">คุณสมบัตินี้ไม่ได้รับการสนับสนุนในภูมิภาคของคุณ</string>
     <string name="e2ee_error_init">ไม่สามารถเริ่มต้นได้ รอสักครู่แล้วลองอีกครั้ง</string>
     <string name="e2ee_error_network">ไม่สามารถเชื่อมต่อกับเครือข่ายได้ ตรวจสอบการตั้งค่าเครือข่ายของคุณแล้วลองอีกครั้ง</string>
+    <string name="e2ee_error_real_device">สภาพแวดล้อมนี้ไม่ปลอดภัย ลองใช้อุปกรณ์อื่น</string>
     <string name="e2ee_exit_account_button_close">ปิดใช้งาน</string>
     <string name="e2ee_exit_account_button_exit">ออกจากระบบ</string>
     <string name="e2ee_exit_account_subtitle">คุณกำลังจะออกจากระบบอุปกรณ์ล่าสุดที่เชื่อมต่ออยู่ในปัจจุบันซึ่งเชื่อมโยงกับบัญชี Xiaomi ของคุณ คุณจะต้องใช้การล็อกหน้าจอหรือรหัสผ่านความปลอดภัยเพื่อลงชื่อเข้าใช้และเข้าถึงข้อมูลที่จัดเก็บไว้ในระบบคลาวด์อีกครั้ง หรือแตะ \"ปิด\" ด้านล่างเพื่อปิดการป้องกันข้อมูลขั้นสูง</string>
@@ -504,7 +507,7 @@
     <string name="micloud_last_sync_canceled">การซิงค์ถูกยกเลิก ลองอีกครั้ง</string>
     <string name="micloud_main_head_menu_cloud_backup">ข้อมูลสำรอง</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">ค้นหาอุปกรณ์ไม่พร้อมใช้งานในพื้นที่ทับซ้อน คุณสามารถใช้งานได้ในพื้นที่ปกติ</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">ลบรายการ</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">รายการที่ถูกลบล่าสุด</string>
     <string name="micloud_main_network_error">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="micloud_main_sync_mode_summary">ซิงค์ข้อมูลแอปแบบเรียลไทม์ การใช้พลังงานจะเพิ่มขึ้นเมื่อคุณเปิดใช้คุณลักษณะนี้</string>
     <string name="micloud_main_sync_mode_title">ซิงค์ด่วน</string>
@@ -746,6 +749,7 @@
     <string name="other_lockscreen_forget_pin_dialog_title">ลืมล็อคหน้าจอ</string>
     <string name="other_lockscreen_sub_title">เข้าสู่การล็อคหน้าจออุปกรณ์นี้เพื่อทำการยืนยันให้เสร็จสมบูรณ์</string>
     <string name="other_lockscreen_title">เข้าสู่การล็อคหน้าจอของ %s</string>
+    <string name="other_lockscreen_update_password_error_hint">คุณเพิ่งเปลี่ยนการล็อกหน้าจอเมื่อเร็วๆ นี้หรือไม่ ลองป้อนการล็อกหน้าจอเดิมเพื่อยืนยัน</string>
     <string name="pay_info_dialog_confirm_to_pay">จ่าย %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">ใช้ Mi Coins ที่เหลือ: %s</string>
     <string name="pay_info_dialog_title">เลือกวิธีการชำระเงิน</string>
@@ -828,6 +832,10 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi คลาวด์ ต้องได้รับอนุญาตในการเข้าถึงรายการที่จัดเก็บไว้ในอุปกรณ์ของคุณเพื่อระบุรายการที่ไม่ได้ซิงค์และปริมาณของรายการเหล่านั้น ให้สิทธิ์นี้หรือไม่?</string>
+    <string name="request_os_permissions_dialog_neg_button">ไม่เห็นด้วย</string>
+    <string name="request_os_permissions_dialog_pos_button">ยอมรับ</string>
+    <string name="request_os_permissions_dialog_title">ต้องการการอนุญาต</string>
     <string name="retain_data_high_quality_photo_waring_message">สำเนารูปภาพและวิดีโอคุณภาพสูงของคุณจะถูกลบออกจากคลังภาพหลังจากที่คุณออกจากระบบ ไฟล์ต้นฉบับที่เกี่ยวข้องจะยังคงถูกเก็บไว้ในระบบคลาวด์ คุณยังสามารถดาวน์โหลดไฟล์ต้นฉบับก่อนออกจากระบบ</string>
     <string name="retain_data_high_quality_photo_waring_title">รูปภาพคุณภาพสูงจะไม่สามารถใช้ได้</string>
     <string name="revoke_block_by_find_device">การเพิกถอนความยินยอมจะปิดการค้นหาอุปกรณ์ด้วย คุณจะต้องยืนยันรหัสผ่านหลังจากดำเนินการต่อ</string>
@@ -1070,6 +1078,8 @@
     <string name="v7_preference_off">ปิด</string>
     <string name="v7_preference_on">เปิด</string>
     <string name="verify_camera_error_toast">ไม่สามารถจดจำรหัสผ่านได้</string>
+    <string name="verify_camera_google_permission_message">Xiaomi คลาวด์ ต้องได้รับอนุญาตจากกล้องจึงจะสแกนรหัสความปลอดภัยของคุณได้ คุณสามารถให้สิทธิ์นี้ได้ในการตั้งค่า</string>
+    <string name="verify_camera_google_permission_positive_button">รับทราบ</string>
     <string name="verify_camera_permission_message">อนุญาตให้แอปนี้เข้าถึงกล้องเพื่อสแกนหารหัสผ่านความปลอดภัยของคุณ คุณสามารถให้สิทธิ์นี้ได้ในการตั้งค่า</string>
     <string name="verify_camera_permission_negative_button">ยกเลิก </string>
     <string name="verify_camera_permission_positive_button">การตั้งค่า</string>
@@ -1132,6 +1142,8 @@
     <string name="verify_warning_dialog_title">อุปกรณ์อื่นเปิดใช้การเข้ารหัสแบบ end-to-end</string>
     <string name="verify_warning_dialog_title_pc">ต้องการการอนุญาต</string>
     <string name="verify_warning_dialog_title_web">ต้องการการอนุญาต</string>
+    <string name="verify_warning_verify_dialog_message">ป้อนรหัสยืนยันที่ %s</string>
+    <string name="verify_warning_verify_dialog_title">ยืนยันบัญชี Xiaomi</string>
     <string name="waiting_for_sync">กำลังรอ…</string>
     <string name="web_view_auto_login_fail">ลงชื่อเข้าใช้ไม่ได้ ลองอีกครั้ง</string>
     <string name="web_view_login_text">กำลังเข้าสู่ระบบ…</string>

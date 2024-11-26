@@ -145,6 +145,7 @@
     <string name="activity_title_virus_settings">Innstillinger</string>
     <string name="activity_title_white_list">Unntak</string>
     <string name="ad_btn_default_text">Lær mer</string>
+    <string name="ad_flag_text">ANNONSE</string>
     <string name="ad_floating_window_title">Lukk flytende vindu for å låse opp</string>
     <string name="ad_split_screen_title">Avslutt delt skjerm for å låse opp</string>
     <string name="ad_update_time">Sist oppdatert %s</string>
@@ -225,8 +226,8 @@
     <string name="antivirus_privacy_dialog_cloudscan">Last opp app-navn og detaljer</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">For å oppdage og nøytralisere virus på en mer effektiv måte laster vi opp pakkenavnene og egenskapene til appene for å skanne dem med en skymotor.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_summary">&lt;Data>Denne funksjonen drives av en tredjeparts antivirusmotor. Les &lt;a href=\"%1$s\">lisensavtalen&lt;/a> gitt av tredjeparten for å finne ut mer.&lt;/Data></string>
-    <string name="antivirus_privacy_dialog_summary_kddi">&lt;Data>Når du utfører en sikkerhetsskanning, blir enhetsmodellen og skanningsresultatene lastet opp til %1$s-serverne og brukt i henhold til de korresponderende &lt;a href=\"%2$s\">vilkårene og betingelsene&lt;/a>.&lt;br/>&lt;br/>Les og godta %3$ss vilkår og betingelser før du utfører sikkerhetsskanning.&lt;br/>&lt;br/>Hvis du ikke samtykker i å laste opp data til %4$s-servere, kan du fortsatt bruke virusdefinisjonene som er lagret lokalt på enheten din.&lt;/Data></string>
+    <string name="antivirus_privacy_dialog_summary"><Data>Denne funksjonen drives av en tredjeparts antivirusmotor. Les &lt;a href=\"%1$s\">lisensavtalen&lt;/a> gitt av tredjeparten for å finne ut mer.</Data></string>
+    <string name="antivirus_privacy_dialog_summary_kddi"><Data>Når du utfører en sikkerhetsskanning, blir enhetsmodellen og skanningsresultatene lastet opp til %1$s-serverne og brukt i henhold til de korresponderende &lt;a href=\"%2$s\">vilkårene og betingelsene&lt;/a>.&lt;br/>&lt;br/>Les og godta %3$ss vilkår og betingelser før du utfører sikkerhetsskanning.&lt;br/>&lt;br/>Hvis du ikke samtykker i å laste opp data til %4$s-servere, kan du fortsatt bruke virusdefinisjonene som er lagret lokalt på enheten din.</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Personvernerklæring</string>
     <string name="antivirus_privacy_dialog_title">Personvernerklæring</string>
     <string name="antivirus_privacy_dialog_title_kddi">Vilkår og betingelser</string>
@@ -599,8 +600,8 @@ Du mister ikke noe appdata."</string>
     <string name="apps_list_header_title_sms">Sjekk meldingsapp</string>
     <string name="apps_list_header_title_sms_access">Begrens tilgang til bekreftelseskoder</string>
     <string name="ask_create_shortcut">Lage en snarvei til Hjem-skjerm?</string>
-    <string name="audio_optimization_summary">Forbedre lyden og reduser bakgrunnsstøy under samtaler</string>
     <string name="audio_optimization_summary_new">Optimaliser hodetelefonenes lydkvalitet mens du spiller, og reduser støy under samtaler</string>
+    <string name="audio_optimization_summary_v2">Få bedre fordypelse når du spiller og optimer støyreduksjon</string>
     <string name="audio_optimization_title">Forbedret lyd</string>
     <string name="auto_atsk_condition_battery_level_text_down">Når batteriet når %s</string>
     <string name="auto_atsk_condition_battery_level_text_up">Nåe batteriet er ladet med %s</string>
@@ -897,7 +898,11 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="boot_time_day_tomorrow">På i morgen klokken %1$s</string>
     <string name="bottom_func_guide_default_text">Flere funksjoner</string>
     <string name="bottom_notice_title">Sveip opp for å åpne verktøykassen</string>
+    <string name="bottomsheet_action_collapse">Skjul feltet nederst</string>
+    <string name="bottomsheet_action_expand">Vis feltet nederst</string>
     <string name="bottomsheet_action_expand_halfway">Vis halve feltet nederst</string>
+    <string name="bottomsheet_drag_handle_clicked">Dobbelttrykket på håndtaket</string>
+    <string name="bottomsheet_drag_handle_content_description">Håndtak</string>
     <string name="btn_back">Tilbake</string>
     <string name="btn_finish_diagnostic">OK</string>
     <string name="btn_start_diagnostic">Test nettverk</string>
@@ -1076,7 +1081,14 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="cmcc_app_check_dialog_positive">Omstart nå</string>
     <string name="cmcc_app_check_dialog_title">System reparert</string>
     <string name="columbus_ad_flag_text">ANNONSE</string>
+    <string name="columbus_reward_style_access">Les mer</string>
+    <string name="columbus_reward_style_close_cancel">Avslutt</string>
+    <string name="columbus_reward_style_close_desc">Se ferdig videoen for å få en belønning. Fortsette å se?</string>
+    <string name="columbus_reward_style_speed_confirm">Fortsett</string>
     <string name="columbus_skip_ad">Hopp over</string>
+    <string name="columbus_skip_ad_time">Hopp over (%d)</string>
+    <string name="combine_permission_action_foreground">Tillat når appen er i bruk</string>
+    <string name="combine_permission_title">%1$s ber om følgende tillatelser</string>
     <string name="common_google_play_services_enable_button">Aktivér</string>
     <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
     <string name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
@@ -1162,6 +1174,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="conversation_summary_new">Forskjønne, undertekster og andre funksjoner under lyd- og videoanrop.</string>
     <string name="conversation_title">Konferanseverktøy</string>
     <string name="copy">Kopiér</string>
+    <string name="copy_toast_msg">Linken er kopiert til utklippstavlen</string>
     <string name="cpu_usage_android_system">Android-system</string>
     <string name="cpu_usage_process_run_time_little_time">Mindre enn 1 minutt</string>
     <string name="cpu_usage_process_run_time_little_time_new">Mindre enn %d minutt</string>
@@ -1176,23 +1189,34 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="cs_func_toast_light">Bytt til frontkameraet for å kunne bruke denne funksjonen</string>
     <string name="cs_func_toast_pickup">Bytt til en videosamtale for å kunne bruke denne funksjonen</string>
     <string name="cs_func_unavailable_tips">Bruk denne funksjonen under samtaler</string>
+    <string name="cs_gesture_effect_title">Gjenkjenn håndbevegelser</string>
+    <string name="cs_gesture_effect_title_hint">Støttede bevegelser</string>
+    <string name="cs_gesture_effect_title_summry">Legg til reaksjonseffekter under videoanrop ved hjelp av håndbevegelser</string>
     <string name="cs_light_enhance_physical_options">Fargetemperatur</string>
     <string name="cs_light_enhance_physical_title">Lysstyrke</string>
     <string name="cs_open_camera_first_tips">Åpne Kamera for å bruke denne funksjonen</string>
     <string name="cs_pickup_denoise_desc">Reduser støy fra innkommende lyd når du bruker høyttalere eller hodetelefoner</string>
     <string name="cs_pickup_denoise_title">Støyreduksjon</string>
+    <string name="cs_pickup_enhance">Forbedret</string>
     <string name="cs_pickup_multi_desc">%d graders lydregistrering</string>
     <string name="cs_pickup_multi_title">Flere deltakere</string>
+    <string name="cs_pickup_private">Privat</string>
+    <string name="cs_pickup_private_desc">Bare fang opp lyd fra bestemte brukere</string>
     <string name="cs_pickup_single_desc">Bare registrer lyd fra foran skjermen</string>
     <string name="cs_pickup_single_title">Én deltaker</string>
+    <string name="cs_pickup_standard">Standard</string>
+    <string name="cs_pickup_standard_desc">%1$d graders lydoppfanging</string>
     <string name="cs_pickup_surround_desc">Bruker KI til å redusere støy for renere og tydeligere lyd</string>
     <string name="cs_pickup_surround_title">Mikrofonstøyreduksjon</string>
     <string name="cs_pickup_vioce_print_guide_dialog_desc">Avslutt anropet og følg anvisningene for å komme i gang.</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">For å fange opp lyd fra bare én person må du først gjøre opptak av stemmeavtrykket deres.</string>
+    <string name="cs_pickup_vioce_print_in_private_tips">Ta opp taleavtrykket ditt for å kunne sette støyreduksjon som Privat.</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title">Ta opp stemmeavtrykk</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Gjør opptak av stemmeavtrykk før du velger \"Enkelt deltaker\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Koble fra eksterne enheter og prøv igjen</string>
     <string name="cs_pickup_voice_print_desc">Fang opp lyd fra bare én person</string>
     <string name="cs_privacy_camera_global_settings_title">Samtaleintegritet</string>
+    <string name="cs_record_voice_title">Ta opp</string>
     <string name="cs_screen_translation_title">Skjermoversettelse</string>
     <string name="cs_simultaneous_interpretation_title">Tolk</string>
     <string name="cs_title_pickup">Støyreduksjon</string>
@@ -1204,6 +1228,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="cs_tool_box_phone_guide_case_2">Prøv en rekke nye funksjoner i den nye verktøykassen for anrop</string>
     <string name="cs_voice_print">Ta opp stemmeavtrykk</string>
     <string name="cs_voice_search">Stemmeavtrykk</string>
+    <string name="cs_vt_camera_title">Kamera på tvers av enheter</string>
     <string name="cs_vt_camera_toast_case1">Åpne kameraet i gjeldende app</string>
     <string name="cs_vt_camera_toast_case2">Ingen kompatible enheter i nærheten</string>
     <string name="cta_agree_desc">Tillat at denne appen kan koble til internett og gi tillatelsene over for at du skal kunne bruke tjenestene våre.</string>
@@ -1211,6 +1236,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="cta_close_dialog_content">Hvis du begrenser Sikkerhets tilgang til internett og plasseringsinformasjon, vil du ikke kunne motta advarsler om jordskjelv, oppdatering av virusdefinisjoner og informasjon om blokkeringsliste. Begrense likevel?</string>
     <string name="cta_close_dialog_ok">Begrens</string>
     <string name="cta_close_dialog_title">Begrenser tilgang</string>
+    <string name="cta_combine_permission_title">Tillatelser</string>
     <string name="cta_dialog_negative">Avslutt</string>
     <string name="cta_dialog_positive">Godtar</string>
     <string name="cta_dialog_title">Internettforbindelse</string>
@@ -1451,12 +1477,12 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="exit">Avslutt</string>
     <string name="exit_dialog_exit">Avslutt</string>
     <string name="exit_dialog_garbage_clean_message">Mengden med søppel på enheten din er på mer enn %s. Rengjøre søppelet?</string>
-    <string name="exit_dialog_garbage_clean_message_new">&lt;Data>Rengjører kan frigjøre &lt;font color=#0099ff>%s&lt;/font> av lagringsplass. Rengjøre nå?&lt;/Data></string>
+    <string name="exit_dialog_garbage_clean_message_new"><Data>Rengjører kan frigjøre &lt;font color=#0099ff>%s&lt;/font> av lagringsplass. Rengjøre nå?</Data></string>
     <string name="exit_dialog_garbage_clean_positive_button">Rengjør</string>
     <string name="exit_dialog_garbage_clean_title">Frigjør lagringsplass</string>
     <string name="exit_dialog_homepage_optimise_message">Ytelsen til enheten din er lavere enn 80 poeng. Optimalisere nå?</string>
     <string name="exit_dialog_release_memory_positive_button">Lukk</string>
-    <string name="exit_dialog_release_memory_title_new">&lt;Data>Gjør enheten raskere med &lt;font color=#0099ff>%s&lt;/font>&lt;/Data></string>
+    <string name="exit_dialog_release_memory_title_new"><Data>Gjør enheten raskere med &lt;font color=#0099ff>%s&lt;/font></Data></string>
     <string name="exit_dialog_release_storage_message">Mer enn 80 % av lagringen på enheten din er fylt opp. Frigjør plass ved å avinstallere appene du aldri bruker.</string>
     <string name="exit_dialog_release_storage_message_new">Mer enn %s av lagringen på enheten er fylt opp. Frigjør plass ved å avinstallere apper du aldri bruker.</string>
     <string name="exit_dialog_release_storage_positive_button">Frigjør plass</string>
@@ -1534,6 +1560,9 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="face_unlock_verity_dialog_summary">Verifiser ansiktsdata</string>
     <string name="face_unlock_verity_dialog_title_failed">Kunne ikke gjenkjenne deg</string>
     <string name="face_unlock_verity_dialog_title_succeed">Verifisering lyktes</string>
+    <string name="fallback_menu_item_copy_link">Kopiér linken</string>
+    <string name="fallback_menu_item_open_in_browser">Åpne i nettleseren</string>
+    <string name="fallback_menu_item_share_link">Del link</string>
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="file_confirm_start_activity">%s har ikke tilgang til Galleri og sosiale medier. Denne appen ønsker å få tilgang til filer som er lagret på denne enheten for å dele elementer. Tillate?</string>
     <string name="finger_remind_message">Legg til fingeravtrykket ditt først. Trykk for å åpne Innstillinger.</string>
@@ -1775,7 +1804,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="game_wid_viewpoint_buttom">Ta en kort pause.</string>
     <string name="gamebooster_confirm_dialog_negative_btn">Ikke godta</string>
     <string name="gamebooster_confirm_dialog_positive_btn">Godta</string>
-    <string name="gamebooster_confirm_dialog_tip">&lt;Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a>&lt;/Data></string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
     <string name="gamebooster_confirm_dialog_title">Godta personvernerklæringen</string>
     <string name="gamebooster_dialog_recover">Forny</string>
     <string name="gamebooster_dialog_start_booster">Start</string>
@@ -1905,8 +1934,8 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="gb_audition_play_instruction">Bruk hodetelefoner for best effekt</string>
     <string name="gb_award_noti_message">Aktiver bakgrunnsoppdateringer for Game For Peace i Game Turbo for å få belønninger</string>
     <string name="gb_award_noti_title">Game for Peace-belønningene er her!</string>
-    <string name="gb_balance_disbale_wild_mode_pad_desc">&lt;Data>Kan ikke bytte til Balansert-modus i Game Turbo når Ultimat-modus er aktivert for hele systemet. Du kan endre batteriinnstillinger i Sikkerhet.&lt;br>&lt;a href=\"#\">Åpne Sikkerhet&lt;/a>&lt;/Data></string>
-    <string name="gb_balance_disbale_wild_mode_phone_desc">&lt;Data>Kan ikke bytte til Balansert-modus i Game Turbo når Ultimat-modus er aktivert for hele systemet. Du kan endre batteriinnstillinger i Sikkerhet. &lt;br>&lt;a href=\"#\">Åpne Sikkerhet&lt;/a>&lt;/Data></string>
+    <string name="gb_balance_disbale_wild_mode_pad_desc"><Data>Kan ikke bytte til Balansert-modus i Game Turbo når Ultimat-modus er aktivert for hele systemet. Du kan endre batteriinnstillinger i Sikkerhet.&lt;br>&lt;a href=\"#\">Åpne Sikkerhet&lt;/a></Data></string>
+    <string name="gb_balance_disbale_wild_mode_phone_desc"><Data>Kan ikke bytte til Balansert-modus i Game Turbo når Ultimat-modus er aktivert for hele systemet. Du kan endre batteriinnstillinger i Sikkerhet. &lt;br>&lt;a href=\"#\">Åpne Sikkerhet&lt;/a></Data></string>
     <string name="gb_bar_high">Høyt</string>
     <string name="gb_bar_low">Lavt</string>
     <string name="gb_bar_mid">Middels</string>
@@ -2034,7 +2063,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_new_feature">Ny funksjon</string>
     <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
     <string name="gb_operat_frequently">Ikke så fort!</string>
-    <string name="gb_performace_guide_disable_desc">&lt;Data>Kan ikke bytte til balansert modus i Game Turbo når systemomfattende ytelsesmodus er aktivert. Du kan endre batteriinnstillinger i Sikkerhet.&lt;br>&lt;a href=\"#\">Åpne Sikkerhet&lt;/a>&lt;/Data></string>
+    <string name="gb_performace_guide_disable_desc"><Data>Kan ikke bytte til balansert modus i Game Turbo når systemomfattende ytelsesmodus er aktivert. Du kan endre batteriinnstillinger i Sikkerhet.&lt;br>&lt;a href=\"#\">Åpne Sikkerhet&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Byttet til ytelsesmodus. Enheten kan opphetes og bruke mer strøm.</string>
     <string name="gb_performace_tips_button">Bytt</string>
     <string name="gb_performace_tips_title">Bytt til ytelsesmodus for en bedre brukeropplevelse</string>
@@ -2051,7 +2080,7 @@ men øker også strømforbruket og kan føre til at enheten overopphetes"</strin
     <string name="gb_predownload_dialog_cancel">Nei takk</string>
     <string name="gb_predownload_dialog_checked">Ikke vis igjen</string>
     <string name="gb_predownload_dialog_confirm">Aktiver</string>
-    <string name="gb_predownload_dialog_message_china">&lt;Data>Oppdatet innhold for dette spillet kan lastes ned til denne enheten automatisk når du er tilkoblet WLAN og slår skjermen av. Da kan du bruke den nye versjonen så snart etter at den er utgitt.&lt;br>&lt;br>Les og godta &lt;a href=\"%1$s\">erklæringen om bakgrunnsoppdateringer før du bruker denne funksjonen.&lt;/a>&lt;/Data></string>
+    <string name="gb_predownload_dialog_message_china"><Data>Oppdatet innhold for dette spillet kan lastes ned til denne enheten automatisk når du er tilkoblet WLAN og slår skjermen av. Da kan du bruke den nye versjonen så snart etter at den er utgitt.&lt;br>&lt;br>Les og godta &lt;a href=\"%1$s\">erklæringen om bakgrunnsoppdateringer før du bruker denne funksjonen.&lt;/a></Data></string>
     <string name="gb_predownload_dialog_title">Bakgrunnsoppdateringer er tilgjengelige nå</string>
     <string name="gb_predownload_message_new">Oppdater kompatible spill automatisk når du ikke bruke enheten</string>
     <string name="gb_predownload_noti_message">%2$1.2f GB med oppdatert innhold er allerede på denne enheten. Du kan bruke den så snart den nye versjonen er utgitt.</string>
@@ -2229,7 +2258,7 @@ i spilløktene dine"</string>
     <string name="gd_sidebar_edit_quick_title">Snarveier</string>
     <string name="gd_sidebar_long_press_tips">Trykk på og hold inne indikatoren for å flytte den mens enheten holdes vertikalt</string>
     <string name="gd_splite_screen_tips">Delt skjerm støtter ikke flytende vinduer</string>
-    <string name="gdpr_msg">&lt;Data>Vi trenger å samle inn en viss mengde informasjon om enheten din for å kunne oppdage sikkerhetsrisikoer og beskytte dataene dine. Les og godkjenn vår &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Personvernerklæring&lt;/a>før du bruker tjenesten. Dersom du ikke tillater at vi samler inn denne informasjonen, vil du fortsatt kunne bruke appen, men visse funksjoner vil være utilgjengelige.&lt;/Data></string>
+    <string name="gdpr_msg"><Data>Vi trenger å samle inn en viss mengde informasjon om enheten din for å kunne oppdage sikkerhetsrisikoer og beskytte dataene dine. Les og godkjenn vår &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Personvernerklæring&lt;/a>før du bruker tjenesten. Dersom du ikke tillater at vi samler inn denne informasjonen, vil du fortsatt kunne bruke appen, men visse funksjoner vil være utilgjengelige.</Data></string>
     <string name="get_detail_by_click">Trykk for å se detaljer</string>
     <string name="get_phone_num_fail">Ukjent telefonnummer</string>
     <string name="get_sys_info">Henter informasjon…</string>
@@ -2336,11 +2365,11 @@ Trykk på og hold inne indikatoren for å flytte vinduet rundt."</string>
     <string name="gtb_dialog_btn_open">Aktiver.</string>
     <string name="gtb_dialog_hint_smart_5g">Du kan aktivere og deaktivere denne funksjonen under Spillturbo > Innstillinger.</string>
     <string name="gtb_dialog_privacy_speed_message">Du er i ferd med å bruke Xunyou Game Booster. Denne tjenesten innhenter din Mi-konto-ID for å registrere medlemskapets varighet.</string>
-    <string name="gtb_dialog_privacy_speed_tips">&lt;Data>Jeg har lest og godtatt Xunyou Game Boosters &lt;a href=\"%1$s\">personvernerklæring.&lt;/a>&lt;/Data></string>
-    <string name="gtb_dialog_privacy_speed_tips_new">"&lt;Data>I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>.&lt;/Data>"</string>
+    <string name="gtb_dialog_privacy_speed_tips"><Data>Jeg har lest og godtatt Xunyou Game Boosters &lt;a href=\"%1$s\">personvernerklæring.&lt;/a></Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou Game Booster</string>
     <string name="gtb_dialog_privacy_voice_message">Du er i ferd med å bruke Xunyou Spillstemmeskifter. Denne tjenesten innhenter din Mi-konto-ID for å registrere medlemskapets varighet.</string>
-    <string name="gtb_dialog_privacy_voice_tips">&lt;Data>Jeg har lest og godtatt Xunyou Spillstemmeskifters &lt;a href=\"%1$s\">personvernerklæring.&lt;/a>&lt;/Data></string>
+    <string name="gtb_dialog_privacy_voice_tips"><Data>Jeg har lest og godtatt Xunyou Spillstemmeskifters &lt;a href=\"%1$s\">personvernerklæring.&lt;/a></Data></string>
     <string name="gtb_dialog_privacy_voice_title">Xunyou Spillstemmeskifter</string>
     <string name="gtb_dialog_summary_smart_5g">Når spillturbo oppdager et 5G-nettverk, kan den koble enheten til det beste nettverket som er tilgjengelig for å redusere forsinkelser i nettverket. Aktivere denne funksjonen nå?</string>
     <string name="gtb_dialog_title_smart_5g">Nettverksoptimalisering for 5G</string>
@@ -2539,6 +2568,7 @@ Leverandøren kan belaste deg med ytterligere avgifter hvis du bruker mobildataf
     <string name="loading">Et øyeblikk…</string>
     <string name="loading_text_format" formatted="false">Kontrollerer om bilder inneholder privat informasjon %d/%d</string>
     <string name="local_ip_exception_summary">Kunne ikke hente lokal IP-adresse. Gå til Tilbakemeldingsappen og send en logg fra enheten din for å rapportere om dette problemet.</string>
+    <string name="location_services_title">Stedstjenester</string>
     <string name="lock_all_title">Lås alle apper</string>
     <string name="lock_app_input_invalid_car">Enkelte symboler støttes ikke</string>
     <string name="lock_mode_title">Låseinnstillinger</string>
@@ -2632,6 +2662,7 @@ svarer"</string>
     <string name="make_sure_package_type">Velg din dataplan</string>
     <string name="man_add_application">Legg til autostart-apper manuelt</string>
     <string name="manage_hybrid_permissions">Administrer tillatelsene til appen</string>
+    <string name="manage_notification_access_title">Les, besvar og kontroller varsler</string>
     <string name="managed_user_title">Alle arbeidsapplikasjoner</string>
     <string name="manual_input_free_traffic">Still inn laveste databruk</string>
     <string name="manual_input_traffic">Still inn databruk</string>
@@ -3285,7 +3316,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pc_camera_printer_notify_subtitle">Tilkoblet</string>
     <string name="pc_camera_printer_title">Photo Printer Kit</string>
     <string name="pc_category_charge_settings">Ladeinnstillinger</string>
-    <string name="pc_charge_mode_low_power_fast_speed">Lav spenning</string>
+    <string name="pc_charge_mode_low_power_fast_speed">Øk hastigheten</string>
     <string name="pc_charge_mode_low_power_fast_speed_tips">Enheten kan opphetes</string>
     <string name="pc_charge_mode_standard">Standard</string>
     <string name="pc_charge_mode_topspeed">Topphastighet</string>
@@ -3348,6 +3379,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pc_fast_charge_switch_toast_message">Endringene blir tatt i bruk neste gang du lader enheten</string>
     <string name="pc_fast_charge_temp_remider">Aktiver for å regulere ladehastigheten automatisk. Denne funksjonen fungerer bare med Xiaomis medfølgende ladere. Enheten kan bli varm under lading.</string>
     <string name="pc_fast_charge_title">Øk ladehastigheten</string>
+    <string name="pc_first_use_error_tips">Beregner</string>
     <string name="pc_first_use_protect_title">Første gangs bruk</string>
     <string name="pc_going_to_exit_extreme_mode">Avslutter dvalemodus</string>
     <string name="pc_going_to_exit_extreme_mode_summary">Enheten lades. Dvalemodus er av.</string>
@@ -3446,6 +3478,7 @@ Ultrabatterisparer"</string>
     <string name="pc_settings_title">Batteri</string>
     <string name="pc_smart_charge_button_summary">For å forlenge batteriets levetid vil systemet lære hvordan du lader enheten og stoppe ladingen når batterinivået når %1$s</string>
     <string name="pc_smart_charge_notify_summary_high_temp">Enheten er opphetet. Ladingen stoppes når batterinivået når %1$s</string>
+    <string name="pc_smart_charge_notify_summary_high_temp_protect">For å beskytte enheten mot overoppheting stanses ladingen når batterinivået er oppe på %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigerer… Ladingen stoppes når batterinivået når %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Ladingen stoppes på %s</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">For å forlenge batteriets levetid vil batteriet til denne enheten ikke gå over gjeldende nivå når den er koblet til bilen.</string>
@@ -3501,6 +3534,8 @@ Ultrabatterisparer"</string>
     <string name="perm_intercept_unknown_title">Hvis du tillater at %1s kan installere apper fra ukjente kilder, kan det utgjøre følgende risikoer:</string>
     <string name="perm_list_header_title">Apper</string>
     <string name="perm_list_header_title_has_storage">Apper med lagringstillatelse</string>
+    <string name="permdesc_coarse_location">Omtrentlig plassering</string>
+    <string name="permdesc_fine_location">Sted</string>
     <string name="permdesc_get_installed_apps">Gi \"%1$s\" tilgang til info om installerte apper?</string>
     <string name="permdesc_in_calls">Overvåke innkommende samtaler</string>
     <string name="permdesc_out_calls">Overvåke utgående samtaler</string>
@@ -3548,7 +3583,9 @@ Ultrabatterisparer"</string>
     <string name="permission_group_location">Denne tillatelsen gir apper tilgang til posisjonsinformasjon via nettverk eller satellitt.</string>
     <string name="permission_group_microphone">Denne tillatelsen lar apper bruke mikrofonen til å gjøre lydopptak.</string>
     <string name="permission_group_nearby_device">Denne tillatelsen lar apper oppdage og koble til enheter i nærheten, i tillegg til å bestemme posisjonene deres.</string>
+    <string name="permission_group_note">Gi denne tillatelsen for å gi appen tilgang til elementer fra Notater.</string>
     <string name="permission_group_phone">Denne tillatelsen lar apper foreta, besvare og avslutte anrop, i tillegg til tilgang til telefonnummeret, enhetsstatusen og mobilnettverksopplysningene dine.</string>
+    <string name="permission_group_record">Gi denne tillatelsen for å gi appen tilgang til elementer fra Opptaker.</string>
     <string name="permission_group_sms">Denne tillatelsen lar apper sende og vise SMS- og MMS-meldinger.</string>
     <string name="permission_group_sport_healthy">Denne tillatelsen gir apper tilgang til aktivitetsopplysningene dine (f.eks skritteller, treningsøkter).</string>
     <string name="permission_instruction_access_notification">This permission allows apps to read, search, and clear all your notifications. Remember that notifications may include private information (e.g. bank card numbers and passwords).</string>
@@ -3589,9 +3626,11 @@ Ultrabatterisparer"</string>
     <string name="permission_instruction_read_history">Gå til nettleserhistorikk</string>
     <string name="permission_instruction_read_imei">Få tilgang til denne enhetens IMEI</string>
     <string name="permission_instruction_read_media_pic">Denne tillatelsen lar apper få tilgang til bilder og videoer som er lagret på denne enheten. Disse elementene kan inneholde personopplysninger.</string>
+    <string name="permission_instruction_read_note">Få tilgang til notater</string>
     <string name="permission_instruction_read_notify_sms">This permission allows apps to read notification text messages stored on your device or SIM card.</string>
     <string name="permission_instruction_read_phone_state">Denne tillatelsen gir apper tilgang til telefonnummeret, enhetsstatusen og mobilnettverksopplysningene dine.</string>
     <string name="permission_instruction_read_read_calendar">Denne tillatelsen lar apper legge til, slette og redigere kalenderhendelser.</string>
+    <string name="permission_instruction_read_record">Tilgang til opptak</string>
     <string name="permission_instruction_read_sms">Denne tillatelsen gjør at apper kan lese all tekst og alle multimediemeldinger som er lagret på enheten eller SIM-kortet. Slike meldinger kan inneholde passord, bankkontoopplysninger og annen personlig informasjon.</string>
     <string name="permission_instruction_read_write_calendar">Denne tillatelsen gir apper tilgang til kalenderhendelser.</string>
     <string name="permission_instruction_receive_mms">This permission allows apps to read all multimedia messages stored on your device or SIM card. Such messages might contain passwords, bank account details, and other personal information.</string>
@@ -4126,8 +4165,8 @@ Ultrabatterisparer"</string>
     <string name="privacy_dialog_camera_message">For å beskytte personvernet ditt, tillater ikke systemet at apper bruker kameraet i bakgrunnen.</string>
     <string name="privacy_dialog_camera_title">Begrens kamerabruk i bakgrunnen</string>
     <string name="privacy_dialog_content_part1">Velkommen til Sikkerhet! Denne appen ser etter søppel og virus på enheten og gjør at du kan administrere apper, kontrollere mobildatabruk, blokkere anrop og meldinger og mer.</string>
-    <string name="privacy_dialog_content_part2">&lt;Data>Sikkerhet må innhente nødvendig personlig informasjon for å tilby deg tjenester og forbedre funksjoner. Du kan finne ut mer om hvordan vi håndterer informasjonen vi innhenter i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a>. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen til Sikkerhet under Innstillinger.&lt;/Data></string>
-    <string name="privacy_dialog_content_part3">&lt;Data>Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du bruker Sikkerhet. Hvis du ikke samtykker i å bruke de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.&lt;/Data></string>
+    <string name="privacy_dialog_content_part2"><Data>Sikkerhet må innhente nødvendig personlig informasjon for å tilby deg tjenester og forbedre funksjoner. Du kan finne ut mer om hvordan vi håndterer informasjonen vi innhenter i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a>. Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen til Sikkerhet under Innstillinger.</Data></string>
+    <string name="privacy_dialog_content_part3"><Data>Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du bruker Sikkerhet. Hvis du ikke samtykker i å bruke de nevnte tjenestene, kan du ikke bruke enkelte funksjoner i denne appen, men den grunnleggende funksjonaliteten er fortsatt tilgjengelig.</Data></string>
     <string name="privacy_dialog_danger_mission_message">Android har flere tillatelser med høy risiko (f.eks. tillatelsen om å sende deg pushvarsler). For å beskytte personvernet ditt vil systemet spørre deg om du tillater slik oppførsel, og gi deg valg for begrensninger.</string>
     <string name="privacy_dialog_danger_mission_title">Høy risiko-tillatelser</string>
     <string name="privacy_dialog_feedback">Tilbakemelding</string>
@@ -4233,7 +4272,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="privacy_revoke_dialog_title_cn">Merk</string>
     <string name="privacy_revoke_failed_dialog_content">En serverfeil oppstod. Vent et minutt eller to og prøv igjen.</string>
     <string name="privacy_revoke_failed_dialog_title">Kunne ikke trekke tilbake samtykke</string>
-    <string name="privacy_revoke_tip_dialog_content">&lt;Data>Du vil ikke kunne fortsette å bruke %1$s med mindre du godtar den nye versjonen av personvernerklæringen. Godta den oppdaterte %2$s &lt;a href=\"%3$s\">personvernerklæringen&lt;/a> nå?&lt;/Data></string>
+    <string name="privacy_revoke_tip_dialog_content"><Data>Du vil ikke kunne fortsette å bruke %1$s med mindre du godtar den nye versjonen av personvernerklæringen. Godta den oppdaterte %2$s &lt;a href=\"%3$s\">personvernerklæringen&lt;/a> nå?</Data></string>
     <string name="privacy_revoke_tip_dialog_title">Kan ikke bruke appen</string>
     <string name="privacy_revoke_title">Tilbakekalling av samtykke</string>
     <string name="privacy_risk_app">Risikable apper</string>
@@ -4336,7 +4375,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="privacy_thumbnail_shield_top_tip">Masker forhåndsvisninger av apper som vises i Nylige</string>
     <string name="privacy_type_open">Aktivert</string>
     <string name="privacy_update_dialog_content_1">Personvernerklæringen til %s ble oppdatert:</string>
-    <string name="privacy_update_dialog_content_2">&lt;Data>Les og godta den nye versjonen av &lt;a href=\"%1$s\">personvernerklæring&lt;/a> før du fortsetter.&lt;/Data></string>
+    <string name="privacy_update_dialog_content_2"><Data>Les og godta den nye versjonen av &lt;a href=\"%1$s\">personvernerklæring&lt;/a> før du fortsetter.</Data></string>
     <string name="privacy_update_dialog_title">Oppdatert personvernerklæring</string>
     <string name="privacy_using_camera">Bruk av kamera</string>
     <string name="privacy_using_location">Tilgang til plassering</string>
@@ -4617,6 +4656,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skin_change_close_toast">Endringer vil bli brukt neste gang du starter Security</string>
+    <string name="skip_ad">Hopp over</string>
     <string name="sms_address">Område-blokkeringsliste</string>
     <string name="sms_blacklist">SMS-blokkeringsliste</string>
     <string name="sms_cloud_block">Sky-blokkeringsliste</string>
@@ -5134,25 +5174,26 @@ Formatering vil slette alt eksisterende innhold på ^2. For å unngå å miste i
     <string name="system_permission_declare_agree">Godta</string>
     <string name="system_permission_declare_analytics_declare">Vi inviterer deg til å bli med i brukeropplevelsesprogrammet vårt. Denne appen må koble til internett og bruke følgende tillatelser eller funksjoner for å innhente statistikk for å forbedre tjenestene vi tilbyr deg. Vi innhenter bare data for statistiske formål, og vi kan ikke identifisere deg personlig basert på dataene vi innhenter.</string>
     <string name="system_permission_declare_disagree">Uenig</string>
-    <string name="system_permission_declare_double_link">&lt;Data>Les og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår før du fortsetter.&lt;/Data></string>
+    <string name="system_permission_declare_double_link"><Data>Les og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår før du fortsetter.</Data></string>
     <string name="system_permission_declare_main_purpose" formatted="false">Velkommen til %1s! Denne appen lar deg bruke følgende funksjon: %2s.</string>
-    <string name="system_permission_declare_meanwhile_double_link">&lt;Data>Les og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår før du fortsetter.&lt;/Data></string>
-    <string name="system_permission_declare_meanwhile_privacy_policy">&lt;Data>Les og godta &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du fortsetter.&lt;/Data></string>
-    <string name="system_permission_declare_meanwhile_user_agreement">&lt;Data>Les og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> vår før du fortsetter.&lt;/Data></string>
+    <string name="system_permission_declare_meanwhile_double_link"><Data>Les og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> og &lt;a href=\"%2$s\">personvernerklæringen&lt;/a> vår før du fortsetter.</Data></string>
+    <string name="system_permission_declare_meanwhile_privacy_policy"><Data>Les og godta &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du fortsetter.</Data></string>
+    <string name="system_permission_declare_meanwhile_user_agreement"><Data>Les og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> vår før du fortsetter.</Data></string>
     <string name="system_permission_declare_no_say_no">Hvis du ikke ønsker å innvilge de nødvendige tillatelsene eller ikke vil la oss innhente og bruke dine data vil ikke denne applikasjonen fungere skikkelig.</string>
     <string name="system_permission_declare_no_say_no_analytics">Hvis du ikke ønsker å gi disse tillatelsene, kan du melde deg av under innstillinger > Tilleggsinnstillinger > Personvern > Brukeropplevelsesprogram.</string>
     <string name="system_permission_declare_no_say_no_non_mandatory">Hvis du ikke ønsker å innvilge de nødvendige tillatelsene eller ikke vil la oss innhente og bruke dataene dine, vil ikke denne appen fungere skikkelig.</string>
     <string name="system_permission_declare_optional">For å kunne tilby deg flere tjenester mens du bruker appen, trenger vi kanskje følgende tillatelser: %s. Du kan alltid justere dine tillatelsespreferanser i Innstillinger.</string>
+    <string name="system_permission_declare_optional_default_grant"><Data>For å kunne gi deg en bedre brukeropplevelse trenger denne appen følgende tilleggstillatelser: %1s. Du finner ytterligere informasjon om hvordan vi behandler personopplysningene dine ved å trykke &lt;a href=\"test\">her&lt;/a>. Du kan når som helst administrere tillatelsene dine i Innstillinger.</Data></string>
     <string name="system_permission_declare_privacy_declare">Denne appen må koble til internett og krever følgende tillatelser for å fungere som normalt:</string>
     <string name="system_permission_declare_privacy_no_network">Denne appen trenger følgende tillatelser for å fungere som normalt:</string>
     <string name="system_permission_declare_privacy_no_permission">Denne appen må koble til internett og innhente de nødvendige personopplysningene for å fungere som normalt.</string>
-    <string name="system_permission_declare_privacy_policy">&lt;Data>Les og godta &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du fortsetter.&lt;/Data></string>
+    <string name="system_permission_declare_privacy_policy"><Data>Les og godta &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår før du fortsetter.</Data></string>
     <string name="system_permission_declare_revoke_system">Du kan avslutte denne appen.</string>
     <string name="system_permission_declare_revoke_uninstallable">Du kan logge ut og avinstallere denne appen, eller tilbakekalle autorisasjonen din under Sikkerhet > Behandle apper > Tillatelser > Tillatelser.</string>
     <string name="system_permission_declare_title">Merk</string>
     <string name="system_permission_declare_use_network">Koble til nettverk</string>
     <string name="system_permission_declare_use_network_no_permission">Koble til nettverket</string>
-    <string name="system_permission_declare_user_agreement">&lt;Data>Les og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> vår før du fortsetter.&lt;/Data></string>
+    <string name="system_permission_declare_user_agreement"><Data>Les og godta &lt;a href=\"%1$s\">brukeravtalen&lt;/a> vår før du fortsetter.</Data></string>
     <string name="system_permission_perm_answer_call">Utfør samtale</string>
     <string name="system_permission_perm_optional">" (valgfritt)"</string>
     <string name="system_permission_perm_read_mms">Les MMS</string>
@@ -5494,6 +5535,7 @@ Gjenstående data inkluderer data som har blitt videreført fra den forrige mån
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unused_apps_switch">Sett appaktiviteten på pause hvis appen ikke brukes</string>
     <string name="unused_apps_switch_summary">Fjern tillatelser, slett midlertidige filer og stopp varsling</string>
+    <string name="usage_access_title">Tilgang til bruksstatistikk</string>
     <string name="usage_sorted_activity_lable">Databruk</string>
     <string name="usage_sorted_empty_text">Tøm</string>
     <string name="usage_sorted_loading_text">Et øyeblikk…</string>
@@ -5539,8 +5581,7 @@ Gjenstående data inkluderer data som har blitt videreført fra den forrige mån
     <string name="vb_fps_settings_tips">Denne funksjonen justerer skjermens oppdateringsfrekvens til videobildefrekvensen, noe som sparer batteri og gir en jevn avspilling. Aktivering av flytende kommentarer deaktiverer automatisk oppdateringsfrekvens.</string>
     <string name="vb_immerse_voice">Engasjerende lyd</string>
     <string name="vb_movie_mode">Teatermodus</string>
-    <string name="vb_movie_power_hint">"Med teatermodus får du en oppslukende visningsopplevelse.
-Enheten kan opphetes og bruke mer strøm."</string>
+    <string name="vb_movie_power_hint">Theater mode provides an immersive viewing experience. Your device might heat up and consume more power.</string>
     <string name="vb_movie_subtitle">Krever høy ytelse</string>
     <string name="vb_mv_style_close_toast">Stil er av</string>
     <string name="vb_power_performance_mode_conflict_toast">Kan ikke bruke denne funksjonen mens ytelsesmodus er aktivert</string>
