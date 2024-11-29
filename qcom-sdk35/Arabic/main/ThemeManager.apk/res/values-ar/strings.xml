@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">تخصيص متقدم</string>
     <string name="afternoon">بعد الظهر</string>
     <string name="agreement_desc">اتفاقية المستخدم (إلزامي)</string>
+    <string name="ai_moving_your_wallpaper">شاهد كيف يمكن للذكاء الاصطناعي أن يضفي الحيوية على خلفياتك</string>
+    <string name="ai_wallpaper">خلفيات ديناميكية لل AI</string>
+    <string name="ai_wallpaper_function_introduction">قم بإنشاء خلفيات فيديو ديناميكية من صور المناظر الطبيعية والمدن والنباتات والسيارات</string>
     <string name="alarm_sound">المنبه</string>
     <string name="all_resources">الكل</string>
     <string name="all_wallpapers">كل خلفيات الشاشة</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
     <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
     <string name="choose_pay_method">حدد طريقه الدفع</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">اختر الفئة المفضلة لديك</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">فجر</string>
     <string name="editor_apply_message">"تستخدم هذه الميزة لتصحيح الأخطاء من قبل المصممين. سيتم استعادة المظهر الافتراضي تلقائيًا بعد قليل. مسار ملف الثيم الحالي: "</string>
     <string name="editor_apply_toast">حدد temp.mtz يدويًا في دليل الجذر</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">تأثيرات الشاشة الرئيسية</string>
     <string name="effect_lock">تأثيرات شاشة القفل</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">مزيد من خلفيات النظام</string>
     <string name="more_wallpapers">انقر لعرض المزيد من خلفيات الشاشة</string>
     <string name="morning">الصباح</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
     <string name="mtrl_checkbox_state_description_checked">تم وضع علامة في المربّع</string>
     <string name="mtrl_checkbox_state_description_indeterminate">يجوز أنه تم وضع علامة في المربّع</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(الرصيد: %1s)</string>
     <string name="payment_coins_insufficient_balance">(رصيد غير كافي)</string>
     <string name="payment_data_move_tips">سيتم نقل معلومات حسابك إلى الخوادم في منطقتك وفقا لسياسات الخصوصية الخاصة بنا. قد يحدث فقدان للبيانات أثناء الترحيل.</string>
-    <string name="payment_instructions"><Data>بإكمال الدفع، فإنك توافق على &lt;a href=\"%1$s\">سياسة الشراء داخل التطبيق&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>بإكمال الدفع، فإنك توافق على &lt;a href=\"%1$s\">سياسة الشراء داخل التطبيق&lt;/a>.&lt;/Data></string>
     <string name="payment_method">طرق الدفع</string>
     <string name="permission_desc">لحفظ الثيماترالتي تم تنزيلها والعناصر الأخرى</string>
     <string name="permission_pop_desc">لتغيير إعدادات التفضيلات المخصصة أو حفظ العناصر التي تم تنزيلها، اسمح أولاً للثيمات بالوصول إلى مساحة التخزين.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">الشائعة</string>
     <string name="resource_ranking_free">مجاني</string>
     <string name="resource_ranking_purchase">مدفوع</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">انتهت صلاحية هذا الكود</string>
     <string name="resource_ringtone_default">نغمات الرنين</string>
     <string name="resource_ringtone_playing_error">خطأ</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">أوافق</string>
     <string name="user_authorization_dialog_agree_a">أوافق</string>
     <string name="user_authorization_dialog_disagree">خروج</string>
-    <string name="user_authorization_dialog_message"><Data>"نحتاج إلى جمع البيانات الشخصية الضرورية لتزويدك بالخدمات الأساسية. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و &lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الثيمات.
-يمكنك سحب الموافقة على سياسة خصوصية الثيمات في أي وقت من الإعدادات."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>يجب عليك أن تقرأ وتوافق على &lt;a href=\"%1$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%2$s\">سياسة الخصوصية&lt;/a>قبل المتابعة. يمكنك تغيير هذه الإعدادات في أي وقت من الإعدادات.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>نحتاج إلى جمع البيانات الشخصية الضرورية لتزويدك بالخدمات الأساسية. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و &lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الثيمات.
+يمكنك سحب الموافقة على سياسة خصوصية الثيمات في أي وقت من الإعدادات.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>يجب عليك أن تقرأ وتوافق على &lt;a href=\"%1$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%2$s\">سياسة الخصوصية&lt;/a>قبل المتابعة. يمكنك تغيير هذه الإعدادات في أي وقت من الإعدادات.&lt;/Data></string>
     <string name="user_authorization_dialog_title">الأحكام والشروط</string>
     <string name="user_know">حسنا</string>
     <string name="using_theme_has_update_tips">يتوفر تحديث لهذا الثيم.</string>
@@ -1497,9 +1507,13 @@ mm"</string>
     <string name="video_cancel">إلغاء</string>
     <string name="video_data_tips_message">قد يؤدي استخدام بيانات الهاتف إلى فرض رسوم إضافية. هل تريد المتابعة على أي حال؟</string>
     <string name="video_data_tips_title">تحذير إستخدام البيانات</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">قد لا يتم عرض هذا الفيديو بشكل صحيح ويؤدي إلى إبطاء جهازك. هل ترغب في المتابعة؟</string>
     <string name="video_not_support_title">هذا الفيديو كبير جداً</string>
     <string name="video_silence_apply_success">تم تكوين الفيديو بدون صوت بنجاح</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">قبل استخدامك خلفيات الشاشة من الثيمات، اقرأ ووافق على &lt;a href=\"%1$s\">اتفاقية المستخدم&lt;/a> و &lt;a href=\"%2$s\">سياسة الخصوصية&lt;/a> لدينا.</string>
     <string name="wallpaper_and_personal">الخلفيات والتخصيص</string>
     <string name="wallpaper_apply">تعيين</string>

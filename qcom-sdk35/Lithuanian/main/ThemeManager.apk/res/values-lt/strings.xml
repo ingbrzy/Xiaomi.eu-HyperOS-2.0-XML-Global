@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Išplėstinis tinkinimas</string>
     <string name="afternoon">Popietė</string>
     <string name="agreement_desc">Naudotojo sutartis (privaloma)</string>
+    <string name="ai_moving_your_wallpaper">Išbandykite DI pagyvintus fono paveikslėlius</string>
+    <string name="ai_wallpaper">DI dinaminiai fono paveikslėliai</string>
+    <string name="ai_wallpaper_function_introduction">Kurkite dinamiškus fono paveikslėlius iš peizažų, miestų, augalų ir automobilių nuotraukų</string>
     <string name="alarm_sound">Žadintuvas</string>
     <string name="all_resources">Visus</string>
     <string name="all_wallpapers">Visi fono paveikslėliai</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">Įvesta simbolių: %1$d iš %2$d</string>
     <string name="character_counter_overflowed_content_description">Viršytas simbolių skaičius: %1$d iš %2$d</string>
     <string name="choose_pay_method">Pasirinkite mokėjimo būdą</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Pasirinkite mėgstamiausią kategoriją</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Rytas</string>
     <string name="editor_apply_message">"Ši funkcija naudojama taisyti klaidas dizaineriams. Numatytoji tema už kurio laiko bus automatiškai atkurta. Esamos temos failo kelias: "</string>
     <string name="editor_apply_toast">Šakniniame kataloge manualiai pasirinkite temp.mtz</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Pagrindinio ekrano efektai</string>
     <string name="effect_lock">Užrakto ekrano efektai</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">Daugiau sisteminių fonų</string>
     <string name="more_wallpapers">Bakstelėkite, kad peržiūrėtumėte daugiau fonų</string>
     <string name="morning">Rytas</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Naujas pranešimas</string>
     <string name="mtrl_checkbox_state_description_checked">Pažymėta</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Iš dalies pažymėta</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Likutis: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Nepakankamas likutis)</string>
     <string name="payment_data_move_tips">Siekiant atitikti privatumo reikalavimus, jūsų paskyra bus perkelta į jūsų šalies serverius.</string>
-    <string name="payment_instructions"><Data>Atlikdami mokėjimą sutinkate su &lt;a href=\"%1$s\">pranešimu apie mokėjimus programos viduje&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>Atlikdami mokėjimą sutinkate su &lt;a href=\"%1$s\">pranešimu apie mokėjimus programos viduje&lt;/a>.&lt;/Data></string>
     <string name="payment_method">Mokėjimo būdas</string>
     <string name="permission_desc">Skirta išsaugotoms temoms ir kitiems elementams saugoti</string>
     <string name="permission_pop_desc">Kad galėtumėte pakeisti suasmeninimo nuostatas ir išsaugoti atsisiųstus elementus, pirmiausia leiskite temoms pasiekti saugyklą.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Populiarios</string>
     <string name="resource_ranking_free">Nemokama</string>
     <string name="resource_ranking_purchase">Mokama</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Šio kodo galiojimo laikas baigėsi</string>
     <string name="resource_ringtone_default">Skambėjimo garsai</string>
     <string name="resource_ringtone_playing_error">Klaida</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Sutinku</string>
     <string name="user_authorization_dialog_agree_a">Sutinku</string>
     <string name="user_authorization_dialog_disagree">Išeiti</string>
-    <string name="user_authorization_dialog_message"><Data>"Pagrindinių paslaugų teikimui reikalinga būtinoji jūsų asmeninė informacija. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. Prieš pradėdami naudoti „Temas“, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%3$s\">privatumo politika&lt;/a>.
-„Temų“ privatumo politikos įgaliojimus galite bet kada atšaukti parametruose."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Sutikite su mūsų &lt;a href=\"%1$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%2$s\">privatumo politika&lt;/a> prieš tęsdami. Bet kada galite pakeisti parinktis skiltyje Parametrai.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Pagrindinių paslaugų teikimui reikalinga būtinoji jūsų asmeninė informacija. Apie tai kaip valdome surinktą informaciją galite sužinoti daugiau mūsų &lt;a href=\"%1$s\">privatumo politikoje&lt;/a>. Prieš pradėdami naudoti „Temas“, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%3$s\">privatumo politika&lt;/a>.
+„Temų“ privatumo politikos įgaliojimus galite bet kada atšaukti parametruose.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Sutikite su mūsų &lt;a href=\"%1$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%2$s\">privatumo politika&lt;/a> prieš tęsdami. Bet kada galite pakeisti parinktis skiltyje Parametrai.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Nuostatos ir sąlygos</string>
     <string name="user_know">Supratau</string>
     <string name="using_theme_has_update_tips">Yra šios temos naujinimas.</string>
@@ -1497,9 +1507,13 @@ mm"</string>
     <string name="video_cancel">Atšaukti</string>
     <string name="video_data_tips_message">Mobiliųjų duomenų naudojimas gali reikšti papildomus mokesčius. Vis tiek tęsti?</string>
     <string name="video_data_tips_title">Duomenų naudojimo įspėjimas</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">Šis vaizdinis darbalaukio fonas gali būti rodomas netinkamai arba sulėtinti jūsų įrenginį. Vis tiek taikyti?</string>
     <string name="video_not_support_title">Šis vaizdo įrašas yra per didelis</string>
     <string name="video_silence_apply_success">Vaizdo įrašas be garso sukonfigūruotas sėkmingai</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Prieš pradėdami naudoti fono paveikslėlius iš „Temų“, susipažinkite ir sutikite su mūsų &lt;a href=\"%1$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%2$s\">privatumo politika&lt;/a>.</string>
     <string name="wallpaper_and_personal">Fonas ir personalizavimas</string>
     <string name="wallpaper_apply">Taikyti</string>

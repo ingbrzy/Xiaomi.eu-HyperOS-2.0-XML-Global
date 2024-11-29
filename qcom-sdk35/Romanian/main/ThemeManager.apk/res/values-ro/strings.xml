@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Personalizare avansată</string>
     <string name="afternoon">După-amiază</string>
     <string name="agreement_desc">Acordul utilizatorului (obligatoriu)</string>
+    <string name="ai_moving_your_wallpaper">Vezi cum IA vă poate aduce imaginile de fundal la viață</string>
+    <string name="ai_wallpaper">Imagini de fundal dinamice IA</string>
+    <string name="ai_wallpaper_function_introduction">Creați imagini de fundal video dinamice din fotografii cu peisaje, orașe, plante și mașini</string>
     <string name="alarm_sound">Alarmă</string>
     <string name="all_resources">Toate</string>
     <string name="all_wallpapers">Toate imaginile de fundal</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">Caractere introduse: %1$d din %2$d</string>
     <string name="character_counter_overflowed_content_description">Limita de caractere a depășit %1$d din %2$d</string>
     <string name="choose_pay_method">Selectați metoda de plată</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Selectați categoria preferată</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Dimineaţa</string>
     <string name="editor_apply_message">"Această funcție este utilizată pentru depanare de către designeri. Tema implicită va fi restabilită automat peste un timp. Calea fișierului temei curente: "</string>
     <string name="editor_apply_toast">Selectați manual temp.mtz în directorul rădăcină</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Efecte Ecran principal</string>
     <string name="effect_lock">Efecte Ecran de blocare</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">Mai multe imagini de fundal de sistem</string>
     <string name="more_wallpapers">Atingeți pentru a vizualiza mai multe imagini de fundal</string>
     <string name="morning">Dimineaţa</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Notificare nouă</string>
     <string name="mtrl_checkbox_state_description_checked">Bifată</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Bifată parțial</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Sold: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Fonduri insuficiente)</string>
     <string name="payment_data_move_tips">Datele contului dvs. vor fi migrate pe serverele din regiunea dvs. pentru a respecta reglementările de confidențialitate. Există riscul pierderii datelor în timpul migrării.</string>
-    <string name="payment_instructions"><Data>Prin finalizarea plății, sunteți de acord cu &lt;a href=\"%1$s\">Notificare cu privire la achizițiile în aplicație&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>Prin finalizarea plății, sunteți de acord cu &lt;a href=\"%1$s\">Notificare cu privire la achizițiile în aplicație&lt;/a>.&lt;/Data></string>
     <string name="payment_method">Modalitate de plată</string>
     <string name="permission_desc">Pentru stocarea temelor salvate și a altor elemente</string>
     <string name="permission_pop_desc">Pentru a putea schimba preferințele de personalizare și a salva elementele descărcate, permiteți mai întâi temelor să acceseze spațiul de stocare.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Populare</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Plătite</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Acest cod a expirat</string>
     <string name="resource_ringtone_default">Tonuri de apel</string>
     <string name="resource_ringtone_playing_error">Eroare</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">De acord</string>
     <string name="user_authorization_dialog_agree_a">De acord</string>
     <string name="user_authorization_dialog_disagree">Ieșire</string>
-    <string name="user_authorization_dialog_message"><Data>"Trebuie să colectăm informațiile personale necesare pentru a vă oferi serviciile de bază. Puteți afla cum gestionăm informațiile pe care le colectăm în &lt;a href=\"%1$s\">Politica de confidențialitate&lt;/a>. Citiți și acceptați &lt;a href=\"%2$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%3$s\">Politica de confidențialitate&lt;/a> înainte de a utiliza Teme. 
-Puteți să vă retrageți consimțământul pentru politica de confidențialitate a temelor în Setări în orice moment."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Acceptați &lt;a href=\"%1$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%2$s\">Politica de confidențialitate&lt;/a> înainte de a continua. Vă puteți modifica oricând preferințele din Setări.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Trebuie să colectăm informațiile personale necesare pentru a vă oferi serviciile de bază. Puteți afla cum gestionăm informațiile pe care le colectăm în &lt;a href=\"%1$s\">Politica de confidențialitate&lt;/a>. Citiți și acceptați &lt;a href=\"%2$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%3$s\">Politica de confidențialitate&lt;/a> înainte de a utiliza Teme. 
+Puteți să vă retrageți consimțământul pentru politica de confidențialitate a temelor în Setări în orice moment.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Acceptați &lt;a href=\"%1$s\">Acordul utilizatorului&lt;/a> și &lt;a href=\"%2$s\">Politica de confidențialitate&lt;/a> înainte de a continua. Vă puteți modifica oricând preferințele din Setări.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Termeni și condiții</string>
     <string name="user_know">Am înțeles</string>
     <string name="using_theme_has_update_tips">Este disponibilă o actualizare pentru această temă.</string>
@@ -1497,9 +1507,13 @@ Puteți să vă retrageți consimțământul pentru politica de confidențialita
     <string name="video_cancel">Anulează</string>
     <string name="video_data_tips_message">Utilizarea datelor mobile poate genera taxe suplimentare. Continuați oricum?</string>
     <string name="video_data_tips_title">Avertisment de utilizare a datelor</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">Acest videoclip poate fi afișat incorect sau poate încetini dispozitivul. Aplicați oricum?</string>
     <string name="video_not_support_title">Acest videoclip este prea mare</string>
     <string name="video_silence_apply_success">Video configurat fără sunet cu succes</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Înainte de a utiliza imagini de fundal din Teme, citiți și acceptați &lt;a href=\"%1$s\">Acordul Utilizatorului&lt;/a> și &lt;a href=\"%2$s\">Politica de confidențialitate&lt;/a>.</string>
     <string name="wallpaper_and_personal">Imagine de fundal și personalizare</string>
     <string name="wallpaper_apply">Aplică</string>

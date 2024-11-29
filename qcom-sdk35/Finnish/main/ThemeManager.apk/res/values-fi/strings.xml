@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Edistynyt mukauttaminen</string>
     <string name="afternoon">Iltapäivä</string>
     <string name="agreement_desc">Käyttäjäsopimus (pakollinen)</string>
+    <string name="ai_moving_your_wallpaper">Katso, kuinka tekoäly voi herättää taustakuvasi eloon</string>
+    <string name="ai_wallpaper">Tekoälyn dynaamiset taustakuvat</string>
+    <string name="ai_wallpaper_function_introduction">Luo dynaamisia videotaustakuvia maisemista, kaupungeista, kasveista ja autoista otetuista valokuvista</string>
     <string name="alarm_sound">Hälytys</string>
     <string name="all_resources">Kaikki</string>
     <string name="all_wallpapers">Kaikki taustakuvat</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
     <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
     <string name="choose_pay_method">Valitse maksutapa</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Valitse suosikkikategoriasi</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Aamu</string>
     <string name="editor_apply_message">"Suunnittelijat käyttävät tätä ominaisuutta virheenkorjaukseen. Oletusteema palautetaan automaattisesti hetken kuluttua. Nykyisen teeman tiedostopolku: "</string>
     <string name="editor_apply_toast">Valitse manuaalisesti temp.mtz juurihakemistosta</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Aloitusnäytön tehosteet</string>
     <string name="effect_lock">Lukitusnäytön tehosteet</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">Lisää järjestelmän taustakuvia</string>
     <string name="more_wallpapers">Napauta nähdäksesi lisää</string>
     <string name="morning">Aamu</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Uusi ilmoitus</string>
     <string name="mtrl_checkbox_state_description_checked">Valittu</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Osittain valittu</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Riittämätön saldo)</string>
     <string name="payment_data_move_tips">Tilisi tiedot siirretään alueesi palvelimille tietosuojamääräysten mukaisesti. Tietojen katoamisen vaara on olemassa siirron aikana.</string>
-    <string name="payment_instructions"><Data>Suorittamalla maksun hyväksyt kohteen &lt;a href=\"%1$s\"> sovelluksen sisäisiä ostoja koskevan ilmoituksen&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>Suorittamalla maksun hyväksyt kohteen &lt;a href=\"%1$s\"> sovelluksen sisäisiä ostoja koskevan ilmoituksen&lt;/a>.&lt;/Data></string>
     <string name="payment_method">Maksutapa</string>
     <string name="permission_desc">Tallennettujen teemojen ja muiden kohteiden tallentamiseen</string>
     <string name="permission_pop_desc">Jotta voit muuttaa yksilöintiasetuksia ja tallentaa ladatut kohteet, anna Teemojen käyttää tallennustilaa ensin.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Suosittu</string>
     <string name="resource_ranking_free">Ilmainen</string>
     <string name="resource_ranking_purchase">Maksullinen</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Tämä koodi vanhentui</string>
     <string name="resource_ringtone_default">Soittoäänet</string>
     <string name="resource_ringtone_playing_error">Virhe</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Hyväksy</string>
     <string name="user_authorization_dialog_agree_a">Hyväksy</string>
     <string name="user_authorization_dialog_disagree">Poistu</string>
-    <string name="user_authorization_dialog_message"><Data>"Meidän on kerättävä tarvittavat henkilökohtaiset tiedot, jotta voimme tarjota sinulle peruspalveluja. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Teemojen käyttämistä.
-Voit milloin tahansa peruuttaa suostumuksesi Teemat-tietosuojakäytäntöön kohdassa Asetukset."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Hyväksy meidän &lt;a href=\"%1$s\">käyttäjäsopimus&lt;/a> ja &lt;a href=\"%2$s\">tietosuojakäytäntö&lt;/a> ennen kuin jatkat. Voit muuttaa asetuksiasi milloin tahansa asetuksissa.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Meidän on kerättävä tarvittavat henkilökohtaiset tiedot, jotta voimme tarjota sinulle peruspalveluja. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Teemojen käyttämistä.
+Voit milloin tahansa peruuttaa suostumuksesi Teemat-tietosuojakäytäntöön kohdassa Asetukset.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Hyväksy meidän &lt;a href=\"%1$s\">käyttäjäsopimus&lt;/a> ja &lt;a href=\"%2$s\">tietosuojakäytäntö&lt;/a> ennen kuin jatkat. Voit muuttaa asetuksiasi milloin tahansa asetuksissa.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Käyttöehdot</string>
     <string name="user_know">Selvä</string>
     <string name="using_theme_has_update_tips">Päivitys tähän teemaan on saatavilla.</string>
@@ -1497,9 +1507,13 @@ Voit milloin tahansa peruuttaa suostumuksesi Teemat-tietosuojakäytäntöön koh
     <string name="video_cancel">Peruuta</string>
     <string name="video_data_tips_message">Mobiilidatan käyttö voi aiheuttaa lisämaksuja. Jatketaanko joka tapauksessa?</string>
     <string name="video_data_tips_title">Datankäyttövaroitus</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">Tämä video saattaa näkyä väärin tai hidastaa laitettasi. Otetaanko käyttöön siitä huolimatta?</string>
     <string name="video_not_support_title">Tämä video on liian suuri</string>
     <string name="video_silence_apply_success">Video ilman ääntä määritelty onnistuneesti</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Ennen Teemojen taustakuvien käyttöä, lue ja hyväksy meidän &lt;a href=\"%1$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%2$s\">Tietosuojakäytäntö&lt;/a>.</string>
     <string name="wallpaper_and_personal">Taustakuva &amp; personointi</string>
     <string name="wallpaper_apply">Aseta</string>

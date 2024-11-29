@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Advanced customisation</string>
     <string name="afternoon">Afternoon</string>
     <string name="agreement_desc">User Agreement (mandatory)</string>
+    <string name="ai_moving_your_wallpaper">See how AI can bring your wallpapers to life</string>
+    <string name="ai_wallpaper">AI dynamic wallpapers</string>
+    <string name="ai_wallpaper_function_introduction">Create dynamic video wallpapers from photos of landscapes, cities, plants, and cars</string>
     <string name="alarm_sound">Alarm</string>
     <string name="all_resources">All</string>
     <string name="all_wallpapers">All wallpapers</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="choose_pay_method">Select payment method</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Select your favourite category</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Morning</string>
     <string name="editor_apply_message">"This feature is used for debugging by designers. The default theme will automatically be restored in a while. File path of the current theme: "</string>
     <string name="editor_apply_toast">Manually select temp.mtz in the root directory</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Home screen effects</string>
     <string name="effect_lock">Lock screen effects</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">More system wallpapers</string>
     <string name="more_wallpapers">Tap to view more wallpapers</string>
     <string name="morning">Morning</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_checkbox_state_description_checked">Ticked</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Partially ticked</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Balance: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Insufficient balance)</string>
     <string name="payment_data_move_tips">Your account data will be migrated to servers in your region to comply with privacy regulations. There is a risk of data loss during migration.</string>
-    <string name="payment_instructions"><Data>"By completing the payment, you're agreeing to the &lt;a href=\"%1$s\">Notice on In-App Purchases&lt;/a>."</Data></string>
+    <string name="payment_instructions">"&lt;Data>By completing the payment, you're agreeing to the &lt;a href=\"%1$s\">Notice on In-App Purchases&lt;/a>.&lt;/Data>"</string>
     <string name="payment_method">Payment method</string>
     <string name="permission_desc">For storing saved themes and other items</string>
     <string name="permission_pop_desc">To be able to change personalisation preferences and save downloaded items, allow Themes to access storage first.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Popular</string>
     <string name="resource_ranking_free">Free</string>
     <string name="resource_ranking_purchase">Paid</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">This code expired</string>
     <string name="resource_ringtone_default">Ringtones</string>
     <string name="resource_ringtone_playing_error">Error</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Agree</string>
     <string name="user_authorization_dialog_agree_a">Agree</string>
     <string name="user_authorization_dialog_disagree">Exit</string>
-    <string name="user_authorization_dialog_message"><Data>"We need to collect necessary personal information to provide you with the basic services. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%3$s\">Privacy Policy&lt;/a> before using Themes.
-You can withdraw your consent to the Privacy Policy of Themes in the Settings at any time."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a> before you continue. You can change your preferences at any time in Settings.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>We need to collect necessary personal information to provide you with the basic services. You can learn how we handle the information we collect in our &lt;a href=\"%1$s\">Privacy Policy&lt;/a>. Read and agree to our &lt;a href=\"%2$s\">User Agreement&lt;/a> and &lt;a href=\"%3$s\">Privacy Policy&lt;/a> before using Themes.
+You can withdraw your consent to the Privacy Policy of Themes in the Settings at any time.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a> before you continue. You can change your preferences at any time in Settings.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Terms and conditions</string>
     <string name="user_know">Got it</string>
     <string name="using_theme_has_update_tips">An update for this theme is available.</string>
@@ -1497,9 +1507,13 @@ You can withdraw your consent to the Privacy Policy of Themes in the Settings at
     <string name="video_cancel">Cancel</string>
     <string name="video_data_tips_message">Using mobile data may generate additional fees. Continue anyway?</string>
     <string name="video_data_tips_title">Data usage warning</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">This video might be displayed incorrectly or slow your device down. Apply anyway?</string>
     <string name="video_not_support_title">This video is too big</string>
     <string name="video_silence_apply_success">Configured video without sound successfully</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Before using wallpapers from Themes, read and agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a>.</string>
     <string name="wallpaper_and_personal">Wallpaper &amp; personalization</string>
     <string name="wallpaper_apply">Apply</string>

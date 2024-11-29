@@ -26,6 +26,9 @@
     <string name="advanced_customize_mode">سفارشی کردن پیشرفته</string>
     <string name="afternoon">بعد از ظهر</string>
     <string name="agreement_desc">توافق‌نامه کاربر (اختیاری)</string>
+    <string name="ai_moving_your_wallpaper">ببینید AI چگونه می‌تواند تصاویر زمینه شما را زنده کند</string>
+    <string name="ai_wallpaper">تصاویر زمینه پویا AI</string>
+    <string name="ai_wallpaper_function_introduction">ایجاد پس‌زمینه‌های ویدئویی پویا از تصاویر مناظر، شهرها، گیاهان و ماشین‌ها</string>
     <string name="alarm_sound">هشدار</string>
     <string name="all_resources">همه</string>
     <string name="all_wallpapers">همه تصاویر زمینه</string>
@@ -114,6 +117,10 @@
     <string name="change_wallpaper">تصویر زمینه</string>
     <string name="channel_featured_page">ویژه</string>
     <string name="choose_pay_method">روش پرداخت را انتخاب کنید</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">دسته مورد پسند خود را انتخاب کنید</string>
@@ -171,6 +178,7 @@
     <string name="early_morning">صبح</string>
     <string name="editor_apply_message">"این ویژگی برای عیب‌یابی توسط طراحان استفاده می‌شود. تم پیش‌فرض اندکی بعد به صورت خودکار بازیابی خواهد شد. مسیر فایل تم کنونی: "</string>
     <string name="editor_apply_toast">انتخاب دستی temp.mtz در پوشه روت</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">جلوه‌های صفحه اصلی</string>
     <string name="effect_lock">جلوه‌های صفحه قفل</string>
     <string name="empty" />
@@ -656,6 +664,7 @@ mm"</string>
     <string name="more_system_wallpaper">تصاویر زمینه بیشتر</string>
     <string name="more_wallpapers">برای دیدن تصاویر زمینه بیشتر ضربه بزنید</string>
     <string name="morning">صبح</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="multi_sim_ringtone_settings_dialog_message">صدای زنگ برای هر دو سیم‌کارت به‌کار گرفته شد.</string>
     <string name="multi_sim_ringtone_settings_dialog_ok">متوجه‌ام</string>
     <string name="multi_sim_ringtone_settings_dialog_remind_never">دوباره نمایش داده نشود</string>
@@ -715,7 +724,7 @@ mm"</string>
     <string name="payment_coins_balance">(متعادل: %1s)</string>
     <string name="payment_coins_insufficient_balance">(موجودی ناکافی)</string>
     <string name="payment_data_move_tips">داده‌های حساب شما به منظور رعایت مقررات حریم خصوصی به سرورهای ما در منطقه شما انتقال داده خواهند شد. هنگام انتقال خطر از دست دادن داده‌ها وجود دارد.</string>
-    <string name="payment_instructions"><Data>با تکمیل پرداخت، شما &lt;a href=\"%1$s\">اطلاعیه خریدهای درون‌برنامه‌ای&lt;/a> را می‌پذیرید.</Data></string>
+    <string name="payment_instructions">&lt;Data>با تکمیل پرداخت، شما &lt;a href=\"%1$s\">اطلاعیه خریدهای درون‌برنامه‌ای&lt;/a> را می‌پذیرید.&lt;/Data></string>
     <string name="payment_method">شیوه پرداخت</string>
     <string name="permission_desc">برای ذخیره تم‌های ذخیره شده و موارد دیگر</string>
     <string name="permission_pop_desc">برای امکان تغییر تنظیمات برگزیده شخصی‌سازی شده و ذخیره موارد دانلود شده، ابتدا به تم‌ها اجازه دسترسی به حافظه را بدهید.</string>
@@ -904,6 +913,7 @@ mm"</string>
     <string name="resource_ranking">پرطرفدار</string>
     <string name="resource_ranking_free">رایگان</string>
     <string name="resource_ranking_purchase">پولی</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">این کد منقضی شده است</string>
     <string name="resource_ringtone_default">زنگ‌ها</string>
     <string name="resource_ringtone_playing_error">خطا</string>
@@ -1269,9 +1279,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">پذیرفتن</string>
     <string name="user_authorization_dialog_agree_a">پذیرفتن</string>
     <string name="user_authorization_dialog_disagree">خروج</string>
-    <string name="user_authorization_dialog_message"><Data>" ما باید اطلاعات شخصی لازم را برای ارائه خدمات اولیه به شما گردآوری کنیم. شما می‌توانید نحوه استفاده از اطلاعات گردآوری شده را در &lt;a href=\"%1$s\"> سیاست حفظ حریم خصوصی &lt;/a> خود بیاموزید. پیش از استفاده از تم‌ها، &lt;a href=\"%2$s\"> توافق‌نامه کاربر &lt;/a> و &lt;a href=\"%3$s\"> سیاست حفظ حریم خصوصی &lt;/a> ما را خوانده و با آن موافقت کنید.
- شما در هر زمان که بخواهید، می‌توانید رضایت خود را از سیاست حفظ حریم خصوصی تم‌ها در تنظیمات پس بگیرید."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>پیش از ادامه، &lt;a href=\"%1$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%2$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را بپذیرید. شما در هر زمانی می‌توانید تنظیمات برگزیده خود را در تنظیمات تغییر دهید.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data> ما باید اطلاعات شخصی لازم را برای ارائه خدمات اولیه به شما گردآوری کنیم. شما می‌توانید نحوه استفاده از اطلاعات گردآوری شده را در &lt;a href=\"%1$s\"> سیاست حفظ حریم خصوصی &lt;/a> خود بیاموزید. پیش از استفاده از تم‌ها، &lt;a href=\"%2$s\"> توافق‌نامه کاربر &lt;/a> و &lt;a href=\"%3$s\"> سیاست حفظ حریم خصوصی &lt;/a> ما را خوانده و با آن موافقت کنید.
+ شما در هر زمان که بخواهید، می‌توانید رضایت خود را از سیاست حفظ حریم خصوصی تم‌ها در تنظیمات پس بگیرید.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>پیش از ادامه، &lt;a href=\"%1$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%2$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را بپذیرید. شما در هر زمانی می‌توانید تنظیمات برگزیده خود را در تنظیمات تغییر دهید.&lt;/Data></string>
     <string name="user_authorization_dialog_title">شرایط و ضوابط</string>
     <string name="user_know">متوجه‌ام</string>
     <string name="using_theme_has_update_tips">یک به‌روزرسانی برای این تم موجود است.</string>
@@ -1284,9 +1294,13 @@ mm"</string>
     <string name="video_cancel">لغو</string>
     <string name="video_data_tips_message">استفاده از اینترنت همراه ممکن است هزینه‌های اضافی ایجاد کند. در هر صورت ادامه یابد؟</string>
     <string name="video_data_tips_title">هشدار مصرف اینترنت همراه</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">این ویدئو ممکن است به درستی نمایش داده نشده و یا سرعت دستگاه شما را کاهش دهد. در هر صورت به‌کار برده شود؟</string>
     <string name="video_not_support_title">این فایل ویدئویی بسیار بزرگ است</string>
     <string name="video_silence_apply_success">ویدئو بدون صدا با موفقیت پیکربندی شد</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">پیش از استفاده تصاویر زمینه از تم‌ها، &lt;a href=\"%1$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%2$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را خوانده و پذیرید.</string>
     <string name="wallpaper_and_personal">تصویر زمینه و شخصی سازی</string>
     <string name="wallpaper_apply">به‌کارگیری</string>

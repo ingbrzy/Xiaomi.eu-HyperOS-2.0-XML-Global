@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Haladó testreszabás</string>
     <string name="afternoon">Délután</string>
     <string name="agreement_desc">Felhasználói szerződés (kötelező)</string>
+    <string name="ai_moving_your_wallpaper">Nézze meg, hogyan kelti életre az AI a háttérképeket</string>
+    <string name="ai_wallpaper">AI dinamikus háttérképek</string>
+    <string name="ai_wallpaper_function_introduction">Dinamikus videó háttérképek létrehozása tájak, városok, növények és autók fotóiból</string>
     <string name="alarm_sound">Riasztás</string>
     <string name="all_resources">Összes</string>
     <string name="all_wallpapers">Összes háttérkép</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">Begépelt karakterszám: %2$d/%1$d</string>
     <string name="character_counter_overflowed_content_description">Maximális karakterszám túllépve: %2$d/%1$d</string>
     <string name="choose_pay_method">Fizetési mód kiválasztása</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Válassza ki a kedvenc kategóriáját</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Reggel</string>
     <string name="editor_apply_message">"Ezt a funkciót a tervezők használják hibakeresésre. Az alapértelmezett téma kis idő múlva automatikusan vissza lesz állítva. Az aktuális téma elérési útja: "</string>
     <string name="editor_apply_toast">A temp.mtz manuális kiválasztása a gyökérkönyvtárban</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Kezdőképernyő effektek</string>
     <string name="effect_lock">Képernyőzár effektek</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">Több rendszer-háttérkép</string>
     <string name="more_wallpapers">Koppintson további háttérképek megtekintéséhez</string>
     <string name="morning">Reggel</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Új értesítés</string>
     <string name="mtrl_checkbox_state_description_checked">Bejelölve</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Részlegesen bejelölve</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Egyenleg: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Fedezethiány)</string>
     <string name="payment_data_move_tips">A fiókadatait az adatvédelmi előírások betartása érdekében az Ön régiójában található szerverekre helyezzük át. A migráció során fennáll az adatvesztés kockázata.</string>
-    <string name="payment_instructions"><Data>A fizetés befejezésével Ön elfogadja az &lt;a href=\"%1$s\">Értesítést az alkalmazáson belüli vásárlásokról&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>A fizetés befejezésével Ön elfogadja az &lt;a href=\"%1$s\">Értesítést az alkalmazáson belüli vásárlásokról&lt;/a>.&lt;/Data></string>
     <string name="payment_method">Fizetési mód</string>
     <string name="permission_desc">Elmentett témák és egyéb elemek tárolására</string>
     <string name="permission_pop_desc">A személyre szabási beállítások módosításához és a letöltött elemek mentéséhez először engedélyezze a Témák hozzáférést a tárhelyhez.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Népszerű</string>
     <string name="resource_ranking_free">Ingyenes</string>
     <string name="resource_ranking_purchase">Fizetős</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Ez a kód lejárt</string>
     <string name="resource_ringtone_default">Csengőhangok</string>
     <string name="resource_ringtone_playing_error">lejátszási hiba</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Elfogadás</string>
     <string name="user_authorization_dialog_agree_a">Elfogadom</string>
     <string name="user_authorization_dialog_disagree">Kilépés</string>
-    <string name="user_authorization_dialog_message"><Data>"Az alapvető szolgáltatások biztosításához be kell gyűjtenünk a szükséges személyes adatokat. &lt;a href=\"%1$s\">Adatvédelmi irányelvünkben&lt;/a> elolvashatja, hogyan kezeljük a begyűjtött információkat. A Témák használata előtt olvassa el és fogadja el &lt;a href=\"%2$s\">Felhasználói megállapodásunkat&lt;/a> és &lt;a href=\"%3$s\">Adatvédelmi irányelvünket&lt;/a>.
-Bármikor visszavonhatja a Témák alkalmazás Adatvédelmi irányelvéhez adott hozzájárulását a Beállításokban."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>A folytatás előtt fogadja el a &lt;a href=\"%1$s\">Felhasználói szerződésünket&lt;/a> és az &lt;a href=\"%2$s\">Adatvédelmi irányelveinket&lt;/a>. A preferenciáit bármikor megváltoztathatja a Beállítások menüpontban.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Az alapvető szolgáltatások biztosításához be kell gyűjtenünk a szükséges személyes adatokat. &lt;a href=\"%1$s\">Adatvédelmi irányelvünkben&lt;/a> elolvashatja, hogyan kezeljük a begyűjtött információkat. A Témák használata előtt olvassa el és fogadja el &lt;a href=\"%2$s\">Felhasználói megállapodásunkat&lt;/a> és &lt;a href=\"%3$s\">Adatvédelmi irányelvünket&lt;/a>.
+Bármikor visszavonhatja a Témák alkalmazás Adatvédelmi irányelvéhez adott hozzájárulását a Beállításokban.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>A folytatás előtt fogadja el a &lt;a href=\"%1$s\">Felhasználói szerződésünket&lt;/a> és az &lt;a href=\"%2$s\">Adatvédelmi irányelveinket&lt;/a>. A preferenciáit bármikor megváltoztathatja a Beállítások menüpontban.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Felhasználási feltételek</string>
     <string name="user_know">Értettem</string>
     <string name="using_theme_has_update_tips">A témához frissítés érhető el.</string>
@@ -1497,9 +1507,13 @@ Bármikor visszavonhatja a Témák alkalmazás Adatvédelmi irányelvéhez adott
     <string name="video_cancel">Mégse</string>
     <string name="video_data_tips_message">Mobiladat-kapcsolat használata további költségeket generálhat. Biztosan folytatja?</string>
     <string name="video_data_tips_title">Adathasználati figyelmeztetés</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">A videó lehet, hogy helytelenül kerül megjelenítésre vagy lelassítja a készülékét. Biztosan alkalmazza?</string>
     <string name="video_not_support_title">A videó túl nagy</string>
     <string name="video_silence_apply_success">Videó hang nélkül sikeresen beállítva</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Mielőtt háttérképet használna a Témák alkalmazásból, olvassa el és fogadja el a &lt;a href=\"%1$s\">Felhasználói megállapodásunkat&lt;/a> és &lt;a href=\"%2$s\">Adatvédelmi irányelvünket&lt;/a>.</string>
     <string name="wallpaper_and_personal">Háttérkép és személyre szabás</string>
     <string name="wallpaper_apply">Alkalmazás</string>

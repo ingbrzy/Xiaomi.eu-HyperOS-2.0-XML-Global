@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">고급 사용자지정</string>
     <string name="afternoon">오후</string>
     <string name="agreement_desc">이용자 약관 (필수)</string>
+    <string name="ai_moving_your_wallpaper">AI가 배경화면에 주는 생동감을 확인하십시오</string>
+    <string name="ai_wallpaper">AI 다이내믹 배경화면</string>
+    <string name="ai_wallpaper_function_introduction">풍경, 도시, 식물 및 자동차 사진으로 다이내믹 동영상 배경화면 생성</string>
     <string name="alarm_sound">알람</string>
     <string name="all_resources">전체</string>
     <string name="all_wallpapers">전체 배경화면</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">입력된 글자 %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>
     <string name="choose_pay_method">결제 방식 선택</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">M월</string>
     <string name="classification_more_understand_you">즐겨찾는 카테고리 선택</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">아침</string>
     <string name="editor_apply_message">"이 기능은 디자이너의 디버깅에 사용됩니다. 잠시 후 기본 테마가 자동으로 복원됩니다. 현재 테마의 파일 경로: "</string>
     <string name="editor_apply_toast">루트 디렉토리에서 temp.mtz을 수동으로 선택하십시오</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">홈 화면 효과</string>
     <string name="effect_lock">잠금화면 효과</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">더 많은 시스템 배경화면</string>
     <string name="more_wallpapers">탭하여 더 많은 배경화면 확인</string>
     <string name="morning">아침</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">새 알림</string>
     <string name="mtrl_checkbox_state_description_checked">선택됨</string>
     <string name="mtrl_checkbox_state_description_indeterminate">일부 선택됨</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(잔액: %1s)</string>
     <string name="payment_coins_insufficient_balance">(잔액 부족)</string>
     <string name="payment_data_move_tips">귀하의 계정 데이터는 해당 지역의 개인 정보 보호 규정을 준수하기 위해 서버로 병합될 것입니다. 병합 과정 중에 데이터 손실의 위험이 있습니다.</string>
-    <string name="payment_instructions"><Data>결제를 완료하시면 &lt;a href=\"%1$s\">인앱 구매 공지&lt;/a>에 동의하시는 것으로 간주됩니다.</Data></string>
+    <string name="payment_instructions">&lt;Data>결제를 완료하시면 &lt;a href=\"%1$s\">인앱 구매 공지&lt;/a>에 동의하시는 것으로 간주됩니다.&lt;/Data></string>
     <string name="payment_method">결제 방식</string>
     <string name="permission_desc">저장된 테마 및 기타 항목 저장을 위해</string>
     <string name="permission_pop_desc">맞춤형 설정을 변경하고 다운로드한 항목을 저장하기 위해, 먼저 테마 앱의 저장소 접근 권한을 허용하십시오.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">인기</string>
     <string name="resource_ranking_free">무료</string>
     <string name="resource_ranking_purchase">구입함</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">코드 만료됨</string>
     <string name="resource_ringtone_default">벨소리</string>
     <string name="resource_ringtone_playing_error">오류</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">동의</string>
     <string name="user_authorization_dialog_agree_a">동의</string>
     <string name="user_authorization_dialog_disagree">나가기</string>
-    <string name="user_authorization_dialog_message"><Data>"기본적인 서비스 제공을 위해 필요한 개인 정보에 대한 수집이 요구됩니다. 저희의 &lt;a href=\"%1$s\">개인 정보 보호 정책&lt;/a>에서 저희가 정보를 수집 및 처리하는 방법을 알아보실 수 있습니다. 테마를 사용하시기 전, &lt;a href=\"%2$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%3$s\">개인 정보 보호 정책&lt;/a>을 읽고 동의하십시오.
-언제든지 설정에서 개인 정보 보호 정책에 대한 동의를 철회하실 수 있습니다."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>계속하시기 전, 저희의 &lt;a href=\"%1$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%2$s\">개인 정보 보호 정책&lt;/a>에 동의하십시오. 언제든지 설정에서 선택 사항을 변경하실 수 있습니다.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>기본적인 서비스 제공을 위해 필요한 개인 정보에 대한 수집이 요구됩니다. 저희의 &lt;a href=\"%1$s\">개인 정보 보호 정책&lt;/a>에서 저희가 정보를 수집 및 처리하는 방법을 알아보실 수 있습니다. 테마를 사용하시기 전, &lt;a href=\"%2$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%3$s\">개인 정보 보호 정책&lt;/a>을 읽고 동의하십시오.
+언제든지 설정에서 개인 정보 보호 정책에 대한 동의를 철회하실 수 있습니다.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>계속하시기 전, 저희의 &lt;a href=\"%1$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%2$s\">개인 정보 보호 정책&lt;/a>에 동의하십시오. 언제든지 설정에서 선택 사항을 변경하실 수 있습니다.&lt;/Data></string>
     <string name="user_authorization_dialog_title">이용 약관</string>
     <string name="user_know">알겠습니다</string>
     <string name="using_theme_has_update_tips">이 테마의 업데이트가 있습니다.</string>
@@ -1497,9 +1507,13 @@ mm"</string>
     <string name="video_cancel">취소</string>
     <string name="video_data_tips_message">모바일 데이터를 사용하시면 추가 비용이 생성될 수 있습니다. 그래도 계속하시겠습니까?</string>
     <string name="video_data_tips_title">데이터 사용량 경고</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">이 동영상은 제대로 표시되지 않거나 기기를 느려지게 할 수 있습니다. 그래도 적용하시겠습니까?</string>
     <string name="video_not_support_title">이 동영상은 너무 큽니다</string>
     <string name="video_silence_apply_success">동영상 무음 설정 성공</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">테마의 배경화면을 사용하시기 전, 저희의 &lt;a href=\"%1$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%2$s\">개인 정보 보호 정책&lt;/a>을 읽고 동의해 주십시오.</string>
     <string name="wallpaper_and_personal">배경화면 &amp; 맞춤형 설정</string>
     <string name="wallpaper_apply">적용</string>

@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Avancerad anpassning</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="agreement_desc">Användaravtal (obligatoriskt)</string>
+    <string name="ai_moving_your_wallpaper">Se hur AI kan ge dina bakgrunder liv</string>
+    <string name="ai_wallpaper">Dynamiska AI-bakgrunder</string>
+    <string name="ai_wallpaper_function_introduction">Skapa dynamiska videobakgrunder från foton av landskap, städer, plantor och bilar</string>
     <string name="alarm_sound">Alarm</string>
     <string name="all_resources">Alla</string>
     <string name="all_wallpapers">Alla bakgrundsbilder</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
     <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
     <string name="choose_pay_method">Välj betalningsmetod</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Välj din favoritkategori</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Morgon</string>
     <string name="editor_apply_message">"Den här funktionen används för felsökningar av designers. Standardtemat kommer automatiskt att återställas inom kort. Filens sökväg till det aktuella temat: "</string>
     <string name="editor_apply_toast">Välj temp.mtz manuellt i rotkatalogen</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Effekter på Hemskärmen</string>
     <string name="effect_lock">Effekter på Låsskärmen</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">Fler systembakgrunder</string>
     <string name="more_wallpapers">Tryck för att visa fler bakgrundsbilder</string>
     <string name="morning">Morgon</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
     <string name="mtrl_checkbox_state_description_checked">Markerad</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Delvis markerad</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Otillräckligt saldo)</string>
     <string name="payment_data_move_tips">Din kontoinformation kommer att flyttas till servrar i din region, för att efterleva integritetsbestämmelserna. Det finns en risk för data-förlust vid flytten.</string>
-    <string name="payment_instructions"><Data>Genom att genomföra betalningen, godtar du &lt;a href=\"%1$s\">Meddelandet om köp i appen&lt;/a></Data></string>
+    <string name="payment_instructions">&lt;Data>Genom att genomföra betalningen, godtar du &lt;a href=\"%1$s\">Meddelandet om köp i appen&lt;/a>&lt;/Data></string>
     <string name="payment_method">Betalningsmetod</string>
     <string name="permission_desc">För lagring av sparade teman och andra objekt</string>
     <string name="permission_pop_desc">För att kunna ändra personliga preferenser och spara nedladdade objekt, tillåt Teman att få åtkomst till lagringen först.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Populär</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Betald</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Den här koden har utgått</string>
     <string name="resource_ringtone_default">Ringsignaler</string>
     <string name="resource_ringtone_playing_error">Fel</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Acceptera</string>
     <string name="user_authorization_dialog_agree_a">Godkänn</string>
     <string name="user_authorization_dialog_disagree">Avsluta</string>
-    <string name="user_authorization_dialog_message"><Data>"Vi behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Teman.
-Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Teman i Inställningarna."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Acceptera vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> innan du fortsätter. Du kan ändra dina preferenser när som helst i Inställningar.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Vi behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Teman.
+Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Teman i Inställningarna.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Acceptera vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> innan du fortsätter. Du kan ändra dina preferenser när som helst i Inställningar.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Regler och villkor</string>
     <string name="user_know">Uppfattat</string>
     <string name="using_theme_has_update_tips">En uppdatering för detta tema är tillgänglig.</string>
@@ -1497,9 +1507,13 @@ Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Te
     <string name="video_cancel">Avbryt</string>
     <string name="video_data_tips_message">Att använda mobildata kan generera ytterligare avgifter. Fortsätt ändå?</string>
     <string name="video_data_tips_title">Varning för dataanvändning</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">Den här videon kan visas felaktigt eller göra din enhet långsammare. Lägga till ändå?</string>
     <string name="video_not_support_title">Den videon är för stor</string>
     <string name="video_silence_apply_success">Konfigurerad video utan ljud lyckades</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Innan du använder bakgrundsbilder från Themes, läs och acceptera vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och &lt;a href=\"%2$s\">Integritetspolicy&lt;/a>.</string>
     <string name="wallpaper_and_personal">Bakgrundsbild och anpassning</string>
     <string name="wallpaper_apply">Tillämpa</string>

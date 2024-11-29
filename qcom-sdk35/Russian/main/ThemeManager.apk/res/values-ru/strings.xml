@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Продвинутые настройки</string>
     <string name="afternoon">День</string>
     <string name="agreement_desc">Условия использования (обязательно)</string>
+    <string name="ai_moving_your_wallpaper">Посмотрите, как AI может оживить ваши обои</string>
+    <string name="ai_wallpaper">Динамические AI-обои</string>
+    <string name="ai_wallpaper_function_introduction">Создавайте динамические видеообои из фотографий пейзажей, городов, растений и автомобилей</string>
     <string name="alarm_sound">Будильник</string>
     <string name="all_resources">Все</string>
     <string name="all_wallpapers">Все обои</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
     <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
     <string name="choose_pay_method">Выберите способ оплаты</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Выберите любимую категорию</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Утро</string>
     <string name="editor_apply_message">"Эта функция используется дизайнерами для отладки. Через некоторое время тема по умолчанию будет восстановлена автоматически. Путь к файлу текущей темы: "</string>
     <string name="editor_apply_toast">Выберите temp.mtz в корневом каталоге вручную</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Эффекты рабочего стола</string>
     <string name="effect_lock">Эффекты экрана блокировки</string>
     <string name="empty" />
@@ -794,6 +802,7 @@ mm"</string>
     <string name="more_system_wallpaper">Другие системные обои</string>
     <string name="more_wallpapers">Нажмите для просмотра других обоев</string>
     <string name="morning">Утро</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
     <string name="mtrl_checkbox_state_description_checked">Флажок установлен.</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Флажки установлены частично.</string>
@@ -915,7 +924,7 @@ mm"</string>
     <string name="payment_coins_balance">(баланс: %1s)</string>
     <string name="payment_coins_insufficient_balance">(недостаточно средств)</string>
     <string name="payment_data_move_tips">В соответствии с правилами конфиденциальности данные учетной записи будут перенесены на серверы в вашем регионе. При переносе существует риск потери данных.</string>
-    <string name="payment_instructions"><Data>Совершая платеж, вы соглашаетесь с &lt;a href=\"%1$s\">Уведомлением о встроенных покупках&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>Совершая платеж, вы соглашаетесь с &lt;a href=\"%1$s\">Уведомлением о встроенных покупках&lt;/a>.&lt;/Data></string>
     <string name="payment_method">Способ оплаты</string>
     <string name="permission_desc">Для сохранения тем и других данных.</string>
     <string name="permission_pop_desc">Чтобы изменить параметры персонализации и сохранить загруженные объекты, разрешите Темам доступ к хранилищу.</string>
@@ -1105,6 +1114,7 @@ mm"</string>
     <string name="resource_ranking">Популярные</string>
     <string name="resource_ranking_free">Бесплатные</string>
     <string name="resource_ranking_purchase">Платные</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Срок действия кода истек</string>
     <string name="resource_ringtone_default">Мелодии</string>
     <string name="resource_ringtone_playing_error">Ошибка</string>
@@ -1483,9 +1493,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Согласиться</string>
     <string name="user_authorization_dialog_agree_a">Согласиться</string>
     <string name="user_authorization_dialog_disagree">Выход</string>
-    <string name="user_authorization_dialog_message"><Data>"Для предоставления вам основных служб нам необходимо осуществлять сбор некоторой личной информации. Вы можете подробнее узнать о том, как мы обрабатываем собираемую информацию, в нашей &lt;a href=\"%1$s\">Политике конфиденциальности&lt;/a>. Перед использованием приложения Темы, ознакомьтесь и согласитесь с нашими &lt;a href=\"%2$s\">Условиями использования&lt;/a> и &lt;a href=\"%3$s\">Политикой конфиденциальности&lt;/a>.
-Вы можете в любое время отозвать свое согласие с Политикой конфиденциальности приложения Темы в Настройках."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Прежде чем продолжить, согласитесь с нашими &lt;a href=\"%1$s\">Условиями использования&lt;/a> и &lt;a href=\"%2$s\">Политикой конфиденциальности&lt;/a>. Вы можете в любое время изменить свои предпочтения в Настройках.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Для предоставления вам основных служб нам необходимо осуществлять сбор некоторой личной информации. Вы можете подробнее узнать о том, как мы обрабатываем собираемую информацию, в нашей &lt;a href=\"%1$s\">Политике конфиденциальности&lt;/a>. Перед использованием приложения Темы, ознакомьтесь и согласитесь с нашими &lt;a href=\"%2$s\">Условиями использования&lt;/a> и &lt;a href=\"%3$s\">Политикой конфиденциальности&lt;/a>.
+Вы можете в любое время отозвать свое согласие с Политикой конфиденциальности приложения Темы в Настройках.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Прежде чем продолжить, согласитесь с нашими &lt;a href=\"%1$s\">Условиями использования&lt;/a> и &lt;a href=\"%2$s\">Политикой конфиденциальности&lt;/a>. Вы можете в любое время изменить свои предпочтения в Настройках.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Условия использования</string>
     <string name="user_know">Понятно</string>
     <string name="using_theme_has_update_tips">Доступно обновление для этой темы</string>
@@ -1500,9 +1510,13 @@ mm"</string>
     <string name="video_cancel">Отмена</string>
     <string name="video_data_tips_message">Использование мобильного интернета может вызвать дополнительные затраты. Продолжить?</string>
     <string name="video_data_tips_title">Предупреждение о трафике</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">Это видео может замедлить работу устройства или отображаться неправильно. Применить?</string>
     <string name="video_not_support_title">Слишком большое видео</string>
     <string name="video_silence_apply_success">Видео без звука установлено</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Перед использованием обоев из приложения Темы ознакомьтесь и согласитесь с нашими &lt;a href=\"%1$s\">Условиями использования&lt;/a> и &lt;a href=\"%2$s\">Политикой конфиденциальности&lt;/a>.</string>
     <string name="wallpaper_and_personal">Обои и персонализация</string>
     <string name="wallpaper_apply">Установить</string>

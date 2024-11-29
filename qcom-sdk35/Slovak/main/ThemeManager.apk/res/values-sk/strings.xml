@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Rozšírené prispôsobenie</string>
     <string name="afternoon">Popoludní</string>
     <string name="agreement_desc">Podmienky používania (povinné)</string>
+    <string name="ai_moving_your_wallpaper">Zistite, ako môže umelá inteligencia oživiť vaše tapety</string>
+    <string name="ai_wallpaper">Dynamické tapety AI</string>
+    <string name="ai_wallpaper_function_introduction">Vytvárajte dynamické video tapety z fotografií krajiny, miest, rastlín a áut</string>
     <string name="alarm_sound">Budík</string>
     <string name="all_resources">Všetko</string>
     <string name="all_wallpapers">Všetky tapety</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
     <string name="character_counter_overflowed_content_description">Bol prekročený povolený počet znakov (%1$d z %2$d)</string>
     <string name="choose_pay_method">Zvoľte spôsob platby</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Zvoľte vašu obľúbenú kategóriu</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Ráno</string>
     <string name="editor_apply_message">"Túto funkciu používajú dizajnéri na ladenie. Predvolený motív sa o chvíľu automaticky obnoví. Cesta k súboru aktuálneho motívu: "</string>
     <string name="editor_apply_toast">Manuálne vyberte súbor temp.mtz v root priečinku</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Efekty Domovskej obrazovky</string>
     <string name="effect_lock">Efekty Zamknutej obrazovky</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">Viac systémových tapiet</string>
     <string name="more_wallpapers">Ťuknite pre zobrazenie viac tapiet</string>
     <string name="morning">Ráno</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Nové upozornenie</string>
     <string name="mtrl_checkbox_state_description_checked">Začiarknuté</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Čiastočne začiarknuté</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Zostatok: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Nedostatok finančných prostriedkov)</string>
     <string name="payment_data_move_tips">Údaje vášho konta budú zmigrované na servery vo vašom regióne, aby boli v súlade s nariadeniami o ochrane osobných údajov. Počas migrácie existuje riziko straty údajov.</string>
-    <string name="payment_instructions"><Data>Dokončením platby vyjadrujete súhlas s &lt;a href=\"%1$s\">Oznámeniami o nákupoch v aplikácii&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>Dokončením platby vyjadrujete súhlas s &lt;a href=\"%1$s\">Oznámeniami o nákupoch v aplikácii&lt;/a>.&lt;/Data></string>
     <string name="payment_method">Spôsob platby</string>
     <string name="permission_desc">Na ukladanie uložených motívov a ďalších položiek</string>
     <string name="permission_pop_desc">Ak chcete zmeniť predvoľby prispôsobenia a uložiť stiahnuté položky, najskôr povoľte Motívom prístup k úložisku.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Populárne</string>
     <string name="resource_ranking_free">Zdarma</string>
     <string name="resource_ranking_purchase">Platené</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Platnosť tohto kódu vypršala</string>
     <string name="resource_ringtone_default">Tóny zvonenia</string>
     <string name="resource_ringtone_playing_error">chyba prehrávania</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Súhlasím</string>
     <string name="user_authorization_dialog_agree_a">Súhlasím</string>
     <string name="user_authorization_dialog_disagree">Koniec</string>
-    <string name="user_authorization_dialog_message"><Data>"Aby sme vám mohli poskytovať základné služby, potrebujeme zhromažďovať potrebné osobné informácie. Spôsob, akým narábame s pozbieranými informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím služby Motívy si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>.
-Váš súhlas so Zásadami ochrany osobných údajov Motívov môžete kedykoľvek odvolať v Nastaveniach."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Pred tým, ako budete pokračovať, vyjadrite súhlas s našimi zmluvami &lt;a href=\"%1$s\">Podmienky používania&lt;/a> a &lt;a href=\"%2$s\">Zásady ochrany osobných údajov&lt;/a>. Vaše predvoľby môžete kedykoľvek zmeniť v Nastaveniach.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Aby sme vám mohli poskytovať základné služby, potrebujeme zhromažďovať potrebné osobné informácie. Spôsob, akým narábame s pozbieranými informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím služby Motívy si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>.
+Váš súhlas so Zásadami ochrany osobných údajov Motívov môžete kedykoľvek odvolať v Nastaveniach.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Pred tým, ako budete pokračovať, vyjadrite súhlas s našimi zmluvami &lt;a href=\"%1$s\">Podmienky používania&lt;/a> a &lt;a href=\"%2$s\">Zásady ochrany osobných údajov&lt;/a>. Vaše predvoľby môžete kedykoľvek zmeniť v Nastaveniach.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Pravidlá a podmienky</string>
     <string name="user_know">Rozumiem</string>
     <string name="using_theme_has_update_tips">Dostupná aktualizácia pre tento motív.</string>
@@ -1497,9 +1507,13 @@ Váš súhlas so Zásadami ochrany osobných údajov Motívov môžete kedykoľv
     <string name="video_cancel">Zrušiť</string>
     <string name="video_data_tips_message">Používanie mobilných dát môže spôsobiť dodatočné poplatky. Napriek tomu pokračovať?</string>
     <string name="video_data_tips_title">Upozornenie na spotrebu dát</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">Toto video sa možno zobrazuje nesprávne alebo spomaľuje vaše zariadenie. Napriek tomu použiť?</string>
     <string name="video_not_support_title">Toto video je príliš veľké</string>
     <string name="video_silence_apply_success">Video bez zvuku bolo úspešne nakonfigurované</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Pred použitím tapiet z aplikácie Motívov si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%1$s\">Podmienky používania&lt;/a> a &lt;a href=\"%2$s\">Zásady ochrany osobných údajov&lt;/a>.</string>
     <string name="wallpaper_and_personal">Tapety a prispôsobenie</string>
     <string name="wallpaper_apply">Použiť</string>

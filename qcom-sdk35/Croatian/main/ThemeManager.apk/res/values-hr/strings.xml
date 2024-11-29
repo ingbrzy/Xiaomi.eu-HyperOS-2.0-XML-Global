@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Napredno prilagođavanje</string>
     <string name="afternoon">Popodne</string>
     <string name="agreement_desc">Korisnički ugovor (obavezno)</string>
+    <string name="ai_moving_your_wallpaper">Pogledajte kako AI može oživjeti vaše pozadine</string>
+    <string name="ai_wallpaper">AI dinamične pozadine</string>
+    <string name="ai_wallpaper_function_introduction">Stvorite dinamične video pozadine od fotografija krajolika, gradova, biljaka i automobila</string>
     <string name="alarm_sound">Alarm</string>
     <string name="all_resources">Sve</string>
     <string name="all_wallpapers">Sve pozadine</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">Uneseno znakova: %1$d od %2$d</string>
     <string name="character_counter_overflowed_content_description">Premašeno je ograničenje broja znakova: %1$d od %2$d</string>
     <string name="choose_pay_method">Odaberite način plaćanja</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Odaberite svoju omiljenu kategoriju</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Jutro</string>
     <string name="editor_apply_message">"Ovu značajku dizajneri koriste za otklanjanje pogrešaka. Zadana tema će se nakon nekog vremena automatski vratiti. Putanja datoteke trenutne teme: "</string>
     <string name="editor_apply_toast">Ručno odaberite temp.mtz u korijenskom direktoriju</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Efekti početnog zaslona</string>
     <string name="effect_lock">Efekti zaključanog zaslona</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">Više slika pozadine sistema</string>
     <string name="more_wallpapers">Dodirnite za prikaz više pozadina</string>
     <string name="morning">Jutro</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Nova obavijest</string>
     <string name="mtrl_checkbox_state_description_checked">Potvrđeno</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Djelomično potvrđeno</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Nedovoljno sredstava)</string>
     <string name="payment_data_move_tips">Podaci Vašeg računa bit će premješteni na poslužitelje u Vašem području kako bi bili u skladu s propisima o privatnosti. Postoji rizik od gubitka podataka tijekom premještanja.</string>
-    <string name="payment_instructions"><Data>Dovršavanjem plaćanja, prihvaćate &lt;a href=\"%1$s\">Obavijest o kupnji putem aplikacije&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>Dovršavanjem plaćanja, prihvaćate &lt;a href=\"%1$s\">Obavijest o kupnji putem aplikacije&lt;/a>.&lt;/Data></string>
     <string name="payment_method">Način plaćanja</string>
     <string name="permission_desc">Za pohranu spremljenih tema i drugih stavki</string>
     <string name="permission_pop_desc">Da biste mogli promijeniti prilagođene postavke i spremiti preuzete stavke, prvo dopustite Temama pristup pohrani.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Popularno</string>
     <string name="resource_ranking_free">Besplatno</string>
     <string name="resource_ranking_purchase">Uz plaćanje</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Ovaj kod je istekao</string>
     <string name="resource_ringtone_default">Melodija zvona</string>
     <string name="resource_ringtone_playing_error">Pogreška</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Slažem se</string>
     <string name="user_authorization_dialog_agree_a">Slažem se</string>
     <string name="user_authorization_dialog_disagree">Izađi</string>
-    <string name="user_authorization_dialog_message"><Data>"Trebamo prikupiti potrebne osobne podatke kako bismo Vam mogli pružiti naše osnovne usluge. Možete provjeriti kako koristimo podatke koje prikupljamo u našim &lt;a href=\"%1$s\">Pravilima o privatnosti&lt;/a>. Pročitajte i potvrdite naš &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%3$s\">Pravila o privatnosti&lt;/a> prije korištenja Tema.
-Bilo kada možete povući svoju privolu na Pravila o privatnosti u Postavkama."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Potvrdite naš&lt;a href=\"%1$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%2$s\">Pravila o privatnosti&lt;/a> prije nastavka. Svoje preference možete promijeniti bilo kada u Postavkama.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Trebamo prikupiti potrebne osobne podatke kako bismo Vam mogli pružiti naše osnovne usluge. Možete provjeriti kako koristimo podatke koje prikupljamo u našim &lt;a href=\"%1$s\">Pravilima o privatnosti&lt;/a>. Pročitajte i potvrdite naš &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%3$s\">Pravila o privatnosti&lt;/a> prije korištenja Tema.
+Bilo kada možete povući svoju privolu na Pravila o privatnosti u Postavkama.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Potvrdite naš&lt;a href=\"%1$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%2$s\">Pravila o privatnosti&lt;/a> prije nastavka. Svoje preference možete promijeniti bilo kada u Postavkama.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Uvjeti korištenja</string>
     <string name="user_know">Razumijem</string>
     <string name="using_theme_has_update_tips">Dostupno ažuriranje za ovu temu.</string>
@@ -1497,9 +1507,13 @@ Bilo kada možete povući svoju privolu na Pravila o privatnosti u Postavkama."<
     <string name="video_cancel">Odustani</string>
     <string name="video_data_tips_message">Korištenje mobilnih podataka može generirati dodatne naknade. Ipak, nastavite?</string>
     <string name="video_data_tips_title">Upozorenje korištenja podataka</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">Ovaj videozapis će možda biti prikazan neispravno ili će usporiti Vaš uređaj. Svejedno primijeniti?</string>
     <string name="video_not_support_title">Ova je videozapis prevelik</string>
     <string name="video_silence_apply_success">Konfigurirani videozapis bez zvuka uspješan</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Prije korištenja pozadina iz Tema, molimo Vas pažljivo pročitajte i potvrdite naš &lt;a href=\"%1$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%2$s\">Pravila o privatnosti&lt;/a>.</string>
     <string name="wallpaper_and_personal">Pozadina i prolagođavanje</string>
     <string name="wallpaper_apply">Primijeni</string>

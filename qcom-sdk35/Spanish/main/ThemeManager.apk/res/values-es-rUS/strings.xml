@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Personalización avanzada</string>
     <string name="afternoon">Tarde</string>
     <string name="agreement_desc">Acuerdo de Usuario (obligatorio)</string>
+    <string name="ai_moving_your_wallpaper">Descubra cómo la IA puede dar vida a sus fondos de pantalla</string>
+    <string name="ai_wallpaper">Fondos de pantalla dinámicos con IA</string>
+    <string name="ai_wallpaper_function_introduction">Cree fondos de pantalla de video dinámicos a partir de fotografías de paisajes, ciudades, plantas y autos</string>
     <string name="alarm_sound">Alarma</string>
     <string name="all_resources">Todos</string>
     <string name="all_wallpapers">Todos los fondos de pantalla</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">Caracteres ingresados: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">Se excedió en %1$d el límite de caracteres de %2$d</string>
     <string name="choose_pay_method">Seleccionar método de pago</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Seleccione su categoría favorita</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Mañana</string>
     <string name="editor_apply_message">"Esta función la usan los diseñadores para depurar. El tema predeterminado se restaurará automáticamente en un momento. Ruta del archivo del tema actual: "</string>
     <string name="editor_apply_toast">Seleccione manualmente temp.mtz en el directorio raíz</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Efectos de la Pantalla de inicio</string>
     <string name="effect_lock">Efectos de la Pantalla de bloqueo</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">Más fondos de pantalla del sistema</string>
     <string name="more_wallpapers">Toque para ver más fondos</string>
     <string name="morning">Mañana</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
     <string name="mtrl_checkbox_state_description_checked">Marcada</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Verificado parcialmente</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Saldo insuficiente)</string>
     <string name="payment_data_move_tips">Los datos de su cuenta se migrarán a servidores en su región para cumplir con las normas de privacidad. Existe el riesgo de pérdida de datos durante la migración.</string>
-    <string name="payment_instructions"><Data>Al completar el pago, usted acepta el &lt;a href=\"%1$s\">Aviso sobre compras dentro de la aplicación&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>Al completar el pago, usted acepta el &lt;a href=\"%1$s\">Aviso sobre compras dentro de la aplicación&lt;/a>.&lt;/Data></string>
     <string name="payment_method">Método de pago</string>
     <string name="permission_desc">Para almacenar temas guardados y otros elementos</string>
     <string name="permission_pop_desc">Para poder cambiar las preferencias de personalización y guardar los elementos descargados, primero permita que los Temas accedan al almacenamiento.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Popular</string>
     <string name="resource_ranking_free">Gratis</string>
     <string name="resource_ranking_purchase">Pago</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Este código caducó</string>
     <string name="resource_ringtone_default">Tonos de llamada</string>
     <string name="resource_ringtone_playing_error">Error</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Aceptar</string>
     <string name="user_authorization_dialog_agree_a">Aceptar</string>
     <string name="user_authorization_dialog_disagree">Salir</string>
-    <string name="user_authorization_dialog_message"><Data>"Necesitamos recopilar la información personal necesaria para brindarle los servicios básicos. Puede aprender cómo manejamos la información que recopilamos en nuestra &lt;a href=\"%1$s\">Política de privacidad&lt;/a>. Lea y acepte nuestro &lt;a href=\"%2$s\">Acuerdo de usuario&lt;/a> y nuestra &lt;a href=\"%3$s\">Política de privacidad&lt;/a> antes de usar Temas.
-Puede retirar su consentimiento a la Política de Privacidad de Temas en la Configuración en cualquier momento."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Acepte nuestro &lt;a href=\"%1$s\">Acuerdo de Usuario&lt;/a> y nuestra &lt;a href=\"%2$s\">Política de Privacidad&lt;/a> antes de continuar. Puede cambiar sus preferencias en cualquier momento en Ajustes.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Necesitamos recopilar la información personal necesaria para brindarle los servicios básicos. Puede aprender cómo manejamos la información que recopilamos en nuestra &lt;a href=\"%1$s\">Política de privacidad&lt;/a>. Lea y acepte nuestro &lt;a href=\"%2$s\">Acuerdo de usuario&lt;/a> y nuestra &lt;a href=\"%3$s\">Política de privacidad&lt;/a> antes de usar Temas.
+Puede retirar su consentimiento a la Política de Privacidad de Temas en la Configuración en cualquier momento.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Acepte nuestro &lt;a href=\"%1$s\">Acuerdo de Usuario&lt;/a> y nuestra &lt;a href=\"%2$s\">Política de Privacidad&lt;/a> antes de continuar. Puede cambiar sus preferencias en cualquier momento en Ajustes.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Términos y condiciones</string>
     <string name="user_know">Entendido</string>
     <string name="using_theme_has_update_tips">Hay una actualización disponible para este tema.</string>
@@ -1497,9 +1507,13 @@ Puede retirar su consentimiento a la Política de Privacidad de Temas en la Conf
     <string name="video_cancel">Cancelar</string>
     <string name="video_data_tips_message">Utilizar datos móviles podría generar cargos adicionales. ¿Continuar?</string>
     <string name="video_data_tips_title">Alerta de uso de datos</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">Este video puede mostrarse incorrectamente o ralentizar su dispositivo. ¿Aplicar de todos modos?</string>
     <string name="video_not_support_title">Este video es demasiado grande</string>
     <string name="video_silence_apply_success">Video sin sonido aplicado con éxito</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Antes de usar los fondos de pantalla de Temas, lea y acepte nuestro &lt;a href=\"%1$s\">Acuerdo de Usuario&lt;/a> y &lt;a href=\"%2$s\">Política de Privacidad&lt;/a>.</string>
     <string name="wallpaper_and_personal">Fondo de pantalla y personalización</string>
     <string name="wallpaper_apply">Aplicar</string>

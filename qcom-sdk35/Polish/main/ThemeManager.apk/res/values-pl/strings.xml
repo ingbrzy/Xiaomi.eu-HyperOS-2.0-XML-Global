@@ -53,6 +53,9 @@
     <string name="advanced_customize_mode">Dostosowanie zaawansowane</string>
     <string name="afternoon">Popołudnie</string>
     <string name="agreement_desc">Umowa Użytkownika (obowiązkowa)</string>
+    <string name="ai_moving_your_wallpaper">Ożyw tapety z pomocą sztucznej inteligencji</string>
+    <string name="ai_wallpaper">Dynamiczne tapety SI</string>
+    <string name="ai_wallpaper_function_introduction">Twórz dynamiczne tapety wideo ze zdjęć krajobrazów, miast, roślin i samochodów</string>
     <string name="alarm_sound">Alarm</string>
     <string name="all_resources">Wszystkie</string>
     <string name="all_wallpapers">Wszystkie tapety</string>
@@ -155,6 +158,10 @@
     <string name="character_counter_content_description">%1$d z %2$d znaków</string>
     <string name="character_counter_overflowed_content_description">Przekroczono limit znaków (%1$d z %2$d)</string>
     <string name="choose_pay_method">Wybierz formę płatności</string>
+    <string name="choose_video_dialog_invalid_default_message">"This video isn't supported."</string>
+    <string name="choose_video_dialog_invalid_direction_title">"Horizontal videos aren't supported."</string>
+    <string name="choose_video_dialog_invalid_format_message">Only non-HDR *.mp4 and *.mov files are supported.</string>
+    <string name="choose_video_dialog_invalid_format_title">Unsupported format</string>
     <string name="classic_calendar_day_of_week_format">EE</string>
     <string name="classic_calendar_month_of_year_format">MMM</string>
     <string name="classification_more_understand_you">Wybierz swoją ulubioną kategorię</string>
@@ -233,6 +240,7 @@
     <string name="early_morning">Poranek</string>
     <string name="editor_apply_message">"Ta funkcja jest używana do debugowania przez projektantów. Domyślny motyw zostanie automatycznie przywrócony po chwili. Ścieżka pliku bieżącego motywu: "</string>
     <string name="editor_apply_toast">Wybierz ręcznie temp.mtz w katalogu ROOT</string>
+    <string name="editor_continue">Continue</string>
     <string name="effect_home">Efekty ekranu głównego</string>
     <string name="effect_lock">Efekty ekranu blokady</string>
     <string name="empty" />
@@ -791,6 +799,7 @@ mm"</string>
     <string name="more_system_wallpaper">Więcej tapet systemowych</string>
     <string name="more_wallpapers">Dotknij, aby wyświetlić więcej tapet</string>
     <string name="morning">Poranek</string>
+    <string name="movie_save_stop_tips_toast">Tap again to stop saving</string>
     <string name="mtrl_badge_numberless_content_description">Nowe powiadomienie</string>
     <string name="mtrl_checkbox_state_description_checked">Zaznaczono</string>
     <string name="mtrl_checkbox_state_description_indeterminate">Częściowo zaznaczono</string>
@@ -912,7 +921,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Niewystarczająca ilość środków)</string>
     <string name="payment_data_move_tips">Twoje dane konta zostaną przeniesione na serwery w Twoim regionie, aby zachować zgodność z przepisami dotyczącymi prywatności. Istnieje ryzyko utraty danych podczas przenoszenia.</string>
-    <string name="payment_instructions"><Data>Dokonując płatności, zgadzasz się na &lt;a href=\"%1$s\">Powiadomienie o zakupach w aplikacjach&lt;/a>.</Data></string>
+    <string name="payment_instructions">&lt;Data>Dokonując płatności, zgadzasz się na &lt;a href=\"%1$s\">Powiadomienie o zakupach w aplikacjach&lt;/a>.&lt;/Data></string>
     <string name="payment_method">Metoda płatności</string>
     <string name="permission_desc">Do przechowywania zapisanych motywów i innych elementów</string>
     <string name="permission_pop_desc">Zezwól Motywom na dostęp do pamięci, aby móc zmieniać preferencje personalizacji i zapisywać pobrane elementy.</string>
@@ -1102,6 +1111,7 @@ mm"</string>
     <string name="resource_ranking">Popularne</string>
     <string name="resource_ranking_free">Darmowe</string>
     <string name="resource_ranking_purchase">Płatne</string>
+    <string name="resource_re_choose">Select</string>
     <string name="resource_right_ack_check_error">Ten kod wygasł</string>
     <string name="resource_ringtone_default">Dzwonki</string>
     <string name="resource_ringtone_playing_error">Błąd</string>
@@ -1480,9 +1490,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Zgadzam się</string>
     <string name="user_authorization_dialog_agree_a">Akceptuję</string>
     <string name="user_authorization_dialog_disagree">Wyjście</string>
-    <string name="user_authorization_dialog_message"><Data>"Musimy zebrać niezbędne dane osobowe, aby świadczyć podstawowe usługi. Możesz dowiedzieć się, jak postępujemy z informacjami, które zbieramy w naszej &lt;a href=\"%1$s\">Polityce Prywatności&lt;/a>. Przeczytaj i zaakceptuj naszą &lt;a href=\"%2$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%3$s\">Politykę Prywatności&lt;/a> przed skorzystaniem z Motywów.
-W dowolnym momencie możesz wycofać swoją zgodę na Politykę Prywatności Motywów w Ustawieniach."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Zaakceptuj naszą &lt;a href=\"%1$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%2$s\">Politykę Prywatności&lt;/a>, zanim przejdziesz dalej. Możesz w każdej chwili zmienić swoje preferencje w Ustawieniach.</Data></string>
+    <string name="user_authorization_dialog_message">"&lt;Data>Musimy zebrać niezbędne dane osobowe, aby świadczyć podstawowe usługi. Możesz dowiedzieć się, jak postępujemy z informacjami, które zbieramy w naszej &lt;a href=\"%1$s\">Polityce Prywatności&lt;/a>. Przeczytaj i zaakceptuj naszą &lt;a href=\"%2$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%3$s\">Politykę Prywatności&lt;/a> przed skorzystaniem z Motywów.
+W dowolnym momencie możesz wycofać swoją zgodę na Politykę Prywatności Motywów w Ustawieniach.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message_a">&lt;Data>Zaakceptuj naszą &lt;a href=\"%1$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%2$s\">Politykę Prywatności&lt;/a>, zanim przejdziesz dalej. Możesz w każdej chwili zmienić swoje preferencje w Ustawieniach.&lt;/Data></string>
     <string name="user_authorization_dialog_title">Warunki użytkowania</string>
     <string name="user_know">Rozumiem</string>
     <string name="using_theme_has_update_tips">Dostępna jest aktualizacja dla tego motywu.</string>
@@ -1497,9 +1507,13 @@ W dowolnym momencie możesz wycofać swoją zgodę na Politykę Prywatności Mot
     <string name="video_cancel">Anuluj</string>
     <string name="video_data_tips_message">Korzystanie z danych mobilnych może wygenerować dodatkowe koszty. Kontynuować mimo to?</string>
     <string name="video_data_tips_title">Ostrzeżenie o limicie danych</string>
+    <string name="video_edit_export_fail_toast">"Couldn't export"</string>
     <string name="video_not_support_message">To wideo może być wyświetlane niepoprawnie lub spowalniać twoje urządzenie. Zastosować mimo to?</string>
     <string name="video_not_support_title">Plik wideo jest za duży</string>
     <string name="video_silence_apply_success">Pomyślnie skonfigurowano wideo bez dźwięku</string>
+    <string name="vlog_saving_no_edit">Preparing video…</string>
+    <string name="vlog_talkback_view_pause">Pause</string>
+    <string name="vlog_talkback_view_play">Play</string>
     <string name="wallpaper_agreement_message">Przed rozpoczęciem korzystania z tapet w Motywach, przeczytaj i zaakceptuj naszą &lt;a href=\"%1$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%2$s\">Politykę Prywatności&lt;/a>.</string>
     <string name="wallpaper_and_personal">Tapeta i personalizacja</string>
     <string name="wallpaper_apply">Zastosuj</string>
