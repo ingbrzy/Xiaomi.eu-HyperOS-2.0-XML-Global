@@ -31,11 +31,14 @@
     <string name="actionbar_button_up_description">Enrere</string>
     <string name="afternoon">Tarda</string>
     <string name="am">a. m.</string>
-    <string name="app_name">Auxiliar de gravació</string>
+    <string name="app_name">Gravador de trucades de veu</string>
     <string name="assistant_note_one">"Apareixerà una drecera a la barra d'estat durant les trucades de veu"</string>
     <string name="assistant_note_two">Toqueu la drecera per gravar trucades</string>
-    <string name="call_assistant">Assistent VoIP</string>
-    <string name="call_recording_notification_complete_one">Enregistrat correctament. Toqueu per visualitzar</string>
+    <string name="button_disagree">Cancel·la</string>
+    <string name="button_record_start">Enregistra</string>
+    <string name="call_assistant">Assistent de VoIP</string>
+    <string name="call_in_progress">trucada en curs</string>
+    <string name="call_recording_notification_complete_one">Enregistrat correctament. Toqueu per veure.</string>
     <string name="call_recording_notification_complete_other">Recorded %d calls successfully</string>
     <string name="call_recording_notification_title">Gravador de trucades de veu</string>
     <string name="call_recording_notification_title_error">"No s'ha pogut gravar la trucada de veu"</string>
@@ -47,8 +50,8 @@
     <string name="close">Tanca</string>
     <string name="copy">Copia</string>
     <string name="cta_HIPS_Perm_Location_Desc">Per gravar trucades i àudio</string>
-    <string name="cta_main_purpose">"Welcome to App recordings! You can use this app to record voice calls made in third party apps. This app will access caller nicknames to name saved recordings.
-Note that infringement of other people's privacy rights is illegal. You may not use any information obtained through this feature to violate the privacy of others. If you use the above information illegally, you shall assume all the legal risks arising therefrom.
+    <string name="cta_main_purpose">"Benvingut al Gravador de trucades de veu! Podeu utilitzar aquesta aplicació per gravar trucades de veu fetes en aplicacions de tercers. Aquesta aplicació accedirà als sobrenoms de les persones que truca per nomenar les gravacions desades.
+Tingues en compte que la infracció dels drets de privadesa d'altres persones és il·legal. No podeu utilitzar cap informació obtinguda mitjançant aquesta funció per violar la privadesa d'altres persones. Si utilitzeu la informació anterior de manera il·legal, haureu d'assumir tots els riscos legals que se'n deriven.
 "</string>
     <string name="custom_define_perference_title">Detalls dels permisos</string>
     <string name="custom_define_permission_desc_android.permission_group.MICROPHONE">Per gravar trucades i àudio</string>
@@ -58,6 +61,9 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Calendari tradicional xinès</string>
     <string name="date_time_picker_dialog_title">"Configura la data i l'hora"</string>
+    <string name="desc_privacy_policy_cn">"Amb el Gravador de trucades de veu, podeu gravar trucades de veu fetes en aplicacions de tercers. Aquesta aplicació accedirà als sobrenoms de les persones que truqueu per nomenar les gravacions desades.
+Tingueu en compte que la infracció dels drets de privadesa d'altres persones és il·legal. No podeu utilitzar cap informació obtinguda mitjançant aquesta funció per violar la privadesa d'altres persones. Si utilitzeu la informació anterior de manera il·legal, haureu d'assumir tots els riscos legals que se'n deriven."</string>
+    <string name="desc_privacy_policy_global">"Les lleis locals que s'apliquen a vosté o a qualsevol altra part d'aquesta trucada poden requerir que tothom doni el consentiment per gravar la conversa. Sou responsables de complir aquestes lleis i Xiaomi no serà responsable de cap violació de les lleis a causa de les vostres accions o omissions. Utilitzeu la gravació de trucades de manera responsable. Les gravacions només s'emmagatzemen al vostre dispositiu i Xiaomi no hi tindrà accés. Voleu començar a gravar ara?"</string>
     <string name="early_morning">Matí</string>
     <string name="empty" />
     <string name="eras_ad">EC</string>
@@ -123,7 +129,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="introduct_always_on">Enregistra totes les trucades en aplicacions de tercers automàticament</string>
     <string name="introduct_open">Mostra el botó de gravació durant les trucades en aplicacions de tercers</string>
     <string name="introduct_open_new">Grava les trucades de veu automàticament i desa-les a la Gravadora</string>
-    <string name="introduct_voice_opti_on">"L'optimització de l'empremta de veu filtra els sorolls i permet que la vostra veu es mantingui clara"</string>
+    <string name="introduct_voice_opti_on">"L'optimització de la empremta de veu filtra els sorolls i permet que la vostra veu es mantingui clara"</string>
     <string name="introduct_voip_assistant">"Apareixerà una drecera a la barra d'estat durant les trucades de WeChat i QQ. Toqueu la drecera per gravar trucades."</string>
     <string name="midnight">Nit</string>
     <string name="miliao">Mi Talk</string>
@@ -261,6 +267,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="time_picker_dialog_title">Definir hora</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="title_record_call">Registre de trucada</string>
     <string name="today">Avui</string>
     <string name="tomorrow">Demà</string>
     <string name="tuesday">dimarts</string>
@@ -269,17 +276,19 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="v7_preference_off">DESACTIVAT</string>
     <string name="v7_preference_on">ACTIVAT</string>
     <string name="verify">"D'acord"</string>
+    <string name="video_call">Videotrucada en curs</string>
+    <string name="voice_call">Trucada de veu en ús</string>
     <string name="voice_noise_reduction_open">"L'optimització de la empremta de veu està activada"</string>
-    <string name="voice_opti_always_on">"Optimització de l'empremta de veu"</string>
-    <string name="voice_opti_summer">"Filtra els sorolls i per mantenir la veu clara. Heu d'activar aquesta funció manualment cada vegada."</string>
+    <string name="voice_opti_always_on">Optimització de la empremta de veu</string>
+    <string name="voice_opti_summer">"Filtra els sorolls per mantenir la veu clara. Heu d'activar aquesta funció manualment cada vegada."</string>
     <string name="voice_recoding">Registre de trucades</string>
     <string name="voice_recoding_progress">"Enregistrament de la trucada: "</string>
     <string name="voice_recoding_summer">Grava les trucades de veu i desa-les a la Gravadora</string>
-    <string name="voip_assistant">Assistent VoIP</string>
+    <string name="voip_assistant">Assistent de VoIP</string>
     <string name="voip_assistant_purpose">"Benvingut a l'assistent de VoIP! Podeu utilitzar aquesta aplicació per gravar trucades de veu fetes en aplicacions de tercers. Aquesta aplicació accedirà als sobrenoms de les persones que truca per nomenar les gravacions desades.
 Tingues en compte que la infracció dels drets de privadesa d'altres persones és il·legal. No podeu utilitzar cap informació obtinguda mitjançant aquesta funció per violar la privadesa d'altres persones. Si utilitzeu la informació anterior de manera il·legal, haureu d'assumir tots els riscos legals que se'n deriven.
 "</string>
-    <string name="voip_call_assistant">Assistent VoIP</string>
+    <string name="voip_call_assistant">Assistent de VoIP</string>
     <string name="voip_notice">Premeu per a mostrar %s</string>
     <string name="voipcord_privacy">Política de privadesa</string>
     <string name="voiprecord_always_on">Enregistrament automàtic de trucades</string>

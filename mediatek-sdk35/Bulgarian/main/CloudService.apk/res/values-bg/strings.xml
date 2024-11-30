@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Обнови защитния ключ за достъп</string>
     <string name="e2ee_device_delete">Премахни устройството</string>
     <string name="e2ee_device_delete_tip">След като премахнеш това устройство от твоя Xiaomi Профил, то ще бъде отписано и няма да можеш да използваш услугите на Xiaomi Cloud, търсене и други свързани с профила функции на него, докато не се впишеш отново.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Това устройство не поддържа Разширена защита на данните, така че няма да можете да влезете в профила си, ако включите тази функция. Обновете това устройство до Xiaomi HyperOS 2, за да можете да влезете в профила си.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Неуспешно вписване</string>
     <string name="e2ee_device_exit_failed_tip">Неуспешно отписване. Изчакай една-две минути и опитай отново.</string>
     <string name="e2ee_device_exit_failed_toast">Неуспешно отписване. Изчакай една-две минути и опитай отново.</string>
     <string name="e2ee_device_exit_tip">%s е отписано</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Тази функция не се поддържа в твоя регион.</string>
     <string name="e2ee_error_init">Неуспешно стартиране. Изчакай една-две минути и опитай отново.</string>
     <string name="e2ee_error_network">Неуспешно свързване с мрежата. Провери мрежовите си настройки и опитай отново.</string>
+    <string name="e2ee_error_real_device">Тази среда не е защитена. Опитайте да използвате друго устройство.</string>
     <string name="e2ee_exit_account_button_close">Изключи</string>
     <string name="e2ee_exit_account_button_exit">Отписване</string>
     <string name="e2ee_exit_account_subtitle">Ще се отпишеш от последното свързано в момента устройство, асоциирано с твоя Xiaomi профил. Ще трябва да използваш код за заключен екран или ключ за достъп, за да се впишеш отново и да получите достъп до данните си, съхранени в облака. Друга възможност е да натиснеш „Изключи“ по-долу, за да изключиш разширената защита на данните.</string>
@@ -504,7 +507,7 @@
     <string name="micloud_last_sync_canceled">Синхр. беше отменено. Опитайте отново.</string>
     <string name="micloud_main_head_menu_cloud_backup">Резервни копия</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Открий устройството не е налично във Второ пространство. Можете да го използвате в Първо пространство.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Изтрити елементи</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Наскоро изтрити елементи</string>
     <string name="micloud_main_network_error">Мрежата е недостъпна</string>
     <string name="micloud_main_sync_mode_summary">Синхр. информацията на всички приложения в реално време. Консумацията на енергия може да се повиши когато е включена тази услуга.</string>
     <string name="micloud_main_sync_mode_title">Бързо cинхронизиране</string>
@@ -538,10 +541,10 @@
     <string name="micloud_manual_request_permission_content_on_provision">Първо дайте необходимите разрешения в Сигурност</string>
     <string name="micloud_manual_request_permission_title">Изискват се разрешения</string>
     <string name="micloud_manual_sync_all">Синхр. на всички елементи</string>
-    <string name="micloud_manual_sync_now">Синхр</string>
+    <string name="micloud_manual_sync_now">Синхронизация</string>
     <string name="micloud_manual_sync_now_retry">Повторен опит</string>
-    <string name="micloud_manual_sync_pause">Синхр на пауза</string>
-    <string name="micloud_manual_sync_resume">Продължи синхр</string>
+    <string name="micloud_manual_sync_pause">Синхр. на пауза</string>
+    <string name="micloud_manual_sync_resume">Продължи синхр.</string>
     <string name="micloud_manual_syncing">Синхронизира се…</string>
     <string name="micloud_member_net_error_alert_message">Нямате връзка с интернет.</string>
     <string name="micloud_member_net_error_alert_title">Няма връзка с мрежата</string>
@@ -566,7 +569,7 @@
     <string name="micloud_notif_title_sync_with_off">Синхронизиране с Xiaomi Cloud</string>
     <string name="micloud_preference_last_sync_time">Последно синхр: %s</string>
     <string name="micloud_preference_syncing">Синхронизира се…</string>
-    <string name="micloud_privacy_cloud_off">Синхр. е изключена</string>
+    <string name="micloud_privacy_cloud_off">Синхронизацията е изключена</string>
     <string name="micloud_privacy_cloud_sync">Включете услугите на Xiaomi Cloud</string>
     <string name="micloud_privacy_explanation">Дайте разрешението си, за да включите услугите на Xiaomi Cloud</string>
     <string name="micloud_privacy_licence_agreed">Приемете &lt;a href=app://com.miui.cloudservice.gdpr.license>&lt;u>Правилата за поверителност&lt;/u>&lt;/a> на Xiaomi Cloud.</string>
@@ -746,6 +749,7 @@
     <string name="other_lockscreen_forget_pin_dialog_title">Забравен код за заключен екран</string>
     <string name="other_lockscreen_sub_title">Въведи кода за заключен екран на това устройство, за да завършиш потвърждаването</string>
     <string name="other_lockscreen_title">Въведи кода за заключен екран на %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Наскоро сте променили паролата за заключване на екрана си? Опитайте да въведете старата парола за заключване на екрана за проверка.</string>
     <string name="pay_info_dialog_confirm_to_pay">Плати %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Изразходване на оставащи Mi Монети: %s</string>
     <string name="pay_info_dialog_title">Изберете начин на плащане</string>
@@ -828,6 +832,10 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud се нуждае от разрешение за достъп до елементи, съхранени на Вашето устройство, за да може да идентифицира несинхронизирани елементи и тяхното количество. Желаете ли да дадете това разрешение?</string>
+    <string name="request_os_permissions_dialog_neg_button">Не приемам</string>
+    <string name="request_os_permissions_dialog_pos_button">Приемам</string>
+    <string name="request_os_permissions_dialog_title">Необходими са разрешения</string>
     <string name="retain_data_high_quality_photo_waring_message">Копия на ваши снимки с високо качество ще бъдат изтрити от Галерия след отписване. Отговарящите на тях оригинални файлове все още ще бъдат съхранявани в облака. Също така можете да изтегляте оригинални файлове преди отписване.</string>
     <string name="retain_data_high_quality_photo_waring_title">Изображения с високо качество няма да бъдат налични</string>
     <string name="revoke_block_by_find_device">Оттеглянето на съгласие ще изключи Открий устройството. Ще трябва да потвърдите паролата си след като продължите.</string>
@@ -1070,6 +1078,8 @@
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="verify_camera_error_toast">Неуспешно разпознат ключ за достъп</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud се нуждае от разрешения на камерата, за да може да сканира твоя ключ за сигурност. Можеш да ги предоставиш в Настройки.</string>
+    <string name="verify_camera_google_permission_positive_button">Разбрах</string>
     <string name="verify_camera_permission_message">Разреши на това приложение достъп до камерата, за да може да сканира за твоя защитен ключ за достъп. Можеш да дадеш това разрешение в „Настройки“.</string>
     <string name="verify_camera_permission_negative_button">Отказ</string>
     <string name="verify_camera_permission_positive_button">Настройки</string>
@@ -1132,6 +1142,8 @@
     <string name="verify_warning_dialog_title">Друго устройство включи шифроване от край до край</string>
     <string name="verify_warning_dialog_title_pc">Необходими са разрешения</string>
     <string name="verify_warning_dialog_title_web">Необходими са разрешения</string>
+    <string name="verify_warning_verify_dialog_message">Въведете код за потвърждаване в %s</string>
+    <string name="verify_warning_verify_dialog_title">Потвърди Xiaomi Профил</string>
     <string name="waiting_for_sync">Изчакване…</string>
     <string name="web_view_auto_login_fail">Неуспешно влизане. Опитайте отново.</string>
     <string name="web_view_login_text">Вписване…</string>

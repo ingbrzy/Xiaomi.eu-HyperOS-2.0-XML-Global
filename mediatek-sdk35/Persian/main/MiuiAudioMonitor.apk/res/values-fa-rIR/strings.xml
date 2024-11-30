@@ -4,11 +4,14 @@
     <string name="actionbar_button_up_description">بازگشت</string>
     <string name="afternoon">بعد از ظهر</string>
     <string name="am">ق.ظ</string>
-    <string name="app_name">دستیار ضبط</string>
+    <string name="app_name">ضبط کننده تماس صوتی</string>
     <string name="assistant_note_one">یک میان‌بر نوار وضعیت هنگام انجام تماس‌های صوتی نمایان خواهد شد</string>
     <string name="assistant_note_two">با زدن روی میان‌بر، تماس‌ها ضبط می‌شوند</string>
+    <string name="button_disagree">لغو</string>
+    <string name="button_record_start">ضبط</string>
     <string name="call_assistant">دستیار VoIP</string>
-    <string name="call_recording_notification_complete_one">با موفقیت ضبط شد. برای نمایش ضربه بزنید</string>
+    <string name="call_in_progress">تماس درحال انجام است</string>
+    <string name="call_recording_notification_complete_one">با موفقیت ضبط شد. برای نمایش ضربه بزنید.</string>
     <string name="call_recording_notification_complete_other">Recorded %d calls successfully</string>
     <string name="call_recording_notification_title">ضبط کننده تماس صوتی</string>
     <string name="call_recording_notification_title_error">تماس صوتی ضبط نشد</string>
@@ -19,8 +22,8 @@
     <string name="clearable_edittext_clear_description">پاک‌سازی</string>
     <string name="close">بستن</string>
     <string name="cta_HIPS_Perm_Location_Desc">برای ضبط تماس‌ها و صداها</string>
-    <string name="cta_main_purpose">"Welcome to App recordings! You can use this app to record voice calls made in third party apps. This app will access caller nicknames to name saved recordings.
-Note that infringement of other people's privacy rights is illegal. You may not use any information obtained through this feature to violate the privacy of others. If you use the above information illegally, you shall assume all the legal risks arising therefrom.
+    <string name="cta_main_purpose">"به ضبط کننده تماس صوتی خوش آمدید! شما با استفاده از این برنامه می‌توانید تماس‌های انجام شده در برنامه‌های سوم شخص را ضبط کنید. این برنامه برای نام‌گذاری موارد ضبط شده ذخیره شده به نام مستعار تماس گیرنده دسترسی خواهد داشت.
+به یاد داشته باشید که نقض حقوق حریم خصوصی دیگران غیر قانونی است. شما نباید از هیچ اطلاعاتی که از طریق این ویژگی به دست آورده‌اید برای نقض حریم خصوصی دیگران استفاده کنید. چنانچه از اطلاعات بالا به طور غیرقانونی استفاده کنید، تمام خطرات قانونی ناشی از آن را بر عهده شما خواهد بود.
 "</string>
     <string name="custom_define_perference_title">جزئیات مجوزها</string>
     <string name="custom_define_permission_desc_android.permission_group.MICROPHONE">برای ضبط تماس‌ها و صداها</string>
@@ -30,6 +33,9 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">سالنامه سنتی چینی</string>
     <string name="date_time_picker_dialog_title">تنظیم تاریخ و ساعت</string>
+    <string name="desc_privacy_policy_cn">"با استفاده از ضبط کننده تماس صوتی می‌توانید تماس‌های انجام شده در برنامه‌های سوم شخص را ضبط کنید. این برنامه برای نام‌گذاری موارد ضبط شده ذخیره شده به نام مستعار تماس گیرنده دسترسی خواهد داشت.
+به یاد داشته باشید که نقض حقوق حریم خصوصی دیگران غیر قانونی است. شما نباید از هیچ اطلاعاتی که از طریق این ویژگی به دست آورده‌اید برای نقض حریم خصوصی دیگران استفاده کنید. چنانچه از اطلاعات بالا به طور غیرقانونی استفاده کنید، تمام خطرات قانونی ناشی از آن را بر عهده شما خواهد بود."</string>
+    <string name="desc_privacy_policy_global">قوانین محلی که در مورد شما یا هر طرف دیگر در این تماس اعمال می‌شود ممکن است از همه افراد بخواهد که با ضبط مکالمه موافقت کنند. مسئولیت رعایت چنین قوانینی بر عهده شماست و Xiaomi مسئولیتی در قبال هرگونه نقض قوانین ناشی از اعمال یا کوتاهی شما نخواهد داشت. از ضبط تماس مسئولانه استفاده کنید. موارد ضبط شده فقط در دستگاه شما ذخیره می‌شوند و Xiaomi به آن‌ها دسترسی نخواهد داشت. ضبط آغاز شود؟</string>
     <string name="early_morning">صبح</string>
     <string name="empty" />
     <string name="eras_ad">میلادی</string>
@@ -227,12 +233,15 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="time_picker_dialog_title">تنظیم زمان</string>
     <string name="time_picker_label_hour">ساعت</string>
     <string name="time_picker_label_minute">دقیقه</string>
+    <string name="title_record_call">ضبط تماس</string>
     <string name="today">امروز</string>
     <string name="tomorrow">فردا</string>
     <string name="tuesday">سه‌شنبه</string>
     <string name="tuesday_short">سه‌شنبه</string>
     <string name="tuesday_shortest">سه‌شنبه</string>
     <string name="verify">تأیید</string>
+    <string name="video_call">تماس تصویری در حال انجام است</string>
+    <string name="voice_call">تماس صوتی در حال انجام است</string>
     <string name="voice_noise_reduction_open">بهینه‌سازی اثر صدا روشن است</string>
     <string name="voice_opti_always_on">بهینه‌سازی اثر صدا</string>
     <string name="voice_opti_summer">صداها را فیلتر کرده و صدای شما را شفاف نگه می‌دارد. هر بار باید این ویژگی را به صورت دستی روشن کنید.</string>

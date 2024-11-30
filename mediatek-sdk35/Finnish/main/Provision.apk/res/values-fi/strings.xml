@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">Parempien palvelujen tarjoamiseksi laitteellasi käynnissä olevat prosessit (mukaan lukien SystemHelper, RegService ja Carrier Services) voivat lähettää ajoittain laitteeseesi ja SIM-korttisi tietoja (mukaan lukien IMEI, IMSI, MSISDN, MEID, ICCID, MAC-osoite) , järjestelmäversio, Android-versio, laitemalli ja laitteiston perustiedot) sekä arvioitu sijaintitieto (mukaan lukien alue, koordinaatit, aluetunnus ja tukiaseman tunnus) operaattorille WLAN: n, mobiilidataverkon tai ilmaisen tekstiviestin avulla. Operaattori lupaa analysoida asiaankuuluvia tietoja vain palvelujen laadun parantamiseksi tai räätälöityjen palvelujen tai tekniikoiden tarjoamiseksi, eikä paljasta asiaankuuluvia tietoja kolmansille osapuolille missään muodossa, jossa sinut tunnistetaan henkilökohtaisesti. Erillinen operaattorilausunto on ensisijainen. Käänny palveluntarjoajasi puoleen liittyen tämän palvelun käytöstä aiheutuviin kustannuksiin.</string>
     <string name="carrier_introduction_china_rothko">Parantaakseen sinulle tarjottujen palveluiden laatua tällä laitteella käynnissä olevat ohjelmat (mukaan lukien SystemHelper-, RegService- ja Carrier-palvelut) saattavat lähettää tietoja tästä laitteesta tai SIM-kortistasi (mukaan lukien IMEI, IMSI, MSISDN, MEID, ICCID , MAC-osoite, järjestelmäversio, Android-versio, laitemalli, laitteiston peruskokoonpano ja puhelinnumero) sekä likimääräisen sijaintisi (mukaan lukien alue, koordinaatit, naapuruston tunniste ja tukiaseman tunnus) operaattorillesi langattoman lähiverkon, mobiiliverkkojen tai tekstiviestien kautta. Kun soitat puheluja, DCService muodostaa yhteyden verkkoon. Matkapuhelinoperaattorit takaavat, että näitä tietoja käytetään vain analysointiin, palvelun laadun parantamiseen tai räätälöityjen palvelujen tai tekniikoiden tarjoamiseen, eikä niitä koskaan jaeta kenenkään kanssa tavalla, joka mahdollistaisi sinun tunnistamisen. Katso lisätietoja operaattorisi tiedotteesta. Voit tiedustella kaikkia asiaan liittyviä palvelumaksuja suoraan operaattoriltasi.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>Voit käyttää Xiaomin yhteenliitettävyyttä laitteiden hallintaan ja tiedonsiirtoon. Hyväksy Xiaomin yhteenliitettävyyden &lt;a href=%1$s>tietosuojakäytäntö&lt;/a> ennen sen ominaisuuksien käyttöä. Tämä sovellus tarvitsee internet-yhteyden ja vaatii seuraavat käyttöoikeudet:</Data></string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="clock_introduction">Voit käyttää tätä sovellusta tarkastellaksesi aikaa sekä käyttää ajastinta, maailmankelloa, sekuntikelloa, asettaa hälytyksiä ja paljon muuta.</string>
     <string name="close">Sulje</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Perinteinen kiinalainen kalenteri</string>
     <string name="date_time_picker_dialog_title">Aseta päivä ja aika</string>
-    <string name="default_font">Oletus</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Käytä sormenjälkeäsi laitteesi lukituksen poistamiseen, vahvistaaksesi Mi Payn toiminnat, tai palveluiden ja sovelluksien kirjautumiseen.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Suurenna tekstin kokoa</string>
     <string name="font_settings_sub_title">Valitse järjestelmäfontti</string>
     <string name="font_settings_title">Fonttiasetukset</string>
+    <string name="font_size_title">Tekstin koko</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Vartalo</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">Klassinen</string>
     <string name="home_settings_poco_launcher">Sovelluslaatikko</string>
     <string name="home_settings_title">Valitse oletuskäynnistin</string>
+    <string name="image_brain_configuration_service">Xiaomi Imaging Engine -määrityspalvelu</string>
     <string name="ime_privacy_policy">Valitun näppäimistön tietosuojakäytäntö</string>
     <string name="ime_privacy_policy_no_network">Ei internet-yhteyttä. Katso näppäimistön tietosuojakäytäntö osoitteessa %s.</string>
     <string name="ims_introduction">IMS-palvelu tarjoaa perusviestintäominaisuuksia, ja sitä käytetään teräväpiirtoisiin ääni- ja videopuheluihin.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">Xiaomi Internet -viestintäpalvelujen avulla voit löytää, muodostaa yhteyden ja kommunikoida muiden Xiaomi-laitteiden kanssa.</string>
     <string name="interconnection_service_global_item_title">Xiaomin yhteenliitettävyys</string>
     <string name="interconnection_service_global_label">&lt;Data>Xiaomin yhteenliitettävyys mahdollistaa laitteidesi vuorovaikutuksen toistensa kanssa langattomasti. Kytkemällä tämän päälle, hyväksyt Xiaomin yhteenliitettävyys -&lt;a href=%1$s>tietosuojakäytännön&lt;/a >.&lt;/Data></string>
+    <string name="interconnection_service_permission1">Kytke Bluetooth päälle ja pois päältä</string>
+    <string name="interconnection_service_permission10">Läheisten laitteiden löytämiseen</string>
+    <string name="interconnection_service_permission11">Siirrä tietoja laitteiden välillä</string>
+    <string name="interconnection_service_permission12">Tiedonsiirtoon liitetyiden laitteiden välillä</string>
+    <string name="interconnection_service_permission13">Käytä näytön sisältöä</string>
+    <string name="interconnection_service_permission14">Näytön sisällön, mukaan lukien arkaluontoisten tietojen kuten äänen, salasanojen, maksujen salasanojen, valokuvien, viestien jne., käyttöön tallennuksen tai suoratoiston aikana.</string>
+    <string name="interconnection_service_permission15">Pääsy puheluhistoriaan</string>
+    <string name="interconnection_service_permission16">Puheluiden siirtämiseen laitteiden välillä näytön peilauksen aikana</string>
+    <string name="interconnection_service_permission17">Käytä asennettujen sovellusten luetteloa</string>
+    <string name="interconnection_service_permission18">Mobiililaitteelle asennettujen sovellusten luettelon käyttöön ja näytön peilaamiseen tietokoneilla</string>
+    <string name="interconnection_service_permission2">Kahden laitteen yhdistämiseen ja tiedonsiirtoon</string>
+    <string name="interconnection_service_permission3">Kytke WLAN päälle ja pois päältä</string>
+    <string name="interconnection_service_permission4">Tiedonsiirtoon kahden laitteen välillä WLAN-yhteyden kautta</string>
+    <string name="interconnection_service_permission5">Tallentaa ääntä</string>
+    <string name="interconnection_service_permission6">Laitteen äänen tallentamiseen, kun käytät peilausta ja suoratoistoa</string>
+    <string name="interconnection_service_permission7">Käytä ja muokkaa valokuvia ja tiedostoja laitteellasi</string>
+    <string name="interconnection_service_permission8">Sisällön suoratoistoon ja siirtämiseen tältä laitteelta</string>
+    <string name="interconnection_service_permission9">Käytä laitteen tunnistetta</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s Xiaomi-yhteenliitettävyysominaisuudet laitteellasi saattavat vaihdella järjestelmäversioiden ja laitemallien erojen vuoksi. Katso lisätietoja viralliselta verkkosivultamme (%2$s).</string>
     <string name="interconnection_service_summary_global">Xiaomin yhteenliitettävyysominaisuudet voivat vaihdella laitemallista ja järjestelmäversiosta riippuen. Vieraile järjestelmän virallisella verkkosivustolla saadaksesi lisätietoja.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Jos laitteesi katoaa, et voi estää muita käyttämästä sitä ja tietojasi, ellet ole asettanut näytön lukitusta. Ohitetaanko silti?</string>
@@ -311,6 +332,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="ktposition_header">Sijaintitietojen jakaminen pelastuslaitosten kanssa</string>
     <string name="language_picker_other_languages_title">Lisää kieliä</string>
     <string name="language_settings">Valitse kieli</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Suuri</string>
+    <string name="layout_size_normal">Normaali</string>
     <string name="locale_picker_other_locale_title">Lisää alueita</string>
     <string name="locale_picker_title">Valitse alue</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +611,10 @@ Voit hallita tätä ominaisuutta kohdassa Asetukset > Sormenjäljet, kasvotiedot
     <string name="privacy_provision_title">Yksityisyys</string>
     <string name="privacy_refuse">Älä hyväksy</string>
     <string name="privacy_title">Ehdot ja Tietosuojakäytäntö</string>
+    <string name="prompt_fingerprint">Edistynyt tietosuojaus on käytössä tililläsi. Aseta näytön lukitus tälle laitteelle.</string>
     <string name="protect_persoanl_info_statement">Suojaamme henkilökohtaisia tietojasi asiaankuuluvien lakien, asetusten ja tietosuojakäytäntöjen mukaisesti.</string>
     <string name="provision_back">Takaisin</string>
+    <string name="provision_complete_text">Jatka</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Katso valitsemasi näppäimistön &lt;a href=%1$s>Tietosuojakäytäntö&lt;/a >.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Tietosuojakäytäntö</string>
     <string name="provision_next">Seuraava</string>
@@ -613,6 +639,8 @@ Voit hallita tätä ominaisuutta kohdassa Asetukset > Sormenjäljet, kasvotiedot
     <string name="require_telephone_location">Pääsy sijaintiin</string>
     <string name="require_telephone_location_summary">Likimääräisen sijainnin saamiseen ja sijaintiin perustuvien verkon optimointipalvelujen tarjoamiseen</string>
     <string name="require_telephone_statement">Peruspalvelujen tarjoaminen edellyttää seuraavia käyttöoikeuksia:</string>
+    <string name="sample_text_summary">Xiaomi rakentaa hellittämättä upeita tuotteita rehellisillä hinnoilla, jotta kaikki voivat nauttia paremmasta elämästä innovatiivisen teknologian avulla.</string>
+    <string name="sample_text_title">Esimerkkiteksti:</string>
     <string name="saturday">Lauantai</string>
     <string name="saturday_short">La</string>
     <string name="saturday_shortest">La</string>
@@ -690,6 +718,7 @@ Voit hallita tätä ominaisuutta kohdassa Asetukset > Sormenjäljet, kasvotiedot
     <string name="skip_underline">Ohita tämä</string>
     <string name="start_up_slogan">Täysin sinun</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Tutustu navigointieleisiin</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Ei valittu</string>
     <string name="sunday">Sunnuntai</string>
@@ -700,6 +729,7 @@ Voit hallita tätä ominaisuutta kohdassa Asetukset > Sormenjäljet, kasvotiedot
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">Aloitusnäytön palvelulaajennus tarjoaa sinulle perusominaisuuksia, kuten aloitusnäytön, järjestelmän käyttöliittymän ja kuvakaappaukset.</string>
     <string name="term_condition_detail">Saat upeita kuvia ja jännittäviä tarinoita lukitusnäytölle päivittäin. Tämä ominaisuus ei käytä tietojasi yksilöimiseen ilman suostumustasi. Lue ja hyväksy kolmannen osapuolen sisällöntarjoajan &lt;a href =%1$s>Tietosuojakäytäntö&lt;/a> ja &lt;a href =%2$s>Käyttäjäsopimus&lt;/a> ennen kuin käytät tätä ominaisuutta.</string>
+    <string name="terms_and_statement_title">Käyttöehdot</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Käyttöehdot</string>
@@ -743,7 +773,8 @@ Voit hallita tätä ominaisuutta kohdassa Asetukset > Sormenjäljet, kasvotiedot
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Järjestelmäpäivityspalvelu (tarkistaa päivitykset verkosta ja ilmoittaa uusista versioista)</string>
     <string name="terms_of_use_label_use_location_and_network_global">Ennen järjestelmän käyttöä sinun on luettava ja hyväksyttävä käyttöehtomme ja tietosuojakäytäntömme. Suojaamme henkilötietojasi asiaankuuluvien lakien, asetusten ja tietosuojakäytäntöjen mukaisesti. Kun laitteesi aktivoidaan, seuraavat palvelut muodostavat yhteyden verkkoon ja käyttävät sijaintiasi:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">Ennen kuin käytät järjestelmää, lue ja hyväksy &lt;a href=\"%1$s\">käyttäjäsopimuksemme&lt;/a> ja &lt;a href=\"%2$s\">tietosuojakäytäntömme&lt;/a>. Suojaamme henkilötietojasi asiaankuuluvien lakien, määräysten ja tietosuojakäytäntöjen mukaisesti.</string>
+    <string name="terms_of_use_label_use_network_china_append">Kun laitteesi aktivoidaan, seuraavat palvelut muodostavat yhteyden verkkoon:</string>
     <string name="terms_of_use_label_wallpaper">Taustakuva</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

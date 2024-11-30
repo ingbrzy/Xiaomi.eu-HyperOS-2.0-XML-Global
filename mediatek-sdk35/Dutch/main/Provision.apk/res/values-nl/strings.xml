@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">Om u betere diensten te bieden, kunnen processen die op uw apparaat worden uitgevoerd (waaronder SystemHelper, RegService en Provider-services) periodiek de informatie met betrekking tot uw apparaat en SIM-kaart verzenden (inclusief IMEI, IMSI, MSISDN, MEID, ICCID, MAC-adres , systeemversie, Android-versie, apparaatmodel en basishardwarespecificaties), evenals geschatte locatie informatie (inclusief regio, coördinaten, gebiedsidentificatie en basisstation-ID) aan de provider via WLAN, mobiel datanetwerk of gratis SMS. De provider belooft om de relevante informatie alleen te analyseren met het doel om de kwaliteit van de diensten te verbeteren of om de diensten of technologieën te personaliseren. De provider belooft om de relevante informatie op geen enkele manier die het mogelijk maakt om u persoonlijk te identificeren, aan derden over te dragen. De verklaring van de specifieke provider heeft voorrang. Neem contact op met uw provider voor informatie over de kosten van deze dienst.</string>
     <string name="carrier_introduction_china_rothko">"Om de kwaliteit van de aan u geleverde diensten te verbeteren, kunnen de programma's die op dit apparaat draaien (inclusief SystemHelper, RegService en Provider-services) de informatie over dit apparaat of uw SIM-kaart (inclusief IMEI, IMSI, MSISDN, MEID, ICCID, MAC-adres, systeemversie, Android-versie, apparaatmodel, basishardwareconfiguratie en telefoonnummer), evenals uw geschatte locatie (inclusief regio, coördinaten, buurt-ID en ID van het basisstation), naar uw provider sturen via WLAN, mobiele netwerken of SMS. Bij het bellen maakt DCService verbinding met het netwerk. Mobiele providers garanderen dat deze informatie alleen wordt gebruikt voor analyse, verbetering van de servicekwaliteit of het leveren van aangepaste services of technologieën en nooit op een manier met iemand wordt gedeeld die het mogelijk maakt u persoonlijk te identificeren. Raadpleeg de relevante verklaring van uw provider voor meer informatie. U kunt rechtstreeks bij uw provider informeren naar alle gerelateerde servicekosten."</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>U kunt Xiaomi-interconnectiviteit gebruiken om gegevens tussen apparaten te beheren en over te dragen. Ga akkoord met het &lt;a href=%1$s>Privacybeleid&lt;/a > van Xiaomi-interconnectiviteit voordat u de functies ervan gebruikt. Deze app moet verbinding maken met internet en vereist de volgende toestemmingen:</Data></string>
     <string name="clearable_edittext_clear_description">Opschonen</string>
     <string name="clock_introduction">U kunt deze app gebruiken om de tijd te bekijken, maar kunt hem ook gebruiken als timer, wereldklok, stopwatch, alarmen instellen en nog veel meer.</string>
     <string name="close">Sluiten</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Chinese Traditionele Kalender</string>
     <string name="date_time_picker_dialog_title">Datum en tijd instellen</string>
-    <string name="default_font">Standaard</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Gebruik uw vingerafdruk om uw apparaat te vergrendelen, Mi Pay betalingen te verifiëren, of om aan te melden bij apps en services.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Vergroot de tekstgrootte</string>
     <string name="font_settings_sub_title">Selecteer systeemlettertype</string>
     <string name="font_settings_title">Lettertype instellingen</string>
+    <string name="font_size_title">Tekstgrootte</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Hoofdtekst</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">Klassiek</string>
     <string name="home_settings_poco_launcher">App-lade</string>
     <string name="home_settings_title">Standaard launcher selecteren</string>
+    <string name="image_brain_configuration_service">Xiaomi Imaging Engine-configuratieservice</string>
     <string name="ime_privacy_policy">Privacybeleid van geselecteerde toestenbord</string>
     <string name="ime_privacy_policy_no_network">Geen netwerkverbinding. Bekijk het Privacybeleid voor dit toetsenbord op %s.</string>
     <string name="ims_introduction">IMS-service biedt basiscommunicatiemogelijkheden en wordt gebruikt voor hoge kwaliteit audio- en videogesprekken.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">Met Xiaomi internetcommunicatieservices kunt u andere Xiaomi apparaten ontdekken, verbinden en ermee communiceren.</string>
     <string name="interconnection_service_global_item_title">Xiaomi-interconnectiviteit</string>
     <string name="interconnection_service_global_label">&lt;Data>Met Xiaomi-interconnectiviteit kunnen uw apparaten draadloos met elkaar communiceren. Door deze schakelaar in te schakelen, gaat u akkoord met het &lt;a href=%1$s>Privacybeleid&lt;/a > van Xiaomi-interconnectiviteit.&lt;/Data></string>
+    <string name="interconnection_service_permission1">Bluetooth in- en uitschakelen</string>
+    <string name="interconnection_service_permission10">Voor het ontdekken van apparaten in de buurt</string>
+    <string name="interconnection_service_permission11">Gegevens overbrengen tussen apparaten</string>
+    <string name="interconnection_service_permission12">Voor het overbrengen van gegevens tussen verbonden apparaten</string>
+    <string name="interconnection_service_permission13">Toegang tot scherminhoud</string>
+    <string name="interconnection_service_permission14">"Voor toegang tot scherminhoud tijdens het opnemen of casten, inclusief gevoelige informatie zoals audio, wachtwoorden, betalingswachtwoorden, foto's, berichten, etc."</string>
+    <string name="interconnection_service_permission15">Toegang tot belgeschiedenis</string>
+    <string name="interconnection_service_permission16">Voor het overbrengen van oproepen tussen apparaten tijdens schermduplicatie</string>
+    <string name="interconnection_service_permission17">Toegang tot de lijst met geïnstalleerde apps</string>
+    <string name="interconnection_service_permission18">Voor toegang tot de lijst met apps die op een mobiel apparaat zijn geïnstalleerd en schermduplicatie op computers</string>
+    <string name="interconnection_service_permission2">Voor het verbinden en overbrengen van gegevens tussen twee apparaten</string>
+    <string name="interconnection_service_permission3">WLAN in- en uitschakelen</string>
+    <string name="interconnection_service_permission4">Voor het overbrengen van gegevens tussen twee apparaten via WLAN</string>
+    <string name="interconnection_service_permission5">Audio opnemen</string>
+    <string name="interconnection_service_permission6">Voor het opnemen van apparaataudio bij het casten en spiegelen</string>
+    <string name="interconnection_service_permission7">"Toegang tot en bewerken van foto's en bestanden op uw apparaat"</string>
+    <string name="interconnection_service_permission8">Voor het casten en overbrengen van inhoud vanaf dit apparaat</string>
+    <string name="interconnection_service_permission9">Toegang tot apparaat-identificator</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s De Xiaomi-interconnectiviteitsfuncties die beschikbaar zijn op uw apparaat kunnen variëren vanwege verschillen in systeemversies en apparaatmodellen. Raadpleeg onze officiële website (%2$s) voor meer informatie.</string>
     <string name="interconnection_service_summary_global">Xiaomi-interconnectiviteitsfuncties kunnen variëren, afhankelijk van het apparaatmodel en de systeemversie. Bezoek de officiële website van het systeem voor meer informatie. ​</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Als uw apparaat zoekraakt, kunt u niet voorkomen dat andere mensen het gebruiken en toegang krijgen tot uw gegevens, tenzij u een vergrendelscherm instelt. Toch overslaan?</string>
@@ -311,6 +332,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="ktposition_header">Locatie informatie delen met noodgeval hulpdiensten</string>
     <string name="language_picker_other_languages_title">Meer talen</string>
     <string name="language_settings">Taal kiezen</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Groot</string>
+    <string name="layout_size_normal">Normaal</string>
     <string name="locale_picker_other_locale_title">"Meer regio's"</string>
     <string name="locale_picker_title">Kies uw regio</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +611,10 @@ U kunt deze functie bedienen via Instellingen > Vingerafdrukken, gezichtsgegeven
     <string name="privacy_provision_title">Privacy</string>
     <string name="privacy_refuse">Niet akkoord</string>
     <string name="privacy_title">Voorwaarden en Privacybeleid</string>
+    <string name="prompt_fingerprint">Geavanceerde gegevensbescherming is ingeschakeld voor uw account. Stel een schermvergrendeling in voor dit apparaat.</string>
     <string name="protect_persoanl_info_statement">We zullen uw persoonlijke informatie beschermen in overeenkomst met de relevante wetten, richtlijnen en het relevante privacybeleid.</string>
     <string name="provision_back">Terug</string>
+    <string name="provision_complete_text">Doorgaan</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Bekijk het &lt;a href=%1$s>Privacybeleid&lt;/a > van uw geselecteerde toetsenbord.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Privacybeleid</string>
     <string name="provision_next">Volgende</string>
@@ -613,6 +639,8 @@ U kunt deze functie bedienen via Instellingen > Vingerafdrukken, gezichtsgegeven
     <string name="require_telephone_location">Toegang tot locatie</string>
     <string name="require_telephone_location_summary">Voor toegang tot een geschatte locatie en het leveren van locatiegebaseerde netwerkoptimalisatieservices</string>
     <string name="require_telephone_statement">Om basisdiensten te kunnen leveren, zijn de volgende toestemmingen vereist:</string>
+    <string name="sample_text_summary">Xiaomi maakt voortdurend fantastische producten tegen eerlijke prijzen, zodat iedereen ter wereld kan genieten van een beter leven dankzij innovatieve technologie.</string>
+    <string name="sample_text_title">Voorbeeldtekst:</string>
     <string name="saturday">Zaterdag</string>
     <string name="saturday_short">Za</string>
     <string name="saturday_shortest">Za</string>
@@ -690,6 +718,7 @@ U kunt deze functie bedienen via Instellingen > Vingerafdrukken, gezichtsgegeven
     <string name="skip_underline">Deze stap overslaan</string>
     <string name="start_up_slogan">Alleen van u</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Leer navigatiegebaren</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Niet ingesteld</string>
     <string name="sunday">Zondag</string>
@@ -700,6 +729,7 @@ U kunt deze functie bedienen via Instellingen > Vingerafdrukken, gezichtsgegeven
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">De Startschermservice plug-in biedt u basisfuncties zoals het Startscherm, de systeem UI en screenshots.</string>
     <string name="term_condition_detail">Krijg dagelijks verbluffende afbeeldingen en spannende verhalen op uw Vergrendelscherm. Deze functie gebruikt uw gegevens niet voor personalisatie zonder uw toestemming. Lees en ga akkoord met het &lt;a href =%1$s>Privacybeleid&lt;/a> en &lt;a href =%2$s>Gebruikersovereenkomst&lt;/a> van de externe inhoudsprovider voordat u deze functie gebruikt.</string>
+    <string name="terms_and_statement_title">Algemene voorwaarden</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Algemene voorwaarden</string>
@@ -743,7 +773,8 @@ U kunt deze functie bedienen via Instellingen > Vingerafdrukken, gezichtsgegeven
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Systeemupdateservice (controleert online op updates en informeert over nieuwe versies)</string>
     <string name="terms_of_use_label_use_location_and_network_global">Voordat u het systeem gebruikt, moet u onze Gebruikersovereenkomst en ons Privacybeleid lezen en ermee akkoord gaan. We zullen uw persoonlijke informatie beschermen in overeenstemming met de relevante wetten, voorschriften en privacybeleid. Wanneer uw apparaat is geactiveerd, maken de volgende services verbinding met het netwerk en krijgen ze toegang tot uw locatie:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">Lees en ga akkoord met onze &lt;a href=\"%1$s\">Gebruikersovereenkomst&lt;/a> en &lt;a href=\"%2$s\">Privacybeleid&lt;/a> voordat u het systeem gebruikt. We zullen uw persoonlijke informatie beschermen in overeenstemming met de relevante wetten, voorschriften en privacybeleid.</string>
+    <string name="terms_of_use_label_use_network_china_append">Wanneer uw apparaat is geactiveerd, maken de volgende services verbinding met het netwerk:</string>
     <string name="terms_of_use_label_wallpaper">Achtergrond</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

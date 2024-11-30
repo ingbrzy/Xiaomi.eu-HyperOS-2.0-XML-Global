@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Suositut kaupungit</string>
     <string name="act_find_city_location_button_text">Hae sijainti</string>
     <string name="act_find_city_location_title">Nykyinen sijainti</string>
+    <string name="act_find_city_major_city_title">Suositut sijainnit</string>
+    <string name="act_find_city_search_history_title">Hakuhistoria</string>
     <string name="act_location_error_to_find_city">Sijaintitietoja ei saatu. Voit lisätä sijainnin manuaalisesti.</string>
     <string name="act_set_city_find_side">Sijainti</string>
     <string name="act_set_city_find_side_error">Laitetta ei voitu paikantaa</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Rikkidioksidi</string>
     <string name="aqi_station_best_quality_station">Paras ympärillä</string>
     <string name="aqi_station_min_distance_station">Lähin asema</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Maksimaalinen saastuminen</string>
     <string name="background_location_dialog_authorize_button">Asetukset</string>
     <string name="background_location_guide_dialog_msg">Anna tämän sovelluksen käyttää sijaintia, kun se on käynnissä taustalla, ja valitse \"Salli aina\", jotta saat ajan tasalla säätiedot.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">OK</string>
     <string name="button_confirm">Hyväksy</string>
     <string name="button_exit">Älä hyväksy</string>
+    <string name="button_manage">Hallitse</string>
     <string name="button_settings_cancel">Peruuta</string>
     <string name="button_settings_confirm">Peruuta suostumus</string>
     <string name="button_settings_confirm_to_revoke_msg">Vaihtamalla kytkimen pois peruutat suostumuksesi Sää-tietosuojakäytäntöön. Lopetamme henkilötietojesi keräämisen. Valmiiksi kerätyt ja säilytetyt henkilötiedot poistetaan tietyn ajan kuluessa sovellettavien lakien edellyttämällä tavalla. Sään on kerättävä tarvittavat henkilökohtaiset tiedot peruspalveluiden tarjoamiseksi. Suostumuksesi peruuttaminen sen tietosuojakäytäntöön katsotaan sinun kieltäytymiseksi hyväksyä sen palvelut kerättyjen henkilötietojen perusteella.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Tarkista verkkoyhteys ja yritä uudelleen</string>
+    <string name="city_exceeded_tips">Ei voi lisätä enempää sijainteja. Poista joitakin sijainteja ennen uuden lisäämistä.</string>
+    <string name="city_exceeded_tips_title">Sijaintia ei voi lisätä</string>
     <string name="city_exceeded_warning">Ei voi lisätä enempää kaupunkeja. Jos haluat lisätä uuden, poista valmiiksi luettelossa oleva kaupunki ensin.</string>
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Ei voitu yhdistää verkkoon, yritä uudelleen</string>
     <string name="content_desc_activity_main_add_city">Lisää kaupunki</string>
     <string name="content_desc_activity_main_add_city_manage">Hallitse kaupunkeja</string>
+    <string name="content_desc_activity_main_already_add_city">Lisätyt sijainnit</string>
     <string name="content_desc_activity_main_more_settings">Lisää asetuksia</string>
     <string name="content_desc_activity_main_page">Sivu %1$d/%2$d</string>
     <string name="content_desc_back_button">Takaisin</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Poista</string>
     <string name="miuix_appcompat_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_deselect_all_description">Kumoa kaikkien valinta</string>
+    <string name="miuix_appcompat_edit">Muokkaa</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Peruuta</string>
     <string name="miuix_appcompat_search_input_description">Etsi</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">AQI on %1$d paikassa %2$s tänään</string>
     <string name="notif_weather_title">%1$s paikassa %2$s tänään</string>
     <string name="other_settings">Muut asetukset</string>
-    <string name="pad_keyboard_add_city">Lisää sijainti</string>
-    <string name="pad_keyboard_left_switch">Edellinen sijainti</string>
-    <string name="pad_keyboard_right_switch">Seuraava sijainti</string>
-    <string name="pad_real_time_detail_title">Indeksit</string>
     <string name="particulate_matter_exceeded">Korkea</string>
     <string name="particulate_matter_not_exceeded">Normaali</string>
     <string name="particulate_matter_serious_exceeded">Liian korkea</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Suostumuksen peruuttaminen</string>
     <string name="privacy_grant_success">Valtuutus hyväksytty onnistuneesti</string>
     <string name="privacy_policy">Tietosuojakäytäntö</string>
-    <string name="privacy_policy_msg">&lt;Data>Tämä sovellus sisältää seuraavat ominaisuudet:&lt;br/>• Sijaintiisi asiaankuuluvat säätiedot&lt;br/>• Sääennusteet&lt;br/>• Säävaroitukset&lt;br/>&lt;br/>Sään on kerättävä tarvittavat henkilökohtaiset tiedot peruspalveluiden tarjoamiseksi. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännössä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Sään käyttämistä. Voit milloin tahansa peruuttaa suostumuksesi Sää-tietosuojakäytäntöön kohdassa Asetukset.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Tämä sovellus sisältää seuraavat ominaisuudet:&lt;br/>• Sijaintiisi asiaankuuluvat säätiedot&lt;br/>• Sääennusteet&lt;br/>• Säävaroitukset&lt;br/>&lt;br/>Sään on kerättävä tarvittavat henkilökohtaiset tiedot, mukaan lukien sijaintitiedot, jotta nämä ominaisuudet olisivat käytettävissä, vaikka sovellus olisi suljettu tai sitä ei käytetä. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Sään käyttämistä. Voit milloin tahansa peruuttaa suostumuksesi Sää-tietosuojakäytäntöön kohdassa Asetukset.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Tämä sovellus sisältää seuraavat ominaisuudet:&lt;br/>• Sijaintiisi asiaankuuluvat säätiedot&lt;br/>• Sääennusteet&lt;br/>• Säävaroitukset&lt;br/>&lt;br/>Sään on kerättävä tarvittavat henkilökohtaiset tiedot peruspalveluiden tarjoamiseksi. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännössä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Sään käyttämistä. Voit milloin tahansa peruuttaa suostumuksesi Sää-tietosuojakäytäntöön kohdassa Asetukset.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Tämä sovellus sisältää seuraavat ominaisuudet:&lt;br/>• Sijaintiisi asiaankuuluvat säätiedot&lt;br/>• Sääennusteet&lt;br/>• Säävaroitukset&lt;br/>&lt;br/>Sään on kerättävä tarvittavat henkilökohtaiset tiedot, mukaan lukien sijaintitiedot, jotta nämä ominaisuudet olisivat käytettävissä, vaikka sovellus olisi suljettu tai sitä ei käytetä. Voit tutustua siihen, miten käsittelemme keräämiämme tietoja meidän &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a>. Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%3$s\">Tietosuojakäytäntö&lt;/a> ennen Sään käyttämistä. Voit milloin tahansa peruuttaa suostumuksesi Sää-tietosuojakäytäntöön kohdassa Asetukset.</Data></string>
     <string name="privacy_revoke_success">Valtuutus peruutettu onnistuneesti</string>
     <string name="privacy_settings">Tietosuojakäytäntö</string>
     <string name="pull_fresh_updated">Päivitetty onnistuneesti</string>

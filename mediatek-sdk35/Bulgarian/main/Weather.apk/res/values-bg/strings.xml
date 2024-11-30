@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Популярни градове</string>
     <string name="act_find_city_location_button_text">Получаване на местоположение</string>
     <string name="act_find_city_location_title">Настоящо местоположение</string>
+    <string name="act_find_city_major_city_title">Популярни местоположения</string>
+    <string name="act_find_city_search_history_title">Хронология на търсенията</string>
     <string name="act_location_error_to_find_city">Неуспешно получаване на информация за местоположението. Можете ръчно да добавите местоположение.</string>
     <string name="act_set_city_find_side">Локализиране</string>
     <string name="act_set_city_find_side_error">Не може да се определи позицията ви</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Серен диоксид</string>
     <string name="aqi_station_best_quality_station">Най-добрата наоколо</string>
     <string name="aqi_station_min_distance_station">Близка станция</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Главни замърсители</string>
     <string name="background_location_dialog_authorize_button">Настройки</string>
     <string name="background_location_guide_dialog_msg">Разрешете на това приложение достъп до местоположението, докато работи във фонов режим, и изберете „Разрешаване винаги“, за да сте сигурни, че получавате актуална информация за времето.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">Позволи</string>
     <string name="button_confirm">Приемам</string>
     <string name="button_exit">Не приемам</string>
+    <string name="button_manage">Управление</string>
     <string name="button_settings_cancel">Отказ</string>
     <string name="button_settings_confirm">Оттегляне</string>
     <string name="button_settings_confirm_to_revoke_msg">Превключвайки бутона Вие оттегляте съгласието си за Правилата за поверителност на Времето. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Времето събира Вашите лични данни, за да Ви предоставя основни услуги. Оттеглянето на Вашето съгласие за Правилата за поверителност ще се счита за отказ от услугите, които се базират на Вашите събрани лични данни.</string>
     <string name="card_vote_item_vs">За/Пр</string>
     <string name="change_alert">Проверете мрежовата връзка и опитайте отново</string>
+    <string name="city_exceeded_tips">Не можете да добавяте повече местоположения. Премахнете някои местоположения, преди да добавите ново.</string>
+    <string name="city_exceeded_tips_title">Не можете да добавяте местоположения</string>
     <string name="city_exceeded_warning">Не можете да добавяте повече градове. За да добавите един, първо трябва да изтриете един от вече добавените градове.</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="close">Затваряне</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Не може да се свърже с мрежа, опитайте отново</string>
     <string name="content_desc_activity_main_add_city">Добави град</string>
     <string name="content_desc_activity_main_add_city_manage">Редакция на градове</string>
+    <string name="content_desc_activity_main_already_add_city">Добавени местоположения</string>
     <string name="content_desc_activity_main_more_settings">Още настройки</string>
     <string name="content_desc_activity_main_page">Страница %1$d от %2$d</string>
     <string name="content_desc_back_button">Назад</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Изтрий</string>
     <string name="miuix_appcompat_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
+    <string name="miuix_appcompat_edit">Редактиране</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">AQI е %1$d в %2$s днес</string>
     <string name="notif_weather_title">%1$s в %2$s днес</string>
     <string name="other_settings">Други настройки</string>
-    <string name="pad_keyboard_add_city">Добави местоположение</string>
-    <string name="pad_keyboard_left_switch">Предишно местоположение</string>
-    <string name="pad_keyboard_right_switch">Следващо местоположение</string>
-    <string name="pad_real_time_detail_title">Индекси</string>
     <string name="particulate_matter_exceeded">Високо</string>
     <string name="particulate_matter_not_exceeded">Нормално</string>
     <string name="particulate_matter_serious_exceeded">Прекалено високо</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Оттегляне на съгласие</string>
     <string name="privacy_grant_success">Успешно придобито разрешение</string>
     <string name="privacy_policy">Правила за поверителност</string>
-    <string name="privacy_policy_msg">&lt;Data>Това приложение съдържа следните функции:&lt;br/>• Информация за времето специфична за вашето местоположение&lt;br/>• Прогноза за времето&lt;br/>• Предупреждения за времето&lt;br/>&lt;br/>Времето се нуждае да събира вашите лични данни, за да ви предоставя основни услуги. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Времето. Можете да оттеглите съгласието си за Правилата за поверителност на Времето в Настройки по всяко време.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Това приложение съдържа следните функции:&lt;br/>• Информация за времето специфична за вашето местоположение&lt;br/>• Прогноза за времето&lt;br/>• Предупреждения за времето&lt;br/>&lt;br/>Времето се нуждае да събира вашите лични данни, включително данни за местоположението, за да ви предоставя тези функции дори когато приложението е затворено или не се използва. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Времето. Можете да оттеглите съгласието си за Правилата за поверителност на Времето в Настройки по всяко време.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Това приложение съдържа следните функции:&lt;br/>• Информация за времето специфична за вашето местоположение&lt;br/>• Прогноза за времето&lt;br/>• Предупреждения за времето&lt;br/>&lt;br/>Времето се нуждае да събира вашите лични данни, за да ви предоставя основни услуги. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Времето. Можете да оттеглите съгласието си за Правилата за поверителност на Времето в Настройки по всяко време.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Това приложение съдържа следните функции:&lt;br/>• Информация за времето специфична за вашето местоположение&lt;br/>• Прогноза за времето&lt;br/>• Предупреждения за времето&lt;br/>&lt;br/>Времето се нуждае да събира вашите лични данни, включително данни за местоположението, за да ви предоставя тези функции дори когато приложението е затворено или не се използва. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Времето. Можете да оттеглите съгласието си за Правилата за поверителност на Времето в Настройки по всяко време.</Data></string>
     <string name="privacy_revoke_success">Разрешението е успешно отменено</string>
     <string name="privacy_settings">Правила за поверителност</string>
     <string name="pull_fresh_updated">Успешно актуализиране</string>

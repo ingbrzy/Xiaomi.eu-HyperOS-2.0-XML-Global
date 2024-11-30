@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Fa 1 hora</item>
+        <item quantity="one">Fa 1 hora</item>
+    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">Fa %d hores</item>
         <item quantity="one">Fa %d hora</item>
@@ -55,6 +59,10 @@
     <plurals name="exo_controls_rewind_by_amount_description">
         <item quantity="other">Rebobina %d segons</item>
         <item quantity="one">Rebobina %d segon</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Fa mitja hora</item>
+        <item quantity="one">Fa mitja hora</item>
     </plurals>
     <plurals name="health_chart_calories_burned_schedule_format_desc">
         <item quantity="other">%1$s calories cremades</item>
@@ -167,8 +175,8 @@ Les monedes no són reemborsables"</item>
         <item quantity="one">Això pot trigar una mica. Si no heu rebut els articles que heu comprat en %d hora, envieu comentaris per informar-nos del problema.</item>
     </plurals>
     <plurals name="purchased_instructions">
-        <item quantity="other">&lt;Data>"En completar el pagament, accepteu el &lt;a href=\"%1$s\">Avís sobre compres des de l'aplicaci &lt;/a>.&lt;br>Els reembossaments estan disponibles durant &lt;xliff:g id=time>%2$d&lt;/xliff:g> hores després de fer les compres."&lt;/Data></item>
-        <item quantity="one">&lt;Data>"En completar el pagament, accepteu el &lt;a href=\"%1$s\">Avís sobre compres integrades a l'aplicació&lt;/a>.&lt;br>Els reembossaments estan disponibles durant &lt;xliff:g id=time>%2$d&lt;/xliff:g> hora després de fer les compres."&lt;/Data></item>
+        <item quantity="other">"&lt;Data>En completar el pagament, accepteu el &lt;a href=\"%1$s\">Avís sobre compres des de L'aplicaci &lt;/a>.&lt;br>Els reembossaments estan disponibles durant &lt;xliff:g id=time>%2$d&lt;/xliff:g> hores després de fer les compres.&lt;/Data>"</item>
+        <item quantity="one">"&lt;Data>En completar el pagament, accepteu el &lt;a href=\"%1$s\">Avís sobre compres integrades a L'aplicació&lt;/a>.&lt;br>Els reembossaments estan disponibles durant &lt;xliff:g id=time>%2$d&lt;/xliff:g> hora després de fer les compres.&lt;/Data>"</item>
     </plurals>
     <plurals name="purchased_refund_constact_us_success_dialog_message">
         <item quantity="other">La comanda es va completar fa més de %d hores. Envieu-nos un correu electrònic.</item>
@@ -189,6 +197,14 @@ Les monedes no són reemborsables"</item>
     <plurals name="theme_designer_products_count">
         <item quantity="other">%1$s treballs</item>
         <item quantity="one">%1$s treball</item>
+    </plurals>
+    <plurals name="tiny_accessibility_battery_level">
+        <item quantity="other">Bateria al %s per cent</item>
+        <item quantity="one">Bateria al %s per cent</item>
+    </plurals>
+    <plurals name="tiny_accessibility_battery_level_charging">
+        <item quantity="other">"S'està carregant. Bateria al %d per cent."</item>
+        <item quantity="one">"S'està carregant. Bateria al %d per cent."</item>
     </plurals>
     <plurals name="wallpaper_staggered_item_text">
         <item quantity="other">%1$s | %2$d imatges</item>

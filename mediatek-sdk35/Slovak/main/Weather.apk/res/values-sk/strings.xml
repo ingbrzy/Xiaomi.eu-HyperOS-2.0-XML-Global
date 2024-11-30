@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Populárne mestá</string>
     <string name="act_find_city_location_button_text">Získať polohu</string>
     <string name="act_find_city_location_title">Aktuálna poloha</string>
+    <string name="act_find_city_major_city_title">Obľúbené lokácie</string>
+    <string name="act_find_city_search_history_title">História vyhľadávania</string>
     <string name="act_location_error_to_find_city">Nepodarilo sa získať údaje o polohe. Polohu môžete pridať manuálne.</string>
     <string name="act_set_city_find_side">Zisťovanie polohy...</string>
     <string name="act_set_city_find_side_error">Nie je možné lokalizovať</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Oxid siričitý</string>
     <string name="aqi_station_best_quality_station">Najlepšie v okolí</string>
     <string name="aqi_station_min_distance_station">Najbližšia stanica</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Hlavní znečisťovatelia</string>
     <string name="background_location_dialog_authorize_button">Nastavenia</string>
     <string name="background_location_guide_dialog_msg">Povoľte tejto aplikácii prístup k vašej polohe, keď je spustená na pozadí, a vyberte možnosť „Vždy povoliť“, aby ste mali vždy aktuálne informácie o počasí.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">OK</string>
     <string name="button_confirm">Súhlasím</string>
     <string name="button_exit">Nesúhlasím</string>
+    <string name="button_manage">Spravovať</string>
     <string name="button_settings_cancel">Zrušiť</string>
     <string name="button_settings_confirm">Odvolať</string>
     <string name="button_settings_confirm_to_revoke_msg">Prepnutím prepínača odvoláte svoj súhlas so zmluvou Zásady ochrany osobných údajov Počasia. Prestaneme zhromažďovať vaše osobné údaje. Osobné informácie, ktoré už boli zhromaždené a uchované, budú odstránené v stanovenej lehote, ako to vyžadujú príslušné zákony. Aplikácia Počasie musí zhromažďovať potrebné osobné informácie z dôvodu poskytovania základných služieb. Vaše odvolanie súhlasu so Zásadami ochrany osobných údajov sa bude považovať za odmietnutie prijať tieto služby na základe zhromaždených osobných údajov.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Skontrolujte nastavenie siete a skúste to znova</string>
+    <string name="city_exceeded_tips">Nie je možné pridať ďalšie lokality. Pred pridaním nového miesta odstráňte iné miesta.</string>
+    <string name="city_exceeded_tips_title">Lokalitu nemožno pridať</string>
     <string name="city_exceeded_warning">Nie je možné pridať viac miest. Pre pridanie ďalšieho mesta najskôr vymažte niektoré z pridaných miest zo zoznamu.</string>
     <string name="clearable_edittext_clear_description">Vymazať</string>
     <string name="close">Zatvoriť</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Nepodarilo sa pripojiť ku sieti, skúste to znovu</string>
     <string name="content_desc_activity_main_add_city">Pridať mesto</string>
     <string name="content_desc_activity_main_add_city_manage">Spravovať mestá</string>
+    <string name="content_desc_activity_main_already_add_city">Pridané lokality</string>
     <string name="content_desc_activity_main_more_settings">Ďalšie nastavenia</string>
     <string name="content_desc_activity_main_page">Stránka %1$d z %2$d</string>
     <string name="content_desc_back_button">Späť</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Vymazať</string>
     <string name="miuix_appcompat_deselect_all">Zrušiť výber</string>
     <string name="miuix_appcompat_deselect_all_description">Zrušiť výber</string>
+    <string name="miuix_appcompat_edit">Upraviť</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Zrušiť</string>
     <string name="miuix_appcompat_search_input_description">Vyhľadať</string>
     <string name="miuix_appcompat_select_all">Vybrať všetko</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">Dnešné AQI v meste %2$s je %1$d</string>
     <string name="notif_weather_title">Dnešná predpoveď pre %2$s hlási %1$s</string>
     <string name="other_settings">Ďalšie nastavenia</string>
-    <string name="pad_keyboard_add_city">Pridať polohu</string>
-    <string name="pad_keyboard_left_switch">Predchádzajúca poloha</string>
-    <string name="pad_keyboard_right_switch">Ďalšia poloha</string>
-    <string name="pad_real_time_detail_title">Indexy</string>
     <string name="particulate_matter_exceeded">Vysoké</string>
     <string name="particulate_matter_not_exceeded">Normálne</string>
     <string name="particulate_matter_serious_exceeded">Príliš vysoké</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Odvolanie súhlasu</string>
     <string name="privacy_grant_success">Autorizácia úspešne udelená</string>
     <string name="privacy_policy">Zásady ochrany osobných údajov</string>
-    <string name="privacy_policy_msg">&lt;Data>Táto funkcia obsahuje nasledovné funkcie:&lt;br/>• Informácie o počasí na základe vašej polohy&lt;br/>• Predpoveď počasia&lt;br/>• Upozornenia na počasie&lt;br/>&lt;br/>Pre poskytovanie základných služieb musí Počasie zhromažďovať potrebné osobné informácie. Spôsob, akým zaobchádzame s informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím Počasia si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>. Svoj súhlas so Zásadami ochrany osobných údajov Počasia môžete kedykoľvek odvolať v Nastaveniach.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Táto funkcia obsahuje nasledovné funkcie:&lt;br/>• Informácie o počasí na základe vašej polohy&lt;br/>• Predpoveď počasia&lt;br/>• Upozornenia na počasie&lt;br/>&lt;br/>Počasie musí zhromažďovať potrebné osobné informácie vrátane údajov o polohe, aby tieto funkcie boli k dispozícii, aj keď je aplikácia zatvorená alebo sa nepoužíva. Spôsob, akým zaobchádzame s informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím Počasia si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>. Svoj súhlas so Zásadami ochrany osobných údajov Počasia môžete kedykoľvek odvolať v Nastaveniach.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Táto funkcia obsahuje nasledovné funkcie:&lt;br/>• Informácie o počasí na základe vašej polohy&lt;br/>• Predpoveď počasia&lt;br/>• Upozornenia na počasie&lt;br/>&lt;br/>Pre poskytovanie základných služieb musí Počasie zhromažďovať potrebné osobné informácie. Spôsob, akým zaobchádzame s informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím Počasia si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>. Svoj súhlas so Zásadami ochrany osobných údajov Počasia môžete kedykoľvek odvolať v Nastaveniach.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Táto funkcia obsahuje nasledovné funkcie:&lt;br/>• Informácie o počasí na základe vašej polohy&lt;br/>• Predpoveď počasia&lt;br/>• Upozornenia na počasie&lt;br/>&lt;br/>Počasie musí zhromažďovať potrebné osobné informácie vrátane údajov o polohe, aby tieto funkcie boli k dispozícii, aj keď je aplikácia zatvorená alebo sa nepoužíva. Spôsob, akým zaobchádzame s informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím Počasia si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>. Svoj súhlas so Zásadami ochrany osobných údajov Počasia môžete kedykoľvek odvolať v Nastaveniach.</Data></string>
     <string name="privacy_revoke_success">Autorizácia úspešne zrušená</string>
     <string name="privacy_settings">Zásady ochrany osobných údajov</string>
     <string name="pull_fresh_updated">Úspešne aktualizované</string>
@@ -483,8 +485,8 @@
     <string name="suggestion_for_zhongxue">Zostaňte v teple a jazdite opatrne</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Nedeľa</string>
-    <string name="sunday_short">Neď</string>
-    <string name="sunday_shortest">Neď</string>
+    <string name="sunday_short">Ned</string>
+    <string name="sunday_shortest">Ned</string>
     <string name="sunrise">Východ slnka</string>
     <string name="sunset">Západ slnka</string>
     <string name="temperature_normal_unit">%1$s°</string>

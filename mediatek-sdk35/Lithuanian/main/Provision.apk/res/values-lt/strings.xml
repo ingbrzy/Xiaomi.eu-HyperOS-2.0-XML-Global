@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">Siekiant teikti geresnes paslaugas jums, jūsų įrenginyje veikiantys procesai (įskaitant „SystemHelper“, „RegService“ ir tinklo operaus paslaugas) gali periodiškai siųsti su jūsų įrenginiu ir SIM kortele susijusius duomenis (įskaitant IMEI, IMSI, MSISDN, MEID, ICCID, MAC adresą, sistemos versiją, „Android“ versiją, įrenginio modelį ir pagrindines aparatinės įrangos specifikacijas) ir apytikslės vietos informaciją (įskaitant regioną, koordinates, srities identifikatorių ir bazinės stoties ID) operatoriui naudojant WLAN, mobiliųjų duomenų tinklą arba nemokamą SMS. Operatorius įsipareigoja analizuoti atitinkamą informaciją tik paslaugų gerinimo ir pritaikytų paslaugų ir technologijų teikimo tikslais. Atitinkama informacija nebus atskleidžiama trečiosioms šalims jokiu būdu, nustatančiu jūsų asmens tapatybę. Konkretus paslaugų teikėjo pareiškimas išlaiko viršenybę. Dėl šios paslaugos naudojimo išlaidų pasikonsultuokite su paslaugų teikėju.</string>
     <string name="carrier_introduction_china_rothko">Siekiant pagerinti jums teikiamų paslaugų kokybę, šiame įrenginyje veikiančios programos (įskaitant „SystemHelper“, „RegService“ ir operatoriaus paslaugas) gali siųsti informaciją apie šį įrenginį arba jūsų SIM kortelę (įskaitant IMEI, IMSI, MSISDN, MEID, ICCID, MAC adresą, sistemos versiją, „Android“ versiją, įrenginio modelį, pagrindinės aparatinės įrangos konfigūraciją ir telefono numerį), taip pat apytikslę jūsų vietą (įskaitant regioną, koordinates, kaimynystės identifikatorių ir bazinės stoties ID) jūsų operatoriui per WLAN, mobiliuosius tinklus arba SMS žinutėmis. Kai skambinate, „DCService“ prisijungs prie tinklo. Mobiliojo ryšio operatoriai garantuoja, kad ši informacija bus naudojama tik analizei, paslaugų kokybei gerinti arba pritaikytoms paslaugoms ar technologijoms teikti ir niekada su niekuo nebus dalijamasi tokiu būdu, kuris leistų jus identifikuoti. Daugiau informacijos rasite savo operatoriaus nuostatose. Dėl visų susijusių paslaugų mokesčių galite teirautis savo operatoriaus.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>Naudodami „Xiaomi“ sujungiamumą galite valdyti ir perduoti duomenis iš vieno įrenginio į kitą. Prieš naudodami programos funkcijas, sutikite su „Xiaomi“ sujungiamumo &lt;a href=%1$s>privatumo politika&lt;/a >. Šiai programai reikalinga prieiga prie interneto ir nurodyti leidimai:</Data></string>
     <string name="clearable_edittext_clear_description">Išvalyti</string>
     <string name="clock_introduction">Šią programą galite naudoti norėdami peržiūrėti laiką, pasaulio laikrodžius, nustatyti chronometrą, žadintuvus ir kt.</string>
     <string name="close">Uždaryti</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Tradicinis kinų kalendorius</string>
     <string name="date_time_picker_dialog_title">Nustatyti datą ir laiką</string>
-    <string name="default_font">Numatytasis</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Naudotokite piršto atspaudą prietaisui atrakinti, „Mi Pay“ mokėjimų patvirtinimui arba prisijungimui prie programų ir paslaugų.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Didinti teksto dydį</string>
     <string name="font_settings_sub_title">Pasirinkti sistemos šriftą</string>
     <string name="font_settings_title">Šrifto parametrai</string>
+    <string name="font_size_title">Teksto dydis</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Pagrindinis</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">Klasikinė</string>
     <string name="home_settings_poco_launcher">Programų skydelis</string>
     <string name="home_settings_title">Pasirinkite numatytąją vykdyklę</string>
+    <string name="image_brain_configuration_service">„Xiaomi Imaging Engine“ konfigūravimo paslauga</string>
     <string name="ime_privacy_policy">Pasirinktos klaviatūros privatumo politika</string>
     <string name="ime_privacy_policy_no_network">Nėra tinklo ryšio. Šios klaviatūros privatumo politiką galite pažiūrėti %s.</string>
     <string name="ims_introduction">IMS paslaugos suteikia pagrindines komunikavimo galimybes ir yra naudojamos aukštos kokybės garso ir vaizdo skambučiams.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">„Xiaomi“ tarptautinio komunikavimo paslaugos jums leidžia atrasti, prisijungti ir komunikuoti su kitais „Xiaomi“ įrenginiais.</string>
     <string name="interconnection_service_global_item_title">„Xiaomi“ sujungiamumas</string>
     <string name="interconnection_service_global_label">&lt;Data>„Xiaomi“ sujungiamumas leidžia įrenginiams sąveikauti tarpusavyje belaidžiu ryšiu. Įjungdami šią funciją sutinkate su „Xiaomi“ sujungiamumo &lt;a href=%1$s>privatumo politika&lt;/a >.&lt;/Data></string>
+    <string name="interconnection_service_permission1">„Bluetooth“ Įjungimas ir išjungimas</string>
+    <string name="interconnection_service_permission10">Įrenginių netoliese aptikimas</string>
+    <string name="interconnection_service_permission11">Duomenų perkėlimas tarp įrenginių</string>
+    <string name="interconnection_service_permission12">Duomenų perdavimas tarp prijungtų įrenginių</string>
+    <string name="interconnection_service_permission13">Pasiekite ekrano turinį</string>
+    <string name="interconnection_service_permission14">Ekrano turinio prieiga įrašant ar perdavimo metu, įskaitant slaptą informaciją, pvz., garsą, slaptažodžius, mokėjimo slaptažodžius, nuotraukas, pranešimus ir kt.</string>
+    <string name="interconnection_service_permission15">Pasiekti skambučių istoriją</string>
+    <string name="interconnection_service_permission16">Skambučių perdavimas tarp įrenginių ekrano atvaizdavimo metu</string>
+    <string name="interconnection_service_permission17">Pasiekti įdiegtų programų sąrašą</string>
+    <string name="interconnection_service_permission18">Prieigai prie mobiliajame įrenginyje įdiegtų programų sąrašo ir ekrano atvaizdavimui kompiuteriuose</string>
+    <string name="interconnection_service_permission2">Prisijungimui ir duomenų perkėlimui tarp dviejų įrenginių</string>
+    <string name="interconnection_service_permission3">WLAN įjungimas ir išjungimas</string>
+    <string name="interconnection_service_permission4">Duomenims perduoti tarp dviejų įrenginių per WLAN</string>
+    <string name="interconnection_service_permission5">Įrašyti garsą</string>
+    <string name="interconnection_service_permission6">Įrenginio garsui įrašyti perdavimo ir atvaizdavimo metu</string>
+    <string name="interconnection_service_permission7">Nuotraukų ir failų prieiga ir redagavimas šiame įrenginyje</string>
+    <string name="interconnection_service_permission8">Turinio perdavimui ir perkėlimui iš šio įrenginio</string>
+    <string name="interconnection_service_permission9">Pasiekite įrenginio identifikatorių</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s Jūsų įrenginyje pasiekiamos „Xiaomi“ sujungiamumo funkcijos gali skirtis dėl sistemos versijų ir įrenginių modelių skirtumų. Daugiau informacijos rasite mūsų oficialioje svetainėje (%2$s).</string>
     <string name="interconnection_service_summary_global">„Xiaomi“ sujungiamumo funkcijos gali skirtis priklausomai nuo įrenginio modelio ir sistemos versijos. Norėdami sužinoti daugiau, apsilankykite oficialioje sistemos svetainėje.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Jei jūsų įrenginys yra pamestas, neturėsite galimybės užkirsti kelio kitiems asmenims naudoti jūsų įrenginį ir pasiekti jūsų duomenis, nebent nustatysite ekrano užraktą. Vis tiek praleisti?</string>
@@ -311,6 +332,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="ktposition_header">Vietos informacija bendrinama su skubios pagalbos tarnybomis</string>
     <string name="language_picker_other_languages_title">Daugiau kalbų</string>
     <string name="language_settings">Pasirinkti kalbą</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Didelis</string>
+    <string name="layout_size_normal">Įprastas</string>
     <string name="locale_picker_other_locale_title">Daugiau regionų</string>
     <string name="locale_picker_title">Pasirinkite savo šalį</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +611,10 @@ Jūsų siunčiamuose duomenyse bus nurodyti bendrieji jūsų įrenginio duomenys
     <string name="privacy_provision_title">Privatumas</string>
     <string name="privacy_refuse">Nesutinku</string>
     <string name="privacy_title">Sąlygos ir privatumo politika</string>
+    <string name="prompt_fingerprint">Paskyroje įjungta išplėstinė duomenų apsauga. Nustatykite įrenginiui ekrano užraktą.</string>
     <string name="protect_persoanl_info_statement">Jūsų asmeninę informaciją saugosime laikydamiesi taikomų įstatymų, teisės aktų ir privatumo strategijų.</string>
     <string name="provision_back">Grįžti</string>
+    <string name="provision_complete_text">Tęsti</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Peržiūrėti pasirinktos klaviatūros &lt;a href=%1$s>privatumo politiką&lt;/a >.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Privatumo politika</string>
     <string name="provision_next">Kitas</string>
@@ -613,6 +639,8 @@ Jūsų siunčiamuose duomenyse bus nurodyti bendrieji jūsų įrenginio duomenys
     <string name="require_telephone_location">Vietos prieiga</string>
     <string name="require_telephone_location_summary">Apytikslei vietai pasiekti ir tinklo optimizavimo paslaugoms pagal vietą teikti</string>
     <string name="require_telephone_statement">Bazinėme paslaugoms teikti reikalingi toliau nurodyti leidimai:</string>
+    <string name="sample_text_summary">„Xiaomi“ nuolat kuria nuostabius gaminius už teisingas kainas, kad visi pasaulio gyventojai džiaugtųsi geresniu gyvenimu naudodami novatoriškas technologijas.</string>
+    <string name="sample_text_title">Teksto pavyzdys:</string>
     <string name="saturday">Šeštadienis</string>
     <string name="saturday_short">Št.</string>
     <string name="saturday_shortest">Št.</string>
@@ -690,6 +718,7 @@ Jūsų siunčiamuose duomenyse bus nurodyti bendrieji jūsų įrenginio duomenys
     <string name="skip_underline">Praleisti šį žingsnį</string>
     <string name="start_up_slogan">Yours alone</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Išmokite navigacijos gestų</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Nenustatyta</string>
     <string name="sunday">Sekmadienis</string>
@@ -700,6 +729,7 @@ Jūsų siunčiamuose duomenyse bus nurodyti bendrieji jūsų įrenginio duomenys
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">Pagrindinio ekrano paslaugos įskiepis jums suteikia pagrindines funkcijas, pavyzdžiui, pagrindinį ekraną, sistemos UI ir ekrano kopijas.</string>
     <string name="term_condition_detail">Kasdien gaukite nuostabius vaizdus ir įdomias istorijas užrakto ekrane. Ši funkcija be jūsų sutikimo nenaudos jūsų duomenų personalizavimui. Prieš naudodamiesi šia funkcija, perskaitykite ir sutikite su trečiosios šalies turinio teikėjo &lt;a href =%1$s> privatumo politika &lt;/a> ir &lt;a href =%2$s> naudotojo sutartimi &lt;/a>.</string>
+    <string name="terms_and_statement_title">Nuostatos ir sąlygos</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Nuostatos ir sąlygos</string>
@@ -743,7 +773,8 @@ Jūsų siunčiamuose duomenyse bus nurodyti bendrieji jūsų įrenginio duomenys
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Sistemos atnaujinimo paslauga (tikrina, ar yra naujinių ir informuoja apie naujas versijas)</string>
     <string name="terms_of_use_label_use_location_and_network_global">Prieš naudodami sistemą, turite perskaityti ir sutikti su mūsų naudotojo sutartimi ir privatumo politika. Apsaugosime jūsų asmeninę informaciją pagal taikomus įstatymus, teisės aktus ir privatumo politikas. Kai aktyvuojate savo įrenginį, prie tinklo prisijungs ir jūsų vietos prieigą gaus toliau nurodytos paslaugos:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">Prieš naudodamiesi sistema turite perskaityti ir sutikti su mūsų &lt;a href=\"%1$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%2$s\">privatumo politika&lt;/a>. Apsaugosime jūsų asmeninę informaciją pagal galiojančius įstatymus, nuostatus ir privatumo politikas.</string>
+    <string name="terms_of_use_label_use_network_china_append">Kai įrenginys suaktyvinamas, prie tinklo prijungiamos šios paslaugos:</string>
     <string name="terms_of_use_label_wallpaper">Fono paveikslėlis</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

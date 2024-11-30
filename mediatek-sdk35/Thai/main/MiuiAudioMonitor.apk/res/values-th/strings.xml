@@ -31,10 +31,13 @@
     <string name="actionbar_button_up_description">ย้อนกลับ</string>
     <string name="afternoon">บ่าย</string>
     <string name="am">AM</string>
-    <string name="app_name">ผู้ช่วยบันทึกเสียง</string>
+    <string name="app_name">ตัวบันทึกการโทร</string>
     <string name="assistant_note_one">ทางลัดแถบสถานะจะปรากฏขึ้นระหว่างการโทรด้วยเสียง</string>
     <string name="assistant_note_two">แตะทางลัดเพื่อบันทึกการโทร</string>
+    <string name="button_disagree">ยกเลิก </string>
+    <string name="button_record_start">บันทึก</string>
     <string name="call_assistant">ผู้ช่วย VoIP</string>
+    <string name="call_in_progress">กำลังใช้สาย</string>
     <string name="call_recording_notification_complete_one">บันทึกเรียบร้อยแล้ว แตะเพื่อดู</string>
     <string name="call_recording_notification_complete_other">Recorded %d calls successfully</string>
     <string name="call_recording_notification_title">ตัวบันทึกการโทร</string>
@@ -47,8 +50,8 @@
     <string name="close">ปิด</string>
     <string name="copy">คัดลอก</string>
     <string name="cta_HIPS_Perm_Location_Desc">สำหรับบันทึกการโทรและเสียง</string>
-    <string name="cta_main_purpose">"Welcome to App recordings! You can use this app to record voice calls made in third party apps. This app will access caller nicknames to name saved recordings.
-Note that infringement of other people's privacy rights is illegal. You may not use any information obtained through this feature to violate the privacy of others. If you use the above information illegally, you shall assume all the legal risks arising therefrom.
+    <string name="cta_main_purpose">"ยินดีต้อนรับสู่ผู้ช่วย ตัวบันทึกการโทร! คุณสามารถใช้แอปนี้เพื่อบันทึกการโทรด้วยเสียงในแอปของบุคคลที่สาม แอปนี้จะเข้าถึงชื่อเล่นของผู้โทรเพื่อตั้งชื่อบันทึกที่บันทึกไว้
+โปรดทราบว่าการละเมิดสิทธิ์ความเป็นส่วนตัวของผู้อื่นนั้นผิดกฎหมาย คุณไม่สามารถใช้ข้อมูลใดๆ ที่ได้รับผ่านคุณสมบัตินี้เพื่อละเมิดความเป็นส่วนตัวของผู้อื่น หากคุณใช้ข้อมูลข้างต้นอย่างผิดกฎหมาย คุณจะต้องรับความเสี่ยงทางกฎหมายทั้งหมดที่เกิดขึ้นจากข้อมูลดังกล่าว
 "</string>
     <string name="custom_define_perference_title">รายละเอียดการอนุญาต</string>
     <string name="custom_define_permission_desc_android.permission_group.MICROPHONE">สำหรับบันทึกการโทรและเสียง</string>
@@ -58,6 +61,9 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">ปฏิทินจีนโบราณ</string>
     <string name="date_time_picker_dialog_title">ตั้งค่าวันและเวลา</string>
+    <string name="desc_privacy_policy_cn">"ด้วยตัวบันทึกการโทร คุณสามารถบันทึกเสียงสนทนาผ่านแอปของบริษัทอื่นได้ แอปนี้จะเข้าถึงชื่อเล่นของผู้โทรเพื่อตั้งชื่อให้กับเสียงที่บันทึกไว้
+โปรดทราบว่าการละเมิดสิทธิความเป็นส่วนตัวของผู้อื่นถือเป็นสิ่งผิดกฎหมาย คุณไม่สามารถใช้ข้อมูลใดๆ ที่ได้รับจากฟีเจอร์นี้เพื่อละเมิดความเป็นส่วนตัวของผู้อื่น หากคุณใช้ข้อมูลข้างต้นอย่างผิดกฎหมาย คุณจะต้องรับความเสี่ยงทางกฎหมายทั้งหมดที่เกิดขึ้นจากการกระทำดังกล่าว"</string>
+    <string name="desc_privacy_policy_global">กฎหมายท้องถิ่นที่ใช้กับคุณหรือบุคคลอื่นในการสนทนานี้อาจกำหนดให้ทุกคนยินยอมให้บันทึกการสนทนา คุณต้องรับผิดชอบในการปฏิบัติตามกฎหมายดังกล่าว และ Xiaomi จะไม่รับผิดชอบต่อการละเมิดกฎหมายใดๆ อันเนื่องมาจากการกระทำหรือการละเว้นของคุณ ใช้การบันทึกการสนทนาอย่างมีความรับผิดชอบ การบันทึกจะถูกเก็บไว้ในอุปกรณ์ของคุณเท่านั้น และ Xiaomi จะไม่สามารถเข้าถึงได้ เริ่มบันทึกเลยตอนนี้หรือไม่?</string>
     <string name="early_morning">เช้า</string>
     <string name="empty" />
     <string name="eras_ad">หลังคริสตกาล</string>
@@ -261,6 +267,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="time_picker_dialog_title">ตั้งเวลา</string>
     <string name="time_picker_label_hour">ชม.</string>
     <string name="time_picker_label_minute">น.</string>
+    <string name="title_record_call">บันทึกสายสนทนา</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>
     <string name="tuesday">วันอังคาร</string>
@@ -269,9 +276,11 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="v7_preference_off">ปิด</string>
     <string name="v7_preference_on">เปิด</string>
     <string name="verify">ตกลง</string>
-    <string name="voice_noise_reduction_open">การเพิ่มประสิทธิภาพพิมพ์เสียงเปิดใช้งานอยู่</string>
-    <string name="voice_opti_always_on">การเพิ่มประสิทธิภาพ พิมพ์เสียง</string>
-    <string name="voice_opti_summer">กรองเสียงรบกวนและเพื่อให้เสียงของคุณชัดเจน คุณต้องเปิดคุณสมบัตินี้ด้วยตนเองทุกครั้ง</string>
+    <string name="video_call">วิดีโอคอลกำลังดำเนินการอยู่</string>
+    <string name="voice_call">การโทรด้วยเสียงใช้งานอยู่</string>
+    <string name="voice_noise_reduction_open">การเพิ่มประสิทธิภาพการพิมพ์ด้วยเสียงเปิดใช้งานอยู่</string>
+    <string name="voice_opti_always_on">การเพิ่มประสิทธิภาพการพิมพ์ด้วยเสียง</string>
+    <string name="voice_opti_summer">กรองเสียงรบกวนเพื่อให้เสียงของคุณชัดเจน คุณต้องเปิดคุณสมบัตินี้ด้วยตนเองทุกครั้ง</string>
     <string name="voice_recoding">บันทึกการโทร</string>
     <string name="voice_recoding_progress">"กำลังบันทึกการโทร: "</string>
     <string name="voice_recoding_summer">บันทึกการโทรและบันทึกลงในเครื่องบันทึก</string>

@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Popüler şehirler</string>
     <string name="act_find_city_location_button_text">Konumu al</string>
     <string name="act_find_city_location_title">Mevcut konum</string>
+    <string name="act_find_city_major_city_title">Popüler konumlar</string>
+    <string name="act_find_city_search_history_title">Arama geçmişi</string>
     <string name="act_location_error_to_find_city">Konum bilgisi alınamadı. Manuel olarak konum ekleyebilirsiniz.</string>
     <string name="act_set_city_find_side">Konumlandırılıyor</string>
     <string name="act_set_city_find_side_error">Cihaz konumlandırılamadı</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Sülfür dioksit</string>
     <string name="aqi_station_best_quality_station">Çevredeki en iyi</string>
     <string name="aqi_station_min_distance_station">En yakın istasyon</string>
-    <string name="aqi_title_pad">HKE: %1$s</string>
     <string name="aqi_top_pollution">Tehlikeli kirleticiler</string>
     <string name="background_location_dialog_authorize_button">Ayarlar</string>
     <string name="background_location_guide_dialog_msg">"Bu uygulamanın arka planda çalışırken konuma erişmesine izin verin ve güncel hava durumu bilgilerini almak için ''Her zaman izin ver''i seçin."</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">Tamam</string>
     <string name="button_confirm">Kabul et</string>
     <string name="button_exit">Reddet</string>
+    <string name="button_manage">Yönet</string>
     <string name="button_settings_cancel">İptal</string>
     <string name="button_settings_confirm">Geri çek</string>
     <string name="button_settings_confirm_to_revoke_msg">Anahtarı kapatarak Hava durumu uygulamasının gizlilik politikasına verdiğiniz izni geri çekiyorsunuz. Kişisel bilgilerinizi toplamaya son vereceğiz. Halihazırda toplanan ve saklanan kişisel veriler, uygulanabilir yasaların gerektirdiği gibi belirli bir süre içinde silinecektir. Hava durumu uygulamasının, temel hizmetleri sağlayabilmesi için gerekli kişisel bilgileri toplaması gerekir. Gizlilik politikasına verdiğiniz izni geri çekmeniz, toplanan kişisel bilgilere dayanan hizmetlerini kabul etmeyi reddetmeniz olarak kabul edilecektir.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Ağ bağlantınızı kontrol edin ve ardından tekrar deneyin</string>
+    <string name="city_exceeded_tips">Daha fazla konum eklenemiyor. Yenisini eklemeden önce bazı konumları kaldırın.</string>
+    <string name="city_exceeded_tips_title">Konum eklenemiyor</string>
     <string name="city_exceeded_warning">Daha fazla şehir eklenemiyor. Yeni bir tane eklemek için öncelikle listede mevcut olan bir şehri silin.</string>
     <string name="clearable_edittext_clear_description">Temizle</string>
     <string name="close">Kapat</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Ağa bağlanılamadı, tekrar deneyin</string>
     <string name="content_desc_activity_main_add_city">Şehir ekle</string>
     <string name="content_desc_activity_main_add_city_manage">Şehirleri yönet</string>
+    <string name="content_desc_activity_main_already_add_city">Eklenen konumlar</string>
     <string name="content_desc_activity_main_more_settings">Daha fazla ayar</string>
     <string name="content_desc_activity_main_page">Sayfa %1$d/%2$d</string>
     <string name="content_desc_back_button">Geri</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Sil</string>
     <string name="miuix_appcompat_deselect_all">Tüm seçimleri kaldır</string>
     <string name="miuix_appcompat_deselect_all_description">Tüm seçimleri kaldır</string>
+    <string name="miuix_appcompat_edit">Düzenle</string>
     <string name="miuix_appcompat_search_action_mode_cancel">İptal</string>
     <string name="miuix_appcompat_search_input_description">Ara</string>
     <string name="miuix_appcompat_select_all">Tümünü seç</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">"Bugün %2$s'da HKE %1$d"</string>
     <string name="notif_weather_title">"Bugün %2$s'da %1$s"</string>
     <string name="other_settings">Diğer ayarlar</string>
-    <string name="pad_keyboard_add_city">Konum ekle</string>
-    <string name="pad_keyboard_left_switch">Önceki konum</string>
-    <string name="pad_keyboard_right_switch">Sonraki konum</string>
-    <string name="pad_real_time_detail_title">Endeksler</string>
     <string name="particulate_matter_exceeded">Yüksek</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">Çok yüksek</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">İznin geri çekilmesi</string>
     <string name="privacy_grant_success">Yetki başarıyla verildi</string>
     <string name="privacy_policy">Gizlilik Politikası</string>
-    <string name="privacy_policy_msg">"&lt;Data>Bu uygulama aşağıdaki özellikleri içerir:&lt;br/>• Konumunuza özel hava durumu bilgileri&lt;br/>• Hava durumu tahminleri&lt;br/>• Hava durumu uyarıları&lt;br/>&lt;br/>Hava durumu uygulamasının temel hizmetleri sağlamak için gerekli kişisel bilgileri toplaması gerekir. &lt;a href=\"%1$s\">Gizlilik Politikamızda&lt;/a> topladığımız bilgileri nasıl işlediğimizi öğrenebilirsiniz. Hava durumu uygulamasını kullanmadan önce &lt;a href=\"%2$s\">Kullanıcı Sözleşmemizi&lt;/a> ve &lt;a href=\"%3$s\">Gizlilik Politikamızı&lt;/a> okuyun ve kabul edin. İstediğiniz herhangi bir zamanda Ayarlar menüsünden Hava durumu'nun Gizlilik Politikası'na verdiğiniz izni geri çekebilirsiniz.&lt;/Data>"</string>
-    <string name="privacy_policy_msg_for_gp">"&lt;Data>Bu uygulama aşağıdaki özellikleri içerir: &lt;br/>• Konumunuza özel hava durumu bilgileri&lt;br/>• Hava durumu tahminleri&lt;br/>•Hava durumu uyarıları&lt;br/>&lt;br/>Hava durumu'nun, uygulama kapalı veya kullanımda değilken dahi bu özelliklerin kullanılabilir olması çin konum verisi de dahil olmak üzere gerekli kişisel bilgilerinizi toplaması gerekir. &lt;a href=\"%1$s\">Gizlilik Politikamızda&lt;/a> topladığımız bilgileri nasıl işlediğimizi öğrenebilirsiniz. Hava durumu'nu kullanmadan önce &lt;a href=\"%2$s\">Kullanıcı Sözleşmemizi&lt;/a> ve &lt;a href=\"%3$s\">Gizlilik Politikamızı&lt;/a> okuyun ve kabul edin. İstediğiniz zaman Ayarlar menüsünden Hava durumu'nun Gizlilik Politikası'na verdiğiniz izni geri çekebilirsiniz.&lt;/Data>"</string>
+    <string name="privacy_policy_msg"><Data>"Bu uygulama aşağıdaki özellikleri içerir:&lt;br/>• Konumunuza özel hava durumu bilgileri&lt;br/>• Hava durumu tahminleri&lt;br/>• Hava durumu uyarıları&lt;br/>&lt;br/>Hava durumu uygulamasının temel hizmetleri sağlamak için gerekli kişisel bilgileri toplaması gerekir. &lt;a href=\"%1$s\">Gizlilik Politikamızda&lt;/a> topladığımız bilgileri nasıl işlediğimizi öğrenebilirsiniz. Hava durumu uygulamasını kullanmadan önce &lt;a href=\"%2$s\">Kullanıcı Sözleşmemizi&lt;/a> ve &lt;a href=\"%3$s\">Gizlilik Politikamızı&lt;/a> okuyun ve kabul edin. İstediğiniz herhangi bir zamanda Ayarlar menüsünden Hava durumu'nun Gizlilik Politikası'na verdiğiniz izni geri çekebilirsiniz."</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>"Bu uygulama aşağıdaki özellikleri içerir: &lt;br/>• Konumunuza özel hava durumu bilgileri&lt;br/>• Hava durumu tahminleri&lt;br/>•Hava durumu uyarıları&lt;br/>&lt;br/>Hava durumu'nun, uygulama kapalı veya kullanımda değilken dahi bu özelliklerin kullanılabilir olması çin konum verisi de dahil olmak üzere gerekli kişisel bilgilerinizi toplaması gerekir. &lt;a href=\"%1$s\">Gizlilik Politikamızda&lt;/a> topladığımız bilgileri nasıl işlediğimizi öğrenebilirsiniz. Hava durumu'nu kullanmadan önce &lt;a href=\"%2$s\">Kullanıcı Sözleşmemizi&lt;/a> ve &lt;a href=\"%3$s\">Gizlilik Politikamızı&lt;/a> okuyun ve kabul edin. İstediğiniz zaman Ayarlar menüsünden Hava durumu'nun Gizlilik Politikası'na verdiğiniz izni geri çekebilirsiniz."</Data></string>
     <string name="privacy_revoke_success">Yetki başarıyla geri alındı</string>
     <string name="privacy_settings">Gizlilik Politikası</string>
     <string name="pull_fresh_updated">Başarıyla güncellendi</string>

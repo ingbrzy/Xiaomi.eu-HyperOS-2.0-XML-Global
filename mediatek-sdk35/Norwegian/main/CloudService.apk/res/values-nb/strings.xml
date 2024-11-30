@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Oppdater sikkerhetsnøkkel</string>
     <string name="e2ee_device_delete">Fjern enhet</string>
     <string name="e2ee_device_delete_tip">Når du fjerner denne enheten fra Mi-kontoen din, logges den ut, og du vil ikke kunne bruke Xiaomi Cloud, søk eller andre kontorelaterte funksjoner på enheten før du logger på igjen.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Denne enheten støtter ikke Avansert databeskyttelse, så du kan ikke logge inn på kontoen hvis du aktiverer denne funksjonen. Oppdater denne enheten til Xiaomi HyperOS 2 for å kunne logge på kontoen.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Kan ikke logge inn</string>
     <string name="e2ee_device_exit_failed_tip">Kunne ikke logge ut. Vent et minutt eller to og prøv igjen.</string>
     <string name="e2ee_device_exit_failed_toast">Kunne ikke logge ut. Vent et minutt eller to og prøv igjen.</string>
     <string name="e2ee_device_exit_tip">%s er logget av</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Denne funksjonen støttes ikke i regionen din.</string>
     <string name="e2ee_error_init">Kunne ikke starte. Vent et minutt eller to, og prøv igjen.</string>
     <string name="e2ee_error_network">Kunne ikke koble til nettverket. Sjekk nettverksinnstillingene dine og prøv igjen.</string>
+    <string name="e2ee_error_real_device">Dette miljøet er ikke sikkert. Prøv å bruke en annen enhet.</string>
     <string name="e2ee_exit_account_button_close">Deaktiver</string>
     <string name="e2ee_exit_account_button_exit">Logg ut</string>
     <string name="e2ee_exit_account_subtitle">Du skal til å logge ut av den siste tilkoblede enheten som er tilknyttet Mi-kontoen din. Du må bruke en skjermlås eller sikkerhetsnøkkel for å logge på igjen og få tilgang til dataene du har lagret i nettskyen. Eventuelt kan du trykke på \"Deaktiver\" nedenfor for å deaktivere Avansert databeskyttelse.</string>
@@ -504,7 +507,7 @@ Du kan også anonymt hjelpe andre med å lokalisere sine Xiaomi-enheter."</strin
     <string name="micloud_last_sync_canceled">Synkroniseringen ble avbrutt. Prøv igjen.</string>
     <string name="micloud_main_head_menu_cloud_backup">Sikkerhetskopier</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Finn enhet er utilgjengelig i Andre område. Du kan bruke den i Første område.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Slettede enheter</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Nylig slettede elementer</string>
     <string name="micloud_main_network_error">Kan ikke koble til nettverket</string>
     <string name="micloud_main_sync_mode_summary">Synkroniser app-data i sanntid. Strømforbruket vil øke når denne funksjonen er på.</string>
     <string name="micloud_main_sync_mode_title">Rask synkronisering</string>
@@ -746,6 +749,7 @@ Kontroller at du bruker den tilhørende Mi-kontoen som systemkonto."</string>
     <string name="other_lockscreen_forget_pin_dialog_title">Glemt skjermlåsen</string>
     <string name="other_lockscreen_sub_title">Angi enhetens skjermlås for å fullføre bekreftelsen</string>
     <string name="other_lockscreen_title">Angi skjermlåsen til %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Har du endret skjermlåsen nylig? Prøv å angi det gamle skjermlåsnummeret for bekreftelse.</string>
     <string name="pay_info_dialog_confirm_to_pay">Betal %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Bruk gjenværende Mi Coins: %s</string>
     <string name="pay_info_dialog_title">Velg betalingsmetode</string>
@@ -828,6 +832,10 @@ Plasseringsinfo rapporteres kanskje ikke når tilkoblingen til nettverker er då
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud trenger tillatelse for å få tilgang til elementer som er lagret på enheten, for å kunne identifisere usynkroniserte elementer og antall slike. Gi denne tillatelsen nå?</string>
+    <string name="request_os_permissions_dialog_neg_button">Ikke godta</string>
+    <string name="request_os_permissions_dialog_pos_button">Godta</string>
+    <string name="request_os_permissions_dialog_title">Tillatelser kreves</string>
     <string name="retain_data_high_quality_photo_waring_message">Kopier av bildene og videoene dine av høy kvalitet blir slettet fra galleriet etter at du logger av. Tilsvarende originale filer vil fortsatt bli lagret i skyen.</string>
     <string name="retain_data_high_quality_photo_waring_title">Bilder av høy kvalitet vil ikke være tilgjengelige</string>
     <string name="revoke_block_by_find_device">Når du trekker tilbake samtykke vil Finn enhet også deaktiveres. Du må bekrefte passordet ditt etter du har fortsatt.</string>
@@ -1054,7 +1062,7 @@ Plasseringsinfo rapporteres kanskje ikke når tilkoblingen til nettverker er då
     <string name="tuesday">Tirsdag</string>
     <string name="tuesday_short">Tir</string>
     <string name="tuesday_shortest">Tir</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Ukjent</string>
     <string name="update_dialog_check_button_text">Se etter oppdateringer</string>
     <string name="update_dialog_ignore_button_text">Nei, takk</string>
     <string name="update_dialog_no_internet_toast_text">Sjekk internettilkoblingen din og prøv igjen</string>
@@ -1070,6 +1078,8 @@ Plasseringsinfo rapporteres kanskje ikke når tilkoblingen til nettverker er då
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="verify_camera_error_toast">Kunne ikke gjenkjenne nøkkelen</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud må ha kameratillatelser for å kunne skanne sikkerhetsnøkkelen. Denne tillatelsen kan du gi fra Innstillinger.</string>
+    <string name="verify_camera_google_permission_positive_button">Skjønner</string>
     <string name="verify_camera_permission_message">Gi denne appens kamera tillatelse for å kunne skanne etter sikkerhetsnøkkelen. Du kan gi denne tillatelsen i Innstillinger.</string>
     <string name="verify_camera_permission_negative_button">Avbryt</string>
     <string name="verify_camera_permission_positive_button">Innstillinger</string>
@@ -1090,7 +1100,7 @@ Plasseringsinfo rapporteres kanskje ikke når tilkoblingen til nettverker er då
     <string name="verify_code_warning_toast_limit">Ingen flere bekreftelsesforsøk gjenstår</string>
     <string name="verify_dialog_message">Send en ny bekreftelseskode eller velg en annen gjenopprettingsmåte</string>
     <string name="verify_dialog_negative_btn">Avbryt</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Du har aktivert Avansert databeskyttelse på en annen enhet. Opprett en skjermlås på denne enheten for å få tilgang til dataene som er lagret i Xiaomi Cloud.</string>
     <string name="verify_dialog_point">Ikke del denne bekreftelseskoden med andre</string>
     <string name="verify_dialog_point_choose_method">Velg en annen bekreftelsesmåte</string>
     <string name="verify_dialog_point_device_password">Angi skjermlåsen til en annen enhet</string>
@@ -1112,7 +1122,7 @@ Plasseringsinfo rapporteres kanskje ikke når tilkoblingen til nettverker er då
     <string name="verify_scan_error_not_support_toast">Denne enheten støtter ikke skanning</string>
     <string name="verify_scan_input_textview">Angi manuelt</string>
     <string name="verify_scan_photo_textview">Skann</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Trykk på midten for å fokusere</string>
     <string name="verify_scan_point_text_view">Angi den %d-sifrede passordet i boksen nedenfor</string>
     <string name="verify_scan_title">Bekreft sikkerhetsnøkkel</string>
     <string name="verify_send_code_btn">Send kode</string>
@@ -1132,6 +1142,8 @@ Plasseringsinfo rapporteres kanskje ikke når tilkoblingen til nettverker er då
     <string name="verify_warning_dialog_title">En annen enhet aktiverte ende-til-ende-kryptering</string>
     <string name="verify_warning_dialog_title_pc">Tillatelser kreves</string>
     <string name="verify_warning_dialog_title_web">Tillatelser kreves</string>
+    <string name="verify_warning_verify_dialog_message">Angi bekreftelseskoden på %s</string>
+    <string name="verify_warning_verify_dialog_title">Bekreft Mi-konto</string>
     <string name="waiting_for_sync">Venter…</string>
     <string name="web_view_auto_login_fail">Kunne ikke logge inn. Prøv igjen.</string>
     <string name="web_view_login_text">Logger på…</string>

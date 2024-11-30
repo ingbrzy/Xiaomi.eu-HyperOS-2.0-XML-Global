@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Popularni gradovi</string>
     <string name="act_find_city_location_button_text">Dobivanje lokacije</string>
     <string name="act_find_city_location_title">Trenutna lokacija</string>
+    <string name="act_find_city_major_city_title">Popularne lokacije</string>
+    <string name="act_find_city_search_history_title">Povijest pretraživanja</string>
     <string name="act_location_error_to_find_city">Nije bilo moguće dobiti podatke o lokaciji. Možete dodati lokaciju ručno.</string>
     <string name="act_set_city_find_side">Lociranje</string>
     <string name="act_set_city_find_side_error">Ne mogu locirati uređaj</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Sumporov dioksid</string>
     <string name="aqi_station_best_quality_station">Najbolje okruženje</string>
     <string name="aqi_station_min_distance_station">Najbliža postaja</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Veliki zagađivači</string>
     <string name="background_location_dialog_authorize_button">Postavke</string>
     <string name="background_location_guide_dialog_msg">Dopustite ovoj aplikaciji pristup lokaciji dok radi u pozadini i odaberite \"Uvijek dopusti\" kako biste osigurali primanje ažuriranih informacija o vremenu.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">OK</string>
     <string name="button_confirm">Slažem se</string>
     <string name="button_exit">Ne slažem se</string>
+    <string name="button_manage">Upravljaj</string>
     <string name="button_settings_cancel">Odustani</string>
     <string name="button_settings_confirm">Opozovi</string>
     <string name="button_settings_confirm_to_revoke_msg">Prebacivanjem prekidača, opozivate pristanak na Pravila o privatnosti Vremenske prognoze. Više nećemo prikupljati Vaše osobne podatke. Već prikupljene podatke ćemo izbrisati unutar određenog vremenskog roka u skladu s važaćim zakonima. Vremenska prognoza mora prikupiti Vaše osobne podatke kako bi Vam mogla pružiti osnovne usluge. Opozivanje pristanka na Pravila o privatnosti će se tumačiti kao odbijanje usluga koje se temelje na prikupljanju osobnih podataka.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Provjerite mrežnu vezu i pokušajte ponovno</string>
+    <string name="city_exceeded_tips">Nije moguće dodati više lokacija. Uklonite neke lokacije prije dodavanja nove.</string>
+    <string name="city_exceeded_tips_title">Nije moguće dodati lokaciju</string>
     <string name="city_exceeded_warning">Ne možete dodati više gradova. Obrišite jedan od gradova s liste kako biste mogli dodati novi.</string>
     <string name="clearable_edittext_clear_description">Očisti</string>
     <string name="close">Zatvori</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Ne mogu se povezati na mrežu, pokušajte ponovo kasnije</string>
     <string name="content_desc_activity_main_add_city">Dodaj grad</string>
     <string name="content_desc_activity_main_add_city_manage">Uredi grad</string>
+    <string name="content_desc_activity_main_already_add_city">Dodane lokacije</string>
     <string name="content_desc_activity_main_more_settings">Više postavki</string>
     <string name="content_desc_activity_main_page">Stranica %1$d od %2$d</string>
     <string name="content_desc_back_button">Natrag</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Izbriši</string>
     <string name="miuix_appcompat_deselect_all">Poništi sve</string>
     <string name="miuix_appcompat_deselect_all_description">Poništi sve</string>
+    <string name="miuix_appcompat_edit">Uredi</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Odustani</string>
     <string name="miuix_appcompat_search_input_description">Traži</string>
     <string name="miuix_appcompat_select_all">Odaberi sve</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">AQI je %1$d u %2$s danas</string>
     <string name="notif_weather_title">%1$s u %2$s danas</string>
     <string name="other_settings">Ostale postavke</string>
-    <string name="pad_keyboard_add_city">Dodaj lokaciju</string>
-    <string name="pad_keyboard_left_switch">Prethodna lokacija</string>
-    <string name="pad_keyboard_right_switch">Sljedeća lokacija</string>
-    <string name="pad_real_time_detail_title">Indeksi</string>
     <string name="particulate_matter_exceeded">Visoko</string>
     <string name="particulate_matter_not_exceeded">Normalno</string>
     <string name="particulate_matter_serious_exceeded">Previsoko</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Povlačenje suglasnosti</string>
     <string name="privacy_grant_success">Autorizacija uspješno odobrena</string>
     <string name="privacy_policy">Pravila o privatnosti</string>
-    <string name="privacy_policy_msg">&lt;Data>Ova aplikacija sadrži sljedeće značajke:&lt;br/>• Podaci o vremenu posebno za Vašu lokaciju&lt;br/>• Vremenska prognoza&lt;br/>• Vremenska upozorenja&lt;br/>&lt;br/>Vremenska prognoza mora prikupiti potrebne osobne informacije kako bi Vam mogla pružiti osnovne usluge. Možete saznati kako koristimo podacima koje prikupljamo u našim &lt;a href=\"%1$s\">Pravilima o privatnosti&lt;/a>. Pričitajte i potvrdite naš &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%3$s\">Pravila o privatnosti&lt;/a> prije korištenja Vremenske prognoze. Bilo kada možete povući svoj pristanak u Pravilima o Privatnosti Vremenske prognoze.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Ova aplikacija sadrži sljedeće značajke:&lt;br/>• Podaci o vremenu posebno za Vašu lokaciju&lt;br/>• Vremenska prognoza&lt;br/>• Vremenska upozorenja&lt;br/>&lt;br/>Vremenska prognoza mora prikupiti potrebne osobne podatke, uključujući podatke o lokaciji, kako bi Vam te značajke bile dostupne čak i kada je aplikacija zatvorena ili se ne koristi. Možete saznati kako koristimo podacima koje prikupljamo u našim &lt;a href=\"%1$s\">Pravilima o privatnosti&lt;/a>. Pričitajte i potvrdite naš &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%3$s\">Pravila o privatnosti&lt;/a> prije korištenja Vremenske prognoze. Bilo kada možete povući svoj pristanak u Pravilima o Privatnosti Vremenske prognoze.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Ova aplikacija sadrži sljedeće značajke:&lt;br/>• Podaci o vremenu posebno za Vašu lokaciju&lt;br/>• Vremenska prognoza&lt;br/>• Vremenska upozorenja&lt;br/>&lt;br/>Vremenska prognoza mora prikupiti potrebne osobne informacije kako bi Vam mogla pružiti osnovne usluge. Možete saznati kako koristimo podacima koje prikupljamo u našim &lt;a href=\"%1$s\">Pravilima o privatnosti&lt;/a>. Pričitajte i potvrdite naš &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%3$s\">Pravila o privatnosti&lt;/a> prije korištenja Vremenske prognoze. Bilo kada možete povući svoj pristanak u Pravilima o Privatnosti Vremenske prognoze.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Ova aplikacija sadrži sljedeće značajke:&lt;br/>• Podaci o vremenu posebno za Vašu lokaciju&lt;br/>• Vremenska prognoza&lt;br/>• Vremenska upozorenja&lt;br/>&lt;br/>Vremenska prognoza mora prikupiti potrebne osobne podatke, uključujući podatke o lokaciji, kako bi Vam te značajke bile dostupne čak i kada je aplikacija zatvorena ili se ne koristi. Možete saznati kako koristimo podacima koje prikupljamo u našim &lt;a href=\"%1$s\">Pravilima o privatnosti&lt;/a>. Pričitajte i potvrdite naš &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%3$s\">Pravila o privatnosti&lt;/a> prije korištenja Vremenske prognoze. Bilo kada možete povući svoj pristanak u Pravilima o Privatnosti Vremenske prognoze.</Data></string>
     <string name="privacy_revoke_success">Autorizacija uspješno opozvana</string>
     <string name="privacy_settings">Pravila o privatnosti</string>
     <string name="pull_fresh_updated">Uspješno ažurirano</string>
@@ -533,7 +535,7 @@
     <string name="thursday">Četvrtak</string>
     <string name="thursday_short">Čet</string>
     <string name="thursday_shortest">Čet</string>
-    <string name="time_picker_dialog_title">Postavi vrijeme</string>
+    <string name="time_picker_dialog_title">Postavite vrijeme</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
     <string name="today">Danas</string>

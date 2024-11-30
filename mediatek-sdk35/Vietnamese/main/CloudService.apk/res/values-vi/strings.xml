@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Cập nhật mã khóa bảo mật</string>
     <string name="e2ee_device_delete">Xóa thiết bị</string>
     <string name="e2ee_device_delete_tip">Sau khi bạn xóa thiết bị này khỏi Tài khoản Xiaomi, thiết bị sẽ bị đăng xuất và bạn sẽ không thể sử dụng các dịch vụ Xiaomi Cloud, tìm kiếm và các tính năng liên quan đến tài khoản khác trên thiết bị này cho đến khi bạn đăng nhập lại.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Thiết bị này không hỗ trợ Bảo vệ dữ liệu nâng cao, do đó bạn sẽ không thể đăng nhập vào tài khoản nếu bạn bật tính năng này. Cập nhật thiết bị này lên Xiaomi HyperOS 2 để có thể đăng nhập vào tài khoản.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Không thể đăng nhập</string>
     <string name="e2ee_device_exit_failed_tip">Không thể đăng xuất. Chờ một hoặc hai phút và thử lại.</string>
     <string name="e2ee_device_exit_failed_toast">Không thể đăng xuất. Chờ một hoặc hai phút và thử lại.</string>
     <string name="e2ee_device_exit_tip">%s đã đăng xuất</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Tính năng này không được hỗ trợ ở khu vực của bạn.</string>
     <string name="e2ee_error_init">Không thể khởi tạo. Chờ một hoặc hai phút và thử lại.</string>
     <string name="e2ee_error_network">Không thể kết nối mạng. Kiểm tra cài đặt mạng của bạn và thử lại.</string>
+    <string name="e2ee_error_real_device">Môi trường này không an toàn. Thử sử dụng thiết bị khác.</string>
     <string name="e2ee_exit_account_button_close">Tắt</string>
     <string name="e2ee_exit_account_button_exit">Đăng xuất</string>
     <string name="e2ee_exit_account_subtitle">Bạn sắp đăng xuất khỏi thiết bị hiện được kết nối cuối cùng đã được liên kết với Tài khoản Xiaomi. Bạn sẽ cần sử dụng khóa màn hình hoặc mã khóa bảo mật để đăng nhập lại và truy cập dữ liệu được lưu trữ trên đám mây. Ngoài ra, chạm vào \"Tắt\" bên dưới để tắt Bảo vệ dữ liệu nâng cao.</string>
@@ -504,7 +507,7 @@ Bạn cũng có thể ẩn danh giúp người khác định vị thiết bị X
     <string name="micloud_last_sync_canceled">Đồng bộ đã bị hủy. Hãy thử lại.</string>
     <string name="micloud_main_head_menu_cloud_backup">Sao lưu</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Tìm thiết bị không khả dụng trong Không gian thứ hai. Bạn có thể sử dụng trong Không gian thứ nhất.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Mục đã xóa</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Mục đã xóa gần đây</string>
     <string name="micloud_main_network_error">Không thể kết nối mạng</string>
     <string name="micloud_main_sync_mode_summary">Đồng bộ dữ liệu ứng dụng theo thời gian thực. Tiêu thụ pin sẽ tăng khi tính năng này được bật.</string>
     <string name="micloud_main_sync_mode_title">Đồng bộ nhanh</string>
@@ -746,6 +749,7 @@ Hãy chắc chắn rằng bạn đang sử dụng tài khoản Xiaomi được l
     <string name="other_lockscreen_forget_pin_dialog_title">Quên khóa màn hình</string>
     <string name="other_lockscreen_sub_title">Nhập khóa màn hình của thiết bị này để hoàn tất xác minh</string>
     <string name="other_lockscreen_title">Nhập khóa màn hình của %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Bạn vừa thay đổi khóa màn hình? Thử nhập khóa màn hình cũ để xác minh.</string>
     <string name="pay_info_dialog_confirm_to_pay">Thanh toán %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Sử dụng Mi Coin còn lại: %s</string>
     <string name="pay_info_dialog_title">Chọn phương thức thanh toán</string>
@@ -828,6 +832,10 @@ Thông tin vị trí có thể không được báo cáo khi kết nối mạng 
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Định vị, khóa và xóa dữ liệu trên thiết bị thất lạc cũng như chia sẻ vị trí với bạn bè và gia đình</string>
     <string name="recommend_service_title">Dịch vụ được kiến nghị</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud cần quyền truy cập vào các mục được lưu trữ trên thiết bị để có thể xác định các mục chưa đồng bộ và số lượng. Cấp quyền này ngay?</string>
+    <string name="request_os_permissions_dialog_neg_button">Không đồng ý</string>
+    <string name="request_os_permissions_dialog_pos_button">Đồng ý</string>
+    <string name="request_os_permissions_dialog_title">Yêu cầu quyền</string>
     <string name="retain_data_high_quality_photo_waring_message">Sao chép chất lượng cao của ảnh và video sẽ bị xóa khỏi Thư viện sau khi bạn đăng xuất. Tập tin gốc tương ứng sẽ vẫn được lưu trữ trên đám mây. Bạn cũng có thể tải xuống các tập tin gốc trước khi đăng xuất.</string>
     <string name="retain_data_high_quality_photo_waring_title">Ảnh chất lượng cao sẽ không khả dụng</string>
     <string name="revoke_block_by_find_device">Rút lại chấp thuận cũng sẽ tắt Tìm thiết bị. Bạn sẽ phải xác minh mật khẩu sau khi tiếp tục.</string>
@@ -1070,6 +1078,8 @@ Thông tin vị trí có thể không được báo cáo khi kết nối mạng 
     <string name="v7_preference_off">TẮT</string>
     <string name="v7_preference_on">BẬT</string>
     <string name="verify_camera_error_toast">Không thể nhận dạng mã khóa</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud cần quyền truy cập camera để có thể quét khóa bảo mật. Bạn có thể cấp quyền này trong Cài đặt.</string>
+    <string name="verify_camera_google_permission_positive_button">Tôi biết</string>
     <string name="verify_camera_permission_message">Cho phép ứng dụng này truy cập camera để có thể quét mã khóa bảo mật. Bạn có thể cấp quyền này trong Cài đặt.</string>
     <string name="verify_camera_permission_negative_button">Hủy</string>
     <string name="verify_camera_permission_positive_button">Cài đặt</string>
@@ -1090,7 +1100,7 @@ Thông tin vị trí có thể không được báo cáo khi kết nối mạng 
     <string name="verify_code_warning_toast_limit">Không còn lần thử xác minh nào</string>
     <string name="verify_dialog_message">Gửi mã xác minh mới hoặc chọn phương pháp khôi phục khác</string>
     <string name="verify_dialog_negative_btn">Hủy</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Bạn đã bật Bảo vệ dữ liệu nâng cao trên thiết bị khác. Đặt khóa màn hình trên thiết bị này để có thể truy cập dữ liệu của bạn được lưu trữ trên Xiaomi Cloud.</string>
     <string name="verify_dialog_point">Không chia sẻ mã xác minh này với bất kỳ ai</string>
     <string name="verify_dialog_point_choose_method">Chọn phương pháp xác minh khác</string>
     <string name="verify_dialog_point_device_password">Nhập khóa màn hình của thiết bị kia</string>
@@ -1112,7 +1122,7 @@ Thông tin vị trí có thể không được báo cáo khi kết nối mạng 
     <string name="verify_scan_error_not_support_toast">Thiết bị này không hỗ trợ quét</string>
     <string name="verify_scan_input_textview">Nhập thủ công</string>
     <string name="verify_scan_photo_textview">Quét</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Chạm vào giữa để lấy nét</string>
     <string name="verify_scan_point_text_view">Đặt mã khóa %d chữ số vào ô bên dưới</string>
     <string name="verify_scan_title">Xác minh mã khóa bảo mật</string>
     <string name="verify_send_code_btn">Gửi mã</string>
@@ -1132,6 +1142,8 @@ Thông tin vị trí có thể không được báo cáo khi kết nối mạng 
     <string name="verify_warning_dialog_title">Thiết bị kia đã bật mã hóa đầu cuối</string>
     <string name="verify_warning_dialog_title_pc">Yêu cầu quyền</string>
     <string name="verify_warning_dialog_title_web">Yêu cầu quyền</string>
+    <string name="verify_warning_verify_dialog_message">Nhập mã xác minh trên %s</string>
+    <string name="verify_warning_verify_dialog_title">Xác minh Tài khoản Xiaomi</string>
     <string name="waiting_for_sync">Đang chờ…</string>
     <string name="web_view_auto_login_fail">Không thể đăng nhập. Thử lại.</string>
     <string name="web_view_login_text">Đang đăng nhập…</string>

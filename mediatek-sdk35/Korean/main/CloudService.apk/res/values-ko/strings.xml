@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">보안 패스키 업데이트</string>
     <string name="e2ee_device_delete">기기 제거</string>
     <string name="e2ee_device_delete_tip">Xiaomi 계정에서 이 기기를 제거하면 기기가 로그아웃되고 다시 로그인할 때까지 Xiaomi Cloud 서비스, 검색 및 기타 계정 관련 기능을 사용할 수 없습니다.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">이 기기는 고급 데이터 보호를 지원하지 않으므로 이 기능을 켜면 계정에 로그인할 수 없습니다. 이 기기를 Xiaomi HyperOS 2로 업데이트하여 계정에 로그인할 수 있도록 하십시오.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">로그인 실패</string>
     <string name="e2ee_device_exit_failed_tip">로그아웃 실패, 1-2분 정도 기다리신 후 다시 시도하십시오.</string>
     <string name="e2ee_device_exit_failed_toast">로그아웃 실패, 1-2분 정도 기다리신 후 다시 시도하십시오.</string>
     <string name="e2ee_device_exit_tip">%s이(가) 로그아웃됨</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">이 기능은 귀하의 지역에서 지원되지 않습니다.</string>
     <string name="e2ee_error_init">초기화 실패, 1-2분 정도 기다리신 후 다시 시도하십시오.</string>
     <string name="e2ee_error_network">네트워크에 연결할 수 없습니다. 네트워크 설정을 확인하시고 다시 시도하십시오.</string>
+    <string name="e2ee_error_real_device">이 환경은 안전하지 않습니다. 다른 기기를 사용해 보십시오.</string>
     <string name="e2ee_exit_account_button_close">끄기</string>
     <string name="e2ee_exit_account_button_exit">로그아웃</string>
     <string name="e2ee_exit_account_subtitle">Xiaomi 계정과 연결된 최근 마지막으로 연결된 기기에서 로그아웃하려고 합니다. 다시 로그인하여 클라우드에 저장된 데이터에 접근하려면 화면 잠금 또는 보안 패스키를 사용해야 합니다. 이를 대신하여 아래의 \"끄기\"를 탭하여 고급 데이터 보호를 끄십시오.</string>
@@ -504,7 +507,7 @@
     <string name="micloud_last_sync_canceled">동기화 취소됨, 다시 시도하십시오.</string>
     <string name="micloud_main_head_menu_cloud_backup">백업</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">기기 찾기 기능은 보조 공간에서는 사용할 수 없습니다. 기본 공간에서 시도하십시오.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">삭제된 항목</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">최근 삭제된 항목</string>
     <string name="micloud_main_network_error">네트워크 연결 실패</string>
     <string name="micloud_main_sync_mode_summary">실시간으로 앱 데이터를 동기화합니다. 이 기능을 켜시면 전력 소모가 증가할 것입니다.</string>
     <string name="micloud_main_sync_mode_title">빠른 동기화</string>
@@ -746,6 +749,7 @@
     <string name="other_lockscreen_forget_pin_dialog_title">화면 잠금 분실</string>
     <string name="other_lockscreen_sub_title">이 기기의 화면 잠금을 입력하여 인증을 완료하십시오</string>
     <string name="other_lockscreen_title">%s의 화면 잠금 입력</string>
+    <string name="other_lockscreen_update_password_error_hint">최근 화면 잠금을 변경하셨습니까? 확인을 위해 이전 화면 잠금을 입력해 보십시오.</string>
     <string name="pay_info_dialog_confirm_to_pay">%s 결제</string>
     <string name="pay_info_dialog_mibi_balance_prefix">남은 Mi 코인 사용: %s</string>
     <string name="pay_info_dialog_title">결제 방식 선택</string>
@@ -828,6 +832,10 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud는 동기화되지 않은 항목과 그 수량을 식별하기 위해 기기에 저장된 항목에 접근할 수 있는 권한이 필요합니다. 해당 권한을 부여하시겠습니까?</string>
+    <string name="request_os_permissions_dialog_neg_button">동의하지 않음</string>
+    <string name="request_os_permissions_dialog_pos_button">동의</string>
+    <string name="request_os_permissions_dialog_title">권한 요구됨</string>
     <string name="retain_data_high_quality_photo_waring_message">로그아웃하신 후 갤러리에서 사진 및 동영상의 고품질 복사본이 삭제될 것입니다. 해당 원본 파일은 클라우드에 계속 저장됩니다. 로그아웃하시기 전에 원본 파일을 다운로드하실 수도 있습니다.</string>
     <string name="retain_data_high_quality_photo_waring_title">고품질 이미지를 사용할 수 없음</string>
     <string name="revoke_block_by_find_device">동의 철회는 기기 찾기를 해제하게 됩니다. 계속하신 후에는 비밀번호 인증이 요구될 것입니다.</string>
@@ -1054,7 +1062,7 @@
     <string name="tuesday">화요일</string>
     <string name="tuesday_short">화</string>
     <string name="tuesday_shortest">화</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">알 수 없음</string>
     <string name="update_dialog_check_button_text">업데이트 확인</string>
     <string name="update_dialog_ignore_button_text">사양하겠습니다</string>
     <string name="update_dialog_no_internet_toast_text">인터넷 연결을 확인한 후 다시 시도하십시오</string>
@@ -1070,6 +1078,8 @@
     <string name="v7_preference_off">사용 안함</string>
     <string name="v7_preference_on">사용</string>
     <string name="verify_camera_error_toast">패스키를 식별할 수 없음</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud는 보안 키를 스캔할 수 있도록 카메라 권한이 필요합니다. 설정에서 해당 권한을 부여하실 수 있습니다.</string>
+    <string name="verify_camera_google_permission_positive_button">알겠습니다</string>
     <string name="verify_camera_permission_message">이 앱이 카메라에 접근하여 보안 패스키를 스캔할 수 있도록 허용합니다. 설정에서 이 권한을 부여할 수 있습니다.</string>
     <string name="verify_camera_permission_negative_button">취소</string>
     <string name="verify_camera_permission_positive_button">설정</string>
@@ -1090,7 +1100,7 @@
     <string name="verify_code_warning_toast_limit">더 이상 남은 인증 시도 없음</string>
     <string name="verify_dialog_message">새 인증 코드를 제출하거나 다른 복구 방식 선택</string>
     <string name="verify_dialog_negative_btn">취소</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">다른 기기에서 고급 데이터 보호를 켰습니다. Xiaomi Cloud에 저장된 데이터에 접근하려면 이 기기에서 화면 잠금을 설정하십시오.</string>
     <string name="verify_dialog_point">이 인증 코드를 다른 사람과 공유하지 마십시오</string>
     <string name="verify_dialog_point_choose_method">다른 인증 방식 선택</string>
     <string name="verify_dialog_point_device_password">다른 기기의 화면 잠금 입력</string>
@@ -1112,7 +1122,7 @@
     <string name="verify_scan_error_not_support_toast">이 기기는 스캔을 지원하지 않습니다</string>
     <string name="verify_scan_input_textview">수동으로 입력</string>
     <string name="verify_scan_photo_textview">스캔</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">중앙을 탭하여 초점 조정</string>
     <string name="verify_scan_point_text_view">아래 박스에 %d자리 비밀번호를 입력하십시오</string>
     <string name="verify_scan_title">보안 패스키 인증</string>
     <string name="verify_send_code_btn">코드 전송</string>
@@ -1132,6 +1142,8 @@
     <string name="verify_warning_dialog_title">다른 기기에서 종단간 암호화 켜짐</string>
     <string name="verify_warning_dialog_title_pc">권한 요구됨</string>
     <string name="verify_warning_dialog_title_web">권한 요구됨</string>
+    <string name="verify_warning_verify_dialog_message">%s에 인증 코드를 입력하십시오</string>
+    <string name="verify_warning_verify_dialog_title">Xiaomi 계정 인증</string>
     <string name="waiting_for_sync">대기 중…</string>
     <string name="web_view_auto_login_fail">로그인 실패, 다시 시도하십시오.</string>
     <string name="web_view_login_text">로그인 중…</string>

@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Güvenlik şifresini güncelle</string>
     <string name="e2ee_device_delete">Cihazı kaldır</string>
     <string name="e2ee_device_delete_tip">Bu cihazı Xiaomi Hesabınızdan kaldırdıktan sonra oturum kapatılacak ve tekrar oturum açana kadar cihazdaki Xiaomi Cloud hizmetlerini, aramayı ve hesapla ilgili diğer özellikleri kullanamayacaksınız.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">"Bu cihaz Gelişmiş veri korumasını desteklemiyor, bu yüzden bu özelliği açarsanız hesabınızda oturum açamazsınız. Hesabınızda oturum açabilmek için bu cihazı Xiaomi HyperOS'a güncelleyin."</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Oturum açılamıyor</string>
     <string name="e2ee_device_exit_failed_tip">Oturum kapatılamadı. Bir iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="e2ee_device_exit_failed_toast">Oturum kapatılamadı. Bir iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="e2ee_device_exit_tip">%s oturumu kapalı</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Bu özellik bölgenizde desteklenmiyor.</string>
     <string name="e2ee_error_init">Başlatılamadı. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="e2ee_error_network">Ağa bağlanılamadı. Ağ ayarlarını kontrol edip tekrar deneyin.</string>
+    <string name="e2ee_error_real_device">Bu ortam güvenli değil. Farklı bir cihaz kullanmayı deneyin.</string>
     <string name="e2ee_exit_account_button_close">Kapat</string>
     <string name="e2ee_exit_account_button_exit">Oturumu kapat</string>
     <string name="e2ee_exit_account_subtitle">"Xiaomi Hesabınızla ilişkili, şu anda bağlı olan son cihazdan çıkış yapmak üzeresiniz. Tekrar oturum açmak ve cloud'ta depolanan verilerinize erişmek için bir ekran kilidi veya güvvenlik şifresi kullanmanız gerekecektir. Alternatif olarak Gelişmiş veri korumasını kapatmak için aşağıdaki ''Kapat'' seçeneğine dokunun."</string>
@@ -504,7 +507,7 @@ Ayrıca anonim olarak başkalarının Xiaomi cihazlarını bulmalarına da yard�
     <string name="micloud_last_sync_canceled">Senkronizasyon iptal edildi. Tekrar deneyin.</string>
     <string name="micloud_main_head_menu_cloud_backup">Yedekler</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Cihazı bul özelliği ikinci alanda kullanılamıyor. Bu özelliği birinci alanda kullanabilirsiniz.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Silinen öğeler</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Son silinen ögeler</string>
     <string name="micloud_main_network_error">Ağa bağlanılamıyor</string>
     <string name="micloud_main_sync_mode_summary">Uygulamaları gerçek zamanlı olarak senkronize edin. Bu özellik açıkken güç tüketimi artar.</string>
     <string name="micloud_main_sync_mode_title">Hızlı senkronizasyon</string>
@@ -746,6 +749,7 @@ Sistem hesabınızla ilişkili Xiaomi Hesabınızı kullandığınızdan emin ol
     <string name="other_lockscreen_forget_pin_dialog_title">Ekran kilidini unuttum</string>
     <string name="other_lockscreen_sub_title">Doğrulamayı tamamlamak için bu cihazın ekran kilidini girin</string>
     <string name="other_lockscreen_title">%s ekran kilidini girin</string>
+    <string name="other_lockscreen_update_password_error_hint">Son zamanlarda ekran kilidinizi değiştirdiniz mi? Doğrulama için eski ekran kilidini girmeyi deneyin.</string>
     <string name="pay_info_dialog_confirm_to_pay">%s öde</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Kalan Mi Paraları kullanın: %s</string>
     <string name="pay_info_dialog_title">Ödeme yöntemini seçin</string>
@@ -828,6 +832,10 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">"Xiaomi Cloud'un senkronize edilmemiş ögeleri ve kalitelerini tanımlayabilmek üzere cihazınızda depolanan ögelere erişmesi izin gereklidir. Bu izin şimdi verilsin mi?"</string>
+    <string name="request_os_permissions_dialog_neg_button">Reddet</string>
+    <string name="request_os_permissions_dialog_pos_button">Kabul et</string>
+    <string name="request_os_permissions_dialog_title">İzin gerekli</string>
     <string name="retain_data_high_quality_photo_waring_message">"Oturumu kapattıktan sonra fotoğraflarınızın ve videolarınızın yüksek kaliteli kopyaları Galeri'den silinecektir. İlgili orijinal dosyalar cloud'ta depolanmaya devam edecektir. Oturumu kapatmadan önce orijinal dosyaları da indirebilirsiniz."</string>
     <string name="retain_data_high_quality_photo_waring_title">Yüksek kaliteli görüntüler kullanılamayacak</string>
     <string name="revoke_block_by_find_device">İzni geri çekmek, Cihazı bul özelliğini de kapatacaktır. Devam ettikten sonra şifrenizi doğrulamanız gerekecektir.</string>
@@ -1054,7 +1062,7 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="tuesday">Salı</string>
     <string name="tuesday_short">Sal</string>
     <string name="tuesday_shortest">Sal</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Bilinmeyen</string>
     <string name="update_dialog_check_button_text">Güncellemeleri kontrol et</string>
     <string name="update_dialog_ignore_button_text">Hayır, teşekkürler</string>
     <string name="update_dialog_no_internet_toast_text">İnternet bağlantınızı kontrol edin ve tekrar deneyin</string>
@@ -1070,6 +1078,8 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="v7_preference_off">KAPALI</string>
     <string name="v7_preference_on">AÇIK</string>
     <string name="verify_camera_error_toast">Şifre tanınamadı</string>
+    <string name="verify_camera_google_permission_message">"Xiaomi Cloud'un güvenlik anahtarınızı tarayabilmesi için kamera izinlerine ihtiyacı vardır. Bu izni Ayarlar'da verebilirsiniz."</string>
+    <string name="verify_camera_google_permission_positive_button">Anladım</string>
     <string name="verify_camera_permission_message">"Bu uygulamanın güvenlik şifreniz için tarama yapabilmesi için kameraya erişmesine izin verin. Bu izni Ayarlar'da verebilirsiniz."</string>
     <string name="verify_camera_permission_negative_button">İptal</string>
     <string name="verify_camera_permission_positive_button">Ayarlar</string>
@@ -1090,7 +1100,7 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="verify_code_warning_toast_limit">Başka doğrulama denemesi kalmadı</string>
     <string name="verify_dialog_message">Yeni bir doğrulama kodu gönderin veya başka bir kurtarma yöntemi seçin</string>
     <string name="verify_dialog_negative_btn">İptal</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">"Diğer cihazda Gelişmiş veri korumasını açtınız. Xiaomi Cloud'ta depolanan verilerinize erişebilmek için bu cihazda bir ekran kilidi ayarlayın."</string>
     <string name="verify_dialog_point">Bu doğrulama kodunu kimseyle paylaşmayın</string>
     <string name="verify_dialog_point_choose_method">Başka bir doğrulama yöntemi seçin</string>
     <string name="verify_dialog_point_device_password">Diğer cihazın ekran kilidini girin</string>
@@ -1112,7 +1122,7 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="verify_scan_error_not_support_toast">Bu cihaz taramayı desteklemiyor</string>
     <string name="verify_scan_input_textview">Manuel olarak girin</string>
     <string name="verify_scan_photo_textview">Tara</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Odaklamak için merkeze dokunun</string>
     <string name="verify_scan_point_text_view">%d haneli şifreyi aşağıdaki kutuya yerleştirin</string>
     <string name="verify_scan_title">Güvenlik şifresini doğrula</string>
     <string name="verify_send_code_btn">Kod gönder</string>
@@ -1132,6 +1142,8 @@ Ağ bağlantısı zayıf olduğunda konum bilgisi bildirilemeyebilir."</string>
     <string name="verify_warning_dialog_title">Başka bir cihaz uçtan uca şifrelemeyi etkinleştirdi</string>
     <string name="verify_warning_dialog_title_pc">İzin gerekli</string>
     <string name="verify_warning_dialog_title_web">İzin gerekli</string>
+    <string name="verify_warning_verify_dialog_message">"%s'da/de doğrulama kodunu girin"</string>
+    <string name="verify_warning_verify_dialog_title">Xiaomi Hesabını doğrulayın</string>
     <string name="waiting_for_sync">Bekleniyor…</string>
     <string name="web_view_auto_login_fail">Oturum açılamadı. Tekrar deneyin.</string>
     <string name="web_view_login_text">Oturum açılıyor…</string>

@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Aktualizovať bezpečnostný prístupový kľúč</string>
     <string name="e2ee_device_delete">Odstrániť zariadenie</string>
     <string name="e2ee_device_delete_tip">Keď toto zariadenie odstránite zo svojho Xiaomi konta, bude odhlásené a nebudete na ňom môcť používať služby Xiaomi Cloud, vyhľadávanie a ďalšie funkcie súvisiace s kontom, kým sa znova neprihlásite.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Toto zariadenie nepodporuje funkciu Pokročilá ochrana údajov, takže ak túto funkciu zapnete, nebudete sa môcť prihlásiť do svojho konta. Aktualizujte toto zariadenie na Xiaomi HyperOS 2, aby ste sa mohli prihlásiť do svojho konta.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Nie je možné sa prihlásiť</string>
     <string name="e2ee_device_exit_failed_tip">Nepodarilo sa odhlásiť. Chvíľu počkajte skúste to znova.</string>
     <string name="e2ee_device_exit_failed_toast">Nepodarilo sa odhlásiť. Chvíľu počkajte skúste to znova.</string>
     <string name="e2ee_device_exit_tip">Zariadenie %s je odhlásené</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Táto funkcia nie je podporovaná vo vašom regióne.</string>
     <string name="e2ee_error_init">Nepodarilo sa inicializovať. Počkajte minútu alebo dve a skúste to znova.</string>
     <string name="e2ee_error_network">Nepodarilo sa pripojiť k sieti. Skontrolujte nastavenia siete a skúste to znova.</string>
+    <string name="e2ee_error_real_device">Toto prostredie nie je bezpečné. Skúste použiť iné zariadenie.</string>
     <string name="e2ee_exit_account_button_close">Vypnúť</string>
     <string name="e2ee_exit_account_button_exit">Odhlásiť</string>
     <string name="e2ee_exit_account_subtitle">Chystáte sa odhlásiť z posledného aktuálne pripojeného zariadenia spojeného s vaším Xiaomi kontom. Na opätovné prihlásenie a prístup k údajom uloženým v cloude budete musieť použiť zámok obrazovky alebo bezpečnostný kľúč. Prípadne ťuknite na položku \"Vypnúť\" nižšie, ak chcete vypnúť funkciu Rozšírená ochrana údajov.</string>
@@ -504,7 +507,7 @@ Môžete tiež anonymne pomôcť ostatným lokalizovať ich zariadenia Xiaomi."<
     <string name="micloud_last_sync_canceled">Synchr. bola zrušená. Skúste to znovu.</string>
     <string name="micloud_main_head_menu_cloud_backup">Zálohy</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Funkcia Vyhľadať zariadenie je v Druhom priestore je nedostupná. Môžete ju použiť v Prvom priestore.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Zmazané položky</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Nedávno vymazané položky</string>
     <string name="micloud_main_network_error">Nie je možné sa pripojiť k sieti</string>
     <string name="micloud_main_sync_mode_summary">Synchr. údaje aplikácií v reálnom čase. Táto funkcia zvýši spotrebu batérie.</string>
     <string name="micloud_main_sync_mode_title">Rýchla synchr.</string>
@@ -746,6 +749,7 @@ Uistite sa, že ako systémové konto používate priradené Xiaomi konto."</str
     <string name="other_lockscreen_forget_pin_dialog_title">Zabudol som zámok obrazovky</string>
     <string name="other_lockscreen_sub_title">Zadajte zámok obrazovky tohto zariadenia a dokončite overenie</string>
     <string name="other_lockscreen_title">Zadajte zámok obrazovky %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Zmenili ste nedávno zámok obrazovky? Skúste prepnúť na starý zámok obrazovky a skontrolujte to.</string>
     <string name="pay_info_dialog_confirm_to_pay">Zaplatiť %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Použiť zostávajúce Mi Coins: %s</string>
     <string name="pay_info_dialog_title">Zvoľte spôsob platby</string>
@@ -828,6 +832,10 @@ Uistite sa, že ako systémové konto používate priradené Xiaomi konto."</str
     <string name="recommend_service_cloudservice_description">Synchr. dáta systémových aplikácií, nastavenia zálohy, rozloženie Domovskej obrazovky a viac</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Odporúčané služby</string>
+    <string name="request_os_permissions_dialog_message">Služba Xiaomi Cloud potrebuje povolenie na prístup k položkám uloženým v zariadení, aby mohol identifikovať nesynchronizované položky a ich množstvo. Udeliť toto povolenie teraz?</string>
+    <string name="request_os_permissions_dialog_neg_button">Nesúhlasím</string>
+    <string name="request_os_permissions_dialog_pos_button">Súhlasím</string>
+    <string name="request_os_permissions_dialog_title">Vyžadujú sa povolenia</string>
     <string name="retain_data_high_quality_photo_waring_message">Po odhlásení budú kópie vašich fotografií a videí vo vysokej kvalite z Galérie odstránené. Pôvodné súbory budú uložené na vašom cloude. Pred odhlásením môžete tieto súbory z cloudu stiahnuť.</string>
     <string name="retain_data_high_quality_photo_waring_title">Obrázky vo vysokej kvalite nebudú dostupné</string>
     <string name="revoke_block_by_find_device">Odvolanie súhlasu tiež vypne službu Vyhľadať zariadenie. Po pokračovaní budete musieť overiť svoje heslo.</string>
@@ -1070,6 +1078,8 @@ Uistite sa, že ako systémové konto používate priradené Xiaomi konto."</str
     <string name="v7_preference_off">Vypnuté</string>
     <string name="v7_preference_on">Zapnuté</string>
     <string name="verify_camera_error_toast">Nepodarilo sa rozpoznať prístupový kľúč</string>
+    <string name="verify_camera_google_permission_message">Aplikácia Xiaomi Cloud potrebuje povolenie fotoaparátu na skenovanie vášho bezpečnostného kľúča. Toto povolenie môžete udeliť v Nastaveniach.</string>
+    <string name="verify_camera_google_permission_positive_button">Rozumiem</string>
     <string name="verify_camera_permission_message">Povoľte tejto aplikácii prístup ku kamere, aby mohla skenovať váš bezpečnostný kľúč. Toto povolenie môžete udeliť v Nastaveniach.</string>
     <string name="verify_camera_permission_negative_button">Zrušiť</string>
     <string name="verify_camera_permission_positive_button">Nastavenia</string>
@@ -1132,6 +1142,8 @@ Uistite sa, že ako systémové konto používate priradené Xiaomi konto."</str
     <string name="verify_warning_dialog_title">Ďalšie zariadenie zaplo koncové šifrovanie</string>
     <string name="verify_warning_dialog_title_pc">Vyžadujú sa povolenia</string>
     <string name="verify_warning_dialog_title_web">Vyžadujú sa povolenia</string>
+    <string name="verify_warning_verify_dialog_message">Zadajte overovací kód na %s</string>
+    <string name="verify_warning_verify_dialog_title">Overte Xiaomi konto</string>
     <string name="waiting_for_sync">Čaká sa…</string>
     <string name="web_view_auto_login_fail">Nepodarilo sa prihlásiť. Skúste to znova.</string>
     <string name="web_view_login_text">Prihlasovanie…</string>

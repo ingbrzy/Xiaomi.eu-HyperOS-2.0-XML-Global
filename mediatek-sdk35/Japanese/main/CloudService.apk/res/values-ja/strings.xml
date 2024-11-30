@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">セキュリティパスキーをアップデート</string>
     <string name="e2ee_device_delete">デバイスを削除</string>
     <string name="e2ee_device_delete_tip">Xiaomi アカウントからこのデバイスを削除すると、サインアウトされ、再度サインインするまで Xiaomi Cloud サービス、検索、その他のアカウント関連機能を使用できなくなります。</string>
+    <string name="e2ee_device_delete_warning_dialog_content">このデバイスは高度なデータ保護をサポートしていないため、この機能をオンにするとアカウントにサインインできなくなります。アカウントにサインインするには、このデバイスを Xiaomi HyperOS 2 にアップデートしてください。</string>
+    <string name="e2ee_device_delete_warning_dialog_title">サインインできません</string>
     <string name="e2ee_device_exit_failed_tip">サインアウトできませんでした。数分待ってからもう一度お試しください。</string>
     <string name="e2ee_device_exit_failed_toast">サインアウトできませんでした。数分待ってからもう一度お試しください。</string>
     <string name="e2ee_device_exit_tip">%s はサインアウトしました</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">この機能はお住まいの地域ではサポートされていません。</string>
     <string name="e2ee_error_init">初期化できませんでした。数分待ってからもう一度お試しください。</string>
     <string name="e2ee_error_network">ネットワークに接続できませんでした。ネットワーク設定を確認して、もう一度お試しください。</string>
+    <string name="e2ee_error_real_device">この環境は安全ではありません。別のデバイスを使用してみてください。</string>
     <string name="e2ee_exit_account_button_close">オフにする</string>
     <string name="e2ee_exit_account_button_exit">サインアウト</string>
     <string name="e2ee_exit_account_subtitle">Xiaomi アカウントに関連付けられている、現在接続されている最後のデバイスからサインアウトしようとしています。再度サインインしてクラウドに保存されているデータにアクセスするには、画面ロックまたはセキュリティパスキーを使用する必要があります。または、下の「オフにする」をタップして、高度なデータ保護をオフにしてください。</string>
@@ -504,7 +507,7 @@
     <string name="micloud_last_sync_canceled">同期がキャンセルされました。もう一度お試しください。</string>
     <string name="micloud_main_head_menu_cloud_backup">バックアップ</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">セカンド・スペースでは\"デバイスを探す\"を利用できません。ファースト・スペースでご利用ください。</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">削除したアイテム</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">最近削除したアイテム</string>
     <string name="micloud_main_network_error">ネットワークに接続できません</string>
     <string name="micloud_main_sync_mode_summary">アプリデータをリアルタイムで同期します。この機能をオンにすると、消費電力が増加します。</string>
     <string name="micloud_main_sync_mode_title">クイック同期</string>
@@ -746,6 +749,7 @@
     <string name="other_lockscreen_forget_pin_dialog_title">画面ロックを忘れた場合</string>
     <string name="other_lockscreen_sub_title">認証を完了するには、このデバイスの画面ロックを入力してください</string>
     <string name="other_lockscreen_title">%sの画面ロックを入力</string>
+    <string name="other_lockscreen_update_password_error_hint">最近画面ロックを変更しましたか？認証のために古い画面ロックを入力してください。</string>
     <string name="pay_info_dialog_confirm_to_pay">%sを支払う</string>
     <string name="pay_info_dialog_mibi_balance_prefix">残りのMi コインを使用：%s</string>
     <string name="pay_info_dialog_title">お支払い方法を選択してください</string>
@@ -828,6 +832,10 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud は、同期されていないアイテムとその数量を識別するために、デバイスに保存されているアイテムにアクセスする許可が必要です。今すぐこのアクセス許可を付与しますか？</string>
+    <string name="request_os_permissions_dialog_neg_button">同意しない</string>
+    <string name="request_os_permissions_dialog_pos_button">同意する</string>
+    <string name="request_os_permissions_dialog_title">アクセス許可が必要です</string>
     <string name="retain_data_high_quality_photo_waring_message">サインアウトすると、写真やビデオの高品質のコピーがギャラリーから削除されます。対応する元のファイルは引き続きクラウドに保存されます。サインアウトする前に元のファイルをダウンロードすることもできます。</string>
     <string name="retain_data_high_quality_photo_waring_title">高画質の画像は利用できません</string>
     <string name="revoke_block_by_find_device">同意を撤回すると、\"デバイスを探す\"もオフになります。続けると、パスワードの認証が必要になります。</string>
@@ -1070,6 +1078,8 @@
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="verify_camera_error_toast">パスキーを認識できませんでした</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud では、セキュリティキーをスキャンするためにカメラへのアクセス許可が必要です。この許可は設定で付与できます。</string>
+    <string name="verify_camera_google_permission_positive_button">了解</string>
     <string name="verify_camera_permission_message">セキュリティパスキーをスキャンするには、このアプリによるカメラへのアクセスを許可してください。この許可は設定で付与できます。</string>
     <string name="verify_camera_permission_negative_button">キャンセル</string>
     <string name="verify_camera_permission_positive_button">設定</string>
@@ -1132,6 +1142,8 @@
     <string name="verify_warning_dialog_title">別のデバイスがエンドツーエンドの暗号化をオンにしました</string>
     <string name="verify_warning_dialog_title_pc">アクセス許可が必要です</string>
     <string name="verify_warning_dialog_title_web">アクセス許可が必要です</string>
+    <string name="verify_warning_verify_dialog_message">%s で認証コードを入力してください</string>
+    <string name="verify_warning_verify_dialog_title">Xiaomi アカウントを認証</string>
     <string name="waiting_for_sync">待機中…</string>
     <string name="web_view_auto_login_fail">サインインできませんでした。もう一度お試しください。</string>
     <string name="web_view_login_text">サインイン中…</string>

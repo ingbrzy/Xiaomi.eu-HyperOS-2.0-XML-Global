@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Ενημέρωση κωδικού πρόσβασης ασφαλείας</string>
     <string name="e2ee_device_delete">Αφαίρεση συσκευής</string>
     <string name="e2ee_device_delete_tip">Μόλις αφαιρέσετε αυτήν τη συσκευή από τον Λογαριασμό Xiaomi σας, θα αποσυνδεθεί και δεν θα μπορείτε να χρησιμοποιήσετε τις υπηρεσίες Xiaomi Cloud, την αναζήτηση και άλλες λειτουργίες που σχετίζονται με τον λογαριασμό σε αυτήν μέχρι να συνδεθείτε ξανά.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Αυτή η συσκευή δεν υποστηρίζει Προηγμένη προστασία δεδομένων, επομένως δεν θα μπορείτε να συνδεθείτε στον λογαριασμό σας εάν ενεργοποιήσετε αυτήν τη λειτουργία. Ενημερώστε αυτήν τη συσκευή στο Xiaomi HyperOS 2 για να μπορέσετε να συνδεθείτε στον λογαριασμό σας.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Αδυναμία σύνδεσης</string>
     <string name="e2ee_device_exit_failed_tip">Αδυναμία αποσύνδεσης. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
     <string name="e2ee_device_exit_failed_toast">Αδυναμία αποσύνδεσης. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
     <string name="e2ee_device_exit_tip">%s είναι αποσυνδεδεμένη</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Αυτή η λειτουργία δεν υποστηρίζεται στην περιοχή σας.</string>
     <string name="e2ee_error_init">Αδυναμία προετοιμασίας. Περιμένετε ένα με δύο λεπτά και προσπαθήστε ξανά.</string>
     <string name="e2ee_error_network">Δεν ήταν δυνατή η σύνδεση στο δίκτυο. Ελέγξτε τις ρυθμίσεις του δικτύου σας και προσπαθήστε ξανά.</string>
+    <string name="e2ee_error_real_device">Αυτό το περιβάλλον δεν είναι ασφαλές. Δοκιμάστε να χρησιμοποιήσετε διαφορετική συσκευή.</string>
     <string name="e2ee_exit_account_button_close">Απενεργοποίηση</string>
     <string name="e2ee_exit_account_button_exit">Aποσύνδεση</string>
     <string name="e2ee_exit_account_subtitle">Πρόκειται να αποσυνδεθείτε από την τελευταία συνδεδεμένη συσκευή που σχετίζεται με τον Λογαριασμό Xiaomi σας. Θα χρειαστεί να χρησιμοποιήσετε ένα κλείδωμα οθόνης ή ένα κλειδί πρόσβασης ασφαλείας για να συνδεθείτε ξανά και να αποκτήσετε πρόσβαση στα δεδομένα σας που είναι αποθηκευμένα στο σύννεφο. Εναλλακτικά, πατήστε \"Απενεργοποίηση\" παρακάτω για να απενεργοποιήσετε την Προηγμένη προστασία δεδομένων.</string>
@@ -504,7 +507,7 @@
     <string name="micloud_last_sync_canceled">Ακυρώθηκε ο συγχρονισμός. Προσπαθήστε ξανά.</string>
     <string name="micloud_main_head_menu_cloud_backup">Αντίγραφα ασφαλείας</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Η Εύρεση συσκευής δεν είναι διαθέσιμη στον Δεύτερο χώρο. Μπορείτε να την χρησιμοποιήσετε στον Πρώτο χώρο.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Αντικείμενα που διαγράφηκαν</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Προσφάτως διαγραμμένα στοιχεία</string>
     <string name="micloud_main_network_error">Αδυναμία σύνδεσης στο δίκτυο</string>
     <string name="micloud_main_sync_mode_summary">Συγχρονισμός των δεδομένων εφαρμογής σε πραγματικό χρόνο. Η κατανάλωση μπαταρίας θα αυξηθεί κατά τη χρήση αυτής της λειτουργίας.</string>
     <string name="micloud_main_sync_mode_title">Γρήγορος συγχρονισμός</string>
@@ -514,11 +517,11 @@
     <string name="micloud_manual_all_sync_off_button_text">Ενεργοποίηση</string>
     <string name="micloud_manual_all_sync_off_summary">Επαναφορά συγχρονισμένων δεδομένων σε νέες συσκευές χρησιμοποιώντας το Xiaomi Cloud</string>
     <string name="micloud_manual_all_sync_off_title">Ο συγχρονισμός είναι ανενεργός</string>
-    <string name="micloud_manual_buy_vip">Αποκτήστε περισσότερο χώρο αποθήκευσης</string>
-    <string name="micloud_manual_cloud_storage_full_button_text">Αποκτήστε περισσότερο χώρο αποθήκευσης</string>
+    <string name="micloud_manual_buy_vip">Περισσότερος χώρος αποθήκευσης</string>
+    <string name="micloud_manual_cloud_storage_full_button_text">Περισσότερος χώρος αποθήκευσης</string>
     <string name="micloud_manual_cloud_storage_full_summary">Αδυναμία συγχρονισμού φωτογραφιών, επαφών και άλλων αντικειμένων. Αναβαθμίστε το πλάνο σας ή απελευθερώστε περισσότερο αποθηκευτικό χώρο.</string>
     <string name="micloud_manual_cloud_storage_full_title">Αδυναμία συγχρονισμού. Δεν υπάρχει αρκετός χώρος αποθήκευσης στο Xiaomi Cloud.</string>
-    <string name="micloud_manual_cloud_storage_low_button_text">Αποκτήστε περισσότερο χώρο αποθήκευσης</string>
+    <string name="micloud_manual_cloud_storage_low_button_text">Περισσότερος χώρος αποθήκευσης</string>
     <string name="micloud_manual_cloud_storage_low_summary">Τελειώνει ο αποθηκευτικός σας χώρος στο cloud</string>
     <string name="micloud_manual_cloud_storage_low_title">Έγινε συγχρονισμός</string>
     <string name="micloud_manual_grant_permission">Αποδοχή</string>
@@ -746,6 +749,7 @@
     <string name="other_lockscreen_forget_pin_dialog_title">Ξέχασα το κλείδωμα οθόνης</string>
     <string name="other_lockscreen_sub_title">Εισαγάγετε το κλείδωμα οθόνης αυτής της συσκευής για να ολοκληρώσετε την επαλήθευση</string>
     <string name="other_lockscreen_title">Εισαγάγετε το κλείδωμα οθόνης %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Αλλάξατε πρόσφατα το κλείδωμα της οθόνης σας; Δοκιμάστε να εισαγάγετε το παλιό κλείδωμα οθόνης για επαλήθευση.</string>
     <string name="pay_info_dialog_confirm_to_pay">Πληρώστε %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Χρήση των υπόλοιπων Mi Νομισμάτων: %s</string>
     <string name="pay_info_dialog_title">Επιλογή μεθόδου πληρωμής</string>
@@ -828,6 +832,10 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Το Xiaomi Cloud χρειάζεται άδεια πρόσβασης σε στοιχεία που είναι αποθηκευμένα στη συσκευή σας για να μπορεί να αναγνωρίσει μη συγχρονισμένα στοιχεία και την ποσότητα τους. Να δοθεί αυτή η άδεια τώρα;</string>
+    <string name="request_os_permissions_dialog_neg_button">Απόρριψη</string>
+    <string name="request_os_permissions_dialog_pos_button">Αποδοχή</string>
+    <string name="request_os_permissions_dialog_title">Απαιτούνται άδειες</string>
     <string name="retain_data_high_quality_photo_waring_message">Τα αντίγραφα υψηλής ποιότητας των εικόνων και βίντεο θα διαγραφούν από τη Συλλογή μετά την αποσύνδεση. Τα αντίστοιχα πρωτότυπα αρχεία θα αποθηκευτούν στο σύννεφο. Μπορείτε επίσης να κατεβάσετε πρωτότυπα αρχεία πριν αποσυνδεθείτε.</string>
     <string name="retain_data_high_quality_photo_waring_title">Οι εικόνες υψηλής ποιότητας δεν θα είναι διαθέσιμες</string>
     <string name="revoke_block_by_find_device">Η ανάκληση συγκατάθεσης θα απενεργοποιήσει επίσης την Εύρεση συσκευής. Αφού συνεχίσετε, θα πρέπει να επαληθεύσετε τον κωδικό πρόσβασής σας.</string>
@@ -1054,7 +1062,7 @@
     <string name="tuesday">Τρίτη</string>
     <string name="tuesday_short">Τρι</string>
     <string name="tuesday_shortest">Τρι</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Άγνωστο</string>
     <string name="update_dialog_check_button_text">Έλεγχος για ενημερώσεις</string>
     <string name="update_dialog_ignore_button_text">Όχι ευχαριστώ</string>
     <string name="update_dialog_no_internet_toast_text">Ελέγξτε τη σύνδεση του διαδικτύου σας και προσπαθήστε ξανά</string>
@@ -1070,6 +1078,8 @@
     <string name="v7_preference_off">ΑΝΕΝΕΡΓΗ</string>
     <string name="v7_preference_on">ΕΝΕΡΓΗ</string>
     <string name="verify_camera_error_toast">Αδυναμία αναγνώρισης κωδικού πρόσβασης</string>
+    <string name="verify_camera_google_permission_message">Το Xiaomi Cloud χρειάζεται άδειες κάμερας για να μπορεί να σαρώσει το κλειδί ασφαλείας σας. Μπορείτε να παραχωρήσετε αυτήν την άδεια στις Ρυθμίσεις.</string>
+    <string name="verify_camera_google_permission_positive_button">Κατανοητό</string>
     <string name="verify_camera_permission_message">Επιτρέψτε σε αυτήν την εφαρμογή να έχει πρόσβαση στην κάμερα για να είναι σε θέση να πραγματοποιήσει σάρωση για τον κωδικό πρόσβασης ασφαλείας σας. Μπορείτε να παραχωρήσετε αυτήν την άδεια στις Ρυθμίσεις.</string>
     <string name="verify_camera_permission_negative_button">Ακύρωση</string>
     <string name="verify_camera_permission_positive_button">Ρυθμίσεις</string>
@@ -1090,7 +1100,7 @@
     <string name="verify_code_warning_toast_limit">Δεν απομένουν άλλες προσπάθειες επαλήθευσης</string>
     <string name="verify_dialog_message">Αποστολή νέου κωδικού επαλήθευσης ή επιλογή άλλης μεθόδου ανάκτησης</string>
     <string name="verify_dialog_negative_btn">Ακύρωση</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Έχετε ενεργοποιήσει την Προηγμένη προστασία δεδομένων σε άλλη συσκευή. Ορίστε ένα κλείδωμα οθόνης σε αυτήν τη συσκευή για να έχετε πρόσβαση στα δεδομένα σας που είναι αποθηκευμένα στο Xiaomi Cloud.</string>
     <string name="verify_dialog_point">Μην μοιραστείτε αυτόν τον κωδικό επαλήθευσης με κανέναν</string>
     <string name="verify_dialog_point_choose_method">Επιλέξτε άλλη μέθοδο επαλήθευσης</string>
     <string name="verify_dialog_point_device_password">Εισαγωγή κλειδώματος οθόνης άλλης συσκευής</string>
@@ -1112,7 +1122,7 @@
     <string name="verify_scan_error_not_support_toast">Αυτή η συσκευή δεν υποστηρίζει σάρωση</string>
     <string name="verify_scan_input_textview">Εισαγωγή χειροκίνητα</string>
     <string name="verify_scan_photo_textview">Σάρωση</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Πατήστε στο κέντρο για εστίαση</string>
     <string name="verify_scan_point_text_view">Εισαγάγετε τον κωδικό πρόσβασης %d ψηφίων στο παρακάτω πλαίσιο</string>
     <string name="verify_scan_title">Επαλήθευση κωδικού πρόσβασης ασφαλείας</string>
     <string name="verify_send_code_btn">Αποστολή κωδικού</string>
@@ -1132,6 +1142,8 @@
     <string name="verify_warning_dialog_title">Μια άλλη συσκευή ενεργοποίησε την κρυπτογράφηση από άκρο σε άκρο</string>
     <string name="verify_warning_dialog_title_pc">Απαιτούνται άδειες</string>
     <string name="verify_warning_dialog_title_web">Απαιτούνται άδειες</string>
+    <string name="verify_warning_verify_dialog_message">Εισαγάγετε τον κωδικό επαλήθευσης στο %s</string>
+    <string name="verify_warning_verify_dialog_title">Επαληθεύστε τον Λογαριασμό Xiaomi</string>
     <string name="waiting_for_sync">Αναμονή…</string>
     <string name="web_view_auto_login_fail">Αδυναμία σύνδεσης. Προσπαθήστε ξανά.</string>
     <string name="web_view_login_text">Γίνεται σύνδεση…</string>

@@ -145,6 +145,7 @@
     <string name="activity_title_virus_settings">Configurações</string>
     <string name="activity_title_white_list">Exceções</string>
     <string name="ad_btn_default_text">Saiba mais</string>
+    <string name="ad_flag_text">Anúncio</string>
     <string name="ad_floating_window_title">Feche a janela flutuante para desbloquear</string>
     <string name="ad_split_screen_title">Saia da Tela dividida para desbloquear</string>
     <string name="ad_update_time">Última atualização %s</string>
@@ -225,8 +226,8 @@
     <string name="antivirus_privacy_dialog_cloudscan">Fazer upload de nomes de apps e detalhes</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">Para detectar e neutralizar vírus com maior eficiência, enviaremos os nomes dos pacotes dos apps e propriedades a fim de verificá-los através de um mecanismo na nuvem.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_summary">&lt;Data>Este recurso é fornecido por um mecanismo de antivírus de terceiros. Para saber mais leia o &lt;a href=\"%1$s\">Contrato de Licença&lt;/a> fornecido pelo terceiro.&lt;/Data></string>
-    <string name="antivirus_privacy_dialog_summary_kddi">&lt;Data>Quando você está executando uma verificação de segurança, o modelo do seu dispositivo e resultados da verificação serão enviados para os servidores da %1$s e usados de acordo com os &lt;a href=\"%2$s\">termos e condições&lt;/a> correspondentes.&lt;br/>&lt;br/>Leia e aceite os termos e condições da %3$s antes de executar verificações de segurança.&lt;br/>&lt;br/>Se você não aceitar em enviar os dados para os servidores da %4$s, você ainda poderá usar as definições de vírus armazenadas localmente no seu dispositivo.&lt;/Data></string>
+    <string name="antivirus_privacy_dialog_summary"><Data>Este recurso é fornecido por um mecanismo de antivírus de terceiros. Para saber mais leia o &lt;a href=\"%1$s\">Contrato de Licença&lt;/a> fornecido pelo terceiro.</Data></string>
+    <string name="antivirus_privacy_dialog_summary_kddi"><Data>Quando você está executando uma verificação de segurança, o modelo do seu dispositivo e resultados da verificação serão enviados para os servidores da %1$s e usados de acordo com os &lt;a href=\"%2$s\">termos e condições&lt;/a> correspondentes.&lt;br/>&lt;br/>Leia e aceite os termos e condições da %3$s antes de executar verificações de segurança.&lt;br/>&lt;br/>Se você não aceitar em enviar os dados para os servidores da %4$s, você ainda poderá usar as definições de vírus armazenadas localmente no seu dispositivo.</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Política de Privacidade</string>
     <string name="antivirus_privacy_dialog_title">Política de Privacidade</string>
     <string name="antivirus_privacy_dialog_title_kddi">Termos e condições</string>
@@ -599,8 +600,8 @@ Você não perderá nenhum dado de apps."</string>
     <string name="apps_list_header_title_sms">Verificar app de mensagens</string>
     <string name="apps_list_header_title_sms_access">Restringir acesso a códigos de verificação</string>
     <string name="ask_create_shortcut">Criar um atalho na Tela inicial?</string>
-    <string name="audio_optimization_summary">Aprimorar áudio e reduzir ruído ambiente em conversas</string>
     <string name="audio_optimization_summary_new">Otimizar qualidade sonora dos fones de ouvido durante jogos e reduzir ruídos durante chamadas</string>
+    <string name="audio_optimization_summary_v2">Aumente a imersão durante os jogos e otimize a redução de ruído</string>
     <string name="audio_optimization_title">Áudio aprimorado</string>
     <string name="auto_atsk_condition_battery_level_text_down">Quando a bateria atingir %s</string>
     <string name="auto_atsk_condition_battery_level_text_up">Quando a bateria estiver a %s</string>
@@ -897,7 +898,11 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="boot_time_day_tomorrow">Ligar amanhã às %1$s</string>
     <string name="bottom_func_guide_default_text">Mais recursos</string>
     <string name="bottom_notice_title">Deslize para cima para abrir a caixa de ferramentas</string>
+    <string name="bottomsheet_action_collapse">Fechar a página inferior</string>
+    <string name="bottomsheet_action_expand">Abrir a página inferior</string>
     <string name="bottomsheet_action_expand_halfway">Expandir até a metade</string>
+    <string name="bottomsheet_drag_handle_clicked">Alça de arrastar tocada duas vezes</string>
+    <string name="bottomsheet_drag_handle_content_description">Alça de arrastar</string>
     <string name="btn_back">Voltar</string>
     <string name="btn_finish_diagnostic">OK</string>
     <string name="btn_start_diagnostic">Testar rede</string>
@@ -1076,7 +1081,14 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="cmcc_app_check_dialog_positive">Reiniciar agora</string>
     <string name="cmcc_app_check_dialog_title">Sistema reparado</string>
     <string name="columbus_ad_flag_text">Anúncio</string>
+    <string name="columbus_reward_style_access">Saiba mais</string>
+    <string name="columbus_reward_style_close_cancel">Sair</string>
+    <string name="columbus_reward_style_close_desc">Termine de assistir o vídeo para receber uma recompensa. Continuar assistindo?</string>
+    <string name="columbus_reward_style_speed_confirm">Continuar</string>
     <string name="columbus_skip_ad">Pular</string>
+    <string name="columbus_skip_ad_time">Pular (%d)</string>
+    <string name="combine_permission_action_foreground">Permitir durante o uso do app</string>
+    <string name="combine_permission_title">%1$s solicita as seguintes permissões</string>
     <string name="common_google_play_services_enable_button">Ativar</string>
     <string name="common_google_play_services_enable_text">%1$s só funciona com o Google Play Services ativado.</string>
     <string name="common_google_play_services_enable_title">Ativar o Google Play Services</string>
@@ -1123,9 +1135,13 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="connected_devices_camera">Câmera</string>
     <string name="connected_devices_camera_desc">Permitir que dispositivos próximos conectados à mesma conta tirem fotos e gravem vídeos neste dispositivo</string>
     <string name="connected_devices_camera_title">Permitir que o dispositivo acima tire fotos e grave vídeos neste dispositivo?</string>
+    <string name="connected_devices_files">Arquivos</string>
+    <string name="connected_devices_files_desc">Permitir que dispositivos próximos conectados à sua Conta Xiaomi acessem os arquivos deste dispositivo</string>
     <string name="connected_devices_for_camera">Permitir que %1$s use a câmera deste dispositivo?</string>
     <string name="connected_devices_for_camera_desc">Para tirar fotos, gravar vídeos e fazer chamadas com vídeo</string>
     <string name="connected_devices_for_empty_view">Nenhum dispositivo conectado</string>
+    <string name="connected_devices_for_files">Permitir que \"%1$s\" acesse os arquivos deste dispositivo?</string>
+    <string name="connected_devices_for_files_desc">Para acessar a arquivos entre dispositivos</string>
     <string name="connected_devices_for_notification">Permitir que %1$s exiba as notificações deste dispositivo?</string>
     <string name="connected_devices_for_notification_desc">Exibir as notificações deste dispositivo em outros dispositivos quando este dispositivo estiver bloqueado</string>
     <string name="connected_devices_for_record">Permitir que %1$s grave áudio neste dispositivo?</string>
@@ -1158,6 +1174,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="conversation_summary_new">Embelezar, legendas e outros recursos durante chamadas de áudio e de vídeo</string>
     <string name="conversation_title">Ferramentas de conferência</string>
     <string name="copy">Copiar</string>
+    <string name="copy_toast_msg">Link copiado para a área de transferência</string>
     <string name="cpu_usage_android_system">Sistema Android</string>
     <string name="cpu_usage_process_run_time_little_time">Menos de 1 minuto</string>
     <string name="cpu_usage_process_run_time_little_time_new">Menos de %d minuto</string>
@@ -1172,23 +1189,34 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="cs_func_toast_light">Alterne para a câmera frontal para poder utilizar este recurso</string>
     <string name="cs_func_toast_pickup">Alterne para uma chamada de vídeo para poder utilizar este recurso</string>
     <string name="cs_func_unavailable_tips">Usar este recurso durante chamadas</string>
+    <string name="cs_gesture_effect_title">Reconhecer gestos da mão</string>
+    <string name="cs_gesture_effect_title_hint">Gestos suportados</string>
+    <string name="cs_gesture_effect_title_summry">Adicione efeitos de reação durante chamadas de vídeo utilizando gestos de mão</string>
     <string name="cs_light_enhance_physical_options">Temperatura da cor</string>
     <string name="cs_light_enhance_physical_title">Brilho</string>
     <string name="cs_open_camera_first_tips">Abra a Câmera para utilizar este recurso</string>
     <string name="cs_pickup_denoise_desc">Reduzir o ruído do áudio de entrada enquanto usa alto-falantes ou fones de ouvido</string>
     <string name="cs_pickup_denoise_title">Redução de ruído</string>
+    <string name="cs_pickup_enhance">Aprimorado</string>
     <string name="cs_pickup_multi_desc">Captura de áudio em %d graus</string>
     <string name="cs_pickup_multi_title">Vários participantes</string>
+    <string name="cs_pickup_private">Privado</string>
+    <string name="cs_pickup_private_desc">Só capturar o áudio de usuários específicos</string>
     <string name="cs_pickup_single_desc">Só capturar som da frente da tela</string>
     <string name="cs_pickup_single_title">Único participante</string>
+    <string name="cs_pickup_standard">Padrão</string>
+    <string name="cs_pickup_standard_desc">Captura de áudio em %1$d graus</string>
     <string name="cs_pickup_surround_desc">Utilizar IA para reduzir o ruído para um som mais nítido</string>
     <string name="cs_pickup_surround_title">Redução de ruído do microfone</string>
     <string name="cs_pickup_vioce_print_guide_dialog_desc">Encerre a chamada e siga as instruções para começar.</string>
     <string name="cs_pickup_vioce_print_guide_dialog_title">Para capturar o som de apenas uma pessoa, grave sua impressão de voz primeiro.</string>
+    <string name="cs_pickup_vioce_print_in_private_tips">Grave a sua impressão de voz para definir a redução de ruídos para Privado.</string>
+    <string name="cs_pickup_vioce_print_private_dialog_title">Gravar impressão de voz</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Registre a impressão de voz antes de selecionar \"Participante único\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Desconecte dispositivos externos e tente novamente</string>
     <string name="cs_pickup_voice_print_desc">Capturar som de apenas uma pessoa</string>
     <string name="cs_privacy_camera_global_settings_title">Privacidade de chamadas</string>
+    <string name="cs_record_voice_title">Gravar</string>
     <string name="cs_screen_translation_title">Tradução da tela</string>
     <string name="cs_simultaneous_interpretation_title">Interpretar</string>
     <string name="cs_title_pickup">Redução de ruído</string>
@@ -1200,6 +1228,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="cs_tool_box_phone_guide_case_2">Experimente uma gama de recursos na Caixa de ferramentas de chamada</string>
     <string name="cs_voice_print">Gravar impressão de voz</string>
     <string name="cs_voice_search">Impressão de voz</string>
+    <string name="cs_vt_camera_title">Câmera entre dispositivos</string>
     <string name="cs_vt_camera_toast_case1">Abrir a câmera no app atual</string>
     <string name="cs_vt_camera_toast_case2">Nenhum dispositivo compatível por perto</string>
     <string name="cta_agree_desc">Para poder usar os nossos serviços, permita que este app conecte-se à internet e conceda as permissões listadas acima.</string>
@@ -1207,6 +1236,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="cta_close_dialog_content">Se você restringir o acesso do app Segurança à internet e informações de localização, você não poderá receber alertas de terremotos, atualizar definições do antivírus e informações da lista de bloqueio. Seu dispositivo ficará menos seguro. Restringir mesmo assim?</string>
     <string name="cta_close_dialog_ok">Restringir</string>
     <string name="cta_close_dialog_title">Restringindo o acesso</string>
+    <string name="cta_combine_permission_title">Permissões</string>
     <string name="cta_dialog_negative">Sair</string>
     <string name="cta_dialog_positive">Aceitar</string>
     <string name="cta_dialog_title">Conexão com a internet</string>
@@ -1447,12 +1477,12 @@ Ele será adicionado às exceções, mas os itens bloqueados anteriormente não 
     <string name="exit">Sair</string>
     <string name="exit_dialog_exit">Sair</string>
     <string name="exit_dialog_garbage_clean_message">O lixo em seu dispositivo está ocupando mais de %s. Limpar lixo?</string>
-    <string name="exit_dialog_garbage_clean_message_new">&lt;Data>A Limpeza pode liberar &lt;font color=#0099ff>%s&lt;/font> de espaço de armazenamento. Limpar agora?&lt;/Data></string>
+    <string name="exit_dialog_garbage_clean_message_new"><Data>A Limpeza pode liberar &lt;font color=#0099ff>%s&lt;/font> de espaço de armazenamento. Limpar agora?</Data></string>
     <string name="exit_dialog_garbage_clean_positive_button">Limpar</string>
     <string name="exit_dialog_garbage_clean_title">Liberar espaço de armazenamento</string>
     <string name="exit_dialog_homepage_optimise_message">A pontuação de desempenho do dispositivo está abaixo de 80 pontos. Otimizar agora?</string>
     <string name="exit_dialog_release_memory_positive_button">Fechar</string>
-    <string name="exit_dialog_release_memory_title_new">&lt;Data>Acelere o seu dispositivo em até &lt;font color=#0099ff>%s&lt;/font>&lt;/Data></string>
+    <string name="exit_dialog_release_memory_title_new"><Data>Acelere o seu dispositivo em até &lt;font color=#0099ff>%s&lt;/font></Data></string>
     <string name="exit_dialog_release_storage_message">Mais de 80% do armazenamento está em uso. Libere espaço ao desinstalar apps que você não usa.</string>
     <string name="exit_dialog_release_storage_message_new">Mais de %s do armazenamento está em uso. Libere espaço ao desinstalar apps que você não usa.</string>
     <string name="exit_dialog_release_storage_positive_button">Liberar espaço</string>
@@ -1479,6 +1509,9 @@ Ele será adicionado às exceções, mas os itens bloqueados anteriormente não 
     <string name="face_unlock_verity_dialog_summary">Verificar dados faciais</string>
     <string name="face_unlock_verity_dialog_title_failed">Não foi possível reconhecer você</string>
     <string name="face_unlock_verity_dialog_title_succeed">Verificado com sucesso</string>
+    <string name="fallback_menu_item_copy_link">Copiar link</string>
+    <string name="fallback_menu_item_open_in_browser">Abrir no navegador</string>
+    <string name="fallback_menu_item_share_link">Compartilhar link</string>
     <string name="fcm_fallback_notification_channel_label">Diversos</string>
     <string name="file_confirm_start_activity">%s não tem permissão para acessar sua Galeria e apps de redes sociais. Este app deseja acessar arquivos armazenados neste dispositivo para compartilhar itens. Permitir?</string>
     <string name="finger_remind_message">Adicione sua impressão digital primeiro. Toque para abrir as Configurações.</string>
@@ -1720,7 +1753,7 @@ Ele será adicionado às exceções, mas os itens bloqueados anteriormente não 
     <string name="game_wid_viewpoint_buttom">Dê uma pausa.</string>
     <string name="gamebooster_confirm_dialog_negative_btn">Não aceitar</string>
     <string name="gamebooster_confirm_dialog_positive_btn">Aceitar</string>
-    <string name="gamebooster_confirm_dialog_tip">&lt;Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a>&lt;/Data></string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
     <string name="gamebooster_confirm_dialog_title">Aceite a nossa Política de Privacidade</string>
     <string name="gamebooster_dialog_recover">Renovar</string>
     <string name="gamebooster_dialog_start_booster">Iniciar</string>
@@ -1850,8 +1883,8 @@ Ele será adicionado às exceções, mas os itens bloqueados anteriormente não 
     <string name="gb_audition_play_instruction">Use fones de ouvido para um melhor efeito</string>
     <string name="gb_award_noti_message">Ative as atualizações em segundo plano do Game for Peace no Game Turbo para receber recompensas</string>
     <string name="gb_award_noti_title">As recompensas do Game for Peace chegaram!</string>
-    <string name="gb_balance_disbale_wild_mode_pad_desc">&lt;Data>Não é possível alterar para o Modo equilibrado no Game Turbo quando o Modo Ultimate está ativado para todo o sistema. Você pode alterar as configurações de bateria no app Segurança.&lt;br>&lt;a href=\"#\">Abrir Segurança&lt;/a>&lt;/Data></string>
-    <string name="gb_balance_disbale_wild_mode_phone_desc">&lt;Data>Não é possível alterar para o Modo equilibrado no Game Turbo quando o Modo Ultimate está ativado para todo o sistema. Você pode alterar as configurações de bateria no app Segurança.&lt;br>&lt;a href=\"#\">Abrir Segurança&lt;/a>&lt;/Data></string>
+    <string name="gb_balance_disbale_wild_mode_pad_desc"><Data>Não é possível alterar para o Modo equilibrado no Game Turbo quando o Modo Ultimate está ativado para todo o sistema. Você pode alterar as configurações de bateria no app Segurança.&lt;br>&lt;a href=\"#\">Abrir Segurança&lt;/a></Data></string>
+    <string name="gb_balance_disbale_wild_mode_phone_desc"><Data>Não é possível alterar para o Modo equilibrado no Game Turbo quando o Modo Ultimate está ativado para todo o sistema. Você pode alterar as configurações de bateria no app Segurança.&lt;br>&lt;a href=\"#\">Abrir Segurança&lt;/a></Data></string>
     <string name="gb_bar_high">Alta</string>
     <string name="gb_bar_low">Baixa</string>
     <string name="gb_bar_mid">Média</string>
@@ -1979,7 +2012,7 @@ Grave sequências e use-as a qualquer momento!"</string>
     <string name="gb_new_feature">Novo recurso</string>
     <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
     <string name="gb_operat_frequently">Não tão rápido!</string>
-    <string name="gb_performace_guide_disable_desc">&lt;Data>Não é possível alternar para o Modo equilibrado no Game Turbo quando o Modo desempenho do sistema está ativado. Você pode alterar as configurações da bateria no app Segurança.&lt;br>&lt;a href=\"#\">Abrir Segurança&lt;/a>&lt;/Data></string>
+    <string name="gb_performace_guide_disable_desc"><Data>Não é possível alternar para o Modo equilibrado no Game Turbo quando o Modo desempenho do sistema está ativado. Você pode alterar as configurações da bateria no app Segurança.&lt;br>&lt;a href=\"#\">Abrir Segurança&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Alterado para o Modo desempenho. O seu dispositivo pode aquecer e consumir mais energia.</string>
     <string name="gb_performace_tips_button">Alterar</string>
     <string name="gb_performace_tips_title">Altere para o Modo desempenho para uma melhor experiência</string>
@@ -1996,7 +2029,7 @@ mas também aumenta o consumo de energia e permite que seu dispositivo superaque
     <string name="gb_predownload_dialog_cancel">Não, obrigado</string>
     <string name="gb_predownload_dialog_checked">Não mostrar novamente</string>
     <string name="gb_predownload_dialog_confirm">Ativar</string>
-    <string name="gb_predownload_dialog_message_china">&lt;Data>O conteúdo atualizado para este jogo pode ser baixado para este dispositivo automaticamente após você se conectar ao Wi-Fi e desligar a tela. Assim, você poderá usar a nova versão assim que ela for lançada.&lt;br>&lt;br>Leia e aceite a &lt;a href=\"%1$s\">Declaração sobre atualizações em segundo plano&lt;/a> antes de usar este recurso.&lt;/Data></string>
+    <string name="gb_predownload_dialog_message_china"><Data>O conteúdo atualizado para este jogo pode ser baixado para este dispositivo automaticamente após você se conectar ao Wi-Fi e desligar a tela. Assim, você poderá usar a nova versão assim que ela for lançada.&lt;br>&lt;br>Leia e aceite a &lt;a href=\"%1$s\">Declaração sobre atualizações em segundo plano&lt;/a> antes de usar este recurso.</Data></string>
     <string name="gb_predownload_dialog_title">As atualizações em segundo plano estão disponíveis agora</string>
     <string name="gb_predownload_message_new">Atualizar jogos compatíveis automaticamente quando o dispositivo não estiver em uso</string>
     <string name="gb_predownload_noti_message">%2$1.2f GB de conteúdo atualizado já está neste dispositivo. Você poderá utilizá-lo assim que a nova versão for lançada.</string>
@@ -2174,7 +2207,7 @@ das suas sessões de jogos"</string>
     <string name="gd_sidebar_edit_quick_title">Atalhos</string>
     <string name="gd_sidebar_long_press_tips">Pressione e segure o indicador para movê-lo enquanto segura o dispositivo verticalmente</string>
     <string name="gd_splite_screen_tips">A Tela dividida não suporta janelas flutuantes</string>
-    <string name="gdpr_msg">&lt;Data>Para poder detectar riscos de segurança e proteger seus dados, precisamos coletar a quantidade necessária de informações sobre seu dispositivo. Leia e concorde com nossa &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Política de Privacidade&lt;/a> antes de usar nossos serviços. Caso você não concorde com a coleta destas informações, você ainda poderá usar o app, mas alguns recursos não estarão disponíveis.&lt;/Data></string>
+    <string name="gdpr_msg"><Data>Para poder detectar riscos de segurança e proteger seus dados, precisamos coletar a quantidade necessária de informações sobre seu dispositivo. Leia e concorde com nossa &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Política de Privacidade&lt;/a> antes de usar nossos serviços. Caso você não concorde com a coleta destas informações, você ainda poderá usar o app, mas alguns recursos não estarão disponíveis.</Data></string>
     <string name="get_detail_by_click">Toque para ver detalhes</string>
     <string name="get_phone_num_fail">Número de telefone desconhecido</string>
     <string name="get_sys_info">Obtendo informações…</string>
@@ -2281,11 +2314,11 @@ Pressione e segure o indicador para mover o app pela tela."</string>
     <string name="gtb_dialog_btn_open">Ativar</string>
     <string name="gtb_dialog_hint_smart_5g">Você pode ativar ou desativar este recurso em Game Turbo > Configurações.</string>
     <string name="gtb_dialog_privacy_speed_message">Você está prestes a usar o Xunyou Game Booster. Este serviço coletará a ID da sua Conta Xiaomi para registrar a duração da sua assinatura.</string>
-    <string name="gtb_dialog_privacy_speed_tips">&lt;Data>Eu li e concordo com a &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> do Xunyou Game Booster.&lt;/Data></string>
-    <string name="gtb_dialog_privacy_speed_tips_new">"&lt;Data>I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>.&lt;/Data>"</string>
+    <string name="gtb_dialog_privacy_speed_tips"><Data>Eu li e concordo com a &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> do Xunyou Game Booster.</Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou Game Booster</string>
     <string name="gtb_dialog_privacy_voice_message">"You're about to use Xunyou Game Voice Changer. This service will collect your Xiaomi Account ID to record your membership duration."</string>
-    <string name="gtb_dialog_privacy_voice_tips">&lt;Data>Eu li e concordo com a &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> do Xunyou Game Voice Changer.&lt;/Data></string>
+    <string name="gtb_dialog_privacy_voice_tips"><Data>Eu li e concordo com a &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> do Xunyou Game Voice Changer.</Data></string>
     <string name="gtb_dialog_privacy_voice_title">Xunyou Game Voice Changer</string>
     <string name="gtb_dialog_summary_smart_5g">Sempre que o Game Turbo detectar uma rede 5G, ele pode conectar seu dispositivo à melhor rede disponível para reduzir o atraso da rede. Ativar este recurso agora?</string>
     <string name="gtb_dialog_title_smart_5g">Otimização de rede 5G</string>
@@ -2484,6 +2517,7 @@ Sua operadora poderá cobrar tarifas adicionais se continuar a usar a conexão a
     <string name="loading">Aguarde…</string>
     <string name="loading_text_format" formatted="false">Verificando se as fotos contém informações privadas %d/%d</string>
     <string name="local_ip_exception_summary">Não foi possível obter o endereço de IP local. Para reportar este problema, vá para o app Reportar Erro e envie um registro de seu dispositivo.</string>
+    <string name="location_services_title">Serviços de localização</string>
     <string name="lock_all_title">Bloquear todos os apps</string>
     <string name="lock_app_input_invalid_car">Alguns símbolos não são suportados</string>
     <string name="lock_mode_title">Configurações de bloqueio</string>
@@ -2577,6 +2611,7 @@ da operadora"</string>
     <string name="make_sure_package_type">Selecione seu plano de dados</string>
     <string name="man_add_application">Adicionar apps de início automático</string>
     <string name="manage_hybrid_permissions">Gerenciar permissões do app</string>
+    <string name="manage_notification_access_title">Ler, responder e controlar notificações</string>
     <string name="managed_user_title">Todos os apps de trabalho</string>
     <string name="manual_input_free_traffic">Definir limite fora do pico</string>
     <string name="manual_input_traffic">Definir limite de dados</string>
@@ -3230,7 +3265,7 @@ Tente usar outro cabo de rede para conectar seu roteador. Caso você suspeite qu
     <string name="pc_camera_printer_notify_subtitle">Conectado</string>
     <string name="pc_camera_printer_title">Kit de Impressão de Fotos</string>
     <string name="pc_category_charge_settings">Configurações de carregamento</string>
-    <string name="pc_charge_mode_low_power_fast_speed">Baixa voltagem</string>
+    <string name="pc_charge_mode_low_power_fast_speed">Acelerar</string>
     <string name="pc_charge_mode_low_power_fast_speed_tips">O dispositivo pode esquentar</string>
     <string name="pc_charge_mode_standard">Padrão</string>
     <string name="pc_charge_mode_topspeed">Alta velocidade</string>
@@ -3293,6 +3328,7 @@ Tente usar outro cabo de rede para conectar seu roteador. Caso você suspeite qu
     <string name="pc_fast_charge_switch_toast_message">As alterações serão aplicadas na próxima vez que você carregar este dispositivo</string>
     <string name="pc_fast_charge_temp_remider">Ative para regular a velocidade de carregamento automaticamente. Este recurso opera somente com os carregadores fornecidos pela Xiaomi. O seu dispositivo pode esquentar durante o carregamento.</string>
     <string name="pc_fast_charge_title">Acelerar velocidade de carregamento</string>
+    <string name="pc_first_use_error_tips">Calculando</string>
     <string name="pc_first_use_protect_title">Primeiro uso</string>
     <string name="pc_going_to_exit_extreme_mode">Saindo do Modo de hibernação</string>
     <string name="pc_going_to_exit_extreme_mode_summary">Seu dispositivo está carregando. Modo de hibernação desativado.</string>
@@ -3391,6 +3427,7 @@ a Ultra economia de bateria"</string>
     <string name="pc_settings_title">Bateria</string>
     <string name="pc_smart_charge_button_summary">Para estender a duração da bateria, o sistema aprenderá como carrega o seu dispositivo e interromperá o carregamento quando o nível da bateria atingir %1$s</string>
     <string name="pc_smart_charge_notify_summary_high_temp">Seu dispositivo esquentou. O carregamento será interrompido quando o nível da bateria atingir %1$s</string>
+    <string name="pc_smart_charge_notify_summary_high_temp_protect">Para impedir que o seu dispositivo superaqueça, o carregamento será interrompido quando a bateria chegar a %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navegando… O carregamento será interrompido quando o nível da bateria atingir %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">O carregamento será interrompido às %s</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Para aumentar a vida útil da bateria, a bateria desse dispositivo não ultrapassará o nível atual enquanto estiver conectada ao carro.</string>
@@ -3446,6 +3483,8 @@ a Ultra economia de bateria"</string>
     <string name="perm_intercept_unknown_title">Permitir que o app %1s instale apps de fontes desconhecidas pode acarretar nos seguintes riscos:</string>
     <string name="perm_list_header_title">Apps</string>
     <string name="perm_list_header_title_has_storage">Apps com armazenamento</string>
+    <string name="permdesc_coarse_location">Localização aproximada</string>
+    <string name="permdesc_fine_location">Localização</string>
     <string name="permdesc_get_installed_apps">Permitir que \"%1$s\" acesse as informações sobre os apps instalados?</string>
     <string name="permdesc_in_calls">Monitorar chamadas recebidas</string>
     <string name="permdesc_out_calls">Monitorar chamadas efetuadas</string>
@@ -3493,7 +3532,9 @@ a Ultra economia de bateria"</string>
     <string name="permission_group_location">Essa permissão permite que os apps acessem informações de localização via rede ou satélite.</string>
     <string name="permission_group_microphone">Essa permissão permite que os apps usem o microfone para gravar áudio.</string>
     <string name="permission_group_nearby_device">Essa permissão permite que os apps descubram e se conectem a dispositivos próximos, bem como determinem suas localizações.</string>
+    <string name="permission_group_note">Conceda esta permissão para permitir que o app acesse os itens das Anotações.</string>
     <string name="permission_group_phone">Essa permissão permite que os apps façam, atendam e encerrem chamadas, bem como acessem seu número de telefone, o status do dispositivo e as informações da rede móvel.</string>
+    <string name="permission_group_record">Conceda esta permissão para permitir que o app acesse os itens do Gravador.</string>
     <string name="permission_group_sms">Essa permissão permite que os apps enviem e visualizem SMS e MMS.</string>
     <string name="permission_group_sport_healthy">Essa permissão permite que os apps acessem suas informações de atividade (por exemplo, contagem de passos, exercícios).</string>
     <string name="permission_instruction_access_notification">Esta permissão permite que os apps leiam, pesquisem e limpem todas as suas notificações. Lembre-se de que as notificações podem incluir informações particulares (por exemplo, números de cartões bancários e senhas).</string>
@@ -3534,9 +3575,11 @@ a Ultra economia de bateria"</string>
     <string name="permission_instruction_read_history">Acesso ao histórico de navegação</string>
     <string name="permission_instruction_read_imei">Acessar o IMEI deste dispositivo</string>
     <string name="permission_instruction_read_media_pic">Esta permissão permite que apps acessem fotos e vídeos armazenados neste dispositivo. Estes itens podem conter informações pessoais.</string>
+    <string name="permission_instruction_read_note">Acessar anotações</string>
     <string name="permission_instruction_read_notify_sms">Esta permissão permite aos apps ler mensagens de texto de notificação armazenadas em seu dispositivo ou cartão SIM.</string>
     <string name="permission_instruction_read_phone_state">Essa permissão permite que os apps acessem seu número de telefone, o status do dispositivo e as informações da rede móvel.</string>
     <string name="permission_instruction_read_read_calendar">Essa permissão permite que os apps adicionem, excluam e editem eventos de calendário.</string>
+    <string name="permission_instruction_read_record">Acesso às gravações</string>
     <string name="permission_instruction_read_sms">Esta permissão permite que os apps leiam todas as mensagens de texto e multimídia armazenadas em seu dispositivo ou cartão SIM. Tais mensagens podem conter senhas, detalhes de contas bancárias e outras informações pessoais.</string>
     <string name="permission_instruction_read_write_calendar">Essa permissão permite que os apps acessem os eventos do calendário.</string>
     <string name="permission_instruction_receive_mms">Esta permissão permite que os apps leiam todas as mensagens multimídia armazenadas em seu dispositivo ou cartão SIM. Tais mensagens podem conter senhas, detalhes de contas bancárias e outras informações pessoais.</string>
@@ -3691,8 +3734,8 @@ a Ultra economia de bateria"</string>
     <string name="power_center_night_charge_protection_setting">Veja mais opções em Segurança > Bateria.</string>
     <string name="power_center_night_charge_protection_summary">Para reduzir a deterioração da bateria, o seu dispositivo aprende a sua rotina diária de carregamento a fim de reduzir carregamentos contínuos desnecessários</string>
     <string name="power_center_one_key_save">Otimizar</string>
-    <string name="power_center_ontime_boot">Horário para ligar</string>
-    <string name="power_center_ontime_shutdown">Horário para desligar</string>
+    <string name="power_center_ontime_boot">Ligar em horário programado</string>
+    <string name="power_center_ontime_shutdown">Desligar em horário programado</string>
     <string name="power_center_optimize_title">Sugestões</string>
     <string name="power_center_power_save_summary_text">Aumentar o tempo restante em até %1$dh %2$dm</string>
     <string name="power_center_power_save_title_text">Economia de bateria</string>
@@ -3753,8 +3796,8 @@ a Ultra economia de bateria"</string>
     <string name="power_center_surface_temp_low">Muito fria</string>
     <string name="power_center_surface_temp_lower">Fria</string>
     <string name="power_center_surface_temp_normal">Normal</string>
-    <string name="power_center_time_to_boot">Horário para ligar</string>
-    <string name="power_center_time_to_shutdown">Horário para desligar</string>
+    <string name="power_center_time_to_boot">Hora</string>
+    <string name="power_center_time_to_shutdown">Hora</string>
     <string name="power_center_title">Bateria</string>
     <string name="power_center_unoffical_battery_button">Encontre uma assistência técnica autorizada</string>
     <string name="power_center_unoffical_battery_dialog">Alerta de bateria não autorizada</string>
@@ -4071,8 +4114,8 @@ a Ultra economia de bateria"</string>
     <string name="privacy_dialog_camera_message">Para proteger a sua privacidade, o sistema não permite que apps usem a sua câmera em segundo plano.</string>
     <string name="privacy_dialog_camera_title">Restringir uso de câmera em segundo plano</string>
     <string name="privacy_dialog_content_part1">Boas-vindas à Segurança! Este app verifica seu dispositivo por vírus e lixo, bem como permite que você gerencie apps, controle o uso de dados móveis, bloqueie chamadas e mensagens, entre outros.</string>
-    <string name="privacy_dialog_content_part2">&lt;Data>O app Segurança precisa coletar informações pessoais necessárias para lhe fornecer seus serviços e para poder melhorar os seus recursos. Você pode saber mais sobre como gerenciamos as informações que coletamos em nossa &lt;a href=\"%1$s\">Política de Privacidade&lt;/a>. Você pode retirar o seu consentimento à Política de Privacidade do app Segurança a qualquer momento nas Configurações.&lt;/Data></string>
-    <string name="privacy_dialog_content_part3">&lt;Data>Leia e aceite o nosso &lt;a href=\"%2$s\">Contrato do Usuário&lt;/a> e a &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> antes de usar o app Segurança. Se você não aceitar em usar os serviços mencionados, você não poderá usar alguns recursos do app; no entanto, a sua funcionalidade básica ainda estará disponível para você.&lt;/Data></string>
+    <string name="privacy_dialog_content_part2"><Data>O app Segurança precisa coletar informações pessoais necessárias para lhe fornecer seus serviços e para poder melhorar os seus recursos. Você pode saber mais sobre como gerenciamos as informações que coletamos em nossa &lt;a href=\"%1$s\">Política de Privacidade&lt;/a>. Você pode retirar o seu consentimento à Política de Privacidade do app Segurança a qualquer momento nas Configurações.</Data></string>
+    <string name="privacy_dialog_content_part3"><Data>Leia e aceite o nosso &lt;a href=\"%2$s\">Contrato do Usuário&lt;/a> e a &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> antes de usar o app Segurança. Se você não aceitar em usar os serviços mencionados, você não poderá usar alguns recursos do app; no entanto, a sua funcionalidade básica ainda estará disponível para você.</Data></string>
     <string name="privacy_dialog_danger_mission_message">O Android possui várias permissões de alto risco (ex.: a permissão para enviar notificações push para você). Para proteger a sua privacidade, o sistema perguntará se você permite tais comportamentos, e fornecerá opções de restrição.</string>
     <string name="privacy_dialog_danger_mission_title">Permissões de alto risco</string>
     <string name="privacy_dialog_feedback">Feedback</string>
@@ -4178,7 +4221,7 @@ Retirar o consentimento agora?"</string>
     <string name="privacy_revoke_dialog_title_cn">Atenção</string>
     <string name="privacy_revoke_failed_dialog_content">Ocorreu um erro no servidor. Aguarde alguns minutos e tente novamente.</string>
     <string name="privacy_revoke_failed_dialog_title">Não foi possível retirar o consentimento</string>
-    <string name="privacy_revoke_tip_dialog_content">&lt;Data>Você não poderá continuar a usar o %1$s a não ser que aceite a nova versão de sua Política de Privacidade. Aceitar a &lt;a href=\"%3$s\">Política de Privacidade&lt;/a> atualizada do %2$s agora?&lt;/Data></string>
+    <string name="privacy_revoke_tip_dialog_content"><Data>Você não poderá continuar a usar o %1$s a não ser que aceite a nova versão de sua Política de Privacidade. Aceitar a &lt;a href=\"%3$s\">Política de Privacidade&lt;/a> atualizada do %2$s agora?</Data></string>
     <string name="privacy_revoke_tip_dialog_title">Não é possível usar o app</string>
     <string name="privacy_revoke_title">Retirada de consentimeento</string>
     <string name="privacy_risk_app">Apps com risco</string>
@@ -4281,7 +4324,7 @@ Retirar o consentimento agora?"</string>
     <string name="privacy_thumbnail_shield_top_tip">Mascarar prévias para apps exibidos nos Recentes</string>
     <string name="privacy_type_open">Ativado</string>
     <string name="privacy_update_dialog_content_1">A Política de Privacidade do %s foi atualizada:</string>
-    <string name="privacy_update_dialog_content_2">&lt;Data>Leia e aceite a nova versão da &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> antes de continuar.&lt;/Data></string>
+    <string name="privacy_update_dialog_content_2"><Data>Leia e aceite a nova versão da &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> antes de continuar.</Data></string>
     <string name="privacy_update_dialog_title">Política de Privacidade atualizada</string>
     <string name="privacy_using_camera">Usar a câmara</string>
     <string name="privacy_using_location">Acesso à localização</string>
@@ -4562,6 +4605,7 @@ Retirar o consentimento agora?"</string>
     <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skin_change_close_toast">As alterações serão aplicadas na próxima vez que o app Segurança for iniciado</string>
+    <string name="skip_ad">Pular</string>
     <string name="sms_address">Bloqueio de área</string>
     <string name="sms_blacklist">Bloqueio de SMS</string>
     <string name="sms_cloud_block">Bloqueio na nuvem</string>
@@ -4617,6 +4661,7 @@ Retirar o consentimento agora?"</string>
     <string name="sp_monitored_apps_list_title">Segurança de pagamentos</string>
     <string name="sp_more_security_settings">Configurações adicionais</string>
     <string name="sp_network_privacy_dialog_message">O app Segurança não pode funcionar corretamente porque você restringiu a conexão com a internet. Permitir que o app Segurança conecte-se à internet?</string>
+    <string name="sp_network_privacy_dialog_message_new">O app Segurança (incluindo os componentes de segurança do sistema) precisam se conectar à Internet para fornecer os recursos de varredura por vírus. Permitir agora?</string>
     <string name="sp_network_privacy_dialog_title">Não é possível usar a verificação de segurança</string>
     <string name="sp_payment_detection_title">Verificação de segurança de pagamento</string>
     <string name="sp_payment_protect_summary">Proteja o ambiente de pagamentos online</string>
@@ -5079,25 +5124,26 @@ A formatação apagará o conteúdo existente no ^2. Para evitar a perda de dado
     <string name="system_permission_declare_agree">Aceitar</string>
     <string name="system_permission_declare_analytics_declare">Nós convidamos você a se inscrever no nosso Programa de Experiência do Usuário. Este app precisa de se ligar à Internet e usar as seguintes permissões ou recursos para recolher estatísticas, a fim de melhorar os serviços que lhe prestamos. Recolhemos dados aqui apenas para fins estatísticos, e não podemos identificá-lo pessoalmente com base nos dados que coletamos.</string>
     <string name="system_permission_declare_disagree">Não aceitar</string>
-    <string name="system_permission_declare_double_link">&lt;Data>Leia e aceite o nosso &lt;a href=\"%1$s\">Contrato do Usuário&lt;/a> e a &lt;a href=\"%2$s\">Política de Privacidade&lt;/a> antes de continuar.&lt;/Data></string>
+    <string name="system_permission_declare_double_link"><Data>Leia e aceite o nosso &lt;a href=\"%1$s\">Contrato do Usuário&lt;/a> e a &lt;a href=\"%2$s\">Política de Privacidade&lt;/a> antes de continuar.</Data></string>
     <string name="system_permission_declare_main_purpose" formatted="false">Boas-vindas ao %1s! Este app permite que você use os seguintes recursos: %2s.</string>
-    <string name="system_permission_declare_meanwhile_double_link">&lt;Data>Leia e aceite o nosso &lt;a href=\"%1$s\">Contrato do Usuário&lt;/a> e a &lt;a href=\"%2$s\">Política de Privacidade&lt;/a> antes de continuar.&lt;/Data></string>
-    <string name="system_permission_declare_meanwhile_privacy_policy">&lt;Data>Leia e aceite a nossa &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> antes de continuar.&lt;/Data></string>
-    <string name="system_permission_declare_meanwhile_user_agreement">&lt;Data>Leia e aceite o nosso &lt;a href=\"%1$s\">Contrato do Usuário&lt;/a> antes de continuar.&lt;/Data></string>
+    <string name="system_permission_declare_meanwhile_double_link"><Data>Leia e aceite o nosso &lt;a href=\"%1$s\">Contrato do Usuário&lt;/a> e a &lt;a href=\"%2$s\">Política de Privacidade&lt;/a> antes de continuar.</Data></string>
+    <string name="system_permission_declare_meanwhile_privacy_policy"><Data>Leia e aceite a nossa &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> antes de continuar.</Data></string>
+    <string name="system_permission_declare_meanwhile_user_agreement"><Data>Leia e aceite o nosso &lt;a href=\"%1$s\">Contrato do Usuário&lt;/a> antes de continuar.</Data></string>
     <string name="system_permission_declare_no_say_no">Se você optar por não conceder as permissões requeridas ou não permitir que coletemos e usemos os seus dados, este app poderá não funcionar normalmente.</string>
     <string name="system_permission_declare_no_say_no_analytics">Se você não quiser conceder estas permissões, você pode cancelar sua inscrição em Configurações > Configurações adicionais > Privacidade > Programa de Experiência do Usuário.</string>
     <string name="system_permission_declare_no_say_no_non_mandatory">Se você optar por não conceder as permissões requeridas ou não permitir que coletemos e usemos os seus dados, este app poderá não funcionar totalmente.</string>
     <string name="system_permission_declare_optional">Para lhe fornecer serviços adicionais durante o uso do app, podemos precisar das seguintes permissões: %s. Você pode ajustar suas preferências de permissões a qualquer momento nas Configurações.</string>
+    <string name="system_permission_declare_optional_default_grant"><Data>Para fornecer uma melhor experiência ao usuário, este app precisa das seguintes permissões adicionais: %1s. Para mais detalhes sobre como processamos as suas informações pessoais, toque &lt;a href=\"test\">aqui&lt;/a>. Você pode gerencias as suas permissões a qualquer momento nas Configurações.</Data></string>
     <string name="system_permission_declare_privacy_declare">Este app precisa se conectar à internet e requer as seguintes permissões para funcionar normalmente:</string>
     <string name="system_permission_declare_privacy_no_network">Este app precisa das seguintes permissões para poder funcionar normalmente:</string>
     <string name="system_permission_declare_privacy_no_permission">Este app precisa se conectar à internet e coletar os dados pessoais necessários para poder funcionar normalmente.</string>
-    <string name="system_permission_declare_privacy_policy">&lt;Data>Leia e aceite a nossa &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> antes de continuar.&lt;/Data></string>
+    <string name="system_permission_declare_privacy_policy"><Data>Leia e aceite a nossa &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> antes de continuar.</Data></string>
     <string name="system_permission_declare_revoke_system">Você pode sair deste app.</string>
     <string name="system_permission_declare_revoke_uninstallable">Você pode fazer logout, desinstalar este app ou revogar a sua autorização em Segurança > Gerenciar apps > Permissões > Permissões.</string>
     <string name="system_permission_declare_title">Atenção</string>
     <string name="system_permission_declare_use_network">Conectar-se à rede</string>
     <string name="system_permission_declare_use_network_no_permission">Conecte-se à rede</string>
-    <string name="system_permission_declare_user_agreement">&lt;Data>Leia e aceite o nosso &lt;a href=\"%1$s\">Contrato do Usuário&lt;/a> antes de continuar.&lt;/Data></string>
+    <string name="system_permission_declare_user_agreement"><Data>Leia e aceite o nosso &lt;a href=\"%1$s\">Contrato do Usuário&lt;/a> antes de continuar.</Data></string>
     <string name="system_permission_perm_answer_call">Fazer chamadas</string>
     <string name="system_permission_perm_optional">" (opcional)"</string>
     <string name="system_permission_perm_read_mms">Ler MMS</string>
@@ -5309,7 +5355,7 @@ A formatação apagará o conteúdo existente no ^2. Para evitar a perda de dado
     <string name="title_xiaomi_roaming">Mi Roaming</string>
     <string name="toast_add_virus_white_list_no_need_repeat">Esta exceção já existe</string>
     <string name="toast_auto_traffic_correct">Uso de dados ajustado automaticamente</string>
-    <string name="toast_cinema_mode">Automatically adjusted display and sound settings for a more immersive viewing experience</string>
+    <string name="toast_cinema_mode">Configurações da tela e de som ajustadas automaticamente para uma experiência de visualização mais imersiva</string>
     <string name="toast_cleaner_cloudscan">A limpeza usará as definições online</string>
     <string name="toast_dark_mode_fixed">Corrigido com sucesso. Saia desta página para aplicar as alterações.</string>
     <string name="toast_flow_notification">Notificações de uso de dados ativadas</string>
@@ -5439,6 +5485,7 @@ Os dados restantes incluem dados remanescentes do mês anterior."</string>
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unused_apps_switch">Pausar atividade do app quando sem uso</string>
     <string name="unused_apps_switch_summary">Remover permissões, excluir arquivos temporários e interromper notificações</string>
+    <string name="usage_access_title">Acessar estatísticas de uso</string>
     <string name="usage_sorted_activity_lable">Uso de dados</string>
     <string name="usage_sorted_empty_text">Vazio</string>
     <string name="usage_sorted_loading_text">Aguarde…</string>
@@ -5484,8 +5531,7 @@ Os dados restantes incluem dados remanescentes do mês anterior."</string>
     <string name="vb_fps_settings_tips">Este recurso ajusta a taxa de atualização da tela para a taxa de quadros do vídeo, o que economiza bateria e torna a reprodução de mídia mais suave. Ativar os comentários flutuantes desativará a taxa de atualização automática.</string>
     <string name="vb_immerse_voice">Som imersivo</string>
     <string name="vb_movie_mode">Modo Cinema</string>
-    <string name="vb_movie_power_hint">"O Modo Cinema fornece uma experiência de visualização imersiva.
-O seu dispositivo pode superaquecer e consumir mais energia."</string>
+    <string name="vb_movie_power_hint">O Modo Cinema fornece uma experiência de visualização imersiva. O seu dispositivo pode superaquecer e consumir mais energia.</string>
     <string name="vb_movie_subtitle">Requer alto desempenho</string>
     <string name="vb_mv_style_close_toast">Estilo desativado</string>
     <string name="vb_power_performance_mode_conflict_toast">Não é possível utilizar este recurso quando o Modo desemepenho está ativado</string>

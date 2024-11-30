@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">Да би вам пружали боље услуге, процеси који се покрећу на вашем уређају (укључујући SystemHelper, RegService и Carrier Services) могу повремено да шаљу информације које се односе на ваш уређај и SIM картицу (укључујући IMEI, IMSI, MSISDN, MEID, ICCID, MAC адресу, верзију система, Android верзију, модел уређаја и основне хардверске спецификације), као и приближне информације о локацији (укључујући регион, координате, идентификатор подручја и ID базне станице) оператеру путем WLAN-а, мобилне мреже за пренос података или бесплатног SMS-а. Оператор обећава да ће анализирати релевантне информације само ради побољшања квалитета услуга или пружања прилагођених услуга или технологија и неће открити релевантне информације трећим лицима у било ком облику који вас лично идентификује. Посебна изјава оператора има предност. Консултујте се са својим оператором у вези са трошковима коришћења ове услуге.</string>
     <string name="carrier_introduction_china_rothko">Да би побољшали квалитет услуга које вам се пружају, програми који раде на овом уређају (укључујући SystemHelper, RegService и Услуге оператора) могу да шаљу податке о овом уређају или вашој SIM картици (укључујући IMEI, IMSI, MSISDN, MEID, ICCID, MAC адресу, верзију система, Android верзију, модел уређаја, основну конфигурацију хардвера и број телефона), као и вашу приближну локацију (укључујући регион, координате, идентификатор суседства и ID базне станице) вашем оператору преко WLAN-а, мобилних мрежа или SMS-а. Када упућујете позиве, DCService ће се повезати на мрежу. Мобилни оператори гарантују да ће се ови подаци користити само за анализу, побољшање квалитета услуга или пружање прилагођених услуга или технологија и да се никада неће делити ни са ким на начин који би могао да омогући да будете лично идентификовани. За више информација, погледајте релевантну изјаву свог оператора. Можете се распитати о свим накнадама за услуге директно од свог оператора.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>Можете да користите Xiaomi интерконективност за контролу и пренос података између уређаја. Прихватите &lt;a href=%1$s>Правила о приватности&lt;/a > за Xiaomi интерконективност пре коришћења њених функција. Ова апликација треба да се повеже на интернет и захтева следеће дозволе:</Data></string>
     <string name="clearable_edittext_clear_description">Oчисти</string>
     <string name="clock_introduction">Ову апликацију можете користити за преглед времена, као и за коришћење тајмера, штоперице, постављање аларма и више.</string>
     <string name="close">Затвори</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Кинески традиционални календар</string>
     <string name="date_time_picker_dialog_title">Подесите датум и време</string>
-    <string name="default_font">Задато</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Користите свој отисак прста за откључавање уређаја, потврђивање Мi Pay трансакције, или за пријаву на апликације и услуге.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Повећај величину текста</string>
     <string name="font_settings_sub_title">Изаберите фонт система</string>
     <string name="font_settings_title">Подешавања фонта</string>
+    <string name="font_size_title">Величина текста</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Тело</string>
@@ -216,6 +217,7 @@
     <string name="home_settings_miui_home">Класика</string>
     <string name="home_settings_poco_launcher">Ладица са апликацијама</string>
     <string name="home_settings_title">Изаберите задати покретач</string>
+    <string name="image_brain_configuration_service">Услуга конфигурације Xiaomi Imaging Engine</string>
     <string name="ime_privacy_policy">Правила о приватности за изабране тастатуре</string>
     <string name="ime_privacy_policy_no_network">Нема мрежне везе. Прочитајте Правила о приватности за ову тастатуру %s.</string>
     <string name="ims_introduction">IMS услуге пружају основне комуникацијске могућности и користе се за аудио и видео позиве високе дефиниције.</string>
@@ -225,6 +227,24 @@
     <string name="interconnection_communication_introduction">Xiaomi Internet Communication Services вам омогућавају да откривате, повезујете се и комуницирате са другим Xiaomi уређајима.</string>
     <string name="interconnection_service_global_item_title">Xiaomi интерконективност</string>
     <string name="interconnection_service_global_label">&lt;Data>Xiaomi интерконективност омогућава вашим уређајима да међусобно комуницирају бежично. Укључивањем овог прекидача прихватате &lt;a href=%1$s>Правила о приватности&lt;/a > Xiaomi интерконективности.&lt;/Data></string>
+    <string name="interconnection_service_permission1">Укључите и искључите Bluetooth</string>
+    <string name="interconnection_service_permission10">За откривање оближњих уређаја</string>
+    <string name="interconnection_service_permission11">Преносите податке између уређаја</string>
+    <string name="interconnection_service_permission12">За пренос података између повезаних уређаја</string>
+    <string name="interconnection_service_permission13">Приступите садржају екрана</string>
+    <string name="interconnection_service_permission14">За приступ садржају на екрану током снимања или емитовања, укључујући осетљиве информације као што су звук, лозинке, лозинке за плаћање, фотографије, поруке итд.</string>
+    <string name="interconnection_service_permission15">Приступи историји позива</string>
+    <string name="interconnection_service_permission16">За пренос позива између уређаја током пресликавања екрана</string>
+    <string name="interconnection_service_permission17">Приступите листи инсталираних апликација</string>
+    <string name="interconnection_service_permission18">За приступ листи апликација инсталираних на мобилном уређају и пресликавање екрана на рачунарима</string>
+    <string name="interconnection_service_permission2">За повезивање и пренос података између два уређаја</string>
+    <string name="interconnection_service_permission3">Укључите и искључите WLAN</string>
+    <string name="interconnection_service_permission4">За пренос података између два уређаја преко WLAN-а</string>
+    <string name="interconnection_service_permission5">Снимање звука</string>
+    <string name="interconnection_service_permission6">За снимање звука уређаја приликом емитовања и пресликавања</string>
+    <string name="interconnection_service_permission7">Приступите фотографијама и фајловима на свом уређају и уређујте их</string>
+    <string name="interconnection_service_permission8">За емитовање и пренос садржаја са овог уређаја</string>
+    <string name="interconnection_service_permission9">Приступ идентификатору уређаја</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s Функције Xiaomi интерконективности доступне на вашем уређају могу да се разликују због разлика у верзијама система и моделима уређаја. Посетите наш званични веб-сајт (%2$s) за више информација.</string>
     <string name="interconnection_service_summary_global">Функције Xiaomi интерконективности се могу разликовати у зависности од модела уређаја и верзије система. Посетите званични веб-сајт система да бисте сазнали више.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Ако вам нестане уређај, нећете моћи да спречите друге да га користе и приступају вашим подацима, осим ако не подесите Закључавање екрана. Ипак прескочити?</string>
@@ -311,6 +332,9 @@
     <string name="ktposition_header">Дељење података о локацији спасилачким службама за хитне случајеве</string>
     <string name="language_picker_other_languages_title">Више језика</string>
     <string name="language_settings">Изаберите језик</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Велико</string>
+    <string name="layout_size_normal">Нормално</string>
     <string name="locale_picker_other_locale_title">Више региона</string>
     <string name="locale_picker_title">Изаберите ваш регион</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +611,10 @@
     <string name="privacy_provision_title">Приватност</string>
     <string name="privacy_refuse">Не прихватам</string>
     <string name="privacy_title">Услови и Правила о приватности</string>
+    <string name="prompt_fingerprint">Напредна заштита података је укључена за ваш налог. Подесите закључавање екрана за овај уређај.</string>
     <string name="protect_persoanl_info_statement">Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности.</string>
     <string name="provision_back">Назад</string>
+    <string name="provision_complete_text">Настави</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Прикажи &lt;a href=%1$s>Правила о приватности&lt;/a > изабране тастатуре.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Правила о приватности</string>
     <string name="provision_next">Даље</string>
@@ -613,6 +639,8 @@
     <string name="require_telephone_location">Приступи локацији</string>
     <string name="require_telephone_location_summary">За приступ приближној локацији и пружање услуга оптимизације мреже засноване на локацији</string>
     <string name="require_telephone_statement">За пружање основних услуга потребне су следеће дозволе:</string>
+    <string name="sample_text_summary">Xiaomi неуморно прави невероватне производе са поштеним ценама како би омогућио свима у свету да уживају у бољем животу кроз иновативну технологију.</string>
+    <string name="sample_text_title">Пример текста:</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Суб</string>
     <string name="saturday_shortest">Суб</string>
@@ -690,6 +718,7 @@
     <string name="skip_underline">Прескочите овај корак</string>
     <string name="start_up_slogan">Само Ваш</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Научите покрете за навигацију</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Није постављено</string>
     <string name="sunday">Недеља</string>
@@ -700,6 +729,7 @@
     <string name="system_update_title">Ажурирања система</string>
     <string name="systemdesktop_introduction">Додатак за услуге Почетног екрана вам пружа основне функције, попут Почетног екрана, системског корисничког интерфејса и сликања екрана.</string>
     <string name="term_condition_detail">Свакодневно добијајте феноменалне слике и узбудљиве приче на Закључаном екрану. Ова функција неће користити ваше податке за персонализацију без вашег пристанка. Пре коришћења ове фунцкије, прочитајте и прихватите &lt;a href =%1$s>Правила о приватности&lt;/a> и &lt;a href =%2$s>Кориснички уговор&lt;/a> треће стране као добављача.</string>
+    <string name="terms_and_statement_title">Одредбе и услови</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Одредбе и услови</string>
@@ -743,7 +773,8 @@
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Услуга ажурирања система (проверава ажурирања на мрежи и обавештава о новим верзијама)</string>
     <string name="terms_of_use_label_use_location_and_network_global">Пре коришћења система, морате прочитати и прихватити наш Кориснички уговор и Правила о приватности. Ваше личне податке штитимо у складу са релевантним законима, прописима и правилима о приватности. Када се ваш уређај активира, следеће услуге ће се повезати на мрежу и приступити вашој локацији:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">Пре коришћења система, прочитајте и прихватите наш &lt;a href=\"%1$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%2$s\">Правила о приватности&lt;/a>. Ваше личне податке штитимо у складу са законом, прописима и правилима о приватности.</string>
+    <string name="terms_of_use_label_use_network_china_append">Када се ваш уређај активира, следеће услуге ће се повезати на мрежу:</string>
     <string name="terms_of_use_label_wallpaper">Позадина</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">เมืองยอดนิยม</string>
     <string name="act_find_city_location_button_text">ขอตำแหน่งพิกัด</string>
     <string name="act_find_city_location_title">ตำแหน่งปัจจุบัน</string>
+    <string name="act_find_city_major_city_title">สถานที่ยอดนิยม</string>
+    <string name="act_find_city_search_history_title">ประวัติการค้นหา</string>
     <string name="act_location_error_to_find_city">ไม่สามารถรับข้อมูลตำแหน่ง คุณสามารถเพิ่มตำแหน่งพิกัดด้วยตนเอง</string>
     <string name="act_set_city_find_side">กำลังระบุตำแหน่ง</string>
     <string name="act_set_city_find_side_error">หาตำแหน่งพิกัดของเครื่องไม่พบ</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">ซัลเฟอร์ไดออกไซด์</string>
     <string name="aqi_station_best_quality_station">อากาศดีบริเวณใกล้เคียง</string>
     <string name="aqi_station_min_distance_station">สถานีที่ใกล้ที่สุด</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">สารมลพิษหลัก</string>
     <string name="background_location_dialog_authorize_button">การตั้งค่า</string>
     <string name="background_location_guide_dialog_msg">อนุญาตให้แอปนี้เข้าถึงตำแหน่งขณะทำงานในพื้นหลัง และเลือก \"อนุญาตเสมอ\" เพื่อให้แน่ใจว่าคุณจะได้รับข้อมูลสภาพอากาศที่เป็นปัจจุบัน</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">ตกลง</string>
     <string name="button_confirm">ยอมรับ</string>
     <string name="button_exit">ไม่เห็นด้วย</string>
+    <string name="button_manage">จัดการ</string>
     <string name="button_settings_cancel">ยกเลิก </string>
     <string name="button_settings_confirm">เพิกถอน</string>
     <string name="button_settings_confirm_to_revoke_msg">การสับสวิตช์จะเป็นการเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวของ สภาพอากาศ เราจะหยุดรวบรวมข้อมูลส่วนบุคคลของคุณ ข้อมูลส่วนบุคคลที่รวบรวมและเก็บรักษาไว้แล้วจะถูกลบภายในช่วงเวลาที่กำหนดตามที่กฎหมายบังคับ สภาพอากาศ จำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นเพื่อให้บริการขั้นพื้นฐานแก่คุณ การถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวจะถือเป็นการปฏิเสธที่จะยอมรับบริการตามข้อมูลส่วนบุคคลที่รวบรวม</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">กรุณาตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองอีกครั้ง</string>
+    <string name="city_exceeded_tips">ไม่สามารถเพิ่มสถานที่ได้อีก ลบสถานที่บางรายการก่อนเพื่อเพิ่มสถานที่ใหม่</string>
+    <string name="city_exceeded_tips_title">ไม่สามารถเพิ่มสถานที่ได้</string>
     <string name="city_exceeded_warning">ไม่สามารถเพิ่มเมืองได้อีก หากต้องการเพิ่มเมืองใหม่ให้ลบเมืองที่มีอยู่แล้วในรายการก่อน</string>
     <string name="clearable_edittext_clear_description">ล้าง</string>
     <string name="close">ปิด</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">ไม่สามารถเชื่อมต่อกับเครือข่ายได้ ลองอีกครั้ง</string>
     <string name="content_desc_activity_main_add_city">เพิ่มเมือง</string>
     <string name="content_desc_activity_main_add_city_manage">จัดการเมือง</string>
+    <string name="content_desc_activity_main_already_add_city">ตำแหน่งที่เพิ่มไว้</string>
     <string name="content_desc_activity_main_more_settings">การตั้งค่าเพิ่มเติม</string>
     <string name="content_desc_activity_main_page">หน้า %1$d ของ %2$d</string>
     <string name="content_desc_back_button">ย้อนกลับ</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">ลบ</string>
     <string name="miuix_appcompat_deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="miuix_appcompat_deselect_all_description">ไม่เลือกทั้งหมด</string>
+    <string name="miuix_appcompat_edit">แก้ไข</string>
     <string name="miuix_appcompat_search_action_mode_cancel">ยกเลิก </string>
     <string name="miuix_appcompat_search_input_description">ค้นหา</string>
     <string name="miuix_appcompat_select_all">เลือกทั้งหมด</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">AQI เท่ากับ %1$d ที่ %2$s วันนี้</string>
     <string name="notif_weather_title">%1$s ที่ %2$s วันนี้</string>
     <string name="other_settings">การตั้งค่าอื่นๆ</string>
-    <string name="pad_keyboard_add_city">เพิ่มตำแหน่งพิกัด</string>
-    <string name="pad_keyboard_left_switch">ตำแหน่งพิกัดก่อนหน้า</string>
-    <string name="pad_keyboard_right_switch">ตำแหน่งพิกัดต่อไป</string>
-    <string name="pad_real_time_detail_title">ดัชนี</string>
     <string name="particulate_matter_exceeded">สูง</string>
     <string name="particulate_matter_not_exceeded">ปกติ</string>
     <string name="particulate_matter_serious_exceeded">สูงมาก</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">การเพิกถอนความยินยอม</string>
     <string name="privacy_grant_success">อนุมัติการให้สิทธิ์เรียบร้อยแล้ว</string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
-    <string name="privacy_policy_msg">&lt;Data>แอปนี้มีคุณสมบัติดังต่อไปนี้:&lt;br/>• ข้อมูลสภาพอากาศเฉพาะสำหรับตำแหน่งของคุณ&lt;br/>• พยากรณ์อากาศ&lt;br/>• คำเตือนสภาพอากาศ&lt;br/>&lt;br/>สภาพอากาศจำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นเพื่อให้บริการขั้นพื้นฐานแก่คุณ คุณสามารถเรียนรู้วิธีที่เราจัดการกับข้อมูลที่เรารวบรวมได้ใน &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%3$s\">นโยบายความเป็นส่วนตัว&lt;/a> ของเราก่อนใช้ สภาพอากาศ คุณสามารถเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวของสภาพอากาศในการตั้งค่าได้ทุกเมื่อ&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>แอปนี้มีคุณสมบัติดังต่อไปนี้:&lt;br/>• ข้อมูลสภาพอากาศเฉพาะสำหรับตำแหน่งของคุณ&lt;br/>• พยากรณ์อากาศ&lt;br/>• คำเตือนสภาพอากาศ&lt;br/>&lt;br/>สภาพอากาศจำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นรวมถึงข้อมูลตำแหน่งเพื่อให้คุณลักษณะเหล่านี้พร้อมใช้งานแม้ว่าแอปจะปิดหรือไม่ได้ใช้งานก็ตาม คุณสามารถเรียนรู้วิธีที่เราจัดการกับข้อมูลที่เรารวบรวมได้ใน &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%3$s\">นโยบายความเป็นส่วนตัว&lt;/a> ของเราก่อนใช้ สภาพอากาศ คุณสามารถเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวของสภาพอากาศในการตั้งค่าได้ทุกเมื่อ&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>แอปนี้มีคุณสมบัติดังต่อไปนี้:&lt;br/>• ข้อมูลสภาพอากาศเฉพาะสำหรับตำแหน่งของคุณ&lt;br/>• พยากรณ์อากาศ&lt;br/>• คำเตือนสภาพอากาศ&lt;br/>&lt;br/>สภาพอากาศจำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นเพื่อให้บริการขั้นพื้นฐานแก่คุณ คุณสามารถเรียนรู้วิธีที่เราจัดการกับข้อมูลที่เรารวบรวมได้ใน &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%3$s\">นโยบายความเป็นส่วนตัว&lt;/a> ของเราก่อนใช้ สภาพอากาศ คุณสามารถเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวของสภาพอากาศในการตั้งค่าได้ทุกเมื่อ</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>แอปนี้มีคุณสมบัติดังต่อไปนี้:&lt;br/>• ข้อมูลสภาพอากาศเฉพาะสำหรับตำแหน่งของคุณ&lt;br/>• พยากรณ์อากาศ&lt;br/>• คำเตือนสภาพอากาศ&lt;br/>&lt;br/>สภาพอากาศจำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นรวมถึงข้อมูลตำแหน่งเพื่อให้คุณลักษณะเหล่านี้พร้อมใช้งานแม้ว่าแอปจะปิดหรือไม่ได้ใช้งานก็ตาม คุณสามารถเรียนรู้วิธีที่เราจัดการกับข้อมูลที่เรารวบรวมได้ใน &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%3$s\">นโยบายความเป็นส่วนตัว&lt;/a> ของเราก่อนใช้ สภาพอากาศ คุณสามารถเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวของสภาพอากาศในการตั้งค่าได้ทุกเมื่อ</Data></string>
     <string name="privacy_revoke_success">ยกเลิกการให้สิทธิ์เรียบร้อยแล้ว</string>
     <string name="privacy_settings">นโยบายความเป็นส่วนตัว</string>
     <string name="pull_fresh_updated">อัปเดตเสร็จสิ้น</string>

@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Aggiorna la chiave di sicurezza</string>
     <string name="e2ee_device_delete">Rimuovi dispositivo</string>
     <string name="e2ee_device_delete_tip">"Una volta rimosso dal tuo Xiaomi Account, il dispositivo verrà escluso e non potrai utilizzare i servizi Xiaomi Cloud, la ricerca e altre funzioni legate all'account fino a quando non effettuerai nuovamente l'accesso."</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Questo dispositivo non supporta la Protezione avanzata dei dati, quindi non potrai accedere al tuo account se attiverai questa funzione. Aggiorna il dispositivo a Xiaomi HyperOS 2 per poter accedere al tuo account.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Impossibile accedere</string>
     <string name="e2ee_device_exit_failed_tip">Impossibile uscire. Aspetta un minuto o due e riprova</string>
     <string name="e2ee_device_exit_failed_toast">Impossibile uscire. Aspetta un minuto o due e riprova</string>
     <string name="e2ee_device_exit_tip">%s è uscito</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Questa funzionalità non è supportata nella tua regione.</string>
     <string name="e2ee_error_init">Impossibile inizializzare. Aspetta un minuto o due e riprova.</string>
     <string name="e2ee_error_network">Impossibile connettersi alla rete. Verifica le impostazioni di rete e riprova.</string>
+    <string name="e2ee_error_real_device">Questo ambiente non è sicuro. Prova a utilizzare un dispositivo diverso.</string>
     <string name="e2ee_exit_account_button_close">Disattiva</string>
     <string name="e2ee_exit_account_button_exit">Esci</string>
     <string name="e2ee_exit_account_subtitle">"Stai per uscire dall'ultimo dispositivo attualmente connesso associato al tuo Xiaomi Account. Dovrai utilizzare un blocco schermo o una chiave di sicurezza per accedere nuovamente ai tuoi dati memorizzati nel cloud. In alternativa, tocca \"Disattiva\" qui sotto per disattivare la protezione avanzata dei dati."</string>
@@ -504,7 +507,7 @@ Puoi anche aiutare gli altri a localizzare i loro dispositivi Xiaomi in modo ano
     <string name="micloud_last_sync_canceled">La sincronizzazione è stata annullata. Riprova.</string>
     <string name="micloud_main_head_menu_cloud_backup">Backup</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Trova dispositivo non è disponibile in Secondo spazio. Puoi utilizzarlo in Primo spazio.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">File eliminati</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Eliminati di recente</string>
     <string name="micloud_main_network_error">Impossibile connettersi alla rete</string>
     <string name="micloud_main_sync_mode_summary">Sincronizza i dati delle app in tempo reale. Il consumo energetico aumenterà quando questa funzionalità è attiva.</string>
     <string name="micloud_main_sync_mode_title">Sincronizzazione veloce</string>
@@ -746,6 +749,7 @@ Assicurati di utilizzare il Xiaomi Account associato associato come account di s
     <string name="other_lockscreen_forget_pin_dialog_title">Hai dimenticato il blocco schermo</string>
     <string name="other_lockscreen_sub_title">Inserisci il blocco schermo del dispositivo per completare la verifica.</string>
     <string name="other_lockscreen_title">Inserisci il blocco schermo di %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Hai cambiato il blocco schermo di recente? Prova a inserire il vecchio blocco schermo per verificare.</string>
     <string name="pay_info_dialog_confirm_to_pay">Paga %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Usa i Mi Coin residui: %s</string>
     <string name="pay_info_dialog_title">Seleziona il metodo di pagamento</string>
@@ -828,6 +832,10 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud ha bisogno dei permessi per accedere agli elementi memorizzati sul tuo dispositivo per poter identificare gli elementi non sincronizzati e la loro quantità. Concedere questo permesso ora?</string>
+    <string name="request_os_permissions_dialog_neg_button">Rifiuta</string>
+    <string name="request_os_permissions_dialog_pos_button">Accetta</string>
+    <string name="request_os_permissions_dialog_title">Permessi richiesti</string>
     <string name="retain_data_high_quality_photo_waring_message">Le copie in alta qualità delle tue foto e dei tuoi video verranno eliminate dalla Galleria dopo la disconnessione. I file originali corrispondenti verranno comunque archiviati nel cloud. Puoi anche scaricare i file originali prima di uscire.</string>
     <string name="retain_data_high_quality_photo_waring_title">Le immagini in alta qualità non saranno disponibili</string>
     <string name="revoke_block_by_find_device">La revoca del consenso disattiverà anche Trova dispositivo. Dovrai verificare la tua password se continui.</string>
@@ -1054,7 +1062,7 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="tuesday">Martedì</string>
     <string name="tuesday_short">Mar</string>
     <string name="tuesday_shortest">Mar</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Sconosciuto</string>
     <string name="update_dialog_check_button_text">Verifica aggiornamenti</string>
     <string name="update_dialog_ignore_button_text">No grazie</string>
     <string name="update_dialog_no_internet_toast_text">Controlla la tua connessione Internet e riprova</string>
@@ -1070,6 +1078,8 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="verify_camera_error_toast">"Impossibile riconoscere la chiave d'accesso"</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud necessita dei permessi per accedere alla fotocamera, in modo da poter scansionare la tua chiave di sicurezza. Puoi concedere questo permesso nelle Impostazioni.</string>
+    <string name="verify_camera_google_permission_positive_button">Ho capito</string>
     <string name="verify_camera_permission_message">Consenti a questa app di accedere alla fotocamera per poter scansionare la tua chiave di sicurezza. Puoi concedere questo permesso nelle Impostazioni.</string>
     <string name="verify_camera_permission_negative_button">Annulla</string>
     <string name="verify_camera_permission_positive_button">Impostazioni</string>
@@ -1090,7 +1100,7 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="verify_code_warning_toast_limit">Non ci sono più tentativi di verifica</string>
     <string name="verify_dialog_message">Invia un nuovo codice di verifica o seleziona un altro metodo di recupero.</string>
     <string name="verify_dialog_negative_btn">Annulla</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">Hai attivato la protezione avanzata dei dati su un altro dispositivo. Imposta un blocco schermo su questo dispositivo per poter accedere ai tuoi dati archiviati in Xiaomi Cloud.</string>
     <string name="verify_dialog_point">Non condividere il codice di verifica con nessuno</string>
     <string name="verify_dialog_point_choose_method">Seleziona un altro metodo di verifica</string>
     <string name="verify_dialog_point_device_password">Usa il blocco schermo di un altro dispositivo</string>
@@ -1112,7 +1122,7 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="verify_scan_error_not_support_toast">Questo dispositivo non supporta la scansione</string>
     <string name="verify_scan_input_textview">Inserisci manualmente</string>
     <string name="verify_scan_photo_textview">Scansiona</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Tocca il centro per rimettere a fuoco</string>
     <string name="verify_scan_point_text_view">Inserisci la chiave di accesso a %d cifre nel riquadro sottostante</string>
     <string name="verify_scan_title">Verifica la chiave di sicurezza</string>
     <string name="verify_send_code_btn">Invia codice</string>
@@ -1132,6 +1142,8 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="verify_warning_dialog_title">Un altro dispositivo ha attivato la crittografia end-to-end</string>
     <string name="verify_warning_dialog_title_pc">Permessi richiesti</string>
     <string name="verify_warning_dialog_title_web">Permessi richiesti</string>
+    <string name="verify_warning_verify_dialog_message">Inserisci il codice di verifica su %s</string>
+    <string name="verify_warning_verify_dialog_title">Verifica Xiaomi Account</string>
     <string name="waiting_for_sync">In attesa…</string>
     <string name="web_view_auto_login_fail">Impossibile accedere. Riprova.</string>
     <string name="web_view_login_text">Accesso in corso…</string>

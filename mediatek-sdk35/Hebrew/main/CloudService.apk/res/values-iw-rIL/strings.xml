@@ -129,6 +129,8 @@
     <string name="e2ee_data_protection_update_security_key_title">עדכון סיסמת האבטחה</string>
     <string name="e2ee_device_delete">הסרת המכשיר</string>
     <string name="e2ee_device_delete_tip">לאחר הסרת מכשיר זה מחשבון Xiaomi שלך, המכשיר יתנתק מהחשבון ולא תהיה לך אפשרות להשתמש בשירותי Xiaomi Cloud ובמאפיינים אחרים שקשורים לחשבון, עד שתתבצע התחברות מחדש.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">מכשיר זה לא תומך בהגנת נתונים מתקדמת, כך שלא תוכלו להתחבר לחשבון שלכם אם תפעילו את המאפיין הזה. יש לעדכן את המכשיר ל-Xiaomi HyperOS 2 כדי שתוכלו להתחבר לחשבון.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">לא ניתן להתחבר</string>
     <string name="e2ee_device_exit_failed_tip">לא ניתן להתנתק. נא להמתין דקה או שתיים ולנסות שוב.</string>
     <string name="e2ee_device_exit_failed_toast">לא ניתן להתנתק. נא להמתין דקה או שתיים ולנסות שוב.</string>
     <string name="e2ee_device_exit_tip">%s התנתק</string>
@@ -152,6 +154,7 @@
     <string name="e2ee_error_global_account">מאפיין זה אינו נתמך באזור שלכם.</string>
     <string name="e2ee_error_init">לא ניתן לאתחל. נא להמתין דקה או שתיים ולנסות שוב.</string>
     <string name="e2ee_error_network">לא ניתן היה להתחבר לרשת. נא לבדוק את הגדרות הרשת ולנסות שוב.</string>
+    <string name="e2ee_error_real_device">הסביבה הזו אינה מאובטחת. נסו להשתמש במכשיר אחר.</string>
     <string name="e2ee_exit_account_button_close">להשבית</string>
     <string name="e2ee_exit_account_button_exit">להתנתק</string>
     <string name="e2ee_exit_account_subtitle">אתם עומדים להתנתק מהמכשיר האחרון שמחובר כעת ומקושר לחשבון Xiaomi שלכם. תצטרכו להשתמש בסיסמת נעילת המסך או בסיסמת אבטחה כדי להתחבר שוב ולקבל גישה לנתונים שלכם שמאוחסנים בענן. לחלופין, הקישו על \"להשבית\" למטה כדי להשבית הגנת נתונים מתקדמת.</string>
@@ -457,7 +460,7 @@
     <string name="micloud_last_sync_canceled">הסינכרון בוטל. נסה שנית.</string>
     <string name="micloud_main_head_menu_cloud_backup">גיבויים</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">"'איתור המכשיר' אינו זמין ב'שטח שני'. תוכל להשתמש בתכונה זו ב'שטח ראשון'."</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">פריטים שנמחקו</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">פריטים שנמחקו לאחרונה</string>
     <string name="micloud_main_network_error">לא ניתן להתחבר לרשת</string>
     <string name="micloud_main_sync_mode_summary">סנכרן את נתוני היישום. צריכת הסוללה תעלה כאשר תכונה זו מופעלת.</string>
     <string name="micloud_main_sync_mode_title">סריקה מהירה</string>
@@ -698,6 +701,7 @@
     <string name="other_lockscreen_forget_pin_dialog_title">שכחתי את סיסמת נעילת המסך</string>
     <string name="other_lockscreen_sub_title">הזינו את סיסמת נעילת המסך של מכשיר זה כדי להשלים את האימות</string>
     <string name="other_lockscreen_title">הזינו את סיסמת נעילת המסך של %s</string>
+    <string name="other_lockscreen_update_password_error_hint">שיניתם את סיסמת נעילת המסך לאחרונה? נסו להזין את סיסמת נעילת המסך הישנה לאימות.</string>
     <string name="pay_info_dialog_confirm_to_pay">שלם %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">השתמש במטבעות Mi שנותרו: %s</string>
     <string name="pay_info_dialog_title">בחר אמצעי תשלום</string>
@@ -779,6 +783,10 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud זקוק להרשאת גישה לתוכן המאוחסן במכשיר שלכם כדי לזהות את הפריטים שלא סונכרנו ואת הכמות שלהם. לתת את ההרשאה הזו עכשיו?</string>
+    <string name="request_os_permissions_dialog_neg_button">לא מסכימ/ה</string>
+    <string name="request_os_permissions_dialog_pos_button">מסכימ/ה</string>
+    <string name="request_os_permissions_dialog_title">נדרשות הרשאות</string>
     <string name="retain_data_high_quality_photo_waring_message">עותקים של התמונות והסרטונים שלך באיכות גבוהה יימחקו מהגלריה לאחר שתצא. קבצים מקוריים תואמים עדיין יאוחסנו בענן. ניתן גם להוריד קבצים מקוריים לפני היציאה.</string>
     <string name="retain_data_high_quality_photo_waring_title">תמונות באיכות גבוהה לא יהיו זמינות</string>
     <string name="revoke_block_by_find_device">ביטול הסכמה יבטל גם את איתור המכשיר. אם תמשיך, יידרש אימות הסיסמה.</string>
@@ -1002,7 +1010,7 @@
     <string name="tuesday">שלישי</string>
     <string name="tuesday_short">"ג'"</string>
     <string name="tuesday_shortest">"ג'"</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">לא ידוע</string>
     <string name="update_dialog_check_button_text">בדוק אם יש עדכונים</string>
     <string name="update_dialog_ignore_button_text">לא, תודה</string>
     <string name="update_dialog_no_internet_toast_text">בדוק את חיבור האינטרנט שלך ונסה שוב</string>
@@ -1016,6 +1024,8 @@
 "</string>
     <string name="user_agreement_title">תנאי השירות של Xiaomi Cloud</string>
     <string name="verify_camera_error_toast">זיהוי הסיסמה נכשל</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud זקוק להרשאת גישה למצלמה כדי לסרוק את מפתח האבטחה. נתין לתת את ההרשאה הזו בהגדרות.</string>
+    <string name="verify_camera_google_permission_positive_button">הבנתי</string>
     <string name="verify_camera_permission_message">יש לאפשר ליישום זה גישה למצלמה כדי שניתן יהיה לסרוק את סיסמת האבטחה שלכם. ניתן לתת את ההרשאה הזו בהגדרות.</string>
     <string name="verify_camera_permission_negative_button">ביטול</string>
     <string name="verify_camera_permission_positive_button">הגדרות</string>
@@ -1036,7 +1046,7 @@
     <string name="verify_code_warning_toast_limit">לא נותרו יותר ניסיונות אימות</string>
     <string name="verify_dialog_message">שליחת קוד אימות חדש או בחירת שיטה חדשה לשחזור</string>
     <string name="verify_dialog_negative_btn">ביטול</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">הפעלתם הגנת נתונים מתקדמת במכשיר אחר. יש להגדיר סיסמת נעילת מסך במכשיר זה כדי לקבל גישה לנתונים שלכם שמאוחסנים ב-Xiaomi Cloud.</string>
     <string name="verify_dialog_point">אין לשתף את קוד האימות הזה עם אף אחד</string>
     <string name="verify_dialog_point_choose_method">בחירה של שיטת אימות אחרת</string>
     <string name="verify_dialog_point_device_password">הזינו את סיסמת נעילת המסך של מכשיר אחר</string>
@@ -1058,7 +1068,7 @@
     <string name="verify_scan_error_not_support_toast">מכשיר זה לא תומך בסריקה</string>
     <string name="verify_scan_input_textview">הזנה ידנית</string>
     <string name="verify_scan_photo_textview">סריקה</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">יש להקיש על המרכז כדי למקד</string>
     <string name="verify_scan_point_text_view">יש להזין את הסיסמה בת %d הספרות בתיבה למטה</string>
     <string name="verify_scan_title">אימות סיסמת האבטחה</string>
     <string name="verify_send_code_btn">שליחת קוד</string>
@@ -1078,6 +1088,8 @@
     <string name="verify_warning_dialog_title">מכשיר אחר הפעיל הצפנה מקצה-לקצה</string>
     <string name="verify_warning_dialog_title_pc">נדרשות הרשאות</string>
     <string name="verify_warning_dialog_title_web">נדרשות הרשאות</string>
+    <string name="verify_warning_verify_dialog_message">יש להזין את קוד האימות ב-%s</string>
+    <string name="verify_warning_verify_dialog_title">יש לאמת את חשבון Xiaomi</string>
     <string name="waiting_for_sync">ממתין…</string>
     <string name="web_view_auto_login_fail">לא ניתן היה להיכנס. נסה שוב.</string>
     <string name="web_view_login_text">נכנס…</string>

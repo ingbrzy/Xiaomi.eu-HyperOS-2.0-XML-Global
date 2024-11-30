@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Beveiligingstoegangssleutel bijwerken</string>
     <string name="e2ee_device_delete">Apparaat verwijderen</string>
     <string name="e2ee_device_delete_tip">Zodra u dit apparaat uit uw Xiaomi Account verwijdert, wordt u afgemeld en kunt u geen Xiaomi Cloud services, zoeken en andere accountgerelateerde functies meer gebruiken totdat u zich opnieuw aanmeldt.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Dit apparaat ondersteunt geen Geavanceerde gegevensbescherming, dus u kunt zich niet aanmelden bij uw account als u deze functie inschakelt. Werk dit apparaat bij naar Xiaomi HyperOS 2 om u aan te melden bij uw account.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Kan niet inloggen</string>
     <string name="e2ee_device_exit_failed_tip">Kon niet uitloggen. Wacht een minuut of twee en probeer het opnieuw.</string>
     <string name="e2ee_device_exit_failed_toast">Kon niet uitloggen. Wacht een minuut of twee en probeer het opnieuw.</string>
     <string name="e2ee_device_exit_tip">%s is uitgelogd</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Deze functie wordt niet ondersteund in uw regio.</string>
     <string name="e2ee_error_init">Kon niet initialiseren. Wacht een minuut of twee en probeer het opnieuw.</string>
     <string name="e2ee_error_network">Kon niet verbinden met het netwerk. Controleer uw netwerkinstellingen en probeer het opnieuw.</string>
+    <string name="e2ee_error_real_device">Deze omgeving is niet veilig. Probeer een ander apparaat.</string>
     <string name="e2ee_exit_account_button_close">Uitschakelen</string>
     <string name="e2ee_exit_account_button_exit">Uitloggen</string>
     <string name="e2ee_exit_account_subtitle">U staat op het punt uit te loggen bij het laatst verbonden apparaat dat aan uw Xiaomi Account is gekoppeld. U moet een schermvergrendeling of beveiligingstoegangssleutel gebruiken om u opnieuw aan te melden en toegang te krijgen tot uw gegevens die in de cloud zijn opgeslagen. U kunt ook hieronder op \"Uitschakelen\" tikken om Geavanceerde gegevensbescherming uit te schakelen.</string>
@@ -504,7 +507,7 @@ U kunt ook anoniem anderen helpen hun Xiaomi apparaten te lokaliseren."</string>
     <string name="micloud_last_sync_canceled">Synchroniseren is geannuleerd. Probeer het opnieuw.</string>
     <string name="micloud_main_head_menu_cloud_backup">Back-ups</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Apparaat zoeken is niet beschikbaar in Tweede ruimte. U kunt dit gebruiken in Eerste ruimte.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Verwijderde items</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Recent verwijderde items</string>
     <string name="micloud_main_network_error">Kan geen verbinding maken met het netwerk</string>
     <string name="micloud_main_sync_mode_summary">Synchroniseer live app-gegevens. Stroomverbruik zal hoger zijn wanneer deze functie ingeschakeld is.</string>
     <string name="micloud_main_sync_mode_title">Snel synchroniseren</string>
@@ -746,6 +749,7 @@ Zorg ervoor dat u het bijbehorende Xiaomi Account gebruikt als uw systeemaccount
     <string name="other_lockscreen_forget_pin_dialog_title">Schermvergrendeling vergeten</string>
     <string name="other_lockscreen_sub_title">Voer de schermvergrendeling van dit apparaat in om de verificatie te voltooien</string>
     <string name="other_lockscreen_title">Voer de schermvergrendeling van %s in</string>
+    <string name="other_lockscreen_update_password_error_hint">Hebt u onlangs uw schermvergrendeling gewijzigd? Probeer de oude schermvergrendeling in te voeren ter verificatie.</string>
     <string name="pay_info_dialog_confirm_to_pay">Betaal %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Gebruik de resterende Mi Coins: %s</string>
     <string name="pay_info_dialog_title">Selecteer betaalmethode</string>
@@ -828,6 +832,10 @@ Locatie info wordt mogelijk niet gerapporteerd wanneer de netwerkverbinding slec
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud heeft toestemming nodig om toegang te krijgen tot items die op uw apparaat zijn opgeslagen om niet-gesynchroniseerde items en hun hoeveelheid te kunnen identificeren. Verleen deze toestemming nu?</string>
+    <string name="request_os_permissions_dialog_neg_button">Niet akkoord</string>
+    <string name="request_os_permissions_dialog_pos_button">Akkoord</string>
+    <string name="request_os_permissions_dialog_title">Toestemmingen vereist</string>
     <string name="retain_data_high_quality_photo_waring_message">"Kopieën van hoge kwaliteit van uw foto's en video's worden verwijderd uit Galerij nadat u zich heeft uitgelogd. Overeenkomstige originele bestanden worden nog steeds in de cloud opgeslagen. U kunt ook originele bestanden downloaden voordat u zich afmeldt."</string>
     <string name="retain_data_high_quality_photo_waring_title">Afbeeldingen van hoge kwaliteit zijn niet beschikbaar</string>
     <string name="revoke_block_by_find_device">Als u toestemming intrekt, wordt ook Apparaat zoeken uitgeschakeld. U moet uw wachtwoord verifiëren nadat u doorgaat.</string>
@@ -1054,7 +1062,7 @@ Locatie info wordt mogelijk niet gerapporteerd wanneer de netwerkverbinding slec
     <string name="tuesday">Dinsdag</string>
     <string name="tuesday_short">Di</string>
     <string name="tuesday_shortest">Di</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Onbekend</string>
     <string name="update_dialog_check_button_text">Controleren op updates</string>
     <string name="update_dialog_ignore_button_text">Nee, bedankt</string>
     <string name="update_dialog_no_internet_toast_text">Controleer uw internetverbinding en probeer het opnieuw</string>
@@ -1070,6 +1078,8 @@ Locatie info wordt mogelijk niet gerapporteerd wanneer de netwerkverbinding slec
     <string name="v7_preference_off">UIT</string>
     <string name="v7_preference_on">AAN</string>
     <string name="verify_camera_error_toast">Kon de toegangssleutel niet herkennen</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud heeft cameratoestemmingen nodig om uw beveiligingstoegangssleutel te kunnen scannen. U kunt deze toestemming verlenen in Instellingen.</string>
+    <string name="verify_camera_google_permission_positive_button">Begrepen</string>
     <string name="verify_camera_permission_message">Geef deze app toegang tot de camera om te kunnen scannen naar uw beveiligingstoegangssleutel. U kunt deze toestemming verlenen in Instellingen.</string>
     <string name="verify_camera_permission_negative_button">Annuleren</string>
     <string name="verify_camera_permission_positive_button">Instellingen</string>
@@ -1090,7 +1100,7 @@ Locatie info wordt mogelijk niet gerapporteerd wanneer de netwerkverbinding slec
     <string name="verify_code_warning_toast_limit">Er zijn geen verificatiepogingen meer mogelijk</string>
     <string name="verify_dialog_message">Stuur een nieuwe verificatiecode of selecteer een andere herstelmethode</string>
     <string name="verify_dialog_negative_btn">Annuleren</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">U hebt Geavanceerde gegevensbescherming ingeschakeld op een ander apparaat. Stel een schermvergrendeling in op dit apparaat om toegang te krijgen tot uw gegevens die zijn opgeslagen in Xiaomi Cloud.</string>
     <string name="verify_dialog_point">Deel deze verificatiecode met niemand</string>
     <string name="verify_dialog_point_choose_method">Selecteer een andere verificatiemethode</string>
     <string name="verify_dialog_point_device_password">Voer de schermvergrendeling van een ander apparaat in</string>
@@ -1112,7 +1122,7 @@ Locatie info wordt mogelijk niet gerapporteerd wanneer de netwerkverbinding slec
     <string name="verify_scan_error_not_support_toast">Dit apparaat ondersteunt geen scannen</string>
     <string name="verify_scan_input_textview">Handmatig invoeren</string>
     <string name="verify_scan_photo_textview">Scannen</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Tik op het midden om te focussen</string>
     <string name="verify_scan_point_text_view">Plaats de %d-cijferige toegangssleutel in het onderstaande vak</string>
     <string name="verify_scan_title">Verifieer beveiligingstoegangssleutel</string>
     <string name="verify_send_code_btn">Verstuur code</string>
@@ -1132,6 +1142,8 @@ Locatie info wordt mogelijk niet gerapporteerd wanneer de netwerkverbinding slec
     <string name="verify_warning_dialog_title">Een ander apparaat heeft end-to-end versleuteling ingeschakeld</string>
     <string name="verify_warning_dialog_title_pc">Toestemmingen vereist</string>
     <string name="verify_warning_dialog_title_web">Toestemmingen vereist</string>
+    <string name="verify_warning_verify_dialog_message">Voer de verificatiecode in op %s</string>
+    <string name="verify_warning_verify_dialog_title">Xiaomi Account verifiëren</string>
     <string name="waiting_for_sync">Wachten…</string>
     <string name="web_view_auto_login_fail">Kon niet inloggen. Probeer het opnieuw.</string>
     <string name="web_view_login_text">Inloggen…</string>

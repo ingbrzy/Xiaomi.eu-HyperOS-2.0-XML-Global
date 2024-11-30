@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">Annak érdekében, hogy még jobb szolgáltatást biztosíthassunk Önnek, a készülékén futó folyamatok (ideértve a SystemHelper, RegService és Carrier Services szolgáltatásokat) időről időre elküldik szolgáltatója számára az Ön készülékével és SIM-kártyájával kapcsolatos adatait (beleértve az IMEI-,az IMSI-,az MSISDN-,MEID-, ICCID-, a MAC-címet, rendszerverziót, Android-verziót, készülékmodellt, és alap hardver specifikációkat), valamint az Ön körülbelüli tartózkodási helyét (beleértve az alap állomásazonosítót is) WLAN-n, mobiladatforgalmon vagy ingyenes SMS-en keresztül. A szolgáltató ígérete szerint kizárólag a vonatkozó adatokat használja fel a szolgáltatások minőségének javítására, illetve testre szabott szolgáltatások vagy technológiák biztosítására és nem teszi közzé a vonatkozó adatokat harmadik felek számára olyan formában, hogy azok beazonosíthatóak legyenek. A szolgáltató konkrét nyilatkozata érvényes. A szolgáltatás használatának költségeiről érdeklődjön szolgáltatójánál.</string>
     <string name="carrier_introduction_china_rothko">Az Önnek nyújtott szolgáltatások minőségének javítása érdekében az eszközön futó programok (beleértve a SystemHelper, RegService és Carrier szolgáltatásokat) WLAN-on, mobilhálózatokon vagy SMS-ben elküldhetik a szolgáltatónak az eszközre vagy a SIM-kártyára vonatkozó információkat (beleértve az IMEI, IMSI, MSISDN, MEID, ICCID, MAC-cím, rendszerverzió, Android verzió, készülékmodell, alapvető hardverkonfiguráció és telefonszám), valamint az Ön hozzávetőleges tartózkodási helyét (beleértve a régiót, koordinátákat, a környék azonosítóját és a bázisállomás azonosítóját). Hívások kezdeményezésekor a DCService csatlakozik a hálózathoz. A mobilszolgáltatók garantálják, hogy ezeket az információkat kizárólag elemzésre, a szolgáltatás minőségének javítására, illetve személyre szabott szolgáltatások vagy technológiák nyújtására használják fel, és soha nem osztják meg senkivel olyan módon, amely lehetővé tenné az Ön személyes azonosítását. A részletekért olvassa el a szolgáltatója vonatkozó nyilatkozatát. A kapcsolódó szolgáltatási díjakról közvetlenül a szolgáltatójánál érdeklődhet.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>A Xiaomi Interconnectivity segítségével vezérelheti és továbbíthatja az adatokat a készülékek között. A funkciók használata előtt fogadja el a Xiaomi Interconnectivity &lt;a href=%1$s>adatvédelmi irányelveit&lt;/a >. Ennek az alkalmazásnak kapcsolódnia kell az internethez, és a következő engedélyeket igényli:</Data></string>
     <string name="clearable_edittext_clear_description">Törlés</string>
     <string name="clock_introduction">Az alkalmazással megnézheti az időt, valamint használhatja az időzítőt, a stoppert, beállíthat ébresztőt és még sok mást.</string>
     <string name="close">Bezárás</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Kínai hagyományos naptár</string>
     <string name="date_time_picker_dialog_title">Dátum- és időbeállítás</string>
-    <string name="default_font">Alapértelemezett</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Használja ujjlenyomatát a készülék feloldásához, alkalmazásokba és szolgáltatásokba való bejelentkezéshez.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Szövegméret-növelés</string>
     <string name="font_settings_sub_title">Rendszerbetűtípus kijelölése</string>
     <string name="font_settings_title">Betűméret beállítása</string>
+    <string name="font_size_title">Szöveg mérete</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Szövegtörzs</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">Klasszikus</string>
     <string name="home_settings_poco_launcher">Alkalmazáslista</string>
     <string name="home_settings_title">Alapértelmezett launcher kiválasztása</string>
+    <string name="image_brain_configuration_service">Xiaomi Imaging Engine konfigurációs szolgáltatás</string>
     <string name="ime_privacy_policy">A kiválasztott billentyűzet Adatvédelmi Irányelvei</string>
     <string name="ime_privacy_policy_no_network">Nincs internetkapcsolat. A kiválasztott billentyűzet Adatvédelmi Irányelveinek megtekintése itt: %s.</string>
     <string name="ims_introduction">Az IMS szolgáltatás alapvető kommunikációs képességeket biztosít, valamint nagy felbontású audio- és videohívásokra is használható.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">A Xiaomi Internet Communication Services használatával megtalálhatja, rácsatlakozhat és kommunikálhat más Xiaomi-készülékekkel.</string>
     <string name="interconnection_service_global_item_title">Xiaomi Interconnectivity</string>
     <string name="interconnection_service_global_label">&lt;Data>A Xiaomi Interconntectivity lehetővé teszi, hogy készülékei vezeték nélkül lépjenek kapcsolatba egymással. A kapcsoló bekapcsolásával Ön elfogadja a Xiaomi Interconnectivity&lt;a href=%1$s>Adatvédelmi irányelveit&lt;/a >.&lt;/Data></string>
+    <string name="interconnection_service_permission1">Bluetooth ki- és bekapcsolása</string>
+    <string name="interconnection_service_permission10">A közeli eszközök felfedezéséhez</string>
+    <string name="interconnection_service_permission11">Adatátvitel készülékek között</string>
+    <string name="interconnection_service_permission12">Adatátvitelhez más csatlakoztatott készülékek között</string>
+    <string name="interconnection_service_permission13">Hozzáférés a képernyő tartalmához</string>
+    <string name="interconnection_service_permission14">A képernyő tartalmának eléréséhez felvétel vagy kivetítés közben, beleértve az olyan érzékeny információkat, mint a hang, jelszavak, fizetési jelszavak, fényképek, üzenetek stb.</string>
+    <string name="interconnection_service_permission15">Hozzáférés a hívásnaplóhoz</string>
+    <string name="interconnection_service_permission16">Hívások átviteléhez a készülékek között a képernyőtükrözés során</string>
+    <string name="interconnection_service_permission17">Hozzáférés a telepített alkalmazások listájához</string>
+    <string name="interconnection_service_permission18">A mobilkészülékre telepített alkalmazások listájának eléréséhez és a számítógépek képernyőtükrözéséhez</string>
+    <string name="interconnection_service_permission2">Két készülék közötti csatlakozáshoz és adatátvitelhez</string>
+    <string name="interconnection_service_permission3">WLAN be- és kikapcsolása</string>
+    <string name="interconnection_service_permission4">Két készülék közötti adatátvitelhez WLAN-on keresztül</string>
+    <string name="interconnection_service_permission5">Hangfelvétel</string>
+    <string name="interconnection_service_permission6">A készülék hangjának rögzítéséhez kivetítés és tükrözés közben</string>
+    <string name="interconnection_service_permission7">Fényképek és fájlok elérése és szerkesztése ezen a készüléken</string>
+    <string name="interconnection_service_permission8">Kivetítéshez és tartalom átviteléhez erről a készülékről</string>
+    <string name="interconnection_service_permission9">Hozzáférési a készülék azonosítójához</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s Az Ön készülékén elérhető Xiaomi Interconnectivity funkciók a rendszerverziók és a készülékmodellek eltérései miatt változhatnak. További információkért tekintse meg hivatalos weboldalunkat. (%2$s).</string>
     <string name="interconnection_service_summary_global">A Xiaomi Interconnectivity funkciók a készülékmodell és a rendszerverzió függvényében változhatnak. További információkért látogasson el a rendszer hivatalos weboldalára.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Ha elveszíti a készülékét, csak úgy tudja megakadályozni, hogy mások ne vegyék azt használatba és ne férjenek az adataihoz, ha beállítja a képernyőzárat. Tényleg átugorja?</string>
@@ -311,6 +332,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="ktposition_header">A tartózkodási helyadatok megosztása a sürgősségi mentőegységekkel</string>
     <string name="language_picker_other_languages_title">Egyéb nyelvek</string>
     <string name="language_settings">Válasszon nyelvet</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Nagy</string>
+    <string name="layout_size_normal">Normál</string>
     <string name="locale_picker_other_locale_title">További régiók</string>
     <string name="locale_picker_title">Válasszon régiót</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +611,10 @@ Ezt a funkciót a Beállítások > Ujjlenyomat, Arcadatok és Képernyőzár > A
     <string name="privacy_provision_title">Adatvédelem</string>
     <string name="privacy_refuse">Elutasítom</string>
     <string name="privacy_title">Feltételek &amp; Adatvédelmi irányelvek</string>
+    <string name="prompt_fingerprint">A fiókjában be van kapcsolva a speciális adatvédelem. Állítson be képernyőzárat ehhez a készülékhez.</string>
     <string name="protect_persoanl_info_statement">Megvédjük az Ön személyes adatait a vonatkozó jogszabályokkal, szabályozásokkal és adatvédelmi irányelvekkel összhangban.</string>
     <string name="provision_back">Vissza</string>
+    <string name="provision_complete_text">Tovább</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>A kiválasztott billentyűzet &lt;a href=%1$s>Adatvédelmi szabályzatának&lt;/a > megtekintése.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Adatvédelmi Irányelvek</string>
     <string name="provision_next">Tovább</string>
@@ -613,6 +639,8 @@ Ezt a funkciót a Beállítások > Ujjlenyomat, Arcadatok és Képernyőzár > A
     <string name="require_telephone_location">Hozzáférés a tartózkodási helyhez</string>
     <string name="require_telephone_location_summary">Hozzávetőleges helymeghatározáshoz és helyalapú hálózatoptimalizálási szolgáltatások nyújtásához</string>
     <string name="require_telephone_statement">Az alapvető szolgáltatások nyújtásához a következő engedélyek szükségesek:</string>
+    <string name="sample_text_summary">A Xiaomi fáradhatatlanul dolgozik azon, hogy lenyűgöző termékei korrekt árakon világszerte mindenkinek jobb életet nyújtsanak az innovatív technológia segítségével.</string>
+    <string name="sample_text_title">Mintaszöveg:</string>
     <string name="saturday">Szombat</string>
     <string name="saturday_short">Szo</string>
     <string name="saturday_shortest">Szo</string>
@@ -690,6 +718,7 @@ Ezt a funkciót a Beállítások > Ujjlenyomat, Arcadatok és Képernyőzár > A
     <string name="skip_underline">Lépés kihagyása</string>
     <string name="start_up_slogan">Yours alone</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Navigációs kézmozdulatok megismerése</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">Nincs beállítva</string>
     <string name="sunday">Vasárnap</string>
@@ -700,6 +729,7 @@ Ezt a funkciót a Beállítások > Ujjlenyomat, Arcadatok és Képernyőzár > A
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">A Kezdőképernyő szolgáltatás beépülő modulja olyan alapvető funkciókat kínál, mint a Kezdőképernyő, a felhasználói rendszerfelület és a képernyőképek.</string>
     <string name="term_condition_detail">Minden nap lenyűgöző képek és izgalmas történetek várják önt a Képernyőzáron. Ez a funkció az Ön hozzájárulása nélkül nem használja fel adatait a személyre szabáshoz. A funkció használata előtt olvassa el és fogadja el a harmadik fél tartalomszolgáltató &lt;a href =%1$s>Adatvédelmi irányelveit&lt;/a> és a &lt;a href =%2$s>Felhasználói szerződését&lt;/a> .</string>
+    <string name="terms_and_statement_title">Felhasználási feltételek</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Felhasználási feltételek</string>
@@ -743,7 +773,8 @@ Ezt a funkciót a Beállítások > Ujjlenyomat, Arcadatok és Képernyőzár > A
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Rendszerfrissítési szolgáltatás (online frissítéseket keres, és értesítést küld az új verziókról)</string>
     <string name="terms_of_use_label_use_location_and_network_global">A rendszer használata előtt el kell olvasnia és el kell fogadnia a Felhasználói Szerződésünket és az Adatvédelmi irányelvünket. Személyes adatait a vonatkozó törvényekkel, rendeletekkel és adatvédelmi irányelvekkel összhangban védjük. Ha készüléke aktív, a következő szolgáltatások csatlakoznak a hálózatra és férnek hozzá az Ön tartózkodási helyéhez:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">A rendszer használata előtt olvassa el és fogadja el a &lt;a href=\"%1$s\">Felhasználói szerződésünket&lt;/a> és az &lt;a href=\"%2$s\">Adatvédelmi irányelveinket&lt;/a>. Megvédjük az Ön személyes adatait a vonatkozó jogszabályokkal, szabályozásokkal és adatvédelmi irányelvekkel összhangban.</string>
+    <string name="terms_of_use_label_use_network_china_append">A készülék aktiválásakor a következő szolgáltatások csatlakoznak a hálózathoz:</string>
     <string name="terms_of_use_label_wallpaper">Háttérkép</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

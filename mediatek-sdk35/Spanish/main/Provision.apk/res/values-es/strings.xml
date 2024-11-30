@@ -76,6 +76,7 @@
     <string name="carrier_introduction_china">Para brindarte mejores servicios, los procesos que se ejecutan en tu dispositivo (incluidos SystemHelper, RegService y Servicios del operador) pueden enviar periódicamente información relacionada con tu dispositivo y tarjeta SIM (incluidos IMEI, IMSI, MSISDN, MEID, ICCID, dirección MAC). , versión del sistema, versión de Android, modelo del dispositivo y especificaciones básicas de hardware), así como información de ubicación aproximada (incluida la región, las coordenadas, el identificador de área y el ID de la estación base) al operador a través de WLAN, red de datos móviles o SMS gratuitos. El operador se compromete a analizar información relevante solo para mejorar la calidad de los servicios o proporcionar servicios o tecnologías personalizados, y no divulgará información relevante a terceros de ninguna forma que te identifiquen personalmente. Prevalecerá la declaración específica del operador. Consulta con tu operador sobre el coste de utilizar este servicio.</string>
     <string name="carrier_introduction_china_rothko">Para mejorar la calidad de los servicios que se te brindan, los programas que se ejecutan en este dispositivo (incluidos SystemHelper, RegService y los servicios del operador) podrían enviar información sobre este dispositivo o tu tarjeta SIM (incluidos IMEI, IMSI, MSISDN, MEID, ICCID, dirección MAC, versión del sistema, versión de Android, modelo del dispositivo, configuración básica del hardware y número de teléfono), así como tu ubicación aproximada (incluida la región, las coordenadas, el identificador de vecindario y el identificador de la estación base) a tu operador a través de WLAN, redes móviles o SMS. Al realizar llamadas, DCService se conectará a la red. Los operadores móviles garantizan que esta información solo se utilizará para análisis, mejoras de la calidad del servicio o para proporcionar servicios o tecnologías personalizados y nunca se compartirá con nadie de una manera que pueda permitir identificarte personalmente. Consulta la declaración correspondiente de tu operador para obtener más detalles. Puedes consultar todas las tarifas de servicio relacionadas directamente a tu operador.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
+    <string name="check_box_label_new"><Data>Puedes usar Interconectividad Xiaomi para controlar y transferir datos entre dispositivos. Acepta la &lt;a href=%1$s>Política de Privacidad&lt;/a > de Interconectividad Xiaomi antes de usar sus funciones. Esta aplicación necesita conectarse a internet y requiere los siguientes permisos:</Data></string>
     <string name="clearable_edittext_clear_description">Eliminar</string>
     <string name="clock_introduction">Puedes usar esta aplicación para ver la hora, así como usar el temporizador, el reloj mundial, establecer alarmas y más.</string>
     <string name="close">Cerrar</string>
@@ -102,7 +103,6 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Calendario chino tradicional</string>
     <string name="date_time_picker_dialog_title">Ajustar fecha y hora</string>
-    <string name="default_font">Predeterminada</string>
     <string name="desc_extra_fingerprint" />
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_fingerprint">Utiliza tu huella para desbloquear el dispositivo, comprobar las transacciones de Mi Pago o para conectarte a aplicaciones y servicios.</string>
@@ -199,6 +199,7 @@
     <string name="font_hint_normal">Aumentar tamaño de texto</string>
     <string name="font_settings_sub_title">Selecciona la fuente del sistema</string>
     <string name="font_settings_title">Ajustes de fuente</string>
+    <string name="font_size_title">Tamaño del texto</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
     <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Cuerpo</string>
@@ -216,6 +217,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="home_settings_miui_home">Clásico</string>
     <string name="home_settings_poco_launcher">Cajón de aplicaciones</string>
     <string name="home_settings_title">Seleccionar lanzador predeterminado</string>
+    <string name="image_brain_configuration_service">Servicio de configuración de Xiaomi Imaging Engine</string>
     <string name="ime_privacy_policy">Política de Privacidad del teclado seleccionado</string>
     <string name="ime_privacy_policy_no_network">Sin conexión de red. Vea la Política de Privacidad para este teclado en %s.</string>
     <string name="ims_introduction">El servicio IMS proporciona capacidades de comunicación básicas y se utiliza para llamadas de audio y vídeo de alta definición.</string>
@@ -225,6 +227,24 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="interconnection_communication_introduction">Los Servicios de comunicación por internet de Xiaomi te permiten descubrir, conectarte y comunicarte con otros dispositivos Xiaomi.</string>
     <string name="interconnection_service_global_item_title">Interconectividad Xiaomi</string>
     <string name="interconnection_service_global_label">&lt;Data>Interconectividad Xiaomi permite que tus dispositivos interactúen entre sí de forma inalámbrica. Al activar este interruptor, aceptas la &lt;a href=%1$s>Política de Privacidad&lt;/a > de Interconectividad Xiaomi.&lt;/Data></string>
+    <string name="interconnection_service_permission1">Activar y desactivar el Bluetooth</string>
+    <string name="interconnection_service_permission10">Para descubrir dispositivos cercanos</string>
+    <string name="interconnection_service_permission11">Transferir datos entre dispositivos</string>
+    <string name="interconnection_service_permission12">Para transferir datos entre dispositivos conectados</string>
+    <string name="interconnection_service_permission13">Acceder al contenido de la pantalla</string>
+    <string name="interconnection_service_permission14">Para acceder al contenido de la pantalla mientras se graba o transmite, incluida información confidencial como audio, contraseñas, contraseñas de pago, fotos, mensajes, etc.</string>
+    <string name="interconnection_service_permission15">Acceder al historial de llamadas</string>
+    <string name="interconnection_service_permission16">Para transferir llamadas entre dispositivos durante la duplicación de pantalla</string>
+    <string name="interconnection_service_permission17">Acceder a la lista de aplicaciones instaladas</string>
+    <string name="interconnection_service_permission18">Para acceder a la lista de aplicaciones instaladas en un dispositivo móvil y duplicar la pantalla en ordenadores</string>
+    <string name="interconnection_service_permission2">Para conectar y transferir datos entre dos dispositivos</string>
+    <string name="interconnection_service_permission3">Activar y desactivar WLAN</string>
+    <string name="interconnection_service_permission4">Para transferir datos entre dos dispositivos vía WLAN</string>
+    <string name="interconnection_service_permission5">Grabar audio</string>
+    <string name="interconnection_service_permission6">Para grabar el audio del dispositivo durante la emisión y la duplicación</string>
+    <string name="interconnection_service_permission7">Acceder y editar fotos y archivos en tu dispositivo</string>
+    <string name="interconnection_service_permission8">Para emitir y transferir contenido desde este dispositivo</string>
+    <string name="interconnection_service_permission9">Acceder al identificador del dispositivo</string>
     <string name="interconnection_service_summary_china">"小米互联互通为向您提供包括：影音互联、应用生态融合、文件系统、硬件协同和设备中心等跨设备互联互通场景的基础功能，需要联网并调用您设备的如下权限：
 \u0009\u0009互传：
 \u0009\u0009读写设备上的照片及文件
@@ -298,6 +318,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
 \u0009\u0009用于发送及接收传输的文件
 如果您不同意调用以上必要权限，将导致小米互联互通服务无法正常使用。
 因系统版本、设备型号存在差异，您当前所使用设备提供的小米互联互通服务可能不同，请参考官网%s获取更详细信息。"</string>
+    <string name="interconnection_service_summary_china_new">%1$s Las funciones de Interconectividad Xiaomi disponibles en tu dispositivo pueden variar debido a las diferencias en las versiones del sistema y los modelos del dispositivo. Consulta nuestro sitio web oficial (%2$s) para obtener más información.</string>
     <string name="interconnection_service_summary_global">Las funciones de Interconectividad Xiaomi podrían variar según el modelo del dispositivo y la versión del sistema. Visita el sitio web oficial del sistema para obtener más información.</string>
     <string name="interconnection_service_title">Xiaomi Interconnectivity Services</string>
     <string name="item_contents_wwarning">Si tu dispositivo se pierde, no podrás evitar que otras personas lo usen y accedan a tus datos a menos que establezcas un bloqueo de pantalla. ¿Saltar de todos modos?</string>
@@ -311,6 +332,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="ktposition_header">Compartir información de ubicación con agencias de rescate de emergencia</string>
     <string name="language_picker_other_languages_title">Más idiomas</string>
     <string name="language_settings">Seleccionar un idioma</string>
+    <string name="layout_size_huge">XL</string>
+    <string name="layout_size_large">Grande</string>
+    <string name="layout_size_normal">Regular</string>
     <string name="locale_picker_other_locale_title">Más regiones</string>
     <string name="locale_picker_title">Selecciona tu región</string>
     <string name="location_U">U+ GPSnWPS</string>
@@ -587,8 +611,10 @@ Puedes controlar esta función desde Ajustes > Huellas dactilares, datos faciale
     <string name="privacy_provision_title">Privacidad</string>
     <string name="privacy_refuse">No aceptar</string>
     <string name="privacy_title">Términos y Política de Privacidad</string>
+    <string name="prompt_fingerprint">La Protección avanzada de datos está activada para tu cuenta. Configura un bloqueo de pantalla para este dispositivo.</string>
     <string name="protect_persoanl_info_statement">Protegeremos tu información personal de acuerdo con las leyes, regulaciones y políticas de privacidad relevantes.</string>
     <string name="provision_back">Atrás</string>
+    <string name="provision_complete_text">Continuar</string>
     <string name="provision_inputmethod_policy_description">&lt;Data>Ver la &lt;a href=%1$s>Política de Privacidad&lt;/a > del teclado seleccionado.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Política de Privacidad</string>
     <string name="provision_next">Siguiente</string>
@@ -613,6 +639,8 @@ Puedes controlar esta función desde Ajustes > Huellas dactilares, datos faciale
     <string name="require_telephone_location">Acceder a la ubicación</string>
     <string name="require_telephone_location_summary">Para acceder a la ubicación aproximada y proporcionar servicios de optimización de red basados ​​en la ubicación</string>
     <string name="require_telephone_statement">Para poder brindar servicios básicos se requieren los siguientes permisos:</string>
+    <string name="sample_text_summary">Xiaomi fabrica sin descanso productos increíbles a precios honestos para que todo el mundo pueda disfrutar de una vida mejor gracias a tecnología innovadora.</string>
+    <string name="sample_text_title">Texto de muestra:</string>
     <string name="saturday">Sábado</string>
     <string name="saturday_short">Sáb</string>
     <string name="saturday_shortest">Sáb</string>
@@ -690,6 +718,7 @@ Puedes controlar esta función desde Ajustes > Huellas dactilares, datos faciale
     <string name="skip_underline">Omitir este paso</string>
     <string name="start_up_slogan">Solo tuyo</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="study_full_screen_gesture_text">Aprender gestos de navegación</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_not_set">No establecido</string>
     <string name="sunday">Domingo</string>
@@ -700,6 +729,7 @@ Puedes controlar esta función desde Ajustes > Huellas dactilares, datos faciale
     <string name="system_update_title">System updates</string>
     <string name="systemdesktop_introduction">El plug-in de servicio de la Pantalla de inicio te proporciona funciones básicas como la Pantalla de inicio, la interfaz de usuario del sistema y capturas de pantalla.</string>
     <string name="term_condition_detail">Obtén imágenes increíbles e historias emocionantes en tu Pantalla de bloqueo todos los días. Esta función no utilizará tus datos para la personalización sin tu consentimiento. Lee y acepta la &lt;a href =%1$s> Política de Privacidad &lt;/a> y el &lt;a href =%2$s> Acuerdo de Usuario &lt;/a> del proveedor de contenido externo antes de utilizar esta función.</string>
+    <string name="terms_and_statement_title">Términos y Condiciones</string>
     <string name="terms_of_label_period">". "</string>
     <string name="terms_of_label_separator">", "</string>
     <string name="terms_of_use">Términos y Condiciones</string>
@@ -743,7 +773,8 @@ Puedes controlar esta función desde Ajustes > Huellas dactilares, datos faciale
     <string name="terms_of_use_label_unionplay_security">UnionPay TSM Secure Element (Xiaomi version)</string>
     <string name="terms_of_use_label_updater">Servicio de actualización del sistema (busca actualizaciones online y notifica sobre nuevas versiones)</string>
     <string name="terms_of_use_label_use_location_and_network_global">Antes de usar el sistema, debes leer y aceptar nuestro Acuerdo de Usuario y Política de Privacidad. Protegeremos tu información personal de acuerdo con las leyes, regulaciones y políticas de privacidad pertinentes. Cuando tu dispositivo esté activado, los siguientes servicios se conectarán a la red y accederán a tu ubicación:</string>
-    <string name="terms_of_use_label_use_network_china">Before using the system, you must read and agree to our User Agreement and Privacy Policy. We will protect your personal information in accordance with the relevant laws, regulations, and privacy policies. When your device is activated, the following services will connect to the network:</string>
+    <string name="terms_of_use_label_use_network_china">Antes de utilizar el sistema, lee y acepta nuestro &lt;a href=\"%1$s\">Acuerdo de Usuario&lt;/a> y nuestra &lt;a href=\"%2$s\">Política de Privacidad&lt;/a>. Protegeremos tu información personal de acuerdo con las leyes, regulaciones y políticas de privacidad pertinentes.</string>
+    <string name="terms_of_use_label_use_network_china_append">Cuando tu dispositivo esté activado, los siguientes servicios se conectarán a la red:</string>
     <string name="terms_of_use_label_wallpaper">Fondo de pantalla</string>
     <string name="terms_of_use_label_webview">Android System WebView</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"

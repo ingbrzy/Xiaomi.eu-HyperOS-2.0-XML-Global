@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Δημοφιλείς πόλεις</string>
     <string name="act_find_city_location_button_text">Εντοπισμός τοποθεσίας</string>
     <string name="act_find_city_location_title">Τρέχουσα τοποθεσία</string>
+    <string name="act_find_city_major_city_title">Δημοφιλείς τοποθεσίες</string>
+    <string name="act_find_city_search_history_title">Ιστορικό αναζήτησης</string>
     <string name="act_location_error_to_find_city">Αδυναμία λήψης πληροφοριών τοποθεσίας. Μπορείτε να προσθέσετε μια τοποθεσία χειροκίνητα.</string>
     <string name="act_set_city_find_side">Γίνεται εντοπισμός</string>
     <string name="act_set_city_find_side_error">Αδυναμία εντοπισμού συσκευής</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Διοξείδιο του θείου</string>
     <string name="aqi_station_best_quality_station">Καλύτερος της περιοχής</string>
     <string name="aqi_station_min_distance_station">Κοντινότερος σταθμός</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Κυριότεροι ρύποι</string>
     <string name="background_location_dialog_authorize_button">Ρυθμίσεις</string>
     <string name="background_location_guide_dialog_msg">Επιτρέψτε σε αυτήν την εφαρμογή να έχει πρόσβαση στην τοποθεσία ενώ εκτελείται στο παρασκήνιο και επιλέξτε \"Να επιτρέπεται πάντα\" για να βεβαιωθείτε ότι λαμβάνετε ενημερωμένες πληροφορίες για τον καιρό.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">ΝΑΙ</string>
     <string name="button_confirm">Αποδοχή</string>
     <string name="button_exit">Απόρριψη</string>
+    <string name="button_manage">Διαχείριση</string>
     <string name="button_settings_cancel">Ακύρωση</string>
     <string name="button_settings_confirm">Ανάκληση</string>
     <string name="button_settings_confirm_to_revoke_msg">Κλείνοντας τον διακόπτη, ανακαλείτε τη συγκατάθεσή σας στην Πολιτική Απορρήτου του Καιρού. Θα σταματήσουμε να συλλέγουμε τις προσωπικές σας πληροφορίες. Οι προσωπικές πληροφορίες που έχουν συλλεχθεί και διατηρηθεί μέχρι στιγμής θα διαγραφούν μέσα στη συγκεκριμένη περίοδο, όπως απαιτείται από τους ισχύοντες νόμους. Ο Καιρός πρέπει να συλλέξει απαραίτητες προσωπικές πληροφορίες για να σας παρέχει τις βασικές υπηρεσίες. Η ανάκληση της συγκατάθεσής σας για την Πολιτική Απορρήτου του θα θεωρείται άρνηση της αποδοχής των υπηρεσιών του βάσει των συλλεγμένων προσωπικών δεδομένων.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Ελέγξτε την σύνδεση δικτύου σας και προσπαθήστε ξανά</string>
+    <string name="city_exceeded_tips">Δεν είναι δυνατή η προσθήκη περισσότερων τοποθεσιών. Καταργήστε ορισμένες τοποθεσίες πριν προσθέσετε μια νέα.</string>
+    <string name="city_exceeded_tips_title">Δεν είναι δυνατή η προσθήκη τοποθεσίας</string>
     <string name="city_exceeded_warning">Δεν είναι δυνατή η προσθήκη περισσότερων πόλεων. Για να προσθέσετε μια νέα, διαγράψτε πρώτα μια πόλη που είναι ήδη στη λίστα.</string>
     <string name="clearable_edittext_clear_description">Εκκαθάριση</string>
     <string name="close">Κλείσιμο</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Αδυναμία σύνδεσης στο δίκτυο, προσπαθήστε ξανά</string>
     <string name="content_desc_activity_main_add_city">Προσθήκη πόλης</string>
     <string name="content_desc_activity_main_add_city_manage">Διαχείριση πόλεων</string>
+    <string name="content_desc_activity_main_already_add_city">Τοποθεσίες που προστέθηκαν</string>
     <string name="content_desc_activity_main_more_settings">Περισσότερες ρυθμίσεις</string>
     <string name="content_desc_activity_main_page">Σελίδα %1$d από %2$d</string>
     <string name="content_desc_back_button">Πίσω</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Διαγραφή</string>
     <string name="miuix_appcompat_deselect_all">Αποεπιλογή όλων</string>
     <string name="miuix_appcompat_deselect_all_description">Αποεπιλογή όλων</string>
+    <string name="miuix_appcompat_edit">Επεξεργασία</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Ακύρωση</string>
     <string name="miuix_appcompat_search_input_description">Αναζήτηση</string>
     <string name="miuix_appcompat_select_all">Επιλογή όλων</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">Σήμερα, στην πόλη %2$s, ο ΔΠΑ είναι %1$d.</string>
     <string name="notif_weather_title">%1$s σήμερα στο/στη %2$s</string>
     <string name="other_settings">Άλλες ρυθμίσεις</string>
-    <string name="pad_keyboard_add_city">Προσθήκη τοποθεσίας</string>
-    <string name="pad_keyboard_left_switch">Προηγούμενη τοποθεσία</string>
-    <string name="pad_keyboard_right_switch">Επόμενη τοποθεσία</string>
-    <string name="pad_real_time_detail_title">Δείκτες</string>
     <string name="particulate_matter_exceeded">Υψηλή</string>
     <string name="particulate_matter_not_exceeded">Κανονική</string>
     <string name="particulate_matter_serious_exceeded">Πολύ υψηλή</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Ανάκληση συγκατάθεσης</string>
     <string name="privacy_grant_success">Επιτυχής παραχώρηση εξουσιοδότησης</string>
     <string name="privacy_policy">Πολιτική Απορρήτου</string>
-    <string name="privacy_policy_msg">&lt;Data>Η εφαρμογή αυτή περιέχει τις ακόλουθες λειτουργίες:&lt;br/>• Πληροφορίες καιρού ειδικά για την τοποθεσία σας&lt;br/>• Προγνώσεις καιρού&lt;br/>• Καιρικές προειδοποιήσεις&lt;br/>&lt;br/>Η εφαρμογή Καιρός πρέπει να συλλέξει απαραίτητα προσωπικά δεδομένα για να σας παρέχει βασικές υπηρεσίες. Μπορείτε να μάθετε πως διαχειριζόμαστε τα δεδομένα που συλλέγουμε στην &lt;a href=\"%1$s\">Πολιτική Απορρήτου&lt;/a>. Διαβάστε και αποδεχτείτε τη &lt;a href=\"%2$s\">Συμφωνία Χρήστη&lt;/a> και την &lt;a href=\"%3$s\">Πολιτική Απορρήτου&lt;/a> πριν χρησιμοποιήσετε την εφαρμογή Καιρός. Μπορείτε να ανακαλέσετε τη συγκατάθεσή σας για την Πολιτική Απορρήτου στις Ρυθμίσεις της εφαρμογής Καιρός οποιαδήποτε στιγμή.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Η εφαρμογή αυτή περιέχει τις ακόλουθες λειτουργίες:&lt;br/>• Πληροφορίες ειδικά για την τοποθεσία σας&lt;br/>• Προγνώσεις καιρού&lt;br/>• Καιρικές προειδοποιήσεις&lt;br/>&lt;br/>Η εφαρμογή Καιρός πρέπει να συλλέξει απαραίτητα προσωπικά δεδομένα, συμπεριλαμβανομένων των δεδομένων τοποθεσίας, για να καταστήσει αυτές τις δυνατότητες διαθέσιμες, ακόμα και όταν η εφαρμογή είναι κλειστή ή δεν χρησιμοποιείται. Μπορείτε να μάθετε πως διαχειριζόμαστε τα δεδομένα που συλλέγουμε στην &lt;a href=\"%1$s\">Πολιτική Απορρήτου&lt;/a>. Διαβάστε και αποδεχτείτε τη &lt;a href=\"%2$s\">Συμφωνία Χρήστη&lt;/a> και την &lt;a href=\"%3$s\">Πολιτική Απορρήτου&lt;/a> πριν αποδεχτείτε την εφαρμογή Καιρός. Μπορείτε να ανακαλέσετε τη συγκατάθεσή σας για την Πολιτική Απορρήτου στις Ρυθμίσεις της εφαρμογής Καιρός οποιαδήποτε στιγμή.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Η εφαρμογή αυτή περιέχει τις ακόλουθες λειτουργίες:&lt;br/>• Πληροφορίες καιρού ειδικά για την τοποθεσία σας&lt;br/>• Προγνώσεις καιρού&lt;br/>• Καιρικές προειδοποιήσεις&lt;br/>&lt;br/>Η εφαρμογή Καιρός πρέπει να συλλέξει απαραίτητα προσωπικά δεδομένα για να σας παρέχει βασικές υπηρεσίες. Μπορείτε να μάθετε πως διαχειριζόμαστε τα δεδομένα που συλλέγουμε στην &lt;a href=\"%1$s\">Πολιτική Απορρήτου&lt;/a>. Διαβάστε και αποδεχτείτε τη &lt;a href=\"%2$s\">Συμφωνία Χρήστη&lt;/a> και την &lt;a href=\"%3$s\">Πολιτική Απορρήτου&lt;/a> πριν χρησιμοποιήσετε την εφαρμογή Καιρός. Μπορείτε να ανακαλέσετε τη συγκατάθεσή σας για την Πολιτική Απορρήτου στις Ρυθμίσεις της εφαρμογής Καιρός οποιαδήποτε στιγμή.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Η εφαρμογή αυτή περιέχει τις ακόλουθες λειτουργίες:&lt;br/>• Πληροφορίες ειδικά για την τοποθεσία σας&lt;br/>• Προγνώσεις καιρού&lt;br/>• Καιρικές προειδοποιήσεις&lt;br/>&lt;br/>Η εφαρμογή Καιρός πρέπει να συλλέξει απαραίτητα προσωπικά δεδομένα, συμπεριλαμβανομένων των δεδομένων τοποθεσίας, για να καταστήσει αυτές τις δυνατότητες διαθέσιμες, ακόμα και όταν η εφαρμογή είναι κλειστή ή δεν χρησιμοποιείται. Μπορείτε να μάθετε πως διαχειριζόμαστε τα δεδομένα που συλλέγουμε στην &lt;a href=\"%1$s\">Πολιτική Απορρήτου&lt;/a>. Διαβάστε και αποδεχτείτε τη &lt;a href=\"%2$s\">Συμφωνία Χρήστη&lt;/a> και την &lt;a href=\"%3$s\">Πολιτική Απορρήτου&lt;/a> πριν αποδεχτείτε την εφαρμογή Καιρός. Μπορείτε να ανακαλέσετε τη συγκατάθεσή σας για την Πολιτική Απορρήτου στις Ρυθμίσεις της εφαρμογής Καιρός οποιαδήποτε στιγμή.</Data></string>
     <string name="privacy_revoke_success">Επιτυχής ανάκληση εξουσιοδότησης</string>
     <string name="privacy_settings">Πολιτική Απορρήτου</string>
     <string name="pull_fresh_updated">Επιτυχής ενημέρωση</string>

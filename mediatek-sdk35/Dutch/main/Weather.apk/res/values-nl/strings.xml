@@ -4,7 +4,7 @@
     <string name="abc_action_bar_up_description">Omhoog navigeren</string>
     <string name="abc_action_menu_overflow_description">Meer opties</string>
     <string name="abc_action_mode_done">Klaar</string>
-    <string name="abc_activity_chooser_view_see_all">Alles tonen</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
     <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
     <string name="abc_capital_off">UIT</string>
     <string name="abc_capital_on">AAN</string>
@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Populaire steden</string>
     <string name="act_find_city_location_button_text">Locatie verkrijgen</string>
     <string name="act_find_city_location_title">Huidige locatie</string>
+    <string name="act_find_city_major_city_title">Populaire locaties</string>
+    <string name="act_find_city_search_history_title">Zoekgeschiedenis</string>
     <string name="act_location_error_to_find_city">Kon locatie info niet verkrijgen. U kunt handmatig een locatie toevoegen.</string>
     <string name="act_set_city_find_side">Plaatsbepaling</string>
     <string name="act_set_city_find_side_error">Kan apparaat niet lokaliseren</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Zwaveldioxide</string>
     <string name="aqi_station_best_quality_station">Beste station in de buurt</string>
     <string name="aqi_station_min_distance_station">Dichtstbijzijnde station</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Grootste vervuilingen</string>
     <string name="background_location_dialog_authorize_button">Instellingen</string>
     <string name="background_location_guide_dialog_msg">Geef deze app toegang tot de locatie terwijl deze op de achtergrond actief is en selecteer \"Altijd toestaan\" om ervoor te zorgen dat u actuele weersinformatie ontvangt.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">Ok</string>
     <string name="button_confirm">Akkoord</string>
     <string name="button_exit">Niet akkoord</string>
+    <string name="button_manage">Beheren</string>
     <string name="button_settings_cancel">Annuleren</string>
     <string name="button_settings_confirm">Intrekken</string>
     <string name="button_settings_confirm_to_revoke_msg">Door de schakelaar uit te zetten, trekt u uw toestemming voor het Privacybeleid van Weer in. We zullen stoppen met het verzamelen van uw persoonlijke informatie. De persoonlijke informatie die al is verzameld en bewaard, wordt binnen de specifieke periode verwijderd zoals vereist door de toepasselijke wetgeving. Weer moet de nodige persoonlijke informatie verzamelen om u basisdiensten te kunnen bieden. Als u uw toestemming voor het Privacybeleid intrekt, wordt dit beschouwd als een weigering om haar diensten te accepteren op basis van verzamelde persoonlijke informatie.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Controleer uw netwerkverbinding en probeer opnieuw</string>
+    <string name="city_exceeded_tips">Kan geen locaties meer toevoegen. Verwijder enkele locaties voordat u een nieuwe toevoegt.</string>
+    <string name="city_exceeded_tips_title">Kan locatie niet toevoegen</string>
     <string name="city_exceeded_warning">Kan niet meer steden toevoegen. Als u een nieuwe wilt toevoegen, verwijdert u eerst een stad die al op de lijst staat.</string>
     <string name="clearable_edittext_clear_description">Opschonen</string>
     <string name="close">Sluiten</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Kon niet verbinden met het netwerk, probeer het opnieuw</string>
     <string name="content_desc_activity_main_add_city">Stad toevoegen</string>
     <string name="content_desc_activity_main_add_city_manage">Steden beheren</string>
+    <string name="content_desc_activity_main_already_add_city">Toegevoegde locaties</string>
     <string name="content_desc_activity_main_more_settings">Meer instellingen</string>
     <string name="content_desc_activity_main_page">Pagina %1$d van %2$d</string>
     <string name="content_desc_back_button">Terug</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Verwijderen</string>
     <string name="miuix_appcompat_deselect_all">Alles deselecteren</string>
     <string name="miuix_appcompat_deselect_all_description">Alles deselecteren</string>
+    <string name="miuix_appcompat_edit">Bewerken</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Annuleren</string>
     <string name="miuix_appcompat_search_input_description">Zoeken</string>
     <string name="miuix_appcompat_select_all">Alles selecteren</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">AQI is %1$d in %2$s vandaag</string>
     <string name="notif_weather_title">%1$s in %2$s vandaag</string>
     <string name="other_settings">Overige instellingen</string>
-    <string name="pad_keyboard_add_city">Locatie toevoegen</string>
-    <string name="pad_keyboard_left_switch">Vorige locatie</string>
-    <string name="pad_keyboard_right_switch">Volgende locatie</string>
-    <string name="pad_real_time_detail_title">Indexen</string>
     <string name="particulate_matter_exceeded">Hoog</string>
     <string name="particulate_matter_not_exceeded">Normaal</string>
     <string name="particulate_matter_serious_exceeded">Te hoog</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Intrekking van toestemming</string>
     <string name="privacy_grant_success">Toestemming succesvol verleend</string>
     <string name="privacy_policy">Privacybeleid</string>
-    <string name="privacy_policy_msg">&lt;Data>Deze app bevat de volgende functies:&lt;br/>• Weersinformatie specifiek voor uw locatie&lt;br/>• Weersverwachtingen&lt;br/>• Weerwaarschuwingen&lt;br/>&lt;br/>Weer heeft de nodige persoonlijke informatie nodig om u basisdiensten te kunnen bieden. Hoe we omgaan met de informatie die we verzamelen, leest u in ons &lt;a href=\"%1$s\">Privacybeleid&lt;/a>. Lees en ga akkoord met onze &lt;a href=\"%2$s\">Gebruikersovereenkomst&lt;/a> en &lt;a href=\"%3$s\">Privacybeleid&lt;/a> voordat u Weer gebruikt. U kunt uw toestemming voor het Privacybeleid van Weer op elk moment in de Instellingen intrekken.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Deze app bevat de volgende functies:&lt;br/>• Weersinformatie specifiek voor uw locatie&lt;br/>• Weersverwachtingen&lt;br/>• Weerwaarschuwingen&lt;br/>&lt;br/>Weer moet de nodige persoonlijke informatie verzamelen, inclusief locatiegegevens, om deze functies beschikbaar te maken, zelfs als de app is gesloten of niet in gebruik is. Hoe we omgaan met de informatie die we verzamelen, leest u in ons &lt;a href=\"%1$s\">Privacybeleid&lt;/a>. Lees en ga akkoord met onze &lt;a href=\"%2$s\">Gebruikersovereenkomst&lt;/a> en &lt;a href=\"%3$s\">Privacybeleid&lt;/a> voordat u Weer gebruikt. U kunt uw toestemming voor het Privacybeleid van Weer op elk moment in de Instellingen intrekken.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Deze app bevat de volgende functies:&lt;br/>• Weersinformatie specifiek voor uw locatie&lt;br/>• Weersverwachtingen&lt;br/>• Weerwaarschuwingen&lt;br/>&lt;br/>Weer heeft de nodige persoonlijke informatie nodig om u basisdiensten te kunnen bieden. Hoe we omgaan met de informatie die we verzamelen, leest u in ons &lt;a href=\"%1$s\">Privacybeleid&lt;/a>. Lees en ga akkoord met onze &lt;a href=\"%2$s\">Gebruikersovereenkomst&lt;/a> en &lt;a href=\"%3$s\">Privacybeleid&lt;/a> voordat u Weer gebruikt. U kunt uw toestemming voor het Privacybeleid van Weer op elk moment in de Instellingen intrekken.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Deze app bevat de volgende functies:&lt;br/>• Weersinformatie specifiek voor uw locatie&lt;br/>• Weersverwachtingen&lt;br/>• Weerwaarschuwingen&lt;br/>&lt;br/>Weer moet de nodige persoonlijke informatie verzamelen, inclusief locatiegegevens, om deze functies beschikbaar te maken, zelfs als de app is gesloten of niet in gebruik is. Hoe we omgaan met de informatie die we verzamelen, leest u in ons &lt;a href=\"%1$s\">Privacybeleid&lt;/a>. Lees en ga akkoord met onze &lt;a href=\"%2$s\">Gebruikersovereenkomst&lt;/a> en &lt;a href=\"%3$s\">Privacybeleid&lt;/a> voordat u Weer gebruikt. U kunt uw toestemming voor het Privacybeleid van Weer op elk moment in de Instellingen intrekken.</Data></string>
     <string name="privacy_revoke_success">Toestemming succesvol ingetrokken</string>
     <string name="privacy_settings">Privacybeleid</string>
     <string name="pull_fresh_updated">Succesvol bijgewerkt</string>

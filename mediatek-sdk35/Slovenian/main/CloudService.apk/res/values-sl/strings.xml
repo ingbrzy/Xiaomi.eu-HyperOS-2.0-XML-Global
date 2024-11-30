@@ -175,6 +175,8 @@
     <string name="e2ee_data_protection_update_security_key_title">Posodobitev varnostnega ključa</string>
     <string name="e2ee_device_delete">Odstrani napravo</string>
     <string name="e2ee_device_delete_tip">Po odstranitvi te naprave iz Xiaomi računa, bo ta odjavljena in v njej ne boste mogli uporabljati storitev Xiaomi Cloud, iskanja in drugih funkcij, povezanih z računom, dokler se znova ne prijavite.</string>
+    <string name="e2ee_device_delete_warning_dialog_content">Ta naprava ne podpira napredne zaščite podatkov, zato se ne boste mogli prijaviti v svoj račun, če vklopite to funkcijo. Posodobite to napravo na različico Xiaomi HyperOS 2, da se boste lahko prijavili v svoj račun.</string>
+    <string name="e2ee_device_delete_warning_dialog_title">Ne morem se prijaviti</string>
     <string name="e2ee_device_exit_failed_tip">Odjava ni bila mogoča. Počakajte minuto ali dve in poskusite ponovno</string>
     <string name="e2ee_device_exit_failed_toast">Odjava ni bila mogoča. Počakajte minuto ali dve in poskusite ponovno</string>
     <string name="e2ee_device_exit_tip">%s je odjavljen</string>
@@ -198,6 +200,7 @@
     <string name="e2ee_error_global_account">Ta funkcija v vaši regiji ni podprta.</string>
     <string name="e2ee_error_init">Inicializacija ni bila mogoča. Počakajte minuto ali dve in poskusite ponovno.</string>
     <string name="e2ee_error_network">Povezava z omrežjem ni uspela. Preverite vaše omrežne nastavitve in poskusite ponovno.</string>
+    <string name="e2ee_error_real_device">To okolje ni varno. Poskusite z uporabo druge naprave.</string>
     <string name="e2ee_exit_account_button_close">Izklopi</string>
     <string name="e2ee_exit_account_button_exit">Odjava</string>
     <string name="e2ee_exit_account_subtitle">Odjavili se boste iz zadnje trenutno povezane naprave, povezane z vašim Xiaomi računom. Za ponovno prijavo in dostop do podatkov, shranjenih v oblaku, boste morali uporabiti zaklepanje zaslona ali varnostni ključ. Če želite izklopiti napredno zaščito podatkov, lahko spodaj tapnete tudi \"Izklopi\".</string>
@@ -504,7 +507,7 @@ Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav."</s
     <string name="micloud_last_sync_canceled">Sinhronizacija je bila preklicana. Poskusite znova.</string>
     <string name="micloud_main_head_menu_cloud_backup">Varnostne kopije</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Poišči napravo ne morete uporabiti v Drugem prostoru. Funkcijo lahko uporabljate samo v Prvem prostoru.</string>
-    <string name="micloud_main_head_menu_recycle_bin_title">Izbrisani predmeti</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">Nedavno izbrisani elementi</string>
     <string name="micloud_main_network_error">Ni se mogoče povezati na omrežje</string>
     <string name="micloud_main_sync_mode_summary">Sinhronizirajte podatke aplikacije v realnem času. Poraba energije se bo povečala, ko bo ta funkcija vključena.</string>
     <string name="micloud_main_sync_mode_title">Hitra sinhronizacija</string>
@@ -746,6 +749,7 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="other_lockscreen_forget_pin_dialog_title">Pozabljeno zaklepanje zaslona</string>
     <string name="other_lockscreen_sub_title">Za dokončanje preverjanja vnesite zaklepanje zaslona te naprave</string>
     <string name="other_lockscreen_title">Vnesite zaklepanje zaslona za %s</string>
+    <string name="other_lockscreen_update_password_error_hint">Ste pred kratkim spremenili zaklepanje zaslona? Za preverjanje poskusite vnesti staro zaklepanje zaslona.</string>
     <string name="pay_info_dialog_confirm_to_pay">Plačajte %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Uporabi preostale Mi Kovance: %s</string>
     <string name="pay_info_dialog_title">Izberite vrsto plačila</string>
@@ -828,6 +832,10 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_os_permissions_dialog_message">Xiaomi Cloud potrebuje dovoljenje za dostop do elementov, shranjenih v vaši napravi, da lahko prepozna nesinhronizirane elemente in njihovo količino. Ali lahko to dovoljenje podelite zdaj?</string>
+    <string name="request_os_permissions_dialog_neg_button">Ne strinjam se</string>
+    <string name="request_os_permissions_dialog_pos_button">Strinjam se</string>
+    <string name="request_os_permissions_dialog_title">Zahtevana dovoljenja</string>
     <string name="retain_data_high_quality_photo_waring_message">Visokokakovostne kopije vaših fotografij in videa bodo izbrisane iz Galerije, po tem, ko se odjavite. Ustrezne originalne datoteke bodo shranjene v vaš pomnilnik v oblaku. Originalne datoteke lahko prenesete, preden se odjavite.</string>
     <string name="retain_data_high_quality_photo_waring_title">Visokokakovostne slike ne bodo na voljo</string>
     <string name="revoke_block_by_find_device">Preklic soglasja, bo tudi izklopil funkcijo Poišči napravo. Po nadaljevanju boste morali potrditi vaše geslo.</string>
@@ -1054,7 +1062,7 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="tuesday">Torek</string>
     <string name="tuesday_short">Tor</string>
     <string name="tuesday_shortest">Tor</string>
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Neznano</string>
     <string name="update_dialog_check_button_text">Preveri za posodobitve</string>
     <string name="update_dialog_ignore_button_text">Ne, hvala</string>
     <string name="update_dialog_no_internet_toast_text">Preverite omrežno povezavo in poskusite ponovno</string>
@@ -1070,6 +1078,8 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="v7_preference_off">IZKLOPLJENO</string>
     <string name="v7_preference_on">VKLOPLJENO</string>
     <string name="verify_camera_error_toast">Ključa ni bilo mogoče prepoznati</string>
+    <string name="verify_camera_google_permission_message">Xiaomi Cloud potrebuje dovoljenja za kamero, da lahko skenira vaš varnostni ključ. To dovoljenje lahko podelite v nastavitvah.</string>
+    <string name="verify_camera_google_permission_positive_button">Razumem</string>
     <string name="verify_camera_permission_message">Dovoli tej aplikaciji dostop do kamere, da bo lahko optično prebrala vaš varnostni ključ. To dovoljenje lahko odobrite v nastavitvah.</string>
     <string name="verify_camera_permission_negative_button">Prekliči</string>
     <string name="verify_camera_permission_positive_button">Nastavitve</string>
@@ -1090,7 +1100,7 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="verify_code_warning_toast_limit">Ni več poskusov preverjanja</string>
     <string name="verify_dialog_message">Pošljite novo kodo za preverjanje ali izberite drug način obnovitve</string>
     <string name="verify_dialog_negative_btn">Prekliči</string>
-    <string name="verify_dialog_open_lockscreen">"You've turned on Advanced data protection on another device. Set a screen lock on this device to be able to access your data stored in Xiaomi Cloud."</string>
+    <string name="verify_dialog_open_lockscreen">V drugi napravi ste vklopili možnost Napredna zaščita podatkov. V tej napravi nastavite zaklepanje zaslona, da boste lahko dostopali do podatkov, shranjenih v Xiaomi Cloud.</string>
     <string name="verify_dialog_point">Te kode za preverjanje ne delite z nikomer</string>
     <string name="verify_dialog_point_choose_method">Izberite drug način preverjanja</string>
     <string name="verify_dialog_point_device_password">Vnesite zaklepanje zaslona druge naprave</string>
@@ -1112,7 +1122,7 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="verify_scan_error_not_support_toast">Ta naprava skeniranja ne podpira</string>
     <string name="verify_scan_input_textview">Vnesite ročno</string>
     <string name="verify_scan_photo_textview">Skeniraj</string>
-    <string name="verify_scan_point_notice_view">Tap the center to focus</string>
+    <string name="verify_scan_point_notice_view">Tapnite sredino, da izostrite</string>
     <string name="verify_scan_point_text_view">V spodnje polje vnesite %d-mestni ključ</string>
     <string name="verify_scan_title">Preverjanje varnostnega ključa</string>
     <string name="verify_send_code_btn">Pošlji kodo</string>
@@ -1132,6 +1142,8 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="verify_warning_dialog_title">Druga naprava je vklopila šifriranje med koncema</string>
     <string name="verify_warning_dialog_title_pc">Zahtevana dovoljenja</string>
     <string name="verify_warning_dialog_title_web">Zahtevana dovoljenja</string>
+    <string name="verify_warning_verify_dialog_message">Vnesite kodo za preverjanje na %s</string>
+    <string name="verify_warning_verify_dialog_title">Potrdite Xiaomi Račun</string>
     <string name="waiting_for_sync">Čakanje…</string>
     <string name="web_view_auto_login_fail">Prijava ni uspela. Poskusite ponovno.</string>
     <string name="web_view_login_text">Prijava v teku…</string>

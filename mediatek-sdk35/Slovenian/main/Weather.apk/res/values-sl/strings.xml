@@ -24,8 +24,8 @@
     <string name="abc_searchview_description_search">Iskanje</string>
     <string name="abc_searchview_description_submit">Pošiljanje poizvedbe</string>
     <string name="abc_searchview_description_voice">Glasovno iskanje</string>
-    <string name="abc_shareactionprovider_share_with">Deljenje z:</string>
-    <string name="abc_shareactionprovider_share_with_application">Deljenje z drugimi prek aplikacije %s</string>
+    <string name="abc_shareactionprovider_share_with">Skupna raba z:</string>
+    <string name="abc_shareactionprovider_share_with_application">Skupna raba z drugimi prek aplikacije %s</string>
     <string name="abc_toolbar_collapse_description">Strnitev</string>
     <string name="about_weather_setting">O Vremenu</string>
     <string name="about_weather_setting_feedback">Povratne informacije</string>
@@ -35,6 +35,8 @@
     <string name="act_find_city_hot_city_title">Popularna mesta</string>
     <string name="act_find_city_location_button_text">Pridobi lokacijo</string>
     <string name="act_find_city_location_title">Trenutna lokacija</string>
+    <string name="act_find_city_major_city_title">Popularne lokacije</string>
+    <string name="act_find_city_search_history_title">Zgodovina iskanja</string>
     <string name="act_location_error_to_find_city">Ni podatkov o lokaciji. Lokacijo lahko dodate ročno.</string>
     <string name="act_set_city_find_side">Lociranje</string>
     <string name="act_set_city_find_side_error">Ne morem locirati naprave</string>
@@ -90,7 +92,6 @@
     <string name="aqi_quality_so2_desc">Žveplov dioksid</string>
     <string name="aqi_station_best_quality_station">Najboljša naokrog</string>
     <string name="aqi_station_min_distance_station">Najbližja postaja</string>
-    <string name="aqi_title_pad">AQI: %1$s</string>
     <string name="aqi_top_pollution">Veliki onesnaževalci</string>
     <string name="background_location_dialog_authorize_button">Nastavitve</string>
     <string name="background_location_guide_dialog_msg">Dovolite aplikaciji dostop do lokacije, ko deluje v ozadju, in izberite »Vedno dovoli«, da boste dobili najnovejše vremenske informacije.</string>
@@ -98,11 +99,14 @@
     <string name="button_allow">V redu</string>
     <string name="button_confirm">Strinjam se</string>
     <string name="button_exit">Ne strinjam se</string>
+    <string name="button_manage">Upravljaj</string>
     <string name="button_settings_cancel">Prekliči</string>
     <string name="button_settings_confirm">Preklic soglasja</string>
     <string name="button_settings_confirm_to_revoke_msg">Z izklopom tega stikala boste preklicali vaše soglasje s Pravilnikom o zasebnosti aplikacije Vreme. Prenehali bomo zbirati vaše osebne podatke. Osebni podatki, ki smo jih že zbrali in obdržali bodo izbrisani v obdobju, ki je določen s strani veljavnih zakonov. Aplikacija Vreme mora zbirati potrebne osebne podatke, da bi vam zagotovila osnovne storitve. Preklic vašega soglasja s Pravilnikom o zasebnosti bo razumen kot, da nočete sprejeti storitve aplikacije, ki zbirajo osebne podatke.</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Preverite omrežno povezavo in poskusite ponovno</string>
+    <string name="city_exceeded_tips">Ne morem dodati še več lokacij. Odstranite nekaj lokacij, preden dodate novo.</string>
+    <string name="city_exceeded_tips_title">Ne morem dodati lokacije</string>
     <string name="city_exceeded_warning">Ni mogoče dodati več mest. Če želite dodati novega, najprej izbrišite mesto s seznama.</string>
     <string name="clearable_edittext_clear_description">Počisti</string>
     <string name="close">Zapri</string>
@@ -128,6 +132,7 @@
     <string name="connect_fail">Povezava z omrežjem ni uspela, poskusite ponovno kasneje</string>
     <string name="content_desc_activity_main_add_city">Dodaj mesto</string>
     <string name="content_desc_activity_main_add_city_manage">Urejanje mest</string>
+    <string name="content_desc_activity_main_already_add_city">Dodane lokacije</string>
     <string name="content_desc_activity_main_more_settings">Več nastavitev</string>
     <string name="content_desc_activity_main_page">Stran %1$d od %2$d</string>
     <string name="content_desc_back_button">Nazaj</string>
@@ -310,6 +315,7 @@
     <string name="miuix_appcompat_delete_description">Izbriši</string>
     <string name="miuix_appcompat_deselect_all">Prekliči izbiro</string>
     <string name="miuix_appcompat_deselect_all_description">Prekliči izbiro</string>
+    <string name="miuix_appcompat_edit">Uredi</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Prekliči</string>
     <string name="miuix_appcompat_search_input_description">Išči</string>
     <string name="miuix_appcompat_select_all">Izberi vse</string>
@@ -377,10 +383,6 @@
     <string name="notif_aqi_title">Današnji AQI v %2$s je %1$d</string>
     <string name="notif_weather_title">Danes je %1$s v %2$s</string>
     <string name="other_settings">Ostale nastavitve</string>
-    <string name="pad_keyboard_add_city">Dodaj lokacijo</string>
-    <string name="pad_keyboard_left_switch">Prejšnja lokacija</string>
-    <string name="pad_keyboard_right_switch">Naslednja lokacija</string>
-    <string name="pad_real_time_detail_title">Indeksi</string>
     <string name="particulate_matter_exceeded">Visoko</string>
     <string name="particulate_matter_not_exceeded">Normalno</string>
     <string name="particulate_matter_serious_exceeded">Previsoko</string>
@@ -397,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Preklic soglasja</string>
     <string name="privacy_grant_success">Uspešno dovoljena avtorizacija</string>
     <string name="privacy_policy">Pravilnik o zasebnosti</string>
-    <string name="privacy_policy_msg">&lt;Data>Ta aplikacija vsebuje naslednje funkcije:&lt;br/>• podatke o vremenu za vašo lokacijo&lt;br/>• vremensko napoved&lt;br/>• opozorila o vremenu&lt;br/>&lt;br/>Aplikacija Vreme mora zbirati potrebne osebne podatke, da vam lahko zagotovi osnovne storitve. Več o tem, kako ravnamo s podatki, ki jih zbiramo, si lahko ogledate v &lt;a href=\"%1$s\">Pravilniku o zasebnosti&lt;/a>. Pred uporabo aplikacije Vreme preberite in se strinjajte z &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a> in &lt;a href=\"%3$s\">Pravilnikom o zasebnosti&lt;/a>. V Nastavitvah lahko kadar koli prekličete vaše soglasje s Pravilnikom o zasebnosti aplikacije Vreme.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Ta aplikacija vsebuje naslednje funkcije:&lt;br/>• podatke o vremenu za vašo lokacijo&lt;br/>• vremensko napoved&lt;br/>• opozorila o vremenu&lt;br/>&lt;br/>Aplikacija Vreme mora zbirati potrebne osebne podatke, vključno s podatki o lokaciji, da vam lahko zagotovi te funkcije tudi, ko je aplikacija zaprta ali ni v uporabi. Več o tem, kako ravnamo s podatki, ki jih zbiramo, si lahko ogledate v &lt;a href=\"%1$s\">Pravilniku o zasebnosti&lt;/a>. Pred uporabo aplikacije Vreme preberite in se strinjajte z &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a> in &lt;a href=\"%3$s\">Pravilnikom o zasebnosti&lt;/a>. V Nastavitvah lahko kadar koli prekličete vaše soglasje s Pravilnikom o zasebnosti aplikacije Vreme.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Ta aplikacija vsebuje naslednje funkcije:&lt;br/>• podatke o vremenu za vašo lokacijo&lt;br/>• vremensko napoved&lt;br/>• opozorila o vremenu&lt;br/>&lt;br/>Aplikacija Vreme mora zbirati potrebne osebne podatke, da vam lahko zagotovi osnovne storitve. Več o tem, kako ravnamo s podatki, ki jih zbiramo, si lahko ogledate v &lt;a href=\"%1$s\">Pravilniku o zasebnosti&lt;/a>. Pred uporabo aplikacije Vreme preberite in se strinjajte z &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a> in &lt;a href=\"%3$s\">Pravilnikom o zasebnosti&lt;/a>. V Nastavitvah lahko kadar koli prekličete vaše soglasje s Pravilnikom o zasebnosti aplikacije Vreme.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Ta aplikacija vsebuje naslednje funkcije:&lt;br/>• podatke o vremenu za vašo lokacijo&lt;br/>• vremensko napoved&lt;br/>• opozorila o vremenu&lt;br/>&lt;br/>Aplikacija Vreme mora zbirati potrebne osebne podatke, vključno s podatki o lokaciji, da vam lahko zagotovi te funkcije tudi, ko je aplikacija zaprta ali ni v uporabi. Več o tem, kako ravnamo s podatki, ki jih zbiramo, si lahko ogledate v &lt;a href=\"%1$s\">Pravilniku o zasebnosti&lt;/a>. Pred uporabo aplikacije Vreme preberite in se strinjajte z &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a> in &lt;a href=\"%3$s\">Pravilnikom o zasebnosti&lt;/a>. V Nastavitvah lahko kadar koli prekličete vaše soglasje s Pravilnikom o zasebnosti aplikacije Vreme.</Data></string>
     <string name="privacy_revoke_success">Uspešno preklicana avtorizacija</string>
     <string name="privacy_settings">Pravilnik o zasebnosti</string>
     <string name="pull_fresh_updated">Uspešno posodobljeno</string>

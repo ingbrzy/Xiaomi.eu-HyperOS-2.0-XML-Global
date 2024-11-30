@@ -4,11 +4,14 @@
     <string name="actionbar_button_up_description">Geri</string>
     <string name="afternoon">Günortadan sonra</string>
     <string name="am">GƏ</string>
-    <string name="app_name">Qeydedici köməkçisi</string>
+    <string name="app_name">Səsli Zəng Qeydedicisi</string>
     <string name="assistant_note_one">Səsli zənglər zamanı vəziyyət çubuğu qısayolu görünəcək</string>
     <string name="assistant_note_two">Zəngləri qeyd etmək üçün qısayola toxunun</string>
+    <string name="button_disagree">Ləğv et</string>
+    <string name="button_record_start">Qeyd et</string>
     <string name="call_assistant">VoIP köməkçisi</string>
-    <string name="call_recording_notification_complete_one">Uğurla qeydə alınıb. Baxmaq üçün toxunun</string>
+    <string name="call_in_progress">call in progress</string>
+    <string name="call_recording_notification_complete_one">Uğurla qeydə alındı. Baxmaq üçün toxunun.</string>
     <string name="call_recording_notification_complete_other">Recorded %d calls successfully</string>
     <string name="call_recording_notification_title">Səsli Zəng Qeydedicisi</string>
     <string name="call_recording_notification_title_error">Zəng qeyd edilə bilmədi</string>
@@ -19,8 +22,8 @@
     <string name="clearable_edittext_clear_description">Təmizlə</string>
     <string name="close">Bağla</string>
     <string name="cta_HIPS_Perm_Location_Desc">Zəngləri və səsləri qeyd etmək üçün</string>
-    <string name="cta_main_purpose">"Welcome to App recordings! You can use this app to record voice calls made in third party apps. This app will access caller nicknames to name saved recordings.
-Note that infringement of other people's privacy rights is illegal. You may not use any information obtained through this feature to violate the privacy of others. If you use the above information illegally, you shall assume all the legal risks arising therefrom.
+    <string name="cta_main_purpose">"Səsli Zəng Qeydedicisinə xoş gəlmisiniz! Siz üçüncü tərəf tətbiqlərində edilən səsli zəngləri yazmaq üçün bu tətbiqdən istifadə edə bilərsiniz. Bu tətbiq yadda saxlanmış qeydləri adlandırmaq üçün zəng edənin ləqəblərinə daxil olacaq.
+Nəzərə alın ki, digər insanların şəxsi hüquqlarının pozulması qanunsuzdur. Bu xüsusiyyət vasitəsilə əldə edilən hər hansı məlumatdan başqalarının gizliliyini pozmaq üçün istifadə edə bilməzsiniz. Əgər siz yuxarıda göstərilən məlumatlardan qeyri-qanuni istifadə etsəniz, bundan irəli gələn bütün hüquqi riskləri öz üzərinə götürəcəksiniz.
 "</string>
     <string name="custom_define_perference_title">İcazə detalları</string>
     <string name="custom_define_permission_desc_android.permission_group.MICROPHONE">Zəngləri və səsləri qeyd etmək üçün</string>
@@ -30,6 +33,10 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Ənənəvi Çin Təqvimi</string>
     <string name="date_time_picker_dialog_title">Tarix və saatı təyin et</string>
+    <string name="desc_privacy_policy_cn">"Siz üçüncü tərəf tətbiqlərində edilən səsli zəngləri yazmaq üçün Səsli Zəng Qeydedicisi tətbiqdən istifadə edə bilərsiniz. Bu tətbiq yadda saxlanmış qeydləri adlandırmaq üçün zəng edənin ləqəblərinə daxil olacaq.
+Nəzərə alın ki, digər insanların şəxsi hüquqlarının pozulması qanunsuzdur. Bu xüsusiyyət vasitəsilə əldə edilən hər hansı məlumatdan başqalarının gizliliyini pozmaq üçün istifadə edə bilməzsiniz. Əgər siz yuxarıda göstərilən məlumatlardan qeyri-qanuni istifadə etsəniz, bundan irəli gələn bütün hüquqi riskləri öz üzərinə götürəcəksiniz.
+"</string>
+    <string name="desc_privacy_policy_global">Bu zəngdə sənə və ya hər hansı digər tərəfə tətbiq edilən yerli qanunlar söhbət iştirakçılarının hamısının bu səsi yazmaq üçün icazəsini tələb edə bilər. Bu qanuna əməl etməyə sən cavabdehsən və Xiaomi sənin hər hansı hərəkətin və ya etinasızlığın üçün cavabdehlik daşımır. Zəng qeydlərini məsuliyyətlə istifadə et. Səs yazıları sənin cihazında saxlanılır və Xiaominin onlara girişi yoxdur. Səs qeydi indi başlansın?</string>
     <string name="early_morning">Səhər</string>
     <string name="empty" />
     <string name="eras_ad">B.E</string>
@@ -227,15 +234,18 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="time_picker_dialog_title">Vaxt təyin et</string>
     <string name="time_picker_label_hour">S</string>
     <string name="time_picker_label_minute">D</string>
+    <string name="title_record_call">Zəngi qeyd et</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Sabah</string>
     <string name="tuesday">Çərşənbə axşamı</string>
     <string name="tuesday_short">Ç.a.</string>
     <string name="tuesday_shortest">Ç.a.</string>
     <string name="verify">Oldu</string>
-    <string name="voice_noise_reduction_open">Səs yazısı optimallaşdırması açıqdır</string>
-    <string name="voice_opti_always_on">Səs yazısı optimallaşdırması</string>
-    <string name="voice_opti_summer">Səsləri süzür və səsinizi aydın saxlamaq üçün. Bu funksiyanı hər dəfə əl ilə açmalısınız.</string>
+    <string name="video_call">Video zəng davam edir</string>
+    <string name="voice_call">Video zəng istifadədədir</string>
+    <string name="voice_noise_reduction_open">Səs izi optimallaşdırması açıqdır</string>
+    <string name="voice_opti_always_on">Səs izi optimallaşdırması</string>
+    <string name="voice_opti_summer">Səsinizi aydın saxlamaq üçün səsləri süzür. Bu funksiyanı hər dəfə əl ilə aktiv etməlisiniz.</string>
     <string name="voice_recoding">Zəngləri qeyd et</string>
     <string name="voice_recoding_progress">"Zəng qeyd edilir: "</string>
     <string name="voice_recoding_summer">Səsli zəngləri qeyd edin və onları Qeydedici-də saxlayın</string>

@@ -31,13 +31,16 @@
     <string name="actionbar_button_up_description">Tilbage</string>
     <string name="afternoon">Eftermiddag</string>
     <string name="am">AM</string>
-    <string name="app_name">Optagelsesassistent</string>
+    <string name="app_name">Opkaldsoptager</string>
     <string name="assistant_note_one">En statuslinje vises under stemmeopkald</string>
     <string name="assistant_note_two">Tryk på genvejen for at optage opkald</string>
+    <string name="button_disagree">Annuller</string>
+    <string name="button_record_start">Optag</string>
     <string name="call_assistant">VoIP-assistent</string>
-    <string name="call_recording_notification_complete_one">Optaget. Tryk for at se.</string>
+    <string name="call_in_progress">call in progress</string>
+    <string name="call_recording_notification_complete_one">Optagelse lykkedes. Tryk for at se.</string>
     <string name="call_recording_notification_complete_other">Recorded %d calls successfully</string>
-    <string name="call_recording_notification_title">Stemmeoptagelser</string>
+    <string name="call_recording_notification_title">Opkaldsoptager</string>
     <string name="call_recording_notification_title_error">Kunne ikke optage stemmeopkald</string>
     <string name="camera_bt_record_start_mic">Bruger denne enhed for at optage lyd</string>
     <string name="camera_bt_record_start_sco">Bruger Bluetooth-headset for at optage lyd</string>
@@ -47,8 +50,8 @@
     <string name="close">Luk</string>
     <string name="copy">Kopiér</string>
     <string name="cta_HIPS_Perm_Location_Desc">For optagelse af opkald og lyd</string>
-    <string name="cta_main_purpose">"Welcome to App recordings! You can use this app to record voice calls made in third party apps. This app will access caller nicknames to name saved recordings.
-Note that infringement of other people's privacy rights is illegal. You may not use any information obtained through this feature to violate the privacy of others. If you use the above information illegally, you shall assume all the legal risks arising therefrom.
+    <string name="cta_main_purpose">"Velkommen til Opkaldsoptager. Du kan bruge denne app til at optage stemmeopkald foretaget med tredjepartsapps. Denne app vil få adgang til kaldenavne for at navngive gemte optagelser.
+Bemærk, at krænkelse af andres privatlivsrettigheder er ulovligt. Du må ikke bruge nogen information opnået gennem denne funktion til at krænke andres privatliv. Hvis du bruger ovenstående oplysninger ulovligt, vil du blive pålagt alle deraf følgende juridiske risici.
 "</string>
     <string name="custom_define_perference_title">Oplysninger om tilladelser</string>
     <string name="custom_define_permission_desc_android.permission_group.MICROPHONE">For optagelse af opkald og lyd</string>
@@ -58,6 +61,9 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Kinesisk traditionel kalender</string>
     <string name="date_time_picker_dialog_title">Indstil dato og tid</string>
+    <string name="desc_privacy_policy_cn">"Med Opkaldsoptager kan du optage taleopkald foretaget i tredjepartsapps. Denne app vil få adgang til opkalders kaldenavne for at navngive gemte optagelser.
+Bemærk, at krænkelse af andres privatliv er ulovligt. Du må ikke bruge oplysninger opnået gennem denne funktion til at krænke andres privatliv. Hvis du bruger ovenstående oplysninger ulovligt, påtager du dig alle de juridiske risici, der opstår deraf."</string>
+    <string name="desc_privacy_policy_global">De lokale love, der gælder for dig eller enhver anden part i dette opkald, kan kræve, at alle samtykker til optagelsen af samtalen. Du er ansvarlig for at overholde sådanne love, og Xiaomi vil ikke være ansvarlig for nogen overtrædelse af lovgivningen på grund af dine handlinger eller undladelser. Brug optagelse af opkald ansvarligt. Optagelser gemmes kun på din enhed, og Xiaomi har ikke adgang til dem. Start optagelse nu?</string>
     <string name="early_morning">Morgen</string>
     <string name="empty" />
     <string name="eras_ad">e.v.t.</string>
@@ -122,7 +128,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="friday_shortest">Fre</string>
     <string name="introduct_always_on">Optag automatisk alle opkald med tredjeparts-apps</string>
     <string name="introduct_open">Vis optagelsesknappen under opkald med tredjeparts-apps</string>
-    <string name="introduct_open_new">Optag automatisk stemmeopkald, og gem dem på Stemmeopkald</string>
+    <string name="introduct_open_new">Optag automatisk stemmeopkald og gem dem i Optager</string>
     <string name="introduct_voice_opti_on">Optimering af stemmeprint filtrerer støj og gør din stemme tydeligere</string>
     <string name="introduct_voip_assistant">En genvej til statuslinje vises under WeChat- og QQ-opkald. Tryk på genvejen for at optage opkald.</string>
     <string name="midnight">Nat</string>
@@ -199,7 +205,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="record_cancel">Annuller</string>
-    <string name="record_name">Stemmeoptagelse</string>
+    <string name="record_name">Opkaldsoptager</string>
     <string name="record_now">Acceptér</string>
     <string name="record_prompt">Stemmeprint</string>
     <string name="record_prompt_str">For at undertrykke støj under opkald er denne app nødt til at indsamle dit stemmeprint. Stemmeprintet vil blive gemt lokalt på denne enhed, og du kan slette det ved at udføre en fabriksnulstilling. Du vil ikke kunne bruge denne service, hvis du ikke er accepterer.</string>
@@ -261,6 +267,7 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="time_picker_dialog_title">Indstil tid</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="title_record_call">Optag opkald</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
     <string name="tuesday">Tirsdag</string>
@@ -269,12 +276,14 @@ Note that infringement of other people's privacy rights is illegal. You may not 
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
     <string name="verify">OK</string>
+    <string name="video_call">Videoopkald i gang</string>
+    <string name="voice_call">Taleopkald i gang</string>
     <string name="voice_noise_reduction_open">Optimering af stemmeprint er aktiveret</string>
     <string name="voice_opti_always_on">Optimering af stemmeprint</string>
-    <string name="voice_opti_summer">Filtrerer støj, og tydeliggør din stemme. Du skal aktivere denne funktion automatisk hver gang.</string>
+    <string name="voice_opti_summer">Filtrerer støj for at tydeliggøre din stemme. Du skal aktivere denne funktion manuelt hver gang.</string>
     <string name="voice_recoding">Optag opkald</string>
     <string name="voice_recoding_progress">"Optager opkald "</string>
-    <string name="voice_recoding_summer">Optag stemmeopkald, og gem dem og Stemmeopkald</string>
+    <string name="voice_recoding_summer">Optag stemmeopkald og gem dem i Optager</string>
     <string name="voip_assistant">VoIP-assistent</string>
     <string name="voip_assistant_purpose">"Velkommen til VoIP-assistent. Du kan bruge denne app til at optage stemmeopkald foretaget med tredjepartsapps. Denne app vil få adgang til kaldenavne for at navngive gemte optagelser.
 Bemærk, at krænkelse af andres privatlivsrettigheder er ulovligt. Du må ikke bruge nogen information opnået gennem denne funktion til at krænke andres privatliv. Hvis du bruger ovenstående oplysninger ulovligt, vil du blive pålagt alle deraffølgende juridiske risici.
@@ -283,7 +292,7 @@ Bemærk, at krænkelse af andres privatlivsrettigheder er ulovligt. Du må ikke 
     <string name="voip_notice">Tryk for at vise %s</string>
     <string name="voipcord_privacy">Privatlivspolitik</string>
     <string name="voiprecord_always_on">Optag opkald automatisk</string>
-    <string name="voiprecord_open">Stemmeoptagelse</string>
+    <string name="voiprecord_open">Opkaldsoptager</string>
     <string name="wechat">WeChat</string>
     <string name="wednesday">Onsdag</string>
     <string name="wednesday_short">Ons</string>
