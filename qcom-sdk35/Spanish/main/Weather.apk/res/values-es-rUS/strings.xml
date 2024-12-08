@@ -53,7 +53,7 @@
     <string name="activity_find_city_dialog_message_location_service">Para obtener información relevante sobre el tiempo, permita a Tiempo acceder a su ubicación.</string>
     <string name="activity_find_city_dialog_set">Configuración</string>
     <string name="activity_find_city_dialog_title">Acceso a ubicación</string>
-    <string name="activity_find_city_location_authorize_message">Para garantizar que Tiempo pueda mostrar información relevante para su ubicación, otorgue permisos de ubicación y seleccione \"Permitir siempre\". Puede otorgar este permiso manteniendo pulsado el ícono de la aplicación y luego seleccionando Información de aplicaciones > Permisos de aplicaciones > Ubicación.</string>
+    <string name="activity_find_city_location_authorize_message">Para poder ver el tiempo de su ubicación actual, manenga pulsado el acceso directo de la Pantalla de inicio de Tiempo, luego toque Información de la aplicación > Permisos > Ubicación y establezca este permiso en \"Permitir siempre\".</string>
     <string name="activity_find_city_location_authorize_tag">Permisos requeridos</string>
     <string name="activity_main_one_alert" />
     <string name="activity_main_pub_time">Publicado a las %1$s</string>
@@ -94,7 +94,7 @@
     <string name="aqi_station_min_distance_station">Estación más cercana</string>
     <string name="aqi_top_pollution">Contaminantes principales</string>
     <string name="background_location_dialog_authorize_button">Configuración</string>
-    <string name="background_location_guide_dialog_msg">Permita que esta aplicación acceda a la ubicación mientras se ejecuta en segundo plano y seleccione \"Permitir siempre\" para asegurarse de recibir información meteorológica actualizada.</string>
+    <string name="background_location_guide_dialog_msg">Para poder ver el tiempo de forma precisa para su ubicación actual, permita que Tiempo acceda a su ubicación en segundo plano y establezca este permiso en \"Permitir siempre\".</string>
     <string name="background_location_guide_dialog_title">Permisos requeridos</string>
     <string name="button_allow">Aceptar</string>
     <string name="button_confirm">Aceptar</string>
@@ -305,6 +305,7 @@
     <string name="minute_rain_feedback_title">La información del tiempo parece ser incorrecta.</string>
     <string name="minute_rain_now">Ahora</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
+    <string name="missing_required_permission">Ha deshabilitado un permiso requerido.</string>
     <string name="miuix_access_state_desc">Seleccionado</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleccionar todo</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleccionar todo</string>
@@ -399,8 +400,8 @@
     <string name="privacy_grant_or_revoke_settings">Retirada del consentimiento</string>
     <string name="privacy_grant_success">Autorización concedida con éxito</string>
     <string name="privacy_policy">Política de Privacidad</string>
-    <string name="privacy_policy_msg"><Data>Esta aplicación contiene las siguientes funciones:&lt;br/>• Información del tiempo específica de su ubicación&lt;br/>• Pronóstico del tiempo&lt;br/>•Avisos del tiempo &lt;br/>&lt;br/>Tiempo necesita recopilar la información personal necesaria para brindarle los servicios básicos. Puede aprender cómo manejamos la información que recopilamos en nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a>. Lea y acepte nuestro &lt;a href=\"%2$s\">Acuerdo de usuario&lt;/a> y nuestra &lt;a href=\"%3$s\">Política de Privacidad&lt;/a> antes de usar Tiempo. Puede retirar su consentimiento a la Política de Privacidad de Tiempo en la Configuración en cualquier momento</Data></string>
-    <string name="privacy_policy_msg_for_gp"><Data>Esta aplicación contiene las siguientes funciones:&lt;br/>• Información del tiempo específico de su ubicación&lt;br/>•Pronóstico del tiempo&lt;br/>•Avisos del tiempo&lt;br/>&lt;br/>Tiempo necesita recopilar la información personal necesaria, incluidos los datos de ubicación, para que estas funciones estén disponibles, incluso cuando la aplicación está cerrada o no está en uso. Puede aprender cómo manejamos la información que recopilamos en nuestra &lt;a href=\"%1$s\">Política de privacidad&lt;/a>. Lea y acepte nuestro &lt;a href=\"%2$s\">Acuerdo de usuario&lt;/a> y nuestra &lt;a href=\"%3$s\">Política de privacidad&lt;/a> antes de usar Tiempo. Puede retirar su consentimiento a la Política de privacidad de Tiempo en Ajustes en cualquier momento.</Data></string>
+    <string name="privacy_policy_msg">&lt;Data>Esta aplicación contiene las siguientes funciones:&lt;br/>• Información del tiempo específica de su ubicación&lt;br/>• Pronóstico del tiempo&lt;br/>•Avisos del tiempo &lt;br/>&lt;br/>Tiempo necesita recopilar la información personal necesaria para brindarle los servicios básicos. Puede aprender cómo manejamos la información que recopilamos en nuestra &lt;a href=\"%1$s\">Política de Privacidad&lt;/a>. Lea y acepte nuestro &lt;a href=\"%2$s\">Acuerdo de usuario&lt;/a> y nuestra &lt;a href=\"%3$s\">Política de Privacidad&lt;/a> antes de usar Tiempo. Puede retirar su consentimiento a la Política de Privacidad de Tiempo en la Configuración en cualquier momento&lt;/Data></string>
+    <string name="privacy_policy_msg_for_gp">&lt;Data>Esta aplicación contiene las siguientes funciones:&lt;br/>• Información del tiempo específico de su ubicación&lt;br/>•Pronóstico del tiempo&lt;br/>•Avisos del tiempo&lt;br/>&lt;br/>Tiempo necesita recopilar la información personal necesaria, incluidos los datos de ubicación, para que estas funciones estén disponibles, incluso cuando la aplicación está cerrada o no está en uso. Puede aprender cómo manejamos la información que recopilamos en nuestra &lt;a href=\"%1$s\">Política de privacidad&lt;/a>. Lea y acepte nuestro &lt;a href=\"%2$s\">Acuerdo de usuario&lt;/a> y nuestra &lt;a href=\"%3$s\">Política de privacidad&lt;/a> antes de usar Tiempo. Puede retirar su consentimiento a la Política de privacidad de Tiempo en Ajustes en cualquier momento.&lt;/Data></string>
     <string name="privacy_revoke_success">Autorización revocada con éxito</string>
     <string name="privacy_settings">Política de Privacidad</string>
     <string name="pull_fresh_updated">Actualizado con éxito</string>
@@ -419,6 +420,11 @@
     <string name="realtime_wind_default_title">Viento</string>
     <string name="refresh_fail">No se pudo conectar a la red</string>
     <string name="reminder_from_xiaomi_weather_app">Alerta de Tiempo</string>
+    <string name="request_cta_connect_net">Permitir a esta aplicación conectarse a internet y conceder los permisos obligatorios arriba mencionados.</string>
+    <string name="request_permission_background_location_dialog_content">Para garantizar que esta aplicación utilice siempre información de ubicación precisa, permita siempre que acceda a su ubicación.</string>
+    <string name="request_permission_location_dialog_content">Para mostrar información relevante del tiempo en su ubicación actual</string>
+    <string name="request_permission_main_purpose">Mostrar información del tiempo</string>
+    <string name="request_permission_storage_dialog_content">Para compartir información del tiempo en formato de imagen</string>
     <string name="revoke_fail">No es posible conectarse a la red</string>
     <string name="revoke_privacy_policy_title">Retirada del consentimiento</string>
     <string name="saturday">Sábado</string>

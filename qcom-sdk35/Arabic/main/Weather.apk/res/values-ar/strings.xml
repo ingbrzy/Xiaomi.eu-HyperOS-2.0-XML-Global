@@ -53,7 +53,7 @@
     <string name="activity_find_city_dialog_message_location_service">اسمح للطقس بالوصول إلى موقعك للحصول على بيانات دقيقة.</string>
     <string name="activity_find_city_dialog_set">الإعدادات</string>
     <string name="activity_find_city_dialog_title">الوصول إلى الموقع</string>
-    <string name="activity_find_city_location_authorize_message">لضمان حصول تطبيق الطقس على معلومات دقيقة لموقعك الحالي، امنح أذونات الموقع وحدد \"السماح دائمًا\". يمكنك منح هذا الإذن بالضغط مطولا على أيقونة التطبيق ثم تحديد معلومات التطبيق > أذونات التطبيق > الموقع.</string>
+    <string name="activity_find_city_location_authorize_message">لكي تتمكن من عرض الطقس لموقعك الحالي، اضغط مطولاً على اختصار الطقس في شاشة الرئيسية، ثم اختر معلومات التطبيق > الأذونات> الموقع واضبط هذا الإذن على \"السماح دائمًا\".</string>
     <string name="activity_find_city_location_authorize_tag">الأذونات المطلوبة</string>
     <string name="activity_main_one_alert" />
     <string name="activity_main_pub_time">تم النشر في %1$s</string>
@@ -94,7 +94,7 @@
     <string name="aqi_station_min_distance_station">أقرب محطة</string>
     <string name="aqi_top_pollution">الملوثات الرئيسية</string>
     <string name="background_location_dialog_authorize_button">الإعدادات</string>
-    <string name="background_location_guide_dialog_msg">اسمح لهذا التطبيق بالوصول إلى الموقع أثناء التشغيل في الخلفية وحدد \"السماح دائمًا\" لضمان حصولك على معلومات الطقس المحدثة.</string>
+    <string name="background_location_guide_dialog_msg">لكي تتمكن من عرض الطقس بشكل دقيق وفي الوقت المناسب لموقعك الحالي، قم بالسماح لتطبيق الطقس بالوصول إلى موقعك في الخلفية واضبط هذا الإذن على \"السماح دائمًا\".</string>
     <string name="background_location_guide_dialog_title">الأذونات المطلوبة</string>
     <string name="button_allow">موافق</string>
     <string name="button_confirm">أوافق</string>
@@ -305,6 +305,7 @@
     <string name="minute_rain_feedback_title">يبدو أن معلومات الطقس غير صحيحة.</string>
     <string name="minute_rain_now">الآن</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
+    <string name="missing_required_permission">لقد قمت بتعطيل الإذن المطلوب.</string>
     <string name="miuix_access_state_desc">محدد</string>
     <string name="miuix_appcompat_action_mode_deselect_all">الغاء تحديد الكل</string>
     <string name="miuix_appcompat_action_mode_select_all">تحديد الكل</string>
@@ -399,8 +400,8 @@
     <string name="privacy_grant_or_revoke_settings">سحب الموافقة</string>
     <string name="privacy_grant_success">تم منح الترخيص بنجاح</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
-    <string name="privacy_policy_msg"><Data>يحتوي هذا التطبيق على الوظائف التالية:&lt;br/>• معلومات الطقس المحلية&lt;br/>• توقعات الطقس&lt;br/>• تحذيرات الطقس&lt;br/>&lt;br/>يحتاج الطقس إلى جمع البيانات الشخصية الضرورية لتزويدك بالخدمات الأساسية. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الطقس. يمكنك سحب الموافقة على سياسة خصوصية الطقس في أي وقت من الإعدادات.</Data></string>
-    <string name="privacy_policy_msg_for_gp"><Data>يحتوي هذا التطبيق على الميزات التالية:&lt;br/>• معلومات الطقس المحلية&lt;br/>• توقعات الطقس&lt;br/>• تحذيرات الطقس&lt;br/>&lt;br/>يحتاج الطقس إلى جمع البيانات الشخصية الضرورية بما في ذلك بيانات الموقع لتوفير هذه الخدمات حتى وأن كان التطبيق مغلق أو غير مستخدم. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الطقس. يمكنك سحب الموافقة على سياسة خصوصية الطقس في أي وقت من الإعدادات.</Data></string>
+    <string name="privacy_policy_msg">&lt;Data>يحتوي هذا التطبيق على الوظائف التالية:&lt;br/>• معلومات الطقس المحلية&lt;br/>• توقعات الطقس&lt;br/>• تحذيرات الطقس&lt;br/>&lt;br/>يحتاج الطقس إلى جمع البيانات الشخصية الضرورية لتزويدك بالخدمات الأساسية. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الطقس. يمكنك سحب الموافقة على سياسة خصوصية الطقس في أي وقت من الإعدادات.&lt;/Data></string>
+    <string name="privacy_policy_msg_for_gp">&lt;Data>يحتوي هذا التطبيق على الميزات التالية:&lt;br/>• معلومات الطقس المحلية&lt;br/>• توقعات الطقس&lt;br/>• تحذيرات الطقس&lt;br/>&lt;br/>يحتاج الطقس إلى جمع البيانات الشخصية الضرورية بما في ذلك بيانات الموقع لتوفير هذه الخدمات حتى وأن كان التطبيق مغلق أو غير مستخدم. يمكنك التعرف على كيفية تعاملنا مع البيانات التي نجمعها في &lt;a href=\"%1$s\">سياسة الخصوصية&lt;/a>. يجب أن تقرأ وتوافق على &lt;a href=\"%2$s\">اتفاقية المستخدم&lt;/a> و&lt;a href=\"%3$s\">سياسة الخصوصية&lt;/a> قبل استخدام الطقس. يمكنك سحب الموافقة على سياسة خصوصية الطقس في أي وقت من الإعدادات.&lt;/Data></string>
     <string name="privacy_revoke_success">تم إلغاء الترخيص بنجاح</string>
     <string name="privacy_settings">سياسة الخصوصية</string>
     <string name="pull_fresh_updated">تم التحديث بنجاح</string>
@@ -419,6 +420,11 @@
     <string name="realtime_wind_default_title">رياح</string>
     <string name="refresh_fail">تعذر الاتصال بالشبكة</string>
     <string name="reminder_from_xiaomi_weather_app">تنبيه طقس Mi</string>
+    <string name="request_cta_connect_net">اسمح لهذا التطبيق بالاتصال بالإنترنت ومنحه الأذونات أعلاة</string>
+    <string name="request_permission_background_location_dialog_content">للتأكد من أن هذا التطبيق يستخدم معلومات الموقع الدقيقة دائمًا، اسمح له دائمًا بالوصول إلى موقعك.</string>
+    <string name="request_permission_location_dialog_content">لعرض معلومات الطقس المرتبطة بموقعك الحالي</string>
+    <string name="request_permission_main_purpose">عرض معلومات الطقس</string>
+    <string name="request_permission_storage_dialog_content">لمشاركة معلومات الطقس على شكل صورة</string>
     <string name="revoke_fail">تعذر الاتصال بالشبكة</string>
     <string name="revoke_privacy_policy_title">سحب الموافقة</string>
     <string name="saturday">السبت</string>

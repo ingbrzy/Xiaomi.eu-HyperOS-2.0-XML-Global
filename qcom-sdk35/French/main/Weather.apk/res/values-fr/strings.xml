@@ -53,7 +53,7 @@
     <string name="activity_find_city_dialog_message_location_service">Pour obtenir des informations météo pertinentes, autorisez Météo à accéder à votre position.</string>
     <string name="activity_find_city_dialog_set">Paramètres</string>
     <string name="activity_find_city_dialog_title">Accès à ma localisation</string>
-    <string name="activity_find_city_location_authorize_message">"Pour vous assurer que Météo peut afficher des informations pertinentes pour votre localisation, accordez des autorisations de localisation et sélectionnez \"Toujours autoriser\". Vous pouvez accorder cette autorisation en appuyant et maintenant l'icône de l’application puis en sélectionnant Informations sur l'application > Autorisations de l'application > Localisation."</string>
+    <string name="activity_find_city_location_authorize_message">"Pour afficher la météo de votre localisation actuelle, appuyez sur le raccourci de l'écran d'accueil Météo, puis appuyez sur Information de l'application > Autorisations > Localisation et définissez cette autorisation sur « Toujours autoriser »."</string>
     <string name="activity_find_city_location_authorize_tag">Autorisations requises</string>
     <string name="activity_main_one_alert" />
     <string name="activity_main_pub_time">Publié à %1$s</string>
@@ -94,7 +94,7 @@
     <string name="aqi_station_min_distance_station">Station la plus proche</string>
     <string name="aqi_top_pollution">Polluants majeurs</string>
     <string name="background_location_dialog_authorize_button">Paramètres</string>
-    <string name="background_location_guide_dialog_msg">"Autorisez cette application à accéder à la localisation pendant l'exécution en arrière-plan et sélectionnez \"Toujours autoriser\" pour vous assurer de recevoir des informations météorologiques à jour."</string>
+    <string name="background_location_guide_dialog_msg">Pour pouvoir afficher la météo en temps opportun et exacte pour votre localisation actuelle, autorisez Météo à accéder à votre localisation en arrière-plan et définissez cette autorisation sur \"Toujours autoriser\".</string>
     <string name="background_location_guide_dialog_title">Autorisations requises</string>
     <string name="button_allow">OK</string>
     <string name="button_confirm">Accepter</string>
@@ -305,6 +305,7 @@
     <string name="minute_rain_feedback_title">Les infos météo semblent incorrectes.</string>
     <string name="minute_rain_now">Maintenant</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
+    <string name="missing_required_permission">Vous avez désactivé une autorisation requise.</string>
     <string name="miuix_access_state_desc">Sélectionné</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Tout désélectionner</string>
     <string name="miuix_appcompat_action_mode_select_all">Tout sélectionner</string>
@@ -399,8 +400,8 @@
     <string name="privacy_grant_or_revoke_settings">Retrait du consentement</string>
     <string name="privacy_grant_success">Autorisation accordée avec succès</string>
     <string name="privacy_policy">Politique de Confidentialité</string>
-    <string name="privacy_policy_msg"><Data>"Cette application contient les fonctionnalités suivantes:&lt;br/>• Informations météorologiques spécifiques à votre localisation&lt;br/>• Prévisions météorologiques&lt;br/>• Avertissements météorologiques&lt;br/>&lt;br/>Météo a besoin de collecter les informations personnelles nécessaires pour vous fournir les services de base. Vous pouvez découvrir comment nous traitons les informations que nous recueillons dans notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a>. Lisez et acceptez notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> et notre &lt;a href=\"%3$s\">Politique de Confidentialité&lt;/a> avant d'utiliser La météo. Vous pouvez retirer votre consentement à la Politique de Confidentialité de La météo dans les Paramètres à tout moment."</Data></string>
-    <string name="privacy_policy_msg_for_gp"><Data>"Cette application contient les fonctionnalités suivantes:&lt;br/>• Informations météorologiques spécifiques à votre localisation&lt;br/>• Prévisions météorologiques&lt;br/>• Avertissements météorologiques&lt;br/>&lt;br/>La météo doit collecter les informations personnelles nécessaires, y compris les données de localisation, pour rendre ces fonctionnalités disponibles, même lorsque l'application est fermée ou non utilisée. Vous pouvez découvrir comment nous traitons les informations que nous recueillons dans notre &lt;a href=\"%1$s\">Politique de confidentialité&lt;/a>. Lisez et acceptez notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> et notre &lt;a href=\"%3$s\">Politique de Confidentialité&lt;/a> avant d'utiliser La météo. Vous pouvez retirer votre consentement à la Politique de Confidentialité de La météo dans les Paramètres à tout moment."</Data></string>
+    <string name="privacy_policy_msg">"&lt;Data>Cette application contient les fonctionnalités suivantes:&lt;br/>• Informations météorologiques spécifiques à votre localisation&lt;br/>• Prévisions météorologiques&lt;br/>• Avertissements météorologiques&lt;br/>&lt;br/>Météo a besoin de collecter les informations personnelles nécessaires pour vous fournir les services de base. Vous pouvez découvrir comment nous traitons les informations que nous recueillons dans notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a>. Lisez et acceptez notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> et notre &lt;a href=\"%3$s\">Politique de Confidentialité&lt;/a> avant d'utiliser La météo. Vous pouvez retirer votre consentement à la Politique de Confidentialité de La météo dans les Paramètres à tout moment.&lt;/Data>"</string>
+    <string name="privacy_policy_msg_for_gp">"&lt;Data>Cette application contient les fonctionnalités suivantes:&lt;br/>• Informations météorologiques spécifiques à votre localisation&lt;br/>• Prévisions météorologiques&lt;br/>• Avertissements météorologiques&lt;br/>&lt;br/>La météo doit collecter les informations personnelles nécessaires, y compris les données de localisation, pour rendre ces fonctionnalités disponibles, même lorsque l'application est fermée ou non utilisée. Vous pouvez découvrir comment nous traitons les informations que nous recueillons dans notre &lt;a href=\"%1$s\">Politique de confidentialité&lt;/a>. Lisez et acceptez notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> et notre &lt;a href=\"%3$s\">Politique de Confidentialité&lt;/a> avant d'utiliser La météo. Vous pouvez retirer votre consentement à la Politique de Confidentialité de La météo dans les Paramètres à tout moment.&lt;/Data>"</string>
     <string name="privacy_revoke_success">Autorisation révoquée avec succès</string>
     <string name="privacy_settings">Politique de Confidentialité</string>
     <string name="pull_fresh_updated">Mis à jour avec succès</string>
@@ -419,6 +420,11 @@
     <string name="realtime_wind_default_title">Vent</string>
     <string name="refresh_fail">Impossible de se connecter au réseau</string>
     <string name="reminder_from_xiaomi_weather_app">Alerte Météo Mi</string>
+    <string name="request_cta_connect_net">Autorisez cette application à se connecter à internet et accordez les autorisations obligatoires répertoriées ci-dessus.</string>
+    <string name="request_permission_background_location_dialog_content">"Pour vous assurer que l'application utilise toujours des informations de localisation précises, autorisez-la toujours à accéder à votre position."</string>
+    <string name="request_permission_location_dialog_content">Pour afficher les informations météo pertinentes dans votre position actuelle</string>
+    <string name="request_permission_main_purpose">Affichage des informations météo</string>
+    <string name="request_permission_storage_dialog_content">Pour partager les informations météo au format image</string>
     <string name="revoke_fail">Impossible de se connecter au réseau</string>
     <string name="revoke_privacy_policy_title">Retrait du consentement</string>
     <string name="saturday">Samedi</string>
