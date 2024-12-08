@@ -53,7 +53,7 @@
     <string name="activity_find_city_dialog_message_location_service">関連する天気情報を取得するには、\"天気\" に位置情報へのアクセスを許可してください。</string>
     <string name="activity_find_city_dialog_set">設定</string>
     <string name="activity_find_city_dialog_title">位置情報へのアクセス</string>
-    <string name="activity_find_city_location_authorize_message">天気アプリが現在地に関連する情報を表示するには、位置情報へのアクセス許可を付与し、[常に許可] を選択してください。この許可を付与するには、アプリのアイコンを長押しして、[アプリ情報] > [アプリのアクセス許可] > [位置情報] を選択します。</string>
+    <string name="activity_find_city_location_authorize_message">現在地の天気を表示するには、ホーム画面の天気のショートカットを長押しし、[アプリ情報] > [アクセス許可] > [位置情報] をタップして、このアクセス許可を「常に許可」に設定してください。</string>
     <string name="activity_find_city_location_authorize_tag">アクセス許可が必要です</string>
     <string name="activity_main_one_alert" />
     <string name="activity_main_pub_time">%1$sに公開</string>
@@ -94,7 +94,7 @@
     <string name="aqi_station_min_distance_station">最寄りの観測地点</string>
     <string name="aqi_top_pollution">主要な汚染物質</string>
     <string name="background_location_dialog_authorize_button">設定</string>
-    <string name="background_location_guide_dialog_msg">このアプリがバックグラウンドでの実行中に位置情報にアクセスすることを許可し、[常に許可] を選択すると、最新の気象情報を確実に受信できます。</string>
+    <string name="background_location_guide_dialog_msg">現在地の天気をタイムリーかつ正確に表示するには、天気アプリがバックグラウンドで位置情報にアクセスすることを許可し、このアクセス許可を「常に許可」に設定してください。</string>
     <string name="background_location_guide_dialog_title">アクセス許可が必要です</string>
     <string name="button_allow">OK</string>
     <string name="button_confirm">同意</string>
@@ -305,6 +305,7 @@
     <string name="minute_rain_feedback_title">天気情報が間違っているようです。</string>
     <string name="minute_rain_now">現在</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
+    <string name="missing_required_permission">必要な権限を無効にしました。</string>
     <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
@@ -399,8 +400,8 @@
     <string name="privacy_grant_or_revoke_settings">同意の撤回</string>
     <string name="privacy_grant_success">正常に承認を付与しました</string>
     <string name="privacy_policy">プライバシーポリシー</string>
-    <string name="privacy_policy_msg"><Data>このアプリには次の機能が含まれます。&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、設定でいつでも撤回することができます。</Data></string>
-    <string name="privacy_policy_msg_for_gp"><Data>このアプリには次の機能が含まれます：&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、アプリを閉じているときや使用していないときでも、これらの機能を利用できるようにするために、位置情報などの必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。</Data></string>
+    <string name="privacy_policy_msg">&lt;Data>このアプリには次の機能が含まれます。&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取り扱い方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、設定でいつでも撤回することができます。&lt;/Data></string>
+    <string name="privacy_policy_msg_for_gp">&lt;Data>このアプリには次の機能が含まれます：&lt;br/>• 現在地の天気情報&lt;br/>• 天気予報&lt;br/>• 気象警報&lt;br/>&lt;br/>天気アプリは、アプリを閉じているときや使用していないときでも、これらの機能を利用できるようにするために、位置情報などの必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。天気アプリの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。天気アプリに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。&lt;/Data></string>
     <string name="privacy_revoke_success">承認は正常に撤回されました</string>
     <string name="privacy_settings">プライバシーポリシー</string>
     <string name="pull_fresh_updated">正常にアップデートされました</string>
@@ -419,6 +420,11 @@
     <string name="realtime_wind_default_title">風</string>
     <string name="refresh_fail">ネットワークに接続できませんでした</string>
     <string name="reminder_from_xiaomi_weather_app">Mi 気象警報</string>
+    <string name="request_cta_connect_net">このアプリにインターネットへの接続を許可し、上記の必須のアクセス許可を付与します。</string>
+    <string name="request_permission_background_location_dialog_content">このアプリが常に正確な位置情報を使用できるように、位置情報へのアクセスを常時許可してください。</string>
+    <string name="request_permission_location_dialog_content">現在地に関連する天気情報を表示するため</string>
+    <string name="request_permission_main_purpose">天気情報の表示</string>
+    <string name="request_permission_storage_dialog_content">画像形式で天気情報を共有するため</string>
     <string name="revoke_fail">ネットワークに接続できません</string>
     <string name="revoke_privacy_policy_title">同意の撤回</string>
     <string name="saturday">土曜日</string>

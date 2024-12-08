@@ -53,7 +53,7 @@
     <string name="activity_find_city_dialog_message_location_service">หากต้องการรับข้อมูลสภาพอากาศที่เกี่ยวข้อง อนุญาตให้สภาพอากาศเข้าถึงตำแหน่งของคุณ</string>
     <string name="activity_find_city_dialog_set">การตั้งค่า</string>
     <string name="activity_find_city_dialog_title">การเข้าถึงตำแหน่งพิกัด</string>
-    <string name="activity_find_city_location_authorize_message">เพื่อให้แน่ใจว่าสภาพอากาศสามารถแสดงข้อมูลที่เกี่ยวข้องกับตำแหน่งของคุณได้ ให้อนุญาตตำแหน่งและเลือก \"อนุญาตเสมอ\" คุณสามารถให้สิทธิ์นี้ได้โดยการกดไอคอนแอปค้างไว้ จากนั้นเลือก ข้อมูลแอป > สิทธิ์ของแอป > ที่ตั้ง</string>
+    <string name="activity_find_city_location_authorize_message">หากต้องการดูสภาพอากาศในตำแหน่งปัจจุบันของคุณ ให้กดปุ่มลัดบนหน้าจอหลักของสภาพอากาศค้างไว้ จากนั้นแตะ ข้อมูลแอป > การอนุญาต > ตำแหน่งที่ตั้ง และตั้งค่าการอนุญาตนี้เป็น \"อนุญาตเสมอ\"</string>
     <string name="activity_find_city_location_authorize_tag">จำเป็นต้องขออนุญาต</string>
     <string name="activity_main_one_alert" />
     <string name="activity_main_pub_time">เผยแพร่เมื่อ %1$s</string>
@@ -94,7 +94,7 @@
     <string name="aqi_station_min_distance_station">สถานีที่ใกล้ที่สุด</string>
     <string name="aqi_top_pollution">สารมลพิษหลัก</string>
     <string name="background_location_dialog_authorize_button">การตั้งค่า</string>
-    <string name="background_location_guide_dialog_msg">อนุญาตให้แอปนี้เข้าถึงตำแหน่งขณะทำงานในพื้นหลัง และเลือก \"อนุญาตเสมอ\" เพื่อให้แน่ใจว่าคุณจะได้รับข้อมูลสภาพอากาศที่เป็นปัจจุบัน</string>
+    <string name="background_location_guide_dialog_msg">หากต้องการดูสภาพอากาศที่แม่นยำและทันท่วงทีสำหรับตำแหน่งปัจจุบันของคุณ โปรดอนุญาตให้สภาพอากาศเข้าถึงตำแหน่งของคุณในพื้นหลัง และตั้งค่าการอนุญาตนี้เป็น \"อนุญาตเสมอ\"</string>
     <string name="background_location_guide_dialog_title">ต้องการการอนุญาต</string>
     <string name="button_allow">ตกลง</string>
     <string name="button_confirm">ยอมรับ</string>
@@ -305,6 +305,7 @@
     <string name="minute_rain_feedback_title">ข้อมูลสภาพอากาศไม่ถูกต้อง</string>
     <string name="minute_rain_now">ขณะนี้</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
+    <string name="missing_required_permission">คุณได้ปิดใช้การอนุญาตที่จำเป็น</string>
     <string name="miuix_access_state_desc">ที่เลือกไว้</string>
     <string name="miuix_appcompat_action_mode_deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_select_all">เลือกทั้งหมด</string>
@@ -377,7 +378,7 @@
     <string name="no_data">ไม่มีข้อมูล</string>
     <string name="no_internet_message">อุปกรณ์ของคุณจำเป็นต้องเชื่อมต่อกับเครือข่ายเพื่อให้คุณสามารถเพิกถอนความยินยอมได้ ตรวจสอบการตั้งค่าเครือข่ายของคุณแล้วลองอีกครั้ง</string>
     <string name="no_vote_ratio">ป้องกัน %1$s%%</string>
-    <string name="non_wifi_environment">เชื่อมต่อกับ Wi-Fi เพื่อดาวน์โหลดเอฟเฟกต์เสียง</string>
+    <string name="non_wifi_environment">เชื่อมต่อกับ Wi-Fi เพื่อดาวน์โหลดเอฟเฟ็กต์เสียง</string>
     <string name="noon">เที่ยงวัน</string>
     <string name="not_set">ไม่ได้ตั้งค่า</string>
     <string name="notif_aqi_title">AQI เท่ากับ %1$d ที่ %2$s วันนี้</string>
@@ -399,16 +400,16 @@
     <string name="privacy_grant_or_revoke_settings">การเพิกถอนความยินยอม</string>
     <string name="privacy_grant_success">อนุมัติการให้สิทธิ์เรียบร้อยแล้ว</string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
-    <string name="privacy_policy_msg"><Data>แอปนี้มีคุณสมบัติดังต่อไปนี้:&lt;br/>• ข้อมูลสภาพอากาศเฉพาะสำหรับตำแหน่งของคุณ&lt;br/>• พยากรณ์อากาศ&lt;br/>• คำเตือนสภาพอากาศ&lt;br/>&lt;br/>สภาพอากาศจำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นเพื่อให้บริการขั้นพื้นฐานแก่คุณ คุณสามารถเรียนรู้วิธีที่เราจัดการกับข้อมูลที่เรารวบรวมได้ใน &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%3$s\">นโยบายความเป็นส่วนตัว&lt;/a> ของเราก่อนใช้ สภาพอากาศ คุณสามารถเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวของสภาพอากาศในการตั้งค่าได้ทุกเมื่อ</Data></string>
-    <string name="privacy_policy_msg_for_gp"><Data>แอปนี้มีคุณสมบัติดังต่อไปนี้:&lt;br/>• ข้อมูลสภาพอากาศเฉพาะสำหรับตำแหน่งของคุณ&lt;br/>• พยากรณ์อากาศ&lt;br/>• คำเตือนสภาพอากาศ&lt;br/>&lt;br/>สภาพอากาศจำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นรวมถึงข้อมูลตำแหน่งเพื่อให้คุณลักษณะเหล่านี้พร้อมใช้งานแม้ว่าแอปจะปิดหรือไม่ได้ใช้งานก็ตาม คุณสามารถเรียนรู้วิธีที่เราจัดการกับข้อมูลที่เรารวบรวมได้ใน &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%3$s\">นโยบายความเป็นส่วนตัว&lt;/a> ของเราก่อนใช้ สภาพอากาศ คุณสามารถเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวของสภาพอากาศในการตั้งค่าได้ทุกเมื่อ</Data></string>
+    <string name="privacy_policy_msg">&lt;Data>แอปนี้มีคุณสมบัติดังต่อไปนี้:&lt;br/>• ข้อมูลสภาพอากาศเฉพาะสำหรับตำแหน่งของคุณ&lt;br/>• พยากรณ์อากาศ&lt;br/>• คำเตือนสภาพอากาศ&lt;br/>&lt;br/>สภาพอากาศจำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นเพื่อให้บริการขั้นพื้นฐานแก่คุณ คุณสามารถเรียนรู้วิธีที่เราจัดการกับข้อมูลที่เรารวบรวมได้ใน &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%3$s\">นโยบายความเป็นส่วนตัว&lt;/a> ของเราก่อนใช้ สภาพอากาศ คุณสามารถเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวของสภาพอากาศในการตั้งค่าได้ทุกเมื่อ&lt;/Data></string>
+    <string name="privacy_policy_msg_for_gp">&lt;Data>แอปนี้มีคุณสมบัติดังต่อไปนี้:&lt;br/>• ข้อมูลสภาพอากาศเฉพาะสำหรับตำแหน่งของคุณ&lt;br/>• พยากรณ์อากาศ&lt;br/>• คำเตือนสภาพอากาศ&lt;br/>&lt;br/>สภาพอากาศจำเป็นต้องรวบรวมข้อมูลส่วนบุคคลที่จำเป็นรวมถึงข้อมูลตำแหน่งเพื่อให้คุณลักษณะเหล่านี้พร้อมใช้งานแม้ว่าแอปจะปิดหรือไม่ได้ใช้งานก็ตาม คุณสามารถเรียนรู้วิธีที่เราจัดการกับข้อมูลที่เรารวบรวมได้ใน &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%3$s\">นโยบายความเป็นส่วนตัว&lt;/a> ของเราก่อนใช้ สภาพอากาศ คุณสามารถเพิกถอนความยินยอมของคุณต่อนโยบายความเป็นส่วนตัวของสภาพอากาศในการตั้งค่าได้ทุกเมื่อ&lt;/Data></string>
     <string name="privacy_revoke_success">ยกเลิกการให้สิทธิ์เรียบร้อยแล้ว</string>
     <string name="privacy_settings">นโยบายความเป็นส่วนตัว</string>
     <string name="pull_fresh_updated">อัปเดตเสร็จสิ้น</string>
     <string name="pull_fresh_updating">กำลังอัปเดต…</string>
     <string name="radar_cloud_image_title">แผนที่เรดาร์</string>
     <string name="radar_cloud_update_time">ก่อน %1$s</string>
-    <string name="rain_sound_setting_summary_text">การเปลี่ยนแปลงสภาพอากาศที่มาพร้อมกับเอฟเฟกต์เสียง</string>
-    <string name="rain_sound_setting_title_text">เอฟเฟกต์เสียง</string>
+    <string name="rain_sound_setting_summary_text">การเปลี่ยนแปลงสภาพอากาศที่มาพร้อมกับเอฟเฟ็กต์เสียง</string>
+    <string name="rain_sound_setting_title_text">เอฟเฟ็กต์เสียง</string>
     <string name="rating_dialog_later">ในภายหลัง</string>
     <string name="rating_dialog_rate_now">ให้คะแนนตอนนี้</string>
     <string name="real_time_sunrise">อาทิตย์ขึ้น %1$s</string>
@@ -419,6 +420,11 @@
     <string name="realtime_wind_default_title">ลม</string>
     <string name="refresh_fail">ไม่สามารถเชื่อมเครือข่ายได้</string>
     <string name="reminder_from_xiaomi_weather_app">Mi แจ้งเตือนสภาพอากาศ</string>
+    <string name="request_cta_connect_net">อนุญาตให้แอปนี้เชื่อมต่ออินเทอร์เน็ตและให้การอนุญาตที่จำเป็นตามรายการด้านบน</string>
+    <string name="request_permission_background_location_dialog_content">อนุญาตให้แอปเข้าถึงตำแหน่งของคุณเสมอเพื่อให้แน่ใจว่าแอปนี้จะใช้ข้อมูลตำแหน่งที่แม่นยำอยู่เสมอ</string>
+    <string name="request_permission_location_dialog_content">สำหรับการแสดงข้อมูลสภาพอากาศที่เกี่ยวข้องในตำแหน่งปัจจุบันของคุณ</string>
+    <string name="request_permission_main_purpose">แสดงข้อมูลสภาพอากาศ</string>
+    <string name="request_permission_storage_dialog_content">สำหรับการแชร์ข้อมูลสภาพอากาศในรูปแบบภาพ</string>
     <string name="revoke_fail">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
     <string name="revoke_privacy_policy_title">การเพิกถอนความยินยอม</string>
     <string name="saturday">วันเสาร์</string>

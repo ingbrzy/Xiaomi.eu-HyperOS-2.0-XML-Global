@@ -53,7 +53,7 @@
     <string name="activity_find_city_dialog_message_location_service">Pre presné informácie o počasí povoľte aplikácii Počasie prístup ku vašej polohe.</string>
     <string name="activity_find_city_dialog_set">Nastavenia</string>
     <string name="activity_find_city_dialog_title">Prístup k polohe</string>
-    <string name="activity_find_city_location_authorize_message">Ak sa chcete uistiť, že predpoveď počasia môže zobrazovať relevantné informácie pre vašu polohu, udeľte povolenia určenia polohy a vyberte možnosť „Vždy povoliť“. Toto povolenie môžete udeliť stlačením a podržaním ikony aplikácie a následným výberom položky v časti O aplikácii > Povolenia aplikácie > Poloha.</string>
+    <string name="activity_find_city_location_authorize_message">Ak chcete zobraziť počasie pre svoju aktuálnu polohu, stlačte a podržte odkaz Počasie na Domovskej obrazovke a potom ťuknite na položku Informácie o aplikácii > Povolenia > Poloha a nastavte tieto povolenia na \"Povoliť vždy\".</string>
     <string name="activity_find_city_location_authorize_tag">Vyžadujú sa povolenia</string>
     <string name="activity_main_one_alert" />
     <string name="activity_main_pub_time">Publikované %1$s</string>
@@ -94,7 +94,7 @@
     <string name="aqi_station_min_distance_station">Najbližšia stanica</string>
     <string name="aqi_top_pollution">Hlavní znečisťovatelia</string>
     <string name="background_location_dialog_authorize_button">Nastavenia</string>
-    <string name="background_location_guide_dialog_msg">Povoľte tejto aplikácii prístup k vašej polohe, keď je spustená na pozadí, a vyberte možnosť „Vždy povoliť“, aby ste mali vždy aktuálne informácie o počasí.</string>
+    <string name="background_location_guide_dialog_msg">Ak chcete zobraziť aktuálne a presné počasie pre svoju aktuálnu polohu, povoľte aplikácii Počasie prístup k svojej polohe na pozadí a nastavte toto povolenie na možnosť „Povoliť vždy“.</string>
     <string name="background_location_guide_dialog_title">Vyžadujú sa povolenia</string>
     <string name="button_allow">OK</string>
     <string name="button_confirm">Súhlasím</string>
@@ -221,7 +221,7 @@
     <string name="feedback_result_fail_no_choice">Vyberte aktuálne počasie</string>
     <string name="feedback_result_fail_no_reason">Ďakujeme za spätnú väzbu!</string>
     <string name="feedback_result_fail_same_type">Zdá sa, že vaše hodnotenie počasia sa nelíši od aktuálneho počasia. Skúste to znovu.</string>
-    <string name="feedback_result_success">Úspešne odoslané. Ďakujeme za váš názor.</string>
+    <string name="feedback_result_success">Úspešne odoslané. Ďakujeme za vašu spätnú väzbu.</string>
     <string name="feedback_sandy">Prašná búrka</string>
     <string name="feedback_sunny">Jasno</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -399,8 +399,8 @@
     <string name="privacy_grant_or_revoke_settings">Odvolanie súhlasu</string>
     <string name="privacy_grant_success">Autorizácia úspešne udelená</string>
     <string name="privacy_policy">Zásady ochrany osobných údajov</string>
-    <string name="privacy_policy_msg"><Data>Táto funkcia obsahuje nasledovné funkcie:&lt;br/>• Informácie o počasí na základe vašej polohy&lt;br/>• Predpoveď počasia&lt;br/>• Upozornenia na počasie&lt;br/>&lt;br/>Pre poskytovanie základných služieb musí Počasie zhromažďovať potrebné osobné informácie. Spôsob, akým zaobchádzame s informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím Počasia si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>. Svoj súhlas so Zásadami ochrany osobných údajov Počasia môžete kedykoľvek odvolať v Nastaveniach.</Data></string>
-    <string name="privacy_policy_msg_for_gp"><Data>Táto funkcia obsahuje nasledovné funkcie:&lt;br/>• Informácie o počasí na základe vašej polohy&lt;br/>• Predpoveď počasia&lt;br/>• Upozornenia na počasie&lt;br/>&lt;br/>Počasie musí zhromažďovať potrebné osobné informácie vrátane údajov o polohe, aby tieto funkcie boli k dispozícii, aj keď je aplikácia zatvorená alebo sa nepoužíva. Spôsob, akým zaobchádzame s informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím Počasia si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>. Svoj súhlas so Zásadami ochrany osobných údajov Počasia môžete kedykoľvek odvolať v Nastaveniach.</Data></string>
+    <string name="privacy_policy_msg">&lt;Data>Táto funkcia obsahuje nasledovné funkcie:&lt;br/>• Informácie o počasí na základe vašej polohy&lt;br/>• Predpoveď počasia&lt;br/>• Upozornenia na počasie&lt;br/>&lt;br/>Pre poskytovanie základných služieb musí Počasie zhromažďovať potrebné osobné informácie. Spôsob, akým zaobchádzame s informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím Počasia si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>. Svoj súhlas so Zásadami ochrany osobných údajov Počasia môžete kedykoľvek odvolať v Nastaveniach.&lt;/Data></string>
+    <string name="privacy_policy_msg_for_gp">&lt;Data>Táto funkcia obsahuje nasledovné funkcie:&lt;br/>• Informácie o počasí na základe vašej polohy&lt;br/>• Predpoveď počasia&lt;br/>• Upozornenia na počasie&lt;br/>&lt;br/>Počasie musí zhromažďovať potrebné osobné informácie vrátane údajov o polohe, aby tieto funkcie boli k dispozícii, aj keď je aplikácia zatvorená alebo sa nepoužíva. Spôsob, akým zaobchádzame s informáciami sa môžete dozvedieť v našich &lt;a href=\"%1$s\">Zásadách ochrany osobných údajov&lt;/a>. Pred použitím Počasia si prečítajte a vyjadrite súhlas s našimi zmluvami &lt;a href=\"%2$s\">Podmienky používania&lt;/a> a &lt;a href=\"%3$s\">Zásady ochrany osobných údajov&lt;/a>. Svoj súhlas so Zásadami ochrany osobných údajov Počasia môžete kedykoľvek odvolať v Nastaveniach.&lt;/Data></string>
     <string name="privacy_revoke_success">Autorizácia úspešne zrušená</string>
     <string name="privacy_settings">Zásady ochrany osobných údajov</string>
     <string name="pull_fresh_updated">Úspešne aktualizované</string>
