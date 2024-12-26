@@ -121,6 +121,9 @@
     <string name="dialog_backup_password_cancel">ביטול</string>
     <string name="dialog_backup_password_change_machine_tips">לא תוכל להעביר גיבוי עבור סיסמאות-מוגנות. כבה את גיבוי עבור ססמאות בשימוש Mi Mover.</string>
     <string name="dialog_backup_password_verify">אישור</string>
+    <string name="dialog_backup_service_missing_btn">הבנתי</string>
+    <string name="dialog_backup_service_missing_content">לא ניתן להשתמש ב-Mi Mover כי שירות הגיבוי לא זמין.</string>
+    <string name="dialog_backup_service_missing_title">לא ניתן להשתמש ב-Mi Mover</string>
     <string name="dialog_connect_ap_timeout_button">התחבר</string>
     <string name="dialog_connect_ap_timeout_message">נראה כי חיבור אוטומטי לוקח יותר מדי זמן. עליך לנסות להתחבר ידנית.</string>
     <string name="dialog_connect_ap_timeout_title">התחבר באופן ידני</string>
@@ -136,7 +139,7 @@
     <string name="dialog_request_permission_message_extra_summary">הרשאות אלה נדרשות כדי שהתכונות והשירותים הבסיסיים של האפליקציה יהיו זמינים.</string>
     <string name="dialog_request_permission_message_extra_title">הרשאות חובה</string>
     <string name="dialog_request_permission_message_global">אפליקציה זו זקוקה להרשאות הבאות כדי שתוכל לעבוד בצורה רגילה:</string>
-    <string name="dialog_request_permission_message_link" formatted="false"><Data>"יחד עם זאת, כדי להבין היטב את זכויותיך כמשתמש, וכן כיצד אנו משתמשים בנתונים שלך, קרא והסכם ל&lt;a href='%1s'>הסכם המשתמש&lt;/a> ול&lt;a href='%2s'>מדיניות הפרטיות&lt;/a> שלנו."</Data></string>
+    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>יחד עם זאת, כדי להבין היטב את זכויותיך כמשתמש, וכן כיצד אנו משתמשים בנתונים שלך, קרא והסכם ל&lt;a href='%1s'>הסכם המשתמש&lt;/a> ול&lt;a href='%2s'>מדיניות הפרטיות&lt;/a> שלנו.&lt;/Data>"</string>
     <string name="dialog_request_permission_message_provision_link">בתוך כך, על מנת להבין באופן מלא את זכויותיך כמשתמש וגם את הדרכים שבהן אנו משתמשים במידע שלך, עליך לקרוא את %1$s ואת %2$s שלנו ולהסכים אתם.</string>
     <string name="dialog_request_permission_title">שים לב</string>
     <string name="dialog_request_permission_title_global">נדרשת הרשאה</string>
@@ -561,7 +564,7 @@
     <string name="privacy_desc">ברוך הבא ל-Mi Mover! יישום זה מספק את השירותים הבאים:</string>
     <string name="privacy_experience_statement">הצטרף לתכנית חוויית המשתמש שלנו כדי לשתף אתנו את נתוני המשתמש, במטרה לעזור לנו לשפר את המוצרים והשירותים שלנו.</string>
     <string name="privacy_item1">· העברת קבצים, הודעות, הגדרות יישומי מערכת, ויישומים</string>
-    <string name="privacy_message"><Data>עליך לקרוא ולהסכים ל&lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ול&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> לפני השימוש ב-Mi Mover. תוכל לבטל את הסכמתך למדיניות הפרטיות של Mi Mover בכל עת ב-\"אודות Mi Mover\". אם אינך מסכים להשתמש בשירותים האמורים לעיל, לא תוכל להשתמש בכמה מהתכונות של יישום זה; עם זאת, יכולות התפקוד הבסיסיות שלו עדיין יהיו זמינות עבורך.</Data></string>
+    <string name="privacy_message">&lt;Data>עליך לקרוא ולהסכים ל&lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ול&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> לפני השימוש ב-Mi Mover. תוכל לבטל את הסכמתך למדיניות הפרטיות של Mi Mover בכל עת ב-\"אודות Mi Mover\". אם אינך מסכים להשתמש בשירותים האמורים לעיל, לא תוכל להשתמש בכמה מהתכונות של יישום זה; עם זאת, יכולות התפקוד הבסיסיות שלו עדיין יהיו זמינות עבורך.&lt;/Data></string>
     <string name="privacy_policy">מדיניות הפרטיות</string>
     <string name="privacy_title">תנאי השימוש</string>
     <string name="prompt_before_transmission_message1_summary">"אם תבחר להעביר אותם מהמכשיר הישן, נתוני היישומים (כולל היסטוריית הצ'טים) יידרסו."</string>
@@ -790,16 +793,16 @@
     <string name="title_request_write_settings_perm">לאפשר שינוי הגדרות המערכת</string>
     <string name="today">היום</string>
     <string name="tomorrow">מחר</string>
-    <string name="trans_apple">Connect your Apple device</string>
+    <string name="trans_apple">חברו את מכשיר ה-Apple שלכם</string>
     <string name="trans_apple_button_cancel">ביטול</string>
     <string name="trans_apple_button_cancel_hint">לבטל את ההעברה עכשיו?</string>
     <string name="trans_apple_button_cancel_negative">לא לבטל</string>
     <string name="trans_apple_button_cancel_positive">ביטול</string>
     <string name="trans_apple_button_reconnect">התחברות מחדש</string>
     <string name="trans_apple_hint">אל תצאו מדף זה, או השתמשו ב-Wi-Fi עד להשלמת ההעברה.</string>
-    <string name="trans_apple_hint_1_content">"Download Mi Mover from the App Store, or scan this QR code with your Apple device's Camera app."</string>
+    <string name="trans_apple_hint_1_content">יש להוריד את Mi Mover מחנות היישומים או לסרוק את קוד QR זה בעזרת יישום המצלמה במכשיר ה-Apple שלכם.</string>
     <string name="trans_apple_hint_1_title">%d. יש להתקין את Mi Mover</string>
-    <string name="trans_apple_hint_2_content">Open Mi Mover on your Apple device, tap \"Tap to send items\", and scan the QR code.</string>
+    <string name="trans_apple_hint_2_content">יש לפתוח את Mi Mover במכשיר ה-Apple שלכם, להקיש על \"הקישו לשליחת פריטים\" ולסרוק את קוד ה-QR.</string>
     <string name="trans_apple_hint_2_title">%d. יש לחבר מכשירים</string>
     <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
     <string name="trans_apple_interrupt_sub">הקישו למטה כדי להתחבר מחדש</string>
@@ -820,7 +823,7 @@
     <string name="trans_show_qr_code_label">פתיחת Mi Mover במכשיר הישן</string>
     <string name="trans_show_qr_code_label_for_pad">פתיחת Mi Mover במכשיר הישן</string>
     <string name="trans_sync_transfer_data_list">בחר פריטים אשר ברצונך להעביר למכשיר הישן</string>
-    <string name="trans_sync_transfer_data_list_apple">Transfer items from your Apple device</string>
+    <string name="trans_sync_transfer_data_list_apple">העברת פריטים ממכשיר ה-Apple שלכם</string>
     <string name="trans_sync_transfer_data_list_hint">רק רגע…</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">נא לבחור תוכן במכשיר הישן שלך ולהקיש על \"שליחה\".</string>
     <string name="trans_time_format_second">פחות מדקה %d</string>
