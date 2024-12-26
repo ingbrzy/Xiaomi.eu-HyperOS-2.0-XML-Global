@@ -157,6 +157,9 @@ https://appleid.apple.com/#!&amp;page=signin를 방문하여 끄십시오."</str
     <string name="dialog_backup_password_cancel">취소</string>
     <string name="dialog_backup_password_change_machine_tips">비밀번호로 보호된 백업을 전송하실 수 없습니다. Mi Mover를 사용하시기 전 백업 비밀번호를 끄십시오.</string>
     <string name="dialog_backup_password_verify">확인</string>
+    <string name="dialog_backup_service_missing_btn">알겠습니다</string>
+    <string name="dialog_backup_service_missing_content">백업 서비스가 제공되지 않아 Mi Mover를 사용할 수 없습니다.</string>
+    <string name="dialog_backup_service_missing_title">Mi Mover 사용 실패</string>
     <string name="dialog_connect_ap_timeout_button">연결</string>
     <string name="dialog_connect_ap_timeout_message">자동 연결에 시간이 너무 오래 걸리는 것 같습니다. 수동 연결을 시도하십시오.</string>
     <string name="dialog_connect_ap_timeout_title">수동 연결</string>
@@ -172,7 +175,7 @@ https://appleid.apple.com/#!&amp;page=signin를 방문하여 끄십시오."</str
     <string name="dialog_request_permission_message_extra_summary">이러한 권한은 해당 앱의 기본 기능과 서비스를 이용할 수 있도록 하기 위해 필요합니다.</string>
     <string name="dialog_request_permission_message_extra_title">필수 접근권한</string>
     <string name="dialog_request_permission_message_global">해당 앱은 정상 작동을 위해 다음의 권한이 요구됩니다:</string>
-    <string name="dialog_request_permission_message_link" formatted="false"><Data>"동시에 사용자의 권리와 데이터를 사용하는 방법을 완벽하게 이해하시기 위해, 저희의 &lt;a href='%1s'>이용자 약관&lt;/a> 및 &lt;a href='%2s'>개인 정보 보호 정책&lt;/a>을 읽고 동의해 주십시오."</Data></string>
+    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>동시에 사용자의 권리와 데이터를 사용하는 방법을 완벽하게 이해하시기 위해, 저희의 &lt;a href='%1s'>이용자 약관&lt;/a> 및 &lt;a href='%2s'>개인 정보 보호 정책&lt;/a>을 읽고 동의해 주십시오.&lt;/Data>"</string>
     <string name="dialog_request_permission_message_provision_link">또한 사용자로서의 이용자의 권리 및 저희가 귀하의 데이터를 사용하는 방법에 대해 충분히 이해하기 위해, 저희의 %1$s 및 %2$s을 읽고 동의하십시오.</string>
     <string name="dialog_request_permission_title">참고</string>
     <string name="dialog_request_permission_title_global">권한 요구됨</string>
@@ -600,7 +603,7 @@ WeChat을 여시고 나 > 설정 > 채팅 > 채팅 기록 백업 및 마이그�
     <string name="privacy_desc">Mi Mover에 오신 것을 환영합니다! 해당 앱은 다음 서비스를 제공합니다:</string>
     <string name="privacy_experience_statement">저희의 사용자 환경 개선 프로그램에 참여하여 제품 및 서비스 개선에 도움이 되는 사용자 데이터를 저희와 공유해 주십시오.</string>
     <string name="privacy_item1">· 파일, 메시지, 시스템 앱 설정 및 앱 전송</string>
-    <string name="privacy_message"><Data>Mi Mover를 사용하시기 전, 저희의 &lt;a href=\"%2$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%1$s\">개인 정보 보호 정책&lt;/a>을 읽고 동의해 주십시오.언제든지 \"Mi Mover 정보\"에서 개인 정보 보호 정책에 대한 동의를 철회하실 수 있습니다. 앞서 말한 서비스를 사용하는 것에 동의하지 않는다면, 이 앱의 일부 기능을 사용할 수 없게 되지만, 기본적인 기능은 여전히 제공될 것입니다.</Data></string>
+    <string name="privacy_message">&lt;Data>Mi Mover를 사용하시기 전, 저희의 &lt;a href=\"%2$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%1$s\">개인 정보 보호 정책&lt;/a>을 읽고 동의해 주십시오.언제든지 \"Mi Mover 정보\"에서 개인 정보 보호 정책에 대한 동의를 철회하실 수 있습니다. 앞서 말한 서비스를 사용하는 것에 동의하지 않는다면, 이 앱의 일부 기능을 사용할 수 없게 되지만, 기본적인 기능은 여전히 제공될 것입니다.&lt;/Data></string>
     <string name="privacy_policy">개인 정보 보호 정책</string>
     <string name="privacy_title">이용 약관</string>
     <string name="prompt_before_transmission_message1_summary">이전 기기에서 전송하시는 경우, 앱 데이터 (채팅 기록 포함)이 덮어쓰이게 됩니다.</string>
@@ -832,16 +835,16 @@ Xiaomi 계정에 로그인하여 항목을 복구하십시오."</string>
     <string name="title_request_write_settings_perm">시스템 설정 변경 허용</string>
     <string name="today">오늘</string>
     <string name="tomorrow">내일</string>
-    <string name="trans_apple">Connect your Apple device</string>
+    <string name="trans_apple">Apple 기기에 연결</string>
     <string name="trans_apple_button_cancel">취소</string>
     <string name="trans_apple_button_cancel_hint">전송을 취소하시겠습니까?</string>
     <string name="trans_apple_button_cancel_negative">취소하지 않음</string>
     <string name="trans_apple_button_cancel_positive">취소</string>
     <string name="trans_apple_button_reconnect">다시 연결</string>
     <string name="trans_apple_hint">전송이 완료될 때까지 이 페이지를 벗어나거나 Wi-Fi를 사용하지 마십시오.</string>
-    <string name="trans_apple_hint_1_content">"Download Mi Mover from the App Store, or scan this QR code with your Apple device's Camera app."</string>
+    <string name="trans_apple_hint_1_content">App Store에서 Mi Mover를 다운로드하거나 Apple 기기의 카메라 앱을 사용하여 이 QR 코드를 스캔하십시오.</string>
     <string name="trans_apple_hint_1_title">%d. Mi Mover 설치</string>
-    <string name="trans_apple_hint_2_content">Open Mi Mover on your Apple device, tap \"Tap to send items\", and scan the QR code.</string>
+    <string name="trans_apple_hint_2_content">Apple 기기에서 Mi Mover를 여시고, \"탭하여 항목 전송\"을 탭하신 후, QR 코드를 스캔하십시오.</string>
     <string name="trans_apple_hint_2_title">%d. 기기 연결</string>
     <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
     <string name="trans_apple_interrupt_sub">아래를 탭하여 다시 연결</string>
@@ -862,7 +865,7 @@ Mi Mover를 다운로드 및 설치하십시오."</string>
     <string name="trans_show_qr_code_label">이전 기기에서 Mi Mover를 실행하십시오</string>
     <string name="trans_show_qr_code_label_for_pad">이전 기기에서 Mi Mover를 실행하십시오</string>
     <string name="trans_sync_transfer_data_list">이전 기기에서 전송할 항목을 선택하십시오</string>
-    <string name="trans_sync_transfer_data_list_apple">Transfer items from your Apple device</string>
+    <string name="trans_sync_transfer_data_list_apple">Apple 기기에서 항목 전송</string>
     <string name="trans_sync_transfer_data_list_hint">잠시만 기다려 주십시오…</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">이전 기기에서 항목을 선택하고 \"전송\"을 탭하십시오.</string>
     <string name="trans_time_format_second">%d분 미만</string>

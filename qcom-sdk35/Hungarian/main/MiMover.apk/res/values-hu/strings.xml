@@ -157,6 +157,9 @@ Látogasson el ide https://appleid.apple.com/#!&amp;page=signin a kikapcsolásho
     <string name="dialog_backup_password_cancel">Mégse</string>
     <string name="dialog_backup_password_change_machine_tips">Jelszóval védett mentéseket nem tud átmásolni. A Mi Átköltözés használata előtt kapcsolja ki a mentés jelszóvédelmét.</string>
     <string name="dialog_backup_password_verify">OK</string>
+    <string name="dialog_backup_service_missing_btn">Rendben</string>
+    <string name="dialog_backup_service_missing_content">A Mi Átköltözés nem használható, mert a mentés szolgáltatás nem elérhető.</string>
+    <string name="dialog_backup_service_missing_title">A Mi Átköltözés nem használható</string>
     <string name="dialog_connect_ap_timeout_button">Csatlakozás</string>
     <string name="dialog_connect_ap_timeout_message">Úgy tűnik, hogy az automatikus csatlakozás túl sokáig tart. Próbáljon meg manuálisan csatlakozni.</string>
     <string name="dialog_connect_ap_timeout_title">Manuális csatlakozás</string>
@@ -172,7 +175,7 @@ Látogasson el ide https://appleid.apple.com/#!&amp;page=signin a kikapcsolásho
     <string name="dialog_request_permission_message_extra_summary">Ezekre az engedélyekre az alkalmazás alapfunkcióinak és szolgáltatásainak elérhetősége miatt van szükség.</string>
     <string name="dialog_request_permission_message_extra_title">Kötelező engedélyek</string>
     <string name="dialog_request_permission_message_global">Az alkalmazásnak a normális működéshez a következő engedélyekre van szüksége:</string>
-    <string name="dialog_request_permission_message_link" formatted="false"><Data>"Ugyanakkor felhasználóként az Ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa és fogadja el &lt;a href='%1s'>Felhasználási feltételeinket&lt;/a> és &lt;a href='%2s'>Adatvédelmi szabályzatunkat&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Ugyanakkor felhasználóként az Ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa és fogadja el &lt;a href='%1s'>Felhasználási feltételeinket&lt;/a> és &lt;a href='%2s'>Adatvédelmi szabályzatunkat&lt;/a>.&lt;/Data>"</string>
     <string name="dialog_request_permission_message_provision_link">Ugyanakkor felhasználóként az Ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa és fogadja el %1$s és %2$s dokumentumainkat.</string>
     <string name="dialog_request_permission_title">Figyelem</string>
     <string name="dialog_request_permission_title_global">Engedélyek szükségesek</string>
@@ -600,7 +603,7 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="privacy_desc">Üdvözli a Mi Mover! Ez az alkalmazás az alábbi szolgáltatásokat kínálja:</string>
     <string name="privacy_experience_statement">Csatlakozzon User Experience programunkhoz, és ossza meg felhasználói adatait velünk, hogy javítani tudjuk termékeinket és szolgáltatásainkat.</string>
     <string name="privacy_item1">· Fájlok, üzenetek, rendszeralkalmazás beállítások és alkalmazások átvitele</string>
-    <string name="privacy_message"><Data>Olvassa el és fogadja el a &lt;a href=\"%2$s\">Felhasználási feltételeinket&lt;/a> és az &lt;a href=\"%1$s\">Adatvédelmi Irányelveinket&lt;/a> mielőtt a Mi Mover alkalmazást használja. A Mi Mover Adatvédelmi Irányelveihez adott hozzájárulását bármikor visszavonhatja a Mi Mover névjegye menüpontban. Ha nem járul hozzá a fent említett szolgáltatások használatához, akkor nem fogja tudni használni az alkalmazás egyes funkcióit; alapvető funkciói azonban továbbra is elérhetőek lesznek az Ön számára.</Data></string>
+    <string name="privacy_message">&lt;Data>Olvassa el és fogadja el a &lt;a href=\"%2$s\">Felhasználási feltételeinket&lt;/a> és az &lt;a href=\"%1$s\">Adatvédelmi Irányelveinket&lt;/a> mielőtt a Mi Mover alkalmazást használja. A Mi Mover Adatvédelmi Irányelveihez adott hozzájárulását bármikor visszavonhatja a Mi Mover névjegye menüpontban. Ha nem járul hozzá a fent említett szolgáltatások használatához, akkor nem fogja tudni használni az alkalmazás egyes funkcióit; alapvető funkciói azonban továbbra is elérhetőek lesznek az Ön számára.&lt;/Data></string>
     <string name="privacy_policy">Adatvédelmi irányelvek</string>
     <string name="privacy_title">Felhasználási feltételek</string>
     <string name="prompt_before_transmission_message1_summary">Ha úgy dönt, hogy átviszi őket a régi készülékéről, az alkalmazásadatok (beleértve a csevegési előzményeket is) felülíródnak.</string>
@@ -832,16 +835,16 @@ Szabadítson fel legalább %s méretű helyet."</string>
     <string name="title_request_write_settings_perm">A rendszerbeállítások megváltoztatásának engedélyezése</string>
     <string name="today">Ma</string>
     <string name="tomorrow">Holnap</string>
-    <string name="trans_apple">Connect your Apple device</string>
+    <string name="trans_apple">Az Apple készülés csatlakoztatása</string>
     <string name="trans_apple_button_cancel">Mégse</string>
     <string name="trans_apple_button_cancel_hint">Visszavonja most az átvitelt?</string>
     <string name="trans_apple_button_cancel_negative">Ne vonja vissza</string>
     <string name="trans_apple_button_cancel_positive">Mégse</string>
     <string name="trans_apple_button_reconnect">Csatlakoztassa újra</string>
     <string name="trans_apple_hint">Az átvitel befejezéséig ne hagyja el ezt az oldalt, és ne használja a Wi-Fi-t.</string>
-    <string name="trans_apple_hint_1_content">"Download Mi Mover from the App Store, or scan this QR code with your Apple device's Camera app."</string>
+    <string name="trans_apple_hint_1_content">Töltse le a Mi Átköltözést az Alkalmazás-áruházból, vagy olvassa be ezt a QR-kódot az Apple Kamera alkalmazással.</string>
     <string name="trans_apple_hint_1_title">%d. A Mi Mover telepítése</string>
-    <string name="trans_apple_hint_2_content">Open Mi Mover on your Apple device, tap \"Tap to send items\", and scan the QR code.</string>
+    <string name="trans_apple_hint_2_content">Nyissa meg a Mi Átköltözést az Apple készülékén, koppintson a \"Koppintson az elemek küldéséhez\" gombra, és olvassa be a QR-kódot.</string>
     <string name="trans_apple_hint_2_title">%d. Készülékek csatlakoztatása</string>
     <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
     <string name="trans_apple_interrupt_sub">Koppinston alább az újracsatlakozáshoz</string>
@@ -862,7 +865,7 @@ Töltse le és telepítse a Mi Átköltözést."</string>
     <string name="trans_show_qr_code_label">A Mi Átköltözés megnyitása a régi készüléken</string>
     <string name="trans_show_qr_code_label_for_pad">A Mi Átköltözés megnyitása a régi készüléken</string>
     <string name="trans_sync_transfer_data_list">Válassza ki az átküldeni kívánt elemeket a régi eszközön</string>
-    <string name="trans_sync_transfer_data_list_apple">Transfer items from your Apple device</string>
+    <string name="trans_sync_transfer_data_list_apple">Elemek átvitele az Apple készülékről</string>
     <string name="trans_sync_transfer_data_list_hint">Egy pillanat…</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Válassza ki az elemeket a régi eszközén és koppintson a „Küldés” lehetőségre</string>
     <string name="trans_time_format_second">Kevesebb mint %d perc</string>

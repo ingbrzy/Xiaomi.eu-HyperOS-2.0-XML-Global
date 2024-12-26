@@ -157,6 +157,9 @@
     <string name="dialog_backup_password_cancel">ยกเลิก </string>
     <string name="dialog_backup_password_change_machine_tips">คุณจะไม่สามารถถ่ายโอนข้อมูลสำรองที่ป้องกันด้วยรหัสผ่าน ปิดรหัสผ่านข้อมูลสำรองก่อนใช้ Mi Mover</string>
     <string name="dialog_backup_password_verify">ตกลง</string>
+    <string name="dialog_backup_service_missing_btn">รับทราบ</string>
+    <string name="dialog_backup_service_missing_content">ไม่สามารถใช้ Mi Mover ได้เนื่องจากไม่สามารถใช้บริการสำรองข้อมูลได้</string>
+    <string name="dialog_backup_service_missing_title">ไม่สามารถใช้ Mi Mover ได้</string>
     <string name="dialog_connect_ap_timeout_button">เชื่อมต่อ</string>
     <string name="dialog_connect_ap_timeout_message">ดูเหมือนว่าการเชื่อมต่อโดยอัตโนมัติใช้เวลานานเกินไป ลองเชื่อมต่อด้วยตนเอง</string>
     <string name="dialog_connect_ap_timeout_title">เชื่อมต่อด้วยตนเอง</string>
@@ -172,7 +175,7 @@
     <string name="dialog_request_permission_message_extra_summary">สิทธิ์เหล่านี้จำเป็นต้องมีเพื่อให้ฟีเจอร์และบริการพื้นฐานของแอปนี้พร้อมใช้งาน</string>
     <string name="dialog_request_permission_message_extra_title">สิทธิ์ที่จำเป็น</string>
     <string name="dialog_request_permission_message_global">แอปนี้ต้องการการอนุญาตต่อไปนี้เพื่อให้สามารถทำงานได้ตามปกติ:</string>
-    <string name="dialog_request_permission_message_link" formatted="false"><Data>"ในเวลาเดียวกันเพื่อทำความเข้าใจสิทธิ์ของคุณอย่างเต็มที่ในฐานะผู้ใช้รวมถึงวิธีการที่เราใช้ข้อมูลของคุณ โปรดอ่านและยอมรับ &lt;a href='%1s'>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href='%2s'>นโยบายความเป็นส่วนตัว&lt;/a> ของเรา"</Data></string>
+    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>ในเวลาเดียวกันเพื่อทำความเข้าใจสิทธิ์ของคุณอย่างเต็มที่ในฐานะผู้ใช้รวมถึงวิธีการที่เราใช้ข้อมูลของคุณ โปรดอ่านและยอมรับ &lt;a href='%1s'>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href='%2s'>นโยบายความเป็นส่วนตัว&lt;/a> ของเรา&lt;/Data>"</string>
     <string name="dialog_request_permission_message_provision_link">ในเวลาเดียวกัน เพื่อให้เข้าใจถึงสิทธิ์ของคุณในฐานะผู้ใช้อย่างถ่องแท้รวมถึงวิธีที่เราใช้ข้อมูลของคุณ โปรดอ่านและยอมรับ %1$s และ %2$s</string>
     <string name="dialog_request_permission_title">โปรดทราบ</string>
     <string name="dialog_request_permission_title_global">ต้องการการอนุญาต</string>
@@ -600,7 +603,7 @@
     <string name="privacy_desc">ยินดีต้อนรับสู่ Mi Mover! แอปนี้ให้บริการดังต่อไปนี้:</string>
     <string name="privacy_experience_statement">เข้าร่วมโปรแกรมประสบการณ์ผู้ใช้ของเราเพื่อแบ่งปันข้อมูลผู้ใช้กับเราเพื่อช่วยปรับปรุงผลิตภัณฑ์และบริการของเรา</string>
     <string name="privacy_item1">· การถ่ายโอนไฟล์ ข้อความ การตั้งค่าแอประบบ และแอป</string>
-    <string name="privacy_message"><Data>อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> ก่อนใช้ Mi Mover คุณสามารถถอนการยินยอมต่อนโยบายความเป็นส่วนตัวของ Mi Mover ใน\"About Mi Mover\" ได้ทุกเมื่อ หากคุณไม่ยินยอมที่จะใช้บริการข้างต้นคุณจะไม่สามารถใช้คุณสมบัติบางอย่างของแอปนี้ได้ อย่างไรก็ตามฟังก์ชันพื้นฐานจะยังคงพร้อมใช้งานสำหรับคุณ</Data></string>
+    <string name="privacy_message">&lt;Data>อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> ก่อนใช้ Mi Mover คุณสามารถถอนการยินยอมต่อนโยบายความเป็นส่วนตัวของ Mi Mover ใน\"About Mi Mover\" ได้ทุกเมื่อ หากคุณไม่ยินยอมที่จะใช้บริการข้างต้นคุณจะไม่สามารถใช้คุณสมบัติบางอย่างของแอปนี้ได้ อย่างไรก็ตามฟังก์ชันพื้นฐานจะยังคงพร้อมใช้งานสำหรับคุณ&lt;/Data></string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
     <string name="privacy_title">ข้อตกลงและเงื่อนไข</string>
     <string name="prompt_before_transmission_message1_summary">หากคุณเลือกโอนจากอุปกรณ์เครื่องเก่า ข้อมูลแอป (รวมถึงประวัติการแชท) จะถูกเขียนทับ</string>

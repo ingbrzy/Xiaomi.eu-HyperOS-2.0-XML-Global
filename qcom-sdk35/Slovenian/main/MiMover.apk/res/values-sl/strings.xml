@@ -157,6 +157,9 @@ Obiščite https://appleid.apple.com/#!&amp;page=signin za izklop"</string>
     <string name="dialog_backup_password_cancel">Prekliči</string>
     <string name="dialog_backup_password_change_machine_tips">Varnostnih kopij, zaščitenih z geslom, ne boste mogli prenesti. Pred uporabo Mi Moverja izklopite geslo varnostne kopije.</string>
     <string name="dialog_backup_password_verify">V redu</string>
+    <string name="dialog_backup_service_missing_btn">Razumem</string>
+    <string name="dialog_backup_service_missing_content">Aplikacije Mi Mover ni mogoče uporabljati, ker storitev varnostnega kopiranja ni na voljo.</string>
+    <string name="dialog_backup_service_missing_title">Aplikacije Mi Mover ni mogoče uporabljati</string>
     <string name="dialog_connect_ap_timeout_button">Poveži</string>
     <string name="dialog_connect_ap_timeout_message">Kaže, da samodejno povezovanje traja predolgo. Poskusite se povezati ročno.</string>
     <string name="dialog_connect_ap_timeout_title">Poveži ročno</string>
@@ -172,7 +175,7 @@ Obiščite https://appleid.apple.com/#!&amp;page=signin za izklop"</string>
     <string name="dialog_request_permission_message_extra_summary">Ta dovoljenja so potrebna za omogočanje osnovnih funkcij in storitev te aplikacije.</string>
     <string name="dialog_request_permission_message_extra_title">Obvezna dovoljenja</string>
     <string name="dialog_request_permission_message_global">Ta aplikacija zahteva naslednja dovoljenja za normalno delovanje:</string>
-    <string name="dialog_request_permission_message_link" formatted="false"><Data>"Istočasno, da bi popolnoma razumeli vaše pravice kot uporabnika, prav tako tudi načine na katere uporabljamo vaše podatke, preberite in se strinjate z našim &lt;a href='%1s'>Uporabniškim dogovorom&lt;/a> in &lt;a href='%2s'>Pravilnikom o zasebnosti&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Istočasno, da bi popolnoma razumeli vaše pravice kot uporabnika, prav tako tudi načine na katere uporabljamo vaše podatke, preberite in se strinjate z našim &lt;a href='%1s'>Uporabniškim dogovorom&lt;/a> in &lt;a href='%2s'>Pravilnikom o zasebnosti&lt;/a>.&lt;/Data>"</string>
     <string name="dialog_request_permission_message_provision_link">Istočasno, da bi popolnoma razumeli vaše pravice kot uporabnika, prav tako tudi načine na katere uporabljamo vaše podatke, preberite in se strinjate z našim %1$s in %2$s.</string>
     <string name="dialog_request_permission_title">Pozor</string>
     <string name="dialog_request_permission_title_global">Zahtevana dovoljenja</string>
@@ -600,7 +603,7 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="privacy_desc">Dobrodošli v Mi Mover! Ta aplikacija vam ponuja naslednje storitve:</string>
     <string name="privacy_experience_statement">Pridružite se našemu Programu uporabniških izkušenj, ter delite z nami uporabniške podatke, da bi nam pomagali izboljšati naše izdelke in storitve.</string>
     <string name="privacy_item1">· Prenos datotek, sporočil, nastavitev sistemskih aplikacij in aplikacij</string>
-    <string name="privacy_message"><Data>Pred uporabo aplikacije Mi Mover preberite in se strinjajte z &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a> in &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a>. V \"O aplikaciji Mi Mover\" lahko kadarkoli prekličete vaše soglasje s Pravilnikom o zasebnosti aplikacije Mi Mover. Če se ne strinjate z uporabo zgoraj omenjenih storitev ne boste mogli uporabljati nekatere funkcije te aplikacije, vendarle vam bodo osnovne funkcije še zmeraj na voljo.</Data></string>
+    <string name="privacy_message">&lt;Data>Pred uporabo aplikacije Mi Mover preberite in se strinjajte z &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a> in &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a>. V \"O aplikaciji Mi Mover\" lahko kadarkoli prekličete vaše soglasje s Pravilnikom o zasebnosti aplikacije Mi Mover. Če se ne strinjate z uporabo zgoraj omenjenih storitev ne boste mogli uporabljati nekatere funkcije te aplikacije, vendarle vam bodo osnovne funkcije še zmeraj na voljo.&lt;/Data></string>
     <string name="privacy_policy">Pravilnikom o zasebnosti</string>
     <string name="privacy_title">Pogoji in določila</string>
     <string name="prompt_before_transmission_message1_summary">Če se odločite za prenos iz stare naprave, bodo podatki aplikacij (vključno z zgodovino klepeta) prepisani.</string>
@@ -832,16 +835,16 @@ Sprostite najmanj %s."</string>
     <string name="title_request_write_settings_perm">Dovoli spreminjanje sistemskih nastavitev</string>
     <string name="today">Danes</string>
     <string name="tomorrow">Jutri</string>
-    <string name="trans_apple">Connect your Apple device</string>
+    <string name="trans_apple">Povežite svojo napravo Apple</string>
     <string name="trans_apple_button_cancel">Prekliči</string>
     <string name="trans_apple_button_cancel_hint">Želite preklicati prenos zdaj?</string>
     <string name="trans_apple_button_cancel_negative">Ne prekliči</string>
     <string name="trans_apple_button_cancel_positive">Prekliči</string>
     <string name="trans_apple_button_reconnect">Ponovno se poveži</string>
     <string name="trans_apple_hint">Dokler prenos ni končan, ne zapuščajte te strani in ne uporabljajte Wi-Fi omrežja.</string>
-    <string name="trans_apple_hint_1_content">"Download Mi Mover from the App Store, or scan this QR code with your Apple device's Camera app."</string>
+    <string name="trans_apple_hint_1_content">Prenesite Mi Mover iz trgovine App Store ali optično preberite to QR kodo z aplikacijo Kamera v svoji napravi Apple.</string>
     <string name="trans_apple_hint_1_title">%d. Namestite Mi Mover</string>
-    <string name="trans_apple_hint_2_content">Open Mi Mover on your Apple device, tap \"Tap to send items\", and scan the QR code.</string>
+    <string name="trans_apple_hint_2_content">Odprite aplikacijo Mi Mover na svoji napravi Apple, tapnite »Tapnite za pošiljanje elementov« in optično preberite QR kodo.</string>
     <string name="trans_apple_hint_2_title">%d. Povežite naprave</string>
     <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
     <string name="trans_apple_interrupt_sub">Tapnite spodaj za ponovno povezavo</string>
@@ -862,7 +865,7 @@ Prenesite in namestite Mi Mover."</string>
     <string name="trans_show_qr_code_label">Odprite Mi Mover na stari napravi</string>
     <string name="trans_show_qr_code_label_for_pad">Odprite Mi Mover na stari napravi</string>
     <string name="trans_sync_transfer_data_list">Izberite predmete, ki jih želite prenesti na staro napravo</string>
-    <string name="trans_sync_transfer_data_list_apple">Transfer items from your Apple device</string>
+    <string name="trans_sync_transfer_data_list_apple">Prenesite elemente s svoje naprave Apple</string>
     <string name="trans_sync_transfer_data_list_hint">Samo trenutek…</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Izberite predmete v stari napravi in tapnite »Pošlji«.</string>
     <string name="trans_time_format_second">Manj kot %d minuto</string>

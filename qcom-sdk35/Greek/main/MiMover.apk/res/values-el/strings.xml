@@ -157,6 +157,9 @@
     <string name="dialog_backup_password_cancel">Ακύρωση</string>
     <string name="dialog_backup_password_change_machine_tips">Δεν θα μπορείτε να μεταφέρετε αντίγραφα ασφαλείας που προστατεύονται με κωδικό πρόσβασης. Απενεργοποιήστε τον κωδικό πρόσβασης αντιγράφων ασφαλείας πριν χρησιμοποιήσετε τη Μεταφορά Mi.</string>
     <string name="dialog_backup_password_verify">OK</string>
+    <string name="dialog_backup_service_missing_btn">Κατανοητό</string>
+    <string name="dialog_backup_service_missing_content">Αδυναμία χρήσης της Μεταφοράς Mi επειδή η υπηρεσία αντιγράφων ασφαλείας δεν είναι διαθέσιμη.</string>
+    <string name="dialog_backup_service_missing_title">Αδυναμία χρήσης Μεταφοράς Mi</string>
     <string name="dialog_connect_ap_timeout_button">Σύνδεση</string>
     <string name="dialog_connect_ap_timeout_message">Φαίνεται ότι η αυτόματη σύνδεση απαιτεί πολύ χρόνο. Δοκιμάστε να συνδεθείτε χειροκίνητα.</string>
     <string name="dialog_connect_ap_timeout_title">Μυ αυτόματη σύνδεση</string>
@@ -172,7 +175,7 @@
     <string name="dialog_request_permission_message_extra_summary">Οι άδειες αυτές απαιτούνται για να γίνουν διαθέσιμες οι βασικές λειτουργίες και υπηρεσίες αυτής της εφαρμογής.</string>
     <string name="dialog_request_permission_message_extra_title">Υποχρεωτικές άδειες</string>
     <string name="dialog_request_permission_message_global">Η εφαρμογή αυτή χρειάζεται τις παρακάτω άδειες για να λειτουργεί κανονικά:</string>
-    <string name="dialog_request_permission_message_link" formatted="false"><Data>"Ταυτόχρονα, για να κατανοήσετε πλήρως τα δικαιώματά σας ως χρήστης, καθώς και τους τρόπους με τους οποίους χρησιμοποιούμε τα δεδομένα σας, διαβάστε και αποδεχτείτε τη &lt;a href='%1s'>Συμφωνία Χρήστη&lt;/a> και την &lt;a href='%2s'>Πολιτική Απορρήτου&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Ταυτόχρονα, για να κατανοήσετε πλήρως τα δικαιώματά σας ως χρήστης, καθώς και τους τρόπους με τους οποίους χρησιμοποιούμε τα δεδομένα σας, διαβάστε και αποδεχτείτε τη &lt;a href='%1s'>Συμφωνία Χρήστη&lt;/a> και την &lt;a href='%2s'>Πολιτική Απορρήτου&lt;/a>.&lt;/Data>"</string>
     <string name="dialog_request_permission_message_provision_link">Ταυτόχρονα, για να κατανοήσετε πλήρως τα δικαιώματά σας ως χρήστης καθώς και τους τρόπους με τους οποίους χρησιμοποιούμε τα δεδομένα σας, διαβάστε και αποδεχτείτε τη %1$s και την %2$s μας.</string>
     <string name="dialog_request_permission_title">Προσοχή</string>
     <string name="dialog_request_permission_title_global">Απαιτούνται άδειες</string>
@@ -600,7 +603,7 @@
     <string name="privacy_desc">Καλώς ήλθατε στη Μεταφορά Mi! Αυτή η εφαρμογή παρέχει τις ακόλουθες υπηρεσίες:</string>
     <string name="privacy_experience_statement">Γίνετε μέλος του Προγράμματος Εμπειρίας Χρήστη για να μοιραστείτε μαζί μας δεδομένα χρηστών και να μας βοηθήσετε να βελτιώσουμε τα προϊόντα και τις υπηρεσίες μας.</string>
     <string name="privacy_item1">· Μεταφορά αρχείων, μηνυμάτων, ρυθμίσεων εφαρμογών συστήματος και εφαρμογών</string>
-    <string name="privacy_message"><Data>Διαβάστε και αποδεχτείτε τη &lt;a href=\"%2$s\"> Συμφωνία Χρήστη &lt;/a> και την &lt;a href=\"%1$s\"> Πολιτική Απορρήτου &lt;/a> πριν χρησιμοποιήσετε τη Μεταφορά Mi. Μπορείτε να ανακαλέσετε την αποδοχή της Πολιτικής Απορρήτου της Μεταφοράς Mi στο \"Σχετικά με τη Μεταφορά Mi\" οποιαδήποτε στιγμή. Εάν δεν συμφωνείτε να χρησιμοποιήσετε τις προαναφερθείσες υπηρεσίες, δεν θα μπορείτε να χρησιμοποιήσετε ορισμένες δυνατότητες αυτής της εφαρμογής. Ωστόσο, η βασική της λειτουργικότητα θα εξακολουθεί να είναι διαθέσιμη σε εσάς.</Data></string>
+    <string name="privacy_message">&lt;Data>Διαβάστε και αποδεχτείτε τη &lt;a href=\"%2$s\"> Συμφωνία Χρήστη &lt;/a> και την &lt;a href=\"%1$s\"> Πολιτική Απορρήτου &lt;/a> πριν χρησιμοποιήσετε τη Μεταφορά Mi. Μπορείτε να ανακαλέσετε την αποδοχή της Πολιτικής Απορρήτου της Μεταφοράς Mi στο \"Σχετικά με τη Μεταφορά Mi\" οποιαδήποτε στιγμή. Εάν δεν συμφωνείτε να χρησιμοποιήσετε τις προαναφερθείσες υπηρεσίες, δεν θα μπορείτε να χρησιμοποιήσετε ορισμένες δυνατότητες αυτής της εφαρμογής. Ωστόσο, η βασική της λειτουργικότητα θα εξακολουθεί να είναι διαθέσιμη σε εσάς.&lt;/Data></string>
     <string name="privacy_policy">Πολιτική Απορρήτου</string>
     <string name="privacy_title">Όροι και προϋποθέσεις</string>
     <string name="prompt_before_transmission_message1_summary">Εάν επιλέξετε να τα μεταφέρετε από την παλιά σας συσκευή, τα δεδομένα εφαρμογής (συμπεριλαμβανομένου του ιστορικού συνομιλιών) θα αντικατασταθούν.</string>
