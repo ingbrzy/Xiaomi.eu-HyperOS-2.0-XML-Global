@@ -638,6 +638,7 @@ Der Administrator kann die mit diesem Nutzer verbundenen Einstellungen, Zugriffs
     <string name="ai_button_title">Mi AI-Taste</string>
     <string name="ai_button_title_global">AI-Taste</string>
     <string name="ai_call_assistant">KI-Aufrufe</string>
+    <string name="ai_notification_settings">Zusammenfassung von KI-Benachrichtigungen</string>
     <string name="ai_services_title">KI-Dienste</string>
     <string name="ai_settings_click_title">Drücken</string>
     <string name="ai_settings_double_click_category">AI-Taste zweimal drücken</string>
@@ -665,6 +666,7 @@ Wenn diese Berechtigung deaktiviert ist, funktionieren bereits gestellte Wecker 
     <string name="all_supported_app_locales_title">Alle Sprachen</string>
     <string name="all_volume_title">Lautstärke</string>
     <string name="allow">Zulassen</string>
+    <string name="allow_badge_summary">Erlaube, dass ein nummerierter roter Punkt auf den Startbildschirmsymbolen angezeigt wird, um Benachrichtigungen oder neue Inhalte anzuzeigen</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Nach der Erstellung des Widgets hat die App Zugriff auf alle angezeigten Daten.
 
 App: %1$s
@@ -687,6 +689,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Simulierte Standorte zulassen</string>
     <string name="allow_mock_modem">Mock Modem zulassen</string>
     <string name="allow_mock_modem_summary">Erlaube diesem Gerät die Ausführung des Mock Modem-Dienstes für Instrumentierungstests. Aktiviere diese Funktion nicht während der normalen Nutzung des Smartphones.</string>
+    <string name="allow_ongoing_summary">Benachrichtigungen erlauben, die nur manuell gelöscht werden können</string>
     <string name="allow_ongoing_title">Dauerhafte Benachrichtigung</string>
     <string name="allow_overlay_description">Erlaube, dass diese App über anderen Apps, die du gerade verwendest, eingeblendet wird. Diese App erkennt, wohin du tippst oder welche Elemente auf dem Bildschirm du änderst.</string>
     <string name="allow_sound_title">Ton</string>
@@ -1220,7 +1223,7 @@ Zuletzt ausgeführt am %2$s"</string>
     <string name="back_navigation_animation_summary">Du kannst Systemanimationen für die intelligente „Zurück“-Touch-Geste aktivieren.</string>
     <string name="back_sensitivity_dialog_message">Wenn du die Empfindlichkeit erhöhst, werden eventuell App-spezifische Touch-Gesten am Bildschirmrand beeinträchtigt.</string>
     <string name="back_sensitivity_dialog_title">Empfindlichkeit bei Touch-Geste „Zurück“</string>
-    <string name="back_strap_image_text">Erhalte Benachrichtigungserinnerungen und Lichteffekte für verschiedene Szenen</string>
+    <string name="back_strap_image_text">Wenn das Gerät mit dem Gesicht nach unten liegt und der Bildschirm ausgeschaltet ist, zeigt das Rücklicht Benachrichtigungserinnerungen und Lichteffekte für verschiedene Szenen an</string>
     <string name="back_strap_status_close">Aus</string>
     <string name="back_strap_status_open">An</string>
     <string name="back_strap_title">Rücklichteffekte</string>
@@ -2898,7 +2901,6 @@ Wenn du den Prozess unterbrichst, wirst du einige oder all deine Daten verlieren
     <string name="dark_mode_day_night_mode_summary">Ihr Gerät wechselt bei Sonnenuntergang in den Dunkelmodus und bei Sonnenaufgang zurück in den Tageslichtmodus. Aktiviere die Standortdienste, um möglichst genaue Ergebnisse zu erhalten.</string>
     <string name="dark_mode_day_night_mode_title">Sonnenuntergang bis Sonnenaufgang</string>
     <string name="dark_mode_display_enable_summary">Wechsel zu einer Low-Light-UI, die hauptsächlich dunkle Oberflächen anzeigt.</string>
-    <string name="dark_mode_font_background_title">Text und Hintergründe automatisch anpassen</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Verstanden</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Wenn du die System-Optimierung deaktivierst und den Energiesparmodus einschaltest, wird der Dunkelmodus automatisch aktiviert.
 Um den Dunkelmodus zu deaktivieren, schalte den Energiesparmodus aus oder aktiviere die System-Optimierung unter Einstellungen > Entwickleroptionen > System-Optimierung aktivieren."</string>
@@ -3788,7 +3790,7 @@ Starte dein Gerät neu und versuche es noch einmal."</string>
     <string name="external_source_untrusted">Nicht zugelassen</string>
     <string name="extreme_threats_summary">Warnungen zu extremen Gefahren für Leben und Eigentum erhalten</string>
     <string name="extreme_threats_title">Extreme Gefahren</string>
-    <string name="eye_gaze_dialog_message">Wenn du „Blick erkennen“ aktivierst, wird dein Gerät nicht gesperrt, wenn es feststellt, dass den Bildschirm ansiehst. Deine Gesichtsmerkmale werden nicht analysiert und deine Gesichtsdaten werden weder auf deinem Gerät gespeichert noch in die Cloud hochgeladen. Jetzt aktivieren?</string>
+    <string name="eye_gaze_dialog_message">Wenn diese Funktion eingeschaltet ist, erkennt das System, ob du auf den Bildschirm schaust, aber deine Gesichtszüge werden nicht analysiert und diese Daten werden nicht auf deinem Gerät gespeichert oder in die Cloud hochgeladen. Jetzt einschalten?</string>
     <string name="eye_gaze_dialog_title">Sicherheitshinweis</string>
     <string name="eye_gaze_summary">Das Gerät wird nicht gesperrt, wenn es erkennt, dass du auf den Bildschirm schaust</string>
     <string name="eye_gaze_summary_fold_device">Das Gerät wird nicht gesperrt, wenn es erkennt, dass du auf einen äußeren Bildschirm schaust.</string>
@@ -3871,6 +3873,7 @@ Fügen Sie ein Sperrbildschirmpasswort hinzu, bevor Sie Ihre Gesichtsdaten hinzu
     <string name="face_unlock_success_stay_screen_title">Bleibe nach dem Entsperren auf dem Sperrbildschirm</string>
     <string name="face_unlock_title">Du kannst dein Smartphone per Gesichtserkennung entsperren. Aus Sicherheitsgründen benötigst du bei dieser Option eine alternative Displaysperre.</string>
     <string name="face_unlock_when_slt_on_toast">Gesichtsentsperrung kann nicht verwendet werden, wenn die Tiantong-Satellitenkommunikation genutzt wird</string>
+    <string name="factory_reset_loading">„Auf Werkseinstellungen zurücksetzen“ wird ausgeführt…</string>
     <string name="factory_reset_summary">Beim Formatieren werden alle Daten aus dem internen Speicher deines Geräts gelöscht.</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Zu viele Fehlversuche. Die Daten auf diesem Gerät werden gelöscht.</string>
@@ -4141,6 +4144,9 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="font_cta_alert_btn_positive">Zustimmen</string>
     <string name="font_cta_alert_message">Lies und stimme den Geschäftsbedingungen von Themen zu, um fortzufahren.</string>
     <string name="font_cta_alert_title">Geschäftsbedingungen</string>
+    <string name="font_preview_text_content">"Beispieltext:
+
+Xiaomi entwickelt unermüdlich fantastische Produkte zu ehrlichen Preisen, um allen auf der Welt das Leben durch innovative Technologien zu erleichtern."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Die aktuelle Schriftart unterstützt das Anpassen der Schriftstärke nicht</string>
     <string name="font_settings_jump">Barrierefreiheit > Bildschirmgröße</string>
@@ -4301,7 +4307,7 @@ Wenn du die automatische Sicherung aktivierst, werden Geräte- und App-Daten reg
     <string name="game_booster_title">Spiel-Turbo</string>
     <string name="game_controller_settings_category">Gamecontroller</string>
     <string name="game_storage_settings">Spiele</string>
-    <string name="gaze_lock_screen_summary">Das Gerät bleibt entsperrt, wenn deine Anwesenheit erkannt wird, und wird gesperrt, wenn du dich vom Bildschirm entfernst</string>
+    <string name="gaze_lock_screen_summary">Das Gerät bleibt entsperrt, wenn du auf den Bildschirm schaust, und wird gesperrt, wenn du den Blick abwendest, um deine Privatsphäre zu schützen, und setzt deine automatische Sperrzeiteinstellung außer Kraft.</string>
     <string name="gaze_lock_screen_title">Anwesenheit erkennen</string>
     <string name="gd_setting_title">Seitenleiste</string>
     <string name="general_category_title">Allgemein</string>
@@ -5110,6 +5116,7 @@ Xiaomi Cloud
     <string name="layout_size_small_text">Sehr klein</string>
     <string name="le_audio_title">LE-Audio</string>
     <string name="learn_more">Weitere Informationen</string>
+    <string name="leave_lockscreen_summary">Gerät wird gesperrt, wenn du dich vom Bildschirm entfernst</string>
     <string name="leave_loclscreen_summary">Der Bildschirm wird automatisch gesperrt, wenn du eine gewissen Distanz von deinem Gerät weggehst</string>
     <string name="leave_loclscreen_title">Bildschirm beim Weggehen automatisch sperren</string>
     <string name="led_colors_summary">Lichtfarbe für Benachrichtigungen</string>
@@ -7210,13 +7217,17 @@ Lies und stimme %s zu, bevor du diesen Dienst benutzt."</string>
     <string name="photography_handle_button_function_settings">Grifftaste einrichten</string>
     <string name="photography_handle_charge_protected">Griff-Aufladeschutz</string>
     <string name="photography_handle_charge_protected_summary">Wenn der Kameragriff angeschlossen ist, beendet das Gerät den Ladevorgang und hält den Akku auf %1$s</string>
+    <string name="photography_handle_charge_settings">Auflade-Einstellungen</string>
     <string name="photography_handle_charge_state">Aufladen über Kameragriffe</string>
     <string name="photography_handle_charge_state_summary">Lade dieses Gerät über die Kameragriffe auf, wenn sie angeschlossen sind</string>
+    <string name="photography_handle_function_settings">Kameragriff-Einstellungen</string>
     <string name="photography_handle_launch_and_take_photo">Foto aufnehmen</string>
     <string name="photography_handle_launch_camera">Kamera öffnen</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Drücke und halte den Auslöser, um eine Aktion auszuführen</string>
     <string name="photography_handle_quick_launch_camera_title">Schnellstart</string>
+    <string name="photography_handle_sn">Seriennummer</string>
     <string name="photography_handle_title">Kameragriff</string>
+    <string name="photography_handle_update_and_maintain">Updates</string>
     <string name="physical_keyboard_title">Physische Tastatur</string>
     <string name="pick_up_gesture_wakeup_title">Gerät anheben zum Aufwecken</string>
     <string name="picker_text">Zeit-Picker</string>
@@ -8040,6 +8051,7 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="same_source_synced">Übertragung erfolgreich hinzugefügt</string>
     <string name="sar">Informationen zur HF-Belastung</string>
     <string name="satellite_call_assistant">Anrufeinstellungen</string>
+    <string name="satellite_management_title">Satellitennetzwerk</string>
     <string name="satellite_network_title">Satellitenanruf-Funktionen</string>
     <string name="satellite_setting">Nachrichten per Satellit</string>
     <string name="satellite_setting_disabled_summary">Nachrichten per Satellitenfunk senden und empfangen. Dein Konto unterstützt diesen Dienst nicht.</string>
@@ -9976,6 +9988,8 @@ Versuche, ein schnelleres Speichergerät (^3) zu verwenden oder verwende stattde
     <string name="tethering_hardware_offload_summary">Falls verfügbar, Hardwarebeschleunigung für Tethering verwenden</string>
     <string name="tethering_help_button_text">Hilfe</string>
     <string name="tethering_settings_not_available">Tetheringeinstellungen im Hauptprofil ändern</string>
+    <string name="text_layout_optimization_switch_label">Text-Layout optimieren</string>
+    <string name="text_layout_optimization_switch_toast">Text-Layout kann mit der aktuellen Schriftart nicht optimiert werden</string>
     <string name="texture_adjust_temperature_title">Farbtemperatur</string>
     <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
     <string name="the_anti_aggression_day">Anti-Aggressionstag</string>
@@ -10229,7 +10243,7 @@ Wenn diese Option aktiviert ist, kann dieses Gerät einem Thread-Netzwerk beitre
     <string name="turn_on_keyguard_password_alert_foget_cacel">Jetzt nicht</string>
     <string name="turn_on_keyguard_password_alert_foget_ok">Verstanden</string>
     <string name="turn_on_keyguard_password_alert_foget_ok_time">Verstanden (%ds)</string>
-    <string name="turn_on_keyguard_password_alert_forget_content">Merken Sie sich Ihre Bildschirmsperre. Wenn Sie sie vergessen, müssen Sie alle Daten auf Ihrem Gerät löschen, einschließlich Fotos und Kontakte, und dann eine neue einstellen.</string>
+    <string name="turn_on_keyguard_password_alert_forget_content">Merke dir deine Bildschirmsperre. Wenn du sie vergessen hast, musst du alle Daten auf deinem Gerät löschen, einschließlich Fotos und Kontakte, und dann eine neue erstellen.</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Merke dir dein Passwort</string>
     <string name="turn_on_security_lock">Sperrbildschirm einstellen</string>
     <string name="turn_on_torch">Lampe einschalten</string>
@@ -11332,6 +11346,10 @@ Deine Routereinstellungen ändern sich nicht, wenn du das Netzwerk als verborgen
     <string name="wifi_protection_tip">Xiaomi schützt deine persönlichen Daten vor WLAN-Sondierungsanfragen von zufälligen MAC-Adressen und WLAN-Sondierungsprogrammen, wenn dein Gerät nach WLAN-Netzwerken sucht.</string>
     <string name="wifi_quick_toggle_summary">WLAN einschalten</string>
     <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_reconnect_failed_text">Dein WLAN-Passwort ist falsch. Erneut eingeben.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Falsches WLAN-Passwort</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Gespeichert</string>
     <string name="wifi_remembered_disabled_auto_connect">Gespeichert. Es wird keine automatische Verbindung hergestellt.</string>
     <string name="wifi_require_sim_card_to_connect">Zum Herstellen einer Verbindung ist eine SIM-Karte erforderlich</string>

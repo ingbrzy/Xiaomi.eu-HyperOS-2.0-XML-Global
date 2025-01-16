@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">total stilhed</string>
     <string name="accessibility_quick_settings_edit">Rediger rækkefølgen af indstillinger.</string>
     <string name="accessibility_quick_settings_expand">Åbn Kvikmenu.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Tilsluttet greb</string>
     <string name="accessibility_quick_settings_open_settings">Åbn %s-indstillinger.</string>
     <string name="accessibility_quick_settings_page">Side %1$d af %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Menu for afbryderknappen</string>
@@ -314,6 +315,9 @@ Hvis denne tilladelse er deaktiveret, vil eksisterende alarmer og tidsbestemte h
     <string name="alarms_and_reminders_label">Alarmer og påmindelser</string>
     <string name="alarms_and_reminders_switch_title">Tillad indstilling af alarmer og påmindelser</string>
     <string name="alarms_and_reminders_title">Alarmer og påmindelser</string>
+    <string name="alertdialog_safemode_button_submit">Indsend</string>
+    <string name="alertdialog_safemode_message">Din enhed er nu i sikker tilstand på grund af problemer med systemets interface, som gør flere funktioner utilgængelige. Send din feedback for at hjælpe med at løse problemet hurtigere.</string>
+    <string name="alertdialog_safemode_title">Sikker tilstand aktiveret</string>
     <string name="all_network_unavailable">Der er ingen tilgængelige netværk</string>
     <string name="allow_mock_location">Imiterede lokationer</string>
     <string name="allow_mock_location_summary">Tillad imiterede lokationer</string>
@@ -1058,6 +1062,7 @@ Sluk med Tænd-knappen."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Always On Display-tema er blevet indstillet til tilpasset på grund af super-baggrunde</string>
     <string name="fullaod_apply_third_theme_toast">Always On Display-tema er blevet indstillet til tilpasset på grund af tredjepartstemaer</string>
     <string name="fullaod_apply_third_wallpaper_toast">Always On Display-tema er blevet indstillet til tilpasset på grund af tredjepartsbaggrunde</string>
+    <string name="fullaod_apply_video_depth_toast">Vises altid-skærm er nu skiftet til Tilpasset</string>
     <string name="fullscreen_text">Fuld skærm</string>
     <string name="game_status">Spiller</string>
     <string name="global_action_smart_lock_disabled">Hold ulåst er deaktiveret</string>
@@ -1583,6 +1588,12 @@ Selvom du ikke giver denne app adgang til alle enhedslogs, kan den stadig tilgå
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 dd.MM.yyyy"</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Låst op med Bluetooth-enhed</string>
+    <string name="miui_lock_aqi_level_description_critical">Farlig</string>
+    <string name="miui_lock_aqi_level_description_excellent">Meget god</string>
+    <string name="miui_lock_aqi_level_description_good">God</string>
+    <string name="miui_lock_aqi_level_description_mild">Moderat</string>
+    <string name="miui_lock_aqi_level_description_moderate">Usund</string>
+    <string name="miui_lock_aqi_level_description_serious">Alvorlig</string>
     <string name="miui_lock_eastern_art_date_time_12">dd.MM h:mm aa</string>
     <string name="miui_lock_eastern_art_date_time_24">dd.MM H:mm</string>
     <string name="miui_lock_eastern_art_week_am">EEEE</string>
@@ -1857,6 +1868,7 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="notification_channel_dialog_title">Alle %1$s-notifikationer</string>
     <string name="notification_channel_hints">Tips</string>
     <string name="notification_channel_instant">Instant Apps</string>
+    <string name="notification_channel_safemode">Sikker tilstand</string>
     <string name="notification_channel_screenshot">Screenshots</string>
     <string name="notification_channel_setup">Konfiguration</string>
     <string name="notification_channel_storage">Lagerplads</string>
@@ -1889,6 +1901,13 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="notification_more_settings">Flere indstillinger</string>
     <string name="notification_multichannel_desc">Du kan ikke konfigurere denne gruppe notifikationer her</string>
     <string name="notification_priority_title">Prioritet</string>
+    <string name="notification_safemode_button_exit">Luk</string>
+    <string name="notification_safemode_description_exit">Husk at følge fejlfindingstipsene i meddelelsen, før du forlader Sikker tilstand. Hvis du ikke gør det, kan din enhed ende med at gå tilbage til Sikker tilstand.</string>
+    <string name="notification_safemode_description_presafemode">Data for systemets interface og Temaer data er ryddet. Du kan nu bruge din enhed som normalt.</string>
+    <string name="notification_safemode_description_safemode">Din enhed er i sikker tilstand. Tryk her for at se, hvordan du kan gendanne systemets interface.</string>
+    <string name="notification_safemode_title_exit">Afslut Sikker tilstand</string>
+    <string name="notification_safemode_title_presafemode">Systemets interface er gendannet</string>
+    <string name="notification_safemode_title_safemode">Besked om løsning af systemets interfacenedbrud</string>
     <string name="notification_section_header_alerting">Notifikationer</string>
     <string name="notification_section_header_conversations">Samtaler</string>
     <string name="notification_section_header_gentle">Lydløs</string>
@@ -2159,9 +2178,9 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Smart dual-SIM</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Ombytning af farver</string>
-    <string name="quick_settings_location_label">Placering</string>
-    <string name="quick_settings_location_state_change_message_off">Placeringsadgang er deaktiveret</string>
-    <string name="quick_settings_location_state_change_message_on">Placeringsadgang er aktiveret</string>
+    <string name="quick_settings_location_label">Placeringstjenester</string>
+    <string name="quick_settings_location_state_change_message_off">Placeringstjenester er slået fra</string>
+    <string name="quick_settings_location_state_change_message_on">Placeringstjenester er slået til</string>
     <string name="quick_settings_media_device_label">Medieenhed</string>
     <string name="quick_settings_mic_label">Mikrofonadgang</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Ingen Wi-fi-netværk tilgængelige</string>
@@ -2304,6 +2323,7 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="screen_pinning_toast_navigation_mode">Tryk og hold knapperne Tilbage og Forhåndsvisning for at frigøre denne app</string>
     <string name="screen_pinning_toast_recents_invisible">Du kan frigøre denne app ved at holde knapperne Tilbage og Hjem nede</string>
     <string name="screen_pinning_toast_start">Denne app er fastgjort</string>
+    <string name="screen_share_dialog_spinner_text">Omfang</string>
     <string name="screen_share_permission_app_selector_title">Del eller optag en app</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Hele skærmen</string>
     <string name="screen_share_permission_dialog_option_single_app">Én app</string>

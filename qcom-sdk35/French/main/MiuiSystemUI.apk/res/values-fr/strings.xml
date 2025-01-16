@@ -213,7 +213,7 @@
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">activer</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_disconnect">dissocier</string>
-    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Batterie du périphérique Bluetooth %d pourcents.</string>
+    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Batterie du périphérique Bluetooth %d pourcent.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth activé.</string>
     <string name="accessibility_quick_settings_choose_user_action">choisir un utilisateur</string>
     <string name="accessibility_quick_settings_collapse">Fermer les Réglages rapides.</string>
@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">aucune interruption</string>
     <string name="accessibility_quick_settings_edit">"Modifier l'ordre des paramètres."</string>
     <string name="accessibility_quick_settings_expand">Ouvrir les Réglages rapides.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Poignée connectée</string>
     <string name="accessibility_quick_settings_open_settings">Ouvrir les paramètres %s.</string>
     <string name="accessibility_quick_settings_page">Page %1$d sur %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Menu Marche/Arrêt</string>
@@ -314,6 +315,9 @@ Si l'autorisation est désactivée, les alarmes existantes et les événements p
     <string name="alarms_and_reminders_label">Alarmes et rappels</string>
     <string name="alarms_and_reminders_switch_title">Autoriser à définir des alarmes et des rappels</string>
     <string name="alarms_and_reminders_title">Alarmes et rappels</string>
+    <string name="alertdialog_safemode_button_submit">Soumettre</string>
+    <string name="alertdialog_safemode_message">"Votre appareil est entré en Mode sécurisé en raison de problèmes d'interface du système, ce qui a rendu certaines fonctionnalités indisponibles. Soumettez vos commentaires pour accélérer la résolution de ce problème."</string>
+    <string name="alertdialog_safemode_title">Entré dans le Mode sécurisé</string>
     <string name="all_network_unavailable">Aucun réseau disponible</string>
     <string name="allow_mock_location">Autoriser les positions fictives</string>
     <string name="allow_mock_location_summary">Autoriser les positions fictives</string>
@@ -1058,6 +1062,7 @@ Après leur suppression, vous devrez reconfigurer le déverrouillage par emprein
     <string name="fullaod_apply_super_wallpaper_toast">"Le thème de Toujours afficher a été configuré sur mesure en raison des Supers fonds d'écran"</string>
     <string name="fullaod_apply_third_theme_toast">Le thème de Toujours afficher a été configuré sur mesure en raison des thèmes tiers</string>
     <string name="fullaod_apply_third_wallpaper_toast">"Le thème de Toujours afficher a été configuré sur mesure en raison de fonds d'écran tiers"</string>
+    <string name="fullaod_apply_video_depth_toast">Le style Toujours afficher est passé à Personnalisé</string>
     <string name="fullscreen_text">Plein écran</string>
     <string name="game_status">Joue</string>
     <string name="global_action_smart_lock_disabled">Extend Unlock désactivé</string>
@@ -1583,6 +1588,12 @@ Si vous refusez à cette appli l'accès à tous les journaux de l'appareil, elle
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 dd/MM/yyyy"</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Déverrouillé par un périphérique Bluetooth</string>
+    <string name="miui_lock_aqi_level_description_critical">Dangereux</string>
+    <string name="miui_lock_aqi_level_description_excellent">Bon</string>
+    <string name="miui_lock_aqi_level_description_good">Juste</string>
+    <string name="miui_lock_aqi_level_description_mild">Modéré</string>
+    <string name="miui_lock_aqi_level_description_moderate">Nocif</string>
+    <string name="miui_lock_aqi_level_description_serious">Sévère</string>
     <string name="miui_lock_eastern_art_date_time_12">d/M h:mm aa</string>
     <string name="miui_lock_eastern_art_date_time_24">d/M H:mm</string>
     <string name="miui_lock_eastern_art_week_am">EEEE</string>
@@ -1857,6 +1868,7 @@ Si vous avez des questions, contactez %2$s."</string>
     <string name="notification_channel_dialog_title">Toutes les notifications de %1$s</string>
     <string name="notification_channel_hints">Astuces</string>
     <string name="notification_channel_instant">Applis instantanées</string>
+    <string name="notification_channel_safemode">Mode sécurisé</string>
     <string name="notification_channel_screenshot">"Captures d'écran"</string>
     <string name="notification_channel_setup">Configurer</string>
     <string name="notification_channel_storage">Espace de stockage</string>
@@ -1889,6 +1901,13 @@ Si vous avez des questions, contactez %2$s."</string>
     <string name="notification_more_settings">Plus de paramètres</string>
     <string name="notification_multichannel_desc">Vous ne pouvez pas configurer ce groupe de notifications ici</string>
     <string name="notification_priority_title">Prioritaire</string>
+    <string name="notification_safemode_button_exit">Quitter</string>
+    <string name="notification_safemode_description_exit">"Assurez-vous de suivre les conseils de dépannage fournis dans l'avis avant de quitter le Mode sécurisé. Si ce n'est pas le cas, votre appareil pourrait entrer à nouveau en Mode sécurisé."</string>
+    <string name="notification_safemode_description_presafemode">"L'interface système et les données des thèmes effacés avec succès. Vous pouvez utiliser votre appareil normalement."</string>
+    <string name="notification_safemode_description_safemode">"Votre appareil est en mode sans échec maintenant. Appuyez sur pour voir comment vous pouvez restaurer l'interface système."</string>
+    <string name="notification_safemode_title_exit">Quitter le Mode sécurisé</string>
+    <string name="notification_safemode_title_presafemode">"L'interface système est restaurée"</string>
+    <string name="notification_safemode_title_safemode">"Avis sur la résolution du problème de plantage de l'interface système"</string>
     <string name="notification_section_header_alerting">Notifications</string>
     <string name="notification_section_header_conversations">Conversations</string>
     <string name="notification_section_header_gentle">Silencieux</string>
@@ -2159,9 +2178,9 @@ Si vous avez des questions, contactez %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Double SIM intelligente</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Inversion des couleurs</string>
-    <string name="quick_settings_location_label">Localisation</string>
-    <string name="quick_settings_location_state_change_message_off">"L'accès à la localisation est désactivé"</string>
-    <string name="quick_settings_location_state_change_message_on">"L'accès à la localisation est activé"</string>
+    <string name="quick_settings_location_label">Services de localisation</string>
+    <string name="quick_settings_location_state_change_message_off">Les services de localisation sont désactivés</string>
+    <string name="quick_settings_location_state_change_message_on">Les services de localisation sont activés</string>
     <string name="quick_settings_media_device_label">Appareil multimédia</string>
     <string name="quick_settings_mic_label">Accès au micro</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Aucun réseau Wi-Fi disponible</string>
@@ -2304,6 +2323,7 @@ Si vous avez des questions, contactez %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Appuyez et maintenez les boutons retour et aperçu pour désépingler cette application</string>
     <string name="screen_pinning_toast_recents_invisible">"Pour que l'appli ne soit plus épinglée, appuyez de manière prolongée sur les boutons Retour et Accueil"</string>
     <string name="screen_pinning_toast_start">Cette application est épinglée</string>
+    <string name="screen_share_dialog_spinner_text">Ampleur</string>
     <string name="screen_share_permission_app_selector_title">Partager ou enregistrer une appli</string>
     <string name="screen_share_permission_dialog_option_entire_screen">"Tout l'écran"</string>
     <string name="screen_share_permission_dialog_option_single_app">"Uniquement l'appli"</string>

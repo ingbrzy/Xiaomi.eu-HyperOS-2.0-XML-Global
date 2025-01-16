@@ -638,6 +638,7 @@ L'amministratore ha la possibilità di monitorare e gestire impostazioni, access
     <string name="ai_button_title">Tasto Mi AI</string>
     <string name="ai_button_title_global">Tasto AI</string>
     <string name="ai_call_assistant">Chiamate AI</string>
+    <string name="ai_notification_settings">Riepilogo notifiche IA</string>
     <string name="ai_services_title">Servizi AI</string>
     <string name="ai_settings_click_title">Premi</string>
     <string name="ai_settings_double_click_category">Premi due volte il tasto AI</string>
@@ -665,6 +666,7 @@ Se questa autorizzazione viene disattivata, le sveglie esistenti e gli eventi ba
     <string name="all_supported_app_locales_title">Tutte le lingue</string>
     <string name="all_volume_title">Volume</string>
     <string name="allow">Consenti</string>
+    <string name="allow_badge_summary">Permetti di visualizzare un punto rosso numerato sulle icone della schermata Home per indicare notifiche o nuovi contenuti.</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Dopo che avrai creato il widget, l'applicazione potrà accedere a tutti i contenuti visualizzati.
 
 Applicazione: %1$s
@@ -687,6 +689,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Consenti posizioni fittizie</string>
     <string name="allow_mock_modem">Consenti modem fittizio</string>
     <string name="allow_mock_modem_summary">Consenti a questo dispositivo di eseguire il servizio di modem fittizio per i test di strumentazione; non attivare durante il normale utilizzo del telefono</string>
+    <string name="allow_ongoing_summary">Consenti le notifiche che possono essere eliminate solo manualmente</string>
     <string name="allow_ongoing_title">Notifica permanente</string>
     <string name="allow_overlay_description">Consenti di mostrare questa app sopra le altre app in uso. Questa app potrà rilevare dove tocchi o cambiare gli elementi visualizzati sullo schermo.</string>
     <string name="allow_sound_title">Suono</string>
@@ -1220,7 +1223,7 @@ Ultima esecuzione: %2$s"</string>
     <string name="back_navigation_animation_summary">Attiva le animazioni di sistema per il gesto Indietro predittivo.</string>
     <string name="back_sensitivity_dialog_message">Una maggiore sensibilità potrebbe essere in conflitto con eventuali gesti delle app lungo i bordi dello schermo.</string>
     <string name="back_sensitivity_dialog_title">Sensibilità gesto Indietro</string>
-    <string name="back_strap_image_text">Ricevi promemoria di notifica ed effetti di luce per diverse scene</string>
+    <string name="back_strap_image_text">Quando il dispositivo è rivolto verso il basso e lo schermo è spento, la retroilluminazione visualizza i promemoria delle notifiche e gli effetti di luce per le diverse scene</string>
     <string name="back_strap_status_close">Disattivato</string>
     <string name="back_strap_status_open">Attivato</string>
     <string name="back_strap_title">Effetti di retroilluminazione</string>
@@ -2898,7 +2901,6 @@ Se lo interrompi, potresti perdere alcuni o tutti i tuoi dati."</string>
     <string name="dark_mode_day_night_mode_summary">"Il dispositivo passerà alla modalità scura al tramonto e tornerà alla modalità chiara all'alba. Attiva i servizi di localizzazione per un effetto più preciso."</string>
     <string name="dark_mode_day_night_mode_title">"Dal tramonto all'alba"</string>
     <string name="dark_mode_display_enable_summary">"Usa un'interfaccia utente scura per una visione confortevole in condizioni di scarsa illuminazione."</string>
-    <string name="dark_mode_font_background_title">Regola automaticamente testo e sfondi</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Ho capito</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Se disattivi l'ottimizzazione del sistema e attivi il risparmio energetico, la modalità scura verrà attivata automaticamente.
 Per disattivare la modalità scura, disattiva il risparmio energetico o attiva l'ottimizzazione del sistema in Impostazioni > Opzioni sviluppatore > Attiva l'ottimizzazione del sistema."</string>
@@ -3788,7 +3790,7 @@ Riavvia il dispositivo e riprova."</string>
     <string name="external_source_untrusted">Autorizzazione non concessa</string>
     <string name="extreme_threats_summary">Mostra avvisi relativi a minacce estreme a vita e proprietà</string>
     <string name="extreme_threats_title">Minacce estreme</string>
-    <string name="eye_gaze_dialog_message">Quando attivi Rileva lo sguardo, il dispositivo non si blocca quando rileva che stai guardando lo schermo. Le caratteristiche del tuo viso non verranno analizzate e le informazioni sul tuo viso non verranno memorizzate sul tuo dispositivo o caricate nel cloud. Attivare ora?</string>
+    <string name="eye_gaze_dialog_message">Quando questa funzione è attiva, il sistema rileverà se stai guardando lo schermo, ma i tuoi tratti facciali non verranno analizzati e i dati non verranno memorizzati sul dispositivo o caricati sul cloud. Attivare ora?</string>
     <string name="eye_gaze_dialog_title">Avviso di sicurezza</string>
     <string name="eye_gaze_summary">Il dispositivo non si blocca quando rileva che stai guardando lo schermo</string>
     <string name="eye_gaze_summary_fold_device">Il dispositivo non si blocca quando rileva che stai guardando lo schermo esterno</string>
@@ -3871,6 +3873,7 @@ guardando lo schermo esterno"</string>
     <string name="face_unlock_success_stay_screen_title">Rimani sulla Schermata di blocco dopo lo sblocco</string>
     <string name="face_unlock_title">Puoi sbloccare il telefono usando il tuo volto. Per motivi di sicurezza, questa opzione richiede un blocco schermo alternativo.</string>
     <string name="face_unlock_when_slt_on_toast">Non è possibile utilizzare il Riconoscimento facciale quando si utilizzano le comunicazioni satellitari Tiantong</string>
+    <string name="factory_reset_loading">Esecuzione di un ripristino alle impostazioni di fabbrica…</string>
     <string name="factory_reset_summary">La formattazione cancellerà tutti i dati dalla memoria interna del dispositivo</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Troppi tentativi sbagliati. I dati del dispositivo verranno eliminati.</string>
@@ -4141,6 +4144,9 @@ Per saperne di più, contatta il fornitore di credito."</string>
     <string name="font_cta_alert_btn_positive">Accetta</string>
     <string name="font_cta_alert_message">Leggi e accetta i termini e le condizioni di Temi per continuare.</string>
     <string name="font_cta_alert_title">Termini e condizioni</string>
+    <string name="font_preview_text_content">"Testo di esempio:
+
+Xiaomi realizza sempre prodotti straordinari a prezzi onesti, per consentire a chiunque di godere di una vita migliore grazie a tecnologie innovative."</string>
     <string name="font_scale_percentage">%1$d%%</string>
     <string name="font_setting_weight_toast">Il carattere in uso non supporta la regolazione dello spessore del carattere</string>
     <string name="font_settings_jump">Accessibilità > Dimensioni display</string>
@@ -4301,7 +4307,7 @@ Quando attivi il backup automatico, i dati del dispositivo e delle app vengono s
     <string name="game_booster_title">Turbo videogiochi</string>
     <string name="game_controller_settings_category">Controller di gioco</string>
     <string name="game_storage_settings">Giochi</string>
-    <string name="gaze_lock_screen_summary">Il dispositivo rimane sbloccato quando viene rilevata la tua presenza e si blocca quando ti allontani dallo schermo.</string>
+    <string name="gaze_lock_screen_summary">"Il dispositivo rimarrà sbloccato quando stai guardando lo schermo e si bloccherà quando distoglierai lo sguardo per proteggere la tua privacy, ignorando l'impostazione del tempo di blocco automatico."</string>
     <string name="gaze_lock_screen_title">Rileva la presenza</string>
     <string name="gd_setting_title">Barra laterale</string>
     <string name="general_category_title">Generali</string>
@@ -5110,6 +5116,7 @@ Apri Xiaomi Cloud e ripristina gli elementi da lì."</string>
     <string name="layout_size_small_text">Molto piccolo</string>
     <string name="le_audio_title">Audio LE</string>
     <string name="learn_more">Scopri di più</string>
+    <string name="leave_lockscreen_summary">Il dispositivo si blocca quando ti allontani dallo schermo</string>
     <string name="leave_loclscreen_summary">Lo schermo si bloccherà automaticamente quando ti trovi a una determinata distanza dal tuo dispositivo</string>
     <string name="leave_loclscreen_title">Blocca lo schermo quando ti allontani</string>
     <string name="led_colors_summary">Colore LED di notifica</string>
@@ -7210,13 +7217,17 @@ Leggi e accetta l'%s prima di utilizzare questo servizio."</string>
     <string name="photography_handle_button_function_settings">"Imposta il pulsante dell'impugnatura"</string>
     <string name="photography_handle_charge_protected">"Protezione della carica per l'impugnatura"</string>
     <string name="photography_handle_charge_protected_summary">"Quando l'impugnatura della fotocamera è collegata, il dispositivo smetterà di caricarsi e manterrà la batteria a %1$s"</string>
+    <string name="photography_handle_charge_settings">Impostazioni di ricarica</string>
     <string name="photography_handle_charge_state">Carica dalle impugnature della fotocamera</string>
     <string name="photography_handle_charge_state_summary">Carica questo dispositivo dalle impugnature della fotocamera ogni volta che sono collegate</string>
+    <string name="photography_handle_function_settings">"Impostazioni dell'impugnatura per la fotocamera"</string>
     <string name="photography_handle_launch_and_take_photo">Scatta una foto</string>
     <string name="photography_handle_launch_camera">Apri la fotocamera</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">"Tieni premuto il pulsante di scatto per eseguire un'azione"</string>
     <string name="photography_handle_quick_launch_camera_title">Avvio rapido</string>
+    <string name="photography_handle_sn">Numero di serie</string>
     <string name="photography_handle_title">Impugnatura per la fotocamera</string>
+    <string name="photography_handle_update_and_maintain">Aggiornamenti</string>
     <string name="physical_keyboard_title">Tastiera fisica</string>
     <string name="pick_up_gesture_wakeup_title">Solleva per attivare</string>
     <string name="picker_text">Selezione orario</string>
@@ -8040,6 +8051,7 @@ Tutte le app e i relativi dati presenti nel tuo spazio verranno inoltre eliminat
     <string name="same_source_synced">La trasmissione è stata aggiunta correttamente</string>
     <string name="sar">"Informazioni sull'esposizione alla radiofrequenza"</string>
     <string name="satellite_call_assistant">Impostazioni di chiamata</string>
+    <string name="satellite_management_title">Rete satellitare</string>
     <string name="satellite_network_title">Funzioni di chiamata satellitare</string>
     <string name="satellite_setting">Messaggistica satellitare</string>
     <string name="satellite_setting_disabled_summary">Invia e ricevi messaggi via satellite. Non disponibile con il tuo account.</string>
@@ -9976,6 +9988,8 @@ Prova a usare un dispositivo ^3 più veloce oppure usa ^4 come archiviazione por
     <string name="tethering_hardware_offload_summary">"Utilizza l'accelerazione hardware per il tethering se disponibile"</string>
     <string name="tethering_help_button_text">Guida</string>
     <string name="tethering_settings_not_available">Modifica le impostazioni di tethering in Primo spazio</string>
+    <string name="text_layout_optimization_switch_label">Ottimizza layout del testo</string>
+    <string name="text_layout_optimization_switch_toast">Non è possibile ottimizzare il layout del testo con il font corrente</string>
     <string name="texture_adjust_temperature_title">Temperatura del colore</string>
     <string name="the_anniversary_of_lifting_martial_law">"Anniversario dell'abolizione della legge marziale"</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
@@ -11333,6 +11347,10 @@ La configurazione della rete come nascosta non influirà sulle impostazioni del 
     <string name="wifi_protection_tip">Xiaomi proteggerà i tuoi dati personali dalle Wi-Fi probe requests provenienti da indirizzi MAC casuali e Wi-Fi probe sniffers mentre il dispositivo sta cercando una rete Wi-Fi.</string>
     <string name="wifi_quick_toggle_summary">Attiva Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">La password Wi-Fi è errata. Inseriscila di nuovo.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Password Wi-Fi errata</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Salvata</string>
     <string name="wifi_remembered_disabled_auto_connect">Salvato. Non si connetterà automaticamente.</string>
     <string name="wifi_require_sim_card_to_connect">È necessaria una SIM per connettersi</string>

@@ -639,6 +639,7 @@ O gestor pode monitorizar e gerir as definições, o acesso, as aplicações e o
     <string name="ai_button_title">Botão Mi AI</string>
     <string name="ai_button_title_global">Botão IA</string>
     <string name="ai_call_assistant">Chamadas por IA</string>
+    <string name="ai_notification_settings">Resumo de notificações por IA</string>
     <string name="ai_services_title">Serviços de IA</string>
     <string name="ai_settings_click_title">Pressionar</string>
     <string name="ai_settings_double_click_category">Pressionar 2 vezes o Botão IA</string>
@@ -666,6 +667,7 @@ Se esta autorização estiver desativada, os alarmes existentes e os eventos com
     <string name="all_supported_app_locales_title">Todos os idiomas</string>
     <string name="all_volume_title">Volume</string>
     <string name="allow">Permitir</string>
+    <string name="allow_badge_summary">Permitir a exibição de um ponto vermelho numerado nos ícones do Ecrã para indicar notificações ou novos conteúdos</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Depois de criar o widget, a aplicação pode aceder a tudo o que é apresentado.
 
 Aplicação: %1$s
@@ -688,6 +690,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Permitir locais fictícios</string>
     <string name="allow_mock_modem">Autorize o modem fictício</string>
     <string name="allow_mock_modem_summary">Permita que este dispositivo execute o serviço de modem fictício para testes de instrumentação. Não ative isto durante a utilização normal do telemóvel</string>
+    <string name="allow_ongoing_summary">Permitir notificações que só podem ser eliminadas manualmente</string>
     <string name="allow_ongoing_title">Notificações permanentes</string>
     <string name="allow_overlay_description">Permita que esta app se sobreponha a outras apps que esteja a usar. Esta app vai poder ver onde toca ou alterar o que é apresentado no ecrã.</string>
     <string name="allow_sound_title">Som</string>
@@ -1221,7 +1224,7 @@ As chamadas, as mensagens e o tráfego de rede podem ser visíveis para a sua or
     <string name="back_navigation_animation_summary">Ative as animações do sistema para gestos para voltar preditivos.</string>
     <string name="back_sensitivity_dialog_message">Uma sensibilidade mais elevada pode entrar em conflito com quaisquer gestos de apps ao longo das extremidades do ecrã.</string>
     <string name="back_sensitivity_dialog_title">Sensibilidade para voltar atrás</string>
-    <string name="back_strap_image_text">Receba lembretes de notificação e efeitos de iluminação para diferentes cenas</string>
+    <string name="back_strap_image_text">Quando este dispositivo está virado para baixo com o ecrã desligado, a luz traseira exibirá lembretes de notificações e efeitos luminosos para diferentes cenários</string>
     <string name="back_strap_status_close">Desligado</string>
     <string name="back_strap_status_open">Ligado</string>
     <string name="back_strap_title">Efeitos de luz da traseira</string>
@@ -2901,7 +2904,6 @@ Se interromper o processo, vai perder todos os seus dados."</string>
     <string name="dark_mode_day_night_mode_summary">O seu dispositivo mudará para o Modo Escuro ao pôr do sol e voltará para o Modo claro ao nascer do sol. Ligue os serviços de localização para resultados mais precisos.</string>
     <string name="dark_mode_day_night_mode_title">Nascer ao pôr do sol</string>
     <string name="dark_mode_display_enable_summary">Alternar para uma IU de baixa luminosidade que exibe superfícies escuras em maior quantidade</string>
-    <string name="dark_mode_font_background_title">Ajustar texto e fundos automaticamente</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Percebi</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Se desligar a otimização do sistema e ligar a Poupança de bateria, o Modo escuro será ligado automaticamente.
 Para desligar o Modo escuro, desligue a Poupança de bateria, ou ligue a otimização do sistema em Definições > Opções de programador > Ligar otimização do sistema."</string>
@@ -3792,7 +3794,7 @@ Reinicie o seu dispositivo e tente novamente."</string>
     <string name="external_source_untrusted">Não autorizada</string>
     <string name="extreme_threats_summary">Receber alertas de ameaças extremas à vida e à propriedade</string>
     <string name="extreme_threats_title">Ameaças extremas</string>
-    <string name="eye_gaze_dialog_message">Quando liga o Detetar olhar, o dispositivo não trava quando detetar que está a olhar para o ecrã. As suas características faciais não serão analisadas, e as suas informações faciais não serão armazenadas em seu dispositivo ou carregadas na nuvem. Ligar agora?</string>
+    <string name="eye_gaze_dialog_message">Quando esta funcionalidade está ligada, o sistema detetará se está a olhar para o ecrã, mas as suas caraterísticas faciais não serão analisadas e estes dados não serão armazenados no seu dispositivo nem carregados para a nuvem. Ativar agora?</string>
     <string name="eye_gaze_dialog_title">Aviso de segurança</string>
     <string name="eye_gaze_summary">O dispositivo não vai bloquear quando detetar que está a olhar para o ecrã</string>
     <string name="eye_gaze_summary_fold_device">O dispositivo não vai bloquear quando detetar que está a olhar para o ecrã externo</string>
@@ -3875,6 +3877,7 @@ com o ecrã externo"</string>
     <string name="face_unlock_success_stay_screen_title">Ficar no Ecrã de bloqueio depois de desbloquear</string>
     <string name="face_unlock_title">Pode desbloquear o telemóvel com o seu rosto. Por motivos de segurança, esta opção requer um bloqueio de ecrã de segurança.</string>
     <string name="face_unlock_when_slt_on_toast">Não é possível usar o desbloqueio facial ao usar as comunicações de satélite Tiantong</string>
+    <string name="factory_reset_loading">Efetuando reposição para as predefinições de fábrica…</string>
     <string name="factory_reset_summary">A formatação vai apagar todos os dados do armazenamento interno do seu dispositivo</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Demasiadas tentativas incorretas. Os dados deste dispositivo vão ser eliminados.</string>
@@ -4145,6 +4148,9 @@ Para saber mais, contacte o seu fornecedor de crédito."</string>
     <string name="font_cta_alert_btn_positive">Aceitar</string>
     <string name="font_cta_alert_message">Leia e aceite os termos e condições dos Temas para continuar.</string>
     <string name="font_cta_alert_title">Termos e condições</string>
+    <string name="font_preview_text_content">"Texto de exemplo:
+
+A Xiaomi constrói incansavelmente produtos fantásticos com preços honestos para permitir que todos no mundo desfrutem de uma vida melhor através de tecnologia inovadora."</string>
     <string name="font_scale_percentage">%1$d%%</string>
     <string name="font_setting_weight_toast">O tipo de letra atual não suporta o ajuste de espessura</string>
     <string name="font_settings_jump">Acessibilidade > Tamanho de exibição</string>
@@ -4306,7 +4312,7 @@ Quando ativa a cópia de segurança automática, os dados do dispositivo e das a
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Controlador de Jogos</string>
     <string name="game_storage_settings">Jogos</string>
-    <string name="gaze_lock_screen_summary">O dispositivo permanecerá desbloqueado quando a sua presença for detetada, e bloqueará quando se afastar do ecrã</string>
+    <string name="gaze_lock_screen_summary">O dispositivo permanecerá desbloqueado quando estiver a olhar para o ecrã e bloqueará quando parar de olhar para proteger a sua privacidade, sobrescrevendo a sua definição automática de bloqueio do ecrã</string>
     <string name="gaze_lock_screen_title">Detetar presença</string>
     <string name="gd_setting_title">Barra lateral</string>
     <string name="general_category_title">Geral</string>
@@ -5128,6 +5134,7 @@ Abra a Xiaomi Cloud e restaure os itens por lá."</string>
     <string name="layout_size_small_text">Pequeno</string>
     <string name="le_audio_title">Áudio LE</string>
     <string name="learn_more">Saber mais</string>
+    <string name="leave_lockscreen_summary">O dispositivo bloqueará quando se afastar do ecrã</string>
     <string name="leave_loclscreen_summary">O ecrã bloqueará automaticamente quando ficar a uma certa distância do seu dispositivo</string>
     <string name="leave_loclscreen_title">Bloquear ecrã ao sair</string>
     <string name="led_colors_summary">Cor do LED das notificações</string>
@@ -7229,13 +7236,17 @@ Leia e aceite a %s antes de utilizar este serviço."</string>
     <string name="photography_handle_button_function_settings">Configurar botão do punho</string>
     <string name="photography_handle_charge_protected">Proteção de carregamento do punho</string>
     <string name="photography_handle_charge_protected_summary">Quando o punho da câmara estivef ligado, o dispositivo interomperá o carregamento e manterá a bateria em %1$s</string>
+    <string name="photography_handle_charge_settings">Definições de carregamento</string>
     <string name="photography_handle_charge_state">Carregar do punho da câmara</string>
     <string name="photography_handle_charge_state_summary">Carregar este dispositivo pelo punho da câmara sempre que ele estiver ligado</string>
+    <string name="photography_handle_function_settings">Definições do punho da câmara</string>
     <string name="photography_handle_launch_and_take_photo">Tirar uma foto</string>
     <string name="photography_handle_launch_camera">Abrir a Câmara</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Pressione e segure o botão do disparador para executar uma ação</string>
     <string name="photography_handle_quick_launch_camera_title">Início rápido</string>
+    <string name="photography_handle_sn">Número de série</string>
     <string name="photography_handle_title">Punho da câmara</string>
+    <string name="photography_handle_update_and_maintain">Atualizações</string>
     <string name="physical_keyboard_title">Teclado físico</string>
     <string name="pick_up_gesture_wakeup_title">Levantar para ligar o ecrã</string>
     <string name="picker_text">Seletor de hora</string>
@@ -7924,7 +7935,7 @@ Reinicie o seu dispositivo e tente novamente."</string>
     <string name="reset_network_button_text">Repor definições</string>
     <string name="reset_network_category">Isto vai redefinir todas as definições de rede, incluindo:</string>
     <string name="reset_network_complete_toast">As definições de rede foram repostas</string>
-    <string name="reset_network_confirm_title">Quer repor?</string>
+    <string name="reset_network_confirm_title">Repor?</string>
     <string name="reset_network_data">Dados móveis</string>
     <string name="reset_network_final_button_text">Repor definições</string>
     <string name="reset_network_final_desc">Isto pode levar vários segundos. Não poderá desfazer esta ação.</string>
@@ -8061,6 +8072,7 @@ Todas as apps no seu espaço e os respetivos dados também vão ser eliminados p
     <string name="same_source_synced">Transmissão adicionada com sucesso</string>
     <string name="sar">Informações de Exposição de RF</string>
     <string name="satellite_call_assistant">Definições de chamada</string>
+    <string name="satellite_management_title">Rede de satélite</string>
     <string name="satellite_network_title">Recursos de chamada via satélite</string>
     <string name="satellite_setting">Mensagens por satélite</string>
     <string name="satellite_setting_disabled_summary">Envie e receba mensagens de texto por satélite. Não incluído na sua conta.</string>
@@ -9997,6 +10009,8 @@ Experimente utilizar um ^3 mais rápido ou, em alternativa, utilize este ^4 como
     <string name="tethering_hardware_offload_summary">Se disponível, utilizar a aceleração de hardware para ligação (à Internet) via telemóvel</string>
     <string name="tethering_help_button_text">Ajuda</string>
     <string name="tethering_settings_not_available">Alterar as definições de partilha de ligação no Primeiro Espaço</string>
+    <string name="text_layout_optimization_switch_label">Otimizar layout do texto</string>
+    <string name="text_layout_optimization_switch_toast">Não é possível otimizar o layout do texto com a letra atual</string>
     <string name="texture_adjust_temperature_title">Temperatura da cor</string>
     <string name="the_anniversary_of_lifting_martial_law">Aniversário da remoção da lei Marcial</string>
     <string name="the_anti_aggression_day">Dia da Anti-agressão</string>
@@ -11354,6 +11368,10 @@ Definir a rede como oculta não altera as definições do router."</string>
     <string name="wifi_protection_tip">A Xiaomi protegerá os seus dados pessoais de pedidos de sondagem por Wi-Fi provenientes de endereços MAC aleatórios e sniffers de sondagem Wi-Fi quando seu dispositivo estiver a pesquisar por redes Wi-Fi.</string>
     <string name="wifi_quick_toggle_summary">Ligar Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">A palavra-passe do Wi-Fi está incorreta. Introduza-a novamente.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Palavra-passe do Wi-Fi incorreta</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Guardada</string>
     <string name="wifi_remembered_disabled_auto_connect">Guardado. Não vai ligar automaticamente.</string>
     <string name="wifi_require_sim_card_to_connect">Requer o SIM para estabelecer ligação</string>

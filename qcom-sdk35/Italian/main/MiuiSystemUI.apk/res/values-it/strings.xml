@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">silenzio totale</string>
     <string name="accessibility_quick_settings_edit">"Modifica l'ordine delle impostazioni."</string>
     <string name="accessibility_quick_settings_expand">Apri le impostazioni rapide.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Impugnatura connessa</string>
     <string name="accessibility_quick_settings_open_settings">Apri le impostazioni %s.</string>
     <string name="accessibility_quick_settings_page">Pagina %1$d di %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Menu del tasto di accensione</string>
@@ -314,6 +315,9 @@ Se questa autorizzazione viene disattivata, le sveglie esistenti e gli eventi ba
     <string name="alarms_and_reminders_label">Sveglie e promemoria</string>
     <string name="alarms_and_reminders_switch_title">"Consenti l'impostazione di sveglie e promemoria"</string>
     <string name="alarms_and_reminders_title">Sveglie e promemoria</string>
+    <string name="alertdialog_safemode_button_submit">Invia</string>
+    <string name="alertdialog_safemode_message">"Il tuo dispositivo è entrato in modalità sicurezza a causa di problemi all'interfaccia del sistema che hanno reso indisponibili alcune funzioni. Invia il tuo feedback per accelerare la risoluzione di questo problema."</string>
+    <string name="alertdialog_safemode_title">Entrata in modalità sicurezza</string>
     <string name="all_network_unavailable">Nessuna rete disponibile</string>
     <string name="allow_mock_location">Posizioni fittizie</string>
     <string name="allow_mock_location_summary">Consenti posizioni fittizie</string>
@@ -1058,6 +1062,7 @@ Spegnila premendo il pulsante di accensione."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Il tema del display sempre attivo è stato impostato su personalizzato a causa dei Super sfondi</string>
     <string name="fullaod_apply_third_theme_toast">Il tema del display sempre attivo è stato impostato su personalizzato a causa di temi di terze parti</string>
     <string name="fullaod_apply_third_wallpaper_toast">Il tema del display sempre attivo è stato impostato su personalizzato a causa di sfondi di terze parti</string>
+    <string name="fullaod_apply_video_depth_toast">Lo stile Always-on display è stato impostato su Personalizzato</string>
     <string name="fullscreen_text">Schermo intero</string>
     <string name="game_status">Gioco in corso</string>
     <string name="global_action_smart_lock_disabled">Sblocco avanzato disattivato</string>
@@ -1583,6 +1588,12 @@ Se neghi l'accesso a tutti i log del dispositivo, questa app può comunque acced
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 dd/MM/yyyy"</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Sbloccato tramite dispositivo Bluetooth</string>
+    <string name="miui_lock_aqi_level_description_critical">Pericolosa</string>
+    <string name="miui_lock_aqi_level_description_excellent">Molto buona</string>
+    <string name="miui_lock_aqi_level_description_good">Buona</string>
+    <string name="miui_lock_aqi_level_description_mild">Discreta</string>
+    <string name="miui_lock_aqi_level_description_moderate">Malsana</string>
+    <string name="miui_lock_aqi_level_description_serious">Molto malsana</string>
     <string name="miui_lock_eastern_art_date_time_12">dd/MM h:mm aa</string>
     <string name="miui_lock_eastern_art_date_time_24">dd/MM H:mm</string>
     <string name="miui_lock_eastern_art_week_am">EEEE</string>
@@ -1857,6 +1868,7 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="notification_channel_dialog_title">Tutte le notifiche di %1$s</string>
     <string name="notification_channel_hints">Suggerimenti</string>
     <string name="notification_channel_instant">App istantanee</string>
+    <string name="notification_channel_safemode">Modalità sicura</string>
     <string name="notification_channel_screenshot">Screenshot</string>
     <string name="notification_channel_setup">Configurazione</string>
     <string name="notification_channel_storage">Spazio di archiviazione</string>
@@ -1889,6 +1901,13 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="notification_more_settings">Altre impostazioni</string>
     <string name="notification_multichannel_desc">Qui non è possibile configurare questo gruppo di notifiche</string>
     <string name="notification_priority_title">Priorità</string>
+    <string name="notification_safemode_button_exit">Esci</string>
+    <string name="notification_safemode_description_exit">"Assicurati di seguire i suggerimenti per la risoluzione dei problemi forniti nell'avviso prima di uscire dalla modalità di sicurezza. Se non lo fai, il tuo dispositivo potrebbe entrare nuovamente in modalità provvisoria."</string>
+    <string name="notification_safemode_description_presafemode">"L'interfaccia di sistema e i dati di Temi sono stati cancellati con successo. Puoi utilizzare il tuo dispositivo normalmente."</string>
+    <string name="notification_safemode_description_safemode">"Il tuo dispositivo è ora in modalità provvisoria. Tocca per vedere come ripristinare l'interfaccia di sistema."</string>
+    <string name="notification_safemode_title_exit">Esci dalla modalità di sicurezza</string>
+    <string name="notification_safemode_title_presafemode">"L'interfaccia del sistema è stata ripristinata"</string>
+    <string name="notification_safemode_title_safemode">"Avviso sulla risoluzione del problema dei crash dell'interfaccia di sistema"</string>
     <string name="notification_section_header_alerting">Notifiche</string>
     <string name="notification_section_header_conversations">Conversazioni</string>
     <string name="notification_section_header_gentle">Notifiche silenziose</string>
@@ -2159,9 +2178,9 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Dual SIM smart</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Inversione dei colori</string>
-    <string name="quick_settings_location_label">Posizione</string>
-    <string name="quick_settings_location_state_change_message_off">Accesso alla posizione disattivato</string>
-    <string name="quick_settings_location_state_change_message_on">Accesso alla posizione attivo</string>
+    <string name="quick_settings_location_label">Servizi di localizzazione</string>
+    <string name="quick_settings_location_state_change_message_off">I servizi di localizzazione sono disattivati</string>
+    <string name="quick_settings_location_state_change_message_on">I servizi di localizzazione sono attivi</string>
     <string name="quick_settings_media_device_label">Dispositivo multimediale</string>
     <string name="quick_settings_mic_label">Accesso al microfono</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Nessuna rete Wi-Fi disponibile</string>
@@ -2304,6 +2323,7 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">"Tieni premuti i pulsanti \"Indietro\" e \"Anteprima\" per rimuovere quest'app da quelle fissate in alto"</string>
     <string name="screen_pinning_toast_recents_invisible">Per sbloccare questa app, tocca e tieni premuti i pulsanti Indietro e Home</string>
     <string name="screen_pinning_toast_start">Questa app è fissata in alto</string>
+    <string name="screen_share_dialog_spinner_text">Ambito</string>
     <string name="screen_share_permission_app_selector_title">"Condividi o registra un'app"</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Schermo intero</string>
     <string name="screen_share_permission_dialog_option_single_app">Una sola app</string>

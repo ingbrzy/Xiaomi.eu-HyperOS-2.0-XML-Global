@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">teljes némítás</string>
     <string name="accessibility_quick_settings_edit">Beállítások sorrendjének szerkesztése.</string>
     <string name="accessibility_quick_settings_expand">Gyorsbeállítások megnyitása.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Csatlakoztatott fogantyú</string>
     <string name="accessibility_quick_settings_open_settings">A(z) %s beállításainak megnyitása.</string>
     <string name="accessibility_quick_settings_page">%1$d. oldal, összesen: %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Bekapcsológombhoz tartozó menü</string>
@@ -314,6 +315,9 @@ Ha ez az engedély ki van kapcsolva, az alkalmazás által beállított ébreszt
     <string name="alarms_and_reminders_label">Ébresztések és emlékeztetők</string>
     <string name="alarms_and_reminders_switch_title">Beállíthat ébresztéseket és emlékeztetőket</string>
     <string name="alarms_and_reminders_title">Ébresztések és emlékeztetők</string>
+    <string name="alertdialog_safemode_button_submit">Beküldés</string>
+    <string name="alertdialog_safemode_message">A készülék a rendszerfelületi problémák miatt biztonságos üzemmódba lépett, ami egyes funkciók elérhetetlenné válását okozza. Küldje el visszajelzését a probléma megoldásának felgyorsítása érdekében.</string>
+    <string name="alertdialog_safemode_title">Biztonságos módba lépett</string>
     <string name="all_network_unavailable">Nincs elérhető hálózat</string>
     <string name="allow_mock_location">Helyutánzatok engedélyezése</string>
     <string name="allow_mock_location_summary">Helyutánzatok engedélyezése</string>
@@ -1058,6 +1062,7 @@ Kapcsolja ki a bekapcsológombbal."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Az Always-on display funkció témája a harmadik féltől származó Szuper háttérképek miatt egyénire lett beállítva</string>
     <string name="fullaod_apply_third_theme_toast">Az Always-on display funkció témája a harmadik féltől származó témák miatt egyénire lett beállítva</string>
     <string name="fullaod_apply_third_wallpaper_toast">Az Always-on display funkció témája a harmadik féltől származó háttérképek miatt egyénire lett beállítva</string>
+    <string name="fullaod_apply_video_depth_toast">Always-on display funkció stílus egyénire váltva</string>
     <string name="fullscreen_text">Teljes képernyő</string>
     <string name="game_status">Játékban</string>
     <string name="global_action_smart_lock_disabled">Tartós feloldás letiltva</string>
@@ -1583,6 +1588,12 @@ Ha nem engedélyezi ennek az alkalmazásnak, hogy hozzáférjen az összes eszk�
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 yyyy. MM. dd."</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Bluetooth-eszközzel feloldva</string>
+    <string name="miui_lock_aqi_level_description_critical">Kockázatos</string>
+    <string name="miui_lock_aqi_level_description_excellent">Jó</string>
+    <string name="miui_lock_aqi_level_description_good">Kedvező</string>
+    <string name="miui_lock_aqi_level_description_mild">Közepes</string>
+    <string name="miui_lock_aqi_level_description_moderate">Egészségtelen</string>
+    <string name="miui_lock_aqi_level_description_serious">Súlyos</string>
     <string name="miui_lock_eastern_art_date_time_12">MM. dd. h:mm aa</string>
     <string name="miui_lock_eastern_art_date_time_24">MM. dd. H:mm</string>
     <string name="miui_lock_eastern_art_week_am">EEEE</string>
@@ -1857,6 +1868,7 @@ Ha kérdései vannak, forduljon a következőhöz: %2$s."</string>
     <string name="notification_channel_dialog_title">Az összes %1$s-értesítés</string>
     <string name="notification_channel_hints">Tippek</string>
     <string name="notification_channel_instant">Azonnali alkalmazások</string>
+    <string name="notification_channel_safemode">Biztonságos mód</string>
     <string name="notification_channel_screenshot">Képernyőképek</string>
     <string name="notification_channel_setup">Beállítás</string>
     <string name="notification_channel_storage">Tárhely</string>
@@ -1889,6 +1901,13 @@ Ha kérdései vannak, forduljon a következőhöz: %2$s."</string>
     <string name="notification_more_settings">További beállítások</string>
     <string name="notification_multichannel_desc">Az értesítések jelen csoportját itt nem lehet beállítani</string>
     <string name="notification_priority_title">Prioritás</string>
+    <string name="notification_safemode_button_exit">Kilépés</string>
+    <string name="notification_safemode_description_exit">A biztonságos módból való kilépés előtt feltétlenül kövesse a közleményben szereplő hibaelhárítási tippeket. Ellenkező esetben előfordulhat, hogy a készülék újra belép a Biztonságos módba.</string>
+    <string name="notification_safemode_description_presafemode">A rendszerfelület és a Témák adatok törlése sikeres volt. Normálisan használhatja a készüléket.</string>
+    <string name="notification_safemode_description_safemode">A készülék most már biztonságos módban van. Érintse meg a rendszerfelület visszaállításának megtekintéséhez.</string>
+    <string name="notification_safemode_title_exit">Kilépés a Biztonságos módból</string>
+    <string name="notification_safemode_title_presafemode">A rendszerfelület visszaállt</string>
+    <string name="notification_safemode_title_safemode">Értesítés a rendszerfelület összeomlásával kapcsolatos probléma javításáról</string>
     <string name="notification_section_header_alerting">Értesítések</string>
     <string name="notification_section_header_conversations">Beszélgetések</string>
     <string name="notification_section_header_gentle">Néma</string>
@@ -2159,9 +2178,9 @@ Ha kérdései vannak, forduljon a következőhöz: %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Okos duál SIM</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Színek invertálása</string>
-    <string name="quick_settings_location_label">Hely</string>
-    <string name="quick_settings_location_state_change_message_off">Tartózkodási helyhez való hozzáférés kikapcsolva</string>
-    <string name="quick_settings_location_state_change_message_on">Tartózkodási helyhez való hozzáférés bekapcsolva</string>
+    <string name="quick_settings_location_label">Helymeghatározó szolgáltatások</string>
+    <string name="quick_settings_location_state_change_message_off">Helymeghatározó szolgáltatások kikapcsolva</string>
+    <string name="quick_settings_location_state_change_message_on">Helymeghatározó szolgáltatások bekapcsolva</string>
     <string name="quick_settings_media_device_label">Médiaeszköz</string>
     <string name="quick_settings_mic_label">Mikrofonelérés</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Nincs elérhető Wi-Fi-hálózat</string>
@@ -2304,6 +2323,7 @@ Ha kérdései vannak, forduljon a következőhöz: %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Nyomja meg és tartsa lenyomva a Vissza és Előnézet gombokat az alkalmazás rögzítésének feloldásához</string>
     <string name="screen_pinning_toast_recents_invisible">Az alkalmazás kitűzésének megszüntetéséhez tartsa lenyomva a Vissza és a Kezdőképernyő gombot</string>
     <string name="screen_pinning_toast_start">Ez az alkalmazás rögzítve van</string>
+    <string name="screen_share_dialog_spinner_text">Terjedelem</string>
     <string name="screen_share_permission_app_selector_title">Alkalmazás megosztása vagy rögzítése</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Teljes képernyő</string>
     <string name="screen_share_permission_dialog_option_single_app">Egyetlen alkalmazás</string>

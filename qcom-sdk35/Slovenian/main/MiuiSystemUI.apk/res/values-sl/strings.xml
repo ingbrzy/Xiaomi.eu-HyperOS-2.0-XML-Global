@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">popolna tišina</string>
     <string name="accessibility_quick_settings_edit">Uredi vrstni red nastavitev.</string>
     <string name="accessibility_quick_settings_expand">Odpri hitre nastavitve.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Povezan ročaj</string>
     <string name="accessibility_quick_settings_open_settings">Odpri nastavitve za %s.</string>
     <string name="accessibility_quick_settings_page">%1$d. stran od %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Meni za vklop/izklop</string>
@@ -314,6 +315,9 @@
     <string name="alarms_and_reminders_label">Alarmi in opomniki</string>
     <string name="alarms_and_reminders_switch_title">Dovoli nastavljanje alarmov in opomnikov</string>
     <string name="alarms_and_reminders_title">Alarmi in opomniki</string>
+    <string name="alertdialog_safemode_button_submit">Pošlji</string>
+    <string name="alertdialog_safemode_message">Vaša naprava je prešla v varni način zaradi težav s sistemskim vmesnikom, zaradi česar nekatere funkcije niso več na voljo. Pošljite povratne informacije, da pospešite rešitev te težave.</string>
+    <string name="alertdialog_safemode_title">Prešla v varni način</string>
     <string name="all_network_unavailable">Na voljo ni nobeno omrežje</string>
     <string name="allow_mock_location">Dovoli lažne lokacije</string>
     <string name="allow_mock_location_summary">Dovoli lažne lokacije</string>
@@ -1058,6 +1062,7 @@ Izklopite z gumbom za vklop."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Tema Always On Display je bila nastavljena po meri zaradi super ozadij</string>
     <string name="fullaod_apply_third_theme_toast">Tema Always On Display je bila nastavljena po meri zaradi tem tretjih oseb</string>
     <string name="fullaod_apply_third_wallpaper_toast">Tema Always On Display je bila nastavljena po meri zaradi ozadij tretjih oseb</string>
+    <string name="fullaod_apply_video_depth_toast">Always On Display stil je preklopljen na Prilagojeno</string>
     <string name="fullscreen_text">Celozaslonsko</string>
     <string name="game_status">Igranje</string>
     <string name="global_action_smart_lock_disabled">Razširjeno odklepanje je onemogočeno</string>
@@ -1583,6 +1588,12 @@ Nekateri dnevniki morda vsebujejo občutljive podatke, zato dostop do vseh dnevn
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 d. M. yyyy"</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Odklenjeno z Bluetooth napravo</string>
+    <string name="miui_lock_aqi_level_description_critical">Izredno slaba</string>
+    <string name="miui_lock_aqi_level_description_excellent">Zelo dobra</string>
+    <string name="miui_lock_aqi_level_description_good">Dobra</string>
+    <string name="miui_lock_aqi_level_description_mild">Sprejemljiva</string>
+    <string name="miui_lock_aqi_level_description_moderate">Slaba</string>
+    <string name="miui_lock_aqi_level_description_serious">Zelo slaba</string>
     <string name="miui_lock_eastern_art_date_time_12">d. M. h:mm aa</string>
     <string name="miui_lock_eastern_art_date_time_24">d. M. H:mm</string>
     <string name="miui_lock_eastern_art_week_am">EEEE</string>
@@ -1857,6 +1868,7 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="notification_channel_dialog_title">Vsa obvestila aplikacije %1$s</string>
     <string name="notification_channel_hints">Namigi</string>
     <string name="notification_channel_instant">Nenamestljive aplikacije</string>
+    <string name="notification_channel_safemode">Varni način</string>
     <string name="notification_channel_screenshot">Posnetki zaslona</string>
     <string name="notification_channel_setup">Nastavitev</string>
     <string name="notification_channel_storage">Shramba</string>
@@ -1889,6 +1901,13 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="notification_more_settings">Več nastavitev</string>
     <string name="notification_multichannel_desc">Te skupine obvestil ni mogoče konfigurirati tukaj</string>
     <string name="notification_priority_title">Prednostno</string>
+    <string name="notification_safemode_button_exit">Izhod</string>
+    <string name="notification_safemode_description_exit">Pred izhodom iz varnega načina upoštevajte nasvete za odpravljanje težav iz obvestila. Če tega ne storite, se lahko naprava znova preklopi v varni način.</string>
+    <string name="notification_safemode_description_presafemode">Sistemski vmesnik in podatki tem so bili uspešno počiščeni. Napravo lahko uporabljate normalno.</string>
+    <string name="notification_safemode_description_safemode">Vaša naprava je zdaj v varnem načinu. Tapnite, da si ogledate, kako obnoviti sistemski vmesnik.</string>
+    <string name="notification_safemode_title_exit">Izhod iz varnega načina</string>
+    <string name="notification_safemode_title_presafemode">Sistemski vmesnik je obnovljen</string>
+    <string name="notification_safemode_title_safemode">Obvestilo o odpravi težave z zrušitvijo sistemskega vmesnika</string>
     <string name="notification_section_header_alerting">Obvestila</string>
     <string name="notification_section_header_conversations">Pogovori</string>
     <string name="notification_section_header_gentle">Tiho</string>
@@ -2159,9 +2178,9 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Pametna dvojna SIM kartica</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Inverzija barv</string>
-    <string name="quick_settings_location_label">Lokacija</string>
-    <string name="quick_settings_location_state_change_message_off">Dostop do lokacije je izklopljen</string>
-    <string name="quick_settings_location_state_change_message_on">Dostop do lokacije je vklopljen</string>
+    <string name="quick_settings_location_label">Lokacijske storitve</string>
+    <string name="quick_settings_location_state_change_message_off">Lokacijske storitve so izklopljene</string>
+    <string name="quick_settings_location_state_change_message_on">Lokacijske storitve so vklopljene</string>
     <string name="quick_settings_media_device_label">Predstavnostna naprava</string>
     <string name="quick_settings_mic_label">Dostop do mikrofona</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Na voljo ni nobenega Wi-Fi omrežja</string>
@@ -2304,6 +2323,7 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="screen_pinning_toast_navigation_mode">Pritisnite in pridržite gumba za nazaj in za predogled, da odstranite to aplikacijo</string>
     <string name="screen_pinning_toast_recents_invisible">Če želite odpeti to aplikacijo, hkrati pridržite gumba za nazaj in za začetni zaslon.</string>
     <string name="screen_pinning_toast_start">Ta aplikacija je pripeta</string>
+    <string name="screen_share_dialog_spinner_text">Obseg</string>
     <string name="screen_share_permission_app_selector_title">Deljenje ali snemanje aplikacije</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Celoten zaslon</string>
     <string name="screen_share_permission_dialog_option_single_app">Posamezna aplikacija</string>

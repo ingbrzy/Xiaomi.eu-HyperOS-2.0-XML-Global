@@ -638,6 +638,7 @@ A rendszergazda képes a beállítások, hozzáférések, alkalmazások és a fe
     <string name="ai_button_title">Mi AI gomb</string>
     <string name="ai_button_title_global">AI gomb</string>
     <string name="ai_call_assistant">AI hívások</string>
+    <string name="ai_notification_settings">AI értesítés-összefoglaló</string>
     <string name="ai_services_title">AI-szolgáltatások</string>
     <string name="ai_settings_click_title">Nyomja meg</string>
     <string name="ai_settings_double_click_category">Érintse meg duplán az AI gombot</string>
@@ -665,6 +666,7 @@ Ha ez az engedély ki van kapcsolva, az alkalmazás által beállított ébreszt
     <string name="all_supported_app_locales_title">Minden nyelv</string>
     <string name="all_volume_title">Hangerő</string>
     <string name="allow">Engedélyezés</string>
+    <string name="allow_badge_summary">Engedélyezheti, hogy egy számozott piros pont jelenjen meg a kezdőképernyő ikonjain az értesítések vagy új tartalmak jelzésére.</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Miután létrehozta a modult, az alkalmazás hozzáférhet minden megjelenő tartalomhoz.
 
 Alkalmazás: %1$s
@@ -687,6 +689,7 @@ Modul: %2$s
     <string name="allow_mock_location_summary">Helyutánzatok engedélyezése</string>
     <string name="allow_mock_modem">Mock Modem engedélyezése</string>
     <string name="allow_mock_modem_summary">Ez az eszköz futtathat Mock Modem szolgáltatást a mérési teszteléshez. A telefon normál használata során ne engedélyezze ezt a szolgáltatást.</string>
+    <string name="allow_ongoing_summary">Engedélyezheti a csak manuálisan törölhető értesítéseket</string>
     <string name="allow_ongoing_title">Állandó értesítés</string>
     <string name="allow_overlay_description">Lehetővé teszi az adott alkalmazás számára, hogy megjelenjen a többi használatban lévő alkalmazás fölött. Ez az alkalmazás látja majd, hogy Ön hova kattint, illetve módosíthatja a képernyőn megjelenő tartalmakat.</string>
     <string name="allow_sound_title">Hang</string>
@@ -1220,7 +1223,7 @@ Utolsó futás időpontja: %2$s"</string>
     <string name="back_navigation_animation_summary">Rendszeranimációk engedélyezése prediktív „vissza” kézmozdulatok esetén.</string>
     <string name="back_sensitivity_dialog_message">Előfordulhat, hogy a magasabb érzékenység problémát okoz a képernyő szélén végzett kézmozdulatok során az alkalmazásokban.</string>
     <string name="back_sensitivity_dialog_title">A „vissza” kézmozdulat érzékenysége</string>
-    <string name="back_strap_image_text">Kapjon értesítési emlékeztetőket és fényhatásokat a különböző jelenetekhez</string>
+    <string name="back_strap_image_text">Ha a készülék lefelé néz kikapcsolt képernyővel, a hátsó világítás kijelzi az értesítések emlékeztetőit és a különböző jelenetekhez tartozó fényhatásokat.</string>
     <string name="back_strap_status_close">Ki</string>
     <string name="back_strap_status_open">Be</string>
     <string name="back_strap_title">Hátsó fényhatások</string>
@@ -1235,7 +1238,7 @@ A korlátozáshoz kapcsolja be az akkumulátoroptimalizálást."</string>
     <string name="background_blur_enable">Haladó textúrák</string>
     <string name="background_blur_enable_summary">Renderelési effektusokkal, például elmosódással egészíti ki a rendszert a jobb vizuális élmény érdekében</string>
     <string name="background_blur_message">Ha bekapcsolja ezt a funkciót, a készülék több energiát használhat, és felmelegedhet. Mindenképpen bekapcsolja?</string>
-    <string name="background_blur_title">Haladó textúrák bekapcoslása</string>
+    <string name="background_blur_title">Haladó textúrák bekapcsolása</string>
     <string name="background_check_pref">Háttérellenőrzés</string>
     <string name="background_data">Háttéradatok</string>
     <string name="background_data_dialog_message">A háttéradatok letiltása megnöveli a használati időt és csökkenti az adathasználatot. Egyes alkalmazások lehet, hogy továbbra is használják a háttér-adatkapcsolatot.</string>
@@ -2898,7 +2901,6 @@ Ha megszakítja, elveszíti néhány vagy az összes adatát."</string>
     <string name="dark_mode_day_night_mode_summary">A készülék napnyugtakor Sötét módba, napkeltekor pedig Világos módba vált. A legpontosabb eredményekhez kapcsolja be a helymeghatározó szolgáltatásokat.</string>
     <string name="dark_mode_day_night_mode_title">Napnyugtától napkeltéig</string>
     <string name="dark_mode_display_enable_summary">Váltás gyenge fényviszonyok között működő olyan felhasználói felületre, amely többnyire sötét felületeket jelenít meg</string>
-    <string name="dark_mode_font_background_title">Szöveg és hátterek automatikus módosítása</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Rendben</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Ha kikapcsolja a rendszeroptimalizálást és bekapcsolja az Akkumulátorkímélőt, a Sötét mód automatikusan bekapcsolódik.
 A Sötét mód kikapcsolásához kapcsolja ki az Akkumulátorkímélőt, vagy kapcsolja be a rendszeroptimalizálást a Beállítások > Fejlesztői beállítások > Rendszeroptimalizáció bekapcsolása menüpontban."</string>
@@ -3788,7 +3790,7 @@ Indítsa újra az eszközt, és próbálkozzon újra."</string>
     <string name="external_source_untrusted">Nem engedélyezett</string>
     <string name="extreme_threats_summary">Riasztások extrém károkkal járó veszélyekről</string>
     <string name="extreme_threats_title">Extrém veszélyek</string>
-    <string name="eye_gaze_dialog_message">Ha bekapcsolja a tekintet észlelését, a készülék nem zárolódik, amikor érzékeli, hogy a képernyőre néz. Az arcvonásait nem elemezzük, és az arcadatokat nem tároljuk a készüléken, illetve nem töltjük fel a felhőbe. Bekapcsolja most?</string>
+    <string name="eye_gaze_dialog_message">Ha ez a funkció be van kapcsolva, a rendszer érzékeli, hogy a képernyőre néz-e, de az arcvonásait nem elemzi, és ezeket az adatokat nem tárolja a készülékén, illetve nem tölti fel a felhőbe. Bekapcsolja most?</string>
     <string name="eye_gaze_dialog_title">Biztonsági értesítés</string>
     <string name="eye_gaze_summary">A készülék nem zárolódik, ha észleli, hogy ön a képernyőt nézi</string>
     <string name="eye_gaze_summary_fold_device">A készülék nem zárolódik, ha észleli, hogy ön a külső képernyőt nézi</string>
@@ -3871,6 +3873,7 @@ a külső képernyővel szemben"</string>
     <string name="face_unlock_success_stay_screen_title">Az arcfeloldás ne nyissa azonnal a Képernyőzárat</string>
     <string name="face_unlock_title">Feloldhatja telefonját arca segítségével. Biztonsági okokból ezen beállítás esetében szükség van másodlagos képernyőzárra is.</string>
     <string name="face_unlock_when_slt_on_toast">Nem lehet használni az Arcalapú feloldást a Tiantong Satellite kommunikációs szolgáltatás használatakor</string>
+    <string name="factory_reset_loading">Gyári adatok visszaállításának végrehajtása…</string>
     <string name="factory_reset_summary">A formázás az összes adatot eltávolítja a készülék belső tárhelyéről.</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Túl sok sikertelen próbálkozás. A rendszer törli az adatokat az eszközről.</string>
@@ -4141,6 +4144,9 @@ További információért forduljon a hitelezőhöz."</string>
     <string name="font_cta_alert_btn_positive">Elfogadom</string>
     <string name="font_cta_alert_message">A folytatáshoz olvassa el és fogadja el a Témák felhasználási feltételeit</string>
     <string name="font_cta_alert_title">Felhasználási feltételek</string>
+    <string name="font_preview_text_content">"Példaszöveg:
+
+A Xiaomi fáradhatatlanul dolgozik azon, hogy lenyűgöző termékei korrekt árakon világszerte mindenkinek jobb életet nyújtsanak az innovatív technológia segítségével."</string>
     <string name="font_scale_percentage">%1$d%%</string>
     <string name="font_setting_weight_toast">Az aktuális betűtípus nem támogatja a betűvastagság beállítását</string>
     <string name="font_settings_jump">Kisegítő lehetőségek > a kijelző mérete</string>
@@ -4301,7 +4307,7 @@ Ha bekapcsolja az automatikus biztonsági mentést, akkor a rendszer szabályos 
     <string name="game_booster_title">Játékgyorsító</string>
     <string name="game_controller_settings_category">Játékvezérlő</string>
     <string name="game_storage_settings">Játékok</string>
-    <string name="gaze_lock_screen_summary">A készülék feloldva marad, amikor az Ön jelenlétét érzékeli, és zárolódik, ha eltávolodik a képernyőtől</string>
+    <string name="gaze_lock_screen_summary">A készülék feloldva marad, amikor a képernyőre néz, és lezáródik, amikor elfordítja a tekintetét, hogy megvédje a magánéletét, felülbírálva az automatikus zárolási időbeállítást.</string>
     <string name="gaze_lock_screen_title">Jelenlét észlelése</string>
     <string name="gd_setting_title">Oldalsáv</string>
     <string name="general_category_title">Általános</string>
@@ -5107,6 +5113,7 @@ Nyissa meg a Xiaomi Cloudot és állítsa helyre az elemeket."</string>
     <string name="layout_size_small_text">Nagyon kicsi</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">További információ</string>
+    <string name="leave_lockscreen_summary">A készülék lezár, ha eltávolodik a képernyőtől</string>
     <string name="leave_loclscreen_summary">A képernyő automatikusan zárol, ha adott távolságra eltávolodik a készüléktől.</string>
     <string name="leave_loclscreen_title">Képernyő zárolása, ha eltávolodik a készüléktől</string>
     <string name="led_colors_summary">Értesítések fényjelzésének színe</string>
@@ -7207,13 +7214,17 @@ A szolgáltatás használata előtt olvassa el és fogadja el a következőt: %s
     <string name="photography_handle_button_function_settings">Állítsa be a tartó gombot</string>
     <string name="photography_handle_charge_protected">Markolat töltésvédelem</string>
     <string name="photography_handle_charge_protected_summary">Ha a kameramarkolat csatlakoztatva van, a készülék leállítja a töltést, és az akkumulátort %1$s szinten tartja.</string>
+    <string name="photography_handle_charge_settings">Töltési beállítások</string>
     <string name="photography_handle_charge_state">Töltés a kamera markolatáról</string>
     <string name="photography_handle_charge_state_summary">Készülék töltése a kamera markolatáról, amikor az csatlakoztatva van</string>
+    <string name="photography_handle_function_settings">Kamerafogás beállításai</string>
     <string name="photography_handle_launch_and_take_photo">Készítsen fényképet</string>
     <string name="photography_handle_launch_camera">Nyissa meg a kamerát</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Nyomja meg és tartsa lenyomva az exponálógombot egy művelet végrehajtásához</string>
     <string name="photography_handle_quick_launch_camera_title">Gyorsíndítás</string>
+    <string name="photography_handle_sn">Sorozatszám</string>
     <string name="photography_handle_title">Kamerafogás</string>
+    <string name="photography_handle_update_and_maintain">Frissítések</string>
     <string name="physical_keyboard_title">Fizikai billentyűzet</string>
     <string name="pick_up_gesture_wakeup_title">Felébresztés felemeléssel</string>
     <string name="picker_text">Időválasztó</string>
@@ -7900,7 +7911,7 @@ Indítsa újra az eszközt, majd próbálja újra."</string>
     <string name="reset_network_button_text">Beállítások visszaállítása</string>
     <string name="reset_network_category">Visszaállítja a következő hálózati beállításokat:</string>
     <string name="reset_network_complete_toast">A hálózati beállítások vissza lettek állítva.</string>
-    <string name="reset_network_confirm_title">Visszaállítja?</string>
+    <string name="reset_network_confirm_title">Visszaállítás?</string>
     <string name="reset_network_data">Mobiladat-kapcsolat</string>
     <string name="reset_network_final_button_text">Beállítások visszaállítása</string>
     <string name="reset_network_final_desc">A művelet pár másodpercig eltarthat. Ez a művelet nem vonható vissza.</string>
@@ -8037,6 +8048,7 @@ A területben lévő összes alkalmazás és minden adatuk is véglegesen törl�
     <string name="same_source_synced">Közvetítés sikeresen hozzáadva</string>
     <string name="sar">Rádiófrekvenciás sugárzási információ</string>
     <string name="satellite_call_assistant">Hívásbeállítások</string>
+    <string name="satellite_management_title">Műholdhálózat</string>
     <string name="satellite_network_title">Műholdas hívás funkciók</string>
     <string name="satellite_setting">Műholdas üzenetváltás</string>
     <string name="satellite_setting_disabled_summary">Szöveges üzeneteket küldhet és fogadhat műholdon keresztül. A szolgáltatás nem áll rendelkezésre a fiókjában.</string>
@@ -9973,6 +9985,8 @@ Próbálkozzon gyorsabb ^3 vagy ezen ^4 használatával hordozható tárhelykén
     <string name="tethering_hardware_offload_summary">Az internetmegosztás hardveres gyorsításának használata, amikor lehetséges</string>
     <string name="tethering_help_button_text">Súgó</string>
     <string name="tethering_settings_not_available">Megosztási beállítások módosítása az Első asztalon</string>
+    <string name="text_layout_optimization_switch_label">A szöveg elrendezésének optimalizálása</string>
+    <string name="text_layout_optimization_switch_toast">A jelenlegi betűtípussal nem lehet optimalizálni a szöveg elrendezését</string>
     <string name="texture_adjust_temperature_title">Színhőmérséklet</string>
     <string name="the_anniversary_of_lifting_martial_law">A harci törvény feloldásának évfordulója</string>
     <string name="the_anti_aggression_day">Agresszióellenes Nap</string>
@@ -11330,6 +11344,10 @@ A hálózat rejtettként való beállítása nem módosítja a router beállít�
     <string name="wifi_protection_tip">A Xiaomi megvédi az Ön személyes adatait a Wi-Fi kémkedési kísérletek ellen, amelyeket véletlenszerű MAC-címek és Wi-Fi-fürkészés beszúrásával próbálnak megvalósítani, amikor a készülék Wi-Fi-hálózatokat keres.</string>
     <string name="wifi_quick_toggle_summary">Kapcsolja be a Wi-Fi-t</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">A Wi-Fi jelszava helytelen. Írja be újra.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Hibás Wi-Fi jelszó</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Mentve</string>
     <string name="wifi_remembered_disabled_auto_connect">Elmentve. Nem fog automatikusan csatlakozni.</string>
     <string name="wifi_require_sim_card_to_connect">A csatlakozáshoz SIM-kártya szükséges</string>

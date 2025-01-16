@@ -579,7 +579,7 @@ Povečava ni mogoča na tipkovnici ali v vrstici za krmarjenje."</string>
     <string name="add_fingerprint_edge_instruction_msg">Premaknite vaš prst tako, da čitalec lahko posname robove vašega prstnega odtisa.</string>
     <string name="add_fingerprint_edge_instruction_title">Premaknite prst</string>
     <string name="add_fingerprint_failed_retry_text">Ni mogoče dodati prstnega odtisa, poskusite ponovno</string>
-    <string name="add_fingerprint_finished_button_text">Končano</string>
+    <string name="add_fingerprint_finished_button_text">Zapri</string>
     <string name="add_fingerprint_instruction_msg">Čitalec prstnega odtisa je vgrajen v gumb Domov v vaši napravi.</string>
     <string name="add_fingerprint_instruction_title">Dodajte vaš prstni odtis</string>
     <string name="add_fingerprint_move_fast">Držite prst na zaslonu nekoliko dlje</string>
@@ -638,6 +638,7 @@ Skrbnik lahko nadzira in upravlja nastavitve, dostop, aplikacije ter podatke, po
     <string name="ai_button_title">MI AI gumb</string>
     <string name="ai_button_title_global">AI gumb</string>
     <string name="ai_call_assistant">AI klici</string>
+    <string name="ai_notification_settings">Povzetek AI obvestil</string>
     <string name="ai_services_title">AI storitve</string>
     <string name="ai_settings_click_title">Pritisni</string>
     <string name="ai_settings_double_click_category">Dvakrat pritisnite gumb AI</string>
@@ -665,6 +666,7 @@ Skrbnik lahko nadzira in upravlja nastavitve, dostop, aplikacije ter podatke, po
     <string name="all_supported_app_locales_title">Vsi jeziki</string>
     <string name="all_volume_title">Glasnost</string>
     <string name="allow">Dovoli</string>
+    <string name="allow_badge_summary">Dovolite, da se na ikonah začetnega zaslona prikaže oštevilčena rdeča pika, ki označuje obvestila ali novo vsebino.</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Ko ustvarite pripomoček, ima aplikacija dostop do vsega prikazanega.
 
 Aplikacija: %1$s
@@ -687,6 +689,7 @@ Pripomoček: %2$s
     <string name="allow_mock_location_summary">Dovoli lažne lokacije</string>
     <string name="allow_mock_modem">Dovoli simuliran modem</string>
     <string name="allow_mock_modem_summary">Tej napravi dovoli izvajanje storitve simuliranega modema za preizkušanje instrumentacije. Tega ne omogočite med običajno uporabo telefona.</string>
+    <string name="allow_ongoing_summary">Dovolite obvestila, ki jih je mogoče izbrisati samo ročno</string>
     <string name="allow_ongoing_title">Stalno obvestilo</string>
     <string name="allow_overlay_description">Omogočite tej aplikaciji, da na zaslonu prekrije druge aplikacije, ki jih uporabljate. Ta aplikacija bo lahko spremljala dotike zaslona ali spreminjala prikaz na zaslonu.</string>
     <string name="allow_sound_title">Zvok</string>
@@ -1220,7 +1223,7 @@ Nazadnje zagnano: %2$s"</string>
     <string name="back_navigation_animation_summary">Omogoči sistemske animacije za potezo za nazaj s predvidevanjem.</string>
     <string name="back_sensitivity_dialog_message">Višja občutljivost bo morda ovirala izvajanje potez ob robovih zaslona v aplikaciji.</string>
     <string name="back_sensitivity_dialog_title">Občutljivost poteze za nazaj</string>
-    <string name="back_strap_image_text">Prejmite opomnike za obvestila in svetlobne učinke za različne postavitve</string>
+    <string name="back_strap_image_text">Ko je naprava obrnjena z zaslonom navzdol in je ta izklopljen, osvetlitev ozadja prikaže opomnike za obvestila in svetlobne učinke za različne prizore</string>
     <string name="back_strap_status_close">Izklopljeno</string>
     <string name="back_strap_status_open">Vklopljeno</string>
     <string name="back_strap_title">Učinki osvetlitve ozadja</string>
@@ -2896,9 +2899,8 @@ S prstom povlecite z vrha zaslona navzdol, da odprete potezni zaslon z obvestili
     <string name="dark_mode_contrast">Samodejno nastavi kontrast</string>
     <string name="dark_mode_contrast_hint">Samodejno prilagodi barve in zniža kontrast, ko se svetlost zmanjša</string>
     <string name="dark_mode_day_night_mode_summary">Vaša naprava bo preklopila na Temni način ob sončnem zahodu in nazaj na Svetli način ob sončnem vzhodu. Za najbolj natančne rezultate vklopite lokacijske storitve.</string>
-    <string name="dark_mode_day_night_mode_title">Od sončnega vzhoda do vzhoda</string>
+    <string name="dark_mode_day_night_mode_title">Od sončnega zahoda do vzhoda</string>
     <string name="dark_mode_display_enable_summary">Pri šibki svetlobi preklopi na uporabniški vmesnik, ki prikazuje večinoma temne površine</string>
-    <string name="dark_mode_font_background_title">Samodejno prilagodi besedilo in ozadje</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Razumem</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Če izklopite optimizacijo sistema in vklopite Varčevanje z baterijo, se bo Temni način samodejno vklopil.
  Če želite izklopiti Temni način, najprej izklopite Varčevanje z baterijo ali v Nastavitvah > Možnosti za razvijalce > Vklopi optimizacijo sistema."</string>
@@ -3787,7 +3789,7 @@ Znova zaženite napravo in poskusite znova."</string>
     <string name="external_source_untrusted">Ni dovoljeno</string>
     <string name="extreme_threats_summary">Prejem. opozoril o skrajnih grožnjah za življenje in premož.</string>
     <string name="extreme_threats_title">Skrajne grožnje</string>
-    <string name="eye_gaze_dialog_message">Ko vklopite funkcijo Zaznaj pogled, se naprava ne bo zaklenila, ko bo zaznala, da gledate v zaslon. Vaše obrazne značilnosti ne bodo analizirane in podatki o vašem obrazu ne bodo shranjeni v napravi ali preneseni v oblak. Ali želite zdaj vklopiti?</string>
+    <string name="eye_gaze_dialog_message">Ko je ta funkcija vklopljena, bo sistem zaznal, ali gledate v zaslon, vendar vaše obrazne poteze ne bodo analizirane in ti podatki ne bodo shranjeni v vaši napravi ali naloženi v oblak. Želite vklopiti zdaj?</string>
     <string name="eye_gaze_dialog_title">Varnostno obvestilo</string>
     <string name="eye_gaze_summary">Naprava se ne bo zaklenila, ko zazna, da gledate v zaslon</string>
     <string name="eye_gaze_summary_fold_device">Naprava se ne bo zaklenila, ko zazna, da gledate v zunanji zaslon</string>
@@ -3870,6 +3872,7 @@ z zunanjim zaslonom"</string>
     <string name="face_unlock_success_stay_screen_title">Ostanite na Zaklenjenem zaslonu po odklepanju</string>
     <string name="face_unlock_title">Telefon lahko odklenete z obrazom. Zaradi varnosti ta možnost zahteva uporabo nadomestnega načina zaklepanja zaslona.</string>
     <string name="face_unlock_when_slt_on_toast">Pri uporabi Tiantong Satellite komunikacij odklepanje z obrazom ni mogoče</string>
+    <string name="factory_reset_loading">Izvajanje ponastavitev na tovarniške nastavitve…</string>
     <string name="factory_reset_summary">Formatiranje bo izbrisalo vse podatke iz notranjega pomnilnika vaše naprave</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Preveč napačnih poskusov. Podatki v napravi bodo izbrisani.</string>
@@ -4140,6 +4143,9 @@ Za več informacij se obrnite na ponudnika obročnega odplačila."</string>
     <string name="font_cta_alert_btn_positive">Strinjam se</string>
     <string name="font_cta_alert_message">Za nadaljevanje preberite in se strinjajte s pogoji in določila aplikacije Teme.</string>
     <string name="font_cta_alert_title">Pogoji in določila</string>
+    <string name="font_preview_text_content">"Primer besedila:
+
+Xiaomi vztrajno ustvarja neverjetne izdelke s poštenimi cenami, da bi vsem na svetu omogočil boljše življenje z inovativno tehnologijo."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Trenutna pisava ne podpira prilagajanje debeline pisave</string>
     <string name="font_settings_jump">Dostopnost > Velikost zaslona</string>
@@ -4300,7 +4306,7 @@ Ko vklopite samodejno varnostno kopiranje, se podatki naprave in aplikacij redno
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Krmilnik za igre</string>
     <string name="game_storage_settings">Igre</string>
-    <string name="gaze_lock_screen_summary">Naprava ostane odklenjena, ko zazna vašo prisotnost, in se zaklene, ko se oddaljite od zaslona.</string>
+    <string name="gaze_lock_screen_summary">Naprava bo ostala odklenjena, ko boste gledali na zaslon, in se zaklenila, ko boste pogledali stran, da bi zaščitila vašo zasebnost, pri čemer ne bo upoštevala nastavitve časa samodejnega zaklepanja.</string>
     <string name="gaze_lock_screen_title">Zaznaj prisotnost</string>
     <string name="gd_setting_title">Stranska vrstica</string>
     <string name="general_category_title">Splošno</string>
@@ -5111,6 +5117,7 @@ Odprite Xiaomi Cloud in obnovite predmete od tam."</string>
     <string name="layout_size_small_text">Zelo majhno</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Več o tem</string>
+    <string name="leave_lockscreen_summary">Naprava se bo zaklenila, ko se oddaljite od zaslona</string>
     <string name="leave_loclscreen_summary">Zaslon se samodejno zaklene, ko se oddaljite od naprave na določeno razdaljo</string>
     <string name="leave_loclscreen_title">Zaklepanje zaslona ob odhodu</string>
     <string name="led_colors_summary">Barva lučke za obvestila</string>
@@ -7211,13 +7218,17 @@ Pred uporabo te storitve preberite in se strinjajte z %s."</string>
     <string name="photography_handle_button_function_settings">Nastavite gumb za oprijem</string>
     <string name="photography_handle_charge_protected">Zaščita polnjenja ročaja</string>
     <string name="photography_handle_charge_protected_summary">Ko je ročaj kamere priključen, se naprava neha polniti in baterija ostane na %1$s</string>
+    <string name="photography_handle_charge_settings">Nastavitve polnjenja</string>
     <string name="photography_handle_charge_state">Polnjenje iz ročajev kamere</string>
     <string name="photography_handle_charge_state_summary">Polnite to napravo iz ročajev kamere, kadar koli so povezani</string>
+    <string name="photography_handle_function_settings">Nastavitve držala kamere</string>
     <string name="photography_handle_launch_and_take_photo">Fotografiraj</string>
     <string name="photography_handle_launch_camera">Odpri kamero</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Pritisnite in držite sprožilec, da izvedete dejanje</string>
     <string name="photography_handle_quick_launch_camera_title">Hitri zagon</string>
+    <string name="photography_handle_sn">Serijska številka</string>
     <string name="photography_handle_title">Držalo kamere</string>
+    <string name="photography_handle_update_and_maintain">Posodobitve</string>
     <string name="physical_keyboard_title">Fizična tipkovnica</string>
     <string name="pick_up_gesture_wakeup_title">Dvignite za bujenje</string>
     <string name="picker_text">Izbira časa</string>
@@ -8041,6 +8052,7 @@ Vse aplikacije v prostoru in njihovi podatki bodo prav tako trajno izbrisani iz 
     <string name="same_source_synced">Oddaja je bila uspešno dodana</string>
     <string name="sar">Informacija o RF Izpostavljenosti</string>
     <string name="satellite_call_assistant">Nastavitve klicev</string>
+    <string name="satellite_management_title">Satelitsko omrežje</string>
     <string name="satellite_network_title">Funkcije satelitskih klicev</string>
     <string name="satellite_setting">Satelitska sporočila</string>
     <string name="satellite_setting_disabled_summary">Pošiljanje in prejemanje sporočil po satelitski povezavi. Ni vključeno v vašem računu.</string>
@@ -9989,6 +10001,8 @@ Poskusite uporabiti hitrejši nosilec ^3 ali pa nosilec ^4 uporabite kot prenosn
     <string name="tethering_hardware_offload_summary">Uporabi strojno pospeševanje za internetno povezavo prek mobilnega telefona, če je na voljo.</string>
     <string name="tethering_help_button_text">Pomoč</string>
     <string name="tethering_settings_not_available">Zamenjaj nastavitve deljenja povezave v privzetem prostoru</string>
+    <string name="text_layout_optimization_switch_label">Optimizacija postavitve besedila</string>
+    <string name="text_layout_optimization_switch_toast">Ni mogoče optimizirati postavitve besedila s trenutno pisavo</string>
     <string name="texture_adjust_temperature_title">Temperatura barve</string>
     <string name="the_anniversary_of_lifting_martial_law">Obletnica odprave vojaškega prava</string>
     <string name="the_anti_aggression_day">Dan proti agresiji</string>
@@ -11346,6 +11360,10 @@ To lahko povzroči varnostno tveganje, ker bo telefon redno oddajal svoj signal,
     <string name="wifi_protection_tip">Xiaomi bo zaščitil vaše osebne podatke pred zahtevam Wi-Fi sond, ki prihajajo iz naključnih MAC naslovov in čitalcev signala za Wi-Fi, medtem ko vaša naprava išče Wi-Fi omrežja.</string>
     <string name="wifi_quick_toggle_summary">Vklopi Wi-Fi omrežje</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Vaše geslo za Wi-Fi ni pravilno. Vnesite ga znova.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Napačno geslo za Wi-Fi</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Shranjeno</string>
     <string name="wifi_remembered_disabled_auto_connect">Shranjeno. Ni mogoča samodejna povezava.</string>
     <string name="wifi_require_sim_card_to_connect">Za povezavo je potrebna kartica SIM</string>

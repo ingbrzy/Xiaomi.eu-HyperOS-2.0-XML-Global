@@ -213,7 +213,7 @@
     <string name="accessibility_quick_settings_bluetooth">Bluetooth</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">aktivovať</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_disconnect">odpojiť</string>
-    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Batéria Bluetooth zariadenia je nabitá na %d percent.</string>
+    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Batéria zariadenia Bluetooth %d percent.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Rozhranie Bluetooth je zapnuté.</string>
     <string name="accessibility_quick_settings_choose_user_action">vybrať používateľa</string>
     <string name="accessibility_quick_settings_collapse">Zavrieť rýchle nastavenia</string>
@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">úplné ticho</string>
     <string name="accessibility_quick_settings_edit">Upraviť poradie nastavení</string>
     <string name="accessibility_quick_settings_expand">Otvoriť rýchle nastavenia</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Pripojená rukoväť</string>
     <string name="accessibility_quick_settings_open_settings">Otvoriť nastavenia %s</string>
     <string name="accessibility_quick_settings_page">Strana %1$d z %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Ponuka vypínača</string>
@@ -314,6 +315,9 @@ Ak je toto povolenie vypnuté, existujúce budíky a udalosti s časovým obme
     <string name="alarms_and_reminders_label">Budíky a pripomenutia</string>
     <string name="alarms_and_reminders_switch_title">Povoliť nastavovanie budíkov a pripomenutí</string>
     <string name="alarms_and_reminders_title">Budíky a pripomenutia</string>
+    <string name="alertdialog_safemode_button_submit">Odoslať</string>
+    <string name="alertdialog_safemode_message">Vaše zariadenie prešlo do Núdzového režimu z dôvodu problémov so systémovým rozhraním, čo spôsobilo nedostupnosť niektorých funkcií. Odošlite svoju spätnú väzbu, aby ste urýchlili riešenie tohto problému.</string>
+    <string name="alertdialog_safemode_title">Vstúpené do Núdzového režimu</string>
     <string name="all_network_unavailable">Nie sú k dispozícii žiadne siete</string>
     <string name="allow_mock_location">Povoliť simulované polohy</string>
     <string name="allow_mock_location_summary">Povoliť simulované polohy</string>
@@ -1058,6 +1062,7 @@ Vypnete ju môžete stlačením Tlačidla napájania."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Motív Aktívneho displeja bol kvôli Super tapetám nastavený na prispôsobený</string>
     <string name="fullaod_apply_third_theme_toast">Motív Aktívneho displeja bol kvôli motívom tretích strán nastavený na prispôsobený</string>
     <string name="fullaod_apply_third_wallpaper_toast">Motív Aktívneho displeja bol kvôli tapetám tretích strán nastavený na prispôsobený</string>
+    <string name="fullaod_apply_video_depth_toast">Štýl „Aktívny displej“ bol prepnutý na „Vlastný“</string>
     <string name="fullscreen_text">Celá obrazovka</string>
     <string name="game_status">Hrám hru</string>
     <string name="global_action_smart_lock_disabled">Rozšírené odomknutie je vypnuté</string>
@@ -1583,6 +1588,12 @@ Ak tejto aplikácii nepovolíte prístup k všetkým denníkom zariadenia, stá
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 d. M. yyyy"</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Odomknuté s Bluetooth zariadením</string>
+    <string name="miui_lock_aqi_level_description_critical">Nebezpečné</string>
+    <string name="miui_lock_aqi_level_description_excellent">Dobré</string>
+    <string name="miui_lock_aqi_level_description_good">Prijateľné</string>
+    <string name="miui_lock_aqi_level_description_mild">Priemerné</string>
+    <string name="miui_lock_aqi_level_description_moderate">Nezdravé</string>
+    <string name="miui_lock_aqi_level_description_serious">Vážne</string>
     <string name="miui_lock_eastern_art_date_time_12">d. M. h:mm aa</string>
     <string name="miui_lock_eastern_art_date_time_24">d. M. H:mm</string>
     <string name="miui_lock_eastern_art_week_am">EEEE</string>
@@ -1857,6 +1868,7 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="notification_channel_dialog_title">Všetky upozornenia aplikácie %1$s</string>
     <string name="notification_channel_hints">Tipy</string>
     <string name="notification_channel_instant">Okamžité aplikácie</string>
+    <string name="notification_channel_safemode">Núdzový režim</string>
     <string name="notification_channel_screenshot">Snímky obrazovky</string>
     <string name="notification_channel_setup">Nastavenie</string>
     <string name="notification_channel_storage">Úložisko</string>
@@ -1889,6 +1901,13 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="notification_more_settings">Ďalšie nastavenia</string>
     <string name="notification_multichannel_desc">Túto skupinu upozornení nejde na tomto mieste konfigurovať</string>
     <string name="notification_priority_title">Prioritné</string>
+    <string name="notification_safemode_button_exit">Ukončiť</string>
+    <string name="notification_safemode_description_exit">Pred ukončením Núdzového režimu nezabudnite postupovať podľa tipov na riešenie problémov uvedených v oznámení. Ak tak neurobíte, zariadenie môže znova prejsť do Núdzového režimu.</string>
+    <string name="notification_safemode_description_presafemode">Úspešne vymazané systémové rozhranie a údaje o Motívoch. Zariadenie môžete normálne používať.</string>
+    <string name="notification_safemode_description_safemode">Vaše zariadenie je teraz v Núdzovom režime. Ťuknutím na položku zobrazíte, ako môžete obnoviť rozhranie systému.</string>
+    <string name="notification_safemode_title_exit">Ukončiť Núdzový režim</string>
+    <string name="notification_safemode_title_presafemode">Rozhranie systému je obnovené</string>
+    <string name="notification_safemode_title_safemode">Oznámenie o opravách zlyhania systémového rozhrania</string>
     <string name="notification_section_header_alerting">Upozornenia</string>
     <string name="notification_section_header_conversations">Konverzácie</string>
     <string name="notification_section_header_gentle">Tichý</string>
@@ -2159,9 +2178,9 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Inteligentná duálna SIM</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Inverzia farieb</string>
-    <string name="quick_settings_location_label">Poloha</string>
-    <string name="quick_settings_location_state_change_message_off">Prístup k polohe je vypnutý</string>
-    <string name="quick_settings_location_state_change_message_on">Prístup k polohe je zapnutý</string>
+    <string name="quick_settings_location_label">Služby určovania polohy</string>
+    <string name="quick_settings_location_state_change_message_off">Služby určovania polohy sú vypnuté</string>
+    <string name="quick_settings_location_state_change_message_on">Služby určovania polohy sú zapnuté</string>
     <string name="quick_settings_media_device_label">Mediálne zariadenie</string>
     <string name="quick_settings_mic_label">Prístup k mikrofónu</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Žiadne dostupné Wi-Fi siete</string>
@@ -2304,6 +2323,7 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Stlačte a podržte tlačidlo späť a tlačidlo náhľadu pre zrušenie pripnutia tejto aplikácie</string>
     <string name="screen_pinning_toast_recents_invisible">Túto aplikáciu odopnete pridržaním tlačidiel Späť a Domov</string>
     <string name="screen_pinning_toast_start">Táto aplikácia je pripnutá</string>
+    <string name="screen_share_dialog_spinner_text">Rozsah</string>
     <string name="screen_share_permission_app_selector_title">Vyberte aplikáciu, ktorú chcete zdieľať alebo nahrávať</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Celá obrazovka</string>
     <string name="screen_share_permission_dialog_option_single_app">Jedna aplikácia</string>

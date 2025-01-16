@@ -638,6 +638,7 @@ Administrátor může sledovat a spravovat nastavení, přístup, aplikace a d
     <string name="ai_button_title">Mi AI tlačítko</string>
     <string name="ai_button_title_global">AI tlačítko</string>
     <string name="ai_call_assistant">AI volání</string>
+    <string name="ai_notification_settings">Přehled AI oznámení</string>
     <string name="ai_services_title">AI služby</string>
     <string name="ai_settings_click_title">Stisknutí</string>
     <string name="ai_settings_double_click_category">Dvojité stisknutí AI tlačítka</string>
@@ -665,6 +666,7 @@ Pokud toto oprávnění zůstane vypnuté, stávající budíky a události zá
     <string name="all_supported_app_locales_title">Všechny jazyky</string>
     <string name="all_volume_title">Hlasitost</string>
     <string name="allow">Povolit</string>
+    <string name="allow_badge_summary">Povolí, aby se u ikon na Domovské obrazovce zobrazovala červená tečka s číslem indikující nová oznámení nebo nový obsah</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Po vytvoření widgetu bude moci aplikace získat přístup ke všem datům, které widget zobrazuje.
 
 Aplikace: %1$s
@@ -687,6 +689,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Povolit simulované polohy</string>
     <string name="allow_mock_modem">Povolit simulovaný modem</string>
     <string name="allow_mock_modem_summary">Povolte tomuto zařízení používat službu simulovaného modemu pro účely instrumentačního testu. Během běžného používání telefonu tuto možnost nepovolujte</string>
+    <string name="allow_ongoing_summary">Povolí oznámení, která lze smazat pouze ručně</string>
     <string name="allow_ongoing_title">Pevná upozornění</string>
     <string name="allow_overlay_description">Když tuto možnost povolíte, aplikace se bude moci zobrazovat přes ostatní aplikace, které používáte. Aplikace uvidí, kam jste klepli, nebo změní, co je zobrazeno na obrazovce.</string>
     <string name="allow_sound_title">Zvuk</string>
@@ -1220,7 +1223,7 @@ Naposledy spuštěno %2$s"</string>
     <string name="back_navigation_animation_summary">Povolit systémové animace prediktivního gesta Zpět</string>
     <string name="back_sensitivity_dialog_message">Vyšší citlivost může narušovat gesta v aplikacích prováděná u okrajů obrazovky.</string>
     <string name="back_sensitivity_dialog_title">Citlivost na zpětné gesto</string>
-    <string name="back_strap_image_text">Dostávejte upozornění a světelné efekty pro různé situace</string>
+    <string name="back_strap_image_text">Když je zařízení s vypnutou obrazovkou otočené směrem dolů, podsvícení bude pro různé scény zobrazovat připomenutí oznámení a světelné efekty,</string>
     <string name="back_strap_status_close">Vypnuto</string>
     <string name="back_strap_status_open">Zapnuto</string>
     <string name="back_strap_title">Efekty podsvícení</string>
@@ -2898,7 +2901,6 @@ Pokud tento proces přerušíte, můžete přijít o některá nebo všechna dat
     <string name="dark_mode_day_night_mode_summary">Zařízení se při západu slunce přepne do tmavého režimu a při východu slunce se přepne do světlého režimu. Chcete-li získat nejpřesnější výsledky, zapněte služby určování polohy.</string>
     <string name="dark_mode_day_night_mode_title">Od východu do západu slunce</string>
     <string name="dark_mode_display_enable_summary">Přepnout na uživatelské rozhraní se slabým osvětlením, které zobrazuje převážně tmavé plochy</string>
-    <string name="dark_mode_font_background_title">Přizpůsobit text a pozadí automaticky</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Rozumím</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Po vypnutí systému optimalizace a zapnutí Spořiče baterie, se automaticky zapne Tmavý režim.
 Tmavý režim vypnete, když vypnete Spořič baterie nebo zapnete systém optimalizace v Nastavení > Možnosti pro vývojáře > Zapnout systém optimalizace."</string>
@@ -3788,7 +3790,7 @@ Restartujte zařízení a zkuste to znovu."</string>
     <string name="external_source_untrusted">Není povoleno</string>
     <string name="extreme_threats_summary">Přijímat upozornění na extrémní ohrožení života a majetku</string>
     <string name="extreme_threats_title">Extrémní ohrožení</string>
-    <string name="eye_gaze_dialog_message">Pokud zapnete funkci Rozpoznat pohled, zařízení se nezamkne, když detekuje, že se díváte na obrazovku. Vlastnosti obličeje nebudou analyzovány a údaje o obličeji se nebudou ukládat na zařízení ani nahrávat do cloudu. Chcete nyní tuto funkci zapnout?</string>
+    <string name="eye_gaze_dialog_message">Když je tato funkce zapnutá, systém bude zjišťovat, zda se díváte na obrazovku, nicméně rysy vašeho obličeje nebudou analyzovány a tato data nebudou ukládána do zařízení ani odesílána do cloudu. Zapnout nyní?</string>
     <string name="eye_gaze_dialog_title">Bezpečnostní oznámení</string>
     <string name="eye_gaze_summary">Zařízení bude ponecháno aktivní, pokud rozpozná, že se díváte na obrazovku</string>
     <string name="eye_gaze_summary_fold_device">Zařízení bude ponecháno aktivní, pokud rozpozná, že se díváte na vnější obrazovku</string>
@@ -3871,6 +3873,7 @@ pomocí vnějšího displeje"</string>
     <string name="face_unlock_success_stay_screen_title">Zůstat po odemknutí na Zamykací obrazovce</string>
     <string name="face_unlock_title">Telefon můžete odemknout obličejem. Z bezpečnostních důvodů tato možnost vyžaduje záložní zámek obrazovky.</string>
     <string name="face_unlock_when_slt_on_toast">Při používání satelitní komunikace Tiantong nelze používat funkci Odemknutí pomocí tváře</string>
+    <string name="factory_reset_loading">Probíhá obnovení továrního nastavení…</string>
     <string name="factory_reset_summary">Formátování odstraní veškerá data z vnitřního úložiště zařízení</string>
     <string name="fahrenheit_temperature_unit">Stupně Fahrenheita (°F)</string>
     <string name="failed_attempts_now_wiping_device">Příliš mnoho neplatných pokusů. Data v tomto zařízení budou smazána.</string>
@@ -4141,6 +4144,9 @@ Další informace vám sdělí poskytovatel úvěru."</string>
     <string name="font_cta_alert_btn_positive">Souhlasím</string>
     <string name="font_cta_alert_message">Pro pokračování si přečtěte a souhlaste s pravidly a podmínkami aplikace Témata.</string>
     <string name="font_cta_alert_title">Pravidla a podmínky</string>
+    <string name="font_preview_text_content">"Vzorový text:
+
+Společnost Xiaomi neustále přichází s úžasnými novými produkty za férové ceny, aby si každý člověk na světě mohl díky inovativní technologii užívat pohodlnější život."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Aktuální písmo nepodporuje úpravu tučnosti písma</string>
     <string name="font_settings_jump">Usnadnění přístupu > Velikost zobrazení</string>
@@ -4301,7 +4307,7 @@ Když zapnete automatické zálohování, data zařízení a aplikací se budou 
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Herní ovladače</string>
     <string name="game_storage_settings">Hry</string>
-    <string name="gaze_lock_screen_summary">Při zjištění vaší přítomnosti zůstane zařízení odemčené. Zařízení se zamkne, když se vzdálíte od obrazovky</string>
+    <string name="gaze_lock_screen_summary">Zařízení zůstane odemčené, když se budete dívat na obrazovku, a uzamkne se, když se podíváte jinam, aby chránilo vaše soukromí. Časový interval automatického zamykání nebude využit.</string>
     <string name="gaze_lock_screen_title">Zjišťovat přítomnost</string>
     <string name="gd_setting_title">Postranní lišta</string>
     <string name="general_category_title">Obecné</string>
@@ -5110,6 +5116,7 @@ Otevřete Xiaomi Cloud a obnovte položky přímo z cloudu."</string>
     <string name="layout_size_small_text">Extra malé</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Další informace</string>
+    <string name="leave_lockscreen_summary">Pokud se vzdálíte od obrazovky, zařízení se uzamkne</string>
     <string name="leave_loclscreen_summary">Obrazovka se automaticky uzamkne, když dojdete na určitou vzdálenost od zařízení</string>
     <string name="leave_loclscreen_title">Uzamknout obrazovku při odchodu</string>
     <string name="led_colors_summary">Barva nového upozornění</string>
@@ -7210,13 +7217,17 @@ Před použitím této služby si přečtěte a souhlaste se %s."</string>
     <string name="photography_handle_button_function_settings">Nastavení tlačítka na rukojeti</string>
     <string name="photography_handle_charge_protected">Ochrana nabíjení z držáku</string>
     <string name="photography_handle_charge_protected_summary">Po připojení držáku kamery se zařízení přestane nabíjet a ponechá baterii na %1$s</string>
+    <string name="photography_handle_charge_settings">Nastavení nabíjení</string>
     <string name="photography_handle_charge_state">Nabíjení z držáků kamery</string>
     <string name="photography_handle_charge_state_summary">Nabijte toto zařízení z držáků kamery, kdykoliv jsou k němu připojeny</string>
+    <string name="photography_handle_function_settings">Nastavení držáku fotoaparátu</string>
     <string name="photography_handle_launch_and_take_photo">Pořídit fotografii</string>
     <string name="photography_handle_launch_camera">Otevřít Fotoaparát</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">K provedení akce přidržte tlačítko spouště</string>
     <string name="photography_handle_quick_launch_camera_title">Rychlé spuštění</string>
+    <string name="photography_handle_sn">Sériové číslo</string>
     <string name="photography_handle_title">Držák fotoaparátu</string>
+    <string name="photography_handle_update_and_maintain">Aktualizace</string>
     <string name="physical_keyboard_title">Fyzická klávesnice</string>
     <string name="pick_up_gesture_wakeup_title">Zvednutím probudit</string>
     <string name="picker_text">Výběr času</string>
@@ -7903,7 +7914,7 @@ Restartujte zařízení a zkuste to znovu."</string>
     <string name="reset_network_button_text">Resetovat nastavení</string>
     <string name="reset_network_category">Toto resetuje všechna síťová nastavení včetně:</string>
     <string name="reset_network_complete_toast">Nastavení sítí bylo resetováno</string>
-    <string name="reset_network_confirm_title">Obnovit nastavení?</string>
+    <string name="reset_network_confirm_title">Resetovat?</string>
     <string name="reset_network_data">Mobilních dat</string>
     <string name="reset_network_final_button_text">Obnovit nastavení</string>
     <string name="reset_network_final_desc">Tato akce může trvat několik sekund. Po dokončení nebudete moci tyto změny vrátit.</string>
@@ -8040,6 +8051,7 @@ Z "<b>interního úložiště</b> telefonu budou také trvale vymazány všechn
     <string name="same_source_synced">Vysílání bylo úspěšně přidáno</string>
     <string name="sar">Informace o vystavení RF</string>
     <string name="satellite_call_assistant">Nastavení hovorů</string>
+    <string name="satellite_management_title">Satelitní síť</string>
     <string name="satellite_network_title">Funkce satelitního volání</string>
     <string name="satellite_setting">Satelitní zprávy</string>
     <string name="satellite_setting_disabled_summary">Odesílání a přijímání textových zpráv přes satelit. Není součástí vašeho účtu.</string>
@@ -9984,6 +9996,8 @@ Zkuste použít rychlejší médium ^3 nebo toto médium ^4 použijte jako přen
     <string name="tethering_hardware_offload_summary">Pokud je k dispozici hardwarová akcelerace tetheringu, použít ji.</string>
     <string name="tethering_help_button_text">Nápověda</string>
     <string name="tethering_settings_not_available">Změnit nastavení tetheringu v Prvním prostoru</string>
+    <string name="text_layout_optimization_switch_label">Optimalizovat rozvržení textu</string>
+    <string name="text_layout_optimization_switch_toast">Rozvržení textu nelze se současným písmem optimalizovat</string>
     <string name="texture_adjust_temperature_title">Teplota barev</string>
     <string name="the_anniversary_of_lifting_martial_law">Výročí zrušení stanného práva</string>
     <string name="the_anti_aggression_day">Den proti agresi</string>
@@ -11341,6 +11355,10 @@ Pokud tuto síť nastavíte jako skrytou, nastavení routeru tím nezměníte."<
     <string name="wifi_protection_tip">Společnost Xiaomi bude chránit vaše osobní data před sondovacími požadavky sítě Wi-Fi z náhodných MAC adres stejně jako před útoky dotěrných sondovacích programů v době, kdy vaše zařízení vyhledává dostupné sítě Wi-Fi.</string>
     <string name="wifi_quick_toggle_summary">Zapnout Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Heslo sítě Wi-Fi je nesprávné. Zadejte jej znovu.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Nesprávné heslo sítě Wi-Fi</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Uloženo</string>
     <string name="wifi_remembered_disabled_auto_connect">Uloženo. Automatické připojení zakázáno.</string>
     <string name="wifi_require_sim_card_to_connect">K připojení vyžaduje SIM kartu</string>

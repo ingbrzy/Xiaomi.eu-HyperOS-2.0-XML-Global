@@ -638,6 +638,7 @@ Yöneticiniz, ağ etkinliği ve cihazınızın konum bilgileri de dahil olmak ü
     <string name="ai_button_title">Mi AI tuşu</string>
     <string name="ai_button_title_global">AI tuşu</string>
     <string name="ai_call_assistant">AI aramaları</string>
+    <string name="ai_notification_settings">AI bildirim özeti</string>
     <string name="ai_services_title">AI hizmetleri</string>
     <string name="ai_settings_click_title">Bas</string>
     <string name="ai_settings_double_click_category">AI tuşuna iki defa basın</string>
@@ -665,6 +666,7 @@ Bu izin verilmezse bu uygulama tarafından programlanmış mevcut alarmlar ve za
     <string name="all_supported_app_locales_title">Tüm diller</string>
     <string name="all_volume_title">Ses seviyesi</string>
     <string name="allow">İzin ver</string>
+    <string name="allow_badge_summary">Bildirimler veya yeni içeriği belirtmek için Ana ekran simgelerinde numaralı bir kırmızı noktanın gösterilmesine izin ver</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Widget'ı oluşturmanızdan sonra uygulama görüntülenen her şeye erişebilir.
 
 Uygulama: %1$s
@@ -687,6 +689,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Sahte konumlara izin ver</string>
     <string name="allow_mock_modem">"Sahte Modem'e izin ver"</string>
     <string name="allow_mock_modem_summary">Bu cihazın, enstrümantasyon testi için Sahte Modem hizmetini çalıştırmasına izin verin. Bu hizmeti, telefonunuzu normal kullanırken etkinleştirmeyin</string>
+    <string name="allow_ongoing_summary">Yalnızca manuel olarak silinebilen bildirimlere izin ver</string>
     <string name="allow_ongoing_title">Kalıcı bildirimler</string>
     <string name="allow_overlay_description">Bu uygulamaya, kullandığınız diğer uygulamaların üzerinde gösterme izin verir. Bu uygulama, ekranda nereye dokunduğunuzu görebilecek veya ekranda görüntülenenleri değiştirebilecek.</string>
     <string name="allow_sound_title">Ses</string>
@@ -1220,7 +1223,7 @@ En son %2$s tarihinde çalıştırıldı"</string>
     <string name="back_navigation_animation_summary">Tahmin edilen geri gitme için sistem animasyonlarını etkinleştirin</string>
     <string name="back_sensitivity_dialog_message">Daha yüksek hassasiyet, ekranın kenarlarında yapılan uygulama hareketleri ile çakışabilir.</string>
     <string name="back_sensitivity_dialog_title">Geri Gitme Hassasiyeti</string>
-    <string name="back_strap_image_text">Farklı senaryolar için bildirim hatırlatıcıları ve ışık efektleri al</string>
+    <string name="back_strap_image_text">Cihaz ekran kapalı bir şekilde aşağı bakıyorken arka ışık farklı sahneler için bildirim hatırlatıcıları ve ışık efektleri gösterecek</string>
     <string name="back_strap_status_close">Kapalı</string>
     <string name="back_strap_status_open">Açık</string>
     <string name="back_strap_title">Arka ışık efektleri</string>
@@ -2898,7 +2901,6 @@ Ekranın üst kısmından aşağı kaydırarak aşağı indirilen gölgeyi açı
     <string name="dark_mode_day_night_mode_summary">Cihazınız gün batımında Karanlık moda ve gün doğumunda Işık moduna geçecektir. En doğru sonuçlar için konum hizmetlerini açın.</string>
     <string name="dark_mode_day_night_mode_title">Gün batımından gün doğumuna</string>
     <string name="dark_mode_display_enable_summary">Çoğunlukla karanlık yüzeyleri görüntüleyen düşük ışıklı bir kullanıcı arayüzüne geçin</string>
-    <string name="dark_mode_font_background_title">Metin ve arka planları otomatik olarak ayarla</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Anladım</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Sistem optimizasyonunu kapatır ve Pil tasarrufunu açarsanız Karanlık mod otomatik olarak açılacaktır.
 Karanlık modu kapatmak için Pil tasarrufunu kapatın veya Ayarlar > Geliştirici seçenekleri > sistem optimizasyonunu aç menüsünden sistem optimizasyonunu açın ."</string>
@@ -3788,7 +3790,7 @@ Cihazınızı yeniden başlatıp tekrar deneyin."</string>
     <string name="external_source_untrusted">İzin verilmiyor</string>
     <string name="extreme_threats_summary">Cana ve mala karşı olağanüstü tehdit uyarılarını alın</string>
     <string name="extreme_threats_title">Olağanüstü tehditler</string>
-    <string name="eye_gaze_dialog_message">"Bakışları algıla özelliğini açtığınızda cihaz ekrana baktığınızı algıladığında kilitlenmez. Yüz özellikleriniz analiz edilmeyecek ve yüz bilgileriniz cihazınızda saklanmayacak veya cloud'a yüklenmeyecektir. Yine de açılsın mı?"</string>
+    <string name="eye_gaze_dialog_message">"Bu özellik açık olduğunda sistem ekrana bakıp bakmadığınızı algılayacak ancak yüz özellikleriniz analiz edilmeyecek ve bu veriler cihazınızda saklanmayacak veya cloud'a yüklenmeyecek. Şimdi açılsın mı?"</string>
     <string name="eye_gaze_dialog_title">Güvenlik uyarısı</string>
     <string name="eye_gaze_summary">Cihaz, ekrana baktığınızı algıladığında kilitlenmeyecektir</string>
     <string name="eye_gaze_summary_fold_device">Cihaz, dış ekrana baktığınızı algıladığında kilitlenmeyecektir</string>
@@ -3871,6 +3873,7 @@ yüz verisi'ni kaydedin"</string>
     <string name="face_unlock_success_stay_screen_title">Kilidi açtıktan sonra Kilit ekranında kal</string>
     <string name="face_unlock_title">Telefonunuzun kilidini yüzünüzü kullanarak açabilirsiniz. Güvenlik amacıyla, bu seçenek için yedek bir ekran kilidi gerekir.</string>
     <string name="face_unlock_when_slt_on_toast">Tiantong Uydu iletişimini kullanırken Yüz ile kilit açma kullanılamıyor</string>
+    <string name="factory_reset_loading">Fabrika ayarlarına sıfırlanıyor…</string>
     <string name="factory_reset_summary">Biçimlendirme, cihazınızın dahili depolama alanındaki tüm verileri silecektir</string>
     <string name="fahrenheit_temperature_unit">Fahrenhayt (°F)</string>
     <string name="failed_attempts_now_wiping_device">Çok fazla sayıda hatalı deneme yapıldı. Bu cihazın verileri silinecek.</string>
@@ -4141,6 +4144,9 @@ Daha fazla bilgi edinmek için sözleşmeli cihaz sağlayıcınızla iletişime 
     <string name="font_cta_alert_btn_positive">Kabul et</string>
     <string name="font_cta_alert_message">"Devam etmek için Temalar'ın Şartlar ve koşullar'ını okuyun ve kabul edin."</string>
     <string name="font_cta_alert_title">Şartlar ve koşullar</string>
+    <string name="font_preview_text_content">"Örnek metin:
+
+Xiaomi, yenilikçi teknoloji sayesinde dünyanın her yerindeki herkesin daha iyi bir hayatın tadını çıkarmasını sağlamak için her zaman dürüst fiyatlarla muhteşem ürünler üretmektedir."</string>
     <string name="font_scale_percentage">%%%1$d</string>
     <string name="font_setting_weight_toast">Mevcut yazı tipi, yazı tipi ağırlığının ayarlanmasını desteklemiyor</string>
     <string name="font_settings_jump">Erişilebilirlik > Ekran boyutu</string>
@@ -4301,7 +4307,7 @@ Otomatik yedeklemeyi açtığınızda, cihaz ve uygulama verileri periyodik olar
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Oyun Denetleyici</string>
     <string name="game_storage_settings">Oyunlar</string>
-    <string name="gaze_lock_screen_summary">Varlığınız algılandığında cihaz kilidi açık kalacak ve ekrandan uzaklaştığınızda kilitlenecek</string>
+    <string name="gaze_lock_screen_summary">Gizliliğinizi korumak için ekrana baktığınızda cihazın kilidi açık kalacak ve başka yere baktığınızda kilitlenecek ve otomatik kilitleme süresi ayarınız geçersiz kılınacaktır.</string>
     <string name="gaze_lock_screen_title">Varlığı algıla</string>
     <string name="gd_setting_title">Kenar çubuğu</string>
     <string name="general_category_title">Genel</string>
@@ -5110,6 +5116,7 @@ Xiaomi Cloud'u açın ve ögeleri oradan geri yükleyin."</string>
     <string name="layout_size_small_text">Ekstra küçük</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Daha fazla bilgi</string>
+    <string name="leave_lockscreen_summary">Cihaz siz ekrandan uzaklaştığınızda kilitlenecek</string>
     <string name="leave_loclscreen_summary">Cihazınızdan belli bir mesafe uzaklaştığınızda ekran otomatik olarak kilitlenecek</string>
     <string name="leave_loclscreen_title">Ayrılırken ekranı kilitle</string>
     <string name="led_colors_summary">Bildirim ışık rengi</string>
@@ -7209,13 +7216,17 @@ Bu hizmeti kullanmadan önce %s sözleşmesini okuyun ve kabul edin."</string>
     <string name="photography_handle_button_function_settings">Tutacak tuşunu kurun</string>
     <string name="photography_handle_charge_protected">Tutacak şarj koruması</string>
     <string name="photography_handle_charge_protected_summary">Kamera tutacağı bağlandığında cihaz şarj olmayı durduracak ve pili %1$s seviyesinde tutacak.</string>
+    <string name="photography_handle_charge_settings">Şarj ayarları</string>
     <string name="photography_handle_charge_state">Kamera tutacaklarından şarj et</string>
     <string name="photography_handle_charge_state_summary">Bağlandıklarında bu cihazı kamera tutacaklarından şarj edin</string>
+    <string name="photography_handle_function_settings">Kamera tutacağı ayarları</string>
     <string name="photography_handle_launch_and_take_photo">Fotoğraf çek</string>
     <string name="photography_handle_launch_camera">Kamerayı aç</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Bir eylem gerçekleştirmek için deklanşör tuşuna basılı tutun</string>
     <string name="photography_handle_quick_launch_camera_title">Hızlı başlatma</string>
+    <string name="photography_handle_sn">Seri numarası</string>
     <string name="photography_handle_title">Kamera tutacağı</string>
+    <string name="photography_handle_update_and_maintain">Güncellemeler</string>
     <string name="physical_keyboard_title">Fiziksel klavye</string>
     <string name="pick_up_gesture_wakeup_title">Uyandırmak için kaldır</string>
     <string name="picker_text">Zaman seçici</string>
@@ -8039,6 +8050,7 @@ Alanınızdaki tüm uygulamalar ve verileri de telefonunuzun "<b>dahili depolama
     <string name="same_source_synced">Yayın başarıyla eklendi</string>
     <string name="sar">RF Dalgaları Maruz Kalma Bilgileri</string>
     <string name="satellite_call_assistant">Arama ayarları</string>
+    <string name="satellite_management_title">Uydu ağı</string>
     <string name="satellite_network_title">Uydu arama özellikleri</string>
     <string name="satellite_setting">Uydu üzerinden mesajlaşma</string>
     <string name="satellite_setting_disabled_summary">Uydu üzerinden kısa mesaj gönderip alın. Hesabınıza dahil edilmez.</string>
@@ -8249,7 +8261,7 @@ Uygulama sabitlemeyi kullanmak için: \u0009
     <string name="screen_time_category_last_full_charge">Son tam şarjdan sonraki ekran süresi</string>
     <string name="screen_timeout">Uyku</string>
     <string name="screen_timeout_subtitle">Statik içeriğin uzun süre görüntülenmesi renkleri dengesiz hale getirebilir</string>
-    <string name="screen_timeout_summary">%1$s dakikalık hareketsizlikten sonra</string>
+    <string name="screen_timeout_summary">%1$s hareketsizlikten sonra</string>
     <string name="screen_timeout_summary_not_set">Ayarlanmadı</string>
     <string name="screen_timeout_title">Ekranı otomatik kilitleyin</string>
     <string name="screen_zoom_big">B</string>
@@ -9975,6 +9987,8 @@ Daha hızlı bir ^3 kullanmayı deneyin veya bunun yerine bu ^4 birimini taşın
     <string name="tethering_hardware_offload_summary">Mevcutsa, tethering donanım hızlandırıcısını kullan</string>
     <string name="tethering_help_button_text">Yardım</string>
     <string name="tethering_settings_not_available">İlk alanda ağ paylaşım ayarlarını değiştirin</string>
+    <string name="text_layout_optimization_switch_label">Metin düzenini optimize edin</string>
+    <string name="text_layout_optimization_switch_toast">Mevcut yazı tipi ile metin düzeni optimize edilemiyor</string>
     <string name="texture_adjust_temperature_title">Renk sıcaklığı</string>
     <string name="the_anniversary_of_lifting_martial_law">Sıkıyönetim Kanunun Yıldönümü</string>
     <string name="the_anti_aggression_day">Saldırganlık Karşıtı Günü</string>
@@ -11332,6 +11346,10 @@ Ağın görünürlüğü gizli yapıldığında yönlendirici ayarlarınız değ
     <string name="wifi_protection_tip">Xiaomi kişisel verilerinizi rastgele MAC adreslerinden gelen Wi-Fi sondası isteklerinden ve cihazınız Wi-Fi ağı ararken Wi-Fi sondası algılayıcılarından koruyacaktır.</string>
     <string name="wifi_quick_toggle_summary">Wi-Fi bağlantısını aç</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Wi-Fi şifreniz yanlış. Tekrar girin.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Yanlış Wi-Fi şifresi</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Kaydedildi</string>
     <string name="wifi_remembered_disabled_auto_connect">Kaydedildi. Otomatik olarak bağlanmayacak.</string>
     <string name="wifi_require_sim_card_to_connect">Bağlanmak için SIM gerektirir</string>

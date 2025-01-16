@@ -638,6 +638,7 @@ Administratorul poate să monitorizeze și să gestioneze setările, accesul, ap
     <string name="ai_button_title">Buton IA Mi</string>
     <string name="ai_button_title_global">Buton IA</string>
     <string name="ai_call_assistant">Apeluri IA</string>
+    <string name="ai_notification_settings">Rezumat notificare IA</string>
     <string name="ai_services_title">Servicii IA</string>
     <string name="ai_settings_click_title">Apasă</string>
     <string name="ai_settings_double_click_category">Apasă de două ori butonul IA</string>
@@ -665,6 +666,7 @@ Dacă permisiunea este dezactivată, alarmele și evenimentele dependente de tim
     <string name="all_supported_app_locales_title">Toate limbile</string>
     <string name="all_volume_title">Volum</string>
     <string name="allow">Permite</string>
+    <string name="allow_badge_summary">Permiteți afișarea unui punct roșu numerotat pe pictogramele de pe Ecranul principal pentru a indica notificări sau conținut nou</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"După ce creezi widgetul, aplicația poate accesa toate datele afișate.
 
 Aplicația: %1$s
@@ -687,6 +689,7 @@ Widgetul: %2$s
     <string name="allow_mock_location_summary">Permite locațiile fictive</string>
     <string name="allow_mock_modem">Permite modemul de testare</string>
     <string name="allow_mock_modem_summary">Permite dispozitivului să ruleze serviciul de modem de testare pentru testarea codului de măsurare. Nu activa această funcție în timpul folosirii normale a telefonului.</string>
+    <string name="allow_ongoing_summary">Permite notificări care pot fi șterse numai manual</string>
     <string name="allow_ongoing_title">Notificări permanente</string>
     <string name="allow_overlay_description">Permite acestei aplicații să se afișeze peste alte aplicații pe care le folosești. Aceasta poate vedea unde atingi sau poate schimba ceea ce apare pe ecran.</string>
     <string name="allow_sound_title">Sunet</string>
@@ -1220,7 +1223,7 @@ Data ultimei rulări: %2$s"</string>
     <string name="back_navigation_animation_summary">Activează animațiile de sistem pentru gestul înapoi predictiv.</string>
     <string name="back_sensitivity_dialog_message">O sensibilitate mai mare poate intra în conflict cu gesturile făcute pe marginile ecranului în aplicație.</string>
     <string name="back_sensitivity_dialog_title">Sensibilitatea gestului „Înapoi”</string>
-    <string name="back_strap_image_text">Obțineți memento-uri de notificări și efecte de lumină pentru diferite scene</string>
+    <string name="back_strap_image_text">Când dispozitivul este cu fața în jos cu ecranul oprit, lumina din spate va afișa memento-uri de notificare și efecte de iluminare pentru diferite scene</string>
     <string name="back_strap_status_close">Oprit</string>
     <string name="back_strap_status_open">Pornit</string>
     <string name="back_strap_title">Efecte de lumină din spate</string>
@@ -2898,12 +2901,11 @@ Dacă întrerupeți, veți pierde o parte sau toate datele."</string>
     <string name="dark_mode_day_night_mode_summary">Dispozitivul dvs. va comuta la Modul întunecat la apus și din nou în modul Luminos la răsărit. Activați serviciile de localizare pentru rezultate cât mai precise.</string>
     <string name="dark_mode_day_night_mode_title">De la apus la răsărit</string>
     <string name="dark_mode_display_enable_summary">Schimbați la o interfață de utilizare cu lumină slabă care afișează în mare parte suprafețe întunecate</string>
-    <string name="dark_mode_font_background_title">Ajustați automat textul și fundalurile</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Am înțeles</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Dacă dezactivați optimizarea de sistem și activați Economizator baterie, Modul întunecat va fi activat automat.
 Pentru a dezactiva Modul întunecat, dezactivați Economizator baterie sau activați optimizarea de sistem în Setări > Opțiuni pentru dezvoltatori > Activare optimizarea de sistem."</string>
     <string name="dark_mode_power_save_alert_dialog_title">Modul întunecat</string>
-    <string name="dark_mode_settings">Opțiuni Modul întunecat</string>
+    <string name="dark_mode_settings">Opțiuni Mod întunecat</string>
     <string name="dark_mode_time_settings">Schimbă la Modul întunecat</string>
     <string name="dark_theme_main_switch_title">Folosește Tema întunecată</string>
     <string name="dark_theme_slice_subtitle">Ajută la extinderea autonomiei bateriei</string>
@@ -3788,7 +3790,7 @@ Repornește dispozitivul și încearcă din nou."</string>
     <string name="external_source_untrusted">Nepermise</string>
     <string name="extreme_threats_summary">Primește alerte de pericole extreme privind viața și bunurile</string>
     <string name="extreme_threats_title">Pericole extreme</string>
-    <string name="eye_gaze_dialog_message">Când activați Detectează privirea, dispozitivul nu se va bloca când detectează că te uiți la ecran. Caracteristicile feței tale nu vor fi analizate, iar informațiile feței tale nu vor fi stocate pe dispozitiv sau încărcate în cloud. Activați acum?</string>
+    <string name="eye_gaze_dialog_message">Când această funcție este activată, sistemul va detecta dacă te uiți la ecran, dar trăsăturile feței nu vor fi analizate și aceste date nu vor fi stocate pe dispozitiv sau încărcate în cloud. Activați acum?</string>
     <string name="eye_gaze_dialog_title">Notă de securitate</string>
     <string name="eye_gaze_summary">Dispozitivul nu se va bloca atunci când detectează că priviți ecranul</string>
     <string name="eye_gaze_summary_fold_device">Dispozitivul nu se va bloca atunci când detectează că vă uitați la ecranul exterior</string>
@@ -3871,6 +3873,7 @@ cu fața spre ecranul exterior"</string>
     <string name="face_unlock_success_stay_screen_title">Rămâneți în Ecranul de blocare după deblocare</string>
     <string name="face_unlock_title">Poți debloca telefonul folosind chipul. Din motive de securitate, această opțiune necesită o blocare a ecranului de rezervă.</string>
     <string name="face_unlock_when_slt_on_toast">Nu se poate folosi Deblocarea facială când se utilizează comunicațiile prin Satelit Tiantong</string>
+    <string name="factory_reset_loading">Se efectuează o resetare din fabrică…</string>
     <string name="factory_reset_summary">Formatarea va șterge toate datele din stocarea internă a dispozitivului</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Prea multe încercări incorecte. Datele de pe acest dispozitiv vor fi șterse.</string>
@@ -4141,6 +4144,9 @@ Pentru a afla mai multe, contactează creditorul."</string>
     <string name="font_cta_alert_btn_positive">De acord</string>
     <string name="font_cta_alert_message">Citiți și acceptați termenii și condițiile de la Teme pentru a continua.</string>
     <string name="font_cta_alert_title">Termeni și condiții</string>
+    <string name="font_preview_text_content">"Exemplu de text:
+
+Xiaomi construiește fără încetare produse uimitoare cu prețuri oneste pentru a permite tuturor din lume să se bucure de o viață mai bună prin intermediul tehnologiei inovatoare."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Fontul actual nu acceptă ajustarea grosimea fontului</string>
     <string name="font_settings_jump">Accesibilitate > Dimensiune afișaj</string>
@@ -4301,7 +4307,7 @@ Când activezi backupul automat, datele dispozitivului și ale aplicațiilor sun
     <string name="game_booster_title">Joc Turbo</string>
     <string name="game_controller_settings_category">Controler de joc</string>
     <string name="game_storage_settings">Jocuri</string>
-    <string name="gaze_lock_screen_summary">Dispozitivul va rămâne deblocat atunci când vă este detectată prezența și se va bloca atunci când vă îndepărtați de ecran</string>
+    <string name="gaze_lock_screen_summary">Dispozitivul va rămâne deblocat atunci când vă uitați la ecran și se va bloca când priviți în altă parte pentru a vă proteja confidențialitatea, depășind setarea de timp de blocare automată.</string>
     <string name="gaze_lock_screen_title">Detectare prezență</string>
     <string name="gd_setting_title">Bara laterală</string>
     <string name="general_category_title">General</string>
@@ -5110,6 +5116,7 @@ Deschideți Xiaomi Cloud și restabilește elementele de acolo."</string>
     <string name="layout_size_small_text">Extra mic</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Află mai multe</string>
+    <string name="leave_lockscreen_summary">Dispozitivul se va bloca atunci când vă îndepărtați de ecran</string>
     <string name="leave_loclscreen_summary">Ecranul se va bloca automat când sunteți la o anumită distanță de dispozitiv</string>
     <string name="leave_loclscreen_title">Blocarea ecranului când te îndepărtezi</string>
     <string name="led_colors_summary">Culoare lumină notificări</string>
@@ -7211,13 +7218,17 @@ Citiți și acceptați %s înainte de a utiliza acest serviciu."</string>
     <string name="photography_handle_button_function_settings">Configurați butonul de prindere</string>
     <string name="photography_handle_charge_protected">Protecție la încărcare prin mâner</string>
     <string name="photography_handle_charge_protected_summary">Când mânerul camerei este conectat, dispozitivul se va opri din încărcare și va menține bateria la %1$s</string>
+    <string name="photography_handle_charge_settings">Setări de încărcare</string>
     <string name="photography_handle_charge_state">Încărcați din mânerele camerei</string>
     <string name="photography_handle_charge_state_summary">Încărcați acest dispozitiv din mânerele camerei ori de câte ori sunt conectate</string>
+    <string name="photography_handle_function_settings">Setări de prindere a camerei</string>
     <string name="photography_handle_launch_and_take_photo">Faceți o fotografie</string>
     <string name="photography_handle_launch_camera">Deschide aparatul foto</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Țineți apăsat butonul declanșator pentru a efectua o acțiune</string>
     <string name="photography_handle_quick_launch_camera_title">Lansare rapidă</string>
+    <string name="photography_handle_sn">Număr de serie</string>
     <string name="photography_handle_title">Grip pentru cameră</string>
+    <string name="photography_handle_update_and_maintain">Actualizări</string>
     <string name="physical_keyboard_title">Tastatură fizică</string>
     <string name="pick_up_gesture_wakeup_title">Ridicați pentru a activa</string>
     <string name="picker_text">Selectează ora</string>
@@ -7904,7 +7915,7 @@ Repornește dispozitivul și încearcă din nou."</string>
     <string name="reset_network_button_text">Resetează</string>
     <string name="reset_network_category">Aceasta va reseta toate setările de rețea, inclusiv:</string>
     <string name="reset_network_complete_toast">Setările pentru rețea au fost reinițializate</string>
-    <string name="reset_network_confirm_title">Resetezi?</string>
+    <string name="reset_network_confirm_title">Resetați?</string>
     <string name="reset_network_data">Date mobile</string>
     <string name="reset_network_final_button_text">Resetează</string>
     <string name="reset_network_final_desc">Acest lucru poate dura câteva secunde. Nu veți putea anula această acțiune.</string>
@@ -8041,6 +8052,7 @@ Repornește dispozitivul și încearcă din nou."</string>
     <string name="same_source_synced">Difuzare adăugată cu succes</string>
     <string name="sar">Informație Expunere RF</string>
     <string name="satellite_call_assistant">Setări apel</string>
+    <string name="satellite_management_title">Rețea prin satelit</string>
     <string name="satellite_network_title">Funcții de apel prin satelit</string>
     <string name="satellite_setting">Mesaje prin satelit</string>
     <string name="satellite_setting_disabled_summary">Trimite și primește mesaje text prin satelit. Opțiunea nu este inclusă în contul tău.</string>
@@ -9979,6 +9991,8 @@ Este posibil ca aplicațiile stocate pe ^2 să nu ruleze corect și transferul c
     <string name="tethering_hardware_offload_summary">Folosește accelerarea hardware pentru tethering, dacă este disponibilă</string>
     <string name="tethering_help_button_text">Ajutor</string>
     <string name="tethering_settings_not_available">Modificați setările tethering în Primul spațiu</string>
+    <string name="text_layout_optimization_switch_label">Optimizați aspectul textului</string>
+    <string name="text_layout_optimization_switch_toast">Nu se poate optimiza aspectul textului cu fontul actual</string>
     <string name="texture_adjust_temperature_title">Culoare temperatură</string>
     <string name="the_anniversary_of_lifting_martial_law">Aniversarea Ridicării Legii Marțiale</string>
     <string name="the_anti_aggression_day">Ziua anti-agresiune</string>
@@ -11336,6 +11350,10 @@ Dacă setezi rețeaua ca ascunsă, setările pentru router nu se modifică."</st
     <string name="wifi_protection_tip">Xiaomi vă va proteja datele personale de solicitările de sonde Wi-Fi provenite de la adresele MAC aleatoare și de la sonde sniffer Wi-Fi atunci când dispozitivul dvs. caută rețele Wi-Fi.</string>
     <string name="wifi_quick_toggle_summary">Activează Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Parola dvs. Wi-Fi este incorectă. Introduceți-l din nou.</string>
+    <string name="wifi_reconnect_failed_text_china">Parola dvs. WLAN este incorectă. Introduceți-l din nou.</string>
+    <string name="wifi_reconnect_failed_title">Parolă Wi-Fi incorectă</string>
+    <string name="wifi_reconnect_failed_title_china">Parolă WLAN incorectă</string>
     <string name="wifi_remembered">Salvată</string>
     <string name="wifi_remembered_disabled_auto_connect">Salvat. Nu se va conecta automat.</string>
     <string name="wifi_require_sim_card_to_connect">Necesită un card SIM pentru a se conecta</string>

@@ -638,6 +638,7 @@ Administratorius gali stebėti ir tvarkyti nustatymus, prieigą, programas ir su
     <string name="ai_button_title">„Mi“ DI mygtukas</string>
     <string name="ai_button_title_global">DI mygtukas</string>
     <string name="ai_call_assistant">DI skambučiai</string>
+    <string name="ai_notification_settings">DI pranešimų santrauka</string>
     <string name="ai_services_title">DI paslaugos</string>
     <string name="ai_settings_click_title">Paspaudimas</string>
     <string name="ai_settings_double_click_category">Dvigubas DI mygtuko paspaudimas</string>
@@ -665,6 +666,7 @@ Jei šis leidimas išjungtas, šios programos suplanuoti esami signalai ir laiku
     <string name="all_supported_app_locales_title">Visos kalbos</string>
     <string name="all_volume_title">Garsumas</string>
     <string name="allow">Leisti</string>
+    <string name="allow_badge_summary">Leiskite pagrindinio ekrano piktogramose rodyti raudoną tašką su numeriais, nurodančiais pranešimus arba naują turinį</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Sukūrus valdiklį, programa galės pasiekti visus pateikiamus duomenis.
 
 Programa: %1$s
@@ -687,6 +689,7 @@ Valdiklis: %2$s
     <string name="allow_mock_location_summary">Leisti imituoti vietas</string>
     <string name="allow_mock_modem">Leisti imituojamą modemą</string>
     <string name="allow_mock_modem_summary">Leisti šiame įrenginyje vykdyti imituojamo modemo paslaugą atliekant stebimumo ir vertinamumo bandymą. Neįgalinkite įprastai naudodami telefoną</string>
+    <string name="allow_ongoing_summary">Leisti pranešimus, kurie gali būti ištrinami tik rankiniu būdu</string>
     <string name="allow_ongoing_title">Nuolatinis pranešimas</string>
     <string name="allow_overlay_description">Leisti šią programą pateikti virš kitų naudojamų programų. Ši programa galės peržiūrėti, kur paliečiate, arba keisti, kas pateikiama ekrane.</string>
     <string name="allow_sound_title">Garsas</string>
@@ -1220,7 +1223,7 @@ Paskutinį kartą vykdyta %2$s"</string>
     <string name="back_navigation_animation_summary">Įgalinkite sistemos animacijas, kad būtų galima naudoti numatomus grįžimo atgal gestus.</string>
     <string name="back_sensitivity_dialog_message">Didesnis jautrumas gali būti nesuderinamas su visais programų gestais palei ekrano kraštus.</string>
     <string name="back_sensitivity_dialog_title">Grįžtamasis jautrumas</string>
-    <string name="back_strap_image_text">Gaukite pranešimų priminimus ir įvairių scenų apšvietimo efektus</string>
+    <string name="back_strap_image_text">Kai įrenginys nukreiptas ekranu žemyn ir ekranas išjungtas, galinis apšvietimas rodys pranešimų priminimus ir skirtingų scenų apšvietimo efektus</string>
     <string name="back_strap_status_close">Išjungta</string>
     <string name="back_strap_status_open">Įjungta</string>
     <string name="back_strap_title">Foninio apšvietimo efektai</string>
@@ -2898,7 +2901,6 @@ Sutrukdžius procesą, kai kurie arba visi duomenys bus prarasti."</string>
     <string name="dark_mode_day_night_mode_summary">Jūsų įrenginys persijungs į tamsų režimą leidžiantis saulei ir grįš atgal į šviesų režimą saulėtekiu. Norėdami tiksliausių rezultatų, įjunkite vietos paslaugas.</string>
     <string name="dark_mode_day_night_mode_title">Nuo saulėtekio iki saulėlydžio</string>
     <string name="dark_mode_display_enable_summary">Perjungti į silpnai apšviestą vartotojo sąsają, kurioje dažniausiai rodomi tamsūs paviršiai</string>
-    <string name="dark_mode_font_background_title">Automatiškai derinti tekstą ir fonus</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Supratau</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Jei išjungsite sistemos optimizavimą ir įjungsite energijos taupymą, tamsus režimas bus įjungtas automatiškai.
 Jei norite išjungti tamsų režimą, išjunkite energijos taupymą arba įjunkite sistemos optimizavimą eidami į Nustatymai > Kūrėjo parinktys > Įjungti sistemos optimizavimą."</string>
@@ -3788,7 +3790,7 @@ Iš naujo paleiskite įrenginį ir bandykite dar kartą."</string>
     <string name="external_source_untrusted">Neleidžiama</string>
     <string name="extreme_threats_summary">Gaukite įspėjimus apie didelę grėsmę gyvybei ir nuosavybei.</string>
     <string name="extreme_threats_title">Didelė grėsmė</string>
-    <string name="eye_gaze_dialog_message">Kai įjungiate funkciją „Aptikti žvilgsnį“, įrenginys neužsirakins, jei nustatys, kad žiūrite į ekraną. Jūsų veido charakteristikos nebus analizuojamos, o veido informacija nebus laikoma įrenginyje arba įkelta į debesį. Įjungti dabar?</string>
+    <string name="eye_gaze_dialog_message">Kai ši funkcija įjungta, sistema aptiks, ar žiūrite į ekraną, bet jūsų veido bruožai nebus analizuojami ir šie duomenys nebus saugomi jūsų įrenginyje ar įkeliami į debesį. Įjungti dabar?</string>
     <string name="eye_gaze_dialog_title">Saugumo pranešimas</string>
     <string name="eye_gaze_summary">Įrenginys neužsirakins, jei aptiks, kad jūs žiūrite į ekraną</string>
     <string name="eye_gaze_summary_fold_device">Įrenginys neužsirakins, jei aptiks, kad jūs žiūrite į išorinį ekraną</string>
@@ -3871,6 +3873,7 @@ Pridėkite ekrano užraktą prieš pridedant veido duomenis."</string>
     <string name="face_unlock_success_stay_screen_title">Po atrakinimo likite užrakto ekrane</string>
     <string name="face_unlock_title">Telefoną galite atrakinti naudodami atpažinimą pagal veidą. Saugos sumetimais, įgalinus šią parinktį, reikia naudoti atsarginį ekrano užraktą.</string>
     <string name="face_unlock_when_slt_on_toast">Kai veikia „Tiantong“ palydovo komunikacijos, negalima naudoti veido atpažinimo</string>
+    <string name="factory_reset_loading">Atliekamas gamyklinių duomenų atstatymas…</string>
     <string name="factory_reset_summary">Formatavimo metu visi jūsų įrenginio vidinės saugyklos duomenys bus ištrinti</string>
     <string name="fahrenheit_temperature_unit">Farenheito laipsnis (°F)</string>
     <string name="failed_attempts_now_wiping_device">Per daug netinkamų bandymų. Šio įrenginio duomenys bus ištrinti.</string>
@@ -4141,6 +4144,9 @@ Jei norite sužinoti daugiau, susisiekite su kredito teikėju."</string>
     <string name="font_cta_alert_btn_positive">Sutinku</string>
     <string name="font_cta_alert_message">Norėdami tęsti, susipažinkite ir sutikite su „Temų“ nuostatomis ir sąlygomis.</string>
     <string name="font_cta_alert_title">Nuostatos ir sąlygos</string>
+    <string name="font_preview_text_content">"Pavyzdinis tekstas:
+
+„Xiaomi“ nuolat kuria nuostabius gaminius prieinamomis kainomis, kad visi pasaulio gyventojai džiaugtųsi geresniu gyvenimu naudodami novatoriškas technologijas."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Dabartis šriftas nepalaiko šrifto storio derinimo</string>
     <string name="font_settings_jump">Pritaikymas neįgaliesiems > Ekrano dydis</string>
@@ -4301,7 +4307,7 @@ Kai įjungiate automatinę atsarginę kopiją, įrenginio ir programų duomenys 
     <string name="game_booster_title">Turbo žaidimai</string>
     <string name="game_controller_settings_category">Žaidimų valdiklis</string>
     <string name="game_storage_settings">Žaidimai</string>
-    <string name="gaze_lock_screen_summary">Įrenginys liks neužrakintas, kai bus aptiktas subjektas, ir užsirakins, kai pasitrauksite nuo ekrano</string>
+    <string name="gaze_lock_screen_summary">Siekiant apsaugoti jūsų privatumą, įrenginys bus atrakintas, kai žiūrėsite į ekraną ir užsirakins, kai pažiūrėsite į šoną, – taip perrašomi automatiniai užrakinimo parametrai</string>
     <string name="gaze_lock_screen_title">Buvimo aptikimas</string>
     <string name="gd_setting_title">Šoninė juosta</string>
     <string name="general_category_title">Bendrieji</string>
@@ -5110,6 +5116,7 @@ Atidarykite „Xiaomi debesį“ ir atkurkite elementus iš ten."</string>
     <string name="layout_size_small_text">Labai smulkus</string>
     <string name="le_audio_title">LE garsas</string>
     <string name="learn_more">Sužinoti daugiau</string>
+    <string name="leave_lockscreen_summary">Įrenginys užsirakins, kai pasitrauksite nuo ekrano</string>
     <string name="leave_loclscreen_summary">Ekranas automatiškai užsirakins, kai nueisite tam tikrą atstumą nuo įrenginio</string>
     <string name="leave_loclscreen_title">Užrakinti ekraną išeinant</string>
     <string name="led_colors_summary">Pranešimų šviesos spalva</string>
@@ -7210,13 +7217,17 @@ Prieš naudodami šią paslaugą perskaitykite ir sutikite su %s."</string>
     <string name="photography_handle_button_function_settings">Nustatyti laikiklio mygtuką</string>
     <string name="photography_handle_charge_protected">Laikiklio krovimo apsauga</string>
     <string name="photography_handle_charge_protected_summary">Kai įjungtas fotoaparato laikiklis, įrenginys nustos krautis ir baterija išliks %1$s</string>
+    <string name="photography_handle_charge_settings">Įkrovimo parametrai</string>
     <string name="photography_handle_charge_state">Kraukite iš fotoaparato laikiklių</string>
     <string name="photography_handle_charge_state_summary">Kai tik prijungti fotoaparato laikikliai, kraukite šį įrenginį iš jų</string>
+    <string name="photography_handle_function_settings">Kameros rankenėlės parametrai</string>
     <string name="photography_handle_launch_and_take_photo">Fotografuoti</string>
     <string name="photography_handle_launch_camera">Atidaryti fotoaparatą</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Paspauskite ir palaikykite fotografavimo mygtuką ir veiksmas bus įvykdytas</string>
     <string name="photography_handle_quick_launch_camera_title">Greitasis paleidimas</string>
+    <string name="photography_handle_sn">Serijos numeris</string>
     <string name="photography_handle_title">Kameros rankenėlė</string>
+    <string name="photography_handle_update_and_maintain">Atnaujinimai</string>
     <string name="physical_keyboard_title">Fizinė klaviatūra</string>
     <string name="pick_up_gesture_wakeup_title">Pažadinimui – pakelti</string>
     <string name="picker_text">Laiko parinkiklis</string>
@@ -7903,7 +7914,7 @@ Iš naujo paleiskite įrenginį ir bandykite dar kartą."</string>
     <string name="reset_network_button_text">Nustatyti iš naujo</string>
     <string name="reset_network_category">Bus atstatyti visi tinklo parametrai, apimantys:</string>
     <string name="reset_network_complete_toast">Tinklo nustatymai nustatyti iš naujo</string>
-    <string name="reset_network_confirm_title">Nustatyti iš naujo?</string>
+    <string name="reset_network_confirm_title">Atkurti?</string>
     <string name="reset_network_data">Mobilieji duomenys</string>
     <string name="reset_network_final_button_text">Nustatyti iš naujo</string>
     <string name="reset_network_final_desc">Tai gali užtrukti kelias sekundes. Šio veiksmo anuliuoti negalėsite.</string>
@@ -8040,6 +8051,7 @@ Visos programos jūsų erdvėje ir jų duomenys taip pat bus visam laikui ištri
     <string name="same_source_synced">Transliacija sėkmingai pridėta</string>
     <string name="sar">RD poveikio informacija</string>
     <string name="satellite_call_assistant">Skambučių nustatymai</string>
+    <string name="satellite_management_title">Palydovinis tinklas</string>
     <string name="satellite_network_title">Palydovinio skambučio funkcijos</string>
     <string name="satellite_setting">Palydoviniai pranešimai</string>
     <string name="satellite_setting_disabled_summary">Siųskite ir gaukite teksto pranešimus per palydovą. Neįtraukiama į jūsų paskyrą.</string>
@@ -9989,6 +10001,8 @@ Bandykite naudoti spartesnę saugyklą („^3“) arba vietoj jos rinkitės neš
     <string name="tethering_hardware_offload_summary">Naudoti įrenginio kaip modemo naudojimo aparatinės įrangos spartinimą, jei pasiekiama</string>
     <string name="tethering_help_button_text">Pagalba</string>
     <string name="tethering_settings_not_available">Keisti „Pirmosios erdvės“ bendrojo ryšio parametrus</string>
+    <string name="text_layout_optimization_switch_label">Optimizuoti teksto išdėstymą</string>
+    <string name="text_layout_optimization_switch_toast">Nepavyko optimizuoti teksto išdėstymo naudojant dabartinį šriftą</string>
     <string name="texture_adjust_temperature_title">Spalvų temperatūra</string>
     <string name="the_anniversary_of_lifting_martial_law">Karo padėties atšaukimo metinės</string>
     <string name="the_anti_aggression_day">Kovos su agresija diena</string>
@@ -11346,6 +11360,10 @@ Nustačius tinklą kaip paslėptą, maršruto parinktuvo nustatymai nebus pakeis
     <string name="wifi_protection_tip">„Xiaomi“ apsaugos jūsų asmeninius duomenis nuo „Wi-Fi“ tikrinimo užklausų, atkeliaujančių iš atsitiktinių MAC adresų ir „Wi-Fi“ tikrinimo šnipukų, jūsų įrenginiui ieškant netoliese esančių „Wi-Fi“ tinklų.</string>
     <string name="wifi_quick_toggle_summary">Įjungti „Wi-Fi“</string>
     <string name="wifi_quick_toggle_title">„Wi-Fi“</string>
+    <string name="wifi_reconnect_failed_text">Jūsų „Wi-Fi“ slaptažodis neteisingas. Įveskite jį dar kartą.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Neteisingas „Wi-Fi“ slaptažodis</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Išsaugotas</string>
     <string name="wifi_remembered_disabled_auto_connect">Išsaugota. Nebus prisijungta automatiškai.</string>
     <string name="wifi_require_sim_card_to_connect">Kad būtų galima prisijungti, reikia SIM kortelės</string>

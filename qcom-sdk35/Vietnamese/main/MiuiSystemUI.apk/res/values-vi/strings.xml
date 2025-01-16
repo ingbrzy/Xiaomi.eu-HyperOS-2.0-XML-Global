@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">hoàn toàn tắt tiếng</string>
     <string name="accessibility_quick_settings_edit">Chỉnh sửa thứ tự cài đặt.</string>
     <string name="accessibility_quick_settings_expand">Mở cài đặt nhanh.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Đã kết nối tay cầm</string>
     <string name="accessibility_quick_settings_open_settings">Mở cài đặt %s.</string>
     <string name="accessibility_quick_settings_page">Trang %1$d / %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Trình đơn nguồn</string>
@@ -314,6 +315,9 @@ Nếu không cấp quyền này, các chuông báo và sự kiện theo thời g
     <string name="alarms_and_reminders_label">Chuông báo và lời nhắc</string>
     <string name="alarms_and_reminders_switch_title">Cho phép đặt chuông báo và lời nhắc</string>
     <string name="alarms_and_reminders_title">Chuông báo và lời nhắc</string>
+    <string name="alertdialog_safemode_button_submit">Gửi</string>
+    <string name="alertdialog_safemode_message">Thiết bị của bạn đã vào Chế độ an toàn do sự cố giao diện hệ thống, khiến một số tính năng không khả dụng. Gửi phản hồi của bạn để đẩy nhanh quá trình giải quyết vấn đề này.</string>
+    <string name="alertdialog_safemode_title">Đã vào Chế độ an toàn</string>
     <string name="all_network_unavailable">Không có mạng</string>
     <string name="allow_mock_location">Cho phép vị trí mô phỏng</string>
     <string name="allow_mock_location_summary">Cho phép vị trí mô phỏng</string>
@@ -1058,6 +1062,7 @@ Tắt bằng phím Nguồn."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Chủ đề Always-on display đã được đặt thành tùy chỉnh do Siêu hình nền</string>
     <string name="fullaod_apply_third_theme_toast">Chủ đề Always-on display đã được đặt thành tùy chỉnh do chủ đề bên thứ ba</string>
     <string name="fullaod_apply_third_wallpaper_toast">Chủ đề Always-on display đã được đặt thành tùy chỉnh do hình nền bên thứ ba</string>
+    <string name="fullaod_apply_video_depth_toast">Kiểu Always-on display đã chuyển sang Tùy chỉnh</string>
     <string name="fullscreen_text">Toàn màn hình</string>
     <string name="game_status">Đang chơi</string>
     <string name="global_action_smart_lock_disabled">Đã tắt tính năng Kéo dài trạng thái mở khoá</string>
@@ -1583,6 +1588,12 @@ Nếu bạn không cho phép ứng dụng này truy cập vào mọi nhật ký 
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 dd/MM/yyyy"</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Mở khóa bằng thiết bị Bluetooth</string>
+    <string name="miui_lock_aqi_level_description_critical">Độc hại</string>
+    <string name="miui_lock_aqi_level_description_excellent">Tốt</string>
+    <string name="miui_lock_aqi_level_description_good">Khá tốt</string>
+    <string name="miui_lock_aqi_level_description_mild">Trung bình</string>
+    <string name="miui_lock_aqi_level_description_moderate">Không trong lành</string>
+    <string name="miui_lock_aqi_level_description_serious">Ô nhiễm nghiêm trọng</string>
     <string name="miui_lock_eastern_art_date_time_12">h:mm aa d/M</string>
     <string name="miui_lock_eastern_art_date_time_24">H:mm d/M</string>
     <string name="miui_lock_eastern_art_week_am">EEEE</string>
@@ -1857,6 +1868,7 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="notification_channel_dialog_title">Tất cả thông báo của %1$s</string>
     <string name="notification_channel_hints">Gợi ý</string>
     <string name="notification_channel_instant">Ứng dụng tức thì</string>
+    <string name="notification_channel_safemode">Chế độ an toàn</string>
     <string name="notification_channel_screenshot">Ảnh chụp màn hình</string>
     <string name="notification_channel_setup">Thiết lập</string>
     <string name="notification_channel_storage">Bộ nhớ</string>
@@ -1889,6 +1901,13 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="notification_more_settings">Chế độ cài đặt khác</string>
     <string name="notification_multichannel_desc">Không thể định cấu hình nhóm thông báo này tại đây</string>
     <string name="notification_priority_title">Mức độ ưu tiên</string>
+    <string name="notification_safemode_button_exit">Thoát</string>
+    <string name="notification_safemode_description_exit">Đảm bảo thực hiện theo mẹo xử lý sự cố được cung cấp trong thông báo trước khi thoát Chế độ an toàn. Nếu không, thiết bị của bạn có thể vào lại Chế độ an toàn.</string>
+    <string name="notification_safemode_description_presafemode">Đã xóa giao diện hệ thống và dữ liệu Chủ đề thành công. Bạn có thể sử dụng thiết bị bình thường.</string>
+    <string name="notification_safemode_description_safemode">Thiết bị của bạn hiện đang ở Chế độ an toàn. Chạm để xem cách bạn có thể khôi phục giao diện hệ thống.</string>
+    <string name="notification_safemode_title_exit">Thoát Chế độ an toàn</string>
+    <string name="notification_safemode_title_presafemode">Giao diện hệ thống đã được khôi phục</string>
+    <string name="notification_safemode_title_safemode">Thông báo về việc khắc phục vấn đề sự cố giao diện hệ thống</string>
     <string name="notification_section_header_alerting">Thông báo</string>
     <string name="notification_section_header_conversations">Cuộc trò chuyện</string>
     <string name="notification_section_header_gentle">Im lặng</string>
@@ -2159,9 +2178,9 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">SIM kép thông minh</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Đảo màu</string>
-    <string name="quick_settings_location_label">Vị trí</string>
-    <string name="quick_settings_location_state_change_message_off">Truy cập vị trí đã tắt</string>
-    <string name="quick_settings_location_state_change_message_on">Truy cập vị trí đã bật</string>
+    <string name="quick_settings_location_label">Dịch vụ vị trí</string>
+    <string name="quick_settings_location_state_change_message_off">Dịch vụ vị trí đã tắt</string>
+    <string name="quick_settings_location_state_change_message_on">Dịch vụ vị trí đã bật</string>
     <string name="quick_settings_media_device_label">Thiết bị phương tiện</string>
     <string name="quick_settings_mic_label">Quyền truy cập micrô</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Không có mạng Wi-Fi khả dụng</string>
@@ -2304,6 +2323,7 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Bấm và giữ phím quay lại và xem trước để bỏ ghim ứng dụng này</string>
     <string name="screen_pinning_toast_recents_invisible">Để bỏ ghim ứng dụng này, hãy chạm và giữ nút Quay lại và nút Màn hình chính</string>
     <string name="screen_pinning_toast_start">Ứng dụng này đã được ghim</string>
+    <string name="screen_share_dialog_spinner_text">Phạm vi</string>
     <string name="screen_share_permission_app_selector_title">Chia sẻ hoặc ghi màn hình ứng dụng</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Toàn màn hình</string>
     <string name="screen_share_permission_dialog_option_single_app">Một ứng dụng</string>

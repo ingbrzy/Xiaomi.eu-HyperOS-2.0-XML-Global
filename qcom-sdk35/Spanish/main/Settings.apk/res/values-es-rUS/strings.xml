@@ -638,6 +638,7 @@ El administrador puede controlar y administrar la configuración, el acceso, las
     <string name="ai_button_title">Botón Mi AI</string>
     <string name="ai_button_title_global">Botón AI</string>
     <string name="ai_call_assistant">Llamadas con IA</string>
+    <string name="ai_notification_settings">Resumen de notificaciones con IA</string>
     <string name="ai_services_title">Servicios con IA</string>
     <string name="ai_settings_click_title">Presionar</string>
     <string name="ai_settings_double_click_category">Presionar dos veces botón AI</string>
@@ -665,6 +666,7 @@ Si se desactiva este permiso, no funcionarán las alarmas ni los eventos basados
     <string name="all_supported_app_locales_title">Todos los idiomas</string>
     <string name="all_volume_title">Volumen</string>
     <string name="allow">Permitir</string>
+    <string name="allow_badge_summary">Permite que se muestre un punto rojo numerado en los íconos de la Pantalla de inicio para indicar notificaciones o contenido nuevo</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Después de crear el widget, la aplicación podrá acceder a todo lo que se muestre.
 
 Aplicación: %1$s
@@ -687,6 +689,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Permitir ubicaciones de prueba</string>
     <string name="allow_mock_modem">Permitir módem de prueba</string>
     <string name="allow_mock_modem_summary">Permite que este dispositivo ejecute un servicio de módem de prueba para realizar una prueba de instrumentación. No habilites esta opción durante el uso normal del teléfono</string>
+    <string name="allow_ongoing_summary">Permite notificaciones que solo se pueden eliminar manualmente</string>
     <string name="allow_ongoing_title">Notificaciones permanentes</string>
     <string name="allow_overlay_description">Permite que esta app se muestre sobre otras en uso. La app podrá ver si tocas o cambias lo que aparece en la pantalla.</string>
     <string name="allow_sound_title">Sonido</string>
@@ -1220,7 +1223,7 @@ Las llamadas, los mensajes y el tráfico de red pueden ser visibles para tu orga
     <string name="back_navigation_animation_summary">Habilita animaciones del sistema para gestos de retroceso predictivos.</string>
     <string name="back_sensitivity_dialog_message">La sensibilidad alta puede entrar en conflicto con los gestos de las apps que se hagan en los bordes de la pantalla.</string>
     <string name="back_sensitivity_dialog_title">Sensibilidad posterior</string>
-    <string name="back_strap_image_text">Recibe recordatorios de notificaciones y efectos de iluminación para diferentes escenas</string>
+    <string name="back_strap_image_text">Cuando el dispositivo está boca abajo con la pantalla apagada, la luz de fondo mostrará recordatorios de notificaciones y efectos de iluminación para diferentes escenas.</string>
     <string name="back_strap_status_close">Desactivado</string>
     <string name="back_strap_status_open">Activado</string>
     <string name="back_strap_title">Efectos de luz de fondo</string>
@@ -2898,7 +2901,6 @@ Si lo interrumpe, perderá algunos o todos sus datos."</string>
     <string name="dark_mode_day_night_mode_summary">Su dispositivo cambiará a Modo oscuro en el atardecer y de vuelta a Modo de luz al amanecer. Active los servicios de ubicación para resultados más precisos.</string>
     <string name="dark_mode_day_night_mode_title">Atardecer a amanecer</string>
     <string name="dark_mode_display_enable_summary">Cambie a una interfaz de usuario con poca luz que muestre principalmente superficies oscuras</string>
-    <string name="dark_mode_font_background_title">Ajustar textos y fondos automáticamente</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Entendido</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Si desactiva la optimización del sistema y activa Ahorro de batería, el Modo oscuro se activará automáticamente.
 Para desactivar el Modo oscuro, desactive Ahorro de batería o active la optimización del sistema en Ajustes > Opciones de desarrollador > Activar optimización del sistema."</string>
@@ -3788,7 +3790,7 @@ Reinicia el dispositivo y vuelve a intentarlo."</string>
     <string name="external_source_untrusted">No permitida</string>
     <string name="extreme_threats_summary">Recibir alertas de amenazas extremas contra la vida y propiedad</string>
     <string name="extreme_threats_title">Amenazas extremas</string>
-    <string name="eye_gaze_dialog_message">Cuando activa Detectar mirada el dispositivo no se bloqueará cuando detecta que está viendo la pantalla. Sus características faciales no serán analizadas y la información de su cara no será almacenada en su dispositivo o subida a la nube. ¿Activar ahora?</string>
+    <string name="eye_gaze_dialog_message">Cuando esta función está activada, el sistema detectará si está mirando la pantalla, pero no se analizarán sus rasgos faciales y estos datos no se almacenarán en su dispositivo ni se subirán a la nube. ¿Activar ahora?</string>
     <string name="eye_gaze_dialog_title">Aviso de seguridad</string>
     <string name="eye_gaze_summary">El dispositivo no se bloqueará cuando detecte que está mirando la pantalla</string>
     <string name="eye_gaze_summary_fold_device">El dispositivo no se bloqueará cuando detecte que está mirando la pantalla exterior</string>
@@ -3871,6 +3873,7 @@ mirando hacia la pantalla exterior"</string>
     <string name="face_unlock_success_stay_screen_title">Permanecer en la pantalla de bloqueo después de desbloquear</string>
     <string name="face_unlock_title">Puedes desbloquear el teléfono con el reconocimiento facial. Por razones de seguridad, esta opción requiere un método secundario de bloqueo de pantalla.</string>
     <string name="face_unlock_when_slt_on_toast">No se puede usar el desbloqueo facial cuando se utilizan las comunicaciones por satélite de Tiantong</string>
+    <string name="factory_reset_loading">Realizando un restablecimiento de fábrica…</string>
     <string name="factory_reset_summary">El formateo borrará todos los datos del almacenamiento interno de su dispositivo</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Hubo demasiados intentos incorrectos. Se borrarán los datos de este dispositivo.</string>
@@ -4141,6 +4144,9 @@ Para obtener más información, comunícate con el proveedor."</string>
     <string name="font_cta_alert_btn_positive">Acepto</string>
     <string name="font_cta_alert_message">Lea y acepte los términos y condiciones de Temas para continuar.</string>
     <string name="font_cta_alert_title">Términos y condiciones</string>
+    <string name="font_preview_text_content">"Ejemplo de texto:
+
+Xiaomi fabrica sin descanso productos increíbles a precios honestos para que todo el mundo pueda disfrutar de una vida mejor gracias a tecnología innovadora."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">La fuente actual no admite ajustar el peso de la fuente</string>
     <string name="font_settings_jump">Accesibilidad > Tamaño de la pantalla</string>
@@ -4301,7 +4307,7 @@ Cuando activas la copia de seguridad automática, los datos del dispositivo y la
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Controlador de juegos</string>
     <string name="game_storage_settings">Juegos</string>
-    <string name="gaze_lock_screen_summary">El dispositivo permanecerá desbloqueado cuando se detecte su presencia y se bloqueará cuando se aleje de la pantalla</string>
+    <string name="gaze_lock_screen_summary">El dispositivo permanecerá desbloqueado cuando mire la pantalla y se bloqueará cuando mire hacia otro lado para proteger su privacidad, anulando su configuración de tiempo de bloqueo automático.</string>
     <string name="gaze_lock_screen_title">Detectar presencia</string>
     <string name="gd_setting_title">Barra lateral</string>
     <string name="general_category_title">General</string>
@@ -5110,6 +5116,7 @@ Abra Xiaomi Cloud y restaure elementos desde allí."</string>
     <string name="layout_size_small_text">Extra Pequeño</string>
     <string name="le_audio_title">Audio LE</string>
     <string name="learn_more">Más información</string>
+    <string name="leave_lockscreen_summary">El dispositivo se bloqueará cuando se aleje de la pantalla</string>
     <string name="leave_loclscreen_summary">La pantalla se bloqueará automáticamente cuando usted se aleja cierta distancia de su dispositivo</string>
     <string name="leave_loclscreen_title">Bloquear la pantalla al alejarse</string>
     <string name="led_colors_summary">Color de luz para notificaciones</string>
@@ -7210,13 +7217,17 @@ OTG se desactiva automáticamente después de 10 minutos de inactividad."</strin
     <string name="photography_handle_button_function_settings">Configurar botón del grip</string>
     <string name="photography_handle_charge_protected">Protección al cargar desde el grip</string>
     <string name="photography_handle_charge_protected_summary">Cuando el grip de la cámara esté conectado, el dispositivo dejará de cargarse y mantendrá la batería al %1$s</string>
+    <string name="photography_handle_charge_settings">Ajustes de carga</string>
     <string name="photography_handle_charge_state">Cargar desde el grip de la cámara</string>
     <string name="photography_handle_charge_state_summary">Cargue este dispositivo desde el grip de la cámara cuando esté conectado</string>
+    <string name="photography_handle_function_settings">Ajustes del grip de la cámara</string>
     <string name="photography_handle_launch_and_take_photo">Hacer una foto</string>
     <string name="photography_handle_launch_camera">Abrir la cámara</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Mantenga presionado el botón del disparador para realizar una acción</string>
     <string name="photography_handle_quick_launch_camera_title">Ejecución rápida</string>
+    <string name="photography_handle_sn">Número de serie</string>
     <string name="photography_handle_title">Grip de la cámara</string>
+    <string name="photography_handle_update_and_maintain">Actualizaciones</string>
     <string name="physical_keyboard_title">Teclado físico</string>
     <string name="pick_up_gesture_wakeup_title">Levantar para activar</string>
     <string name="picker_text">Selector de tiempo</string>
@@ -8040,6 +8051,7 @@ También se borrarán de forma permanente todas las apps de tu espacio y sus dat
     <string name="same_source_synced">Retransmisión agregada con éxito</string>
     <string name="sar">Información de exposición a RF</string>
     <string name="satellite_call_assistant">Ajustes de llamada</string>
+    <string name="satellite_management_title">Red satelital</string>
     <string name="satellite_network_title">Funciones de llamada por satélite</string>
     <string name="satellite_setting">Mensajería satelital</string>
     <string name="satellite_setting_disabled_summary">Envía y recibe mensajes de texto a través de satélites (no incluido con tu cuenta).</string>
@@ -9976,6 +9988,8 @@ Intenta usar un ^3 más rápido o usa ^4 como almacenamiento portátil."</string
     <string name="tethering_hardware_offload_summary">Usa la aceleración de hardware de conexión mediante dispositivo móvil si está disponible.</string>
     <string name="tethering_help_button_text">Ayuda</string>
     <string name="tethering_settings_not_available">Cambie los ajustes para compartir internet en el espacio principal</string>
+    <string name="text_layout_optimization_switch_label">Optimizar el diseño del texto</string>
+    <string name="text_layout_optimization_switch_toast">No se puede optimizar el diseño del texto con la fuente actual</string>
     <string name="texture_adjust_temperature_title">Temperatura del color</string>
     <string name="the_anniversary_of_lifting_martial_law">Aniversario del Levantamiento de la Ley Marcial</string>
     <string name="the_anti_aggression_day">Día de lucha contra la agresión</string>
@@ -11333,6 +11347,10 @@ Si configuras la red para que esté oculta, no se modificarán los ajustes del r
     <string name="wifi_protection_tip">Xiaomi protegerá sus datos personales de solicitudes de sondeo Wi-Fi provenientes de direcciones MAC aleatorias y analizadores de protocolos Wi-Fi cuando el dispositivo está buscando redes Wi-Fi.</string>
     <string name="wifi_quick_toggle_summary">Activar Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Su contraseña de Wi-Fi es incorrecta. Ingrésela nuevamente.</string>
+    <string name="wifi_reconnect_failed_text_china">Su contraseña de WLAN es incorrecta. Ingrésela nuevamente.</string>
+    <string name="wifi_reconnect_failed_title">Contraseña Wi-Fi incorrecta</string>
+    <string name="wifi_reconnect_failed_title_china">Contraseña WLAN incorrecta</string>
     <string name="wifi_remembered">Guardado</string>
     <string name="wifi_remembered_disabled_auto_connect">Guardado. No se puede conectar automáticamente.</string>
     <string name="wifi_require_sim_card_to_connect">Se requiere una tarjeta SIM para conectarse</string>

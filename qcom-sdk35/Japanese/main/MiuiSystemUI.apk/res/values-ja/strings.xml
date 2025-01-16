@@ -213,7 +213,7 @@
     <string name="accessibility_quick_settings_bluetooth">Bluetooth</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">有効化</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_disconnect">接続を解除</string>
-    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bluetoothデバイスのバッテリーは%dパーセントです。</string>
+    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bluetooth デバイスのバッテリー残量は %d パーセントです。</string>
     <string name="accessibility_quick_settings_bluetooth_on">BluetoothがONです。</string>
     <string name="accessibility_quick_settings_choose_user_action">ユーザーを選択</string>
     <string name="accessibility_quick_settings_collapse">クイック設定を閉じます。</string>
@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">サイレント</string>
     <string name="accessibility_quick_settings_edit">設定の順序を編集します。</string>
     <string name="accessibility_quick_settings_expand">クイック設定を開きます。</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">接続済みのグリップ</string>
     <string name="accessibility_quick_settings_open_settings">%s の設定を開きます。</string>
     <string name="accessibility_quick_settings_page">ページ %1$d/%2$d</string>
     <string name="accessibility_quick_settings_power_menu">電源ボタン メニュー</string>
@@ -314,6 +315,9 @@
     <string name="alarms_and_reminders_label">アラームとリマインダー</string>
     <string name="alarms_and_reminders_switch_title">アラームとリマインダーの設定を許可する</string>
     <string name="alarms_and_reminders_title">アラームとリマインダー</string>
+    <string name="alertdialog_safemode_button_submit">送信</string>
+    <string name="alertdialog_safemode_message">システムインターフェースの問題により、デバイスがセーフモードになり、一部の機能が利用できなくなりました。この問題の解決を早めるために、フィードバックを送信してください。</string>
+    <string name="alertdialog_safemode_title">セーフモードになりました</string>
     <string name="all_network_unavailable">ネットワークを利用できません</string>
     <string name="allow_mock_location">擬似ロケーションを許可</string>
     <string name="allow_mock_location_summary">擬似ロケーションを許可する</string>
@@ -1052,6 +1056,7 @@
     <string name="fullaod_apply_super_wallpaper_toast">スーパー壁紙のため、常時オンディスプレイのテーマがカスタムに設定されました</string>
     <string name="fullaod_apply_third_theme_toast">サードパーティのテーマのため、常時オンディスプレイのテーマがカスタムに設定されました</string>
     <string name="fullaod_apply_third_wallpaper_toast">サードパーティの壁紙のため、常時オンディスプレイのテーマがカスタムに設定されました</string>
+    <string name="fullaod_apply_video_depth_toast">常時オンディスプレイスタイルをカスタムに切り替えました</string>
     <string name="fullscreen_text">全画面表示</string>
     <string name="game_status">プレイ中</string>
     <string name="global_action_smart_lock_disabled">ロック解除延長は無効です</string>
@@ -1577,6 +1582,12 @@
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 yyyy/MM/dd"</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Bluetoothデバイスによりロックが解除されました</string>
+    <string name="miui_lock_aqi_level_description_critical">深刻な汚染</string>
+    <string name="miui_lock_aqi_level_description_excellent">良好</string>
+    <string name="miui_lock_aqi_level_description_good">普通</string>
+    <string name="miui_lock_aqi_level_description_mild">軽度の汚染</string>
+    <string name="miui_lock_aqi_level_description_moderate">中程度の汚染</string>
+    <string name="miui_lock_aqi_level_description_serious">重度の汚染</string>
     <string name="miui_lock_eastern_art_date_time_12">M/d aa h:mm</string>
     <string name="miui_lock_eastern_art_date_time_24">M/d H:mm</string>
     <string name="miui_lock_eastern_art_week_am">EEEE</string>
@@ -1851,6 +1862,7 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="notification_channel_dialog_title">%1$s のすべての通知</string>
     <string name="notification_channel_hints">ヒント</string>
     <string name="notification_channel_instant">Instant Apps</string>
+    <string name="notification_channel_safemode">セーフモード</string>
     <string name="notification_channel_screenshot">スクリーンショット</string>
     <string name="notification_channel_setup">セットアップ</string>
     <string name="notification_channel_storage">ストレージ</string>
@@ -1883,6 +1895,13 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="notification_more_settings">詳細設定</string>
     <string name="notification_multichannel_desc">このグループの通知はここでは設定できません</string>
     <string name="notification_priority_title">優先</string>
+    <string name="notification_safemode_button_exit">終了</string>
+    <string name="notification_safemode_description_exit">セーフモードを終了する前に、通知に記載されているトラブルシューティングのヒントに必ず従ってください。従わないと、デバイスが再びセーフモードになる可能性があります。</string>
+    <string name="notification_safemode_description_presafemode">システムインターフェースとテーマのデータが正常に消去されました。デバイスを通常通り使用できます。</string>
+    <string name="notification_safemode_description_safemode">デバイスは現在セーフモードです。タップしてシステムインターフェイスを復旧する方法を確認してください。</string>
+    <string name="notification_safemode_title_exit">セーフモードを終了</string>
+    <string name="notification_safemode_title_presafemode">システムインターフェースが復旧しました</string>
+    <string name="notification_safemode_title_safemode">システムインターフェースクラッシュの問題の修正に関するお知らせ</string>
     <string name="notification_section_header_alerting">通知</string>
     <string name="notification_section_header_conversations">会話</string>
     <string name="notification_section_header_gentle">サイレント</string>
@@ -2153,9 +2172,9 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">スマートデュアルSIM</string>
     <string name="quick_settings_internet_label">インターネット</string>
     <string name="quick_settings_inversion_label">色反転</string>
-    <string name="quick_settings_location_label">位置情報</string>
-    <string name="quick_settings_location_state_change_message_off">位置情報へのアクセスはオフです</string>
-    <string name="quick_settings_location_state_change_message_on">位置情報へのアクセスはオンです</string>
+    <string name="quick_settings_location_label">位置情報サービス</string>
+    <string name="quick_settings_location_state_change_message_off">位置情報サービスはオフです</string>
+    <string name="quick_settings_location_state_change_message_on">位置情報サービスはオンです</string>
     <string name="quick_settings_media_device_label">メディアデバイス</string>
     <string name="quick_settings_mic_label">マイクへのアクセス</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">利用可能なWi-Fiネットワークはありません</string>
@@ -2298,6 +2317,7 @@ IT 管理者が、このデバイスに関連付けられている設定、コ�
     <string name="screen_pinning_toast_navigation_mode">このアプリのピン留めを解除するには、戻るボタンとプレビューボタンを長押しします</string>
     <string name="screen_pinning_toast_recents_invisible">このアプリの固定を解除するには [戻る] ボタンと [ホーム] ボタンを長押しします</string>
     <string name="screen_pinning_toast_start">このアプリはピン留めされています</string>
+    <string name="screen_share_dialog_spinner_text">範囲</string>
     <string name="screen_share_permission_app_selector_title">アプリの共有または録画</string>
     <string name="screen_share_permission_dialog_option_entire_screen">画面全体</string>
     <string name="screen_share_permission_dialog_option_single_app">1 つのアプリ</string>

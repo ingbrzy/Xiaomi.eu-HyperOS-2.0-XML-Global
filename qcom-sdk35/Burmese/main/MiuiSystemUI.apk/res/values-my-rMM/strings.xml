@@ -30,12 +30,16 @@
     <string name="accessibility_qs_edit_tile_move">%1$s ကို အနေအထား %2$d သို့ ရွှေ့ရန်</string>
     <string name="accessibility_qs_edit_tile_removed">%1$sအား ဖယ်ရှားပြီးပါပြီ</string>
     <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">ဘလူးတုသ်စက် ဘက်ထရီ %d ရာခိုင်နှုန်း။</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">ချိတ်ထားသောလက်ကိုင်</string>
     <string name="accessibility_settings">ဆက်တင်များ</string>
     <string name="actionbar_button_up_description">နောက်သို့</string>
     <string name="activate_usb_message">ဒီအင်္ဂါရပ်ကို သက်ဝင်ခလုတ်ဖွင့်ရန်၊ သင်၏ ဆင်းမ်ကဒ်ကို ထည့်သွင်းပါ။</string>
     <string name="activate_usb_title">USB သက်ဝင်ခလုတ်ဖွင့်ပါ</string>
     <string name="afternoon">နေ့လယ်</string>
     <string name="airplane_mode">လေယာဉ်မုဒ်</string>
+    <string name="alertdialog_safemode_button_submit">တင်ရန်</string>
+    <string name="alertdialog_safemode_message">သင့်စက်သည် စနစ်အင်တာဖေ့(စ်)ပြဿနာများကြောင့် ဘေးကင်းမုဒ်သို့ ဝင်သွားပြီး အင်္ဂါရပ်အချို့ကို ရနိုင်မည်မဟုတ်ပါ။ ဤပြဿနာကို အမြန်ဖြေရှင်းနိုင်ရန် တုံ့ပြန်အကြံပြုချက်တင်ပါ။</string>
+    <string name="alertdialog_safemode_title">ဘေးကင်းမုဒ်ဝင်ထားသည်</string>
     <string name="am">နံနက်</string>
     <string name="aqi_format">AQI %s</string>
     <string name="aqi_format_desc">လေထုအရည်အသွေး အညွှန်း - %s</string>
@@ -233,6 +237,7 @@
     <string name="fullaod_apply_super_wallpaper_toast">စူပါ နောက်ခံပုံများကြောင့် အမြဲပြသမျက်နှာပြင်သင်း(မ်)ကို စိတ်ကြိုက်ဟု သတ်မှတ်ထားသည်</string>
     <string name="fullaod_apply_third_theme_toast">ပြင်ပပါတီသင်း(မ်)များကြောင့် အမြဲပြသမျက်နှာပြင်သင်း(မ်)ကို စိတ်ကြိုက်ဟု သတ်မှတ်ထားသည်</string>
     <string name="fullaod_apply_third_wallpaper_toast">ပြင်ပပါတီနောက်ခံပုံများကြောင့် အမြဲပြသမျက်နှာပြင်သင်း(မ်)ကို စိတ်ကြိုက်ဟု သတ်မှတ်ထားသည်</string>
+    <string name="fullaod_apply_video_depth_toast">အမြဲပြသမျက်နှာပြင်ကို စိတ်ကြိုက်သို့ ပြောင်းထားသည်</string>
     <string name="gxzw_quick_close">ပိတ်ရန်</string>
     <string name="gxzw_quick_open_add_event">အချိန်ဇယား ပေါင်းထည့်မည်</string>
     <string name="gxzw_quick_open_add_event_sub">ပြက္ခဒိန်</string>
@@ -326,6 +331,12 @@
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 dd/MM/yyyy"</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">ဘလူးတုသ်စက်ဖြင့် လော့ခ်ဖြည်လိုက်သည်</string>
+    <string name="miui_lock_aqi_level_description_critical">အန္တရာယ်ရှိ</string>
+    <string name="miui_lock_aqi_level_description_excellent">ကောင်း</string>
+    <string name="miui_lock_aqi_level_description_good">မျှတ</string>
+    <string name="miui_lock_aqi_level_description_mild">အသင့်အတင့်</string>
+    <string name="miui_lock_aqi_level_description_moderate">မကောင်းပါ</string>
+    <string name="miui_lock_aqi_level_description_serious">ပြင်းထန်</string>
     <string name="miui_lock_eastern_art_date_time_12">d/M h:mm aa</string>
     <string name="miui_lock_eastern_art_date_time_24">d/M H:mm</string>
     <string name="miui_lock_eastern_art_week_am">EEEE</string>
@@ -450,9 +461,17 @@ mm"</string>
     <string name="night">ညနေ</string>
     <string name="noon">မွန်းတည့်</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
+    <string name="notification_channel_safemode">ဘေးကင်းမုဒ်</string>
     <string name="notification_control_center">အသိပေးချက်များနှင့် ထိန်းချုပ်စင်တာ</string>
     <string name="notification_group_collapse_button_text">ခေါက်ထားပါ</string>
     <string name="notification_hidden_text">မက်ဆေ့ချ်အသစ်တစ်စောင် ရှိသည်</string>
+    <string name="notification_safemode_button_exit">ထွက်ရန်</string>
+    <string name="notification_safemode_description_exit">ဘေးကင်းမုဒ်မှမထွက်မီ နို့တစ်တွင် ပေးထားသော ပြဿနာစိစစ်ရေး အကြံဉာဏ်များကို လိုက်နာကြောင်း သေချာပါစေ။ မလိုက်နာလျှင် စက်က ဘေးကင်းမုဒ်သို့ ပြန်ဝင်နိုင်သည်။</string>
+    <string name="notification_safemode_description_presafemode">စနစ်အင်တာဖေ့(စ်)နှင့် သင်း(မ်)ဒေတာကို အောင်မြင်စွာ ရှင်းလင်းပြီးပါပြီ။ စက်ကို ပုံမှန်သုံးနိုင်ပါပြီ။</string>
+    <string name="notification_safemode_description_safemode">သင့်စက်က ဘေးကင်းမုဒ်တွင် ရောက်နေသည်။ စနစ်အင်တာဖေ့(စ်) ပြန်ယူနည်းကို ကြည့်ရန်တို့ပါ။</string>
+    <string name="notification_safemode_title_exit">ဘေးကင်းမုဒ်မှထွက်ရန်</string>
+    <string name="notification_safemode_title_presafemode">စနစ်အင်တာဖေ့(စ်) ပြန်ယူထားပါပြီ</string>
+    <string name="notification_safemode_title_safemode">စနစ်အင်တာဖေ့(စ်) ချွတ်ယွင်းမှုပြဿနာ ပြင်ဆင်ခြင်းနို့တစ်</string>
     <string name="notification_status_bar">အသိပေးချက်များနှင့် အခြေအနေပြဘားတန်း</string>
     <string name="open_camera_hint_text">ကင်မရာဖွင့်ရန် သင်္ကေတပုံကို ဖိဆွဲပါ</string>
     <string name="open_lock_screen_magazine_hint_text">နောက်ထပ် ရွေးချယ်မှုများအတွက် ညာသို့ ပွတ်ဆွဲပါ</string>
@@ -526,9 +545,9 @@ mm"</string>
     <string name="quick_settings_hotspot_state_change_message_on">ဟော့စပေါ့ဖွင့်ထားသည်</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_summary">လိုင်းဆွဲအားမြှင့်ရန် ဒုတိယ SIM ၏ မိုဘိုင်းဒေတာကို သုံးပါ</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">စမတ်နှစ်ခုတွဲ SIM</string>
-    <string name="quick_settings_location_label">တည်နေရာ</string>
-    <string name="quick_settings_location_state_change_message_off">တည်နေရာဖတ်ခွင့်ပိတ်ထားသည်</string>
-    <string name="quick_settings_location_state_change_message_on">တည်နေရာဖတ်ခွင့်ဖွင့်ထားသည်</string>
+    <string name="quick_settings_location_label">တည်နေရာပြ ၀န်ဆောင်မှုများ</string>
+    <string name="quick_settings_location_state_change_message_off">တည်နေရာ၀န်ဆောင်မှုများ ပိတ်ထားသည်</string>
+    <string name="quick_settings_location_state_change_message_on">တည်နေရာ၀န်ဆောင်မှုများ ဖွင့်ထားသည်</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Wi-Fi ကွန်ရက် မရရှိနိုင်ပါ</string>
     <string name="quick_settings_miui_wifi_label">Wi-Fi</string>
     <string name="quick_settings_miui_wlan_detail_empty_text">WLAN ကွန်ရက်မရရှိနိုင်ပါ</string>
@@ -609,6 +628,7 @@ mm"</string>
     <string name="screen_pinning_toast_gesture_mode">ဤအက်(ပ်)ကိုပင်ဖြုတ်ရန် မျက်နှာပြင်အောက်ခြေမှ အပေါ်ပွတ်ဆွဲပြီး ရပ်ပါ</string>
     <string name="screen_pinning_toast_navigation_mode">ဤအက်(ပ်)ကို ပင်ဖြုတ်ရန် နောက်ဆုတ်ခလုတ်နှင့် အစမ်းကြည့်ခလုတ်ကို ထိပြီးဖိထားပါ</string>
     <string name="screen_pinning_toast_start">ဤအက်(ပ်)ကို ပင်ထိုးထားသည်</string>
+    <string name="screen_share_dialog_spinner_text">အတိုင်းအတာ</string>
     <string name="send">ပို့ပါ</string>
     <string name="shut_down_password_forget_password_suggesstion_one_content">&lt;Data>&lt;font color=#e6e6e6>[ပါဝါ]&lt;/font> နှင့် &lt;font color=#e6e6e6>[အသံ +]&lt;/font> ခလုတ်များကို &lt;img src=\"\"> မြင်သည်အထိ ထိပြီးဖိထားပါ။&lt;/Data></string>
     <string name="shut_down_password_forget_password_suggesstion_two_content">&lt;Data>&lt;font color=#e6e6e6>[ဒေတာဖျက်ရန် (Wipe data)]&lt;/font> ကို ရွေးပြီး &lt;font color=#e6e6e6>[Reboot]&lt;/font> ကို တို့ပါ။&lt;/Data></string>
