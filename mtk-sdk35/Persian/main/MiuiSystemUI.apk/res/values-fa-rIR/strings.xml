@@ -30,12 +30,16 @@
     <string name="accessibility_qs_edit_tile_move">انتقال %1$s به موقعیت %2$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s حذف شده است</string>
     <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">باتری دستگاه بلوتوث %d درصد است.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">گریپ متصل</string>
     <string name="accessibility_settings">تنظیمات</string>
     <string name="actionbar_button_up_description">بازگشت</string>
     <string name="activate_usb_message">برای فعال کردن این قابلیت، سیم‌کارت خود را وارد نمایید.</string>
     <string name="activate_usb_title">فعال کردن USB</string>
     <string name="afternoon">بعد از ظهر</string>
     <string name="airplane_mode">حالت هواپیما</string>
+    <string name="alertdialog_safemode_button_submit">ارسال</string>
+    <string name="alertdialog_safemode_message">دستگاه شما به دلیل مشکلات رابط سیستم وارد حالت ایمن شده است که باعث می‌شود برخی از ویژگی‌ها در دسترس نباشند. برای تسریع در حل این مشکل بازخورد خود را ارسال کنید.</string>
+    <string name="alertdialog_safemode_title">وارد حالت ایمن شد</string>
     <string name="am">ق.ظ</string>
     <string name="aqi_format">شاخص کیفیت هوا %s</string>
     <string name="aqi_format_desc">شاخص کیفیت هوا: %s</string>
@@ -47,8 +51,11 @@
     <string name="bluetooth_connected_no_headset_battery_level">متصل (بدون گوشی) | باتری %1$s %2$s</string>
     <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">متصل (بدون گوشی یا رسانه) | باتری %1$s %2$s</string>
     <string name="bluetooth_headset_profile_summary_use_for">استفاده شده برای صدای گوشی</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">هر دو سمعک به %1$s متصل هستند</string>
+    <string name="bluetooth_hearing_aid_left_connected">سمعک چپ به %1$s متصل شد</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">متصل به سمعک</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">استفاده شده برای سمعک</string>
+    <string name="bluetooth_hearing_aid_right_connected">سمعک راست به %1$s متصل شد</string>
     <string name="bluetooth_hid_profile_summary_use_for">استفاده شده برای ورودی</string>
     <string name="bluetooth_le_audio_profile_summary_connected">متصل به صدای LE</string>
     <string name="bluetooth_le_audio_profile_summary_use_for">استفاده برای صدای LE</string>
@@ -72,6 +79,7 @@
     <string name="clearable_edittext_clear_description">پاک‌سازی</string>
     <string name="close">بستن</string>
     <string name="confirm">تأیید</string>
+    <string name="custom_lockscreen">سفارشی کردن صفحه قفل</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">متوجه‌ام</string>
     <string name="dark_mode_power_save_alert_dialog_message">"اگر بهینه‌سازی سیستم را خاموش کنید و بهینه‌ساز باتری را روشن کنید، حالت تاریک به‌طور خودکار روشن می‌شود.
 برای خاموش کردن حالت تاریک، بهینه‌ساز باتری را خاموش کنید یا بهینه‌سازی سیستم را در تنظیمات > گزینه‌های توسعه دهنده > روشن کردن بهینه سازی سیستم روشن کنید."</string>
@@ -229,6 +237,7 @@ PIN خود را وارد کرده تا قفل باز شود."</string>
     <string name="fullaod_apply_super_wallpaper_toast">نمایشگر همیشه روشن به دلیل تصاویر زمینه فوق‌العاده به سفارشی تنظیم شده است</string>
     <string name="fullaod_apply_third_theme_toast">نمایشگر همیشه روشن به دلیل تم‌های سوم شخص به سفارشی تنظیم شده است</string>
     <string name="fullaod_apply_third_wallpaper_toast">نمایشگر همیشه روشن به دلیل تصاویر زمینه سوم شخص به سفارشی تنظیم شده است</string>
+    <string name="fullaod_apply_video_depth_toast">سبک نمایشگر همیشه روشن به سفارشی تغییر کرد</string>
     <string name="gxzw_quick_close">بستن</string>
     <string name="gxzw_quick_open_add_event">افزودن رویداد</string>
     <string name="gxzw_quick_open_add_event_sub">سالنامه</string>
@@ -452,9 +461,17 @@ mm"</string>
     <string name="night">شب</string>
     <string name="noon">ظهر</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
+    <string name="notification_channel_safemode">حالت ایمن</string>
     <string name="notification_control_center">اعلان‌ها و مرکز کنترل</string>
     <string name="notification_group_collapse_button_text">تا کردن</string>
     <string name="notification_hidden_text">شما یک پیام جدید دارید</string>
+    <string name="notification_safemode_button_exit">خروج</string>
+    <string name="notification_safemode_description_exit">پیش از خروج از حالت ایمن، لازم است نکات عیب‌یابی ارائه شده در اعلامیه را دنبال کنید. در صورت انجام ندادن، ممکن است دستگاه شما دوباره وارد حالت ایمن شود.</string>
+    <string name="notification_safemode_description_presafemode">داده‌های رابط سیستم و تم‌ها با موفقیت پاک شدند. شما می‌توانید به طور عادی از دستگاه خود استفاده کنید.</string>
+    <string name="notification_safemode_description_safemode">دستگاه شما اکنون در حالت ایمن است. برای دیدن چگونگی بازیابی رابط سیستم، ضربه بزنید.</string>
+    <string name="notification_safemode_title_exit">خروج از حالت ایمن</string>
+    <string name="notification_safemode_title_presafemode">رابط سیستم بازیابی شد</string>
+    <string name="notification_safemode_title_safemode">اطلاعیه در مورد رفع مشکل خرابی رابط سیستم</string>
     <string name="notification_status_bar">اعلان‌ها و نوار وضعیت</string>
     <string name="open_camera_hint_text">آیکون را کشیده تا دوربین باز شود</string>
     <string name="open_lock_screen_magazine_hint_text">برای گزینه‌های بیشتر به سمت راست بکشید</string>
@@ -528,9 +545,9 @@ mm"</string>
     <string name="quick_settings_hotspot_state_change_message_on">کانون داغ روشن است</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_summary">استفاده از اینترنت همراه سیم‌کارت دوم برای افزایش سرعت اتصال</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">سیم‌کارت دوگانه هوشمند</string>
-    <string name="quick_settings_location_label">موقعیت</string>
-    <string name="quick_settings_location_state_change_message_off">دسترسی به موقعیت خاموش است</string>
-    <string name="quick_settings_location_state_change_message_on">دسترسی به موقعیت روشن است</string>
+    <string name="quick_settings_location_label">خدمات موقعیت</string>
+    <string name="quick_settings_location_state_change_message_off">خدمات موقعیت خاموش است</string>
+    <string name="quick_settings_location_state_change_message_on">خدمات موقعیت روشن است</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">هیچ شبکه Wi-Fi در دسترس نیست</string>
     <string name="quick_settings_miui_wifi_label">Wi-Fi</string>
     <string name="quick_settings_miui_wlan_detail_empty_text">هیچ شبکه WLAN در دسترس نیست</string>
@@ -611,6 +628,7 @@ mm"</string>
     <string name="screen_pinning_toast_gesture_mode">برای برداشتن از پایین صفحه به سمت بالا کشیده و مکث کنید</string>
     <string name="screen_pinning_toast_navigation_mode">برای برداشتن این برنامه دکمه‌های بازگشت پیش‌نمایش را فشرده و نگه دارید</string>
     <string name="screen_pinning_toast_start">این برنامه سنجاق شد</string>
+    <string name="screen_share_dialog_spinner_text">محدوده</string>
     <string name="send">ارسال</string>
     <string name="shut_down_password_forget_password_suggesstion_one_content">&lt;Data>دکمه‌های &lt;font color=#e6e6e6>[برق]&lt;/font> و &lt;font color=#e6e6e6>[صدا +]&lt;/font> را فشرده و نگه داشته تا زمانی که &lt;img src=\"\"> دیده شود.&lt;/Data></string>
     <string name="shut_down_password_forget_password_suggesstion_two_content">&lt;Data>&lt;font color=#e6e6e6>[Wipe data (پاک کردن داده‌ها)]&lt;/font> را انتخاب کرده و پس از آن روی &lt;font color=#e6e6e6>[Reboot (راه‌اندازی دوباره)]&lt;/font> بزنید.&lt;/Data></string>
@@ -625,7 +643,7 @@ mm"</string>
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="stream_assistant">دستیار صوتی</string>
-    <string name="strong_toast_charging">در حال شارژ</string>
+    <string name="strong_toast_charging">شارژ کردن</string>
     <string name="strong_toast_quick_charging">در حال شارز فوری</string>
     <string name="sunday">یک‌شنبه</string>
     <string name="sunday_short">یک‌شنبه</string>

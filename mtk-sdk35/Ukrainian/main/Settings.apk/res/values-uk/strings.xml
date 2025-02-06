@@ -638,6 +638,7 @@
     <string name="ai_button_title">Кнопка Mi AI</string>
     <string name="ai_button_title_global">Кнопка AI</string>
     <string name="ai_call_assistant">Виклики AI</string>
+    <string name="ai_notification_settings">ШI-конспект сповіщень</string>
     <string name="ai_services_title">Послуги ШІ</string>
     <string name="ai_settings_click_title">Натиснення</string>
     <string name="ai_settings_double_click_category">Подвійне натиснення кнопки АІ</string>
@@ -665,6 +666,7 @@
     <string name="all_supported_app_locales_title">Усі мови</string>
     <string name="all_volume_title">Гучність</string>
     <string name="allow">Дозволити</string>
+    <string name="allow_badge_summary">Дозволити відображення пронумерованої червоної крапки на іконках Робочого столу для позначення сповіщень або нового контенту</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Після того як ви створите віджет, додаток матиме доступ до всього контенту, що відображається.
 
 Додаток: %1$s
@@ -687,6 +689,7 @@
     <string name="allow_mock_location_summary">Дозв. фіктивні місцезн.</string>
     <string name="allow_mock_modem">Дозволити тестовий модем</string>
     <string name="allow_mock_modem_summary">Цьому пристрою буде дозволено запускати сервіс тестового модема для інструментального тестування. Не вмикайте цю функцію у звичайному режимі роботи телефона.</string>
+    <string name="allow_ongoing_summary">Дозволити сповіщення, які можна видалити тільки вручну</string>
     <string name="allow_ongoing_title">Постійні сповіщення</string>
     <string name="allow_overlay_description">Дозволити цьому додатку відображатися поверх інших відкритих додатків. Він зможе відстежувати місце натискання й змінювати вміст екрана.</string>
     <string name="allow_sound_title">Звук</string>
@@ -1220,7 +1223,7 @@
     <string name="back_navigation_animation_summary">Увімкнути системну анімацію з підказками для жесту \"Назад\".</string>
     <string name="back_sensitivity_dialog_message">Через високу чутливість можуть не працювати жести з боків екрана в додатку.</string>
     <string name="back_sensitivity_dialog_title">Чутливість країв екрана</string>
-    <string name="back_strap_image_text">Отримуйте нагадування про сповіщення та світлові ефекти для різних сцен</string>
+    <string name="back_strap_image_text">Коли пристрій знаходиться лицьовою стороною вниз з вимкненим екраном, підсвічування буде нагадувати про сповіщення та демонструвати світлові ефекти для різних сценаріїв</string>
     <string name="back_strap_status_close">Вимк.</string>
     <string name="back_strap_status_open">Увімк.</string>
     <string name="back_strap_title">Ефекти підсвічування</string>
@@ -1785,12 +1788,15 @@
     <string name="bluetooth_headset_profile_summary_use_for">Використано для аудіопристрою телефона</string>
     <string name="bluetooth_hearing_aid_left_active">Активовано (лише лівий)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Активовано (лівий і правий)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Обидва слухові апарати підключені до %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Лівий слуховий апарат підключений до %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Активно (лише для мультимедіа); лише лівий</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Активно (лише для мультимедіа); лівий і правий</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Активно (лише для мультимедіа); лише правий</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Підключено до слухового апарату</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Використано для слухового апарату</string>
     <string name="bluetooth_hearing_aid_right_active">Активовано (лише правий)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Правий слуховий апарат підключений до %1$s</string>
     <string name="bluetooth_hearing_aids_presets">Набір налаштувань</string>
     <string name="bluetooth_hearing_aids_presets_error">Не вдалось оновити набір налаштувань</string>
     <string name="bluetooth_hearing_device_settings_summary">Ярлик, сумісність зі слуховими апаратами</string>
@@ -1859,6 +1865,10 @@
 Щоб підключити лівий слуховий апарат, переконайтеся, що він увімкнений і готовий до підключення."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Підключити правий</string>
     <string name="bluetooth_pair_other_ear_dialog_title">Підключити другий</string>
+    <string name="bluetooth_pair_other_hearing_dialog_positive_button">"Прив'язати"</string>
+    <string name="bluetooth_pair_other_hearing_dialog_title">"Прив'язування до іншого слухового апарату"</string>
+    <string name="bluetooth_pair_other_left_hearing_dialog_message">"Правий слуховий апарат підключений. Переконайтеся, що лівий слуховий апарат увімкнений і готовий до прив'язування."</string>
+    <string name="bluetooth_pair_other_right_hearing_dialog_message">"Лівий слуховий апарат підключений. Переконайтеся, що правий слуховий апарат увімкнений і готовий до прив'язування."</string>
     <string name="bluetooth_pair_right_ear_button">Підключити правий</string>
     <string name="bluetooth_paired">Збережено</string>
     <string name="bluetooth_paired_device_title">Ваші пристрої</string>
@@ -2457,6 +2467,7 @@
     <string name="choose_unlock_face_msg">Перед записом інформації про обличчя налаштуйте блокування екрана.</string>
     <string name="choose_unlock_fingerprint_msg">Перед додаванням відбитка пальця налаштуйте блокування екрана.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Обвести й знайти</string>
     <string name="classic_mode_summary">Використовувати більш теплі кольори, щоб знизити кількість синього світла</string>
     <string name="classic_mode_title">Класика</string>
     <string name="cleaner">Очищення</string>
@@ -2891,7 +2902,6 @@
     <string name="dark_mode_day_night_mode_summary">Ваш пристрій перейде в Темний режим на заході сонця і повернеться назад у Світлий режим на світанку. Увімкніть служби місцезнаходження для більш точних результатів.</string>
     <string name="dark_mode_day_night_mode_title">Від заходу сонця до світанку</string>
     <string name="dark_mode_display_enable_summary">Використовувати затемнений інтерфейс користувача для комфортного перегляду в умовах слабкого освітлення.</string>
-    <string name="dark_mode_font_background_title">Автоналаштування шрифтів та фону</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Зрозуміло</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Якщо вимкнути оптимізацію системи та увімкнути ережим Економії енергії, Темний режим буде увімкнено автоматично.
 Щоб вимкнути Темний режим, вимкніть режим Економії енергії або увімкніть оптимізацію системи у розділі \"Налаштування\" > \"Режим розробника\" > Увімкнути оптимізацію системи\"."</string>
@@ -3781,7 +3791,7 @@
     <string name="external_source_untrusted">Заборонено</string>
     <string name="extreme_threats_summary">Отримувати сповіщення про серйозні загрози для життя й майна</string>
     <string name="extreme_threats_title">Серйозні загрози</string>
-    <string name="eye_gaze_dialog_message">Коли ви вмикаєте функцію \"Розпізнавати погляд\", пристрій не блокується, коли виявляє, що ви дивитесь на екран. Характеристики вашого обличчя не будуть проаналізовані, а інформація про ваше обличчя не буде зберігатися на вашому пристрої або завантажуватися до хмари. Увімкнути зараз?</string>
+    <string name="eye_gaze_dialog_message">Коли цю функцію увімкнено, система визначить, чи дивитесь ви на екран, але риси вашого обличчя не будуть проаналізовані, і ці дані не будуть зберігатися на вашому пристрої або завантажуватися до хмари. Увімкнути?</string>
     <string name="eye_gaze_dialog_title">Сповіщення безпеки</string>
     <string name="eye_gaze_summary">Пристрій не буде блокуватися, якщо виявить, що ви дивитеся на екран</string>
     <string name="eye_gaze_summary_fold_device">Пристрій не буде блокуватися, якщо виявить, що ви дивитеся на зовнішній екран</string>
@@ -3864,6 +3874,7 @@
     <string name="face_unlock_success_stay_screen_title">Залишатися на екрані блокування</string>
     <string name="face_unlock_title">Ви можете розблоковувати свій телефон за допомогою фейс-контролю. З міркувань безпеки для цієї функції потрібно налаштувати резервний спосіб блокування екрана.</string>
     <string name="face_unlock_when_slt_on_toast">"Не можна використовувати розблокування за допомогою обличчя при використанні супутникового зв'язку Tiantong"</string>
+    <string name="factory_reset_loading">Виконується скидання налаштувань…</string>
     <string name="factory_reset_summary">Форматування очистить всі дані у внутрішньому сховищі на вашому пристрої</string>
     <string name="fahrenheit_temperature_unit">Градуси Фаренгейта (°F)</string>
     <string name="failed_attempts_now_wiping_device">Забагато невдалих спроб. Дані на цьому пристрої буде видалено.</string>
@@ -4040,6 +4051,7 @@
     <string name="flash_notifications_keywords">спалах, світло, поганий слух, втрата слуху</string>
     <string name="flash_notifications_note">\"Мерехтіти при отриманні сповіщень\" дозволяє візуалізувати звуки сповіщень та мелодій за допомогою спалаху та екрану пристрою. Якщо ви чутливі до світла, використовуйте цю функцію обережно.</string>
     <string name="flash_notifications_preview">Попередній перегляд</string>
+    <string name="flash_notifications_settings_title">Спалах для сповіщень</string>
     <string name="flash_notifications_summary">Використовуватися спалах або показувати кольорові промені на екрані при надходженні сповіщень або вхідних викликів.</string>
     <string name="flash_notifications_summary_off">Вимкнено</string>
     <string name="flash_notifications_summary_on_camera">Увімкнено / спалах камери</string>
@@ -4133,6 +4145,9 @@
     <string name="font_cta_alert_btn_positive">Погодитися</string>
     <string name="font_cta_alert_message">Ознайомтеся та погодьтеся з Правилами та умовами Тем, щоб продовжити.</string>
     <string name="font_cta_alert_title">Правила та умови</string>
+    <string name="font_preview_text_content">"Приклад тексту:
+
+Xiaomi невпинно створює дивовижні продукти за справедливими цінами, щоб кожен у світі міг насолоджуватися кращим життям завдяки інноваційним технологіям."</string>
     <string name="font_scale_percentage">%1$d%%</string>
     <string name="font_setting_weight_toast">Налаштування насиченості недоступно для поточного шрифту</string>
     <string name="font_settings_jump">Спеціальні можливості > Розмір тексту</string>
@@ -4293,9 +4308,12 @@
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Ігровий контролер</string>
     <string name="game_storage_settings">Ігри</string>
-    <string name="gaze_lock_screen_summary">Пристрій залишатиметься розблокованим, коли виявить вашу присутність, і заблокується, коли ви відійдете від екрана</string>
+    <string name="gaze_lock_screen_summary">Пристрій залишатиметься розблокованим, коли ви дивитесь на екран, і блокуватиметься, коли ви відводите погляд, для захисту вашої конфіденційності. При цьому скасовується ваше налаштування часу автоматичного блокування екрану</string>
     <string name="gaze_lock_screen_title">Виявлення присутності</string>
     <string name="gd_setting_title">Бічна панель</string>
+    <string name="gemini_description">Спілкуйтеся в чаті з Gemini, щоб максимально покращити свої ідеї. Отримайте допомогу в навчанні, написанні листів подяки, плануванні заходів тощо. Використовуйте текст, голос, фотографії та камеру, щоб отримати допомогу новими способами. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Детальніше про доступність</a></string>
+    <string name="gemini_function">До максимуму покращуйте свої ідеї за допомогою Gemini від Google — вашого нового ШI-помічника</string>
+    <string name="gemini_setting">Налаштування Gemini</string>
     <string name="general_category_title">Загальні</string>
     <string name="general_notification_header">Керування</string>
     <string name="general_text">Поле для введення тексту</string>
@@ -4308,6 +4326,12 @@
     <string name="gesture_button_restart">Оновити</string>
     <string name="gesture_button_skip">Пропустити</string>
     <string name="gesture_function_dialog_message">\"%1$s\" слугує комбінацією для \"%2$s\". Замінити на \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Двічі торкніться Екрана блокування, щоб вийти з режиму сну</string>
+    <string name="gesture_lockcreen_sleep_title">Двічі торкніться Екрана блокування, щоб перейти в режим сну</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">При двойному натисненні</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Немає</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">При натисненні</string>
+    <string name="gesture_lockcreen_wakeup_title">Вмикати екран</string>
     <string name="gesture_preference_title">Жести</string>
     <string name="gesture_prevent_ringing_screen_title">Вимикання звуку дзвінка</string>
     <string name="gesture_prevent_ringing_sound_title">Швидке вимкнення звуку дзвінка</string>
@@ -4329,7 +4353,7 @@
     <string name="gesture_to_split_screen">Жести</string>
     <string name="gesture_wakeup_summary">Подвійне натиснення дозволяє вимкнути екран тільки при використанні теми \"Класика\" або \"Безмежність\".</string>
     <string name="gesture_wakeup_summary_2">Подвійне натиснення дозволяє вимкнути екран тільки при використанні теми \"Класика\".</string>
-    <string name="gesture_wakeup_title">Подвійне натиснення для увімкнення та відключення екрана, коли пристрій заблоковано</string>
+    <string name="gesture_wakeup_title">Подвійне натиснення для увімкнення та вимкнення екрана, коли пристрій заблоковано</string>
     <string name="giga_hertz">ГГц</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="global_change_warning">Налаштування будуть змінені для всіх користувачів телефона.</string>
@@ -4446,6 +4470,12 @@
     <string name="gxzw_quick_open_slow_summary">Утримуйте значок відбитка для відкриття контекстного меню. Проведіть для використання ярлика.</string>
     <string name="gxzw_quick_open_slow_title">Натисніть та утримуйте</string>
     <string name="gxzw_quick_open_title">Ярлики</string>
+    <string name="gxzw_recognizing_anim_a">Бриж</string>
+    <string name="gxzw_recognizing_anim_b">Спіраль</string>
+    <string name="gxzw_recognizing_anim_c">Сяйво</string>
+    <string name="gxzw_recognizing_anim_d">Хвиля</string>
+    <string name="gxzw_recognizing_anim_e">Діафрагма</string>
+    <string name="gxzw_recognizing_anim_f">Дифузія</string>
     <string name="gxzw_vibrate_summary">Вібрація не буде використовуватися, якщо не вибрано анімацію відбитків пальців</string>
     <string name="gxzw_vibrate_title">Вібрувати під час розблокування</string>
     <string name="handle_ota_connect_first">Підключити рукоятку</string>
@@ -4552,6 +4582,7 @@
     <string name="health_use_of_pad">Здорове використання пристрою</string>
     <string name="health_use_of_phone">Здорове використання пристрою</string>
     <string name="hearing_aids_category">Допоміжні інструменти для слуху</string>
+    <string name="hearing_stream_option">Параметри звуку</string>
     <string name="heavy_weight_stop_description">Цю програму неможливо безпечно зупинити – це може призвести до втрати частини вашої поточної роботи.</string>
     <string name="height_light_list_text">"Список важливих об'єктів"</string>
     <string name="help_and_feedback_title">"Допомога та зворотній зв'язок"</string>
@@ -5100,6 +5131,7 @@ Xiaomi Cloud
     <string name="layout_size_small_text">Дуже дрібний</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Докладніше</string>
+    <string name="leave_lockscreen_summary">Пристрій заблокується, коли ви віддалитеся від екрану</string>
     <string name="leave_loclscreen_summary">Якщо ви віддалитеся від свого пристрою на деяку відстань, екран буде автоматично заблоковано.</string>
     <string name="leave_loclscreen_title">Блокувати при видаленні</string>
     <string name="led_colors_summary">Колір індикатора сповіщень</string>
@@ -5108,6 +5140,7 @@ Xiaomi Cloud
     <string name="led_settings">Світловий індикатор</string>
     <string name="left_edge">Лівий край</string>
     <string name="left_function_key">Лівий ярлик</string>
+    <string name="left_hearing_aid">Лівий слуховий апарат</string>
     <string name="left_right_hand_switch">Зміна сторін</string>
     <string name="left_right_hand_switch_summary">Змінюйте місцями ліву та праву частину клавіатури одним натисненням.</string>
     <string name="left_shoulder_key">Лівий</string>
@@ -5774,7 +5807,7 @@ Xiaomi Cloud
     <string name="media_controls_show_player">Показати програвач</string>
     <string name="media_controls_title">Медіа</string>
     <string name="media_dialog_ok">Зрозуміло</string>
-    <string name="media_dialog_summary">Коли цю функцію увімкнено, пристрій вібруватиме в такт підтримуваної музики та відео, забезпечуючи більш повний та захоплюючий досвід.</string>
+    <string name="media_dialog_summary">Коли цю функцію увімкнено, пристрій вібруватиме в такт підтримуваної музики, забезпечуючи більш повний та захоплюючий досвід.</string>
     <string name="media_dialog_title">Увімкнути тактильну віддачу на музику</string>
     <string name="media_drm_settings_title">Налаштування DRM мультимедіа</string>
     <string name="media_feedback_enable_title">Вібрувати в ритм</string>
@@ -6456,7 +6489,7 @@ Xiaomi Cloud
     <string name="multi_face_input_reach_upper_limit">Помилка завантаження даних обличчя. Зачекайте хвилинку та повторіть спробу.</string>
     <string name="multi_face_input_success_name_title">"Ім'я"</string>
     <string name="multi_face_list">Дані про обличчя</string>
-    <string name="multi_face_name_prefix">"Обличчя: "</string>
+    <string name="multi_face_name_prefix">Дані обличчя %s</string>
     <string name="multi_face_number_reach_limit">Неможна додати більше 2 обличч</string>
     <string name="multi_music_coexistence_summary">Не регулюйте гучність медіа під час вхідних повідомлень або під час відтворення звуку з інших джерел</string>
     <string name="multi_music_coexistence_title">Декілька джерел звуку</string>
@@ -7200,13 +7233,22 @@ OTG автоматично відключається через 10 хвилин
     <string name="photography_handle_button_function_settings">Налаштування кнопки рукоятки</string>
     <string name="photography_handle_charge_protected">Захист кріплення під час заряджання</string>
     <string name="photography_handle_charge_protected_summary">Коли кріплення для камери підключено, пристрій перестане заряджатися і буде підтримувати заряд батареї на рівні %1$s.</string>
+    <string name="photography_handle_charge_settings">Налаштування заряджання</string>
     <string name="photography_handle_charge_state">Зарядка від кріплення для камери</string>
+    <string name="photography_handle_charge_state_choice_always">Завжди</string>
+    <string name="photography_handle_charge_state_choice_emergency">Екстрена</string>
     <string name="photography_handle_charge_state_summary">Заряджайте цей пристрій від кріплення для камери, коли воно підключене</string>
+    <string name="photography_handle_charge_state_summary_new">Почати заряджати цей пристрій за допомогою тримача для зйомки після його підключення</string>
+    <string name="photography_handle_emergency_charge_summary">Почати екстрене заряджання, коли рівень заряду батареї опуститься нижче %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Рівень початку екстреного заряджання</string>
+    <string name="photography_handle_function_settings">Налаштування тримача для камери</string>
     <string name="photography_handle_launch_and_take_photo">Зйомка фото</string>
     <string name="photography_handle_launch_camera">Запуск камери</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Утримуйте кнопку запуску камери, щоб виконати дію.</string>
     <string name="photography_handle_quick_launch_camera_title">Швидкий запуск</string>
+    <string name="photography_handle_sn">Серійний номер</string>
     <string name="photography_handle_title">Ручка камери</string>
+    <string name="photography_handle_update_and_maintain">Оновлення</string>
     <string name="physical_keyboard_title">Фізична клавіатура</string>
     <string name="pick_up_gesture_wakeup_title">Пробуджувати при взятті до рук</string>
     <string name="picker_text">Вибір часу</string>
@@ -7970,6 +8012,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="rhythmic_mode_enable_title">Цикл</string>
     <string name="right_edge">Правий край</string>
     <string name="right_function_key">Правий ярлик</string>
+    <string name="right_hearing_aid">Правий слуховий апарат</string>
     <string name="right_shoulder_key">Правий</string>
     <string name="ring_to_you">Власна мелодія</string>
     <string name="ring_to_you_info">Виберіть мелодію, яка замінить звичайні гудки</string>
@@ -8030,6 +8073,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="same_source_synced">Трансляція була додана</string>
     <string name="sar">Відомості про рівень РЧ-випромінювання</string>
     <string name="satellite_call_assistant">Налаштування викликів</string>
+    <string name="satellite_management_title">Супутникова мережа</string>
     <string name="satellite_network_title">"Функції супутникового зв'язку"</string>
     <string name="satellite_setting">Обмін повідомленнями через супутник</string>
     <string name="satellite_setting_disabled_summary">Обмінюйтеся текстовими повідомленнями через супутник. Цю функцію не включено у ваш обліковий запис.</string>
@@ -8221,7 +8265,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="screen_projection_sample_summary">Трансляція документів, ігор, фото та відео</string>
     <string name="screen_projection_sample_title">Демо</string>
     <string name="screen_projection_title">Трансляція</string>
-    <string name="screen_reader_category_title">Програма зчитування з екрана</string>
+    <string name="screen_reader_category_title">Читання з екрана</string>
     <string name="screen_refresh_unavailable_prompt">Зміна частоти оновлення підтримується тільки на зовнішньому екрані</string>
     <string name="screen_resolution_dialog_title">Змінити роздільну здатність</string>
     <string name="screen_resolution_footer">Коли екран працює з максимальною роздільною здатністю, акумулятор розряджається швидше. Якщо змінити роздільну здатність, деякі додатки можуть перезапуститися.</string>
@@ -9978,6 +10022,8 @@ OTG автоматично відключається через 10 хвилин
     <string name="tethering_hardware_offload_summary">Якщо доступно, вмикати апаратне прискорення під час використання телефона в режимі модема</string>
     <string name="tethering_help_button_text">Довідка</string>
     <string name="tethering_settings_not_available">Змініть налаштування модема у Першому просторі</string>
+    <string name="text_layout_optimization_switch_label">Оптимізувати макет тексту</string>
+    <string name="text_layout_optimization_switch_toast">Неможливо оптимізувати макет тексту з поточним шрифтом</string>
     <string name="texture_adjust_temperature_title">Колірний тон</string>
     <string name="the_anniversary_of_lifting_martial_law">Річниця скасування воєнного стану</string>
     <string name="the_anti_aggression_day">День боротьби з агресією</string>
@@ -11335,6 +11381,10 @@ OTG автоматично відключається через 10 хвилин
     <string name="wifi_protection_tip">Xiaomi захистить ваші персональні дані від запитів Wi-Fi probe, що надходять з випадкових MAC-адрес, і аналізаторів Wi-Fi probe при виконанні пристроєм пошуку мереж Wi-Fi.</string>
     <string name="wifi_quick_toggle_summary">Увімкнути Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Ви ввели неправильний пароль Wi-Fi. Повторіть спробу.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Неправильний пароль Wi-Fi</string>
+    <string name="wifi_reconnect_failed_title_china">Неправильний пароль WLAN</string>
     <string name="wifi_remembered">Збережено</string>
     <string name="wifi_remembered_disabled_auto_connect">Збережено. Не буде автоматично підключатися.</string>
     <string name="wifi_require_sim_card_to_connect">Щоб підключитись, вставте SIM-карту</string>

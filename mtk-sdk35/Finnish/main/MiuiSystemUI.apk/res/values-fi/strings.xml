@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">hiljennä kaikki</string>
     <string name="accessibility_quick_settings_edit">Muokkaa asetusten järjestystä.</string>
     <string name="accessibility_quick_settings_expand">Avaa pika-asetukset.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Yhdistetty kahva</string>
     <string name="accessibility_quick_settings_open_settings">Avaa kohteen %s asetukset.</string>
     <string name="accessibility_quick_settings_page">Sivu %1$d/%2$d</string>
     <string name="accessibility_quick_settings_power_menu">Virtavalikko</string>
@@ -314,6 +315,9 @@ Ilman tätä lupaa sovelluksen ajoittamat herätykset ja aikaan perustuvat tapah
     <string name="alarms_and_reminders_label">Herätykset ja muistutukset</string>
     <string name="alarms_and_reminders_switch_title">Salli herätysten ja muistutusten lisääminen</string>
     <string name="alarms_and_reminders_title">Herätykset ja muistutukset</string>
+    <string name="alertdialog_safemode_button_submit">Lähetä</string>
+    <string name="alertdialog_safemode_message">Laitteesi on siirtynyt viansietotilaan järjestelmän käyttöliittymäongelmien vuoksi, minkä vuoksi jotkin ominaisuudet eivät ole käytettävissä. Lähetä palautetta nopeuttaaksesi tämän ongelman ratkaisemista.</string>
+    <string name="alertdialog_safemode_title">Siirryttiin viansietotilaan</string>
     <string name="all_network_unavailable">Ei verkkoja käytettävissä</string>
     <string name="allow_mock_location">Salli sijaintien imitointi</string>
     <string name="allow_mock_location_summary">Salli sijaintien imitointi</string>
@@ -449,12 +453,15 @@ Yritä uudelleen %d sekunnin kuluttua."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Käytä puhelimen äänille</string>
     <string name="bluetooth_hearing_aid_left_active">Aktiivinen (vain vasen)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktiivinen (vasen ja oikea)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Molemmat kuulolaitteet yhdistettynä laitteeseen %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Vasen kuulolaite yhdistettynä laitteeseen %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktiivinen (vain media), vain vasen</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktiivinen (vain media), vasen ja oikea</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktiivinen (vain media), vain oikea</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Yhdistetty kuulolaitteisiin</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Käytä kuulolaitteilla</string>
     <string name="bluetooth_hearing_aid_right_active">Aktiivinen (vain oikea)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Oikea kuulolaite yhdistettynä laitteeseen %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Yhdistetty syöttölaitteeseen</string>
     <string name="bluetooth_hid_profile_summary_use_for">Käytä syöttöön</string>
     <string name="bluetooth_le_audio_profile_summary_connected">LE Audio yhdistetty</string>
@@ -728,6 +735,7 @@ Voit milloin tahansa tehdä muutoksia asetuksissa."</string>
     <string name="cta_label_to_open_widget_picker">Lisää widgetejä</string>
     <string name="cta_tile_button_to_dismiss">Hylkää</string>
     <string name="cta_tile_button_to_open_widget_editor">Muokkaa</string>
+    <string name="custom_lockscreen">Mukauta lukitusnäyttöä</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomalia (puna-vihersokeus)</string>
     <string name="daltonizer_mode_disabled">Poistettu käytöstä</string>
     <string name="daltonizer_mode_monochromacy">Monokromatismi</string>
@@ -1054,6 +1062,7 @@ Sammuta virtapainikkeella."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Aina päällä olevan näytön teema on asetettu mukautetuksi supertaustakuvien ansiosta</string>
     <string name="fullaod_apply_third_theme_toast">Aina päällä oleva teema on asetettu mukautetuksi kolmannen osapuolen teemojen vuoksi</string>
     <string name="fullaod_apply_third_wallpaper_toast">Aina päällä olevan näytön teema on asetettu mukautetuksi kolmannen osapuolen taustakuvien takia</string>
+    <string name="fullaod_apply_video_depth_toast">Aina päällä oleva näyttötyyli vaihtui mukautettuun</string>
     <string name="fullscreen_text">Koko näyttö</string>
     <string name="game_status">Toistetaan</string>
     <string name="global_action_smart_lock_disabled">Lukitsematon tila poistettu käytöstä</string>
@@ -1859,6 +1868,7 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="notification_channel_dialog_title">Kaikki %1$s ‑ilmoitukset</string>
     <string name="notification_channel_hints">Vihjeet</string>
     <string name="notification_channel_instant">Instant Apps</string>
+    <string name="notification_channel_safemode">Viansietotila</string>
     <string name="notification_channel_screenshot">Kuvakaappaukset</string>
     <string name="notification_channel_setup">Määritys</string>
     <string name="notification_channel_storage">Tallennustila</string>
@@ -1891,6 +1901,13 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="notification_more_settings">Lisäasetukset</string>
     <string name="notification_multichannel_desc">Tätä ilmoitusryhmää ei voi määrittää tässä</string>
     <string name="notification_priority_title">Tärkeä</string>
+    <string name="notification_safemode_button_exit">Poistu</string>
+    <string name="notification_safemode_description_exit">Muista noudattaa ilmoituksessa olevia vianetsintävinkkejä ennen viansietotilasta poistumista. Jos et, laitteesi saattaa siirtyä uudelleen viansietotilaan.</string>
+    <string name="notification_safemode_description_presafemode">Järjestelmäliittymän ja Teemat-tietojen tyhjennys onnistui. Voit käyttää laitettasi normaalisti.</string>
+    <string name="notification_safemode_description_safemode">Laitteesi on nyt viansietotilassa. Napauta nähdäksesi kuinka voit palauttaa järjestelmän käyttöliittymän.</string>
+    <string name="notification_safemode_title_exit">Poistu viansietotilasta</string>
+    <string name="notification_safemode_title_presafemode">Järjestelmän käyttöliittymä on palautettu</string>
+    <string name="notification_safemode_title_safemode">Ilmoitus järjestelmän käyttöliittymän kaatumisongelman korjaamisesta</string>
     <string name="notification_section_header_alerting">Ilmoitukset</string>
     <string name="notification_section_header_conversations">Keskustelut</string>
     <string name="notification_section_header_gentle">Äänetön</string>
@@ -2161,9 +2178,9 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Älykäs kaksois-SIM</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Käänteiset värit</string>
-    <string name="quick_settings_location_label">Sijainti</string>
-    <string name="quick_settings_location_state_change_message_off">Sijainnin käyttöoikeus on pois käytöstä</string>
-    <string name="quick_settings_location_state_change_message_on">Sijainnin käyttöoikeus on käytössä</string>
+    <string name="quick_settings_location_label">Sijaintipalvelut</string>
+    <string name="quick_settings_location_state_change_message_off">Sijaintipalvelut ovat pois käytöstä</string>
+    <string name="quick_settings_location_state_change_message_on">Sijaintipalvelut ovat käytössä</string>
     <string name="quick_settings_media_device_label">Medialaite</string>
     <string name="quick_settings_mic_label">Pääsy mikrofoniin</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Ei Wi-Fi-verkkoja saatavilla</string>
@@ -2306,6 +2323,7 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Irrota tämä sovellus pitämällä takaisin- ja esikatselupainikkeita painettuna</string>
     <string name="screen_pinning_toast_recents_invisible">Irrota sovellus koskettamalla pitkään Takaisin- ja Aloitusnäyttö-painikkeita</string>
     <string name="screen_pinning_toast_start">Tämä sovellus on kiinnitetty</string>
+    <string name="screen_share_dialog_spinner_text">Laajuus</string>
     <string name="screen_share_permission_app_selector_title">Jaa sovellus tai tallenna sen sisältöä</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Koko näyttö</string>
     <string name="screen_share_permission_dialog_option_single_app">Yksittäinen sovellus</string>
@@ -2496,7 +2514,7 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="stream_voice_call">Puhelu</string>
     <string name="strict_mode">Tiukka tila käytössä</string>
     <string name="strict_mode_summary">Vilkuta näyttöä sovellusten tehdessä pitkiä toimia</string>
-    <string name="strong_toast_charging">Ladataan</string>
+    <string name="strong_toast_charging">Lataus</string>
     <string name="strong_toast_quick_charging">Pikalataus</string>
     <string name="stylus_battery_low_percentage">Näyttökynän akku %s</string>
     <string name="stylus_battery_low_subtitle">Yhdistä näyttökynä laturiin</string>

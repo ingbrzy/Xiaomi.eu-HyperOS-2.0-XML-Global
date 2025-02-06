@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">silenci total</string>
     <string name="accessibility_quick_settings_edit">"Edita l'ordre de la configuració."</string>
     <string name="accessibility_quick_settings_expand">Obre la configuració ràpida.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Empunyadura connectada</string>
     <string name="accessibility_quick_settings_open_settings">Obre la configuració per a %s.</string>
     <string name="accessibility_quick_settings_page">Pàgina %1$d (%2$d en total)</string>
     <string name="accessibility_quick_settings_power_menu">"Menú d'engegada"</string>
@@ -314,6 +315,9 @@ Si aquest permís està desactivat, les alarmes i els esdeveniments que ja hagi 
     <string name="alarms_and_reminders_label">Alarmes i recordatoris</string>
     <string name="alarms_and_reminders_switch_title">"Permet la configuració d'alarmes i recordatoris"</string>
     <string name="alarms_and_reminders_title">Alarmes i recordatoris</string>
+    <string name="alertdialog_safemode_button_submit">Envia</string>
+    <string name="alertdialog_safemode_message">"El vostre dispositiu ha entrat en Mode segur a causa de problemes de la interfície del sistema, fet que fa que algunes funcions no estiguin disponibles. Envieu els vostres comentaris per accelerar la resolució d'aquest problema."</string>
+    <string name="alertdialog_safemode_title">Heu entrat al Mode segur</string>
     <string name="all_network_unavailable">No hi ha cap xarxa disponible</string>
     <string name="allow_mock_location">Ubicacions simulades</string>
     <string name="allow_mock_location_summary">Permet les ubicacions simulades</string>
@@ -449,12 +453,15 @@ Torna-ho a provar d'aquí a %d segons."</string>
     <string name="bluetooth_headset_profile_summary_use_for">"Utilitza-ho per a l'àudio del telèfon"</string>
     <string name="bluetooth_hearing_aid_left_active">"Actiu (només l'esquerre)"</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Actiu (esquerre i dret)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Tots dos audiòfons connectats a %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Audiòfon esquerre connectat a %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Actiu (només contingut multimèdia), només esquerre</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Actiu (només contingut multimèdia), esquerre i dret</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Actiu (només contingut multimèdia), només dret</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">"S'ha connectat als audiòfons"</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Utilitza per als audiòfons</string>
     <string name="bluetooth_hearing_aid_right_active">Actiu (només el dret)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Audiòfon dret connectat a %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">"Connectat a dispositiu d'entrada"</string>
     <string name="bluetooth_hid_profile_summary_use_for">Utilitza per a entrada</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Connectat a LE Audio</string>
@@ -728,6 +735,7 @@ Pots fer canvis en qualsevol moment a Configuració."</string>
     <string name="cta_label_to_open_widget_picker">Afegeix més widgets</string>
     <string name="cta_tile_button_to_dismiss">Ignora</string>
     <string name="cta_tile_button_to_open_widget_editor">Personalitza</string>
+    <string name="custom_lockscreen">Personalitza la Pantalla de bloqueig</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomalia (vermell-verd)</string>
     <string name="daltonizer_mode_disabled">Desactivat</string>
     <string name="daltonizer_mode_monochromacy">Monocromia</string>
@@ -1054,6 +1062,7 @@ Apagueu-la amb el Botó d'encesa."</string>
     <string name="fullaod_apply_super_wallpaper_toast">"El tema la Pantalla sempre encesa s'ha configurat com a personalitzat a causa dels Superfons de pantalla"</string>
     <string name="fullaod_apply_third_theme_toast">"El tema la Pantalla sempre encesa s'ha configurat com a personalitzat a causa dels temes de tercers"</string>
     <string name="fullaod_apply_third_wallpaper_toast">"El tema la Pantalla sempre encesa s'ha configurat com a personalitzat a causa dels fons de pantalla de tercers"</string>
+    <string name="fullaod_apply_video_depth_toast">"L'estil de Pantalla sempre encesa s'ha canviat a Personalitzat"</string>
     <string name="fullscreen_text">Pantalla completa</string>
     <string name="game_status">Jugant</string>
     <string name="global_action_smart_lock_disabled">Desbloqueig ampliat desactivat</string>
@@ -1859,6 +1868,7 @@ Si tens cap pregunta, contacta amb %2$s."</string>
     <string name="notification_channel_dialog_title">Totes les notificacions de: %1$s</string>
     <string name="notification_channel_hints">Suggeriments</string>
     <string name="notification_channel_instant">Aplicacions instantànies</string>
+    <string name="notification_channel_safemode">Mode segur</string>
     <string name="notification_channel_screenshot">Captures de pantalla</string>
     <string name="notification_channel_setup">Configuració</string>
     <string name="notification_channel_storage">Emmagatzematge</string>
@@ -1891,6 +1901,13 @@ Si tens cap pregunta, contacta amb %2$s."</string>
     <string name="notification_more_settings">Més opcions de configuració</string>
     <string name="notification_multichannel_desc">Aquest grup de notificacions no es pot configurar aquí</string>
     <string name="notification_priority_title">Prioritat</string>
+    <string name="notification_safemode_button_exit">Surt</string>
+    <string name="notification_safemode_description_exit">"Assegureu-vos de seguir els consells de resolució de problemes proporcionats a l'avís abans de sortir del Mode segur. Si no ho fas, és possible que el teu dispositiu torni a entrar en Mode segur."</string>
+    <string name="notification_safemode_description_presafemode">"S'han esborrat les dades de la interfície del sistema i els Temes correctament. Podeu utilitzar el vostre dispositiu amb normalitat."</string>
+    <string name="notification_safemode_description_safemode">El teu dispositiu està en Mode segur ara. Toqueu per veure com podeu restaurar la interfície del sistema.</string>
+    <string name="notification_safemode_title_exit">Sortiu del Mode segur</string>
+    <string name="notification_safemode_title_presafemode">"S'ha restaurat la interfície del sistema"</string>
+    <string name="notification_safemode_title_safemode">Avís sobre com solucionar el problema dels bloquejos de la interfície del sistema</string>
     <string name="notification_section_header_alerting">Notificacions</string>
     <string name="notification_section_header_conversations">Converses</string>
     <string name="notification_section_header_gentle">Silenciat</string>
@@ -2161,9 +2178,9 @@ Si tens cap pregunta, contacta amb %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Doble SIM intel·ligent</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Inversió de colors</string>
-    <string name="quick_settings_location_label">Ubicació</string>
-    <string name="quick_settings_location_state_change_message_off">Accés a la ubicació desactivat</string>
-    <string name="quick_settings_location_state_change_message_on">Accés a la ubicació activat</string>
+    <string name="quick_settings_location_label">Serveis de localització</string>
+    <string name="quick_settings_location_state_change_message_off">Serveis de localització desactivats</string>
+    <string name="quick_settings_location_state_change_message_on">Serveis de localització activats</string>
     <string name="quick_settings_media_device_label">Dispositiu multimèdia</string>
     <string name="quick_settings_mic_label">Accés al micròfon</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">No hi ha xarxes Wi-Fi disponibles</string>
@@ -2306,6 +2323,7 @@ Si tens cap pregunta, contacta amb %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">"Premeu prolongadament els botons d'enrere i de vista prèvia per anul·lar aquesta aplicació"</string>
     <string name="screen_pinning_toast_recents_invisible">Per deixar de fixar aquesta aplicació, mantén premuts els botons Enrere i Inici</string>
     <string name="screen_pinning_toast_start">Aquesta aplicació està fixada</string>
+    <string name="screen_share_dialog_spinner_text">Abast</string>
     <string name="screen_share_permission_app_selector_title">Comparteix o grava una aplicació</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Tota la pantalla</string>
     <string name="screen_share_permission_dialog_option_single_app">Una sola aplicació</string>
@@ -2592,7 +2610,7 @@ Toca per obtenir més informació."</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
     <string name="time_unit_just_now">Ara mateix</string>
-    <string name="tip_close_flares">"No rebràs notificacions sobre el comportament de l'aplicació durant aquesta sessió"</string>
+    <string name="tip_close_flares">"No rebràs notificacions sobre la conducta de l'aplicació durant aquesta sessió"</string>
     <string name="title_for_empty_state_cta">"Accedeix ràpidament als teus widgets d'aplicacions preferits sense desbloquejar la tauleta."</string>
     <string name="title_usb_accessory">Accessori USB</string>
     <string name="to_switch_networks_disconnect_ethernet">Per canviar de xarxa, desconnecta la connexió Ethernet</string>

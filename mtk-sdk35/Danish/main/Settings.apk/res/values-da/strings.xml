@@ -638,6 +638,7 @@ Din administrator kan overvåge og administrere indstillinger, adgang, apps og d
     <string name="ai_button_title">Mi AI-knap</string>
     <string name="ai_button_title_global">AI-knap</string>
     <string name="ai_call_assistant">AI-opkald</string>
+    <string name="ai_notification_settings">Resumé af AI-notifikation</string>
     <string name="ai_services_title">AI-tjenester</string>
     <string name="ai_settings_click_title">Tryk</string>
     <string name="ai_settings_double_click_category">Tryk to gange på AI-knappen</string>
@@ -665,6 +666,7 @@ Hvis denne tilladelse er deaktiveret, vil eksisterende alarmer og tidsbestemte h
     <string name="all_supported_app_locales_title">Alle sprog</string>
     <string name="all_volume_title">Lydstyrke</string>
     <string name="allow">Tillad</string>
+    <string name="allow_badge_summary">Tillad en nummereret rød prik på startskærmsikoner for at vise notifikationer eller nyt indhold</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Når du har oprettet din widget, kan appen tilgå alt, hvad der vises.
 
 App: %1$s
@@ -687,6 +689,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Tillad imiterede lokationer</string>
     <string name="allow_mock_modem">Tillad imiteret modem</string>
     <string name="allow_mock_modem_summary">Tillad, at denne enhed anvender tjenesten til imitation af modem til instrumenteringstest. Undlad at aktivere dette under normal brug af telefonen</string>
+    <string name="allow_ongoing_summary">Tillad notifikationer, der kun kan slettes manuelt</string>
     <string name="allow_ongoing_title">Permanent notifikation</string>
     <string name="allow_overlay_description">Tillad, at denne app vises oven på de andre apps, du bruger. Denne app kan registrere, hvor du trykker, eller ændre det, der vises på skærmen.</string>
     <string name="allow_sound_title">Lyd</string>
@@ -945,7 +948,7 @@ Skift indstillinger nu?"</string>
     <string name="application_size_label">Appstørrelse</string>
     <string name="applications_settings">Administrer apps</string>
     <string name="applications_settings_header">Indstillinger for app</string>
-    <string name="applications_settings_title">Apper</string>
+    <string name="applications_settings_title">Apps</string>
     <string name="applications_settings_title_new">Administrer apps</string>
     <string name="apply">Anvend</string>
     <string name="apply_fingerprint_to">Brug fingeraftryk til</string>
@@ -1220,7 +1223,7 @@ Sidst kørt den %2$s"</string>
     <string name="back_navigation_animation_summary">Aktivér systemanimationer for foreslåede animationer for Tilbage.</string>
     <string name="back_sensitivity_dialog_message">Højere følsomhed kan komme i konflikt med appbevægelser langs skærmens kant.</string>
     <string name="back_sensitivity_dialog_title">Følsomhed for bevægelse fra kant</string>
-    <string name="back_strap_image_text">Få påmindelser om notifikationer og lyseffekter til forskellige scenarier</string>
+    <string name="back_strap_image_text">Når enheden ligger med skærmen nedad og er slukket, viser baglyset notifikationspåmindelser og lyseffekter, der skifter alt efter scenariet</string>
     <string name="back_strap_status_close">Fra</string>
     <string name="back_strap_status_open">Til</string>
     <string name="back_strap_title">Baggrundslyseffekter</string>
@@ -1785,12 +1788,15 @@ Du har ikke tidligere oprettet forbindelse til %2$s."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Bruges til telefonlyd</string>
     <string name="bluetooth_hearing_aid_left_active">Aktiveret (kun venstre)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktiveret (venstre og højre)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Begge høreapparater er forbundet til %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Venstre høreapparat er forbundet til %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktiveret (kun for medier), kun venstre</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktiveret (kun for medier), venstre og højre</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktiveret (kun for medier), kun højre</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Tilsluttet til hørehjælp</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Bruges til hørehjælp</string>
     <string name="bluetooth_hearing_aid_right_active">Aktiveret (kun højre)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Højre høreapparat er forbundet til %1$s</string>
     <string name="bluetooth_hearing_aids_presets">Forindstilling</string>
     <string name="bluetooth_hearing_aids_presets_error">Forindstillingen kunne ikke opdateres</string>
     <string name="bluetooth_hearing_device_settings_summary">Genvej, høreapparatskompatibilitet</string>
@@ -1859,6 +1865,10 @@ Du kan parre det højre ved at sørge for, at det er tændt og klar til at blive
 Du kan parre det venstre ved at sørge for, at det er tændt og klar til at blive parret."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Par højre apparat</string>
     <string name="bluetooth_pair_other_ear_dialog_title">Par det andet høreapparat</string>
+    <string name="bluetooth_pair_other_hearing_dialog_positive_button">Par</string>
+    <string name="bluetooth_pair_other_hearing_dialog_title">Par med en anden hørehjælp</string>
+    <string name="bluetooth_pair_other_left_hearing_dialog_message">Den højre hørehjælp er tilsluttet. Sørg for, at den venstre hørehjælp er slået til og klar til at blive parret.</string>
+    <string name="bluetooth_pair_other_right_hearing_dialog_message">Den venstre hørehjælp er tilsluttet. Sørg for, at den højre hørehjælp er slået til og klar til at blive parret.</string>
     <string name="bluetooth_pair_right_ear_button">Par højre øre</string>
     <string name="bluetooth_paired">Gemt</string>
     <string name="bluetooth_paired_device_title">Dine enheder</string>
@@ -2457,6 +2467,7 @@ Hvis denne tilladelse er aktiveret, kan appen vælges, når der registreres et t
     <string name="choose_unlock_face_msg">Indstil en skærmlås, før du optager ansigtsdata.</string>
     <string name="choose_unlock_fingerprint_msg">Indstil skærmlås, før du tilføjer dit fingeraftryk.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Circle to Search</string>
     <string name="classic_mode_summary">Skift til varmere farver for at reducere mængden af blåt lys</string>
     <string name="classic_mode_title">Klassisk</string>
     <string name="cleaner">Renser</string>
@@ -2891,7 +2902,6 @@ Hvis forbindelsen afbrydes, mister du nogen eller alle dine data."</string>
     <string name="dark_mode_day_night_mode_summary">Din enhed skifter til mørk tilstand ved solnedgang og tilbage til lystilstand ved solopgang. Aktivér lokationstjenester for at få de mest nøjagtige resultater.</string>
     <string name="dark_mode_day_night_mode_title">Solnedgang til solopgang</string>
     <string name="dark_mode_display_enable_summary">Skift til en brugergrænseflade med lavt lys, der viser mest mørke overflader</string>
-    <string name="dark_mode_font_background_title">Juster tekst og baggrunde automatisk</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Forstået</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Hvis du deaktiverer systemoptimering og aktiverer batteribesparer, aktiveres mørk tilstand automatisk.
 For at deaktivere mørk tilstand skal du deaktivere batteribesparer eller aktivere systemoptimering i Indstillinger > Udviklerindstillinger > Aktivér systemoptimering."</string>
@@ -3466,7 +3476,7 @@ Denne indstilling påvirker alle brugere af denne enhed."</string>
     <string name="dual_cdma_sim_warning_notification_summary">Funktionaliteten kan blive begrænset, hvis du bruger %1$s. Tryk for at få flere oplysninger.</string>
     <string name="dual_clock">Dobbelt ur</string>
     <string name="dual_clock_aod_open_message">Dobbelt ur vises på låseskærm, startskærm og slukket skærm.</string>
-    <string name="dual_clock_hint">Det dobbelte ur kræver brug af systemursdimsen og standardtemaet</string>
+    <string name="dual_clock_hint">Det dobbelte ur kræver brug af systemurswidget og standardtema</string>
     <string name="dual_clock_ok">Forstået</string>
     <string name="dual_clock_open_message">Dobbelt ur vises på låseskærm og startskærm.</string>
     <string name="dual_setting_simcard1">SIM 1</string>
@@ -3781,7 +3791,7 @@ Genstart din enhed, og prøv igen."</string>
     <string name="external_source_untrusted">Ikke tilladt</string>
     <string name="extreme_threats_summary">Få advarsler ved ekstreme trusler mod liv og ejendom</string>
     <string name="extreme_threats_title">Ekstreme trusler</string>
-    <string name="eye_gaze_dialog_message">Når du aktiverer Detektér stirren, låses enheden ikke, når den registrerer, at du kigger på skærmen. Dine ansigtskarakteristika vil ikke blive analyseret, og dine ansigtsoplysninger vil ikke blive gemt på din enhed eller uploadet til clouden. Slå til nu?</string>
+    <string name="eye_gaze_dialog_message">Når denne funktion er slået til, registrerer systemet, om du kigger på skærmen, men dine ansigtstræk bliver ikke analyseret, og disse data bliver hverken gemt på din enhed eller uploadet til clouden. Slå til nu?</string>
     <string name="eye_gaze_dialog_title">Sikkerhedsmeddelelse</string>
     <string name="eye_gaze_summary">Enheden låser ikke, når den detekterer, at du kikker ind i skærmen.</string>
     <string name="eye_gaze_summary_fold_device">Enheden låser ikke, når den detekterer, at du kikker på yderskærmen.</string>
@@ -3864,6 +3874,7 @@ ved at se mod den ydre skærm"</string>
     <string name="face_unlock_success_stay_screen_title">Bliv på låseskærm efter oplåsning</string>
     <string name="face_unlock_title">Du kan låse din telefon op ved hjælp af ansigtsgenkendelse. Af hensyn til sikkerheden kræver denne mulighed en alternativ skærmlås.</string>
     <string name="face_unlock_when_slt_on_toast">Kan ikke bruge Ansigtsoplåsning, når Tiantong Satellite-kommunikation er i brug</string>
+    <string name="factory_reset_loading">Foretager fabriksnulstilling…</string>
     <string name="factory_reset_summary">Formatering sletter alle data fra din enheds interne hukommelse</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">For mange forkerte forsøg. Dataene på denne enhed slettes.</string>
@@ -4040,6 +4051,7 @@ Kontakt din kreditudbyder for at få flere oplysninger."</string>
     <string name="flash_notifications_keywords">lysnotifikation, lys, hørehæmmet, høreskadet</string>
     <string name="flash_notifications_note">\"Beam for notifikationer\" visualiserer notifikationslyde og -ringetoner ved hjælp af kamerablitz og skærm. Hvis du er overfølsom for lys, skal du bruge denne funktion med forsigtighed.</string>
     <string name="flash_notifications_preview">Forhåndsvisning</string>
+    <string name="flash_notifications_settings_title">Flash-notifikationer</string>
     <string name="flash_notifications_summary">Brug kamerablitz, eller vis farvestråler på skærmen, når der indkommer notifikationer, eller enheden ringer</string>
     <string name="flash_notifications_summary_off">Fra</string>
     <string name="flash_notifications_summary_on_camera">Til/Kameralys</string>
@@ -4133,6 +4145,9 @@ Kontakt din kreditudbyder for at få flere oplysninger."</string>
     <string name="font_cta_alert_btn_positive">Acceptér</string>
     <string name="font_cta_alert_message">Læs og acceptér vilkår og betingelser for Temaer for at forsætte.</string>
     <string name="font_cta_alert_title">Vilkår og betingelser</string>
+    <string name="font_preview_text_content">"Eksempeltekst:
+
+Xiaomi udvikler hele tiden fantastiske produkter til ærlige priser, så alle i verden kan nyde et bedre liv gennem innovativ teknologi."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Nuværende skrifttype understøtter ikke justering af fontvægt</string>
     <string name="font_settings_jump">Tilgængelighed > Displaystørrelse</string>
@@ -4293,9 +4308,12 @@ Denne funktion fungerer kun, når systemnavigation er indstillet til fagter."</s
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Spillekontroller</string>
     <string name="game_storage_settings">Spil</string>
-    <string name="gaze_lock_screen_summary">Enheden forbliver ulåst, når din tilstedeværelse detekteres, og låses, når du bevæger dig væk fra skærmen</string>
+    <string name="gaze_lock_screen_summary">Enheden forbliver oplåst, når du ser på skærmen, og låser automatisk, når du kigger væk for at beskytte dit privatliv, og det tilsidesætter indstillingerne for automatisk låsning</string>
     <string name="gaze_lock_screen_title">Detektér tilstedeværelse</string>
     <string name="gd_setting_title">Sidebjælke</string>
+    <string name="gemini_description">Chat med Gemini og boost dine idéer. Få hjælp til at lære nyt, skrive takkebreve, planlægge events og meget mere. Brug tekst, stemme, billeder og kameraet for at få hjælp på helt nye måder. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Få mere at vide om tilgængelighed</a></string>
+    <string name="gemini_function">Boost dine idéer med Google Gemini – din nye AI-assistent</string>
+    <string name="gemini_setting">Indstillinger for Gemini</string>
     <string name="general_category_title">Generelt</string>
     <string name="general_notification_header">Administrer</string>
     <string name="general_text">Tekstfelt</string>
@@ -4308,6 +4326,12 @@ Denne funktion fungerer kun, når systemnavigation er indstillet til fagter."</s
     <string name="gesture_button_restart">Genstart</string>
     <string name="gesture_button_skip">Spring over</string>
     <string name="gesture_function_dialog_message">%1$s bruges til \"%2$s\". Erstat med \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Dobbelttryk på låseskærm for at vække</string>
+    <string name="gesture_lockcreen_sleep_title">Dobbelttryk på låseskærm for at sætte i slumretilstand</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Ved dobbelttryk</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Ingen</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Ved tryk</string>
+    <string name="gesture_lockcreen_wakeup_title">Afbryd vågeblus</string>
     <string name="gesture_preference_title">Bevægelser</string>
     <string name="gesture_prevent_ringing_screen_title">Deaktiver ringetoner</string>
     <string name="gesture_prevent_ringing_sound_title">Genvej til at stoppe ringelyd</string>
@@ -4446,6 +4470,12 @@ Området, hvorfra du kan bekræfte din skærmlås, vil flytte sig til højre."</
     <string name="gxzw_quick_open_slow_summary">Hold fingeraftryksikonet nede for at åbne genvejsmenuen. Stryg for at bruge en genvej.</string>
     <string name="gxzw_quick_open_slow_title">Tryk og hold</string>
     <string name="gxzw_quick_open_title">Genveje</string>
+    <string name="gxzw_recognizing_anim_a">Krusning</string>
+    <string name="gxzw_recognizing_anim_b">Hvirvel</string>
+    <string name="gxzw_recognizing_anim_c">Halo</string>
+    <string name="gxzw_recognizing_anim_d">Bølge</string>
+    <string name="gxzw_recognizing_anim_e">Blænde</string>
+    <string name="gxzw_recognizing_anim_f">Spredning</string>
     <string name="gxzw_vibrate_summary">Vibration forekommer ikke, når der ikke er valgt en fingeraftryksanimation</string>
     <string name="gxzw_vibrate_title">Vibrerer ved oplåsning</string>
     <string name="handle_ota_connect_first">Kameragreb</string>
@@ -4552,6 +4582,7 @@ Området, hvorfra du kan bekræfte din skærmlås, vil flytte sig til højre."</
     <string name="health_use_of_pad">Sund enhedsbrug</string>
     <string name="health_use_of_phone">Sund enhedsbrug</string>
     <string name="hearing_aids_category">Høreapparat</string>
+    <string name="hearing_stream_option">Lydindstillinger</string>
     <string name="heavy_weight_stop_description">Denne app kan ikke stoppes på en sikker måde. Hvis du stopper den, kan det slette noget af dit seneste arbejde.</string>
     <string name="height_light_list_text">En liste over vigtige elementer</string>
     <string name="help_and_feedback_title">Hjælp og feedback</string>
@@ -5101,6 +5132,7 @@ Xiaomi Cloud
     <string name="layout_size_small_text">Ekstra lille</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Få flere oplysninger</string>
+    <string name="leave_lockscreen_summary">Enheden låser, når du bevæger dig væk fra skærmen</string>
     <string name="leave_loclscreen_summary">Skærmen låses automatisk, når du går en vis afstand væk fra din enhed</string>
     <string name="leave_loclscreen_title">Lås skærmen, når du smutter</string>
     <string name="led_colors_summary">Notifikationslysets farve</string>
@@ -5109,6 +5141,7 @@ Xiaomi Cloud
     <string name="led_settings">LED-lys</string>
     <string name="left_edge">Venstre kant</string>
     <string name="left_function_key">Venstre genvej</string>
+    <string name="left_hearing_aid">Venstre hørehjælp</string>
     <string name="left_right_hand_switch">Venstre og højre</string>
     <string name="left_right_hand_switch_summary">Få venstre og højre del af tastaturet til at skifte plads med et enkelt tryk</string>
     <string name="left_shoulder_key">Venstre</string>
@@ -5775,7 +5808,7 @@ Du kan ikke fortryde denne handling."</string>
     <string name="media_controls_show_player">Vis afspiller</string>
     <string name="media_controls_title">Medier</string>
     <string name="media_dialog_ok">Forstået</string>
-    <string name="media_dialog_summary">Når denne funktion er slået til, vibrerer enheden i takt med rytmen fra understøttet musik og videoer, hvilket giver en mere intens og medrivende oplevelse.</string>
+    <string name="media_dialog_summary">Når denne funktion er slået til, vibrerer enheden i takt med rytmen i understøttet musik og giver en mere intens og medrivende oplevelse.</string>
     <string name="media_dialog_title">Slå mediehaptisk feedback til</string>
     <string name="media_drm_settings_title">Indstillinger for Media DRM</string>
     <string name="media_feedback_enable_title">Vibrer i takt</string>
@@ -6288,7 +6321,7 @@ Enhver bruger kan give tilladelser på vegne af alle brugerprofiler, der findes 
     <string name="modifier_keys_settings">Ændringstaster</string>
     <string name="modifier_keys_settings_summary">Rediger tasternes funktion</string>
     <string name="modify_default_browser_message">Hvis du anvender en tredjepartsapp som din standardbrowser, vil den måske begynde at indsamle din browsing-historik og andre data. Anvend alligevel?</string>
-    <string name="modify_instruction_password_settings">Indstil kodeord</string>
+    <string name="modify_instruction_password_settings">Indstil adgangskode</string>
     <string name="modify_privacy_password">Skift adgangskode</string>
     <string name="module_license_title">Licenser til Google Play-systemopdateringer</string>
     <string name="module_version">System­opdatering til Google Play</string>
@@ -6457,7 +6490,7 @@ Vælg dit operativsystem:"</string>
     <string name="multi_face_input_reach_upper_limit">Kunne ikke tilføje ansigtsdata. Vent et minut eller to og prøv igen.</string>
     <string name="multi_face_input_success_name_title">Navn</string>
     <string name="multi_face_list">Ansigtsdata</string>
-    <string name="multi_face_name_prefix">"Ansigt "</string>
+    <string name="multi_face_name_prefix">Ansigtsdata %s</string>
     <string name="multi_face_number_reach_limit">Kan ikke tilføje data for mere end 2 ansigter</string>
     <string name="multi_music_coexistence_summary">Juster ikke medievolumen mens meddelelser indgår eller mens lyd fra en anden kilde afspilles</string>
     <string name="multi_music_coexistence_title">Flere lydkilder</string>
@@ -6920,7 +6953,7 @@ Herudover vil appen få mulighed for at aktivere eller deaktivere Forstyr ikke o
     <string name="notification_volume_control_note">Justér lydstyrken for notifikationslyde hver for sig</string>
     <string name="notification_volume_disabled_summary">Ikke tilgængelig, fordi ringetonen er slået fra</string>
     <string name="notification_volume_option_title">Lydstyrke for notifikationer</string>
-    <string name="notification_volume_sync_ring">Mængden af notifikationer vil være den samme som din ringetone</string>
+    <string name="notification_volume_sync_ring">Lydstyrken for notifikationer vil være den samme som for din ringetone</string>
     <string name="notifications_bubble_setting_description">Nogle samtaler vises som svævende ikoner oven på andre apps</string>
     <string name="notifications_bubble_setting_on_summary">Til – Samtaler kan vises som svævende ikoner</string>
     <string name="notifications_bubble_setting_title">Tillad, at apps viser bobler</string>
@@ -7200,13 +7233,22 @@ Læs og acceptér %s, inden du bruger denne tjeneste."</string>
     <string name="photography_handle_button_function_settings">Indstil greb-knappen</string>
     <string name="photography_handle_charge_protected">Opladningsbeskyttelse for greb</string>
     <string name="photography_handle_charge_protected_summary">Når kameragrebet er tilsluttet, stopper enheden med at oplade og holder batteriet på %1$s</string>
+    <string name="photography_handle_charge_settings">Indstillinger for opladning</string>
     <string name="photography_handle_charge_state">Oplad fra kameragreb</string>
+    <string name="photography_handle_charge_state_choice_always">Altid</string>
+    <string name="photography_handle_charge_state_choice_emergency">Nødsituation</string>
     <string name="photography_handle_charge_state_summary">Oplad denne enhed fra kameragreb, når de er tilsluttede</string>
+    <string name="photography_handle_charge_state_summary_new">Start opladning af denne enhed fra kameragrebet, når den er tilsluttet</string>
+    <string name="photography_handle_emergency_charge_summary">Start nødopladning, når batteriniveau går under %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Nødopladningsniveau</string>
+    <string name="photography_handle_function_settings">Indstillinger for kameragreb</string>
     <string name="photography_handle_launch_and_take_photo">Tag foto</string>
     <string name="photography_handle_launch_camera">Åbn kamera</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Tryk og hold lukkerknappen for at udføre en handling</string>
     <string name="photography_handle_quick_launch_camera_title">Hurtig opstart</string>
+    <string name="photography_handle_sn">Serienummer</string>
     <string name="photography_handle_title">Kameragreb</string>
+    <string name="photography_handle_update_and_maintain">Opdateringer</string>
     <string name="physical_keyboard_title">Fysisk tastatur</string>
     <string name="pick_up_gesture_wakeup_title">Løft enhed for at vække</string>
     <string name="picker_text">Tidsvælger</string>
@@ -7893,7 +7935,7 @@ Genstart din enhed, og prøv igen."</string>
     <string name="reset_network_button_text">Nulstil indstillinger</string>
     <string name="reset_network_category">Dette nulstiller alle netværksindstillinger, her iblandt:</string>
     <string name="reset_network_complete_toast">Netværksindstillingerne er blevet nulstillet</string>
-    <string name="reset_network_confirm_title">Vil du nulstille?</string>
+    <string name="reset_network_confirm_title">Nulstil?</string>
     <string name="reset_network_data">Mobildata</string>
     <string name="reset_network_final_button_text">Nulstil indstillinger</string>
     <string name="reset_network_final_desc">Dette kan tage adskillige sekunder. Du vil ikke kunne fortryde denne handling.</string>
@@ -7969,6 +8011,7 @@ Alle apps i dit område og de tilhørende data slettes permanent fra din telefon
     <string name="rhythmic_mode_enable_title">Cyklus</string>
     <string name="right_edge">Højre kant</string>
     <string name="right_function_key">Højre genvej</string>
+    <string name="right_hearing_aid">Højre hørehjælp</string>
     <string name="right_shoulder_key">Højre</string>
     <string name="ring_to_you">Tilpasset ringetone</string>
     <string name="ring_to_you_info">Indstil en tilpasset lyd, som andre hører, før du tager telefonen</string>
@@ -8029,6 +8072,7 @@ Alle apps i dit område og de tilhørende data slettes permanent fra din telefon
     <string name="same_source_synced">Udsendelsen er nu tilføjet</string>
     <string name="sar">Information om RF-eksponering</string>
     <string name="satellite_call_assistant">Opkaldsindstillinger</string>
+    <string name="satellite_management_title">Satellitnetværk</string>
     <string name="satellite_network_title">Funktioner til satellitopkald</string>
     <string name="satellite_setting">Satellitbeskeder</string>
     <string name="satellite_setting_disabled_summary">Send og modtag beskeder via satellit. Ikke inkluderet på din konto.</string>
@@ -8922,13 +8966,13 @@ Flyt din finger en smule, hver gang du mærker en vibration. På den måde regis
     <string name="settingslib_category_work">Arbejde</string>
     <string name="settingslib_learn_more_text">Få flere oplysninger</string>
     <string name="setup_choose_unlock_mixed_password">Adgangskode</string>
-    <string name="setup_choose_unlock_mixpassword_title">Indstil kodeord</string>
+    <string name="setup_choose_unlock_mixpassword_title">Indstil adgangskode</string>
     <string name="setup_choose_unlock_password">PIN</string>
     <string name="setup_choose_unlock_password_msg">Indtast 4 numre</string>
     <string name="setup_choose_unlock_password_title">Indstil PIN</string>
     <string name="setup_choose_unlock_pattern">Mønster</string>
     <string name="setup_choose_unlock_pattern_title">Tegn oplåsningsmønster</string>
-    <string name="setup_choose_unlock_type_title">Indstil kodeord</string>
+    <string name="setup_choose_unlock_type_title">Indstil adgangskode</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_message">Du har valgt at bruge fingeraftryk som en metode til at låse din telefon op. Hvis du springer det over nu, skal du konfigurere dette senere. Konfigurationen tager kun omkring et minut.</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_title">Vil du springe registrering af fingeraftryk over?</string>
     <string name="setup_fingerprint_enroll_skip_after_adding_lock_text">Konfigurationen af fingeraftryk tager ikke mere end et minut eller to. Hvis du springer dette trin over, kan du tilføje dit fingeraftryk på et senere tidspunkt i indstillingerne.</string>
@@ -9971,6 +10015,8 @@ Prøv at bruge et hurtigere ^3, eller brug dette ^4 som ekstern lagerplads i ste
     <string name="tethering_hardware_offload_summary">Brug hardwareacceleration ved netdeling, hvis det er muligt</string>
     <string name="tethering_help_button_text">Hjælp</string>
     <string name="tethering_settings_not_available">Skift bindingsindstillinger i First Space</string>
+    <string name="text_layout_optimization_switch_label">Optimer tekstlayout</string>
+    <string name="text_layout_optimization_switch_toast">Kan ikke optimere tekstlayout med denne skrifttype</string>
     <string name="texture_adjust_temperature_title">Farvetemperatur</string>
     <string name="the_anniversary_of_lifting_martial_law">Jubilæum for indførelse af undtagelsestilstand</string>
     <string name="the_anti_aggression_day">Antiaggressionsdag</string>
@@ -11328,6 +11374,10 @@ Dine routerindstillinger ændres ikke, når du skjuler netværket."</string>
     <string name="wifi_protection_tip">Xiaomi beskytter dine personoplysninger mod Wi-fi-sondeforespørgsler fra tilfældige MAC-adresser og Wi-fi-sondesniffere, når din enhed søger efter Wi-fi-netværk.</string>
     <string name="wifi_quick_toggle_summary">Tænd for Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Din wi-fi-adgangskode er forkert. Indtast igen.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Forkert wi-fi-adgangskode</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Gemt</string>
     <string name="wifi_remembered_disabled_auto_connect">Gemt. Opretter ikke forbindelse automatisk.</string>
     <string name="wifi_require_sim_card_to_connect">Du skal bruge et SIM-kort for at oprette forbindelse</string>

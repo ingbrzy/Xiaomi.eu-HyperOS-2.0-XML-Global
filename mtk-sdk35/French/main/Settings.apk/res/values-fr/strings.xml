@@ -639,6 +639,7 @@ Votre administrateur a la possibilité de surveiller et de gérer les paramètre
     <string name="ai_button_title">Bouton IA Mi</string>
     <string name="ai_button_title_global">Bouton IA</string>
     <string name="ai_call_assistant">Appels IA</string>
+    <string name="ai_notification_settings">Résumé de la notification IA</string>
     <string name="ai_services_title">Services IA</string>
     <string name="ai_settings_click_title">Appuyer</string>
     <string name="ai_settings_double_click_category">Double appui sur le bouton IA</string>
@@ -666,6 +667,7 @@ Si l'autorisation est désactivée, les alarmes existantes et les événements p
     <string name="all_supported_app_locales_title">Toutes les langues</string>
     <string name="all_volume_title">Volume</string>
     <string name="allow">Autoriser</string>
+    <string name="allow_badge_summary">"Autoriser l'affichage d'un point rouge numéroté sur les icônes de l'écran d’accueil pour indiquer des notifications ou du nouveau contenu"</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Une fois le widget créé, l'application peut accéder à tout ce qui est affiché.
 
 Application : %1$s
@@ -688,6 +690,7 @@ Widget : %2$s
     <string name="allow_mock_location_summary">Autoriser les positions fictives</string>
     <string name="allow_mock_modem">Autoriser le modem fictif</string>
     <string name="allow_mock_modem_summary">"Autoriser cet appareil à exécuter le service de modem fictif pour les tests d'instrumentation. Ne pas l'activer lors d'une utilisation normale du téléphone"</string>
+    <string name="allow_ongoing_summary">Autoriser les notifications qui ne peuvent être supprimées que manuellement</string>
     <string name="allow_ongoing_title">Notifications permanentes</string>
     <string name="allow_overlay_description">"Cette autorisation permet à l'appli de se superposer aux autres applis que vous utilisez. Elle pourra voir où vous appuyez ou modifier ce qui est affiché à l'écran."</string>
     <string name="allow_sound_title">Son</string>
@@ -1221,7 +1224,7 @@ Dernière exécution le %2$s"</string>
     <string name="back_navigation_animation_summary">Activer les animations système pour la prévisualisation du Retour</string>
     <string name="back_sensitivity_dialog_message">"Une sensibilité élevée peut perturber l'interprétation des gestes effectués sur les bords de l'écran dans les applications."</string>
     <string name="back_sensitivity_dialog_title">Sensibilité du retour en arrière</string>
-    <string name="back_strap_image_text">"Obtenez des rappels de notification et des effets d'éclairage pour différentes scènes"</string>
+    <string name="back_strap_image_text">"Lorsque l'appareil est face vers le bas avec l'écran éteint, le rétro-éclairage affichera des rappels de notification et des effets d'éclairage pour différentes scènes"</string>
     <string name="back_strap_status_close">Désactivé</string>
     <string name="back_strap_status_open">Activé</string>
     <string name="back_strap_title">Effets de lumière arrière</string>
@@ -1786,12 +1789,15 @@ C'est la première fois que votre téléphone se connecte à %2$s."</string>
     <string name="bluetooth_headset_profile_summary_use_for">"Utilisé pour l'audio du téléphone"</string>
     <string name="bluetooth_hearing_aid_left_active">Actif (gauche uniquement)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Actifs (gauche et droit)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Les deux aides auditives sont connectées à %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Aide auditive gauche connectée à %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Activé (multimédia uniquement), gauche uniquement</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Activé (multimédia uniquement), gauche et droit</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Activé (multimédia uniquement), droit uniquement</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">"Connecté à l'aide auditive"</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">"Utilisé pour l'aide auditive"</string>
     <string name="bluetooth_hearing_aid_right_active">Actif (droit uniquement)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Aide auditive droite connectée à %1$s</string>
     <string name="bluetooth_hearing_aids_presets">Préréglages</string>
     <string name="bluetooth_hearing_aids_presets_error">Impossible de mettre à jour les préréglages</string>
     <string name="bluetooth_hearing_device_settings_summary">Raccourci, compatibilité avec les appareils auditifs</string>
@@ -1860,6 +1866,10 @@ Pour associer le droit, vérifiez qu'il est allumé et prêt pour l'association.
 Pour associer le gauche, vérifiez qu'il est allumé et prêt pour l'association."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Associer le droit</string>
     <string name="bluetooth_pair_other_ear_dialog_title">"Associer l'autre appareil"</string>
+    <string name="bluetooth_pair_other_hearing_dialog_positive_button">Apparier</string>
+    <string name="bluetooth_pair_other_hearing_dialog_title">Apparier avec une autre aide auditive</string>
+    <string name="bluetooth_pair_other_left_hearing_dialog_message">"L'aide auditive droite est branchée. Assurez-vous que l'aide auditive gauche est allumée et prête à être appariée."</string>
+    <string name="bluetooth_pair_other_right_hearing_dialog_message">"L'aide auditive gauche est branchée. Assurez-vous que l'aide auditive droite est allumée et prête à être appariée."</string>
     <string name="bluetooth_pair_right_ear_button">Associer le droit</string>
     <string name="bluetooth_paired">Sauvegardé</string>
     <string name="bluetooth_paired_device_title">Vos appareils</string>
@@ -2459,6 +2469,7 @@ Si cette autorisation est activée, l'appli sera disponible comme option chaque 
     <string name="choose_unlock_face_msg">"Définissez un verrouillage de l'écran avant d'enregistrer les données de visage."</string>
     <string name="choose_unlock_fingerprint_msg">"Définissez le verrouillage d'écran avant d'ajouter votre empreinte digitale."</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Entourer pour chercher</string>
     <string name="classic_mode_summary">Passez à des couleurs plus chaudes pour réduire la quantité de lumière bleue</string>
     <string name="classic_mode_title">Classique</string>
     <string name="cleaner">Nettoyeur</string>
@@ -2894,7 +2905,6 @@ Si vous l'interrompez, vous pourrez perdre une partie ou la totalité de vos don
     <string name="dark_mode_day_night_mode_summary">Votre appareil passera au Mode sombre au coucher du soleil et au Mode clair au lever du soleil. Activez les services de localisation pour des résultats plus précis.</string>
     <string name="dark_mode_day_night_mode_title">Du coucher au lever du soleil</string>
     <string name="dark_mode_display_enable_summary">Passer à une interface utilisateur à faible luminosité affichant surtout des surfaces sombres</string>
-    <string name="dark_mode_font_background_title">Ajuster automatiquement le texte et les arrière-plans</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">"C'est compris"</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Si vous désactivez l'optimisation du système et activez l'Économiseur de batterie, le Mode sombre s'activera automatiquement.
 Pour désactiver le Mode sombre, désactivez l'Économiseur de batterie ou activez l'optimisation du système dans Paramètres > Options développeur > Activer l'optimisation du système."</string>
@@ -3785,7 +3795,7 @@ Redémarrez votre appareil et réessayez."</string>
     <string name="external_source_untrusted">Non autorisé</string>
     <string name="extreme_threats_summary">Recevoir alertes menaces extrêmes biens et personnes</string>
     <string name="extreme_threats_title">Menaces extrêmes</string>
-    <string name="eye_gaze_dialog_message">"Lorsque vous activez Détecter le regard, l'appareil ne se verrouille pas lorsqu'il détecte que vous regardez l'écran. Vos caractéristiques faciales ne seront pas analysées, et vos informations faciales ne seront pas stockées sur votre appareil ou téléchargées dans le cloud. Activer maintenant ?"</string>
+    <string name="eye_gaze_dialog_message">"Lorsque cette fonctionnalité est activée, le système détecte si vous regardez l'écran, mais vos traits faciaux ne sont pas analysés et ces données ne sont pas stockées sur votre appareil ou téléchargées dans le cloud. Activer maintenant ?"</string>
     <string name="eye_gaze_dialog_title">Avis de sécurité</string>
     <string name="eye_gaze_summary">"L'appareil ne se verrouille pas lorsqu'il détecte que vous regardez l'écran"</string>
     <string name="eye_gaze_summary_fold_device">"L'appareil ne se verrouillera pas lorsqu'il détecte que vous regardez l'écran extérieur"</string>
@@ -3868,6 +3878,7 @@ en faisant face à l'écran externe"</string>
     <string name="face_unlock_success_stay_screen_title">"Rester sur l'Écran de verrouillage après le déverrouillage"</string>
     <string name="face_unlock_title">"Vous pouvez déverrouiller votre téléphone à l'aide de votre visage. Pour plus de sécurité, cette option doit être associée à un verrouillage d'écran secondaire."</string>
     <string name="face_unlock_when_slt_on_toast">"Impossible d'utiliser le Déverrouillage facial lors de l'utilisation des communications par satellite Tiantong"</string>
+    <string name="factory_reset_loading">"Effectuer une réinitialisation d'usine…"</string>
     <string name="factory_reset_summary">Le formatage effacera toutes les données de la mémoire interne de votre appareil</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Trop de tentatives incorrectes. Les données de cet appareil vont être supprimées.</string>
@@ -4044,6 +4055,7 @@ Pour en savoir plus, contactez votre société de crédit."</string>
     <string name="flash_notifications_keywords">"flash, lampe, malendant, perte d'audition"</string>
     <string name="flash_notifications_note">"\"Faisceau pour les notifications\" visualise les signaux sonores et les sonneries à l'aide du flash et de l'écran de l'appareil photo. Si vous êtes sensible à la lumière, utilisez cette fonctionnalité avec prudence."</string>
     <string name="flash_notifications_preview">Aperçu</string>
+    <string name="flash_notifications_settings_title">Notifications Flash</string>
     <string name="flash_notifications_summary">"Utiliser le flash de l'appareil photo ou afficher les faisceaux de couleur à l'écran lorsque les notifications arrivent ou que l'appareil sonne"</string>
     <string name="flash_notifications_summary_off">Désactivé</string>
     <string name="flash_notifications_summary_on_camera">Activées/Clignotement du flash</string>
@@ -4137,6 +4149,9 @@ Pour en savoir plus, contactez votre société de crédit."</string>
     <string name="font_cta_alert_btn_positive">Accepter</string>
     <string name="font_cta_alert_message">"Lisez et acceptez les conditions d'utilisation de Thèmes pour continuer."</string>
     <string name="font_cta_alert_title">"Conditions d'utilisation"</string>
+    <string name="font_preview_text_content">"Exemple de texte :
+
+Xiaomi conçoit sans cesse des produits étonnants à des prix honnêtes pour permettre à tout un chacun, à travers le monde, de profiter d'une vie meilleure grâce à des technologies innovantes."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">"La police actuelle ne prend pas en charge l'ajustement de l'épaisseur de la police"</string>
     <string name="font_settings_jump">"Accessibilité > Taille d'affichage"</string>
@@ -4298,9 +4313,12 @@ Lorsque vous activez la sauvegarde automatique, les données de l'appareil et de
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Manette de jeu</string>
     <string name="game_storage_settings">Jeux</string>
-    <string name="gaze_lock_screen_summary">"L'appareil restera déverrouillé lorsque votre présence est détectée et verrouillé lorsque vous vous éloignez de l'écran"</string>
+    <string name="gaze_lock_screen_summary">"L'appareil restera déverrouillé lorsque vous regardez l'écran et verrouillé lorsque vous regardez ailleurs pour protéger votre vie privée, en outrepassant votre réglage de verrouillage automatique"</string>
     <string name="gaze_lock_screen_title">Détecter la présence</string>
     <string name="gd_setting_title">Barre latérale</string>
+    <string name="gemini_description">"Discutez avec Gemini pour stimuler vos idées. Obtenez de l'aide pour apprendre, écrire des notes de remerciement, planifier des événements et plus encore. Utilisez du texte, de la voix, des photos et votre appareil photo pour obtenir de l'aide de nouvelles façons. "<a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">En savoir plus sur la disponibilité</a></string>
+    <string name="gemini_function">Surchargez vos idées avec Google Gemini, votre nouvel assistant IA</string>
+    <string name="gemini_setting">Paramètres Gemini</string>
     <string name="general_category_title">Général</string>
     <string name="general_notification_header">Gérer</string>
     <string name="general_text">Champ de texte</string>
@@ -4313,6 +4331,12 @@ Lorsque vous activez la sauvegarde automatique, les données de l'appareil et de
     <string name="gesture_button_restart">Redémarrer</string>
     <string name="gesture_button_skip">Passer</string>
     <string name="gesture_function_dialog_message">%1$s est utilisé pour « %2$s ». Remplacer cela par « %3$s » ?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">"Appuyez deux fois sur le Verrouillage d'écran pour allumer"</string>
+    <string name="gesture_lockcreen_sleep_title">"Appuyez deux fois sur le Verrouillage d'écran pour mettre en veille"</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Double appui</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Aucun</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Par appui</string>
+    <string name="gesture_lockcreen_wakeup_title">"Allumer l'écran"</string>
     <string name="gesture_preference_title">Gestes</string>
     <string name="gesture_prevent_ringing_screen_title">Bloquer la sonnerie</string>
     <string name="gesture_prevent_ringing_sound_title">Raccourci pour bloquer la sonnerie</string>
@@ -4464,6 +4488,12 @@ La zone où vous pouvez confirmer que votre verrouillage d'écran se déplacera 
     <string name="gxzw_quick_open_slow_summary">"Appuyez longuement sur l'icône d'empreinte digitale pour ouvrir le menu contextuel. Faites glisser pour utiliser un raccourci."</string>
     <string name="gxzw_quick_open_slow_title">Appuyer et maintenir</string>
     <string name="gxzw_quick_open_title">Raccourcis</string>
+    <string name="gxzw_recognizing_anim_a">Ondulation</string>
+    <string name="gxzw_recognizing_anim_b">Spirale</string>
+    <string name="gxzw_recognizing_anim_c">Halo</string>
+    <string name="gxzw_recognizing_anim_d">Vague</string>
+    <string name="gxzw_recognizing_anim_e">Ouverture</string>
+    <string name="gxzw_recognizing_anim_f">Diffusion</string>
     <string name="gxzw_vibrate_summary">"Aucune vibration ne se produira lorsque aucune animation d'empreinte digitale n'est sélectionnée"</string>
     <string name="gxzw_vibrate_title">Vibrer en déverrouillant</string>
     <string name="handle_ota_connect_first">Raccorder la poignée</string>
@@ -4570,6 +4600,7 @@ La zone où vous pouvez confirmer que votre verrouillage d'écran se déplacera 
     <string name="health_use_of_pad">"Utilisation saine de l'appareil"</string>
     <string name="health_use_of_phone">"Utilisation saine de l'appareil"</string>
     <string name="hearing_aids_category">"Outils d'aide à l'audition"</string>
+    <string name="hearing_stream_option">"Options d'audio"</string>
     <string name="heavy_weight_stop_description">"Impossible d'arrêter cette application en toute sécurité. Si vous l'arrêtez, vous risquez de perdre une partie du travail en cours."</string>
     <string name="height_light_list_text">"Une liste d'articles importants"</string>
     <string name="help_and_feedback_title">Aide et commentaires</string>
@@ -5119,6 +5150,7 @@ Ouvrez Xiaomi Cloud et restaurez les éléments à partir de là."</string>
     <string name="layout_size_small_text">Très petite</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">En savoir plus</string>
+    <string name="leave_lockscreen_summary">"L'appareil se verrouille lorsque vous vous éloignez de l'écran"</string>
     <string name="leave_loclscreen_summary">"L'écran se verrouille automatiquement lorsque vous marchez à une certaine distance de votre appareil"</string>
     <string name="leave_loclscreen_title">"Verrouillage d'écran au départ"</string>
     <string name="led_colors_summary">Couleur du voyant de notifications</string>
@@ -5127,6 +5159,7 @@ Ouvrez Xiaomi Cloud et restaurez les éléments à partir de là."</string>
     <string name="led_settings">Lumière LED</string>
     <string name="left_edge">Bord gauche</string>
     <string name="left_function_key">Raccourci de gauche</string>
+    <string name="left_hearing_aid">Aide auditive gauche</string>
     <string name="left_right_hand_switch">Gauche et droite</string>
     <string name="left_right_hand_switch_summary">Faites changer les parties gauche et droite du clavier en une seule touche</string>
     <string name="left_shoulder_key">Gauche</string>
@@ -5793,7 +5826,7 @@ Vous ne pourrez pas annuler cette action."</string>
     <string name="media_controls_show_player">Afficher le lecteur</string>
     <string name="media_controls_title">Multimédia</string>
     <string name="media_dialog_ok">"C'est compris"</string>
-    <string name="media_dialog_summary">"Lorsque cette fonctionnalité est activée, l'appareil vibre au rythme de la musique et des vidéos prises en charge, pour une expérience plus complète et immersive."</string>
+    <string name="media_dialog_summary">"Lorsque cette fonctionnalité est activée, l'appareil vibre au rythme de la musique prise en charge, pour une expérience plus complète et immersive."</string>
     <string name="media_dialog_title">Activer le Retour haptique média</string>
     <string name="media_drm_settings_title">Paramètres Media DRM</string>
     <string name="media_feedback_enable_title">Vibrer au rythme de la sonnerie</string>
@@ -6475,7 +6508,7 @@ Sélectionnez votre système d'exploitation :"</string>
     <string name="multi_face_input_reach_upper_limit">"Impossible d'ajouter les données de visage. Attendez une minute ou deux et réessayez."</string>
     <string name="multi_face_input_success_name_title">Nom</string>
     <string name="multi_face_list">Données de visage</string>
-    <string name="multi_face_name_prefix">"Visage "</string>
+    <string name="multi_face_name_prefix">Données faciales %s</string>
     <string name="multi_face_number_reach_limit">"Impossible d'ajouter des données pour plus de 2 visages"</string>
     <string name="multi_music_coexistence_summary">"N'ajustez pas le volume du média pendant les notifications entrantes ou pendant la lecture de l'audio d'une autre source"</string>
     <string name="multi_music_coexistence_title">Plusieurs sources audio</string>
@@ -7218,13 +7251,22 @@ Lisez et acceptez %s avant d'utiliser ce service."</string>
     <string name="photography_handle_button_function_settings">Configurer le bouton de prise</string>
     <string name="photography_handle_charge_protected">Poignée de protection de charge</string>
     <string name="photography_handle_charge_protected_summary">"Lorsque la poignée de l'appareil photo est connectée, l'appareil arrête de charger et conserve la batterie à %1$s"</string>
+    <string name="photography_handle_charge_settings">Paramètres de charge</string>
     <string name="photography_handle_charge_state">"Chargement pour les poignées d'appareil photo"</string>
+    <string name="photography_handle_charge_state_choice_always">Toujours</string>
+    <string name="photography_handle_charge_state_choice_emergency">Urgence</string>
     <string name="photography_handle_charge_state_summary">"Chargez cet appareil à partir de poignées d'appareil photo chaque fois qu'ils sont connectés"</string>
+    <string name="photography_handle_charge_state_summary_new">"Démarrer le chargement de cet appareil à partir de la poignée d'appareil photo une fois connecté"</string>
+    <string name="photography_handle_emergency_charge_summary">"Démarrer le chargement d'urgence lorsque la batterie tombe en dessous de %1$s"</string>
+    <string name="photography_handle_emergency_charge_title">"Niveau de charge d'urgence"</string>
+    <string name="photography_handle_function_settings">"Paramètres de la poignée d'Appareil photo"</string>
     <string name="photography_handle_launch_and_take_photo">Prendre une photo</string>
     <string name="photography_handle_launch_camera">"Ouvrir l'appareil photo"</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">"Appuyez et maintenez le bouton de l'obturateur pour effectuer une action"</string>
     <string name="photography_handle_quick_launch_camera_title">Lancement rapide</string>
+    <string name="photography_handle_sn">Numéro de série</string>
     <string name="photography_handle_title">"Poignée d'appareil photo"</string>
+    <string name="photography_handle_update_and_maintain">Mises à jour</string>
     <string name="physical_keyboard_title">Clavier physique</string>
     <string name="pick_up_gesture_wakeup_title">Lever pour activer</string>
     <string name="picker_text">Sélecteur de temps</string>
@@ -7913,7 +7955,7 @@ Redémarrez votre appareil et réessayez."</string>
     <string name="reset_network_button_text">Réinitialiser les paramètres</string>
     <string name="reset_network_category">Cela réinitialisera tous les paramètres de réseau, y compris:</string>
     <string name="reset_network_complete_toast">Les paramètres réseau ont bien été réinitialisés.</string>
-    <string name="reset_network_confirm_title">Réinitialiser ?</string>
+    <string name="reset_network_confirm_title">Réinitialiser ?</string>
     <string name="reset_network_data">Données Mobiles</string>
     <string name="reset_network_final_button_text">Réinitialiser les paramètres</string>
     <string name="reset_network_final_desc">Cela peut prendre plusieurs secondes. Vous ne pourrez pas annuler cette action.</string>
@@ -7989,6 +8031,7 @@ Toutes les applis de votre espace et leurs données seront également définitiv
     <string name="rhythmic_mode_enable_title">Cycle</string>
     <string name="right_edge">Bord droit</string>
     <string name="right_function_key">Raccourci de droite</string>
+    <string name="right_hearing_aid">Aide auditive droite</string>
     <string name="right_shoulder_key">Droit</string>
     <string name="ring_to_you">Personnaliser le thème de la sonnerie</string>
     <string name="ring_to_you_info">Définissez une tonalité personnalisée que les autres entendront avant de décrocher</string>
@@ -8049,6 +8092,7 @@ Toutes les applis de votre espace et leurs données seront également définitiv
     <string name="same_source_synced">Ajout de la diffusion avec succès</string>
     <string name="sar">"Information sur l'exposition aux RF"</string>
     <string name="satellite_call_assistant">Paramétrages des appels</string>
+    <string name="satellite_management_title">Réseau satellite</string>
     <string name="satellite_network_title">"Fonctionnalités d'appel par satellite"</string>
     <string name="satellite_setting">Messagerie par satellite</string>
     <string name="satellite_setting_disabled_summary">Envoyez et recevez des messages par satellite. Non inclus dans votre compte.</string>
@@ -9989,6 +10033,8 @@ Essayez d'utiliser un périphérique ^3 plus rapide, ou utilisez à la place ^4 
     <string name="tethering_hardware_offload_summary">"Utiliser l'accélération matérielle pour le partage de connexion, si disponible"</string>
     <string name="tethering_help_button_text">Aide</string>
     <string name="tethering_settings_not_available">Veuillez changer les paramètres de partage de connexion dans le Premier Espace</string>
+    <string name="text_layout_optimization_switch_label">Optimiser la disposition du texte</string>
+    <string name="text_layout_optimization_switch_toast">"Impossible d'optimiser la disposition du texte avec la police actuelle"</string>
     <string name="texture_adjust_temperature_title">Température de couleur</string>
     <string name="the_anniversary_of_lifting_martial_law">Anniversaire de la Levée de la Loi Martiale</string>
     <string name="the_anti_aggression_day">Journée Anti-agression</string>
@@ -11346,6 +11392,10 @@ Configurer un réseau masqué n'affectera pas les paramètres de votre routeur."
     <string name="wifi_protection_tip">"Xiaomi protégera vos données personnelles contre les demandes de sonde Wi-Fi provenant d'adresses MAC aléatoires et de renifleurs de sonde Wi-Fi lorsque votre appareil recherche des réseaux Wi-Fi."</string>
     <string name="wifi_quick_toggle_summary">Activer le Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Votre mot de passe Wi-Fi est incorrect. Veuillez le saisir à nouveau.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Mot de passe Wi-Fi incorrect</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Enregistré</string>
     <string name="wifi_remembered_disabled_auto_connect">Enregistré. Ne se connecte pas automatiquement.</string>
     <string name="wifi_require_sim_card_to_connect">SIM requise pour la connexion</string>

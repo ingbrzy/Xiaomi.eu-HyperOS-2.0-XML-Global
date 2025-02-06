@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">totale stilte</string>
     <string name="accessibility_quick_settings_edit">Volgorde van instellingen bewerken.</string>
     <string name="accessibility_quick_settings_expand">Snelle instellingen openen.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Aangesloten grip</string>
     <string name="accessibility_quick_settings_open_settings">%s-instellingen openen.</string>
     <string name="accessibility_quick_settings_page">Pagina %1$d van %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Aan/uit-menu</string>
@@ -314,6 +315,9 @@ Als dit recht uitstaat, werken door deze app geplande bestaande wekkers en tijdg
     <string name="alarms_and_reminders_label">Wekkers en herinneringen</string>
     <string name="alarms_and_reminders_switch_title">Instellen van wekkers en herinneringen toestaan</string>
     <string name="alarms_and_reminders_title">Wekkers en herinneringen</string>
+    <string name="alertdialog_safemode_button_submit">Indienen</string>
+    <string name="alertdialog_safemode_message">Uw apparaat is in de Veilige modus gegaan vanwege problemen met de systeeminterface, waardoor sommige functies niet meer beschikbaar zijn. Dien uw feedback in om de oplossing van dit probleem te versnellen.</string>
+    <string name="alertdialog_safemode_title">Veilige modus ingevoerd</string>
     <string name="all_network_unavailable">Geen netwerken beschikbaar</string>
     <string name="allow_mock_location">Neplocaties toestaan</string>
     <string name="allow_mock_location_summary">Neplocaties toestaan</string>
@@ -449,12 +453,15 @@ Probeer het over %d seconden opnieuw."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Gebruiken voor audio van telefoon</string>
     <string name="bluetooth_hearing_aid_left_active">Actief (alleen links)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Actief (links en rechts)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Beide gehoorapparaten zijn verbonden met %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Linker gehoorapparaat aangesloten op %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Actief (alleen media), alleen links</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Actief (alleen media), links en rechts</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Actief (alleen media), alleen rechts</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Verbonden met hoortoestellen</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Gebruiken voor hoortoestellen</string>
     <string name="bluetooth_hearing_aid_right_active">Actief (alleen rechts)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Rechter gehoorapparaat aangesloten op %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Verbonden met invoerapparaat</string>
     <string name="bluetooth_hid_profile_summary_use_for">Gebruiken voor invoer</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Verbonden met LE Audio</string>
@@ -728,6 +735,7 @@ Je kunt op elk moment wijzigingen aanbrengen via Instellingen."</string>
     <string name="cta_label_to_open_widget_picker">Meer widgets toevoegen</string>
     <string name="cta_tile_button_to_dismiss">Sluiten</string>
     <string name="cta_tile_button_to_open_widget_editor">Aanpassen</string>
+    <string name="custom_lockscreen">Vergrendelscherm aanpassen</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomalie (rood-groen)</string>
     <string name="daltonizer_mode_disabled">Uitgezet</string>
     <string name="daltonizer_mode_monochromacy">Totale kleurenblindheid</string>
@@ -1054,6 +1062,7 @@ Schakel uit met de Aan/uit-knop."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Altijd-aan-display is ingesteld op aangepast vanwege Super achtergronden</string>
     <string name="fullaod_apply_third_theme_toast">"Altijd-aan-display thema is ingesteld op aangepast vanwege thema's van derden"</string>
     <string name="fullaod_apply_third_wallpaper_toast">Altijd-aan-display thema is ingesteld op aangepast vanwege achtergronden van derden</string>
+    <string name="fullaod_apply_video_depth_toast">Altijd-aan-display stijl is overgeschakeld naar Aangepast</string>
     <string name="fullscreen_text">Volledig scherm</string>
     <string name="game_status">Aan het spelen</string>
     <string name="global_action_smart_lock_disabled">Ontgrendelen verlengen uitgezet</string>
@@ -1859,6 +1868,7 @@ Als je vragen hebt, kun je contact opnemen met %2$s."</string>
     <string name="notification_channel_dialog_title">Alle meldingen van %1$s</string>
     <string name="notification_channel_hints">Hints</string>
     <string name="notification_channel_instant">Instant-apps</string>
+    <string name="notification_channel_safemode">Veilige modus</string>
     <string name="notification_channel_screenshot">Screenshots</string>
     <string name="notification_channel_setup">Instellen</string>
     <string name="notification_channel_storage">Opslag</string>
@@ -1891,6 +1901,13 @@ Als je vragen hebt, kun je contact opnemen met %2$s."</string>
     <string name="notification_more_settings">Meer instellingen</string>
     <string name="notification_multichannel_desc">Deze groep meldingen kan hier niet worden ingesteld</string>
     <string name="notification_priority_title">Prioriteit</string>
+    <string name="notification_safemode_button_exit">Afsluiten</string>
+    <string name="notification_safemode_description_exit">Zorg ervoor dat u de tips voor probleemoplossing in de kennisgeving volgt voordat u de Veilige modus verlaat. Als u dit niet doet, kan uw apparaat weer in de Veilige modus terechtkomen.</string>
+    <string name="notification_safemode_description_presafemode">Systeeminterface en Themagegevens succesvol gewist. U kunt uw apparaat normaal gebruiken.</string>
+    <string name="notification_safemode_description_safemode">Uw apparaat staat nu in de Veilige modus. Tik om te zien hoe u de systeeminterface kunt herstellen.</string>
+    <string name="notification_safemode_title_exit">Sluit de Veilige modus af</string>
+    <string name="notification_safemode_title_presafemode">Systeeminterface is hersteld</string>
+    <string name="notification_safemode_title_safemode">Kennisgeving over het oplossen van het probleem van crashes van de systeeminterface</string>
     <string name="notification_section_header_alerting">Meldingen</string>
     <string name="notification_section_header_conversations">Gesprekken</string>
     <string name="notification_section_header_gentle">Stil</string>
@@ -2161,9 +2178,9 @@ Als je vragen hebt, kun je contact opnemen met %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Slimme dual SIM</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Kleurinversie</string>
-    <string name="quick_settings_location_label">Locatie</string>
-    <string name="quick_settings_location_state_change_message_off">Locatietoegang is uitgeschakeld</string>
-    <string name="quick_settings_location_state_change_message_on">Locatietoegang is ingeschakeld</string>
+    <string name="quick_settings_location_label">Locatieservices</string>
+    <string name="quick_settings_location_state_change_message_off">Locatieservices zijn uitgeschakeld</string>
+    <string name="quick_settings_location_state_change_message_on">Locatieservices zijn ingeschakeld</string>
     <string name="quick_settings_media_device_label">Media-apparaat</string>
     <string name="quick_settings_mic_label">Microfoontoegang</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Geen wifi-netwerken beschikbaar</string>
@@ -2306,6 +2323,7 @@ Als je vragen hebt, kun je contact opnemen met %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Houd de knoppen Vorige en Preview ingedrukt om deze app los te maken</string>
     <string name="screen_pinning_toast_recents_invisible">Tik op Terug en Home en houd de knoppen vast om deze app los te maken</string>
     <string name="screen_pinning_toast_start">Deze app is vastgezet</string>
+    <string name="screen_share_dialog_spinner_text">Reikwijdte</string>
     <string name="screen_share_permission_app_selector_title">App delen of opnemen</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Volledig scherm</string>
     <string name="screen_share_permission_dialog_option_single_app">Eén app</string>

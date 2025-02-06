@@ -34,13 +34,15 @@
     <string name="action_create_contact">Create</string>
     <string name="action_dial_number">Dial</string>
     <string name="action_disable_rw">OK</string>
-    <string name="action_enable_dnd">Turn on</string>
+    <string name="action_enable_dnd">Settings</string>
+    <string name="action_enable_dnd_old">Turn on</string>
     <string name="action_keep_rw">Cancel</string>
     <string name="action_open">Open</string>
     <string name="action_open_tag">Read tags</string>
     <string name="action_sms">Send</string>
     <string name="android_beam">Mi Beam</string>
     <string name="app_name">NFC Service</string>
+    <string name="appchooser_description">Choose app to scan</string>
     <string name="ask_nfc_tap">Tap another device to complete</string>
     <string name="beam_busy">Beam is busy now. Try again when the ongoing transfer is complete.</string>
     <string name="beam_canceled">Cancelled beam</string>
@@ -71,8 +73,10 @@
     <string name="content_create_contact">Create a contact for \"%1$s\"?</string>
     <string name="content_dial_number">Dial \"%s\" now?</string>
     <string name="content_disable_rw">"Looks like you haven't interacted with detected NFC tags for a long time. Your device won't read or write tags for now. Unlocking your device will turn this feature back on."</string>
-    <string name="content_discover_tag">Open app to process the tag?</string>
-    <string name="content_enable_dnd">"Looks like you don't interact with detected NFC tags. Turn on NFC DND mode to stop receiving notifications."</string>
+    <string name="content_discover_tag">Open the app to set up this card?</string>
+    <string name="content_discover_tag_old">Open app to process the tag?</string>
+    <string name="content_enable_dnd">Looks like you ignored NFC cards multiple times. You can change your preferences to receive fewer notifications.</string>
+    <string name="content_enable_dnd_old">"Looks like you don't interact with detected NFC tags. Turn on NFC DND mode to stop receiving notifications."</string>
     <string name="content_sms">Send a message via \"%2$s\" to \"%1$s\" now?</string>
     <string name="content_weblink">Open \"%1$s\" now?</string>
     <string name="could_not_use_app">"Couldn't use %1$s."</string>
@@ -141,6 +145,8 @@
     <string name="nfcUserLabel">NFC</string>
     <string name="nfc_blocking_alert_message">Tap to learn how to fix this issue.</string>
     <string name="nfc_blocking_alert_title">Looks like NFC is blocked</string>
+    <string name="nfc_logging_alert_message">Tap to stop recording.</string>
+    <string name="nfc_logging_alert_title">NFC data is being recorded</string>
     <string name="pair_no">No</string>
     <string name="pair_yes">Yes</string>
     <string name="pairing_peripheral">Pairing %1$s…</string>
@@ -154,6 +160,7 @@
     <string name="summary_confirm_url_open">"Your device received a link via NFC: "</string>
     <string name="tag_dispatch_failed">"Couldn't find an app that supports NFC tag"</string>
     <string name="tag_read_error">"Couldn't read info via NFC. Try again."</string>
+    <string name="tap_again_description">Hold to reader</string>
     <string name="tap_again_to_complete">Tap again to complete payment with %1$s</string>
     <string name="tap_again_to_pay">Tap again to pay with %1$s</string>
     <string name="tap_to_beam">Tap to beam</string>
@@ -163,7 +170,8 @@
     <string name="title_connect_to_network">Connect to the network</string>
     <string name="title_create_contact">Create contact</string>
     <string name="title_dial_number">Dial phone number</string>
-    <string name="title_discover_tag">NFC tag detected</string>
+    <string name="title_discover_tag">NFC card detected</string>
+    <string name="title_discover_tag_old">NFC tag detected</string>
     <string name="title_sms">Send messages</string>
     <string name="title_weblink">Open link</string>
     <string name="toast_bluetooth_enable_fail">"Couldn't pair. Turn on Bluetooth first."</string>

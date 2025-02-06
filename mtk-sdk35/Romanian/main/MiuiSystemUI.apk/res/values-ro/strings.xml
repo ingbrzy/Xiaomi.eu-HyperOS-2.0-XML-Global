@@ -213,7 +213,7 @@
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">activează</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_disconnect">deconectează</string>
-    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bateria dispozitivului Bluetooth este de %d procente.</string>
+    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bateria dispozitivului Bluetooth este de %d procent.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Conexiunea prin Bluetooth este activată.</string>
     <string name="accessibility_quick_settings_choose_user_action">alege utilizatorul</string>
     <string name="accessibility_quick_settings_collapse">Închide setările rapide.</string>
@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">niciun sunet</string>
     <string name="accessibility_quick_settings_edit">Editează ordinea setărilor.</string>
     <string name="accessibility_quick_settings_expand">Deschide setările rapide.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Mâner conectat</string>
     <string name="accessibility_quick_settings_open_settings">Deschide setările %s.</string>
     <string name="accessibility_quick_settings_page">Pagina %1$d din %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Meniul de pornire</string>
@@ -314,6 +315,9 @@ Dacă permisiunea este dezactivată, alarmele și evenimentele dependente de tim
     <string name="alarms_and_reminders_label">Alarme și mementouri</string>
     <string name="alarms_and_reminders_switch_title">Permite setarea de alarme și mementouri</string>
     <string name="alarms_and_reminders_title">Alarme și mementouri</string>
+    <string name="alertdialog_safemode_button_submit">Trimite</string>
+    <string name="alertdialog_safemode_message">Dispozitivul dvs. a intrat în Modul sigur din cauza unor probleme de interfață a sistemului, ceea ce face ca unele funcții să devină indisponibile. Trimiteți feedbackul dvs. pentru a accelera rezolvarea acestei probleme.</string>
+    <string name="alertdialog_safemode_title">S-a intrat în Modul sigur</string>
     <string name="all_network_unavailable">Nicio rețea disponibilă</string>
     <string name="allow_mock_location">Permite locațiile fictive</string>
     <string name="allow_mock_location_summary">Permite locațiile fictive</string>
@@ -449,12 +453,15 @@ Dacă permisiunea este dezactivată, alarmele și evenimentele dependente de tim
     <string name="bluetooth_headset_profile_summary_use_for">Folosește pentru componenta audio a telefonului</string>
     <string name="bluetooth_hearing_aid_left_active">Activ (numai stânga)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Activ (stânga și dreapta)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Ambele aparate auditive conectate la %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Aparatul auditiv stânga conectat la %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Activ (numai pentru conținut media), numai stânga</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Activ (numai pentru conținut media), stânga și dreapta</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Activ (numai pentru conținut media), numai dreapta</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Conectat la aparatul auditiv</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Folosește pentru aparatele auditive</string>
     <string name="bluetooth_hearing_aid_right_active">Activ (numai dreapta)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Aparatul auditiv dreapta conectat la %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Conectat la dispozitivul de intrare</string>
     <string name="bluetooth_hid_profile_summary_use_for">Folosește pentru introducere date</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Conectat la LE audio</string>
@@ -728,6 +735,7 @@ Poți face modificări oricând în setări."</string>
     <string name="cta_label_to_open_widget_picker">Adaugă mai multe widgeturi</string>
     <string name="cta_tile_button_to_dismiss">Respinge</string>
     <string name="cta_tile_button_to_open_widget_editor">Personalizează</string>
+    <string name="custom_lockscreen">Personalizați Ecranul de blocare</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomalie (roșu-verde)</string>
     <string name="daltonizer_mode_disabled">Dezactivat</string>
     <string name="daltonizer_mode_monochromacy">Daltonism</string>
@@ -1054,6 +1062,7 @@ Dezactivează cu Butonul de pornire."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Tema pentru Întotdeauna pe ecran a fost setată la personalizare datorită Imaginilor de fundal super</string>
     <string name="fullaod_apply_third_theme_toast">Tema pentru Întotdeauna pe ecran a fost setată la personalizare datorită temelor terță parte</string>
     <string name="fullaod_apply_third_wallpaper_toast">Tema pentru Întotdeauna pe ecran a fost setată la personalizare datorită imaginilor de fundal terță parte</string>
+    <string name="fullaod_apply_video_depth_toast">Întotdeauna pe ecran a fost schimbat la Personalizat</string>
     <string name="fullscreen_text">Ecran complet</string>
     <string name="game_status">Mă joc</string>
     <string name="global_action_smart_lock_disabled">Funcția Prelungirea deblocării este dezactivată</string>
@@ -1859,6 +1868,7 @@ Dacă ai întrebări, ia legătura cu %2$s."</string>
     <string name="notification_channel_dialog_title">Toate notificările din %1$s</string>
     <string name="notification_channel_hints">Indicii</string>
     <string name="notification_channel_instant">Aplicații instantanee</string>
+    <string name="notification_channel_safemode">Mod sigur</string>
     <string name="notification_channel_screenshot">Capturi de ecran</string>
     <string name="notification_channel_setup">Configurarea</string>
     <string name="notification_channel_storage">Stocare</string>
@@ -1891,6 +1901,13 @@ Dacă ai întrebări, ia legătura cu %2$s."</string>
     <string name="notification_more_settings">Mai multe setări</string>
     <string name="notification_multichannel_desc">Acest grup de notificări nu poate fi configurat aici</string>
     <string name="notification_priority_title">Prioritate</string>
+    <string name="notification_safemode_button_exit">Ieșire</string>
+    <string name="notification_safemode_description_exit">Asigurați-vă că urmați sfaturile de depanare furnizate în notificare înainte de a părăsi Modul sigur. Dacă nu, dispozitivul poate intra din nou în Modul sigur.</string>
+    <string name="notification_safemode_description_presafemode">S-au șters datele de interfață de sistem și teme. Puteți folosi dispozitivul în mod normal.</string>
+    <string name="notification_safemode_description_safemode">Dispozitivul dvs. este acum în Modul sigur. Atingeți pentru a vedea cum puteți restabili interfața sistemului.</string>
+    <string name="notification_safemode_title_exit">Ieșiți din Modul sigur</string>
+    <string name="notification_safemode_title_presafemode">Interfața sistemului este restabilită</string>
+    <string name="notification_safemode_title_safemode">Notă privind remedierea problemei blocărilor interfeței sistemului</string>
     <string name="notification_section_header_alerting">Notificări</string>
     <string name="notification_section_header_conversations">Conversații</string>
     <string name="notification_section_header_gentle">Silențioase</string>
@@ -2161,9 +2178,9 @@ Dacă ai întrebări, ia legătura cu %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Smart SIM Dual</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Inversarea culorilor</string>
-    <string name="quick_settings_location_label">Locație</string>
-    <string name="quick_settings_location_state_change_message_off">Acces locație este oprit</string>
-    <string name="quick_settings_location_state_change_message_on">Acces locație este pornit</string>
+    <string name="quick_settings_location_label">Servicii de localizare</string>
+    <string name="quick_settings_location_state_change_message_off">Servicii de localizare sunt oprite</string>
+    <string name="quick_settings_location_state_change_message_on">Servicii de localizare sunt pornite</string>
     <string name="quick_settings_media_device_label">Dispozitiv media</string>
     <string name="quick_settings_mic_label">Acces la microfon</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Nu există rețele Wi-Fi disponibile</string>
@@ -2306,6 +2323,7 @@ Dacă ai întrebări, ia legătura cu %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Țineți apăsat butoanele înapoi și previzualizare pentru a anula fixarea acestei aplicații</string>
     <string name="screen_pinning_toast_recents_invisible">Pentru a anula fixarea acestei aplicații, atinge lung butoanele Înapoi și Acasă</string>
     <string name="screen_pinning_toast_start">Această aplicație este fixată</string>
+    <string name="screen_share_dialog_spinner_text">Scop</string>
     <string name="screen_share_permission_app_selector_title">Distribuie o aplicație sau înregistreaz-o</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Tot ecranul</string>
     <string name="screen_share_permission_dialog_option_single_app">O singură aplicație</string>

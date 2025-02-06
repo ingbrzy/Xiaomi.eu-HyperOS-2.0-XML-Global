@@ -213,7 +213,7 @@
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">etkinleştir</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_disconnect">bağlantıyı kes</string>
-    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bluetooth cihazının pili yüzde %d.</string>
+    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bluetooth cihazı pili yüzde %d.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth açık.</string>
     <string name="accessibility_quick_settings_choose_user_action">kullanıcı seç</string>
     <string name="accessibility_quick_settings_collapse">Hızlı ayarları kapat.</string>
@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">tamamen sessiz</string>
     <string name="accessibility_quick_settings_edit">Ayarların sırasını düzenle.</string>
     <string name="accessibility_quick_settings_expand">Hızlı ayarları aç.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Bağlı grip</string>
     <string name="accessibility_quick_settings_open_settings">%s ayarlarını aç.</string>
     <string name="accessibility_quick_settings_page">Sayfa %1$d / %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Güç menüsü</string>
@@ -314,6 +315,9 @@ Bu izin verilmezse bu uygulama tarafından programlanmış mevcut alarmlar ve za
     <string name="alarms_and_reminders_label">Alarmlar ve hatırlatıcılar</string>
     <string name="alarms_and_reminders_switch_title">Alarm ve hatırlatıcı ayarlamasına izin ver</string>
     <string name="alarms_and_reminders_title">Alarmlar ve hatırlatıcılar</string>
+    <string name="alertdialog_safemode_button_submit">Gönder</string>
+    <string name="alertdialog_safemode_message">Cihazınız bazı özelliklerin kullanılamaz olmasına neden olan sistem arayüzü sorunlarından dolayı Güvenli moda girdi. Bu sorunun çözümünü hızlandırmak için geri bildirim gönderin.</string>
+    <string name="alertdialog_safemode_title">Güvenli moda girildi</string>
     <string name="all_network_unavailable">Kullanılabilir ağ yok</string>
     <string name="allow_mock_location">Sahte konumlara izin ver</string>
     <string name="allow_mock_location_summary">Sahte konumlara izin ver</string>
@@ -449,12 +453,15 @@ Bu izin verilmezse bu uygulama tarafından programlanmış mevcut alarmlar ve za
     <string name="bluetooth_headset_profile_summary_use_for">Telefon sesi için kullan</string>
     <string name="bluetooth_hearing_aid_left_active">Etkin (yalnızca sol taraf)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Etkin (sol ve sağ taraf)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Her iki işitme cihazı %1$s cihazına bağlandı</string>
+    <string name="bluetooth_hearing_aid_left_connected">Sol işitme cihazı %1$s cihazına bağlandı</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Etkin (yalnızca medya), yalnızca sol</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Etkin (yalnızca medya), sol ve sağ</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Etkin (yalnızca medya), yalnızca sağ</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">İşitme cihazlarına bağlandı</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">İşitme cihazları için kullan</string>
     <string name="bluetooth_hearing_aid_right_active">Etkin (yalnızca sağ taraf)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Sağ işitme cihazı %1$s cihazına bağlandı</string>
     <string name="bluetooth_hid_profile_summary_connected">Giriş cihazına bağlı</string>
     <string name="bluetooth_hid_profile_summary_use_for">Giriş için kullan</string>
     <string name="bluetooth_le_audio_profile_summary_connected">"LE Audio'ya bağlandı"</string>
@@ -728,6 +735,7 @@ Ayarlar'da istediğiniz zaman değişiklik yapabilirsiniz."</string>
     <string name="cta_label_to_open_widget_picker">Daha fazla widget ekle</string>
     <string name="cta_tile_button_to_dismiss">Kapat</string>
     <string name="cta_tile_button_to_open_widget_editor">Özelleştir</string>
+    <string name="custom_lockscreen">Kilit ekranını özelleştir</string>
     <string name="daltonizer_mode_deuteranomaly">Döteranomali (kırmızı-yeşil)</string>
     <string name="daltonizer_mode_disabled">Devre dışı</string>
     <string name="daltonizer_mode_monochromacy">Tam renk körlüğü</string>
@@ -1054,6 +1062,7 @@ Güç tuşu ile kapatın."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Her zaman açık ekran teması, süper duvar kağıtları nedeniyle özel olarak ayarlandı</string>
     <string name="fullaod_apply_third_theme_toast">Her zaman açık ekran teması, üçüncü taraf temalar nedeniyle özel olarak ayarlandı</string>
     <string name="fullaod_apply_third_wallpaper_toast">Her zaman açık ekran teması, üçüncü taraf duvar kağıtları nedeniyle özel olarak ayarlandı</string>
+    <string name="fullaod_apply_video_depth_toast">Her zaman açık ekran stili Özel olarak değiştirildi</string>
     <string name="fullscreen_text">Tam Ekran</string>
     <string name="game_status">Çalınıyor</string>
     <string name="global_action_smart_lock_disabled">Artırılmış Kilit Açma devre dışı</string>
@@ -1859,6 +1868,7 @@ Sorularınız varsa %2$s ile iletişime geçin."</string>
     <string name="notification_channel_dialog_title">Tüm %1$s bildirimleri</string>
     <string name="notification_channel_hints">İpuçları</string>
     <string name="notification_channel_instant">Hazır Uygulamalar</string>
+    <string name="notification_channel_safemode">Güvenli mod</string>
     <string name="notification_channel_screenshot">Ekran görüntüleri</string>
     <string name="notification_channel_setup">Kurulum</string>
     <string name="notification_channel_storage">Depolama alanı</string>
@@ -1891,6 +1901,13 @@ Sorularınız varsa %2$s ile iletişime geçin."</string>
     <string name="notification_more_settings">Diğer ayarlar</string>
     <string name="notification_multichannel_desc">Bu bildirim grubu burada yapılandırılamaz</string>
     <string name="notification_priority_title">Öncelikli</string>
+    <string name="notification_safemode_button_exit">Çıkış</string>
+    <string name="notification_safemode_description_exit">Güvenli moddan çıkış yapmadan önce bildirimde sağlanan sorun giderme ipuçlarını uyguladığınızdan emin olun. Bunu yapmazsanız cihazınız tekrar Güvenli moda girebilir.</string>
+    <string name="notification_safemode_description_presafemode">Sistem arayüzü ve Temalar verileri başarıyla temizlendi. Cihazınızı manuel olarak kullanabilirsiniz.</string>
+    <string name="notification_safemode_description_safemode">Cihazınız şimdi Güvenli modda. Sistem arayüzünü nasıl geri yüklenebileceğini görüntülemek için dokunun.</string>
+    <string name="notification_safemode_title_exit">Güvenli moddan çıkış yap</string>
+    <string name="notification_safemode_title_presafemode">Sistema arayüzü geri yüklendi</string>
+    <string name="notification_safemode_title_safemode">Sistem arayüzü çökmeleri sorununun düzeltilmesine ilişkin bildirim</string>
     <string name="notification_section_header_alerting">Bildirimler</string>
     <string name="notification_section_header_conversations">Görüşmeler</string>
     <string name="notification_section_header_gentle">Sessiz</string>
@@ -2161,9 +2178,9 @@ Sorularınız varsa %2$s ile iletişime geçin."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Akıllı çift SIM</string>
     <string name="quick_settings_internet_label">İnternet</string>
     <string name="quick_settings_inversion_label">Rengi ters çevirme</string>
-    <string name="quick_settings_location_label">Konum</string>
-    <string name="quick_settings_location_state_change_message_off">Konum erişimi kapalı</string>
-    <string name="quick_settings_location_state_change_message_on">Konum erişimi açık</string>
+    <string name="quick_settings_location_label">Konum hizmetleri</string>
+    <string name="quick_settings_location_state_change_message_off">Konum hizmetleri kapalı</string>
+    <string name="quick_settings_location_state_change_message_on">Konum hizmetleri açık</string>
     <string name="quick_settings_media_device_label">Medya cihazı</string>
     <string name="quick_settings_mic_label">Mikrofon erişimi</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Kullanılabilir Wi-Fi ağı yok</string>
@@ -2306,6 +2323,7 @@ Sorularınız varsa %2$s ile iletişime geçin."</string>
     <string name="screen_pinning_toast_navigation_mode">Bu uygulamanın sabitlemesini kaldırmak için geri ve önizleme tuşlarına basılı tutun</string>
     <string name="screen_pinning_toast_recents_invisible">Bu uygulamanın sabitlemesini kaldırmak için Geri ve Ana sayfa düğmelerine dokunup basılı tutun</string>
     <string name="screen_pinning_toast_start">Bu uygulama sabitlendi</string>
+    <string name="screen_share_dialog_spinner_text">Kapsam</string>
     <string name="screen_share_permission_app_selector_title">Uygulamayı paylaşın veya kaydedin</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Tüm ekran</string>
     <string name="screen_share_permission_dialog_option_single_app">Tek bir uygulama</string>

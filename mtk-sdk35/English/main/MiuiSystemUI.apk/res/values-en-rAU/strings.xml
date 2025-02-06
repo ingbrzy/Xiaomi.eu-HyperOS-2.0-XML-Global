@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">total silence</string>
     <string name="accessibility_quick_settings_edit">Edit order of settings.</string>
     <string name="accessibility_quick_settings_expand">Open quick settings.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Connected grip</string>
     <string name="accessibility_quick_settings_open_settings">Open %s settings.</string>
     <string name="accessibility_quick_settings_page">Page %1$d of %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Power menu</string>
@@ -312,6 +313,9 @@ If this permission is off, existing alarms and time-based events scheduled by th
     <string name="alarms_and_reminders_label">Alarms and reminders</string>
     <string name="alarms_and_reminders_switch_title">Allow setting alarms and reminders</string>
     <string name="alarms_and_reminders_title">Alarms and reminders</string>
+    <string name="alertdialog_safemode_button_submit">Submit</string>
+    <string name="alertdialog_safemode_message">Your device has entered Safe mode due to system interface issues, causing some features to become unavailable. Submit your feedback to speed up the resolution of this problem.</string>
+    <string name="alertdialog_safemode_title">Entered Safe mode</string>
     <string name="all_network_unavailable">No networks available</string>
     <string name="allow_mock_location">Allow mock locations</string>
     <string name="allow_mock_location_summary">Allow mock locations</string>
@@ -446,12 +450,15 @@ Try again in %d seconds."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
     <string name="bluetooth_hearing_aid_left_active">Active (left only)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Active (left and right)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Both hearing aids connected to %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Left hearing aid connected to %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Active (media only), left only</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Active (media only), left and right</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Active (media only), right only</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Connected to hearing aids</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Use for hearing aids</string>
     <string name="bluetooth_hearing_aid_right_active">Active (right only)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Right hearing aid connected to %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Connected to input device</string>
     <string name="bluetooth_hid_profile_summary_use_for">Use for input</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Connected to LE audio</string>
@@ -715,6 +722,7 @@ You can make changes at any time in Settings."</string>
     <string name="cta_label_to_open_widget_picker">Add more widgets</string>
     <string name="cta_tile_button_to_dismiss">Dismiss</string>
     <string name="cta_tile_button_to_open_widget_editor">Customise</string>
+    <string name="custom_lockscreen">Customise Lock screen</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
     <string name="daltonizer_mode_disabled">Disabled</string>
     <string name="daltonizer_mode_monochromacy">Monochromacy</string>
@@ -1026,6 +1034,7 @@ Turn off with the Power button."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Always-on display theme has been set to custom due to Super wallpapers</string>
     <string name="fullaod_apply_third_theme_toast">Always-on display theme has been set to custom due to third party themes</string>
     <string name="fullaod_apply_third_wallpaper_toast">Always-on display theme has been set to custom due to third party wallpapers</string>
+    <string name="fullaod_apply_video_depth_toast">Always-on display style switched to Custom</string>
     <string name="fullscreen_text">Full screen</string>
     <string name="game_status">Playing</string>
     <string name="global_action_smart_lock_disabled">Extend Unlock disabled</string>
@@ -1711,6 +1720,7 @@ If you have questions, contact %2$s."</string>
     <string name="notification_channel_dialog_title">All %1$s notifications</string>
     <string name="notification_channel_hints">Hints</string>
     <string name="notification_channel_instant">Instant Apps</string>
+    <string name="notification_channel_safemode">Safe mode</string>
     <string name="notification_channel_screenshot">Screenshots</string>
     <string name="notification_channel_setup">Setup</string>
     <string name="notification_channel_storage">Storage</string>
@@ -1743,6 +1753,13 @@ If you have questions, contact %2$s."</string>
     <string name="notification_more_settings">More settings</string>
     <string name="notification_multichannel_desc">This group of notifications cannot be configured here</string>
     <string name="notification_priority_title">Priority</string>
+    <string name="notification_safemode_button_exit">Exit</string>
+    <string name="notification_safemode_description_exit">"Be sure to follow the troubleshooting tips provided in the notice before exiting Safe mode. If you don't, your device might enter Safe mode again."</string>
+    <string name="notification_safemode_description_presafemode">Cleared system interface and Themes data successfully. You can use your device normally.</string>
+    <string name="notification_safemode_description_safemode">Your device is in Safe mode now. Tap to view how you can restore system interface.</string>
+    <string name="notification_safemode_title_exit">Exit Safe mode</string>
+    <string name="notification_safemode_title_presafemode">System interface is restored</string>
+    <string name="notification_safemode_title_safemode">Notice on fixing the issue of system interface crashes</string>
     <string name="notification_section_header_alerting">Notifications</string>
     <string name="notification_section_header_conversations">Conversations</string>
     <string name="notification_section_header_gentle">Silent</string>
@@ -2011,9 +2028,9 @@ If you have questions, contact %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Smart dual SIM</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Colour inversion</string>
-    <string name="quick_settings_location_label">Location</string>
-    <string name="quick_settings_location_state_change_message_off">Location access is off</string>
-    <string name="quick_settings_location_state_change_message_on">Location access is on</string>
+    <string name="quick_settings_location_label">Location services</string>
+    <string name="quick_settings_location_state_change_message_off">Location services are off</string>
+    <string name="quick_settings_location_state_change_message_on">Location services are on</string>
     <string name="quick_settings_media_device_label">Media device</string>
     <string name="quick_settings_mic_label">Mic access</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">No Wi-Fi networks available</string>
@@ -2153,6 +2170,7 @@ If you have questions, contact %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Press and hold the back and preview buttons to unpin this app</string>
     <string name="screen_pinning_toast_recents_invisible">To unpin this app, touch and hold Back and Home buttons</string>
     <string name="screen_pinning_toast_start">This app is pinned</string>
+    <string name="screen_share_dialog_spinner_text">Scope</string>
     <string name="screen_share_permission_app_selector_title">Share or record an app</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Entire screen</string>
     <string name="screen_share_permission_dialog_option_single_app">A single app</string>

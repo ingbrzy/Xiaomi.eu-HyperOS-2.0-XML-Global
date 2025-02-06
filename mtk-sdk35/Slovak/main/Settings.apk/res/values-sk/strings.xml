@@ -638,6 +638,7 @@ Správca môže sledovať a spravovať nastavenia, prístup, aplikácie a úda
     <string name="ai_button_title">Tlačidlo Mi AI</string>
     <string name="ai_button_title_global">Tlačidlo AI</string>
     <string name="ai_call_assistant">AI hovory</string>
+    <string name="ai_notification_settings">Súhrn oznámení AI</string>
     <string name="ai_services_title">Služby AI</string>
     <string name="ai_settings_click_title">Stlačenie</string>
     <string name="ai_settings_double_click_category">Dvojité stlačenie tlačidla AI</string>
@@ -665,6 +666,7 @@ Ak je toto povolenie vypnuté, existujúce budíky a udalosti s časovým obme
     <string name="all_supported_app_locales_title">Všetky jazyky</string>
     <string name="all_volume_title">Hlasitosť</string>
     <string name="allow">Povoliť</string>
+    <string name="allow_badge_summary">Povoľte zobrazenie očíslovanej červenej bodky na ikonách na Domovskej obrazovke na označenie upozornení alebo nového obsahu</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Po vytvorení miniaplikácie získa aplikácia prístup k všetkému zobrazenému obsahu.
 
 Aplikácia: %1$s
@@ -687,6 +689,7 @@ Miniaplikácia: %2$s
     <string name="allow_mock_location_summary">Povoliť simulované polohy</string>
     <string name="allow_mock_modem">Povoliť službu Mock Modem</string>
     <string name="allow_mock_modem_summary">Povoliť spúšťanie služby Mock Modem v tomto zariadení na testovanie inštrumentácie. Túto možnosť nepovoľujte počas bežného používania telefónu</string>
+    <string name="allow_ongoing_summary">Povoliť upozornenia, ktoré možno vymazať len ručne</string>
     <string name="allow_ongoing_title">Stále upozornenia</string>
     <string name="allow_overlay_description">Umožní tejto aplikácii zobrazovať sa nad inými aplikáciami, ktoré používate. Táto aplikácia bude vidieť, kde klepnete, a môcť zmeniť obsah na obrazovke.</string>
     <string name="allow_sound_title">Zvuk</string>
@@ -1220,7 +1223,7 @@ Naposledy spustené: %2$s"</string>
     <string name="back_navigation_animation_summary">Povoliť animácie v systéme pre prediktívne gesto Späť</string>
     <string name="back_sensitivity_dialog_message">Vyššia citlivosť môže kolidovať s gestami aplikácie pri okrajoch obrazovky.</string>
     <string name="back_sensitivity_dialog_title">Citlivosť prechádzania späť</string>
-    <string name="back_strap_image_text">Dostávajte upozornenia a svetelné efekty pre rôzne scenáre</string>
+    <string name="back_strap_image_text">Keď je zariadenie položené displejom nadol a obrazovka je vypnutá, na zadnom svetle sa zobrazia upozornenia a svetelné efekty pre rôzne scenáre.</string>
     <string name="back_strap_status_close">Vyp.</string>
     <string name="back_strap_status_open">Zap.</string>
     <string name="back_strap_title">Efekty zadného osvetlenia</string>
@@ -1715,7 +1718,7 @@ K zariadeniu %2$s ste sa ešte nikdy nepripojili."</string>
     <string name="bluetooth_device_details">Nastavenia zariadenia</string>
     <string name="bluetooth_device_keyboard_settings_preference_title">Nastavenia klávesnice</string>
     <string name="bluetooth_device_mac_address">Adresa Bluetooth zariadenia: %1$s</string>
-    <string name="bluetooth_device_misc_title">Ojedinele používané zariadenia</string>
+    <string name="bluetooth_device_misc_title">Zriedkavo používané zariadenia</string>
     <string name="bluetooth_device_name">"Názov: "</string>
     <string name="bluetooth_device_name_summary">Viditeľné pre ostatné zariadenia ako ^1</string>
     <string name="bluetooth_device_nearby_title">Zariadenia v okolí</string>
@@ -1785,12 +1788,15 @@ K zariadeniu %2$s ste sa ešte nikdy nepripojili."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Použité pre zvuky telefónu</string>
     <string name="bluetooth_hearing_aid_left_active">Aktívne (iba ľavé)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktívne (ľavé aj pravé)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Obidve nasluchadlá pripojené k zariadeniu %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Ľavé nasluchadlo pripojené k zariadeniu %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktívne (iba médiá), iba ľavá strana</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktívne (iba médiá), ľavá aj pravá strana</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktívne (iba médiá), iba pravá strana</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Pripojené k naslúchadlu</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Použité pre naslúchadlo</string>
     <string name="bluetooth_hearing_aid_right_active">Aktívne (iba pravé)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Pravé nasluchadlo pripojené k zariadeniu %1$s</string>
     <string name="bluetooth_hearing_aids_presets">Predvoľba</string>
     <string name="bluetooth_hearing_aids_presets_error">Predvoľbu sa nepodarilo aktualizovať</string>
     <string name="bluetooth_hearing_device_settings_summary">Skratka, kompatibilita s načúvadlami</string>
@@ -1859,6 +1865,10 @@ Ak chcete spárovať pravé, skontrolujte, či je zapnuté a pripravené na pá
 Ak chcete spárovať ľavé, skontrolujte, či je zapnuté a pripravené na párovanie."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Spárovať pravé ucho</string>
     <string name="bluetooth_pair_other_ear_dialog_title">Spárujte si druhé ucho</string>
+    <string name="bluetooth_pair_other_hearing_dialog_positive_button">Párovať</string>
+    <string name="bluetooth_pair_other_hearing_dialog_title">Spárovať s druhým načúvacím prístrojom</string>
+    <string name="bluetooth_pair_other_left_hearing_dialog_message">Pravý načúvací prístroj je pripojený. Skontrolujte, či je ľavý načúvací prístroj zapnutý a pripravený na párovanie.</string>
+    <string name="bluetooth_pair_other_right_hearing_dialog_message">Ľavý načúvací prístroj je pripojený. Skontrolujte, či je pravý načúvací prístroj zapnutý a pripravený na párovanie.</string>
     <string name="bluetooth_pair_right_ear_button">Spárovať pravé ucho</string>
     <string name="bluetooth_paired">Uložené</string>
     <string name="bluetooth_paired_device_title">Vaše zariadenia</string>
@@ -2184,7 +2194,7 @@ Túto funkciu môžete vypnúť v Nastaveniach > Bluetooth > Spárované zariade
     <string name="bt_plugin_set_net_dialog_retry">Skúste to znova</string>
     <string name="bt_plugin_set_net_dialog_title">Nepodarilo sa pripojiť k sieti</string>
     <string name="bt_pre_summary">Poskytuje vysoko kvalitný zvukový zážitok</string>
-    <string name="bt_rarely_used_device_title">Ojedinele používané zariadenia (%d)</string>
+    <string name="bt_rarely_used_device_title">Zriedkavo používané zariadenia (%d)</string>
     <string name="bt_show_notification_summary">Ponechať upozornenie v Notifikačnej roletke</string>
     <string name="bt_show_notification_title">Upozorniť na Bluetooth pripojenia</string>
     <string name="bt_stack_log_level">Povoliť denník zásobníka rozhrania Bluetooth</string>
@@ -2457,6 +2467,7 @@ Keď je toto povolenie zapnuté, aplikácia bude k dispozícii ako možnosť pr
     <string name="choose_unlock_face_msg">Pred pridaním údajov o tvári nastavte zámok obrazovky.</string>
     <string name="choose_unlock_fingerprint_msg">Pred pridaním odtlačku prsta nastavte zámok obrazovky.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Vyhľadávanie krúžením</string>
     <string name="classic_mode_summary">Prepnúť na teplejšie farby pre obmedzenie modrej farby</string>
     <string name="classic_mode_title">Klasický</string>
     <string name="cleaner">Čistenie</string>
@@ -2891,7 +2902,6 @@ Ak tento proces prerušíte, môžete prísť o časť alebo všetky svoje dáta
     <string name="dark_mode_day_night_mode_summary">Zariadenie sa pri západe slnka prepne do tmavého režimu a pri východe slnka sa prepne do svetlého režimu. Ak chcete získať najpresnejšie výsledky, zapnite služby určovania polohy.</string>
     <string name="dark_mode_day_night_mode_title">Od západu slnka po východ</string>
     <string name="dark_mode_display_enable_summary">Prepnúť na používateľské rozhranie so slabým osvetlením, ktoré zobrazuje prevažne tmavé plochy</string>
-    <string name="dark_mode_font_background_title">Upraviť text a pozadia automaticky</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Rozumiem</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Po vypnutí systémovej optimalizácie a zapnutí Šetrenia batérie sa Tmavý režim spustí automaticky.
 Pre vypnutie Tmavého režimu vypnite Šetrenie batérie alebo zapnite optimalizáciu systému v časti Nastavenia > Možnosti pre vývojárov > Zapnúť optimalizáciu systému."</string>
@@ -3781,7 +3791,7 @@ Reštartujte zariadenie a skúste to znova."</string>
     <string name="external_source_untrusted">Nie je povolené</string>
     <string name="extreme_threats_summary">Prijímať upozornenia na extrémne ohrozenie života a majetku</string>
     <string name="extreme_threats_title">Extrémne hrozby</string>
-    <string name="eye_gaze_dialog_message">Ak zapnete funkciu Rozpoznať pohľad, zariadenie sa nezamkne, keď detekuje, že sa pozeráte na obrazovku. Vlastnosti tváre nebudú analyzované a údaje o tvári sa nebudú ukladať na zariadenia ani nahrávať do cloudu. Prajete si teraz túto funkciu zapnúť?</string>
+    <string name="eye_gaze_dialog_message">Keď je táto funkcia zapnutá, systém zistí, či sa pozeráte na obrazovku, no črty vašej tváre sa nebudú analyzovať a tieto údaje sa nebudú ukladať do zariadenia ani sa nebudú odosielať do cloudu. Zapnúť teraz?</string>
     <string name="eye_gaze_dialog_title">Bezpečnostné oznámenie</string>
     <string name="eye_gaze_summary">Zariadenie sa nezamkne, keď zistí, že sa práve pozeráte na obrazovku</string>
     <string name="eye_gaze_summary_fold_device">Zariadenie sa nezamkne, keď zistí, že sa práve pozeráte na vonkajšiu obrazovku</string>
@@ -3864,6 +3874,7 @@ na vonkajšiu obrazovku"</string>
     <string name="face_unlock_success_stay_screen_title">Po odomknutí ostať na Zamknutej obrazovke</string>
     <string name="face_unlock_title">Telefón môžete odomknúť tvárou. Táto možnosť vyžaduje z bezpečnostných dôvodov záložnú zámku obrazovky.</string>
     <string name="face_unlock_when_slt_on_toast">Pri používaní satelitnej komunikácie Tiantong nie je možné používať funkciu Odomknutie pomocou tváre</string>
+    <string name="factory_reset_loading">Vykonáva sa obnovenie do továrenských nastavení…</string>
     <string name="factory_reset_summary">Formátovanie vymaže všetky údaje z interného úložiska vášho zariadenia</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Príliš veľa chybných pokusov. Údaje tohto zariadenia budú odstránené.</string>
@@ -4040,6 +4051,7 @@ Viac sa dozviete od svojho poskytovateľa úveru."</string>
     <string name="flash_notifications_keywords">blesk, svetlo, slabo počujúci, strata sluchu</string>
     <string name="flash_notifications_note">\"Beam pre upozornenia\" vizualizuje zvuky upozornení a vyzváňacie tóny pomocou blesku fotoaparátu a obrazovky. Ak ste citlivý na svetlo, používajte túto funkciu opatrne.</string>
     <string name="flash_notifications_preview">Náhľad</string>
+    <string name="flash_notifications_settings_title">Notifikácie bleskom</string>
     <string name="flash_notifications_summary">Použiť blesk fotoaparátu alebo farebné pruhy na obrazovke pri príchode oznámenia alebo zvonenia</string>
     <string name="flash_notifications_summary_off">Vypnuté</string>
     <string name="flash_notifications_summary_on_camera">Zapnuté / zasvieti blesk</string>
@@ -4133,6 +4145,9 @@ Viac sa dozviete od svojho poskytovateľa úveru."</string>
     <string name="font_cta_alert_btn_positive">Súhlasím</string>
     <string name="font_cta_alert_message">Pre pokračovanie si prečítajte a vyjadrite súhlas s pravidlami a podmienkami aplikácie Motívy.</string>
     <string name="font_cta_alert_title">Pravidlá a podmienky</string>
+    <string name="font_preview_text_content">"Príklad textu:
+
+Spoločnosť Xiaomi neúnavne vytvára úžasné produkty za poctivé ceny, aby si každý na svete mohol užívať lepší život vďaka inovatívnej technológii."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Aktuálny font nepodporuje upravovanie hrúbky písma</string>
     <string name="font_settings_jump">Zjednodušenie prístupu > Veľkosť displeja</string>
@@ -4293,9 +4308,12 @@ Keď zapnete automatické zálohovanie, údaje zariadenia a aplikácií sa budú
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Herné ovládače</string>
     <string name="game_storage_settings">Hry</string>
-    <string name="gaze_lock_screen_summary">Pri zistení vašej prítomnosti zostane zariadenie odomknuté. Zariadenie sa zamkne, keď sa vzdialite od obrazovky</string>
+    <string name="gaze_lock_screen_summary">Zariadenie zostane odomknuté, keď sa pozeráte na obrazovku, a zamkne sa, keď sa pozriete inam, aby chránilo vaše súkromie. Interval automatického uzamknutia sa nepoužíva.</string>
     <string name="gaze_lock_screen_title">Detekovať prítomnosť</string>
     <string name="gd_setting_title">Bočný panel</string>
+    <string name="gemini_description">Četujte s Gemini a vylepšite svoje nápady. Získajte pomoc pri učení, písaní ďakovných listov, plánovaní podujatí a ďalších činnostiach. Pomocou textu, hlasu, fotografií a fotoaparátu môžete získať pomoc novými spôsobmi. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Learn more about availability</a></string>
+    <string name="gemini_function">Zlepšite svoje nápady pomocou nového asistenta AI Google Gemini</string>
+    <string name="gemini_setting">Nastavenia Gemini</string>
     <string name="general_category_title">Všeobecné</string>
     <string name="general_notification_header">Správa</string>
     <string name="general_text">Textové pole</string>
@@ -4308,6 +4326,12 @@ Keď zapnete automatické zálohovanie, údaje zariadenia a aplikácií sa budú
     <string name="gesture_button_restart">Reštart.</string>
     <string name="gesture_button_skip">Preskočiť</string>
     <string name="gesture_function_dialog_message">%1$s je použité pre %2$s. Nahradiť gestom \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Dvakrát ťuknite na Zamknutú obrazovku pre prebudenie</string>
+    <string name="gesture_lockcreen_sleep_title">Dvakrát ťuknite na Zamknutú obrazovku pre uspanie</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Na dvojité ťuknutie</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Žiadne</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Na dotyk</string>
+    <string name="gesture_lockcreen_wakeup_title">Prebudiť obrazovku</string>
     <string name="gesture_preference_title">Gestá</string>
     <string name="gesture_prevent_ringing_screen_title">Vypnúť zvonenie</string>
     <string name="gesture_prevent_ringing_sound_title">Skratka na vypnutie zvonenia</string>
@@ -4446,6 +4470,12 @@ Oblasť, kde môžete potvrdiť zámku obrazovky, sa presunie doprava."</string>
     <string name="gxzw_quick_open_slow_summary">Stlačte a podržte ikonu odtlačku prsta a otvorte ponuku s odkazom. Potiahnite prstom pre použitie odkazu.</string>
     <string name="gxzw_quick_open_slow_title">Stlačte a podržte</string>
     <string name="gxzw_quick_open_title">Odkazy</string>
+    <string name="gxzw_recognizing_anim_a">Ripple</string>
+    <string name="gxzw_recognizing_anim_b">Špirála</string>
+    <string name="gxzw_recognizing_anim_c">Haló</string>
+    <string name="gxzw_recognizing_anim_d">Vlna</string>
+    <string name="gxzw_recognizing_anim_e">Clona</string>
+    <string name="gxzw_recognizing_anim_f">Difúzia</string>
     <string name="gxzw_vibrate_summary">Zariadenie nebude vibrovať, pokiaľ nie je zvolená žiadna animácia odtlačku prsta</string>
     <string name="gxzw_vibrate_title">Vibrovať pri odomknutí</string>
     <string name="handle_ota_connect_first">Pripojiť kryt</string>
@@ -4552,6 +4582,7 @@ Oblasť, kde môžete potvrdiť zámku obrazovky, sa presunie doprava."</string>
     <string name="health_use_of_pad">Zdravé používanie zariadenia</string>
     <string name="health_use_of_phone">Zdravé používanie zariadenia</string>
     <string name="hearing_aids_category">Sluchové asistenčné nástroje</string>
+    <string name="hearing_stream_option">Možnosti zvuku</string>
     <string name="heavy_weight_stop_description">Túto aplikáciu nie je možné bezpečne zastaviť. Ak ju zastavíte, môže dôjsť k strate časti vašej práce.</string>
     <string name="height_light_list_text">Zoznam dôležitých položiek</string>
     <string name="help_and_feedback_title">Pomoc a spätná väzba</string>
@@ -5101,6 +5132,7 @@ Otvorte Xiaomi Cloud a obnovte položky odtiaľ."</string>
     <string name="layout_size_small_text">Extra malé</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Ďalšie informácie</string>
+    <string name="leave_lockscreen_summary">Zariadenie sa uzamkne, keď sa vzdialite od obrazovky</string>
     <string name="leave_loclscreen_summary">Obrazovka sa automaticky uzamkne, keď sa vzdialite na určitú vzdialenosť od svojho zariadenia</string>
     <string name="leave_loclscreen_title">Uzamknutie obrazovky pri odchode</string>
     <string name="led_colors_summary">Farba upozornení</string>
@@ -5109,6 +5141,7 @@ Otvorte Xiaomi Cloud a obnovte položky odtiaľ."</string>
     <string name="led_settings">LED kontrolky</string>
     <string name="left_edge">Ľavý okraj</string>
     <string name="left_function_key">Ľavý odkaz</string>
+    <string name="left_hearing_aid">Ľavé naslúchadlo</string>
     <string name="left_right_hand_switch">Ľavá a pravá</string>
     <string name="left_right_hand_switch_summary">Umožnite prepínať ľavú a pravú časť klávesnice jediným klepnutím</string>
     <string name="left_shoulder_key">Ľavé</string>
@@ -5775,7 +5808,7 @@ Túto akciu nebude možné vrátiť späť."</string>
     <string name="media_controls_show_player">Zobraziť prehrávač</string>
     <string name="media_controls_title">Médiá</string>
     <string name="media_dialog_ok">Rozumiem</string>
-    <string name="media_dialog_summary">Keď je táto funkcia zapnutá, zariadenie bude vibrovať spolu s rytmom podporovanej hudby a videí, čo poskytne plnší a pohlcujúcejší zážitok.</string>
+    <string name="media_dialog_summary">Keď je táto funkcia zapnutá, zariadenie bude vibrovať spolu s rytmom podporovanej hudby, čo poskytne plnší a pohlcujúcejší zážitok.</string>
     <string name="media_dialog_title">Zapnúť hmatovú odozvu</string>
     <string name="media_drm_settings_title">Nastavenia DRM pre médiá</string>
     <string name="media_feedback_enable_title">Vibrovať v rytme hudby</string>
@@ -6457,7 +6490,7 @@ Vyberte váš operačný systém:"</string>
     <string name="multi_face_input_reach_upper_limit">Údaje o tvári sa nepodarilo načítať. Chvíľu počkajte a skúste to znovu.</string>
     <string name="multi_face_input_success_name_title">Názov</string>
     <string name="multi_face_list">Údaje o tvári</string>
-    <string name="multi_face_name_prefix">"Tvár "</string>
+    <string name="multi_face_name_prefix">Údaje o tvári %s</string>
     <string name="multi_face_number_reach_limit">Nie je možné pridať údaje pre viac ako 2 tváre</string>
     <string name="multi_music_coexistence_summary">Počas prichádzajúcich upozornení alebo pri prehrávaní zvuku z iného zdroja neupravujte hlasitosť médií</string>
     <string name="multi_music_coexistence_title">Viacero zdrojov zvuku</string>
@@ -7200,13 +7233,22 @@ Pred použitím tejto služby si prečítajte a vyjadrite súhlas s dokumentom %
     <string name="photography_handle_button_function_settings">Nastavte tlačidlo snímania</string>
     <string name="photography_handle_charge_protected">Ochrana proti nabíjaniu držiaka</string>
     <string name="photography_handle_charge_protected_summary">Po pripojení držiaka fotoaparátu sa zariadenie prestane nabíjať a batéria zostane na úrovni %1$s</string>
+    <string name="photography_handle_charge_settings">Nastavenia nabíjania</string>
     <string name="photography_handle_charge_state">Nabíjanie z držiaka fotoaparátu</string>
+    <string name="photography_handle_charge_state_choice_always">Vždy</string>
+    <string name="photography_handle_charge_state_choice_emergency">Núdzový stav</string>
     <string name="photography_handle_charge_state_summary">Nabíjať toto zariadenie z držiaka fotoaparátu vždy, keď je pripojený</string>
+    <string name="photography_handle_charge_state_summary_new">Po pripojení tohto zariadenia sa začne nabíjanie z držiaka fotoaparátu</string>
+    <string name="photography_handle_emergency_charge_summary">Spustiť núdzové nabíjanie, keď batéria klesne pod %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Núdzová úroveň nabíjania</string>
+    <string name="photography_handle_function_settings">Nastavenie držiaka fotoaparátu</string>
     <string name="photography_handle_launch_and_take_photo">Vytvoriť fotografiu</string>
     <string name="photography_handle_launch_camera">Otvoriť fotoaparát</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Ak chcete vykonať akciu, stlačte a podržte tlačidlo spúšte</string>
     <string name="photography_handle_quick_launch_camera_title">Rýchle spustenie</string>
+    <string name="photography_handle_sn">Sériové číslo</string>
     <string name="photography_handle_title">Držiak fotoaparátu</string>
+    <string name="photography_handle_update_and_maintain">Aktualizácie</string>
     <string name="physical_keyboard_title">Fyzická klávesnica</string>
     <string name="pick_up_gesture_wakeup_title">Prebudiť zodvihnutím</string>
     <string name="picker_text">Výber času</string>
@@ -7540,7 +7582,7 @@ Stlačte naraz vypínač a tlačidlo zvýšenia hlasitosti."</string>
     <string name="privacy_password_title">Heslo ochrany súkromia</string>
     <string name="privacy_password_toggle_summary">Vyžadovať heslo zakaždým pri otvorení súkromných položiek.</string>
     <string name="privacy_password_transparent_tiltle" />
-    <string name="privacy_password_use_finger_dialog_mess">Môžete použiť váš odtlačok prsta s Heslom ochrany súkromia.</string>
+    <string name="privacy_password_use_finger_dialog_mess">Môžete použiť váš odtlačok prsta s heslom ochrany súkromia.</string>
     <string name="privacy_password_use_finger_dialog_open">Nastavenia</string>
     <string name="privacy_password_use_finger_dialog_title">Odomknutie pomocou odtlačku prsta</string>
     <string name="privacy_password_use_finger_success">Povolené</string>
@@ -7969,6 +8011,7 @@ Okrem toho budú z "<b>interného úložiska</b> telefónu natrvalo odstránen�
     <string name="rhythmic_mode_enable_title">Cyklus</string>
     <string name="right_edge">Pravý okraj</string>
     <string name="right_function_key">Pravý odkaz</string>
+    <string name="right_hearing_aid">Pravé naslúchadlo</string>
     <string name="right_shoulder_key">Pravé</string>
     <string name="ring_to_you">Predvolený tón zvonenia</string>
     <string name="ring_to_you_info">Nastavte si vlastný tón, ktorý budú ostatní počuť predtým ako zdvihnete</string>
@@ -8029,6 +8072,7 @@ Okrem toho budú z "<b>interného úložiska</b> telefónu natrvalo odstránen�
     <string name="same_source_synced">Vysielanie úspešne pridané</string>
     <string name="sar">Informácie o vystavení vysokofrekvenčnému (VF) žiareniu</string>
     <string name="satellite_call_assistant">Nastavenia hovoru</string>
+    <string name="satellite_management_title">Satelitná sieť</string>
     <string name="satellite_network_title">Funkcie satelitného hovoru</string>
     <string name="satellite_setting">Správy cez satelit</string>
     <string name="satellite_setting_disabled_summary">Odosielajte a prijímajte textové správy cez satelit. Táto možnosť nie je zahrnutá vo vašom účte.</string>
@@ -9973,6 +10017,8 @@ Zvážte použitie rýchlejšieho úložiska ^3 alebo využite namiesto toho jed
     <string name="tethering_hardware_offload_summary">Používať hardvérovú akceleráciu tetheringu (ak je k dispozícii)</string>
     <string name="tethering_help_button_text">Pomocník</string>
     <string name="tethering_settings_not_available">Zmeniť nastavenia tetheringu v Prvom priestore</string>
+    <string name="text_layout_optimization_switch_label">Optimalizovať rozloženie textu</string>
+    <string name="text_layout_optimization_switch_toast">Nie je možné optimalizovať rozloženie textu s aktuálnym písmom</string>
     <string name="texture_adjust_temperature_title">Teplota farby</string>
     <string name="the_anniversary_of_lifting_martial_law">Výročie zrušenia stanného práva</string>
     <string name="the_anti_aggression_day">Deň proti násiliu</string>
@@ -11330,6 +11376,10 @@ Nastavením danej siete ako skrytej nezmeníte nastavenia smerovača."</string>
     <string name="wifi_protection_tip">Xiaomi bude chrániť vaše osobné údaje pred požiadavkami Wi-Fi sondovania z náhodných MAC adries a Wi-Fi sondovacích ploštíc počas vyhľadávania Wi-Fi sietí.</string>
     <string name="wifi_quick_toggle_summary">Zapnúť Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Vaše heslo Wi-Fi je nesprávne. Zadajte ho znova.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Nesprávne heslo Wi-Fi</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Uložené</string>
     <string name="wifi_remembered_disabled_auto_connect">Uložené. Nepripojí sa automaticky.</string>
     <string name="wifi_require_sim_card_to_connect">Na pripojenie sa vyžaduje SIM karta</string>

@@ -638,6 +638,7 @@ Quản trị viên của bạn có thể giám sát và quản lý cài đặt, 
     <string name="ai_button_title">Phím Mi AI</string>
     <string name="ai_button_title_global">Phím AI</string>
     <string name="ai_call_assistant">Cuộc gọi AI</string>
+    <string name="ai_notification_settings">Tóm tắt thông báo AI</string>
     <string name="ai_services_title">Dịch vụ AI</string>
     <string name="ai_settings_click_title">Bấm</string>
     <string name="ai_settings_double_click_category">Bấm đúp Phím AI</string>
@@ -665,6 +666,7 @@ Nếu không cấp quyền này, các chuông báo và sự kiện theo thời g
     <string name="all_supported_app_locales_title">Tất cả ngôn ngữ</string>
     <string name="all_volume_title">Âm lượng</string>
     <string name="allow">Cho phép</string>
+    <string name="allow_badge_summary">Cho phép hiển thị dấu chấm đỏ được đánh số trên các biểu tượng Màn hình chính để chỉ ra thông báo hoặc nội dung mới</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Sau khi bạn tạo tiện ích, ứng dụng có thể truy cập vào mọi dữ liệu được hiển thị.
 
 Ứng dụng: %1$s
@@ -687,6 +689,7 @@ Tiện ích: %2$s
     <string name="allow_mock_location_summary">Cho phép vị trí mô phỏng</string>
     <string name="allow_mock_modem">Cho phép modem mô phỏng</string>
     <string name="allow_mock_modem_summary">Cho phép thiết bị này chạy dịch vụ Modem mô phỏng để thử nghiệm đo lường. Đừng nên bật dịch vụ này trong quá trình sử dụng điện thoại thông thường</string>
+    <string name="allow_ongoing_summary">Cho phép thông báo chỉ có thể xóa thủ công</string>
     <string name="allow_ongoing_title">Thông báo cố định</string>
     <string name="allow_overlay_description">Cho phép ứng dụng này hiển thị trên các ứng dụng khác mà bạn đang dùng. Ứng dụng này có thể xem vị trí mà bạn nhấn vào hoặc thay đổi nội dung hiển thị trên màn hình.</string>
     <string name="allow_sound_title">Âm thanh</string>
@@ -708,7 +711,7 @@ Tiện ích: %2$s
     <string name="ambient_display_pickup_title">Nhấc để kiểm tra điện thoại</string>
     <string name="ambient_display_screen_summary_always_on">Luôn bật / Mức sử dụng pin tăng</string>
     <string name="ambient_display_screen_summary_notifications">Thông báo mới</string>
-    <string name="ambient_display_screen_title">Always-on display</string>
+    <string name="ambient_display_screen_title">Luôn luôn hiển thị</string>
     <string name="ambient_display_summary">Để xem giờ, thông báo và thông tin khác, hãy nhấn đúp vào màn hình.</string>
     <string name="ambient_display_tap_screen_summary">Để xem giờ, thông báo và thông tin khác, hãy nhấn vào màn hình.</string>
     <string name="ambient_display_tap_screen_title">Nhấn để kiểm tra điện thoại</string>
@@ -742,7 +745,7 @@ Tiện ích: %2$s
     <string name="aod_notification_style_animation">Ảnh động</string>
     <string name="aod_notification_style_none">Không</string>
     <string name="aod_notification_style_screen_on">Màn hình sáng lên</string>
-    <string name="aod_settings_category_name">Always-on display</string>
+    <string name="aod_settings_category_name">Luôn luôn hiển thị</string>
     <string name="aod_settings_title">Always-on display</string>
     <string name="aod_show_mode_title">Hiển thị các mục</string>
     <string name="aod_style_description">Hiển thị đồng hồ, ngày, giờ, thông báo và các mục khác khi màn hình tắt</string>
@@ -1220,7 +1223,7 @@ Lần chạy gần đây nhất vào %2$s"</string>
     <string name="back_navigation_animation_summary">Bật ảnh của hệ thống để xem trước thao tác quay lại</string>
     <string name="back_sensitivity_dialog_message">Độ nhạy cao hơn có thể xung đột với những cử chỉ trong ứng dụng dọc theo các cạnh màn hình.</string>
     <string name="back_sensitivity_dialog_title">Độ nhạy với cử chỉ quay lại</string>
-    <string name="back_strap_image_text">Nhận nhắc nhở thông báo và hiệu ứng ánh sáng cho các cảnh khác nhau</string>
+    <string name="back_strap_image_text">Khi thiết bị úp xuống với màn hình tắt, đèn nền sẽ hiển thị nhắc nhở thông báo và hiệu ứng ánh sáng cho các cảnh khác nhau</string>
     <string name="back_strap_status_close">Tắt</string>
     <string name="back_strap_status_open">Bật</string>
     <string name="back_strap_title">Hiệu ứng ánh sáng nền</string>
@@ -1785,12 +1788,15 @@ Bạn chưa từng kết nối với %2$s."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Dùng cho âm thanh điện thoại</string>
     <string name="bluetooth_hearing_aid_left_active">Đang hoạt động (chỉ tai trái)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Đang hoạt động (cả tai phải và tai trái)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Cả hai trợ thính đã kết nối với %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Trợ thính bên trái đã kết nối với %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Đang hoạt động (chỉ phát nội dung đa phương tiện), chỉ dùng tai nghe bên trái</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Đang hoạt động (chỉ phát nội dung đa phương tiện), đang dùng cả tai nghe bên trái và phải</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Đang hoạt động (chỉ phát nội dung đa phương tiện), chỉ dùng tai nghe bên phải</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Đã kết nối trợ thính</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Dùng cho trợ thính</string>
     <string name="bluetooth_hearing_aid_right_active">Đang hoạt động (chỉ tai phải)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Trợ thính bên phải đã kết nối với %1$s</string>
     <string name="bluetooth_hearing_aids_presets">Chế độ đặt sẵn</string>
     <string name="bluetooth_hearing_aids_presets_error">Không cập nhật được giá trị đặt trước</string>
     <string name="bluetooth_hearing_device_settings_summary">Phím tắt, khả năng tương thích với thiết bị trợ thính</string>
@@ -1859,6 +1865,10 @@ Bạn chưa kết nối với %2$s trước đây."</string>
 Để ghép nối thiết bị trợ thính cho tai trái, hãy đảm bảo rằng thiết bị đã bật và ở trạng thái sẵn sàng ghép nối."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Ghép nối tai phải</string>
     <string name="bluetooth_pair_other_ear_dialog_title">Ghép nối tai khác</string>
+    <string name="bluetooth_pair_other_hearing_dialog_positive_button">Ghép nối</string>
+    <string name="bluetooth_pair_other_hearing_dialog_title">Ghép nối với trợ thính khác</string>
+    <string name="bluetooth_pair_other_left_hearing_dialog_message">Trợ thính bên phải đã được kết nối. Đảm bảo trợ thính bên trái đã được bật và sẵn sàng ghép nối.</string>
+    <string name="bluetooth_pair_other_right_hearing_dialog_message">Trợ thính bên trái đã được kết nối. Đảm bảo trợ thính bên phải đã được bật và sẵn sàng ghép nối.</string>
     <string name="bluetooth_pair_right_ear_button">Ghép nối tai phải</string>
     <string name="bluetooth_paired">Đã lưu</string>
     <string name="bluetooth_paired_device_title">Các thiết bị của bạn</string>
@@ -2457,6 +2467,7 @@ Nếu quyền này bật, ứng dụng sẽ xuất hiện dưới dạng lựa c
     <string name="choose_unlock_face_msg">Đặt khóa màn hình trước khi ghi dữ liệu khuôn mặt.</string>
     <string name="choose_unlock_fingerprint_msg">Đặt khóa màn hình trước khi thêm vân tay.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Khoanh tròn để tìm kiếm</string>
     <string name="classic_mode_summary">Chuyển sang màu ấm hơn để giảm lượng ánh sáng xanh</string>
     <string name="classic_mode_title">Cổ điển</string>
     <string name="cleaner">Dọn dẹp</string>
@@ -2607,7 +2618,7 @@ Nếu quyền này bật, ứng dụng sẽ xuất hiện dưới dạng lựa c
     <string name="communal_settings_summary">Các chế độ cài đặt dùng chung</string>
     <string name="communal_settings_title">Dùng chung</string>
     <string name="complete_parameters">Tất cả thông số</string>
-    <string name="complete_parameters_new">Thông tin và và thông số chi tiết</string>
+    <string name="complete_parameters_new">Thông tin và thông số chi tiết</string>
     <string name="complete_settings">Cài đặt chung</string>
     <string name="compute_power_sharing">Hỗ trợ tính toán</string>
     <string name="compute_power_sharing_summary">Tận dụng sức mạnh tính toán của điện thoại để sử dụng các tính năng AI trên máy tính bảng</string>
@@ -2891,7 +2902,6 @@ Nếu quá trình gián đoạn bạn sẽ mất một phần hoặc toàn bộ 
     <string name="dark_mode_day_night_mode_summary">Thiết bị sẽ chuyển sang Chế độ nền tối khi mặt trời lặn và quay lại Chế độ Sáng khi mặt trời mọc. Bật dch vụ vị trí để có kết quả chính xác nhất.</string>
     <string name="dark_mode_day_night_mode_title">Từ lúc hoàng hôn đến bình minh</string>
     <string name="dark_mode_display_enable_summary">Chuyển sang giao diện người dùng ánh sáng yếu hiển thị hầu hết các bề mặt tối</string>
-    <string name="dark_mode_font_background_title">Điều chỉnh văn bản và nền tự động</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Tôi biết</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Nếu bạn tắt tối ưu hệ thống và bật Tiết kiệm pin, Chế độ nền tối sẽ tự động bật.
 Để tắt Chế độ nền tối, tắt Tiết kiệm pin hoặc bật tối ưu hệ thống trong Cài đặt > Tùy chọn nhà phát triển > Bật tối ưu hệ thống."</string>
@@ -3781,7 +3791,7 @@ Hãy khởi động lại thiết bị rồi thử lại."</string>
     <string name="external_source_untrusted">Không được phép</string>
     <string name="extreme_threats_summary">Nhận c.báo về mối đe dọa cực kỳ ng.trọng đến s.mạng và t.sản</string>
     <string name="extreme_threats_title">Mối đe dọa cực kỳ nghiêm trọng</string>
-    <string name="eye_gaze_dialog_message">Khi bạn bật Phát hiện ánh nhìn, thiết bị sẽ không khóa khi phát hiện bạn đang nhìn vào màn hình. Các đặc điểm khuôn mặt của bạn sẽ không được phân tích và thông tin khuôn mặt sẽ không được lưu trữ trên thiết bị hoặc tải lên đám mây. Bật ngay?</string>
+    <string name="eye_gaze_dialog_message">Khi tính năng này bật, hệ thống sẽ phát hiện xem bạn có đang nhìn vào màn hình hay không, nhưng các đặc điểm trên khuôn mặt của bạn sẽ không được phân tích và dữ liệu này sẽ không được lưu trữ trên thiết bị của bạn hoặc tải lên đám mây. Bật ngay?</string>
     <string name="eye_gaze_dialog_title">Thông báo bảo mật</string>
     <string name="eye_gaze_summary">Thiết bị sẽ không khóa khi phát hiện bạn đang nhìn vào màn hình</string>
     <string name="eye_gaze_summary_fold_device">Thiết bị sẽ không khóa khi phát hiện bạn đang nhìn vào màn hình ngoài</string>
@@ -3864,6 +3874,7 @@ hướng mặt đến màn hình bên ngoài"</string>
     <string name="face_unlock_success_stay_screen_title">Ở lại trên Màn hình khóa sau khi mở khóa</string>
     <string name="face_unlock_title">Bạn có thể mở khoá điện thoại bằng khuôn mặt. Để bảo mật, lựa chọn này yêu cầu bạn phải có một phương thức khoá màn hình dự phòng.</string>
     <string name="face_unlock_when_slt_on_toast">Không thể sử dụng Mở khóa bằng khuôn mặt khi sử dụng liên lạc qua Vệ tinh Tiantong</string>
+    <string name="factory_reset_loading">Đang thực hiện đặt lại cài đặt gốc…</string>
     <string name="factory_reset_summary">Định dạng sẽ xóa tất cả dữ liệu khỏi bộ nhớ trong của thiết bị</string>
     <string name="fahrenheit_temperature_unit">Độ F (°F)</string>
     <string name="failed_attempts_now_wiping_device">Quá nhiều lần thử không chính xác. Dữ liệu trên thiết bị này sẽ bị xoá.</string>
@@ -4040,6 +4051,7 @@ Nếu không thanh toán đúng hạn, tổ chức tín dụng có thể khoá t
     <string name="flash_notifications_keywords">đèn flash, đèn, thính giác kém, mất thính lực</string>
     <string name="flash_notifications_note">\"Sáng lên khi nhận thông báo\" trực quan hóa âm thông báo và nhạc chuông bằng đèn flash của camera và màn hình. Nếu bạn nhạy cảm với ánh sáng, hãy thận trọng khi sử dụng tính năng này.</string>
     <string name="flash_notifications_preview">Xem trước</string>
+    <string name="flash_notifications_settings_title">Thông báo flash</string>
     <string name="flash_notifications_summary">Sử dụng đèn flash của camera hoặc hiển thị các tia sáng trên màn hình khi nhận được thông báo hoặc thiết bị đang đổ chuông.</string>
     <string name="flash_notifications_summary_off">Đang tắt</string>
     <string name="flash_notifications_summary_on_camera">Đang bật/Đèn flash của máy ảnh</string>
@@ -4133,6 +4145,9 @@ Nếu không thanh toán đúng hạn, tổ chức tín dụng có thể khoá t
     <string name="font_cta_alert_btn_positive">Đồng ý</string>
     <string name="font_cta_alert_message">Đọc và đồng ý với các điều khoản và điều kiện của Chủ đề để tiếp tục.</string>
     <string name="font_cta_alert_title">Điều khoản và Điều kiện</string>
+    <string name="font_preview_text_content">"Văn bản ví dụ:
+
+Xiaomi không ngừng nỗ lực phát triển tạo ra những sản phẩm tuyệt vời với mức giá trung thực để cho mọi người trên thế giới tận hưởng cuộc sống tốt hơn thông qua công nghệ tiên tiến."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Phông chữ hiện tại không hỗ trợ điều chỉnh độ đậm nhạt</string>
     <string name="font_settings_jump">Khả năng truy cập > Kích thước hiển thị</string>
@@ -4293,9 +4308,12 @@ Khi bạn bật tính năng sao lưu tự động, dữ liệu ứng dụng và 
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Trình điều khiển trò chơi</string>
     <string name="game_storage_settings">Trò chơi</string>
-    <string name="gaze_lock_screen_summary">Thiết bị sẽ vẫn mở khóa khi phát hiện sự hiện diện của bạn và khóa khi bạn rời khỏi màn hình</string>
+    <string name="gaze_lock_screen_summary">Thiết bị sẽ vẫn mở khóa khi bạn nhìn vào màn hình và khóa khi bạn nhìn đi chỗ khác để bảo vệ quyền riêng tư, ghi đè cài đặt thời gian khóa tự động của bạn</string>
     <string name="gaze_lock_screen_title">Phát hiện sự hiện diện</string>
     <string name="gd_setting_title">Thanh bên</string>
+    <string name="gemini_description">Trò chuyện với Gemini để trao dồi ý tưởng của bạn. Nhận trợ giúp học tập, viết lời cảm ơn, lập kế hoạch sự kiện và nhiều hơn nữa. Sử dụng văn bản, giọng nói, ảnh và camera để nhận trợ giúp theo cách mới. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Tìm hiểu thêm về tính khả dụng</a></string>
+    <string name="gemini_function">Trao dồi ý tưởng của bạn với Google Gemini, Trợ lý AI mới của bạn</string>
+    <string name="gemini_setting">Cài đặt Gemini</string>
     <string name="general_category_title">Chung</string>
     <string name="general_notification_header">Quản lý</string>
     <string name="general_text">Trường văn bản</string>
@@ -4308,6 +4326,12 @@ Khi bạn bật tính năng sao lưu tự động, dữ liệu ứng dụng và 
     <string name="gesture_button_restart">Khởi động lại</string>
     <string name="gesture_button_skip">Bỏ qua</string>
     <string name="gesture_function_dialog_message">%1$s được sử dụng làm \"%2$s\". Thay thế bằng \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Chạm đúp vào màn hình Khóa để đánh thức</string>
+    <string name="gesture_lockcreen_sleep_title">Chạm đúp vào Màn hình khóa để ngủ</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Khi chạm đúp</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Không</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Khi chạm</string>
+    <string name="gesture_lockcreen_wakeup_title">Bật màn hình</string>
     <string name="gesture_preference_title">Cử chỉ</string>
     <string name="gesture_prevent_ringing_screen_title">Ngăn đổ chuông</string>
     <string name="gesture_prevent_ringing_sound_title">Phím tắt để ngăn đổ chuông</string>
@@ -4446,6 +4470,12 @@ Khu vực nơi bạn có thể xác nhận khóa màn hình sẽ chuyển sang b
     <string name="gxzw_quick_open_slow_summary">Bấm và giữ biểu tượng vân tay để mở menu lối tắt. Trượt để sử dụng lối tắt.</string>
     <string name="gxzw_quick_open_slow_title">Bấm và giữ</string>
     <string name="gxzw_quick_open_title">Lối tắt</string>
+    <string name="gxzw_recognizing_anim_a">Gợn sóng</string>
+    <string name="gxzw_recognizing_anim_b">Xoắn ốc</string>
+    <string name="gxzw_recognizing_anim_c">Hào quang</string>
+    <string name="gxzw_recognizing_anim_d">Sóng</string>
+    <string name="gxzw_recognizing_anim_e">Khẩu độ</string>
+    <string name="gxzw_recognizing_anim_f">Khuếch tán</string>
     <string name="gxzw_vibrate_summary">Rung sẽ không xảy ra khi ảnh động vân tây được chọn</string>
     <string name="gxzw_vibrate_title">Rung khi mở khóa</string>
     <string name="handle_ota_connect_first">Kết nối tay cầm</string>
@@ -4552,6 +4582,7 @@ Khu vực nơi bạn có thể xác nhận khóa màn hình sẽ chuyển sang b
     <string name="health_use_of_pad">Sử dụng thiết bị lành mạnh</string>
     <string name="health_use_of_phone">Sử dụng thiết bị lành mạnh</string>
     <string name="hearing_aids_category">Công cụ trợ thính</string>
+    <string name="hearing_stream_option">Tùy chọn âm thanh</string>
     <string name="heavy_weight_stop_description">Không thể dừng ứng dụng này một cách an toàn. Nếu dừng ứng dụng, bạn có thể mất một số công việc hiện tại.</string>
     <string name="height_light_list_text">Danh sách các mục quan trọng</string>
     <string name="help_and_feedback_title">Trợ giúp và phản hồi</string>
@@ -5101,6 +5132,7 @@ Mở Xiaomi Cloud và khôi phục các mục từ đó."</string>
     <string name="layout_size_small_text">Rất nhỏ</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Tìm hiểu thêm</string>
+    <string name="leave_lockscreen_summary">Thiết bị sẽ khóa khi bạn rời khỏi màn hình</string>
     <string name="leave_loclscreen_summary">Màn hình sẽ tự động khóa khi bạn rời khỏi thiết bị ở một khoảng cách nhất định</string>
     <string name="leave_loclscreen_title">Khóa màn hình khi rời đi</string>
     <string name="led_colors_summary">Màu đèn thông báo</string>
@@ -5109,6 +5141,7 @@ Mở Xiaomi Cloud và khôi phục các mục từ đó."</string>
     <string name="led_settings">Đèn LED</string>
     <string name="left_edge">Cạnh bên trái</string>
     <string name="left_function_key">Lối tắt trái</string>
+    <string name="left_hearing_aid">Trợ thính bên trái</string>
     <string name="left_right_hand_switch">Trái và phải</string>
     <string name="left_right_hand_switch_summary">Chuyển đổi bản phím với một lần chạm tại góc trái và phải</string>
     <string name="left_shoulder_key">Trái</string>
@@ -5775,7 +5808,7 @@ Bạn sẽ không thể khôi phục lại hành động này."</string>
     <string name="media_controls_show_player">Hiện trình phát</string>
     <string name="media_controls_title">Nội dung nghe nhìn</string>
     <string name="media_dialog_ok">Tôi biết</string>
-    <string name="media_dialog_summary">Khi tính năng này bật, thiết bị sẽ rung theo nhịp điệu của nhạc và video được hỗ trợ, mang lại trải nghiệm trọn vẹn và sống động hơn.</string>
+    <string name="media_dialog_summary">Khi tính năng này bật, thiết bị sẽ rung theo nhịp điệu của nhạc được hỗ trợ, mang lại trải nghiệm trọn vẹn và sống động hơn.</string>
     <string name="media_dialog_title">Tắt phản hồi xúc giác phương tiện</string>
     <string name="media_drm_settings_title">Cài đặt DRM cho nội dung đa phương tiện</string>
     <string name="media_feedback_enable_title">Rung theo nhịp điệu</string>
@@ -6457,7 +6490,7 @@ Hãy chọn hệ điều hành hệ thống:"</string>
     <string name="multi_face_input_reach_upper_limit">Không thể thêm dữ liệu khuôn mặt. Chờ một hoặc hai phút và thử lại.</string>
     <string name="multi_face_input_success_name_title">Tên</string>
     <string name="multi_face_list">Dữ liệu khuôn mặt</string>
-    <string name="multi_face_name_prefix">"Khuôn mặt "</string>
+    <string name="multi_face_name_prefix">Dữ liệu khuôn mặt %s</string>
     <string name="multi_face_number_reach_limit">Không thể thêm dữ liệu cho hơn 2 khuôn mặt</string>
     <string name="multi_music_coexistence_summary">Không điều chỉnh âm lượng phương tiện khi thông báo đến hoặc khi phát âm thanh từ nguồn khác</string>
     <string name="multi_music_coexistence_title">Nhiều nguồn âm thanh</string>
@@ -7200,13 +7233,22 @@ OTG tự động tắt sau 10 phút không hoạt động."</string>
     <string name="photography_handle_button_function_settings">Thiết lập nút tay cầm</string>
     <string name="photography_handle_charge_protected">Bảo vệ sạc tay cầm</string>
     <string name="photography_handle_charge_protected_summary">Khi tay cầm máy ảnh được kết nối, thiết bị sẽ ngừng sạc và duy trì pin ở mức %1$s</string>
+    <string name="photography_handle_charge_settings">Cài đặt sạc</string>
     <string name="photography_handle_charge_state">Sạc từ tay cầm máy ảnh</string>
+    <string name="photography_handle_charge_state_choice_always">Luôn luôn</string>
+    <string name="photography_handle_charge_state_choice_emergency">Khẩn cấp</string>
     <string name="photography_handle_charge_state_summary">Sạc thiết bị này từ tay cầm máy ảnh mỗi khi chúng được kết nối</string>
+    <string name="photography_handle_charge_state_summary_new">Bắt đầu sạc thiết bị này từ tay cầm camera sau khi kết nối</string>
+    <string name="photography_handle_emergency_charge_summary">Bắt đầu sạc khẩn cấp khi pin xuống dưới %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Mức sạc khẩn cấp</string>
+    <string name="photography_handle_function_settings">Cài đặt tay cầm camera</string>
     <string name="photography_handle_launch_and_take_photo">Chụp ảnh</string>
     <string name="photography_handle_launch_camera">Mở camera</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Bấm và giữ phím chụp để thực hiện thao tác</string>
     <string name="photography_handle_quick_launch_camera_title">Khởi chạy nhanh</string>
+    <string name="photography_handle_sn">Số sê-ri</string>
     <string name="photography_handle_title">Tay cầm camera</string>
+    <string name="photography_handle_update_and_maintain">Cập nhật</string>
     <string name="physical_keyboard_title">Bàn phím vật lý</string>
     <string name="pick_up_gesture_wakeup_title">Nâng lên để đánh thức</string>
     <string name="picker_text">Bộ chọn thời gian</string>
@@ -7969,6 +8011,7 @@ Mọi ứng dụng (và dữ liệu của ứng dụng) trong không gian đó c
     <string name="rhythmic_mode_enable_title">Chu kỳ</string>
     <string name="right_edge">Cạnh bên phải</string>
     <string name="right_function_key">Lối tắt phải</string>
+    <string name="right_hearing_aid">Trợ thính bên phải</string>
     <string name="right_shoulder_key">Phải</string>
     <string name="ring_to_you">Tùy chỉnh nhạc chuông</string>
     <string name="ring_to_you_info">Đặt âm thanh tùy chỉnh đối phương sẽ nghe trước khi bạn nhấc máy</string>
@@ -8029,6 +8072,7 @@ Mọi ứng dụng (và dữ liệu của ứng dụng) trong không gian đó c
     <string name="same_source_synced">Thêm phát sóng thành công</string>
     <string name="sar">Thông tin Phơi nhiễm RF</string>
     <string name="satellite_call_assistant">Cài đặt cuộc gọi</string>
+    <string name="satellite_management_title">Mạng vệ tinh</string>
     <string name="satellite_network_title">Tính năng gọi vệ tinh</string>
     <string name="satellite_setting">Nhắn tin qua vệ tinh</string>
     <string name="satellite_setting_disabled_summary">Gửi và nhận tin nhắn văn bản qua vệ tinh. Tài khoản của bạn không có sẵn tính năng này.</string>
@@ -8220,7 +8264,7 @@ Cách dùng tính năng ghim ứng dụng: \u0009
     <string name="screen_projection_sample_summary">Chiếu tài liệu, game, ảnh và video</string>
     <string name="screen_projection_sample_title">Demo</string>
     <string name="screen_projection_title">Chiếu</string>
-    <string name="screen_reader_category_title">Trình đọc màn hình</string>
+    <string name="screen_reader_category_title">Công cụ đọc màn hình</string>
     <string name="screen_refresh_unavailable_prompt">Thay đổi tốc độ làm mới chỉ được hỗ trợ bởi màn hình ngoài</string>
     <string name="screen_resolution_dialog_title">Chuyển đổi độ phân giải</string>
     <string name="screen_resolution_footer">Chế độ độ phân giải cao sử dụng nhiều pin hơn. Việc chuyển đổi độ phân giải có thể khiến một số ứng dụng khởi động lại.</string>
@@ -9965,6 +10009,8 @@ Hãy thử dùng một ^3 nhanh hơn hoặc dùng ^4 này làm bộ nhớ di đ�
     <string name="tethering_hardware_offload_summary">Sử dụng tính năng tăng tốc phần cứng khi chia sẻ Internet nếu có</string>
     <string name="tethering_help_button_text">Trợ giúp</string>
     <string name="tethering_settings_not_available">Thay đổi cài đặt chia sẻ mạng trong Không gian thứ nhất</string>
+    <string name="text_layout_optimization_switch_label">Tối ưu bố cục văn bản</string>
+    <string name="text_layout_optimization_switch_toast">Không thể tối ưu bố cục văn bản với phông chữ hiện tại</string>
     <string name="texture_adjust_temperature_title">Nhiệt độ màu</string>
     <string name="the_anniversary_of_lifting_martial_law">Kỷ niệm Ngày Thiết quân Luật</string>
     <string name="the_anti_aggression_day">Ngày phản chiến</string>
@@ -11322,6 +11368,10 @@ Việc đặt mạng này là mạng ẩn sẽ không thay đổi các chế đ�
     <string name="wifi_protection_tip">Xiaomi sẽ bảo vệ dữ liệu cá nhân của bạn khỏi các yêu cầu dò Wi-Fi đến từ các địa chỉ MAC ngẫu nhiên và trình dò Wi-Fi khi thiết bị của bạn tìm kiếm mạng Wi-Fi.</string>
     <string name="wifi_quick_toggle_summary">Bật Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Mật khẩu Wi-Fi không chính xác. Nhập lại.</string>
+    <string name="wifi_reconnect_failed_text_china">Mật khẩu WLAN không chính xác. Nhập lại.</string>
+    <string name="wifi_reconnect_failed_title">Mật khẩu Wi-Fi không chính xác</string>
+    <string name="wifi_reconnect_failed_title_china">Mật khẩu WLAN không chính xác</string>
     <string name="wifi_remembered">Đã lưu</string>
     <string name="wifi_remembered_disabled_auto_connect">Đã lưu. Sẽ không kết nối tự động.</string>
     <string name="wifi_require_sim_card_to_connect">Cần có SIM để kết nối</string>

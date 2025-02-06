@@ -30,12 +30,16 @@
     <string name="accessibility_qs_edit_tile_move">%1$s, %2$d mövqeyinə əlavə et</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s silindi</string>
     <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Bluetooth cihaz batareyası %d faiz.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Birləşdirilmiş tutacaq</string>
     <string name="accessibility_settings">Tənzimləmələr</string>
     <string name="actionbar_button_up_description">Geri</string>
     <string name="activate_usb_message">Bu xüsusiyyəti aktivləşdirmək üçün SIM kartınızı taxın.</string>
     <string name="activate_usb_title">USB-ni aktivləşdir</string>
     <string name="afternoon">Günortadan sonra</string>
     <string name="airplane_mode">Təyyarə rejimi</string>
+    <string name="alertdialog_safemode_button_submit">Göndər</string>
+    <string name="alertdialog_safemode_message">Cihazın sistem interfeysi problemlərinə görə Təhlükəsiz rejimə daxil oldu, bununla da bəzi funksiyalar əlçatan olmayacaq. Bu problemin həllini sürətləndirmək üçün geri bildiriş göndər.</string>
+    <string name="alertdialog_safemode_title">Təhlükəsiz rejimə daxil oldu</string>
     <string name="am">GƏ</string>
     <string name="aqi_format">HKİ %s</string>
     <string name="aqi_format_desc">Hava keyfiyyəti indeksi: %s</string>
@@ -47,8 +51,11 @@
     <string name="bluetooth_connected_no_headset_battery_level">Qoşuldu (telefon yoxdur) | Batareya %1$s %2$s</string>
     <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Qoşuldu (telefon və ya media yoxdur) | Batareya %1$s %2$s</string>
     <string name="bluetooth_headset_profile_summary_use_for">Telefon səsi üçün istifadə edilir</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Hər iki Eşitmə cihazı %1$s qoşulub</string>
+    <string name="bluetooth_hearing_aid_left_connected">Sol Eşitmə cihazı %1$s qoşulub</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Eşitmə cihazına qoşuldu</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Eşitmə cihazı üçün istifadə edilir</string>
+    <string name="bluetooth_hearing_aid_right_connected">Sağ Eşitmə cihazı %1$s qoşulub</string>
     <string name="bluetooth_hid_profile_summary_use_for">Giriş üçün istifadə edilir</string>
     <string name="bluetooth_le_audio_profile_summary_connected">LE Audio-ya qoşulub</string>
     <string name="bluetooth_le_audio_profile_summary_use_for">LE Audio üçün istifadə edin</string>
@@ -72,6 +79,7 @@
     <string name="clearable_edittext_clear_description">Təmizlə</string>
     <string name="close">Bağla</string>
     <string name="confirm">Oldu</string>
+    <string name="custom_lockscreen">Kilid ekranını fərdiləşdir</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Başa düşdüm</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Sistem optimallaşdırmasını söndürsəniz və Batareya qənaətini açsanız, Qaranlıq rejim avtomatik olaraq yandırılacaq.
 Qaranlıq rejimi söndürmək üçün Batareya qənaətini söndürün və ya sistem optimallaşdırılmasnı Tənzimləmələr > Tərtibatçı seçimləri > sistem optimallaşdırılmasını aç menyusundan açın"</string>
@@ -229,6 +237,7 @@ Güc düyməsi ilə söndür."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Həmişə açıq ekran teması Super divar kağızları səbəbindən fərdiləşdirildi</string>
     <string name="fullaod_apply_third_theme_toast">Həmişə açıq ekran teması üçüncü tərəf temalar səbəbindən fərdiləşdirildi</string>
     <string name="fullaod_apply_third_wallpaper_toast">Həmişə açıq ekran teması üçüncü tərəf divar kağızları səbəbindən fərdiləşdirildi</string>
+    <string name="fullaod_apply_video_depth_toast">Həmişə açıq ekran üslubu Fərdiyə keçib</string>
     <string name="gxzw_quick_close">Bağla</string>
     <string name="gxzw_quick_open_add_event">Tədbir əlavə et</string>
     <string name="gxzw_quick_open_add_event_sub">Təqvim</string>
@@ -452,9 +461,17 @@ mm"</string>
     <string name="night">Axşam</string>
     <string name="noon">Günorta</string>
     <string name="normal_temperature_format">%1$s° %2$s</string>
+    <string name="notification_channel_safemode">Təhlükəsiz rejim</string>
     <string name="notification_control_center">Bildirişlər &amp; İdarəetmə mərkəzi</string>
     <string name="notification_group_collapse_button_text">Qatla</string>
     <string name="notification_hidden_text">Yeni bir mesajınız var</string>
+    <string name="notification_safemode_button_exit">Çıx</string>
+    <string name="notification_safemode_description_exit">Təhlükəsiz rejimdən çıxmazdan əvvəl bildirişdə verilən texniki xidmət təlimatlarına əməl etməyindən əmin ol. Əgər təlimatlara əməl etməsən cihazın yenidən Təhlükəsiz rejimə daxil olacaq.</string>
+    <string name="notification_safemode_description_presafemode">Sistem interfeysini və Temalar məlumatını uğurla təmizlədi. Cihazını normal istifafə edə bilərsən.</string>
+    <string name="notification_safemode_description_safemode">Cihazın indi Təhlükəsiz rejimdədir. Sistem interfeysini necə bərpa etmək üçün tıkla</string>
+    <string name="notification_safemode_title_exit">Təhlükəsiz rejimdən çıx</string>
+    <string name="notification_safemode_title_presafemode">Sistem interfeysi bərpa olundu</string>
+    <string name="notification_safemode_title_safemode">Sistem interfeysi pozulması problemini həll etmək üzrə bildiriş</string>
     <string name="notification_status_bar">Bildirişlər &amp; status paneli</string>
     <string name="open_camera_hint_text">Kameranı açmaq üçün ikonu sürüşdürün</string>
     <string name="open_lock_screen_magazine_hint_text">Daha çox seçim üçün sağa sürüşdür</string>
@@ -528,9 +545,9 @@ mm"</string>
     <string name="quick_settings_hotspot_state_change_message_on">Giriş nöqtəsi açıqdır</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_summary">Bağlantı sürətini artırmaq üçün ikinci SIM-in mobil trafkindən istifadə edin</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Ağıllı ikili SIM</string>
-    <string name="quick_settings_location_label">Məkan</string>
-    <string name="quick_settings_location_state_change_message_off">Məkan müraciəti bağlıdır</string>
-    <string name="quick_settings_location_state_change_message_on">Məkan müraciəti açıqdır</string>
+    <string name="quick_settings_location_label">Məkan xidmətləri</string>
+    <string name="quick_settings_location_state_change_message_off">Məkan xidmətləri aktiv deyil</string>
+    <string name="quick_settings_location_state_change_message_on">Məkan xidmətləri aktivdir</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Mövcud Wi-Fi şəbəkəsi yoxdur</string>
     <string name="quick_settings_miui_wifi_label">Wi-Fi</string>
     <string name="quick_settings_miui_wlan_detail_empty_text">Əlçatan WLAN şəbəkələri yoxdur</string>
@@ -611,6 +628,7 @@ mm"</string>
     <string name="screen_pinning_toast_gesture_mode">Ekranın aşağısından yuxarı sürüşdürün və bu proqramı çıxarmaq üçün fasilə verin</string>
     <string name="screen_pinning_toast_navigation_mode">Bu tətbiqi ləğv etmək üçün geri və önizləmə düymələrini basıb saxlayın</string>
     <string name="screen_pinning_toast_start">Bu tətbiq sancaqlanıb</string>
+    <string name="screen_share_dialog_spinner_text">Əhatə dairəsi</string>
     <string name="send">Göndər</string>
     <string name="shut_down_password_forget_password_suggesstion_one_content">&lt;Data>Görənə qədər&lt;font color=#e6e6e6>[Güc]&lt;/font> və &lt;font color=#e6e6e6>[Səs səviyyəsi +]&lt;/font> düymələrini basın və basılı saxlayın &lt;img src=\"\">.&lt;/Data></string>
     <string name="shut_down_password_forget_password_suggesstion_two_content">&lt;Data>Daha sonra &lt;font color=#e6e6e6>[Məlumatları sil (Wipe data)]&lt;/font> və &lt;font color=#e6e6e6>[Yenidən başlat (Reboot)]&lt;/font> seçimini seçin.&lt;/Data></string>
@@ -619,8 +637,8 @@ mm"</string>
     <string name="sim_state_locked_puk_dialog_message">Ən az %d dəfə yanlış PUK kod daxil etdiniz. SIM kartınız indi yararsızdır. Bu SIM kartı başqası ilə dəyişdirin.</string>
     <string name="somatosensory_temperature_format">%s° hiss edilir</string>
     <string name="status_bar_clock_date_format">d MMM, E.</string>
-    <string name="status_bar_clock_date_format_12">d MMM, E.</string>
-    <string name="status_bar_clock_date_time_format">d MMM, E. H:mm</string>
+    <string name="status_bar_clock_date_format_12">d MMM, E</string>
+    <string name="status_bar_clock_date_time_format">H:mm d MMM, E</string>
     <string name="status_bar_clock_date_time_format_12">d MMM, E. h:mm a</string>
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>

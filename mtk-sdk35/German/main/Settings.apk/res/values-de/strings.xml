@@ -638,6 +638,7 @@ Der Administrator kann die mit diesem Nutzer verbundenen Einstellungen, Zugriffs
     <string name="ai_button_title">Mi AI-Taste</string>
     <string name="ai_button_title_global">AI-Taste</string>
     <string name="ai_call_assistant">KI-Aufrufe</string>
+    <string name="ai_notification_settings">Zusammenfassung von KI-Benachrichtigungen</string>
     <string name="ai_services_title">KI-Dienste</string>
     <string name="ai_settings_click_title">Drücken</string>
     <string name="ai_settings_double_click_category">AI-Taste zweimal drücken</string>
@@ -665,6 +666,7 @@ Wenn diese Berechtigung deaktiviert ist, funktionieren bereits gestellte Wecker 
     <string name="all_supported_app_locales_title">Alle Sprachen</string>
     <string name="all_volume_title">Lautstärke</string>
     <string name="allow">Zulassen</string>
+    <string name="allow_badge_summary">Erlaube, dass ein nummerierter roter Punkt auf den Startbildschirmsymbolen angezeigt wird, um Benachrichtigungen oder neue Inhalte anzuzeigen</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Nach der Erstellung des Widgets hat die App Zugriff auf alle angezeigten Daten.
 
 App: %1$s
@@ -687,6 +689,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Simulierte Standorte zulassen</string>
     <string name="allow_mock_modem">Mock Modem zulassen</string>
     <string name="allow_mock_modem_summary">Erlaube diesem Gerät die Ausführung des Mock Modem-Dienstes für Instrumentierungstests. Aktiviere diese Funktion nicht während der normalen Nutzung des Smartphones.</string>
+    <string name="allow_ongoing_summary">Benachrichtigungen erlauben, die nur manuell gelöscht werden können</string>
     <string name="allow_ongoing_title">Dauerhafte Benachrichtigung</string>
     <string name="allow_overlay_description">Erlaube, dass diese App über anderen Apps, die du gerade verwendest, eingeblendet wird. Diese App erkennt, wohin du tippst oder welche Elemente auf dem Bildschirm du änderst.</string>
     <string name="allow_sound_title">Ton</string>
@@ -1220,7 +1223,7 @@ Zuletzt ausgeführt am %2$s"</string>
     <string name="back_navigation_animation_summary">Du kannst Systemanimationen für die intelligente „Zurück“-Touch-Geste aktivieren.</string>
     <string name="back_sensitivity_dialog_message">Wenn du die Empfindlichkeit erhöhst, werden eventuell App-spezifische Touch-Gesten am Bildschirmrand beeinträchtigt.</string>
     <string name="back_sensitivity_dialog_title">Empfindlichkeit bei Touch-Geste „Zurück“</string>
-    <string name="back_strap_image_text">Erhalte Benachrichtigungserinnerungen und Lichteffekte für verschiedene Szenen</string>
+    <string name="back_strap_image_text">Wenn das Gerät mit dem Gesicht nach unten liegt und der Bildschirm ausgeschaltet ist, zeigt das Rücklicht Benachrichtigungserinnerungen und Lichteffekte für verschiedene Szenen an</string>
     <string name="back_strap_status_close">Aus</string>
     <string name="back_strap_status_open">An</string>
     <string name="back_strap_title">Rücklichteffekte</string>
@@ -1785,12 +1788,15 @@ Du hast dich bisher nicht mit %2$s verbunden."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Für Telefonaudio verwendet</string>
     <string name="bluetooth_hearing_aid_left_active">Aktiv (nur links)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktiv (links und rechts)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Beide Hörgeräte verbunden mit %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Linkes Hörgerät verbunden mit %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktiv (nur Medien), nur links</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktiv (nur Medien), links und rechts</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktiv (nur Medien), nur rechts</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Mit Hörgerät verbunden</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Für Hörgerät verwendet</string>
     <string name="bluetooth_hearing_aid_right_active">Aktiv (nur rechts)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Rechtes Hörgerät verbunden mit %1$s</string>
     <string name="bluetooth_hearing_aids_presets">Voreinstellung</string>
     <string name="bluetooth_hearing_aids_presets_error">Voreinstellung konnte nicht aktualisiert werden</string>
     <string name="bluetooth_hearing_device_settings_summary">Verknüpfung, Kompatibilität mit Hörgeräten</string>
@@ -1859,6 +1865,10 @@ Wenn du dein rechtes Hörgerät koppeln möchtest, muss es eingeschaltet und ber
 Wenn du dein linkes Hörgerät koppeln möchtest, muss es eingeschaltet und bereit zum Koppeln sein."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Rechtes Ohr koppeln</string>
     <string name="bluetooth_pair_other_ear_dialog_title">Anderes Ohr koppeln</string>
+    <string name="bluetooth_pair_other_hearing_dialog_positive_button">Koppeln</string>
+    <string name="bluetooth_pair_other_hearing_dialog_title">Mit einem anderen Hörgerät koppeln</string>
+    <string name="bluetooth_pair_other_left_hearing_dialog_message">Das rechte Hörgerät ist verbunden. Vergewissere dich, dass das linke Hörgerät eingeschaltet und bereit zum Koppeln ist.</string>
+    <string name="bluetooth_pair_other_right_hearing_dialog_message">Das linke Hörgerät ist verbunden. Vergewissere dich, dass das rechte Hörgerät eingeschaltet und bereit zum Koppeln ist.</string>
     <string name="bluetooth_pair_right_ear_button">Rechtes Gerät koppeln</string>
     <string name="bluetooth_paired">Gespeichert</string>
     <string name="bluetooth_paired_device_title">Meine Geräte</string>
@@ -2457,6 +2467,7 @@ Wenn Apps diese Berechtigung haben, stehen sie als Option zur Verfügung, wenn e
     <string name="choose_unlock_face_msg">Lege die Bildschirmsperre fest, bevor du Gesichtsdaten aufnimmst.</string>
     <string name="choose_unlock_fingerprint_msg">Bildschirmsperre festlegen, bevor du deinen Fingerabdruck hinzufügst.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Circle to Search</string>
     <string name="classic_mode_summary">Zu wärmeren Farben wechseln, um die Menge an blauem Licht zu reduzieren</string>
     <string name="classic_mode_title">Klassisch</string>
     <string name="cleaner">Bereinigung</string>
@@ -2891,7 +2902,6 @@ Wenn du den Prozess unterbrichst, wirst du einige oder all deine Daten verlieren
     <string name="dark_mode_day_night_mode_summary">Ihr Gerät wechselt bei Sonnenuntergang in den Dunkelmodus und bei Sonnenaufgang zurück in den Tageslichtmodus. Aktiviere die Standortdienste, um möglichst genaue Ergebnisse zu erhalten.</string>
     <string name="dark_mode_day_night_mode_title">Sonnenuntergang bis Sonnenaufgang</string>
     <string name="dark_mode_display_enable_summary">Wechsel zu einer Low-Light-UI, die hauptsächlich dunkle Oberflächen anzeigt.</string>
-    <string name="dark_mode_font_background_title">Text und Hintergründe automatisch anpassen</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Verstanden</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Wenn du die System-Optimierung deaktivierst und den Energiesparmodus einschaltest, wird der Dunkelmodus automatisch aktiviert.
 Um den Dunkelmodus zu deaktivieren, schalte den Energiesparmodus aus oder aktiviere die System-Optimierung unter Einstellungen > Entwickleroptionen > System-Optimierung aktivieren."</string>
@@ -3781,7 +3791,7 @@ Starte dein Gerät neu und versuche es noch einmal."</string>
     <string name="external_source_untrusted">Nicht zugelassen</string>
     <string name="extreme_threats_summary">Warnungen zu extremen Gefahren für Leben und Eigentum erhalten</string>
     <string name="extreme_threats_title">Extreme Gefahren</string>
-    <string name="eye_gaze_dialog_message">Wenn du „Blick erkennen“ aktivierst, wird dein Gerät nicht gesperrt, wenn es feststellt, dass den Bildschirm ansiehst. Deine Gesichtsmerkmale werden nicht analysiert und deine Gesichtsdaten werden weder auf deinem Gerät gespeichert noch in die Cloud hochgeladen. Jetzt aktivieren?</string>
+    <string name="eye_gaze_dialog_message">Wenn diese Funktion eingeschaltet ist, erkennt das System, ob du auf den Bildschirm schaust, aber deine Gesichtszüge werden nicht analysiert und diese Daten werden nicht auf deinem Gerät gespeichert oder in die Cloud hochgeladen. Jetzt einschalten?</string>
     <string name="eye_gaze_dialog_title">Sicherheitshinweis</string>
     <string name="eye_gaze_summary">Das Gerät wird nicht gesperrt, wenn es erkennt, dass du auf den Bildschirm schaust</string>
     <string name="eye_gaze_summary_fold_device">Das Gerät wird nicht gesperrt, wenn es erkennt, dass du auf einen äußeren Bildschirm schaust.</string>
@@ -3864,6 +3874,7 @@ Fügen Sie ein Sperrbildschirmpasswort hinzu, bevor Sie Ihre Gesichtsdaten hinzu
     <string name="face_unlock_success_stay_screen_title">Bleibe nach dem Entsperren auf dem Sperrbildschirm</string>
     <string name="face_unlock_title">Du kannst dein Smartphone per Gesichtserkennung entsperren. Aus Sicherheitsgründen benötigst du bei dieser Option eine alternative Displaysperre.</string>
     <string name="face_unlock_when_slt_on_toast">Gesichtsentsperrung kann nicht verwendet werden, wenn die Tiantong-Satellitenkommunikation genutzt wird</string>
+    <string name="factory_reset_loading">„Auf Werkseinstellungen zurücksetzen“ wird ausgeführt…</string>
     <string name="factory_reset_summary">Beim Formatieren werden alle Daten aus dem internen Speicher deines Geräts gelöscht.</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Zu viele Fehlversuche. Die Daten auf diesem Gerät werden gelöscht.</string>
@@ -4040,6 +4051,7 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="flash_notifications_keywords">Blitz, Licht, schwerhörig, Hörverlust</string>
     <string name="flash_notifications_note">„Beamen für Benachrichtigungen“ visualisiert Benachrichtigungstöne und Klingeltöne mithilfe des Kamerablitzes und des Bildschirms. Wenn du lichtempfindlich bist, solltest du diese Funktion mit Vorsicht verwenden.</string>
     <string name="flash_notifications_preview">Vorschau</string>
+    <string name="flash_notifications_settings_title">Blitz-Benachrichtigungen</string>
     <string name="flash_notifications_summary">Kamerablitz verwenden oder Farbbalken auf dem Bildschirm anzeigen, wenn Benachrichtigungen eingehen oder das Gerät klingelt.</string>
     <string name="flash_notifications_summary_off">Aus</string>
     <string name="flash_notifications_summary_on_camera">An / Aufleuchten des Kamerablitzes bei Benachrichtigungen</string>
@@ -4133,6 +4145,9 @@ Weitere Informationen erhältst du bei deinem Kreditinstitut."</string>
     <string name="font_cta_alert_btn_positive">Zustimmen</string>
     <string name="font_cta_alert_message">Lies und stimme den Geschäftsbedingungen von Themen zu, um fortzufahren.</string>
     <string name="font_cta_alert_title">Geschäftsbedingungen</string>
+    <string name="font_preview_text_content">"Beispieltext:
+
+Xiaomi entwickelt unermüdlich fantastische Produkte zu ehrlichen Preisen, um allen auf der Welt das Leben durch innovative Technologien zu erleichtern."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Die aktuelle Schriftart unterstützt das Anpassen der Schriftstärke nicht</string>
     <string name="font_settings_jump">Barrierefreiheit > Bildschirmgröße</string>
@@ -4293,9 +4308,12 @@ Wenn du die automatische Sicherung aktivierst, werden Geräte- und App-Daten reg
     <string name="game_booster_title">Spiel-Turbo</string>
     <string name="game_controller_settings_category">Gamecontroller</string>
     <string name="game_storage_settings">Spiele</string>
-    <string name="gaze_lock_screen_summary">Das Gerät bleibt entsperrt, wenn deine Anwesenheit erkannt wird, und wird gesperrt, wenn du dich vom Bildschirm entfernst</string>
+    <string name="gaze_lock_screen_summary">Das Gerät bleibt entsperrt, wenn du auf den Bildschirm schaust, und wird gesperrt, wenn du den Blick abwendest, um deine Privatsphäre zu schützen, und setzt deine automatische Sperrzeiteinstellung außer Kraft.</string>
     <string name="gaze_lock_screen_title">Anwesenheit erkennen</string>
     <string name="gd_setting_title">Seitenleiste</string>
+    <string name="gemini_description">Chatte mit Gemini, um deine Ideen zu optimieren. Hole dir Hilfe beim Lernen, beim Schreiben von Danksagungen, bei der Planung von Veranstaltungen und mehr. Nutze Text, Sprache, Fotos und deine Kamera, um auf neue Weise Hilfe zu erhalten. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Erfahre mehr über die Verfügbarkeit</a></string>
+    <string name="gemini_function">Optimiere deine Ideen mit Google Gemini, deinem neuen KI-Assistenten</string>
+    <string name="gemini_setting">Gemini-Einstellung</string>
     <string name="general_category_title">Allgemein</string>
     <string name="general_notification_header">Verwalten</string>
     <string name="general_text">Textfeld</string>
@@ -4308,6 +4326,12 @@ Wenn du die automatische Sicherung aktivierst, werden Geräte- und App-Daten reg
     <string name="gesture_button_restart">Neustart</string>
     <string name="gesture_button_skip">Überspr.</string>
     <string name="gesture_function_dialog_message">%1$s wird für „%2$s“ genutzt. Durch „%3$s“ ersetzen?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Zweimal auf den Sperrbildschirm tippen, um das Gerät aufzuwecken</string>
+    <string name="gesture_lockcreen_sleep_title">Zum Schlafen doppelt auf den Sperrbildschirm tippen</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Bei doppeltem Tippen</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Keine</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Bei Tippen</string>
+    <string name="gesture_lockcreen_wakeup_title">Bildschirm wecken</string>
     <string name="gesture_preference_title">Touch-Gesten &amp; Bewegungen</string>
     <string name="gesture_prevent_ringing_screen_title">Klingeln verhindern</string>
     <string name="gesture_prevent_ringing_sound_title">Klingeln per Tastendruck verhindern</string>
@@ -4446,6 +4470,12 @@ Der Bereich, in dem du deine Bildschirmsperre bestätigen kannst, wird nach rech
     <string name="gxzw_quick_open_slow_summary">Fingerabdrucksymbol gedrückt halten, um das Kontextmenü zu öffnen. Wischen um eine Verknüpfung zu verwenden.</string>
     <string name="gxzw_quick_open_slow_title">Drücken und halten</string>
     <string name="gxzw_quick_open_title">Verknüpfungen</string>
+    <string name="gxzw_recognizing_anim_a">Wellenform</string>
+    <string name="gxzw_recognizing_anim_b">Spirale</string>
+    <string name="gxzw_recognizing_anim_c">Heiligenschein</string>
+    <string name="gxzw_recognizing_anim_d">Welle</string>
+    <string name="gxzw_recognizing_anim_e">Blende</string>
+    <string name="gxzw_recognizing_anim_f">Diffusion</string>
     <string name="gxzw_vibrate_summary">Die Vibration tritt nicht auf, wenn keine Fingerabdruck-Animation ausgewählt ist.</string>
     <string name="gxzw_vibrate_title">Vibration beim Entsperren</string>
     <string name="handle_ota_connect_first">Griff verbinden</string>
@@ -4552,6 +4582,7 @@ Der Bereich, in dem du deine Bildschirmsperre bestätigen kannst, wird nach rech
     <string name="health_use_of_pad">Gesunde Gerätenutzung</string>
     <string name="health_use_of_phone">Gesunde Gerätenutzung</string>
     <string name="hearing_aids_category">Werkzeuge zur Hörunterstützung</string>
+    <string name="hearing_stream_option">Audio-Optionen</string>
     <string name="heavy_weight_stop_description">Diese App kann nicht sicher beendet werden. Beim Beenden könnten aktuelle Daten verloren gehen.</string>
     <string name="height_light_list_text">Eine Liste wichtiger Elemente</string>
     <string name="help_and_feedback_title">Hilfe und Feedback</string>
@@ -5101,6 +5132,7 @@ Xiaomi Cloud
     <string name="layout_size_small_text">Sehr klein</string>
     <string name="le_audio_title">LE-Audio</string>
     <string name="learn_more">Weitere Informationen</string>
+    <string name="leave_lockscreen_summary">Gerät wird gesperrt, wenn du dich vom Bildschirm entfernst</string>
     <string name="leave_loclscreen_summary">Der Bildschirm wird automatisch gesperrt, wenn du eine gewissen Distanz von deinem Gerät weggehst</string>
     <string name="leave_loclscreen_title">Bildschirm beim Weggehen automatisch sperren</string>
     <string name="led_colors_summary">Lichtfarbe für Benachrichtigungen</string>
@@ -5109,6 +5141,7 @@ Xiaomi Cloud
     <string name="led_settings">LED-Licht</string>
     <string name="left_edge">Linker Rand</string>
     <string name="left_function_key">Linke Verknüpfung</string>
+    <string name="left_hearing_aid">Linkes Hörgerät</string>
     <string name="left_right_hand_switch">Links und Rechts</string>
     <string name="left_right_hand_switch_summary">Mit einem einzigen Antippen linke und rechte Teile der Tastatur vertauschen</string>
     <string name="left_shoulder_key">Links</string>
@@ -5775,7 +5808,7 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="media_controls_show_player">Player anzeigen</string>
     <string name="media_controls_title">Medien</string>
     <string name="media_dialog_ok">Verstanden</string>
-    <string name="media_dialog_summary">Wenn diese Funktion eingeschaltet ist, vibriert das Gerät im Rhythmus der unterstützten Musik und Videos und sorgt so für ein noch intensiveres Erlebnis.</string>
+    <string name="media_dialog_summary">Wenn diese Funktion eingeschaltet ist, vibriert das Gerät im Rhythmus der unterstützten Musik und sorgt so für ein noch intensiveres Erlebnis.</string>
     <string name="media_dialog_title">Haptisches Medien-Feedback einschalten</string>
     <string name="media_drm_settings_title">Einstellungen für digitale Rechte­ver­wal­tung bei Medien</string>
     <string name="media_feedback_enable_title">Mit dem Beat vibrieren</string>
@@ -6457,7 +6490,7 @@ Betriebssystem auswählen:"</string>
     <string name="multi_face_input_reach_upper_limit">Gesichtsdaten konnten nicht hinzugefügt werden. Warte eine oder zwei Minuten und versuche es erneut.</string>
     <string name="multi_face_input_success_name_title">Name</string>
     <string name="multi_face_list">Gesichtsdaten</string>
-    <string name="multi_face_name_prefix">"Gesicht "</string>
+    <string name="multi_face_name_prefix">Gesichtsdaten %s</string>
     <string name="multi_face_number_reach_limit">Kann nicht mehr als 2 Gesichter hinzufügen</string>
     <string name="multi_music_coexistence_summary">Medienlautstärke nicht anpassen, während Benachrichtigungen eingehen oder Audio aus einer anderen Quelle wiedergegeben wird</string>
     <string name="multi_music_coexistence_title">Multiple Audioquellen</string>
@@ -7200,13 +7233,22 @@ Lies und stimme %s zu, bevor du diesen Dienst benutzt."</string>
     <string name="photography_handle_button_function_settings">Grifftaste einrichten</string>
     <string name="photography_handle_charge_protected">Griff-Aufladeschutz</string>
     <string name="photography_handle_charge_protected_summary">Wenn der Kameragriff angeschlossen ist, beendet das Gerät den Ladevorgang und hält den Akku auf %1$s</string>
+    <string name="photography_handle_charge_settings">Auflade-Einstellungen</string>
     <string name="photography_handle_charge_state">Aufladen über Kameragriffe</string>
+    <string name="photography_handle_charge_state_choice_always">Immer</string>
+    <string name="photography_handle_charge_state_choice_emergency">Notfall</string>
     <string name="photography_handle_charge_state_summary">Lade dieses Gerät über die Kameragriffe auf, wenn sie angeschlossen sind</string>
+    <string name="photography_handle_charge_state_summary_new">Beginne mit dem Aufladen des Geräts über den Kameragriff, sobald er verbunden ist</string>
+    <string name="photography_handle_emergency_charge_summary">Notfall-Aufladen beginnen, wenn der Akku unter %1$s fällt</string>
+    <string name="photography_handle_emergency_charge_title">Notfall-Ladezustand</string>
+    <string name="photography_handle_function_settings">Kameragriff-Einstellungen</string>
     <string name="photography_handle_launch_and_take_photo">Foto aufnehmen</string>
     <string name="photography_handle_launch_camera">Kamera öffnen</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Drücke und halte den Auslöser, um eine Aktion auszuführen</string>
     <string name="photography_handle_quick_launch_camera_title">Schnellstart</string>
+    <string name="photography_handle_sn">Seriennummer</string>
     <string name="photography_handle_title">Kameragriff</string>
+    <string name="photography_handle_update_and_maintain">Updates</string>
     <string name="physical_keyboard_title">Physische Tastatur</string>
     <string name="pick_up_gesture_wakeup_title">Gerät anheben zum Aufwecken</string>
     <string name="picker_text">Zeit-Picker</string>
@@ -7969,6 +8011,7 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="rhythmic_mode_enable_title">Zeitraum</string>
     <string name="right_edge">Rechter Rand</string>
     <string name="right_function_key">Rechte Verknüpfung</string>
+    <string name="right_hearing_aid">Rechtes Hörgerät</string>
     <string name="right_shoulder_key">Rechts</string>
     <string name="ring_to_you">Benutzerdefinierter Klingelton</string>
     <string name="ring_to_you_info">Einen eigenen Ton einstellen, den andere Menschen hören, bevor du den Anruf annimmst</string>
@@ -8029,6 +8072,7 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="same_source_synced">Übertragung erfolgreich hinzugefügt</string>
     <string name="sar">Informationen zur HF-Belastung</string>
     <string name="satellite_call_assistant">Anrufeinstellungen</string>
+    <string name="satellite_management_title">Satellitennetzwerk</string>
     <string name="satellite_network_title">Satellitenanruf-Funktionen</string>
     <string name="satellite_setting">Nachrichten per Satellit</string>
     <string name="satellite_setting_disabled_summary">Nachrichten per Satellitenfunk senden und empfangen. Dein Konto unterstützt diesen Dienst nicht.</string>
@@ -8220,7 +8264,7 @@ So verwendest du die Funktion „Bildschirmfixierung“: \u0009
     <string name="screen_projection_sample_summary">Übertragen von Dokumenten, Spielen, Fotos und Videos</string>
     <string name="screen_projection_sample_title">Demos</string>
     <string name="screen_projection_title">Übertragen</string>
-    <string name="screen_reader_category_title">Screenreader</string>
+    <string name="screen_reader_category_title">Bildschirmleser</string>
     <string name="screen_refresh_unavailable_prompt">Ändern der Bildwiederholrate wird nur vom äußeren Bildschirm unterstützt</string>
     <string name="screen_resolution_dialog_title">Auflösung ändern</string>
     <string name="screen_resolution_footer">Die volle Auflösung verbraucht mehr Akku. Wenn du die Auflösung änderst, werden einige Apps möglicherweise neu gestartet.</string>
@@ -9827,7 +9871,7 @@ Versuche, ein schnelleres Speichergerät (^3) zu verwenden oder verwende stattde
     <string name="system_and_device_section_title">Systemeinstellungen</string>
     <string name="system_app">(System)</string>
     <string name="system_app_settings">System-App-Einstellungen</string>
-    <string name="system_apps_updater">Updates für Systemapps</string>
+    <string name="system_apps_updater">Updater für System-Apps</string>
     <string name="system_backup_section_title">System-Sicherungen</string>
     <string name="system_backup_section_title_new">Lokal</string>
     <string name="system_dashboard_summary">Sprachen, Gesten, Zeit, Sicherung</string>
@@ -9965,6 +10009,8 @@ Versuche, ein schnelleres Speichergerät (^3) zu verwenden oder verwende stattde
     <string name="tethering_hardware_offload_summary">Falls verfügbar, Hardwarebeschleunigung für Tethering verwenden</string>
     <string name="tethering_help_button_text">Hilfe</string>
     <string name="tethering_settings_not_available">Tetheringeinstellungen im Hauptprofil ändern</string>
+    <string name="text_layout_optimization_switch_label">Text-Layout optimieren</string>
+    <string name="text_layout_optimization_switch_toast">Text-Layout kann mit der aktuellen Schriftart nicht optimiert werden</string>
     <string name="texture_adjust_temperature_title">Farbtemperatur</string>
     <string name="the_anniversary_of_lifting_martial_law">Jahrestag der Aufhebung des Kriegsrechts</string>
     <string name="the_anti_aggression_day">Anti-Aggressionstag</string>
@@ -10218,7 +10264,7 @@ Wenn diese Option aktiviert ist, kann dieses Gerät einem Thread-Netzwerk beitre
     <string name="turn_on_keyguard_password_alert_foget_cacel">Jetzt nicht</string>
     <string name="turn_on_keyguard_password_alert_foget_ok">Verstanden</string>
     <string name="turn_on_keyguard_password_alert_foget_ok_time">Verstanden (%ds)</string>
-    <string name="turn_on_keyguard_password_alert_forget_content">Merken Sie sich Ihre Bildschirmsperre. Wenn Sie sie vergessen, müssen Sie alle Daten auf Ihrem Gerät löschen, einschließlich Fotos und Kontakte, und dann eine neue einstellen.</string>
+    <string name="turn_on_keyguard_password_alert_forget_content">Merke dir deine Bildschirmsperre. Wenn du sie vergessen hast, musst du alle Daten auf deinem Gerät löschen, einschließlich Fotos und Kontakte, und dann eine neue erstellen.</string>
     <string name="turn_on_keyguard_password_alert_forget_title">Merke dir dein Passwort</string>
     <string name="turn_on_security_lock">Sperrbildschirm einstellen</string>
     <string name="turn_on_torch">Lampe einschalten</string>
@@ -11321,6 +11367,10 @@ Deine Routereinstellungen ändern sich nicht, wenn du das Netzwerk als verborgen
     <string name="wifi_protection_tip">Xiaomi schützt deine persönlichen Daten vor WLAN-Sondierungsanfragen von zufälligen MAC-Adressen und WLAN-Sondierungsprogrammen, wenn dein Gerät nach WLAN-Netzwerken sucht.</string>
     <string name="wifi_quick_toggle_summary">WLAN einschalten</string>
     <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_reconnect_failed_text">Dein WLAN-Passwort ist falsch. Erneut eingeben.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Falsches WLAN-Passwort</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Gespeichert</string>
     <string name="wifi_remembered_disabled_auto_connect">Gespeichert. Es wird keine automatische Verbindung hergestellt.</string>
     <string name="wifi_require_sim_card_to_connect">Zum Herstellen einer Verbindung ist eine SIM-Karte erforderlich</string>

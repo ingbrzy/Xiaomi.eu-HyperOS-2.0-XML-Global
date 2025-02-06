@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">полная тишина</string>
     <string name="accessibility_quick_settings_edit">Изменить порядок быстрых настроек.</string>
     <string name="accessibility_quick_settings_expand">Развернуть быстрые настройки.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Подключенная рукоятка</string>
     <string name="accessibility_quick_settings_open_settings">Открыть настройки %s.</string>
     <string name="accessibility_quick_settings_page">Страница %1$d из %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Меню кнопки питания</string>
@@ -314,6 +315,9 @@
     <string name="alarms_and_reminders_label">Будильники и напоминания</string>
     <string name="alarms_and_reminders_switch_title">Разрешить установку будильников и напоминаний</string>
     <string name="alarms_and_reminders_title">Будильники и напоминания</string>
+    <string name="alertdialog_safemode_button_submit">Отправить</string>
+    <string name="alertdialog_safemode_message">Ваше устройство перешло в Безопасный режим из-за проблем с системным интерфейсом, в результате чего некоторые функции стали недоступны. Отправьте отчет, чтобы ускорить разрешение этой проблемы.</string>
+    <string name="alertdialog_safemode_title">Выполнен вход в Безопасный режим</string>
     <string name="all_network_unavailable">Нет доступных сетей</string>
     <string name="allow_mock_location">Фиктивные местоположения</string>
     <string name="allow_mock_location_summary">Разрешить использование фиктивных местоположений</string>
@@ -449,12 +453,15 @@
     <string name="bluetooth_headset_profile_summary_use_for">Использовать для аудиоустройства телефона</string>
     <string name="bluetooth_hearing_aid_left_active">Используется (только левый)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Используется (левый и правый)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Оба слуховых аппарата подключены к %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Левый слуховой аппарат подключен к %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Используется (только для медиа), только левый</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Используется (только для медиа), левый и правый наушники</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Используется (только для медиа), правый наушник</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Слуховой аппарат подключен</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Использовать для слухового аппарата</string>
     <string name="bluetooth_hearing_aid_right_active">Используется (только правый)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Правый слуховой аппарат подключен к %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Подключено к устройству ввода</string>
     <string name="bluetooth_hid_profile_summary_use_for">Использовать для ввода</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Подключено к LE Audio</string>
@@ -728,6 +735,7 @@
     <string name="cta_label_to_open_widget_picker">Добавить виджеты</string>
     <string name="cta_tile_button_to_dismiss">Закрыть</string>
     <string name="cta_tile_button_to_open_widget_editor">Настроить</string>
+    <string name="custom_lockscreen">Настроить экран блокировки</string>
     <string name="daltonizer_mode_deuteranomaly">Дейтераномалия (красный/зеленый)</string>
     <string name="daltonizer_mode_disabled">Отключено</string>
     <string name="daltonizer_mode_monochromacy">Монохромный режим</string>
@@ -1054,6 +1062,7 @@
     <string name="fullaod_apply_super_wallpaper_toast">Тема активного экрана установлена на пользовательскую из-за Суперобоев</string>
     <string name="fullaod_apply_third_theme_toast">Тема активного экрана установлена на пользовательскую из-за сторонних тем</string>
     <string name="fullaod_apply_third_wallpaper_toast">Тема активного экрана установлена на пользовательскую из-за сторонних обоев</string>
+    <string name="fullaod_apply_video_depth_toast">Стиль Активного экрана изменен на Пользовательский</string>
     <string name="fullscreen_text">Полноэкранный режим</string>
     <string name="game_status">Играет</string>
     <string name="global_action_smart_lock_disabled">Отложенная блокировка отключена</string>
@@ -1859,6 +1868,7 @@ mm"</string>
     <string name="notification_channel_dialog_title">Показывать все уведомления приложения \"%1$s\"</string>
     <string name="notification_channel_hints">Подсказки</string>
     <string name="notification_channel_instant">Приложения с мгновенным запуском</string>
+    <string name="notification_channel_safemode">Безопасный режим</string>
     <string name="notification_channel_screenshot">Скриншоты</string>
     <string name="notification_channel_setup">Настройка</string>
     <string name="notification_channel_storage">Хранилище</string>
@@ -1891,6 +1901,13 @@ mm"</string>
     <string name="notification_more_settings">Другие настройки</string>
     <string name="notification_multichannel_desc">Эту группу уведомлений нельзя настроить здесь.</string>
     <string name="notification_priority_title">Приоритет</string>
+    <string name="notification_safemode_button_exit">Выйти</string>
+    <string name="notification_safemode_description_exit">Перед выходом из Безопасного режима обязательно выполните советы по устранению неполадок, приведенные в уведомлении. Если вы этого не сделаете, ваше устройство может снова войти в Безопасный режим.</string>
+    <string name="notification_safemode_description_presafemode">Данные системного интерфейса и Тем успешно очищены. Вы можете использовать устройство в обычном режиме.</string>
+    <string name="notification_safemode_description_safemode">Ваше устройство сейчас находится в Безопасном режиме. Нажмите, чтобы узнать, как можно восстановить системный интерфейс.</string>
+    <string name="notification_safemode_title_exit">Выйти из Безопасного режима</string>
+    <string name="notification_safemode_title_presafemode">Системный интерфейс восстановлен</string>
+    <string name="notification_safemode_title_safemode">Уведомление об устранении проблемы сбоев системного интерфейса</string>
     <string name="notification_section_header_alerting">Уведомления</string>
     <string name="notification_section_header_conversations">Разговоры</string>
     <string name="notification_section_header_gentle">Без звука</string>
@@ -2161,9 +2178,9 @@ mm"</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Интеллектуальная смена SIM-карт</string>
     <string name="quick_settings_internet_label">Интернет</string>
     <string name="quick_settings_inversion_label">Инверсия цветов</string>
-    <string name="quick_settings_location_label">Местоположение</string>
-    <string name="quick_settings_location_state_change_message_off">Доступ к местоположению откл.</string>
-    <string name="quick_settings_location_state_change_message_on">Доступ к местоположению вкл.</string>
+    <string name="quick_settings_location_label">Службы местоположения</string>
+    <string name="quick_settings_location_state_change_message_off">Службы местоположения выключены</string>
+    <string name="quick_settings_location_state_change_message_on">Службы местоположения включены</string>
     <string name="quick_settings_media_device_label">Режим медиа</string>
     <string name="quick_settings_mic_label">Доступ к микрофону</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Нет доступных сетей Wi-Fi</string>
@@ -2306,6 +2323,7 @@ mm"</string>
     <string name="screen_pinning_toast_navigation_mode">Удерживайте кнопки \"Назад\" и \"Просмотр\", чтобы открепить это приложение</string>
     <string name="screen_pinning_toast_recents_invisible">Чтобы открепить это приложение, нажмите и удерживайте кнопки \"Назад\" и \"Главный экран\".</string>
     <string name="screen_pinning_toast_start">Это приложение закреплено</string>
+    <string name="screen_share_dialog_spinner_text">Диапазон</string>
     <string name="screen_share_permission_app_selector_title">Демонстрация или запись экрана приложения</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Весь экран</string>
     <string name="screen_share_permission_dialog_option_single_app">Отдельное приложение</string>

@@ -638,6 +638,7 @@ Järjestelmänvalvoja voi valvoa tähän käyttäjäprofiiliin liittyviä asetuk
     <string name="ai_button_title">Mi AI -painike</string>
     <string name="ai_button_title_global">AI-painike</string>
     <string name="ai_call_assistant">Älypuhelut</string>
+    <string name="ai_notification_settings">Ilmoituksen tekoäly-yhteenveto</string>
     <string name="ai_services_title">Tekoälypalvelut</string>
     <string name="ai_settings_click_title">Paina</string>
     <string name="ai_settings_double_click_category">Kaksoispaina AI-painiketta</string>
@@ -665,6 +666,7 @@ Ilman tätä lupaa sovelluksen ajoittamat herätykset ja aikaan perustuvat tapah
     <string name="all_supported_app_locales_title">Kaikki kielet</string>
     <string name="all_volume_title">Äänenvoimakkuus</string>
     <string name="allow">Salli</string>
+    <string name="allow_badge_summary">Salli numeroidun punaisen pisteen näyttäminen aloitusnäytön kuvakkeissa ilmoittamaan ilmoituksista tai uudesta sisällöstä</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Kun olet luonut widgetin, sovellus voi käyttää kaikkia näytettäviä tietoja.
 
 Sovellus: %1$s
@@ -687,6 +689,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Salli sijaintien imitointi</string>
     <string name="allow_mock_modem">Salli esimerkkimodeemi</string>
     <string name="allow_mock_modem_summary">Salli sovelluksen suorittaa esimerkkimodeemipalvelu instrumentointitestiä varten. Älä ota tätä käyttöön puhelimen normaalissa käytössä</string>
+    <string name="allow_ongoing_summary">Salli ilmoitukset, jotka voidaan poistaa vain manuaalisesti</string>
     <string name="allow_ongoing_title">Pysyvä ilmoitus</string>
     <string name="allow_overlay_description">Anna sovelluksen näkyä muiden avoimien sovellusten päällä. Tämä sovellus voi nähdä, mitä kohtaa napautat, ja muuttaa, mitä näytöllä näytetään.</string>
     <string name="allow_sound_title">Ääni</string>
@@ -1220,7 +1223,7 @@ Käytetty viimeksi %2$s"</string>
     <string name="back_navigation_animation_summary">Ota käyttöön takaisin siirtymisen ennakoivat järjestelmäanimaatiot</string>
     <string name="back_sensitivity_dialog_message">Suurempi herkkyys voi olla ristiriidassa näytön reunan sovelluseleiden kanssa.</string>
     <string name="back_sensitivity_dialog_title">Takaisin-eleen herkkyys</string>
-    <string name="back_strap_image_text">Hanki ilmoitusmuistutuksia ja valotehosteita eri kohtauksiin</string>
+    <string name="back_strap_image_text">Kun laite on kuvapuoli alaspäin ja näyttö pois päältä, taustavalo näyttää ilmoitusmuistutuksia ja valaistustehosteita eri kohtauksissa</string>
     <string name="back_strap_status_close">Pois</string>
     <string name="back_strap_status_open">Päällä</string>
     <string name="back_strap_title">Taustavalotehosteet</string>
@@ -1785,12 +1788,15 @@ Kellon avaus on kätevä tapa avata puhelin, esimerkiksi jos sormesi ovat kastun
     <string name="bluetooth_headset_profile_summary_use_for">Käytetään puhelimen äänelle</string>
     <string name="bluetooth_hearing_aid_left_active">Aktiivinen (vain vasen)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktiivinen (vasen ja oikea)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Molemmat kuulolaitteet yhdistettynä laitteeseen %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Vasen kuulolaite yhdistettynä laitteeseen %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktiivinen (vain media), vain vasen</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktiivinen (vain media), vasen ja oikea</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktiivinen (vain media), vain oikea</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Yhdistetty kuulolaitteeseen</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Käytetään kuulolaitteella</string>
     <string name="bluetooth_hearing_aid_right_active">Aktiivinen (vain oikea)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Oikea kuulolaite yhdistettynä laitteeseen %1$s</string>
     <string name="bluetooth_hearing_aids_presets">Esiasetus</string>
     <string name="bluetooth_hearing_aids_presets_error">Esiasetusta ei voitu muuttaa</string>
     <string name="bluetooth_hearing_device_settings_summary">Pikanäppäin, kuulolaiteyhteensopivuus</string>
@@ -1859,6 +1865,10 @@ Jos haluat liittää oikean sen pariksi, varmista, että se on päällä ja valm
 Jos haluat liittää vasemman sen pariksi, varmista, että se on päällä ja valmis parin muodostukseen."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Liitä oikea korva</string>
     <string name="bluetooth_pair_other_ear_dialog_title">Liitä toinen korva</string>
+    <string name="bluetooth_pair_other_hearing_dialog_positive_button">Liitä</string>
+    <string name="bluetooth_pair_other_hearing_dialog_title">Yhdistä muiden kuulolaitteiden kanssa</string>
+    <string name="bluetooth_pair_other_left_hearing_dialog_message">Oikea kuulolaite on kytketty. Varmista, että vasen kuulolaite on päällä ja valmis pariliitoksen muodostamiseen.</string>
+    <string name="bluetooth_pair_other_right_hearing_dialog_message">Vasen kuulolaite on kytketty. Varmista, että oikea kuulolaite on päällä ja valmis pariliitoksen muodostamiseen.</string>
     <string name="bluetooth_pair_right_ear_button">Liitä oikea korva</string>
     <string name="bluetooth_paired">Tallennettu</string>
     <string name="bluetooth_paired_device_title">Omat laitteet</string>
@@ -2457,6 +2467,7 @@ Jos tämä lupa myönnetään, sovellus on saatavilla vaihtoehtona aina, kun tag
     <string name="choose_unlock_face_msg">Aseta näytön lukitus ennen kasvotietojen tallennusta.</string>
     <string name="choose_unlock_fingerprint_msg">Aseta näytön lukitus ennen sormenjäljen lisäämistä.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Circle to Search</string>
     <string name="classic_mode_summary">Vaihda lämpimämpiin väreihin vähentääksesi sinisen valon määrää</string>
     <string name="classic_mode_title">Klassinen</string>
     <string name="cleaner">Puhdistaja</string>
@@ -2891,7 +2902,6 @@ Jos keskeytät sen, menetät osan tai kaikki tietosi."</string>
     <string name="dark_mode_day_night_mode_summary">Laitteesi siirtyy pimeään tilaan auringonlaskun aikaan ja takaisin vaaleaan tilaan auringon noustessa. Ota sijaintipalvelut käyttöön saadaksesi tarkimmat tulokset.</string>
     <string name="dark_mode_day_night_mode_title">Auringonlaskusta auringonnousuun</string>
     <string name="dark_mode_display_enable_summary">Vaihda himmeään käyttöliittymään, joka näyttää enimmäkseen tummat pinnat</string>
-    <string name="dark_mode_font_background_title">Säädä tekstiä ja taustoja automaattisesti</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Selvä</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Jos poistat järjestelmäoptimoinnin käytöstä ja otat Virransäästön käyttöön, tumma tila otetaan käyttöön automaattisesti.
 Jos haluat poistaa tumman tilan käytöstä, poista Virransäästö käytöstä tai ota järjestelmäoptimointi käyttöön kohdassa Asetukset > Kehittäjäasetukset > Ota järjestelmäoptimointi käyttöön."</string>
@@ -3781,7 +3791,7 @@ Käynnistä laite uudelleen ja yritä sitten uudelleen."</string>
     <string name="external_source_untrusted">Ei sallittu</string>
     <string name="extreme_threats_summary">Saa hälytyksiä ihmishenkiä ja omaisuutta koskevista uhista</string>
     <string name="extreme_threats_title">Erittäin vakavat uhat</string>
-    <string name="eye_gaze_dialog_message">Kun otat Tunnista katse käyttöön, laite ei lukitu, kun se havaitsee, että katsot näyttöä. Kasvojen ominaisuuksiasi ei analysoida, eikä kasvotietojasi tallenneta laitteellesi tai ladata pilveen. Otetaanko nyt käyttöön?</string>
+    <string name="eye_gaze_dialog_message">Kun tämä ominaisuus on käytössä, järjestelmä havaitsee, katsotko näyttöä, mutta kasvonpiirteitäsi ei analysoida eikä näitä tietoja tallenneta laitteellesi tai ladata pilveen. Otetaanko nyt käyttöön?</string>
     <string name="eye_gaze_dialog_title">Tietoturvailmoitus</string>
     <string name="eye_gaze_summary">Laite ei lukkiudu, kun se havaitsee sinun katsovan näyttöä</string>
     <string name="eye_gaze_summary_fold_device">Laite ei lukitu, kun se havaitsee, että katsot ulkonäyttöä</string>
@@ -3864,6 +3874,7 @@ ulkoruutuun päin"</string>
     <string name="face_unlock_success_stay_screen_title">Pysy lukitusnäytöllä lukituksen poistamisen jälkeen</string>
     <string name="face_unlock_title">Voit avata puhelimen lukituksen kasvojentunnistuksella. Turvallisuussyistä tämä edellyttää, että määrität näytön varalukitustavan.</string>
     <string name="face_unlock_when_slt_on_toast">Kasvojentunnistusta ei voi käyttää, kun käytetään Tiantong-satelliittiviestintää</string>
+    <string name="factory_reset_loading">Suoritetaan tehdasasetusten palautusta…</string>
     <string name="factory_reset_summary">Alustaminen poistaa kaikki tiedot laitteen sisäisestä tallennustilasta</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Liian monta virheellistä yritystä. Laitteen data poistetaan.</string>
@@ -4040,6 +4051,7 @@ Pyydä lisätietoja luoton myöntäjältä."</string>
     <string name="flash_notifications_keywords">taskulamppu, valo, huonokuuloinen, kuulon heikkeneminen</string>
     <string name="flash_notifications_note">\"Valosäde ilmoitusten yhteydessä\" visualisoi ilmoitusäänet ja soittoäänet kamerasalaman ja näytön avulla. Jos olet herkkä valolle, käytä tätä ominaisuutta varoen.</string>
     <string name="flash_notifications_preview">Esikatselu</string>
+    <string name="flash_notifications_settings_title">Valoilmoitus</string>
     <string name="flash_notifications_summary">Käytä kameran salamaa tai näytä värisäteitä näytöllä, kun ilmoitukset saapuvat tai laite soi</string>
     <string name="flash_notifications_summary_off">Pois päältä</string>
     <string name="flash_notifications_summary_on_camera">Päällä / kameran valoilmoitus</string>
@@ -4133,6 +4145,9 @@ Pyydä lisätietoja luoton myöntäjältä."</string>
     <string name="font_cta_alert_btn_positive">Hyväksy</string>
     <string name="font_cta_alert_message">Lue ja hyväksy Teemojen ehdot jatkaaksesi.</string>
     <string name="font_cta_alert_title">Käyttöehdot</string>
+    <string name="font_preview_text_content">"Esimerkkiteksti:
+
+Xiaomi rakentaa hellittämättä upeita tuotteita rehellisillä hinnoilla, jotta kaikki voivat nauttia paremmasta elämästä innovatiivisen teknologian avulla."</string>
     <string name="font_scale_percentage">%1$d %%</string>
     <string name="font_setting_weight_toast">Nykyinen fontti ei tue fontin painon säätämistä</string>
     <string name="font_settings_jump">Esteettömyys > Näytön koko</string>
@@ -4293,9 +4308,12 @@ Kun otat automaattisen varmuuskopioinnin käyttöön, laitteen ja sovellusten ti
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Peliohjaimet</string>
     <string name="game_storage_settings">Pelit</string>
-    <string name="gaze_lock_screen_summary">Laite pysyy lukitsemattomana, kun läsnäolosi havaitaan, ja lukittuu, kun siirryt pois näytöltä</string>
+    <string name="gaze_lock_screen_summary">Laite pysyy lukitsemattomana, kun katsot näyttöä, ja lukittuu, kun katsot muualle yksityisyytesi suojaamiseksi, ohittaen automaattisen lukitusaika-asetuksen</string>
     <string name="gaze_lock_screen_title">Tunnista läsnäolo</string>
     <string name="gd_setting_title">Sivupalkki</string>
+    <string name="gemini_description">Keskustele Geminin kanssa täydentääksesi ideoitasi. Saat apua oppimiseen, kiitoskirjeiden kirjoittamiseen, tapahtumien suunnitteluun ja paljon muuta. Käytä tekstiä, ääntä, valokuvia ja kameraa saadaksesi apua uusilla tavoilla. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Lisätietoja saatavuudesta</a></string>
+    <string name="gemini_function">Lisää ideoitasi Google Geminillä, uudella tekoälyavustajallasi</string>
+    <string name="gemini_setting">Gemini-asetukset</string>
     <string name="general_category_title">Yleiset</string>
     <string name="general_notification_header">Hallinta</string>
     <string name="general_text">Tekstikenttä</string>
@@ -4308,6 +4326,12 @@ Kun otat automaattisen varmuuskopioinnin käyttöön, laitteen ja sovellusten ti
     <string name="gesture_button_restart">Käynnistä</string>
     <string name="gesture_button_skip">Ohita</string>
     <string name="gesture_function_dialog_message">%1$s käytetään kohteeseen \"%2$s\". Korvataanko kohteella \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Herätä kaksoisnapauttamalla lukitusnäyttöä</string>
+    <string name="gesture_lockcreen_sleep_title">Nukuta kaksoisnapauttamalla lukitusnäyttöä</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Kaksoisnapautuksella</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Ei mitään</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Napautuksella</string>
+    <string name="gesture_lockcreen_wakeup_title">Herätä näyttö</string>
     <string name="gesture_preference_title">Eleet</string>
     <string name="gesture_prevent_ringing_screen_title">Estä soittoääni</string>
     <string name="gesture_prevent_ringing_sound_title">Soittoäänen hiljentämisen pikakuvake</string>
@@ -4446,6 +4470,12 @@ Alue, jolla voit vahvistaa näytön lukituksen, siirtyy oikealle."</string>
     <string name="gxzw_quick_open_slow_summary">Avaa pikavalikko painamalla ja pitämällä pohjassa sormenjälkikuvaketta. Käytä pikavalintaa pyyhkäisemällä.</string>
     <string name="gxzw_quick_open_slow_title">Paina ja pidä pohjassa</string>
     <string name="gxzw_quick_open_title">Pikavalinnat</string>
+    <string name="gxzw_recognizing_anim_a">Ripple</string>
+    <string name="gxzw_recognizing_anim_b">Spiral</string>
+    <string name="gxzw_recognizing_anim_c">Halo</string>
+    <string name="gxzw_recognizing_anim_d">Wave</string>
+    <string name="gxzw_recognizing_anim_e">Aperture</string>
+    <string name="gxzw_recognizing_anim_f">Diffusion</string>
     <string name="gxzw_vibrate_summary">Värinää ei tapahdu, jos sormenjälkianimaatiota ei ole valittu</string>
     <string name="gxzw_vibrate_title">Värinä lukituksen avaamisen aikana</string>
     <string name="handle_ota_connect_first">Yhdistä kahva</string>
@@ -4552,6 +4582,7 @@ Alue, jolla voit vahvistaa näytön lukituksen, siirtyy oikealle."</string>
     <string name="health_use_of_pad">Terveellinen laitteen käyttö</string>
     <string name="health_use_of_phone">Terveellinen laitteen käyttö</string>
     <string name="hearing_aids_category">Kuulemisen apuvälineet</string>
+    <string name="hearing_stream_option">Ääniasetukset</string>
     <string name="heavy_weight_stop_description">Tätä sovellusta ei voi pysäyttää turvallisesti. Jos pysäytät sovelluksen, saatat menettää tietoja.</string>
     <string name="height_light_list_text">Luettelo tärkeistä kohteista</string>
     <string name="help_and_feedback_title">Ohje ja palaute</string>
@@ -5101,6 +5132,7 @@ Avaa Xiaomi Cloud ja palauta kohteet sieltä."</string>
     <string name="layout_size_small_text">Erittäin pieni</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Lue lisää</string>
+    <string name="leave_lockscreen_summary">Laite lukittuu, kun siirryt pois näytön ääreltä</string>
     <string name="leave_loclscreen_summary">Näyttö lukittuu automaattisesti, kun kävelet tietyn matkan päässä laitteestasi</string>
     <string name="leave_loclscreen_title">Lukitse näyttö poistuessasi</string>
     <string name="led_colors_summary">Ilmoitusvalon väri</string>
@@ -5109,6 +5141,7 @@ Avaa Xiaomi Cloud ja palauta kohteet sieltä."</string>
     <string name="led_settings">LED-valo</string>
     <string name="left_edge">Vasen reuna</string>
     <string name="left_function_key">Vasen pikavalinta</string>
+    <string name="left_hearing_aid">Vasen kuulolaite</string>
     <string name="left_right_hand_switch">Vasen ja oikea</string>
     <string name="left_right_hand_switch_summary">Aseta näppäimistön vasen ja oikea osa vaihtamaan paikkaa yhdellä napautuksella</string>
     <string name="left_shoulder_key">Vasen</string>
@@ -5775,7 +5808,7 @@ Et voi peruuttaa tätä toimintoa."</string>
     <string name="media_controls_show_player">Näytä soitin</string>
     <string name="media_controls_title">Media</string>
     <string name="media_dialog_ok">Selvä</string>
-    <string name="media_dialog_summary">Kun tämä ominaisuus on käytössä, laite värisee tuetun musiikin ja videoiden rytmin mukaan antaen täydellisemmän ja mukaansatempaavamman kokemuksen.</string>
+    <string name="media_dialog_summary">Kun tämä ominaisuus on käytössä, laite värisee tuetun musiikin rytmin mukana, mikä tarjoaa kokonaisvaltaisamman ja mukaansatempaavamman kokemuksen.</string>
     <string name="media_dialog_title">Ota käyttöön median haptinen palaute</string>
     <string name="media_drm_settings_title">Median DRM-asetukset</string>
     <string name="media_feedback_enable_title">Värise tahdin mukaan</string>
@@ -6457,7 +6490,7 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="multi_face_input_reach_upper_limit">Kasvotietoja ei voitu lisätä. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="multi_face_input_success_name_title">Nimi</string>
     <string name="multi_face_list">Kasvotiedot</string>
-    <string name="multi_face_name_prefix">"Kasvot "</string>
+    <string name="multi_face_name_prefix">Kasvotiedot %s</string>
     <string name="multi_face_number_reach_limit">Ei voi lisätä tietoja enemmän kuin 2 kasvoille</string>
     <string name="multi_music_coexistence_summary">Älä säädä median äänenvoimakkuutta saapuvien ilmoitusten aikana tai kun ääntä toistetaan toisesta lähteestä</string>
     <string name="multi_music_coexistence_title">Useita äänilähteitä</string>
@@ -7200,13 +7233,22 @@ Lue ja hyväksy %s ennen kuin käytät tätä palvelua."</string>
     <string name="photography_handle_button_function_settings">Aseta kahvapainike</string>
     <string name="photography_handle_charge_protected">Kahvan lataussuoja</string>
     <string name="photography_handle_charge_protected_summary">Kun kamerakahva on liitetty, laite lopettaa lataamisen ja pitää akun varaustason %1$s</string>
+    <string name="photography_handle_charge_settings">Latausasetukset</string>
     <string name="photography_handle_charge_state">Lataa kameran kahvoista</string>
+    <string name="photography_handle_charge_state_choice_always">Aina</string>
+    <string name="photography_handle_charge_state_choice_emergency">Hätätila</string>
     <string name="photography_handle_charge_state_summary">Lataa tämä laite kameran kahvoista aina, kun ne on kytketty</string>
+    <string name="photography_handle_charge_state_summary_new">Aloita tämän laitteen lataaminen kamerakahvasta, kun se on liitetty</string>
+    <string name="photography_handle_emergency_charge_summary">Aloita hätälataus, kun akku laskee alle %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Varalataustaso</string>
+    <string name="photography_handle_function_settings">Kamerakahvan asetukset</string>
     <string name="photography_handle_launch_and_take_photo">Ota kuva</string>
     <string name="photography_handle_launch_camera">Avaa kamera</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Paina ja pidä laukaisinta painettuna suorittaaksesi toiminnon</string>
     <string name="photography_handle_quick_launch_camera_title">Äkkilaukaus</string>
+    <string name="photography_handle_sn">Sarjanumero</string>
     <string name="photography_handle_title">Kameran kahva</string>
+    <string name="photography_handle_update_and_maintain">Päivitykset</string>
     <string name="physical_keyboard_title">Fyysinen näppäimistö</string>
     <string name="pick_up_gesture_wakeup_title">Nosta herättääksesi</string>
     <string name="picker_text">Ajanvalitsin</string>
@@ -7893,7 +7935,7 @@ Käynnistä laite uudelleen ja yritä sitten uudelleen."</string>
     <string name="reset_network_button_text">Nollaa asetukset</string>
     <string name="reset_network_category">Tämä tyhjentää kaikki verkkoasetukset, mukaan lukien:</string>
     <string name="reset_network_complete_toast">Verkkoasetuksesi on nollattu.</string>
-    <string name="reset_network_confirm_title">Nollataanko?</string>
+    <string name="reset_network_confirm_title">Nollaa?</string>
     <string name="reset_network_data">Mobiilidata</string>
     <string name="reset_network_final_button_text">Nollaa asetukset</string>
     <string name="reset_network_final_desc">Tämä voi kestää useita sekunteja. Et voi kumota tätä toimintoa.</string>
@@ -7969,6 +8011,7 @@ Kaikki tilan sovellukset ja niiden data poistetaan pysyvästi puhelimen "<b>sis�
     <string name="rhythmic_mode_enable_title">Kierto</string>
     <string name="right_edge">Oikea reuna</string>
     <string name="right_function_key">Oikea pikavalinta</string>
+    <string name="right_hearing_aid">Oikea kuulolaite</string>
     <string name="right_shoulder_key">Oikea</string>
     <string name="ring_to_you">Mukautettu soittoääni</string>
     <string name="ring_to_you_info">Aseta mukautettu soittoääni, jonka muut ihmiset kuulevat ennen kuin vastaat</string>
@@ -8029,6 +8072,7 @@ Kaikki tilan sovellukset ja niiden data poistetaan pysyvästi puhelimen "<b>sis�
     <string name="same_source_synced">Lähetyksen lisäys onnistui</string>
     <string name="sar">RF-altistustiedot</string>
     <string name="satellite_call_assistant">Puheluasetukset</string>
+    <string name="satellite_management_title">Satelliittiverkko</string>
     <string name="satellite_network_title">Satelliittipuhelun ominaisuudet</string>
     <string name="satellite_setting">Satelliittiviestintä</string>
     <string name="satellite_setting_disabled_summary">Lähetä ja vastaanota tekstiviestejä satelliitin kautta. Ei sisälly tiliin.</string>
@@ -8220,7 +8264,7 @@ Näin voit kiinnittää sovelluksen: \u0009
     <string name="screen_projection_sample_summary">Lähetetään asiakirjoja, pelejä, valokuvia ja videoita</string>
     <string name="screen_projection_sample_title">Demot</string>
     <string name="screen_projection_title">Peilaa</string>
-    <string name="screen_reader_category_title">Näytönlukuohjelma</string>
+    <string name="screen_reader_category_title">Näytönlukija</string>
     <string name="screen_refresh_unavailable_prompt">Virkistystaajuuden muuttamista tukee vain ulompi näyttö</string>
     <string name="screen_resolution_dialog_title">Vaihda resoluutiota</string>
     <string name="screen_resolution_footer">Täysi resoluutio kuluttaa enemmän akkua. Jotkin sovellukset käynnistyvät uudelleen, kun vaihdat resoluutiota.</string>
@@ -9965,6 +10009,8 @@ Kokeile ottaa käyttöön nopeampi ^3 tai käytä laitetta ^4 siirrettävänä t
     <string name="tethering_hardware_offload_summary">Käytä laitteistokiihdytyksen yhteyden jakamista, jos se on käytettävissä</string>
     <string name="tethering_help_button_text">Ohjeet</string>
     <string name="tethering_settings_not_available">Muuta jaetun yhteyden asetuksia ensimmäisessä tilassa</string>
+    <string name="text_layout_optimization_switch_label">Optimoi tekstin asettelu</string>
+    <string name="text_layout_optimization_switch_toast">Tekstin asettelua ei voi optimoida nykyisellä fontilla</string>
     <string name="texture_adjust_temperature_title">Värilämpötila</string>
     <string name="the_anniversary_of_lifting_martial_law">Sotalain nostamisen vuosipäivä</string>
     <string name="the_anti_aggression_day">Anti-Aggression Day</string>
@@ -11322,6 +11368,10 @@ Verkon piilottaminen ei muuta reititinasetuksiasi."</string>
     <string name="wifi_protection_tip">Xiaomi suojelee yksityistietojasi WI-Fi-etsimispyynnöiltä, jotka tulevat satunnaisista MAC-osoitteista sekä Wi-Fi-etsimisnuuskijoilta, kun laitteesi etsii WLAN-verkkoa.</string>
     <string name="wifi_quick_toggle_summary">Käynnistä Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Wi-Fi-salasanasi on virheellinen. Kirjoita se uudelleen.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Väärä Wi-Fi-salasana</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Tallennettu</string>
     <string name="wifi_remembered_disabled_auto_connect">Tallennettu. Yhteyttä ei luoda automaattisesti.</string>
     <string name="wifi_require_sim_card_to_connect">Yhdistämiseen tarvitaan SIM-kortti</string>

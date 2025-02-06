@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">potpuna tišina</string>
     <string name="accessibility_quick_settings_edit">Uređivanje redoslijeda postavki.</string>
     <string name="accessibility_quick_settings_expand">Otvaranje brzih postavki.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Povezani držač</string>
     <string name="accessibility_quick_settings_open_settings">Otvaranje postavki za %s.</string>
     <string name="accessibility_quick_settings_page">Stranica %1$d od %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Izbornik tipke za uključivanje/isključivanje</string>
@@ -314,6 +315,9 @@ Ako je to dopuštenje isključeno, postojeći alarmi i događaji zakazani putem 
     <string name="alarms_and_reminders_label">Alarmi i podsjetnici</string>
     <string name="alarms_and_reminders_switch_title">Dopusti postavljanje alarma i podsjetnika</string>
     <string name="alarms_and_reminders_title">Alarmi i podsjetnici</string>
+    <string name="alertdialog_safemode_button_submit">Pošalji</string>
+    <string name="alertdialog_safemode_message">Vaš je uređaj ušao u siguran način rada zbog problema sa sučeljem sustava, zbog čega su neke značajke postale nedostupne. Pošaljite svoje povratne informacije kako biste ubrzali rješavanje ovog problema.</string>
+    <string name="alertdialog_safemode_title">Ušao u siguran način rada</string>
     <string name="all_network_unavailable">Nema dostupnih mreža</string>
     <string name="allow_mock_location">Dopusti probne lokacije</string>
     <string name="allow_mock_location_summary">Dopusti probne lokacije</string>
@@ -449,12 +453,15 @@ Pokušajte ponovo za %d s."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Koristi za telefonski zvuk</string>
     <string name="bluetooth_hearing_aid_left_active">Aktivno (samo lijevo)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktivno (lijevo i desno)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Oba slušna pomagala povezana s %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Lijevi slušni aparat povezan s %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktivno (samo medijski sadržaji), samo lijeva</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktivno (samo medijski sadržaji), lijeva i desna</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktivno (samo medijski sadržaji), samo desna</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Povezano sa slušnim pomagalima</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Upotrijebi za slušna pomagala</string>
     <string name="bluetooth_hearing_aid_right_active">Aktivno (samo desno)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Desni slušni aparat povezan s %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Povezano s ulaznim uređajem</string>
     <string name="bluetooth_hid_profile_summary_use_for">Upotrijebi za ulaz</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Povezano s profilom LE_AUDIO</string>
@@ -728,6 +735,7 @@ Promjene uvijek možete unijeti u Postavkama."</string>
     <string name="cta_label_to_open_widget_picker">Dodavanje još widgeta</string>
     <string name="cta_tile_button_to_dismiss">Odbaci</string>
     <string name="cta_tile_button_to_open_widget_editor">Prilagodi</string>
+    <string name="custom_lockscreen">Prilagodi zaključani zaslon</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomalija (crveno – zeleno)</string>
     <string name="daltonizer_mode_disabled">Onemogućeno</string>
     <string name="daltonizer_mode_monochromacy">Monokromatizam</string>
@@ -1054,6 +1062,7 @@ Isključite gumbom napajanje."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Tema Uvijek uključenog zaslona je prilagođena zbog Super pozadina</string>
     <string name="fullaod_apply_third_theme_toast">Tema Uvijek uključenog zaslona je prilagođena zbog tema trećih strana</string>
     <string name="fullaod_apply_third_wallpaper_toast">Tema Uvijek uključenog zaslona je prilagođena zbog pozadina trećih strana</string>
+    <string name="fullaod_apply_video_depth_toast">Stil uvijek uključenog zaslona prebačen je na prilagođeni</string>
     <string name="fullscreen_text">Puni zaslon</string>
     <string name="game_status">Igranje</string>
     <string name="global_action_smart_lock_disabled">Produljivanje otključavanja onemogućeno</string>
@@ -1859,6 +1868,7 @@ Ako imate pitanja, obratite se tvrtki %2$s."</string>
     <string name="notification_channel_dialog_title">Sve obavijesti aplikacije %1$s</string>
     <string name="notification_channel_hints">Savjeti</string>
     <string name="notification_channel_instant">Instant aplikacije</string>
+    <string name="notification_channel_safemode">Siguran način</string>
     <string name="notification_channel_screenshot">Snimke zaslona</string>
     <string name="notification_channel_setup">Postavljanje</string>
     <string name="notification_channel_storage">Pohrana</string>
@@ -1891,6 +1901,13 @@ Ako imate pitanja, obratite se tvrtki %2$s."</string>
     <string name="notification_more_settings">Više postavki</string>
     <string name="notification_multichannel_desc">Ta se grupa obavijesti ne može konfigurirati ovdje</string>
     <string name="notification_priority_title">Prioritetno</string>
+    <string name="notification_safemode_button_exit">Izlaz</string>
+    <string name="notification_safemode_description_exit">Svakako slijedite savjete za rješavanje problema navedene u ovoj obavijesti prije nego napustite Sigurni način rada. Ako to ne napravite, vaš uređaj bi mogao opet prijeći u Sigurni način rada.</string>
+    <string name="notification_safemode_description_presafemode">Sučelje sustava i podaci o temama uspješno su očišćeni. Možete normalno koristiti svoj uređaj.</string>
+    <string name="notification_safemode_description_safemode">Vaš je uređaj sada u sigurnom načinu rada. Dodirnite da vidite kako možete vratiti sučelje sustava.</string>
+    <string name="notification_safemode_title_exit">Napusti Sigurni način rada</string>
+    <string name="notification_safemode_title_presafemode">Sučelje sustava je vraćeno</string>
+    <string name="notification_safemode_title_safemode">Obavijest o rješavanju problema s rušenjima sučelja sustava</string>
     <string name="notification_section_header_alerting">Obavijesti</string>
     <string name="notification_section_header_conversations">Razgovori</string>
     <string name="notification_section_header_gentle">Bešumno</string>
@@ -2161,9 +2178,9 @@ Ako imate pitanja, obratite se tvrtki %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Smart dvojni SIM</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Inverzija boja</string>
-    <string name="quick_settings_location_label">Lokacija</string>
-    <string name="quick_settings_location_state_change_message_off">Pristup lokaciji je isključen</string>
-    <string name="quick_settings_location_state_change_message_on">Pristup lokaciji je uključen</string>
+    <string name="quick_settings_location_label">Usluge lokacije</string>
+    <string name="quick_settings_location_state_change_message_off">Usluge lokacije isključene</string>
+    <string name="quick_settings_location_state_change_message_on">Usluge lokacije uključene</string>
     <string name="quick_settings_media_device_label">Medijski uređaj</string>
     <string name="quick_settings_mic_label">Pristup mikrofonu</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Nema dostupnih Wi-Fi mreža</string>
@@ -2306,6 +2323,7 @@ Ako imate pitanja, obratite se tvrtki %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Pritisnite i držite tipke za povratak i pregled kako biste otkvačili ovu aplikaciju</string>
     <string name="screen_pinning_toast_recents_invisible">Da biste otkvačili ovu aplikaciju, dodirnite gumb Natrag i gumb Početna i zadržite pritisak</string>
     <string name="screen_pinning_toast_start">Ova aplikacija je zalijepljena na vrh</string>
+    <string name="screen_share_dialog_spinner_text">Raspon</string>
     <string name="screen_share_permission_app_selector_title">Dijeljenje ili snimanje aplikacije</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Cijeli zaslon</string>
     <string name="screen_share_permission_dialog_option_single_app">Jedna aplikacija</string>

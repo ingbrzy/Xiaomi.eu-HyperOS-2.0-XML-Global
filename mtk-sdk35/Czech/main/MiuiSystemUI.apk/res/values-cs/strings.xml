@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">úplné ticho</string>
     <string name="accessibility_quick_settings_edit">Upravit pořadí nastavení.</string>
     <string name="accessibility_quick_settings_expand">Otevřít rychlé nastavení.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Připojený držák</string>
     <string name="accessibility_quick_settings_open_settings">Otevřít nastavení aplikace %s.</string>
     <string name="accessibility_quick_settings_page">Stránka %1$d z %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Nabídka vypínače</string>
@@ -314,6 +315,9 @@ Pokud toto oprávnění zůstane vypnuté, stávající budíky a události zá
     <string name="alarms_and_reminders_label">Budíky a připomenutí</string>
     <string name="alarms_and_reminders_switch_title">Povolit nastavování budíků a připomenutí</string>
     <string name="alarms_and_reminders_title">Budíky a připomenutí</string>
+    <string name="alertdialog_safemode_button_submit">Odeslat</string>
+    <string name="alertdialog_safemode_message">Vaše zařízeno se kvůli problémům se systémovým rozhraním přepnulo do Bezpečného režimu. Některé funkce nejsou v důsledku toho dostupné. Odešlete zpětnou vazbu, abyste urychlili vyřešení tohoto problému.</string>
+    <string name="alertdialog_safemode_title">Přepnutí do Bezpečného režimu</string>
     <string name="all_network_unavailable">Nejsou k dispozici žádné sítě</string>
     <string name="allow_mock_location">Povolit simulované polohy</string>
     <string name="allow_mock_location_summary">Povolit simulované polohy</string>
@@ -449,12 +453,15 @@ Zkuste to znovu za %d s."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Umožňuje připojení náhlavní soupravy</string>
     <string name="bluetooth_hearing_aid_left_active">Aktivní (pouze levé)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktivní (levé a pravé)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Obě naslouchátka jsou připojena k %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Levé naslouchátko je připojeno k %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktivní (pouze média), pouze levé</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktivní (pouze média), levé a pravé</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktivní (pouze média), pouze pravé</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Připojeno k naslouchátkům</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Použít pro naslouchátka</string>
     <string name="bluetooth_hearing_aid_right_active">Aktivní (pouze pravé)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Pravé naslouchátko je připojeno k %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Připojeno ke vstupnímu zařízení</string>
     <string name="bluetooth_hid_profile_summary_use_for">Použít pro vstup</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Připojeno k LE Audio</string>
@@ -728,6 +735,7 @@ Změny můžete kdykoli provést v Nastavení."</string>
     <string name="cta_label_to_open_widget_picker">Přidat další widgety</string>
     <string name="cta_tile_button_to_dismiss">Zavřít</string>
     <string name="cta_tile_button_to_open_widget_editor">Přizpůsobit</string>
+    <string name="custom_lockscreen">Přizpůsobit Zamykací obrazovku</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomálie (červená a zelená)</string>
     <string name="daltonizer_mode_disabled">Vypnuto</string>
     <string name="daltonizer_mode_monochromacy">Monochromázie</string>
@@ -1054,6 +1062,7 @@ Vypnete ji tlačítkem Napájení."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Téma Aktivního displeje bylo kvůli Super tapetám nastaveno na vlastní</string>
     <string name="fullaod_apply_third_theme_toast">Téma Aktivního displeje bylo kvůli tématům třetích stran nastaveno na vlastní</string>
     <string name="fullaod_apply_third_wallpaper_toast">Téma Aktivního displeje bylo kvůli tapetám třetích stran nastaveno na vlastní</string>
+    <string name="fullaod_apply_video_depth_toast">Styl „Aktivní displej“ byl přepnut na „Vlastní“</string>
     <string name="fullscreen_text">Celá obrazovka</string>
     <string name="game_status">Hraji hru</string>
     <string name="global_action_smart_lock_disabled">Rozšíření odemknutí deaktivováno</string>
@@ -1859,6 +1868,7 @@ Pokud máte nějaké otázky, obraťte se na organizaci %2$s."</string>
     <string name="notification_channel_dialog_title">Všechna oznámení aplikace %1$s</string>
     <string name="notification_channel_hints">Tipy</string>
     <string name="notification_channel_instant">Okamžité aplikace</string>
+    <string name="notification_channel_safemode">Bezpečný režim</string>
     <string name="notification_channel_screenshot">Snímky obrazovek</string>
     <string name="notification_channel_setup">Nastavit</string>
     <string name="notification_channel_storage">Úložiště</string>
@@ -1891,6 +1901,13 @@ Pokud máte nějaké otázky, obraťte se na organizaci %2$s."</string>
     <string name="notification_more_settings">Další nastavení</string>
     <string name="notification_multichannel_desc">Tuto skupinu oznámení tady nelze nakonfigurovat</string>
     <string name="notification_priority_title">Prioritní</string>
+    <string name="notification_safemode_button_exit">Ukončit</string>
+    <string name="notification_safemode_description_exit">Před ukončením Bezpečného režimu postupujte podle tipů pro řešení potíží uvedených v oznámení. Pokud tak neučiníte, vaše zařízení by mohlo opět vstoupit do Bezpečného režimu.</string>
+    <string name="notification_safemode_description_presafemode">Data systémového rozhraní a motivů byla úspěšně odstraněna. Zařízení můžete používat normálně.</string>
+    <string name="notification_safemode_description_safemode">Vaše zařízení je nyní v Bezpečném režimu. Klepnutím zobrazíte, jak můžete obnovit systémové rozhraní.</string>
+    <string name="notification_safemode_title_exit">Ukončit Bezpečný režim</string>
+    <string name="notification_safemode_title_presafemode">Systémové rozhraní je obnovené</string>
+    <string name="notification_safemode_title_safemode">Oznámení o opravě pádů systémového rozhraní</string>
     <string name="notification_section_header_alerting">Oznámení</string>
     <string name="notification_section_header_conversations">Konverzace</string>
     <string name="notification_section_header_gentle">Tichý režim</string>
@@ -2161,9 +2178,9 @@ Pokud máte nějaké otázky, obraťte se na organizaci %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Chytrá duální SIM karta</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Převrácení barev</string>
-    <string name="quick_settings_location_label">Poloha</string>
-    <string name="quick_settings_location_state_change_message_off">Přístup k poloze je vypnutý</string>
-    <string name="quick_settings_location_state_change_message_on">Přístup k poloze je zapnutý</string>
+    <string name="quick_settings_location_label">Služby určování polohy</string>
+    <string name="quick_settings_location_state_change_message_off">Služby určování polohy jsou vypnuty</string>
+    <string name="quick_settings_location_state_change_message_on">Služby určování polohy jsou zapnuty</string>
     <string name="quick_settings_media_device_label">Mediální zařízení</string>
     <string name="quick_settings_mic_label">Přístup k mikrofonu</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Žádné dostupné Wi-Fi sítě</string>
@@ -2306,6 +2323,7 @@ Pokud máte nějaké otázky, obraťte se na organizaci %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Přidržením tlačítek zpět a náhled tuto aplikaci odepnete</string>
     <string name="screen_pinning_toast_recents_invisible">Aplikaci odepnete podržením tlačítek Zpět a Plocha</string>
     <string name="screen_pinning_toast_start">Tato aplikace je připnutá</string>
+    <string name="screen_share_dialog_spinner_text">Rozsah</string>
     <string name="screen_share_permission_app_selector_title">Sdílení nebo nahrání aplikace</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Celá obrazovka</string>
     <string name="screen_share_permission_dialog_option_single_app">Jedna aplikace</string>
@@ -2472,7 +2490,7 @@ Pokud máte nějaké otázky, obraťte se na organizaci %2$s."</string>
     <string name="status_bar_alarm">Budík</string>
     <string name="status_bar_clock_date_format">E, d. MMM</string>
     <string name="status_bar_clock_date_format_12">E, d. MMM</string>
-    <string name="status_bar_clock_date_time_format">E, d. MMM H:mm</string>
+    <string name="status_bar_clock_date_time_format">H:mm E, d. MMM</string>
     <string name="status_bar_clock_date_time_format_12">E, d. MMM h:mm a</string>
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>

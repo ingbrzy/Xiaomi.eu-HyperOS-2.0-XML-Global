@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">lautlos</string>
     <string name="accessibility_quick_settings_edit">Reihenfolge der Einstellungen bearbeiten.</string>
     <string name="accessibility_quick_settings_expand">Schnelleinstellungen öffnen.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Griff verbunden</string>
     <string name="accessibility_quick_settings_open_settings">Einstellungen für %s öffnen.</string>
     <string name="accessibility_quick_settings_page">Seite %1$d von %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Ein-/Aus-Menü</string>
@@ -314,6 +315,9 @@ Wenn diese Berechtigung deaktiviert ist, funktionieren bereits gestellte Wecker 
     <string name="alarms_and_reminders_label">Wecker und Erinnerungen</string>
     <string name="alarms_and_reminders_switch_title">Erlauben, Wecker und Erinnerungen einzurichten</string>
     <string name="alarms_and_reminders_title">Wecker und Erinnerungen</string>
+    <string name="alertdialog_safemode_button_submit">Senden</string>
+    <string name="alertdialog_safemode_message">Dein Gerät ist aufgrund von Problemen mit der Systemschnittstelle in den abgesicherten Modus gewechselt, wodurch einige Funktionen nicht mehr verfügbar sind. Sende uns dein Feedback, um die Lösung dieses Problems zu beschleunigen.</string>
+    <string name="alertdialog_safemode_title">In abgesicherten Modus gewechselt</string>
     <string name="all_network_unavailable">Keine Netzwerke verfügbar</string>
     <string name="allow_mock_location">Simulierte Standorte</string>
     <string name="allow_mock_location_summary">Simulierte Standorte zulassen</string>
@@ -449,12 +453,15 @@ Bitte probiere es in %d Sekunden noch einmal."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Für Telefon-Audio verwenden</string>
     <string name="bluetooth_hearing_aid_left_active">Aktiv (nur links)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktiv (links und rechts)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Beide Hörgeräte verbunden mit %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Linkes Hörgerät verbunden mit %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktiv (nur Medien), nur links</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktiv (nur Medien), links und rechts</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktiv (nur Medien), nur rechts</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Mit Hörgerät verbunden</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Für Hörgerät verwenden</string>
     <string name="bluetooth_hearing_aid_right_active">Aktiv (nur rechts)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Rechtes Hörgerät verbunden mit %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Mit einem Eingabegerät verbunden</string>
     <string name="bluetooth_hid_profile_summary_use_for">Für Eingabe verwenden</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Mit LE Audio verbunden</string>
@@ -728,6 +735,7 @@ Du kannst jederzeit Änderungen in den Einstellungen vornehmen."</string>
     <string name="cta_label_to_open_widget_picker">Weitere Widgets hinzufügen</string>
     <string name="cta_tile_button_to_dismiss">Schließen</string>
     <string name="cta_tile_button_to_open_widget_editor">Anpassen</string>
+    <string name="custom_lockscreen">Sperrbildschirm anpassen</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomalie (Rot-Grün-Sehschwäche)</string>
     <string name="daltonizer_mode_disabled">Deaktiviert</string>
     <string name="daltonizer_mode_monochromacy">Farbenblindheit</string>
@@ -1054,6 +1062,7 @@ Mit der Ein/Aus-Taste ausschalten."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Das „Immer eingeschaltetes Display“-Thema wurde aufgrund von Super-Hintergrundbildern auf „Benutzerdefiniert“ eingestellt</string>
     <string name="fullaod_apply_third_theme_toast">Das „Immer eingeschaltetes Display“-Thema wurde aufgrund von Themen von Drittanbietern auf „Benutzerdefiniert“ eingestellt</string>
     <string name="fullaod_apply_third_wallpaper_toast">Das „Immer eingeschaltetes Display“-Thema wurde aufgrund von Hintergrundbildern von Drittanbietern auf „Benutzerdefiniert“ eingestellt</string>
+    <string name="fullaod_apply_video_depth_toast">„Immer eingeschaltetes Display“-Stil zu „Benutzerdefiniert“ gewechselt</string>
     <string name="fullscreen_text">Vollbild</string>
     <string name="game_status">Spielt</string>
     <string name="global_action_smart_lock_disabled">„Erweitertes Entsperren“ deaktiviert</string>
@@ -1859,6 +1868,7 @@ Falls du Fragen hast, wende dich an %2$s."</string>
     <string name="notification_channel_dialog_title">Alle Benachrichtigungen von %1$s</string>
     <string name="notification_channel_hints">Hinweise</string>
     <string name="notification_channel_instant">Android Instant Apps</string>
+    <string name="notification_channel_safemode">Abgesicherter Modus</string>
     <string name="notification_channel_screenshot">Screenshots</string>
     <string name="notification_channel_setup">Einrichtung</string>
     <string name="notification_channel_storage">Speicher</string>
@@ -1891,6 +1901,13 @@ Falls du Fragen hast, wende dich an %2$s."</string>
     <string name="notification_more_settings">Weitere Einstellungen</string>
     <string name="notification_multichannel_desc">Die Benachrichtigungsgruppe kann hier nicht konfiguriert werden</string>
     <string name="notification_priority_title">Priorität</string>
+    <string name="notification_safemode_button_exit">Verlassen</string>
+    <string name="notification_safemode_description_exit">Befolgen vor dem Verlassen des abgesicherten Modus unbedingt die Tipps zur Fehlerbehebung in diesem Hinweis. Wenn du das nicht machst, könnte dein Gerät wieder in den abgesicherten Modus wechseln.</string>
+    <string name="notification_safemode_description_presafemode">Systemschnittstelle und Themen-Daten erfolgreich gelöscht. Du kannst dein Gerät normal verwenden.</string>
+    <string name="notification_safemode_description_safemode">Dein Gerät befindet sich jetzt im abgesicherten Modus. Tippe, um zu sehen, wie du die Systemschnittstelle wiederherstellen kannst.</string>
+    <string name="notification_safemode_title_exit">Abgesicherten Modus verlassen</string>
+    <string name="notification_safemode_title_presafemode">Systemschnittstelle wurde wiederhergestellt</string>
+    <string name="notification_safemode_title_safemode">Hinweis zur Problembehebung bei Abstürzen der Systemschnittstelle</string>
     <string name="notification_section_header_alerting">Benachrichtigungen</string>
     <string name="notification_section_header_conversations">Unterhaltungen</string>
     <string name="notification_section_header_gentle">Lautlos</string>
@@ -2161,9 +2178,9 @@ Falls du Fragen hast, wende dich an %2$s."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Intelligente Dual-SIM</string>
     <string name="quick_settings_internet_label">Internet</string>
     <string name="quick_settings_inversion_label">Farbumkehr</string>
-    <string name="quick_settings_location_label">Standort</string>
-    <string name="quick_settings_location_state_change_message_off">Standortzugriff ist aus</string>
-    <string name="quick_settings_location_state_change_message_on">Standortzugriff ist an</string>
+    <string name="quick_settings_location_label">Standortdienste</string>
+    <string name="quick_settings_location_state_change_message_off">Standortdienste sind aus</string>
+    <string name="quick_settings_location_state_change_message_on">Standortdienste sind an</string>
     <string name="quick_settings_media_device_label">Mediengerät</string>
     <string name="quick_settings_mic_label">Mikrofonzugriff</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Keine WLAN-Netzwerke verfügbar</string>
@@ -2306,6 +2323,7 @@ Falls du Fragen hast, wende dich an %2$s."</string>
     <string name="screen_pinning_toast_navigation_mode">Halte und drücke die Schaltflächen Zurück und Vorschau, um diese App zu lösen.</string>
     <string name="screen_pinning_toast_recents_invisible">Zum Aufheben der Fixierung dieser App \"Zurück\" und \"Startbildschirm\" halten</string>
     <string name="screen_pinning_toast_start">Diese App ist angeheftet</string>
+    <string name="screen_share_dialog_spinner_text">Geltungsbereich</string>
     <string name="screen_share_permission_app_selector_title">App teilen oder aufnehmen</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Gesamter Bildschirm</string>
     <string name="screen_share_permission_dialog_option_single_app">Einzelne App</string>
@@ -2496,7 +2514,7 @@ Falls du Fragen hast, wende dich an %2$s."</string>
     <string name="stream_voice_call">Anrufen</string>
     <string name="strict_mode">Strikter Modus aktiviert</string>
     <string name="strict_mode_summary">Bei langen App-Vorgängen im Hauptthread blinkt Bildschirm</string>
-    <string name="strong_toast_charging">Wird aufgeladen</string>
+    <string name="strong_toast_charging">Aufladen</string>
     <string name="strong_toast_quick_charging">Schnellladen</string>
     <string name="stylus_battery_low_percentage">Akkustand des Eingabestifts: %s</string>
     <string name="stylus_battery_low_subtitle">Schließe deinen Eingabestift an ein Ladegerät an</string>

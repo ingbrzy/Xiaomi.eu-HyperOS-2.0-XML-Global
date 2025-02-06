@@ -571,7 +571,7 @@ Da biste prešli na neku drugu značajku, prijeđite s tri prsta prema gore i za
     <string name="add_broadsize_fingerprint_instruction_msg">Senzor otiska prstiju nalazi se u desnom uglu Vašeg uređaja</string>
     <string name="add_device_admin">Aktiviraj tu administratorsku aplikaciju uređaja</string>
     <string name="add_device_admin_msg">Aktivirati administratorsku aplikaciju uređaja?</string>
-    <string name="add_facerecoginition_text">Dodaj podatke lica</string>
+    <string name="add_facerecoginition_text">Dodajte podatke lica</string>
     <string name="add_fingerprint_cancel_button_text">Natrag</string>
     <string name="add_fingerprint_dirty_fingerprint">Provjerite je li površina zaslona čista. Pokušajte ponovno snimiti svoj otisak prsta.</string>
     <string name="add_fingerprint_done_msg">Sada možete otključati uređaj s otiskom prsta.</string>
@@ -638,6 +638,7 @@ Vaš administrator može nadzirati postavke, pristup, aplikacije i podatke povez
     <string name="ai_button_title">Mi AI tipka</string>
     <string name="ai_button_title_global">AI tipka</string>
     <string name="ai_call_assistant">AI pozivi</string>
+    <string name="ai_notification_settings">Sažetak AI obavijesti</string>
     <string name="ai_services_title">AI usluge</string>
     <string name="ai_settings_click_title">Pritisni</string>
     <string name="ai_settings_double_click_category">Dvaputa dodirni AI tipku</string>
@@ -665,6 +666,7 @@ Ako je to dopuštenje isključeno, postojeći alarmi i događaji zakazani putem 
     <string name="all_supported_app_locales_title">Svi jezici</string>
     <string name="all_volume_title">Glasnoća</string>
     <string name="allow">Dopusti</string>
+    <string name="allow_badge_summary">Omogućite prikazivanje numerirane crvene točke na ikonama početnog zaslona za označavanje obavijesti ili novog sadržaja</string>
     <string name="allow_bind_app_widget_activity_allow_bind">"Kada izradite widget, aplikacija može pristupiti svemu što se prikazuje.
 
 Aplikacija: %1$s
@@ -687,6 +689,7 @@ Widget: %2$s
     <string name="allow_mock_location_summary">Dopusti probne lokacije</string>
     <string name="allow_mock_modem">Dopusti lažni modem</string>
     <string name="allow_mock_modem_summary">Dopušta ovom uređaju da pokrene uslugu lažnog modema za instrumentacijsko testiranje. Tu postavku nemojte omogućiti tijekom uobičajene upotrebe telefona</string>
+    <string name="allow_ongoing_summary">Dopusti obavijesti koje se mogu izbrisati samo ručno</string>
     <string name="allow_ongoing_title">Stalne obavijesti</string>
     <string name="allow_overlay_description">Dopustite toj aplikaciji da se prikazuje iznad drugih aplikacija koje upotrebljavate. Aplikacija će moći vidjeti gdje ste dodirnuli ili promijeniti sadržaj zaslona.</string>
     <string name="allow_sound_title">Zvuk</string>
@@ -1220,7 +1223,7 @@ Posljednji put pokrenuto %2$s"</string>
     <string name="back_navigation_animation_summary">Omogućuje animaciju kad korisnik napravi povratnu kretnju.</string>
     <string name="back_sensitivity_dialog_message">Veća osjetljivost može utjecati na pokrete u aplikacijama uz rub zaslona.</string>
     <string name="back_sensitivity_dialog_title">Osjetljivost stražnje strane</string>
-    <string name="back_strap_image_text">Primajte podsjetnike za obavijesti i svjetlosne efekte za različite scene</string>
+    <string name="back_strap_image_text">Kada je uređaj licem prema dolje s isključenim zaslonom, pozadinsko svjetlo će prikazati podsjetnike obavijesti i svjetlosne efekte za različite scene</string>
     <string name="back_strap_status_close">Isključi</string>
     <string name="back_strap_status_open">Uključi</string>
     <string name="back_strap_title">Efekti pozadinskog svjetla</string>
@@ -1785,12 +1788,15 @@ Dosad se niste povezivali s uređajem %2$s."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Korišteno za zvuk telefona</string>
     <string name="bluetooth_hearing_aid_left_active">Aktivno (samo lijevo)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktivno (lijevo i desno)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Oba slušna pomagala povezana s %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Lijevi slušni aparat povezan s %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktivno (samo medijski sadržaji), samo lijeva</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktivno (samo medijski sadržaji), lijeva i desna</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktivno (samo medijski sadržaji), samo desna</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Povezano sa slušnim aparatom</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Korišteno za slušni aparat</string>
     <string name="bluetooth_hearing_aid_right_active">Aktivno (samo desno)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Desni slušni aparat povezan s %1$s</string>
     <string name="bluetooth_hearing_aids_presets">Unaprijed definirana postavka</string>
     <string name="bluetooth_hearing_aids_presets_error">Ažuriranje unaprijed definiranih postavki nije uspjelo</string>
     <string name="bluetooth_hearing_device_settings_summary">Prečac, kompatibilnost sa slušnim pomagalima</string>
@@ -1859,6 +1865,10 @@ Da biste uparili desno, provjerite je li uključeno i spremno za uparivanje."</s
 Da biste uparili lijevo, provjerite je li uključeno i spremno za uparivanje."</string>
     <string name="bluetooth_pair_other_ear_dialog_right_ear_positive_button">Upari desno uho</string>
     <string name="bluetooth_pair_other_ear_dialog_title">Uparite drugo uho</string>
+    <string name="bluetooth_pair_other_hearing_dialog_positive_button">Upari</string>
+    <string name="bluetooth_pair_other_hearing_dialog_title">Upari s drugim slušnim pomagalom</string>
+    <string name="bluetooth_pair_other_left_hearing_dialog_message">Desno slušno pomagalo je spojeno. Osigurajte da je lijevo slušno pomagalo uključeno i spremno za uparivanje.</string>
+    <string name="bluetooth_pair_other_right_hearing_dialog_message">Lijevo slušno pomagalo je spojeno. Osigurajte da je desno slušno pomagalo uključeno i spremno za uparivanje.</string>
     <string name="bluetooth_pair_right_ear_button">Upari desno uho</string>
     <string name="bluetooth_paired">Spremljeno</string>
     <string name="bluetooth_paired_device_title">Vaši uređaji</string>
@@ -2457,6 +2467,7 @@ Ako je to dopuštenje uključeno, aplikacija će biti dostupna kao opcija svaki 
     <string name="choose_unlock_face_msg">Postavite zaključavanje zaslona prije snimanja podataka lica.</string>
     <string name="choose_unlock_fingerprint_msg">Postavite zaklj. zaslona prije dodavanja otiska prsta.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Zaokružite i potražite</string>
     <string name="classic_mode_summary">Prebacite se na toplije boje kako biste smanjili količinu plave svjetlosti.</string>
     <string name="classic_mode_title">Klasično</string>
     <string name="cleaner">Čistač</string>
@@ -2891,7 +2902,6 @@ Ako ga prekinete, izgubiti ćete neke ili sve svoje podatke."</string>
     <string name="dark_mode_day_night_mode_summary">Vaš uređaj će se prebaciti u tamni način rada pri zalasku sunca i natrag u svijetli način rada pri izlasku sunca. Uključite usluge lokacije za najtočnije rezultate.</string>
     <string name="dark_mode_day_night_mode_title">Od zalaska do izlaska sunca</string>
     <string name="dark_mode_display_enable_summary">Promijenite se na slabo osvijetljeni UI koji prikazuje većinu tamnih površina</string>
-    <string name="dark_mode_font_background_title">Automatski podesi tekst i pozadinu</string>
     <string name="dark_mode_power_save_alert_dialog_confirm">Shvaćam</string>
     <string name="dark_mode_power_save_alert_dialog_message">"Ako isključite optimizaciju sustava i uključite Štednju baterije, Tamni način će biti automatski uključen.
 Da bi isključili Tamni način, isključite Štednju baterije, ili uključite optimizaciju sustava u Postavke > Opcije developera > Uključite optimizaciju sustava."</string>
@@ -3781,7 +3791,7 @@ Ponovno pokrenite uređaj i pokušajte ponovno."</string>
     <string name="external_source_untrusted">Nije dopušteno</string>
     <string name="extreme_threats_summary">Primanje upozorenja za ekstremne prijetnje po život i imovinu</string>
     <string name="extreme_threats_title">Ekstremne prijetnje</string>
-    <string name="eye_gaze_dialog_message">Kada uključite Otkrivanje pogleda, uređaj se neće zaključati kada otkrije da gledate u zaslon. Karakteristike vašeg lica neće se analizirati, a podaci o vašem licu neće biti pohranjeni na vašem uređaju niti prenijeti u cloud. Uključiti sada?</string>
+    <string name="eye_gaze_dialog_message">Kada je ova značajka uključena, sustav će detektirati gledate li u zaslon, ali crte vašeg lica neće biti analizirane i ti podaci neće biti pohranjeni na vašem uređaju niti prenijeti u cloud. Uključiti sada?</string>
     <string name="eye_gaze_dialog_title">Obavijest o sigurnosti</string>
     <string name="eye_gaze_summary">Uređaj se ne će zaključati kada otkrije da gledate zaslon</string>
     <string name="eye_gaze_summary_fold_device">Uređaj se ne će zaključati kada otkrije da gledate vanjski zaslon</string>
@@ -3797,7 +3807,7 @@ Ponovno pokrenite uređaj i pokušajte ponovno."</string>
     <string name="face_data_input_ok">Dovršeno</string>
     <string name="face_data_input_ok_title">Uspješno dodano</string>
     <string name="face_data_input_structure_title">3D podaci lica</string>
-    <string name="face_data_input_title">Dodaj podatke lica</string>
+    <string name="face_data_input_title">Dodajte podatke lica</string>
     <string name="face_data_introduction_add">Početak</string>
     <string name="face_data_introduction_msg">"Lice se može upotrijebiti za otključavanje uređaja ili potvrdu vašeg identiteta.
 Dodajte Zaključavanje zaslona prije dodavanja podataka lica."</string>
@@ -3864,6 +3874,7 @@ gledajući na vanjski zaslon"</string>
     <string name="face_unlock_success_stay_screen_title">Ostanite na Zaključanom zaslonu nakon otključavanja</string>
     <string name="face_unlock_title">Možete otključati telefon svojim licem. Iz sigurnosnih razloga ta opcija zahtijeva dodatno zaključavanje zaslona.</string>
     <string name="face_unlock_when_slt_on_toast">Nije moguće koristiti otključavanje licem kada se koristi Tiantong Satellite komunikacija</string>
+    <string name="factory_reset_loading">Vraćanje na tvorničke postavke…</string>
     <string name="factory_reset_summary">Formatiranje će obrisati sve podatke iz unutarnje pohrane Vašeg uređaja</string>
     <string name="fahrenheit_temperature_unit">Fahrenheit (°F)</string>
     <string name="failed_attempts_now_wiping_device">Previše netočnih pokušaja. S uređaja će se izbrisati podaci.</string>
@@ -4040,6 +4051,7 @@ Da biste saznali više, obratite se vjerovniku."</string>
     <string name="flash_notifications_keywords">bljeskanje, svjetlo, nagluhost, gubitak sluha</string>
     <string name="flash_notifications_note">\"Beam za obavijesti\" vizualizira zvukove obavijesti i melodije zvona pomoću bljeskalice kamere i zaslona. Ako ste osjetljivi na svjetlost, ovu značajku koristite s oprezom.</string>
     <string name="flash_notifications_preview">Pregled</string>
+    <string name="flash_notifications_settings_title">Svjetlosna obavještenja</string>
     <string name="flash_notifications_summary">Upotrijebite bljeskalicu fotoaparata ili pokažite zrake boja na zaslonu dok stižu obavijesti ili uređaj zvoni</string>
     <string name="flash_notifications_summary_off">Isključeno</string>
     <string name="flash_notifications_summary_on_camera">Uključeno/ Bljeskanje kamere</string>
@@ -4133,6 +4145,9 @@ Da biste saznali više, obratite se vjerovniku."</string>
     <string name="font_cta_alert_btn_positive">Slažem se</string>
     <string name="font_cta_alert_message">Pročitajte i potvrdite uvjete korištenja Tema za nastavak.</string>
     <string name="font_cta_alert_title">Uvjeti korištenja</string>
+    <string name="font_preview_text_content">"Primjer teksta:
+
+Xiaomi neumorno izrađuje nevjerojatne proizvode po poštenim cijenama kako bi omogućio svima na svijetu da uživaju u boljem životu kroz inovativnu tehnologiju."</string>
     <string name="font_scale_percentage">%1$d%%</string>
     <string name="font_setting_weight_toast">Trenutni font ne dopušta prilagođavanje debljina fonta</string>
     <string name="font_settings_jump">Pristupačnost > Veličina prikaza</string>
@@ -4293,9 +4308,12 @@ Kada uključite automatsku izradu sigurnosnih kopija, podaci uređaja i aplikaci
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Upravljač igrama</string>
     <string name="game_storage_settings">Igre</string>
-    <string name="gaze_lock_screen_summary">Uređaj će ostati otključan kada se otkrije vaša prisutnost i zaključati kada se odmaknete od zaslona</string>
+    <string name="gaze_lock_screen_summary">Uređaj će ostati otključan dok gledate u zaslon i zaključat će se kada skrenete pogled radi zaštite vaše privatnosti, nadjačavajući vašu postavku vremena automatskog zaključavanja</string>
     <string name="gaze_lock_screen_title">Otkrivanje prisutnosti</string>
     <string name="gd_setting_title">Bočni izbornik</string>
+    <string name="gemini_description">Razgovarajte s Geminijem da nadogradite svoje ideje. Dobijte pomoć u učenju, pisanju zahvalnica, planiranju događaja i još mnogo toga. Koristite tekst, glas, fotografije i svoj fotoaparat za da naučite nove vještine.<a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Saznajte više o dostupnosti</a></string>
+    <string name="gemini_function">Poboljšajte svoje ideje sa Google Gemini-jem, vašim novim AI pomoćnikom</string>
+    <string name="gemini_setting">Postavke Geminija</string>
     <string name="general_category_title">Općenito</string>
     <string name="general_notification_header">Upravljanje</string>
     <string name="general_text">Polje teksta</string>
@@ -4308,6 +4326,12 @@ Kada uključite automatsku izradu sigurnosnih kopija, podaci uređaja i aplikaci
     <string name="gesture_button_restart">Pokreni ponovo</string>
     <string name="gesture_button_skip">Preskoči</string>
     <string name="gesture_function_dialog_message">%1$s se koristi za \"%2$s\". Zamijeniti sa \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Dvaput dodirnite Zaključani zaslon za buđenje</string>
+    <string name="gesture_lockcreen_sleep_title">Dvaput dodirnite Zaključani zaslon za spavanje</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Na dvostruki dodir</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Ništa</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Na dodir</string>
+    <string name="gesture_lockcreen_wakeup_title">Buđenje zaslona</string>
     <string name="gesture_preference_title">Pokreti</string>
     <string name="gesture_prevent_ringing_screen_title">Sprječavanje zvonjenja</string>
     <string name="gesture_prevent_ringing_sound_title">Prečac za sprečavanje zvonjenja</string>
@@ -4446,6 +4470,12 @@ Područje gdje možete potvrditi svoje zaključavanje zaslona pomaknut će se ud
     <string name="gxzw_quick_open_slow_summary">Pritisnite i držite ikonu otiska prsta da biste otvorili izbornik prečica. Prijeđite prstom da biste upotrijebili prečicu.</string>
     <string name="gxzw_quick_open_slow_title">Pritisni i zadrži</string>
     <string name="gxzw_quick_open_title">Prečice</string>
+    <string name="gxzw_recognizing_anim_a">Valovi</string>
+    <string name="gxzw_recognizing_anim_b">Spiralno</string>
+    <string name="gxzw_recognizing_anim_c">Aureola</string>
+    <string name="gxzw_recognizing_anim_d">Val</string>
+    <string name="gxzw_recognizing_anim_e">Otvor blende</string>
+    <string name="gxzw_recognizing_anim_f">Difuzija</string>
     <string name="gxzw_vibrate_summary">Vibracija se neće pojaviti ako nije odabrana animacija otiska prsta</string>
     <string name="gxzw_vibrate_title">Vibracija tokom otključavanja</string>
     <string name="handle_ota_connect_first">Poveži hvat</string>
@@ -4552,6 +4582,7 @@ Područje gdje možete potvrditi svoje zaključavanje zaslona pomaknut će se ud
     <string name="health_use_of_pad">Zdravo korištenje uređaja</string>
     <string name="health_use_of_phone">Zdravo korištenje uređaja</string>
     <string name="hearing_aids_category">Pomoćni slušni aparati</string>
+    <string name="hearing_stream_option">Opcije zvuka</string>
     <string name="heavy_weight_stop_description">Ova se aplikacija ne može sigurno zaustaviti. Ako je zaustavite, mogli biste izgubiti trenutačan rad.</string>
     <string name="height_light_list_text">Popis važnih stavki</string>
     <string name="help_and_feedback_title">Pomoć i pov. informacija</string>
@@ -5101,6 +5132,7 @@ Otvorite Xiaomi Cloud i vratite stavke odatle."</string>
     <string name="layout_size_small_text">Extra malen</string>
     <string name="le_audio_title">LE Audio</string>
     <string name="learn_more">Saznajte više</string>
+    <string name="leave_lockscreen_summary">Uređaj će se zaključati kada se odmaknete od zaslona</string>
     <string name="leave_loclscreen_summary">Zaslon će se automatski zaključati kada se udaljite na određenu udaljenost od svog uređaja</string>
     <string name="leave_loclscreen_title">Zaključavanje zaslona pri izlasku</string>
     <string name="led_colors_summary">Boja svjetla za obavijesti</string>
@@ -5109,6 +5141,7 @@ Otvorite Xiaomi Cloud i vratite stavke odatle."</string>
     <string name="led_settings">LED svjetlo</string>
     <string name="left_edge">Lijevi rub</string>
     <string name="left_function_key">Lijeva prečica</string>
+    <string name="left_hearing_aid">Lijevo slušno pomagalo</string>
     <string name="left_right_hand_switch">Lijevo i desno</string>
     <string name="left_right_hand_switch_summary">Učinite da lijevi i desni dijelovi tipkovnice mijenjaju mjesta jednim dodirom</string>
     <string name="left_shoulder_key">Lijevo</string>
@@ -5775,7 +5808,7 @@ Ovu radnju nećete moći poništiti."</string>
     <string name="media_controls_show_player">Prikaži player</string>
     <string name="media_controls_title">Mediji</string>
     <string name="media_dialog_ok">Shvaćam</string>
-    <string name="media_dialog_summary">Kada je ova značajka uključena, uređaj će vibrirati u ritmu podržane glazbe i videa, dajući potpunije i impresivnije iskustvo.</string>
+    <string name="media_dialog_summary">Kada je ova značajka uključena, uređaj će vibrirati u ritmu podržane glazbe, dajući potpunije i impresivnije iskustvo.</string>
     <string name="media_dialog_title">Uključi taktilnu povratnu informaciju medija</string>
     <string name="media_drm_settings_title">Postavke upravljanja digitalnim pravima za medije</string>
     <string name="media_feedback_enable_title">Vibriraj uz ritam</string>
@@ -6457,7 +6490,7 @@ Odaberite operativni sustav vašeg računala:"</string>
     <string name="multi_face_input_reach_upper_limit">Ne mogu dodati podatke lica. Pričekajte minutu dvije, pa pokušajte ponovno.</string>
     <string name="multi_face_input_success_name_title">Ime</string>
     <string name="multi_face_list">Podaci lica</string>
-    <string name="multi_face_name_prefix">"Lice "</string>
+    <string name="multi_face_name_prefix">Podaci lica %s</string>
     <string name="multi_face_number_reach_limit">Ne mogu dodati podatke za više od 2 lica</string>
     <string name="multi_music_coexistence_summary">Ne prilagođavajte glasnoću medija tijekom dolaznih obavijesti ili dok se reproducira zvuk iz drugog izvora</string>
     <string name="multi_music_coexistence_title">Više izvora zvuka</string>
@@ -6599,7 +6632,7 @@ Odaberite operativni sustav vašeg računala:"</string>
     <string name="never">Nikada</string>
     <string name="new_backup_pw_prompt">Ovdje upišite novu zaporku za potpunu sigurnosnu kopiju</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Da biste mogli koristiti Otključavanje licem, prvo dodajte Podatke o licu. Dodati sada?</string>
-    <string name="new_fingerprint_to_new_face_dialog_tittle">Dodaj podatke lica</string>
+    <string name="new_fingerprint_to_new_face_dialog_tittle">Dodajte podatke lica</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Dodajte svoj otiska prsta da biste otključali vaš uređaj s njime.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Odustani</string>
     <string name="new_password_to_new_fingerprint_dialog_positive_msg">Dodaj</string>
@@ -7200,13 +7233,22 @@ Pročitajte i prihvatite %s prije korištenja ove usluge."</string>
     <string name="photography_handle_button_function_settings">Gumb za postavljanje držača</string>
     <string name="photography_handle_charge_protected">Zaštita punjenja drškom</string>
     <string name="photography_handle_charge_protected_summary">Kada je drška fotoaparata spojena, uređaj će se prestati puniti i baterija će biti na %1$s</string>
+    <string name="photography_handle_charge_settings">Postavke punjenja</string>
     <string name="photography_handle_charge_state">Punjenje iz drške fotoaparata</string>
+    <string name="photography_handle_charge_state_choice_always">Uvijek</string>
+    <string name="photography_handle_charge_state_choice_emergency">Hitno</string>
     <string name="photography_handle_charge_state_summary">Punite ovaj uređaj sa drške fotoaparata kad god su povezani</string>
+    <string name="photography_handle_charge_state_summary_new">Počnite puniti ovaj uređaj s držača fotoaparata nakon povezivanja</string>
+    <string name="photography_handle_emergency_charge_summary">Pokrenite hitno punjenje kada razina baterija padne ispod %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Razina punjenja u hitnim slučajevima</string>
+    <string name="photography_handle_function_settings">Postavke držanja fotoaparata</string>
     <string name="photography_handle_launch_and_take_photo">Snimi fotografiju</string>
     <string name="photography_handle_launch_camera">Otvori fotoaparat</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Pritisnite i držite okidač za izvođenje radnje</string>
     <string name="photography_handle_quick_launch_camera_title">Brzo pokretanje</string>
+    <string name="photography_handle_sn">Serijski broj</string>
     <string name="photography_handle_title">Držanje fotoaparata</string>
+    <string name="photography_handle_update_and_maintain">Ažuriranja</string>
     <string name="physical_keyboard_title">Fizička tipkovnica</string>
     <string name="pick_up_gesture_wakeup_title">Podigni za buđenje</string>
     <string name="picker_text">Birač vremena</string>
@@ -7893,7 +7935,7 @@ Ponovno pokrenite uređaj i pokušajte ponovno."</string>
     <string name="reset_network_button_text">Poništi postavke</string>
     <string name="reset_network_category">To će ponovno postaviti sve mrežne postavke, uključujući:</string>
     <string name="reset_network_complete_toast">Postavke mreže vraćene su na zadano.</string>
-    <string name="reset_network_confirm_title">Poništiti?</string>
+    <string name="reset_network_confirm_title">Ponovno postaviti?</string>
     <string name="reset_network_data">Mobilni podaci</string>
     <string name="reset_network_final_button_text">Poništi postavke</string>
     <string name="reset_network_final_desc">To može potrajati nekoliko sekundi. Ovu radnju nećete moći poništiti.</string>
@@ -7969,6 +8011,7 @@ Sve aplikacije u vašem prostoru i njihovi podaci također će se trajno izbrisa
     <string name="rhythmic_mode_enable_title">Bicikl</string>
     <string name="right_edge">Desni rub</string>
     <string name="right_function_key">Desna prečica</string>
+    <string name="right_hearing_aid">Desno slušno pomagalo</string>
     <string name="right_shoulder_key">Desno</string>
     <string name="ring_to_you">Prilagođeni ton zvona</string>
     <string name="ring_to_you_info">Prilagodite ton zvona koji će osobe koje Vas zovu slušati dok ne podignete slušalicu</string>
@@ -8029,6 +8072,7 @@ Sve aplikacije u vašem prostoru i njihovi podaci također će se trajno izbrisa
     <string name="same_source_synced">Emitiranje je uspješno dodano</string>
     <string name="sar">Podaci o RF izloženosti</string>
     <string name="satellite_call_assistant">Postavke poziva</string>
+    <string name="satellite_management_title">Satelitska mreža</string>
     <string name="satellite_network_title">Značajke satelitskog poziva</string>
     <string name="satellite_setting">Slanje poruka putem satelita</string>
     <string name="satellite_setting_disabled_summary">Šaljite i primajte tekstne poruke putem satelita. Nije uključeno s vašim računom.</string>
@@ -9973,6 +10017,8 @@ Pokušajte upotrijebiti brži medij ^3 ili upotrebljavajte ovaj medij ^4 za prij
     <string name="tethering_hardware_offload_summary">Upotrebljava se hardversko ubrzanje za modemsko povezivanje ako je dostupno</string>
     <string name="tethering_help_button_text">Pomoć</string>
     <string name="tethering_settings_not_available">Promijeni postavke dijeljenja veze u Prvom prostoru</string>
+    <string name="text_layout_optimization_switch_label">Optimizirajte izgled teksta</string>
+    <string name="text_layout_optimization_switch_toast">Nije moguće optimizirati raspored teksta s trenutnim fontom</string>
     <string name="texture_adjust_temperature_title">Toplina boje</string>
     <string name="the_anniversary_of_lifting_martial_law">Godišnjica Ukidanja Vojne Vlasti</string>
     <string name="the_anti_aggression_day">Dan Protiv Nasilja</string>
@@ -11330,6 +11376,10 @@ Postavljanjem mreže kao skrivene neće se promijeniti postavke usmjerivača."</
     <string name="wifi_protection_tip">Xiaomi će zaštititi Vaše osobne podatke od Wi-Fi zahtjeva koji dolaze od nasumičnih MAC adresa i Wi-Fi snifera sondi kada Vaš uređaj traži Wi-Fi mreže.</string>
     <string name="wifi_quick_toggle_summary">Uključi Wi-Fi</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
+    <string name="wifi_reconnect_failed_text">Vaša Wi-Fi zaporka je netočna. Unesite je ponovo.</string>
+    <string name="wifi_reconnect_failed_text_china">Your WLAN password is incorrect. Enter it again.</string>
+    <string name="wifi_reconnect_failed_title">Netočna Wi-Fi zaporka</string>
+    <string name="wifi_reconnect_failed_title_china">Incorrect WLAN password</string>
     <string name="wifi_remembered">Spremljeno</string>
     <string name="wifi_remembered_disabled_auto_connect">Spremljeno. Neće se automatski povezati.</string>
     <string name="wifi_require_sim_card_to_connect">Potrebna je SIM kartica radi povezivanja</string>

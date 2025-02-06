@@ -7,7 +7,8 @@
     <string name="action_create_contact">יצירה</string>
     <string name="action_dial_number">חיוג</string>
     <string name="action_disable_rw">אישור</string>
-    <string name="action_enable_dnd">הפעלה</string>
+    <string name="action_enable_dnd">הגדרות</string>
+    <string name="action_enable_dnd_old">הפעלה</string>
     <string name="action_keep_rw">ביטול</string>
     <string name="action_open">פתח</string>
     <string name="action_open_tag">קריאת תגים</string>
@@ -17,6 +18,7 @@
     <string name="am">AM</string>
     <string name="android_beam">Mi Beam</string>
     <string name="app_name">שירות NFC</string>
+    <string name="appchooser_description">בחר יישום לסריקה</string>
     <string name="ask_nfc_tap">נא להקיש על מכשיר אחר להשלמת הפעולה</string>
     <string name="beam_busy">ה-Beam תפוס עכשיו. נא לנסות שוב לאחר השלמת ההעברה הנוכחית.</string>
     <string name="beam_canceled">העברת Beam בוטלה</string>
@@ -42,9 +44,11 @@
     <string name="content_create_contact">ליצור רשומת איש קשר עבור \"%1$s\"?</string>
     <string name="content_dial_number">"לחייג למס' \"%s\" עכשיו?"</string>
     <string name="content_disable_rw">נראה שלא היו לך אינטראקציות עם תגי NFC שזוהו זה זמן רב. עכשיו המכשיר שלך לא יקרא ולא ירשום תגים. ביטול נעילת המכשיר יפעיל את המאפיין הזה מחדש.</string>
-    <string name="content_discover_tag">לפתוח את היישום לעיבוד התג?</string>
-    <string name="content_enable_dnd">נראה שלא היו לך אינטראקציות עם תגי NFC שזוהו. יש להפעיל את מצב \"NFC לא להפריע\" כדי להפסיק לקבל התראות.</string>
-    <string name="content_sms">לשלוח הודעה באמצעות \"%2$s\" אל \"%1$s\" עכשיו?</string>
+    <string name="content_discover_tag">האם לפתוח את היישום כדי להגדיר את הכרטיס?</string>
+    <string name="content_discover_tag_old">לפתוח את היישום לעיבוד התג?</string>
+    <string name="content_enable_dnd">נראה שהתעלמת מספר פעמים מכרטיסי NFC. ניתן לשנות את ההעדפות כדי לקבל פחות התראות.</string>
+    <string name="content_enable_dnd_old">נראה שלא היו לך אינטראקציות עם תגי NFC שזוהו. יש להפעיל את מצב \"NFC לא להפריע\" כדי להפסיק לקבל התראות.</string>
+    <string name="content_sms">האם לשלוח כעת הודעה אל %1$s באמצעות %2$s?</string>
     <string name="content_weblink">לפתוח את \"%1$s\" עכשיו?</string>
     <string name="could_not_use_app">לא ניתן היה להשתמש ב-%1$s.</string>
     <string name="date_picker_label_day" />
@@ -186,6 +190,8 @@
     <string name="nfcUserLabel">NFC</string>
     <string name="nfc_blocking_alert_message">נא להקיש כדי ללמוד איך לפתור את הבעיה.</string>
     <string name="nfc_blocking_alert_title">נראה כי NFC חסום</string>
+    <string name="nfc_logging_alert_message">הקש כדי להפסיק את הרישום.</string>
+    <string name="nfc_logging_alert_title">נתוני NFC נרשמים</string>
     <string name="night">ערב</string>
     <string name="noon">צהריים</string>
     <string name="pair_no">לא</string>
@@ -207,6 +213,7 @@
     <string name="sunday_shortest">"א'"</string>
     <string name="tag_dispatch_failed">לא ניתן היה למצוא יישום שתומך בתגי NFC</string>
     <string name="tag_read_error">לא ניתן היה לקרוא מידע באמצעות NFC. נא לנסות שוב.</string>
+    <string name="tap_again_description">החזק קרוב לקורא</string>
     <string name="tap_again_to_complete">נא להקיש שוב כדי להשלים את התשלום באמצעות %1$s</string>
     <string name="tap_again_to_pay">נא להקיש שוב כדי לשלם באמצעות %1$s</string>
     <string name="tap_to_beam">נא להקיש לשימוש ב-Beam</string>
@@ -262,13 +269,14 @@
     <string name="title_connect_to_network">להתחבר לרשת</string>
     <string name="title_create_contact">יצירת איש קשר</string>
     <string name="title_dial_number">חיוג מספר טלפון</string>
-    <string name="title_discover_tag">זוהה תג NFC</string>
+    <string name="title_discover_tag">זוהה כרטיס NFC</string>
+    <string name="title_discover_tag_old">זוהה תג NFC</string>
     <string name="title_sms">שליחת הודעות</string>
     <string name="title_weblink">פתיחת קישור</string>
     <string name="toast_bluetooth_enable_fail">"לא ניתן היה לבצע צימוד. קודם יש להפעיל את בלוטות'."</string>
     <string name="today">היום</string>
     <string name="tomorrow">מחר</string>
-    <string name="transaction_failure">לא ניתן היה להשלים את הפעולה עם %1$s.</string>
+    <string name="transaction_failure">לא ניתן היה להשלים את העסקה באמצעות %1$s.</string>
     <string name="tuesday">שלישי</string>
     <string name="tuesday_short">"ג'"</string>
     <string name="tuesday_shortest">"ג'"</string>

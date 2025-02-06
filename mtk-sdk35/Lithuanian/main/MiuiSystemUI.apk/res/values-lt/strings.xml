@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">visiška tyla</string>
     <string name="accessibility_quick_settings_edit">Redaguoti nustatymų tvarką.</string>
     <string name="accessibility_quick_settings_expand">Atidaryti sparčiuosius nustatymus.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Prijungtas sukibimas</string>
     <string name="accessibility_quick_settings_open_settings">Atidaryti „%s“ nustatymus.</string>
     <string name="accessibility_quick_settings_page">%1$d psl. iš %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Įjungimo meniu</string>
@@ -314,6 +315,9 @@ Jei šis leidimas išjungtas, šios programos suplanuoti esami signalai ir laiku
     <string name="alarms_and_reminders_label">Signalai ir priminimai</string>
     <string name="alarms_and_reminders_switch_title">Leisti nustatyti signalus ir priminimus</string>
     <string name="alarms_and_reminders_title">Signalai ir priminimai</string>
+    <string name="alertdialog_safemode_button_submit">Pateikti</string>
+    <string name="alertdialog_safemode_message">Įrenginys perjungtas į saugųjį režimą dėl sistemos sąsajos problemų, todėl kai kurios funkcijos tapo nepasiekiamos. Pateikite savo atsiliepimus, kad paspartintumėte šios problemos sprendimą.</string>
+    <string name="alertdialog_safemode_title">Įjungtas saugusis režimas</string>
     <string name="all_network_unavailable">Nėra pasiekiamų tinklų</string>
     <string name="allow_mock_location">Leisti imituoti vietas</string>
     <string name="allow_mock_location_summary">Leisti imituoti vietas</string>
@@ -449,12 +453,15 @@ Bandykite dar kartą po %d sek."</string>
     <string name="bluetooth_headset_profile_summary_use_for">Naudoti telefono garso įrašui</string>
     <string name="bluetooth_hearing_aid_left_active">Aktyvus (tik kairiojoje pusėje)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Aktyvus (kairiojoje ir dešiniojoje pusėse)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">Abi pagalbinės klausos priemonės prijungtos prie %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Kairės ausies pagalbinė klausos priemonė prijungta prie %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Aktyvus (tik medija), tik kairė</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Aktyvus (tik medija), kairė ir dešinė</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Aktyvus (tik medija), tik dešinė</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Prisijungta prie klausos aparatų</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Naudoti su klausos aparatais</string>
     <string name="bluetooth_hearing_aid_right_active">Aktyvus (tik dešiniojoje pusėje)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Dešinės ausies pagalbinė klausos priemonė prijungta prie %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Prisijungta prie įvesties įrenginio.</string>
     <string name="bluetooth_hid_profile_summary_use_for">Naudoti įvedant</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Prisijungta prie „LE Audio“</string>
@@ -728,6 +735,7 @@ Galite bet kada pakeisti „Nustatymų“ skiltyje."</string>
     <string name="cta_label_to_open_widget_picker">Pridėkite daugiau valdiklių</string>
     <string name="cta_tile_button_to_dismiss">Atsisakyti</string>
     <string name="cta_tile_button_to_open_widget_editor">Tinkinti</string>
+    <string name="custom_lockscreen">Tinkinti užrakto ekraną</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomalija (raudona, žalia)</string>
     <string name="daltonizer_mode_disabled">Išjungtas</string>
     <string name="daltonizer_mode_monochromacy">Monochromazija</string>
@@ -1054,6 +1062,7 @@ Išjunkite paspausdami maitinimo mygtuką."</string>
     <string name="fullaod_apply_super_wallpaper_toast">Tema „Visada ekrane“ dėl trečiųjų šalių superfonų nustatyta kaip tinkinta</string>
     <string name="fullaod_apply_third_theme_toast">Tema „Visada ekrane“ dėl trečiųjų šalių temų nustatyta kaip tinkinta</string>
     <string name="fullaod_apply_third_wallpaper_toast">Tema „Visada ekrane“ dėl trečiųjų šalių fono paveikslėlių nustatyta kaip tinkinta</string>
+    <string name="fullaod_apply_video_depth_toast">Visada ekrane stilius persijungė į tinkintą</string>
     <string name="fullscreen_text">Visas ekranas</string>
     <string name="game_status">Leidžiama</string>
     <string name="global_action_smart_lock_disabled">Išplėstinis atrakinimas išjungtas</string>
@@ -1859,6 +1868,7 @@ Jei kyla klausimų, susisiekite su „%2$s“."</string>
     <string name="notification_channel_dialog_title">Visi „%1$s“ pranešimai</string>
     <string name="notification_channel_hints">Užuominos</string>
     <string name="notification_channel_instant">Akimirksniu įkeliamos programos</string>
+    <string name="notification_channel_safemode">Saugus režimas</string>
     <string name="notification_channel_screenshot">Ekrano kopijos</string>
     <string name="notification_channel_setup">Sąranka</string>
     <string name="notification_channel_storage">Saugykla</string>
@@ -1891,6 +1901,13 @@ Jei kyla klausimų, susisiekite su „%2$s“."</string>
     <string name="notification_more_settings">Daugiau nustatymų</string>
     <string name="notification_multichannel_desc">Šios grupės pranešimai čia nekonfigūruojami</string>
     <string name="notification_priority_title">Prioritetiniai</string>
+    <string name="notification_safemode_button_exit">Išeiti</string>
+    <string name="notification_safemode_description_exit">Prieš išeidami iš saugaus režimo, vadovaukitės pranešime pateiktais trikčių šalinimo patarimais. Jei to nepadarysite, įrenginys gali vėl įjungti saugųjį režimą.</string>
+    <string name="notification_safemode_description_presafemode">Sėkmingai išvalyti sistemos sąsajos ir temų duomenys. Įrenginį galite naudoti įprastai.</string>
+    <string name="notification_safemode_description_safemode">Jūsų įrenginys dabar veikia saugiuoju režimu. Bakstelėkite norėdami pamatyti, kaip galite atkurti sistemos sąsają.</string>
+    <string name="notification_safemode_title_exit">Išeiti iš saugaus režimo</string>
+    <string name="notification_safemode_title_presafemode">Sistemos sąsaja atkurta</string>
+    <string name="notification_safemode_title_safemode">Pranešimas apie sistemos sąsajos gedimų problemos sprendimą</string>
     <string name="notification_section_header_alerting">Pranešimai</string>
     <string name="notification_section_header_conversations">Pokalbiai</string>
     <string name="notification_section_header_gentle">Tylus</string>
@@ -2161,9 +2178,9 @@ Jei kyla klausimų, susisiekite su „%2$s“."</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Išmani dviguba SIM</string>
     <string name="quick_settings_internet_label">Internetas</string>
     <string name="quick_settings_inversion_label">Spalvų inversija</string>
-    <string name="quick_settings_location_label">Vieta</string>
-    <string name="quick_settings_location_state_change_message_off">Vietos prieiga išjungta</string>
-    <string name="quick_settings_location_state_change_message_on">Vietos prieiga įjungta</string>
+    <string name="quick_settings_location_label">Vietos paslaugos</string>
+    <string name="quick_settings_location_state_change_message_off">Vietos paslaugos išjungtos</string>
+    <string name="quick_settings_location_state_change_message_on">Vietos paslaugos įjungtos</string>
     <string name="quick_settings_media_device_label">Medijos įrenginys</string>
     <string name="quick_settings_mic_label">Prieiga prie mikrofono</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Nėra pasiekiamų „Wi-Fi“ tinklų</string>
@@ -2306,6 +2323,7 @@ Jei kyla klausimų, susisiekite su „%2$s“."</string>
     <string name="screen_pinning_toast_navigation_mode">Norėdami atsegti šią programą, paspauskite ir palaikykite nuspaudę grįžimo ir peržiūros mygtukus</string>
     <string name="screen_pinning_toast_recents_invisible">Kad atsegtumėte šią programą, palieskite ir palaikykite mygtuką „Atgal“ ir pagrindinio ekrano mygtuką</string>
     <string name="screen_pinning_toast_start">Ši programa prisegta</string>
+    <string name="screen_share_dialog_spinner_text">Apimtis</string>
     <string name="screen_share_permission_app_selector_title">Programos bendrinimas ar įrašymas</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Visas ekranas</string>
     <string name="screen_share_permission_dialog_option_single_app">Viena programa</string>
@@ -2496,7 +2514,7 @@ Jei kyla klausimų, susisiekite su „%2$s“."</string>
     <string name="stream_voice_call">Skambutis</string>
     <string name="strict_mode">Įgal. griežtas režimas</string>
     <string name="strict_mode_summary">Ekr. blyksės, kai pr. atl. ilgus proc. pgr. gijoje</string>
-    <string name="strong_toast_charging">Kraunama</string>
+    <string name="strong_toast_charging">Įkraunama</string>
     <string name="strong_toast_quick_charging">Greitasis krovimas</string>
     <string name="stylus_battery_low_percentage">Liko rašiklio akumuliatoriaus energijos: %s</string>
     <string name="stylus_battery_low_subtitle">Prijunkite rašiklį prie kroviklio</string>

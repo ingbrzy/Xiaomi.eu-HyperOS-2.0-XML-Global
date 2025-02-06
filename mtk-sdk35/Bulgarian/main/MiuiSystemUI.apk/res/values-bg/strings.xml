@@ -213,7 +213,7 @@
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">активиране</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_disconnect">прекратяване на връзката</string>
-    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Батерия на Bluetooth устройство %d в проценти.</string>
+    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Батерия на Bluetooth устройство %d процента.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Функцията за Bluetooth е включена.</string>
     <string name="accessibility_quick_settings_choose_user_action">изберете потребител</string>
     <string name="accessibility_quick_settings_collapse">Затваряне на бързите настройки.</string>
@@ -222,6 +222,7 @@
     <string name="accessibility_quick_settings_dnd_none_on">пълна тишина</string>
     <string name="accessibility_quick_settings_edit">Редактиране на подредбата на настройките.</string>
     <string name="accessibility_quick_settings_expand">Отваряне на бързите настройки.</string>
+    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Свързана дръжка</string>
     <string name="accessibility_quick_settings_open_settings">Отваряне на настройките за %s.</string>
     <string name="accessibility_quick_settings_page">Страница %1$d от %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Меню за включване/изключване</string>
@@ -314,6 +315,9 @@
     <string name="alarms_and_reminders_label">Будилници и напомняния</string>
     <string name="alarms_and_reminders_switch_title">Разреш. на задаването на будилници и напомняния</string>
     <string name="alarms_and_reminders_title">Будилници и напомняния</string>
+    <string name="alertdialog_safemode_button_submit">Изпрати</string>
+    <string name="alertdialog_safemode_message">Вашето устройство е влязло в Безопасен режим поради проблеми със системния интерфейс, поради което някои функции стават недостъпни. Изпратете отзивите си, за да ускорите разрешаването на този проблем.</string>
+    <string name="alertdialog_safemode_title">Влязохте в Безопасен режим</string>
     <string name="all_network_unavailable">Няма налични мрежи</string>
     <string name="allow_mock_location">Разрешаване на измислени местоположения</string>
     <string name="allow_mock_location_summary">Разрешаване на измислени местоположения</string>
@@ -449,12 +453,15 @@
     <string name="bluetooth_headset_profile_summary_use_for">Използване на телефон за аудио</string>
     <string name="bluetooth_hearing_aid_left_active">Активно (само лявото)</string>
     <string name="bluetooth_hearing_aid_left_and_right_active">Активно (лявото и дясното)</string>
+    <string name="bluetooth_hearing_aid_left_and_right_connected">И двата слухови апарата са свързани с %1$s</string>
+    <string name="bluetooth_hearing_aid_left_connected">Левия слухов апарат се свърза с %1$s</string>
     <string name="bluetooth_hearing_aid_media_only_left_active">Активно (само за мултимедия), само лявата</string>
     <string name="bluetooth_hearing_aid_media_only_left_and_right_active">Активно (само за мултимедия), лявата и дясната</string>
     <string name="bluetooth_hearing_aid_media_only_right_active">Активно (само за мултимедия), само дясната</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Установена е връзка със слухов апарат</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Използване за слухови апарати</string>
     <string name="bluetooth_hearing_aid_right_active">Активно (само дясното)</string>
+    <string name="bluetooth_hearing_aid_right_connected">Десния слухов апарат се свърза с %1$s</string>
     <string name="bluetooth_hid_profile_summary_connected">Има връзка с устройството за въвеждане</string>
     <string name="bluetooth_hid_profile_summary_use_for">Да се използва за въвеждане</string>
     <string name="bluetooth_le_audio_profile_summary_connected">Свързано с LE Audio</string>
@@ -728,6 +735,7 @@
     <string name="cta_label_to_open_widget_picker">Добавете още приспособления</string>
     <string name="cta_tile_button_to_dismiss">Отхвърляне</string>
     <string name="cta_tile_button_to_open_widget_editor">Персонализиране</string>
+    <string name="custom_lockscreen">Персонализирайте Заключения екран</string>
     <string name="daltonizer_mode_deuteranomaly">Деутераномалия (червено – зелено)</string>
     <string name="daltonizer_mode_disabled">Деактивирано</string>
     <string name="daltonizer_mode_monochromacy">Монохромазия</string>
@@ -1054,6 +1062,7 @@
     <string name="fullaod_apply_super_wallpaper_toast">Темата за винаги включен дисплей е зададена като персонализирана заради Супер тапети</string>
     <string name="fullaod_apply_third_theme_toast">Темата за винаги включен дисплей е зададена като персонализирана поради теми от трета страна</string>
     <string name="fullaod_apply_third_wallpaper_toast">Темата за винаги включен дисплей е зададена като персонализирана поради тапети от трета страна</string>
+    <string name="fullaod_apply_video_depth_toast">Стилът на винаги включен дисплей е сменен на Персонализиран</string>
     <string name="fullscreen_text">Цял екран</string>
     <string name="game_status">Играете</string>
     <string name="global_action_smart_lock_disabled">Удълженото отключване е деактивирано</string>
@@ -1399,7 +1408,7 @@
     <string name="kg_wrong_pattern_try_again">Грешна фигура. Нов опит.</string>
     <string name="kg_wrong_pin">Грешен ПИН код</string>
     <string name="kg_wrong_pin_try_again">Грешен ПИН. Опитайте пак.</string>
-    <string name="kilobyte_per_second">KB/сек</string>
+    <string name="kilobyte_per_second">КБ/сек</string>
     <string name="label_for_button_in_empty_state_cta">Добавяне на приспособления</string>
     <string name="label_view">Преглед</string>
     <string name="launch_defaults_none">Няма зададени стандартни действия</string>
@@ -1564,7 +1573,7 @@
     <string name="media_transfer_wired_device_name">Аудиоустройство с кабел</string>
     <string name="media_transfer_wired_usb_device_name">Слушалки с кабел</string>
     <string name="media_ttt_default_device_type">таблет</string>
-    <string name="megabyte_per_second">MB/сек</string>
+    <string name="megabyte_per_second">MB/с</string>
     <string name="messages_count_overflow_indicator">Над %d</string>
     <string name="microphone_blocked_dream_overlay_content_description">Достъпът до микрофона е блокиран</string>
     <string name="midnight">Нощ</string>
@@ -1859,6 +1868,7 @@ mm"</string>
     <string name="notification_channel_dialog_title">Всички известия от %1$s</string>
     <string name="notification_channel_hints">Съвети</string>
     <string name="notification_channel_instant">Мигновени приложения</string>
+    <string name="notification_channel_safemode">Безопасен режим</string>
     <string name="notification_channel_screenshot">Екранни снимки</string>
     <string name="notification_channel_setup">Настройване</string>
     <string name="notification_channel_storage">Хранилище</string>
@@ -1891,6 +1901,13 @@ mm"</string>
     <string name="notification_more_settings">Още настройки</string>
     <string name="notification_multichannel_desc">Тази група от известия не може да бъде конфигурирана тук</string>
     <string name="notification_priority_title">Приоритет</string>
+    <string name="notification_safemode_button_exit">Изход</string>
+    <string name="notification_safemode_description_exit">Не забравяйте да следвате съветите за отстраняване на неизправности, предоставени в известието, преди да излезете от Безопасен режим. Ако не го направите, Вашето устройство може отново да влезе в Безопасен режим.</string>
+    <string name="notification_safemode_description_presafemode">Системният интерфейс и данните за темите са изчистени успешно. Можете да използвате устройството си нормално.</string>
+    <string name="notification_safemode_description_safemode">Вашето устройство вече е в Безопасен режим. Натиснете, за да видите как можете да възстановите системния интерфейс.</string>
+    <string name="notification_safemode_title_exit">Излизане от Безопасен режим</string>
+    <string name="notification_safemode_title_presafemode">Системният интерфейс е възстановен</string>
+    <string name="notification_safemode_title_safemode">Бележка за коригиране на проблема със сривовете на системния интерфейс</string>
     <string name="notification_section_header_alerting">Известия</string>
     <string name="notification_section_header_conversations">Разговори</string>
     <string name="notification_section_header_gentle">Беззвучни</string>
@@ -2161,9 +2178,9 @@ mm"</string>
     <string name="quick_settings_intelligent_dual_sim_accelerate_title">Смарт двойна SIM</string>
     <string name="quick_settings_internet_label">Интернет</string>
     <string name="quick_settings_inversion_label">Инвертиране на цветовете</string>
-    <string name="quick_settings_location_label">Местоположение</string>
-    <string name="quick_settings_location_state_change_message_off">Изключен е Достъпа до местоположение</string>
-    <string name="quick_settings_location_state_change_message_on">Включен е Достъпа до местоположение</string>
+    <string name="quick_settings_location_label">Услуги за местоположение</string>
+    <string name="quick_settings_location_state_change_message_off">Услугите за местоположение са изключени</string>
+    <string name="quick_settings_location_state_change_message_on">Услугите за местоположение са включени</string>
     <string name="quick_settings_media_device_label">Мултимедийно устройство</string>
     <string name="quick_settings_mic_label">Достъп до микрофона</string>
     <string name="quick_settings_miui_wifi_detail_empty_text">Няма налични Wi-Fi мрежи</string>
@@ -2306,6 +2323,7 @@ mm"</string>
     <string name="screen_pinning_toast_navigation_mode">Натиснете и задръжте бутоните за назад и преглед, за да откачите това приложение</string>
     <string name="screen_pinning_toast_recents_invisible">За да освободите това приложение, докоснете и задръжте бутона за връщане назад и „Начало“</string>
     <string name="screen_pinning_toast_start">Това приложение е закачено</string>
+    <string name="screen_share_dialog_spinner_text">Обхват</string>
     <string name="screen_share_permission_app_selector_title">Споделяне или записване на приложение</string>
     <string name="screen_share_permission_dialog_option_entire_screen">Цял екран</string>
     <string name="screen_share_permission_dialog_option_single_app">Едно приложение</string>
@@ -2470,9 +2488,9 @@ mm"</string>
     <string name="status_bar">Лента на състоянието</string>
     <string name="status_bar_airplane">Самолетен режим</string>
     <string name="status_bar_alarm">Будилник</string>
-    <string name="status_bar_clock_date_format">E, d MMM</string>
+    <string name="status_bar_clock_date_format">EEE, d MMM</string>
     <string name="status_bar_clock_date_format_12">E, d MMM</string>
-    <string name="status_bar_clock_date_time_format">H:mm E, d MMM</string>
+    <string name="status_bar_clock_date_time_format">H:mm EEE, d MMM</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E, d MMM</string>
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
