@@ -172,7 +172,7 @@
     <string name="e2ee_data_protection_tip">"Xiaomi Cloud предлагает Расширенную защиту данных. Эта функция использует сквозное шифрование, чтобы обеспечить доступ к вашим данным только на доверенных устройствах. Никто другой, включая Xiaomi, не сможет получить доступ к вашим зашифрованным данным. "</string>
     <string name="e2ee_data_protection_update_security_key">Обновить</string>
     <string name="e2ee_data_protection_update_security_key_subtitle">После обновления этого кода доступа старый код станет недействительным. Обновить сейчас?</string>
-    <string name="e2ee_data_protection_update_security_key_title">Обновить код доступа</string>
+    <string name="e2ee_data_protection_update_security_key_title">Код доступа обновлен</string>
     <string name="e2ee_device_delete">Удалить устройство</string>
     <string name="e2ee_device_delete_tip">Как только вы удалите это устройство из своего аккаунта Xiaomi, на нем будет выполнен выход из аккаунта и вы не сможете использовать на нем службы Xiaomi Cloud, поиск и другие функции, связанные с аккаунтом, пока снова не войдете в аккаунт.</string>
     <string name="e2ee_device_delete_warning_dialog_content">Это устройство не поддерживает Расширенную защиту данных, поэтому вы не сможете войти в свой аккаунт, если включите эту функцию. Обновите ОС этого устройства до Xiaomi HyperOS 2, чтобы войти в аккаунт.</string>
@@ -269,9 +269,11 @@
     <string name="find_device_operation_failure_rpc">Не удалось выполнить операцию из-за ошибки RPC.</string>
     <string name="find_device_permissions_footer">Нажмите \"Предоставить\", чтобы предоставить выбранные разрешения.</string>
     <string name="find_device_permissions_header">Добро пожаловать в Поиск устройства! Вы можете использовать это приложение для поиска, отслеживания и блокировки вашего устройства после его потери. Вы также можете анонимно помочь другим людям найти их устройства Xiaomi. Для нормальной работы этому приложению требуются следующие разрешения:</string>
+    <string name="find_device_permissions_header_without_offline_find">"With Find device, you can locate, track, and lock your device when it's missing. This app requires the following permissions to work normally:"</string>
     <string name="find_device_service_title">Поиск устройства</string>
     <string name="find_device_status_summary">"Включите эту функцию, чтобы находить и отслеживать свое устройство или удаленно удалять с него данные.
 Вы также можете анонимно помочь другим людям найти их устройства Xiaomi."</string>
+    <string name="find_device_status_summary_without_offline_find">Turn on to locate and track your device or clear its data remotely</string>
     <string name="find_device_status_title_pad">Поиск устройства</string>
     <string name="find_device_status_title_phone">Поиск устройства</string>
     <string name="find_permission_location_summary">Для определения местоположения этого устройства</string>
@@ -405,7 +407,7 @@
     <string name="loading_enable_keybag">Включение Менеджера паролей…</string>
     <string name="loading_server_key_info">Загрузка объектов…</string>
     <string name="local_lockscreen_forget_pin">Забыли пароль блокировки экрана?</string>
-    <string name="local_lockscreen_lock_hint">Ваше устройство заблокируется, если вы введете неверные пароли слишком много раз</string>
+    <string name="local_lockscreen_lock_hint">После большого количества неудачных попыток ввода ваше устройство будет заблокировано</string>
     <string name="local_lockscreen_need_sub_title_verify_e2ee">Установите блокировку экрана для этого устройства, чтобы подтверждать его надежность.</string>
     <string name="local_lockscreen_pattern_title">Подтвердите свой графический ключ</string>
     <string name="local_lockscreen_pin_title">Введите пароль блокировки экрана</string>
@@ -775,7 +777,9 @@
     <string name="preference_copied">Текст \"%1$s\" скопирован в буфер обмена</string>
     <string name="privacy_and_agreement">Условия использования</string>
     <string name="privacy_dialog_finddevice_all_purpose_pad">Добро пожаловать в Поиск устройства! Вы можете использовать это приложение для поиска, отслеживания и блокировки вашего устройства после его потери. Вы также можете анонимно помочь другим людям найти их устройства Xiaomi.</string>
+    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">"You can use Find device to locate, lock, or erase data on your device if it's lost."</string>
     <string name="privacy_dialog_finddevice_all_purpose_phone">Добро пожаловать в Поиск устройства! Вы можете использовать это приложение для поиска, отслеживания и блокировки вашего устройства после его потери. Вы также можете анонимно помочь другим людям найти их устройства Xiaomi.</string>
+    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">"You can use Find device to locate, lock, or erase data on your device if it's lost."</string>
     <string name="privacy_dialog_sync_all_purpose_china">Добро пожаловать в службы Xiaomi Cloud! Вы можете использовать Xiaomi Cloud для синхронизации сообщений, контактов, заметок, настроек Браузера, фото и видео, настроек WLAN, аудиозаписей, разметки рабочего стола, приложений, мероприятий, объектов Анти-спама и Ленты виджетов между всеми подключенными устройствами.</string>
     <string name="privacy_dialog_sync_all_purpose_china_v2">Добро пожаловать в службы Xiaomi Cloud! Вы можете использовать Xiaomi Cloud для синхронизации сообщений, контактов, заметок, настроек Браузера, фото и видео, настроек WLAN, аудиозаписей, разметки рабочего стола, приложений, мероприятий, объектов Анти-спама и Ленты виджетов между всеми подключенными устройствами.</string>
     <string name="privacy_dialog_sync_all_purpose_pad">Добро пожаловать в службы Xiaomi Cloud! Вы можете использовать это приложение для синхронизации сообщений, контактов, заметок, объектов Браузера, альбомов в облаке, музыки, календаря, списка заблокированных и журнала вызовов с облаком.</string>
@@ -1088,14 +1092,14 @@
     <string name="verify_code_btn_positive">Далее</string>
     <string name="verify_code_error_textView">Неверный код доступа. Повторите попытку.</string>
     <string name="verify_code_error_view">Неверный код. Повторите попытку.</string>
-    <string name="verify_code_success_textView">Обновить код доступа</string>
+    <string name="verify_code_success_textView">Код доступа обновлен</string>
     <string name="verify_code_warning_dialog_title">Проверочный код</string>
     <string name="verify_code_warning_text">Введите полученный вами %d-значный проверочный код</string>
     <string name="verify_code_warning_text_title">Введите этот проверочный код на другом устройстве</string>
     <string name="verify_code_warning_text_view">Не получили код?</string>
     <string name="verify_code_warning_title_text_view">Проверочный код</string>
     <string name="verify_code_warning_toast">Пока невозможно отправить другой код. Подождите немного и повторите попытку.</string>
-    <string name="verify_code_warning_toast_error_limit">Сегодня больше нет попыток проверки</string>
+    <string name="verify_code_warning_toast_error_limit">Вы исчерпали дневной лимит попыток ввода</string>
     <string name="verify_code_warning_toast_invalid">Срок действия этого проверочного кода истек. Попробуйте отправить другой.</string>
     <string name="verify_code_warning_toast_limit">Больше нет попыток проверки</string>
     <string name="verify_dialog_message">Отправьте новый проверочный код или выберите другой способ восстановления</string>
