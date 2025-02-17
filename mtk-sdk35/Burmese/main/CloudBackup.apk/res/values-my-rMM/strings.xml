@@ -18,6 +18,7 @@
     <string name="backup_action_buy_cloud_space">နောက်ထပ်သိုလှောင်ခန်းနေရာလွတ်ကို ရယူပါ။</string>
     <string name="backup_action_check_network">ကွန်ရက် ဆက်တင်များကို စစ်ဆေးပါ</string>
     <string name="backup_action_clean_disk_space">နေရာရှင်းလင်းလိုက်</string>
+    <string name="backup_action_international_no_space_with_wechat_off_content">သိုလှောင်ခန်းမလုံလောက်ပါ။ ဤစက်ကို အရန်သိမ်းမရပါ။</string>
     <string name="backup_action_long_time_not_backup_action">အရန်သိမ်းရန်</string>
     <string name="backup_action_long_time_not_backup_title">လတ်တလောအရန်သိမ်းဖိုင် မရှိပါ</string>
     <string name="backup_action_no_space_with_wechat_off_content">ဤစက်မှအကြောင်းအရာများကို အရန်သိမ်းရန် ကလောက်သိုလှောင်ခန်း နေရာမလောက်ပါ။ သင့်အတွက်ရရှိနိုင်သော ကလောက်သိုလှောင်ခန်းရွေးချယ်စရာများကို ကြည့်ရန် တို့ပါ။</string>
@@ -120,6 +121,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_frequence_every_7_day">%d ရက် တစ်ကြိမ်</string>
     <string name="cloud_backup_detail_frequence_every_day">နေ့စဉ်</string>
     <string name="cloud_backup_detail_header_condition_battery">≥%s</string>
+    <string name="cloud_backup_detail_header_condition_battery_content_description">အနည်းဆုံး %s</string>
     <string name="cloud_backup_detail_header_condition_screen">သော့ခတ်မျက်နှာပြင်</string>
     <string name="cloud_backup_detail_header_condition_wlan">Wi-Fi</string>
     <string name="cloud_backup_detail_header_condition_wlan_china">WLAN</string>
@@ -131,6 +133,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_state">အလိုအလျောက် အရန်သိမ်းခြင်း</string>
     <string name="cloud_backup_detail_state_summary">Wi-Fi ချိတ်ထားရန်၊ ဓာတ်ခဲအား အနည်းဆုံး %s ရှိရန်နှင့် မျက်နှာပြင်ပိတ်ထားရန်လိုသည်</string>
     <string name="cloud_backup_detail_state_summary_china">WLAN ချိတ်ထားရန်၊ ဓာတ်ခဲအား အနည်းဆုံး %s ရှိရန်နှင့် မျက်နှာပြင်ပိတ်ထားရန်လိုသည်</string>
+    <string name="cloud_backup_detail_state_summary_china_content_description">WLAN ချိတ်ထားရန်၊ ဓာတ်ခဲအား အနည်းဆုံး %s ရှိရန်နှင့် မျက်နှာပြင်ပိတ်ထားရန်လိုသည်</string>
+    <string name="cloud_backup_detail_state_summary_content_description">Wi-Fi ချိတ်ထားရန်၊ ဓာတ်ခဲအား အနည်းဆုံး %s ရှိရန်နှင့် မျက်နှာပြင်ပိတ်ထားရန်လိုသည်</string>
     <string name="cloud_backup_detail_time">နောက်ဆုံးအရန်သိမ်း−%1$s</string>
     <string name="cloud_backup_detail_title">အကြောင်းအရာများ အရန်သိမ်းရန်</string>
     <string name="cloud_backup_get_installed_apps_summary">ပင်မမျက်နှာပြင်အက်(ပ်)များ အရန်သိမ်းရန်နှင့် ပြန်ယူရန်</string>
@@ -532,6 +536,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="session_failed_dist_no_space_btn_text">သိုလှောင်ခန်းရှင်းရန်</string>
     <string name="session_failed_get_installed_apps_denied_detail">အလိုအလျောက် အရန်သိမ်းနိုင်ရန် ဆက်တင်တွင် ဤအက်(ပ်)အား စက်၌ထည့်သွင်းထားသော အက်(ပ်)စာရင်းကို ဖတ်ခွင့်ပေးပြီး အမြဲခွင့်ပြုရန်ကို ရွေးပါ။</string>
     <string name="session_failed_get_installed_apps_denied_title">ခွင့်ပြုချက်များလိုအပ်သည်</string>
+    <string name="session_failed_international_cloud_no_space_title">ကလောက်သိုလှောင်ခန်း မလုံလောက်ပါ</string>
     <string name="session_failed_invalid_token_action">အကောင့်ဝင်ရန်</string>
     <string name="session_failed_invalid_token_detail">အကောင့်ပြန်ဝင်ပါ</string>
     <string name="session_failed_invalid_token_title">အထောက်အထားများမမှန်ပါ</string>
@@ -548,7 +553,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="session_ongoing_title_restore">ပြန်ယူနေသည်</string>
     <string name="session_restore_apk_data_text">WeChat ဒေတာများ ပြန်ယူနေသည်…</string>
     <string name="session_restore_apk_text">ပင်ပမမျက်နှာပင်အပြင်အဆင်နှင့် စနစ်ဆက်တင်များကို ပြန်ယူနေသည်…</string>
-    <string name="session_restore_success_date_format">MM/dd/yyyy</string>
+    <string name="session_restore_success_date_format">dd/MM/yyyy</string>
     <string name="session_starting_backup_text">အရန်သိမ်းရန် ပြင်ဆင်နေသည်။ %1$d-%2$d မိနစ်ခန့် ကြာနိုင်သည်။</string>
     <string name="session_starting_restore_text">ပြန်ယူရန် ပြင်ဆင်နေသည်။ %1$d-%2$d မိနစ်ခန့် ကြာနိုင်သည်။</string>
     <string name="session_success_backup_data_size">အရန်သိမ်းဖိုင်အရွယ်အစား - %s</string>

@@ -958,6 +958,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="button_to_setting">Innstillinger</string>
     <string name="byteShort">B</string>
     <string name="call_address">Område-blokkeringsliste</string>
+    <string name="call_all_number_block">Blokker alle anrop</string>
     <string name="call_and_contact">Samtaler og kontakter</string>
     <string name="call_blacklist">Anrop-blokkeringsliste</string>
     <string name="call_cloud_block">Sky-blokkeringsliste</string>
@@ -1851,6 +1852,10 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost er aktivert</string>
     <string name="game_toolbox_wild_mode_toast_tip">Enhetens ytelse er betydelig forbedret</string>
     <string name="game_toolbox_wild_mode_toast_title">Ultimat-modus er aktivert</string>
+    <string name="game_turbo_custom_subtitle">Du kan tilpasse superoppløsning og smart bildefrekvens for å styre bildefrekvensen og bildekvaliteten</string>
+    <string name="game_turbo_frame_rate_priority_subtitle">Forbedrer bildefrekvensen på en intelligent måte</string>
+    <string name="game_turbo_image_quality_priority_subtitle">\"Forbedre bildekvalitet\" gir bedre bildekvalitet ved hjelp av superoppløsning og styrer bildefrekvensen ved hjelp av smart bildefrekvens</string>
+    <string name="game_turbo_performance_strategy_subtitle">Faktisk bildefrekvens vises på instrumentpanelet for ytelse</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_video_network_eror">Kunne ikke koble til nettverket. Sjekk nettverksinnstillingene og prøv igjen.</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort pause.</string>
@@ -2308,9 +2313,13 @@ i spilløktene dine"</string>
     <string name="gd_setting_title">Sidelinje</string>
     <string name="gd_setting_vtb">Vis under avspilling av videoer</string>
     <string name="gd_setting_vtb_desc">Spesielle funksjoner for avspilling av video</string>
+    <string name="gd_sidebar_edit_add_app_tips_talkback">Legg til app</string>
+    <string name="gd_sidebar_edit_add_app_upper_limit_talkback">Kan ikke legge til flere widgets</string>
     <string name="gd_sidebar_edit_all_title">Alle apper</string>
     <string name="gd_sidebar_edit_btn_close">Skjul</string>
     <string name="gd_sidebar_edit_btn_expand">Mer</string>
+    <string name="gd_sidebar_edit_delete_app_tips_talkback">Fjern app</string>
+    <string name="gd_sidebar_edit_division_line_talkback">Skillelinje</string>
     <string name="gd_sidebar_edit_quick_title">Snarveier</string>
     <string name="gd_sidebar_long_press_tips">Trykk på og hold inne indikatoren for å flytte den mens enheten holdes vertikalt</string>
     <string name="gd_splite_screen_tips">Delt skjerm støtter ikke flytende vinduer</string>
@@ -2527,6 +2536,8 @@ for å bli med på eggjakten!"</string>
     <string name="hints_virus_lib_update_default_summary">Tidspunkt for siste oppdatering ukjent</string>
     <string name="hot">Populær</string>
     <string name="hot_today">Populær i dag</string>
+    <string name="how_to_modify_risk_app_permission">Trinn</string>
+    <string name="how_to_modify_risk_app_permission_desc">Hvis du stoler på en apputvikler, kan du følge disse trinnene for å gi den tilgang til tillatelser:</string>
     <string name="i_know">Skjønner</string>
     <string name="i_know_time">Skjønner (%d)</string>
     <string name="icon_content_description">Dialogboksikon</string>
@@ -2610,6 +2621,7 @@ for å bli med på eggjakten!"</string>
     <string name="last_check_canceled">Tidligere skanning ble avsluttet</string>
     <string name="launch_instant_app">Åpne</string>
     <string name="layoutDirection">rtl</string>
+    <string name="learn_risk_app_permission_settings">Opphever blokkering av tillatelser</string>
     <string name="left_precent">60%</string>
     <string name="legal_workday">Hverdager</string>
     <string name="legal_workday_invalidate">Man-Fre (helligdags-info utløpt)</string>
@@ -2730,6 +2742,7 @@ svarer"</string>
     <string name="mark_agent_block">Rapportert som byrå</string>
     <string name="mark_agent_block_large">Byråer</string>
     <string name="mark_agent_time_setting">Blokker numre som er rapportert som byråer et gitt antall ganger</string>
+    <string name="mark_call_intercept_threshold_dialog_message">*Hvis et nummer har blitt rapportert som svindel eller spam av et antall brukere som overstiger terskelen du har angitt, vil anropet bli blokkert. Hvis terskelen er satt for lavt, kan det hende at du blokkerer anrop som ikke er spam ved en feiltakelse.</string>
     <string name="mark_fraud">Blokker rapporterte svindler</string>
     <string name="mark_fraud_block">Rapportert som svindel</string>
     <string name="mark_fraud_block_large">Svindel</string>
@@ -2903,6 +2916,11 @@ Enheten din er %s raskere nå."</string>
     <string name="mode_size_full">Fullskjerm</string>
     <string name="modify_cellular_type">Trykk for å se planen din</string>
     <string name="modify_password_mode"><u>Endre passordtype</u></string>
+    <string name="modify_risk_app_permission_dialog_cancel">Avbryt</string>
+    <string name="modify_risk_app_permission_dialog_confirm">Aktiver</string>
+    <string name="modify_risk_app_permission_dialog_message">For å beskytte personvernet ditt anbefaler vi at du aktiverer \"Returner tomme meldinger\" etter at du har gitt tillatelser til denne appen.</string>
+    <string name="modify_risk_app_permission_dialog_title">Returner tomme meldinger</string>
+    <string name="modify_risk_app_permission_steps">%1$d. Åpne &lt;b>Innstillinger&lt;/b> > &lt;b>Apps&lt;/b>.&lt;br>&lt;/br> %2$d. Velg &lt;b>Apps&lt;/b>.&lt;br>&lt;/br> %3$d. Velg &lt;b>Administrer tillatelser&lt;/b>.&lt;br>&lt;/br> %4$d. Trykk på ikonet ︙ og velg &lt;b>Opphev blokkering av tillatelser&lt;/b>.&lt;br>&lt;/br> %5$d. Du kan deretter gi individuelle tillatelser.</string>
     <string name="modifypassword">Endre passordtype</string>
     <string name="monday">Mandag</string>
     <string name="monday_short">Man</string>
@@ -3390,7 +3408,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pc_charge_protection_wireless_charge">Trådløs lading</string>
     <string name="pc_charge_protection_wireless_charge_mode">Trådløs lademodus</string>
     <string name="pc_charge_protection_wireless_reverse_charge">Omvendt trådløs lading</string>
-    <string name="pc_charge_protection_wireless_reverse_charge_limit_desc">Deaktiver reversert trådløs lading når denne enhetens batterinivå er lavere enn %1$s</string>
+    <string name="pc_charge_protection_wireless_reverse_charge_limit_desc">Deaktiver omvendt trådløs lading når denne enhetens batterinivå er lavere enn %1$s</string>
     <string name="pc_charge_protection_wireless_reverse_charge_limit_title">Ladegrense</string>
     <string name="pc_charge_wireless_charge_mode_silence_title">Stillemodustid</string>
     <string name="pc_charge_wireless_charge_select_silence">Stille</string>
@@ -4312,9 +4330,10 @@ Ultrabatterisparer"</string>
     <string name="privacy_pop_location">Fikk tilgang til plassering i dag</string>
     <string name="privacy_pop_record">Tok opp lyd i dag</string>
     <string name="privacy_pop_storage">Fikk tilgang til lagring i dag</string>
+    <string name="privacy_privacy_title">Personvernerklæring</string>
     <string name="privacy_prompt_tc_sms_report_message">Telefonnummeret ditt vil krypteres, og detaljer som leverandøren vil krypteres og lastes opp til Mis servere for å oppdatere databruksinformasjonen din.</string>
     <string name="privacy_prompt_upload">Last opp</string>
-    <string name="privacy_protect_summary">Beskytt den personlige informasjonen din</string>
+    <string name="privacy_protect_summary">Beskytt private elementer</string>
     <string name="privacy_protect_title">Personvernbeskyttelse</string>
     <string name="privacy_provision_back">Tilbake</string>
     <string name="privacy_provision_more">Finn ut mer om personvern</string>
@@ -4442,6 +4461,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="privacy_update_dialog_content_1">Personvernerklæringen til %s ble oppdatert:</string>
     <string name="privacy_update_dialog_content_2"><Data>Les og godta den nye versjonen av &lt;a href=\"%1$s\">personvernerklæring&lt;/a> før du fortsetter.</Data></string>
     <string name="privacy_update_dialog_title">Oppdatert personvernerklæring</string>
+    <string name="privacy_user_notice_title">Brukermerknad</string>
     <string name="privacy_using_camera">Bruk av kamera</string>
     <string name="privacy_using_location">Tilgang til plassering</string>
     <string name="privacy_using_record">Opptak av lyd</string>
@@ -4542,6 +4562,10 @@ Trekke tilbake samtykket nå?"</string>
     <string name="result_wifi_header">Wi-Fi-risikoer oppdaget</string>
     <string name="resume">Gjenopprett</string>
     <string name="right_precent">100%</string>
+    <string name="risk_app_dialog_confirm">Skjønner</string>
+    <string name="risk_app_dialog_message">Systemet har blokkert denne appen fra å få tilgang til sensitive tillatelser, fordi den kommer fra en ukjent kilde.</string>
+    <string name="risk_app_dialog_more_info">Slik opphever du blokkering av tillatelser</string>
+    <string name="risk_app_dialog_title">Tillatelser nektet</string>
     <string name="risk_app_install_agree_button">Stol på denne appen</string>
     <string name="risk_app_install_agree_checkbox">Jeg er villig til å ta all mulig risiko.</string>
     <string name="risk_app_install_agree_message">Denne appen er utviklet av en tredjepart og kan bryte lokale lover og regler. Xiaomi garanterer ikke tilgjengeligheten, kontinuiteten og tilgjengeligheten til innholdet og tjenestene som tilbys av denne appen. Eventuelt tap eller skade forårsaket av bruk av denne appen vil bli båret av deg.</string>
@@ -4551,6 +4575,8 @@ Trekke tilbake samtykket nå?"</string>
     <string name="risk_app_install_history">Autoriseringshistorikk</string>
     <string name="risk_app_install_item_des">Versjon: %1$s</string>
     <string name="risk_app_install_manager">Apper med mulige risikoer</string>
+    <string name="risk_app_menu_title">Opphev blokkering av tillatelser</string>
+    <string name="risk_app_permission_settings_desc">Hvis du gir apper fra ukjente kilder tillatelse til å få tilgang til sensitive tillatelser, kan det utgjøre en risiko for enheten og datasikkerheten din. For å forhindre slike risikoer vil enkelte apper som standard være blokkert fra å få tilgang til enkelte tillatelser. Du kan &lt;u>oppheve blokkeringer av tillatelser&lt;/u> og deretter gi individuelle tillatelser etter eget ønske.</string>
     <string name="risk_count_suffix" />
     <string name="risk_detail_app">Utgjør risikoer</string>
     <string name="risk_detail_title">Mulige risikoer</string>
@@ -4920,16 +4946,16 @@ Trekke tilbake samtykket nå?"</string>
     <string name="st_antispam_mode_smart_sum">Blokker numre du har lagt til manuelt, og numre som har blitt rapportert av andre brukere</string>
     <string name="st_antispam_title_anoy_incoming">Anrop fra fremmede</string>
     <string name="st_antispam_title_anoy_sms">Meldinger fra fremmede</string>
-    <string name="st_antispam_title_contact_incoming">Anrop fra kontakter</string>
-    <string name="st_antispam_title_contact_sms">Meldinger fra kontakter</string>
-    <string name="st_antispam_title_contactandanoy_group">Innstillinger</string>
     <string name="st_antispam_title_mms">MMS</string>
     <string name="st_antispam_title_null_incoming">Private numre</string>
     <string name="st_antispam_title_service_sms">Tjenestevarsler</string>
     <string name="st_antispam_title_whitelist">Unntak</string>
     <string name="st_call_backsound_group">Blokkeringsliste-lyd</string>
-    <string name="st_call_intercept_contacts">Blokker anrop fra kontakter</string>
+    <string name="st_call_intercept_all">Blokker alle anrop</string>
     <string name="st_call_intercept_forwarding">Blokker videresendte anrop</string>
+    <string name="st_call_intercept_mark_agent">Blokker anrop fra eiendomsmeglere</string>
+    <string name="st_call_intercept_mark_fraud">Blokker anrop fra svindlere</string>
+    <string name="st_call_intercept_mark_sell">Blokker anrop fra telefonselgere</string>
     <string name="st_call_intercept_oversea">Blokker anrop fra utlandet</string>
     <string name="st_call_intercept_reported">Blokker anrop fra rapporterte numre</string>
     <string name="st_call_intercept_stranger">Blokker anrop fra fremmede</string>
@@ -4937,8 +4963,8 @@ Trekke tilbake samtykket nå?"</string>
     <string name="st_call_other_group">Annet</string>
     <string name="st_call_settings">Anrop-blokkeringsliste</string>
     <string name="st_call_stranger_group">Blokker anrop fra fremmede</string>
+    <string name="st_confirm_call_all_dialog_summary">Anrop fra alle numre som ikke er på unntakslisten din, blokkeres. Aktivere nå?</string>
     <string name="st_confirm_dialog_btn_open">Blokkér</string>
-    <string name="st_confirm_dialog_summary_contact_call">Alle anrop fra kontakter blir blokkert.</string>
     <string name="st_confirm_dialog_summary_oversea_call">Alle samtaler fra utenlandske telefonnummer vil bli blokkert.</string>
     <string name="st_confirm_dialog_summary_stranger_call">Anrop fra numre som ikke finnes på unntakslisten eller i kontaktene dine, blokkeres. Aktivere nå?</string>
     <string name="st_filter_keywords_setting_summary1">Meldinger fra ukjente numre som inneholder ordene på denne listen blir blokkert.</string>
@@ -4948,11 +4974,13 @@ Trekke tilbake samtykket nå?"</string>
     <string name="st_hint_add_head_number">Angi prefiks</string>
     <string name="st_hint_add_phonenumber">Skriv inn telefonnummer</string>
     <string name="st_hint_operatelist">Ser ut som denne regelen allerede eksisterer</string>
+    <string name="st_mark_call_intercept_threshold_summary">Blokker numre som har blitt rapportert over et bestemt antall ganger automatisk</string>
+    <string name="st_mark_call_intercept_threshold_title">Blokkeringsterskel</string>
+    <string name="st_mark_number_group">Blokker anrop fra rapporterte numre</string>
     <string name="st_message_SMS_AntiSpam">Blokker SMS</string>
     <string name="st_message_SMSpass">Tillat SMS</string>
     <string name="st_message_phone_AntiSpam">Blokker anrop</string>
     <string name="st_message_phonepass">Tillat anrop</string>
-    <string name="st_msg_intercept_contacts">Blokker SMS fra kontakter</string>
     <string name="st_msg_keyword_black">Nøkkelord-blokkeringsliste</string>
     <string name="st_msg_keyword_group">Nøkkelord</string>
     <string name="st_msg_keyword_white">Nøkkelord-unntak</string>
@@ -5086,8 +5114,15 @@ For å brukke dette ^1 må du koble til først."</string>
     <string name="storage_dialog_unsupported">"Denne enheten støtter ikke dette ^1.
 
 For å bruke dette ^1 med denne enheten, må du konfigurere det først."</string>
+    <string name="storage_fbo_action_des">Trykk på \"Defragmenter\" for å starte. Enheten kan være treg mens denne prosessen pågår. Defragmenteringen går raskerer hvis du unngår å bruke enheten.</string>
+    <string name="storage_fbo_btn">Defragmenter</string>
+    <string name="storage_fbo_btn_estimate">Forbereder…</string>
     <string name="storage_fbo_clear">Oppdatering av lagring</string>
     <string name="storage_fbo_des">Intern lagring er utsatt for fragmentering, noe som kan senke hastigheten på enheten betydelig. Oppdatering av lagring utføres automatisk når du ikke bruker enheten. Det organiserer filer fysisk for å minimere fragmenteringen og redusere forsinkelser.</string>
+    <string name="storage_fbo_finish_btn">Ferdig</string>
+    <string name="storage_fbo_notification_finish_title">Defragmentering fullført</string>
+    <string name="storage_fbo_notification_start_content">Enheten kan gå tregt mens denne prosessen pågår</string>
+    <string name="storage_fbo_notification_start_title">Defragmenterer lagringsplass</string>
     <string name="storage_fbo_number_tip">Behandlet den %1$s</string>
     <string name="storage_fbo_tools">Lagringsoptimalisering</string>
     <string name="storage_file_delete_tip">Slette valgte elementer permanent? Noen av dem kan lastes inn igjen når det er nødvendig.</string>
