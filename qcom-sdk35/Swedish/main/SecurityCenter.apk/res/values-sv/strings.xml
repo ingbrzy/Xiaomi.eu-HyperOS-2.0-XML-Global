@@ -958,6 +958,7 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="button_to_setting">Inställningar</string>
     <string name="byteShort">B</string>
     <string name="call_address">Blockeringslista för område</string>
+    <string name="call_all_number_block">Blockera alla samtal</string>
     <string name="call_and_contact">Samtal och kontakter</string>
     <string name="call_blacklist">Blockeringslista för samtal</string>
     <string name="call_cloud_block">Blockeringslista för molntjänster</string>
@@ -1851,6 +1852,10 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost är på</string>
     <string name="game_toolbox_wild_mode_toast_tip">Enhtsprestandan har förbättrats markant</string>
     <string name="game_toolbox_wild_mode_toast_title">Ultimat läge är på</string>
+    <string name="game_turbo_custom_subtitle">Du kan anpassa superupplösning och smart bildfrekvens för att hantera bildfrekvens och bildkvalité</string>
+    <string name="game_turbo_frame_rate_priority_subtitle">Förbättra bildfrekvens intelligent</string>
+    <string name="game_turbo_image_quality_priority_subtitle">\"Förbättra bildkvalitén\" förbättrar bildkvalitén via superupplösning och hanterar bildfrekvensen via smart bildfrekvens</string>
+    <string name="game_turbo_performance_strategy_subtitle">Faktiskt bildfrekvens visas i prestandapanelen</string>
     <string name="game_video_net_data">Mobildata</string>
     <string name="game_video_network_eror">Kunde inte ansluta till nätverk. Kontrollera inställningar och försök igen.</string>
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
@@ -2308,9 +2313,13 @@ av dina spelsessioner"</string>
     <string name="gd_setting_title">Sidopanel</string>
     <string name="gd_setting_vtb">Visa när du spelar upp videor</string>
     <string name="gd_setting_vtb_desc">Specialfunktioner för videouppspelning</string>
+    <string name="gd_sidebar_edit_add_app_tips_talkback">Lägg till app</string>
+    <string name="gd_sidebar_edit_add_app_upper_limit_talkback">Det går inte att lägga till fler widgetar</string>
     <string name="gd_sidebar_edit_all_title">Alla appar</string>
     <string name="gd_sidebar_edit_btn_close">Dölj</string>
     <string name="gd_sidebar_edit_btn_expand">Mer</string>
+    <string name="gd_sidebar_edit_delete_app_tips_talkback">Ta bort app</string>
+    <string name="gd_sidebar_edit_division_line_talkback">Indelningslinje</string>
     <string name="gd_sidebar_edit_quick_title">Genvägar</string>
     <string name="gd_sidebar_long_press_tips">Tryck och håll inne indikatorn för att flytta den medan du håller enheten vertikalt</string>
     <string name="gd_splite_screen_tips">Delad skärm stöder inte flytande fönster</string>
@@ -2527,6 +2536,8 @@ för att delta i vår äggjakt!"</string>
     <string name="hints_virus_lib_update_default_summary">Senaste uppdateringstid okänd</string>
     <string name="hot">Populär</string>
     <string name="hot_today">Populärt idag</string>
+    <string name="how_to_modify_risk_app_permission">Steg</string>
+    <string name="how_to_modify_risk_app_permission_desc">Om du litar på en apps utvecklare, följ dessa steg för att låta den få åtkomst till behörigheter:</string>
     <string name="i_know">Jag förstår</string>
     <string name="i_know_time">Jag förstår (%d)</string>
     <string name="icon_content_description">Dialogikon</string>
@@ -2610,6 +2621,7 @@ för att delta i vår äggjakt!"</string>
     <string name="last_check_canceled">Föregående skanning avbröts</string>
     <string name="launch_instant_app">Öppna</string>
     <string name="layoutDirection">rtl</string>
+    <string name="learn_risk_app_permission_settings">Avblockera behörigheter</string>
     <string name="left_precent">60%</string>
     <string name="legal_workday">Arbetsdagar</string>
     <string name="legal_workday_invalidate">Mån-Fre (info om helgdagar utgången)</string>
@@ -2730,6 +2742,7 @@ ska svara"</string>
     <string name="mark_agent_block">Rapportera som myndigheter</string>
     <string name="mark_agent_block_large">Myndigheter</string>
     <string name="mark_agent_time_setting">Blockera nummer som har rapporterats som agent ett visst antal gånger</string>
+    <string name="mark_call_intercept_threshold_dialog_message">*Om ett nummer har rapporterats som bedrägeri, eller spam, av ett högre antal användare än den tröskel du angivit, kommer samtalet att blockeras. Om tröskeln är angiven för lågt, kan samtal som inte är spam-samtal att blockeras av misstag.</string>
     <string name="mark_fraud">Blockera rapporterade bluffar</string>
     <string name="mark_fraud_block">Rapportera som bluff</string>
     <string name="mark_fraud_block_large">Bluff</string>
@@ -2903,6 +2916,11 @@ Din enhet är %s snabbare nu."</string>
     <string name="mode_size_full">Helskärm</string>
     <string name="modify_cellular_type">Tryck för att välja din plan</string>
     <string name="modify_password_mode"><u>Ändra lösenordstyp</u></string>
+    <string name="modify_risk_app_permission_dialog_cancel">Avbryt</string>
+    <string name="modify_risk_app_permission_dialog_confirm">Aktivera</string>
+    <string name="modify_risk_app_permission_dialog_message">För att skydda din integritet, rekommenderar vi att du aktiverar \"Återsänd tomma meddelanden\" efter att ha beviljat behörigheter till den här appen.</string>
+    <string name="modify_risk_app_permission_dialog_title">Returnera blanka meddelanden</string>
+    <string name="modify_risk_app_permission_steps">%1$d. Öppna &lt;b>Inställningar&lt;/b> > &lt;b>Apps&lt;/b>.&lt;br>&lt;/br> %2$d. Välj &lt;b>Appar och It;/b>.&lt;br>&lt;/br> %3$d. Välj &lt;b>Hantera behörigheter&lt;/b>.&lt;br>&lt;/br> %4$d. Tryck på ikonen︙och välj &lt;b>Avblockera behörigheter&lt;/b>.&lt;br>&lt;/br> %5$d. Du kan sedan bevilja individuella behörigheter.</string>
     <string name="modifypassword">Ändra lösenordstyp</string>
     <string name="monday">Måndag</string>
     <string name="monday_short">Mån</string>
@@ -4312,9 +4330,10 @@ Ultra batterisparare"</string>
     <string name="privacy_pop_location">Tillträdde plats idag</string>
     <string name="privacy_pop_record">Spelade in ljud idag</string>
     <string name="privacy_pop_storage">Tillträdde lagring idag</string>
+    <string name="privacy_privacy_title">Integritetspolicy</string>
     <string name="privacy_prompt_tc_sms_report_message">Ditt telefonnummer och operatörs detaljer kommer att krypteras och laddas upp till Mis servrar för att kunna uppdatera din dataanvändning.</string>
     <string name="privacy_prompt_upload">Ladda upp</string>
-    <string name="privacy_protect_summary">Skydda din personliga information</string>
+    <string name="privacy_protect_summary">Skydda privata objekt</string>
     <string name="privacy_protect_title">Integritetsskydd</string>
     <string name="privacy_provision_back">Tillbaka</string>
     <string name="privacy_provision_more">Lär dig mer om integritetsskydd</string>
@@ -4442,6 +4461,7 @@ Dra tillbaka samtycke nu?"</string>
     <string name="privacy_update_dialog_content_1">%s Integritetspolicy uppdaterades:</string>
     <string name="privacy_update_dialog_content_2"><Data>Läs och acceptera den nya versionen av &lt;a href=\"%1$s\">Integritetspolicyn&lt;/a> innan du fortsätter.</Data></string>
     <string name="privacy_update_dialog_title">Uppdaterad Integritetspolicy</string>
+    <string name="privacy_user_notice_title">Användarunderrättelse</string>
     <string name="privacy_using_camera">Använder kameran</string>
     <string name="privacy_using_location">Hämtar plats</string>
     <string name="privacy_using_record">Spelar in ljud</string>
@@ -4542,6 +4562,10 @@ Dra tillbaka samtycke nu?"</string>
     <string name="result_wifi_header">Wi-Fi risker upptäckta</string>
     <string name="resume">Återställ</string>
     <string name="right_precent">100%</string>
+    <string name="risk_app_dialog_confirm">Jag förstår</string>
+    <string name="risk_app_dialog_message">Systemet har blockerat den här appen från att få känsliga behörigheter, eftersom de kommer från en okänd källa.</string>
+    <string name="risk_app_dialog_more_info">Hur man avblockerar behörigheter</string>
+    <string name="risk_app_dialog_title">Behörigheter nekades</string>
     <string name="risk_app_install_agree_button">Lita på den här appen</string>
     <string name="risk_app_install_agree_checkbox">Jag är villig att ta alla möjliga risker.</string>
     <string name="risk_app_install_agree_message">Denna app är utvecklad av en tredje-part och kan överträda lokala lagar och förordningar. Xiaomi garanterar inte tillgängligheten, kontinuiteten, och tillgängligheten av innehållet och tjänsterna som tillhandahålls av denna app. Eventuell förlust eller skada som orsakas av användningen av denna app kommer bäras av dig.</string>
@@ -4551,6 +4575,8 @@ Dra tillbaka samtycke nu?"</string>
     <string name="risk_app_install_history">Tillståndshistorik</string>
     <string name="risk_app_install_item_des">Version: %1$s</string>
     <string name="risk_app_install_manager">Appar med möjliga risker</string>
+    <string name="risk_app_menu_title">Avblockera behörigheter</string>
+    <string name="risk_app_permission_settings_desc">Att låta appar från okända källor får åtkomst till känsliga behörigheter kan utgöra en risk för din enhet och datasäkerhet. För att förhindra dessa risker kommer vissa appar att blockeras från att få åtkomst till vissa behörigheter per standard. Du kan manuellt &lt;u>avblockera behörigheter&lt;/u>, och sedan bevilja individuella behörigheter, så som du anser lämpligt.</string>
     <string name="risk_count_suffix" />
     <string name="risk_detail_app">Utgör risker</string>
     <string name="risk_detail_title">Möjliga risker</string>
@@ -4920,16 +4946,16 @@ Dra tillbaka samtycke nu?"</string>
     <string name="st_antispam_mode_smart_sum">Blockera nummer du lagt till manuellt och nummer som har rapporterats av andra användare</string>
     <string name="st_antispam_title_anoy_incoming">Samtal från främlingar</string>
     <string name="st_antispam_title_anoy_sms">Meddelanden från okända</string>
-    <string name="st_antispam_title_contact_incoming">Samtal från kontakter</string>
-    <string name="st_antispam_title_contact_sms">Meddelanden från kontakter</string>
-    <string name="st_antispam_title_contactandanoy_group">Inställningar</string>
     <string name="st_antispam_title_mms">MMS</string>
     <string name="st_antispam_title_null_incoming">Privata nummer</string>
     <string name="st_antispam_title_service_sms">Notifikation för tjänster</string>
     <string name="st_antispam_title_whitelist">Undantag</string>
     <string name="st_call_backsound_group">Ljud för blockeringslistan</string>
-    <string name="st_call_intercept_contacts">Blockera samtal från kontakter</string>
+    <string name="st_call_intercept_all">Blockera alla samtal</string>
     <string name="st_call_intercept_forwarding">Blockera vidarekopplade samtal</string>
+    <string name="st_call_intercept_mark_agent">Blockera samtal från mäklare</string>
+    <string name="st_call_intercept_mark_fraud">Blockera bedrägerisamtal</string>
+    <string name="st_call_intercept_mark_sell">Blockera marknadsföringssamtal</string>
     <string name="st_call_intercept_oversea">Blockera alla inkommande utlandssamtal</string>
     <string name="st_call_intercept_reported">Blockera samtal från rapporterade nummer</string>
     <string name="st_call_intercept_stranger">Blockera samtal från okända</string>
@@ -4937,8 +4963,8 @@ Dra tillbaka samtycke nu?"</string>
     <string name="st_call_other_group">Övrigt</string>
     <string name="st_call_settings">Blockeringslista för samtal</string>
     <string name="st_call_stranger_group">Blockera samtal från okända</string>
+    <string name="st_confirm_call_all_dialog_summary">Samtal från nummer som inte finns i dina undantag kommer att blockeras. Aktivera nu?</string>
     <string name="st_confirm_dialog_btn_open">Blockera</string>
-    <string name="st_confirm_dialog_summary_contact_call">Alla samtal från kontakter kommer blockeras.</string>
     <string name="st_confirm_dialog_summary_oversea_call">Alla samtal från utländska telefonnummer kommer att blockeras.</string>
     <string name="st_confirm_dialog_summary_stranger_call">Samtal från nummer som inte finns i dina undantag, eller i dina kontakter, kommer att blockeras. Aktivera nu?</string>
     <string name="st_filter_keywords_setting_summary1">Meddelanden från okända nummer som innehåller orden i denna listan kommer att blockeras.</string>
@@ -4948,11 +4974,13 @@ Dra tillbaka samtycke nu?"</string>
     <string name="st_hint_add_head_number">Ange riktnummer</string>
     <string name="st_hint_add_phonenumber">Ange telefonnummer</string>
     <string name="st_hint_operatelist">Verkar som att den här regeln redan existerar</string>
+    <string name="st_mark_call_intercept_threshold_summary">Blockera automatiskt nummer som har rapporterats över ett antal gånger</string>
+    <string name="st_mark_call_intercept_threshold_title">Blockeringströskel</string>
+    <string name="st_mark_number_group">Blockera samtal från rapporterade nummer</string>
     <string name="st_message_SMS_AntiSpam">Blockera SMS</string>
     <string name="st_message_SMSpass">Tillåt SMS</string>
     <string name="st_message_phone_AntiSpam">Blockera samtal</string>
     <string name="st_message_phonepass">Tillåt samtal</string>
-    <string name="st_msg_intercept_contacts">Blockera SMS från kontakter</string>
     <string name="st_msg_keyword_black">Blockeringslista för nyckelord</string>
     <string name="st_msg_keyword_group">Nyckelord</string>
     <string name="st_msg_keyword_white">Undantag för nyckelord</string>
@@ -5086,8 +5114,15 @@ För att använda detta ^1, måste du montera det först."</string>
     <string name="storage_dialog_unsupported">"Denna enhet stöder inte detta ^1.
 
 För att använda detta ^1 med denna enhet, måste du konfigurera det först."</string>
+    <string name="storage_fbo_action_des">Tryck på \"Defragmentera\" för att starta. Din enhet kan ha en fördröjning under den här processen. Undvik att använda din enhet för att få defragmenteringen att gå snabbare.</string>
+    <string name="storage_fbo_btn">Defragmentera</string>
+    <string name="storage_fbo_btn_estimate">Förbereder…</string>
     <string name="storage_fbo_clear">Lagringsuppdatering</string>
     <string name="storage_fbo_des">Internt lagringsutrymme lider av fragmentering som markant kan sänka hastigheten på din enhet. Uppdatering av lagringsutrymme görs automatiskt medan du inte använder enheten. Den organiserar fysiskt dina filer i minsta antalet fragment och minskar fördröjningen.</string>
+    <string name="storage_fbo_finish_btn">Klar</string>
+    <string name="storage_fbo_notification_finish_title">Defragmentering klar</string>
+    <string name="storage_fbo_notification_start_content">Enheten kan få en fördröjning under den här processen</string>
+    <string name="storage_fbo_notification_start_title">Defragmenterar lagring</string>
     <string name="storage_fbo_number_tip">Behandlad den %1$s</string>
     <string name="storage_fbo_tools">Lagrings-optimering</string>
     <string name="storage_file_delete_tip">Ta bort valda objekt permanent? Vissa av dem kanske redan laddas igen vid behov.</string>

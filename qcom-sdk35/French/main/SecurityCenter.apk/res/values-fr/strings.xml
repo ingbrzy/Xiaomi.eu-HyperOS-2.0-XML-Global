@@ -958,6 +958,7 @@ Cependant, certaines de vos transactions ne sont pas encore terminées. Pour pou
     <string name="button_to_setting">Paramètres</string>
     <string name="byteShort">o</string>
     <string name="call_address">Liste noire des zones</string>
+    <string name="call_all_number_block">Bloquer tous les appels</string>
     <string name="call_and_contact">Appels et contacts</string>
     <string name="call_blacklist">Liste noire des appels</string>
     <string name="call_cloud_block">Liste noire du cloud</string>
@@ -1853,6 +1854,10 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost est activé</string>
     <string name="game_toolbox_wild_mode_toast_tip">"Les performances de l'appareil se sont considérablement améliorées"</string>
     <string name="game_toolbox_wild_mode_toast_title">Le Mode ultime est activé</string>
+    <string name="game_turbo_custom_subtitle">"Vous pouvez personnaliser la super résolution et le taux de trame intelligent pour gérer le taux de trame et la qualité d'image"</string>
+    <string name="game_turbo_frame_rate_priority_subtitle">"Améliorer la fréquence d'images intelligente"</string>
+    <string name="game_turbo_image_quality_priority_subtitle">"\"Améliorer la qualité d'image\" améliore la qualité de l'image via la super résolution et gère le taux d'images via la fréquence d'images intelligente"</string>
+    <string name="game_turbo_performance_strategy_subtitle">"La fréquence d'images réelle est affichée sur le tableau de bord des performances"</string>
     <string name="game_video_net_data">Données mobiles</string>
     <string name="game_video_network_eror">Impossible de se connecter au réseau. Vérifiez vos paramètres réseau, puis réessayez.</string>
     <string name="game_wid_viewpoint_buttom">Prendre une petite pause.</string>
@@ -2310,9 +2315,13 @@ et explorez notre changeur de voix!"</string>
     <string name="gd_setting_title">Barre latérale</string>
     <string name="gd_setting_vtb">Afficher pendant la lecture de vidéos</string>
     <string name="gd_setting_vtb_desc">Fonctionnalités spéciales pour la lecture vidéo</string>
+    <string name="gd_sidebar_edit_add_app_tips_talkback">"Ajouter l'application"</string>
+    <string name="gd_sidebar_edit_add_app_upper_limit_talkback">"Impossible d'ajouter plus de widgets"</string>
     <string name="gd_sidebar_edit_all_title">Toutes les applications</string>
     <string name="gd_sidebar_edit_btn_close">Masquer</string>
     <string name="gd_sidebar_edit_btn_expand">Plus</string>
+    <string name="gd_sidebar_edit_delete_app_tips_talkback">"Retirer l'application"</string>
+    <string name="gd_sidebar_edit_division_line_talkback">Ligne de séparation</string>
     <string name="gd_sidebar_edit_quick_title">Raccourcis</string>
     <string name="gd_sidebar_long_press_tips">"Appuyez et maintenez l'indicateur pour le déplacer tout en maintenant l'appareil à la verticale"</string>
     <string name="gd_splite_screen_tips">"L'écran divisé ne prend pas en charge les fenêtres flottantes"</string>
@@ -2529,6 +2538,8 @@ to join our egg hunt!"</string>
     <string name="hints_virus_lib_update_default_summary">Date de la dernière mise à jour inconnue</string>
     <string name="hot">Populaire</string>
     <string name="hot_today">"Populaire aujourd'hui"</string>
+    <string name="how_to_modify_risk_app_permission">Étapes</string>
+    <string name="how_to_modify_risk_app_permission_desc">"Si vous faites confiance à l'application d'un développeur, suivez ces étapes pour lui permettre d'accéder aux autorisations :"</string>
     <string name="i_know">"C'est compris"</string>
     <string name="i_know_time">"C'est compris (%d)"</string>
     <string name="icon_content_description">Icône de la boîte de dialogue</string>
@@ -2612,6 +2623,7 @@ to join our egg hunt!"</string>
     <string name="last_check_canceled">Analyse précédente annulée</string>
     <string name="launch_instant_app">Ouvrir</string>
     <string name="layoutDirection">rtl</string>
+    <string name="learn_risk_app_permission_settings">Déblocage des autorisations</string>
     <string name="left_precent">60%</string>
     <string name="legal_workday">Jours ouvrés</string>
     <string name="legal_workday_invalidate">Lun-Ven (Infos de vacances expirées)</string>
@@ -2732,6 +2744,7 @@ de l'opérateur"</string>
     <string name="mark_agent_block">Signalé comme agence</string>
     <string name="mark_agent_block_large">Agences</string>
     <string name="mark_agent_time_setting">Bloquer les numéros qui ont été signalés comme agences un certain nombre de fois</string>
+    <string name="mark_call_intercept_threshold_dialog_message">"*Si un numéro a été signalé comme frauduleux ou pourriel par un nombre d'utilisateurs dépassant le seuil que vous avez défini, l'appel sera bloqué. Si le seuil est trop bas, les appels non-pourriels peuvent être bloqués par erreur."</string>
     <string name="mark_fraud">Bloquer les escroqueries signalées</string>
     <string name="mark_fraud_block">Signalé comme arnaque</string>
     <string name="mark_fraud_block_large">Escroqueries</string>
@@ -2905,6 +2918,11 @@ Votre appareil est désormais %s plus rapide."</string>
     <string name="mode_size_full">Plein écran</string>
     <string name="modify_cellular_type">Appuyez pour sélectionner votre plan</string>
     <string name="modify_password_mode"><u>Modifier le type de mot de passe</u></string>
+    <string name="modify_risk_app_permission_dialog_cancel">Annuler</string>
+    <string name="modify_risk_app_permission_dialog_confirm">Activer</string>
+    <string name="modify_risk_app_permission_dialog_message">"Pour protéger votre confidentialité, nous vous recommandons d'activer \"Renvoyer les messages vides\" après avoir accordé des autorisations à cette application."</string>
+    <string name="modify_risk_app_permission_dialog_title">Renvoyer des messages vides</string>
+    <string name="modify_risk_app_permission_steps">"%1$d. Ouvrir &lt;b>Paramètres&lt;/b> > &lt;b>Applications&lt;/b>. &lt;br>&lt;/br> %2$d. Sélectionner &lt;b>Applications&lt;/b>. &lt;br>&lt;/br> %3$d. Sélectionner &lt;b>Gérer les autorisations&lt;/b>. &lt;br>&lt;/br> %4$d. Appuyez sur : l'icône et sélectionnez &lt;b>Débloquer les autorisations&lt;/b>. &lt;br>&lt;/br> %5$d. Vous pouvez ensuite accorder des autorisations individuelles."</string>
     <string name="modifypassword">Modifier le type de mot de passe</string>
     <string name="monday">Lundi</string>
     <string name="monday_short">Lun</string>
@@ -4314,9 +4332,10 @@ de l'économiseur de batterie Ultra"</string>
     <string name="privacy_pop_location">"Localisation consulté aujourd'hui"</string>
     <string name="privacy_pop_record">"Il a enregistré de l'audio aujourd'hui"</string>
     <string name="privacy_pop_storage">"Accès au stockage aujourd'hui"</string>
+    <string name="privacy_privacy_title">Politique de Confidentialité</string>
     <string name="privacy_prompt_tc_sms_report_message">"Votre numéro de téléphone et les détails d'opérateur doivent être chiffrés et envoyés aux serveurs Mi pour obtenir la mise à jour de votre utilisation des données."</string>
     <string name="privacy_prompt_upload">Envoyer</string>
-    <string name="privacy_protect_summary">Protégez vos informations personnelles</string>
+    <string name="privacy_protect_summary">Protéger les éléments privés</string>
     <string name="privacy_protect_title">Protection de la vie privée</string>
     <string name="privacy_provision_back">Retour</string>
     <string name="privacy_provision_more">En savoir plus sur la protection de la vie privée</string>
@@ -4444,6 +4463,7 @@ Retirer le consentement maintenant ?"</string>
     <string name="privacy_update_dialog_content_1">La politique de confidentialité de %s a été mise à jour :</string>
     <string name="privacy_update_dialog_content_2"><Data>Lisez et acceptez la nouvelle version de la &lt;a href=\"%1$s\">Politique de confidentialité&lt;/a> avant de continuer.</Data></string>
     <string name="privacy_update_dialog_title">Politique de confidentialité mise à jour</string>
+    <string name="privacy_user_notice_title">"Avis d'utilisateur"</string>
     <string name="privacy_using_camera">"Utiliser l'appareil photo"</string>
     <string name="privacy_using_location">Accès à la localisation en cours</string>
     <string name="privacy_using_record">Enregistrement audio</string>
@@ -4544,6 +4564,10 @@ Retirer le consentement maintenant ?"</string>
     <string name="result_wifi_header">Risques de Wi-Fi détectés</string>
     <string name="resume">Restaurer</string>
     <string name="right_precent">100%</string>
+    <string name="risk_app_dialog_confirm">"C'est compris"</string>
+    <string name="risk_app_dialog_message">"Le système a bloqué cette application pour accéder aux autorisations sensibles parce qu'elle provient d'une source inconnue."</string>
+    <string name="risk_app_dialog_more_info">Comment débloquer les autorisations</string>
+    <string name="risk_app_dialog_title">Autorisations refusées</string>
     <string name="risk_app_install_agree_button">Faire confiance à cette application</string>
     <string name="risk_app_install_agree_checkbox">Je suis préparé à prendre tous les risques.</string>
     <string name="risk_app_install_agree_message">Cette application est développée par un tiers et il est possible qu’elle ne respecte pas la réglementation ou les lois locales. Xiaomi ne garantit pas la disponibilité, la continuité et l’accessibilité aux contenus et aux services fournis par cette application. Toute perte ou dommage entraîné lors de l’utilisation de cette application sera de votre responsabilité.</string>
@@ -4553,6 +4577,8 @@ Retirer le consentement maintenant ?"</string>
     <string name="risk_app_install_history">Historiques des autorisations</string>
     <string name="risk_app_install_item_des">Version : %1$s</string>
     <string name="risk_app_install_manager">Applications posant un risque potentiel</string>
+    <string name="risk_app_menu_title">Débloquer les autorisations</string>
+    <string name="risk_app_permission_settings_desc">Autoriser des applications provenant de sources inconnues à accéder aux autorisations sensibles peut constituer un risque pour la sécurité de votre appareil et de vos données. Pour éviter ces risques, certaines applications seront bloquées de certains accès par défaut. Vous pouvez manuellement &lt;u>débloquer les autorisations&lt;/u>, après quoi vous pouvez accorder des autorisations individuelles comme bon vous semble.</string>
     <string name="risk_count_suffix" />
     <string name="risk_detail_app">Risques posés</string>
     <string name="risk_detail_title">Risques possibles</string>
@@ -4922,16 +4948,16 @@ Retirer le consentement maintenant ?"</string>
     <string name="st_antispam_mode_smart_sum">"Bloquer les numéros que vous avez définis et ceux signalés par d'autres utilisateurs"</string>
     <string name="st_antispam_title_anoy_incoming">"Appels d'inconnus"</string>
     <string name="st_antispam_title_anoy_sms">"SMS d'inconnus"</string>
-    <string name="st_antispam_title_contact_incoming">Appels des contacts</string>
-    <string name="st_antispam_title_contact_sms">SMS des contacts</string>
-    <string name="st_antispam_title_contactandanoy_group">Paramètres</string>
     <string name="st_antispam_title_mms">MMS</string>
     <string name="st_antispam_title_null_incoming">Numéro privé</string>
     <string name="st_antispam_title_service_sms">Notifications de service</string>
     <string name="st_antispam_title_whitelist">Exceptions</string>
     <string name="st_call_backsound_group">Son de la liste noire</string>
-    <string name="st_call_intercept_contacts">Bloquer les appels des contacts</string>
+    <string name="st_call_intercept_all">Bloquer tous les appels</string>
     <string name="st_call_intercept_forwarding">Bloquer les appels transférés</string>
+    <string name="st_call_intercept_mark_agent">"Bloquer les appels d'agence immobilière"</string>
+    <string name="st_call_intercept_mark_fraud">Bloquer les appels frauduleux</string>
+    <string name="st_call_intercept_mark_sell">Bloquer les appels commerciaux</string>
     <string name="st_call_intercept_oversea">"Bloquer les appels de l'étranger"</string>
     <string name="st_call_intercept_reported">Bloquer les appels des numéros signalés</string>
     <string name="st_call_intercept_stranger">Bloquer les appels des personnes étranges</string>
@@ -4939,8 +4965,8 @@ Retirer le consentement maintenant ?"</string>
     <string name="st_call_other_group">Autre</string>
     <string name="st_call_settings">Liste noire des appels</string>
     <string name="st_call_stranger_group">Bloquer les appels des personnes étranges</string>
+    <string name="st_confirm_call_all_dialog_summary">"Les appels provenant de n'importe quel numéro qui ne figure pas sur vos exceptions seront bloqués. Activer maintenant ?"</string>
     <string name="st_confirm_dialog_btn_open">Bloquer</string>
-    <string name="st_confirm_dialog_summary_contact_call">Tous les appels provenant des contacts seront bloqués.</string>
     <string name="st_confirm_dialog_summary_oversea_call">Tous les appels provenant de numéros de téléphone étrangers seront bloqués.</string>
     <string name="st_confirm_dialog_summary_stranger_call">"Les appels provenant de n'importe quel numéro qui ne figure pas sur vos exceptions ou dans vos contacts seront bloqués. Activer maintenant ?"</string>
     <string name="st_filter_keywords_setting_summary1">Les SMS provenant de numéros inconnus contenant les mots dans cette liste seront bloqués.</string>
@@ -4950,11 +4976,13 @@ Retirer le consentement maintenant ?"</string>
     <string name="st_hint_add_head_number">Entrez un préfixe</string>
     <string name="st_hint_add_phonenumber">Entrez un numéro de téléphone</string>
     <string name="st_hint_operatelist">Il semblerait que cette règle existe déjà</string>
+    <string name="st_mark_call_intercept_threshold_summary">Automatiquement bloquer les numéros qui ont été signalés un certain nombre de fois</string>
+    <string name="st_mark_call_intercept_threshold_title">Seuil de blocage</string>
+    <string name="st_mark_number_group">Bloquer les appels des numéros signalés</string>
     <string name="st_message_SMS_AntiSpam">Bloquer les SMS</string>
     <string name="st_message_SMSpass">Autoriser les SMS</string>
     <string name="st_message_phone_AntiSpam">Bloquer les appels</string>
     <string name="st_message_phonepass">Autoriser les appels</string>
-    <string name="st_msg_intercept_contacts">Bloquer les SMS des contacts</string>
     <string name="st_msg_keyword_black">Liste noire des mots-clés</string>
     <string name="st_msg_keyword_group">Mots-clés</string>
     <string name="st_msg_keyword_white">Exceptions des mots-clés</string>
@@ -5088,8 +5116,15 @@ Pour utiliser ce ^1, vous devez d'abord le monter."</string>
     <string name="storage_dialog_unsupported">"Cet appareil ne prend pas en charge cette ^1.
 
 Pour utiliser cette ^1 avec cet appareil, vous devez d'abord la définir."</string>
+    <string name="storage_fbo_action_des">"Appuyez sur \"Défragmenter\" pour démarrer. Votre appareil peut être en retard pendant ce processus. Évitez d'utiliser votre appareil pour accélérer la défragmentation."</string>
+    <string name="storage_fbo_btn">Défragmenter</string>
+    <string name="storage_fbo_btn_estimate">En cours de préparation…</string>
     <string name="storage_fbo_clear">Actualisation du stockage</string>
     <string name="storage_fbo_des">"Le stockage interne souffre de fragmentation, ce qui pourrait ralentir considérablement votre appareil. L'actualisation du stockage fonctionne automatiquement lorsque vous n'utilisez pas l'appareil. Il organise physiquement vos fichiers dans le plus petit nombre de fragments réduisant le décalage."</string>
+    <string name="storage_fbo_finish_btn">Terminé</string>
+    <string name="storage_fbo_notification_finish_title">Défragmentation terminée</string>
+    <string name="storage_fbo_notification_start_content">"L'appareil peut être en retard pendant ce processus"</string>
+    <string name="storage_fbo_notification_start_title">Défragmentation du stockage</string>
     <string name="storage_fbo_number_tip">Traité sur %1$s</string>
     <string name="storage_fbo_tools">Optimisation du stockage</string>
     <string name="storage_file_delete_tip">"Supprimer les éléments sélectionnés définitivement ? Certains d'entre eux peuvent être chargés à nouveau si nécessaire."</string>

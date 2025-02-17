@@ -958,6 +958,7 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="button_to_setting">Postavke</string>
     <string name="byteShort">B</string>
     <string name="call_address">Lista blokiranih područja</string>
+    <string name="call_all_number_block">Blokiraj sve pozive</string>
     <string name="call_and_contact">Pozivi i Kontakti</string>
     <string name="call_blacklist">Lista blokiranih poziva</string>
     <string name="call_cloud_block">Cloud Lista blokiranih</string>
@@ -1852,6 +1853,10 @@ Biti će dodani u iznimke, ali prethodno blokirane stavke neće se prikazivati u
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost je uključeno</string>
     <string name="game_toolbox_wild_mode_toast_tip">Performanse uređaja značajno su poboljšane</string>
     <string name="game_toolbox_wild_mode_toast_title">Ultimativni način uključen</string>
+    <string name="game_turbo_custom_subtitle">Možete prilagoditi super rezoluciju i pametni broj sličica u sekundi za upravljanje brzinom sličica u sekundi i kvalitetom slike</string>
+    <string name="game_turbo_frame_rate_priority_subtitle">Inteligentno poboljšajte broj sličica u sekundi</string>
+    <string name="game_turbo_image_quality_priority_subtitle">\"Poboljšaj kvalitetu slike\" poboljšava kvalitetu slike putem super rezolucije i upravlja brzinom sličica u sekundi putem pametne brzine sličica u sekundi</string>
+    <string name="game_turbo_performance_strategy_subtitle">Stvarni broj sličica u sekundi prikazan je na nadzornoj ploči izvedbe</string>
     <string name="game_video_net_data">Mobilni podatci</string>
     <string name="game_video_network_eror">Ne mogu se povezati s mrežom. Provjerite mrežne postavke i pokušajte ponovno.</string>
     <string name="game_wid_viewpoint_buttom">Uzmite kratku stanku.</string>
@@ -2309,9 +2314,13 @@ svojih gejmerskih sesija"</string>
     <string name="gd_setting_title">Bočni izbornik</string>
     <string name="gd_setting_vtb">Prikaži za vrijeme reprodukcije videozapisa</string>
     <string name="gd_setting_vtb_desc">Posebne značajke za video playback</string>
+    <string name="gd_sidebar_edit_add_app_tips_talkback">Dodaj aplikaciju</string>
+    <string name="gd_sidebar_edit_add_app_upper_limit_talkback">Nije moguće dodati više widgeta</string>
     <string name="gd_sidebar_edit_all_title">Sve aplikacije</string>
     <string name="gd_sidebar_edit_btn_close">Sakrij</string>
     <string name="gd_sidebar_edit_btn_expand">Više</string>
+    <string name="gd_sidebar_edit_delete_app_tips_talkback">Ukloni aplikaciju</string>
+    <string name="gd_sidebar_edit_division_line_talkback">Razdjelna linija</string>
     <string name="gd_sidebar_edit_quick_title">Prečice</string>
     <string name="gd_sidebar_long_press_tips">Pritisnite i držite pokazivač da ga pomaknete dok uređaj držite okomito</string>
     <string name="gd_splite_screen_tips">Podijeljeni zaslon ne podržava plutajuće prozore</string>
@@ -2528,6 +2537,8 @@ to join our egg hunt!"</string>
     <string name="hints_virus_lib_update_default_summary">Vrijeme zadnjeg ažuriranja nije poznato</string>
     <string name="hot">Popularno</string>
     <string name="hot_today">Popularno danas</string>
+    <string name="how_to_modify_risk_app_permission">Koraci</string>
+    <string name="how_to_modify_risk_app_permission_desc">Ako imate povjerenja u programera aplikacije, slijedite ove korake da biste mu omogućili pristup dopuštenjima:</string>
     <string name="i_know">Razumijem</string>
     <string name="i_know_time">Razumijem (%d)</string>
     <string name="icon_content_description">Ikona dijaloga</string>
@@ -2611,6 +2622,7 @@ to join our egg hunt!"</string>
     <string name="last_check_canceled">Prethodno skeniranje je otkazano</string>
     <string name="launch_instant_app">Otvori</string>
     <string name="layoutDirection">rtl</string>
+    <string name="learn_risk_app_permission_settings">Odblokiranje dopuštenja u tijeku</string>
     <string name="left_precent">60%</string>
     <string name="legal_workday">Radni dani</string>
     <string name="legal_workday_invalidate">Pon.-Pet.(Informacije o praznicima su istekli)</string>
@@ -2731,6 +2743,7 @@ operatera"</string>
     <string name="mark_agent_block">Prijavljen kao agencija</string>
     <string name="mark_agent_block_large">Agencija</string>
     <string name="mark_agent_time_setting">Blokiraj brojeve agencije koji su prijavljeni određeni broj puta</string>
+    <string name="mark_call_intercept_threshold_dialog_message">*Ako je broj korisnika koji premašuje prag koji ste postavili prijavio broj kao lažan ili spam, poziv će biti blokiran. Ako je prag postavljen prenisko, pozivi koji nisu spam mogu biti blokirani greškom.</string>
     <string name="mark_fraud">Blokiraj prijavljene prijevare</string>
     <string name="mark_fraud_block">Prijavljen kao prevarant</string>
     <string name="mark_fraud_block_large">Prevarant</string>
@@ -2904,6 +2917,11 @@ Vaš uređaj je sada %s brži."</string>
     <string name="mode_size_full">Cijeli zaslon</string>
     <string name="modify_cellular_type">Dotaknite za odabir plana</string>
     <string name="modify_password_mode"><u>Promjeni vrstu zaporke</u></string>
+    <string name="modify_risk_app_permission_dialog_cancel">Otkaži</string>
+    <string name="modify_risk_app_permission_dialog_confirm">Uključi</string>
+    <string name="modify_risk_app_permission_dialog_message">Za zaštitu vaše privatnosti, preporučujemo uključivanje \"Vrati prazne poruke\" nakon davanja dozvola ovoj aplikaciji.</string>
+    <string name="modify_risk_app_permission_dialog_title">Vrati praznu poruku</string>
+    <string name="modify_risk_app_permission_steps">%1$d. Otvori &lt;b>Postavke&lt;/b> > &lt;b>Aplikacije&lt;/b>.&lt;br>&lt;/br> %2$d. Odaberi &lt;b>Aplikacije&lt;/b>.&lt;br>&lt;/br> %3$d. Odaberi &lt;b>Upravljaj dozvolama&lt;/b>.&lt;br>&lt;/br> %4$d. Dodirnite ︙ ikonicu i odaberite &lt;b>Odblokiraj dozvole&lt;/b>.&lt;br>&lt;/br> %5$d. Možete onda izdati individualne dozvole.</string>
     <string name="modifypassword">Promjeni vrstu zaporke</string>
     <string name="monday">Ponedjeljak</string>
     <string name="monday_short">Pon</string>
@@ -4313,9 +4331,10 @@ Ultra štednje baterije"</string>
     <string name="privacy_pop_location">Pristup lokacijama danas</string>
     <string name="privacy_pop_record">Snimljen zvukovni zapis danas</string>
     <string name="privacy_pop_storage">Pristup pohrani danas</string>
+    <string name="privacy_privacy_title">Pravila o privatnosti</string>
     <string name="privacy_prompt_tc_sms_report_message">Vaš broj telefona i pojedinosti mobilnog operatera će biti šifrirani i učitani na Mi poslužitelje kako bi se ažurirale informacije uporabe podataka.</string>
     <string name="privacy_prompt_upload">Pošalji</string>
-    <string name="privacy_protect_summary">Zaštitite svoje osobne podatke</string>
+    <string name="privacy_protect_summary">Zaštitite privatne stavke</string>
     <string name="privacy_protect_title">Zaštita privatnosti</string>
     <string name="privacy_provision_back">Natrag</string>
     <string name="privacy_provision_more">Saznajte više o zaštiti privatnosti</string>
@@ -4443,6 +4462,7 @@ Povući suglasnost odmah?"</string>
     <string name="privacy_update_dialog_content_1">%s Pravila o privatnosti su ažurirana:</string>
     <string name="privacy_update_dialog_content_2"><Data>Pročitajte i potvrdite novu verziju &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> prije nastavka.</Data></string>
     <string name="privacy_update_dialog_title">Ažurirana Pravila o privatnosti</string>
+    <string name="privacy_user_notice_title">Obavijest za korisnike</string>
     <string name="privacy_using_camera">Korištenje fotoaparata</string>
     <string name="privacy_using_location">Pristup lokaciji</string>
     <string name="privacy_using_record">Snimanje zvuka</string>
@@ -4543,6 +4563,10 @@ Povući suglasnost odmah?"</string>
     <string name="result_wifi_header">Otkriven Wi-Fi rizk</string>
     <string name="resume">Vrati</string>
     <string name="right_precent">100%</string>
+    <string name="risk_app_dialog_confirm">Razumijem</string>
+    <string name="risk_app_dialog_message">Sistem je blokirao aplikaciju od pristupa osjetljivim dozvolama jer dolazi od nepoznatog izvora.</string>
+    <string name="risk_app_dialog_more_info">Kako odblokirati dozvole</string>
+    <string name="risk_app_dialog_title">Dopuštenje odbijeno</string>
     <string name="risk_app_install_agree_button">Pouzdana aplikacija</string>
     <string name="risk_app_install_agree_checkbox">Prihvaćam snositi odgovornost za moguću štetu</string>
     <string name="risk_app_install_agree_message">Ovu aplikaciju je razvila treća strana i možda krši mjesne zakone i regulacije. Xiaomi ne jamči dostupnost, kontinuitet i mogućnost pristupa sadržaju i uslugama ove apliakcije. Vi snosite bilo kakvu štetu koju ova aplikacija uzrukuje.</string>
@@ -4552,6 +4576,8 @@ Povući suglasnost odmah?"</string>
     <string name="risk_app_install_history">Povijest potvrđivanja</string>
     <string name="risk_app_install_item_des">Verzija: %1$s</string>
     <string name="risk_app_install_manager">Rizične aplikacije</string>
+    <string name="risk_app_menu_title">Odblokiraj dopuštenja</string>
+    <string name="risk_app_permission_settings_desc">Dozvoljavanje pristupa aplikacijama iz nepoznatih izvora osjetljivim dozvolama može predstavljati rizik vašem uređaju i sigurnosti podataka. Za sprečavanje ovih rizika, nekim aplikacijama će biti blokiran zadani pristup nekim dozvolama. Moći ćete ručno &lt;u>odblokirati dozvole&lt;/u>, nakon čega možete izdati individualne dozvole po vlastitom nahođenju.</string>
     <string name="risk_count_suffix" />
     <string name="risk_detail_app">Predstavlja rizik</string>
     <string name="risk_detail_title">Mogući rizici</string>
@@ -4921,16 +4947,16 @@ Povući suglasnost odmah?"</string>
     <string name="st_antispam_mode_smart_sum">Blokirati brojeve koje ste dodali ručno i brojeve koji su prijavljeni od strane drugih korisnika</string>
     <string name="st_antispam_title_anoy_incoming">Pozivi od stranaca</string>
     <string name="st_antispam_title_anoy_sms">SMS od stranaca</string>
-    <string name="st_antispam_title_contact_incoming">Pozivi od kontakata</string>
-    <string name="st_antispam_title_contact_sms">SMS od kontakata</string>
-    <string name="st_antispam_title_contactandanoy_group">Postavke</string>
     <string name="st_antispam_title_mms">MMS</string>
     <string name="st_antispam_title_null_incoming">Privatan brojevi</string>
     <string name="st_antispam_title_service_sms">Usluga obavijesti</string>
     <string name="st_antispam_title_whitelist">Iznimke</string>
     <string name="st_call_backsound_group">Zvuk Liste blokiranih</string>
-    <string name="st_call_intercept_contacts">Blokirajte pozive od kontakata</string>
+    <string name="st_call_intercept_all">Blokiraj sve pozive</string>
     <string name="st_call_intercept_forwarding">Blokiraj prosljeđene pozive</string>
+    <string name="st_call_intercept_mark_agent">Blokirajte pozive agencija za nekretnine</string>
+    <string name="st_call_intercept_mark_fraud">Blokirajte lažne pozive</string>
+    <string name="st_call_intercept_mark_sell">Blokirajte marketinške pozive</string>
     <string name="st_call_intercept_oversea">Blokiraj pozive iz inozemstva</string>
     <string name="st_call_intercept_reported">Blokiraj pozive sa prijavljenih brojeva</string>
     <string name="st_call_intercept_stranger">Blokiraj pozive od stranaca</string>
@@ -4938,8 +4964,8 @@ Povući suglasnost odmah?"</string>
     <string name="st_call_other_group">Ostalo</string>
     <string name="st_call_settings">Lista blokiranih poziva</string>
     <string name="st_call_stranger_group">Blokiraj pozive od stranaca</string>
+    <string name="st_confirm_call_all_dialog_summary">Pozivi s bilo kojeg broja koji nije u vašim iznimkama bit će blokirani. Uključiti sada?</string>
     <string name="st_confirm_dialog_btn_open">Blokiraj</string>
-    <string name="st_confirm_dialog_summary_contact_call">Svi pozivi kontakata bit će blokirani.</string>
     <string name="st_confirm_dialog_summary_oversea_call">Al pozivi sa stranih brojeva telefona bit će blokirani.</string>
     <string name="st_confirm_dialog_summary_stranger_call">Pozivi s bilo kojeg broja koji nije u vašim iznimkama ili u vašim kontaktima bit će blokirani. Uključiti sada?</string>
     <string name="st_filter_keywords_setting_summary1">SMS od nepoznatih brojeva koje sadrže ključnu riječ bit će blokirane.</string>
@@ -4949,11 +4975,13 @@ Povući suglasnost odmah?"</string>
     <string name="st_hint_add_head_number">Unesi predbroj</string>
     <string name="st_hint_add_phonenumber">Unesite broj telefona</string>
     <string name="st_hint_operatelist">Čini se da ovo pravilo već postoji</string>
+    <string name="st_mark_call_intercept_threshold_summary">Automatski blokiraj brojeve koji su prijavljeni određeni broj puta</string>
+    <string name="st_mark_call_intercept_threshold_title">Blokiraj prag</string>
+    <string name="st_mark_number_group">Blokiraj pozive sa prijavljenih brojeva</string>
     <string name="st_message_SMS_AntiSpam">Blokiraj SMS</string>
     <string name="st_message_SMSpass">Dopusti SMS</string>
     <string name="st_message_phone_AntiSpam">Blokiraj pozive</string>
     <string name="st_message_phonepass">Dopusti pozive</string>
-    <string name="st_msg_intercept_contacts">Blokiraj SMS od kontakata</string>
     <string name="st_msg_keyword_black">Lista blokiranih ključnih riječi</string>
     <string name="st_msg_keyword_group">Ključne riječi</string>
     <string name="st_msg_keyword_white">Iznimke ključnih riječi</string>
@@ -5087,8 +5115,15 @@ Povući suglasnost odmah?"</string>
     <string name="storage_dialog_unsupported">"Ovaj uređaj ne podržava ovu ^1.
 
 Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
+    <string name="storage_fbo_action_des">Dodirnite \"Defragmentiraj\" za početak. Vaš uređaj može kasniti tijekom ovog procesa. Izbjegavajte korištenje uređaja kako bi defragmentacija išla brže.</string>
+    <string name="storage_fbo_btn">Defragmentiraj</string>
+    <string name="storage_fbo_btn_estimate">Priprema…</string>
     <string name="storage_fbo_clear">Osvježavanje pohrane</string>
     <string name="storage_fbo_des">Unutarnja pohrana ima problem s fragmentacijom, što bi moglo značajno usporiti vaš uređaj. Osvježavanje pohrane radi automatski dok ne koristite uređaj tako što fizički organizira vaše datoteke u najmanji broj fragmenata smanjujući kašnjenje.</string>
+    <string name="storage_fbo_finish_btn">Gotovo</string>
+    <string name="storage_fbo_notification_finish_title">Defragmentacija završena</string>
+    <string name="storage_fbo_notification_start_content">Uređaj može kasniti tijekom ovog procesa</string>
+    <string name="storage_fbo_notification_start_title">Defragmentiraj pohranu</string>
     <string name="storage_fbo_number_tip">Obrađeno na %1$s</string>
     <string name="storage_fbo_tools">Optimizacija pohrane</string>
     <string name="storage_file_delete_tip">Želite li trajno izbrisati odabrane stavke? Neki od njih mogu se ponovno učitati kada je potrebno.</string>

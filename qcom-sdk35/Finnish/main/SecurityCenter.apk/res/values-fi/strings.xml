@@ -958,6 +958,7 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="button_to_setting">Asetukset</string>
     <string name="byteShort">t</string>
     <string name="call_address">Alueellinen estolista</string>
+    <string name="call_all_number_block">Estä kaikki puhelut</string>
     <string name="call_and_contact">Puhelut ja yhteystiedot</string>
     <string name="call_blacklist">Puhelun estolista</string>
     <string name="call_cloud_block">Pilvi-estolista</string>
@@ -1851,6 +1852,10 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost on käytössä</string>
     <string name="game_toolbox_wild_mode_toast_tip">Laitteen suorituskyky on parantunut huomattavasti</string>
     <string name="game_toolbox_wild_mode_toast_title">Ultimate-tila on käytössä</string>
+    <string name="game_turbo_custom_subtitle">Voit mukauttaa superresoluutiota ja älykästä kuvanopeutta hallitaksesi kuvataajuutta ja kuvanlaatua</string>
+    <string name="game_turbo_frame_rate_priority_subtitle">Paranna kuvanopeutta älykkäästi</string>
+    <string name="game_turbo_image_quality_priority_subtitle">\"Ehosta kuvanlaatua\" parantaa kuvanlaatua superresoluutiolla ja hallitsee kuvataajuutta älykkäällä kuvanopeudella</string>
+    <string name="game_turbo_performance_strategy_subtitle">Todellinen kuvataajuus näkyy suorituskyvyn kojelaudassa</string>
     <string name="game_video_net_data">Mobiilidata</string>
     <string name="game_video_network_eror">Ei voitu yhdistää verkkoon. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="game_wid_viewpoint_buttom">Pidä pieni paussi.</string>
@@ -2308,9 +2313,13 @@ tärkeimmät hetket"</string>
     <string name="gd_setting_title">Sivupalkki</string>
     <string name="gd_setting_vtb">Näytä videota toistettaessa</string>
     <string name="gd_setting_vtb_desc">Videoiden toiston erityisominaisuudet</string>
+    <string name="gd_sidebar_edit_add_app_tips_talkback">Lisää sovellus</string>
+    <string name="gd_sidebar_edit_add_app_upper_limit_talkback">Enempää vinjettejä ei voi lisätä</string>
     <string name="gd_sidebar_edit_all_title">Kaikki sovellukset</string>
     <string name="gd_sidebar_edit_btn_close">Piilota</string>
     <string name="gd_sidebar_edit_btn_expand">Lisää</string>
+    <string name="gd_sidebar_edit_delete_app_tips_talkback">Poista sovellus</string>
+    <string name="gd_sidebar_edit_division_line_talkback">Jakajaviiva</string>
     <string name="gd_sidebar_edit_quick_title">Pikavalinnat</string>
     <string name="gd_sidebar_long_press_tips">Pidä ilmaisinta painettuna liikuttaaksesi sitä samalla, kun pidät laitetta pystyasennossa</string>
     <string name="gd_splite_screen_tips">Jaettu näyttö ei tue kelluvia ikkunoita</string>
@@ -2527,6 +2536,8 @@ to join our egg hunt!"</string>
     <string name="hints_virus_lib_update_default_summary">Edellisen päivityksen aika tuntematon</string>
     <string name="hot">Suosittu</string>
     <string name="hot_today">Suosittua tänään</string>
+    <string name="how_to_modify_risk_app_permission">Vaiheet</string>
+    <string name="how_to_modify_risk_app_permission_desc">Jos luotat sovelluksen kehittäjään, anna sovellukselle käyttöoikeudet noudattamalla näitä ohjeita:</string>
     <string name="i_know">Selvä</string>
     <string name="i_know_time">Selvä (%d)</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
@@ -2610,6 +2621,7 @@ to join our egg hunt!"</string>
     <string name="last_check_canceled">Edellinen skannaus peruutettiin</string>
     <string name="launch_instant_app">Avaa</string>
     <string name="layoutDirection">rtl</string>
+    <string name="learn_risk_app_permission_settings">Käyttöoikeuksien eston kumoaminen</string>
     <string name="left_precent">60%</string>
     <string name="legal_workday">Laillinen työpäivä</string>
     <string name="legal_workday_invalidate">Ma-pe (loma info päättynyt)</string>
@@ -2730,6 +2742,7 @@ vastausta"</string>
     <string name="mark_agent_block">Ilmoitettu välitysliikkeeksi</string>
     <string name="mark_agent_block_large">Välitysliikkeet</string>
     <string name="mark_agent_time_setting">Estä numerot, jotka on ilmoitettu välitysliikkeiksi tietyn monta kertaa</string>
+    <string name="mark_call_intercept_threshold_dialog_message">*Jos useat käyttäjät ovat ilmoittaneet numerosta petoksena tai roskapostina yli kynnysrajan, puhelu estetään. Jos kynnys on asetettu liian alhaiseksi, muut kuin roskapostipuhelut voidaan estää vahingossa.</string>
     <string name="mark_fraud">Estä ilmoitetut huijaukset</string>
     <string name="mark_fraud_block">Ilmoitettu huijariksi</string>
     <string name="mark_fraud_block_large">Huijaukset</string>
@@ -2903,6 +2916,11 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="mode_size_full">Koko näyttö</string>
     <string name="modify_cellular_type">Napauta valitaksesi pakettisi</string>
     <string name="modify_password_mode"><u>Muuta salasanan tyyppi</u></string>
+    <string name="modify_risk_app_permission_dialog_cancel">Peruuta</string>
+    <string name="modify_risk_app_permission_dialog_confirm">Ota käyttöön</string>
+    <string name="modify_risk_app_permission_dialog_message">Yksityisyytesi suojaamiseksi suosittelemme, että otat \"Palauta tyhjät viestit\" käyttöön sen jälkeen, kun olet antanut luvan tälle sovellukselle.</string>
+    <string name="modify_risk_app_permission_dialog_title">Palauta tyhjät viestit</string>
+    <string name="modify_risk_app_permission_steps">%1$d. Avaa &lt;b>Asetukset&lt;/b> > &lt;b>Sovellukset&lt;/b>.&lt;br>&lt;/br> %2$d. Valitse &lt;b>Sovellukset&lt;/b>.&lt;br>&lt;/br> %3$d. Valitse &lt;b>Hallitse käyttöoikeuksia&lt;/b>.&lt;br>&lt;/br> %4$d. Napauta kuvaketta︙ ja valitse &lt;b>Kumoa käyttöoikeuksien esto&lt;/b>.&lt;br>&lt;/br> %5$d. Tämän jälkeen voit myöntää yksittäisiä käyttöoikeuksia.</string>
     <string name="modifypassword">Muuta salasanan tyyppi</string>
     <string name="monday">Maanantai</string>
     <string name="monday_short">Ma</string>
@@ -3440,7 +3458,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_fast_charge_switch_summary_new">Muistuta lisäämään latausnopeutta, kun mukana toimitettu laturi on kytketty ja akku laskee asetetun tason alapuolelle</string>
     <string name="pc_fast_charge_switch_title">Nopeuta latausta</string>
     <string name="pc_fast_charge_switch_toast_message">Muutokset otetaan käyttöön seuraavan kerran, kun lataat tätä laitetta</string>
-    <string name="pc_fast_charge_temp_remider">Kytke virta säätämään latausnopeutta automaattisesti. Tämä ominaisuus toimii vain Xiaomin toimittamilla latureilla. Laitteesi saattaa kuumentua latauksen aikana.</string>
+    <string name="pc_fast_charge_temp_remider">Tässä tilassa latausnopeutta säädetään automaattisesti. Tämä ominaisuus toimii vain Xiaomin toimittamilla latureilla. Laitteesi saattaa ylikuumentua latauksen aikana.</string>
     <string name="pc_fast_charge_title">Nopeuta latausta</string>
     <string name="pc_first_use_error_tips">Lasketaan</string>
     <string name="pc_first_use_protect_title">Ensikäyttö</string>
@@ -3540,8 +3558,8 @@ ultravirransäästö"</string>
     <string name="pc_search_keywords_capacity">Akun kapasiteetti</string>
     <string name="pc_search_keywords_property">Suorituskyky</string>
     <string name="pc_settings_title">Akku</string>
-    <string name="pc_smart_charge_button_summary">Pidentääkseen akun kestoa järjestelmä oppii, kuinka lataat laitettasi ja lopetat lataamisen, kun akun varaustaso saavuttaa %1$s</string>
-    <string name="pc_smart_charge_button_summary_new">Pidentääkseen akun kestoa järjestelmä oppii, kuinka lataat laitettasi ja lopetat lataamisen, kun akun varaustaso saavuttaa %1$s soveltuvissa tilanteissa</string>
+    <string name="pc_smart_charge_button_summary">Pidentääkseen akun kestoa järjestelmä oppii, kuinka lataat laitettasi ja lopettaa lataamisen, kun akun varaustaso saavuttaa %1$s</string>
+    <string name="pc_smart_charge_button_summary_new">Pidentääkseen akun kestoa järjestelmä oppii, kuinka lataat laitettasi ja lopettaa lataamisen, kun akun varaustaso saavuttaa %1$s soveltuvissa tilanteissa</string>
     <string name="pc_smart_charge_notify_summary_high_temp">Laitteesi kuumeni. Lataus lopetetaan, kun akun varaustaso saavuttaa %1$s</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Laitteen suojaamiseksi ylikuumenemiselta lataus keskeytyy, kun akun varaustaso saavuttaa %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigoidaan… Lataus lopetetaan, kun akun varaustaso saavuttaa %1$s</string>
@@ -4312,9 +4330,10 @@ ultravirransäästö"</string>
     <string name="privacy_pop_location">Päässyt sijaintiin tänään</string>
     <string name="privacy_pop_record">Tallentanut ääntä tänään</string>
     <string name="privacy_pop_storage">Päässyt tallennustilaan tänään</string>
+    <string name="privacy_privacy_title">Tietosuojakäytäntö</string>
     <string name="privacy_prompt_tc_sms_report_message">Puhelinnumerosi ja operaattorin tiedot salataan ja ladataan Mi-palvelimiin datan käytön tietojen päivittämiseksi.</string>
     <string name="privacy_prompt_upload">Lataa</string>
-    <string name="privacy_protect_summary">Suojaa henkilökohtaisia tietojasi</string>
+    <string name="privacy_protect_summary">Suojaa yksityisiä kohteita</string>
     <string name="privacy_protect_title">Yksityisyydensuoja</string>
     <string name="privacy_provision_back">Takaisin</string>
     <string name="privacy_provision_more">Tutustu lisää yksityisyydensuojaan</string>
@@ -4442,6 +4461,7 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="privacy_update_dialog_content_1">%s Tietosuojakäytäntö päivitettiin:</string>
     <string name="privacy_update_dialog_content_2"><Data>Lue ja hyväksy uusi versio &lt;a href=\"%1$s\">Tietosuojakäytännöstä&lt;/a> ennen kuin jatkat.</Data></string>
     <string name="privacy_update_dialog_title">Päivitetty tietosuojakäytäntö</string>
+    <string name="privacy_user_notice_title">Käyttäjähuomautus</string>
     <string name="privacy_using_camera">Kameran käyttäminen</string>
     <string name="privacy_using_location">Sijainnin käyttäminen</string>
     <string name="privacy_using_record">Äänen tallentaminen</string>
@@ -4542,6 +4562,10 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="result_wifi_header">WiFi riskejä havaittu</string>
     <string name="resume">Palauta</string>
     <string name="right_precent">100%</string>
+    <string name="risk_app_dialog_confirm">Selvä</string>
+    <string name="risk_app_dialog_message">Järjestelmä on estänyt tätä sovellusta käyttämästä arkaluonteisia käyttöoikeuksia, koska se tulee tuntemattomasta lähteestä.</string>
+    <string name="risk_app_dialog_more_info">Kuinka kumota käyttöoikeuksien esto</string>
+    <string name="risk_app_dialog_title">Käyttöoikeudet evätty</string>
     <string name="risk_app_install_agree_button">Luota tähän sovellukseen</string>
     <string name="risk_app_install_agree_checkbox">Olen valmis kantamaan vastuun kaikista mahdollisista riskeistä.</string>
     <string name="risk_app_install_agree_message">Tämän sovelluksen on kehittänyt kolmas osapuoli, ja se saattaa rikkoa paikallisia lakeja ja määräyksiä. Xiaomi ei takaa tämän sovelluksen tarjoaman sisällön ja palveluiden saatavuutta ja jatkuvuutta. Mitkä tahansa tämän sovelluksen käytöstä aiheutuneet menetykset tai vahingot kuuluvat sinun vastuulle.</string>
@@ -4551,6 +4575,8 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="risk_app_install_history">Valtuutushistoria</string>
     <string name="risk_app_install_item_des">Versio: %1$s</string>
     <string name="risk_app_install_manager">Sovellukset mahdollisine riskeineen</string>
+    <string name="risk_app_menu_title">Kumoa käyttöoikeuksien esto</string>
+    <string name="risk_app_permission_settings_desc">Tuntemattomista lähteistä peräisin olevien sovellusten arkaluontoisten käyttöoikeuksien antaminen voi aiheuttaa riskin laitteellesi ja tietoturvallesi. Näiden riskien estämiseksi jotkin sovellukset estetään oletuksena pääsemästä tiettyihin käyttöoikeuksiin. Voit manuaalisesti &lt;u>kumota käyttöoikeuksien eston&lt;/u>, jonka jälkeen voit myöntää yksittäisiä käyttöoikeuksia parhaaksi katsomallasi tavalla.</string>
     <string name="risk_count_suffix" />
     <string name="risk_detail_app">Aiheuttaa riskejä</string>
     <string name="risk_detail_title">Mahdolliset riskit</string>
@@ -4920,16 +4946,16 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="st_antispam_mode_smart_sum">Estä numerot, jotka olet lisännyt manuaalisesti ja numerot, jotka muut käyttäjät ovat ilmoittaneet</string>
     <string name="st_antispam_title_anoy_incoming">Puhelut tuntemattomilta</string>
     <string name="st_antispam_title_anoy_sms">Viestit tuntemattomilta</string>
-    <string name="st_antispam_title_contact_incoming">Puhelut yhteystiedoilta</string>
-    <string name="st_antispam_title_contact_sms">Viestit yhteystiedoilta</string>
-    <string name="st_antispam_title_contactandanoy_group">Asetukset</string>
     <string name="st_antispam_title_mms">Multimediaviesti</string>
     <string name="st_antispam_title_null_incoming">Yksityiset numerot</string>
     <string name="st_antispam_title_service_sms">Palveluilmoitukset</string>
     <string name="st_antispam_title_whitelist">Poikkeukset</string>
     <string name="st_call_backsound_group">Estolistan ääni</string>
-    <string name="st_call_intercept_contacts">Estä puhelut yhteystiedoilta</string>
+    <string name="st_call_intercept_all">Estä kaikki puhelut</string>
     <string name="st_call_intercept_forwarding">Estä välitetyt puhelut</string>
+    <string name="st_call_intercept_mark_agent">Estä kiinteistönvälitystoimiston puhelut</string>
+    <string name="st_call_intercept_mark_fraud">Estä petospuhelut</string>
+    <string name="st_call_intercept_mark_sell">Estä markkinointipuhelut</string>
     <string name="st_call_intercept_oversea">Estää puhelut ulkomailta</string>
     <string name="st_call_intercept_reported">Estä puhelut ilmoitetuista numeroista</string>
     <string name="st_call_intercept_stranger">Estä puhelut tuntemattomilta</string>
@@ -4937,8 +4963,8 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="st_call_other_group">Muu</string>
     <string name="st_call_settings">Puhelun estolista</string>
     <string name="st_call_stranger_group">Estä puhelut tuntemattomilta</string>
+    <string name="st_confirm_call_all_dialog_summary">Puhelut mistä tahansa numerosta, joka ei kuulu poikkeuksiin, estetään. Otetaanko nyt käyttöön?</string>
     <string name="st_confirm_dialog_btn_open">Estä</string>
-    <string name="st_confirm_dialog_summary_contact_call">Kaikki puhelut yhteystiedoilta estetään.</string>
     <string name="st_confirm_dialog_summary_oversea_call">Kaikki ulkomaisista puhelinnumeroista tulevat puhelut estetään.</string>
     <string name="st_confirm_dialog_summary_stranger_call">Puhelut mistä tahansa numerosta, joka ei ole poikkeuksissasi tai yhteystiedoissasi, estetään. Otetaanko nyt käyttöön?</string>
     <string name="st_filter_keywords_setting_summary1">Viestit tuntemattomista numeroista, jotka sisältävät seuraavia sanoja, estetään.</string>
@@ -4948,11 +4974,13 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="st_hint_add_head_number">Syötä etuliite</string>
     <string name="st_hint_add_phonenumber">Anna puhelinnumero</string>
     <string name="st_hint_operatelist">Näyttää siltä, että tämä sääntö on jo olemassa</string>
+    <string name="st_mark_call_intercept_threshold_summary">Estä automaattisesti numerot, jotka on raportoitu tietyn verran</string>
+    <string name="st_mark_call_intercept_threshold_title">Estokynnys</string>
+    <string name="st_mark_number_group">Estä puhelut ilmoitetuista numeroista</string>
     <string name="st_message_SMS_AntiSpam">Estä tekstiviestit</string>
     <string name="st_message_SMSpass">Salli tekstiviestit</string>
     <string name="st_message_phone_AntiSpam">Estä puhelut</string>
     <string name="st_message_phonepass">Salli puhelut</string>
-    <string name="st_msg_intercept_contacts">Estä tekstiviestit yhteystiedoilta</string>
     <string name="st_msg_keyword_black">Avainsanaestolista</string>
     <string name="st_msg_keyword_group">Avainsanat</string>
     <string name="st_msg_keyword_white">Avainsanapoikkeukset</string>
@@ -5086,8 +5114,15 @@ Käyttääksesi tätä ^1, sinun täytyy asettaa se ensin."</string>
     <string name="storage_dialog_unsupported">"Tämä laite ei tue tätä ^1.
 
 Käyttääksesi tätä ^1 tällä laitteella sinun täytyy asettaa se ensin."</string>
+    <string name="storage_fbo_action_des">Aloita napauttamalla \"Eheytä\". Laitteesi saattaa viivästyä tämän prosessin aikana. Vältä laitteen käyttöä nopeuttaaksesi eheyttämistä.</string>
+    <string name="storage_fbo_btn">Eheytä</string>
+    <string name="storage_fbo_btn_estimate">Valmistellaan…</string>
     <string name="storage_fbo_clear">Tallennustilan päivitys</string>
     <string name="storage_fbo_des">Sisäinen tallennus kärsii pirstoutumisesta, mikä saattaa hidastaa laitettasi merkittävästi. Tallennustilan päivitys toimii automaattisesti, kun et käytä laitetta. Se järjestää tiedostosi fyysisesti pienimpään määrään fragmentteja vähentäen viivettä.</string>
+    <string name="storage_fbo_finish_btn">Valmis</string>
+    <string name="storage_fbo_notification_finish_title">Eheytys valmis</string>
+    <string name="storage_fbo_notification_start_content">Laite saattaa viivästyä tämän prosessin aikana</string>
+    <string name="storage_fbo_notification_start_title">Tallennustilan eheyttäminen</string>
     <string name="storage_fbo_number_tip">Käsitelty %1$s</string>
     <string name="storage_fbo_tools">Tallennuksen optimointi</string>
     <string name="storage_file_delete_tip">Poistetaanko valitut kohteet pysyvästi? Jotkut niistä voidaan ladata uudelleen tarvittaessa.</string>
