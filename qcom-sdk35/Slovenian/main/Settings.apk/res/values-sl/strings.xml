@@ -2467,6 +2467,7 @@ To vpliva na druge aplikacije ali pogovore, v katerih je prikaz v oblačkih že 
     <string name="choose_unlock_face_msg">Preden dodate podatke obraza, nastavite zaklepanje zaslona.</string>
     <string name="choose_unlock_fingerprint_msg">Preden dodate vaš prstni odtis nastavite zaklepanje zaslona.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Iskanje z obkroževanjem</string>
     <string name="classic_mode_summary">Preklopi na toplejše barve, da bi se zmanjšala količina modre svetlobe</string>
     <string name="classic_mode_title">Klasično</string>
     <string name="cleaner">Čistilec</string>
@@ -4309,6 +4310,9 @@ Ko vklopite samodejno varnostno kopiranje, se podatki naprave in aplikacij redno
     <string name="gaze_lock_screen_summary">Naprava bo ostala odklenjena, ko boste gledali na zaslon, in se zaklenila, ko boste pogledali stran, da bi zaščitila vašo zasebnost, pri čemer ne bo upoštevala nastavitve časa samodejnega zaklepanja.</string>
     <string name="gaze_lock_screen_title">Zaznaj prisotnost</string>
     <string name="gd_setting_title">Stranska vrstica</string>
+    <string name="gemini_description">Pogovarjajte se z Gemini, da boste še nadgradili svoje zamisli. Poiščite pomoč pri učenju, pisanju zahvalnih pisem, načrtovanju dogodkov in še več. Uporabite besedilo, glas, fotografije in kamero ter si pomagajte na nove načine. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Izvedite več o razpoložljivosti</a></string>
+    <string name="gemini_function">Nadgradite svoje zamisli z Google Gemini, vašim novim pomočnikom z umetno inteligenco</string>
+    <string name="gemini_setting">Gemini nastavitve</string>
     <string name="general_category_title">Splošno</string>
     <string name="general_notification_header">Upravljanje</string>
     <string name="general_text">Polje za besedilo</string>
@@ -4321,6 +4325,12 @@ Ko vklopite samodejno varnostno kopiranje, se podatki naprave in aplikacij redno
     <string name="gesture_button_restart">Od začetka</string>
     <string name="gesture_button_skip">Preskoči</string>
     <string name="gesture_function_dialog_message">%1$s se uporablja za \"%2$s\". Želite zamenjati z \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Dvakrat tapnite zaklenjen zaslon za bujenje</string>
+    <string name="gesture_lockcreen_sleep_title">Dvakrat tapnite Zaklenjeni zaslon za spanje</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Z dvojnim dotikom</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Nič</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Z enojnim dotikom</string>
+    <string name="gesture_lockcreen_wakeup_title">Zbudi zaslon</string>
     <string name="gesture_preference_title">Poteze</string>
     <string name="gesture_prevent_ringing_screen_title">Preprečevanje zvonjenja</string>
     <string name="gesture_prevent_ringing_sound_title">Bližnjica za preprečevanje zvonjenja</string>
@@ -6475,7 +6485,7 @@ Izberite vaš operacijski sistem:"</string>
     <string name="multi_face_input_reach_upper_limit">Ni mogoče dodati podatke obraza. Počakajte minuto ali dve in poskusite ponovno.</string>
     <string name="multi_face_input_success_name_title">Ime</string>
     <string name="multi_face_list">Podatki obraza</string>
-    <string name="multi_face_name_prefix">"Obraz "</string>
+    <string name="multi_face_name_prefix">Podatki obraza %s</string>
     <string name="multi_face_number_reach_limit">Ni mogoče dodati več kot 2 obraza</string>
     <string name="multi_music_coexistence_summary">Ne prilagajajte glasnosti medijev med dohodnimi obvestili ali med predvajanjem zvoka iz drugega vira</string>
     <string name="multi_music_coexistence_title">Različni avdio viri</string>
@@ -7220,7 +7230,12 @@ Pred uporabo te storitve preberite in se strinjajte z %s."</string>
     <string name="photography_handle_charge_protected_summary">Ko je ročaj kamere priključen, se naprava neha polniti in baterija ostane na %1$s</string>
     <string name="photography_handle_charge_settings">Nastavitve polnjenja</string>
     <string name="photography_handle_charge_state">Polnjenje iz ročajev kamere</string>
+    <string name="photography_handle_charge_state_choice_always">Vedno</string>
+    <string name="photography_handle_charge_state_choice_emergency">V sili</string>
     <string name="photography_handle_charge_state_summary">Polnite to napravo iz ročajev kamere, kadar koli so povezani</string>
+    <string name="photography_handle_charge_state_summary_new">Napravo začnite polniti prek držala kamere, ko je priključena.</string>
+    <string name="photography_handle_emergency_charge_summary">Začetek polnjenja v sili, ko se napolnjenost baterije spusti pod %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Stopnja polnjenja v sili</string>
     <string name="photography_handle_function_settings">Nastavitve držala kamere</string>
     <string name="photography_handle_launch_and_take_photo">Fotografiraj</string>
     <string name="photography_handle_launch_camera">Odpri kamero</string>
@@ -7493,7 +7508,7 @@ Hkrati pritisnite gumb za vklop in gumb za povečanje glasnosti ter ju pridržit
     <string name="priority_title">Prednost</string>
     <string name="privacy_advanced_settings">Več nastavitev zasebnosti</string>
     <string name="privacy_and_security">Zasebnost in varnost</string>
-    <string name="privacy_authorize_cloud_msg">Da poskrbite za varnost računa se prijavite na i.mi.com, če želite preklicati avtorizacijo za storitve Xiaomi Cloud (vključno sinhronizacijo in varnostne kopije).</string>
+    <string name="privacy_authorize_cloud_msg">Če želite preklicati pooblastilo za storitve Xiaomi Cloud (vključno s sinhronizacijo in varnostnimi kopijami), se prijavite v i.mi.com, da zagotovite varnost svojega računa.</string>
     <string name="privacy_authorize_dialog_agree">Sprejmem</string>
     <string name="privacy_authorize_dialog_exit">Izhod</string>
     <string name="privacy_authorize_dialog_message">&lt;Data>Da bi lahko uporabljali osnovne možnosti te storitve, se je potrebno strinjati, da bo Xiaomi zbiral, obdeloval in uporabljal vaše osebne podatke. Za več informacij si oglejte Pravilnik o zasebnosti, kjer lahko preberete kako zbiramo in obdelujemo vaše osebne podatke. Z izbiro možnosti \"Strinjam se\", potrjujete, da ste prebrali in se strinjate z našim &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Pravilnikom o zasebnosti&lt;/a> in &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Uporabniškim dogovorom&lt;/a>.​&lt;/Data></string>

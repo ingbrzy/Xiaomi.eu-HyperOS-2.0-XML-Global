@@ -143,7 +143,7 @@
     <string name="app_permission_use_group_storage_desc">Για τη χρήση και την αποθήκευση θεμάτων, ταπετσαρίας, κουδουνισμάτων και γραμματοσειρών</string>
     <string name="application_notify_title">Προσοχή</string>
     <string name="applied_success_contine">Συνέχεια περιήγησης</string>
-    <string name="applied_success_subtitle_a">Ετοιμαστήτε για τον Διεθνή Διαγωνισμό Θεμάτων Xiaomi %d!</string>
+    <string name="applied_success_subtitle_a">Ετοιμαστείτε για τον Διεθνή Διαγωνισμό Θεμάτων Xiaomi %d!</string>
     <string name="applied_success_subtitle_b">Ακολουθήστε τους σχεδιαστές για να ενημερώνεστε για τις νέες εκδόσεις</string>
     <string name="apply_4k_video_wallpaper_warning">Τα βίντεο 4K και 8K δεν μπορούν να χρησιμοποιηθούν ως ταπετσαρίες βίντεο.</string>
     <string name="apply_by_customize">Προσαρμογή</string>
@@ -521,9 +521,10 @@
     <string name="item_resource_audio_optional_phone_ring">Κουδούνισμα</string>
     <string name="item_view_role_description">Καρτέλα</string>
     <string name="kg_activity_label">Επεξεργασία Οθόνης κλειδώματος</string>
+    <string name="kg_aod_settings_depth_video_toast">Μόνο η προσαρμοσμένη Πάντα ενεργή οθόνη υποστηρίζεται όταν χρησιμοποιείται το εφέ βάθους</string>
     <string name="kg_apply">Εφαρμογή</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Οθόνη κλειδώματος μόνο</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Εφαρμογή</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Εφαρμογή και στα δύο</string>
     <string name="kg_apply_to_all_alert_dialog_title">Εφαρμογή αυτής της ταπετσαρίας και στην Αρχική οθόνη;</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Όχι ευχαριστώ</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Ενεργοποίηση</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">Τίποτα</string>
     <string name="kg_classic_item_humidity">Υγρασία</string>
     <string name="kg_classic_item_lunar_date">Παραδοσιακό κινεζικό ημερολόγιο</string>
+    <string name="kg_classic_item_lunar_date1">Παραδοσιακό κινεζικό ημερολόγιο</string>
     <string name="kg_classic_item_lunar_month_day">Παραδοσιακό κινεζικό ημερολόγιο</string>
     <string name="kg_classic_item_lunar_year">Έτος (Παραδοσιακό κινεζικό ημερολόγιο)</string>
     <string name="kg_classic_item_month">Μήνας</string>
@@ -555,8 +557,12 @@
     <string name="kg_classic_item_somatosensory">Αίσθηση ως</string>
     <string name="kg_classic_item_stand">Όρθιο σήκωμα</string>
     <string name="kg_classic_item_step_number">Βήματα</string>
-    <string name="kg_classic_item_sunrise_or_sunset">Αυγή και δύση</string>
+    <string name="kg_classic_item_sunrise_or_sunset">Ανατολή και δύση</string>
     <string name="kg_classic_item_temperature">Θερμοκρασία</string>
+    <string name="kg_classic_item_type_date">Ημερομηνία</string>
+    <string name="kg_classic_item_type_health">Υγεία</string>
+    <string name="kg_classic_item_type_time">Ώρα</string>
+    <string name="kg_classic_item_type_weather">Καιρός</string>
     <string name="kg_classic_item_ultraviolet_ray">Δείκτης UV</string>
     <string name="kg_classic_item_vitality">Στατιστικά</string>
     <string name="kg_classic_item_weather_cloudy">Συννεφιασμένος</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">Επεξεργασία χρώματος</string>
     <string name="kg_confirm">ΟΚ</string>
     <string name="kg_customize">Προσαρμογή</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Εφαρμογή θέματος</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Ακύρωση</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Εφαρμογή</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Χρησιμοποιείτε ένα σετ ταπετσαρίας τώρα. Εάν εφαρμόσετε ένα νέο θέμα, τόσο η Οθόνη κλειδώματος όσο και η ταπετσαρία της Αρχικής οθόνης θα αντικατασταθούν και η Πάντα ενεργή οθόνη θα επανέλθει στο προηγούμενο στυλ. Εφαρμογή ούτως ή άλλως;</string>
+    <string name="kg_depth_preset_button_download">Λήψη δυναμικής ταπετσαρίας</string>
+    <string name="kg_depth_preset_button_downloading">Γίνεται λήψη…</string>
+    <string name="kg_depth_preset_button_dynamic">Δυναμική</string>
+    <string name="kg_depth_preset_button_static">Στατική</string>
+    <string name="kg_depth_preset_dialog_content">Λήψη και εφαρμογή της δυναμικής έκδοσης αυτής της ταπετσαρίας με εφέ βάθους;</string>
+    <string name="kg_depth_preset_dialog_download_button">Λήψη</string>
+    <string name="kg_depth_preset_dialog_image_button">Στατική έκδοση</string>
+    <string name="kg_depth_preset_dialog_title">Λήψη δυναμικής ταπετσαρίας</string>
+    <string name="kg_depth_preset_network_fail">Δεν υπάρχει σύνδεση στο δίκτυο</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Δεν υπάρχει σύνδεση στο δίκτυο. Έγινε παύση λήψης.</string>
+    <string name="kg_depth_produce_video_detail_failed">Το εφέ βάθους μπορεί να χρησιμοποιηθεί μόνο για ανθρώπους, σκύλους και γάτες</string>
+    <string name="kg_depth_produce_video_failed">Δεν ήταν δυνατή η εφαρμογή του εφέ βάθους</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">Το AI επεξεργάζεται εφέ βάθους βίντεο…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Το εφέ βάθους βίντεο είναι ενεργοποιημένο. Η πλήρης Πάντα ενεργή οθόνη είναι απενεργοποιημένη.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Εφαρμογή θέματος</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Ακύρωση</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Εφαρμογή</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Χρησιμοποιείτε ένα σετ ταπετσαρίας τώρα. Εάν εφαρμόσετε ένα νέο θέμα, τόσο η Οθόνη κλειδώματος όσο και η ταπετσαρία της Αρχικής οθόνης θα αντικατασταθούν και η Πάντα ενεργή οθόνη θα επανέλθει στο προηγούμενο στυλ. Εφαρμογή ούτως ή άλλως;</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Αυτή η οθόνη κλειδώματος δεν υποστηρίζει Σούπερ ταπετσαρίες. Η ταπετσαρία τόσο στην Αρχική όσο και στην Οθόνη κλειδώματος θα αντικατασταθεί εάν συνεχίσετε. Συνέχεια ούτως ή άλλως;</string>
+    <string name="kg_dialog_apply_successful">Επιτυχής εφαρμογή</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Αυτήν τη στιγμή χρησιμοποιείτε μια Σούπερ ταπετσαρία. Αν συνεχίσετε, θα αντικατασταθεί με μια νέα ταπετσαρία τόσο στην Αρχική όσο και στην Οθόνη κλειδώματος. Συνέχεια ούτως ή άλλως;</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Ακύρωση</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Ακύρωση</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">ΟΚ</string>
+    <string name="kg_dialog_enable_depth_function">Ενεργοποιήστε πρώτα το εφέ βάθους</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Απόρριψη</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Εφαρμογή</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Ακύρωση</string>
     <string name="kg_dialog_fashion_gallery_message">Αυτήν τη στιγμή χρησιμοποιείτε Ταπετσαρία Καρουζέλ. Η εφαρμογή μιας δυναμικής ταπετσαρίας θα απενεργοποιήσει την Ταπετσαρία Καρουζέλ. Εφαρμογή ούτως ή άλλως;</string>
     <string name="kg_dialog_fashion_gallery_title">Προσοχή</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Δεν είναι δυνατή η επεξεργασία γραμματοσειράς όταν είναι ενεργοποιημένο το Διπλότυπο ρολόι</string>
+    <string name="kg_dialog_no_content_available_the_moment">Δεν υπάρχει τίποτα εδώ ακόμα</string>
+    <string name="kg_dialog_too_much_time_blocking">Το ρολόι είναι καλυμμένο. Δεν είναι δυνατή η χρήση του εφέ βάθους.</string>
     <string name="kg_discard_changes_text">Απόρριψη αλλαγών;</string>
     <string name="kg_doodle_font_label">Σκιτσογραφία</string>
     <string name="kg_doodle_primary_label">Σκιτσογραφίες</string>
     <string name="kg_doodle_secondary_disable_tip">Ενεργοποιήστε το εφέ βάθους</string>
     <string name="kg_doodle_secondary_label">Παρασκήνιο</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Δεν μπορείτε να χρησιμοποιήσετε doodle όταν χρησιμοποιείτε αυτό το ρολόι</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Η Ταπετσαρία Καρουζέλ δεν υποστηρίζει doodle</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Οι ταπετσαρίες τρίτων δεν υποστηρίζουν doodle</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Αυτή η ταπετσαρία δεν υποστηρίζει doodle</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Οι ταπετσαρίες τρίτων δεν υποστηρίζουν εφέ</string>
     <string name="kg_effects_tip_title">Βάθος πεδίου και φίλτρα</string>
     <string name="kg_enable_blur">Ματ εφέ</string>
+    <string name="kg_exit">Έξοδος</string>
     <string name="kg_font_filter_classic_primary_label">Κύριο</string>
     <string name="kg_font_filter_classic_secondary_label">Δευτερεύον</string>
     <string name="kg_font_filter_doodle_primary_label">Σκιτσογραφία</string>
@@ -616,7 +643,7 @@
     <string name="kg_font_filter_hsl_title">Προσαρμογή χρώματος</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Ώρα</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Υπογραφή</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Λεπτά</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Δευτερεύον</string>
     <string name="kg_font_filter_magazine_c_style_1_primary_label">Κύριο</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Ώρες</string>
     <string name="kg_font_filter_object_label_date">Ημερομηνία</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Αυτή η ταπετσαρία δεν υποστηρίζει εφέ βάθους</string>
     <string name="kg_hierarchy_switch_label">Εφέ βάθους</string>
     <string name="kg_line_spacing">Διάστιχο</string>
+    <string name="kg_live_photo_land_tips">Οι οριζόντιες Ζωντανές φωτογραφίες μπορούν να οριστούν μόνο ως στατικές φωτογραφίες</string>
     <string name="kg_magazine_a_b_primary_color_label">Ρολόι</string>
     <string name="kg_magazine_a_b_secondary_color_label">Υπογραφή</string>
     <string name="kg_magazine_c_primary_color_label">Άλλο κείμενο</string>
@@ -677,16 +705,19 @@
     <string name="kg_template_description_rhombus">Ο χρόνος είναι σημαντικός. Αξιοποιήστε τον.</string>
     <string name="kg_template_preview_content_description">Προβολή</string>
     <string name="kg_template_title_classic">Κλασσική</string>
+    <string name="kg_template_title_classic_phone">Τοπίο</string>
     <string name="kg_template_title_eastern_art">Ανατολική αισθητική</string>
     <string name="kg_template_title_magazine">Περιοδικό</string>
-    <string name="kg_template_title_mine">Οθόνη κλειδώματος</string>
+    <string name="kg_template_title_magazine_phone">Πρόσωπα</string>
+    <string name="kg_template_title_mine">Κλείδωμα οθόνης</string>
     <string name="kg_template_title_rhombus">Ρόμβος</string>
     <string name="kg_time_language_string">Ψηφία</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">Δεν είναι δυνατή η πρόσβαση στην ταπετσαρία τρίτων</string>
     <string name="kg_title_content">Περιεχόμενο</string>
     <string name="kg_title_fonts_and_content">Γραμματοσειρά και περιεχόμενο</string>
     <string name="kg_title_name">Γραμματοσειρά</string>
-    <string name="kg_typesetting_string">Διάταξη</string>
+    <string name="kg_typesetting_string">Στυλ</string>
+    <string name="kg_wallpaper_blur_effect">Θόλωμα ταπετσαρίας</string>
     <string name="kg_wallpaper_filter_title">Εφέ ταπετσαρίας</string>
     <string name="kg_wallpaper_filter_type_crystallized">Κρύσταλλα</string>
     <string name="kg_wallpaper_filter_type_focus">Εστίαση</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Φακός</string>
     <string name="kg_wallpaper_filter_type_water">Νερό</string>
     <string name="kg_wallpaper_scale_hint_text">Τσίμπημα για περικοπή</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Δεν είναι δυνατή η ενεργοποίηση της κύλισης για αυτήν την ταπετσαρία</string>
     <string name="kg_wallpaper_scroll_type_tips">Επιλογές ταπετσαρίας</string>
     <string name="kg_word_spacing">Διάστημα χαρακτήρων</string>
     <string name="last_choice">Χρησιμοποιήθηκε τελευταία φορά</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Υπόλοιπο: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Ανεπαρκές υπόλοιπο)</string>
     <string name="payment_data_move_tips">Τα δεδομένα του λογαριασμού σας θα μετεγκατασταθούν σε διακομιστές στην περιοχή σας για συμμόρφωση με τους κανονισμούς απορρήτου. Υπάρχει κίνδυνος απώλειας δεδομένων κατά τη μετεγκατάσταση.</string>
-    <string name="payment_instructions">&lt;Data>Με την ολοκλήρωση της πληρωμής, αποδέχεστε την &lt;a href=\"%1$s\">Ειδοποίηση για αγορές εντός εφαρμογής&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Με την ολοκλήρωση της πληρωμής, αποδέχεστε την &lt;a href=\"%1$s\">Ειδοποίηση για αγορές εντός εφαρμογής&lt;/a>.</Data></string>
     <string name="payment_method">Τρόπος πληρωμής</string>
     <string name="permission_desc">Για αποθήκευση αποθηκευμένων θεμάτων και άλλων στοιχείων</string>
     <string name="permission_pop_desc">Για να μπορείτε να αλλάξετε τις προτιμήσεις εξατομίκευσης και να αποθηκεύσετε στοιχεία που έχετε λάβει, επιτρέψτε στα Θέματα να έχουν πρόσβαση πρώτα στον χώρο αποθήκευσης.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Αποδοχή</string>
     <string name="user_authorization_dialog_agree_a">Αποδοχή</string>
     <string name="user_authorization_dialog_disagree">Έξοδος</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Πρέπει να συλλέξουμε τα απαραίτητα προσωπικά στοιχεία για να σας παρέχουμε τις βασικές υπηρεσίες. Μπορείτε να μάθετε πώς χειριζόμαστε τις πληροφορίες που συλλέγουμε στην &lt;a href=\"%1$s\">Πολιτική Απορρήτου&lt;/a> μας. Διαβάστε και αποδεχτείτε τη &lt;a href=\"%2$s\">&lt;Συμφωνία Χρήστη&lt;/a> και &lt;a href=\"%3$s\">Πολιτική Απορρήτου&lt;/a> προτού χρησιμοποιήσετε τα Θέματα.
-Μπορείτε να ανακαλέσετε τη συγκατάθεσή σας στην Πολιτική Απορρήτου των Θεμάτων στις Ρυθμίσεις οποιαδήποτε στιγμή.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Αποδεχτείτε τη &lt;a href=\"%1$s\">Συμφωνία Χρήστη&lt;/a> και την &lt;a href=\"%2$s\">Πολιτική Απορρήτου&lt;/a> μας προτού συνεχίσετε. Μπορείτε να αλλάξετε τις προτιμήσεις σας ανά πάσα στιγμή στις Ρυθμίσεις.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Πρέπει να συλλέξουμε τα απαραίτητα προσωπικά στοιχεία για να σας παρέχουμε τις βασικές υπηρεσίες. Μπορείτε να μάθετε πώς χειριζόμαστε τις πληροφορίες που συλλέγουμε στην &lt;a href=\"%1$s\">Πολιτική Απορρήτου&lt;/a> μας. Διαβάστε και αποδεχτείτε τη &lt;a href=\"%2$s\">&lt;Συμφωνία Χρήστη&lt;/a> και &lt;a href=\"%3$s\">Πολιτική Απορρήτου&lt;/a> προτού χρησιμοποιήσετε τα Θέματα.
+Μπορείτε να ανακαλέσετε τη συγκατάθεσή σας στην Πολιτική Απορρήτου των Θεμάτων στις Ρυθμίσεις οποιαδήποτε στιγμή."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Αποδεχτείτε τη &lt;a href=\"%1$s\">Συμφωνία Χρήστη&lt;/a> και την &lt;a href=\"%2$s\">Πολιτική Απορρήτου&lt;/a> μας προτού συνεχίσετε. Μπορείτε να αλλάξετε τις προτιμήσεις σας ανά πάσα στιγμή στις Ρυθμίσεις.</Data></string>
     <string name="user_authorization_dialog_title">Όροι και προϋποθέσεις</string>
     <string name="user_know">Κατανοητό</string>
     <string name="using_theme_has_update_tips">Μια ενημέρωση για αυτό το θέμα είναι διαθέσιμη.</string>

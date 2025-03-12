@@ -521,9 +521,10 @@
     <string name="item_resource_audio_optional_phone_ring">Ringetone</string>
     <string name="item_view_role_description">Fane</string>
     <string name="kg_activity_label">Rediger låseskjerm</string>
+    <string name="kg_aod_settings_depth_video_toast">Bare tilpasset Always-on-skjerm støttes ved bruk av dybdeeffekt</string>
     <string name="kg_apply">Bruk</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Kun låseskjerm</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Bruk</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Bruk på begge</string>
     <string name="kg_apply_to_all_alert_dialog_title">Vil du også bruke denne bakgrunnen på startskjermen?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Nei takk</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Aktiver</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">Ingen</string>
     <string name="kg_classic_item_humidity">Luftfuktighet</string>
     <string name="kg_classic_item_lunar_date">Tradisjonell kinesisk kalender</string>
+    <string name="kg_classic_item_lunar_date1">Tradisjonell kinesisk kalender</string>
     <string name="kg_classic_item_lunar_month_day">Tradisjonell kinesisk kalender</string>
     <string name="kg_classic_item_lunar_year">År (tradisjonell kinesisk kalender)</string>
     <string name="kg_classic_item_month">Måned</string>
@@ -557,6 +559,10 @@
     <string name="kg_classic_item_step_number">Skritt</string>
     <string name="kg_classic_item_sunrise_or_sunset">Soloppgang og solnedgang</string>
     <string name="kg_classic_item_temperature">Temperatur</string>
+    <string name="kg_classic_item_type_date">Dato</string>
+    <string name="kg_classic_item_type_health">Helse</string>
+    <string name="kg_classic_item_type_time">Klokkeslett</string>
+    <string name="kg_classic_item_type_weather">Vær</string>
     <string name="kg_classic_item_ultraviolet_ray">UV-indeks</string>
     <string name="kg_classic_item_vitality">Statistikk</string>
     <string name="kg_classic_item_weather_cloudy">Skyet</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">Registrer farge</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Tilpass</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Bruk tema</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Avbryt</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Bruk</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Du bruker et bakgrunnsbildesett nå. Hvis du bruker et nytt tema, vil både låseskjermen og bakgrunnsbildene på startskjermen bli erstattet, og Alltid-på-skjermen vil bli gjenopprettet til forrige stil. Bruke likevel?</string>
+    <string name="kg_depth_preset_button_download">Last ned dynamisk bakgrunnsbilde</string>
+    <string name="kg_depth_preset_button_downloading">Laster ned…</string>
+    <string name="kg_depth_preset_button_dynamic">Dynamisk</string>
+    <string name="kg_depth_preset_button_static">Statisk</string>
+    <string name="kg_depth_preset_dialog_content">Laste ned og bruke den dynamiske versjonen av dette bakgrunnsbildet med dybdeeffekt?</string>
+    <string name="kg_depth_preset_dialog_download_button">Last ned</string>
+    <string name="kg_depth_preset_dialog_image_button">Statisk versjon</string>
+    <string name="kg_depth_preset_dialog_title">Last ned dynamisk bakgrunnsbilde</string>
+    <string name="kg_depth_preset_network_fail">Ingen nettverksforbindelse</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Ingen nettverkstilkobling. Nedlastingen er satt på pause.</string>
+    <string name="kg_depth_produce_video_detail_failed">Dybdeeffekt kan bare brukes på mennesker, hunder og katter</string>
+    <string name="kg_depth_produce_video_failed">Kunne ikke bruke dybdeeffekt</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">KI behandler videodybdeeffekt…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Videodybdeeffekten er på. Alltid på-skjermen i fullskjerm er slått av.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Bruk tema</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Avbryt</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Bruk</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Du bruker et bakgrunnsbildesett nå. Hvis du bruker et nytt tema, vil både låseskjermen og bakgrunnsbildene på startskjermen bli erstattet, og Alltid-på-skjermen vil bli gjenopprettet til forrige stil. Bruke likevel?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Denne låseskjermen støtter ikke superbakgrunner. Bakgrunner på både start- og låseskjermen skiftes ut hvis du fortsetter. Fortsette likevel?</string>
+    <string name="kg_dialog_apply_successful">Brukt</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Du bruker nå en superbakgrunn. Den skiftes ut med en ny bakgrunn på både start- og låseskjermen hvis du fortsetter. Fortsette likevel?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Avbryt</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Avbryt</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Aktiver på dybdeeffekt først</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Forkast</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Bruk</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Avbryt</string>
     <string name="kg_dialog_fashion_gallery_message">Du bruker for øyeblikket Bakgrunnsbildekarusell. Hvis du bruker et dynamisk bakgrunnsbilde, deaktiveres Bakgrunnsbildekarusell. Bruke likevel?</string>
     <string name="kg_dialog_fashion_gallery_title">Merk</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Kan ikke endre skrifttype når Dobbel klokke er aktivert</string>
+    <string name="kg_dialog_no_content_available_the_moment">Ingenting her enda</string>
+    <string name="kg_dialog_too_much_time_blocking">Klokken er skjult. Kan ikke bruke dybdeeffekt.</string>
     <string name="kg_discard_changes_text">Forkaste endringer?</string>
     <string name="kg_doodle_font_label">Drodling</string>
     <string name="kg_doodle_primary_label">Skisser</string>
     <string name="kg_doodle_secondary_disable_tip">Slå på dybdeeffekt</string>
     <string name="kg_doodle_secondary_label">Bakgrunn</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Kan ikke bruke drodling mens denne klokken brukes</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Bakgrunnsbildekarusell støtter ikke drodler</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Tredjepartens bakgrunnsbilder støtter ikke drodler</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Dette bakgrunnsbildet støtter ikke drodler</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Tredjepartens bakgrunnsbilder støtter ikke effekter</string>
     <string name="kg_effects_tip_title">Dybdeskarphet og filtre</string>
     <string name="kg_enable_blur">Matt effekt</string>
+    <string name="kg_exit">Avslutt</string>
     <string name="kg_font_filter_classic_primary_label">Primær</string>
     <string name="kg_font_filter_classic_secondary_label">Sekundær</string>
     <string name="kg_font_filter_doodle_primary_label">Drodling</string>
@@ -616,8 +643,8 @@
     <string name="kg_font_filter_hsl_title">Tilpasset farge</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Tid</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Signatur</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Minutter</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Hoved</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Sekundær</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Primær</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Timer</string>
     <string name="kg_font_filter_object_label_date">Dato</string>
     <string name="kg_font_filter_object_label_date_color">Datofarge</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Dette bakgrunnsbildet støtter ikke dybdeeffekter</string>
     <string name="kg_hierarchy_switch_label">Dybdeeffekt</string>
     <string name="kg_line_spacing">Linjeavstand</string>
+    <string name="kg_live_photo_land_tips">Horsontale live-bilder kan bare angis som statiske bilder</string>
     <string name="kg_magazine_a_b_primary_color_label">Klokke</string>
     <string name="kg_magazine_a_b_secondary_color_label">Signatur</string>
     <string name="kg_magazine_c_primary_color_label">Annen tekst</string>
@@ -677,16 +705,19 @@
     <string name="kg_template_description_rhombus">Tid er penger. Bruk den smart.</string>
     <string name="kg_template_preview_content_description">Forhåndsvis</string>
     <string name="kg_template_title_classic">Klassisk</string>
+    <string name="kg_template_title_classic_phone">Landskap</string>
     <string name="kg_template_title_eastern_art">Østens estetikk</string>
     <string name="kg_template_title_magazine">Ukeblad</string>
-    <string name="kg_template_title_mine">Låseskjerm</string>
+    <string name="kg_template_title_magazine_phone">Personer</string>
+    <string name="kg_template_title_mine">Lås skjerm</string>
     <string name="kg_template_title_rhombus">Rombe</string>
     <string name="kg_time_language_string">Sifre</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">Får ikke tilgang til tredjeparts bakgrunnsbilde</string>
     <string name="kg_title_content">Innhold</string>
     <string name="kg_title_fonts_and_content">Skrifttype og innhold</string>
     <string name="kg_title_name">Skrifttype</string>
-    <string name="kg_typesetting_string">Utforming</string>
+    <string name="kg_typesetting_string">Stil</string>
+    <string name="kg_wallpaper_blur_effect">Uskarpt bakgrunnsbilde</string>
     <string name="kg_wallpaper_filter_title">Bakgrunnsbildeeffekter</string>
     <string name="kg_wallpaper_filter_type_crystallized">Krystaller</string>
     <string name="kg_wallpaper_filter_type_focus">Fokus</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Linse</string>
     <string name="kg_wallpaper_filter_type_water">Vann</string>
     <string name="kg_wallpaper_scale_hint_text">Klem for å beskjære</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Kan ikke aktivere skrolling for denne bakgrunnen</string>
     <string name="kg_wallpaper_scroll_type_tips">Bakgrunnsrull</string>
     <string name="kg_word_spacing">Tegnavstand</string>
     <string name="last_choice">Sist brukt</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Utilstrekkelig saldo)</string>
     <string name="payment_data_move_tips">Kontodataene dine migreres til servere i regionen du bor i, for å overholde personvernerklæringen vår. Det er fare for at data går tapt under migreringen.</string>
-    <string name="payment_instructions">&lt;Data>Ved å fullføre betalingen godtar du &lt;a href=\"%1$s\">meldingen om kjøp i appen&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Ved å fullføre betalingen godtar du &lt;a href=\"%1$s\">meldingen om kjøp i appen&lt;/a>.</Data></string>
     <string name="payment_method">Betalingsmetode</string>
     <string name="permission_desc">For lagring av lagrede temaer og andre elementer</string>
     <string name="permission_pop_desc">For å kunne endre personaliseringspreferanser og lagre nedlastede elementer, la temaer få tilgang til lagring først.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Godta</string>
     <string name="user_authorization_dialog_agree_a">Godta</string>
     <string name="user_authorization_dialog_disagree">Avslutt</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Vi må innhente nødvendige personopplysninger for å tilby deg de grunnleggende tjenestene. Du kan finne ut mer om måten vi håndterer informasjon på i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår. Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%3$s\">personvernerklæringen&lt;/a> vår før du bruker Temaer.
-Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen til Temaer under Innstillinger.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Godta vår &lt;a href=\"%1$s\">brukeravtale&lt;/a> og &lt;a href=\"%2$s\">personvernerklæring&lt;/a> før du fortsetter. Du kan når som helst endre innstillingene dine i Innstillinger.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Vi må innhente nødvendige personopplysninger for å tilby deg de grunnleggende tjenestene. Du kan finne ut mer om måten vi håndterer informasjon på i &lt;a href=\"%1$s\">personvernerklæringen&lt;/a> vår. Les og godta &lt;a href=\"%2$s\">brukeravtalen&lt;/a> og &lt;a href=\"%3$s\">personvernerklæringen&lt;/a> vår før du bruker Temaer.
+Du kan når som helst trekke tilbake samtykket ditt til personvernerklæringen til Temaer under Innstillinger."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Godta vår &lt;a href=\"%1$s\">brukeravtale&lt;/a> og &lt;a href=\"%2$s\">personvernerklæring&lt;/a> før du fortsetter. Du kan når som helst endre innstillingene dine i Innstillinger.</Data></string>
     <string name="user_authorization_dialog_title">Vilkår og betingelser</string>
     <string name="user_know">Skjønner</string>
     <string name="using_theme_has_update_tips">En oppdatering for dette temaet er tilgjengelig.</string>

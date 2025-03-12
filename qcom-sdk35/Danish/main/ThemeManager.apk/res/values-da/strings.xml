@@ -521,13 +521,14 @@
     <string name="item_resource_audio_optional_phone_ring">Ringetone</string>
     <string name="item_view_role_description">Fane</string>
     <string name="kg_activity_label">Redigér låseskærm</string>
+    <string name="kg_aod_settings_depth_video_toast">Kun tilpasset Skærm altid til understøttes, når dybdeeffekten bruges</string>
     <string name="kg_apply">Anvend</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Kun låseskærm</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Anvend</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Anvend på begge</string>
     <string name="kg_apply_to_all_alert_dialog_title">Anvend også denne baggrund på startskærm?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Nej tak</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Aktivér</string>
-    <string name="kg_apply_to_aod_alert_dialog_title">Aktivér også \"Vises altid\"?</string>
+    <string name="kg_apply_to_aod_alert_dialog_title">Slå også \"Skærm altid til\" til?</string>
     <string name="kg_applying">Anvender…</string>
     <string name="kg_cancel">Afslut</string>
     <string name="kg_capsule_button_text_finish">Færdig</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">Ingen</string>
     <string name="kg_classic_item_humidity">Luftfugtighed</string>
     <string name="kg_classic_item_lunar_date">Traditionel kinesisk kalender</string>
+    <string name="kg_classic_item_lunar_date1">Traditionel kinesisk kalender</string>
     <string name="kg_classic_item_lunar_month_day">Traditionel kinesisk kalender</string>
     <string name="kg_classic_item_lunar_year">År (traditionel kinesisk kalender)</string>
     <string name="kg_classic_item_month">Måned</string>
@@ -557,6 +559,10 @@
     <string name="kg_classic_item_step_number">Trin</string>
     <string name="kg_classic_item_sunrise_or_sunset">Solopgang og solnedgang</string>
     <string name="kg_classic_item_temperature">Temperatur</string>
+    <string name="kg_classic_item_type_date">Dato</string>
+    <string name="kg_classic_item_type_health">Sundhed</string>
+    <string name="kg_classic_item_type_time">Tid</string>
+    <string name="kg_classic_item_type_weather">Vejr</string>
     <string name="kg_classic_item_ultraviolet_ray">UV-indeks</string>
     <string name="kg_classic_item_vitality">Statistikker</string>
     <string name="kg_classic_item_weather_cloudy">Skyet</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">Redigér farve</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Tilpas</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Anvend tema</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Annuller</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Anvend</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Du bruger et baggrundssæt lige nu. Hvis du anvender et nyt tema, erstattes baggrunde for både Låseskærm og Startskærm, og always-on-skærmen gendannes til den tidligere stil. Anvend alligevel?</string>
+    <string name="kg_depth_preset_button_download">Download dynamisk baggrund</string>
+    <string name="kg_depth_preset_button_downloading">Downloader…</string>
+    <string name="kg_depth_preset_button_dynamic">Dynamisk</string>
+    <string name="kg_depth_preset_button_static">Statisk</string>
+    <string name="kg_depth_preset_dialog_content">Vil du downloade og anvende den dynamiske version af denne baggrund med dybdeeffekt?</string>
+    <string name="kg_depth_preset_dialog_download_button">Download</string>
+    <string name="kg_depth_preset_dialog_image_button">Statisk version</string>
+    <string name="kg_depth_preset_dialog_title">Download dynamisk baggrund</string>
+    <string name="kg_depth_preset_network_fail">Ingen netværksforbindelse</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Ingen netværksforbindelse. Download er sat på pause.</string>
+    <string name="kg_depth_produce_video_detail_failed">Dybdeeffekten kan kun bruges til personer, hunde og katte</string>
+    <string name="kg_depth_produce_video_failed">Kunne ikke anvende dybdeeffekt</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI behandler videoens dybdeeffekt…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Videoens dybdeeffekt er aktiveret. Skærm altid til i fuldskærm er deaktiveret.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Anvend tema</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Annuller</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Anvend</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Du bruger et baggrundssæt lige nu. Hvis du anvender et nyt tema, erstattes baggrunde for både Låseskærm og Startskærm, og Skærm altid til gendannes til den tidligere stil. Anvend alligevel?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Denne låseskærm understøtter ikke super-baggrunde. Baggrunden på både din startskærm og på din låseskærm vil blive erstattet, hvis du fortsætter. Fortsæt alligevel?</string>
+    <string name="kg_dialog_apply_successful">Anvendt</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Du bruger i øjeblikket en super-baggrund. Det vil blive erstattet med en ny baggrund på både din startskærm og på din låseskærm, hvis du fortsætter. Fortsæt alligevel?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Annuller</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Annuller</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Slå først dybdeeffekt til</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Kassér</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Anvend</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Annuller</string>
     <string name="kg_dialog_fashion_gallery_message">Du bruger i øjeblikket baggrundskarrusellen. Anvendelse af en dynamisk baggrund vil deaktivere baggrundskarrusellen. Anvend alligevel?</string>
     <string name="kg_dialog_fashion_gallery_title">Bemærk</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Kan ikke redigere skrifttype, når dobbelt ur er aktiveret</string>
+    <string name="kg_dialog_no_content_available_the_moment">Intet her endnu</string>
+    <string name="kg_dialog_too_much_time_blocking">Uret er skjult. Dybeffekt kan ikke bruges.</string>
     <string name="kg_discard_changes_text">Kassér ændringer?</string>
     <string name="kg_doodle_font_label">Krusedulle</string>
     <string name="kg_doodle_primary_label">Tegne kruseduller</string>
     <string name="kg_doodle_secondary_disable_tip">Aktivér dybdeeffekt</string>
     <string name="kg_doodle_secondary_label">Baggrund</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Kruseduller kan ikke bruges, når uret bruges</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Baggrundskarrusel understøtter ikke kruseduller</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Tredjepartsbaggrunde understøtter ikke kruseduller</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Denne baggrund understøtter ikke kruseduller</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Tredjepartsbaggrunde understøtter ikke effekter</string>
     <string name="kg_effects_tip_title">Dybdeskarphed og filtre</string>
     <string name="kg_enable_blur">Mat effekt</string>
+    <string name="kg_exit">Afslut</string>
     <string name="kg_font_filter_classic_primary_label">Primær</string>
     <string name="kg_font_filter_classic_secondary_label">Sekundær</string>
     <string name="kg_font_filter_doodle_primary_label">Krusedulle</string>
@@ -616,7 +643,7 @@
     <string name="kg_font_filter_hsl_title">Tilpasset farve</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Tid</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Signatur</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Minutter</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Sekundær</string>
     <string name="kg_font_filter_magazine_c_style_1_primary_label">Primær</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Timer</string>
     <string name="kg_font_filter_object_label_date">Dato</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Denne baggrund understøtter ikke dybdeeffekt</string>
     <string name="kg_hierarchy_switch_label">Dybdeeffekt</string>
     <string name="kg_line_spacing">Linjeafstand</string>
+    <string name="kg_live_photo_land_tips">Vandrette livebilleder kan kun indstilles som statiske fotos</string>
     <string name="kg_magazine_a_b_primary_color_label">Ur</string>
     <string name="kg_magazine_a_b_secondary_color_label">Signatur</string>
     <string name="kg_magazine_c_primary_color_label">Anden tekst</string>
@@ -677,16 +705,19 @@
     <string name="kg_template_description_rhombus">Tiden er vigtig. Giv tiden betydning.</string>
     <string name="kg_template_preview_content_description">Forhåndsvisning</string>
     <string name="kg_template_title_classic">Klassisk</string>
+    <string name="kg_template_title_classic_phone">Landskab</string>
     <string name="kg_template_title_eastern_art">Østlig æstetik</string>
     <string name="kg_template_title_magazine">Magasin</string>
-    <string name="kg_template_title_mine">Låseskærm</string>
+    <string name="kg_template_title_magazine_phone">Personer</string>
+    <string name="kg_template_title_mine">Lås skærm</string>
     <string name="kg_template_title_rhombus">Rombe</string>
     <string name="kg_time_language_string">Cifre</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">Kan ikke få adgang til tredjepartsbaggrund</string>
     <string name="kg_title_content">Indhold</string>
     <string name="kg_title_fonts_and_content">Skrifttype og indhold</string>
     <string name="kg_title_name">Skrifttype</string>
-    <string name="kg_typesetting_string">Layout</string>
+    <string name="kg_typesetting_string">Stil</string>
+    <string name="kg_wallpaper_blur_effect">Sløret baggrund</string>
     <string name="kg_wallpaper_filter_title">Baggrundseffekter</string>
     <string name="kg_wallpaper_filter_type_crystallized">Krystaller</string>
     <string name="kg_wallpaper_filter_type_focus">Fokus</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Lense</string>
     <string name="kg_wallpaper_filter_type_water">Vand</string>
     <string name="kg_wallpaper_scale_hint_text">Knib for at beskære</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Kan ikke slå rullefunktion til for dette baggrundsbillede</string>
     <string name="kg_wallpaper_scroll_type_tips">Baggrundsrulle</string>
     <string name="kg_word_spacing">Tegnmellemrum</string>
     <string name="last_choice">Brugt sidste gang</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Utilstrækkelig saldo)</string>
     <string name="payment_data_move_tips">Din nuværende konto vil blive overflyttet til servere i din region for at overholde privatlivs-bestemmelser. Der er en risiko for datatab under overflytningen.</string>
-    <string name="payment_instructions">&lt;Data>Ved at fuldføre betalingen accepterer du &lt;a href=\"%1$s\">Besked om køb i appen&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Ved at fuldføre betalingen accepterer du &lt;a href=\"%1$s\">Besked om køb i appen&lt;/a>.</Data></string>
     <string name="payment_method">Betalingsmetode</string>
     <string name="permission_desc">For at lagre gemte temaer og andre elementer</string>
     <string name="permission_pop_desc">For at kunne ændre personlige præferencer og gemme downloadede elementer skal du først give Temaer tilladelse til at få adgang til lageret.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Acceptér</string>
     <string name="user_authorization_dialog_agree_a">Acceptér</string>
     <string name="user_authorization_dialog_disagree">Afslut</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Vi er nødt til at indsamle nødvendige personoplysninger for at kunne forsyne dig med de grundlæggende tjenester. Hvordan vi håndterer de oplysninger, vi indsamler, kan du lære mere om i vores &lt;a href=\"%1$s\">Privatlivspolitik&lt;/a>. Læs og accepter vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%3$s\">Privatlivspolitik&lt;/a>, før du bruger Temaer.
-Du kan når som helst trække dit samtykke til Fortrolighedspolitikken af Temaer tilbage under Indstillinger.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Acceptér vores &lt;a href=\"%1$s\">brugeraftale&lt;/a> og &lt;a href=\"%2$s\">privatlivspolitik&lt;/a>, inden du fortsætter. Du kan til enhver tid ændre dine præferencer i Indstillinger.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Vi er nødt til at indsamle nødvendige personoplysninger for at kunne forsyne dig med de grundlæggende tjenester. Hvordan vi håndterer de oplysninger, vi indsamler, kan du lære mere om i vores &lt;a href=\"%1$s\">Privatlivspolitik&lt;/a>. Læs og accepter vores &lt;a href=\"%2$s\">Brugeraftale&lt;/a> og &lt;a href=\"%3$s\">Privatlivspolitik&lt;/a>, før du bruger Temaer.
+Du kan når som helst trække dit samtykke til Fortrolighedspolitikken af Temaer tilbage under Indstillinger."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Acceptér vores &lt;a href=\"%1$s\">brugeraftale&lt;/a> og &lt;a href=\"%2$s\">privatlivspolitik&lt;/a>, inden du fortsætter. Du kan til enhver tid ændre dine præferencer i Indstillinger.</Data></string>
     <string name="user_authorization_dialog_title">Vilkår og betingelser</string>
     <string name="user_know">Forstået</string>
     <string name="using_theme_has_update_tips">En opdatering til dette tema er tilgængelig.</string>

@@ -2467,6 +2467,7 @@ Se esta permissão estiver ativada, o app vai ficar disponível como opção sem
     <string name="choose_unlock_face_msg">Defina um bloqueio de tela antes de gravar os dados faciais.</string>
     <string name="choose_unlock_fingerprint_msg">Defina um bloqueio de tela antes de adicionar sua impressão digital.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Circule para pesquisar</string>
     <string name="classic_mode_summary">Mudar para cores mais quentes para reduzir a quantidade de luz azul</string>
     <string name="classic_mode_title">Clássico</string>
     <string name="cleaner">Limpeza</string>
@@ -3603,7 +3604,7 @@ Você pode ver os logs gerados através do Gerenciador de Arquivos."</string>
     <string name="enable_verbose_vendor_logging_summary">Incluir mais registros de fornecedores específicos do dispositivo em relatórios de bugs. Isso pode aumentar o uso da bateria e/ou do armazenamento, e os relatórios podem conter informações particulares.</string>
     <string name="enable_wifi_display">Display sem fios</string>
     <string name="enabled">Ativado</string>
-    <string name="enabled_authorised_apps_summary">Sua autorização será revogada depois que você altere a posição do seletor para apps individuais.</string>
+    <string name="enabled_authorised_apps_summary">Sua autorização será revogada depois que você alterar a posição do seletor para apps individuais.</string>
     <string name="enabled_authorised_apps_title">Autorização concedida</string>
     <string name="enabled_by_admin">Ativado pelo administrador</string>
     <string name="enabled_locales_keyboard_layout">Layout</string>
@@ -4308,6 +4309,9 @@ Quando você ativa o backup automático, os dados do dispositivo e de apps são 
     <string name="gaze_lock_screen_summary">O dispositivo permanecerá desbloqueado quando estiver olhando para a tela, e bloqueará quando você parar de olhar para proteger a sua privacidade, sobrescrevendo a sua configuração automática de bloqueio de tela</string>
     <string name="gaze_lock_screen_title">Detectar presença</string>
     <string name="gd_setting_title">Barra lateral</string>
+    <string name="gemini_description">Converse com o Gemini para turbinar suas ideias. Obtenha ajuda para aprender, escrever Anotações de agradecimento, planejar eventos e muito mais. Use texto, voz, fotos e sua câmera para obter ajuda de novas maneiras. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Saiba mais sobre a disponibilidade</a></string>
+    <string name="gemini_function">Potencialize suas ideias com o Google Gemini, seu novo Assistente de IA</string>
+    <string name="gemini_setting">Configuração do Gemini</string>
     <string name="general_category_title">Geral</string>
     <string name="general_notification_header">Gerenciar</string>
     <string name="general_text">Campo de texto</string>
@@ -4320,6 +4324,12 @@ Quando você ativa o backup automático, os dados do dispositivo e de apps são 
     <string name="gesture_button_restart">Reiniciar</string>
     <string name="gesture_button_skip">Pular</string>
     <string name="gesture_function_dialog_message">%1$s é usado para \"%2$s\". Substituir com \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Toque duas vezes na Tela de bloqueio para ligar</string>
+    <string name="gesture_lockcreen_sleep_title">Toque duas vezes na Tela de bloqueio para suspender</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Ao tocar duas vezes</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">N/A</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Ao tocar</string>
+    <string name="gesture_lockcreen_wakeup_title">Ligar a tela</string>
     <string name="gesture_preference_title">Gestos</string>
     <string name="gesture_prevent_ringing_screen_title">Impedir o toque do telefone</string>
     <string name="gesture_prevent_ringing_sound_title">Atalho para impedir que o telefone toque</string>
@@ -6472,7 +6482,7 @@ Selecione seu sistema operacional:"</string>
     <string name="multi_face_input_reach_upper_limit">Não foi possível adicionar dados faciais. Aguarde alguns minutos e tente novamente.</string>
     <string name="multi_face_input_success_name_title">Nome</string>
     <string name="multi_face_list">Dados faciais</string>
-    <string name="multi_face_name_prefix">"Rosto "</string>
+    <string name="multi_face_name_prefix">Dados faciais %s</string>
     <string name="multi_face_number_reach_limit">Não é possível adicionar dados para mais de 2 rostos</string>
     <string name="multi_music_coexistence_summary">Não ajustar o volume de mídia durante notificações recebidas ou quando áudio de outras fontes estiver sendo reproduzido</string>
     <string name="multi_music_coexistence_title">Várias fontes de áudio</string>
@@ -7217,7 +7227,12 @@ Leia e aceite a %s antes de utilizar este serviço."</string>
     <string name="photography_handle_charge_protected_summary">Quando o punho da câmera estivef conectado, o dispositivo interomperá o carregamento e manterá a bateria em %1$s</string>
     <string name="photography_handle_charge_settings">Configurações de carregamento</string>
     <string name="photography_handle_charge_state">Carregar do punho da câmera</string>
+    <string name="photography_handle_charge_state_choice_always">Sempre</string>
+    <string name="photography_handle_charge_state_choice_emergency">Emergência</string>
     <string name="photography_handle_charge_state_summary">Carregar este dispositivo pelo punho da câmera sempre que ele estiver conectado</string>
+    <string name="photography_handle_charge_state_summary_new">Comece a carregar esse dispositivo a partir do punho da câmera depois de conectado</string>
+    <string name="photography_handle_emergency_charge_summary">Iniciar o carregamento de emergência quando a bateria cair abaixo de %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Nível de carga de emergência</string>
     <string name="photography_handle_function_settings">Configurações do punho da câmera</string>
     <string name="photography_handle_launch_and_take_photo">Tirar foto</string>
     <string name="photography_handle_launch_camera">Abrir Câmera</string>
@@ -7236,7 +7251,7 @@ Leia e aceite a %s antes de utilizar este serviço."</string>
     <string name="picture_in_picture_app_detail_title">Picture-in-Picture</string>
     <string name="picture_in_picture_empty_text">Nenhum app instalado suporta o Picture-in-Picture</string>
     <string name="picture_in_picture_keywords">pip picture in</string>
-    <string name="picture_in_picture_title">Picture-in-Picture</string>
+    <string name="picture_in_picture_title">Ecrã no ecrã</string>
     <string name="pin_failed">Falha na operação de PIN do chip.</string>
     <string name="ping_test_label">Executar teste de ping</string>
     <string name="platform_compat_dashboard_summary">Alternar mudanças de compatibilidade do app</string>

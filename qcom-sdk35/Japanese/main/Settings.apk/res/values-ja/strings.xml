@@ -2272,8 +2272,8 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="call_records_name_2">佐藤さくら</string>
     <string name="call_records_name_3">中村希</string>
     <string name="call_records_summary_1">午前 %1$d:%2$d | %3$d秒</string>
-    <string name="call_records_summary_2">8月 %1$d | %2$d分%3$d秒</string>
-    <string name="call_records_summary_3">8月%1$d | %2$d分%3$d秒</string>
+    <string name="call_records_summary_2">8月%1$d日 | %2$d分%3$d秒</string>
+    <string name="call_records_summary_3">8月%1$d日 | %2$d分%3$d秒</string>
     <string name="call_reminder_all">すべての通話</string>
     <string name="call_reminder_contact">連絡先</string>
     <string name="call_reminder_favorite_contacts">お気に入りの連絡先</string>
@@ -2469,6 +2469,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="choose_unlock_face_msg">顔データを登録する前に画面ロックを設定してください。</string>
     <string name="choose_unlock_fingerprint_msg">指紋を追加する前に画面ロックを設定してください。</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">かこって検索</string>
     <string name="classic_mode_summary">暖色系に切り替えてブルーライトの量を減らす</string>
     <string name="classic_mode_title">クラシック</string>
     <string name="cleaner">クリーナー</string>
@@ -4315,6 +4316,9 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="gaze_lock_screen_summary">画面を見ている間はデバイスのロックが解除されたままになり、目を離すとプライバシーを保護するためにロックがかかり、自動ロック時間の設定が上書きされます。</string>
     <string name="gaze_lock_screen_title">存在を検出</string>
     <string name="gd_setting_title">サイドバー</string>
+    <string name="gemini_description">Gemini とチャットしてアイデアを膨らませましょう。学習、お礼状の書き方、イベントの計画などについてサポートを受けられます。テキスト、音声、写真、カメラを使用して、新しい方法でサポートを受けられます。<a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">もっと詳しく知る</a></string>
+    <string name="gemini_function">新しい AI アシスタントの Google Gemini でアイデアをパワーアップ</string>
+    <string name="gemini_setting">Gemini 設定</string>
     <string name="general_category_title">全般</string>
     <string name="general_notification_header">管理</string>
     <string name="general_text">テキストフィールド</string>
@@ -4327,6 +4331,12 @@ Xiaomi は、革新的なテクノロジーを通じて世界中のすべての�
     <string name="gesture_button_restart">再開</string>
     <string name="gesture_button_skip">スキップ</string>
     <string name="gesture_function_dialog_message">%1$sは\"%2$s\"に使用されています。\"%3$s\"と交換しますか？</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">ロック画面を2回タップしてスリープ解除</string>
+    <string name="gesture_lockcreen_sleep_title">ロック画面を 2 回タップしてスリープ</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">2 回タップ</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">なし</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">1 回タップ</string>
+    <string name="gesture_lockcreen_wakeup_title">スリープ解除</string>
     <string name="gesture_preference_title">ジェスチャー</string>
     <string name="gesture_prevent_ringing_screen_title">着信音をミュート</string>
     <string name="gesture_prevent_ringing_sound_title">着信音ミュート用のショートカット</string>
@@ -6500,7 +6510,7 @@ PINを設定してください。
     <string name="multi_face_input_reach_upper_limit">顔データを追加できませんでした。数分待ってからもう一度お試しください。</string>
     <string name="multi_face_input_success_name_title">名前</string>
     <string name="multi_face_list">顔データ</string>
-    <string name="multi_face_name_prefix">"顔 "</string>
+    <string name="multi_face_name_prefix">顔データ %s</string>
     <string name="multi_face_number_reach_limit">顔データは最大で2つまで追加できます</string>
     <string name="multi_music_coexistence_summary">通知音が鳴ってもメディアの音量は変わらず、複数アプリの音声を同時に再生することが可能です</string>
     <string name="multi_music_coexistence_title">複数のオーディオソース</string>
@@ -7245,7 +7255,12 @@ OTGは、10分間使用されないと自動的にオフになります。"</str
     <string name="photography_handle_charge_protected_summary">カメラグリップが接続されている場合、デバイスは充電を停止し、バッテリーを %1$s に保ちます</string>
     <string name="photography_handle_charge_settings">充電設定</string>
     <string name="photography_handle_charge_state">カメラグリップから充電</string>
+    <string name="photography_handle_charge_state_choice_always">常時</string>
+    <string name="photography_handle_charge_state_choice_emergency">緊急</string>
     <string name="photography_handle_charge_state_summary">接続時はいつでもカメラグリップからこのデバイスを充電できます</string>
+    <string name="photography_handle_charge_state_summary_new">接続後、カメラグリップからこのデバイスへの充電を開始します</string>
+    <string name="photography_handle_emergency_charge_summary">バッテリー残量が %1$s を下回ったら緊急充電を開始します</string>
+    <string name="photography_handle_emergency_charge_title">緊急充電レベル</string>
     <string name="photography_handle_function_settings">カメラグリップ設定</string>
     <string name="photography_handle_launch_and_take_photo">写真を撮る</string>
     <string name="photography_handle_launch_camera">カメラを開く</string>

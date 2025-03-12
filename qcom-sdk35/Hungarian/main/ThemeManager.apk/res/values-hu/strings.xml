@@ -98,11 +98,11 @@
     <string name="ai_wallpaper_click_to">Koppintson a megtekintéshez</string>
     <string name="ai_wallpaper_desc">Az AI által generált tartalom</string>
     <string name="ai_wallpaper_feedback">Visszajelzés</string>
-    <string name="ai_wallpaper_function_introduction">Dinamikus videó háttérképek létrehozása tájak, városok, növények és autók fotóiból</string>
+    <string name="ai_wallpaper_function_introduction">Dinamikus videóháttérképek létrehozása tájak, városok, növények és autók fotóiból</string>
     <string name="ai_wallpaper_i_know">Rendben</string>
     <string name="ai_wallpaper_inside_invitation">Béta teszt AI dinamikus háttérképek</string>
     <string name="ai_wallpaper_inside_invitation_agree">Elfogadás</string>
-    <string name="ai_wallpaper_inside_invitation_description">Ez a funkció a nagyméretű modellek képességeit használja fel tájképek, városok, növények és autók fényképeinek felhasználására, hogy dinamikus videoháttérképeket hozzon létre. Koppintson az „Elfogadom” gombra a kipróbáláshoz!</string>
+    <string name="ai_wallpaper_inside_invitation_description">Ez a funkció a nagyméretű modellek képességeit használja fel tájképek, városok, növények és autók fényképeinek felhasználására, hogy dinamikus videóháttérképeket hozzon létre. Koppintson az „Elfogadom” gombra a kipróbáláshoz!</string>
     <string name="ai_wallpaper_inside_invitation_disagree">Elutasítom</string>
     <string name="ai_wallpaper_network_connection_exception">Nem sikerült kapcsolódni a hálózathoz</string>
     <string name="ai_wallpaper_network_exception">Hálózati hiba történt</string>
@@ -521,9 +521,10 @@
     <string name="item_resource_audio_optional_phone_ring">Csengőhang</string>
     <string name="item_view_role_description">Lap</string>
     <string name="kg_activity_label">Képernyőzár szerkesztése</string>
+    <string name="kg_aod_settings_depth_video_toast">A mélységhatás használatakor csak az egyéni always-on display funkció támogatott.</string>
     <string name="kg_apply">Alkalmaz</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Csak képernyőzár</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Alkalmaz</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Beállítás mindkettőn</string>
     <string name="kg_apply_to_all_alert_dialog_title">Ezt a háttérképet a kezdőképernyőre is alkalmazza?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Nem, köszönöm</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Bekapcsolás</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">Egyik sem</string>
     <string name="kg_classic_item_humidity">Páratartalom</string>
     <string name="kg_classic_item_lunar_date">Tradícionális kínai naptár</string>
+    <string name="kg_classic_item_lunar_date1">Hagyományos kínai naptár</string>
     <string name="kg_classic_item_lunar_month_day">Tradícionális kínai naptár</string>
     <string name="kg_classic_item_lunar_year">Év (Hagyományos kínai naptár)</string>
     <string name="kg_classic_item_month">Hónap</string>
@@ -557,6 +559,10 @@
     <string name="kg_classic_item_step_number">Lépések</string>
     <string name="kg_classic_item_sunrise_or_sunset">Napkelte és naplemente</string>
     <string name="kg_classic_item_temperature">Hőmérséklet</string>
+    <string name="kg_classic_item_type_date">Dátum</string>
+    <string name="kg_classic_item_type_health">Egészség</string>
+    <string name="kg_classic_item_type_time">Idő</string>
+    <string name="kg_classic_item_type_weather">Időjárás</string>
     <string name="kg_classic_item_ultraviolet_ray">UV-sugárzás</string>
     <string name="kg_classic_item_vitality">Statisztikák</string>
     <string name="kg_classic_item_weather_cloudy">Felhős</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">Szín szerkesztése</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Testreszabás</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Téma alkalmazása</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Mégse</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Alkalmaz</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Most egy háttérkép sorozatot használ. Ha új témát alkalmaz, a Képernyőzár és a Kezdőképernyő háttérképei lecserélődnek, és az Always-on display funkció visszaáll a korábbi stílusra. Mindenképpen alkalmazza?</string>
+    <string name="kg_depth_preset_button_download">Dinamikus háttérkép letöltése</string>
+    <string name="kg_depth_preset_button_downloading">Letöltés…</string>
+    <string name="kg_depth_preset_button_dynamic">Dinamikus</string>
+    <string name="kg_depth_preset_button_static">Statikus</string>
+    <string name="kg_depth_preset_dialog_content">Letölti és alkalmazza ennek a mélységhatású háttérképnek a dinamikus változatát?</string>
+    <string name="kg_depth_preset_dialog_download_button">Letöltés</string>
+    <string name="kg_depth_preset_dialog_image_button">Statikus verzió</string>
+    <string name="kg_depth_preset_dialog_title">Dinamikus háttérkép letöltése</string>
+    <string name="kg_depth_preset_network_fail">Nincs hálózati kapcsolat</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Nincs hálózati kapcsolat. Letöltés megszakítva.</string>
+    <string name="kg_depth_produce_video_detail_failed">A mélységhatás csak emberek, kutyák és macskák esetében használható</string>
+    <string name="kg_depth_produce_video_failed">Nem sikerült alkalmazni a mélységhatást</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">Az AI feldolgozza a videó mélységhatását…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">A videó mélységhatás be van kapcsolva. A teljes képernyős always-on display funkció ki van kapcsolva.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Téma alkalmazása</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Mégse</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Alkalmaz</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Most egy háttérkép sorozatot használ. Ha új témát alkalmaz, a Képernyőzár és a Kezdőképernyő háttérképei lecserélődnek, és az Always-on display funkció visszaáll a korábbi stílusra. Mindenképpen alkalmazza?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Ez a Képernyőzár nem támogatja a Szuper háttérképeket. Ha folytatja, a Kezdőképernyőn és a Képernyőzáron is lecserélődik a háttérkép. Biztosan folytatja?</string>
+    <string name="kg_dialog_apply_successful">Sikeresen beállítva</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Jelenleg Szuper háttérképet használ. Ha folytatja, új háttérképre cseréljük a Kezdőképernyőn és a Képernyőzáron is. Biztosan folytatja?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Mégse</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Mégse</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Először kapcsolja be a mélységeffektust</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Elvet</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Alkalmaz</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Mégse</string>
     <string name="kg_dialog_fashion_gallery_message">Jelenleg a Váltakozó háttérképeket használod. Dinamikus háttérkép alkalmazása kikapcsolja a Váltakozó háttérképeket. Mégis alkalmazod?</string>
     <string name="kg_dialog_fashion_gallery_title">Figyelem</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Nem lehet változtatni a betűtípust, ha a Dupla óra be van kapcsolva</string>
+    <string name="kg_dialog_no_content_available_the_moment">Itt még nincs semmi</string>
+    <string name="kg_dialog_too_much_time_blocking">Az óra el van fedve. Nem lehet használni a mélységhatást.</string>
     <string name="kg_discard_changes_text">Elveti a módosításokat?</string>
     <string name="kg_doodle_font_label">Firkák</string>
     <string name="kg_doodle_primary_label">Firkák</string>
     <string name="kg_doodle_secondary_disable_tip">Mélységeffektus bekapcsolása</string>
     <string name="kg_doodle_secondary_label">Háttér</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Nem használhat firkákat, amikor ezt az órát használja</string>
     <string name="kg_doodle_text_not_support_gallery_tip">A Váltakozó háttérképek nem támogatja a Firkákat</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">A harmadik féltől származó háttérképek nem támogatják a Firkákat</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Ez a háttérkép nem támogatja a Firkákat</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">A harmadik féltől származó háttérképek nem támogatják az effektusokat</string>
     <string name="kg_effects_tip_title">Mélységélesség és szűrők</string>
     <string name="kg_enable_blur">Matt effektus</string>
+    <string name="kg_exit">Kilépek</string>
     <string name="kg_font_filter_classic_primary_label">Elsődleges</string>
     <string name="kg_font_filter_classic_secondary_label">Másodlagos</string>
     <string name="kg_font_filter_doodle_primary_label">Firkák</string>
@@ -616,8 +643,8 @@
     <string name="kg_font_filter_hsl_title">Egyéni szín</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Idő</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Aláírás</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Percek</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Fő</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Másodlagos</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Elsődleges</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Órák</string>
     <string name="kg_font_filter_object_label_date">Dátum</string>
     <string name="kg_font_filter_object_label_date_color">Dátum színe</string>
@@ -639,7 +666,7 @@
     <string name="kg_glass_filter_on_time">Alkalmazás órára</string>
     <string name="kg_guidance_dialog_positive_button_text_next_step">Következő</string>
     <string name="kg_guidance_dialog_positive_button_text_start">Indítás</string>
-    <string name="kg_guidance_dialog_tip_browse_more">A sablonok közötti váltáshoz Csúsztassa felfelé az ujjáT. Csúsztassa az ujját vízszintesen a további személyre szabási lehetőségek megtekintéséhez.</string>
+    <string name="kg_guidance_dialog_tip_browse_more">A sablonok közötti váltáshoz csúsztassa felfelé az ujját. Csúsztassa az ujját vízszintesen a további személyre szabási lehetőségek megtekintéséhez.</string>
     <string name="kg_guidance_dialog_tip_customize">Szabja testre a képernyőzárat, hogy valóban olyan legyen, ami tetszik Önnek.</string>
     <string name="kg_guidance_dialog_title">Teljesen új, személyre szabott Zárolási képernyő</string>
     <string name="kg_hierarchy_loading_tip">Rétegek észlelése…</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Ez a háttérkép nem támogatja a mély effektusokat</string>
     <string name="kg_hierarchy_switch_label">Mélységhatás</string>
     <string name="kg_line_spacing">Sortávolságok</string>
+    <string name="kg_live_photo_land_tips">A vízszintes élő fotók csak statikus fotókként állíthatók be</string>
     <string name="kg_magazine_a_b_primary_color_label">Óra</string>
     <string name="kg_magazine_a_b_secondary_color_label">Aláírás</string>
     <string name="kg_magazine_c_primary_color_label">Egyéb szöveg</string>
@@ -677,16 +705,19 @@
     <string name="kg_template_description_rhombus">Az idő fontos. Használd ki!</string>
     <string name="kg_template_preview_content_description">Előnézet</string>
     <string name="kg_template_title_classic">Klasszikus</string>
+    <string name="kg_template_title_classic_phone">Tájak</string>
     <string name="kg_template_title_eastern_art">Keleti esztétika</string>
     <string name="kg_template_title_magazine">Magazin</string>
-    <string name="kg_template_title_mine">Képernyőzár</string>
+    <string name="kg_template_title_magazine_phone">Személyek</string>
+    <string name="kg_template_title_mine">Képernyő zárolása</string>
     <string name="kg_template_title_rhombus">Rombusz</string>
     <string name="kg_time_language_string">Számjegyek</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">Nem lehet elérni a külső féltől származó háttérképet</string>
     <string name="kg_title_content">Tartalom</string>
     <string name="kg_title_fonts_and_content">Betűtípus és tartalom</string>
     <string name="kg_title_name">Betűtípus</string>
-    <string name="kg_typesetting_string">Elrendezés</string>
+    <string name="kg_typesetting_string">Stílus</string>
+    <string name="kg_wallpaper_blur_effect">Elmosódott háttérkép</string>
     <string name="kg_wallpaper_filter_title">Háttérkép-effektek</string>
     <string name="kg_wallpaper_filter_type_crystallized">Kristályok</string>
     <string name="kg_wallpaper_filter_type_focus">Fókusz</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Lencse</string>
     <string name="kg_wallpaper_filter_type_water">Víz</string>
     <string name="kg_wallpaper_scale_hint_text">A levágáshoz csípd össze az ujjaddal</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Nem lehet bekapcsolni a görgetést ehhez a háttérképhez</string>
     <string name="kg_wallpaper_scroll_type_tips">Háttérkép görgetése</string>
     <string name="kg_word_spacing">Karaktertávolság</string>
     <string name="last_choice">Utoljára használt</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Egyenleg: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Fedezethiány)</string>
     <string name="payment_data_move_tips">A fiókadatait az adatvédelmi előírások betartása érdekében az Ön régiójában található szerverekre helyezzük át. A migráció során fennáll az adatvesztés kockázata.</string>
-    <string name="payment_instructions">&lt;Data>A fizetés befejezésével Ön elfogadja az &lt;a href=\"%1$s\">Értesítést az alkalmazáson belüli vásárlásokról&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>A fizetés befejezésével Ön elfogadja az &lt;a href=\"%1$s\">Értesítést az alkalmazáson belüli vásárlásokról&lt;/a>.</Data></string>
     <string name="payment_method">Fizetési mód</string>
     <string name="permission_desc">Elmentett témák és egyéb elemek tárolására</string>
     <string name="permission_pop_desc">A személyre szabási beállítások módosításához és a letöltött elemek mentéséhez először engedélyezze a Témák hozzáférést a tárhelyhez.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Elfogadás</string>
     <string name="user_authorization_dialog_agree_a">Elfogadom</string>
     <string name="user_authorization_dialog_disagree">Kilépés</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Az alapvető szolgáltatások biztosításához be kell gyűjtenünk a szükséges személyes adatokat. &lt;a href=\"%1$s\">Adatvédelmi irányelvünkben&lt;/a> elolvashatja, hogyan kezeljük a begyűjtött információkat. A Témák használata előtt olvassa el és fogadja el &lt;a href=\"%2$s\">Felhasználói megállapodásunkat&lt;/a> és &lt;a href=\"%3$s\">Adatvédelmi irányelvünket&lt;/a>.
-Bármikor visszavonhatja a Témák alkalmazás Adatvédelmi irányelvéhez adott hozzájárulását a Beállításokban.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>A folytatás előtt fogadja el a &lt;a href=\"%1$s\">Felhasználói szerződésünket&lt;/a> és az &lt;a href=\"%2$s\">Adatvédelmi irányelveinket&lt;/a>. A preferenciáit bármikor megváltoztathatja a Beállítások menüpontban.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Az alapvető szolgáltatások biztosításához be kell gyűjtenünk a szükséges személyes adatokat. &lt;a href=\"%1$s\">Adatvédelmi irányelvünkben&lt;/a> elolvashatja, hogyan kezeljük a begyűjtött információkat. A Témák használata előtt olvassa el és fogadja el &lt;a href=\"%2$s\">Felhasználói megállapodásunkat&lt;/a> és &lt;a href=\"%3$s\">Adatvédelmi irányelvünket&lt;/a>.
+Bármikor visszavonhatja a Témák alkalmazás Adatvédelmi irányelvéhez adott hozzájárulását a Beállításokban."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>A folytatás előtt fogadja el a &lt;a href=\"%1$s\">Felhasználói szerződésünket&lt;/a> és az &lt;a href=\"%2$s\">Adatvédelmi irányelveinket&lt;/a>. A preferenciáit bármikor megváltoztathatja a Beállítások menüpontban.</Data></string>
     <string name="user_authorization_dialog_title">Felhasználási feltételek</string>
     <string name="user_know">Értettem</string>
     <string name="using_theme_has_update_tips">A témához frissítés érhető el.</string>

@@ -910,6 +910,7 @@
     <string name="choose_unlock_face_msg">پیش از ضبط مشخصات چهره، یک قفل صفحه تنظیم کنید.</string>
     <string name="choose_unlock_fingerprint_msg">پیش از افزودن اثر انگشت، قفل صفحه تنظیم کنید.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">حلقه جستجو</string>
     <string name="classic_mode_summary">تعویض به رنگ‌های گرم‌تر برای کاهش مقدار نور آبی</string>
     <string name="classic_mode_title">کلاسیک</string>
     <string name="cleaner">پاک‌سازی کننده</string>
@@ -1909,9 +1910,18 @@ Xiaomi بی‌وقفه محصولات شگفت‌انگیزی را با قیمت
     <string name="gaze_lock_screen_summary">با نگاه کردن شما به صفحه، قفل دستگاه باز می‌ماند و برای محافظت از حریم خصوصی‌تان با برداشتن نگاه قفل می‌شود و تنظیم زمان قفل خودکار را لغو می‌کند.</string>
     <string name="gaze_lock_screen_title">تشخیص حضور</string>
     <string name="gd_setting_title">نوار کناری</string>
+    <string name="gemini_description">با گپ زدن با Gemini ایده‌های خود را تقویت کنید. برای یادگیری، نوشتن یادداشت‌های تشکر، برنامه‌ریزی رویدادها و موارد دیگر کمک بگیرید. از متن، صدا، عکس‌ها و دوربین خود برای دریافت کمک به روش‌های جدید استفاده کنید. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">درباره در دسترس بودن بیشتر بدانید</a></string>
+    <string name="gemini_function">ایده‌های خود را با Google Gemini، دستیار AI جدید خود، شارژ کنید</string>
+    <string name="gemini_setting">تنظیمات Gemini</string>
     <string name="general_text">زمینه پیام</string>
     <string name="general_time">زمان: %1$d:%2$d. لرزش‌های طولانی بیان‌گر ساعت و لرزش‌های کوتاه بیان‌گر دقیقه هستند. یک مکث کوتاه بین ساعت و دقیقه خواهد بود. برای آزمایش دو ضربه بزنید.</string>
     <string name="gesture_function_dialog_message">%1$s برای «%2$s» استفاده شده است. با «%3$s» جایگزین شود؟</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">برای بیدار شدن نمایشگر روی صفحه قفل دو ضربه سریع بزنید</string>
+    <string name="gesture_lockcreen_sleep_title">برای به خواب رفتن نمایشگر روی صفحه قفل دو ضربه سریع بزنید</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">با دو ضربه</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">هیچ کدام</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">با یک ضربه</string>
+    <string name="gesture_lockcreen_wakeup_title">بیدار کردن صفحه</string>
     <string name="gesture_settings_title">اشاره‌های میان‌بر</string>
     <string name="gesture_to_split_screen">اشاره‌ها</string>
     <string name="gesture_wakeup_summary">فقط در صورت استفاده از تم «کلاسیک» یا «نامحدود»، می‌توانید دو بار ضربه بزنید تا صفحه نمایش خاموش شود</string>
@@ -3076,7 +3086,7 @@ Xiaomi بی‌وقفه محصولات شگفت‌انگیزی را با قیمت
     <string name="multi_face_input_reach_upper_limit">مشخصات چهره افزوده نشد. چند دقیقه صبر کرده سپس دوباره تلاش کنید.</string>
     <string name="multi_face_input_success_name_title">نام</string>
     <string name="multi_face_list">مشخصات چهره</string>
-    <string name="multi_face_name_prefix">"چهره "</string>
+    <string name="multi_face_name_prefix">مشخصات چهره %s</string>
     <string name="multi_face_number_reach_limit">بیش از ۲ چهره افزوده نمی‌شود</string>
     <string name="multi_music_coexistence_summary">هنگام دریافت اعلان و یا پخش صدا از منابع دیگر میزان صدای رسانه تغییر نکند</string>
     <string name="multi_music_coexistence_title">چندین منبع صدا</string>
@@ -3463,7 +3473,12 @@ OTG پس از ۱۰ دقیقه عدم فعالیت به صورت خودکار خ�
     <string name="photography_handle_charge_protected_summary">هنگامی که گریپ دوربین متصل باشد، دستگاه شارژ کردن را متوقف کرده و باتری را در %1$s نگه می‌دارد</string>
     <string name="photography_handle_charge_settings">تنظیمات شارژ کردن</string>
     <string name="photography_handle_charge_state">شارژ از گریپ دوربین</string>
+    <string name="photography_handle_charge_state_choice_always">همیشه</string>
+    <string name="photography_handle_charge_state_choice_emergency">اضطراری</string>
     <string name="photography_handle_charge_state_summary">هر زمان که این دستگاه به گریپ متصل باشد شارژ می‌شود</string>
+    <string name="photography_handle_charge_state_summary_new">پس از اتصال، این دستگاه را از گریپ دوربین شروع به شارژ کنید</string>
+    <string name="photography_handle_emergency_charge_summary">وقتی باتری به زیر %1$s رسید، شارژ اضطراری را شروع کنید</string>
+    <string name="photography_handle_emergency_charge_title">سطح شارژ اضطراری</string>
     <string name="photography_handle_function_settings">تنظیمات گریپ دوربین</string>
     <string name="photography_handle_launch_and_take_photo">گرفتن عکس</string>
     <string name="photography_handle_launch_camera">باز کردن دوربین</string>

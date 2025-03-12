@@ -206,7 +206,7 @@
     <string name="composite_first">မူရင်းအတိုင်း</string>
     <string name="config_success">အောင်မြင်စွာ ရွေးသုံးလိုက်ပါပြီ</string>
     <string name="connect_to_view_more">ပိုမိုကြည့်ရှုနိုင်ရန်အတွက် အင်တာနက်ဖြင့် ချိတ်ဆက်ပါ</string>
-    <string name="current_using_desktop_wallpaper_text">အိမ်မျက်နှာပြင်</string>
+    <string name="current_using_desktop_wallpaper_text">ပင်မမျက်နှာပြင်</string>
     <string name="current_using_lockscreen_wallpaper_text">သော့ခတ် မျက်နှာပြင်</string>
     <string name="current_version_incompatible">ကိုက်ညီမှု မရှိပါ</string>
     <string name="custom_wallpaper_for_you">သင့်အတွက် စိတ်ကြိုက်နောက်ခံပုံများ</string>
@@ -370,8 +370,8 @@
     <string name="hide_incompatible_theme">တွဲသုံးမရသောအပြင်အဆင်များကို ဖုံးထားရန်</string>
     <string name="hide_incompatible_wallpaper">တွဲသုံးမရသောနောက်ခံပုံများကို ဖုံးထားရန်</string>
     <string name="hint_email_address">အီးမေး(လ်)လိပ်စာထည့်ပါ</string>
-    <string name="home_apply_failured">အိမ်မျက်နှာပြင် နောက်ခံပုံအဖြစ် အသုံးချ၍မရပါ</string>
-    <string name="home_apply_success">အိမ်မျက်နှာပြင် နောက်ခံပုံ အသုံးချခဲ့သည်</string>
+    <string name="home_apply_failured">ပင်မမျက်နှာပြင် နောက်ခံပုံအဖြစ် အသုံးချ၍မရပါ</string>
+    <string name="home_apply_success">ပင်မမျက်နှာပြင် နောက်ခံပုံ အသုံးချခဲ့သည်</string>
     <string name="hot_first">ပေါ်ပြူလာ ဦးစားပေး</string>
     <string name="humidity_format">စိုထိုင်းဆ %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -392,9 +392,10 @@
     <string name="item_resource_audio_optional_notification_ring">အသိပေးချက်များ</string>
     <string name="item_resource_audio_optional_phone_ring">ဖုန်းမြည်သံ</string>
     <string name="kg_activity_label">သော့ခတ်မျက်နှာပြင်ကို ပြင်ရန်</string>
+    <string name="kg_aod_settings_depth_video_toast">အတိမ်အနက် အထူးပြုလုပ်ချက်သုံးချိန် စိတ်ကြိုက် အမြဲပြသမျက်နှာပြင်သာ ပံ့ပိုးသည်</string>
     <string name="kg_apply">သုံးရန်</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">သော့ခတ်မျက်နှာပြင်၌သာ</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">သုံးရန်</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">နှစ်ခုလုံးတွင်သုံးရန်</string>
     <string name="kg_apply_to_all_alert_dialog_title">ဤနောက်ခံပုံကို ပင်မမျက်နှာပြင်၌လည်း သုံးလိုသလား။</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">မလိုပါ</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">ဖွင့်ရန်</string>
@@ -414,6 +415,7 @@
     <string name="kg_classic_item_empty">တစ်ခုမျှမရှိပါ</string>
     <string name="kg_classic_item_humidity">စိုထိုင်းဆ</string>
     <string name="kg_classic_item_lunar_date">တရုတ်ရိုးရာပြက္ခဒိန်</string>
+    <string name="kg_classic_item_lunar_date1">တရုတ်ရိုးရာပြက္ခဒိန်</string>
     <string name="kg_classic_item_lunar_month_day">တရုတ်ရိုးရာပြက္ခဒိန်</string>
     <string name="kg_classic_item_lunar_year">ခုနှစ် (တရုတ်ရိုးရာပြက္ခဒိန်)</string>
     <string name="kg_classic_item_month">လ</string>
@@ -428,6 +430,10 @@
     <string name="kg_classic_item_step_number">ခြေလှမ်းများ</string>
     <string name="kg_classic_item_sunrise_or_sunset">နေဝင်ချိန်နှင့် နေထွက်ချိန်</string>
     <string name="kg_classic_item_temperature">အပူချိန်</string>
+    <string name="kg_classic_item_type_date">ရက်စွဲ</string>
+    <string name="kg_classic_item_type_health">ကျန်းမာရေး</string>
+    <string name="kg_classic_item_type_time">အချိန်</string>
+    <string name="kg_classic_item_type_weather">မိုးလေဝသ</string>
     <string name="kg_classic_item_ultraviolet_ray">ခရမ်းလွန်ရောင်ခြည် အညွှန်းကိန်း</string>
     <string name="kg_classic_item_vitality">စာရင်းအင်း</string>
     <string name="kg_classic_item_weather_cloudy">တိမ်ထူ</string>
@@ -444,30 +450,50 @@
     <string name="kg_color_value_editor_title">အရောင်ပြင်ရန်</string>
     <string name="kg_confirm">အိုကေ</string>
     <string name="kg_customize">စိတ်ကြိုက်လုပ်ရန်</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">သင်း(မ်)သုံးရန်</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">မလုပ်တော့</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">သုံးရန်</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">သင်သည် နောက်ခံပုံအတွဲတစ်ခု သုံးနေသည်။ သင်း(မ်)အသစ်သုံးပါက သော့ခတ်မျက်နှာပြင်နှင့် ပင်မမျက်နှာပြင် နောက်ခံပုံနှစ်ခုလုံးကို အစားထိုးလိုက်မည်ဖြစ်ပြီး အမြဲပြသမျက်နှာပြင်ကို ယခင်စတိုင်အတိုင်း ပြန်ထားလိုက်ပါမည်။ မဖြစ်နေသုံးလိုသလား။</string>
+    <string name="kg_depth_preset_button_download">ဒိုင်းနမစ်နောက်ခံပုံ ဒေါင်းလုဒ်လုပ်ရန်</string>
+    <string name="kg_depth_preset_button_downloading">ဒေါင်းလုဒ်လုပ်နေသည်…</string>
+    <string name="kg_depth_preset_button_dynamic">ဒိုင်းနမစ်</string>
+    <string name="kg_depth_preset_button_static">အငြိမ်</string>
+    <string name="kg_depth_preset_dialog_content">ဤအတိမ်အနက်အထူးပြုလုပ်ချက်နောက်ခံပုံ၏ ဒိုင်းနမစ်ဗားရှင်းကို ဒေါင်းလုဒ်လုပ်ပြီး သုံးလိုသလား။</string>
+    <string name="kg_depth_preset_dialog_download_button">ဒေါင်းလုဒ်လုပ်ရန်</string>
+    <string name="kg_depth_preset_dialog_image_button">အငြိမ်ဗားရှင်း</string>
+    <string name="kg_depth_preset_dialog_title">ဒိုင်းနမစ်နောက်ခံပုံ ဒေါင်းလုဒ်လုပ်ရန်</string>
+    <string name="kg_depth_preset_network_fail">ကွန်ရက်လိုင်းမရှိပါ</string>
+    <string name="kg_depth_preset_network_fail_download_pause">ကွန်ရက်လိုင်းမရှိပါ။ ဒေါင်းလုဒ်ရပ်ထားသည်။</string>
+    <string name="kg_depth_produce_video_detail_failed">အတိမ်အနက် အထူးပြုလုပ်ချက်ကို လူနှင့် ခွေး၊ ကြောင်တို့အတွက်သာ သုံးနိုင်သည်</string>
+    <string name="kg_depth_produce_video_failed">အတိမ်အနက် အထူးပြုလုပ်ချက် သုံးမရပါ</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI က ဗီဒီယို အတိမ်အနက် အထူးပြုလုပ်ချက် ဆောင်ရွက်နေသည်…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">အတိမ်အနက် အထူးပြုလုပ်ချက် ဖွင့်ထားသည်။ မျက်နှာပြင်အပြည့် အမြဲပြသမျက်နှာပြင် ပိတ်ထားသည်။</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">သင်း(မ်)သုံးရန်</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">မလုပ်တော့ရန်</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">သုံးရန်</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">သင်သည် နောက်ခံပုံအတွဲတစ်ခု သုံးနေသည်။ သင်း(မ်)အသစ်သုံးပါက သော့ခတ်မျက်နှာပြင်နှင့် ပင်မမျက်နှာပြင် နောက်ခံပုံနှစ်ခုလုံးကို အစားထိုးလိုက်မည်ဖြစ်ပြီး အမြဲပြသမျက်နှာပြင်ကို ယခင်စတိုင်အတိုင်း ပြန်ထားလိုက်ပါမည်။ မဖြစ်နေသုံးလိုသလား။</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">ဤသော့ခတ်မျက်နှာပြင်က စူပါနောက်ခံပုံများကို မပံ့ပိုးပါ။ ရှေ့ဆက်ပါက ပင်မမျက်နှာပြင်နှင့် သော့ခတ်မျက်နှာပြင်ရှိ နောက်ခံပုံကို အစားထိုးပါမည်။ မဖြစ်မနေရှေ့ဆက်လိုသလား။</string>
+    <string name="kg_dialog_apply_successful">အောင်မြင်စွာသုံးထားပါပြီ</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">လက်ရှိတွင် စူပါနောက်ခံပုံတစ်ခု သုံးနေသည်။ ရှေ့ဆက်ပါက ပင်မမျက်နှာပြင်နှင့် သော့ခတ်မျက်နှာပြင်တွင် အသစ်နှင့် အစားထိုးပါမည်။ မဖြစ်မနေရှေ့ဆက်လိုသလား။</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">မလုပ်တော့ရန်</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">မလုပ်တော့ရန်</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">အိုကေ</string>
+    <string name="kg_dialog_enable_depth_function">အတိမ်အနက်အထူးပြုလုပ်ချက် ဦးစွာဖွင့်ရန်</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">ဖျက်ရန်</string>
     <string name="kg_dialog_fashion_gallery_button_negative">သုံးရန်</string>
     <string name="kg_dialog_fashion_gallery_button_positive">မလုပ်တော့ရန်</string>
     <string name="kg_dialog_fashion_gallery_message">လက်ရှိတွင် နောက်ခံပုံရဟတ်သုံးထားသည်။ ဒိုင်းနမိုက်နောက်ခံပုံသုံးခြင်းဖြင့် နောက်ခံပုံရဟတ်ကို ပိတ်ပါမည်။ မဖြစ်မနေသုံးလိုသလား။</string>
     <string name="kg_dialog_fashion_gallery_title">သတိပြုရန်</string>
     <string name="kg_dialog_fontfilter_dualclock_button">နှစ်ခုတွဲနာရီဖွင့်ထားစဉ် ဖောင့်ပြင်မရပါ</string>
+    <string name="kg_dialog_no_content_available_the_moment">ဤနေရာတွင်ဘာမျှမရှိသေးပါ</string>
+    <string name="kg_dialog_too_much_time_blocking">နာရီကို ဝါးထားသည်။ အတိမ်အနက်အထူးပြုလုပ်ချက် သုံးမရပါ။</string>
     <string name="kg_discard_changes_text">အပြောင်းအလဲများ ဖယ်ပစ်မလား။</string>
     <string name="kg_doodle_font_label">လက်ရေးခြစ်</string>
-    <string name="kg_doodle_primary_label">ရေးခြစ်ခြင်းများ</string>
+    <string name="kg_doodle_primary_label">လက်ရေးခြစ်</string>
     <string name="kg_doodle_secondary_disable_tip">အတိမ်အနက်အထူးပြုလုပ်ချက် ဖွင့်ရန်</string>
     <string name="kg_doodle_secondary_label">နောက်ခံ</string>
+    <string name="kg_doodle_text_not_support_clock_tip">ဤနာရီသုံးချိန် လက်ရေးခြစ်သုံးမရပါ</string>
     <string name="kg_doodle_text_not_support_gallery_tip">နောက်ခံပုံရဟတ်တွင် လက်ရေးခြစ် မပံ့ပိုးပါ</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">ပြင်ပပါတီနောက်ခံပုံများတွင် လက်ရေးခြစ် မပံ့ပိုးပါ</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">ဤနောက်ခံပုံတွင် လက်ရေးခြစ် မပံ့ပိုးပါ</string>
     <string name="kg_edit_cancel_dialog_content">အပြောင်းအလဲအားလုံးကို ယခု ဖျက်လိုသလား။</string>
-    <string name="kg_edit_cancel_dialog_title">အပြောင်းအလဲများ ဖယ်ပစ်မလား?</string>
+    <string name="kg_edit_cancel_dialog_title">အပြောင်းအလဲများ ဖယ်ပစ်မလား။</string>
     <string name="kg_effects_not_support_gallery_tip">နောက်ခံပုံဆလိုက်ရှိုးသုံးချိန် အထူးပြုလုပ်ချက်များ သတ်မှတ်မရပါ</string>
     <string name="kg_effects_tip_button">ရပါပြီ</string>
     <string name="kg_effects_tip_desc">ဖိ(ဒ်)အတိမ်အနက် အထူးပြုလုပ်ချက်ကို စစ်ထုတ်မှုများနှင့် ပေါင်းမရပါ။ တစ်ခုကိုသုံးလျှင် ကျန်တစ်ခုကို အစားထိုးလိုက်ပါမည်။</string>
@@ -475,6 +501,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">ပြင်ပပါတီနောက်ခံပုံများတွင် အထူးပြုလုပ်ချက်များ မပံ့ပိုးပါ</string>
     <string name="kg_effects_tip_title">ဖိ(ဒ်)အတိမ်အနက်နှင့် စစ်ထုတ်မှုများ</string>
     <string name="kg_enable_blur">အရောင်မွဲအထူးပြုလုပ်ချက်</string>
+    <string name="kg_exit">ထွက်ရန်</string>
     <string name="kg_font_filter_classic_primary_label">ပင်တိုင်</string>
     <string name="kg_font_filter_classic_secondary_label">ဒုတိယ</string>
     <string name="kg_font_filter_doodle_primary_label">လက်ရေးခြစ်</string>
@@ -487,8 +514,8 @@
     <string name="kg_font_filter_hsl_title">စိတ်ကြိုက်အရောင်</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">အချိန်</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">လက်မှတ်</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">မိနစ်</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">အဓိက</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">ဒုတိယ</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">ပင်တိုင်</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">နာရီ</string>
     <string name="kg_font_filter_object_label_date">ရက်စွဲ</string>
     <string name="kg_font_filter_object_label_date_color">ရက်စွဲအရောင်</string>
@@ -520,6 +547,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">ဤနောက်ခံပုံများတွင် အတိမ်အနက်အထူးပြုလုပ်ချက် မပံ့ပိုးပါ</string>
     <string name="kg_hierarchy_switch_label">အတိမ်အနက်အထူးပြုလုပ်ချက်</string>
     <string name="kg_line_spacing">လိုင်းစပေ့</string>
+    <string name="kg_live_photo_land_tips">အလျားလိုက် တိုက်ရိုက်ဓာတ်ပုံများကို အငြိမ်ပုံများအဖြစ်သာ သတ်မှတ်နိုင်သည်</string>
     <string name="kg_magazine_a_b_primary_color_label">နာရီ</string>
     <string name="kg_magazine_a_b_secondary_color_label">လက်မှတ်</string>
     <string name="kg_magazine_c_primary_color_label">အခြားစာသား</string>
@@ -548,16 +576,19 @@
     <string name="kg_template_description_rhombus">အချိန်ကအရေးကြီးသည်။ ၎င်းကိုထည့်တွက်ပါ။</string>
     <string name="kg_template_preview_content_description">အစမ်းကြည့်</string>
     <string name="kg_template_title_classic">ဂန္ထဝင်</string>
+    <string name="kg_template_title_classic_phone">ရှုခင်း</string>
     <string name="kg_template_title_eastern_art">အရှေ့တိုင်းဗေဒ</string>
     <string name="kg_template_title_magazine">မဂ္ဂဇင်း</string>
-    <string name="kg_template_title_mine">သော့ခတ်မျက်နှာပြင်</string>
+    <string name="kg_template_title_magazine_phone">လူများ</string>
+    <string name="kg_template_title_mine">မျက်နှာပြင် သော့ခတ်ရန်</string>
     <string name="kg_template_title_rhombus">အနားညီစတုဂံ</string>
     <string name="kg_time_language_string">ဂဏန်းများ</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">ပြင်ပပါတီနောက်ခံပုံကို ဖတ်မရပါ</string>
     <string name="kg_title_content">အကြောင်းအရာ</string>
     <string name="kg_title_fonts_and_content">ဖောင့်နှင့် အကြောင်းအရာ</string>
     <string name="kg_title_name">ဖောင့်</string>
-    <string name="kg_typesetting_string">အပြင်အဆင်</string>
+    <string name="kg_typesetting_string">စတိုင်</string>
+    <string name="kg_wallpaper_blur_effect">နောက်ခံပုံအဝါး</string>
     <string name="kg_wallpaper_filter_title">နောက်ခံပုံအထူးပြုလုပ်ချက်</string>
     <string name="kg_wallpaper_filter_type_crystallized">ခရစ်စတယ်</string>
     <string name="kg_wallpaper_filter_type_focus">ဆုံချက်</string>
@@ -569,6 +600,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">မှန်ဘီလူး</string>
     <string name="kg_wallpaper_filter_type_water">ရေ</string>
     <string name="kg_wallpaper_scale_hint_text">ဖြတ်ထုတ်ရန် ဖဲ့ပါ</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">ဤနောက်ခံပုံအတွက် လှိမ့်ခြင်းကို ဖွင့်မရပါ</string>
     <string name="kg_wallpaper_scroll_type_tips">နောက်ခံပုံ လိုက်ကာ</string>
     <string name="kg_word_spacing">အက္ခရာစပေ့</string>
     <string name="last_choice">ယခင်သုံးထားသောနည်း</string>
@@ -588,9 +620,9 @@
     <string name="lock_screen_template_unsupported_super_wallpaper_tip">ဤသော့ခတ်မျက်နှာပြင်တန်းပလိတ်သည် စူပါနောက်ခံပုံများကို မပံ့ပိုးပါ။ သုံးပြီးသည်နှင့် သော့ခတ်မျက်နှာပြင်ကို နဂိုအတိုင်းပြန်ပြောင်းပြီး ပင်မမျက်နှာပြင်နှင့် သော့ခတ်မျက်နှာပြင်နောက်ခံပုံများကို အစားထိုးလိုက်ပါမည်။ မဖြစ်မနေ သုံးလိုသလား။</string>
     <string name="lock_screen_template_unsupported_tip">သင်သုံးထားသော တန်းပလိတ်ကြောင့် ရှေ့ဆက်ပါက သော့ခတ်မျက်နှာပြင်ကို နဂိုအတိုင်းပြန်ပြောင်းသွားပါမည်။ မဖြစ်မနေရှေ့ဆက်လိုသလား။</string>
     <string name="lockscreen_apply_failured">သော့ခတ်မျက်နှာပြင်နောက်ခံပုံအဖြစ် အသုံးချ၍မရပါ</string>
-    <string name="lockscreen_apply_failured_but_home_apply_success">အိမ်မျက်နှာပြင် နောက်ခံပုံအဖြစ် ပြုလုပ်ခဲ့သည်။ သော့ခတ်မျက်နှာပြင် နောက်ခံပုံအဖြစ် အသုံးပြု၍ မရပါ။</string>
+    <string name="lockscreen_apply_failured_but_home_apply_success">ပင်မမျက်နှာပြင် နောက်ခံပုံအဖြစ် ပြုလုပ်ခဲ့သည်။ သော့ခတ်မျက်နှာပြင် နောက်ခံပုံအဖြစ် အသုံးပြု၍ မရပါ။</string>
     <string name="lockscreen_apply_success">သော့ခတ်မျက်နှာပြင် နောက်ခံပုံ အသုံးချခဲ့သည်</string>
-    <string name="lockscreen_apply_success_but_home_apply_failured">သော့ခတ်မျက်နှာပြင်နောက်ခံပုံအသုံးချခဲ့သည်။ အိမ်မျက်နှာပြင်နောက်ခံပုံ အသုံးချမရနိုင်ပါ။</string>
+    <string name="lockscreen_apply_success_but_home_apply_failured">သော့ခတ်မျက်နှာပြင်နောက်ခံပုံအသုံးချခဲ့သည်။ ပင်မမျက်နှာပြင်နောက်ခံပုံ အသုံးချမရနိုင်ပါ။</string>
     <string name="lockscreen_magazine_dialog_agree">သဘောတူပါသည်</string>
     <string name="lockscreen_magazine_dialog_close"><u>နောက်ခံပုံအရော ပိတ်ရန်</u></string>
     <string name="lockscreen_magazine_dialog_disagree">သဘောမတူပါ</string>
@@ -800,7 +832,7 @@ mm"</string>
     <string name="payment_coins_balance">(လက်ကျန် - %1s)</string>
     <string name="payment_coins_insufficient_balance">(လက်ကျန်ငွေ မလုံလောက်ပါ)</string>
     <string name="payment_data_move_tips">ပုဂ္ဂိုလ်ရေးလုံခြုံမှု စည်းမျဉ်းများကို လိုက်နာရန် သင့်အကောင့်ဒေတာများကို သင့်ဒေသရှိ ဆာဗာများသို့ ရွှေ့ပြောင်းပါမည်။ ရွှေ့ပြောင်းစဉ် ဒေတာပျောက်ဆုံးမှုများ ရှိနိုင်သည်။</string>
-    <string name="payment_instructions">&lt;Data>ငွေပေးချေမှုကို အပြီးသတ်ခြင်းဖြင့် သင်သည် &lt;a href=\"%1$s\">အက်(ပ်)တွင်းဝယ်ယူမှုများဆိုင်ရာ နို့တစ်များ&lt;/a>ကို သဘောတူရာရောက်သည်။&lt;/Data></string>
+    <string name="payment_instructions"><Data>ငွေပေးချေမှုကို အပြီးသတ်ခြင်းဖြင့် သင်သည် &lt;a href=\"%1$s\">အက်(ပ်)တွင်းဝယ်ယူမှုများဆိုင်ရာ နို့တစ်များ&lt;/a>ကို သဘောတူရာရောက်သည်။</Data></string>
     <string name="payment_method">ငွေပေးချေမှုနည်းလမ်း</string>
     <string name="permission_desc">သိမ်းထားသောအပြင်အဆင်များနှင့် အခြားအရာများကို သိုလှောင်ရန်</string>
     <string name="permission_pop_desc">တစ်ကိုယ်ရေအကြိုက်များကို ပြောင်းရန်နှင့် ဒေါင်းလုဒ်လုပ်ထားသောအရာများကို သိမ်းရန် အပြင်အဆင်များအား သိုလှောင်ခန်းဖတ်ခွင့် ဦးစွာပေးရပါမည်။</string>
@@ -1357,9 +1389,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">သဘောတူသည်</string>
     <string name="user_authorization_dialog_agree_a">သဘောတူပါသည်</string>
     <string name="user_authorization_dialog_disagree">ထွက်ရန်</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>ကျွန်ုပ်တို့သည် သင့်အားအခြေခံဝန်ဆောင်မှုများပေးနိုင်ရန် လိုအပ်သော ကိုယ်ရေးကိုယ်တာအချက်အလက်များ ကောက်ယူရန်လိုအပ်သည်။ ကောက်ယူရရှိထားသည့် ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို ကျွန်ုပ်တို့ကိုင်တွယ်ပုံအား ကျွန်ုပ်တို့၏ &lt;a href=\"%1$s\">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> တွင် လေ့လာနိုင်သည်။ သင်း(မ်)ကိုမသုံးမီ ကျွန်ုပ်တို့၏ &lt;a href=\"%2$s\">အသုံးပြုသူ သဘောတူညီချက်&lt;/a> နှင့် &lt;a href=\"%3$s\">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a>တို့ကို ဖတ်ရှုပြီး သဘောတူရပါမည်။ သင်း(မ်)၏ ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒအပေါ်
-သဘောတူခွင့်ပြုချက်ကို ဆက်တင်တွင် အချိန်မရွေးရုပ်သိမ်းနိုင်သည်။&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>ရှေ့မဆက်မီ ကျွန်ုပ်တို့၏ &lt;a href=\"%1$s\">အသုံးပြုသူသဘောတူညီချက်&lt;/a> နှင့် &lt;a href=\"%2$s\">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> ကို သဘောတူပါ။ ရွေးချယ်မှုများကို ဆက်တင်တွင် အချိန်မရွေးပြောင်းနိုင်သည်။&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"ကျွန်ုပ်တို့သည် သင့်အားအခြေခံဝန်ဆောင်မှုများပေးနိုင်ရန် လိုအပ်သော ကိုယ်ရေးကိုယ်တာအချက်အလက်များ ကောက်ယူရန်လိုအပ်သည်။ ကောက်ယူရရှိထားသည့် ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို ကျွန်ုပ်တို့ကိုင်တွယ်ပုံအား ကျွန်ုပ်တို့၏ &lt;a href=\"%1$s\">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> တွင် လေ့လာနိုင်သည်။ သင်း(မ်)ကိုမသုံးမီ ကျွန်ုပ်တို့၏ &lt;a href=\"%2$s\">အသုံးပြုသူ သဘောတူညီချက်&lt;/a> နှင့် &lt;a href=\"%3$s\">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a>တို့ကို ဖတ်ရှုပြီး သဘောတူရပါမည်။ သင်း(မ်)၏ ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒအပေါ်
+သဘောတူခွင့်ပြုချက်ကို ဆက်တင်တွင် အချိန်မရွေးရုပ်သိမ်းနိုင်သည်။"</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>ရှေ့မဆက်မီ ကျွန်ုပ်တို့၏ &lt;a href=\"%1$s\">အသုံးပြုသူသဘောတူညီချက်&lt;/a> နှင့် &lt;a href=\"%2$s\">ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ&lt;/a> ကို သဘောတူပါ။ ရွေးချယ်မှုများကို ဆက်တင်တွင် အချိန်မရွေးပြောင်းနိုင်သည်။</Data></string>
     <string name="user_authorization_dialog_title">စည်းကမ်းနှင့်သတ်မှတ်ချက်များ</string>
     <string name="user_know">ရပါပြီ</string>
     <string name="using_theme_has_update_tips">ဤသင်းမ်အတွက် အပ်ဒိတ်ရနိုင်ပါပြီ။</string>

@@ -690,7 +690,7 @@ Widget: %2$s
     <string name="allow_mock_modem">Povolit simulovaný modem</string>
     <string name="allow_mock_modem_summary">Povolte tomuto zařízení používat službu simulovaného modemu pro účely instrumentačního testu. Během běžného používání telefonu tuto možnost nepovolujte</string>
     <string name="allow_ongoing_summary">Povolí oznámení, která lze smazat pouze ručně</string>
-    <string name="allow_ongoing_title">Pevná upozornění</string>
+    <string name="allow_ongoing_title">Stálá upozornění</string>
     <string name="allow_overlay_description">Když tuto možnost povolíte, aplikace se bude moci zobrazovat přes ostatní aplikace, které používáte. Aplikace uvidí, kam jste klepli, nebo změní, co je zobrazeno na obrazovce.</string>
     <string name="allow_sound_title">Zvuk</string>
     <string name="allow_turn_screen_on">Povolit zapínání obrazovky</string>
@@ -2467,6 +2467,7 @@ Pokud je toto oprávnění zapnuté, aplikace bude dostupná jako možnost při 
     <string name="choose_unlock_face_msg">Před nahráním obličeje nastavte zámek obrazovky.</string>
     <string name="choose_unlock_fingerprint_msg">Před přidáním otisku prstu nastavte zámek obrazovky.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Zakroužkuj a hledej</string>
     <string name="classic_mode_summary">Pro snížení množství vyzařovaného modrého světla přepněte displej do teplejších barev</string>
     <string name="classic_mode_title">Klasický</string>
     <string name="cleaner">Čistič</string>
@@ -4310,6 +4311,9 @@ Když zapnete automatické zálohování, data zařízení a aplikací se budou 
     <string name="gaze_lock_screen_summary">Zařízení zůstane odemčené, když se budete dívat na obrazovku, a uzamkne se, když se podíváte jinam, aby chránilo vaše soukromí. Časový interval automatického zamykání nebude využit.</string>
     <string name="gaze_lock_screen_title">Zjišťovat přítomnost</string>
     <string name="gd_setting_title">Postranní lišta</string>
+    <string name="gemini_description">Posuňte své nápady dál chatováním s Gemini. Získejte pomoc při studiu, psaní děkovných zpráv, plánování událostí a spoustě dalšího. Využijte text, hlas, fotky nebo fotoaparát a nechte si pomoct novými způsoby. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Zjistit více o dostupnosti</a></string>
+    <string name="gemini_function">Posuňte své nápady dál s Google Gemini – vaším novým AI asistentem</string>
+    <string name="gemini_setting">Nastavení Gemini</string>
     <string name="general_category_title">Obecné</string>
     <string name="general_notification_header">Správa</string>
     <string name="general_text">Textové pole</string>
@@ -4322,6 +4326,12 @@ Když zapnete automatické zálohování, data zařízení a aplikací se budou 
     <string name="gesture_button_restart">Restartovat</string>
     <string name="gesture_button_skip">Přeskočit</string>
     <string name="gesture_function_dialog_message">%1$s je využito pro %2$s. Nahradit gestem \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Probudit dvojitým poklepáním na zamykací obrazovku</string>
+    <string name="gesture_lockcreen_sleep_title">Dvojitým poklepáním na zamykací obrazovku uspat</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Dvojitým klepnutím</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Nijak</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Klepnutím</string>
+    <string name="gesture_lockcreen_wakeup_title">Rozsvítit displej</string>
     <string name="gesture_preference_title">Gesta</string>
     <string name="gesture_prevent_ringing_screen_title">Deaktivovat vyzvánění</string>
     <string name="gesture_prevent_ringing_sound_title">Zkratka k vypnutí vyzvánění</string>
@@ -6474,7 +6484,7 @@ Zvolte váš operační systém:"</string>
     <string name="multi_face_input_reach_upper_limit">Přidání tváře se nezdařilo. Počkejte chvíli a zkuste to znovu.</string>
     <string name="multi_face_input_success_name_title">Jméno</string>
     <string name="multi_face_list">Tvář</string>
-    <string name="multi_face_name_prefix">"Tvář "</string>
+    <string name="multi_face_name_prefix">Tvář %s</string>
     <string name="multi_face_number_reach_limit">Nelze přidat více než 2 tváře</string>
     <string name="multi_music_coexistence_summary">Neupravovat hlasitost médií při přijetí nového oznámení nebo při přehrávání zvuku z jiného zdroje</string>
     <string name="multi_music_coexistence_title">Více zdrojů zvuku</string>
@@ -7219,7 +7229,12 @@ Před použitím této služby si přečtěte a souhlaste se %s."</string>
     <string name="photography_handle_charge_protected_summary">Po připojení držáku kamery se zařízení přestane nabíjet a ponechá baterii na %1$s</string>
     <string name="photography_handle_charge_settings">Nastavení nabíjení</string>
     <string name="photography_handle_charge_state">Nabíjení z držáků kamery</string>
+    <string name="photography_handle_charge_state_choice_always">Vždy</string>
+    <string name="photography_handle_charge_state_choice_emergency">Kritický stav</string>
     <string name="photography_handle_charge_state_summary">Nabijte toto zařízení z držáků kamery, kdykoliv jsou k němu připojeny</string>
+    <string name="photography_handle_charge_state_summary_new">Po připojení tohoto zařízení jej začněte nabíjet z držáku fotoaparátu</string>
+    <string name="photography_handle_emergency_charge_summary">Když úroveň nabití baterie klesne pod %1$s, zahájit nabíjení z důvodu kritického stavu</string>
+    <string name="photography_handle_emergency_charge_title">Kritická úroveň nabití</string>
     <string name="photography_handle_function_settings">Nastavení držáku fotoaparátu</string>
     <string name="photography_handle_launch_and_take_photo">Pořídit fotografii</string>
     <string name="photography_handle_launch_camera">Otevřít Fotoaparát</string>

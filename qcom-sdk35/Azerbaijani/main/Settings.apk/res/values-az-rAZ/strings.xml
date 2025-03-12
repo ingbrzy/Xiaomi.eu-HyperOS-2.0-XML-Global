@@ -910,6 +910,7 @@ Bu xüsusiyyəti Tənzimləmələr> Bluetooth > Cütləşdirilmiş cihazlar meny
     <string name="choose_unlock_face_msg">Üz məlumatını qeyd etməzdən əvvəl ekran kilidi təyin edin.</string>
     <string name="choose_unlock_fingerprint_msg">Barmaq izinizi əlavə etməzdən əvvəl ekran kilidi təyin edin.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Dairəyə alaraq axtarın</string>
     <string name="classic_mode_summary">Mavi işığın miqdarını azaltmaq üçün isti rənglərə keçin</string>
     <string name="classic_mode_title">Klassik</string>
     <string name="cleaner">Təmizləyici</string>
@@ -1909,9 +1910,18 @@ Bu xüsusiyyət yalnız sistem naviqasiyası jestlərə təyin edildikdə işlə
     <string name="gaze_lock_screen_summary">Ekrana baxdığın zaman cihaz kilidsiz qalacaq və kənara baxdiğın zaman isə məxfiliyi qorumaq üçün avtomatik kilidləmə zamanını üstələyərək kilidlənəcək.</string>
     <string name="gaze_lock_screen_title">Mövcudluğu aşkar edin</string>
     <string name="gd_setting_title">Kənar çubuq</string>
+    <string name="gemini_description">İdeyalarınızı super şarjlamaq üçün Gemini ilə çatlaşın. Təşəkkür notlarını öyrənməkdə, yazmaqda, iventlər planlamasında və daha çox üzrə kömək alın. Yeni üsullarla kömək almaq üçün mətn, səs, şəkillər və kameranızdan istifadə edin. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store"> Əlçatanlıq haqqında daha ətraflı</a></string>
+    <string name="gemini_function">Yeni Sİ Köməkçisi Google Gemini ilə ideyalarınızı super şarjlayın</string>
+    <string name="gemini_setting">Gemini Tənzimləmələri</string>
     <string name="general_text">Mətn sahəsi</string>
     <string name="general_time">Vaxt: %1$d:%2$d. Uzun titrəyişlər saatları, qısa titrəyişlər dəqiqələri təmsil edir.Saat və dəqiqə arasında qısa bir fasilə olacaq. Sınaq üçün iki dəfə toxunun.</string>
     <string name="gesture_function_dialog_message">%1$s , \"%2$s\" üçün istifadə edilir. \"%3$s\" ilə dəyişdirilsin?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Oyatmaq üçün Kilid ekranına iki dəfə toxunun</string>
+    <string name="gesture_lockcreen_sleep_title">Yatmaq üçün Kilid ekranına iki dəfə toxunun</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">İki dəfə toxunanda</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Heçnə</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Toxunanda</string>
+    <string name="gesture_lockcreen_wakeup_title">Ekranı oyat</string>
     <string name="gesture_settings_title">Jest qısayolları</string>
     <string name="gesture_to_split_screen">Jestlər</string>
     <string name="gesture_wakeup_summary">Siz yalnız \"Klassik\" və ya \"Limitsiz\" temadan istifadə edərkən ekranı söndürmək üçün iki dəfə toxuna bilərsiniz</string>
@@ -3079,7 +3089,7 @@ Bu hərəkəti geri qaytara bilməyəcəksiniz."</string>
     <string name="multi_face_input_reach_upper_limit">Üz məlumatı əlavə edilə bilmədi. Bir və ya iki dəqiqə gözləyin və yenidən cəhd edin.</string>
     <string name="multi_face_input_success_name_title">Adı</string>
     <string name="multi_face_list">Üz məlumatı</string>
-    <string name="multi_face_name_prefix">"Üz "</string>
+    <string name="multi_face_name_prefix">Üz məlumatı %s</string>
     <string name="multi_face_number_reach_limit">2-dən çox üz üçün məlumat əlavə etmək olmur</string>
     <string name="multi_music_coexistence_summary">Birdən çox tətbiqə eyni anda səs oynatmağa icazə verin və bildiriş səsləri çaldıqda medianın səsini azaltmayın</string>
     <string name="multi_music_coexistence_title">Eyni vaxtda oynatmağa icazə verin</string>
@@ -3466,7 +3476,12 @@ Bu xidmətdən istifadə etməzdən əvvəl %s-i oxuyun və qəbul edin."</strin
     <string name="photography_handle_charge_protected_summary">Kamera tutacağı qoşulduqda cihaz şarj etməyi dayandıracaq və batareyanı %1$s səviyyəsində saxlayacaq.</string>
     <string name="photography_handle_charge_settings">Şarj tənzimləmələri</string>
     <string name="photography_handle_charge_state">Kamera tutacaqlarından doldurun</string>
+    <string name="photography_handle_charge_state_choice_always">Həmişə</string>
+    <string name="photography_handle_charge_state_choice_emergency">Təcili</string>
     <string name="photography_handle_charge_state_summary">Bu cihazı hər dəfə qoşulduqda kamera tutacaqlarından doldurun</string>
+    <string name="photography_handle_charge_state_summary_new">Bu cihazı qoşulan kimi Kamera tutuşundan şarj etməyə başla</string>
+    <string name="photography_handle_emergency_charge_summary">Batareya göstəricisi %1$s aşağı düşən kimi təcili şarjlamanı başlat</string>
+    <string name="photography_handle_emergency_charge_title">Təcili şarj səviyyəsi</string>
     <string name="photography_handle_function_settings">Kamera tutuşu tənzimləmələri</string>
     <string name="photography_handle_launch_and_take_photo">Şəkil çək</string>
     <string name="photography_handle_launch_camera">Kameranı aç</string>

@@ -1718,7 +1718,7 @@ K zariadeniu %2$s ste sa ešte nikdy nepripojili."</string>
     <string name="bluetooth_device_details">Nastavenia zariadenia</string>
     <string name="bluetooth_device_keyboard_settings_preference_title">Nastavenia klávesnice</string>
     <string name="bluetooth_device_mac_address">Adresa Bluetooth zariadenia: %1$s</string>
-    <string name="bluetooth_device_misc_title">Ojedinele používané zariadenia</string>
+    <string name="bluetooth_device_misc_title">Zriedkavo používané zariadenia</string>
     <string name="bluetooth_device_name">"Názov: "</string>
     <string name="bluetooth_device_name_summary">Viditeľné pre ostatné zariadenia ako ^1</string>
     <string name="bluetooth_device_nearby_title">Zariadenia v okolí</string>
@@ -2194,7 +2194,7 @@ Túto funkciu môžete vypnúť v Nastaveniach > Bluetooth > Spárované zariade
     <string name="bt_plugin_set_net_dialog_retry">Skúste to znova</string>
     <string name="bt_plugin_set_net_dialog_title">Nepodarilo sa pripojiť k sieti</string>
     <string name="bt_pre_summary">Poskytuje vysoko kvalitný zvukový zážitok</string>
-    <string name="bt_rarely_used_device_title">Ojedinele používané zariadenia (%d)</string>
+    <string name="bt_rarely_used_device_title">Zriedkavo používané zariadenia (%d)</string>
     <string name="bt_show_notification_summary">Ponechať upozornenie v Notifikačnej roletke</string>
     <string name="bt_show_notification_title">Upozorniť na Bluetooth pripojenia</string>
     <string name="bt_stack_log_level">Povoliť denník zásobníka rozhrania Bluetooth</string>
@@ -2467,6 +2467,7 @@ Keď je toto povolenie zapnuté, aplikácia bude k dispozícii ako možnosť pr
     <string name="choose_unlock_face_msg">Pred pridaním údajov o tvári nastavte zámok obrazovky.</string>
     <string name="choose_unlock_fingerprint_msg">Pred pridaním odtlačku prsta nastavte zámok obrazovky.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Vyhľadávanie krúžením</string>
     <string name="classic_mode_summary">Prepnúť na teplejšie farby pre obmedzenie modrej farby</string>
     <string name="classic_mode_title">Klasický</string>
     <string name="cleaner">Čistenie</string>
@@ -4310,6 +4311,9 @@ Keď zapnete automatické zálohovanie, údaje zariadenia a aplikácií sa budú
     <string name="gaze_lock_screen_summary">Zariadenie zostane odomknuté, keď sa pozeráte na obrazovku, a zamkne sa, keď sa pozriete inam, aby chránilo vaše súkromie. Interval automatického uzamknutia sa nepoužíva.</string>
     <string name="gaze_lock_screen_title">Detekovať prítomnosť</string>
     <string name="gd_setting_title">Bočný panel</string>
+    <string name="gemini_description">Četujte s Gemini a vylepšite svoje nápady. Získajte pomoc pri učení, písaní ďakovných listov, plánovaní podujatí a ďalších činnostiach. Pomocou textu, hlasu, fotografií a fotoaparátu môžete získať pomoc novými spôsobmi. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Learn more about availability</a></string>
+    <string name="gemini_function">Zlepšite svoje nápady pomocou nového asistenta AI Google Gemini</string>
+    <string name="gemini_setting">Nastavenia Gemini</string>
     <string name="general_category_title">Všeobecné</string>
     <string name="general_notification_header">Správa</string>
     <string name="general_text">Textové pole</string>
@@ -4322,6 +4326,12 @@ Keď zapnete automatické zálohovanie, údaje zariadenia a aplikácií sa budú
     <string name="gesture_button_restart">Reštart.</string>
     <string name="gesture_button_skip">Preskočiť</string>
     <string name="gesture_function_dialog_message">%1$s je použité pre %2$s. Nahradiť gestom \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Dvakrát ťuknite na Zamknutú obrazovku pre prebudenie</string>
+    <string name="gesture_lockcreen_sleep_title">Dvakrát ťuknite na Zamknutú obrazovku pre uspanie</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Na dvojité ťuknutie</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Žiadne</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Na dotyk</string>
+    <string name="gesture_lockcreen_wakeup_title">Prebudiť obrazovku</string>
     <string name="gesture_preference_title">Gestá</string>
     <string name="gesture_prevent_ringing_screen_title">Vypnúť zvonenie</string>
     <string name="gesture_prevent_ringing_sound_title">Skratka na vypnutie zvonenia</string>
@@ -6474,7 +6484,7 @@ Vyberte váš operačný systém:"</string>
     <string name="multi_face_input_reach_upper_limit">Údaje o tvári sa nepodarilo načítať. Chvíľu počkajte a skúste to znovu.</string>
     <string name="multi_face_input_success_name_title">Názov</string>
     <string name="multi_face_list">Údaje o tvári</string>
-    <string name="multi_face_name_prefix">"Tvár "</string>
+    <string name="multi_face_name_prefix">Údaje o tvári %s</string>
     <string name="multi_face_number_reach_limit">Nie je možné pridať údaje pre viac ako 2 tváre</string>
     <string name="multi_music_coexistence_summary">Počas prichádzajúcich upozornení alebo pri prehrávaní zvuku z iného zdroja neupravujte hlasitosť médií</string>
     <string name="multi_music_coexistence_title">Viacero zdrojov zvuku</string>
@@ -7219,7 +7229,12 @@ Pred použitím tejto služby si prečítajte a vyjadrite súhlas s dokumentom %
     <string name="photography_handle_charge_protected_summary">Po pripojení držiaka fotoaparátu sa zariadenie prestane nabíjať a batéria zostane na úrovni %1$s</string>
     <string name="photography_handle_charge_settings">Nastavenia nabíjania</string>
     <string name="photography_handle_charge_state">Nabíjanie z držiaka fotoaparátu</string>
+    <string name="photography_handle_charge_state_choice_always">Vždy</string>
+    <string name="photography_handle_charge_state_choice_emergency">Núdzový stav</string>
     <string name="photography_handle_charge_state_summary">Nabíjať toto zariadenie z držiaka fotoaparátu vždy, keď je pripojený</string>
+    <string name="photography_handle_charge_state_summary_new">Po pripojení tohto zariadenia sa začne nabíjanie z držiaka fotoaparátu</string>
+    <string name="photography_handle_emergency_charge_summary">Spustiť núdzové nabíjanie, keď batéria klesne pod %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Núdzová úroveň nabíjania</string>
     <string name="photography_handle_function_settings">Nastavenie držiaka fotoaparátu</string>
     <string name="photography_handle_launch_and_take_photo">Vytvoriť fotografiu</string>
     <string name="photography_handle_launch_camera">Otvoriť fotoaparát</string>

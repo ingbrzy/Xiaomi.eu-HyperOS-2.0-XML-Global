@@ -524,9 +524,10 @@
     <string name="item_resource_audio_optional_phone_ring">Мелодия</string>
     <string name="item_view_role_description">Вкладка</string>
     <string name="kg_activity_label">Изменить экран блокировки</string>
+    <string name="kg_aod_settings_depth_video_toast">При использовании эффекта глубины поддерживается только настраиваемый режим «Активный экран»</string>
     <string name="kg_apply">Применить</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Только экран блокировки</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Применить</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Применить к обоим</string>
     <string name="kg_apply_to_all_alert_dialog_title">Применить эти обои также к Главному экрану?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Нет, спасибо</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Включить</string>
@@ -546,6 +547,7 @@
     <string name="kg_classic_item_empty">Нет</string>
     <string name="kg_classic_item_humidity">Влажность</string>
     <string name="kg_classic_item_lunar_date">Традиционный китайский календарь</string>
+    <string name="kg_classic_item_lunar_date1">Традиционный китайский календарь</string>
     <string name="kg_classic_item_lunar_month_day">Традиционный китайский календарь</string>
     <string name="kg_classic_item_lunar_year">Год (традиционный китайский календарь)</string>
     <string name="kg_classic_item_month">Месяц</string>
@@ -560,6 +562,10 @@
     <string name="kg_classic_item_step_number">Шаги</string>
     <string name="kg_classic_item_sunrise_or_sunset">Время восхода и заката солнца</string>
     <string name="kg_classic_item_temperature">Температура</string>
+    <string name="kg_classic_item_type_date">Дата</string>
+    <string name="kg_classic_item_type_health">Здоровье</string>
+    <string name="kg_classic_item_type_time">Время</string>
+    <string name="kg_classic_item_type_weather">Погода</string>
     <string name="kg_classic_item_ultraviolet_ray">УФ-индекс</string>
     <string name="kg_classic_item_vitality">Статистика</string>
     <string name="kg_classic_item_weather_cloudy">Облачно</string>
@@ -576,25 +582,45 @@
     <string name="kg_color_value_editor_title">Изменить цвет</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Настроить</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Применить тему</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Отмена</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Применить</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Сейчас вы используете набор обоев. Если вы примените новую тему, обои экрана блокировки и рабочего стола будут заменены, а также будет восстановлен предыдущий стиль активного экрана. Все равно применить?</string>
+    <string name="kg_depth_preset_button_download">Скачать динамические обои</string>
+    <string name="kg_depth_preset_button_downloading">Скачивание…</string>
+    <string name="kg_depth_preset_button_dynamic">Динамические</string>
+    <string name="kg_depth_preset_button_static">Статические</string>
+    <string name="kg_depth_preset_dialog_content">Скачать и применить динамическую версию этих обоев с эффектом глубины?</string>
+    <string name="kg_depth_preset_dialog_download_button">Скачать</string>
+    <string name="kg_depth_preset_dialog_image_button">Статическая версия</string>
+    <string name="kg_depth_preset_dialog_title">Скачать динамические обои</string>
+    <string name="kg_depth_preset_network_fail">Нет подключения к сети</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Нет подключения к сети. Скачивание приостановлено.</string>
+    <string name="kg_depth_produce_video_detail_failed">Эффект глубины можно использовать только в отношении людей, собак и кошек</string>
+    <string name="kg_depth_produce_video_failed">Не удалось применить эффект глубины</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI обрабатывает эффект глубины видео…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Эффект глубины видео включен. Полноэкранный формат режима «Активный экран» отключен.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Применить тему</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Отмена</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Применить</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Сейчас вы используете набор обоев. Если вы примените новую тему, обои Экрана блокировки и Рабочего стола будут заменены, а также будет восстановлен предыдущий стиль Активного экрана. Все равно применить?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Этот экран блокировки не поддерживает Суперобои. Обои рабочего стола и экрана блокировки будут заменены. Продолжить?</string>
+    <string name="kg_dialog_apply_successful">Успешно применено</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Вы используете Суперобои. Они будут заменены новыми обоями рабочего стола и экрана блокировки. Продолжить?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Отмена</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Отмена</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Сначала включите эффект глубины</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Отменить</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Применить</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Отмена</string>
     <string name="kg_dialog_fashion_gallery_message">Вы используете Карусель обоев. Использование динамических обоев отключит Карусель обоев. Применить?</string>
     <string name="kg_dialog_fashion_gallery_title">Внимание!</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Нельзя изменить шрифт, когда включены Двойные часы</string>
+    <string name="kg_dialog_no_content_available_the_moment">Здесь ничего нет</string>
+    <string name="kg_dialog_too_much_time_blocking">Часы затемнены. Невозможно использовать эффект глубины.</string>
     <string name="kg_discard_changes_text">Отменить изменения?</string>
     <string name="kg_doodle_font_label">Набросок</string>
     <string name="kg_doodle_primary_label">Набросок</string>
     <string name="kg_doodle_secondary_disable_tip">Включить эффект глубины</string>
     <string name="kg_doodle_secondary_label">Фон</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Нельзя использовать наброски при использовании этих часов</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Карусель обоев не поддерживает наброски</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Сторонние обои не поддерживают наброски</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Эти обои не поддерживают наброски</string>
@@ -607,6 +633,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Сторонние обои не поддерживают эффекты</string>
     <string name="kg_effects_tip_title">Эффект глубины и фильтры</string>
     <string name="kg_enable_blur">Матовый эффект</string>
+    <string name="kg_exit">Выйти</string>
     <string name="kg_font_filter_classic_primary_label">Основной</string>
     <string name="kg_font_filter_classic_secondary_label">Вторичный</string>
     <string name="kg_font_filter_doodle_primary_label">Набросок</string>
@@ -619,8 +646,8 @@
     <string name="kg_font_filter_hsl_title">Пользовательский цвет</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Время</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Подпись</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Минуты</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Главный</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Вторичный</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Основной</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Часы</string>
     <string name="kg_font_filter_object_label_date">Дата</string>
     <string name="kg_font_filter_object_label_date_color">Цвет даты</string>
@@ -652,6 +679,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Эти обои не поддерживают эффект глубины</string>
     <string name="kg_hierarchy_switch_label">Эффект глубины</string>
     <string name="kg_line_spacing">Межстрочный интервал</string>
+    <string name="kg_live_photo_land_tips">Горизонтальные живые фото можно установить только как статические фото</string>
     <string name="kg_magazine_a_b_primary_color_label">Часы</string>
     <string name="kg_magazine_a_b_secondary_color_label">Подпись</string>
     <string name="kg_magazine_c_primary_color_label">Другой текст</string>
@@ -680,16 +708,19 @@
     <string name="kg_template_description_rhombus">Время имеет большое значение.</string>
     <string name="kg_template_preview_content_description">Предпросмотр</string>
     <string name="kg_template_title_classic">Классика</string>
+    <string name="kg_template_title_classic_phone">Пейзажи</string>
     <string name="kg_template_title_eastern_art">Восточная эстетика</string>
     <string name="kg_template_title_magazine">Журнал</string>
-    <string name="kg_template_title_mine">Экран блокировки</string>
+    <string name="kg_template_title_magazine_phone">Люди</string>
+    <string name="kg_template_title_mine">Заблокировать</string>
     <string name="kg_template_title_rhombus">Ромб</string>
     <string name="kg_time_language_string">Цифры</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">Нельзя получить доступ к сторонним обоям</string>
     <string name="kg_title_content">Содержание</string>
     <string name="kg_title_fonts_and_content">Шрифт и содержание</string>
     <string name="kg_title_name">Шрифт</string>
-    <string name="kg_typesetting_string">Макет</string>
+    <string name="kg_typesetting_string">Стиль</string>
+    <string name="kg_wallpaper_blur_effect">Размытие обоев</string>
     <string name="kg_wallpaper_filter_title">Эффекты обоев</string>
     <string name="kg_wallpaper_filter_type_crystallized">Кристаллы</string>
     <string name="kg_wallpaper_filter_type_focus">Фокус</string>
@@ -701,6 +732,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Линза</string>
     <string name="kg_wallpaper_filter_type_water">Вода</string>
     <string name="kg_wallpaper_scale_hint_text">Сведите пальцы для обрезки</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Невозможно включить прокрутку для этих обоев</string>
     <string name="kg_wallpaper_scroll_type_tips">Прокрутка обоев</string>
     <string name="kg_word_spacing">Межсимвольный интервал</string>
     <string name="last_choice">Использованный в последний раз</string>
@@ -1011,7 +1043,7 @@ mm"</string>
     <string name="payment_coins_balance">(баланс: %1s)</string>
     <string name="payment_coins_insufficient_balance">(недостаточно средств)</string>
     <string name="payment_data_move_tips">В соответствии с правилами конфиденциальности данные учетной записи будут перенесены на серверы в вашем регионе. При переносе существует риск потери данных.</string>
-    <string name="payment_instructions">&lt;Data>Совершая платеж, вы соглашаетесь с &lt;a href=\"%1$s\">Уведомлением о встроенных покупках&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Совершая платеж, вы соглашаетесь с &lt;a href=\"%1$s\">Уведомлением о встроенных покупках&lt;/a>.</Data></string>
     <string name="payment_method">Способ оплаты</string>
     <string name="permission_desc">Для сохранения тем и других данных.</string>
     <string name="permission_pop_desc">Чтобы изменить параметры персонализации и сохранить загруженные объекты, разрешите Темам доступ к хранилищу.</string>
@@ -1587,9 +1619,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Согласиться</string>
     <string name="user_authorization_dialog_agree_a">Согласиться</string>
     <string name="user_authorization_dialog_disagree">Выход</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Для предоставления вам основных служб нам необходимо осуществлять сбор некоторой личной информации. Вы можете подробнее узнать о том, как мы обрабатываем собираемую информацию, в нашей &lt;a href=\"%1$s\">Политике конфиденциальности&lt;/a>. Перед использованием приложения Темы, ознакомьтесь и согласитесь с нашими &lt;a href=\"%2$s\">Условиями использования&lt;/a> и &lt;a href=\"%3$s\">Политикой конфиденциальности&lt;/a>.
-Вы можете в любое время отозвать свое согласие с Политикой конфиденциальности приложения Темы в Настройках.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Прежде чем продолжить, согласитесь с нашими &lt;a href=\"%1$s\">Условиями использования&lt;/a> и &lt;a href=\"%2$s\">Политикой конфиденциальности&lt;/a>. Вы можете в любое время изменить свои предпочтения в Настройках.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Для предоставления вам основных служб нам необходимо осуществлять сбор некоторой личной информации. Вы можете подробнее узнать о том, как мы обрабатываем собираемую информацию, в нашей &lt;a href=\"%1$s\">Политике конфиденциальности&lt;/a>. Перед использованием приложения Темы, ознакомьтесь и согласитесь с нашими &lt;a href=\"%2$s\">Условиями использования&lt;/a> и &lt;a href=\"%3$s\">Политикой конфиденциальности&lt;/a>.
+Вы можете в любое время отозвать свое согласие с Политикой конфиденциальности приложения Темы в Настройках."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Прежде чем продолжить, согласитесь с нашими &lt;a href=\"%1$s\">Условиями использования&lt;/a> и &lt;a href=\"%2$s\">Политикой конфиденциальности&lt;/a>. Вы можете в любое время изменить свои предпочтения в Настройках.</Data></string>
     <string name="user_authorization_dialog_title">Условия использования</string>
     <string name="user_know">Понятно</string>
     <string name="using_theme_has_update_tips">Доступно обновление для этой темы</string>

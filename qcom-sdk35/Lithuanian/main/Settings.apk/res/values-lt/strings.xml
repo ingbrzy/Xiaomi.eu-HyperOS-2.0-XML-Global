@@ -2467,6 +2467,7 @@ Jei šis leidimas įjungtas, programa bus pasiekiama kaip parinktis, kai žyma b
     <string name="choose_unlock_face_msg">Prieš pridėdami veido duomenis, nustatykite ekrano užraktą.</string>
     <string name="choose_unlock_fingerprint_msg">Prieš pridedant pirštų atspaudus, nustatykite ekrano užraktą.</string>
     <string name="choose_wechat_payment">„WeChat“</string>
+    <string name="circle_to_search_title">Paieška apibrėžiant</string>
     <string name="classic_mode_summary">Perjungti į šiltesnes spalvas, siekiant sumažinti mėlynosios šviesos kiekį.</string>
     <string name="classic_mode_title">Klasikinis</string>
     <string name="cleaner">Valymas</string>
@@ -3605,7 +3606,7 @@ Sugeneruotus žurnalus galite peržiūrėti failų tvarkyklėje."</string>
     <string name="enable_verbose_vendor_logging_summary">Į pranešimus apie riktą įtraukiami papildomi konkretaus įrenginio paslaugų teikėjo žurnalai, kuriuose gali būti privačios informacijos, kurie gali naudoti daugiau akumuliatoriaus energijos ir (arba) daugiau vietos saugykloje.</string>
     <string name="enable_wifi_display">Belaidis ekranas</string>
     <string name="enabled">Įj.</string>
-    <string name="enabled_authorised_apps_summary">Jūsų leidimas bus atšauktas, kai perjungsite atskirų programų jungiklius.</string>
+    <string name="enabled_authorised_apps_summary">Jūsų įgaliojimas bus atšauktas, kai perjungsite skirtingų programų jungiklius.</string>
     <string name="enabled_authorised_apps_title">Suteiktas leidimas</string>
     <string name="enabled_by_admin">Įgalino administratorius</string>
     <string name="enabled_locales_keyboard_layout">Išdėstymas</string>
@@ -4310,6 +4311,9 @@ Kai įjungiate automatinę atsarginę kopiją, įrenginio ir programų duomenys 
     <string name="gaze_lock_screen_summary">Siekiant apsaugoti jūsų privatumą, įrenginys bus atrakintas, kai žiūrėsite į ekraną ir užsirakins, kai pažiūrėsite į šoną, – taip perrašomi automatiniai užrakinimo parametrai</string>
     <string name="gaze_lock_screen_title">Buvimo aptikimas</string>
     <string name="gd_setting_title">Šoninė juosta</string>
+    <string name="gemini_description">Kalbėkitės su „Gemini“ savo idėjų tobulinimui. Gaukite pagalbos mokantis, rašant padėkas, planuojant renginius ir kt. Naudokite tekstą, balsą, nuotraukas ir fotoaparatą, kad gautumėte pagalbos įvairiais būdais. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Sužinokite daugiau apie prieinamumą</a></string>
+    <string name="gemini_function">Papildykite savo idėjas naudodami „Google Gemini“ - naująjį DI asistentą</string>
+    <string name="gemini_setting">„Gemini“ parametrai</string>
     <string name="general_category_title">Bendrieji</string>
     <string name="general_notification_header">Tvarkymas</string>
     <string name="general_text">Teksto laukas</string>
@@ -4322,6 +4326,12 @@ Kai įjungiate automatinę atsarginę kopiją, įrenginio ir programų duomenys 
     <string name="gesture_button_restart">Paleisti</string>
     <string name="gesture_button_skip">Praleisti</string>
     <string name="gesture_function_dialog_message">%1$s yra skirtas(-a) „%2$s“. Keisti į „%3$s“?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Dukart bakstelėkite užrakto ekrane jam pažadinti</string>
+    <string name="gesture_lockcreen_sleep_title">Dukart bakstelėkite užrakto ekrane norėdami jį užmigdyti</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Bakstelėjus dukart</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Nenustatyta</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Bakstelėjus</string>
+    <string name="gesture_lockcreen_wakeup_title">Pažadinti ekraną</string>
     <string name="gesture_preference_title">Gestai</string>
     <string name="gesture_prevent_ringing_screen_title">Skambėjimo išjungimas</string>
     <string name="gesture_prevent_ringing_sound_title">Spartusis klavišas, naudojamas siekiant išvengti skambėjimo</string>
@@ -6474,7 +6484,7 @@ Pasirinkite operacinę sistemą:"</string>
     <string name="multi_face_input_reach_upper_limit">Nepavyko pridėti veido duomenų. Minutėlę palaukite ir pabandykite dar kartą.</string>
     <string name="multi_face_input_success_name_title">Vardas</string>
     <string name="multi_face_list">Veido duomenys</string>
-    <string name="multi_face_name_prefix">"Veidas "</string>
+    <string name="multi_face_name_prefix">Veido duomenys %s</string>
     <string name="multi_face_number_reach_limit">Negalima pridėti daugiau nei dviejų veidų duomenų</string>
     <string name="multi_music_coexistence_summary">Nederinti medijų garsumo įeinančių pranešimų metu arba, kai grojamas garsas iš kito šaltinio</string>
     <string name="multi_music_coexistence_title">Keletas garso šaltinių</string>
@@ -7219,7 +7229,12 @@ Prieš naudodami šią paslaugą perskaitykite ir sutikite su %s."</string>
     <string name="photography_handle_charge_protected_summary">Kai įjungtas fotoaparato laikiklis, įrenginys nustos krautis ir baterija išliks %1$s</string>
     <string name="photography_handle_charge_settings">Įkrovimo parametrai</string>
     <string name="photography_handle_charge_state">Kraukite iš fotoaparato laikiklių</string>
+    <string name="photography_handle_charge_state_choice_always">Visada</string>
+    <string name="photography_handle_charge_state_choice_emergency">Skubi pagalba</string>
     <string name="photography_handle_charge_state_summary">Kai tik prijungti fotoaparato laikikliai, kraukite šį įrenginį iš jų</string>
+    <string name="photography_handle_charge_state_summary_new">Prijungę šį įrenginį pradėkite įkrauti iš kameros rankenėlės</string>
+    <string name="photography_handle_emergency_charge_summary">Pradėti avarinį įkrovimą, kai akumuliatorius nukrenta žemiau %1$s</string>
+    <string name="photography_handle_emergency_charge_title">Avarinio įkrovimo lygis</string>
     <string name="photography_handle_function_settings">Kameros rankenėlės parametrai</string>
     <string name="photography_handle_launch_and_take_photo">Fotografuoti</string>
     <string name="photography_handle_launch_camera">Atidaryti fotoaparatą</string>

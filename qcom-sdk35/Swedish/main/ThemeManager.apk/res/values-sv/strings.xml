@@ -521,9 +521,10 @@
     <string name="item_resource_audio_optional_phone_ring">Ringsignal</string>
     <string name="item_view_role_description">Flik</string>
     <string name="kg_activity_label">Redigera Låsskärm</string>
+    <string name="kg_aod_settings_depth_video_toast">Endast anpassad \"Skärm alltid på\" stöds när djupeffekten används</string>
     <string name="kg_apply">Tillämpa</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Endast Låsskärm</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Lägg till</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Tillämpa på båda</string>
     <string name="kg_apply_to_all_alert_dialog_title">Lägg till den här bakgrunden på Hemskärmen också?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Nej tack</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Aktivera</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">Inga</string>
     <string name="kg_classic_item_humidity">Fuktighet</string>
     <string name="kg_classic_item_lunar_date">Traditionell kinesisk kalender</string>
+    <string name="kg_classic_item_lunar_date1">Traditionell kinesisk kalender</string>
     <string name="kg_classic_item_lunar_month_day">Traditionell kinesisk kalender</string>
     <string name="kg_classic_item_lunar_year">År (Traditionell kinesisk kalender)</string>
     <string name="kg_classic_item_month">Månad</string>
@@ -557,6 +559,10 @@
     <string name="kg_classic_item_step_number">Steg</string>
     <string name="kg_classic_item_sunrise_or_sunset">Soluppgång och solnedgång</string>
     <string name="kg_classic_item_temperature">Temperatur</string>
+    <string name="kg_classic_item_type_date">Datum</string>
+    <string name="kg_classic_item_type_health">Hälsa</string>
+    <string name="kg_classic_item_type_time">Tid</string>
+    <string name="kg_classic_item_type_weather">Väder</string>
     <string name="kg_classic_item_ultraviolet_ray">UV-index</string>
     <string name="kg_classic_item_vitality">Statistik</string>
     <string name="kg_classic_item_weather_cloudy">Molnigt</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">Redigera färg</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Anpassa</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Använd tema</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Avbryt</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Lägg till</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Du använder ett bakgrundsset nu. Om du lägger till ett nytt tema, kommer både låsskärmens och hemskärmens bakgrunder att bytas ut, och Skärm alltid på kommer alltid att återställas till föregående stil. Lägg till ändå?</string>
+    <string name="kg_depth_preset_button_download">Ladda ner dynamisk bakgrund</string>
+    <string name="kg_depth_preset_button_downloading">Laddar ned…</string>
+    <string name="kg_depth_preset_button_dynamic">Dynamisk</string>
+    <string name="kg_depth_preset_button_static">Statisk</string>
+    <string name="kg_depth_preset_dialog_content">Ladda ner och tillämpa den dynamiska versionen av den här bakgrunden med djupeffekt?</string>
+    <string name="kg_depth_preset_dialog_download_button">Ladda ned</string>
+    <string name="kg_depth_preset_dialog_image_button">Statisk version</string>
+    <string name="kg_depth_preset_dialog_title">Ladda ner dynamisk bakgrund</string>
+    <string name="kg_depth_preset_network_fail">Ingen nätverksanslutning</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Ingen nätverksanslutning. Nedladdningen pausad.</string>
+    <string name="kg_depth_produce_video_detail_failed">Djupeffekten kan endast användas för människor, hundar och katter</string>
+    <string name="kg_depth_produce_video_failed">Kunde inte använda djupeffekt</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI bearbetar video-djupeffekten…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Video-djupeffekt är på. Helskärm \"Skärm allitd på\" är av.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Använd tema</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Avbryt</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Tillämpa</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Du använder ett bakgrundsset nu. Om du lägger till ett nytt tema, kommer både låsskärmens och hemskärmens bakgrunder att bytas ut, och Skärm alltid på kommer alltid att återställas till föregående stil. Lägg till ändå?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Den här Låsskärmen stöder inte Super-bakgrunder. Bakgrunden på både din Hem- och Låsskärm kommer att bytas ut om du fortsätter. Fortsätt ändå?</string>
+    <string name="kg_dialog_apply_successful">Framgångsrikt tillämpat</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Du använder för närvarande en Super-bakgrund. den kommer att ersättas med en ny bakgrund på nåde din Hem- och Låsskärm, om du fortsätter. Fortsätt ändå?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Avbryt</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Avbryt</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Aktivera först djupeffekt</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Kasta</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Tillämpa</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Avbryt</string>
     <string name="kg_dialog_fashion_gallery_message">Du använder för närvarande Bakgrundsbildskarusell. Att tillämpa dynamiska bakgrunder kommer att avaktivera Bakgrundsbildskarusell. Tillämpa ändå?</string>
     <string name="kg_dialog_fashion_gallery_title">Observera</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Kan inte redigera teckensnitt när dubbelklocka är aktiverat</string>
+    <string name="kg_dialog_no_content_available_the_moment">Inget här än</string>
+    <string name="kg_dialog_too_much_time_blocking">Klockan störs. Kan inte använda djupeffekt.</string>
     <string name="kg_discard_changes_text">Ignorera ändringar?</string>
     <string name="kg_doodle_font_label">Klotter</string>
     <string name="kg_doodle_primary_label">Klotter</string>
     <string name="kg_doodle_secondary_disable_tip">Aktivera djupeffekt</string>
     <string name="kg_doodle_secondary_label">Bakgrund</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Kan inte använda Klotter när den här klockan används</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Bakgrundsbildskarusell stöder inte klotter</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Tredjeparts bakgrunder stöder inte klotter</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Den här bakgrunden stöder inte klotter</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Tredjeparts bakgrunder stöder inte effekter</string>
     <string name="kg_effects_tip_title">Fördjupning av fält och filter</string>
     <string name="kg_enable_blur">Matt effekt</string>
+    <string name="kg_exit">Avsluta</string>
     <string name="kg_font_filter_classic_primary_label">Primär</string>
     <string name="kg_font_filter_classic_secondary_label">Sekundär</string>
     <string name="kg_font_filter_doodle_primary_label">Klotter</string>
@@ -616,8 +643,8 @@
     <string name="kg_font_filter_hsl_title">Anpassa färg</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Tid</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Signatur</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Minuter</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Huvudflik</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Sekundär</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Primär</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Timmar</string>
     <string name="kg_font_filter_object_label_date">Datum</string>
     <string name="kg_font_filter_object_label_date_color">Datumfärg</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Den här bakgrunden stöder inte djupeffekt</string>
     <string name="kg_hierarchy_switch_label">Djupeffekt</string>
     <string name="kg_line_spacing">Radavstånd</string>
+    <string name="kg_live_photo_land_tips">Horisontella live-foton kan endast anges som statiska foton</string>
     <string name="kg_magazine_a_b_primary_color_label">Klocka</string>
     <string name="kg_magazine_a_b_secondary_color_label">Signatur</string>
     <string name="kg_magazine_c_primary_color_label">Annan text</string>
@@ -677,8 +705,10 @@
     <string name="kg_template_description_rhombus">Tid är viktigt. Ta vara på den.</string>
     <string name="kg_template_preview_content_description">Förhandsgranska</string>
     <string name="kg_template_title_classic">Klassisk</string>
+    <string name="kg_template_title_classic_phone">Dekor</string>
     <string name="kg_template_title_eastern_art">Österländsk konst</string>
     <string name="kg_template_title_magazine">Magasin</string>
+    <string name="kg_template_title_magazine_phone">Människor</string>
     <string name="kg_template_title_mine">Låsskärm</string>
     <string name="kg_template_title_rhombus">Romb</string>
     <string name="kg_time_language_string">Siffror</string>
@@ -686,7 +716,8 @@
     <string name="kg_title_content">Innehåll</string>
     <string name="kg_title_fonts_and_content">Teckensnitt och innehåll</string>
     <string name="kg_title_name">Teckensnitt</string>
-    <string name="kg_typesetting_string">Design</string>
+    <string name="kg_typesetting_string">Stil</string>
+    <string name="kg_wallpaper_blur_effect">Suddig bakgrund</string>
     <string name="kg_wallpaper_filter_title">Bakgrundseffekter</string>
     <string name="kg_wallpaper_filter_type_crystallized">Kristaller</string>
     <string name="kg_wallpaper_filter_type_focus">Fokus</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Lins</string>
     <string name="kg_wallpaper_filter_type_water">Vatten</string>
     <string name="kg_wallpaper_scale_hint_text">Nyp för att beskära</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Kan inte aktivera bläddring för den här bakgrunden</string>
     <string name="kg_wallpaper_scroll_type_tips">Bakgrundsskroll</string>
     <string name="kg_word_spacing">Teckenavstånd</string>
     <string name="last_choice">Använd senast</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Otillräckligt saldo)</string>
     <string name="payment_data_move_tips">Din kontoinformation kommer att flyttas till servrar i din region, för att efterleva integritetsbestämmelserna. Det finns en risk för data-förlust vid flytten.</string>
-    <string name="payment_instructions">&lt;Data>Genom att genomföra betalningen, godtar du &lt;a href=\"%1$s\">Meddelandet om köp i appen&lt;/a>&lt;/Data></string>
+    <string name="payment_instructions"><Data>Genom att genomföra betalningen, godtar du &lt;a href=\"%1$s\">Meddelandet om köp i appen&lt;/a></Data></string>
     <string name="payment_method">Betalningsmetod</string>
     <string name="permission_desc">För lagring av sparade teman och andra objekt</string>
     <string name="permission_pop_desc">För att kunna ändra personliga preferenser och spara nedladdade objekt, tillåt Teman att få åtkomst till lagringen först.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Acceptera</string>
     <string name="user_authorization_dialog_agree_a">Godkänn</string>
     <string name="user_authorization_dialog_disagree">Avsluta</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Vi behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Teman.
-Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Teman i Inställningarna.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Acceptera vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> innan du fortsätter. Du kan ändra dina preferenser när som helst i Inställningar.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Vi behöver samla in nödvändig personlig information för att förse dig med de grundläggande tjänsterna. Du kan lära dig hur vi hanterar den information vi samlar in i vår &lt;a href=\"%1$s\">Integritetspolicy&lt;/a>. Läs och acceptera vårt &lt;a href=\"%2$s\">Användaravtal&lt;/a> och &lt;a href=\"%3$s\">Integritetspolicy&lt;/a> innan du använder Teman.
+Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Teman i Inställningarna."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Acceptera vårt &lt;a href=\"%1$s\">Användaravtal&lt;/a> och &lt;a href=\"%2$s\">Integritetspolicy&lt;/a> innan du fortsätter. Du kan ändra dina preferenser när som helst i Inställningar.</Data></string>
     <string name="user_authorization_dialog_title">Regler och villkor</string>
     <string name="user_know">Uppfattat</string>
     <string name="using_theme_has_update_tips">En uppdatering för detta tema är tillgänglig.</string>

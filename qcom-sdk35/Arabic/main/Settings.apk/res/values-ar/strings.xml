@@ -2467,6 +2467,7 @@ aptX التكيفي: وضع الترميز"</string>
     <string name="choose_unlock_face_msg">تعيين قفل الشاشة قبل تسجيل بيانات الوجه.</string>
     <string name="choose_unlock_fingerprint_msg">تعيين قفل الشاشة قبل إضافة بصمة إصبعك.</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">دائرة البحث</string>
     <string name="classic_mode_summary">التبديل إلى الألوان الدافئة لتقليل كمية الضوء الأزرق</string>
     <string name="classic_mode_title">كلاسيكي</string>
     <string name="cleaner">المنظف</string>
@@ -4309,6 +4310,9 @@ aptX التكيفي: وضع الترميز"</string>
     <string name="gaze_lock_screen_summary">سيظل الجهاز مفتوحًا عندما تنظر إلى الشاشة ويقفل عندما تنظر بعيدًا لحماية خصوصيتك، مما يؤدي إلى تجاوز إعداد وقت القفل التلقائي</string>
     <string name="gaze_lock_screen_title">اكتشاف التواجد</string>
     <string name="gd_setting_title">الشريط الجانبي</string>
+    <string name="gemini_description">تحدث مع Gemini لتعزيز أفكارك. احصل على المساعدة في التعلم، وكتابة رسائل الشكر وتخطيط الفعاليات والمزيد. استخدم النصوص والصوت والصور والكاميرا للحصول على المساعدة بطرق جديدة. <a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">تعرف على المزيد حول التوفر</a>.</string>
+    <string name="gemini_function">اطلق العنان لأفكارك مع Google Gemini، مساعدك الذكي الجديد.</string>
+    <string name="gemini_setting">إعدادات Gemini</string>
     <string name="general_category_title">الإعدادات العامة</string>
     <string name="general_notification_header">إدارة</string>
     <string name="general_text">حقل النص</string>
@@ -4321,6 +4325,12 @@ aptX التكيفي: وضع الترميز"</string>
     <string name="gesture_button_restart">إعادة تشغيل</string>
     <string name="gesture_button_skip">التخطّي</string>
     <string name="gesture_function_dialog_message">يستخدم %1$s لـ \"%2$s\". هل تريد استبداله مع \"%3$s\"؟</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">انقر مرتين على شاشة قفل لإيقاظها</string>
+    <string name="gesture_lockcreen_sleep_title">انقر مرتين على شاشة قفل لإغلاقها</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">النقر مرتين</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">بدون</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">النقر مرة واحدة</string>
+    <string name="gesture_lockcreen_wakeup_title">إيقاظ الشاشة</string>
     <string name="gesture_preference_title">الإيماءات</string>
     <string name="gesture_prevent_ringing_screen_title">منع الرنين</string>
     <string name="gesture_prevent_ringing_sound_title">اختصار لمنع الرنين</string>
@@ -4789,7 +4799,7 @@ Xiaomi Cloud
     <string name="interact_across_profiles_switch_enabled">ربط التطبيقات</string>
     <string name="interact_across_profiles_title">الربط بين تطبيقات العمل والتطبيقات الشخصية</string>
     <string name="interaction_control_category_title">عناصر التحكم في التفاعل</string>
-    <string name="interconnection">الاتصال</string>
+    <string name="interconnection">الاتصال البيني</string>
     <string name="interesting_text">تجعل الأحاسيس الملموسة الواقعية تفاعلك مع الشاشة أكثر وضوحًا وعمقًا.</string>
     <string name="interesting_title">لمسة واقعية</string>
     <string name="internal_auto_rotate_title">قفل تدوير الشاشة الداخلية</string>
@@ -6474,7 +6484,7 @@ Xiaomi Cloud
     <string name="multi_face_input_reach_upper_limit">تعذر إضافة بيانات الوجه. انتظر دقيقة أو اثنتين وحاول مرة أخرى.</string>
     <string name="multi_face_input_success_name_title">الاسم</string>
     <string name="multi_face_list">بيانات الوجه</string>
-    <string name="multi_face_name_prefix">"الوجه "</string>
+    <string name="multi_face_name_prefix">بيانات الوجه %s</string>
     <string name="multi_face_number_reach_limit">لا يمكن إضافة بيانات لأكثر من وجهين</string>
     <string name="multi_music_coexistence_summary">السماح لتطبيقات متعددة بتشغيل الصوت مرة واحدة ولا تخفض مستوى صوت الوسائط عند تشغيل أصوات الإشعارات</string>
     <string name="multi_music_coexistence_title">السماح بالتشغيل المتزامن</string>
@@ -7219,7 +7229,12 @@ Xiaomi Cloud
     <string name="photography_handle_charge_protected_summary">عند توصيل مقبض الكاميرا، سيتوقف الجهاز عن الشحن وسيحتفظ بالبطارية عند مستوى %1$s</string>
     <string name="photography_handle_charge_settings">إعدادات الشحن</string>
     <string name="photography_handle_charge_state">شحن من مقابض الكاميرا</string>
+    <string name="photography_handle_charge_state_choice_always">دائمًا</string>
+    <string name="photography_handle_charge_state_choice_emergency">الطوارئ</string>
     <string name="photography_handle_charge_state_summary">شحن هذا الجهاز من مقابض الكاميرا عندما تكون متصلة</string>
+    <string name="photography_handle_charge_state_summary_new">بدء شحن هذا الجهاز من مقبض الكاميرا عند توصيله</string>
+    <string name="photography_handle_emergency_charge_summary">بدء الشحن الطارئ عندما تنخفض البطارية لأقل من %1$s</string>
+    <string name="photography_handle_emergency_charge_title">مستوى الشحن الطارئ</string>
     <string name="photography_handle_function_settings">إعدادات مقبض الكاميرا</string>
     <string name="photography_handle_launch_and_take_photo">أخذ صورة</string>
     <string name="photography_handle_launch_camera">فتح الكاميرا</string>

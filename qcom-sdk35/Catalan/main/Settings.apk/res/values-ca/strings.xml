@@ -2467,6 +2467,7 @@ Si aquest permís està activat, l'aplicació estarà disponible com una opció 
     <string name="choose_unlock_face_msg">Establiu un bloqueig de pantalla abans de gravar les dades facials.</string>
     <string name="choose_unlock_fingerprint_msg">"Establiu el bloqueig de pantalla abans d'afegir la vostra empremta digital."</string>
     <string name="choose_wechat_payment">WeChat</string>
+    <string name="circle_to_search_title">Encercla per cercar</string>
     <string name="classic_mode_summary">Canvia a colors més càlids per a reduir la quantitat de llum blava</string>
     <string name="classic_mode_title">Clàssic</string>
     <string name="cleaner">Netejador</string>
@@ -4310,6 +4311,9 @@ Quan activis les còpies de seguretat automàtiques, les dades dels dispositius 
     <string name="gaze_lock_screen_summary">El dispositiu romandrà desbloquejat quan mireu la pantalla i es bloquejarà quan mireu cap a un altre costat per protegir la vostra privadesa, anul·lant la vostra configuració de temps de bloqueig automàtic</string>
     <string name="gaze_lock_screen_title">Detecta la presència</string>
     <string name="gd_setting_title">Barra lateral</string>
+    <string name="gemini_description">"Xateja amb Gemini per potenciar les teves idees. Obteniu ajuda per aprendre, escriure notes d'agraïment, planificar esdeveniments i molt més. Utilitzeu el text, la veu, les fotos i la càmera per obtenir ajuda de noves maneres. "<a href="https://support.google.com/gemini/answer/14579026#zippy=%2Cwhere-you-can-download-the-gemini-app-from-the-google-play-store">Més informació sobre la disponibilitat</a></string>
+    <string name="gemini_function">Potencieu les vostres idees amb Google Gemini, el vostre nou assistent amb IA</string>
+    <string name="gemini_setting">Configuració de Gemini</string>
     <string name="general_category_title">General</string>
     <string name="general_notification_header">Gestiona</string>
     <string name="general_text">Camp de text</string>
@@ -4322,6 +4326,12 @@ Quan activis les còpies de seguretat automàtiques, les dades dels dispositius 
     <string name="gesture_button_restart">Reinicia</string>
     <string name="gesture_button_skip">Omet</string>
     <string name="gesture_function_dialog_message">%1$s és utilitzat per a \"%2$s\". Voleu reemplaçar-la amb \"%3$s\"?</string>
+    <string name="gesture_lockcreen_doubletap_wakeup_title">Toqueu dues vegades la Pantalla de bloqueig per activar</string>
+    <string name="gesture_lockcreen_sleep_title">Toqueu dues vegades la Pantalla de bloqueig per suspendre</string>
+    <string name="gesture_lockcreen_wakeup_mode_doubletap">Doble toc</string>
+    <string name="gesture_lockcreen_wakeup_mode_none">Cap</string>
+    <string name="gesture_lockcreen_wakeup_mode_singletap">Un toc</string>
+    <string name="gesture_lockcreen_wakeup_title">Activa la pantalla</string>
     <string name="gesture_preference_title">Gestos</string>
     <string name="gesture_prevent_ringing_screen_title">Impedeix els sons</string>
     <string name="gesture_prevent_ringing_sound_title">Drecera per impedir que soni</string>
@@ -6474,7 +6484,7 @@ Seleccioneu el sistema operatiu:"</string>
     <string name="multi_face_input_reach_upper_limit">"No s'han pogut afegir les dades facials. Espera un o dos minuts i torna-ho a provar."</string>
     <string name="multi_face_input_success_name_title">Nom</string>
     <string name="multi_face_list">Dades facials</string>
-    <string name="multi_face_name_prefix">"Cara "</string>
+    <string name="multi_face_name_prefix">Dades facials %s</string>
     <string name="multi_face_number_reach_limit">No es poden afegir dades per a més de 2 cares</string>
     <string name="multi_music_coexistence_summary">"No ajustar el volum de multimèdia durant les notificacions d'entrada o mentre s'està reproduint el so d'una altra font"</string>
     <string name="multi_music_coexistence_title">Diverses fonts de so</string>
@@ -7219,7 +7229,12 @@ Llegiu i accepteu %s abans d'utilitzar aquest servei."</string>
     <string name="photography_handle_charge_protected_summary">"Quan l'empunyadura de la càmera està connectada, el dispositiu deixarà de carregar-se i mantindrà la bateria al %1$s"</string>
     <string name="photography_handle_charge_settings">Configuració de càrrega</string>
     <string name="photography_handle_charge_state">"Càrrega des de l'empunyadura de la càmera"</string>
+    <string name="photography_handle_charge_state_choice_always">Sempre</string>
+    <string name="photography_handle_charge_state_choice_emergency">Emergència</string>
     <string name="photography_handle_charge_state_summary">Carregueu aquest dispositiu des de les pinces de la càmera sempre que estiguin connectats</string>
+    <string name="photography_handle_charge_state_summary_new">"Comenceu a carregar aquest dispositiu des de l'empunyadura de la càmera un cop connectat"</string>
+    <string name="photography_handle_emergency_charge_summary">"Inicieu la càrrega d'emergència quan la bateria baixi de %1$s"</string>
+    <string name="photography_handle_emergency_charge_title">"Nivell de càrrega d'emergència"</string>
     <string name="photography_handle_function_settings">Configuració del Grip de la càmera</string>
     <string name="photography_handle_launch_and_take_photo">Fes una foto</string>
     <string name="photography_handle_launch_camera">Obre la càmera</string>
@@ -7492,7 +7507,7 @@ Prem el botó d'engegada i el d'apujar el volum a la vegada"</string>
     <string name="priority_title">Prioritat</string>
     <string name="privacy_advanced_settings">Més opcions de configuració de privadesa</string>
     <string name="privacy_and_security">Privadesa i seguretat</string>
-    <string name="privacy_authorize_cloud_msg">"Per garantir la seguretat de la teva compte, inicia sessió a i.mi.com si vols revocar l'autorització dels serveis Núvol Xiaomi (incloent sincronització i copies de seguretat)."</string>
+    <string name="privacy_authorize_cloud_msg">"Per garantir la seguretat del vostre compte, inicieu sessió a i.mi.com si voleu revocar l'autorització dels Serveis del Núvol Xiaomi (incloent sincronització i copies de seguretat)."</string>
     <string name="privacy_authorize_dialog_agree">"D'acord"</string>
     <string name="privacy_authorize_dialog_exit">Sortir</string>
     <string name="privacy_authorize_dialog_message">"&lt;Data>Per fer servir les funcions bàsiques d'aquest servei deveu acceptar que Xiaomi reculli, processi i faci servir la vostra informació personal. Consulteu la nostre Política de Privadesa per veure com recollim i processem l'informació personal. Seleccionant \"D'acord\" significa que heu llegit i esteu d'acord amb la nostre &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Política de Privadesa&lt;/a> y &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Acord d'Usuari&lt;/a>.​&lt;/Data>"</string>

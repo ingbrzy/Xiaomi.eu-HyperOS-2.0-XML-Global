@@ -521,15 +521,16 @@
     <string name="item_resource_audio_optional_phone_ring">To</string>
     <string name="item_view_role_description">Tabulador</string>
     <string name="kg_activity_label">Editeu la Pantalla de bloqueig</string>
+    <string name="kg_aod_settings_depth_video_toast">"Només s'admet la visualització personalitzada de la Pantalla sempre encesa quan s'utilitza l'efecte de profunditat"</string>
     <string name="kg_apply">Aplica</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Només a la Pantalla de bloqueig</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Aplica</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Aplica a tots dos</string>
     <string name="kg_apply_to_all_alert_dialog_title">"Voleu aplicar aquest fons de pantalla també a la Pantalla d'inici?"</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">No, gràcies</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Activa</string>
     <string name="kg_apply_to_aod_alert_dialog_title">Vols activar també la Pantalla sempre encesa?</string>
     <string name="kg_applying">"S'està aplicant…"</string>
-    <string name="kg_cancel">Surt</string>
+    <string name="kg_cancel">Tanca</string>
     <string name="kg_capsule_button_text_finish">Fet</string>
     <string name="kg_classic_align_label">Alineació</string>
     <string name="kg_classic_item_air_pressure">Pressió</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">Cap</string>
     <string name="kg_classic_item_humidity">Humitat</string>
     <string name="kg_classic_item_lunar_date">Calendari tradicional xinès</string>
+    <string name="kg_classic_item_lunar_date1">Calendari tradicional xinès</string>
     <string name="kg_classic_item_lunar_month_day">Calendari tradicional xinès</string>
     <string name="kg_classic_item_lunar_year">Any (calendari xinès tradicional)</string>
     <string name="kg_classic_item_month">Mes</string>
@@ -557,6 +559,10 @@
     <string name="kg_classic_item_step_number">Passes</string>
     <string name="kg_classic_item_sunrise_or_sunset">Alba i ocàs</string>
     <string name="kg_classic_item_temperature">Temperatura</string>
+    <string name="kg_classic_item_type_date">Data</string>
+    <string name="kg_classic_item_type_health">Salut</string>
+    <string name="kg_classic_item_type_time">Hora</string>
+    <string name="kg_classic_item_type_weather">Temps</string>
     <string name="kg_classic_item_ultraviolet_ray">Índex UV</string>
     <string name="kg_classic_item_vitality">Estadístiques</string>
     <string name="kg_classic_item_weather_cloudy">Nuvolós</string>
@@ -573,26 +579,46 @@
     <string name="kg_color_value_editor_title">Editar color</string>
     <string name="kg_confirm">"D'acord"</string>
     <string name="kg_customize">Personalitza</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Aplica el tema</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Cancel·la</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Aplica</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">"Ara esteu fent servir un fons de pantalla. Si apliqueu un tema nou, els fons de pantalla de la Pantalla de bloqueig i de la Pantalla d'inici se substituiran i la pantalla sempre activada es restaurarà a l'estil anterior. Voleu aplicar-lo de totes maneres?"</string>
+    <string name="kg_depth_preset_button_download">Baixeu fons de pantalla dinàmic</string>
+    <string name="kg_depth_preset_button_downloading">"S'està baixant…"</string>
+    <string name="kg_depth_preset_button_dynamic">Dinàmic</string>
+    <string name="kg_depth_preset_button_static">Estàtic</string>
+    <string name="kg_depth_preset_dialog_content">"Voleu baixar i aplicar la versió dinàmica d'aquest fons de pantalla amb efecte de profunditat?"</string>
+    <string name="kg_depth_preset_dialog_download_button">Baixa</string>
+    <string name="kg_depth_preset_dialog_image_button">Versió estàtica</string>
+    <string name="kg_depth_preset_dialog_title">Baixeu fons de pantalla dinàmic</string>
+    <string name="kg_depth_preset_network_fail">Sense connexió de xarxa</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Sense connexió de xarxa. Baixades en pausa.</string>
+    <string name="kg_depth_produce_video_detail_failed">"L'efecte de profunditat només es pot utilitzar per a persones, gossos i gats"</string>
+    <string name="kg_depth_produce_video_failed">"No s'ha pogut aplicar l'efecte de profunditat"</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">"La IA està processant l'efecte de profunditat del vídeo…"</string>
+    <string name="kg_depth_video_apply_aod_close_toast">El efecte de profunditat està activat. La pantalla completa sempre encesa està desactivada.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Aplica el tema</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Cancel·la</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Aplica</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">"Ara esteu fent servir un fons de pantalla. Si apliqueu un tema nou, els fons de pantalla de la Pantalla de bloqueig i de la Pantalla d'inici se substituiran i la pantalla sempre activada es restaurarà a l'estil anterior. Voleu aplicar-lo de totes maneres?"</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">"Aquesta Pantalla de bloqueig no admet Superfons de pantalla. El fons de pantalla de la vostra Pantalla d'inici i de la Pantalla de bloqueig es substituirà si continueu. Voleu continuar igualment?"</string>
+    <string name="kg_dialog_apply_successful">Aplicat correctament</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">"Actualment esteu utilitzant un Superfons de pantalla. Se substituirà per un fons de pantalla nou tant a la Pantalla d'inici com a la de bloqueig si continueu. Voleu continuar igualment?"</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Cancel·la</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Cancel·la</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">"D'acord"</string>
+    <string name="kg_dialog_enable_depth_function">"Primer activa l'efecte de profunditat"</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Descarta</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Aplica</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Cancel·la</string>
     <string name="kg_dialog_fashion_gallery_message">Actualment estàs utilitzant Tipus de fons de pantalla. Si apliqueu un fons de pantalla dinàmic, es desactivarà el Tipus de fons de pantalla. Voleu aplicar-lo de totes maneres?</string>
     <string name="kg_dialog_fashion_gallery_title">Atenció</string>
     <string name="kg_dialog_fontfilter_dualclock_button">No es pot editar el tipus de lletra quan el Rellotge dual està activat</string>
+    <string name="kg_dialog_no_content_available_the_moment">Encara no hi ha res</string>
+    <string name="kg_dialog_too_much_time_blocking">"El rellotge està enfosquit. No es pot utilitzar l'efecte de profunditat."</string>
     <string name="kg_discard_changes_text">Voleu descartar els canvis?</string>
     <string name="kg_doodle_font_label">Gargot</string>
     <string name="kg_doodle_primary_label">Gargots</string>
     <string name="kg_doodle_secondary_disable_tip">"Activa l'efecte de profunditat"</string>
     <string name="kg_doodle_secondary_label">Fons</string>
-    <string name="kg_doodle_text_not_support_gallery_tip">El Tipus de fons de pantalla no admet els gargots</string>
+    <string name="kg_doodle_text_not_support_clock_tip">"No es poden utilitzar gargots quan s'utilitza aquest rellotge"</string>
+    <string name="kg_doodle_text_not_support_gallery_tip">Tipus de fons de pantalla no admet els gargots</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Els fons de pantalla de tercers no admeten gargots</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Aquest fons de pantalla no admet els gargots</string>
     <string name="kg_edit_cancel_dialog_content">Vols descartar tots els canvis ara?</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Els fons de pantalla de tercers no admeten efectes</string>
     <string name="kg_effects_tip_title">Profunditat de camp i filtres</string>
     <string name="kg_enable_blur">Efecte mat</string>
+    <string name="kg_exit">Surt</string>
     <string name="kg_font_filter_classic_primary_label">Principal</string>
     <string name="kg_font_filter_classic_secondary_label">Secundària</string>
     <string name="kg_font_filter_doodle_primary_label">Gargot</string>
@@ -616,7 +643,7 @@
     <string name="kg_font_filter_hsl_title">Color personalitzat</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Temps</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Firma</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Minuts</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Secundària</string>
     <string name="kg_font_filter_magazine_c_style_1_primary_label">Principal</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Hores</string>
     <string name="kg_font_filter_object_label_date">Data</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">"Aquest fons de pantalla no admet l'efecte de profunditat"</string>
     <string name="kg_hierarchy_switch_label">Efecte de profunditat</string>
     <string name="kg_line_spacing">Espai entre línies</string>
+    <string name="kg_live_photo_land_tips">Les fotos en directe horitzontals només es poden definir com a fotos estàtiques</string>
     <string name="kg_magazine_a_b_primary_color_label">Rellotge</string>
     <string name="kg_magazine_a_b_secondary_color_label">Firma</string>
     <string name="kg_magazine_c_primary_color_label">Un altre text</string>
@@ -677,16 +705,19 @@
     <string name="kg_template_description_rhombus">El temps és important. Fes que valgui la pena.</string>
     <string name="kg_template_preview_content_description">Vista prèvia</string>
     <string name="kg_template_title_classic">Clàssic</string>
+    <string name="kg_template_title_classic_phone">Paisatge</string>
     <string name="kg_template_title_eastern_art">Estètica oriental</string>
     <string name="kg_template_title_magazine">Revista</string>
+    <string name="kg_template_title_magazine_phone">Persones</string>
     <string name="kg_template_title_mine">Pantalla de bloqueig</string>
     <string name="kg_template_title_rhombus">Rombe</string>
     <string name="kg_time_language_string">Dígits</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">No es pot accedir al fons de pantalla de tercers</string>
     <string name="kg_title_content">Contingut</string>
-    <string name="kg_title_fonts_and_content">Lletra i contingut</string>
+    <string name="kg_title_fonts_and_content">Tipus de lletra i contingut</string>
     <string name="kg_title_name">Lletra</string>
-    <string name="kg_typesetting_string">Disseny</string>
+    <string name="kg_typesetting_string">Estil</string>
+    <string name="kg_wallpaper_blur_effect">Desenfoca el fons de pantalla</string>
     <string name="kg_wallpaper_filter_title">Efectes de fons de pantalla</string>
     <string name="kg_wallpaper_filter_type_crystallized">Cristalls</string>
     <string name="kg_wallpaper_filter_type_focus">Enfocament</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Lents</string>
     <string name="kg_wallpaper_filter_type_water">Aigua</string>
     <string name="kg_wallpaper_scale_hint_text">Pessigar per retallar</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">No es pot activar el desplaçament per a aquest fons de pantalla</string>
     <string name="kg_wallpaper_scroll_type_tips">Desplaçament del fons</string>
     <string name="kg_word_spacing">Espai entre caràcters</string>
     <string name="last_choice">Usat la darrera vegada</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Saldo insuficient)</string>
     <string name="payment_data_move_tips">Les dades del vostre compte es migraran als servidors de la vostra regió per complir amb les normatives de privadesa. Hi ha un risc de pèrdua de dades durant la migració.</string>
-    <string name="payment_instructions">"&lt;Data>En completar el pagament, accepteu L'&lt;a href=\"%1$s\">Avís sobre compres des de L'aplicació&lt;/a>.&lt;/Data>"</string>
+    <string name="payment_instructions"><Data>"En completar el pagament, accepteu L'&lt;a href=\"%1$s\">Avís sobre compres des de L'aplicació&lt;/a>."</Data></string>
     <string name="payment_method">Mètode de pagament</string>
     <string name="permission_desc">Per emmagatzemar temes i altres elements desats</string>
     <string name="permission_pop_desc">"Per poder canviar les preferències de personalització i desar els elements baixats, primer permet que els temes accedeixin a L'emmagatzematge."</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Accepto</string>
     <string name="user_authorization_dialog_agree_a">Acceptar</string>
     <string name="user_authorization_dialog_disagree">Sortir</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Hem de recollir la informació personal necessària per proporcionar-vos els serveis bàsics. Podeu obtenir informació sobre com gestionem la informació que recopilem a la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a>. Llegiu i accepteu el nostre &lt;a href=\"%2$s\">Acord d'usuari&lt;/a> i la &lt;a href=\"%3$s\">Política de privadesa&lt;/a> abans d'utilitzar temes.
-Podeu retirar el vostre consentiment a la Política de privadesa de Temes a laCconfiguració en qualsevol moment. &lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">"&lt;Data>Acceptar el nostre &lt;a href=\"%1$s\">Acord d'usuari&lt;/a> i &lt;a href=\"%2$s\">Política de privadesa&lt;/a> abans de continuar. Pots canviar les teves preferències en qualsevol moment a Configuració.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message"><Data>"Hem de recollir la informació personal necessària per proporcionar-vos els serveis bàsics. Podeu obtenir informació sobre com gestionem la informació que recopilem a la nostra &lt;a href=\"%1$s\">Política de privadesa&lt;/a>. Llegiu i accepteu el nostre &lt;a href=\"%2$s\">Acord d'usuari&lt;/a> i la &lt;a href=\"%3$s\">Política de privadesa&lt;/a> abans d'utilitzar temes.
+Podeu retirar el vostre consentiment a la Política de privadesa de Temes a laCconfiguració en qualsevol moment. "</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>"Acceptar el nostre &lt;a href=\"%1$s\">Acord d'usuari&lt;/a> i &lt;a href=\"%2$s\">Política de privadesa&lt;/a> abans de continuar. Pots canviar les teves preferències en qualsevol moment a Configuració."</Data></string>
     <string name="user_authorization_dialog_title">Termes i condicions</string>
     <string name="user_know">Entesos</string>
     <string name="using_theme_has_update_tips">Hi ha una actualització disponible per aquest tema.</string>
