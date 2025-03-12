@@ -392,9 +392,10 @@
     <string name="item_resource_audio_optional_notification_ring">Bildirişlər</string>
     <string name="item_resource_audio_optional_phone_ring">Zəng səsi</string>
     <string name="kg_activity_label">Kilid ekranını düzəlt</string>
+    <string name="kg_aod_settings_depth_video_toast">Dərinlik effektindən istifafə edərkən, yalnız fərdiləşdirilmiş Həmişə açıq ekran dəstəklənir.</string>
     <string name="kg_apply">Tətbiq et</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Yalnız Kilid ekranı</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Tətbiq et</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Hər ikisinə tətbiq et</string>
     <string name="kg_apply_to_all_alert_dialog_title">Bu divar kağızı Əsas ekrana da tətbiq edilsin?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Xeyr, təşəkkürlər</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Aç</string>
@@ -414,6 +415,7 @@
     <string name="kg_classic_item_empty">Yox</string>
     <string name="kg_classic_item_humidity">Rütubət</string>
     <string name="kg_classic_item_lunar_date">Ənənəvi Çin təqvimi</string>
+    <string name="kg_classic_item_lunar_date1">Ənənəvi Çin təqvimi</string>
     <string name="kg_classic_item_lunar_month_day">Ənənəvi Çin təqvimi</string>
     <string name="kg_classic_item_lunar_year">İl (Ənənəvi Çin təqvimini)</string>
     <string name="kg_classic_item_month">Ay</string>
@@ -428,6 +430,10 @@
     <string name="kg_classic_item_step_number">Addımlar</string>
     <string name="kg_classic_item_sunrise_or_sunset">Gün doğumu və gün batması</string>
     <string name="kg_classic_item_temperature">Temperatur</string>
+    <string name="kg_classic_item_type_date">Tarix</string>
+    <string name="kg_classic_item_type_health">Sağlıq</string>
+    <string name="kg_classic_item_type_time">Saat</string>
+    <string name="kg_classic_item_type_weather">Hava</string>
     <string name="kg_classic_item_ultraviolet_ray">UV indeksi</string>
     <string name="kg_classic_item_vitality">Statistika</string>
     <string name="kg_classic_item_weather_cloudy">Buludlu</string>
@@ -444,25 +450,45 @@
     <string name="kg_color_value_editor_title">Rəngi düzəlt</string>
     <string name="kg_confirm">Oldu</string>
     <string name="kg_customize">Xüsusiləşdir</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Tema tətbiq et</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Ləğv et</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Tətbiq et</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Hazırda divarkağızı dəstindən istifadə edirsən. Əgər yeni tema tətbiq etsən, Kilid ekranı və Əsas ekran divarkağızları əvəzlənəcək və Həmişə açıq ekran əvvəlki üsluba bərpa ediləcək. Hər bir halda tətbiq edilsin?</string>
+    <string name="kg_depth_preset_button_download">Dinamik divar kağızı endir</string>
+    <string name="kg_depth_preset_button_downloading">Endirilir…</string>
+    <string name="kg_depth_preset_button_dynamic">Dinamik</string>
+    <string name="kg_depth_preset_button_static">Statik</string>
+    <string name="kg_depth_preset_dialog_content">Bu dərinlik effektli divat kağızının dinamik versiyası endirilib tətbiq edilsin?</string>
+    <string name="kg_depth_preset_dialog_download_button">Endir</string>
+    <string name="kg_depth_preset_dialog_image_button">Statik versiya</string>
+    <string name="kg_depth_preset_dialog_title">Dinamik divar kağızı endir</string>
+    <string name="kg_depth_preset_network_fail">Şəbəkə əlaqəsi yoxdur</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Şəbəkə əlaqəsi yoxdur. Endirilənlərə fasilə verildi.</string>
+    <string name="kg_depth_produce_video_detail_failed">Dərinlik effekti yalnız insanlara, itlərə və pişiklərə istifadə edilə bilər.</string>
+    <string name="kg_depth_produce_video_failed">Dərinlik effektini tətbiq etmək mümkün olmadı</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">Sİ video dərinlik effektini emal edir…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Video dərinlik effekti aktivdir. Bütöv ekran Həmişə açıq ekran söndürülüb.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Tema tətbiq et</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Ləğv et</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Tətbiq et</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Hazırda divarkağızı dəstindən istifadə edirsən. Əgər yeni tema tətbiq etsən, Kilid ekranı və Əsas ekran divarkağızları əvəzlənəcək və Həmişə açıq ekran əvvəlki üsluba bərpa ediləcək. Hər bir halda tətbiq edilsin?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Bu Kilid ekranı Super divar kağızlarını dəstəkləmir. Davam etsəniz, həm Əsas, həm də Kilid ekranlarınızdakı divar kağızı dəyişdiriləcək. Hər halda davam edilsin?</string>
+    <string name="kg_dialog_apply_successful">Uğurla tətbiq edildi</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Hazırda Super divar kağızı istifadə edirsiniz. Davam etsəniz, o, həm Əsas, həm də Kilid ekranlarınızda yeni divar kağızı ilə əvəz olunacaq. Hər halda davam edilsin?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Ləğv et</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Ləğv et</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">Oldu</string>
+    <string name="kg_dialog_enable_depth_function">Dərinlik effektini aktiv et</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">İmtina et</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Tətbiq et</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Ləğv et</string>
     <string name="kg_dialog_fashion_gallery_message">Hazırda Divar kağızı Karuseliistifadə edirsiniz. Dinamik divar kağızı tətbiq etmək Divar kağızı Karuselil-i söndürəcək. Hər halda müraciət edək?</string>
     <string name="kg_dialog_fashion_gallery_title">Diqqət</string>
     <string name="kg_dialog_fontfilter_dualclock_button">İkili saat aktiv olduqda şrift dəyişdirilə bilmir</string>
+    <string name="kg_dialog_no_content_available_the_moment">Burada hələ heç nə yoxdur</string>
+    <string name="kg_dialog_too_much_time_blocking">Saat qaranlıqdır. Dərinlik effektindən istifadə mümkün deyil.</string>
     <string name="kg_discard_changes_text">Dəyişikliklər ləğv edilsin?</string>
     <string name="kg_doodle_font_label">Cızma-qara</string>
     <string name="kg_doodle_primary_label">Qaralamalar</string>
     <string name="kg_doodle_secondary_disable_tip">Dərinlik effektini açın</string>
     <string name="kg_doodle_secondary_label">Arxa plan</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Bu saatdan istifadə zamanı Cızma-qaradan istifadə mümkün deyil</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Divar kağızı Karuseli Cızma-qaranı dəstəkləmir</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Üçüncü tərəf divar kağızları Cızma-qaranı dəstəkləmir</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Bu divar kağızı Cızma-qaranı dəstəkləmir</string>
@@ -475,6 +501,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Üçüncü tərəf divar kağızları effektləri dəstəkləmir</string>
     <string name="kg_effects_tip_title">Sahənin dərinliyi və filtrlər</string>
     <string name="kg_enable_blur">Mat effekti</string>
+    <string name="kg_exit">Çıxış</string>
     <string name="kg_font_filter_classic_primary_label">Əsas</string>
     <string name="kg_font_filter_classic_secondary_label">İkinci dərəcəli</string>
     <string name="kg_font_filter_doodle_primary_label">Cızma-qara</string>
@@ -487,7 +514,7 @@
     <string name="kg_font_filter_hsl_title">Rəngləri xüsusiləşdir</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Vaxt</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">İmza</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Dəqiqələr</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">İkinci dərəcəli</string>
     <string name="kg_font_filter_magazine_c_style_1_primary_label">Əsas</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Saatlar</string>
     <string name="kg_font_filter_object_label_date">Tarix</string>
@@ -520,6 +547,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Bu divar kağızı dərinlik effektini dəstəkləmir</string>
     <string name="kg_hierarchy_switch_label">Dərinlik effekti</string>
     <string name="kg_line_spacing">Xətt aralığı</string>
+    <string name="kg_live_photo_land_tips">Üfüqi Canlı fotolar yalnız statik fotolar kimi təyin edilə bilər</string>
     <string name="kg_magazine_a_b_primary_color_label">Saat</string>
     <string name="kg_magazine_a_b_secondary_color_label">İmza</string>
     <string name="kg_magazine_c_primary_color_label">Digər mətn</string>
@@ -548,8 +576,10 @@
     <string name="kg_template_description_rhombus">Vaxt vacibdir. Hesab edin.</string>
     <string name="kg_template_preview_content_description">Önbaxış</string>
     <string name="kg_template_title_classic">Klassik</string>
+    <string name="kg_template_title_classic_phone">Mənzərə</string>
     <string name="kg_template_title_eastern_art">Şərqi estetika</string>
     <string name="kg_template_title_magazine">Jurnal</string>
+    <string name="kg_template_title_magazine_phone">İnsanlar</string>
     <string name="kg_template_title_mine">Kilid ekranı</string>
     <string name="kg_template_title_rhombus">Romb</string>
     <string name="kg_time_language_string">Rəqəmlər</string>
@@ -557,7 +587,8 @@
     <string name="kg_title_content">Məzmun</string>
     <string name="kg_title_fonts_and_content">Şrift və məzmun</string>
     <string name="kg_title_name">Şrift</string>
-    <string name="kg_typesetting_string">Düzülüş</string>
+    <string name="kg_typesetting_string">Üslub</string>
+    <string name="kg_wallpaper_blur_effect">Bulanıq divar kağızı</string>
     <string name="kg_wallpaper_filter_title">Divar kağızı effektləri</string>
     <string name="kg_wallpaper_filter_type_crystallized">Kristal</string>
     <string name="kg_wallpaper_filter_type_focus">Fokusla</string>
@@ -569,6 +600,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Linza</string>
     <string name="kg_wallpaper_filter_type_water">Su</string>
     <string name="kg_wallpaper_scale_hint_text">Kəsmək üçün çimdik</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Bu divar kağızı üçün sürüşməni aktiv etmək mümkün deyil</string>
     <string name="kg_wallpaper_scroll_type_tips">Divar kağızı sürüşdürmə</string>
     <string name="kg_word_spacing">Simvol aralığı</string>
     <string name="last_choice">Son dəfə istifadə edilib</string>
@@ -800,7 +832,7 @@ mm"</string>
     <string name="payment_coins_balance">(Balans: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Yetərsiz balans)</string>
     <string name="payment_data_move_tips">Gizlilik qaydalarına riayət etmək üçün hesab məlumatlarınız regionunuzdakı serverlərə köçürüləcək. Miqrasiya zamanı məlumat itkisi riski var.</string>
-    <string name="payment_instructions">&lt;Data>Ödənişi tamamlayaraq, &lt;a href=\"%1$s\">Tətbiq daxili satınalmalar haqqında bildiriş&lt;/a>-i qəbul edirsiniz.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Ödənişi tamamlayaraq, &lt;a href=\"%1$s\">Tətbiq daxili satınalmalar haqqında bildiriş&lt;/a>-i qəbul edirsiniz.</Data></string>
     <string name="payment_method">Ödəniş üsulu</string>
     <string name="permission_desc">Saxlanan mövzuları və digər elementləri saxlamaq üçün</string>
     <string name="permission_pop_desc">Fərdiləşdirmə tərcihlərini dəyişdirmək və endirilmiş elementləri yadda saxlamaq üçün əvvəlcə Temalara yaddaşa daxil olmağa icazə verin.</string>
@@ -1357,9 +1389,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Qəbul et</string>
     <string name="user_authorization_dialog_agree_a">Qəbul et</string>
     <string name="user_authorization_dialog_disagree">Çıxış</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Sizə əsas xidmətləri göstərmək üçün lazımi şəxsi məlumatları toplamalıyıq. Topladığımız məlumatları necə idarə etdiyimizi &lt;a href=\"%1$s\">Gizlilik Siyasəti&lt;/a> sazişimizdən öyrənə bilərsiniz.Temaları istifadə etməzdən əvvəl&lt;a href=\"%2$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%3$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi oxuyun və qəbul edin.
-İstədiyiniz zaman Tənzimləmələrdə Temaların Gizlilik Siyasətinə razılığınızı geri çəkə bilərsiniz.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Davam etməzdən əvvəl &lt;a href=\"%1$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%2$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi qəbul edin. İstənilən vaxt Tənzimləmələrdə tərcihlərinizi dəyişə bilərsiniz.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Sizə əsas xidmətləri göstərmək üçün lazımi şəxsi məlumatları toplamalıyıq. Topladığımız məlumatları necə idarə etdiyimizi &lt;a href=\"%1$s\">Gizlilik Siyasəti&lt;/a> sazişimizdən öyrənə bilərsiniz.Temaları istifadə etməzdən əvvəl&lt;a href=\"%2$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%3$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi oxuyun və qəbul edin.
+İstədiyiniz zaman Tənzimləmələrdə Temaların Gizlilik Siyasətinə razılığınızı geri çəkə bilərsiniz."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Davam etməzdən əvvəl &lt;a href=\"%1$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%2$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi qəbul edin. İstənilən vaxt Tənzimləmələrdə tərcihlərinizi dəyişə bilərsiniz.</Data></string>
     <string name="user_authorization_dialog_title">Şərtlər və qaydalar</string>
     <string name="user_know">Başa düşdüm</string>
     <string name="using_theme_has_update_tips">Bu tema üçün yeniləmə mövcuddur.</string>

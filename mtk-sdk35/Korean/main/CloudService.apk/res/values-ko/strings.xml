@@ -53,6 +53,8 @@
     <string name="button_cancel">취소</string>
     <string name="button_quit">나가기</string>
     <string name="button_revoke">철회</string>
+    <string name="calendar_sync_item_permission">캘린더</string>
+    <string name="call_log_sync_item_permission">통화 기록</string>
     <string name="check_contact">추가</string>
     <string name="choose_contact_title">연락처</string>
     <string name="clearable_edittext_clear_description">지우기</string>
@@ -66,6 +68,7 @@
     <string name="cloud_storage_almost_full_upgrade_text">저장소가 가득찼습니다. 사진을 동기화하지 못할 수 있습니다.</string>
     <string name="cloud_storage_common_functions_text">자주 사용됨</string>
     <string name="cloud_storage_default_title">클라우드 저장소</string>
+    <string name="cloud_storage_full_international_upgrade_default_text">저장소가 부족합니다. 클라우드 동기화가 일시정지되었습니다.</string>
     <string name="cloud_storage_full_upgrade_default_text">저장소가 부족합니다. 사진을 동기화할 수 없습니다.</string>
     <string name="cloud_storage_info_type_creation">Mi 캔버스</string>
     <string name="cloud_storage_info_type_drive">Mi 드라이브</string>
@@ -73,6 +76,7 @@
     <string name="cloud_storage_info_type_family">가족</string>
     <string name="cloud_storage_info_type_others">기타</string>
     <string name="cloud_storage_info_type_pdc">시스템 설정</string>
+    <string name="cloud_storage_international_almost_full_upgrade_text">저장소가 가득찼습니다. 클라우드 동기화를 일시정지합니다.</string>
     <string name="cloud_storage_loading_data">잠시만 기다려주십시오…</string>
     <string name="cloud_storage_manage_title">저장소 관리</string>
     <string name="cloud_storage_no_data">클라우드에 아직 항목이 없음</string>
@@ -104,6 +108,7 @@
     <string name="connect_wlan">Wi-Fi에 연결</string>
     <string name="connect_wlan_china">Wi-Fi 연결</string>
     <string name="contact_alert_sync_data_merge_dialog_msg">동기화를 켜시면, 이 기기에서 업로드된 연락처와 클라우드에 저장된 연락처가 병합될 것입니다. 그래도 동기화를 켜시겠습니까?</string>
+    <string name="contacts_sync_item_permission">연락처</string>
     <string name="copy">복사</string>
     <string name="creation_dialog_message">Mi 캔버스 데이터를 태블릿에서 확인하십시오.</string>
     <string name="creation_dialog_positive_btn">확인</string>
@@ -191,7 +196,7 @@
     <string name="e2ee_device_verification_os_tip">Xiaomi HyperOS 2 이상의 버전으로 업데이트</string>
     <string name="e2ee_device_verification_result_subtitle">Xiaomi 계정에서 로그아웃한 기기는 다시 로그인할 때까지 Xiaomi Cloud 및 기타 관련 서비스를 사용할 수 없습니다.</string>
     <string name="e2ee_device_verification_result_title">모든 기기가 로그아웃됨</string>
-    <string name="e2ee_device_verification_tip">계정에서 이 기기를 제거하십시오</string>
+    <string name="e2ee_device_verification_tip">여기를 탭하여 이 기기 제거</string>
     <string name="e2ee_dialog_close_subtitle">이 기능으로 보호되는 데이터는 더 이상 종단간 암호화를 지원하지 않으며, 모든 기기에서 고급 데이터 보호 기능이 꺼집니다.</string>
     <string name="e2ee_dialog_close_title">고급 데이터 보호 끄기</string>
     <string name="e2ee_dialog_exit_account_subtitle">기기가 로그아웃되면 고급 데이터 보호가 자동으로 꺼집니다. 이는 다른 기기에는 영향을 미치지 않습니다. 다시 로그인할 시 이 기능을 다시 켜야 합니다.</string>
@@ -210,6 +215,9 @@
     <string name="e2ee_loading_close">끄는 중…</string>
     <string name="e2ee_loading_open">켜는 중…</string>
     <string name="e2ee_name_data_protection">고급 데이터 보호</string>
+    <string name="e2ee_need_bind_phone_button_sure">알겠습니다</string>
+    <string name="e2ee_need_bind_phone_subtitle">복구 전화를 추가하지 않으셨습니다. 비밀번호 분실 시에 로그인하실 수 없게 됩니다. 비밀번호 재설정을 위해 복구 전화를 추가하십시오.</string>
+    <string name="e2ee_need_bind_phone_title">복구 전화 추가</string>
     <string name="e2ee_result_close">고급 데이터 보호 꺼짐</string>
     <string name="e2ee_result_close_failed">끌 수 없음</string>
     <string name="e2ee_result_close_failed_tip">이 기능을 끌 수 없습니다. 1-2분정도 기다리신 후 다시 시도하십시오.</string>
@@ -265,7 +273,7 @@
     <string name="find_device_dspt_provision">기기를 분실하신 경우, &lt;font color=#0097FF>%s&lt;/font>에서 기기의 위치를 찾거나, 잠그거나, 초기화할 수 있습니다. 설정에서 언제든지 이 기능을 켜거나 끌 수 있습니다.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">기기 찾기를 켜시면, 저희의 <a href="app://com.miui.cloudservice.gdpr.license"><u>개인 정보 보호 정책</u></a>에 동의하시는 것입니다. 권한의 철회를 원하시는 경우, 해당 기능을 꺼주십시오.</string>
+    <string name="find_device_gdpr_prompt">기기 찾기 기능을 켜시려면 <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi Cloud 개인 정보 보호 정책</u></a>에 동의하십시오. 개인 정보 보호 정책에 대한 동의 철회를 원하시는 경우, 해당 기능을 꺼주십시오.</string>
     <string name="find_device_operation_failure_rpc">RPC 오류로 작업을 실행할 수 없습니다.</string>
     <string name="find_device_permissions_footer">선택한 권한을 부여하시려면 \"권한 부여\"를 탭하십시오</string>
     <string name="find_device_permissions_header">기기 찾기에 오신 것을 환영합니다! 이 앱으로 기기 분실 시에 위치 찾기, 기기 추적 및 기기 잠금 등을 하실 수 있습니다. 익명으로 다른 사람이 Xiaomi 기기를 찾는 데 도움을 줄 수도 있습니다. 이 앱이 정상적으로 작동하려면 다음 권한이 필요합니다:</string>
@@ -342,6 +350,7 @@
     <string name="friday">금요일</string>
     <string name="friday_short">금</string>
     <string name="friday_shortest">금</string>
+    <string name="gallery_auto_sync_fail_international_noti_content">저장소가 부족합니다. 사진 동기화를 완료할 수 없습니다.</string>
     <string name="gallery_auto_sync_fail_noti_content">클라우드의 남은 공간이 부족합니다. 사진 및 동영상 동기화를 위해 저장소 플랜을 업그레이드하십시오.</string>
     <string name="gallery_auto_sync_fail_noti_content_lite">클라우드 저장소가 부족합니다. 사진을 저장할 수 없습니다.</string>
     <string name="gallery_data_transfer_ddl">기한: %s</string>
@@ -421,6 +430,7 @@
     <string name="lockscreen_positive_btn">다음</string>
     <string name="low_battery_locate_summary">배터리가 부족할 시 위치 정보를 자동으로 보고</string>
     <string name="low_battery_locate_title">배터리 부족 시 위치 보고</string>
+    <string name="manual_activation">재활성화</string>
     <string name="master_alert_notif_content">중요한 항목을 잃지 않도록 정기적으로 항목을 백업하십시오.</string>
     <string name="master_alert_notif_title">Xiaomi Cloud 켜기</string>
     <string name="member_menu_vipname_free">무료</string>
@@ -521,6 +531,7 @@
     <string name="micloud_manual_all_sync_off_title">동기화 꺼짐</string>
     <string name="micloud_manual_buy_vip">더 많은 저장소 얻기</string>
     <string name="micloud_manual_cloud_storage_full_button_text">더 많은 저장소 얻기</string>
+    <string name="micloud_manual_cloud_storage_full_international_summary">사진 및 연락처를 동기화할 수 없음</string>
     <string name="micloud_manual_cloud_storage_full_summary">사진, 연락처, 기타 항목 동기화를 실패했습니다. 플랜 업그레이드 또는 저장 공간을 확보하십시오.</string>
     <string name="micloud_manual_cloud_storage_full_title">동기화 실패, Xiaomi Cloud에 충분한 저장 공간이 없습니다.</string>
     <string name="micloud_manual_cloud_storage_low_button_text">더 많은 저장소 얻기</string>
@@ -804,7 +815,9 @@
     <string name="privacy_policy">개인 정보 보호 정책</string>
     <string name="privacy_policy_reject_confirm_msg">새 버전의 &lt;a href=%1$s>&lt;u>개인 정보 보호 정책&lt;/u>&lt;/a>에 동의하지 않으시면 Xiaomi Cloud를 계속 사용할 수 없게 됩니다. 업데이트된 개인 정보 보호 정책에 동의하시겠습니까?</string>
     <string name="privacy_policy_reject_confirm_title">참고</string>
-    <string name="privacy_policy_revoked_msg">이 계정의 Xiaomi Cloud 개인 정보 보호 정책에 대한 동의가 철회되었습니다. 다른 계정을 사용하여 시도하십시오.</string>
+    <string name="privacy_policy_revoked_btn_msg">알겠습니다</string>
+    <string name="privacy_policy_revoked_msg">Xiaomi Cloud 개인 정보 보호 정책에 대한 동의를 철회했습니다. 클라우드에 저장된 모든 데이터가 삭제되었습니다. 이 서비스를 사용하려면 다른 계정으로 전환하십시오.</string>
+    <string name="privacy_policy_revoked_msg_contains_manual_activation">Xiaomi Cloud 개인 정보 보호 정책에 대한 동의를 철회했으며 클라우드에 저장된 모든 데이터가 삭제되었습니다. 이 서비스를 다시 이용하고 싶으시다면 개인 정보 보호 정책에 동의하고 i.mi.com에서 계정을 다시 활성화할 수 있습니다. 보안을 위해 하루에 한 번만 가능합니다.</string>
     <string name="privacy_policy_update_msg">Xiaomi Cloud 개인 정보 보호 정책 업데이트됨:&lt;br/>%1$s&lt;br/>계속하시기 전, 새 버전의 &lt;a href=%2$s>&lt;u>개인 정보 보호 정책&lt;/u>&lt;/a>을 읽고 동의해 주십시오.</string>
     <string name="privacy_policy_update_title">개인 정보 보호 정책 업데이트됨</string>
     <string name="privacy_runtime_perm_calendar_desc">캘린더 일정 동기화를 위해</string>
@@ -836,10 +849,16 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_manual_notification_permission_labels">중요한 알림을 받으려면 설정에서 이 앱이 알림을 보낼 수 있도록 허용하십시오.</string>
+    <string name="request_manual_various_permissions_labels_exclude_notification_permission">중요한 데이터 (%1$s)를 클라우드에 동기화할 수 있도록 설정에서 이 앱에 다음 권한을 부여하십시오: %2$s.</string>
+    <string name="request_manual_various_permissions_labels_include_notification_permission">중요 알림 및 데이터 (%1$s)를 클라우드와 동기화할 수 있도록 이 앱에서 알림을 보낼 수 있도록 허용하고, 설정에서 다음 권한을 부여하십시오: %2$s.</string>
     <string name="request_os_permissions_dialog_message">Xiaomi Cloud는 동기화되지 않은 항목과 그 수량을 식별하기 위해 기기에 저장된 항목에 접근할 수 있는 권한이 필요합니다. 해당 권한을 부여하시겠습니까?</string>
     <string name="request_os_permissions_dialog_neg_button">동의하지 않음</string>
     <string name="request_os_permissions_dialog_pos_button">동의</string>
     <string name="request_os_permissions_dialog_title">권한 요구됨</string>
+    <string name="request_permissions_dialog_negative_button_mes">지금 안함</string>
+    <string name="request_permissions_dialog_positive_button_mes">알겠습니다</string>
+    <string name="request_permissions_labels">Xiaomi Cloud가 다음 유형의 정보에 접근하도록 허용하지 않은 것 같습니다: %1$s. 모든 항목을 클라우드에 정상적으로 동기화할 수 있도록 Xiaomi Cloud에 다음 권한을 부여하십시오: %2$s.</string>
     <string name="retain_data_high_quality_photo_waring_message">로그아웃하신 후 갤러리에서 사진 및 동영상의 고품질 복사본이 삭제될 것입니다. 해당 원본 파일은 클라우드에 계속 저장됩니다. 로그아웃하시기 전에 원본 파일을 다운로드하실 수도 있습니다.</string>
     <string name="retain_data_high_quality_photo_waring_title">고품질 이미지를 사용할 수 없음</string>
     <string name="revoke_block_by_find_device">동의 철회는 기기 찾기를 해제하게 됩니다. 계속하신 후에는 비밀번호 인증이 요구될 것입니다.</string>
@@ -954,6 +973,7 @@
     <string name="share_success">공유됨</string>
     <string name="share_weibo_not_installed">Weibo가 설치되지 않았습니다</string>
     <string name="share_weixin_not_installed">Wechat이 설치되지 않았습니다.</string>
+    <string name="sms_sync_item_permission">메시지</string>
     <string name="soundrecorder_sync_only_in_wifi">Wi-Fi만 사용하여 동기화</string>
     <string name="soundrecorder_sync_only_in_wifi_china">Only use WLAN to sync</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">녹음기는 모바일 데이터를 사용하여 녹음을 다운로드 또는 업로드하지 않습니다.</string>

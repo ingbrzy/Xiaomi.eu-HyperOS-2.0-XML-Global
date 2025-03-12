@@ -67,7 +67,7 @@
     <string name="ai_generate_forbid">この機能はアップグレード中です。しばらくお待ちください。</string>
     <string name="ai_generate_latter">数分待ってからもう一度お試しください。</string>
     <string name="ai_generate_loading">ダイナミック壁紙を生成中…</string>
-    <string name="ai_generate_message">ダイナミック壁紙を生成すると、静的な壁紙への変更は保存されません。今すぐ生成しますか？</string>
+    <string name="ai_generate_message">ダイナミック壁紙を生成すると、静止壁紙への変更は保存されません。今すぐ生成しますか？</string>
     <string name="ai_generate_text">ダイナミック壁紙を生成</string>
     <string name="ai_generate_title">ダイナミック壁紙を生成しますか？</string>
     <string name="ai_generate_verify_text">画像コンテンツを認証中…</string>
@@ -521,9 +521,10 @@
     <string name="item_resource_audio_optional_phone_ring">着信音</string>
     <string name="item_view_role_description">タブ</string>
     <string name="kg_activity_label">ロック画面を編集</string>
+    <string name="kg_aod_settings_depth_video_toast">深度効果を使用する場合は、カスタムの常時オンディスプレイのみがサポートされます</string>
     <string name="kg_apply">適用</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">ロック画面のみ</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">適用</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">両方に適用</string>
     <string name="kg_apply_to_all_alert_dialog_title">この壁紙をホーム画面にも適用しますか？</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">今はしない</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">オンにする</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">なし</string>
     <string name="kg_classic_item_humidity">湿度</string>
     <string name="kg_classic_item_lunar_date">中国暦</string>
+    <string name="kg_classic_item_lunar_date1">中国暦</string>
     <string name="kg_classic_item_lunar_month_day">中国暦</string>
     <string name="kg_classic_item_lunar_year">年 (中国歴)</string>
     <string name="kg_classic_item_month">月</string>
@@ -557,9 +559,13 @@
     <string name="kg_classic_item_step_number">歩数</string>
     <string name="kg_classic_item_sunrise_or_sunset">日の出と日の入り</string>
     <string name="kg_classic_item_temperature">温度</string>
+    <string name="kg_classic_item_type_date">日付</string>
+    <string name="kg_classic_item_type_health">健康</string>
+    <string name="kg_classic_item_type_time">時刻</string>
+    <string name="kg_classic_item_type_weather">天気</string>
     <string name="kg_classic_item_ultraviolet_ray">紫外線指数</string>
     <string name="kg_classic_item_vitality">統計</string>
-    <string name="kg_classic_item_weather_cloudy">曇天</string>
+    <string name="kg_classic_item_weather_cloudy">曇り</string>
     <string name="kg_classic_item_week">週</string>
     <string name="kg_classic_item_wind">風</string>
     <string name="kg_classic_primary_color_label">原色</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">色を編集</string>
     <string name="kg_confirm">OК</string>
     <string name="kg_customize">カスタマイズ</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">テーマを適用</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">キャンセル</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">適用</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">現在、壁紙セットを使用しています。新しいテーマを適用すると、ロック画面とホーム画面の両方の壁紙が置き換えられ、常時オンディスプレイは以前のスタイルに戻ります。適用してもよろしいですか？</string>
+    <string name="kg_depth_preset_button_download">ダイナミック壁紙をダウンロード</string>
+    <string name="kg_depth_preset_button_downloading">ダウンロード中…</string>
+    <string name="kg_depth_preset_button_dynamic">ダイナミック</string>
+    <string name="kg_depth_preset_button_static">静的</string>
+    <string name="kg_depth_preset_dialog_content">この深度効果の壁紙のダイナミックバージョンをダウンロードして適用しますか？</string>
+    <string name="kg_depth_preset_dialog_download_button">ダウンロード</string>
+    <string name="kg_depth_preset_dialog_image_button">静的バージョン</string>
+    <string name="kg_depth_preset_dialog_title">ダイナミック壁紙をダウンロード</string>
+    <string name="kg_depth_preset_network_fail">ネットワーク接続なし</string>
+    <string name="kg_depth_preset_network_fail_download_pause">ネットワーク接続がありません。ダウンロードを一時停止しました。</string>
+    <string name="kg_depth_produce_video_detail_failed">深度効果は人、犬、猫にのみ使用できます</string>
+    <string name="kg_depth_produce_video_failed">深度効果を適用できませんでした</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI がビデオの深度効果を処理しています…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">ビデオの深度効果がオンになっています。全画面の常時オンディスプレイはオフになっています。</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">テーマを適用</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">キャンセル</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">適用</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">現在、壁紙セットを使用しています。新しいテーマを適用すると、ロック画面とホーム画面の両方の壁紙が置き換えられ、常時オンディスプレイは以前のスタイルに戻ります。適用してもよろしいですか？</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">このロック画面はスーパー壁紙をサポートしていません。続けると、ホーム画面とロック画面の両方の壁紙が置き換えられます。続けてもよろしいですか？</string>
+    <string name="kg_dialog_apply_successful">正常に適用されました</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">現在スーパー壁紙を使用しています。続けると、ホーム画面とロック画面の両方で新しい壁紙に置き換えられます。続けてもよろしいですか？</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">キャンセル</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">キャンセル</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OК</string>
+    <string name="kg_dialog_enable_depth_function">まず深度効果をオンにします</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">破棄</string>
     <string name="kg_dialog_fashion_gallery_button_negative">適用</string>
     <string name="kg_dialog_fashion_gallery_button_positive">キャンセル</string>
     <string name="kg_dialog_fashion_gallery_message">現在壁紙カルーセルを使用しています。ダイナミック壁紙を適用すると、壁紙カルーセルがオフになります。適用してもよろしいですか？</string>
     <string name="kg_dialog_fashion_gallery_title">注意</string>
     <string name="kg_dialog_fontfilter_dualclock_button">デュアル時計がオンの場合はフォントを編集できません</string>
+    <string name="kg_dialog_no_content_available_the_moment">まだ何もありません</string>
+    <string name="kg_dialog_too_much_time_blocking">腕時計が見えません。奥行き効果は使用できません。</string>
     <string name="kg_discard_changes_text">変更を破棄しますか？</string>
     <string name="kg_doodle_font_label">落書き</string>
     <string name="kg_doodle_primary_label">落書き</string>
     <string name="kg_doodle_secondary_disable_tip">深度効果をオンにする</string>
     <string name="kg_doodle_secondary_label">背景</string>
+    <string name="kg_doodle_text_not_support_clock_tip">この時計の使用時は落書きを使用できません</string>
     <string name="kg_doodle_text_not_support_gallery_tip">壁紙カルーセルは落書きをサポートしていません</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">サードパーティの壁紙は落書きをサポートしていません</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">この壁紙は落書きをサポートしていません</string>
@@ -604,7 +630,8 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">サードパーティの壁紙は効果をサポートしていません</string>
     <string name="kg_effects_tip_title">被写界深度とフィルター</string>
     <string name="kg_enable_blur">マット効果</string>
-    <string name="kg_font_filter_classic_primary_label">プライマリ</string>
+    <string name="kg_exit">終了</string>
+    <string name="kg_font_filter_classic_primary_label">主要</string>
     <string name="kg_font_filter_classic_secondary_label">セカンダリ</string>
     <string name="kg_font_filter_doodle_primary_label">落書き</string>
     <string name="kg_font_filter_doodle_secondary_label">背景</string>
@@ -616,8 +643,8 @@
     <string name="kg_font_filter_hsl_title">カスタム色</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">時刻</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">署名</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">分</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">メイン</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">セカンダリ</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">プライマリ</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">時間</string>
     <string name="kg_font_filter_object_label_date">日付</string>
     <string name="kg_font_filter_object_label_date_color">日付の色</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">この壁紙は深度効果をサポートしていません</string>
     <string name="kg_hierarchy_switch_label">奥行き効果</string>
     <string name="kg_line_spacing">行間</string>
+    <string name="kg_live_photo_land_tips">横向きのライブフォトは静止画としてのみ設定できます</string>
     <string name="kg_magazine_a_b_primary_color_label">時計</string>
     <string name="kg_magazine_a_b_secondary_color_label">署名</string>
     <string name="kg_magazine_c_primary_color_label">その他のテキスト</string>
@@ -677,16 +705,19 @@
     <string name="kg_template_description_rhombus">時間は重要です。大切にしましょう。</string>
     <string name="kg_template_preview_content_description">プレビュー</string>
     <string name="kg_template_title_classic">クラシック</string>
+    <string name="kg_template_title_classic_phone">風景</string>
     <string name="kg_template_title_eastern_art">東洋の美学</string>
     <string name="kg_template_title_magazine">雑誌</string>
-    <string name="kg_template_title_mine">ロック画面</string>
+    <string name="kg_template_title_magazine_phone">人</string>
+    <string name="kg_template_title_mine">画面をロック</string>
     <string name="kg_template_title_rhombus">ひし形</string>
     <string name="kg_time_language_string">数字</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">サードパーティの壁紙にアクセスできません</string>
     <string name="kg_title_content">内容</string>
     <string name="kg_title_fonts_and_content">フォントと内容</string>
     <string name="kg_title_name">フォント</string>
-    <string name="kg_typesetting_string">レイアウト</string>
+    <string name="kg_typesetting_string">スタイル</string>
+    <string name="kg_wallpaper_blur_effect">壁紙をぼかす</string>
     <string name="kg_wallpaper_filter_title">壁紙効果</string>
     <string name="kg_wallpaper_filter_type_crystallized">クリスタル</string>
     <string name="kg_wallpaper_filter_type_focus">フォーカス</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">レンズ</string>
     <string name="kg_wallpaper_filter_type_water">水</string>
     <string name="kg_wallpaper_scale_hint_text">ピンチしてトリミング</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">この壁紙ではスクロールをオンにできません</string>
     <string name="kg_wallpaper_scroll_type_tips">壁紙スクロール</string>
     <string name="kg_word_spacing">文字間隔</string>
     <string name="last_choice">前回使用</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(残高：%1s)</string>
     <string name="payment_coins_insufficient_balance">(残高不足)</string>
     <string name="payment_data_move_tips">アカウントデータは、プライバシー規制に準拠するためにお住まいの地域のサーバーに移行されます。移行中にデータが失われるリスクがあります。</string>
-    <string name="payment_instructions">&lt;Data>決済を完了することで、 &lt;a href=\"%1$s\">アプリ内購入に関する注意事項&lt;/a>に同意したことになります。&lt;/Data></string>
+    <string name="payment_instructions"><Data>決済を完了することで、 &lt;a href=\"%1$s\">アプリ内購入に関する注意事項&lt;/a>に同意したことになります。</Data></string>
     <string name="payment_method">支払方法</string>
     <string name="permission_desc">保存したテーマやその他のアイテムを保存するため</string>
     <string name="permission_pop_desc">パーソナライズ設定を変更したり、ダウンロードしたアイテムを保存したりするには、まずテーマがストレージにアクセスすることを許可してください。</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">同意</string>
     <string name="user_authorization_dialog_agree_a">同意</string>
     <string name="user_authorization_dialog_disagree">終了</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>テーマは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。テーマの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。
-テーマに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>続ける前に、&lt;a href=\"%1$s\">利用規約&lt;/a>と&lt;a href=\"%2$s\">プライバシーポリシー&lt;/a>に同意してください。この選択は、設定でいつでも変更できます。&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"テーマは、基本的なサービスを提供するために必要な個人情報を収集する必要があります。収集した情報の取扱方法については、&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>をご覧ください。テーマの使用を開始する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>および&lt;a href=\"%3$s\">プライバシーポリシー&lt;/a>を読んで、これらに同意してください。
+テーマに対するプライバシーポリシーへの同意は、いつでも設定で撤回することができます。"</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>続ける前に、&lt;a href=\"%1$s\">利用規約&lt;/a>と&lt;a href=\"%2$s\">プライバシーポリシー&lt;/a>に同意してください。この選択は、設定でいつでも変更できます。</Data></string>
     <string name="user_authorization_dialog_title">使用条件</string>
     <string name="user_know">了解</string>
     <string name="using_theme_has_update_tips">このテーマのアップデートが利用可能です。</string>

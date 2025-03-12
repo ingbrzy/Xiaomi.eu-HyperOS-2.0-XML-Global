@@ -392,9 +392,10 @@
     <string name="item_resource_audio_optional_notification_ring">התראות</string>
     <string name="item_resource_audio_optional_phone_ring">צלצול</string>
     <string name="kg_activity_label">עריכת מסך הנעילה</string>
+    <string name="kg_aod_settings_depth_video_toast">בשימוש באפקט העומק קיימת תמיכה רק בתצוגה תמידית בהתאמה אישית</string>
     <string name="kg_apply">להחיל</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">רק על מסך הנעילה</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">החלה</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">להחיל על שניהם</string>
     <string name="kg_apply_to_all_alert_dialog_title">להחיל את הטפט הזה גם על מסך הבית?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">לא, תודה</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">להפעיל</string>
@@ -414,6 +415,7 @@
     <string name="kg_classic_item_empty">ללא</string>
     <string name="kg_classic_item_humidity">לחות</string>
     <string name="kg_classic_item_lunar_date">לוח השנה הסיני המסורתי</string>
+    <string name="kg_classic_item_lunar_date1">לוח השנה הסיני המסורתי</string>
     <string name="kg_classic_item_lunar_month_day">לוח השנה הסיני המסורתי</string>
     <string name="kg_classic_item_lunar_year">שנה (לוח השנה הסיני המסורתי)</string>
     <string name="kg_classic_item_month">חודש</string>
@@ -428,6 +430,10 @@
     <string name="kg_classic_item_step_number">צעדים</string>
     <string name="kg_classic_item_sunrise_or_sunset">זריחה ושקיעה</string>
     <string name="kg_classic_item_temperature">טמפרטורה</string>
+    <string name="kg_classic_item_type_date">תאריך</string>
+    <string name="kg_classic_item_type_health">בריאות</string>
+    <string name="kg_classic_item_type_time">זמן</string>
+    <string name="kg_classic_item_type_weather">מזג אוויר</string>
     <string name="kg_classic_item_ultraviolet_ray">מדד UV</string>
     <string name="kg_classic_item_vitality">סטטיסטיקה</string>
     <string name="kg_classic_item_weather_cloudy">מעונן</string>
@@ -444,25 +450,45 @@
     <string name="kg_color_value_editor_title">ערוך צבע</string>
     <string name="kg_confirm">אישור</string>
     <string name="kg_customize">התאמה אישית</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">החלת ערכות הנושא</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">ביטול</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">החלה</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">עכשיו אתם משתמשים בערכת טפטים. החלת ערכות נושא חדשה תביא להחלפת הטפטים גם של מסך הנעילה וגם של מסך הבית, והתצוגה התמידית תשוחזר לסגנון הקודם. להחיל בכל זאת?</string>
+    <string name="kg_depth_preset_button_download">הורדת טפט דינמי</string>
+    <string name="kg_depth_preset_button_downloading">מוריד…</string>
+    <string name="kg_depth_preset_button_dynamic">דינמי</string>
+    <string name="kg_depth_preset_button_static">סטטי</string>
+    <string name="kg_depth_preset_dialog_content">להוריד ולהחיל את הגרסה הדינמית של טפט זה עם אפקט עומק?</string>
+    <string name="kg_depth_preset_dialog_download_button">הורדה</string>
+    <string name="kg_depth_preset_dialog_image_button">גרסה סטטית</string>
+    <string name="kg_depth_preset_dialog_title">הורדת טפט דינמי</string>
+    <string name="kg_depth_preset_network_fail">אין חיבור לרשת</string>
+    <string name="kg_depth_preset_network_fail_download_pause">אין חיבור לרשת. ההורדה הושהתה.</string>
+    <string name="kg_depth_produce_video_detail_failed">ניתן להשתמש באפקט העומק רק עבור אנשים, כלבים וחתולים</string>
+    <string name="kg_depth_produce_video_failed">לא ניתן להחיל את אפקט העומק</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI מעבד את אפקט העומק בווידאו…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">אפקט העומק בווידאו מופעל. תצוגה תמידית במסך מלא מושבתת.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">להחיל את ערכת הנושא</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">ביטול</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">להחיל</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">עכשיו אתם משתמשים בערכת טפטים. החלת ערכת נושא חדשה תביא להחלפת הטפטים גם במסך הנעילה וגם במסך הבית, והתצוגה התמידית תשוחזר לסגנון הקודם. להחיל בכל זאת?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">מסך הנעילה הזה לא תומך בטפטי על. המשך יביא להחלפת הטפט גם במסך הבית וגם במסך הנעילה. להמשיך בכל זאת?</string>
+    <string name="kg_dialog_apply_successful">הוחל בהצלחה</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">כרגע נמצא בשימוש טפט על. המשך יביא להחלפתו בטפט חדש גם במסך הבית וגם במסך הנעילה. להמשיך בכל זאת?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">ביטול</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">ביטול</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">אישור</string>
+    <string name="kg_dialog_enable_depth_function">קודם יש להפעיל את אפקט העומק</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">ביטול</string>
     <string name="kg_dialog_fashion_gallery_button_negative">להחיל</string>
     <string name="kg_dialog_fashion_gallery_button_positive">ביטול</string>
     <string name="kg_dialog_fashion_gallery_message">כרגע נעשה שימוש בטפט מתחלף. החלת טפט דינמי תשבית את הטפט המתחלף. להחיל בכל זאת?</string>
     <string name="kg_dialog_fashion_gallery_title">לתשומת לבך</string>
     <string name="kg_dialog_fontfilter_dualclock_button">לא ניתן לערוך את הגופן כשהשעון הכפול מופעל</string>
+    <string name="kg_dialog_no_content_available_the_moment">עדיין אין כאן כלום</string>
+    <string name="kg_dialog_too_much_time_blocking">השעון מוסתר. לא ניתן להשתמש באפקט העומק.</string>
     <string name="kg_discard_changes_text">לבטל את השינויים?</string>
     <string name="kg_doodle_font_label">שרבוט</string>
     <string name="kg_doodle_primary_label">שרבוטים</string>
     <string name="kg_doodle_secondary_disable_tip">הפעלת אפקט עומק</string>
     <string name="kg_doodle_secondary_label">רקע</string>
+    <string name="kg_doodle_text_not_support_clock_tip">לא ניתן להשתמש בשרבוטים כשמשתמשים בשעון זה</string>
     <string name="kg_doodle_text_not_support_gallery_tip">טפט מתחלף לא תומך בשרבוטים</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">טפטים של צד שלישי לא תומכים בשרבוטים</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">טפט זה לא תומך בשרבוטים</string>
@@ -475,6 +501,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">טפטים של צד שלישי לא תומכים באפקטים</string>
     <string name="kg_effects_tip_title">עומק השדה ומסננים</string>
     <string name="kg_enable_blur">אפקט מט</string>
+    <string name="kg_exit">יציאה</string>
     <string name="kg_font_filter_classic_primary_label">עיקרי</string>
     <string name="kg_font_filter_classic_secondary_label">משני</string>
     <string name="kg_font_filter_doodle_primary_label">שרבוט</string>
@@ -487,8 +514,8 @@
     <string name="kg_font_filter_hsl_title">התאמה אישית לצבעים</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">שעה</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">חתימה</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">דקות</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">ראשי</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">משני</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">עיקרי</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">שעות</string>
     <string name="kg_font_filter_object_label_date">תאריך</string>
     <string name="kg_font_filter_object_label_date_color">צבע לתאריך</string>
@@ -520,6 +547,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">טפט זה לא תומך באפקט של עומק</string>
     <string name="kg_hierarchy_switch_label">אפקט עומק</string>
     <string name="kg_line_spacing">ריווח בין שורות</string>
+    <string name="kg_live_photo_land_tips">ניתן להגדיר תמונות חיות אופקיות רק בתור תמונות סטטיות</string>
     <string name="kg_magazine_a_b_primary_color_label">שעון</string>
     <string name="kg_magazine_a_b_secondary_color_label">חתימה</string>
     <string name="kg_magazine_c_primary_color_label">טקסט אחר</string>
@@ -548,8 +576,10 @@
     <string name="kg_template_description_rhombus">הזמן חשוב. נצלו אותו כראוי.</string>
     <string name="kg_template_preview_content_description">תצוגה מקדימה</string>
     <string name="kg_template_title_classic">קלאסי</string>
+    <string name="kg_template_title_classic_phone">נוף</string>
     <string name="kg_template_title_eastern_art">עיצוב בהשראת המזרח</string>
     <string name="kg_template_title_magazine">מגזין</string>
+    <string name="kg_template_title_magazine_phone">אנשים</string>
     <string name="kg_template_title_mine">מסך נעילה</string>
     <string name="kg_template_title_rhombus">מעויין</string>
     <string name="kg_time_language_string">ספרות</string>
@@ -557,7 +587,8 @@
     <string name="kg_title_content">תוכן</string>
     <string name="kg_title_fonts_and_content">גופן ותוכן</string>
     <string name="kg_title_name">גופן</string>
-    <string name="kg_typesetting_string">פריסה</string>
+    <string name="kg_typesetting_string">סגנון</string>
+    <string name="kg_wallpaper_blur_effect">טפט עם אפקט טשטוש</string>
     <string name="kg_wallpaper_filter_title">אפקטים לטפטים</string>
     <string name="kg_wallpaper_filter_type_crystallized">בדולח</string>
     <string name="kg_wallpaper_filter_type_focus">מיקוד</string>
@@ -569,6 +600,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">עדשה</string>
     <string name="kg_wallpaper_filter_type_water">מים</string>
     <string name="kg_wallpaper_scale_hint_text">יש לצבוט לחיתוך</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">לא ניתן להפעיל גלילה עבור טפט זה.</string>
     <string name="kg_wallpaper_scroll_type_tips">גלילת הטפט</string>
     <string name="kg_word_spacing">ריווח בין תווים</string>
     <string name="last_choice">זה שהיה בשימוש בפעם הקודמת</string>
@@ -800,7 +832,7 @@ mm"</string>
     <string name="payment_coins_balance">(יתרה: %1s)</string>
     <string name="payment_coins_insufficient_balance">(היתרה נמוכה מדי)</string>
     <string name="payment_data_move_tips">נתוני החשבון שלך יועברו לשרתים באזור שלך כדי לציית לתקנות הפרטיות. קיים סיכון לאובדן נתונים במהלך ההעברה.</string>
-    <string name="payment_instructions">&lt;Data>על ידי השלמת התשלום, אתה מסכים ל&lt;a href=\"%1$s\">הודעה על רכישות בתוך היישום&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>על ידי השלמת התשלום, אתה מסכים ל&lt;a href=\"%1$s\">הודעה על רכישות בתוך היישום&lt;/a>.</Data></string>
     <string name="payment_method">אמצעי תשלום</string>
     <string name="permission_desc">לאחסון נושאים שנשמרו ופריטים אחרים</string>
     <string name="permission_pop_desc">כדי לשנות את ההעדפות של התאמה אישית ולשמור פריטים שהורדו קודם עליך לאפשר ליישום ערכות נושא גישה לאחסון.</string>
@@ -1357,9 +1389,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">מסכים</string>
     <string name="user_authorization_dialog_agree_a">מסכים</string>
     <string name="user_authorization_dialog_disagree">יציאה</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>עלינו לאסוף מידע אישי הכרחי כדי לספק לך את השירותים הבסיסיים. תוכל ללמוד כיצד אנו מטפלים במידע שאנו אוספים ב&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> שלנו. קרא והסכם ל&lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ול&lt;a href=\"%3$s\">מדיניות הפרטיות&lt;/a> לפני שתשתמש ב'ערכות נושא'.
-בכל זמן תוכל לעבור להגדרות ולבטל את הסכמתך למדיניות הפרטיות של 'ערכות נושא'&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>הסכם ל&lt;a href=\"%1$s\">הסכם המשתמש&lt;/a> ול&lt;a href=\"%2$s\">מדיניות הפרטיות&lt;/a> שלנו לפני שתמשיך. תוכל לשנות את ההעדפות שלך בכל עת בהגדרות.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"עלינו לאסוף מידע אישי הכרחי כדי לספק לך את השירותים הבסיסיים. תוכל ללמוד כיצד אנו מטפלים במידע שאנו אוספים ב&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> שלנו. קרא והסכם ל&lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ול&lt;a href=\"%3$s\">מדיניות הפרטיות&lt;/a> לפני שתשתמש ב'ערכות נושא'.
+בכל זמן תוכל לעבור להגדרות ולבטל את הסכמתך למדיניות הפרטיות של 'ערכות נושא'"</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>הסכם ל&lt;a href=\"%1$s\">הסכם המשתמש&lt;/a> ול&lt;a href=\"%2$s\">מדיניות הפרטיות&lt;/a> שלנו לפני שתמשיך. תוכל לשנות את ההעדפות שלך בכל עת בהגדרות.</Data></string>
     <string name="user_authorization_dialog_title">תנאי השימוש</string>
     <string name="user_know">הבנתי</string>
     <string name="using_theme_has_update_tips">קיים עדכון זמין לערכת נושא זו.</string>

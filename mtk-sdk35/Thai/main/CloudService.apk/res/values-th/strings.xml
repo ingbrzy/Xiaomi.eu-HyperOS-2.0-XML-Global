@@ -53,6 +53,8 @@
     <string name="button_cancel">ยกเลิก</string>
     <string name="button_quit">ออก</string>
     <string name="button_revoke">เพิกถอน</string>
+    <string name="calendar_sync_item_permission">ปฏิทิน</string>
+    <string name="call_log_sync_item_permission">ประวัติการโทร</string>
     <string name="check_contact">เพิ่ม</string>
     <string name="choose_contact_title">รายชื่อ</string>
     <string name="clearable_edittext_clear_description">ล้าง</string>
@@ -66,6 +68,7 @@
     <string name="cloud_storage_almost_full_upgrade_text">พื้นที่เก็บข้อมูลใกล้เต็มแล้ว อาจไม่สามารถซิงค์รูปภาพได้</string>
     <string name="cloud_storage_common_functions_text">ใช้งานบ่อย</string>
     <string name="cloud_storage_default_title">ที่จัดเก็บข้อมูลคลาวด์</string>
+    <string name="cloud_storage_full_international_upgrade_default_text">พื้นที่จัดเก็บไม่เพียงพอ การซิงค์บนคลาวด์หยุดชั่วคราว</string>
     <string name="cloud_storage_full_upgrade_default_text">พื้นที่เก็บข้อมูลไม่เพียงพอ ไม่สามารถซิงค์รูปภาพได้</string>
     <string name="cloud_storage_info_type_creation">Mi Canvas</string>
     <string name="cloud_storage_info_type_drive">Mi ไดรฟ์</string>
@@ -73,6 +76,7 @@
     <string name="cloud_storage_info_type_family">ครอบครัว</string>
     <string name="cloud_storage_info_type_others">อื่นๆ</string>
     <string name="cloud_storage_info_type_pdc">การตั้งค่าระบบ</string>
+    <string name="cloud_storage_international_almost_full_upgrade_text">พื้นที่เก็บข้อมูลเต็ม กำลังหยุดการซิงค์บนคลาวด์</string>
     <string name="cloud_storage_loading_data">รอสักครู่…</string>
     <string name="cloud_storage_manage_title">จัดการพื้นที่จัดเก็บข้อมูล</string>
     <string name="cloud_storage_no_data">ยังไม่มีรายการในคลาวด์</string>
@@ -104,6 +108,7 @@
     <string name="connect_wlan">เชื่อมต่อกับ Wi-Fi</string>
     <string name="connect_wlan_china">เชื่อมต่อ WLAN</string>
     <string name="contact_alert_sync_data_merge_dialog_msg">หากคุณเปิดการซิงค์ รายชื่อติดต่อที่อัปโหลดจากอุปกรณ์นี้จะถูกรวมเข้ากับรายชื่อติดต่อที่จัดเก็บไว้ในระบบคลาวด์ เปิดการซิงค์ต่อไปไหม?</string>
+    <string name="contacts_sync_item_permission">รายชื่อผู้ติดต่อ</string>
     <string name="copy">คัดลอก</string>
     <string name="creation_dialog_message">ดูข้อมูล Mi Canvas บนแท็บเล็ตของคุณ</string>
     <string name="creation_dialog_positive_btn">ตกลง</string>
@@ -191,7 +196,7 @@
     <string name="e2ee_device_verification_os_tip">อัปเดตเป็น Xiaomi HyperOS 2 หรือใหม่กว่า</string>
     <string name="e2ee_device_verification_result_subtitle">อุปกรณ์ที่ออกจากระบบบัญชี Xiaomi ของคุณจะไม่สามารถใช้ Xiaomi คลาวด์ และบริการอื่นๆ ที่เกี่ยวข้องได้จนกว่าจะลงชื่อเข้าใช้อีกครั้ง</string>
     <string name="e2ee_device_verification_result_title">อุปกรณ์ทั้งหมดออกจากระบบ</string>
-    <string name="e2ee_device_verification_tip">ลบอุปกรณ์นี้ออกจากบัญชีของคุณ</string>
+    <string name="e2ee_device_verification_tip">แตะที่นี่เพื่อลบอุปกรณ์นี้</string>
     <string name="e2ee_dialog_close_subtitle">ข้อมูลที่ได้รับการปกป้องด้วยฟีเจอร์นี้จะไม่รองรับการเข้ารหัสแบบ end-to-end อีกต่อไป และการป้องกันข้อมูลขั้นสูงจะถูกปิดใช้งานบนอุปกรณ์ทั้งหมด</string>
     <string name="e2ee_dialog_close_title">ปิดใช้งานการป้องกันข้อมูลขั้นสูง</string>
     <string name="e2ee_dialog_exit_account_subtitle">เมื่อลงชื่อออกจากระบบอุปกรณ์ การป้องกันข้อมูลขั้นสูงจะถูกปิดโดยอัตโนมัติ ซึ่งจะไม่ส่งผลต่ออุปกรณ์อื่น เมื่อคุณลงชื่อเข้าใช้ใหม่ คุณจะต้องเปิดคุณสมบัตินี้ใหม่อีกครั้ง</string>
@@ -210,6 +215,9 @@
     <string name="e2ee_loading_close">กำลังปิดใช้งาน…</string>
     <string name="e2ee_loading_open">กำลังเปิดใช้งาน…</string>
     <string name="e2ee_name_data_protection">การปกป้องข้อมูลขั้นสูง</string>
+    <string name="e2ee_need_bind_phone_button_sure">รับทราบ</string>
+    <string name="e2ee_need_bind_phone_subtitle">คุณยังไม่ได้เพิ่มหมายเลขโทรศัพท์สำรอง หากคุณลืมรหัสผ่าน คุณจะไม่สามารถลงชื่อเข้าใช้ได้ เพิ่มหมายเลขโทรศัพท์สำรองเพื่อกู้คืนรหัสผ่านของคุณ</string>
+    <string name="e2ee_need_bind_phone_title">เพิ่มโทรศัพท์ที่ใช้กู้คืนบัญชี</string>
     <string name="e2ee_result_close">การปกป้องข้อมูลขั้นสูงปิดอยู่</string>
     <string name="e2ee_result_close_failed">ไม่สามารถปิดใช้งานได้</string>
     <string name="e2ee_result_close_failed_tip">ไม่สามารถปิดคุณสมบัตินี้ได้ โปรดรอสักครู่แล้วลองอีกครั้ง</string>
@@ -265,7 +273,7 @@
     <string name="find_device_dspt_provision">ในกรณีที่เครื่องโทรศัพท์ของคุณหาย คุณสามารถเข้าไปที่ &lt;font color=#0097FF>%s&lt;/font> เพื่อค้นหาพิกัดเครื่อง ทำการล็อกหรือรีเซ็ต โดยคุณสามารถเปิด-ปิดคุณลักษณะนี้ได้ตลอดเวลาในเมนูการตั้งค่า</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">โดยการเปิดใช้งานค้นหาอุปกรณ์นี้ คุณยอมรับใน <a href="app://com.miui.cloudservice.gdpr.license"><u> นโยบายความเป็นส่วนตัว</u></a>ของเรา ปิดคุณสมบัตินี้หากคุณต้องการเพิกถอนความยินยอม</string>
+    <string name="find_device_gdpr_prompt">การเปิดใช้งาน ค้นหาอุปกรณ์ ถือว่าคุณยอมรับ<a href="app://com.miui.cloudservice.gdpr.license"><u>นโยบายความเป็นส่วนตัวของ Xiaomi คลาวด์</u></a> หากต้องการถอนความยินยอมต่อนโยบายความเป็นส่วนตัว โปรดปิดฟีเจอร์นี้</string>
     <string name="find_device_operation_failure_rpc">ไม่สามารถดำเนินการได้เนื่องจากข้อผิดพลาด RPC</string>
     <string name="find_device_permissions_footer">แตะ \"ยินยอม\" เพื่อให้การอนุญาตที่คุณเลือก</string>
     <string name="find_device_permissions_header">ยินดีต้อนรับสู่ ค้นหาอุปกรณ์! คุณสามารถใช้แอปนี้เพื่อค้นหา ติดตาม และล็อกอุปกรณ์ของคุณเมื่ออุปกรณ์สูญหายได้ นอกจากนี้ คุณยังสามารถช่วยเหลือผู้อื่นในการค้นหาอุปกรณ์ Xiaomi ของตนโดยไม่เปิดเผยตัวตนได้อีกด้วย แอปนี้ต้องได้รับอนุญาตดังต่อไปนี้จึงจะทำงานได้ตามปกติ:</string>
@@ -342,6 +350,7 @@
     <string name="friday">วันศุกร์</string>
     <string name="friday_short">ศุกร์</string>
     <string name="friday_shortest">ศุกร์</string>
+    <string name="gallery_auto_sync_fail_international_noti_content">พื้นที่จัดเก็บไม่เพียงพอ ไม่สามารถซิงค์รูปภาพให้เสร็จสิ้นได้</string>
     <string name="gallery_auto_sync_fail_noti_content">พื้นที่เก็บข้อมูลเหลือไม่เพียงพอในระบบคลาวด์ อัปเกรดแผนบริการพื้นที่เก็บข้อมูลของคุณเพื่อซิงค์รูปภาพและวิดีโอ</string>
     <string name="gallery_auto_sync_fail_noti_content_lite">ที่เก็บข้อมูลบนคลาวด์ไม่เพียงพอ ไม่สามารถบันทึกรูปภาพ</string>
     <string name="gallery_data_transfer_ddl">กำหนดเวลา: %s</string>
@@ -421,6 +430,7 @@
     <string name="lockscreen_positive_btn">ถัดไป</string>
     <string name="low_battery_locate_summary">รายงานข้อมูลตำแหน่งโดยอัตโนมัติเมื่อแบตเตอรี่เหลือน้อย</string>
     <string name="low_battery_locate_title">รายงานตำแหน่งเมื่อแบตเตอรี่เหลือน้อย</string>
+    <string name="manual_activation">เปิดใช้งานใหม่</string>
     <string name="master_alert_notif_content">สำรองรายการอย่างสม่ำเสมอเพื่อไม่ให้สูญเสียสิ่งสำคัญ</string>
     <string name="master_alert_notif_title">เปิดใช้งาน Xiaomi คลาวด์</string>
     <string name="member_menu_vipname_free">อิสระ</string>
@@ -521,6 +531,7 @@
     <string name="micloud_manual_all_sync_off_title">ซิงค์ถูกปิด</string>
     <string name="micloud_manual_buy_vip">เพิ่มพื้นที่จัดเก็บ</string>
     <string name="micloud_manual_cloud_storage_full_button_text">เพิ่มพื้นที่จัดเก็บ</string>
+    <string name="micloud_manual_cloud_storage_full_international_summary">ไม่สามารถซิงค์รูปภาพและรายชื่อติดต่อได้</string>
     <string name="micloud_manual_cloud_storage_full_summary">ไม่สามารถซิงค์ รูปภาพ ผู้ติดต่อ และรายการอื่นๆ อัพเกรดแผนของคุณหรือเคลียร์พื้นที่เก็บข้อมูล</string>
     <string name="micloud_manual_cloud_storage_full_title">ซิงค์ไม่ได้ พื้นที่ว่างใน Xiaomi คลาวด์ ไม่เพียงพอ</string>
     <string name="micloud_manual_cloud_storage_low_button_text">เพิ่มพื้นที่จัดเก็บ</string>
@@ -804,7 +815,9 @@
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
     <string name="privacy_policy_reject_confirm_msg">คุณจะไม่สามารถใช้งาน Xiaomi คลาวด์ ต่อไปได้ เว้นแต่คุณจะยอมรับเวอร์ชันใหม่ของ &lt;a href=%1$s>&lt;u>นโยบายความเป็นส่วนตัว&lt;/u>&lt;/a> ยอมรับนโยบายความเป็นส่วนตัวที่อัปเดตแล้วตอนนี้?</string>
     <string name="privacy_policy_reject_confirm_title">โปรดทราบ</string>
-    <string name="privacy_policy_revoked_msg">การยินยอม นโยบายความเป็นส่วนตัว Xiaomi คลาวด์ ถูกเพิกถอนสำหรับบัญชีนี้ ลองใช้บัญชีอื่น</string>
+    <string name="privacy_policy_revoked_btn_msg">รับทราบ</string>
+    <string name="privacy_policy_revoked_msg">คุณได้ถอนความยินยอมต่อนโยบายความเป็นส่วนตัวของ Xiaomi คลาวด์ และข้อมูลทั้งหมดของคุณที่เก็บไว้ในระบบคลาวด์ได้ถูกล้างออกไปแล้ว สลับไปยังบัญชีอื่นเพื่อใช้บริการนี้</string>
+    <string name="privacy_policy_revoked_msg_contains_manual_activation">คุณได้ถอนความยินยอมต่อนโยบายความเป็นส่วนตัวของ Xiaomi Cloud และข้อมูลทั้งหมดของคุณที่เก็บไว้ในระบบคลาวด์ได้ถูกล้างออกไปแล้ว หากต้องการใช้บริการนี้อีกครั้ง โปรดยอมรับนโยบายความเป็นส่วนตัวบน i.mi.com เพื่อความปลอดภัยของคุณ คุณสามารถเปิดใช้งานบัญชีได้เพียงวันละครั้งเท่านั้น</string>
     <string name="privacy_policy_update_msg">นโยบายความเป็นส่วนตัวของ Xiaomi คลาวด์ ได้รับการอัปเดตแล้ว:&lt;br/>%1$s&lt;br/>อ่านและยอมรับ&lt;a href=%2$s>&lt;u>นโยบายความเป็นส่วนตัว&lt;/u>&lt;/a>เวอร์ชันใหม่ก่อนจะดำเนินการต่อ</string>
     <string name="privacy_policy_update_title">นโยบายความเป็นส่วนตัวที่อัปเดตแล้ว</string>
     <string name="privacy_runtime_perm_calendar_desc">สำหรับการซิงค์กำหนดการในปฏิทิน</string>
@@ -836,10 +849,16 @@
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_manual_notification_permission_labels">เพื่อให้แน่ใจว่าคุณได้รับการแจ้งเตือนที่สำคัญ โปรดอนุญาตให้แอปนี้ส่งการแจ้งเตือนในการตั้งค่า</string>
+    <string name="request_manual_various_permissions_labels_exclude_notification_permission">เพื่อให้แน่ใจว่าข้อมูลสำคัญ (%1$s) สามารถซิงค์ไปยังคลาวด์ได้ โปรดให้สิทธิ์ต่อไปนี้แก่แอปในการตั้งค่า: %2$s</string>
+    <string name="request_manual_various_permissions_labels_include_notification_permission">เพื่อให้แน่ใจว่าคุณได้รับการแจ้งเตือนที่สำคัญและข้อมูลที่สำคัญ (%1$s) สามารถซิงค์ไปยังคลาวด์ได้ ให้อนุญาตให้แอปนี้ส่งการแจ้งเตือนและให้สิทธิ์ต่อไปนี้ในการตั้งค่า: %2$s</string>
     <string name="request_os_permissions_dialog_message">Xiaomi คลาวด์ ต้องได้รับอนุญาตในการเข้าถึงรายการที่จัดเก็บไว้ในอุปกรณ์ของคุณเพื่อระบุรายการที่ไม่ได้ซิงค์และปริมาณของรายการเหล่านั้น ให้สิทธิ์นี้หรือไม่?</string>
     <string name="request_os_permissions_dialog_neg_button">ไม่เห็นด้วย</string>
     <string name="request_os_permissions_dialog_pos_button">ยอมรับ</string>
     <string name="request_os_permissions_dialog_title">ต้องการการอนุญาต</string>
+    <string name="request_permissions_dialog_negative_button_mes">ไม่ใช่ตอนนี้</string>
+    <string name="request_permissions_dialog_positive_button_mes">รับทราบ</string>
+    <string name="request_permissions_labels">ดูเหมือนว่าคุณไม่ได้อนุญาตให้ Xiaomi คลาวด์ เข้าถึงข้อมูลประเภทต่อไปนี้: %1$s เพื่อให้แน่ใจว่าสามารถซิงค์รายการทั้งหมดไปยังคลาวด์ได้ตามปกติ โปรดให้สิทธิ์ต่อไปนี้แก่ Xiaomi คลาวด์: %2$s</string>
     <string name="retain_data_high_quality_photo_waring_message">สำเนารูปภาพและวิดีโอคุณภาพสูงของคุณจะถูกลบออกจากคลังภาพหลังจากที่คุณออกจากระบบ ไฟล์ต้นฉบับที่เกี่ยวข้องจะยังคงถูกเก็บไว้ในระบบคลาวด์ คุณยังสามารถดาวน์โหลดไฟล์ต้นฉบับก่อนออกจากระบบ</string>
     <string name="retain_data_high_quality_photo_waring_title">รูปภาพคุณภาพสูงจะไม่สามารถใช้ได้</string>
     <string name="revoke_block_by_find_device">การเพิกถอนความยินยอมจะปิดการค้นหาอุปกรณ์ด้วย คุณจะต้องยืนยันรหัสผ่านหลังจากดำเนินการต่อ</string>
@@ -954,6 +973,7 @@
     <string name="share_success">แชร์แล้ว</string>
     <string name="share_weibo_not_installed">ยังไม่ได้ติดตั้ง Weibo</string>
     <string name="share_weixin_not_installed">ยังไม่ได้ติดตั้ง WeChat.</string>
+    <string name="sms_sync_item_permission">ข้อความ</string>
     <string name="soundrecorder_sync_only_in_wifi">ซิงค์ผ่าน Wi-Fi เท่านั้น</string>
     <string name="soundrecorder_sync_only_in_wifi_china">Only use WLAN to sync</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">ระบบจะไม่ใช้เครือข่ายข้อมูลมือถือในการรับส่งไฟล์บันทึกเสียง</string>

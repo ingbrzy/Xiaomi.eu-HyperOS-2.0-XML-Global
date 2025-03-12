@@ -392,9 +392,10 @@
     <string name="item_resource_audio_optional_notification_ring">اعلان‌ها</string>
     <string name="item_resource_audio_optional_phone_ring">صدای زنگ</string>
     <string name="kg_activity_label">ویرایش صفحه قفل</string>
+    <string name="kg_aod_settings_depth_video_toast">هنگام استفاده از جلوه عمق، فقط نمایشگر همیشه روشن سفارشی پشتیبانی می‌شود</string>
     <string name="kg_apply">به‌کارگیری</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">فقط صفحه قفل</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">به‌کارگیری</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">به‌کارگیری برای هر دو</string>
     <string name="kg_apply_to_all_alert_dialog_title">این تصویر زمینه را در صفحه اصلی نیز اعمال می‌کنید?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">خیر، سپاسگزارم</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">روشن شود</string>
@@ -414,6 +415,7 @@
     <string name="kg_classic_item_empty">هیچ کدام</string>
     <string name="kg_classic_item_humidity">رطوبت</string>
     <string name="kg_classic_item_lunar_date">سالنامه سنتی چینی</string>
+    <string name="kg_classic_item_lunar_date1">سالنامه سنتی چینی</string>
     <string name="kg_classic_item_lunar_month_day">سالنامه سنتی چینی</string>
     <string name="kg_classic_item_lunar_year">سال (سالنامه سنتی چینی)</string>
     <string name="kg_classic_item_month">ماه</string>
@@ -428,6 +430,10 @@
     <string name="kg_classic_item_step_number">گام‌ها</string>
     <string name="kg_classic_item_sunrise_or_sunset">طلوع و غروب خورشید</string>
     <string name="kg_classic_item_temperature">دما</string>
+    <string name="kg_classic_item_type_date">تاریخ</string>
+    <string name="kg_classic_item_type_health">سلامت</string>
+    <string name="kg_classic_item_type_time">زمان</string>
+    <string name="kg_classic_item_type_weather">آب و هوا</string>
     <string name="kg_classic_item_ultraviolet_ray">شاخص پرتو فرا بنفش</string>
     <string name="kg_classic_item_vitality">آمار</string>
     <string name="kg_classic_item_weather_cloudy">ابری</string>
@@ -444,25 +450,45 @@
     <string name="kg_color_value_editor_title">ویرایش رنگ</string>
     <string name="kg_confirm">تأیید</string>
     <string name="kg_customize">سفارشی کردن</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">اعمال تم‌ها</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">لغو</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">اعمال</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">شما در حال استفاده از یک مجموعه تصاویر زمینه هستید. با به‌کارگیری یک تم جدید، هر دوی تصاویر زمینه صفحه قفل و صفحه اصلی جایگزین شده و نمایشگر همیشه روشن به مدل پیشین بازیابی خواهد شد. در هر صورت به‌کار برده شود؟</string>
+    <string name="kg_depth_preset_button_download">دانلود تصویر زمینه پویا</string>
+    <string name="kg_depth_preset_button_downloading">در حال دانلود…</string>
+    <string name="kg_depth_preset_button_dynamic">پویا</string>
+    <string name="kg_depth_preset_button_static">پایدار</string>
+    <string name="kg_depth_preset_dialog_content">نسخه پویای این تصویر زمینه جلوه عمیق دانلود و به‌کار برده شود؟</string>
+    <string name="kg_depth_preset_dialog_download_button">دانلود</string>
+    <string name="kg_depth_preset_dialog_image_button">نسخه پایدار</string>
+    <string name="kg_depth_preset_dialog_title">دانلود تصویر زمینه پویا</string>
+    <string name="kg_depth_preset_network_fail">بدون اتصال به شبکه</string>
+    <string name="kg_depth_preset_network_fail_download_pause">بدون اتصال به شبکه دانلود متوقف شد.</string>
+    <string name="kg_depth_produce_video_detail_failed">اثر عمقی فقط برای افراد، سگ‌ها و گربه‌ها قابل استفاده است</string>
+    <string name="kg_depth_produce_video_failed">جلوه عمق اعمال نشد</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI درحال پردازش جلوه عمق ویدئو است…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">جلوه عمق ویدئو روشن است. نمایشگر تمام صفحه همیشه روشن، خاموش است.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">اعمال تم‌ها</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">لغو</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">اعمال</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">شما در حال استفاده از یک مجموعه تصاویر زمینه هستید. با به‌کارگیری یک تم جدید، هر دوی تصاویر زمینه صفحه قفل و صفحه اصلی جایگزین شده و نمایشگر همیشه روشن به مدل پیشین بازیابی خواهد شد. در هر صورت استفاده شود؟</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">این صفحه قفل از تصاویر زمینه فوق‌العاده پشتیبانی نمی‌کند. در صورت ادامه تصویر زمینه روی صفحه اصلی و قفل شما جایگزین خواهند شد. در هر صورت ادامه داده شود؟</string>
+    <string name="kg_dialog_apply_successful">با موفقیت به‌کار برده شد</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">شما در حال استفاده از تصاویر زمینه فوق‌العاده هستید. در صورت ادامه با یک تصویر زمینه جدید روی صفحه اصلی و صفحه قفل شما جایگزین خواهد شد. در هر صورت ادامه داده شود؟</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">لغو</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">لغو</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">تأیید</string>
+    <string name="kg_dialog_enable_depth_function">ابتدا جلوه‌های عمیق را روشن کنید</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">نادیده گرفتن</string>
     <string name="kg_dialog_fashion_gallery_button_negative">به‌کارگیری</string>
     <string name="kg_dialog_fashion_gallery_button_positive">لغو</string>
     <string name="kg_dialog_fashion_gallery_message">شما در حال استفاده از تصاویر زمینه چرخشی هستید. به‌کارگیری یک تصویر زمینه پویا، تصاویر زمینه چرخشی را خاموش خواهد کرد. در هر صورت به‌کار برده شود؟</string>
     <string name="kg_dialog_fashion_gallery_title">توجه</string>
     <string name="kg_dialog_fontfilter_dualclock_button">هنگامی که ساعت دو زمانه روشن است، نمی‌توان فونت را ویرایش کرد</string>
+    <string name="kg_dialog_no_content_available_the_moment">هنوز موردی اینجا نیست</string>
+    <string name="kg_dialog_too_much_time_blocking">ساعت پوشانده شده است. از جلوه‌های عمیق استفاده نمی‌شود.</string>
     <string name="kg_discard_changes_text">از تغییرات صرف نظر شود?</string>
     <string name="kg_doodle_font_label">خطخطی</string>
     <string name="kg_doodle_primary_label">خطخطی‌ها</string>
     <string name="kg_doodle_secondary_disable_tip">جلوه‌های عمیق را روشن کنید</string>
     <string name="kg_doodle_secondary_label">پس‌زمینه</string>
+    <string name="kg_doodle_text_not_support_clock_tip">هنگام استفاده از این ساعت نمی توان از خطخطی استفاده کرد</string>
     <string name="kg_doodle_text_not_support_gallery_tip">تصاویر زمینه چرخشی از خطخطی پشتیبانی نمی‌کند</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">تصاویر زمینه سوم شخص از خطخطی پشتیبانی نمی‌کنند</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">این تصویر زمینه از خطخطی پشتیبانی نمی‌کند</string>
@@ -475,6 +501,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">تصاویر زمینه سوم شخص از جلوه‌ها پشتیبانی نمی‌کنند</string>
     <string name="kg_effects_tip_title">عمق میدان و فیلترها</string>
     <string name="kg_enable_blur">جلوه مات</string>
+    <string name="kg_exit">خروج</string>
     <string name="kg_font_filter_classic_primary_label">اصلی</string>
     <string name="kg_font_filter_classic_secondary_label">دومی</string>
     <string name="kg_font_filter_doodle_primary_label">خطخطی</string>
@@ -487,7 +514,7 @@
     <string name="kg_font_filter_hsl_title">رنگ سفارشی</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">زمان</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">امضا</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">دقیقه</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">دومی</string>
     <string name="kg_font_filter_magazine_c_style_1_primary_label">اصلی</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">ساعت</string>
     <string name="kg_font_filter_object_label_date">تاریخ</string>
@@ -520,6 +547,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">از تصویر زمینه از جلوه‌های عمیق پشتیبانی نمی‌کند</string>
     <string name="kg_hierarchy_switch_label">جلوه عمق</string>
     <string name="kg_line_spacing">فاصله خطوط</string>
+    <string name="kg_live_photo_land_tips">عکس‌های زنده افقی را فقط می‌توان به عنوان عکس‌های ثابت تنظیم کرد</string>
     <string name="kg_magazine_a_b_primary_color_label">ساعت</string>
     <string name="kg_magazine_a_b_secondary_color_label">امضا</string>
     <string name="kg_magazine_c_primary_color_label">متن دیگر</string>
@@ -548,16 +576,19 @@
     <string name="kg_template_description_rhombus">زمان مهم است. آن را به حساب بیاورید.</string>
     <string name="kg_template_preview_content_description">پیش‌نمایش</string>
     <string name="kg_template_title_classic">کلاسیک</string>
+    <string name="kg_template_title_classic_phone">چشم‌انداز</string>
     <string name="kg_template_title_eastern_art">زیبایی‌ شناسی شرقی</string>
     <string name="kg_template_title_magazine">مجله</string>
-    <string name="kg_template_title_mine">صفحه قفل</string>
+    <string name="kg_template_title_magazine_phone">افراد</string>
+    <string name="kg_template_title_mine">قفل کردن صفحه</string>
     <string name="kg_template_title_rhombus">لوزی</string>
     <string name="kg_time_language_string">اعداد</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">به تصاویر زمینه سوم شخص نمی‌توان دسترسی پیدا کرد</string>
     <string name="kg_title_content">محتوا</string>
     <string name="kg_title_fonts_and_content">فونت و محتوا</string>
     <string name="kg_title_name">فونت</string>
-    <string name="kg_typesetting_string">چیدمان</string>
+    <string name="kg_typesetting_string">سبک</string>
+    <string name="kg_wallpaper_blur_effect">تار کردن تصویر زمینه</string>
     <string name="kg_wallpaper_filter_title">جلوه‌های کاغذ دیواری</string>
     <string name="kg_wallpaper_filter_type_crystallized">کریستال</string>
     <string name="kg_wallpaper_filter_type_focus">فوکوس</string>
@@ -569,6 +600,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">لنز</string>
     <string name="kg_wallpaper_filter_type_water">آب</string>
     <string name="kg_wallpaper_scale_hint_text">برای برش با دو انگشت بپیچانید</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">پیمایش برای این تصویر زمینه روشن نمی‌شود</string>
     <string name="kg_wallpaper_scroll_type_tips">چرخاندن تصویر زمینه</string>
     <string name="kg_word_spacing">فاصله‌گذاری بین نویسه‌ها</string>
     <string name="last_choice">آخرین بار استفاده شده</string>
@@ -800,7 +832,7 @@ mm"</string>
     <string name="payment_coins_balance">(متعادل: %1s)</string>
     <string name="payment_coins_insufficient_balance">(موجودی ناکافی)</string>
     <string name="payment_data_move_tips">داده‌های حساب شما به منظور رعایت مقررات حریم خصوصی به سرورهای ما در منطقه شما انتقال داده خواهند شد. هنگام انتقال خطر از دست دادن داده‌ها وجود دارد.</string>
-    <string name="payment_instructions">&lt;Data>با تکمیل پرداخت، شما &lt;a href=\"%1$s\">اطلاعیه خریدهای درون‌برنامه‌ای&lt;/a> را می‌پذیرید.&lt;/Data></string>
+    <string name="payment_instructions"><Data>با تکمیل پرداخت، شما &lt;a href=\"%1$s\">اطلاعیه خریدهای درون‌برنامه‌ای&lt;/a> را می‌پذیرید.</Data></string>
     <string name="payment_method">شیوه پرداخت</string>
     <string name="permission_desc">برای ذخیره تم‌های ذخیره شده و موارد دیگر</string>
     <string name="permission_pop_desc">برای امکان تغییر تنظیمات برگزیده شخصی‌سازی شده و ذخیره موارد دانلود شده، ابتدا به تم‌ها اجازه دسترسی به حافظه را بدهید.</string>
@@ -1357,9 +1389,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">پذیرفتن</string>
     <string name="user_authorization_dialog_agree_a">پذیرفتن</string>
     <string name="user_authorization_dialog_disagree">خروج</string>
-    <string name="user_authorization_dialog_message">"&lt;Data> ما باید اطلاعات شخصی لازم را برای ارائه خدمات اولیه به شما گردآوری کنیم. شما می‌توانید نحوه استفاده از اطلاعات گردآوری شده را در &lt;a href=\"%1$s\"> سیاست حفظ حریم خصوصی &lt;/a> خود بیاموزید. پیش از استفاده از تم‌ها، &lt;a href=\"%2$s\"> توافق‌نامه کاربر &lt;/a> و &lt;a href=\"%3$s\"> سیاست حفظ حریم خصوصی &lt;/a> ما را خوانده و با آن موافقت کنید.
- شما در هر زمان که بخواهید، می‌توانید رضایت خود را از سیاست حفظ حریم خصوصی تم‌ها در تنظیمات پس بگیرید.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>پیش از ادامه، &lt;a href=\"%1$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%2$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را بپذیرید. شما در هر زمانی می‌توانید تنظیمات برگزیده خود را در تنظیمات تغییر دهید.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>" ما باید اطلاعات شخصی لازم را برای ارائه خدمات اولیه به شما گردآوری کنیم. شما می‌توانید نحوه استفاده از اطلاعات گردآوری شده را در &lt;a href=\"%1$s\"> سیاست حفظ حریم خصوصی &lt;/a> خود بیاموزید. پیش از استفاده از تم‌ها، &lt;a href=\"%2$s\"> توافق‌نامه کاربر &lt;/a> و &lt;a href=\"%3$s\"> سیاست حفظ حریم خصوصی &lt;/a> ما را خوانده و با آن موافقت کنید.
+ شما در هر زمان که بخواهید، می‌توانید رضایت خود را از سیاست حفظ حریم خصوصی تم‌ها در تنظیمات پس بگیرید."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>پیش از ادامه، &lt;a href=\"%1$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%2$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را بپذیرید. شما در هر زمانی می‌توانید تنظیمات برگزیده خود را در تنظیمات تغییر دهید.</Data></string>
     <string name="user_authorization_dialog_title">شرایط و ضوابط</string>
     <string name="user_know">متوجه‌ام</string>
     <string name="using_theme_has_update_tips">یک به‌روزرسانی برای این تم موجود است.</string>

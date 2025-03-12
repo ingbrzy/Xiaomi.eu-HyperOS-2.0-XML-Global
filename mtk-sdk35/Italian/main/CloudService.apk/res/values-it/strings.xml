@@ -53,6 +53,8 @@
     <string name="button_cancel">Annulla</string>
     <string name="button_quit">Esci</string>
     <string name="button_revoke">Revoca</string>
+    <string name="calendar_sync_item_permission">calendario</string>
+    <string name="call_log_sync_item_permission">registro chiamate</string>
     <string name="check_contact">Aggiungi</string>
     <string name="choose_contact_title">Contatti</string>
     <string name="clearable_edittext_clear_description">Cancella</string>
@@ -66,6 +68,7 @@
     <string name="cloud_storage_almost_full_upgrade_text">Lo spazio di archiviazione è quasi esaurito. Potrebbe non essere possibile sincronizzare le foto.</string>
     <string name="cloud_storage_common_functions_text">Usate di frequente</string>
     <string name="cloud_storage_default_title">Archiviazione cloud</string>
+    <string name="cloud_storage_full_international_upgrade_default_text">Spazio insufficiente. La sincronizzazione con il cloud è in pausa.</string>
     <string name="cloud_storage_full_upgrade_default_text">Spazio insufficiente. Impossibile sincronizzare le foto.</string>
     <string name="cloud_storage_info_type_creation">Mi Canvas</string>
     <string name="cloud_storage_info_type_drive">Mi Drive</string>
@@ -73,6 +76,7 @@
     <string name="cloud_storage_info_type_family">Famiglia</string>
     <string name="cloud_storage_info_type_others">Altro</string>
     <string name="cloud_storage_info_type_pdc">Impostazioni di sistema</string>
+    <string name="cloud_storage_international_almost_full_upgrade_text">La memoria è piena. Messa in pausa della sincronizzazione con il cloud.</string>
     <string name="cloud_storage_loading_data">Solo un secondo…</string>
     <string name="cloud_storage_manage_title">Gestisci archiviazione</string>
     <string name="cloud_storage_no_data">Ancora nessun elemento nel cloud</string>
@@ -104,6 +108,7 @@
     <string name="connect_wlan">Connettiti ad una rete Wi-Fi</string>
     <string name="connect_wlan_china">Connettiti al Wi-Fi</string>
     <string name="contact_alert_sync_data_merge_dialog_msg">Se attivi la sincronizzazione, i contatti caricati da questo dispositivo verranno uniti ai contatti archiviati nel cloud. Attivare la sincronizzazione?</string>
+    <string name="contacts_sync_item_permission">contatti</string>
     <string name="copy">Copia</string>
     <string name="creation_dialog_message">Visualizza i dati di Mi Canvas sul tuo tablet.</string>
     <string name="creation_dialog_positive_btn">OK</string>
@@ -191,7 +196,7 @@
     <string name="e2ee_device_verification_os_tip">Aggiornamento a Xiaomi HyperOS 2 o successivo</string>
     <string name="e2ee_device_verification_result_subtitle">"I dispositivi disconnessi dal tuo Xiaomi Account non saranno in grado di utilizzare Xiaomi Cloud e altri servizi correlati fino a quando non effettueranno nuovamente l'accesso."</string>
     <string name="e2ee_device_verification_result_title">Tutti i dispositivi sono stati disconnessi</string>
-    <string name="e2ee_device_verification_tip">Rimuovi questo dispositivo dal tuo account</string>
+    <string name="e2ee_device_verification_tip">Tocca qui per rimuovere questo dispositivo</string>
     <string name="e2ee_dialog_close_subtitle">I dati protetti da questa funzione non supporteranno più la crittografia end-to-end e la protezione avanzata dei dati sarà disattivata su tutti i dispositivi.</string>
     <string name="e2ee_dialog_close_title">Disattiva la protezione avanzata dei dati</string>
     <string name="e2ee_dialog_exit_account_subtitle">"Quando un dispositivo viene disconnesso, la protezione avanzata dei dati viene disattivata automaticamente. Questo non influisce sugli altri dispositivi. Quando effettuerai nuovamente l'accesso, dovrai riattivare questa funzione."</string>
@@ -210,6 +215,9 @@
     <string name="e2ee_loading_close">Disattivazione…</string>
     <string name="e2ee_loading_open">Attivazione in corso…</string>
     <string name="e2ee_name_data_protection">Protezione avanzata dei dati</string>
+    <string name="e2ee_need_bind_phone_button_sure">Ho capito</string>
+    <string name="e2ee_need_bind_phone_subtitle">Non hai aggiunto un telefono di recupero. Se dimentichi la password, non sarà possibile accedere. Aggiungi un telefono di recupero per poter recuperare la password.</string>
+    <string name="e2ee_need_bind_phone_title">Aggiungi un telefono di recupero</string>
     <string name="e2ee_result_close">La protezione avanzata dei dati non è attiva</string>
     <string name="e2ee_result_close_failed">Impossibile disattivare</string>
     <string name="e2ee_result_close_failed_tip">Impossibile disattivare questa funzione. Aspetta un minuto o due e riprova.</string>
@@ -265,15 +273,15 @@
     <string name="find_device_dspt_provision">Se perdi il tuo dispositivo, puoi andare su &lt;font color=#0097FF>%s&lt;/font> per localizzarlo, bloccarlo o ripristinarlo. Puoi attivare o disattivare questa funzionalità in qualsiasi momento nelle Impostazioni.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">Attivando Trova dispositivo, accetti la nostra <a href="app://com.miui.cloudservice.gdpr.license"><u>Informativa sulla privacy</u></a>. Disattiva questa funzionalità se desideri revocare il tuo consenso.</string>
+    <string name="find_device_gdpr_prompt">"Attivando Trova dispositivo accetti l'"<a href="app://com.miui.cloudservice.gdpr.license"><u>Informativa sulla privacy di Xiaomi Cloud</u></a>". Per revocare il tuo consenso all'Informativa sulla privacy, disattiva questa funzione."</string>
     <string name="find_device_operation_failure_rpc">"Impossibile eseguire l'operazione a causa di un errore RPC."</string>
     <string name="find_device_permissions_footer">Tocca \"Concedi\" per concedere i permessi selezionati.</string>
     <string name="find_device_permissions_header">Benvenuto in Trova dispositivo! Puoi utilizzare questa applicazione per localizzare, rintracciare e bloccare il tuo dispositivo quando è scomparso. Puoi anche aiutare anonimamente gli altri a localizzare i loro dispositivi Xiaomi. Per funzionare correttamente, questa app richiede i seguenti permessi:</string>
-    <string name="find_device_permissions_header_without_offline_find">"With Find device, you can locate, track, and lock your device when it's missing. This app requires the following permissions to work normally:"</string>
+    <string name="find_device_permissions_header_without_offline_find">"Con Trova dispositivo puoi localizzare, rintracciare e bloccare il tuo dispositivo in caso di smarrimento. Quest'app richiede le seguenti autorizzazioni per funzionare normalmente:"</string>
     <string name="find_device_service_title">Trova dispositivo</string>
     <string name="find_device_status_summary">"Attiva per localizzare e rintracciare il tuo dispositivo o per cancellare i suoi dati da remoto.
 Puoi anche aiutare gli altri a localizzare i loro dispositivi Xiaomi in modo anonimo."</string>
-    <string name="find_device_status_summary_without_offline_find">Turn on to locate and track your device or clear its data remotely</string>
+    <string name="find_device_status_summary_without_offline_find">Attiva per localizzare e rintracciare il tuo dispositivo o per eliminare i suoi dati da remoto</string>
     <string name="find_device_status_title_pad">Trova dispositivo</string>
     <string name="find_device_status_title_phone">Trova dispositivo</string>
     <string name="find_permission_location_summary">Per localizzare questo dispositivo</string>
@@ -342,6 +350,7 @@ Puoi anche aiutare gli altri a localizzare i loro dispositivi Xiaomi in modo ano
     <string name="friday">Venerdì</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
+    <string name="gallery_auto_sync_fail_international_noti_content">Memoria insufficiente. Non è possibile completare la sincronizzazione delle foto.</string>
     <string name="gallery_auto_sync_fail_noti_content">Spazio di archiviazione cloud insufficiente. Aggiorna il tuo piano di archiviazione per sincronizzare foto e video.</string>
     <string name="gallery_auto_sync_fail_noti_content_lite">La memoria su cloud è insufficiente. Non è possibile salvare le foto.</string>
     <string name="gallery_data_transfer_ddl">Scadenza: %s</string>
@@ -421,6 +430,7 @@ Puoi anche aiutare gli altri a localizzare i loro dispositivi Xiaomi in modo ano
     <string name="lockscreen_positive_btn">Avanti</string>
     <string name="low_battery_locate_summary">Segnala automaticamente le informazioni sulla posizione quando la batteria è scarica</string>
     <string name="low_battery_locate_title">Segnala la posizione quando la batteria è scarica</string>
+    <string name="manual_activation">Riattiva</string>
     <string name="master_alert_notif_content">Effettua regolarmente il backup per non perdere nulla di importante.</string>
     <string name="master_alert_notif_title">Attiva Xiaomi Cloud</string>
     <string name="member_menu_vipname_free">Gratis</string>
@@ -521,6 +531,7 @@ Puoi anche aiutare gli altri a localizzare i loro dispositivi Xiaomi in modo ano
     <string name="micloud_manual_all_sync_off_title">Sincronizzazione disattivata</string>
     <string name="micloud_manual_buy_vip">Ottieni più spazio</string>
     <string name="micloud_manual_cloud_storage_full_button_text">Ottieni più spazio</string>
+    <string name="micloud_manual_cloud_storage_full_international_summary">Non è possibile sincronizzare foto e contatti</string>
     <string name="micloud_manual_cloud_storage_full_summary">Impossibile sincronizzare foto, contatti e altri elementi. Aggiorna il tuo piano o libera spazio di archiviazione.</string>
     <string name="micloud_manual_cloud_storage_full_title">Impossibile sincronizzare. Spazio insufficiente su Xiaomi Cloud.</string>
     <string name="micloud_manual_cloud_storage_low_button_text">Ottieni più spazio</string>
@@ -777,9 +788,9 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="preference_copied">\"%1$s\"copiato negli appunti.</string>
     <string name="privacy_and_agreement">Termini e condizioni</string>
     <string name="privacy_dialog_finddevice_all_purpose_pad">Benvenuto in Trova dispositivo! Puoi utilizzare questa applicazione per localizzare, rintracciare e bloccare il tuo dispositivo quando è scomparso. Puoi anche aiutare anonimamente gli altri a localizzare i loro dispositivi Xiaomi.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">"You can use Find device to locate, lock, or erase data on your device if it's lost."</string>
+    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">Puoi utilizzare Trova dispositivo per localizzare, bloccare o eliminare i dati sul tuo dispositivo in caso di smarrimento.</string>
     <string name="privacy_dialog_finddevice_all_purpose_phone">Benvenuto in Trova dispositivo! Puoi utilizzare questa applicazione per localizzare, rintracciare e bloccare il tuo dispositivo quando è scomparso. Puoi anche aiutare anonimamente gli altri a localizzare i loro dispositivi Xiaomi.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">"You can use Find device to locate, lock, or erase data on your device if it's lost."</string>
+    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">Puoi utilizzare Trova dispositivo per localizzare, bloccare o eliminare i dati sul tuo dispositivo in caso di smarrimento.</string>
     <string name="privacy_dialog_sync_all_purpose_china">"Benvenuti nei servizi Xiaomi Cloud! È possibile utilizzare Xiaomi Cloud per sincronizzare i messaggi, i contatti, le note, le impostazioni del browser, le foto e i video, le impostazioni Wi-Fi, le registrazioni, il layout della schermata Home, le app, gli eventi del calendario, gli elementi della lista blocchi, la cronologia delle chiamate e l'Assistente app su tutti i dispositivi collegati."</string>
     <string name="privacy_dialog_sync_all_purpose_china_v2">"Benvenuti nei servizi Xiaomi Cloud! È possibile utilizzare Xiaomi Cloud per sincronizzare i messaggi, i contatti, le note, le impostazioni del browser, le foto e i video, le impostazioni Wi-Fi, le registrazioni, il layout della schermata Home, le app, gli eventi del calendario, gli elementi della lista blocchi, la cronologia delle chiamate e l'Assistente app su tutti i dispositivi collegati."</string>
     <string name="privacy_dialog_sync_all_purpose_pad">Benvenuti nei servizi Xiaomi Cloud! È possibile utilizzare questa app per sincronizzare i messaggi, i contatti, le note, gli elementi del Browser, gli album cloud, la musica, il calendario, la lista blocchi e la cronologia delle chiamate nel cloud.</string>
@@ -804,7 +815,9 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="privacy_policy">Informativa sulla privacy</string>
     <string name="privacy_policy_reject_confirm_msg">"Non potrai continuare a utilizzare Xiaomi Cloud se non accetti la nuova versione della sua &lt;a href=%1$s>&lt;u>Informativa sulla privacy&lt;/u>&lt;/a>. Accettare l'Informativa sulla privacy aggiornata?"</string>
     <string name="privacy_policy_reject_confirm_title">Attenzione</string>
-    <string name="privacy_policy_revoked_msg">"Il consenso all'Informativa sulla privacy di Xiaomi Cloud è stato revocato per questo account. Prova a utilizzare un account diverso."</string>
+    <string name="privacy_policy_revoked_btn_msg">Ho capito</string>
+    <string name="privacy_policy_revoked_msg">"Hai revocato il tuo consenso all'Informativa sulla privacy di Xiaomi Cloud e tutti i tuoi dati memorizzati nel cloud sono stati eliminati. Passa a un altro account per utilizzare questo servizio."</string>
+    <string name="privacy_policy_revoked_msg_contains_manual_activation">"Hai revocato il tuo consenso all'Informativa sulla privacy di Xiaomi Cloud e tutti i tuoi dati memorizzati nel cloud sono stati eliminati. Per utilizzare nuovamente questo servizio, accetta l'Informativa sulla privacy su i.mi.com. Per la tua sicurezza, puoi attivare un account solo una volta al giorno."</string>
     <string name="privacy_policy_update_msg">"L'informativa sulla privacy di Xiaomi Cloud è stata aggiornata:&lt;br/>%1$s&lt;br/>Leggi e accetta la nuova versione dell'&lt;a href=%2$s>&lt;u>Informativa sulla privacy&lt;/u>&lt;/a> prima di continuare."</string>
     <string name="privacy_policy_update_title">Informativa sulla privacy aggiornata</string>
     <string name="privacy_runtime_perm_calendar_desc">Per sincronizzare gli eventi del calendario</string>
@@ -836,10 +849,16 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_manual_notification_permission_labels">"Per accertarti di ricevere le notifiche importanti, consenti a quest'app di inviare notifiche nelle Impostazioni."</string>
+    <string name="request_manual_various_permissions_labels_exclude_notification_permission">"Per accertarti che i dati importanti (%1$s) possano essere sincronizzati con il cloud, concedi a quest'app le seguenti autorizzazioni nelle Impostazioni: %2$s."</string>
+    <string name="request_manual_various_permissions_labels_include_notification_permission">"Per accertarti di ricevere notifiche importanti e che i dati importanti (%1$s) possano essere sincronizzati nel cloud, consenti a quest'app di inviare notifiche e concedi le seguenti autorizzazioni in Impostazioni: %2$s."</string>
     <string name="request_os_permissions_dialog_message">Xiaomi Cloud ha bisogno dei permessi per accedere agli elementi memorizzati sul tuo dispositivo per poter identificare gli elementi non sincronizzati e la loro quantità. Concedere questo permesso ora?</string>
     <string name="request_os_permissions_dialog_neg_button">Rifiuta</string>
     <string name="request_os_permissions_dialog_pos_button">Accetta</string>
     <string name="request_os_permissions_dialog_title">Permessi richiesti</string>
+    <string name="request_permissions_dialog_negative_button_mes">Non ora</string>
+    <string name="request_permissions_dialog_positive_button_mes">Ho capito</string>
+    <string name="request_permissions_labels">Sembra che tu non abbia consentito a Xiaomi Cloud di accedere ai seguenti tipi di informazioni: %1$s. Per assicurarti che tutti gli elementi possano essere sincronizzati normalmente con il cloud, concedi a Xiaomi Cloud le seguenti autorizzazioni: %2$s.</string>
     <string name="retain_data_high_quality_photo_waring_message">Le copie in alta qualità delle tue foto e dei tuoi video verranno eliminate dalla Galleria dopo la disconnessione. I file originali corrispondenti verranno comunque archiviati nel cloud. Puoi anche scaricare i file originali prima di uscire.</string>
     <string name="retain_data_high_quality_photo_waring_title">Le immagini in alta qualità non saranno disponibili</string>
     <string name="revoke_block_by_find_device">La revoca del consenso disattiverà anche Trova dispositivo. Dovrai verificare la tua password se continui.</string>
@@ -954,6 +973,7 @@ Le informazioni sulla posizione potrebbero non essere segnalate quando la connes
     <string name="share_success">Condiviso</string>
     <string name="share_weibo_not_installed">Weibo non installato.</string>
     <string name="share_weixin_not_installed">WeChat non installato.</string>
+    <string name="sms_sync_item_permission">messaggi</string>
     <string name="soundrecorder_sync_only_in_wifi">Sincronizza solo quando connesso a Wi-Fi</string>
     <string name="soundrecorder_sync_only_in_wifi_china">Only use WLAN to sync</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">Il Registratore non userà la connessione dati per scaricare o caricare le registrazioni</string>

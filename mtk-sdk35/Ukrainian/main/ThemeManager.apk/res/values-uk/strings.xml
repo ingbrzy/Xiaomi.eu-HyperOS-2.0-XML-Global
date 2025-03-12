@@ -521,9 +521,10 @@
     <string name="item_resource_audio_optional_phone_ring">Мелодія</string>
     <string name="item_view_role_description">Вкладка</string>
     <string name="kg_activity_label">Змінити екран блокування</string>
+    <string name="kg_aod_settings_depth_video_toast">При використанні ефекту глибини підтримується тільки Завжди активний екран</string>
     <string name="kg_apply">Застосувати</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Тільки екран блокування</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Застосувати</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Застосувати до обох</string>
     <string name="kg_apply_to_all_alert_dialog_title">Застосувати ці шпалери також на Робочий стіл?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Ні, дякую</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Увімкнути</string>
@@ -540,9 +541,10 @@
     <string name="kg_classic_item_chinese_min">Хвилини (китайські)</string>
     <string name="kg_classic_item_date">Дата</string>
     <string name="kg_classic_item_day">День</string>
-    <string name="kg_classic_item_empty">Порожньо</string>
+    <string name="kg_classic_item_empty">Немає</string>
     <string name="kg_classic_item_humidity">Вологість</string>
     <string name="kg_classic_item_lunar_date">Традиційний китайський календар</string>
+    <string name="kg_classic_item_lunar_date1">Традиційний китайський календар</string>
     <string name="kg_classic_item_lunar_month_day">Традиційний китайський календар</string>
     <string name="kg_classic_item_lunar_year">Рік (традиційний китайський календар)</string>
     <string name="kg_classic_item_month">Місяць</string>
@@ -557,9 +559,13 @@
     <string name="kg_classic_item_step_number">Кроки</string>
     <string name="kg_classic_item_sunrise_or_sunset">Схід та захід</string>
     <string name="kg_classic_item_temperature">Температура</string>
+    <string name="kg_classic_item_type_date">Дата</string>
+    <string name="kg_classic_item_type_health">"Здоров'я"</string>
+    <string name="kg_classic_item_type_time">Час</string>
+    <string name="kg_classic_item_type_weather">Погода</string>
     <string name="kg_classic_item_ultraviolet_ray">Індекс УФ</string>
     <string name="kg_classic_item_vitality">Статистика</string>
-    <string name="kg_classic_item_weather_cloudy">Хмарний</string>
+    <string name="kg_classic_item_weather_cloudy">Хмарно</string>
     <string name="kg_classic_item_week">Тиждень</string>
     <string name="kg_classic_item_wind">Вітер</string>
     <string name="kg_classic_primary_color_label">Основний колір</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">Змінити колір</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Налаштувати</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Застосувати тему</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Скасувати</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Застосувати</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Зараз ви використовуєте набір шпалер. Якщо ви застосуєте нову тему, шпалери на екрані блокування та на робочому столі будуть замінені, а також буде відновлено попередній стиль активного екрана. Застосувати?</string>
+    <string name="kg_depth_preset_button_download">Завантажити динамічні шпалери</string>
+    <string name="kg_depth_preset_button_downloading">Завантаження…</string>
+    <string name="kg_depth_preset_button_dynamic">Динамічні</string>
+    <string name="kg_depth_preset_button_static">Нерухомі</string>
+    <string name="kg_depth_preset_dialog_content">Завантажити та застосувати динамічну версію цих шпалер із ефектом глибини?</string>
+    <string name="kg_depth_preset_dialog_download_button">Завантажити</string>
+    <string name="kg_depth_preset_dialog_image_button">Статична версія</string>
+    <string name="kg_depth_preset_dialog_title">Завантажити динамічні шпалери</string>
+    <string name="kg_depth_preset_network_fail">Відсутнє підключення до мережі</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Відсутнє підключення до мережі. Завантаження призупинене.</string>
+    <string name="kg_depth_produce_video_detail_failed">Ефект глибини можна використовувати тільки для людей, собак і кішок</string>
+    <string name="kg_depth_produce_video_failed">Не вдалося застосувати ефект глибини</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">ШІ обробляє ефект глибини відео…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Увімкнено ефект глибини відео. Завжди активний екран у повноекранному режимі вимкнено.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Застосувати тему</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Скасувати</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Застосувати</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Зараз ви використовуєте набір шпалер. Якщо ви застосуєте нову тему, шпалери на екрані блокування та на робочому столі будуть замінені, а також буде відновлено попередній стиль Завжди активного екрана. Застосувати?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Цей екран блокування не підтримує Супершпалери. Якщо ви продовжите, шпалери на головному екрані та екрані блокування будуть замінені. Продовжити?</string>
+    <string name="kg_dialog_apply_successful">Застосовано успішно</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Ви зараз використовуєте Супершпалери. Якщо ви продовжите, вони будуть замінені новими шпалерами як на головному екрані, так і на екрані блокування. Продовжити?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Скасувати</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Скасувати</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Спочатку увімкніть ефект глибини</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Скасувати</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Застосувати</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Скасувати</string>
     <string name="kg_dialog_fashion_gallery_message">Зараз ви використовуєте Карусель шпалер. Застосування динамічних шпалер відключить Карусель шпалер. Застосувати?</string>
     <string name="kg_dialog_fashion_gallery_title">Увага</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Неможна використовувати шрифт, коли увімкнено Подвійний годинник</string>
+    <string name="kg_dialog_no_content_available_the_moment">Тут ще нічого немає</string>
+    <string name="kg_dialog_too_much_time_blocking">Годинник затемнений. Неможливо використовувати ефект глибини.</string>
     <string name="kg_discard_changes_text">Скасувати зміни?</string>
     <string name="kg_doodle_font_label">Ескіз</string>
     <string name="kg_doodle_primary_label">Ескізи</string>
     <string name="kg_doodle_secondary_disable_tip">Увімкнути ефект глибини</string>
     <string name="kg_doodle_secondary_label">Фон</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Неможливо використовувати ескізи під час використання цього годинника</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Карусель шпалер не підтримує ескізи</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Шпалери від третіх сторін не підтримують ескізи</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Ці шпалери не підтримують ескізи</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Шпалери від третіх сторін не підтримують ефекти</string>
     <string name="kg_effects_tip_title">Глибина різкості та фільтри</string>
     <string name="kg_enable_blur">Матовий ефект</string>
+    <string name="kg_exit">Вихід</string>
     <string name="kg_font_filter_classic_primary_label">Основний</string>
     <string name="kg_font_filter_classic_secondary_label">Вторинний</string>
     <string name="kg_font_filter_doodle_primary_label">Ескіз</string>
@@ -616,8 +643,8 @@
     <string name="kg_font_filter_hsl_title">Колір користувача</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Час</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Підпис</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Хвилини</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Головний</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Вторинний</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Основний</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Години</string>
     <string name="kg_font_filter_object_label_date">Дата</string>
     <string name="kg_font_filter_object_label_date_color">Колір дати</string>
@@ -632,7 +659,7 @@
     <string name="kg_font_filter_rhombus_secondary_label">Двокрапка</string>
     <string name="kg_function_button_text_color">Колір</string>
     <string name="kg_function_button_text_effect">Ефекти шпалер</string>
-    <string name="kg_function_button_text_font">Ефекти шрифта</string>
+    <string name="kg_function_button_text_font">Ефекти шрифту</string>
     <string name="kg_function_button_text_hierarchy">Глибина</string>
     <string name="kg_function_button_text_lang">Мова</string>
     <string name="kg_function_button_text_wallpaper">Шпалери</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Ці шпалери не підтримують ефекти глибини</string>
     <string name="kg_hierarchy_switch_label">Ефект глибини</string>
     <string name="kg_line_spacing">Міжрядковий інтервал</string>
+    <string name="kg_live_photo_land_tips">Горизонтальні живі фото можна встановити тільки як статичні фото</string>
     <string name="kg_magazine_a_b_primary_color_label">Годинник</string>
     <string name="kg_magazine_a_b_secondary_color_label">Підпис</string>
     <string name="kg_magazine_c_primary_color_label">Інший текст</string>
@@ -677,8 +705,10 @@
     <string name="kg_template_description_rhombus">Час важливий. Використовуйте його з користю.</string>
     <string name="kg_template_preview_content_description">Попередній перегляд</string>
     <string name="kg_template_title_classic">Класика</string>
+    <string name="kg_template_title_classic_phone">Природа</string>
     <string name="kg_template_title_eastern_art">Східна естетика</string>
     <string name="kg_template_title_magazine">Журнал</string>
+    <string name="kg_template_title_magazine_phone">Люди</string>
     <string name="kg_template_title_mine">Екран блокування</string>
     <string name="kg_template_title_rhombus">Ромб</string>
     <string name="kg_time_language_string">Цифри</string>
@@ -686,7 +716,8 @@
     <string name="kg_title_content">Зміст</string>
     <string name="kg_title_fonts_and_content">Шрифт і зміст</string>
     <string name="kg_title_name">Шрифт</string>
-    <string name="kg_typesetting_string">Макет</string>
+    <string name="kg_typesetting_string">Стиль</string>
+    <string name="kg_wallpaper_blur_effect">Розмиття шпалер</string>
     <string name="kg_wallpaper_filter_title">Ефекти шпалер</string>
     <string name="kg_wallpaper_filter_type_crystallized">Кристали</string>
     <string name="kg_wallpaper_filter_type_focus">Фокус</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Лінза</string>
     <string name="kg_wallpaper_filter_type_water">Вода</string>
     <string name="kg_wallpaper_scale_hint_text">Стисніть, щоб обрізати</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Неможливо увімкнути прокручування для цих шпалер</string>
     <string name="kg_wallpaper_scroll_type_tips">Прокрутка шпалер</string>
     <string name="kg_word_spacing">Міжсимвольний інтервал</string>
     <string name="last_choice">Використовувалася минулого разу</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Баланс: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Недостатньо коштів на рахунку)</string>
     <string name="payment_data_move_tips">Дані вашого акаунту будуть перенесені на сервери у вашому регіоні відповідно до правил конфіденційності. Існує ризик втрати даних під час міграції.</string>
-    <string name="payment_instructions">&lt;Data>Завершуючи платіж, ви погоджуєтеся з &lt;a href=\"%1$s\">Повідомленням щодо покупок у програмі&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Завершуючи платіж, ви погоджуєтеся з &lt;a href=\"%1$s\">Повідомленням щодо покупок у програмі&lt;/a>.</Data></string>
     <string name="payment_method">Спосіб оплати</string>
     <string name="permission_desc">Для збереження тем та інших даних.</string>
     <string name="permission_pop_desc">Щоб мати можливість змінювати налаштування персоналізації та зберігати завантажені елементи, спочатку надайте програмі \"Теми\" доступ до сховища.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Погодитися</string>
     <string name="user_authorization_dialog_agree_a">Погодитися</string>
     <string name="user_authorization_dialog_disagree">Вийти</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Нам потрібно здійснювати збір необхідної особистої інформації, щоб надавати вам основні послуги. Ви можете дізнатися, як ми обробляємо інформацію, яку збираємо в нашій &lt;a href=\"%1$s\">Політиці конфіденційності&lt;/a>. Прочитайте та погодьтеся з нашою &lt;a href=\"%2$s\">Угодою користувача&lt;/a> та &lt;a href=\"%3$s\">Політикою конфіденційності&lt;/a> перед використанням програми Теми.
-Ви можете відкликати згоду з Політикою конфіденційності програми Теми в будь-який час в Налаштуваннях.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Перед продовженням погодьтеся з нашою &lt;a href=\"%1$s\">Угодою користувача&lt;/a> та &lt;a href=\"%2$s\">Політикою конфіденційності&lt;/a>. Ви можете змінити свій вибір у будь-який час у Налаштуваннях.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Нам потрібно здійснювати збір необхідної особистої інформації, щоб надавати вам основні послуги. Ви можете дізнатися, як ми обробляємо інформацію, яку збираємо в нашій &lt;a href=\"%1$s\">Політиці конфіденційності&lt;/a>. Прочитайте та погодьтеся з нашою &lt;a href=\"%2$s\">Угодою користувача&lt;/a> та &lt;a href=\"%3$s\">Політикою конфіденційності&lt;/a> перед використанням програми Теми.
+Ви можете відкликати згоду з Політикою конфіденційності програми Теми в будь-який час в Налаштуваннях."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Перед продовженням погодьтеся з нашою &lt;a href=\"%1$s\">Угодою користувача&lt;/a> та &lt;a href=\"%2$s\">Політикою конфіденційності&lt;/a>. Ви можете змінити свій вибір у будь-який час у Налаштуваннях.</Data></string>
     <string name="user_authorization_dialog_title">Правила та умови</string>
     <string name="user_know">Зрозуміло</string>
     <string name="using_theme_has_update_tips">Доступне оновлення для цієї теми.</string>

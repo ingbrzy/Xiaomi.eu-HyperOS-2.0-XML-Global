@@ -102,7 +102,7 @@
     <string name="ai_wallpaper_i_know">Rozumím</string>
     <string name="ai_wallpaper_inside_invitation">Využijte beta testování dynamických AI tapet</string>
     <string name="ai_wallpaper_inside_invitation_agree">Souhlasím</string>
-    <string name="ai_wallpaper_inside_invitation_description">Tato funkce využívá možnosti velkého modelu a vytváří s jejich pomocí dynamické video tapety z fotografií krajiny, měst, rostlin a automobilů. Klepněte na „Souhlasím“ a vyzkoušejte ji!</string>
+    <string name="ai_wallpaper_inside_invitation_description">Tato funkce využívá možnosti velkého modelu a vytváří s jeho pomocí dynamické video tapety z fotografií krajiny, měst, rostlin a automobilů. Klepněte na „Souhlasím“ a vyzkoušejte ji!</string>
     <string name="ai_wallpaper_inside_invitation_disagree">Nesouhlasím</string>
     <string name="ai_wallpaper_network_connection_exception">Nebylo možné se připojit k síti</string>
     <string name="ai_wallpaper_network_exception">Došlo k chybě sítě</string>
@@ -520,10 +520,11 @@
     <string name="item_resource_audio_optional_notification_ring">Oznámení</string>
     <string name="item_resource_audio_optional_phone_ring">Vyzvánění</string>
     <string name="item_view_role_description">Karta</string>
-    <string name="kg_activity_label">Upravit zamykací obrazovku</string>
+    <string name="kg_activity_label">Upravit Zamykací obrazovku</string>
+    <string name="kg_aod_settings_depth_video_toast">Při používání efektu hloubky je podporován pouze vlastní Aktivní displej</string>
     <string name="kg_apply">Použít</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Pouze na Zamykací obrazovku</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Použít</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Použít pro obě</string>
     <string name="kg_apply_to_all_alert_dialog_title">Použít tuto tapetu také na Domovskou obrazovku?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Ne, děkuji</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Zapnout</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">Žádné</string>
     <string name="kg_classic_item_humidity">Vlhkost</string>
     <string name="kg_classic_item_lunar_date">Tradiční čínský kalendář</string>
+    <string name="kg_classic_item_lunar_date1">Tradiční čínský kalendář</string>
     <string name="kg_classic_item_lunar_month_day">Tradiční čínský kalendář</string>
     <string name="kg_classic_item_lunar_year">Rok (tradiční čínský kalendář)</string>
     <string name="kg_classic_item_month">Měsíc</string>
@@ -552,11 +554,15 @@
     <string name="kg_classic_item_operator">Operátor</string>
     <string name="kg_classic_item_rainfall_probability">Srážky</string>
     <string name="kg_classic_item_sleep">Spánek</string>
-    <string name="kg_classic_item_somatosensory">Pocitově</string>
+    <string name="kg_classic_item_somatosensory">Pocitová teplota</string>
     <string name="kg_classic_item_stand">Vstávání</string>
     <string name="kg_classic_item_step_number">Kroky</string>
     <string name="kg_classic_item_sunrise_or_sunset">Východ a západ slunce</string>
     <string name="kg_classic_item_temperature">Teplota</string>
+    <string name="kg_classic_item_type_date">Datum</string>
+    <string name="kg_classic_item_type_health">Zdraví</string>
+    <string name="kg_classic_item_type_time">Čas</string>
+    <string name="kg_classic_item_type_weather">Počasí</string>
     <string name="kg_classic_item_ultraviolet_ray">UV index</string>
     <string name="kg_classic_item_vitality">Statistiky</string>
     <string name="kg_classic_item_weather_cloudy">Oblačno</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">Upravit barvu</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Přizpůsobit</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Použít téma</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Zrušit</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Použít</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Nyní používáte sadu tapet. Pokud použijete nové téma, tapety na Zamykací obrazovce i na Domovské obrazovce budou nahrazeny a na Aktivním displeji bude obnoven předchozí styl. Použít i tak?</string>
+    <string name="kg_depth_preset_button_download">Stáhnout dynamickou tapetu</string>
+    <string name="kg_depth_preset_button_downloading">Stahování…</string>
+    <string name="kg_depth_preset_button_dynamic">Dynamický</string>
+    <string name="kg_depth_preset_button_static">Statický</string>
+    <string name="kg_depth_preset_dialog_content">Stáhnout a použít dynamickou verzi tapety s hloubkovým efektem?</string>
+    <string name="kg_depth_preset_dialog_download_button">Stáhnout</string>
+    <string name="kg_depth_preset_dialog_image_button">Statická verze</string>
+    <string name="kg_depth_preset_dialog_title">Stáhnout dynamickou tapetu</string>
+    <string name="kg_depth_preset_network_fail">Žádné připojení k síti</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Žádné připojení k síti. Stahování je pozastaveno.</string>
+    <string name="kg_depth_produce_video_detail_failed">Efekt hloubky je možné použít jen pro lidi, psy a kočky</string>
+    <string name="kg_depth_produce_video_failed">Efekt hloubky nelze použít</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI zpracovává efekt hloubky videa…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Efekt hloubky videa je zapnutý. Aktivní displej na celou obrazovku je vypnutý.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Použít téma</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Zrušit</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Použít</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Nyní používáte sadu tapet. Pokud použijete nové téma, tapety na Zamykací obrazovce i na Domovské obrazovce budou nahrazeny a na Aktivním displeji bude obnoven předchozí styl. Přesto použít?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Tato zamykací obrazovka nepodporuje super tapety. Pokud budete pokračovat, vymění se tapeta na domovské i zamykací obrazovce. Chcete přesto pokračovat?</string>
+    <string name="kg_dialog_apply_successful">Úspěšně použito</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Aktuálně používáte super tapetu. Pokud budete pokračovat, nahradí se na domovské i zamykací obrazovce novou tapetou. Chcete přesto pokračovat?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Zrušit</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Zrušit</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Nejprve zapněte hloubkový efekt</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Zahodit</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Použít</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Zrušit</string>
     <string name="kg_dialog_fashion_gallery_message">Aktuálně používáte denní tapetu. Použitím dynamické tapety se automaticky vypne denní tapeta. Chcete ji přesto použít?</string>
     <string name="kg_dialog_fashion_gallery_title">Upozornění</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Formát nelze změnit, když jsou zapnuté Duální hodiny</string>
+    <string name="kg_dialog_no_content_available_the_moment">Zatím tady nic není</string>
+    <string name="kg_dialog_too_much_time_blocking">Hodiny jsou zakryté. Nelze použít hloubkový efekt.</string>
     <string name="kg_discard_changes_text">Zahodit změny?</string>
     <string name="kg_doodle_font_label">Čmáranice</string>
     <string name="kg_doodle_primary_label">Čmáranice</string>
     <string name="kg_doodle_secondary_disable_tip">Zapmout hloubkový efekt</string>
     <string name="kg_doodle_secondary_label">Pozadí</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Čmáranice nelze použít při současném používání těchto hodin</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Tato tapeta nepodporuje čmáranice</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Tapety třetích stran nepodporují čmáranice</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Tato tapeta nepodporuje čmáranice</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">U tapet třetích stran nejsou efekty podporovány</string>
     <string name="kg_effects_tip_title">Hloubka pole a filtry</string>
     <string name="kg_enable_blur">Matný efekt</string>
+    <string name="kg_exit">Ukončit</string>
     <string name="kg_font_filter_classic_primary_label">Primární</string>
     <string name="kg_font_filter_classic_secondary_label">Sekundární</string>
     <string name="kg_font_filter_doodle_primary_label">Čmáranice</string>
@@ -616,8 +643,8 @@
     <string name="kg_font_filter_hsl_title">Vlastní barva</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Čas</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Podpis</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Minuty</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Hlavní</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Sekundární</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Primární</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Hodiny</string>
     <string name="kg_font_filter_object_label_date">Datum</string>
     <string name="kg_font_filter_object_label_date_color">Barva data</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Tapeta nepodporuje efekt hloubky</string>
     <string name="kg_hierarchy_switch_label">Hloubkový efekt</string>
     <string name="kg_line_spacing">Řádkování</string>
+    <string name="kg_live_photo_land_tips">Vodorovné živé fotografie lze nastavit pouze jako statické fotografie</string>
     <string name="kg_magazine_a_b_primary_color_label">Hodiny</string>
     <string name="kg_magazine_a_b_secondary_color_label">Podpis</string>
     <string name="kg_magazine_c_primary_color_label">Jiný text</string>
@@ -677,16 +705,19 @@
     <string name="kg_template_description_rhombus">Čas je důležitý. Využijte jej moudře.</string>
     <string name="kg_template_preview_content_description">Náhled</string>
     <string name="kg_template_title_classic">Klasická</string>
+    <string name="kg_template_title_classic_phone">Scenérie</string>
     <string name="kg_template_title_eastern_art">Estetika východu</string>
     <string name="kg_template_title_magazine">Magazín</string>
-    <string name="kg_template_title_mine">Zamykací obrazovka</string>
+    <string name="kg_template_title_magazine_phone">Počet osob</string>
+    <string name="kg_template_title_mine">Zamknout obrazovku</string>
     <string name="kg_template_title_rhombus">Kosočtverec</string>
     <string name="kg_time_language_string">Číslice</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">Nelze získat přístup k tapetě třetí strany</string>
     <string name="kg_title_content">Obsah</string>
     <string name="kg_title_fonts_and_content">Písmo a obsah</string>
     <string name="kg_title_name">Písmo</string>
-    <string name="kg_typesetting_string">Rozložení</string>
+    <string name="kg_typesetting_string">Styl</string>
+    <string name="kg_wallpaper_blur_effect">Rozmazaná tapeta</string>
     <string name="kg_wallpaper_filter_title">Efekty tapet</string>
     <string name="kg_wallpaper_filter_type_crystallized">Krystaly</string>
     <string name="kg_wallpaper_filter_type_focus">Zaostření</string>
@@ -697,7 +728,8 @@
     <string name="kg_wallpaper_filter_type_striped_glass">Sklo</string>
     <string name="kg_wallpaper_filter_type_striped_lens">Čočka</string>
     <string name="kg_wallpaper_filter_type_water">Voda</string>
-    <string name="kg_wallpaper_scale_hint_text">Přiblížením ořežete</string>
+    <string name="kg_wallpaper_scale_hint_text">Přiblížením oříznete</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Pro tuto tapetu nelze zapnout posouvání</string>
     <string name="kg_wallpaper_scroll_type_tips">Rolování tapety</string>
     <string name="kg_word_spacing">Proložení znaků</string>
     <string name="last_choice">Naposledy použito</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Zůstatek: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Nedostatečný zůstatek)</string>
     <string name="payment_data_move_tips">Údaje o vašem účtu budou v souladu s předpisy o ochraně osobních údajů přesunuty na servery ve vašem regionu. Při migraci hrozí riziko ztráty dat.</string>
-    <string name="payment_instructions">&lt;Data>Dokončením platby souhlasíte se &lt;a href=\"%1$s\">Zásadami nákupu v aplikaci&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Dokončením platby souhlasíte se &lt;a href=\"%1$s\">Zásadami nákupu v aplikaci&lt;/a>.</Data></string>
     <string name="payment_method">Způsob platby</string>
     <string name="permission_desc">Pro ukládání stažených témat a dalších položek</string>
     <string name="permission_pop_desc">Pro změnu předvoleb přizpůsobení a ukládání stažených položek nejprve udělte Tématům oprávnění k přístupu k úložišti.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Souhlasím</string>
     <string name="user_authorization_dialog_agree_a">Souhlasím</string>
     <string name="user_authorization_dialog_disagree">Ukončit</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Aplikace vyžaduje pro poskytnutí základních funkcí oprávnění ke shromažďování nezbytných osobních údajů. Více informací o tom, jak vaše osobní informace využíváme najdete v našich &lt;a href=\"%1$s\">Zásadách ochrany osobních údajů&lt;/a>. Před využitím aplikace Témata si nejprve přečtěte a souhlaste s našimi &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a> a &lt;a href=\"%3$s\">Zásadami ochrany osobních údajů&lt;/a>.
-Souhlas se Zásadami ochrany osobních údajů Témat můžete kdykoli odebrat v Nastavení.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Před pokračováním souhlaste s našimi &lt;a href=\"%1$s\">Smluvními podmínkami&lt;/a> a &lt;a href=\"%2$s\">Zásadami ochrany osobních údajů&lt;/a>. Oprávnění můžete kdykoli odebrat v Nastavení.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Aplikace vyžaduje pro poskytnutí základních funkcí oprávnění ke shromažďování nezbytných osobních údajů. Více informací o tom, jak vaše osobní informace využíváme najdete v našich &lt;a href=\"%1$s\">Zásadách ochrany osobních údajů&lt;/a>. Před využitím aplikace Témata si nejprve přečtěte a souhlaste s našimi &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a> a &lt;a href=\"%3$s\">Zásadami ochrany osobních údajů&lt;/a>.
+Souhlas se Zásadami ochrany osobních údajů Témat můžete kdykoli odebrat v Nastavení."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Před pokračováním souhlaste s našimi &lt;a href=\"%1$s\">Smluvními podmínkami&lt;/a> a &lt;a href=\"%2$s\">Zásadami ochrany osobních údajů&lt;/a>. Oprávnění můžete kdykoli odebrat v Nastavení.</Data></string>
     <string name="user_authorization_dialog_title">Pravidla a podmínky</string>
     <string name="user_know">Rozumím</string>
     <string name="using_theme_has_update_tips">Je dostupná aktualizace pro toto téma.</string>

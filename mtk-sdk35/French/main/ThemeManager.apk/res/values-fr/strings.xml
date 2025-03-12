@@ -524,9 +524,10 @@
     <string name="item_resource_audio_optional_phone_ring">Sonnerie</string>
     <string name="item_view_role_description">Tabulation</string>
     <string name="kg_activity_label">Modifier Écran de verrouillage</string>
+    <string name="kg_aod_settings_depth_video_toast">"Seul Toujours afficher personnalisé est pris en charge lors de l'utilisation de l'effet de profondeur"</string>
     <string name="kg_apply">Appliquer</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Écran de verrouillage uniquement</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Appliquer</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Appliquer aux deux</string>
     <string name="kg_apply_to_all_alert_dialog_title">"Appliquer ce fond d'écran à l'écran d'accueil aussi ?"</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Non merci</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Activer</string>
@@ -546,6 +547,7 @@
     <string name="kg_classic_item_empty">Aucun</string>
     <string name="kg_classic_item_humidity">Humidité</string>
     <string name="kg_classic_item_lunar_date">Calendrier Chinois Traditionnel</string>
+    <string name="kg_classic_item_lunar_date1">Calendrier Chinois Traditionnel</string>
     <string name="kg_classic_item_lunar_month_day">Calendrier Chinois Traditionnel</string>
     <string name="kg_classic_item_lunar_year">Année (Calendrier Chinois Traditionnel)</string>
     <string name="kg_classic_item_month">Mois</string>
@@ -560,6 +562,10 @@
     <string name="kg_classic_item_step_number">Étapes</string>
     <string name="kg_classic_item_sunrise_or_sunset">Lever et coucher</string>
     <string name="kg_classic_item_temperature">Température</string>
+    <string name="kg_classic_item_type_date">Date</string>
+    <string name="kg_classic_item_type_health">Santé</string>
+    <string name="kg_classic_item_type_time">Heure</string>
+    <string name="kg_classic_item_type_weather">Météo</string>
     <string name="kg_classic_item_ultraviolet_ray">Indice UV</string>
     <string name="kg_classic_item_vitality">Statistiques</string>
     <string name="kg_classic_item_weather_cloudy">Nuageux</string>
@@ -574,27 +580,47 @@
     <string name="kg_color_value_editor_lightness">Clarté</string>
     <string name="kg_color_value_editor_saturation">Saturation</string>
     <string name="kg_color_value_editor_title">Modifier la couleur</string>
-    <string name="kg_confirm">OK </string>
+    <string name="kg_confirm">OK</string>
     <string name="kg_customize">Personnaliser</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Appliquer le thème</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Annuler</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Appliquer</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">"Vous utilisez une série de fonds d'écran maintenant. Si vous appliquez un nouveau thème, les fonds d'écran du Verrouillage et Accueil seront remplacés et Toujours afficher sera restauré au style précédent. Appliquer quand même ?"</string>
+    <string name="kg_depth_preset_button_download">"Télécharger le fond d'écran dynamique"</string>
+    <string name="kg_depth_preset_button_downloading">Téléchargment…</string>
+    <string name="kg_depth_preset_button_dynamic">Dynamique</string>
+    <string name="kg_depth_preset_button_static">Statique</string>
+    <string name="kg_depth_preset_dialog_content">"Télécharger et appliquer la version dynamique de ce fond d'écran avec effet profondeur ?"</string>
+    <string name="kg_depth_preset_dialog_download_button">Télécharger</string>
+    <string name="kg_depth_preset_dialog_image_button">Version statique</string>
+    <string name="kg_depth_preset_dialog_title">"Télécharger le fond d'écran dynamique"</string>
+    <string name="kg_depth_preset_network_fail">Aucune connexion réseau</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Pas de connexion réseau. Téléchargement suspendu.</string>
+    <string name="kg_depth_produce_video_detail_failed">"L'effet de profondeur ne peut être utilisé que pour les personnes, les chiens et les chats"</string>
+    <string name="kg_depth_produce_video_failed">"Impossible d'appliquer l'effet de profondeur"</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">"L'IA traite l'effet de profondeur vidéo…"</string>
+    <string name="kg_depth_video_apply_aod_close_toast">"L'effet de profondeur vidéo est activé. Écran plein, l'affichage toujours actif est désactivé."</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Appliquer le thème</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Annuler</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Appliquer</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">"Vous utilisez une série de fonds d'écran maintenant. Si vous appliquez un nouveau thème, les fonds d'écran du Verrouillage et Accueil seront remplacés et Toujours afficher sera restauré au style précédent. Appliquer quand même ?"</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">"Cet écran de verrouillage ne prend pas en charge les super fonds d'écran. Le fond d'écran de vos écrans d'accueil et de verrouillage sera remplacé si vous continuez. Continuer quand même ?"</string>
+    <string name="kg_dialog_apply_successful">Appliqué avec succès</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">"Vous utilisez actuellement un Super fond d'écran. Il sera remplacé par un nouveau fond d'écran sur vos écrans d'accueil et de verrouillage si vous continuez. Continuer quand même ?"</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Annuler</string>
-    <string name="kg_dialog_apply_super_wallpaper_positive_button">OK </string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Annuler</string>
+    <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">"Activer d'abord l'effet de profondeur"</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Abandonner</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Appliquer</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Annuler</string>
     <string name="kg_dialog_fashion_gallery_message">"Vous utilisez actuellement Fond ''écran Carousel. Appliquer un fond d'écran dynamique désactivera le Fond d'écran Carousel. Appliquer quand même ?"</string>
     <string name="kg_dialog_fashion_gallery_title">Attention</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Impossible de modifier la police lorsque la Double horloge est activée</string>
+    <string name="kg_dialog_no_content_available_the_moment">Il n’y a encore rien ici</string>
+    <string name="kg_dialog_too_much_time_blocking">"L'horloge est obscurcie. Ne peut pas utiliser l'effet de profondeur."</string>
     <string name="kg_discard_changes_text">Abandonner les modifications ?</string>
     <string name="kg_doodle_font_label">Gribouiller</string>
     <string name="kg_doodle_primary_label">Croquis</string>
     <string name="kg_doodle_secondary_disable_tip">"Activer l'effet de profondeur"</string>
     <string name="kg_doodle_secondary_label">Arrière-plan</string>
+    <string name="kg_doodle_text_not_support_clock_tip">"Impossible d'utiliser les croquis lors de l'utilisation de cette horloge"</string>
     <string name="kg_doodle_text_not_support_gallery_tip">"Fond d'écran Carousel ne prends pas en charge les gribouillages"</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">"Les fonds d'écran tiers ne prennent pas en charge les gribouillages"</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">"Ce fond d'écran ne supporte pas les gribouillages"</string>
@@ -607,6 +633,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">"Les fonds d'écran tiers ne prennent pas en charge les effets"</string>
     <string name="kg_effects_tip_title">Profondeur de champ et filtres</string>
     <string name="kg_enable_blur">Effet matte</string>
+    <string name="kg_exit">Quitter</string>
     <string name="kg_font_filter_classic_primary_label">Primaire</string>
     <string name="kg_font_filter_classic_secondary_label">Secondaire</string>
     <string name="kg_font_filter_doodle_primary_label">Gribouiller</string>
@@ -619,8 +646,8 @@
     <string name="kg_font_filter_hsl_title">Personnaliser les couleurs</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Heure</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Signature</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Minutes</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Principal</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Secondaire</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Primaire</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Heures</string>
     <string name="kg_font_filter_object_label_date">Date</string>
     <string name="kg_font_filter_object_label_date_color">Couleur de date</string>
@@ -652,6 +679,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">"Ce fond d'écran ne supporte pas l'effet de profondeur"</string>
     <string name="kg_hierarchy_switch_label">Effet de profondeur</string>
     <string name="kg_line_spacing">Interligne</string>
+    <string name="kg_live_photo_land_tips">Les photos live horizontales ne peuvent être définies que comme des photos statiques</string>
     <string name="kg_magazine_a_b_primary_color_label">Horloge</string>
     <string name="kg_magazine_a_b_secondary_color_label">Signature</string>
     <string name="kg_magazine_c_primary_color_label">Autre texte</string>
@@ -680,18 +708,21 @@
     <string name="kg_template_description_rhombus">"Le temps est important. Faites en sorte qu'il compte."</string>
     <string name="kg_template_preview_content_description">Aperçu</string>
     <string name="kg_template_title_classic">Classique</string>
+    <string name="kg_template_title_classic_phone">Paysage</string>
     <string name="kg_template_title_eastern_art">Esthétique orientale</string>
     <string name="kg_template_title_magazine">Revue</string>
-    <string name="kg_template_title_mine">Écran de verrouillage</string>
+    <string name="kg_template_title_magazine_phone">Personnes</string>
+    <string name="kg_template_title_mine">"Verrouiller l'écran"</string>
     <string name="kg_template_title_rhombus">Losange</string>
     <string name="kg_time_language_string">Chiffres</string>
     <string name="kg_tip_cant_get_third_party_wallpaper">"Impossible d'accéder au fond d'écran tiers"</string>
     <string name="kg_title_content">Contenu</string>
     <string name="kg_title_fonts_and_content">Police et contenu</string>
     <string name="kg_title_name">Police</string>
-    <string name="kg_typesetting_string">Disposition</string>
+    <string name="kg_typesetting_string">Style</string>
+    <string name="kg_wallpaper_blur_effect">"Flouter le fond d'écran"</string>
     <string name="kg_wallpaper_filter_title">"Effets de fond d'écran"</string>
-    <string name="kg_wallpaper_filter_type_crystallized">Crystals</string>
+    <string name="kg_wallpaper_filter_type_crystallized">Cristal</string>
     <string name="kg_wallpaper_filter_type_focus">Mise au point</string>
     <string name="kg_wallpaper_filter_type_front_back">Stratifié</string>
     <string name="kg_wallpaper_filter_type_obscure">Flou</string>
@@ -701,6 +732,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Objectifs</string>
     <string name="kg_wallpaper_filter_type_water">Eau</string>
     <string name="kg_wallpaper_scale_hint_text">Pincer pour recadrer</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">"Impossible d'activer le défilement pour ce fond d'écran"</string>
     <string name="kg_wallpaper_scroll_type_tips">"Défiler les fonds d'écran"</string>
     <string name="kg_word_spacing">Espacement des caractères</string>
     <string name="last_choice">Utilisé la dernière fois</string>
@@ -1011,7 +1043,7 @@ mm"</string>
     <string name="payment_coins_balance">(Solde des pièces : %1s)</string>
     <string name="payment_coins_insufficient_balance">(Solde insuffisant)</string>
     <string name="payment_data_move_tips">Vos données de compte seront migrées vers les serveurs de votre région pour se conformer aux règlements de confidentialité. Il y a un risque de perte de données pendant la migration.</string>
-    <string name="payment_instructions">&lt;Data>En effectuant le paiement, vous acceptez &lt;a href=\"%1$s\">Avis sur les Achats Intégrés&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>En effectuant le paiement, vous acceptez &lt;a href=\"%1$s\">Avis sur les Achats Intégrés&lt;/a>.</Data></string>
     <string name="payment_method">Mode de paiement</string>
     <string name="permission_desc">"Pour stocker des thèmes enregistrés et d'autres éléments"</string>
     <string name="permission_pop_desc">"Pour pouvoir modifier les préférences de personnalisation et enregistrer les éléments téléchargés, autoriser d'abord Thèmes à accéder au stockage."</string>
@@ -1587,9 +1619,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Accepter</string>
     <string name="user_authorization_dialog_agree_a">Accepter</string>
     <string name="user_authorization_dialog_disagree">Quitter</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Nous devons collecter les informations personnelles nécessaires pour vous fournir les services de base. Vous pouvez découvrir comment nous traitons les informations que nous recueillons dans notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a>. Lisez et acceptez notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> et notre &lt;a href=\"%3$s\">Politique de confidentialité&lt;/a> avant d'utiliser les thèmes.
-Vous pouvez retirer votre consentement à la Politique de Confidentialité des Thèmes dans les Paramètres à tout moment.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Acceptez notre &lt;a href=\"%1$s\">Accord Utilisateur&lt;/a> et &lt;a href=\"%2$s\">Politique de Confidentialité&lt;/a> avant de continuer. Vous pouvez changer vos préférences à tout moment dans les Paramètres.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Nous devons collecter les informations personnelles nécessaires pour vous fournir les services de base. Vous pouvez découvrir comment nous traitons les informations que nous recueillons dans notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a>. Lisez et acceptez notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> et notre &lt;a href=\"%3$s\">Politique de confidentialité&lt;/a> avant d'utiliser les thèmes.
+Vous pouvez retirer votre consentement à la Politique de Confidentialité des Thèmes dans les Paramètres à tout moment."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Acceptez notre &lt;a href=\"%1$s\">Accord Utilisateur&lt;/a> et &lt;a href=\"%2$s\">Politique de Confidentialité&lt;/a> avant de continuer. Vous pouvez changer vos préférences à tout moment dans les Paramètres.</Data></string>
     <string name="user_authorization_dialog_title">"Conditions d'utilisation"</string>
     <string name="user_know">"C'est compris"</string>
     <string name="using_theme_has_update_tips">Une mise à jour de ce thème est disponible.</string>

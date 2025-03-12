@@ -53,6 +53,8 @@
     <string name="button_cancel">Prekliči</string>
     <string name="button_quit">Izhod</string>
     <string name="button_revoke">Preklic soglasja</string>
+    <string name="calendar_sync_item_permission">koledar</string>
+    <string name="call_log_sync_item_permission">zgodovina klicev</string>
     <string name="check_contact">Dodaj</string>
     <string name="choose_contact_title">Stiki</string>
     <string name="clearable_edittext_clear_description">Počisti</string>
@@ -66,6 +68,7 @@
     <string name="cloud_storage_almost_full_upgrade_text">Pomnilnik je skoraj poln. Morda ne bo mogoče sinhronizirati fotografij.</string>
     <string name="cloud_storage_common_functions_text">Pogosto uporabljeno</string>
     <string name="cloud_storage_default_title">Pomnilnik v oblaku</string>
+    <string name="cloud_storage_full_international_upgrade_default_text">Nezadostna količina prostora za shranjevanje. Sinhronizacija v oblaku prekinjena.</string>
     <string name="cloud_storage_full_upgrade_default_text">Premalo prostora za shranjevanje. Ni mogoče sinhronizirati fotografij.</string>
     <string name="cloud_storage_info_type_creation">Mi Canvas</string>
     <string name="cloud_storage_info_type_drive">Mi Drive</string>
@@ -73,6 +76,7 @@
     <string name="cloud_storage_info_type_family">Družina</string>
     <string name="cloud_storage_info_type_others">Ostalo</string>
     <string name="cloud_storage_info_type_pdc">Sistemske nastavitve</string>
+    <string name="cloud_storage_international_almost_full_upgrade_text">Pomnilnik je poln. Prekinitev sinhronizacije v oblaku.</string>
     <string name="cloud_storage_loading_data">Trenutek…</string>
     <string name="cloud_storage_manage_title">Upravljanje s pomnilnikom</string>
     <string name="cloud_storage_no_data">V pomnilniku v oblaku ni še predmetov</string>
@@ -104,6 +108,7 @@
     <string name="connect_wlan">Povežite se na WiFi</string>
     <string name="connect_wlan_china">Connect to WLAN</string>
     <string name="contact_alert_sync_data_merge_dialog_msg">Če vklopite sinhronizacijo, bodo stiki, naloženi iz te naprave, združeni s stiki, shranjenimi v oblaku. Želite vseeno vklopiti sinhronizacijo?</string>
+    <string name="contacts_sync_item_permission">stiki</string>
     <string name="copy">Kopiraj</string>
     <string name="creation_dialog_message">Oglejte si Mi Canvas podatke na tablici.</string>
     <string name="creation_dialog_positive_btn">V redu</string>
@@ -191,7 +196,7 @@
     <string name="e2ee_device_verification_os_tip">Posodobitev na Xiaomi HyperOS 2 ali novejšo različico</string>
     <string name="e2ee_device_verification_result_subtitle">Naprave, odjavljene iz Xiaomi računa, ne bodo mogle uporabljati storitve Xiaomi Cloud in drugih povezanih storitev, dokler se ponovno ne prijavijo.</string>
     <string name="e2ee_device_verification_result_title">Vse naprave so odjavljene</string>
-    <string name="e2ee_device_verification_tip">Odstranite to napravo iz svojega računa</string>
+    <string name="e2ee_device_verification_tip">Za odstranitev te naprave tapnite tukaj</string>
     <string name="e2ee_dialog_close_subtitle">Podatki, zaščiteni s to funkcijo, ne bodo več podpirali šifriranja med koncema, napredna zaščita podatkov pa bo izklopljena v vseh napravah.</string>
     <string name="e2ee_dialog_close_title">Izklop napredne zaščite podatkov</string>
     <string name="e2ee_dialog_exit_account_subtitle">Ko je naprava odjavljena, se napredna zaščita podatkov samodejno izklopi. To ne vpliva na druge naprave. Ko se ponovno prijavite, morate to funkcijo znova vklopiti.</string>
@@ -210,6 +215,9 @@
     <string name="e2ee_loading_close">Izklapljanje…</string>
     <string name="e2ee_loading_open">Vklapljanje…</string>
     <string name="e2ee_name_data_protection">Napredna zaščita podatkov</string>
+    <string name="e2ee_need_bind_phone_button_sure">Razumem</string>
+    <string name="e2ee_need_bind_phone_subtitle">Niste dodali telefonske številke za obnovitev. Če pozabite geslo, se ne boste mogli prijaviti. Dodajte telefonsko številko za obnovitev, da boste lahko obnovili geslo.</string>
+    <string name="e2ee_need_bind_phone_title">Dodajte telefonsko številko za obnovitev</string>
     <string name="e2ee_result_close">Napredna zaščita podatkov je izključena</string>
     <string name="e2ee_result_close_failed">Ni bilo mogoče izklopiti</string>
     <string name="e2ee_result_close_failed_tip">Te funkcije ni bilo mogoče izklopiti. Počakajte minuto ali dve in poskusite ponovno.</string>
@@ -265,15 +273,15 @@
     <string name="find_device_dspt_provision">Če izgubite napravo, pojdite na &lt;font color=#0097FF>%s&lt;/font>, da jo poiščete, zaklenete ali ponastavite. To funkcijo lahko kadar koli vklopite ali izklopite v Nastavitvah.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">Z vklopom funkcije Poišči napravo se strinjate z našim <a href="app://com.miui.cloudservice.gdpr.license"><u>Pravilnikom o zasebnosti</u></a>. Če želite preklicati vaše soglasje, to funkcijo izklopite.</string>
+    <string name="find_device_gdpr_prompt">Z vklopom Poišči napravo se strinjate s <a href="app://com.miui.cloudservice.gdpr.license"><u>Pravilnikom o zasebnosti storitve Xiaomi Cloud</u></a>. Če želite preklicati svoje soglasje k Pravilniku o zasebnosti, to funkcijo izklopite.</string>
     <string name="find_device_operation_failure_rpc">Ne morem napraviti zaradi RPC napake.</string>
     <string name="find_device_permissions_footer">Tapnite »Dodeli«, da bi dodelili dovoljenja, ki ste jih izbrali.</string>
     <string name="find_device_permissions_header">Dobrodošli v Poišči napravo! S to aplikacijo lahko poiščete, izsledite in zaklenete svojo napravo, ko jo izgubite. Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav. Ta aplikacija za normalno delovanje potrebuje naslednja dovoljenja:</string>
-    <string name="find_device_permissions_header_without_offline_find">"With Find device, you can locate, track, and lock your device when it's missing. This app requires the following permissions to work normally:"</string>
+    <string name="find_device_permissions_header_without_offline_find">Z aplikacijo Poišči napravo lahko najdete, sledite in zaklenete napravo, ko je pogrešana. Ta aplikacija za normalno delovanje potrebuje naslednja dovoljenja:</string>
     <string name="find_device_service_title">Poišči napravo</string>
     <string name="find_device_status_summary">"Vklopite, da poiščete in izsledite svojo napravo ali izbrišete njene podatke na daljavo.
 Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav."</string>
-    <string name="find_device_status_summary_without_offline_find">Turn on to locate and track your device or clear its data remotely</string>
+    <string name="find_device_status_summary_without_offline_find">Vklopite za iskanje in sledenje naprave ali za čiščenje njenih podatkov na daljavo</string>
     <string name="find_device_status_title_pad">Poišči napravo</string>
     <string name="find_device_status_title_phone">Poišči napravo</string>
     <string name="find_permission_location_summary">Za lociranje te naprave</string>
@@ -342,6 +350,7 @@ Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav."</s
     <string name="friday">Petek</string>
     <string name="friday_short">Pet</string>
     <string name="friday_shortest">Pet</string>
+    <string name="gallery_auto_sync_fail_international_noti_content">Premalo prostora za shranjevanje. Sinhronizacije fotografij ni mogoče dokončati.</string>
     <string name="gallery_auto_sync_fail_noti_content">V oblaku ni dovolj prostora za shranjevanje. Da bi lahko sinhronizirali fotografije in videoposnetke nadgradite vašo naročnino prostora za shranjevanje.</string>
     <string name="gallery_auto_sync_fail_noti_content_lite">Pomnilnik v oblaku ne zadostuje. Fotografij ni mogoče shraniti.</string>
     <string name="gallery_data_transfer_ddl">Rok: %s</string>
@@ -421,6 +430,7 @@ Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav."</s
     <string name="lockscreen_positive_btn">Naprej</string>
     <string name="low_battery_locate_summary">Samodejno poročaj lokacijo, ko je stanje baterije nizko</string>
     <string name="low_battery_locate_title">Poročanje lokacije pri prazni bateriji</string>
+    <string name="manual_activation">Ponovno aktiviraj</string>
     <string name="master_alert_notif_content">Redno varnostno kopirajte predmete, da ne bi izgubili ničesar pomembnega.</string>
     <string name="master_alert_notif_title">Vklopite Xiaomi Cloud</string>
     <string name="member_menu_vipname_free">Brezplačno</string>
@@ -521,6 +531,7 @@ Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav."</s
     <string name="micloud_manual_all_sync_off_title">Sinhronizacija je izključena</string>
     <string name="micloud_manual_buy_vip">Pridobite več prostora</string>
     <string name="micloud_manual_cloud_storage_full_button_text">Pridobite več prostora</string>
+    <string name="micloud_manual_cloud_storage_full_international_summary">Fotografij in stikov ni mogoče sinhronizirati</string>
     <string name="micloud_manual_cloud_storage_full_summary">Ni mogoče sinhronizirati fotografije, stike in druge elemente. Nadgradite svoj načrt ali sprostite prostor za shranjevanje.</string>
     <string name="micloud_manual_cloud_storage_full_title">Sinhronizacija ni mogoča. V Xiaomi Cloudu ni dovolj prostora za shranjevanje.</string>
     <string name="micloud_manual_cloud_storage_low_button_text">Pridobite več prostora</string>
@@ -777,9 +788,9 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="preference_copied">»%1$s« je bilo kopirano v odložišče.</string>
     <string name="privacy_and_agreement">Pogoji in določila</string>
     <string name="privacy_dialog_finddevice_all_purpose_pad">Dobrodošli v Poišči napravo! S to aplikacijo lahko poiščete, izsledite in zaklenete svojo napravo, ko jo izgubite. Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">"You can use Find device to locate, lock, or erase data on your device if it's lost."</string>
+    <string name="privacy_dialog_finddevice_all_purpose_pad_without_offline_find">Z aplikacijo Poišči napravo lahko najdete, zaklenete ali izbrišete podatke v napravi, če jo izgubite.</string>
     <string name="privacy_dialog_finddevice_all_purpose_phone">Dobrodošli v Poišči napravo! S to aplikacijo lahko poiščete, izsledite in zaklenete svojo napravo, ko jo izgubite. Prav tako lahko anonimno pomagate drugim pri iskanju njihovih Xiaomi naprav.</string>
-    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">"You can use Find device to locate, lock, or erase data on your device if it's lost."</string>
+    <string name="privacy_dialog_finddevice_all_purpose_phone_without_offline_find">Z aplikacijo Poišči napravo lahko najdete, zaklenete ali izbrišete podatke v napravi, če jo izgubite.</string>
     <string name="privacy_dialog_sync_all_purpose_china">Dobrodošli v Xiaomi Cloud storitve! Xiaomi Cloud lahko uporabite za sinhonizacijo vaših sporočil, zgodovine klicev, stikov, beležk, nastavitev brskalnika, fotografij in videoposnetkov, nastavitev WLAN omrežja, posnetkov, razporeditev začetnega zaslona, aplikacij, dogodkov koledarja, predmetov seznama blokiranih, zgodovine klicev ter shrambe aplikacij čez vse povezane naprave.</string>
     <string name="privacy_dialog_sync_all_purpose_china_v2">Dobrodošli v Xiaomi Cloud storitve! Xiaomi Cloud lahko uporabite za sinhonizacijo vaših sporočil, zgodovine klicev, stikov, beležk, nastavitev brskalnika, fotografij in videoposnetkov, nastavitev WLAN omrežja, posnetkov, razporeditev začetnega zaslona, aplikacij, dogodkov koledarja, predmetov seznama blokiranih, zgodovine klicev ter shrambe aplikacij čez vse povezane naprave.</string>
     <string name="privacy_dialog_sync_all_purpose_pad">Dobrodošli v storitvah Xiaomi Cloud! To aplikacijo lahko uporabite za sinhronizacijo sporočil, stikov, opomb, elementov v brskalniku, albumov v oblaku, glasbe, koledarja, seznama blokad in zgodovine klicev v oblak.</string>
@@ -804,7 +815,9 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="privacy_policy">Pravilnik o zasebnosti</string>
     <string name="privacy_policy_reject_confirm_msg">Xiaomi Cloud ne boste mogli še naprej uporabljati, če se ne strinjate z novo različico &lt;&lt;a href=%1$s>&lt;u>Pravilnika o zasebnosti&lt;/u>&lt;/a>. Ali se strinjate s posodobljenim Pravilnikom o zasebnosti?</string>
     <string name="privacy_policy_reject_confirm_title">Pozor</string>
-    <string name="privacy_policy_revoked_msg">Privolitev k Pravilniku o zasebnosti Xiaomi Cloud za ta račun je bila preklicana. Poskusite uporabiti drug račun.</string>
+    <string name="privacy_policy_revoked_btn_msg">Razumem</string>
+    <string name="privacy_policy_revoked_msg">Preklicali ste svoje soglasje k pravilniku o zasebnosti Xiaomi Cloud in vsi vaši podatki, shranjeni v oblaku, so bili izbrisani. Za uporabo te storitve preklopite na drug račun.</string>
+    <string name="privacy_policy_revoked_msg_contains_manual_activation">Preklicali ste svoje soglasje k pravilniku o zasebnosti Xiaomi Cloud in vsi vaši podatki, shranjeni v oblaku, so bili izbrisani. Za ponovno uporabo te storitve, se strinjate s pravilnikom o zasebnosti na i.mi.com. Zaradi lastne varnosti lahko račun aktivirate samo enkrat na dan.</string>
     <string name="privacy_policy_update_msg">Pravilnik o zasebnosti za Xiaomi Cloud je bil posodobljen:&lt;br/>%1$s&lt;br/>Preden, ko nadaljujete preberite in se strinjajte z novo različico &lt;a href=%2$s>&lt;u>Pravilnika o zasebnosti&lt;/u>&lt;/a>.</string>
     <string name="privacy_policy_update_title">Posodobljeni Pravilnik o zasebnosti</string>
     <string name="privacy_runtime_perm_calendar_desc">Za sinhroniziranje dogodkov koledarja</string>
@@ -836,10 +849,16 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="recommend_service_cloudservice_description">Sync system app data, back up settings, Home screen layout, and more</string>
     <string name="recommend_service_sharelocation_description">Locate, lock, and erase data on missing devices, and share location with your friends and family</string>
     <string name="recommend_service_title">Recommended services</string>
+    <string name="request_manual_notification_permission_labels">Da boste zagotovo prejemali pomembna obvestila, dovolite tej aplikaciji pošiljanje obvestil v nastavitvah.</string>
+    <string name="request_manual_various_permissions_labels_exclude_notification_permission">Da bi zagotovili sinhronizacijo pomembnih podatkov z oblakom (%1$s), v nastavitvah dodelite tej aplikaciji sledeča dovoljenja: %2$s.</string>
+    <string name="request_manual_various_permissions_labels_include_notification_permission">Da boste zagotovo prejemali pomembna obvestila, in da bo mogoče pomembne podatke (%1$s) sinhronizirati z oblakom, dovolite tej aplikaciji pošiljanje obvestil in v nastavitvah podelite naslednja dovoljenja: %2$s.</string>
     <string name="request_os_permissions_dialog_message">Xiaomi Cloud potrebuje dovoljenje za dostop do elementov, shranjenih v vaši napravi, da lahko prepozna nesinhronizirane elemente in njihovo količino. Ali lahko to dovoljenje podelite zdaj?</string>
     <string name="request_os_permissions_dialog_neg_button">Ne strinjam se</string>
     <string name="request_os_permissions_dialog_pos_button">Strinjam se</string>
     <string name="request_os_permissions_dialog_title">Zahtevana dovoljenja</string>
+    <string name="request_permissions_dialog_negative_button_mes">Ne zdaj</string>
+    <string name="request_permissions_dialog_positive_button_mes">Razumem</string>
+    <string name="request_permissions_labels">Videti je, da storitvi Xiaomi Cloud niste dovolili dostopa do naslednjih vrst informacij: %1$s. Če želite zagotoviti, da je vse elemente mogoče normalno sinhronizirati z oblakom, podelite Xiaomi Cloud naslednja dovoljenja: %2$s.</string>
     <string name="retain_data_high_quality_photo_waring_message">Visokokakovostne kopije vaših fotografij in videa bodo izbrisane iz Galerije, po tem, ko se odjavite. Ustrezne originalne datoteke bodo shranjene v vaš pomnilnik v oblaku. Originalne datoteke lahko prenesete, preden se odjavite.</string>
     <string name="retain_data_high_quality_photo_waring_title">Visokokakovostne slike ne bodo na voljo</string>
     <string name="revoke_block_by_find_device">Preklic soglasja, bo tudi izklopil funkcijo Poišči napravo. Po nadaljevanju boste morali potrditi vaše geslo.</string>
@@ -954,6 +973,7 @@ Preverite, da kot sistemski račun uporabljate povezani Xiaomi Račun."</string>
     <string name="share_success">Uspešno deljeno</string>
     <string name="share_weibo_not_installed">Weibo ni nameščen.</string>
     <string name="share_weixin_not_installed">WeChat ni nameščen.</string>
+    <string name="sms_sync_item_permission">sporočila</string>
     <string name="soundrecorder_sync_only_in_wifi">Sinhronizacija samo prek Wi-Fi omrežja</string>
     <string name="soundrecorder_sync_only_in_wifi_china">Only use WLAN to sync</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">Snemalnik ne bo uporabljal mobilnih podatkov za prenos ali nalaganje posnetkov</string>

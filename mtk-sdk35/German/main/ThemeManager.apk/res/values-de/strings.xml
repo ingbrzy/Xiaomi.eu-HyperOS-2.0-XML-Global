@@ -524,9 +524,10 @@
     <string name="item_resource_audio_optional_phone_ring">Klingelton</string>
     <string name="item_view_role_description">Tab</string>
     <string name="kg_activity_label">Sperrbildschirm bearbeiten</string>
+    <string name="kg_aod_settings_depth_video_toast">Bei Verwendung des Tiefeneffekts wird nur das benutzerdefinierte „Immer eingeschaltetes Display“ unterstützt</string>
     <string name="kg_apply">Anwenden</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Nur Sperrbildschirm</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Anwenden</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">An beiden anwenden</string>
     <string name="kg_apply_to_all_alert_dialog_title">Dieses Hintergrundbild auch auf dem Startbildschirm anwenden?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Nein, danke</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Einschalten</string>
@@ -546,6 +547,7 @@
     <string name="kg_classic_item_empty">Kein</string>
     <string name="kg_classic_item_humidity">Feuchtigkeit</string>
     <string name="kg_classic_item_lunar_date">Traditioneller chinesischer Kalender</string>
+    <string name="kg_classic_item_lunar_date1">Traditioneller chinesischer Kalender</string>
     <string name="kg_classic_item_lunar_month_day">Traditioneller chinesischer Kalender</string>
     <string name="kg_classic_item_lunar_year">Jahr (traditioneller chinesischer Kalender)</string>
     <string name="kg_classic_item_month">Monat</string>
@@ -560,6 +562,10 @@
     <string name="kg_classic_item_step_number">Schritte</string>
     <string name="kg_classic_item_sunrise_or_sunset">Sonnenaufgang und Sonnenuntergang</string>
     <string name="kg_classic_item_temperature">Temperatur</string>
+    <string name="kg_classic_item_type_date">Datum</string>
+    <string name="kg_classic_item_type_health">Gesundheit</string>
+    <string name="kg_classic_item_type_time">Zeit</string>
+    <string name="kg_classic_item_type_weather">Wetter</string>
     <string name="kg_classic_item_ultraviolet_ray">UV-Index</string>
     <string name="kg_classic_item_vitality">Statistiken</string>
     <string name="kg_classic_item_weather_cloudy">Wolkig</string>
@@ -576,25 +582,45 @@
     <string name="kg_color_value_editor_title">Farbe bearbeiten</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Anpassen</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Thema anwenden</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Abbrechen</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Anwenden</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Du verwendest jetzt ein Hintergrundbild-Set. Wenn du ein neues Thema anwendest, werden sowohl das Hintergrundbild des Sperrbildschirms als auch das Hintergrundbild des Startbildschirms ersetzt, und das immer eingeschaltetem Display wird auf den vorherigen Stil zurückgesetzt. Trotzdem anwenden?</string>
+    <string name="kg_depth_preset_button_download">Dynamisches Hintergrundbild herunterladen</string>
+    <string name="kg_depth_preset_button_downloading">Wird heruntergeladen…</string>
+    <string name="kg_depth_preset_button_dynamic">Dynamisch</string>
+    <string name="kg_depth_preset_button_static">Statisch</string>
+    <string name="kg_depth_preset_dialog_content">Die dynamische Version dieses Hintergrundbildes mit Tiefeneffekt herunterladen und anwenden?</string>
+    <string name="kg_depth_preset_dialog_download_button">Herunterladen</string>
+    <string name="kg_depth_preset_dialog_image_button">Statische Version</string>
+    <string name="kg_depth_preset_dialog_title">Dynamisches Hintergrundbild herunterladen</string>
+    <string name="kg_depth_preset_network_fail">Keine Netzwerkverbindung</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Keine Netzwerkverbindung. Download pausiert.</string>
+    <string name="kg_depth_produce_video_detail_failed">Tiefeneffekt kann nur bei Personen, Hunden und Katzen verwendet werden</string>
+    <string name="kg_depth_produce_video_failed">Tiefeneffekt konnte nicht angewendet werden</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">KI verarbeitet Video-Tiefeneffekt…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Video-Tiefeneffekt ist an. Vollbildmodus „Immer eingeschaltetes Display“ ist aus.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Theme anwenden</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Abbrechen</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Anwenden</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Du verwendest jetzt ein Hintergrundbild-Set. Wenn du ein neues Thema anwendest, werden sowohl das Hintergrundbild des Sperrbildschirms als auch das Hintergrundbild des Startbildschirms ersetzt, und das immer eingeschaltete Display wird auf den vorherigen Stil zurückgesetzt. Trotzdem anwenden?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Dieser Sperrbildschirm unterstützt keine Super-Hintergrundbilder. Wenn du fortfährst, werden die Hintergrundbilder auf dem Start- und Sperrbildschirm ersetzt. Trotzdem fortfahren?</string>
+    <string name="kg_dialog_apply_successful">Erfolgreich angewendet</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Du verwendest derzeit ein Super-Hintergrundbild. Wenn du fortfährst, wird es durch ein neues Hintergrundbild auf deinem Start- und Sperrbildschirm ersetzt. Trotzdem fortfahren?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Abbrechen</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Abbrechen</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Schalte zuerst den Tiefeneffekt ein</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Verwerfen</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Anwenden</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Abbrechen</string>
     <string name="kg_dialog_fashion_gallery_message">Du verwendest derzeit das Hintergrundbild-Karussell. Wenn du ein dynamisches Hintergrundbild anwendest, wird das Hintergrundbild-Karussell deaktiviert. Trotzdem anwenden?</string>
     <string name="kg_dialog_fashion_gallery_title">Achtung</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Schriftart kann nicht bearbeitet werden, wenn Dualuhr eingeschaltet ist</string>
+    <string name="kg_dialog_no_content_available_the_moment">Hier ist noch nichts</string>
+    <string name="kg_dialog_too_much_time_blocking">Die Uhr ist verdeckt. Der Tiefeneffekt kann nicht verwendet werden.</string>
     <string name="kg_discard_changes_text">Änderungen verwerfen?</string>
     <string name="kg_doodle_font_label">Zeichnen</string>
     <string name="kg_doodle_primary_label">Kritzeleien</string>
     <string name="kg_doodle_secondary_disable_tip">Tiefeneffekt einschalten</string>
     <string name="kg_doodle_secondary_label">Hintergrund</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Bei Verwendung dieser Uhr können keine Kritzeleien benutzt werden</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Hintergrundbild-Karussell unterstützt keine Kritzeleien</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Hintergrundbilder von Drittanbietern unterstützen keine Kritzeleien</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Dieses Hintergrundbild unterstützt keine Kritzeleien</string>
@@ -607,6 +633,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Hintergrundbilder von Drittanbietern unterstützen keine Effekte</string>
     <string name="kg_effects_tip_title">Schärfentiefe und Filter</string>
     <string name="kg_enable_blur">Matteffekt</string>
+    <string name="kg_exit">Verlassen</string>
     <string name="kg_font_filter_classic_primary_label">Primär</string>
     <string name="kg_font_filter_classic_secondary_label">Sekundär</string>
     <string name="kg_font_filter_doodle_primary_label">Zeichnen</string>
@@ -619,8 +646,8 @@
     <string name="kg_font_filter_hsl_title">Benutzerdefinierte Farbe</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Zeit</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Signatur</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Minuten</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Haupt</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Sekundär</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Primär</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Stunden</string>
     <string name="kg_font_filter_object_label_date">Datum</string>
     <string name="kg_font_filter_object_label_date_color">Datumsfarbe</string>
@@ -652,6 +679,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Dieses Hintergrundbild unterstützt keinen Tiefeneffekt</string>
     <string name="kg_hierarchy_switch_label">Tiefeneffekt</string>
     <string name="kg_line_spacing">Zeilenabstand</string>
+    <string name="kg_live_photo_land_tips">Horizontale Live-Fotos können nur als statische Fotos festgelegt werden</string>
     <string name="kg_magazine_a_b_primary_color_label">Uhr</string>
     <string name="kg_magazine_a_b_secondary_color_label">Signatur</string>
     <string name="kg_magazine_c_primary_color_label">Anderer Text</string>
@@ -680,8 +708,10 @@
     <string name="kg_template_description_rhombus">Zeit ist wichtig. Mache sie nutzbar.</string>
     <string name="kg_template_preview_content_description">Vorschau</string>
     <string name="kg_template_title_classic">Klassisch</string>
+    <string name="kg_template_title_classic_phone">Szenerie</string>
     <string name="kg_template_title_eastern_art">Östliche Ästhetik</string>
     <string name="kg_template_title_magazine">Zeitschrift</string>
+    <string name="kg_template_title_magazine_phone">Personen</string>
     <string name="kg_template_title_mine">Sperrbildschirm</string>
     <string name="kg_template_title_rhombus">Rhombus</string>
     <string name="kg_time_language_string">Ziffern</string>
@@ -689,7 +719,8 @@
     <string name="kg_title_content">Inhalt</string>
     <string name="kg_title_fonts_and_content">Schriftart und Inhalt</string>
     <string name="kg_title_name">Schriftart</string>
-    <string name="kg_typesetting_string">Layout</string>
+    <string name="kg_typesetting_string">Stil</string>
+    <string name="kg_wallpaper_blur_effect">Unscharfes Hintergrundbild</string>
     <string name="kg_wallpaper_filter_title">Hintergrundbild-Effekte</string>
     <string name="kg_wallpaper_filter_type_crystallized">Kristalle</string>
     <string name="kg_wallpaper_filter_type_focus">Fokus</string>
@@ -701,6 +732,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Objektiv</string>
     <string name="kg_wallpaper_filter_type_water">Wasser</string>
     <string name="kg_wallpaper_scale_hint_text">Zum zuschneiden zwicken</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Für dieses Hintergrundbild kann Scrollen nicht eingeschaltet werden</string>
     <string name="kg_wallpaper_scroll_type_tips">Hintergrundbild-Bewegung</string>
     <string name="kg_word_spacing">Zeichenabstand</string>
     <string name="last_choice">Letztes Mal verwendet</string>
@@ -1011,7 +1043,7 @@ mm"</string>
     <string name="payment_coins_balance">(Guthaben: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Zu geringes Guthaben)</string>
     <string name="payment_data_move_tips">Deine Kontodaten werden auf Server in deiner Region migriert, um die Datenschutzbestimmungen zu erfüllen. Während der Migration besteht das Risiko eines Datenverlusts.</string>
-    <string name="payment_instructions">&lt;Data>Indem du die Zahlung abschließt, stimmst du dem &lt;a href=\"%1$s\">Hinweis zu In-App-Käufen&lt;/a> zu.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Indem du die Zahlung abschließt, stimmst du dem &lt;a href=\"%1$s\">Hinweis zu In-App-Käufen&lt;/a> zu.</Data></string>
     <string name="payment_method">Zahlungsmethode</string>
     <string name="permission_desc">Zur Speicherung gespeicherter Themen und anderer Objekte</string>
     <string name="permission_pop_desc">Um die Personalisierungseinstellungen zu ändern und heruntergeladene Elemente zu speichern, musst du Themen erst den Zugriff auf den Speicher erlauben.</string>
@@ -1587,9 +1619,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Zustimmen</string>
     <string name="user_authorization_dialog_agree_a">Zustimmen</string>
     <string name="user_authorization_dialog_disagree">Beenden</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Wir müssen notwendige persönliche Informationen sammeln, um dir grundlegende Dienste bereitzustellen. Wie wir mit den gesammelten Informationen umgehen, erfährst du in unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a>. Lies und stimme unserer &lt;a href=\"%2$s\">Nutzungsvereinbarung&lt;/a> und &lt;a href=\"%3$s\">Datenschutzerklärung&lt;/a> zu, bevor du Themen verwendest.
-Du kannst deine Zustimmung zur Datenschutzerklärung von Themen jederzeit in den Einstellungen widerrufen.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Stimme unserer &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> zu, bevor du fortfährst. Du kannst deine Präferenzen jederzeit in den Einstellungen ändern.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Wir müssen notwendige persönliche Informationen sammeln, um dir grundlegende Dienste bereitzustellen. Wie wir mit den gesammelten Informationen umgehen, erfährst du in unserer &lt;a href=\"%1$s\">Datenschutzerklärung&lt;/a>. Lies und stimme unserer &lt;a href=\"%2$s\">Nutzungsvereinbarung&lt;/a> und &lt;a href=\"%3$s\">Datenschutzerklärung&lt;/a> zu, bevor du Themen verwendest.
+Du kannst deine Zustimmung zur Datenschutzerklärung von Themen jederzeit in den Einstellungen widerrufen."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Stimme unserer &lt;a href=\"%1$s\">Nutzervereinbarung&lt;/a> und &lt;a href=\"%2$s\">Datenschutzerklärung&lt;/a> zu, bevor du fortfährst. Du kannst deine Präferenzen jederzeit in den Einstellungen ändern.</Data></string>
     <string name="user_authorization_dialog_title">Geschäftsbedingungen</string>
     <string name="user_know">Verstanden</string>
     <string name="using_theme_has_update_tips">Ein Update für dieses Thema ist verfügbar.</string>

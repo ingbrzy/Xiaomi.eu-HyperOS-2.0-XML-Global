@@ -521,9 +521,10 @@
     <string name="item_resource_audio_optional_phone_ring">벨소리</string>
     <string name="item_view_role_description">탭</string>
     <string name="kg_activity_label">잠금화면 편집</string>
+    <string name="kg_aod_settings_depth_video_toast">심도 효과를 사용 시에는 사용자지정 Always On Display만 지원됩니다</string>
     <string name="kg_apply">적용</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">잠금화면에만</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">적용</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">둘 다 적용</string>
     <string name="kg_apply_to_all_alert_dialog_title">이 배경화면을 홈 화면에도 적용하시겠습니까?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">사양하겠습니다</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">켜기</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">없음</string>
     <string name="kg_classic_item_humidity">습도</string>
     <string name="kg_classic_item_lunar_date">음력 캘린더</string>
+    <string name="kg_classic_item_lunar_date1">음력 캘린더</string>
     <string name="kg_classic_item_lunar_month_day">음력 캘린더</string>
     <string name="kg_classic_item_lunar_year">년 (음력 캘린더)</string>
     <string name="kg_classic_item_month">월</string>
@@ -557,9 +559,13 @@
     <string name="kg_classic_item_step_number">걸음</string>
     <string name="kg_classic_item_sunrise_or_sunset">일출 및 일몰</string>
     <string name="kg_classic_item_temperature">온도</string>
+    <string name="kg_classic_item_type_date">날짜</string>
+    <string name="kg_classic_item_type_health">건강</string>
+    <string name="kg_classic_item_type_time">시간</string>
+    <string name="kg_classic_item_type_weather">날씨</string>
     <string name="kg_classic_item_ultraviolet_ray">자외선 지수</string>
     <string name="kg_classic_item_vitality">통계</string>
-    <string name="kg_classic_item_weather_cloudy">구름</string>
+    <string name="kg_classic_item_weather_cloudy">흐림</string>
     <string name="kg_classic_item_week">주</string>
     <string name="kg_classic_item_wind">바람</string>
     <string name="kg_classic_primary_color_label">주 색상</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">색상 편집</string>
     <string name="kg_confirm">확인</string>
     <string name="kg_customize">사용자지정</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">테마 적용</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">취소</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">적용</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">배경화면 세트를 사용하고 있습니다. 새 테마를 적용하면 잠금화면과 홈 화면 배경화면이 모두 대체되고, Always On Display가 이전 스타일로 복원됩니다. 그래도 적용하시겠습니까?</string>
+    <string name="kg_depth_preset_button_download">다이내믹 배경화면 다운로드</string>
+    <string name="kg_depth_preset_button_downloading">다운로드 중…</string>
+    <string name="kg_depth_preset_button_dynamic">다이내믹</string>
+    <string name="kg_depth_preset_button_static">스태틱</string>
+    <string name="kg_depth_preset_dialog_content">심도 효과를 표현하는 다이내믹 배경화면을 다운로드 및 적용하시겠습니까?</string>
+    <string name="kg_depth_preset_dialog_download_button">다운로드</string>
+    <string name="kg_depth_preset_dialog_image_button">스태틱 버전</string>
+    <string name="kg_depth_preset_dialog_title">다이내믹 배경화면 다운로드</string>
+    <string name="kg_depth_preset_network_fail">네트워크 연결 없음</string>
+    <string name="kg_depth_preset_network_fail_download_pause">네트워크 연결이 없습니다. 다운로드가 일시정지되었습니다.</string>
+    <string name="kg_depth_produce_video_detail_failed">심도 효과는 사람, 개 및 고양이에만 사용할 수 있습니다</string>
+    <string name="kg_depth_produce_video_failed">심도 효과를 적용할 수 없음</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI가 동영상 심도 효과 처리 중…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">동영상 심도 효과가 켜졌습니다. 전체화면 Always On Display가 꺼졌습니다.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">테마 적용</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">취소</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">적용</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">배경화면 세트를 사용하고 있습니다. 새 테마를 적용하면 잠금화면과 홈 화면 배경화면이 모두 대체되고, Always On Display가 이전 스타일로 복원됩니다. 그래도 적용하시겠습니까?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">이 잠금화면은 슈퍼 배경화면을 지원하지 않습니다. 계속하면 홈 화면 및 잠금화면의 배경화면이 교체됩니다. 그래도 계속하시겠습니까?</string>
+    <string name="kg_dialog_apply_successful">적용 성공</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">현재 슈퍼 배경화면을 사용하고 있습니다. 계속하면 홈 화면 및 잠금화면의 배경화면이 교체됩니다. 그래도 계속하시겠습니까?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">취소</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">취소</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">확인</string>
+    <string name="kg_dialog_enable_depth_function">먼저 심도 효과 켜기</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">변경 취소</string>
     <string name="kg_dialog_fashion_gallery_button_negative">적용</string>
     <string name="kg_dialog_fashion_gallery_button_positive">취소</string>
     <string name="kg_dialog_fashion_gallery_message">슬라이드형 배경화면을 사용하고 있습니다. 다이내믹 배경화면을 적용하면 슬라이드형 배경화면이 꺼집니다. 그래도 계속하시겠습니까?</string>
     <string name="kg_dialog_fashion_gallery_title">참고</string>
     <string name="kg_dialog_fontfilter_dualclock_button">듀얼 시계가 켜져 있을 시 글꼴을 편집할 수 없음</string>
+    <string name="kg_dialog_no_content_available_the_moment">아직 여기에 아무것도 없습니다</string>
+    <string name="kg_dialog_too_much_time_blocking">시계가 가려졌습니다. 심도 효과를 사용할 수 없습니다.</string>
     <string name="kg_discard_changes_text">변경 사항을 취소하시겠습니까?</string>
     <string name="kg_doodle_font_label">낙서</string>
     <string name="kg_doodle_primary_label">낙서</string>
     <string name="kg_doodle_secondary_disable_tip">심도 효과 켜기</string>
     <string name="kg_doodle_secondary_label">배경</string>
+    <string name="kg_doodle_text_not_support_clock_tip">이 시계를 사용 중에는 낙서를 사용할 수 없음</string>
     <string name="kg_doodle_text_not_support_gallery_tip">슬라이드형 배경화면은 낙서를 지원하지 않습니다</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">서드파티 배경화면은 낙서를 지원하지 않습니다</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">이 배경화면은 낙서를 지원하지 않습니다</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">서드파티 배경화면은 효과가 지원되지 않습니다</string>
     <string name="kg_effects_tip_title">피사계 심도 및 필터</string>
     <string name="kg_enable_blur">무광 효과</string>
+    <string name="kg_exit">나가기</string>
     <string name="kg_font_filter_classic_primary_label">기본</string>
     <string name="kg_font_filter_classic_secondary_label">보조</string>
     <string name="kg_font_filter_doodle_primary_label">낙서</string>
@@ -616,8 +643,8 @@
     <string name="kg_font_filter_hsl_title">사용자지정 색상</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">시간</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">서명</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">분</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">메인</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">보조</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">기본</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">시간</string>
     <string name="kg_font_filter_object_label_date">날짜</string>
     <string name="kg_font_filter_object_label_date_color">날짜 색상</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">이 배경화면은 심도 효과를 지원하지 않습니다</string>
     <string name="kg_hierarchy_switch_label">심도 효과</string>
     <string name="kg_line_spacing">줄 간격</string>
+    <string name="kg_live_photo_land_tips">가로 라이브 사진은 정지 사진으로만 설정할 수 있습니다</string>
     <string name="kg_magazine_a_b_primary_color_label">시계</string>
     <string name="kg_magazine_a_b_secondary_color_label">서명</string>
     <string name="kg_magazine_c_primary_color_label">기타 텍스트</string>
@@ -677,8 +705,10 @@
     <string name="kg_template_description_rhombus">시간은 중요합니다. 소중히 여기십시오.</string>
     <string name="kg_template_preview_content_description">미리보기</string>
     <string name="kg_template_title_classic">클래식</string>
+    <string name="kg_template_title_classic_phone">풍경</string>
     <string name="kg_template_title_eastern_art">동양의 미학</string>
     <string name="kg_template_title_magazine">잡지</string>
+    <string name="kg_template_title_magazine_phone">사람</string>
     <string name="kg_template_title_mine">잠금화면</string>
     <string name="kg_template_title_rhombus">마름모꼴</string>
     <string name="kg_time_language_string">숫자</string>
@@ -686,7 +716,8 @@
     <string name="kg_title_content">콘텐츠</string>
     <string name="kg_title_fonts_and_content">글꼴 및 콘텐츠</string>
     <string name="kg_title_name">글꼴</string>
-    <string name="kg_typesetting_string">레이아웃</string>
+    <string name="kg_typesetting_string">스타일</string>
+    <string name="kg_wallpaper_blur_effect">흐린 배경화면</string>
     <string name="kg_wallpaper_filter_title">배경화면 효과</string>
     <string name="kg_wallpaper_filter_type_crystallized">크리스탈</string>
     <string name="kg_wallpaper_filter_type_focus">포커스</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">렌즈</string>
     <string name="kg_wallpaper_filter_type_water">워터</string>
     <string name="kg_wallpaper_scale_hint_text">핀치하여 자르기</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">이 배경화화면은 스크롤링을 켤 수 없음</string>
     <string name="kg_wallpaper_scroll_type_tips">배경화면 스크롤</string>
     <string name="kg_word_spacing">문자 간격</string>
     <string name="last_choice">이전에 사용됨</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(잔액: %1s)</string>
     <string name="payment_coins_insufficient_balance">(잔액 부족)</string>
     <string name="payment_data_move_tips">귀하의 계정 데이터는 해당 지역의 개인 정보 보호 규정을 준수하기 위해 서버로 병합될 것입니다. 병합 과정 중에 데이터 손실의 위험이 있습니다.</string>
-    <string name="payment_instructions">&lt;Data>결제를 완료하시면 &lt;a href=\"%1$s\">인앱 구매 공지&lt;/a>에 동의하시는 것으로 간주됩니다.&lt;/Data></string>
+    <string name="payment_instructions"><Data>결제를 완료하시면 &lt;a href=\"%1$s\">인앱 구매 공지&lt;/a>에 동의하시는 것으로 간주됩니다.</Data></string>
     <string name="payment_method">결제 방식</string>
     <string name="permission_desc">저장된 테마 및 기타 항목 저장을 위해</string>
     <string name="permission_pop_desc">맞춤형 설정을 변경하고 다운로드한 항목을 저장하기 위해, 먼저 테마 앱의 저장소 접근 권한을 허용하십시오.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">동의</string>
     <string name="user_authorization_dialog_agree_a">동의</string>
     <string name="user_authorization_dialog_disagree">나가기</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>기본적인 서비스 제공을 위해 필요한 개인 정보에 대한 수집이 요구됩니다. 저희의 &lt;a href=\"%1$s\">개인 정보 보호 정책&lt;/a>에서 저희가 정보를 수집 및 처리하는 방법을 알아보실 수 있습니다. 테마를 사용하시기 전, &lt;a href=\"%2$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%3$s\">개인 정보 보호 정책&lt;/a>을 읽고 동의하십시오.
-언제든지 설정에서 개인 정보 보호 정책에 대한 동의를 철회하실 수 있습니다.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>계속하시기 전, 저희의 &lt;a href=\"%1$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%2$s\">개인 정보 보호 정책&lt;/a>에 동의하십시오. 언제든지 설정에서 선택 사항을 변경하실 수 있습니다.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"기본적인 서비스 제공을 위해 필요한 개인 정보에 대한 수집이 요구됩니다. 저희의 &lt;a href=\"%1$s\">개인 정보 보호 정책&lt;/a>에서 저희가 정보를 수집 및 처리하는 방법을 알아보실 수 있습니다. 테마를 사용하시기 전, &lt;a href=\"%2$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%3$s\">개인 정보 보호 정책&lt;/a>을 읽고 동의하십시오.
+언제든지 설정에서 개인 정보 보호 정책에 대한 동의를 철회하실 수 있습니다."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>계속하시기 전, 저희의 &lt;a href=\"%1$s\">이용자 약관&lt;/a> 및 &lt;a href=\"%2$s\">개인 정보 보호 정책&lt;/a>에 동의하십시오. 언제든지 설정에서 선택 사항을 변경하실 수 있습니다.</Data></string>
     <string name="user_authorization_dialog_title">이용 약관</string>
     <string name="user_know">알겠습니다</string>
     <string name="using_theme_has_update_tips">이 테마의 업데이트가 있습니다.</string>

@@ -521,9 +521,10 @@
     <string name="item_resource_audio_optional_phone_ring">Dzwonek</string>
     <string name="item_view_role_description">Karta</string>
     <string name="kg_activity_label">Edytuj Ekran blokady</string>
+    <string name="kg_aod_settings_depth_video_toast">Podczas korzystania z efektu głębi można używać jedynie niestandardowego Ekranu zawsze włączonego.</string>
     <string name="kg_apply">Zastosuj</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Tylko na ekranie blokady</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Zastosuj</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Zastosuj do obu</string>
     <string name="kg_apply_to_all_alert_dialog_title">Chcesz użyć tej tapety również na ekranie głównym?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Nie, dziękuję</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Włącz</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">Brak</string>
     <string name="kg_classic_item_humidity">Wilgotność</string>
     <string name="kg_classic_item_lunar_date">Tradycyjny chiński kalendarz</string>
+    <string name="kg_classic_item_lunar_date1">Tradycyjnych chiński kalendarz</string>
     <string name="kg_classic_item_lunar_month_day">Tradycyjny chiński kalendarz</string>
     <string name="kg_classic_item_lunar_year">Rok (Tradycyjny chiński kalendarz)</string>
     <string name="kg_classic_item_month">Miesiąc</string>
@@ -557,9 +559,13 @@
     <string name="kg_classic_item_step_number">Kroki</string>
     <string name="kg_classic_item_sunrise_or_sunset">Wschód i zachód słońca</string>
     <string name="kg_classic_item_temperature">Temperatura</string>
+    <string name="kg_classic_item_type_date">Data</string>
+    <string name="kg_classic_item_type_health">Zdrowie</string>
+    <string name="kg_classic_item_type_time">Czas</string>
+    <string name="kg_classic_item_type_weather">Pogoda</string>
     <string name="kg_classic_item_ultraviolet_ray">Indeks UV</string>
     <string name="kg_classic_item_vitality">Statystyki</string>
-    <string name="kg_classic_item_weather_cloudy">Pochmurno</string>
+    <string name="kg_classic_item_weather_cloudy">Pochmurnie</string>
     <string name="kg_classic_item_week">Tydzień</string>
     <string name="kg_classic_item_wind">Wiatr</string>
     <string name="kg_classic_primary_color_label">Kolor podstawowy</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">Edytuj kolor</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Dostosuj</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Zastosuj motyw</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Anuluj</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Zastosuj</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Obecnie używasz zestawu tapet. Jeśli zastosujesz nowy motyw, tapety ekranu blokady i ekranu głównego zostaną zastąpione. Zostanie również przywrócona poprzednia wersja ekranu zawsze włączonego. Chcesz kontynuować?</string>
-    <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Ten Ekran blokady nie obsługuje Super tapet. Po kontynuacji tapeta zostanie zmieniona na Ekranie głównym i Ekranie blokady. Kontynuować mimo to?</string>
-    <string name="kg_dialog_apply_super_wallpaper_confirm">Obecnie korzystasz z Super tapety. Po kontynuacji Super tapeta zostanie zastąpiona nową tapetą na Ekranie głównym i Ekranie blokady. Kontynuować mimo to?</string>
+    <string name="kg_depth_preset_button_download">Pobierz tapetę dynamiczną</string>
+    <string name="kg_depth_preset_button_downloading">Pobieranie…</string>
+    <string name="kg_depth_preset_button_dynamic">Dynamiczna</string>
+    <string name="kg_depth_preset_button_static">Statyczna</string>
+    <string name="kg_depth_preset_dialog_content">Pobrać i zastosować dynamiczną wersję tapety z efektem głębi?</string>
+    <string name="kg_depth_preset_dialog_download_button">Pobierz</string>
+    <string name="kg_depth_preset_dialog_image_button">Wersja statyczna</string>
+    <string name="kg_depth_preset_dialog_title">Pobierz tapetę dynamiczną</string>
+    <string name="kg_depth_preset_network_fail">Brak połączenia z siecią</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Brak połączenia z siecią. Wstrzymano pobieranie.</string>
+    <string name="kg_depth_produce_video_detail_failed">Z efektu głębi można korzystać tylko w przypadku ludzi, psów i kotów.</string>
+    <string name="kg_depth_produce_video_failed">Nie udało się zastosować efektu głębi</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">SI przetwarza efekt głębi wideo…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Aktywowano efekt głębi wideo. Wyłączono wyświetlanie Ekranu zawsze włączonego na pełnym ekranie.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Zastosuj motyw</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Anuluj</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Zastosuj</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Obecnie używasz zestawu tapet. Jeśli zastosujesz nowy motyw, tapety ekranu blokady i ekranu głównego zostaną zastąpione. Zostanie również przywrócona poprzednia wersja ekranu zawsze włączonego. Chcesz kontynuować?</string>
+    <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Ten ekran blokady nie obsługuje supertapet. Po kontynuacji tapeta na ekranie głównym i ekranie blokady zostanie zmieniona. Kontynuować mimo to?</string>
+    <string name="kg_dialog_apply_successful">Pomyślnie zastosowano</string>
+    <string name="kg_dialog_apply_super_wallpaper_confirm">Obecnie korzystasz z supertapety. Po kontynuacji supertapeta zostanie zastąpiona nową tapetą na ekranie głównym i ekranie blokady. Kontynuować mimo to?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Anuluj</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Anuluj</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Najpierw włącz efekt głębi</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Odrzuć</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Zastosuj</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Anuluj</string>
     <string name="kg_dialog_fashion_gallery_message">Korzystasz obecnie z Codziennych Tapet. Zastosowanie dynamicznej tapety spowoduje wyłączenie usługi Codziennych tapet. Zastosować mimo to?</string>
     <string name="kg_dialog_fashion_gallery_title">Uwaga</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Nie można edytować czcionki, gdy włączony jest Podwójny zegar</string>
+    <string name="kg_dialog_no_content_available_the_moment">Pusto</string>
+    <string name="kg_dialog_too_much_time_blocking">Zegar jest zasłonięty. Nie można zastosować efektu głębi.</string>
     <string name="kg_discard_changes_text">Odrzucić zmiany?</string>
     <string name="kg_doodle_font_label">Gryzmoły</string>
     <string name="kg_doodle_primary_label">Gryzmoły</string>
     <string name="kg_doodle_secondary_disable_tip">Włącz efekt głębi</string>
     <string name="kg_doodle_secondary_label">Tło</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Nie można używać szkiców podczas korzystania z wybranego zegara</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Codzienne tapety nie obsługują szkiców</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Tapety firm zewnętrznych nie obsługują szkiców</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Ta tapeta nie obsługuje szkiców</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Tapety firm zewnętrznych nie obsługują efektów</string>
     <string name="kg_effects_tip_title">Głębia ostrości i filtry</string>
     <string name="kg_enable_blur">Efekt matujący</string>
+    <string name="kg_exit">Wyjdź</string>
     <string name="kg_font_filter_classic_primary_label">Podstawowe</string>
     <string name="kg_font_filter_classic_secondary_label">Dodatkowe</string>
     <string name="kg_font_filter_doodle_primary_label">Gryzmoły</string>
@@ -616,8 +643,8 @@
     <string name="kg_font_filter_hsl_title">Kolor niestandardowy</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Czas</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Podpis</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Minuty</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Główne</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Dodatkowe</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Podstawowe</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Godziny</string>
     <string name="kg_font_filter_object_label_date">Data</string>
     <string name="kg_font_filter_object_label_date_color">Kolor daty</string>
@@ -640,7 +667,7 @@
     <string name="kg_guidance_dialog_positive_button_text_next_step">Dalej</string>
     <string name="kg_guidance_dialog_positive_button_text_start">Rozpocznij</string>
     <string name="kg_guidance_dialog_tip_browse_more">Przesuń w górę, aby przełączać się między szablonami. Przesuń w poziomie, aby wyświetlić więcej opcji personalizacji.</string>
-    <string name="kg_guidance_dialog_tip_customize">Dostosuj Ekran blokady pod siebie.</string>
+    <string name="kg_guidance_dialog_tip_customize">Dostosuj ekran blokady pod siebie.</string>
     <string name="kg_guidance_dialog_title">Nowy spersonalizowany ekran blokady</string>
     <string name="kg_hierarchy_loading_tip">Wykrywanie warstw…</string>
     <string name="kg_hierarchy_not_support_avoid_tip">Dostosuj pozycję tapety, aby uwidocznić efekt głębi</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Ta tapeta nie obsługuje efektu głębi</string>
     <string name="kg_hierarchy_switch_label">Efekt głębi</string>
     <string name="kg_line_spacing">Odstępy między wierszami</string>
+    <string name="kg_live_photo_land_tips">Poziome zdjęcia Live photo można ustawić tylko jako zdjęcia statyczne</string>
     <string name="kg_magazine_a_b_primary_color_label">Zegar</string>
     <string name="kg_magazine_a_b_secondary_color_label">Podpis</string>
     <string name="kg_magazine_c_primary_color_label">Inny tekst</string>
@@ -673,12 +701,14 @@
     <string name="kg_split_switch_label">Używaj osobnych kolorów dla godzin i minut</string>
     <string name="kg_template_description_classic">Klasyka nigdy nie wychodzi z mody.</string>
     <string name="kg_template_description_eastern_art">Współczesna interpretacja wschodnich motywów wykorzystującą klasyczną symetrię krzyżową, charakterystyczny układ pionowy i kaligraficzną ekspresję</string>
-    <string name="kg_template_description_magazine">Zmień swój Ekran blokady w okładkę magazynu.</string>
+    <string name="kg_template_description_magazine">Zmień swój ekran blokady w okładkę magazynu.</string>
     <string name="kg_template_description_rhombus">Czas jest ważny. Spraw, aby to się liczyło.</string>
     <string name="kg_template_preview_content_description">Podgląd</string>
     <string name="kg_template_title_classic">Klasyczny</string>
+    <string name="kg_template_title_classic_phone">Krajobraz</string>
     <string name="kg_template_title_eastern_art">Estetyka Wschodu</string>
     <string name="kg_template_title_magazine">Magazyn</string>
+    <string name="kg_template_title_magazine_phone">Osoby</string>
     <string name="kg_template_title_mine">Ekran blokady</string>
     <string name="kg_template_title_rhombus">Romb</string>
     <string name="kg_time_language_string">Cyfry</string>
@@ -686,7 +716,8 @@
     <string name="kg_title_content">Zawartość</string>
     <string name="kg_title_fonts_and_content">Czcionka i zawartość</string>
     <string name="kg_title_name">Czcionka</string>
-    <string name="kg_typesetting_string">Układ</string>
+    <string name="kg_typesetting_string">Styl</string>
+    <string name="kg_wallpaper_blur_effect">Rozmycie tapety</string>
     <string name="kg_wallpaper_filter_title">Efekty tapet</string>
     <string name="kg_wallpaper_filter_type_crystallized">Kryształy</string>
     <string name="kg_wallpaper_filter_type_focus">Ostrość</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Obiektyw</string>
     <string name="kg_wallpaper_filter_type_water">Woda</string>
     <string name="kg_wallpaper_scale_hint_text">Ściśnij, aby przyciąć</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">W przypadku tej tapety nie można włączyć przewijania</string>
     <string name="kg_wallpaper_scroll_type_tips">Przewijanie tapety</string>
     <string name="kg_word_spacing">Odstępy między znakami</string>
     <string name="last_choice">Ostatnio użyto</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Niewystarczająca ilość środków)</string>
     <string name="payment_data_move_tips">Twoje dane konta zostaną przeniesione na serwery w Twoim regionie, aby zachować zgodność z przepisami dotyczącymi prywatności. Istnieje ryzyko utraty danych podczas przenoszenia.</string>
-    <string name="payment_instructions">&lt;Data>Dokonując płatności, zgadzasz się na &lt;a href=\"%1$s\">Powiadomienie o zakupach w aplikacjach&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Dokonując płatności, zgadzasz się na &lt;a href=\"%1$s\">Powiadomienie o zakupach w aplikacjach&lt;/a>.</Data></string>
     <string name="payment_method">Metoda płatności</string>
     <string name="permission_desc">Do przechowywania zapisanych motywów i innych elementów</string>
     <string name="permission_pop_desc">Zezwól Motywom na dostęp do pamięci, aby móc zmieniać preferencje personalizacji i zapisywać pobrane elementy.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Zgadzam się</string>
     <string name="user_authorization_dialog_agree_a">Akceptuję</string>
     <string name="user_authorization_dialog_disagree">Wyjdź</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Musimy zebrać niezbędne dane osobowe, aby świadczyć podstawowe usługi. Możesz dowiedzieć się, jak postępujemy z informacjami, które zbieramy w naszej &lt;a href=\"%1$s\">Polityce Prywatności&lt;/a>. Przeczytaj i zaakceptuj naszą &lt;a href=\"%2$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%3$s\">Politykę Prywatności&lt;/a> przed skorzystaniem z Motywów.
-W dowolnym momencie możesz wycofać swoją zgodę na Politykę Prywatności Motywów w Ustawieniach.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Zaakceptuj naszą &lt;a href=\"%1$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%2$s\">Politykę Prywatności&lt;/a>, zanim przejdziesz dalej. Możesz w każdej chwili zmienić swoje preferencje w Ustawieniach.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Musimy zebrać niezbędne dane osobowe, aby świadczyć podstawowe usługi. Możesz dowiedzieć się, jak postępujemy z informacjami, które zbieramy w naszej &lt;a href=\"%1$s\">Polityce Prywatności&lt;/a>. Przeczytaj i zaakceptuj naszą &lt;a href=\"%2$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%3$s\">Politykę Prywatności&lt;/a> przed skorzystaniem z Motywów.
+W dowolnym momencie możesz wycofać swoją zgodę na Politykę Prywatności Motywów w Ustawieniach."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Zaakceptuj naszą &lt;a href=\"%1$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%2$s\">Politykę Prywatności&lt;/a>, zanim przejdziesz dalej. Możesz w każdej chwili zmienić swoje preferencje w Ustawieniach.</Data></string>
     <string name="user_authorization_dialog_title">Warunki użytkowania</string>
     <string name="user_know">Rozumiem</string>
     <string name="using_theme_has_update_tips">Dostępna jest aktualizacja dla tego motywu.</string>

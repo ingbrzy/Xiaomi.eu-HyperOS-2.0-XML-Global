@@ -521,10 +521,11 @@
     <string name="item_resource_audio_optional_phone_ring">Toques</string>
     <string name="item_view_role_description">Separador</string>
     <string name="kg_activity_label">Editar Ecrã de bloqueio</string>
+    <string name="kg_aod_settings_depth_video_toast">Somente o Ecrã sempre ligado personalizado é suportado quando utiliza o efeito de profundidade</string>
     <string name="kg_apply">Aplicar</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Só no Ecrã de bloqueio</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Aplicar</string>
-    <string name="kg_apply_to_all_alert_dialog_title">Aplicar este papel de parede aí Ecrã inicial também?</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">Aplicar em ambos</string>
+    <string name="kg_apply_to_all_alert_dialog_title">Aplicar este papel de parede no Ecrã inicial também?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Não, obrigado</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Ligar</string>
     <string name="kg_apply_to_aod_alert_dialog_title">Ligar o Ecrã sempre ligado também?</string>
@@ -543,6 +544,7 @@
     <string name="kg_classic_item_empty">Não definido</string>
     <string name="kg_classic_item_humidity">Humidade</string>
     <string name="kg_classic_item_lunar_date">Calendário Chinês Tradicional</string>
+    <string name="kg_classic_item_lunar_date1">Calendário Chinês Tradicional</string>
     <string name="kg_classic_item_lunar_month_day">Calendário Chinês Tradicional</string>
     <string name="kg_classic_item_lunar_year">Ano (Calendário Chinês Tradicional)</string>
     <string name="kg_classic_item_month">Mês</string>
@@ -557,9 +559,13 @@
     <string name="kg_classic_item_step_number">Passos</string>
     <string name="kg_classic_item_sunrise_or_sunset">Nascer e pôr do sol</string>
     <string name="kg_classic_item_temperature">Temperatura</string>
+    <string name="kg_classic_item_type_date">Data</string>
+    <string name="kg_classic_item_type_health">Saúde</string>
+    <string name="kg_classic_item_type_time">Hora</string>
+    <string name="kg_classic_item_type_weather">Tempo</string>
     <string name="kg_classic_item_ultraviolet_ray">Indíce UV</string>
     <string name="kg_classic_item_vitality">Estatísticas</string>
-    <string name="kg_classic_item_weather_cloudy">Nublado</string>
+    <string name="kg_classic_item_weather_cloudy">Com nuvens</string>
     <string name="kg_classic_item_week">Semana</string>
     <string name="kg_classic_item_wind">Vento</string>
     <string name="kg_classic_primary_color_label">Cor primária</string>
@@ -573,25 +579,45 @@
     <string name="kg_color_value_editor_title">Editar cor</string>
     <string name="kg_confirm">OK</string>
     <string name="kg_customize">Personalizar</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Aplicar tema</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">Cancelar</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Aplicar</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Está a utilizar um conjunto de papéis de parede agora. Se aplicar um novo tema, o papel de parede do Ecrã de bloqueio e do Ecrã inicial serao substituídos, e o Ecrã sempre ligado será reposto para o estilo anterior. Aplicar na mesma?</string>
+    <string name="kg_depth_preset_button_download">Transferir papel de parede dinâmico</string>
+    <string name="kg_depth_preset_button_downloading">A transferir…</string>
+    <string name="kg_depth_preset_button_dynamic">Dinâmico</string>
+    <string name="kg_depth_preset_button_static">Estático</string>
+    <string name="kg_depth_preset_dialog_content">Transferir e aplicar a versão dinâmica desse papel de parede com efeito de profundidade?</string>
+    <string name="kg_depth_preset_dialog_download_button">Transferir</string>
+    <string name="kg_depth_preset_dialog_image_button">Versão estática</string>
+    <string name="kg_depth_preset_dialog_title">Transferir papel de parede dinâmico</string>
+    <string name="kg_depth_preset_network_fail">Sem ligação com a rede</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Sem ligação de rede. Transferência em pausa.</string>
+    <string name="kg_depth_produce_video_detail_failed">O efeito de profundidade só pode ser utilizado para pessoas, cachorros e gatos</string>
+    <string name="kg_depth_produce_video_failed">Não foi possível aplicar o efeito de profundidade</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">A IA está a processar o efeito de profundidade do vídeo…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">O efeito de profundidade do vídeo está ligado. O Ecrã sempre ligado em Ecrã cheio está desligado.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Aplicar tema</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">Cancelar</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Aplicar</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Estás a utilizar um conjunto de papéis de parede agora. Se aplicar um novo tema, o papel de parede do Ecrã de bloqueio e do Ecrã inicial serão substituídos, e o Ecrã sempre ligado será reposto para o estilo anterior. Aplicar na mesma?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Este Ecrã de bloqueio não suporta os Super Papéis de parede. O Papel de parede no seu Ecrã inicial e de bloqueio será substituído se continuar. Continuar na mesma?</string>
-    <string name="kg_dialog_apply_super_wallpaper_confirm">Está a utilizar um Super papel de parede. Ele será substituído por um novo papel de parede no Ecrã inicial e de bloqueio se continuar. Continuar na mesma?</string>
+    <string name="kg_dialog_apply_successful">Aplicado com sucesso</string>
+    <string name="kg_dialog_apply_super_wallpaper_confirm">Estás a utilizar um Super papel de parede. Ele será substituído por um novo papel de parede no Ecrã inicial e de bloqueio se continuar. Continuar na mesma?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">Cancelar</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">Cancelar</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">OK</string>
+    <string name="kg_dialog_enable_depth_function">Ligue o efeito de profundidade primeiro</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Rejeitar</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Aplicar</string>
     <string name="kg_dialog_fashion_gallery_button_positive">Cancelar</string>
-    <string name="kg_dialog_fashion_gallery_message">Está a utilizar o Carrossel de Papéis de parede no momento. Aplicar um papel de parede dinâmico desligará o Carrossel de Papéis de parede. Aplicar na mesma?</string>
+    <string name="kg_dialog_fashion_gallery_message">Estás a utilizar o Carrossel de Papéis de parede no momento. Aplicar um papel de parede dinâmico desligará o Carrossel de Papéis de parede. Aplicar na mesma?</string>
     <string name="kg_dialog_fashion_gallery_title">Atenção</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Não é possível editar o tipo de letra quando o Relógio duplo está ligado</string>
+    <string name="kg_dialog_no_content_available_the_moment">Nada aqui ainda</string>
+    <string name="kg_dialog_too_much_time_blocking">O relógio está encoberto. Não é possível usar o efeito de profundidade.</string>
     <string name="kg_discard_changes_text">Rejeitar as alterações?</string>
     <string name="kg_doodle_font_label">Rabisco</string>
     <string name="kg_doodle_primary_label">Rabiscos</string>
     <string name="kg_doodle_secondary_disable_tip">Ligar efeitos de profundidade</string>
     <string name="kg_doodle_secondary_label">Fundo</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Não é possível utilizar rabiscos ao utilizar este relógio</string>
     <string name="kg_doodle_text_not_support_gallery_tip">O Carrossel de Papéis de parede não suporta Rabiscos</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Papéis de parede de terceiros não suportam Rabiscos</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Este papel de parede não suporta Rabiscos</string>
@@ -604,6 +630,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Papéis de parede de terceiros não suportam efeitos</string>
     <string name="kg_effects_tip_title">Profundidade de campo e filtros</string>
     <string name="kg_enable_blur">Efeito matte</string>
+    <string name="kg_exit">Sair</string>
     <string name="kg_font_filter_classic_primary_label">Primário</string>
     <string name="kg_font_filter_classic_secondary_label">Secundário</string>
     <string name="kg_font_filter_doodle_primary_label">Rabisco</string>
@@ -616,8 +643,8 @@
     <string name="kg_font_filter_hsl_title">Cor personalizada</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Hora</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">Assinatura</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Minutos</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Principal</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">Secundário</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Primário</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Horas</string>
     <string name="kg_font_filter_object_label_date">Data</string>
     <string name="kg_font_filter_object_label_date_color">Cor da data</string>
@@ -628,8 +655,8 @@
     <string name="kg_font_filter_object_label_minute">Minutos</string>
     <string name="kg_font_filter_object_label_signature">Assinatura</string>
     <string name="kg_font_filter_object_label_time">Hora</string>
-    <string name="kg_font_filter_object_label_time_weather">Relógio de tempo</string>
-    <string name="kg_font_filter_rhombus_secondary_label">Colon</string>
+    <string name="kg_font_filter_object_label_time_weather">Relógio com previsão do tempo</string>
+    <string name="kg_font_filter_rhombus_secondary_label">Coluna</string>
     <string name="kg_function_button_text_color">Cor</string>
     <string name="kg_function_button_text_effect">Efeitos de papel de parede</string>
     <string name="kg_function_button_text_font">Efeitos de tipo de letra</string>
@@ -649,6 +676,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Este papel de parede não suporta efeitos de profundidade</string>
     <string name="kg_hierarchy_switch_label">Efeito de profundidade</string>
     <string name="kg_line_spacing">Espaçamento de linhas</string>
+    <string name="kg_live_photo_land_tips">As fotografias em movimento horizontais só podem ser definidas como fotografias estáticas</string>
     <string name="kg_magazine_a_b_primary_color_label">Relógio</string>
     <string name="kg_magazine_a_b_secondary_color_label">Assinatura</string>
     <string name="kg_magazine_c_primary_color_label">Outro texto</string>
@@ -677,8 +705,10 @@
     <string name="kg_template_description_rhombus">O tempo é importante. Faça-o valer a pena.</string>
     <string name="kg_template_preview_content_description">Prévia</string>
     <string name="kg_template_title_classic">Clássico</string>
+    <string name="kg_template_title_classic_phone">Cenário</string>
     <string name="kg_template_title_eastern_art">Estética oriental</string>
     <string name="kg_template_title_magazine">Revista</string>
+    <string name="kg_template_title_magazine_phone">Pessoas</string>
     <string name="kg_template_title_mine">Bloquear ecrã</string>
     <string name="kg_template_title_rhombus">Losango</string>
     <string name="kg_time_language_string">Dígitos</string>
@@ -686,7 +716,8 @@
     <string name="kg_title_content">Conteúdo</string>
     <string name="kg_title_fonts_and_content">Tipo de letra e conteúdo</string>
     <string name="kg_title_name">Tipo de letra</string>
-    <string name="kg_typesetting_string">Disposição</string>
+    <string name="kg_typesetting_string">Estilo</string>
+    <string name="kg_wallpaper_blur_effect">Desfocar papel de parede</string>
     <string name="kg_wallpaper_filter_title">Efeitos de papel de parede</string>
     <string name="kg_wallpaper_filter_type_crystallized">Cristais</string>
     <string name="kg_wallpaper_filter_type_focus">Foco</string>
@@ -698,6 +729,7 @@
     <string name="kg_wallpaper_filter_type_striped_lens">Lente</string>
     <string name="kg_wallpaper_filter_type_water">Água</string>
     <string name="kg_wallpaper_scale_hint_text">Pinça para cortar</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Não é possível ligar a rolagem para este papel de parede</string>
     <string name="kg_wallpaper_scroll_type_tips">Deslizar do papel de parede</string>
     <string name="kg_word_spacing">Espaçamento de caracteres</string>
     <string name="last_choice">Utilizado da última vez</string>
@@ -1008,7 +1040,7 @@ mm"</string>
     <string name="payment_coins_balance">(Saldo: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Saldo insuficiente)</string>
     <string name="payment_data_move_tips">Os dados da sua conta serão migrados em servidores na sua região para acatar regulamentos de privacidade. Existe um risco de perda de dados durante a migração.</string>
-    <string name="payment_instructions">&lt;Data>Ao completar o pagamento, estará a concordar com o &lt;a href=\"%1$s\">Aviso sobre Compras na Aplicação&lt;/a>.&lt;/Data></string>
+    <string name="payment_instructions"><Data>Ao completar o pagamento, estará a concordar com o &lt;a href=\"%1$s\">Aviso sobre Compras na Aplicação&lt;/a>.</Data></string>
     <string name="payment_method">Forma de pagamento</string>
     <string name="permission_desc">Para armazenar temas guardados e outros itens</string>
     <string name="permission_pop_desc">Para poder alterar as preferências de personalização e guardar itens transferidos, permita que a aplicação Temas aceda ao armazenamento primeiro.</string>
@@ -1584,9 +1616,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Aceitar</string>
     <string name="user_authorization_dialog_agree_a">Aceitar</string>
     <string name="user_authorization_dialog_disagree">Sair</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Nós precisamos recolher informações pessoais necessária para o fornecimento dos serviços básicos. Podes saber mais sobre como lidamos com as informações que recolhermos em nossa &lt;a href=\"%1$s\">Política de Privacidade&lt;/a>. Leia e aceite o nosso &lt;a href=\"%2$s\">Contrato do Utilizador&lt;/a> e a &lt;a href=\"%3$s\">Política de Privacidade&lt;/a> antes de utilizar a aplicação Temas.
-Pode retirar o seu consentimento à Política de Privacidade da aplicação Temas a qualquer altura nas Definições.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">&lt;Data>Aceite o nosso &lt;a href=\"%1$s\">Contrato do Utilizador&lt;/a> e a &lt;a href=\"%2$s\">Política de Privacidade&lt;/a> antes de continuar. Pode alterar as suas preferências a qualquer altura nas Definições.&lt;/Data></string>
+    <string name="user_authorization_dialog_message"><Data>"Nós precisamos recolher informações pessoais necessária para o fornecimento dos serviços básicos. Podes saber mais sobre como lidamos com as informações que recolhermos em nossa &lt;a href=\"%1$s\">Política de Privacidade&lt;/a>. Leia e aceite o nosso &lt;a href=\"%2$s\">Contrato do Utilizador&lt;/a> e a &lt;a href=\"%3$s\">Política de Privacidade&lt;/a> antes de utilizar a aplicação Temas.
+Pode retirar o seu consentimento à Política de Privacidade da aplicação Temas a qualquer altura nas Definições."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Aceite o nosso &lt;a href=\"%1$s\">Contrato do Utilizador&lt;/a> e a &lt;a href=\"%2$s\">Política de Privacidade&lt;/a> antes de continuar. Pode alterar as suas preferências a qualquer altura nas Definições.</Data></string>
     <string name="user_authorization_dialog_title">Termos e condições</string>
     <string name="user_know">Percebi</string>
     <string name="using_theme_has_update_tips">Uma atualização para este tema está disponivel.</string>

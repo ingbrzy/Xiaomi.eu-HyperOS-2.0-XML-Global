@@ -524,9 +524,10 @@
     <string name="item_resource_audio_optional_phone_ring">Zil sesi</string>
     <string name="item_view_role_description">Sekme</string>
     <string name="kg_activity_label">Kilit ekranını düzenle</string>
+    <string name="kg_aod_settings_depth_video_toast">Derinlik efekti kullanılırken yalnızca özel Her zaman açık ekran desteklenir</string>
     <string name="kg_apply">Uygula</string>
     <string name="kg_apply_to_all_alert_dialog_negative_text">Yalnızca Kilit ekranı</string>
-    <string name="kg_apply_to_all_alert_dialog_positive_text">Uygula</string>
+    <string name="kg_apply_to_all_alert_dialog_positive_text">İkisine de uygula</string>
     <string name="kg_apply_to_all_alert_dialog_title">Bu duvar kağıdı Ana ekrana da uygulansın mı?</string>
     <string name="kg_apply_to_aod_alert_dialog_negative_text">Hayır, teşekkürler</string>
     <string name="kg_apply_to_aod_alert_dialog_positive_text">Aç</string>
@@ -546,6 +547,7 @@
     <string name="kg_classic_item_empty">Hiçbiri</string>
     <string name="kg_classic_item_humidity">Nem</string>
     <string name="kg_classic_item_lunar_date">Geleneksel Çin takvimi</string>
+    <string name="kg_classic_item_lunar_date1">Geleneksel Çin takvimi</string>
     <string name="kg_classic_item_lunar_month_day">Geleneksel Çin takvimi</string>
     <string name="kg_classic_item_lunar_year">Yıl (Geleneksel Çin takvimi)</string>
     <string name="kg_classic_item_month">Ay</string>
@@ -560,6 +562,10 @@
     <string name="kg_classic_item_step_number">Adım</string>
     <string name="kg_classic_item_sunrise_or_sunset">Gün doğumu ve gün batımı</string>
     <string name="kg_classic_item_temperature">Sıcaklık</string>
+    <string name="kg_classic_item_type_date">Tarih</string>
+    <string name="kg_classic_item_type_health">Sağlık</string>
+    <string name="kg_classic_item_type_time">Saat</string>
+    <string name="kg_classic_item_type_weather">Hava durumu</string>
     <string name="kg_classic_item_ultraviolet_ray">UV endeksi</string>
     <string name="kg_classic_item_vitality">İstatistikler</string>
     <string name="kg_classic_item_weather_cloudy">Bulutlu</string>
@@ -576,25 +582,45 @@
     <string name="kg_color_value_editor_title">Rengi düzenle</string>
     <string name="kg_confirm">Tamam</string>
     <string name="kg_customize">Özelleştir</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_confirm_title">Temayı uygula</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_nagetive_button">İptal</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_positive_button">Uygula</string>
-    <string name="kg_dialog_apply_link_video_wallpaper_wallpaper_confirm">Şu anda bir duvar kağıdı seti kullanıyorsunuz. Yeni temayı uygularsanız hem Kilit ekranı hem Ana ekran duvar kağıdı değiştirilecek ve Her zaman açık ekran önceki stiline geri yüklenecek. Yine de uygulansın mı?</string>
+    <string name="kg_depth_preset_button_download">Dinamik duvar kağıdı indir</string>
+    <string name="kg_depth_preset_button_downloading">İndiriliyor…</string>
+    <string name="kg_depth_preset_button_dynamic">Dinamik</string>
+    <string name="kg_depth_preset_button_static">Sabit</string>
+    <string name="kg_depth_preset_dialog_content">Bu derinlik efektli duvar kağıdının dinamik sürümü indirilsin ve uygulansın mı?</string>
+    <string name="kg_depth_preset_dialog_download_button">İndir</string>
+    <string name="kg_depth_preset_dialog_image_button">Statik sürüm</string>
+    <string name="kg_depth_preset_dialog_title">Dinamik duvar kağıdı indir</string>
+    <string name="kg_depth_preset_network_fail">Ağ bağlantısı yok</string>
+    <string name="kg_depth_preset_network_fail_download_pause">Ağ bağlantısı yok. İndirme duraklatıldı.</string>
+    <string name="kg_depth_produce_video_detail_failed">Derinlik efekti yalnızca insanlar, köpekler ve kediler için kullanılabilir</string>
+    <string name="kg_depth_produce_video_failed">Derinlik efekti uygulanamadı</string>
+    <string name="kg_depth_produce_video_progress_dialog_label">AI, video derinlik efektini işliyor…</string>
+    <string name="kg_depth_video_apply_aod_close_toast">Derinlik efekti açık. Tam ekran Her zaman açık ekran kapalı.</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_confirm_title">Temayı uygula</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_negative_button">İptal</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_positive_button">Uygula</string>
+    <string name="kg_dialog_apply_linkage_video_wallpaper_wallpaper_confirm">Şu anda bir duvar kağıdı seti kullanıyorsunuz. Yeni temayı uygularsanız hem Kilit ekranı hem Ana ekran duvar kağıdı değiştirilecek ve Her zaman açık ekran önceki stiline geri yüklenecek. Yine de uygulansın mı?</string>
     <string name="kg_dialog_apply_not_support_super_wallpaper_confirm">Bu Kilit ekranı Süper duvar kağıtlarını desteklemiyor. Devam ederseniz hem Ana ekrandaki hem Kilit ekranındaki duvar kağıdı değiştirilecek. Yine de devam edilsin mi?</string>
+    <string name="kg_dialog_apply_successful">Başarıyla uygulandı</string>
     <string name="kg_dialog_apply_super_wallpaper_confirm">Şu anda Süper duvar kağıtlarını kullanıyorsunuz. Devam ederseniz hem Ana ekran hem Kilit ekranı yeni bir duvar kağıdı ile değiştirilecek. Yine de devam edilsin mi?</string>
     <string name="kg_dialog_apply_super_wallpaper_nagetive_button">İptal</string>
+    <string name="kg_dialog_apply_super_wallpaper_negative_button">İptal</string>
     <string name="kg_dialog_apply_super_wallpaper_positive_button">Tamam</string>
+    <string name="kg_dialog_enable_depth_function">Önce derinlik efektini açın</string>
     <string name="kg_dialog_fashion_gallery_button_abandon">Yok say</string>
     <string name="kg_dialog_fashion_gallery_button_negative">Uygula</string>
     <string name="kg_dialog_fashion_gallery_button_positive">İptal</string>
     <string name="kg_dialog_fashion_gallery_message">"Şu anda Duvar kağıdı Döngüsü'nü kullanıyorsunuz. Dinamik bir duvar kağıdı uygulamak Duvar kağıdı Döngüsü'nü kapatacak. Şimdi uygulansın mı?"</string>
     <string name="kg_dialog_fashion_gallery_title">Uyarı</string>
     <string name="kg_dialog_fontfilter_dualclock_button">Çift saat açık iken yazı tipi düzenlenemiyor</string>
+    <string name="kg_dialog_no_content_available_the_moment">Burada henüz hiçbir şey yok</string>
+    <string name="kg_dialog_too_much_time_blocking">Saat belirsiz. Derinlik efekti kullanılamıyor.</string>
     <string name="kg_discard_changes_text">Değişiklikler yok sayılsın mı?</string>
     <string name="kg_doodle_font_label">Karalama</string>
     <string name="kg_doodle_primary_label">Karalamalar</string>
     <string name="kg_doodle_secondary_disable_tip">Derinlik efektini aç</string>
     <string name="kg_doodle_secondary_label">Arka plan</string>
+    <string name="kg_doodle_text_not_support_clock_tip">Bu saati kullandığınızda müsveddeler kullanılamaz</string>
     <string name="kg_doodle_text_not_support_gallery_tip">Duvar kağıdı Döngüsü karalamaları desteklemez</string>
     <string name="kg_doodle_text_not_support_third_party_wallpaper_service_tip">Üçüncü taraf duvar kağıtları karalamaları desteklemiyor</string>
     <string name="kg_doodle_text_not_support_wallpaper_tip">Bu duvar kağıdı karalamaları desteklemiyor</string>
@@ -607,6 +633,7 @@
     <string name="kg_effects_tip_not_support_third_party_wallpaper_service">Üçüncü taraf duvar kağıtları efektleri desteklemiyor</string>
     <string name="kg_effects_tip_title">Alan derinliği ve filtreler</string>
     <string name="kg_enable_blur">Mat efekt</string>
+    <string name="kg_exit">Çıkış</string>
     <string name="kg_font_filter_classic_primary_label">Birincil</string>
     <string name="kg_font_filter_classic_secondary_label">İkincil</string>
     <string name="kg_font_filter_doodle_primary_label">Karalama</string>
@@ -619,15 +646,15 @@
     <string name="kg_font_filter_hsl_title">Özel renk</string>
     <string name="kg_font_filter_magazine_a_b_primary_label">Saat</string>
     <string name="kg_font_filter_magazine_a_b_secondary_label">İmza</string>
-    <string name="kg_font_filter_magazine_c2_secondary_label">Dakika</string>
-    <string name="kg_font_filter_magazine_c_style_1_primary_label">Esas</string>
+    <string name="kg_font_filter_magazine_c2_secondary_label">İkincil</string>
+    <string name="kg_font_filter_magazine_c_style_1_primary_label">Birincil</string>
     <string name="kg_font_filter_magazine_c_style_3_primary_label">Saat</string>
     <string name="kg_font_filter_object_label_date">Tarih</string>
-    <string name="kg_font_filter_object_label_date_color">Saat rengi</string>
+    <string name="kg_font_filter_object_label_date_color">Tarih rengi</string>
     <string name="kg_font_filter_object_label_decorate">Dekoratif unsurlar</string>
     <string name="kg_font_filter_object_label_hour">Saat</string>
     <string name="kg_font_filter_object_label_hour_date">Saat ve tarih</string>
-    <string name="kg_font_filter_object_label_main_content">Esas</string>
+    <string name="kg_font_filter_object_label_main_content">Ana</string>
     <string name="kg_font_filter_object_label_minute">Dakika</string>
     <string name="kg_font_filter_object_label_signature">İmza</string>
     <string name="kg_font_filter_object_label_time">Saat</string>
@@ -652,6 +679,7 @@
     <string name="kg_hierarchy_not_support_wallpaper_tip">Bu duvar kağıdı derinlik efektini desteklemiyor</string>
     <string name="kg_hierarchy_switch_label">Derinlik efekti</string>
     <string name="kg_line_spacing">Satır aralığı</string>
+    <string name="kg_live_photo_land_tips">Yatay Canlı fotoğraflar yalnızca statik fotoğraf olarak ayarlanabilir</string>
     <string name="kg_magazine_a_b_primary_color_label">Saat</string>
     <string name="kg_magazine_a_b_secondary_color_label">İmza</string>
     <string name="kg_magazine_c_primary_color_label">Diğer metin</string>
@@ -680,8 +708,10 @@
     <string name="kg_template_description_rhombus">Zaman önemlidir. Anlamlı kılın.</string>
     <string name="kg_template_preview_content_description">Önizleme</string>
     <string name="kg_template_title_classic">Klasik</string>
+    <string name="kg_template_title_classic_phone">Manzara</string>
     <string name="kg_template_title_eastern_art">Doğu estetiği</string>
     <string name="kg_template_title_magazine">Dergi</string>
+    <string name="kg_template_title_magazine_phone">Kişiler</string>
     <string name="kg_template_title_mine">Kilit ekranı</string>
     <string name="kg_template_title_rhombus">Eşkenar dörtgen</string>
     <string name="kg_time_language_string">Rakamlar</string>
@@ -689,7 +719,8 @@
     <string name="kg_title_content">İçerik</string>
     <string name="kg_title_fonts_and_content">Yazı tipi ve içerik</string>
     <string name="kg_title_name">Yazı tipi</string>
-    <string name="kg_typesetting_string">Düzen</string>
+    <string name="kg_typesetting_string">Stil</string>
+    <string name="kg_wallpaper_blur_effect">Bulanık duvar kağıdı</string>
     <string name="kg_wallpaper_filter_title">Duvar kağıdı efektleri</string>
     <string name="kg_wallpaper_filter_type_crystallized">Kristaller</string>
     <string name="kg_wallpaper_filter_type_focus">Odak</string>
@@ -698,9 +729,10 @@
     <string name="kg_wallpaper_filter_type_pinstripes">Çıkıntılı</string>
     <string name="kg_wallpaper_filter_type_raw">Orijinal</string>
     <string name="kg_wallpaper_filter_type_striped_glass">Cam</string>
-    <string name="kg_wallpaper_filter_type_striped_lens">Lensler</string>
+    <string name="kg_wallpaper_filter_type_striped_lens">Lens</string>
     <string name="kg_wallpaper_filter_type_water">Su</string>
     <string name="kg_wallpaper_scale_hint_text">Kırpmak için sıkıştırın</string>
+    <string name="kg_wallpaper_scroll_type_disable_tips">Bu duvar kağıdı için kaydırma açılamıyor</string>
     <string name="kg_wallpaper_scroll_type_tips">Duvar kağıdı kaydırma</string>
     <string name="kg_word_spacing">Karakter aralığı</string>
     <string name="last_choice">Son sefer kullanıldı</string>
@@ -1011,7 +1043,7 @@ mm"</string>
     <string name="payment_coins_balance">(Bakiye: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Yetersiz bakiye)</string>
     <string name="payment_data_move_tips">Hesap verileriniz, gizlilik düzenlemeleri ile uyumlu olması için bölgenizdeki sunucalara taşınacaktır. Taşıma sırasında veri kaybı riski vardır.</string>
-    <string name="payment_instructions">"&lt;Data>Ödemeyi tamamlayarak &lt;a href=\"%1$s\">Uygulama İçi Satın Alımlarla İlgili Bildirim'i&lt;/a> kabul ediyorsunuz.&lt;/Data>"</string>
+    <string name="payment_instructions"><Data>"Ödemeyi tamamlayarak &lt;a href=\"%1$s\">Uygulama İçi Satın Alımlarla İlgili Bildirim'i&lt;/a> kabul ediyorsunuz."</Data></string>
     <string name="payment_method">Ödeme yöntemi</string>
     <string name="permission_desc">Kaydedilen temaları ve diğer ögeleri depolamak için</string>
     <string name="permission_pop_desc">"Kişiselleştirme tercihlerini değiştirebilmek ve indirilen ögeleri kaydedebilmek için önce Temalar'ın depolama alanına erişimine izin verin."</string>
@@ -1587,9 +1619,9 @@ mm"</string>
     <string name="user_authorization_dialog_agree">Kabul et</string>
     <string name="user_authorization_dialog_agree_a">Kabul et</string>
     <string name="user_authorization_dialog_disagree">Çıkış</string>
-    <string name="user_authorization_dialog_message">"&lt;Data>Temel hizmetleri sağlamak için gerekli kişisel bilgilerinizi toplamamız gerekir. &lt;a href=\"%1$s\">Gizlilik Politikamızda&lt;/a> topladığımız bilgileri nasıl işlediğimizi öğrenebilirsiniz. Temalar uygulamasını kullanmadan önce &lt;a href=\"%2$s\">Kullanıcı Sözleşmemizi&lt;/a> ve &lt;a href=\"%3$s\">Gizlilik Politikamızı&lt;/a> okuyun ve kabul edin.
-İstediğiniz herhangi bir zamanda Ayarlar menüsünden Temalar'ın Gizlilik Politikasına verdiğiniz izni geri çekebilirsiniz.&lt;/Data>"</string>
-    <string name="user_authorization_dialog_message_a">"&lt;Data>Devam etmeden önce &lt;a href=\"%1$s\">Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=\"%2$s\">Gizlilik Politikası'nı&lt;/a> kabul edin. İstediğiniz zaman Ayarlar menüsünde tercihleri değiştirebilirsiniz.&lt;/Data>"</string>
+    <string name="user_authorization_dialog_message"><Data>"Temel hizmetleri sağlamak için gerekli kişisel bilgilerinizi toplamamız gerekir. &lt;a href=\"%1$s\">Gizlilik Politikamızda&lt;/a> topladığımız bilgileri nasıl işlediğimizi öğrenebilirsiniz. Temalar uygulamasını kullanmadan önce &lt;a href=\"%2$s\">Kullanıcı Sözleşmemizi&lt;/a> ve &lt;a href=\"%3$s\">Gizlilik Politikamızı&lt;/a> okuyun ve kabul edin.
+İstediğiniz herhangi bir zamanda Ayarlar menüsünden Temalar'ın Gizlilik Politikasına verdiğiniz izni geri çekebilirsiniz."</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>"Devam etmeden önce &lt;a href=\"%1$s\">Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href=\"%2$s\">Gizlilik Politikası'nı&lt;/a> kabul edin. İstediğiniz zaman Ayarlar menüsünde tercihleri değiştirebilirsiniz."</Data></string>
     <string name="user_authorization_dialog_title">Şartlar ve koşullar</string>
     <string name="user_know">Anladım</string>
     <string name="using_theme_has_update_tips">Bu tema için bir güncelleme mevcut.</string>
