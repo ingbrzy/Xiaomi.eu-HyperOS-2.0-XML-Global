@@ -33,6 +33,10 @@
     <string name="abc_shareactionprovider_share_with_application">Partilhar com a app %s</string>
     <string name="abc_toolbar_collapse_description">Reduzir</string>
     <string name="about_ai_wallpaper">Sobre</string>
+    <string name="accessibility_sliding_button_state_description_off">desligado</string>
+    <string name="accessibility_sliding_button_state_description_on">ligado</string>
+    <string name="accessibility_tab_state_description_unselect">Não selecionado</string>
+    <string name="accessibility_tab_statedesc_unselect">Não selecionado</string>
     <string name="accessibiliy_description_content_account">Perfil</string>
     <string name="accessibiliy_description_content_ad">Anúncio</string>
     <string name="accessibiliy_description_content_add_resource">Adicionar itens</string>
@@ -56,6 +60,20 @@
     <string name="agreement_desc">Contrato do Utilizador (obrigatório)</string>
     <string name="ai_apply_wallpaper">Aplicar</string>
     <string name="ai_cannot_scrolling_with_the_screen">Não é possível ligar a rolagem para este papel de parede</string>
+    <string name="ai_clone_btn">Criar avatar</string>
+    <string name="ai_clone_description">Carregue algumas das suas fotografias para ajudar a IA a gerar o seu retrato.</string>
+    <string name="ai_clone_example">Exemplos de fotografias</string>
+    <string name="ai_clone_multiple1">Foto individual, de rosto inteiro</string>
+    <string name="ai_clone_multiple2">Várias cenas e ângulos</string>
+    <string name="ai_clone_multiple3">O rosto não está claro</string>
+    <string name="ai_clone_title">Carregar fotografias</string>
+    <string name="ai_clone_user_description">Carregue pelo menos %1$d foto nítida e frontal como referência para a IA.</string>
+    <string name="ai_clone_user_title">Carregue %1$d-%2$d fotos suas</string>
+    <string name="ai_creativity_all_album_images">Todos os álbuns</string>
+    <string name="ai_creativity_local_album_pictures">Imagem da Galeria</string>
+    <string name="ai_creativity_my_doppelganger">Os meus avatares</string>
+    <string name="ai_creativity_switch_gender">Selecionar género</string>
+    <string name="ai_creativity_template">Modelo</string>
     <string name="ai_delete_wallpaper">Delete</string>
     <string name="ai_estimated_two_three_minutes" formatted="false">Isso levará cerca de %1d-%2d minutos</string>
     <string name="ai_generate">Gerado por IA</string>
@@ -192,6 +210,7 @@
     <string name="backup_theme_name">Cópia de temas</string>
     <string name="backup_theme_progress_message">A copiar o tema…</string>
     <string name="backup_theme_success_message">As suas definições atuais do tema foram copiadas.</string>
+    <string name="banner_image">Imagem de banner</string>
     <string name="beep">Som de notificação</string>
     <string name="both_all_apply_failured">Não é possível aplicar o papel de parede</string>
     <string name="both_all_apply_success">Papel de parede aplicado</string>
@@ -202,6 +221,7 @@
     <string name="bottomsheet_drag_handle_clicked">Dois toques no indicador para arrastar</string>
     <string name="bottomsheet_drag_handle_content_description">Indicador para arrastar</string>
     <string name="browser_local_resource">Recursos locais</string>
+    <string name="btn_go_free">Desbloquear</string>
     <string name="call_notification_answer_action">Atender</string>
     <string name="call_notification_answer_video_action">Vídeo</string>
     <string name="call_notification_decline_action">Recusar</string>
@@ -238,7 +258,12 @@
     <string name="close_drawer">Fechar menu de navegação</string>
     <string name="close_sheet">Fechar folha</string>
     <string name="columbus_ad_flag_text">Anúncio</string>
+    <string name="columbus_reward_style_access">Saiba mais</string>
+    <string name="columbus_reward_style_close_cancel">Sair</string>
+    <string name="columbus_reward_style_close_desc">Termine de assistir o vídeo para receber uma recompensa. Continuar a assistir?</string>
+    <string name="columbus_reward_style_speed_confirm">Continuar</string>
     <string name="columbus_skip_ad">Saltar</string>
+    <string name="columbus_skip_ad_time">Saltar (%d)</string>
     <string name="come_and_choose_wallpaper">Escolha entre milhares de papéis de parede incríveis</string>
     <string name="common_google_play_services_enable_button">Ativar</string>
     <string name="common_google_play_services_enable_text">O %1$s não funciona enquanto não ativar os serviços do Google Play.</string>
@@ -268,8 +293,24 @@
     <string name="composite_first">Predefinido</string>
     <string name="config_success">Aplicado com sucesso</string>
     <string name="connect_to_view_more">Ligue-se à internet para ver mais</string>
+    <string name="continue_btn">Continuar</string>
     <string name="copy">Copiar</string>
     <string name="copy_toast_msg">Link copiado para a área de transferência.</string>
+    <string name="creator_detail">Parabéns!</string>
+    <string name="creator_detail_enhance_tips">Isso pode levar alguns minutos. Não feche a aplicação.</string>
+    <string name="creator_detail_enhance_tips1">A aprimorar foto…</string>
+    <string name="creator_detail_message">Veja os resultados em As minhas criações</string>
+    <string name="creator_detail_regenerate">Tentar novamente</string>
+    <string name="creator_detail_save">Guardar</string>
+    <string name="creator_detail_save_all">Guardar tudo</string>
+    <string name="creator_failed_1">Ocorreu um erro. Tente novamente.</string>
+    <string name="creator_failed_2">Este processo atingiu o tempo limite. Espere um minuto ou dois e tente novamente.</string>
+    <string name="creator_failed_network">Ocorreu um erro de rede. Tente novamente.</string>
+    <string name="creator_failed_retry">Tentar novamente</string>
+    <string name="creator_failed_title">Não foi possível carregar</string>
+    <string name="creator_failed_user_photo">Não foi possível carregar as fotografias selecionadas. Selecione outras fotografias e tente novamente.</string>
+    <string name="creator_progress">A gerar…</string>
+    <string name="creator_succ_message">Gerado com sucesso. Verifique o resultado em Temas > Criatividade IA > As minhas criações.</string>
     <string name="current_using_desktop_wallpaper_text">Ecrã inicial</string>
     <string name="current_using_lockscreen_wallpaper_text">Ecrã de bloqueio</string>
     <string name="current_version_incompatible">Não compatível</string>
@@ -284,6 +325,7 @@
     <string name="de_super_wp_land_position_default_des">Selecionar visualização</string>
     <string name="default_error_message">Entrada inválida</string>
     <string name="default_popup_window_title">Janela pop-up</string>
+    <string name="delete_image">Eliminar fotos</string>
     <string name="deleting">A eliminar…</string>
     <string name="delivers_fresh_content_and_design_daily">Designs frescos diariamente</string>
     <string name="description_author">Autor</string>
@@ -294,11 +336,17 @@
     <string name="description_uploadtime">Atualização</string>
     <string name="description_version">Versão</string>
     <string name="description_version_szie">Versão: %1$s Tamanho: %2$s</string>
+    <string name="designer_page_latest_scene">Últimos itens populares</string>
     <string name="desktop_wallpaper">Ecrã inicial</string>
     <string name="detail_author_attention_head">Confira alguns destes designers</string>
     <string name="detail_recommend_title">Recomendado</string>
     <string name="dev_options">Opções de programador</string>
     <string name="dev_options_summary">Recursos Web</string>
+    <string name="dialog_confirm_cancel">Cancelar</string>
+    <string name="dialog_confirm_confirm">Sair</string>
+    <string name="dialog_confirm_description">Os itens estão a ser gerados agora. Pode ver os resultados em As minhas criações. Sair agora?</string>
+    <string name="dialog_confirm_description1">A gerar. Verifique o resultado em Temas > Criatividade IA > As minhas criações.</string>
+    <string name="dialog_confirm_title">Sair agora?</string>
     <string name="discover_your_favorites">Descubra os seus favoritos</string>
     <string name="disk_space_Insufficient">Espaço insuficiente</string>
     <string name="download_failed">Não foi possível transferir</string>
@@ -476,6 +524,12 @@
     <string name="friday_shortest">Sex</string>
     <string name="function_introduction">Introdução</string>
     <string name="gallery">Galeria</string>
+    <string name="gender_selected_continue">OK</string>
+    <string name="gender_selected_female">Feminino</string>
+    <string name="gender_selected_male">Masculino</string>
+    <string name="gender_selected_message">Selecione o género para obter recomendações personalizadas de modelos.</string>
+    <string name="gender_selected_other">Outros</string>
+    <string name="gender_selected_title">Perfil da IA</string>
     <string name="go_upgrade_push">Atualizar</string>
     <string name="health_chart_calories_schedule_format_desc">%1$s, %2$s</string>
     <string name="health_chart_calories_unit">Calorias</string>
@@ -497,6 +551,14 @@
     <string name="hint_email_address">Introduza um endereço de email</string>
     <string name="home_apply_failured">Não é possível aplicar o papel de parede ao Ecrã inicial</string>
     <string name="home_apply_success">Papel de parede aplicado ao Ecrã inicial</string>
+    <string name="home_bar_ai_filters">Filtros de IA</string>
+    <string name="home_bar_ai_photo">Retrato IA</string>
+    <string name="home_bar_enhance">Aprimorar</string>
+    <string name="home_tab_selected">Selecionado</string>
+    <string name="home_tab_unselected">Não selecionado</string>
+    <string name="home_vh_enhance_permission_btn">Definições</string>
+    <string name="home_vh_enhance_permission_tips">Conceda as permissões necessárias para poder aprimorar as suas fotografias.</string>
+    <string name="home_vh_enhance_permission_title">Permitir acesso a fotos</string>
     <string name="hot_first">Populares primeiro</string>
     <string name="humidity_format">Humidade %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -785,6 +847,14 @@
     <string name="message_sim_two">Mensagem SIM %d</string>
     <string name="mi_wallpaper">Papéis de parede MIUI</string>
     <string name="midnight">Noite</string>
+    <string name="mine_ai_clone_create">Criar</string>
+    <string name="mine_ai_clone_retry">Repor</string>
+    <string name="mine_ai_clone_retry_message">Repor este avatar exigirá o carregamento de novas fotografias</string>
+    <string name="mine_ai_clone_time">Criado em dd/MM/yyyy</string>
+    <string name="mine_ai_clone_title">Os avatares são usados para criar retratos IA</string>
+    <string name="mine_ai_manager_clone">Gerir avatares</string>
+    <string name="mine_creator">As minhas criações</string>
+    <string name="mine_page_my_avatar">Foto de perfil</string>
     <string name="mine_subscribed_wallpaper">Papéis de parede subscritos</string>
     <string name="miui_clock_city_name_local">Local</string>
     <string name="miui_clock_city_name_second">Relógio secundário</string>
@@ -831,6 +901,10 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Selecionado</string>
+    <string name="miuix_accessibility_title">Título</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Sair do modo de edição</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nova mensagem</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Iniciar modo de edição</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Desmarcar tudo</string>
     <string name="miuix_appcompat_action_mode_select_all">Selecionar tudo</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selecionar itens</string>
@@ -846,6 +920,17 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Selecionar tudo</string>
     <string name="miuix_appcompat_select_all_description">Selecionar tudo</string>
     <string name="miuix_appcompat_select_item">Selecionar itens</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Rolar para baixo para fechar</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Rolar para baixo para alternar para o modo meia tela</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Rolar para baixo para minimizar</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Rolar para cima para alternar para o modo meia tela</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Rolar para cima para maximizar</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Meia Tela</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximizado</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimizado</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Alternar para o modo meia tela</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Alternar para o modo maximizado</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Alternar para o modo minimizado</string>
     <string name="miuix_compat_contact">Contactos</string>
     <string name="miuix_compat_dialog_button">Percebi</string>
     <string name="miuix_compat_dialog_cancel">Cancelar</string>
@@ -854,6 +939,7 @@ mm"</string>
     <string name="miuix_compat_dialog_ok">OK</string>
     <string name="miuix_compat_dialog_update_title">Problemas de compatibilidade</string>
     <string name="miuix_compat_mms">Mensagens</string>
+    <string name="miuix_progressbar_loading">A carregar</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Puxe para baixo para atualizar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Atualizado com sucesso</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">A atualizar…</string>
@@ -862,6 +948,7 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Isso é tudo por agora</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Um momento…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Não foi possível carregar os itens</string>
+    <string name="miuix_show_password">Mostrar palavra-passe</string>
     <string name="mix_global">Sistema</string>
     <string name="mix_home">Ecrã inicial</string>
     <string name="mix_icon">Ícones</string>
@@ -984,6 +1071,7 @@ mm"</string>
     <string name="new_ringtone">Novos toques</string>
     <string name="new_update_available">Atualização disponivel</string>
     <string name="night">Anoitecer</string>
+    <string name="no_creation_yet">Nada aqui ainda</string>
     <string name="no_data">Não é possível ligar à rede</string>
     <string name="no_download_task">Nada aqui ainda</string>
     <string name="no_network">Não é possível ligar à rede</string>
@@ -1005,10 +1093,12 @@ mm"</string>
     <string name="notifications_permission_title">Permitir que a app lhe envie notificações?</string>
     <string name="notify_style">Efeito da notificação</string>
     <string name="off">Desativado</string>
-    <string name="offline_notification_text">Toque para abrir o anúncio.</string>
-    <string name="offline_notification_title">Veja o anúncio que guardou quando estava offline</string>
+    <string name="offline_dialog_image_description">Ícone</string>
+    <string name="offline_dialog_text">"Agradecemos o seu interesse.
+Vamos partilhar mais informações quando estiver novamente online."</string>
+    <string name="offline_notification_title">Está novamente online! Continuemos a partir do ponto em que ficámos</string>
+    <string name="offline_notification_title_with_advertiser">Está novamente online! Continue a aprender sobre %s</string>
     <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_confirmation">Receberá uma notificação com o link quando voltar a estar online.</string>
     <string name="offline_opt_in_decline">Não</string>
     <string name="offline_opt_in_message">Receberá uma notificação com um link para o site do anunciante.</string>
     <string name="offline_opt_in_title">Abra o anúncio quando voltar a estar online</string>
@@ -1067,6 +1157,7 @@ mm"</string>
     <string name="present_local_themes_subtitle">Personalize seu dispositivo</string>
     <string name="present_official_themes">As nossas escolhas</string>
     <string name="present_online_themes">Obter mais temas online</string>
+    <string name="preview_image">Prévia</string>
     <string name="price_for_automatic_renewal">Renovar automaticamente por %1$s</string>
     <string name="privacy_desc">Política de Privacidade (Obrigatório)</string>
     <string name="privacy_simple_content">Ligue as recomendações personalizadas para receber conteúdos e produtos conforme os seus interesses.</string>
@@ -1139,6 +1230,7 @@ mm"</string>
     <string name="resource_category">Categoria</string>
     <string name="resource_clear_search_history">Limpar o histórico de pesquisa</string>
     <string name="resource_clear_search_history_dialog">Limpar todo o histórico de pesquisa?</string>
+    <string name="resource_component_widget">Widgets</string>
     <string name="resource_continue">Seguinte</string>
     <string name="resource_current_using_title">Recursos atuais</string>
     <string name="resource_currently_applied">Aplicado</string>
@@ -1296,6 +1388,11 @@ mm"</string>
     <string name="resource_waiting_download">A aguardar</string>
     <string name="resource_waiting_pause">Em pausa</string>
     <string name="resource_wallpaper_download">Transferir papel de parede</string>
+    <string name="resource_widget_add">Adicionar</string>
+    <string name="resource_widget_add_successful">Adicionado com sucesso</string>
+    <string name="resource_widget_confirm_deletion">Eliminar este item agora?</string>
+    <string name="resource_widget_fail_to_add">Não foi possível adicionar</string>
+    <string name="resource_widget_mine">Os meus widgets</string>
     <string name="restore_last_theme_desc">Alguns elementos do tema utilizado anteriormente podem não ser compatíveis com a nova versão do sistema. Elementos incompatíveis serão substituídos por suas opções predefinidas.</string>
     <string name="restore_last_theme_title">Restaurar tema original</string>
     <string name="restore_push_content">Volte ao tema que estava a utilizar antes da atualização</string>
@@ -1330,6 +1427,8 @@ mm"</string>
     <string name="saturday">Sábado</string>
     <string name="saturday_short">Sáb</string>
     <string name="saturday_shortest">Sáb</string>
+    <string name="save_error">Não foi possível guardar</string>
+    <string name="save_succ">Guardado com sucesso</string>
     <string name="scroll_switch">Deslizar para alternar entre itens</string>
     <string name="sdcard_not_mounted_dialog_message">"Insira o cartão SD agora.
 "</string>
@@ -1338,6 +1437,8 @@ mm"</string>
     <string name="search_hint_header_text">Palavras populares</string>
     <string name="search_menu_title">Pesquisar</string>
     <string name="search_sort">Ordenar por</string>
+    <string name="search_update_guide_bubble">Novo</string>
+    <string name="search_update_guide_text">Aproveite as novas funcionalidades de pesquisa</string>
     <string name="searchview_clear_text_content_description">Limpar texto</string>
     <string name="searchview_navigation_content_description">Anterior</string>
     <string name="select_all">Selecionar tudo</string>
@@ -1346,7 +1447,9 @@ mm"</string>
     <string name="send">Enviar</string>
     <string name="service_expiration_date">Válido até %1$s</string>
     <string name="set_color_ring_back_tone">Definir um tom de CRBT personalizado</string>
+    <string name="setting_ai">Criatividade IA</string>
     <string name="settings">Definições</string>
+    <string name="settings_wallpaper_preview">Prévia do papel de parede</string>
     <string name="shortcut_add">Adicionar</string>
     <string name="shortcut_cancel">Não, obrigado</string>
     <string name="shortcut_message">Adicionar atalho no Ecrã inicial</string>
@@ -1356,6 +1459,10 @@ mm"</string>
     <string name="show_incompatible_font">Mostrar tipos de letra incompatíveis</string>
     <string name="show_incompatible_theme">Mostrar temas incompatíveis</string>
     <string name="show_incompatible_wallpaper">Mostrar papéis de parede incompatíveis</string>
+    <string name="show_reward_video_is_not_unlock">Termine de assistir o anúncio para desbloquear o tema</string>
+    <string name="show_reward_video_loading">A carregar anúncio…</string>
+    <string name="show_reward_video_unavailable">Não foi possível carregar o anúncio. Espere um minuto ou dois e tente novamente.</string>
+    <string name="show_reward_video_unlock">Tema desbloqueado com sucesso</string>
     <string name="side_sheet_accessibility_pane_title">Página lateral</string>
     <string name="sim_one">SIM %d</string>
     <string name="sim_two">SIM %d</string>
@@ -1531,6 +1638,8 @@ mm"</string>
     <string name="theme_no">Não</string>
     <string name="theme_on_the_phone_alert">Não é possível reproduzir durante chamadas</string>
     <string name="theme_recommend">Temas similares</string>
+    <string name="theme_resource_widget_delete">Espaço insuficiente no Ecrã inicial</string>
+    <string name="theme_resource_widget_removed">Este widget não está mais disponível</string>
     <string name="theme_select_others">Navegar</string>
     <string name="theme_setting">Definições</string>
     <string name="theme_user_agreement_allow">Concordar</string>
@@ -1579,6 +1688,12 @@ mm"</string>
     <string name="title_system_audio_resource">Toques do sistema</string>
     <string name="title_system_wallpaper_resource">Papéis de parede do sistema</string>
     <string name="to_activate_the_account">Ative a sua Conta Xiaomi agora</string>
+    <string name="toast_day_max_enhance">Não é possível aprimorar mais fotos hoje</string>
+    <string name="toast_day_max_enhance1">Não é possível aprimorar mais fotos hoje. Volte amanhã!</string>
+    <string name="toast_day_max_filter">Não é mais possível usar filtros de IA hoje</string>
+    <string name="toast_day_max_filter1">Não é possível usar mais Filtros de IA hoje. Volte amanhã!</string>
+    <string name="toast_day_max_photo">Não é mais possível usar o retrato IA hoje</string>
+    <string name="toast_day_max_photo1">Não é possível usar mais o Retrato IA hoje. Volte amanhã!</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>
     <string name="top">Popular</string>
@@ -1610,6 +1725,7 @@ mm"</string>
     <string name="update_push_title">O seu tema tem uma nova versão disponível</string>
     <string name="update_title">NOVA ATUALIZAÇÃO DISPONÍVEL</string>
     <string name="updating_the_app_tip">A atualizar…</string>
+    <string name="upload_images">Carregar fotografias</string>
     <string name="used_wallpaper">Utilizado anteriormente</string>
     <string name="user_agree">Aceitar</string>
     <string name="user_attention_new_theme">Novo conteúdo de %s</string>
@@ -1650,6 +1766,7 @@ Pode retirar o seu consentimento à Política de Privacidade da aplicação Tema
     <string name="wallpaper_delete_all_title">Eliminar itens</string>
     <string name="wallpaper_desc">Papéis de parede dão ao seu dispositivo um novo aspeto.</string>
     <string name="wallpaper_detail_load_page_no_network">Ligue-se à rede e tente novamente.</string>
+    <string name="wallpaper_effect_disable_of_depth_video_toast">Não é possível definir efeitos para o Ecrã inicial quando o efeito de profundidade de vídeo está ligado para o Ecrã de bloqueio.</string>
     <string name="wallpaper_group_black_gobi_title">Areias de Gobi</string>
     <string name="wallpaper_group_color_move_title">Cores líquidas</string>
     <string name="wallpaper_group_concerto_title">Concerto</string>
@@ -1670,6 +1787,7 @@ Pode retirar o seu consentimento à Política de Privacidade da aplicação Tema
     <string name="wallpaper_set_as_both">Definir para ambos</string>
     <string name="wallpaper_set_as_desktop">Definir como Ecrã inicial</string>
     <string name="wallpaper_set_as_lockscreen">Definir como Ecrã de bloqueio</string>
+    <string name="wallpaper_set_as_lockscreen_personal_wallpaper_carousel">Adicione às suas fotos selecionadas no Carrossel de Papéis de parede</string>
     <string name="wallpaper_settings">Definições do papel de parede</string>
     <string name="wallpaper_settings_loading_text">Um momento…</string>
     <string name="wallpaper_settings_no_history">Sem histórico</string>

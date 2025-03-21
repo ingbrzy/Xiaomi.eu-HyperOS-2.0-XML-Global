@@ -857,6 +857,7 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="bl_no_block_call">Engellenen arama yok.</string>
     <string name="bl_no_block_sms">Engelli mesaj yok.</string>
     <string name="blacklist_prefix_add_hint">Bu ön ek ile başlayan numaraların tamamını engelle</string>
+    <string name="blacklist_prefix_add_hint_international">Belirli bir numarayla başlayan aramaları engelle</string>
     <string name="block_message_number">Mesajlar: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="block_phone_number">Aramalar: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="blur_clipboard1">Pano koruması</string>
@@ -2114,7 +2115,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_msg_completely_shielded_summary">Gizle</string>
     <string name="gb_msg_not_shielded_summary">Göster</string>
     <string name="gb_msg_quickly_answer">Hızlı yanıtlara izin ver</string>
-    <string name="gb_msg_quickly_answer_summary">Hızlı yanıt</string>
+    <string name="gb_msg_quickly_answer_summary">Hızlı yanıtlar</string>
     <string name="gb_msg_transparent_dispaly">Şeffaf arka planlı bildirimler</string>
     <string name="gb_msg_transparent_dispaly_summary">Şeffaf</string>
     <string name="gb_network_status_bad">Bağlantı hatası meydana geldi.</string>
@@ -2859,7 +2860,7 @@ Cihazınız şimdi %s daha hızlı."</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
-    <string name="menu_text_optimize_manage">Hızı artır</string>
+    <string name="menu_text_optimize_manage">Hızı arttır</string>
     <string name="menu_text_optimize_manage_1">Hızı arttır</string>
     <string name="menu_text_power_manager">Pil</string>
     <string name="menu_text_power_percent_title">%s</string>
@@ -3302,7 +3303,7 @@ Yönlendiriciniz ile bağlantı için kullandığınız Ethernet kablosunu deği
     <string name="operator_number_unicom">10010</string>
     <string name="opt_antivirus_scan_antivirus_notification_summary">Kötü amaçlı uygulamalar kullanmak güvenlik riskleri oluşturur</string>
     <string name="opt_antivirus_scan_single_antivirus_notification_title">%s kötü amaçlı bir uygulama olabilir</string>
-    <string name="optimize_manage_title">Hızı artır</string>
+    <string name="optimize_manage_title">Hızı arttır</string>
     <string name="optimize_result_available_memory_info">Kullanılabilir bellek</string>
     <string name="optimize_result_button_cloudspace">Daha fazla cloud depolama alanı al</string>
     <string name="optimize_result_button_consume_power_analysis">Pili tara</string>
@@ -4868,7 +4869,7 @@ kapatılıyor"</string>
     <string name="sp_sim_protect_summary">SIM bilgilerini koruyun</string>
     <string name="sp_sim_protect_title">SIM güvenliği</string>
     <string name="sp_sos_summary">Tehlikedeyken yardım alın</string>
-    <string name="sp_sos_title">Acil Durum Çağrısı</string>
+    <string name="sp_sos_title">Acil durum çağrısı</string>
     <string name="sp_system_security_title">Sistem güvenliği</string>
     <string name="sp_toast_removed_from_sign_white_list">İstisnalardan kaldırıldı. Öge bir sonraki tarama işleminde taranacaktır.</string>
     <string name="sp_website_scan_summary">Güvenli internet tarayıcısı</string>
@@ -5021,11 +5022,11 @@ kapatılıyor"</string>
     <string name="st_sub_title_whiteblack_list_group">Engellenenler listesi</string>
     <string name="st_sum_call_wait">Dışarıda mesajınız aynı zamanda gelen aramalar için meşgul tonu olarak çalınacaktır.</string>
     <string name="st_summary_blacklist_numbers">Belirli numara ve alanlardan gelen arama ve mesajları engelle</string>
-    <string name="st_summary_blacklist_numbers_international">Belirli numaralardan gelen arama ve mesajları engelle</string>
+    <string name="st_summary_blacklist_numbers_international">Numaraya veya ön eke göre aramaları engelle</string>
     <string name="st_summary_keywords_blacklist">Mesajları engellemek için anahtar kelimeler girin</string>
     <string name="st_summary_special_numbers">İşaretlenmiş telefon numaralarını engelleyin</string>
     <string name="st_summary_whitelist_numbers">Özel numara ve alanlardan gelen arama ve mesajlara izin verin</string>
-    <string name="st_summary_whitelist_numbers_international">Belirli numaralardan gelen arama ve mesajlara izin ver</string>
+    <string name="st_summary_whitelist_numbers_international">Numaraya veya ön eke göre aramalara izin ver</string>
     <string name="st_tab_title">%1$s (SIM %2$d)</string>
     <string name="st_tab_title_esim">%1$s (eSIM)</string>
     <string name="st_title_addblacklist">Engellenenler listesine ekle</string>
@@ -5328,7 +5329,7 @@ Biçimlendirme ^2daki var olan içeriği silecektir. İçerik kaybını önlemek
     <string name="system_permission_perm_read_numbers">Telefon numaralarını oku</string>
     <string name="system_permission_perm_send_mms">MMS gönder</string>
     <string name="system_tool_green_guard">Aile Koruması</string>
-    <string name="system_tool_sos">Acil Durum Çağrısı</string>
+    <string name="system_tool_sos">Acil durum çağrısı</string>
     <string name="tab_blacklist">Engellenenler listesi</string>
     <string name="tab_block_log_unKnowNumber">Özel numara</string>
     <string name="tab_call">Aramalar</string>
@@ -5872,6 +5873,7 @@ Pil tasarrufu veya Ultra pil tasarrufu açık olduğunda bu özellik çalışmaz
     <string name="wednesday_short">Çrş</string>
     <string name="wednesday_shortest">Çrş</string>
     <string name="whitelist_prefix_add_hint">Ön eki olan numaraların tamamını istisnalara ekle</string>
+    <string name="whitelist_prefix_add_hint_international">Belirli bir numarayla başlayan aramalara izin ver</string>
     <string name="wifi_danger_dialog_messgae">Mevcut Wi-Fi ağı güvenlik riskleri oluşturabilir. Dikkatli kullanın.</string>
     <string name="wifi_danger_dialog_tips">Wi-Fi güvenliğini, Güvenlik > Güvenlik taraması > Ayarlar > Wi-Fi menüsünden yönetebilirsiniz.</string>
     <string name="wifi_danger_dialog_title">Wi-Fi ağı güvenli değil</string>

@@ -33,6 +33,10 @@
     <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
     <string name="abc_toolbar_collapse_description">Samenvouwen</string>
     <string name="about_ai_wallpaper">Over</string>
+    <string name="accessibility_sliding_button_state_description_off">uit</string>
+    <string name="accessibility_sliding_button_state_description_on">aan</string>
+    <string name="accessibility_tab_state_description_unselect">Niet geselecteerd</string>
+    <string name="accessibility_tab_statedesc_unselect">Niet geselecteerd</string>
     <string name="accessibiliy_description_content_account">Profiel</string>
     <string name="accessibiliy_description_content_ad">Advertentie</string>
     <string name="accessibiliy_description_content_add_resource">Items toevoegen</string>
@@ -56,6 +60,20 @@
     <string name="agreement_desc">Gebruikersovereenkomst (vereist)</string>
     <string name="ai_apply_wallpaper">Toepassen</string>
     <string name="ai_cannot_scrolling_with_the_screen">Kan scrollen niet inschakelen voor deze achtergrond</string>
+    <string name="ai_clone_btn">Maak een avatar</string>
+    <string name="ai_clone_description">"Upload een paar foto's van uzelf, zodat de AI een portret van u kan genereren."</string>
+    <string name="ai_clone_example">Fotovoorbeelden</string>
+    <string name="ai_clone_multiple1">Solo, foto van het hele gezicht</string>
+    <string name="ai_clone_multiple2">Meerdere scènes en hoeken</string>
+    <string name="ai_clone_multiple3">Gezicht is niet duidelijk</string>
+    <string name="ai_clone_title">"Foto's uploaden"</string>
+    <string name="ai_clone_user_description">Upload minimaal %1$d duidelijke foto van de voorkant als referentie voor de AI.</string>
+    <string name="ai_clone_user_title">"Upload %1$d–%2$d foto's van uzelf"</string>
+    <string name="ai_creativity_all_album_images">Alle albums</string>
+    <string name="ai_creativity_local_album_pictures">Afbeelding uit Galerij</string>
+    <string name="ai_creativity_my_doppelganger">Mijn avatars</string>
+    <string name="ai_creativity_switch_gender">Geslacht selecteren</string>
+    <string name="ai_creativity_template">Sjabloon</string>
     <string name="ai_delete_wallpaper">Verwijderen</string>
     <string name="ai_estimated_two_three_minutes" formatted="false">Dit duurt ongeveer %1d–%2d minuten</string>
     <string name="ai_generate">AI-gegenereerd</string>
@@ -192,6 +210,7 @@
     <string name="backup_theme_name">Thema backup</string>
     <string name="backup_theme_progress_message">Bezig aan Back-up…</string>
     <string name="backup_theme_success_message">Uw huidige thema instellingen zijn gebackupt.</string>
+    <string name="banner_image">Bannerafbeelding</string>
     <string name="beep">Notificatiegeluid</string>
     <string name="both_all_apply_failured">Kan achtergrond niet toepassen</string>
     <string name="both_all_apply_success">Achtergrond toegepast</string>
@@ -202,6 +221,7 @@
     <string name="bottomsheet_drag_handle_clicked">Dubbelgetikt op handgreep voor slepen</string>
     <string name="bottomsheet_drag_handle_content_description">Handgreep voor slepen</string>
     <string name="browser_local_resource">Lokale bronnen</string>
+    <string name="btn_go_free">Ontgrendelen</string>
     <string name="call_notification_answer_action">Beantwoorden</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Weigeren</string>
@@ -238,7 +258,12 @@
     <string name="close_drawer">Navigatiemenu sluiten</string>
     <string name="close_sheet">Blad sluiten</string>
     <string name="columbus_ad_flag_text">Advertentie</string>
+    <string name="columbus_reward_style_access">Meer informatie</string>
+    <string name="columbus_reward_style_close_cancel">Afsluiten</string>
+    <string name="columbus_reward_style_close_desc">Beëindig het bekijken van de video om een beloning te krijgen. Blijf kijken?</string>
+    <string name="columbus_reward_style_speed_confirm">Doorgaan</string>
     <string name="columbus_skip_ad">Overslaan</string>
+    <string name="columbus_skip_ad_time">Overslaan (%d)</string>
     <string name="come_and_choose_wallpaper">Kies uit duizenden geweldige achtergronden</string>
     <string name="common_google_play_services_enable_button">Aanzetten</string>
     <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
@@ -268,8 +293,24 @@
     <string name="composite_first">Standaard</string>
     <string name="config_success">Succesvol toegepast</string>
     <string name="connect_to_view_more">Maak verbinding met het internet om meer te bekijken</string>
+    <string name="continue_btn">Doorgaan</string>
     <string name="copy">Kopiëren</string>
     <string name="copy_toast_msg">Link naar klembord gekopieerd</string>
+    <string name="creator_detail">Gefeliciteerd!</string>
+    <string name="creator_detail_enhance_tips">Dit kan een paar minuten duren. Sluit de app niet.</string>
+    <string name="creator_detail_enhance_tips1">Foto verbeteren…</string>
+    <string name="creator_detail_message">Bekijk resultaten in Mijn creaties</string>
+    <string name="creator_detail_regenerate">Opnieuw proberen</string>
+    <string name="creator_detail_save">Opslaan</string>
+    <string name="creator_detail_save_all">Alles opslaan</string>
+    <string name="creator_failed_1">Er is een fout opgetreden. Probeer het opnieuw.</string>
+    <string name="creator_failed_2">Dit proces is verlopen. Wacht een minuut of twee en probeer het opnieuw.</string>
+    <string name="creator_failed_network">Er is een netwerkfout opgetreden. Probeer het opnieuw.</string>
+    <string name="creator_failed_retry">Opnieuw proberen</string>
+    <string name="creator_failed_title">Kon niet uploaden</string>
+    <string name="creator_failed_user_photo">"Kan geselecteerde foto's niet uploaden. Selecteer andere foto's en probeer het opnieuw."</string>
+    <string name="creator_progress">Genereren…</string>
+    <string name="creator_succ_message">"Succesvol gegenereerd. Controleer het resultaat in Thema's > AI-creativiteit > Mijn creaties."</string>
     <string name="current_using_desktop_wallpaper_text">Startscherm</string>
     <string name="current_using_lockscreen_wallpaper_text">Vergrendelscherm</string>
     <string name="current_version_incompatible">Niet compatibel</string>
@@ -284,6 +325,7 @@
     <string name="de_super_wp_land_position_default_des">Selecteer weergave</string>
     <string name="default_error_message">Ongeldige invoer</string>
     <string name="default_popup_window_title">Pop-upvenster</string>
+    <string name="delete_image">"Foto's verwijderen"</string>
     <string name="deleting">Verwijderen…</string>
     <string name="delivers_fresh_content_and_design_daily">Elke dag nieuwe ontwerpen</string>
     <string name="description_author">Auteur</string>
@@ -294,11 +336,17 @@
     <string name="description_uploadtime">Update</string>
     <string name="description_version">Versie</string>
     <string name="description_version_szie">Versie: %1$s Grootte: %2$s</string>
+    <string name="designer_page_latest_scene">Laatste populaire items</string>
     <string name="desktop_wallpaper">Startscherm</string>
     <string name="detail_author_attention_head">Bekijk enkele van deze ontwerpers</string>
     <string name="detail_recommend_title">Misschien vindt u deze ook leuk</string>
     <string name="dev_options">Ontwikkelaarsopties</string>
     <string name="dev_options_summary">Web hulpmiddelen</string>
+    <string name="dialog_confirm_cancel">Annuleren</string>
+    <string name="dialog_confirm_confirm">Afsluiten</string>
+    <string name="dialog_confirm_description">Items worden nu gegenereerd. U kunt de resultaten bekijken in Mijn creaties. Nu afsluiten?</string>
+    <string name="dialog_confirm_description1">"Genereren. Controleer het resultaat in Thema's > AI-creativiteit > Mijn creaties."</string>
+    <string name="dialog_confirm_title">Nu afsluiten?</string>
     <string name="discover_your_favorites">Ontdek uw favorieten</string>
     <string name="disk_space_Insufficient">Onvoldoende opslagruimte</string>
     <string name="download_failed">Kon niet downloaden</string>
@@ -476,6 +524,12 @@
     <string name="friday_shortest">Vr</string>
     <string name="function_introduction">Introductie</string>
     <string name="gallery">Galerij</string>
+    <string name="gender_selected_continue">OK</string>
+    <string name="gender_selected_female">Vrouw</string>
+    <string name="gender_selected_male">Man</string>
+    <string name="gender_selected_message">Selecteer het geslacht om gepersonaliseerde sjabloonaanbevelingen te ontvangen.</string>
+    <string name="gender_selected_other">Overige</string>
+    <string name="gender_selected_title">AI-profiel</string>
     <string name="go_upgrade_push">Bijwerken</string>
     <string name="health_chart_calories_schedule_format_desc">%1$s, %2$s</string>
     <string name="health_chart_calories_unit">Calorieën</string>
@@ -497,6 +551,14 @@
     <string name="hint_email_address">Voer een e-mailadres in</string>
     <string name="home_apply_failured">Kan Startscherm achtergrond niet toepassen</string>
     <string name="home_apply_success">Startscherm achtergrond toegepast</string>
+    <string name="home_bar_ai_filters">AI-filters</string>
+    <string name="home_bar_ai_photo">AI-portret</string>
+    <string name="home_bar_enhance">Verbeteren</string>
+    <string name="home_tab_selected">Geselecteerd</string>
+    <string name="home_tab_unselected">Niet geselecteerd</string>
+    <string name="home_vh_enhance_permission_btn">Instellingen</string>
+    <string name="home_vh_enhance_permission_tips">"Verleen de vereiste toestemmingen om uw foto's te kunnen verbeteren."</string>
+    <string name="home_vh_enhance_permission_title">"Toegang tot foto's toestaan"</string>
     <string name="hot_first">Populairste eerst</string>
     <string name="humidity_format">Vochtigheid %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -785,6 +847,14 @@
     <string name="message_sim_two">SIM %d bericht</string>
     <string name="mi_wallpaper">MIUI achtergrond</string>
     <string name="midnight">Nacht</string>
+    <string name="mine_ai_clone_create">Aanmaken</string>
+    <string name="mine_ai_clone_retry">Resetten</string>
+    <string name="mine_ai_clone_retry_message">"Om deze avatar opnieuw in te stellen, moeten er nieuwe foto's worden geüpload"</string>
+    <string name="mine_ai_clone_time">Gemaakt op dd-MM-yyyy</string>
+    <string name="mine_ai_clone_title">Avatars worden gebruikt om AI-portretten te maken</string>
+    <string name="mine_ai_manager_clone">Avatars beheren</string>
+    <string name="mine_creator">Mijn creaties</string>
+    <string name="mine_page_my_avatar">Profielfoto</string>
     <string name="mine_subscribed_wallpaper">Geabonneerde achtergronden</string>
     <string name="miui_clock_city_name_local">Lokaal</string>
     <string name="miui_clock_city_name_second">Tweede klok</string>
@@ -831,6 +901,10 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Geselecteerd</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bewerkingsmodus afsluiten</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nieuw bericht</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bewerkingsmodus starten</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Alles deselecteren</string>
     <string name="miuix_appcompat_action_mode_select_all">Alles selecteren</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selecteer items</string>
@@ -846,6 +920,17 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Alles selecteren</string>
     <string name="miuix_appcompat_select_all_description">Alles selecteren</string>
     <string name="miuix_appcompat_select_item">Selecteer items</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Scroll omlaag om te sluiten</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Scroll omlaag om over te schakelen naar de halve schermmodus</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Scroll omlaag om te minimaliseren</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Scroll omhoog om over te schakelen naar de halve schermmodus</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Scroll omhoog om te maximaliseren</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Halve scherm</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Gemaximaliseerd</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Geminimaliseerd</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Overschakelen naar halve schermmodus</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Overschakelen naar gemaximaliseerde modus</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Overschakelen naar geminimaliseerde modus</string>
     <string name="miuix_compat_contact">Contacten</string>
     <string name="miuix_compat_dialog_button">Begrepen</string>
     <string name="miuix_compat_dialog_cancel">Annuleren</string>
@@ -854,6 +939,7 @@ mm"</string>
     <string name="miuix_compat_dialog_ok">OК</string>
     <string name="miuix_compat_dialog_update_title">Compatibiliteitsproblemen</string>
     <string name="miuix_compat_mms">Berichten</string>
+    <string name="miuix_progressbar_loading">laden</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Sleep omlaag om te vernieuwen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Succesvol vernieuwd</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Vernieuwen…</string>
@@ -862,6 +948,7 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Dat is alles voor nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Een ogenblik geduld…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kon items niet laden</string>
+    <string name="miuix_show_password">Wachtwoord tonen</string>
     <string name="mix_global">Systeem</string>
     <string name="mix_home">Startscherm</string>
     <string name="mix_icon">Iconen</string>
@@ -984,6 +1071,7 @@ mm"</string>
     <string name="new_ringtone">Nieuwe beltonen</string>
     <string name="new_update_available">Update beschikbaar</string>
     <string name="night">Avond</string>
+    <string name="no_creation_yet">Nog niets hier</string>
     <string name="no_data">Kan geen verbinding maken met het netwerk</string>
     <string name="no_download_task">Nog niets om te weergeven</string>
     <string name="no_network">Kan geen verbinding maken met het netwerk</string>
@@ -1005,10 +1093,12 @@ mm"</string>
     <string name="notifications_permission_title">App toestaan om je meldingen te sturen?</string>
     <string name="notify_style">Meldingseffecten</string>
     <string name="off">Uit</string>
-    <string name="offline_notification_text">Tik om advertentie te openen</string>
-    <string name="offline_notification_title">De advertentie bekijken die je hebt opgeslagen toen je offline was</string>
+    <string name="offline_dialog_image_description">Icoon</string>
+    <string name="offline_dialog_text">"Bedankt voor je interesse.
+We delen meer zodra je weer online bent."</string>
+    <string name="offline_notification_title">Je bent weer online. Laten we verder gaan waar we waren gebleven.</string>
+    <string name="offline_notification_title_with_advertiser">Je bent weer online. Ga verder met leren over %s.</string>
     <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_confirmation">Je krijgt een melding met de link als je weer online bent</string>
     <string name="offline_opt_in_decline">Nee, bedankt</string>
     <string name="offline_opt_in_message">We sturen je een melding met een link naar de site van de adverteerder.</string>
     <string name="offline_opt_in_title">Advertentie openen als je weer online bent</string>
@@ -1067,6 +1157,7 @@ mm"</string>
     <string name="present_local_themes_subtitle">Pas uw apparaat aan</string>
     <string name="present_official_themes">Onze favorieten</string>
     <string name="present_online_themes">"Krijg meer online thema's"</string>
+    <string name="preview_image">Voorbeeld</string>
     <string name="price_for_automatic_renewal">Verleng automatisch voor %1$s</string>
     <string name="privacy_desc">Privacybeleid (vereist)</string>
     <string name="privacy_simple_content">Schakel gepersonaliseerde aanbevelingen in om inhoud en producten te krijgen die zijn afgestemd op uw interesses.</string>
@@ -1139,6 +1230,7 @@ mm"</string>
     <string name="resource_category">Categorie</string>
     <string name="resource_clear_search_history">Zoekgeschiedenis wissen</string>
     <string name="resource_clear_search_history_dialog">Volledige zoekgeschiedenis wissen?</string>
+    <string name="resource_component_widget">Widgets</string>
     <string name="resource_continue">Volgende</string>
     <string name="resource_current_using_title">Huidige bronnen</string>
     <string name="resource_currently_applied">Toegepast</string>
@@ -1296,6 +1388,11 @@ mm"</string>
     <string name="resource_waiting_download">In afwachting</string>
     <string name="resource_waiting_pause">Gepauzeerd</string>
     <string name="resource_wallpaper_download">Achtergrond downloaden</string>
+    <string name="resource_widget_add">Toevoegen</string>
+    <string name="resource_widget_add_successful">Succesvol toegevoegd</string>
+    <string name="resource_widget_confirm_deletion">Dit item nu verwijderen?</string>
+    <string name="resource_widget_fail_to_add">Kon niet toevoegen</string>
+    <string name="resource_widget_mine">Mijn widgets</string>
     <string name="restore_last_theme_desc">Sommige elementen van het eerder gebruikte thema zijn mogelijk niet compatibel met de nieuwe systeemversie. Incompatibele elementen worden vervangen door standaardopties.</string>
     <string name="restore_last_theme_title">Origineel thema herstellen</string>
     <string name="restore_push_content">Ga terug naar het thema dat u voor de update gebruikte</string>
@@ -1330,6 +1427,8 @@ mm"</string>
     <string name="saturday">Zaterdag</string>
     <string name="saturday_short">Za</string>
     <string name="saturday_shortest">Za</string>
+    <string name="save_error">Kon niet opslaan</string>
+    <string name="save_succ">Succesvol opgeslagen</string>
     <string name="scroll_switch">Veeg om tussen items te schakelen</string>
     <string name="sdcard_not_mounted_dialog_message">"SD-kaart nu plaatsen.
 "</string>
@@ -1338,6 +1437,8 @@ mm"</string>
     <string name="search_hint_header_text">Populaire woorden</string>
     <string name="search_menu_title">Zoeken</string>
     <string name="search_sort">Sorteren op</string>
+    <string name="search_update_guide_bubble">Nieuw</string>
+    <string name="search_update_guide_text">Ervaar geheel nieuwe zoekfuncties</string>
     <string name="searchview_clear_text_content_description">Tekst wissen</string>
     <string name="searchview_navigation_content_description">Terug</string>
     <string name="select_all">Alles selecteren</string>
@@ -1346,7 +1447,9 @@ mm"</string>
     <string name="send">Verzenden</string>
     <string name="service_expiration_date">Geldig tot %1$s</string>
     <string name="set_color_ring_back_tone">Stel een aangepaste terugbeltoon in</string>
+    <string name="setting_ai">AI-creativiteit</string>
     <string name="settings">Instellingen</string>
+    <string name="settings_wallpaper_preview">Achtergrondvoorbeeld</string>
     <string name="shortcut_add">Toevoegen</string>
     <string name="shortcut_cancel">Nee, bedankt</string>
     <string name="shortcut_message">Voeg een Startscherm snelkoppeling toe!</string>
@@ -1356,6 +1459,10 @@ mm"</string>
     <string name="show_incompatible_font">Incompatibele lettertypen weergeven</string>
     <string name="show_incompatible_theme">"Incompatibele thema's weergeven"</string>
     <string name="show_incompatible_wallpaper">Incompatibele achtergronden weergeven</string>
+    <string name="show_reward_video_is_not_unlock">Bekijk de advertentie om het thema te ontgrendelen</string>
+    <string name="show_reward_video_loading">Advertentie laden…</string>
+    <string name="show_reward_video_unavailable">Advertentie kon niet worden geladen. Wacht een minuut of twee en probeer het opnieuw.</string>
+    <string name="show_reward_video_unlock">Thema succesvol ontgrendeld</string>
     <string name="side_sheet_accessibility_pane_title">Zijblad</string>
     <string name="sim_one">SIM %d</string>
     <string name="sim_two">SIM %d</string>
@@ -1531,6 +1638,8 @@ mm"</string>
     <string name="theme_no">Nee</string>
     <string name="theme_on_the_phone_alert">Kan niet afspelen tijdens oproepen</string>
     <string name="theme_recommend">"Vergelijkbare thema's"</string>
+    <string name="theme_resource_widget_delete">Onvoldoende ruimte op het Startscherm</string>
+    <string name="theme_resource_widget_removed">Deze widget is niet langer beschikbaar</string>
     <string name="theme_select_others">Bladeren</string>
     <string name="theme_setting">Instellingen</string>
     <string name="theme_user_agreement_allow">Akkoord</string>
@@ -1579,6 +1688,12 @@ mm"</string>
     <string name="title_system_audio_resource">Systeem beltonen</string>
     <string name="title_system_wallpaper_resource">Systeemachtergronden</string>
     <string name="to_activate_the_account">Activeer uw Xiaomi Account nu</string>
+    <string name="toast_day_max_enhance">"Kan vandaag niet meer foto's verbeteren"</string>
+    <string name="toast_day_max_enhance1">"Kan vandaag niet meer foto's verbeteren. Kom morgen terug!"</string>
+    <string name="toast_day_max_filter">Kan vandaag geen AI-filters meer gebruiken</string>
+    <string name="toast_day_max_filter1">Kan vandaag geen AI-filters meer gebruiken. Kom morgen terug!</string>
+    <string name="toast_day_max_photo">Kan AI-portret vandaag niet meer gebruiken</string>
+    <string name="toast_day_max_photo1">Kan AI-portret vandaag niet meer gebruiken. Kom morgen terug!</string>
     <string name="today">Vandaag</string>
     <string name="tomorrow">Morgen</string>
     <string name="top">Populair</string>
@@ -1610,6 +1725,7 @@ mm"</string>
     <string name="update_push_title">Uw thema heeft een nieuwe versie beschikbaar</string>
     <string name="update_title">NIEUWE UPDATE BESCHIKBAAR</string>
     <string name="updating_the_app_tip">Bijwerken…</string>
+    <string name="upload_images">"Foto's uploaden"</string>
     <string name="used_wallpaper">Eerder gebruikt</string>
     <string name="user_agree">Akkoord</string>
     <string name="user_attention_new_theme">Nieuwe inhoud van %s</string>
@@ -1650,6 +1766,7 @@ U kunt uw toestemming voor het Privacybeleid van Thema's op elk moment in de Ins
     <string name="wallpaper_delete_all_title">Items verwijderen</string>
     <string name="wallpaper_desc">Achtergronden geven uw Startscherm een frisse uitstraling.</string>
     <string name="wallpaper_detail_load_page_no_network">Maak verbinding met het netwerk en probeer het opnieuw.</string>
+    <string name="wallpaper_effect_disable_of_depth_video_toast">Kan geen effecten instellen voor het Startscherm wanneer het videodiepte-effect is ingeschakeld voor het Vergrendelscherm</string>
     <string name="wallpaper_group_black_gobi_title">Zand van Gobi</string>
     <string name="wallpaper_group_color_move_title">Vloeibare kleuren</string>
     <string name="wallpaper_group_concerto_title">Concerto</string>
@@ -1670,6 +1787,7 @@ U kunt uw toestemming voor het Privacybeleid van Thema's op elk moment in de Ins
     <string name="wallpaper_set_as_both">Instellen als beide</string>
     <string name="wallpaper_set_as_desktop">Als Startscherm instellen</string>
     <string name="wallpaper_set_as_lockscreen">Als vergrendelscherm instellen</string>
+    <string name="wallpaper_set_as_lockscreen_personal_wallpaper_carousel">"Voeg toe aan uw geselecteerde foto's in Achtergrondcarrousel"</string>
     <string name="wallpaper_settings">Achtergrond instellingen</string>
     <string name="wallpaper_settings_loading_text">Een ogenblik geduld…</string>
     <string name="wallpaper_settings_no_history">Geen geschiedenis</string>
