@@ -857,6 +857,7 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="bl_no_block_call">Nu sunt apeluri blocate.</string>
     <string name="bl_no_block_sms">Nu există mesaje blocate.</string>
     <string name="blacklist_prefix_add_hint">Blochează toate numerele care încep cu acest prefix</string>
+    <string name="blacklist_prefix_add_hint_international">Blocarea apelurilor care încep cu un anumit număr</string>
     <string name="block_message_number">Mesaje: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="block_phone_number">Apeluri: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="blur_clipboard1">Protecție clipboard</string>
@@ -4288,7 +4289,7 @@ Economizator baterie ultra"</string>
     <string name="privacy_guide_permission_guide_text">Puteți primi o alertă în bara de stare atunci când aplicațiile vă accesează locația, înregistrează audio sau fac fotografii.</string>
     <string name="privacy_hide_other_permissions">Ascundeți alte permisiuni</string>
     <string name="privacy_informed_title">Statistici</string>
-    <string name="privacy_input_mode">Intrare sigură</string>
+    <string name="privacy_input_mode">Intrare securizată</string>
     <string name="privacy_input_model_tips">Intrarea securizată este activată. Tastatura dvs. nu poate afișa ferestre pop-up sau accesa contacte, informații despre locație și istoricul apelurilor.</string>
     <string name="privacy_lab_empty">Nicio funcție aici încă</string>
     <string name="privacy_location_info_summary">Gestionați accesul la locația dvs.</string>
@@ -4992,11 +4993,11 @@ Vă retrageți consimțământul acum?"</string>
     <string name="st_sub_title_whiteblack_list_group">Lista neagră</string>
     <string name="st_sum_call_wait">Mesajul nu sunt prezent va fi redat ca semnal ocupat pentru toate apelurile de intrare.</string>
     <string name="st_summary_blacklist_numbers">Blochează apelurile și mesajele de la numere specifice și zone</string>
-    <string name="st_summary_blacklist_numbers_international">Blochează apeluri și mesaje de la numere specifice</string>
+    <string name="st_summary_blacklist_numbers_international">Blocarea apelurilor în funcție de număr sau prefix</string>
     <string name="st_summary_keywords_blacklist">Adăugați cuvinte cheie pentru a bloca mesajele</string>
     <string name="st_summary_special_numbers">Blochează numerele de telefon raportate</string>
     <string name="st_summary_whitelist_numbers">Permite apeluri și mesaje de la numere specifice și zone</string>
-    <string name="st_summary_whitelist_numbers_international">Permite apeluri și mesaje de la numere specifice</string>
+    <string name="st_summary_whitelist_numbers_international">Permite apelurilor în funcție de număr sau prefix</string>
     <string name="st_tab_title">%1$s (SIM %2$d)</string>
     <string name="st_tab_title_esim">%1$s (eSIM)</string>
     <string name="st_title_addblacklist">Adaugă la lista neagră</string>
@@ -5678,7 +5679,7 @@ Datele rămase includ datele care au fost raportate din luna precedentă."</stri
     <string name="vb_dult_effect">3D LUT vision</string>
     <string name="vb_fps_settings">Rata de reîmprospătare automată</string>
     <string name="vb_fps_settings_tips">Această funcție ajustează rata de reîmprospătare a ecranului la rata cadrelor video, ceea ce economisește bateria și facilitează redarea. Activarea comentariilor flotante va dezactiva rata de reîmprospătare automată.</string>
-    <string name="vb_immerse_voice">Sunet captivant</string>
+    <string name="vb_immerse_voice">Sunet imersiv</string>
     <string name="vb_movie_mode">Mod teatru</string>
     <string name="vb_movie_power_hint">Modul teatru oferă o experiență de vizionare captivantă. Dispozitivul dvs. se poate încălzi și consuma mai multă energie.</string>
     <string name="vb_movie_power_hint_new">"Reglați efectele pentru o experiență de vizionare uimitoare.
@@ -5713,7 +5714,7 @@ Pornirea unuia îl va dezactiva pe celălalt."</string>
     <string name="vb_video_effects_3d">Sunet surround</string>
     <string name="vb_video_effects_3d_summary">Sporiți profunzimea reproducerii sunetului pentru căști și difuzoare</string>
     <string name="vb_video_effects_3d_summary_headset">Creșteți senzația de imersiune și de învăluire atunci când ascultați sunetul în căști</string>
-    <string name="vb_video_effects_3d_surround">Sunet virtual captivant</string>
+    <string name="vb_video_effects_3d_surround">Sunet imersiv virtual</string>
     <string name="vb_video_effects_display_style">Stil</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
     <string name="vb_video_effects_dolby_dialog_enhancer">Dialog îmbunătățit</string>
@@ -5721,7 +5722,7 @@ Pornirea unuia îl va dezactiva pe celălalt."</string>
     <string name="vb_video_effects_dolby_open">Dolby Atmos este pornit</string>
     <string name="vb_video_effects_dolby_stereo_expansion">Stereo extins</string>
     <string name="vb_video_effects_dolby_tips">Dialogul îmbunătățit și stereo extins nu vor funcționa când sunetul captivant este activat</string>
-    <string name="vb_video_effects_immersion_sound">Sunet captivant</string>
+    <string name="vb_video_effects_immersion_sound">Sunet imersiv</string>
     <string name="vb_video_effects_immersion_sound_summary">Experimentați imersiunea și senzația de spațiu atunci când sunetul suportat este redat prin căști</string>
     <string name="vb_video_effects_immersion_sound_summary_new">Experimentați imersiunea și senzația de spațiu atunci când este redat sunetul acceptat</string>
     <string name="vb_video_effects_liquid_summary">Îmbunătățiți claritatea dialogului în videoclipuri</string>
@@ -5843,6 +5844,7 @@ Această funcție nu va funcționa când Economizator baterie sau Economizator b
     <string name="wednesday_short">Mie</string>
     <string name="wednesday_shortest">Mie</string>
     <string name="whitelist_prefix_add_hint">Adaugă toate numerele cu acest prefix la excepții</string>
+    <string name="whitelist_prefix_add_hint_international">Permite apelurilor care încep cu un anumit număr</string>
     <string name="wifi_danger_dialog_messgae">Rețeaua Wi-Fi actuală poate prezenta riscuri de securitate. Folosiți-o cu prudență.</string>
     <string name="wifi_danger_dialog_tips">Puteți gestiona securitatea Wi-Fi în Securitate > Scanare de securitate > Setări > Wi-Fi.</string>
     <string name="wifi_danger_dialog_title">Rețeaua Wi-Fi nu este securizată</string>

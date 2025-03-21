@@ -33,6 +33,10 @@
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
     <string name="about_ai_wallpaper">Tietoja</string>
+    <string name="accessibility_sliding_button_state_description_off">pois päältä</string>
+    <string name="accessibility_sliding_button_state_description_on">päällä</string>
+    <string name="accessibility_tab_state_description_unselect">Ei valittu</string>
+    <string name="accessibility_tab_statedesc_unselect">Ei valittu</string>
     <string name="accessibiliy_description_content_account">Profiili</string>
     <string name="accessibiliy_description_content_ad">Mainos</string>
     <string name="accessibiliy_description_content_add_resource">Lisää kohteita</string>
@@ -56,6 +60,20 @@
     <string name="agreement_desc">Käyttäjäsopimus (pakollinen)</string>
     <string name="ai_apply_wallpaper">Aseta</string>
     <string name="ai_cannot_scrolling_with_the_screen">Vieritystä ei voi ottaa käyttöön tälle taustakuvalle</string>
+    <string name="ai_clone_btn">Luo hahmo</string>
+    <string name="ai_clone_description">Lataa muutama kuva itsestäsi auttaaksesi tekoälyä luomaan muotokuvasi.</string>
+    <string name="ai_clone_example">Esimerkkikuvat</string>
+    <string name="ai_clone_multiple1">Yksin, koko kasvokuva</string>
+    <string name="ai_clone_multiple2">Useita kohtauksia ja kuvakulmia</string>
+    <string name="ai_clone_multiple3">Kasvot eivät ole selkeät</string>
+    <string name="ai_clone_title">Lataa kuvia</string>
+    <string name="ai_clone_user_description">Lataa vähintään %1$d selkeä, edestä päin otettu kuva tekoälyn viitteeksi.</string>
+    <string name="ai_clone_user_title">Lataa %1$d–%2$d kuvaa itsestäsi</string>
+    <string name="ai_creativity_all_album_images">Kaikki albumit</string>
+    <string name="ai_creativity_local_album_pictures">Kuva Galleriasta</string>
+    <string name="ai_creativity_my_doppelganger">Omat avatarit</string>
+    <string name="ai_creativity_switch_gender">Valitse sukupuoli</string>
+    <string name="ai_creativity_template">Malli</string>
     <string name="ai_delete_wallpaper">Poista</string>
     <string name="ai_estimated_two_three_minutes" formatted="false">Tämä kestää noin %1d–%2d minuuttia</string>
     <string name="ai_generate">Tekoälyn luoma</string>
@@ -192,6 +210,7 @@
     <string name="backup_theme_name">Teeman varmuuskopiointi</string>
     <string name="backup_theme_progress_message">Varmuuskopioidaan…</string>
     <string name="backup_theme_success_message">Nykyisen teemasi asetukset on varmuuskopioitu.</string>
+    <string name="banner_image">Bannerikuva</string>
     <string name="beep">Ilmoitusääni</string>
     <string name="both_all_apply_failured">Taustakuvaa ei voi asettaa</string>
     <string name="both_all_apply_success">Taustakuva asetettu</string>
@@ -202,6 +221,7 @@
     <string name="bottomsheet_drag_handle_clicked">Vetokahvaa kaksoisnapautettu</string>
     <string name="bottomsheet_drag_handle_content_description">Vetokahva</string>
     <string name="browser_local_resource">Paikalliset resurssit</string>
+    <string name="btn_go_free">Avaa lukitus</string>
     <string name="call_notification_answer_action">Vastaa</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Hylkää</string>
@@ -238,7 +258,12 @@
     <string name="close_drawer">Sulje navigointivalikko</string>
     <string name="close_sheet">Sulje taulukko</string>
     <string name="columbus_ad_flag_text">MAINOS</string>
+    <string name="columbus_reward_style_access">Tutustu lisää</string>
+    <string name="columbus_reward_style_close_cancel">Poistu</string>
+    <string name="columbus_reward_style_close_desc">Katso video loppuun saadaksesi palkinnon. Jatketaanko katsomista?</string>
+    <string name="columbus_reward_style_speed_confirm">Jatka</string>
     <string name="columbus_skip_ad">Ohita</string>
+    <string name="columbus_skip_ad_time">Ohita (%d)</string>
     <string name="come_and_choose_wallpaper">Valitse tuhansista upeista taustakuvista</string>
     <string name="common_google_play_services_enable_button">Ota käyttöön</string>
     <string name="common_google_play_services_enable_text">%1$s ei toimi, ellet ota Google Play Palveluita käyttöön.</string>
@@ -268,8 +293,24 @@
     <string name="composite_first">Oletus</string>
     <string name="config_success">Sovellettu onnistuneesti</string>
     <string name="connect_to_view_more">Muodosta verkkoyhteys tarkastellaksesi lisää</string>
+    <string name="continue_btn">Jatka</string>
     <string name="copy">Kopioi</string>
     <string name="copy_toast_msg">Linkki kopioitu leikepöydälle</string>
+    <string name="creator_detail">Onnittelut!</string>
+    <string name="creator_detail_enhance_tips">Tämä voi kestää muutaman minuutin. Älä sulje sovellusta.</string>
+    <string name="creator_detail_enhance_tips1">Parannellaan kuvaa…</string>
+    <string name="creator_detail_message">Näytä tulokset Omissa luomuksissa</string>
+    <string name="creator_detail_regenerate">Yritä uudelleen</string>
+    <string name="creator_detail_save">Tallenna</string>
+    <string name="creator_detail_save_all">Tallenna kaikki</string>
+    <string name="creator_failed_1">Tapahtui virhe. Yritä uudelleen.</string>
+    <string name="creator_failed_2">Prosessi aikakatkaistiin. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="creator_failed_network">Tapahtui verkkovirhe. Yritä uudelleen.</string>
+    <string name="creator_failed_retry">Yritä uudelleen</string>
+    <string name="creator_failed_title">Ei voitu ladata</string>
+    <string name="creator_failed_user_photo">Valittuja kuvia ei voi ladata. Valitse eri valokuvat ja yritä uudelleen.</string>
+    <string name="creator_progress">Luodaan…</string>
+    <string name="creator_succ_message">Luotu onnistuneesti. Tarkastele lopputulosta kohdasta Teemat > Tekoälyluovuus > Omat luomukset.</string>
     <string name="current_using_desktop_wallpaper_text">Aloitusnäyttö</string>
     <string name="current_using_lockscreen_wallpaper_text">Lukitusnäyttö</string>
     <string name="current_version_incompatible">Ei yhteensopiva</string>
@@ -284,6 +325,7 @@
     <string name="de_super_wp_land_position_default_des">Valitse näkymä</string>
     <string name="default_error_message">Virheellinen syöte</string>
     <string name="default_popup_window_title">Ponnahdusikkuna</string>
+    <string name="delete_image">Poista kuvia</string>
     <string name="deleting">Poistetaan…</string>
     <string name="delivers_fresh_content_and_design_daily">Tuoreita designeja joka päivä</string>
     <string name="description_author">Tekijä</string>
@@ -294,11 +336,17 @@
     <string name="description_uploadtime">Päivitä</string>
     <string name="description_version">Versio</string>
     <string name="description_version_szie">Versio: %1$s Koko: %2$s</string>
+    <string name="designer_page_latest_scene">Uusimmat suositut kohteet</string>
     <string name="desktop_wallpaper">Aloitusnäyttö</string>
     <string name="detail_author_attention_head">Tutustu joihinkin näistä suunnittelijoista</string>
     <string name="detail_recommend_title">Saatat tykätä seuraavista</string>
     <string name="dev_options">Kehittäjäasetukset</string>
     <string name="dev_options_summary">Verkkolähteet</string>
+    <string name="dialog_confirm_cancel">Peruuta</string>
+    <string name="dialog_confirm_confirm">Poistu</string>
+    <string name="dialog_confirm_description">Kohteita luodaan nyt. Voit tarkastella tuloksia Omissa luomuksissa. Poistu nyt?</string>
+    <string name="dialog_confirm_description1">Luodaan. Tarkastele lopputulosta kohdasta Teemat > Tekoälyluovuus > Omat luomukset.</string>
+    <string name="dialog_confirm_title">Poistu nyt?</string>
     <string name="discover_your_favorites">Löydä suosikkisi</string>
     <string name="disk_space_Insufficient">Ei tarpeeksi tallennustilaa</string>
     <string name="download_failed">Ei voitu ladata</string>
@@ -476,6 +524,12 @@
     <string name="friday_shortest">Pe</string>
     <string name="function_introduction">Johdanto</string>
     <string name="gallery">Galleria</string>
+    <string name="gender_selected_continue">OK</string>
+    <string name="gender_selected_female">Nainen</string>
+    <string name="gender_selected_male">Mies</string>
+    <string name="gender_selected_message">Valitse sukupuoli saadaksesi henkilökohtaisia ​​mallisuosituksia.</string>
+    <string name="gender_selected_other">Muu</string>
+    <string name="gender_selected_title">Tekoälyprofiili</string>
     <string name="go_upgrade_push">Päivitä</string>
     <string name="health_chart_calories_schedule_format_desc">%1$s, %2$s</string>
     <string name="health_chart_calories_unit">Kalorit</string>
@@ -497,6 +551,14 @@
     <string name="hint_email_address">Syötä sähköpostiosoite</string>
     <string name="home_apply_failured">Aloitusnäytön taustakuvaa ei voi asettaa</string>
     <string name="home_apply_success">Aloitusnäytön taustakuva asetettu</string>
+    <string name="home_bar_ai_filters">Tekoälysuodattimet</string>
+    <string name="home_bar_ai_photo">Tekoälymuotokuva</string>
+    <string name="home_bar_enhance">Ehosta</string>
+    <string name="home_tab_selected">Valittu</string>
+    <string name="home_tab_unselected">Ei valittu</string>
+    <string name="home_vh_enhance_permission_btn">Asetukset</string>
+    <string name="home_vh_enhance_permission_tips">Myönnä tarvittavat luvat, jotta voit parantaa valokuviasi.</string>
+    <string name="home_vh_enhance_permission_title">Salli pääsy valokuviin</string>
     <string name="hot_first">Suosituimmat ensin</string>
     <string name="humidity_format">Ilmankosteus %s</string>
     <string name="humidity_format_with_unit">%s</string>
@@ -785,6 +847,14 @@
     <string name="message_sim_two">SIM-kortin %d viesti</string>
     <string name="mi_wallpaper">MIUI-taustakuva</string>
     <string name="midnight">Yö</string>
+    <string name="mine_ai_clone_create">Luo</string>
+    <string name="mine_ai_clone_retry">Nollaa</string>
+    <string name="mine_ai_clone_retry_message">Tämän hahmon nollaaminen edellyttää uusien kuvien lähettämistä</string>
+    <string name="mine_ai_clone_time">Luotu d.M.yyyy</string>
+    <string name="mine_ai_clone_title">Hahmoja käytetään tekoälymuotokuvien luomiseen</string>
+    <string name="mine_ai_manager_clone">Hallitse hahmoja</string>
+    <string name="mine_creator">Omat luomukset</string>
+    <string name="mine_page_my_avatar">Profiilikuva</string>
     <string name="mine_subscribed_wallpaper">Tilatut taustakuvat</string>
     <string name="miui_clock_city_name_local">Paikallinen</string>
     <string name="miui_clock_city_name_second">Toinen kello</string>
@@ -831,6 +901,10 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Valittu</string>
+    <string name="miuix_accessibility_title">Otsikko</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Poistu muokkaustilasta</string>
+    <string name="miuix_appcompat_accessibility_new_message">Uusi viesti</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Aloita muokkaustila</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -846,6 +920,17 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_select_all_description">Valitse kaikki</string>
     <string name="miuix_appcompat_select_item">Valitse kohteet</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Vieritä alas sulkeaksesi</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Vieritä alas siirtyäksesi puolikkaaseen näyttöön</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Vieritä alas minimoitaaksesi</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Vieritä ylös siirtyäksesi puolikkaaseen näyttöön</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Vieritä ylös maksimoitaaksesi</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Puolikas näyttö</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximoitu</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimoitu</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Vaihdettu puolikkaaseen näyttöön</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Vaihdettu maksimoituihin</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Vaihdettu minimoituihin</string>
     <string name="miuix_compat_contact">Yhteystiedot</string>
     <string name="miuix_compat_dialog_button">Selvä</string>
     <string name="miuix_compat_dialog_cancel">Peruuta</string>
@@ -854,6 +939,7 @@ mm"</string>
     <string name="miuix_compat_dialog_ok">OK</string>
     <string name="miuix_compat_dialog_update_title">Yhteensopivuusongelmat</string>
     <string name="miuix_compat_mms">Viestit</string>
+    <string name="miuix_progressbar_loading">Lataa</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Virkistetty onnistuneesti</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Virkistetään…</string>
@@ -862,6 +948,7 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Siinä kaikki tältä erää</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Hetki vain…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kohteita ei voitu ladata</string>
+    <string name="miuix_show_password">Näytä salasana</string>
     <string name="mix_global">Järjestelmä</string>
     <string name="mix_home">Aloitusnäyttö</string>
     <string name="mix_icon">Kuvakkeet</string>
@@ -984,6 +1071,7 @@ mm"</string>
     <string name="new_ringtone">Uudet soittoäänet</string>
     <string name="new_update_available">Päivitys saatavilla</string>
     <string name="night">Ilta</string>
+    <string name="no_creation_yet">Täällä ei ole vielä mitään</string>
     <string name="no_data">Ei voi yhdistää verkkoon</string>
     <string name="no_download_task">Täällä ei ole vielä mitään</string>
     <string name="no_network">Ei voi yhdistää verkkoon</string>
@@ -1005,10 +1093,12 @@ mm"</string>
     <string name="notifications_permission_title">Haluatko sallia sovellusilmoitukset?</string>
     <string name="notify_style">Ilmoitustehosteet</string>
     <string name="off">Pois</string>
-    <string name="offline_notification_text">Avaa mainos napauttamalla</string>
-    <string name="offline_notification_title">Katso mainos, jonka tallensit ollessasi offline-tilassa</string>
+    <string name="offline_dialog_image_description">Kuvake</string>
+    <string name="offline_dialog_text">"Kiitos kiinnostuksestasi.
+Saat lisätietoa, kun olet taas yhteydessä verkkoon."</string>
+    <string name="offline_notification_title">Olet taas yhteydessä verkkoon. Jatka siitä mihin jäit.</string>
+    <string name="offline_notification_title_with_advertiser">Olet taas yhteydessä verkkoon. Lue lisää: %s</string>
     <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_confirmation">Saat ilmoituksen, jossa on linkki, kun olet taas yhteydessä verkkoon</string>
     <string name="offline_opt_in_decline">Ei kiitos</string>
     <string name="offline_opt_in_message">Lähetämme sinulle ilmoituksen, jossa on linkki mainostajan sivustolle.</string>
     <string name="offline_opt_in_title">Avaa mainos, kun olet taas yhteydessä verkkoon.</string>
@@ -1067,6 +1157,7 @@ mm"</string>
     <string name="present_local_themes_subtitle">Mukauta laitteesi</string>
     <string name="present_official_themes">Poimintani</string>
     <string name="present_online_themes">Hanki lisää teemoja</string>
+    <string name="preview_image">Esikatselu</string>
     <string name="price_for_automatic_renewal">Uusi automaattisesti hintaan %1$s</string>
     <string name="privacy_desc">Tietosuojakäytäntö (pakollinen)</string>
     <string name="privacy_simple_content">Ota käyttöön henkilökohtaiset suositukset saadaksesi kiinnostuksen kohteidesi mukaista sisältöä ja tuotteita.</string>
@@ -1139,6 +1230,7 @@ mm"</string>
     <string name="resource_category">Kategoria</string>
     <string name="resource_clear_search_history">Tyhjennä selaushistoria</string>
     <string name="resource_clear_search_history_dialog">Tyhjennätäänkö koko hakuhistoria?</string>
+    <string name="resource_component_widget">Vinjetit</string>
     <string name="resource_continue">Seuraava</string>
     <string name="resource_current_using_title">Nykyiset resurssit</string>
     <string name="resource_currently_applied">Käytössä</string>
@@ -1296,6 +1388,11 @@ mm"</string>
     <string name="resource_waiting_download">Odotetaan</string>
     <string name="resource_waiting_pause">Keskeytetty</string>
     <string name="resource_wallpaper_download">Lataa taustakuva</string>
+    <string name="resource_widget_add">Lisää</string>
+    <string name="resource_widget_add_successful">Lisätty onnistuneesti</string>
+    <string name="resource_widget_confirm_deletion">Poistetaanko tämä kohde nyt?</string>
+    <string name="resource_widget_fail_to_add">Ei voitu lisätä</string>
+    <string name="resource_widget_mine">Minun vinjetit</string>
     <string name="restore_last_theme_desc">Jotkut aiemmin käytetyn teeman elementit eivät ehkä ole yhteensopivia uuden järjestelmäversion kanssa. Yhteensopimattomat elementit korvataan oletusasetuksilla.</string>
     <string name="restore_last_theme_title">Alkuperäisen teeman palauttaminen</string>
     <string name="restore_push_content">Palaa takaisin teemaasi, jota olet käyttänyt ennen päivitystä</string>
@@ -1330,6 +1427,8 @@ mm"</string>
     <string name="saturday">Lauantai</string>
     <string name="saturday_short">La</string>
     <string name="saturday_shortest">La</string>
+    <string name="save_error">Ei voitu tallentaa</string>
+    <string name="save_succ">Tallennettu onnistuneesti</string>
     <string name="scroll_switch">Pyyhkäise vaihtaaksesi kohteiden välillä</string>
     <string name="sdcard_not_mounted_dialog_message">"Aseta SD-kortti nyt.
 "</string>
@@ -1338,6 +1437,8 @@ mm"</string>
     <string name="search_hint_header_text">Suositut hakusanat</string>
     <string name="search_menu_title">Haku</string>
     <string name="search_sort">Järjestä</string>
+    <string name="search_update_guide_bubble">Uutta</string>
+    <string name="search_update_guide_text">Koe upouudet hakuominaisuudet</string>
     <string name="searchview_clear_text_content_description">Tyhjennä teksti</string>
     <string name="searchview_navigation_content_description">Takaisin</string>
     <string name="select_all">Valitse kaikki</string>
@@ -1346,7 +1447,9 @@ mm"</string>
     <string name="send">Lähetä</string>
     <string name="service_expiration_date">Voimassa %1$s asti</string>
     <string name="set_color_ring_back_tone">Aseta mukautettu takaisinsoittoääni</string>
+    <string name="setting_ai">Tekoälyluovuus</string>
     <string name="settings">Asetukset</string>
+    <string name="settings_wallpaper_preview">Taustakuvan esikatselu</string>
     <string name="shortcut_add">Lisää</string>
     <string name="shortcut_cancel">Ei kiitos</string>
     <string name="shortcut_message">Lisää aloitusnäytön pikavalinta!</string>
@@ -1356,6 +1459,10 @@ mm"</string>
     <string name="show_incompatible_font">Näytä yhteensopimattomat fontit</string>
     <string name="show_incompatible_theme">Näytä yhteensopimattomat teemat</string>
     <string name="show_incompatible_wallpaper">Näytä yhteensopimattomat taustakuvat</string>
+    <string name="show_reward_video_is_not_unlock">Lopeta mainoksen katsominen avataksesi teeman</string>
+    <string name="show_reward_video_loading">Ladataan mainosta…</string>
+    <string name="show_reward_video_unavailable">Mainosta ei voitu ladata. Odota pari minuuttia ja yritä uudelleen.</string>
+    <string name="show_reward_video_unlock">Teeman lukitus avattu onnistuneesti</string>
     <string name="side_sheet_accessibility_pane_title">Sivupalkki</string>
     <string name="sim_one">SIM %d</string>
     <string name="sim_two">SIM %d</string>
@@ -1531,6 +1638,8 @@ mm"</string>
     <string name="theme_no">Ei</string>
     <string name="theme_on_the_phone_alert">Ei voi toistaa puheluiden aikana</string>
     <string name="theme_recommend">Samankaltaiset teemat</string>
+    <string name="theme_resource_widget_delete">Aloitusnäytössä ei ole tarpeeksi tilaa</string>
+    <string name="theme_resource_widget_removed">Tämä vinjetti ei ole enää saatavilla</string>
     <string name="theme_select_others">Selaa</string>
     <string name="theme_setting">Asetukset</string>
     <string name="theme_user_agreement_allow">Hyväksy</string>
@@ -1579,6 +1688,12 @@ mm"</string>
     <string name="title_system_audio_resource">Järjestelmän soittoäänet</string>
     <string name="title_system_wallpaper_resource">Järjestelmän taustakuvat</string>
     <string name="to_activate_the_account">Aktivoi Xiaomi-tilisi nyt</string>
+    <string name="toast_day_max_enhance">Ei voi ehostaa kuvia tänään</string>
+    <string name="toast_day_max_enhance1">Ei voida parannella enempää kuvia tänään. Tule takaisin huomenna!</string>
+    <string name="toast_day_max_filter">Ei voi käyttää tekoälysuodattimia enää tänään</string>
+    <string name="toast_day_max_filter1">Ei voida käyttää tekoälysuodattimia enää tänään. Tule takaisin huomenna!</string>
+    <string name="toast_day_max_photo">Ei voi käyttää tekoälymuotokuvia enää tänään</string>
+    <string name="toast_day_max_photo1">Ei voida käyttää tekoälymuotokuvaa enää tänään. Tule takaisin huomenna!</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
     <string name="top">Suosittua</string>
@@ -1610,6 +1725,7 @@ mm"</string>
     <string name="update_push_title">Teemastasi on uusi versio saatavilla</string>
     <string name="update_title">UUSI PÄIVITYS SAATAVILLA</string>
     <string name="updating_the_app_tip">Päivitetään…</string>
+    <string name="upload_images">Lataa kuvia</string>
     <string name="used_wallpaper">Viimeksi käytetty</string>
     <string name="user_agree">Hyväksy</string>
     <string name="user_attention_new_theme">Uusi sisältö käyttäjältä %s</string>
@@ -1650,6 +1766,7 @@ Voit milloin tahansa peruuttaa suostumuksesi Teemat-tietosuojakäytäntöön koh
     <string name="wallpaper_delete_all_title">Poista kohteet</string>
     <string name="wallpaper_desc">Taustakuvat antavat aloitusnäytölle uuden ilmeen.</string>
     <string name="wallpaper_detail_load_page_no_network">Yhdistä verkkoon ja yritä uudelleen.</string>
+    <string name="wallpaper_effect_disable_of_depth_video_toast">Ei voi asettaa tehosteita aloitusnäytölle, kun videon syvyystehoste on käytössä lukitusnäytössä</string>
     <string name="wallpaper_group_black_gobi_title">Gobin hiekka</string>
     <string name="wallpaper_group_color_move_title">Nestemäiset värit</string>
     <string name="wallpaper_group_concerto_title">Konsertto</string>
@@ -1670,6 +1787,7 @@ Voit milloin tahansa peruuttaa suostumuksesi Teemat-tietosuojakäytäntöön koh
     <string name="wallpaper_set_as_both">Aseta molempiin</string>
     <string name="wallpaper_set_as_desktop">Aseta Aloitusnäytöksi</string>
     <string name="wallpaper_set_as_lockscreen">Aseta lukitusnäyttöön</string>
+    <string name="wallpaper_set_as_lockscreen_personal_wallpaper_carousel">Lisää valitsemiisi kuviin Taustakuvakarusellissa</string>
     <string name="wallpaper_settings">Taustakuva asetukset</string>
     <string name="wallpaper_settings_loading_text">Hetki vain…</string>
     <string name="wallpaper_settings_no_history">Ei historiaa</string>

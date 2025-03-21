@@ -857,6 +857,7 @@
     <string name="bl_no_block_call">Δεν υπάρχουν αποκλεισμένες κλήσεις.</string>
     <string name="bl_no_block_sms">Δεν υπάρχουν αποκλεισμένα μηνύματα.</string>
     <string name="blacklist_prefix_add_hint">Αποκλεισμός όλων των αριθμών που ξεκινούν με αυτό το πρόθεμα</string>
+    <string name="blacklist_prefix_add_hint_international">Αποκλεισμός κλήσεων που ξεκινούν με συγκεκριμένο αριθμό</string>
     <string name="block_message_number">Μηνύματα: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="block_phone_number">Κλήσεις: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="blur_clipboard1">Προστασία πρόχειρου</string>
@@ -1027,7 +1028,7 @@
     <string name="cd_back">Πίσω</string>
     <string name="cellular_data_auto_check">Αυτόματος έλεγχος</string>
     <string name="cellular_package_daily_input">Εισαγωγή</string>
-    <string name="cetus_invisible_mode">Ινκόγκνιτο</string>
+    <string name="cetus_invisible_mode">Ανώνυμη λειτουργία</string>
     <string name="cetus_invisible_mode_description_card">Αναστολή αδειών</string>
     <string name="cetus_invisible_mode_description_switch">Ενεργοποιήστε για αναστολή αδειών μικροφώνου, κάμερας και τοποθεσίας για όλες τις εφαρμογές</string>
     <string name="cetus_invisible_mode_warn_all">Είστε σε ανώνυμη λειτουργία. Οι άδειες μικροφώνου, κάμερας και υπηρεσίες τοποθεσίας έχουν απενεργοποιηθεί.</string>
@@ -3702,7 +3703,7 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="permission_instruction_notification_adjustment">Αυτή η άδεια επιτρέπει στις εφαρμογές να παρέχουν πιο εξατομικευμένες και διαφοροποιημένες προσαρμοστικές ειδοποιήσεις.</string>
     <string name="permission_instruction_ongoing_notification">Αυτή η άδεια επιτρέπει στις εφαρμογές να δημιουργούν μόνιμες συντομεύσεις στην Μπάρα ειδοποιήσεων, κάτι που μπορεί να σας εμποδίσει να δείτε τακτικές ειδοποιήσεις.</string>
     <string name="permission_instruction_package_usage_stat">Αυτή η άδεια επιτρέπει στις εφαρμογές να παρακολουθούν τη συμπεριφορά άλλων εφαρμογών στη συσκευή σας και να λαμβάνουν τις πληροφορίες που ενδέχεται να περιλαμβάνουν τις ρυθμίσεις της εταιρείας κινητής τηλεφωνίας και της γλώσσας σας. Αυτή είναι μια άδεια υψηλού κινδύνου. Η συσκευή σας ενδέχεται να παρακολουθείται και η ασφάλεια των προσωπικών σας στοιχείων ενδέχεται επίσης να κινδυνεύει.</string>
-    <string name="permission_instruction_picture_in_picture">Αυτή η άδεια επιτρέπει στις εφαρμογές να προβάλλουν αντικείμενα στην Αρχική οθόνη ή σε άλλες εφαρμογές μέσω διεπαφής από εικόνα σε εικόνα.</string>
+    <string name="permission_instruction_picture_in_picture">Αυτή η άδεια επιτρέπει στις εφαρμογές να προβάλλουν αντικείμενα στην Αρχική οθόνη ή σε άλλες εφαρμογές μέσω διεπαφής picture-in-picture.</string>
     <string name="permission_instruction_popup_window">Αυτή η άδεια επιτρέπει στις εφαρμογές να εμφανίζουν κυμαινόμενα παράθυρα σε οποιαδήποτε άλλη διεπαφή στη συσκευή σας, κάτι που μπορεί να επηρεάσει την κανονική χρήση άλλων εφαρμογών. Κακόβουλες εφαρμογές ενδέχεται να χρησιμοποιούν αυτήν την άδεια για να διαβάσουν ή να συλλέξουν ιδιωτικές πληροφορίες (π.χ. κωδικούς πρόσβασης) μέσω διαφανών αιωρουμένων παραθύρων.</string>
     <string name="permission_instruction_read_appplication_list">Αυτή η άδεια επιτρέπει στις εφαρμογές να έχουν πρόσβαση στις πληροφορίες σχετικά με όλες τις εφαρμογές που είναι εγκατεστημένες στη συσκευή σας. Κακόβουλες εφαρμογές ενδέχεται να χρησιμοποιούν αυτήν την άδεια για να αναλύσουν τις προσωπικές σας προτιμήσεις.</string>
     <string name="permission_instruction_read_calllog">Αυτή η άδεια επιτρέπει στις εφαρμογές να έχουν πρόσβαση στο ιστορικό κλήσεων.</string>
@@ -4995,11 +4996,11 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="st_sub_title_whiteblack_list_group">Λίστα αποκλεισμού</string>
     <string name="st_sum_call_wait">Το μήνυμα απουσίας σας θα αναπαράγεται και ως σήμα κατελειμμένου για εισερχόμενες κλήσεις.</string>
     <string name="st_summary_blacklist_numbers">Αποκλεισμός κλήσεων και μηνυμάτων από συγκεκριμένους αριθμούς και περιοχές</string>
-    <string name="st_summary_blacklist_numbers_international">Αποκλεισμός κλήσεων και μηνυμάτων από συγκεκριμένους αριθμούς</string>
+    <string name="st_summary_blacklist_numbers_international">Αποκλεισμός κλήσεων με βάση τον αριθμό ή το πρόθεμα</string>
     <string name="st_summary_keywords_blacklist">Προσθέστε λέξεις κλειδιά για να αποκλείσετε μηνύματα</string>
     <string name="st_summary_special_numbers">Αποκλεισμός επισημασμένων αριθμών</string>
     <string name="st_summary_whitelist_numbers">Αποδοχή κλήσεων και μηνυμάτων από συγκεκριμένους αριθμούς και περιοχές</string>
-    <string name="st_summary_whitelist_numbers_international">Αποδοχή κλήσεων και μηνυμάτων από συγκεκριμένους αριθμούς</string>
+    <string name="st_summary_whitelist_numbers_international">Να επιτραπούν κλήσεις με βάση τον αριθμό ή το πρόθεμα</string>
     <string name="st_tab_title">%1$s (SIM %2$d)</string>
     <string name="st_tab_title_esim">%1$s (eSIM)</string>
     <string name="st_title_addblacklist">Προσθήκη στη λίστα αποκλεισμού</string>
@@ -5846,6 +5847,7 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="wednesday_short">Τετ</string>
     <string name="wednesday_shortest">Τετ</string>
     <string name="whitelist_prefix_add_hint">Προθήκη όλων των αριθμών με πρόθεμα στις εξαιρέσεις</string>
+    <string name="whitelist_prefix_add_hint_international">Να επιτραπούν κλήσεις που ξεκινούν με συγκεκριμένο αριθμό</string>
     <string name="wifi_danger_dialog_messgae">Το τρέχον δίκτυο Wi-Fi μπορεί να θέσει σε κίνδυνο την ασφάλεια. Χρησιμοποιήστε το προσεκτικά.</string>
     <string name="wifi_danger_dialog_tips">Μπορείτε να διαχειρίζεστε την ασφάλεια του Wi-Fi στην Ασφάλεια > Σάρωση ασφάλειας > Ρυθμίσεις > Wi-Fi.</string>
     <string name="wifi_danger_dialog_title">Το Wi-Fi δίκτυο δεν είναι ασφαλές</string>
