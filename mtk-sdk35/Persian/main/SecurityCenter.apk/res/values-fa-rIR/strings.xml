@@ -87,6 +87,10 @@
     <string name="accessibility_keyboard_ok_button">ورود</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">حروف</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">قفل نمادها</string>
+    <string name="accessibility_sliding_button_state_description_off">خاموش</string>
+    <string name="accessibility_sliding_button_state_description_on">روشن</string>
+    <string name="accessibility_tab_state_description_unselect">انتخاب نشده</string>
+    <string name="accessibility_tab_statedesc_unselect">انتخاب نشده</string>
     <string name="action_button_text_100">بهینه‌سازی</string>
     <string name="action_button_text_60">اصلاح</string>
     <string name="action_button_text_60_80">اصلاح</string>
@@ -660,6 +664,7 @@
     <string name="back_modifypassword">بازگشت به ویرایش نوع گذرواژه</string>
     <string name="back_sound_data">اینترنت همراه را روشن کرده و دوباره تلاش کنید.</string>
     <string name="back_sound_fail">تنظیم نشد. تنظیمات شبکه مخابرات تغییر کرد. سیم‌کارت کنونی را به عنوان سیم‌کارت اینترنت همراه تنظیم کرده، به شبکه وصل شده و دوباره تلاش کنید.</string>
+    <string name="back_sound_no_support_oversea">سیمکارت %1$d از این طرح پشتیبانی نمی‌کند</string>
     <string name="back_sound_success">با موفقیت تنظیم شد</string>
     <string name="back_sound_support">ابتدا Wi-Fi را خاموش کنید</string>
     <string name="back_sound_support_china">Turn off WLAN first</string>
@@ -734,6 +739,7 @@
     <string name="beauty_fun_filter">زیبایی</string>
     <string name="beauty_fun_front_light">پر نور کردن جلو</string>
     <string name="beauty_fun_light">پرنور کردن</string>
+    <string name="beauty_fun_portrait_center_check">حالت وضوح فوق‌العاده از FocusFrame پشتیبانی نمی‌کند</string>
     <string name="beauty_fun_privacy">دوربین حریم خصوصی</string>
     <string name="beauty_fun_privacy_dialog_message">هنگامی که از ویژگی‌های تشخیص چهره دوربین استفاده می‌کنید، چهره شما به صورت خودکار شناسایی شده و سایر مناطق گرفته شده تار خواهند شد.</string>
     <string name="beauty_fun_privacy_dialog_tips">این ویژگی میزان موفقیت تشخیص چهره را کاهش می‌دهد</string>
@@ -744,6 +750,7 @@
     <string name="beauty_fun_privacy_tips">دوربین حریم خصوصی اکنون به صورت پیش‌فرض با ویژگی‌های تشخیص چهره سازگار استفاده خواهد شد</string>
     <string name="beauty_fun_screen_light">پر نور کردن صفحه</string>
     <string name="beauty_fun_settings_light">روشنایی پرنور کردن</string>
+    <string name="beauty_fun_ultra_clear_check">FocusFrame ازحالت وضوح فوق‌العاده پشتیبانی نمی‌کند</string>
     <string name="beauty_fun_video_effect">زیبایی برای ویدئو</string>
     <string name="beauty_portrait_center_desc">چهره‌ها را در تماس‌ها و جلسات ویدئویی به صورت خودکار تشخیص داده و در مرکز قرار می‌دهد. این ویژگی توسط برخی برنامه‌ها پشتیبانی نمی‌شود.</string>
     <string name="beauty_settings">تنظیمات</string>
@@ -944,6 +951,11 @@
     <string name="cancal_to_setting_fingerprint">لغو</string>
     <string name="cancel">لغو</string>
     <string name="cancel_button">لغو</string>
+    <string name="car_sickness_relief_comment_text">هنگامی که حرکت وسیله نقلیه تشخیص داده می‌شود، نقطه‌هایی در دو طرف صفحه نمایان می‌شوند تا نشان دهند خودرو در حال حرکت است یا خیر که می‌تواند به تاخیر در آغاز بیماری ماشین‌گرفتگی کمک کند.</string>
+    <string name="car_sickness_relief_example_text_1">هنگامی که وسیله نقلیه سریع‌تر یا آهسته‌تر حرکت می‌کند</string>
+    <string name="car_sickness_relief_example_text_2">هنگامی که وسیله نقلیه می‌پیچد یا از خطی به خط دیگر می‌رود</string>
+    <string name="car_sickness_remind_time_title">نشان‌گرهای حرکتی</string>
+    <string name="car_sickness_title">تسکین ماشین‌گرفتگی</string>
     <string name="card_main_apkclean_title">حذف APKها</string>
     <string name="card_main_appdataclean_title">پاک‌سازی داده‌های برنامه</string>
     <string name="card_main_applock_action">روشن کردن</string>
@@ -1806,6 +1818,8 @@
     <string name="gamebox_screenshot">عکس صفحه</string>
     <string name="gamebox_simcard">تعویض سیم‌کارت‌ها</string>
     <string name="gamebox_time">زمان‌سنج</string>
+    <string name="gamebox_time_elapsed_time_talkback">%1$s%2$s</string>
+    <string name="gamebox_time_ready_to_start_talkback">آغاز نشده است</string>
     <string name="gamebox_type_close">نشان داده نشود</string>
     <string name="gamebox_type_float">میان‌بر ثابت</string>
     <string name="gamebox_type_gesture">کشیده تا نشان داده شود</string>
@@ -1881,9 +1895,19 @@
     <string name="gb_barrage_chat_desc">همیشه باور داشته باش که یک چیز شگفت انگیز در در آستانه روی دادن است</string>
     <string name="gb_barrage_chat_pre_desc">پیش‌نمایش</string>
     <string name="gb_barrage_chat_text_color">رنگی</string>
+    <string name="gb_barrage_chat_text_color_black_talkback">سیاه</string>
+    <string name="gb_barrage_chat_text_color_blue_talkback">آبی</string>
+    <string name="gb_barrage_chat_text_color_red_talkback">قرمز</string>
+    <string name="gb_barrage_chat_text_color_white_talkback">سفید</string>
+    <string name="gb_barrage_chat_text_color_yellow_talkback">زرد</string>
     <string name="gb_barrage_chat_text_size">اندازه متن</string>
     <string name="gb_barrage_chat_text_size_big">بزرگ</string>
+    <string name="gb_barrage_chat_text_size_largest_talkback">بزرگ‌ترین</string>
+    <string name="gb_barrage_chat_text_size_medium_talkback">متوسط</string>
+    <string name="gb_barrage_chat_text_size_slightly_large_talkback">بزرگ‌تر</string>
+    <string name="gb_barrage_chat_text_size_slightly_small_talkback">کوچکتر</string>
     <string name="gb_barrage_chat_text_size_small">کوچک</string>
+    <string name="gb_barrage_chat_text_size_smallest_talkback">کوچکترین</string>
     <string name="gb_barrage_chat_text_speed">سرعت</string>
     <string name="gb_barrage_chat_text_speed_faster">تند</string>
     <string name="gb_barrage_chat_text_speed_moderate">رسانه</string>
@@ -2149,6 +2173,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_voice_changer_user_status_renew">تمدید</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">اشتراک شما منقضی شده است. اکنون اشتراک را تمدید کرده تا از مزایای آن بهره‌مند شوید!</string>
     <string name="gb_voice_changer_user_vip_expired">منقضی شده</string>
+    <string name="gb_voice_changer_user_vip_loading">چند لحظه صبر کنید…</string>
     <string name="gb_voice_changer_user_vip_remain_time">تاریخ انقضا: %s</string>
     <string name="gb_wild_mode_game_performance_enhance">بهینه‌سازی کارایی برای بازی</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"ضبط لحظات کلیدی
@@ -2167,6 +2192,8 @@ Record sequences and use them anytime!"</string>
     <string name="gb_xunyou_gift_type_two_new">افزاینده سرعت %d روزه Xunyou</string>
     <string name="gd_app_edit_done">انجام شد</string>
     <string name="gd_app_edit_title_new">ویرایش میان‌بر پنجره‌های شناور</string>
+    <string name="gd_beauty_manage_summary">در هنگام تماس ویدئویی، برای استفاده از این ویژگی، از جعبه ابزار کناری باز کنید</string>
+    <string name="gd_beauty_manage_title">زیبایی برای تماس‌های تصویری</string>
     <string name="gd_dock_shortcut_fullscreen">تمام صفحه</string>
     <string name="gd_dock_shortcut_splitescreen">تقسیم صفحه</string>
     <string name="gd_setting_conversation">ابزارهای کنفرانس</string>
@@ -2180,6 +2207,7 @@ Record sequences and use them anytime!"</string>
     <string name="gd_setting_dock_title">نوار کناری</string>
     <string name="gd_setting_dock_video_summary">استفاده از جلوه‌هایی همچون Dolby Atmos هنگام تماشای ویدئوها</string>
     <string name="gd_setting_dock_video_summary_new">هنگام تماشای فیلم از ابزارها و جلوه ها استفاده کنید</string>
+    <string name="gd_setting_group_custom_beauty_new">مدیریت زیبایی برای تماس‌های تصویری</string>
     <string name="gd_setting_group_custom_conversation_apps">ضبط اثر صدا برای تماس‌ها</string>
     <string name="gd_setting_group_custom_gtb_apps">بازی‌ها</string>
     <string name="gd_setting_group_custom_gtb_apps_new">مدیریت برنامه‌های بازی</string>
@@ -2409,7 +2437,7 @@ to join our egg hunt!"</string>
     <string name="hints_scan_result_phone_safe">همه چیز خوب به نظر می‌رسد</string>
     <string name="hints_scan_result_safe">ایمن</string>
     <string name="hints_scanning">در حال اسکن…</string>
-    <string name="hints_scanning_text">در حال اسکن کردن…</string>
+    <string name="hints_scanning_text">در حال اسکن…</string>
     <string name="hints_virus_apk_list_item_summary">apk</string>
     <string name="hints_virus_apk_summary">%s (apk)</string>
     <string name="hints_virus_app_list_item_summary">برنامه</string>
@@ -2748,6 +2776,10 @@ to join our egg hunt!"</string>
     <string name="miui_optimization_close_final_tip">بهینه‌سازی سیستم خاموش شود؟</string>
     <string name="miui_optimization_close_title">این ویژگی برای توسعه‌دهندگان در نظر گرفته شده و ممکن است برای کاربران عمومی مناسب نباشد. خاموش کردن بهینه‌سازی سیستم ممکن است تغییرات زیر را در بر داشته باشد:</string>
     <string name="miuix_access_state_desc">انتخاب شده</string>
+    <string name="miuix_accessibility_title">عنوان</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">خروج از حالت ویرایش</string>
+    <string name="miuix_appcompat_accessibility_new_message">پیام جدید</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">ورود به حالت ویرایش</string>
     <string name="miuix_appcompat_action_mode_deselect_all">لغو انتخاب همه</string>
     <string name="miuix_appcompat_action_mode_select_all">انتخاب همه</string>
     <string name="miuix_appcompat_action_mode_title_empty">انتخاب موارد</string>
@@ -2763,6 +2795,18 @@ to join our egg hunt!"</string>
     <string name="miuix_appcompat_select_all">انتخاب همه</string>
     <string name="miuix_appcompat_select_all_description">انتخاب همه</string>
     <string name="miuix_appcompat_select_item">انتخاب موارد</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">برای بستن به پایین بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">برای نیمه صفحه به پایین بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">برای کمینه کردن به پایین بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">برای نیمه صفحه به بالا بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">برای بیشینه کردن به بالا بکشید</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">نیمه صفحه</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">بیشینه شده</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">کمینه شده</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">به نیمه صفحه تغییر یافت</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">به حالت بیشینه تغییر یافت</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">به حالت کمینه تغییر یافت</string>
+    <string name="miuix_progressbar_loading">در حال بارگذاری</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">برای تازه‌سازی پایین بکشید</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">با موفقیت تازه‌سازی شد</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">در حال تازه سازی…</string>
@@ -2771,6 +2815,7 @@ to join our egg hunt!"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">به پایان صفحه رسیدید</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">چند لحظه صبر کنید…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">موارد بارگذاری نشدند</string>
+    <string name="miuix_show_password">نمایش رمز عبور</string>
     <string name="mixed_need_to_confirm">برای تأیید دوباره وارد کنید</string>
     <string name="mixed_password_confirmed_header_confirm">با موفقیت تنظیم شد. برای تأیید ضربه بزنید.</string>
     <string name="mixed_password_confirmed_header_continue">با موفقیت تنظیم شد. \"بعدی\" را بزنید.</string>
@@ -2965,7 +3010,7 @@ to join our egg hunt!"</string>
     <string name="notification_battery_scan_consume_abnormal_summary">برای حل مشکل ضربه بزنید</string>
     <string name="notification_battery_scan_consume_abnormal_title_set">%s درحال خالی کردن باتری است</string>
     <string name="notification_channel_battery">باتری</string>
-    <string name="notification_checker_installed_apk_hint">پس از نصب نیازی به نگه داشتن APK‌ ها نیست</string>
+    <string name="notification_checker_installed_apk_hint">پس از نصب نیازی به نگه داشتن APK‌ها نیست</string>
     <string name="notification_enter_power_save_mode_subtitle">هنگام شارژ دستگاه به %s یا کاملاً غیرفعال کنید</string>
     <string name="notification_enter_power_save_mode_title">بهینه‌ساز باتری روشن شد</string>
     <string name="notification_exit_power_save_mode">بهینه‌ساز فوق‌العاده باتری خاموش شد</string>
@@ -3136,6 +3181,7 @@ to join our egg hunt!"</string>
     <string name="optimize_result_toast_system_no_item_selected">هیچ موردی انتخاب نشده است</string>
     <string name="optional_permissions">مجوزهای اختیاری</string>
     <string name="optional_permissions_desc">این مجوزها هنگامی که از ویژگی‌های افزوده استفاده می‌کنید لازم هستند.</string>
+    <string name="optmizingbar_item_img_description">انجام شد</string>
     <string name="optmizingbar_optimize_done">بهینه‌سازی شد</string>
     <string name="optmizingbar_ready">درحال بهینه‌سازی…</string>
     <string name="optmizingbar_stop_optmize">توقف</string>
@@ -3300,9 +3346,11 @@ to join our egg hunt!"</string>
     <string name="pc_going_to_extreme_mode">ورود به حالت خواب زمستانی</string>
     <string name="pc_handle_battery_level">گریپ</string>
     <string name="pc_have_no_battery_issue">بدون اشکال</string>
+    <string name="pc_health_charge_default">شارژ کامل</string>
     <string name="pc_health_charge_protect_noti_summary_title">وقتی سطح باتری به %1$s برسد، دستگاه شارژ را متوقف می‌کند</string>
     <string name="pc_health_charge_protect_notification_summary">برای جلوگیری از پیری باتری، محافظ باتری را روشن کنید</string>
     <string name="pc_health_charge_protect_summary">برای افزایش عمر باتری، وقتی سطح باتری به %1$s رسید، شارژ دستگاه متوقف می‌شود</string>
+    <string name="pc_health_charge_protect_summary_new">برای افزایش عمر باتری، وقتی سطح باتری به %1$s رسید، دستگاه شارژ را متوقف می‌کند و فقط در زمان برنامه‌ریزی به طور کامل شارژ می‌شود.</string>
     <string name="pc_health_charge_protect_title">محافظت از باتری</string>
     <string name="pc_hide_more_power_rank_apps">پنهان کردن</string>
     <string name="pc_hidemode_normal">متعادل</string>
@@ -3321,6 +3369,8 @@ to join our egg hunt!"</string>
     <string name="pc_install_manager">نصب از طریق USB</string>
     <string name="pc_intellect_charge_protect_summary">تنظیم شارژ بر اساس سناریوهای مصرف</string>
     <string name="pc_intellect_charge_protect_title">شارژ بهینه شده</string>
+    <string name="pc_is_exiting_low_temperature">"درحال خاموش کردن
+حالت استقامت در سرما"</string>
     <string name="pc_is_exiting_super_power">"درحال خاموش کردن
 بهینه‌ساز فوق‌العاده باتری"</string>
     <string name="pc_keywords_fast_charge">شارژ فوری</string>
@@ -3342,7 +3392,7 @@ to join our egg hunt!"</string>
     <string name="pc_low_battery_fast_charge_summary">هنگام خاموش بودن صفحه و کم بودن باتری، شارژر ارائه شده را وصل کرده تا سرعت شارژ افزایش یابد. این ویژگی ممکن است سبب داغ شدن دستگاه شما شود.</string>
     <string name="pc_low_temp_charge_summary">شارژر را متصل نگه دارید و منتظر بمانید تا باتری پس از خاموش شدن نمایشگر گرم شود تا به طور معمول شارژ شود</string>
     <string name="pc_low_temp_charge_title">شارژ با دمای پایین</string>
-    <string name="pc_low_temperature_extreme_endurance_summary">زمانی که دمای محیط بسیار پایین است، عملکرد دستگاه را برای افزایش عمر باتری محدود می‌کند</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">برای افزایش عمر باتری در محیط‌های سرد، عملکرد دستگاه را محدود کنید</string>
     <string name="pc_low_temperature_extreme_endurance_title">حالت استقامت در سرما</string>
     <string name="pc_main_activity_back">بازگشت</string>
     <string name="pc_main_battery_text_day">%1$s دقیقه افزوده شد. نزدیک به %2$s روز دیگر مانده است</string>
@@ -3659,7 +3709,7 @@ to join our egg hunt!"</string>
     <string name="power_center_battery_health_poor_tip">به نظر می‌رسد سلامت باتری کم است. باتری خود را در یک مرکز خدمات مجاز بررسی کنید.</string>
     <string name="power_center_battery_health_summary">برای بهبود صحت آمار سلامت باتری، دستگاه خود را %1$d-%2$d بار کاملاً شارژ و تخلیه کنید</string>
     <string name="power_center_battery_last">%s باقی مانده</string>
-    <string name="power_center_battery_level">%s شارژ شده است</string>
+    <string name="power_center_battery_level">%sشارژ شد</string>
     <string name="power_center_battery_level_general">عادی</string>
     <string name="power_center_battery_problem_and_suggest">%1$s. %2$s.</string>
     <string name="power_center_battery_software">نرم‌افزار %s</string>
@@ -4963,7 +5013,7 @@ to join our egg hunt!"</string>
     <string name="storage_fob_date_format">dd/MM</string>
     <string name="storage_format_failure">%1$s فرمت نشد</string>
     <string name="storage_format_success">%1$s با موفقیت فرمت شد</string>
-    <string name="storage_item_apk_name">هاAPK</string>
+    <string name="storage_item_apk_name">APKها</string>
     <string name="storage_item_appdata_name">برنامه‌ها و داده‌ها</string>
     <string name="storage_item_audio_name">صدا</string>
     <string name="storage_item_clean_name">آزاد کردن فضا</string>
@@ -5139,6 +5189,9 @@ to join our egg hunt!"</string>
     <string name="tab_sms">پیامک</string>
     <string name="tab_sort_all">همه</string>
     <string name="tab_title">فهرست سیاه</string>
+    <string name="talkback_virus_scan_omitted">اسکن نشد</string>
+    <string name="talkback_virus_scan_risky">پرمخاطره</string>
+    <string name="talkback_virus_scan_safe">امن</string>
     <string name="tc_cmd_invalid">قالب معتبر نیست</string>
     <string name="tc_get_cmd_error">قالب دریافت نشد</string>
     <string name="tc_parse_error">پیامک تجزیه نشد</string>

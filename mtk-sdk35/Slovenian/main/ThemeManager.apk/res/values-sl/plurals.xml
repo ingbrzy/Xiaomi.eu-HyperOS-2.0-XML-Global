@@ -73,10 +73,10 @@
         <item quantity="few">Želite izbrisati %d opravila?</item>
     </plurals>
     <plurals name="delete_tasks_successfully">
-        <item quantity="other">%d opravil uspešno izbrisano</item>
-        <item quantity="one">%d opravilo uspešno izbrsiano</item>
-        <item quantity="two">%d opravili uspešno izbrisani</item>
-        <item quantity="few">%d opravila uspešno izbrisana</item>
+        <item quantity="other">%d opravil je bilo uspešno izbrisanih</item>
+        <item quantity="one">%d opravilo je bilo uspešno izbrisano</item>
+        <item quantity="two">%d opravili sta bili uspešno izbrisani</item>
+        <item quantity="few">%d opravil je bilo uspešno izbrisanih</item>
     </plurals>
     <plurals name="exo_controls_fastforward_by_amount_description">
         <item quantity="other">Premik naprej za %d sekund</item>
@@ -218,19 +218,19 @@
     </plurals>
     <plurals name="payment_coins_tips">
         <item quantity="other">"%1$d kovancev = %2$d IDR
-Kovanci so nepovratni."</item>
+Vračilo kovancev ni mogoče."</item>
         <item quantity="one">"%1$d kovanec = %2$d IDR
-Kovanci so nepovratni."</item>
+Vračilo kovancev ni mogoče."</item>
         <item quantity="two">"%1$d kovanca = %2$d IDR
-Kovanci so nepovratni."</item>
+Vračilo kovancev ni mogoče."</item>
         <item quantity="few">"%1$d kovanci = %2$d IDR
-Kovanci so nepovratni."</item>
+Vračilo kovancev ni mogoče."</item>
     </plurals>
     <plurals name="portfolio">
-        <item quantity="other">%d kreacije</item>
-        <item quantity="one">%d kreacija</item>
-        <item quantity="two">%d kreaciji</item>
-        <item quantity="few">%d kreacije</item>
+        <item quantity="other">%d del</item>
+        <item quantity="one">%d delo</item>
+        <item quantity="two">%d deli</item>
+        <item quantity="few">%d dela</item>
     </plurals>
     <plurals name="processing_is_expected_text">
         <item quantity="other">Vaša zahteva bo obdelana v približno %1$d sekundah.</item>
@@ -239,58 +239,70 @@ Kovanci so nepovratni."</item>
         <item quantity="few">Vaša zahteva bo obdelana v približno %1$d sekundah.</item>
     </plurals>
     <plurals name="purchase_refund_success_diag_notice_one">
-        <item quantity="other">"%d naročil uspešno povrnjenih. "</item>
-        <item quantity="one">"%d naročilo uspešno povrnjeno. "</item>
-        <item quantity="two">"%d naročili uspešno povrnjeni. "</item>
-        <item quantity="few">"%d naročila uspešno povrnjena. "</item>
+        <item quantity="other">"%d naročil je bilo uspešno povrnjenih. "</item>
+        <item quantity="one">"%d naročilo je bilo uspešno povrnjeno. "</item>
+        <item quantity="two">"%d naročili sta bili uspešno povrnjeni. "</item>
+        <item quantity="few">"%d naročila so bila uspešno povrnjena. "</item>
     </plurals>
     <plurals name="purchase_refund_success_diag_notice_two">
-        <item quantity="other">Kovance boste prijeli čez %d ur.</item>
-        <item quantity="one">Kovance boste prijeli čez %d uro.</item>
-        <item quantity="two">Kovance boste prijeli čez %d uri.</item>
-        <item quantity="few">Kovance boste prijeli čez %d ure.</item>
+        <item quantity="other">Kovanci bodo položeni v %d urah.</item>
+        <item quantity="one">Kovanci bodo položeni v %d uri.</item>
+        <item quantity="two">Kovanci bodo položeni v %d urah.</item>
+        <item quantity="few">Kovanci bodo položeni v %d urah.</item>
     </plurals>
     <plurals name="purchase_refund_success_notice">
-        <item quantity="other">Vaše povračilo je bilo obdelano. Kovanci bodo naloženi v %d urah.</item>
-        <item quantity="one">Vaše povračilo je bilo obdelano. Kovanci bodo naloženi v %d uri.</item>
-        <item quantity="two">Vaše povračilo je bilo obdelano. Kovanci bodo naloženi v %d urah.</item>
-        <item quantity="few">Vaše povračilo je bilo obdelano. Kovanci bodo naloženi v %d urah.</item>
+        <item quantity="other">Vračilo je bilo obdelano. Vaši kovanci bodo naloženi v %d urah.</item>
+        <item quantity="one">Vračilo je bilo obdelano. Vaši kovanci bodo naloženi v %d uri.</item>
+        <item quantity="two">Vračilo je bilo obdelano. Vaši kovanci bodo naloženi v %d urah.</item>
+        <item quantity="few">Vračilo je bilo obdelano. Vaši kovanci bodo naloženi v %d urah.</item>
     </plurals>
     <plurals name="purchased_authorizing_dialog_content">
-        <item quantity="other">To lahko traja nekaj časa. Če kupljenih izdelkov niste prejeli v %d urah, nas obvestite s pošiljanjem povratne informacije.</item>
-        <item quantity="one">To lahko traja nekaj časa. Če kupljenih izdelkov niste prejeli v %d uri, nas obvestite s pošiljanjem povratne informacije.</item>
-        <item quantity="two">To lahko traja nekaj časa. Če kupljenih izdelkov niste prejeli v %d urah, nas obvestite s pošiljanjem povratne informacije.</item>
-        <item quantity="few">To lahko traja nekaj časa. Če kupljenih izdelkov niste prejeli v %d urah, nas obvestite s pošiljanjem povratne informacije.</item>
+        <item quantity="other">To lahko traja nekaj časa. Če kupljenih izdelkov niste prejeli v %d urah, nas obvestite s pošiljanjem povratnih informacij.</item>
+        <item quantity="one">To lahko traja nekaj časa. Če kupljenih izdelkov niste prejeli v %d uri, nas obvestite s pošiljanjem povratnih informacij.</item>
+        <item quantity="two">To lahko traja nekaj časa. Če kupljenih izdelkov niste prejeli v %d urah, nas obvestite s pošiljanjem povratnih informacij.</item>
+        <item quantity="few">To lahko traja nekaj časa. Če kupljenih izdelkov niste prejeli v %d urah, nas obvestite s pošiljanjem povratnih informacij.</item>
     </plurals>
     <plurals name="purchased_instructions">
-        <item quantity="other">&lt;Data>Z dokončanjem plačila se strinjate z &lt;a href=\"%1$s\">Obvestilom o nakupih v aplikaciji&lt;/a>.&lt;br>Povračila so na voljo &lt;xliff:g id=time>%2$d&lt;/xliff:g> ur po opravljenih nakupih.&lt;/Data></item>
-        <item quantity="one">&lt;Data>Z dokončanjem plačila se strinjate z &lt;a href=\"%1$s\">Obvestilom o nakupih v aplikaciji&lt;/a>.&lt;br>Povračila so na voljo &lt;xliff:g id=time>%2$d&lt;/xliff:g> uro po opravljenih nakupih.&lt;/Data></item>
-        <item quantity="two">&lt;Data>Z dokončanjem plačila se strinjate z &lt;a href=\"%1$s\">Obvestilom o nakupih v aplikaciji&lt;/a>.&lt;br>Povračila so na voljo &lt;xliff:g id=time>%2$d&lt;/xliff:g> uri po opravljenih nakupih.&lt;/Data></item>
-        <item quantity="few">&lt;Data>Z dokončanjem plačila se strinjate z &lt;a href=\"%1$s\">Obvestilom o nakupih v aplikaciji&lt;/a>.&lt;br>Povračila so na voljo &lt;xliff:g id=time>%2$d&lt;/xliff:g> ure po opravljenih nakupih.&lt;/Data></item>
+        <item quantity="other">&lt;Data>Z dokončanjem plačila se strinjate z &lt;a href=\"%1$s\">obvestilom o nakupih v aplikaciji&lt;/a>.&lt;br>Vračila so na voljo &lt;xliff:g id=time>%2$d&lt;/xliff:g> ur po opravljenih nakupih.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Z dokončanjem plačila se strinjate z &lt;a href=\"%1$s\">obvestilom o nakupih v aplikaciji&lt;/a>.&lt;br>Vračila so na voljo &lt;xliff:g id=time>%2$d&lt;/xliff:g> uro po opravljenih nakupih.&lt;/Data></item>
+        <item quantity="two">&lt;Data>Z dokončanjem plačila se strinjate z &lt;a href=\"%1$s\">obvestilom o nakupih v aplikaciji&lt;/a>.&lt;br>Vračila so na voljo &lt;xliff:g id=time>%2$d&lt;/xliff:g> uri po opravljenih nakupih.&lt;/Data></item>
+        <item quantity="few">&lt;Data>Z dokončanjem plačila se strinjate z &lt;a href=\"%1$s\">obvestilom o nakupih v aplikaciji&lt;/a>.&lt;br>Vračila so na voljo &lt;xliff:g id=time>%2$d&lt;/xliff:g> ure po opravljenih nakupih.&lt;/Data></item>
     </plurals>
     <plurals name="purchased_refund_constact_us_success_dialog_message">
-        <item quantity="other">Naročilo je bilo končano pred več kot %d ur. Pošljite nam e-pošto.</item>
+        <item quantity="other">Naročilo je bilo končano pred več kot %d urami. Pošljite nam e-pošto.</item>
         <item quantity="one">Naročilo je bilo končano pred več kot %d uro. Pošljite nam e-pošto.</item>
-        <item quantity="two">Naročilo je bilo končano pred več kot %d uri. Pošljite nam e-pošto.</item>
-        <item quantity="few">Naročilo je bilo končano pred več kot %d ure. Pošljite nam e-pošto.</item>
+        <item quantity="two">Naročilo je bilo končano pred več kot %d urama. Pošljite nam e-pošto.</item>
+        <item quantity="few">Naročilo je bilo končano pred več kot %d urami. Pošljite nam e-pošto.</item>
     </plurals>
     <plurals name="purchased_refund_success_dialog_message">
-        <item quantity="other">Kovance boste prijeli čez %d ur.</item>
-        <item quantity="one">Kovance boste prijeli čez %d uro.</item>
-        <item quantity="two">Kovance boste prijeli čez %d uri.</item>
-        <item quantity="few">Kovance boste prijeli čez %d ure.</item>
+        <item quantity="other">Kovance boste prijeli v roku %d ur.</item>
+        <item quantity="one">Kovance boste prijeli v roku %d ure.</item>
+        <item quantity="two">Kovance boste prijeli v roku %d ur.</item>
+        <item quantity="few">Kovance boste prijeli v roku %d ur.</item>
     </plurals>
     <plurals name="resource_font_download_notification_title_many">
         <item quantity="other">%1$s pisav je bilo uspešno prenesenih</item>
         <item quantity="one">%1$s pisava je bila uspešno prenesena</item>
-        <item quantity="two">%1$s pisavi ste bile uspešno preneseni</item>
-        <item quantity="few">%1$s pisav je bilo uspešno prenesenih</item>
+        <item quantity="two">%1$s pisavi sta bile uspešno preneseni</item>
+        <item quantity="few">%1$s pisave so bile uspešno prenesene</item>
     </plurals>
     <plurals name="resource_theme_download_notification_title_many">
         <item quantity="other">%1$s tem je bilo uspešno prenesenih</item>
         <item quantity="one">%1$s tema je bila uspešno prenesena</item>
         <item quantity="two">%1$s temi sta bili uspešno preneseni</item>
         <item quantity="few">%1$s teme so bile uspešno prenesene</item>
+    </plurals>
+    <plurals name="talkback_ringtone_time_one">
+        <item quantity="other">%1$d minut</item>
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="two">%1$d minuti</item>
+        <item quantity="few">%1$d minute</item>
+    </plurals>
+    <plurals name="talkback_ringtone_time_two">
+        <item quantity="other">%1$d sekund</item>
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="two">%1$d sekundi</item>
+        <item quantity="few">%1$d sekunde</item>
     </plurals>
     <plurals name="theme_designer_products_count">
         <item quantity="other">%1$s del</item>

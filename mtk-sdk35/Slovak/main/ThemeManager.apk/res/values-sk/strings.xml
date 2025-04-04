@@ -75,20 +75,21 @@
     <string name="ai_creativity_switch_gender">Vyberte pohlavie</string>
     <string name="ai_creativity_template">Šablóna</string>
     <string name="ai_delete_wallpaper">Vymazať</string>
-    <string name="ai_estimated_two_three_minutes" formatted="false">Bude to trvať približne %1d–%2d min.</string>
+    <string name="ai_estimated_two_three_minutes">Bude to trvať približne %1$d–%2$d min.</string>
     <string name="ai_generate">Generované pomocou AI</string>
     <string name="ai_generate_action">Generovať</string>
     <string name="ai_generate_add_latter">Nové fotky pridajte po dokončení tohto procesu.</string>
     <string name="ai_generate_background">Dokončiť na pozadí</string>
     <string name="ai_generate_determine">Analyzovanie fotografií…</string>
-    <string name="ai_generate_fail">Generovanie zlyhalo</string>
-    <string name="ai_generate_forbid">Túto funkciu aktualizujeme. Sledujte novinky!</string>
+    <string name="ai_generate_fail">Nepodarilo sa vygenerovať</string>
+    <string name="ai_generate_forbid">Túto funkciu aktualizujeme. Zostaňte s nami!</string>
     <string name="ai_generate_latter">Chvíľu počkajte a skúste to znova.</string>
     <string name="ai_generate_loading">Generovanie dynamickej tapety…</string>
     <string name="ai_generate_message">Ak vygenerujete dynamickú tapetu, vaše zmeny statickej tapety sa neuložia. Generovať teraz?</string>
     <string name="ai_generate_text">Vygenerovať dynamickú tapetu</string>
     <string name="ai_generate_title">Vygenerovať dynamickú tapetu?</string>
     <string name="ai_generate_verify_text">Overovanie obsahu obrázku…</string>
+    <string name="ai_generate_waiting">Server je vyťažený. Chvíľu počkajte a skúste to znova.</string>
     <string name="ai_generate_wallpaper_done">Tapeta úspešne vygenerovaná</string>
     <string name="ai_generate_wallpaper_fail">Vygenerovanie tapety zlyhalo</string>
     <string name="ai_generate_wallpaper_fail_message">Fotografie, ktoré ste vybrali, môžu porušovať naše zásady. Vyberte nové fotografie.</string>
@@ -105,7 +106,7 @@
     <string name="ai_select_again">Vyberte</string>
     <string name="ai_select_images_in_the_following_formats">Vyberte jeden z nasledujúcich podporovaných formátov súboru: JPG, JPEG, PNG, BMP, WEBP, HEIC alebo HEIF.</string>
     <string name="ai_select_message">Nepodarilo sa vygenerovať dynamickú tapetu pre vybrané fotografie. Najlepšie výsledky dosiahnete, ak vyberiete jasné fotografie krajiny, miest, rastlín alebo áut.</string>
-    <string name="ai_select_title">Generovanie zlyhalo</string>
+    <string name="ai_select_title">Nepodarilo sa vygenerovať</string>
     <string name="ai_select_wallpaper">Vyberte tapetu</string>
     <string name="ai_service_unavailable">Služba nie je dostupná</string>
     <string name="ai_service_unavailable_content">Porušili ste naše zásady a vaše konto bolo pozastavené. Skúste to neskôr.</string>
@@ -150,7 +151,6 @@
     <string name="app_description_content">Motívy sú systémová aplikácia. Poskytuje vám tapety a viaceré možnosti prispôsobenia. Po odobratí odkazu z Domovskej obrazovky bude možné aplikáciu stále používať v Motívoch cez Nastavenia.</string>
     <string name="app_description_title">Odstrániť \"Motívy\" z Domovskej obrazovky?</string>
     <string name="app_name">Motívy</string>
-    <string name="app_permission_optional">Voliteľné povolenia</string>
     <string name="app_permission_require">Povinné povolenia</string>
     <string name="app_permission_use_desc">Povolenia</string>
     <string name="app_permission_use_group_account">Kontá</string>
@@ -161,13 +161,13 @@
     <string name="app_permission_use_group_storage_desc">Pre používanie a ukladanie motívov, tapiet, tónov vyzváňania a písiem</string>
     <string name="application_notify_title">Upozornenie</string>
     <string name="applied_success_contine">Pokračovať v prehliadaní</string>
-    <string name="applied_success_subtitle_a">Pripravte sa na %d Xiaomi medzinárodnú výzvu motívov!</string>
+    <string name="applied_success_subtitle_a">Pripravte sa na súťaž Xiaomi International Theme Competition %d!</string>
     <string name="applied_success_subtitle_b">Sledujte dizajnérov, aby ste mali vždy aktuálne informácie o novinkách</string>
     <string name="apply_4k_video_wallpaper_warning">Videá v kvalite 4K a 8K nemôžu byť použité ako video tapety.</string>
     <string name="apply_by_customize">Prispôsobiť</string>
     <string name="apply_default_font_tip">Ponechať súčasné písmo?</string>
     <string name="apply_font_btn_exclude">Teraz nie</string>
-    <string name="apply_font_btn_reboot">Použiť a reštartovať</string>
+    <string name="apply_font_btn_reboot">Reštartovať</string>
     <string name="apply_font_tip">Reštartovať pre použitie písma tohto motívu.</string>
     <string name="apply_history">História</string>
     <string name="apply_not_support_in_second_space">Nie je možné použiť túto položku v Druhom priestore</string>
@@ -239,7 +239,6 @@
     <string name="card_retry">Skúste to znova</string>
     <string name="carefully_chosen_wallpaper">Výber editora</string>
     <string name="carousel_no_set_wallpaper_effects">Nie je možné nastaviť efekty, keď je zapnutá Denná tapeta</string>
-    <string name="change_host_hint">Zmeniť hostiteľa</string>
     <string name="change_wallpaper">Tapeta</string>
     <string name="channel_featured_page">Odporúčané</string>
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
@@ -254,7 +253,7 @@
     <string name="classification_more_understand_you">Zvoľte vašu obľúbenú kategóriu</string>
     <string name="clear_text_end_icon_content_description">Vymazať text</string>
     <string name="clearable_edittext_clear_description">Vymazať</string>
-    <string name="close">Zatvoriť</string>
+    <string name="close">Zavrieť</string>
     <string name="close_drawer">Zavrieť navigačnú ponuku</string>
     <string name="close_sheet">Zavrieť hárok</string>
     <string name="columbus_ad_flag_text">AD</string>
@@ -328,6 +327,7 @@
     <string name="delete_image">Vymazať fotografie</string>
     <string name="deleting">Vymazáva sa…</string>
     <string name="delivers_fresh_content_and_design_daily">Každý deň nové vzory</string>
+    <string name="depth_effect_talkback">Hĺbkový efekt</string>
     <string name="description_author">Autor</string>
     <string name="description_designer">Dizajnér</string>
     <string name="description_download">Stiahnuté</string>
@@ -336,6 +336,7 @@
     <string name="description_uploadtime">Aktualizácia</string>
     <string name="description_version">Verzia</string>
     <string name="description_version_szie">Verzia: %1$s Veľkosť: %2$s</string>
+    <string name="designer_page_in_xiaomi_community">Xiaomi Community stránka dizajnéra %s</string>
     <string name="designer_page_latest_scene">Najnovšie obľúbené položky</string>
     <string name="desktop_wallpaper">Domovská obrazovka</string>
     <string name="detail_author_attention_head">Pozrite sa na niektorých z týchto dizajnérov</string>
@@ -349,7 +350,7 @@
     <string name="dialog_confirm_title">Ukončiť teraz?</string>
     <string name="discover_your_favorites">Objavte vaše obľúbené</string>
     <string name="disk_space_Insufficient">Nedostatok miesta na úložisku</string>
-    <string name="download_failed">Stiahnutie sa nepodarilo</string>
+    <string name="download_failed">Sťahovanie sa nepodarilo</string>
     <string name="download_management">Stiahnuté súbory</string>
     <string name="download_preview_failed">Načítavanie náhľadu zlyhalo</string>
     <string name="download_success">Úspešne stiahnuté</string>
@@ -371,7 +372,7 @@
     <string name="error_icon_content_description">Chyba</string>
     <string name="evening">Popoludní</string>
     <string name="events">Udalosti</string>
-    <string name="exit">Koniec</string>
+    <string name="exit">Ukončiť</string>
     <string name="exit_extreme_mode_dialog_agree">Súhlasím</string>
     <string name="exit_extreme_mode_dialog_cancel">Zrušiť</string>
     <string name="exit_extreme_mode_dialog_title">Vypnúť Extrémny režim</string>
@@ -388,15 +389,15 @@
     <string name="exo_controls_play_description">Prehrať</string>
     <string name="exo_controls_playback_speed">Rýchlosť</string>
     <string name="exo_controls_previous_description">Predchádzajúca</string>
-    <string name="exo_controls_repeat_all_description">Opakovať všetko</string>
-    <string name="exo_controls_repeat_off_description">Neopakovať</string>
-    <string name="exo_controls_repeat_one_description">Opakovať jednu</string>
+    <string name="exo_controls_repeat_all_description">Aktuálny režim: Opakovať všetky. Prepnúť režim opakovania</string>
+    <string name="exo_controls_repeat_off_description">Aktuálny režim: Neopakovať. Prepnúť režim opakovania</string>
+    <string name="exo_controls_repeat_one_description">Aktuálny režim: Opakovať jedno. Prepnúť režim opakovania</string>
     <string name="exo_controls_rewind_description">Pretočiť späť</string>
     <string name="exo_controls_seek_bar_description">Priebeh prehrávania</string>
     <string name="exo_controls_settings_description">Nastavenia</string>
     <string name="exo_controls_show">Zobraziť ovládacie prvky prehrávača</string>
-    <string name="exo_controls_shuffle_off_description">Náhodné prehrávanie je vypnuté</string>
-    <string name="exo_controls_shuffle_on_description">Náhodné prehrávanie je zapnuté</string>
+    <string name="exo_controls_shuffle_off_description">Zapnúť režim náhodného prehrávania</string>
+    <string name="exo_controls_shuffle_on_description">Vypnúť režim náhodného prehrávania</string>
     <string name="exo_controls_stop_description">Zastaviť</string>
     <string name="exo_controls_vr_description">režim VR</string>
     <string name="exo_download_completed">Sťahovanie bolo dokončené</string>
@@ -426,6 +427,7 @@
     <string name="exo_track_surround_5_point_1">Priestorový zvuk 5.1</string>
     <string name="exo_track_surround_7_point_1">Priestorový zvuk 7.1</string>
     <string name="exo_track_unknown">Neznáme</string>
+    <string name="exo_track_unknown_name">Neznáme (%1$s)</string>
     <string name="expand_button_title">Rozšírené</string>
     <string name="expect_more">Sledujte nás pre viac noviniek!</string>
     <string name="explore_new_and_popular_themes">Preskúmajte nové a populárne motívy</string>
@@ -446,6 +448,7 @@
     <string name="find_more_theme">Nájdite viac</string>
     <string name="find_more_wallpapers">Chcem vidieť viac</string>
     <string name="fingerprint_style">Efekty odtlačkov prstov</string>
+    <string name="flip_wallpaper_preview_revert">Zmena orientácie</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -500,6 +503,7 @@
     <string name="fmt_weekday_timezone">W z</string>
     <string name="fold_sensor_video_wallpaper_group">Dynamické tapety na skladacie obrazovky</string>
     <string name="follow_designer_notice">Nezmeškajte najnovšie motívy</string>
+    <string name="font_detail_font_preview">Náhľad písma</string>
     <string name="format_day_desc">"Deň v mesiaci: %s, "</string>
     <string name="format_day_week_desc">Deň v mesiaci: %1$s, %2$s</string>
     <string name="format_lunar_calendar_month_day_desc">Dátum podľa tradičného čínskeho kalendára: %s</string>
@@ -554,8 +558,8 @@
     <string name="home_bar_ai_filters">Filtre AI</string>
     <string name="home_bar_ai_photo">Portrét AI</string>
     <string name="home_bar_enhance">Vylepšiť</string>
-    <string name="home_tab_selected">Vybrané</string>
-    <string name="home_tab_unselected">Nevybrané</string>
+    <string name="home_tab_selected">Vybrané %s</string>
+    <string name="home_tab_unselected">Nevybrané %s</string>
     <string name="home_vh_enhance_permission_btn">Nastavenia</string>
     <string name="home_vh_enhance_permission_tips">Udeľte požadované oprávnenia, aby ste mohli vylepšovať svoje fotografie.</string>
     <string name="home_vh_enhance_permission_title">Povoliť prístup k fotografiám</string>
@@ -572,11 +576,11 @@
     <string name="incompatible_dialog_ok">Rozumiem</string>
     <string name="incompatible_dialog_title">Problém s kompatibilitou</string>
     <string name="indeterminate">Ani začiarknuté ani nezačiarknuté</string>
+    <string name="indicator_talkback">Vybrané: stránka %d. Potiahnite na zobrazenie ďalšej strany.</string>
     <string name="install_fail">Inštalácia zlyhala</string>
     <string name="install_succ">Úspešne nainštalované</string>
     <string name="installing">Inštaluje sa…</string>
     <string name="is_setting_wallpaper_message">Nastavuje sa tapeta…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Budíky</string>
     <string name="item_resource_audio_optional_color_ring">Tón zvonenia</string>
     <string name="item_resource_audio_optional_notification_ring">Upozornenia</string>
@@ -841,7 +845,6 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Vyberte čas</string>
     <string name="material_timepicker_text_input_mode_description">Ak chcete zadať čas, prepnite na textový režim vstupu</string>
-    <string name="max_usable_themes">%d+</string>
     <string name="message">Textová správa</string>
     <string name="message_sim_one">Správa na SIM %d</string>
     <string name="message_sim_two">Správa na SIM %d</string>
@@ -850,7 +853,7 @@
     <string name="mine_ai_clone_create">Vytvoriť</string>
     <string name="mine_ai_clone_retry">Resetovať</string>
     <string name="mine_ai_clone_retry_message">Resetovanie tohto avatara bude vyžadovať nahranie nových fotografií</string>
-    <string name="mine_ai_clone_time">Vytvorené d. M. yyyy</string>
+    <string name="mine_ai_clone_time">Vytvorené dd. MM. yyyy</string>
     <string name="mine_ai_clone_title">Avatary sa používajú na vytváranie portrétov umelej inteligencie</string>
     <string name="mine_ai_manager_clone">Spravovať avatary</string>
     <string name="mine_creator">Moje výtvory</string>
@@ -1054,7 +1057,7 @@ mm"</string>
     <string name="my_attention_head">Dizajnéri, ktorých sledujete</string>
     <string name="my_fonts">Moje písma</string>
     <string name="my_gifts">Dary</string>
-    <string name="my_gifts_purchased">Zakúpené</string>
+    <string name="my_gifts_purchased">Lokálne</string>
     <string name="my_gifts_received">Prijaté</string>
     <string name="native_body">Text</string>
     <string name="native_headline">Nadpis</string>
@@ -1176,7 +1179,7 @@ mm"</string>
     <string name="purchased_failed_dialog_retry">Skúste to znova</string>
     <string name="purchased_failed_dialog_title">Chyba</string>
     <string name="purchased_getting_theme_info">Získavajú sa informácie o motíve…</string>
-    <string name="purchased_list">Zakúpené témy</string>
+    <string name="purchased_list">Lokálne</string>
     <string name="purchased_list_current">Optimalizované témy</string>
     <string name="purchased_list_legacy">Staršie motívy</string>
     <string name="purchased_menu_refund">Požiadajte o vrátenie prostriedkov</string>
@@ -1192,9 +1195,6 @@ mm"</string>
     <string name="rain_probability_desc">Pravdepodobnosť zrážok: %s</string>
     <string name="range_end">Koniec rozsahu</string>
     <string name="range_start">Začiatok rozsahu</string>
-    <string name="rank_one" formatted="false">%d. %s</string>
-    <string name="rank_three" formatted="false">%d. %s</string>
-    <string name="rank_two" formatted="false">%d. %s</string>
     <string name="read_write_file">Prístup a ukladanie súborov na toto zariadenie</string>
     <string name="read_write_file_a">Prístup k súborom a fotografiám uloženým vo vašom zariadení a ich ukladanie (na ukladanie stiahnutého obsahu)</string>
     <string name="recently_used">Nedávno použité</string>
@@ -1410,7 +1410,7 @@ mm"</string>
     <string name="rewarded_ad_no_ad_download">Reklamu sa nepodarilo prehrať. Túto položku si môžete stiahnuť teraz!</string>
     <string name="rewarded_ad_pop_des">Pozeranie videí s reklamným obsahom vám umožní sťahovať prémiové motívy a tiež odmeniť našich dizajnérov. Pozerať teraz?</string>
     <string name="rewarded_ad_pop_des_for_lw">Pozeranie reklamných videí vám umožní sťahovať si živé tapety a odmeniť našich dizajnérov. Pozerať teraz?</string>
-    <string name="rewarded_ad_pop_ok">Pozrieť</string>
+    <string name="rewarded_ad_pop_ok">Hodinky</string>
     <string name="rewarded_ad_pop_title">Prémiové motívy</string>
     <string name="rewarded_ad_watch_again_pop">Ak chcete stiahnuť tento platený motív, dopozerajte video. Sledovať teraz?</string>
     <string name="rewarded_ad_watch_again_pop_for_lw">Pre stiahnutie tapety si najskôr pozrite video. Pozrieť teraz?</string>
@@ -1506,6 +1506,9 @@ mm"</string>
     <string name="system_phone">Hovory</string>
     <string name="system_precust">Predinštalované</string>
     <string name="tab">Karta</string>
+    <string name="talkback_font_detail_font_preview">%1$s%2$s</string>
+    <string name="talkback_ringtone_time_three">%1$s %2$s</string>
+    <string name="talkback_title_my_miwallpaper_resource">%1$s%2$d</string>
     <string name="text_billing_info">Fakturačné údaje</string>
     <string name="text_cancel_subscription_service">Zrušiť toto predplatné teraz?</string>
     <string name="text_content_update">Denne nový obsah</string>
@@ -1514,7 +1517,7 @@ mm"</string>
     <string name="text_pay_monthly" formatted="false">Začiatok %s, obnovuje sa automaticky za %s/mesiac až do zrušenia</string>
     <string name="text_pay_weekly" formatted="false">Začiatok %s, obnovuje sa automaticky za %s/týždeň až do zrušenia</string>
     <string name="text_pay_yearly" formatted="false">Začiatok %s, obnovuje sa automaticky za %s/rok až do zrušenia</string>
-    <string name="text_play">Prehrať</string>
+    <string name="text_play">Spustiť hru</string>
     <string name="text_start_time_format">d. M.</string>
     <string name="text_status_apply_now">Použiť</string>
     <string name="text_status_be_subscribing">Prihlásené na odber</string>
@@ -1576,7 +1579,7 @@ mm"</string>
     <string name="theme_apply_audio_dialog_item_ringtone">Tón zvonenia</string>
     <string name="theme_apply_failured">Nepodarilo sa nastaviť</string>
     <string name="theme_apply_fully">Motív úspešne použitý. Denná tapeta bola vypnutá.</string>
-    <string name="theme_apply_success">Úspešne použité</string>
+    <string name="theme_apply_success">Úspešne nastavené</string>
     <string name="theme_applying">Nastavuje sa…</string>
     <string name="theme_batch_update_all">Aktualizovať všetko</string>
     <string name="theme_batch_update_dlg_title">Aktualizovať tému</string>
@@ -1602,7 +1605,7 @@ mm"</string>
     <string name="theme_component_title_miwallpaper">MIUI tapeta</string>
     <string name="theme_component_title_mms">Správy</string>
     <string name="theme_component_title_notification">Upozornenia</string>
-    <string name="theme_component_title_others">Ostatné</string>
+    <string name="theme_component_title_others">Iné</string>
     <string name="theme_component_title_photo_frame">Fotorámček</string>
     <string name="theme_component_title_ringtone">Tón zvonenia</string>
     <string name="theme_component_title_statusbar">Stavový riadok</string>
@@ -1611,7 +1614,7 @@ mm"</string>
     <string name="theme_desc">Motívy vám umožňujú prispôsobiť viaceré elementy UI naprieč celým systémom.</string>
     <string name="theme_desc_a">Zažite so svojím zariadením viac zábavy s novými motívmi, tapetami, písmami a zvoneniami.</string>
     <string name="theme_desc_b">Vitajte v Motívoch! Zažite so svojím zariadením viac zábavy s novými motívmi, tapetami, písmami a zvoneniami.</string>
-    <string name="theme_description_title_customized">Vlastné</string>
+    <string name="theme_description_title_customized">Prispôsobiť</string>
     <string name="theme_description_title_default">Predvolené</string>
     <string name="theme_detail">Podrobnosti</string>
     <string name="theme_detail_tab_comment">Komentáre</string>
@@ -1629,24 +1632,24 @@ mm"</string>
     <string name="theme_fresh_man_notifaction">Skúste nové motívy</string>
     <string name="theme_home_page">Domov</string>
     <string name="theme_immediately_apply_tip">Aktualizovať tému teraz?</string>
-    <string name="theme_import_from_sdcard">Importovať</string>
+    <string name="theme_import_from_sdcard">Import</string>
     <string name="theme_is_external_priority_storage">Uložiť na SD kartu</string>
     <string name="theme_is_external_priority_storage_summary">Motívy aplikácie sa reštartujú pre použitie tohto nastavenia.</string>
-    <string name="theme_multiple_button_title_customize">Upraviť tému</string>
+    <string name="theme_multiple_button_title_customize">Prispôsobiť</string>
     <string name="theme_name">%1$s</string>
     <string name="theme_no">Nie</string>
     <string name="theme_on_the_phone_alert">Nie je možné prehrať počas hovorov</string>
     <string name="theme_recommend">Podobné motívy</string>
     <string name="theme_resource_widget_delete">Nedostatok miesta na Domovskej obrazovke</string>
     <string name="theme_resource_widget_removed">Tento widget už nie je k dispozícii</string>
-    <string name="theme_select_others">Ostatné</string>
+    <string name="theme_select_others">Prehľadávať</string>
     <string name="theme_setting">Nastavenia</string>
     <string name="theme_user_agreement_allow">Súhlasím</string>
-    <string name="theme_user_agreement_content1">"Používaním tohto produktu súhlasíte s našimi "</string>
+    <string name="theme_user_agreement_content1">Používaním tohto produktu súhlasíte s našimi</string>
     <string name="theme_user_agreement_content2">Podmienky používania</string>
-    <string name="theme_user_agreement_content3">" a "</string>
-    <string name="theme_user_agreement_content4">Zásady ochrany osobných údajov</string>
-    <string name="theme_user_agreement_content5">". Súhlasíte s použitím internetového pripojenia? "</string>
+    <string name="theme_user_agreement_content3">a</string>
+    <string name="theme_user_agreement_content4">Zásadami ochrany osobných údajov</string>
+    <string name="theme_user_agreement_content5">. Súhlasíte s použitím internetového pripojenia?</string>
     <string name="theme_user_agreement_exit">Nesúhlasím</string>
     <string name="theme_user_agreement_remind_again">Zobraziť Podmienky používania</string>
     <string name="theme_user_agreement_remind_never">Viac nezobrazovať</string>
@@ -1655,7 +1658,7 @@ mm"</string>
     <string name="theme_yes">Áno</string>
     <string name="themes_has_an_updated_version">Je dostupná nová verzia aplikácie Motívy</string>
     <string name="themes_might_like">Motívy, ktoré by sa vám mohli páčiť</string>
-    <string name="third_party_dialog_open_title">Zapnite Dennú tapetu</string>
+    <string name="third_party_dialog_open_title">Zapnúť Dennú tapetu</string>
     <string name="third_party_open_dlg_subtitle">Prispôsobte si Zamknutú obrazovku pridaním vlastných fotografií do prezentácie Dennej tapety spoločne s odporúčanými obrázkami.</string>
     <string name="third_party_pickers_activity_title">Pridať %1$s</string>
     <string name="third_privacy_policies">Zásady ochrany osobných údajov tretích strán</string>

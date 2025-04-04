@@ -114,6 +114,10 @@
     <string name="accessibility_keyboard_ok_button">Enter</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">문자</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">부호 잠금</string>
+    <string name="accessibility_sliding_button_state_description_off">끔</string>
+    <string name="accessibility_sliding_button_state_description_on">켜짐</string>
+    <string name="accessibility_tab_state_description_unselect">선택되지 않음</string>
+    <string name="accessibility_tab_statedesc_unselect">선택되지 않음</string>
     <string name="action_button_text_100">최적화</string>
     <string name="action_button_text_60">수정</string>
     <string name="action_button_text_60_80">수정</string>
@@ -687,6 +691,7 @@
     <string name="back_modifypassword">뒤로가서 비밀번호 유형 변경</string>
     <string name="back_sound_data">모바일 데이터를 켜고 다시 시도하십시오.</string>
     <string name="back_sound_fail">설정 실패, 통신사 설정이 변경되었습니다. 현재 SIM 카드를 데이터 카드로 설정하신 후 네트워크에 연결하시고 다시 시도하십시오.</string>
+    <string name="back_sound_no_support_oversea">SIM %1$d은(는) 이 플랜을 지원하지 않습니다</string>
     <string name="back_sound_success">설정 성공</string>
     <string name="back_sound_support">먼저 Wi-Fi 끄기</string>
     <string name="back_sound_support_china">Turn off WLAN first</string>
@@ -761,6 +766,7 @@
     <string name="beauty_fun_filter">미화</string>
     <string name="beauty_fun_front_light">전면 필라이트</string>
     <string name="beauty_fun_light">필라이트</string>
+    <string name="beauty_fun_portrait_center_check">울트라 HD 모드는 FocusFrame을 지원하지 않습니다</string>
     <string name="beauty_fun_privacy">프라이버시 카메라</string>
     <string name="beauty_fun_privacy_dialog_message">카메라로 안면 인식 기능을 사용 시, 자동으로 얼굴을 감지하고 그 이외의 부분을 블러 처리할 것입니다.</string>
     <string name="beauty_fun_privacy_dialog_tips">이 기능은 안면 인식의 성공률에 영향을 미칠 수 있습니다</string>
@@ -771,6 +777,7 @@
     <string name="beauty_fun_privacy_tips">프라이버시 카메라는 호환 가능한 일부 안면 인식 기능 시나리오에서 기본으로 설정될 것입니다</string>
     <string name="beauty_fun_screen_light">화면 필라이트</string>
     <string name="beauty_fun_settings_light">필라이트 밝기</string>
+    <string name="beauty_fun_ultra_clear_check">FocusFrame은 울트라 HD 모드를 지원하지 않습니다</string>
     <string name="beauty_fun_video_effect">동영상 미화</string>
     <string name="beauty_portrait_center_desc">영상 통화 및 회의에서 얼굴을 자동으로 식별하고 중앙에 배치합니다. 이 기능은 일부 앱에서는 지원되지 않습니다.</string>
     <string name="beauty_settings">설정</string>
@@ -983,6 +990,11 @@
     <string name="cancal_to_setting_fingerprint">취소</string>
     <string name="cancel">취소</string>
     <string name="cancel_button">취소</string>
+    <string name="car_sickness_relief_comment_text">차량의 움직임이 감지되면 화면 양쪽에 점이 표시되어 차량의 움직임 여부를 알려주며, 이를 통해 멀미 발생을 늦추는 데 도움이 될 수 있습니다.</string>
+    <string name="car_sickness_relief_example_text_1">차량 가속 또는 감속 시</string>
+    <string name="car_sickness_relief_example_text_2">차량 회전 또는 차선 변경 시</string>
+    <string name="car_sickness_remind_time_title">모션 표시기</string>
+    <string name="car_sickness_title">멀미 완화</string>
     <string name="card_main_apkclean_title">APK 삭제</string>
     <string name="card_main_appdataclean_title">앱 데이터 지우기</string>
     <string name="card_main_applock_action">켜기</string>
@@ -1928,6 +1940,8 @@
     <string name="gamebox_screenshot">스크린샷</string>
     <string name="gamebox_simcard">SIM 카드 전환</string>
     <string name="gamebox_time">타이머</string>
+    <string name="gamebox_time_elapsed_time_talkback">%1$s %2$s</string>
+    <string name="gamebox_time_ready_to_start_talkback">시작되지 않음</string>
     <string name="gamebox_type_close">표시하지 않기</string>
     <string name="gamebox_type_float">고정된 바로가기</string>
     <string name="gamebox_type_gesture">스와이프하여 표시</string>
@@ -2003,9 +2017,19 @@
     <string name="gb_barrage_chat_desc">머지않아 뭔가 멋진 일이 일어날 거라고 믿어 의심치 않습니다</string>
     <string name="gb_barrage_chat_pre_desc">미리보기</string>
     <string name="gb_barrage_chat_text_color">색상</string>
+    <string name="gb_barrage_chat_text_color_black_talkback">검은색</string>
+    <string name="gb_barrage_chat_text_color_blue_talkback">파란색</string>
+    <string name="gb_barrage_chat_text_color_red_talkback">빨간색</string>
+    <string name="gb_barrage_chat_text_color_white_talkback">흰색</string>
+    <string name="gb_barrage_chat_text_color_yellow_talkback">노란색</string>
     <string name="gb_barrage_chat_text_size">텍스트 크기</string>
     <string name="gb_barrage_chat_text_size_big">크게</string>
+    <string name="gb_barrage_chat_text_size_largest_talkback">아주 크게</string>
+    <string name="gb_barrage_chat_text_size_medium_talkback">중간</string>
+    <string name="gb_barrage_chat_text_size_slightly_large_talkback">더 크게</string>
+    <string name="gb_barrage_chat_text_size_slightly_small_talkback">더 작게</string>
     <string name="gb_barrage_chat_text_size_small">작게</string>
+    <string name="gb_barrage_chat_text_size_smallest_talkback">아주 작게</string>
     <string name="gb_barrage_chat_text_speed">속도</string>
     <string name="gb_barrage_chat_text_speed_faster">빠르게</string>
     <string name="gb_barrage_chat_text_speed_moderate">중간</string>
@@ -2271,6 +2295,7 @@
     <string name="gb_voice_changer_user_status_renew">갱신</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">구독이 만료되었습니다. 구독을 갱신하여 더 많은 혜택을 누려보십시오!</string>
     <string name="gb_voice_changer_user_vip_expired">만료됨</string>
+    <string name="gb_voice_changer_user_vip_loading">잠시만 기다려 주십시오…</string>
     <string name="gb_voice_changer_user_vip_remain_time">만료 날짜: %s</string>
     <string name="gb_wild_mode_game_performance_enhance">게이밍 성능 향상</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"게임 플레이 중
@@ -2289,6 +2314,8 @@
     <string name="gb_xunyou_gift_type_two_new">Xunyou %d일 가속</string>
     <string name="gd_app_edit_done">완료</string>
     <string name="gd_app_edit_title_new">플로팅 창 바로가기 편집</string>
+    <string name="gd_beauty_manage_summary">이 기능을 사용하려면 영상 통화 중 측면 도구상자 열기</string>
+    <string name="gd_beauty_manage_title">영상 통화 미화</string>
     <string name="gd_dock_shortcut_fullscreen">전체화면</string>
     <string name="gd_dock_shortcut_splitescreen">분할 화면</string>
     <string name="gd_setting_conversation">회의 도구</string>
@@ -2302,6 +2329,7 @@
     <string name="gd_setting_dock_title">사이드바</string>
     <string name="gd_setting_dock_video_summary">동영상 시청 시 돌비 애트모스 등의 효과를 활용하십시오</string>
     <string name="gd_setting_dock_video_summary_new">동영상 시청 중 도구 및 효과 사용</string>
+    <string name="gd_setting_group_custom_beauty_new">영상 통화를 위한 미화 관리</string>
     <string name="gd_setting_group_custom_conversation_apps">통화 성문 녹음</string>
     <string name="gd_setting_group_custom_gtb_apps">게임</string>
     <string name="gd_setting_group_custom_gtb_apps_new">게임 앱 관리</string>
@@ -2884,6 +2912,10 @@ SMS 전송"</string>
     <string name="miui_optimization_close_final_tip">시스템 최적화를 끄시겠습니까?</string>
     <string name="miui_optimization_close_title">이 기능은 개발자를 위한 것으로 일반 사용자에게는 편리하지 않을 수 있습니다. 시스템 최적화를 끄시면 다음의 사항이 변경될 수 있습니다:</string>
     <string name="miuix_access_state_desc">선택됨</string>
+    <string name="miuix_accessibility_title">제목</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">편집 모드 종료</string>
+    <string name="miuix_appcompat_accessibility_new_message">새 메시지</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">편집 모드로 들어가기</string>
     <string name="miuix_appcompat_action_mode_deselect_all">전체 선택 해제</string>
     <string name="miuix_appcompat_action_mode_select_all">모두 선택</string>
     <string name="miuix_appcompat_action_mode_title_empty">항목 선택</string>
@@ -2899,6 +2931,18 @@ SMS 전송"</string>
     <string name="miuix_appcompat_select_all">모두 선택</string>
     <string name="miuix_appcompat_select_all_description">전체 선택</string>
     <string name="miuix_appcompat_select_item">항목 선택</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">닫기 위해 아래로 스크롤</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">반 화면 모드로 전환하기 위해 아래로 스크롤</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">최소화하기 위해 아래로 스크롤</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">반 화면 모드로 전환하기 위해 위로 스크롤</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">최대화하기 위해 위로 스크롤</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">반 화면</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">최대화됨</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">최소화됨</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">반 화면 모드로 전환됨</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">최대화 모드로 전환됨</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">최소화 모드로 전환됨</string>
+    <string name="miuix_progressbar_loading">로드 중</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">아래로 당겨 새로고침</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">새로고침 성공</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">새로고침 중…</string>
@@ -2907,6 +2951,7 @@ SMS 전송"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">결과가 더 없음</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">잠시만 기다려주십시오…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">항목 불러오기 실패</string>
+    <string name="miuix_show_password">비밀번호 표시</string>
     <string name="mixed_need_to_confirm">다시 입력하여 확인</string>
     <string name="mixed_password_confirmed_header_confirm">설정 성공, 확인을 탭하십시오.</string>
     <string name="mixed_password_confirmed_header_continue">설정 성공, \"다음\"을 탭하십시오.</string>
@@ -3305,6 +3350,7 @@ SMS 전송"</string>
     <string name="optimize_result_toast_system_no_item_selected">선택한 항목 없음</string>
     <string name="optional_permissions">선택 접근권한</string>
     <string name="optional_permissions_desc">이러한 권한은 추가 기능을 사용하실 때 필요합니다.</string>
+    <string name="optmizingbar_item_img_description">완료</string>
     <string name="optmizingbar_optimize_done">최적화됨</string>
     <string name="optmizingbar_ready">최적화 중…</string>
     <string name="optmizingbar_stop_optmize">정지</string>
@@ -3470,9 +3516,11 @@ SMS 전송"</string>
     <string name="pc_going_to_extreme_mode">최대 절전 모드 진입</string>
     <string name="pc_handle_battery_level">그립</string>
     <string name="pc_have_no_battery_issue">문제 없음</string>
+    <string name="pc_health_charge_default">완전 충전</string>
     <string name="pc_health_charge_protect_noti_summary_title">기기의 배터리가 %1$s에 도달하면 충전 중지</string>
     <string name="pc_health_charge_protect_notification_summary">배터리 노화 감소를 위해 배터리 보호 켜기</string>
     <string name="pc_health_charge_protect_summary">배터리 수명을 연장하기 위해 배터리가 %1$s에 도달하면 충전 중지</string>
+    <string name="pc_health_charge_protect_summary_new">배터리 수명을 연장하기 위해 배터리 수준이 %1$s에 도달하면 기기가 충전을 중지하고 예약된 경우에만 완전히 충전됩니다.</string>
     <string name="pc_health_charge_protect_title">배터리 보호</string>
     <string name="pc_hide_more_power_rank_apps">숨기기</string>
     <string name="pc_hidemode_normal">균형</string>
@@ -3491,6 +3539,8 @@ SMS 전송"</string>
     <string name="pc_install_manager">USB로 설치</string>
     <string name="pc_intellect_charge_protect_summary">사용 시나리오에 기반하여 충전 조정</string>
     <string name="pc_intellect_charge_protect_title">최적화된 충전</string>
+    <string name="pc_is_exiting_low_temperature">"저온 내구성 모드
+끄는 중"</string>
     <string name="pc_is_exiting_super_power">"울트라 배터리 절약
 끄는 중"</string>
     <string name="pc_keywords_fast_charge">급속 충전</string>
@@ -3512,7 +3562,7 @@ SMS 전송"</string>
     <string name="pc_low_battery_fast_charge_summary">화면이 꺼져 있고 배터리가 적을 시 제공된 충전기를 연결하여 충전 속도를 가속합니다. 이 기능으로 인해 기기가 과열될 수 있습니다.</string>
     <string name="pc_low_temp_charge_summary">충전기를 연결된 상태로 유지하고 화면이 꺼진 후 배터리가 예열될 때까지 기다려 정상적으로 충전하십시오</string>
     <string name="pc_low_temp_charge_title">낮은 온도 충전</string>
-    <string name="pc_low_temperature_extreme_endurance_summary">주변 온도가 극도로 낮을 시 배터리 수명을 연장하기 위해 기기 성능 제한</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">추운 환경에서 배터리 수명을 연장하기 위해 기기 성능 제한</string>
     <string name="pc_low_temperature_extreme_endurance_title">저온 내구성 모드</string>
     <string name="pc_main_activity_back">뒤로</string>
     <string name="pc_main_battery_text_day">%1$s분 추가됨, 약 %2$s일 남음</string>
@@ -5313,6 +5363,9 @@ SMS 전송"</string>
     <string name="tab_sms">SMS</string>
     <string name="tab_sort_all">전체</string>
     <string name="tab_title">차단 목록</string>
+    <string name="talkback_virus_scan_omitted">스캔되지 않음</string>
+    <string name="talkback_virus_scan_risky">위험</string>
+    <string name="talkback_virus_scan_safe">보안</string>
     <string name="tc_cmd_invalid">템플릿이 잘못되었습니다.</string>
     <string name="tc_get_cmd_error">템플릿 가져오기 실패</string>
     <string name="tc_parse_error">SMS를 구문 분석 실패</string>

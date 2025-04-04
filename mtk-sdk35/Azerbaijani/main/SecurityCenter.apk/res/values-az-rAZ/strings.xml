@@ -87,6 +87,10 @@
     <string name="accessibility_keyboard_ok_button">Daxil edin</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Hərflər</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Simvol kilidi</string>
+    <string name="accessibility_sliding_button_state_description_off">söndür</string>
+    <string name="accessibility_sliding_button_state_description_on">aktiv</string>
+    <string name="accessibility_tab_state_description_unselect">Seçilməmiş</string>
+    <string name="accessibility_tab_statedesc_unselect">Seçilməmiş</string>
     <string name="action_button_text_100">Optimallaşdır</string>
     <string name="action_button_text_60">Düzəlt</string>
     <string name="action_button_text_60_80">Düzəlt</string>
@@ -660,6 +664,7 @@ Heç bir tətbiq məlumatını itirməyəcəksiniz."</string>
     <string name="back_modifypassword">Şifrə növünü dəyişdirməyə geri qayıt</string>
     <string name="back_sound_data">Mobil interneti açın və yenidən cəhd edin.</string>
     <string name="back_sound_fail">Təyin edilə bilmədi. Operator tənzimləmələri dəyişdirildi. Mövcud SIM kartınızı internet kartı olaraq təyin edin, şəbəkəyə qoşulun, və yenidən cəhd edin.</string>
+    <string name="back_sound_no_support_oversea">SIM %1$d bu planı dəstəkləmir</string>
     <string name="back_sound_success">Uğurla təyin edildi</string>
     <string name="back_sound_support">Əvvəlcə Wi-Fi-ı söndürün</string>
     <string name="back_sound_support_china">Turn off WLAN first</string>
@@ -734,6 +739,7 @@ Heç bir tətbiq məlumatını itirməyəcəksiniz."</string>
     <string name="beauty_fun_filter">Gözəlləşdir</string>
     <string name="beauty_fun_front_light">Ön işıq doldurma</string>
     <string name="beauty_fun_light">İşıq doldurma</string>
+    <string name="beauty_fun_portrait_center_check">Ultra HD rejimi FocusFrame-i dəstəkləmir</string>
     <string name="beauty_fun_privacy">Gizlilik kamerası</string>
     <string name="beauty_fun_privacy_dialog_message">Kameranı üzün tanınması funksiyaları üçün istifadə etdiyiniz zaman üzünüz avtomatik aşkarlanacaq və çəkilmiş digər sahələr maskalanacaq.</string>
     <string name="beauty_fun_privacy_dialog_tips">Bu xüsusiyyət üzün tanınmasının müvəffəqiyyət dərəcəsini aşağı sala bilər</string>
@@ -744,6 +750,7 @@ Heç bir tətbiq məlumatını itirməyəcəksiniz."</string>
     <string name="beauty_fun_privacy_tips">Gizlilik kamerası indi defolt olaraq uyğun üz tanıma funksiyaları ilə istifadə olunacaq</string>
     <string name="beauty_fun_screen_light">Ekran işıq doldurma</string>
     <string name="beauty_fun_settings_light">İşığın parlaqlığını doldurun</string>
+    <string name="beauty_fun_ultra_clear_check">FocusFrame Ultra HD rejimini dəstəkləmir</string>
     <string name="beauty_fun_video_effect">Video üçün gözəlləşdir</string>
     <string name="beauty_portrait_center_desc">Video zənglərdə və görüşlərdə üzləri avtomatik müəyyənləşdirin və mərkəzləşdirin. Bu funksiya bəzi tətbiqlər tərəfindən dəstəklənmir.</string>
     <string name="beauty_settings">Tənzimləmələr</string>
@@ -944,6 +951,11 @@ Lakin, bəzi əməliyyatlarınız hələ tamamlanmayıb. Razılığı geri çək
     <string name="cancal_to_setting_fingerprint">Ləğv et</string>
     <string name="cancel">Ləğv et</string>
     <string name="cancel_button">Ləğv et</string>
+    <string name="car_sickness_relief_comment_text">Nəqliyyat vasitəsinin hərəkəti aşkar edildikdə, ekranın hər iki tərəfində nəqliyyat vasitəsinin hərəkət edib etmədiyini göstərmək üçün nöqtələr göstərilir və bu, hərəkət xəstəliyinin başlanmasını gecikdirməyə kömək edə bilər.</string>
+    <string name="car_sickness_relief_example_text_1">Nəqliyyat vasitəsi sürətini artırdıqda və ya yavaşladıqda</string>
+    <string name="car_sickness_relief_example_text_2">Nəqliyyat vasitəsi dönəndə və ya zolaq dəyişəndə</string>
+    <string name="car_sickness_remind_time_title">Hərəkət göstəriciləri</string>
+    <string name="car_sickness_title">Hərəkət xəstəliyinin aradan qaldırılması</string>
     <string name="card_main_apkclean_title">APK-ləri sil</string>
     <string name="card_main_appdataclean_title">Tətbiq məlumatını təmizlə</string>
     <string name="card_main_applock_action">Aç</string>
@@ -1806,6 +1818,8 @@ Nömrə istisnalara əlavə ediləcək, amma əvvəlcədən əngəllənmiş elem
     <string name="gamebox_screenshot">Ekran görüntüsü</string>
     <string name="gamebox_simcard">SIM kartları dəyişdir</string>
     <string name="gamebox_time">Taymer</string>
+    <string name="gamebox_time_elapsed_time_talkback">%1$s %2$s</string>
+    <string name="gamebox_time_ready_to_start_talkback">Not started</string>
     <string name="gamebox_type_close">Göstərmə</string>
     <string name="gamebox_type_float">Sabit qısayol</string>
     <string name="gamebox_type_gesture">Göstərmək üçün sürüşdürün</string>
@@ -1881,9 +1895,19 @@ Nömrə istisnalara əlavə ediləcək, amma əvvəlcədən əngəllənmiş elem
     <string name="gb_barrage_chat_desc">Həmişə gözəl bir şey baş verəcəyinə inanıram</string>
     <string name="gb_barrage_chat_pre_desc">Önbaxış</string>
     <string name="gb_barrage_chat_text_color">Rəng</string>
+    <string name="gb_barrage_chat_text_color_black_talkback">Black</string>
+    <string name="gb_barrage_chat_text_color_blue_talkback">Blue</string>
+    <string name="gb_barrage_chat_text_color_red_talkback">Red</string>
+    <string name="gb_barrage_chat_text_color_white_talkback">White</string>
+    <string name="gb_barrage_chat_text_color_yellow_talkback">Yellow</string>
     <string name="gb_barrage_chat_text_size">Mətn ölçüsü</string>
     <string name="gb_barrage_chat_text_size_big">Böyük</string>
+    <string name="gb_barrage_chat_text_size_largest_talkback">Largest</string>
+    <string name="gb_barrage_chat_text_size_medium_talkback">Medium</string>
+    <string name="gb_barrage_chat_text_size_slightly_large_talkback">Larger</string>
+    <string name="gb_barrage_chat_text_size_slightly_small_talkback">Smaller</string>
     <string name="gb_barrage_chat_text_size_small">Kiçik</string>
+    <string name="gb_barrage_chat_text_size_smallest_talkback">Smallest</string>
     <string name="gb_barrage_chat_text_speed">Sürət</string>
     <string name="gb_barrage_chat_text_speed_faster">Fast</string>
     <string name="gb_barrage_chat_text_speed_moderate">Orta</string>
@@ -2149,6 +2173,7 @@ və Səs dəyişdiricimizi kəşf et!"</string>
     <string name="gb_voice_changer_user_status_renew">Yenilə</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Abunəliyinizin vaxtı bitdi. Faydaları almaq üçün abunəliyinizi indi yeniləyin!</string>
     <string name="gb_voice_changer_user_vip_expired">Müddəti bitdi</string>
+    <string name="gb_voice_changer_user_vip_loading">Just a sec…</string>
     <string name="gb_voice_changer_user_vip_remain_time">Son istifadə tarixi: %s</string>
     <string name="gb_wild_mode_game_performance_enhance">Oyun üçün performansı artırın</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"Oyun seanslarınızın əsas məqamlarını
@@ -2167,6 +2192,8 @@ və Səs dəyişdiricimizi kəşf et!"</string>
     <string name="gb_xunyou_gift_type_two_new">Xunyou %d-gün sürətləndirmə</string>
     <string name="gd_app_edit_done">Hazırdır</string>
     <string name="gd_app_edit_title_new">Sürüşən pəncərə qısayollarını redaktə edin</string>
+    <string name="gd_beauty_manage_summary">Bu funksiyadan istifadə etmək üçün video zənglər zamanı yan alət qutusundan açın</string>
+    <string name="gd_beauty_manage_title">Video zənglər üçün gözəlləşdirin</string>
     <string name="gd_dock_shortcut_fullscreen">Tam ekran</string>
     <string name="gd_dock_shortcut_splitescreen">Ekran bölmə</string>
     <string name="gd_setting_conversation">Konfrans alətləri</string>
@@ -2180,6 +2207,7 @@ və Səs dəyişdiricimizi kəşf et!"</string>
     <string name="gd_setting_dock_title">Kənar çubuq</string>
     <string name="gd_setting_dock_video_summary">Videolara baxarkən Dolby Atmos kimi ekkeftlərdən istifadə et</string>
     <string name="gd_setting_dock_video_summary_new">Videolara baxarkən alət və effektlərdən istifadə et</string>
+    <string name="gd_setting_group_custom_beauty_new">Video zənglər üçün gözəlləşdirini idarə edin</string>
     <string name="gd_setting_group_custom_conversation_apps">Zənglər üçün səs yazısı qeyd et</string>
     <string name="gd_setting_group_custom_gtb_apps">Oyunlar</string>
     <string name="gd_setting_group_custom_gtb_apps_new">Oyun tətbiqləri idarə et</string>
@@ -2409,7 +2437,7 @@ to join our egg hunt!"</string>
     <string name="hints_scan_result_phone_safe">Hər şey qaydasında görünür</string>
     <string name="hints_scan_result_safe">Təhlükəsiz</string>
     <string name="hints_scanning">Analiz edilir…</string>
-    <string name="hints_scanning_text">Analiz edilir…</string>
+    <string name="hints_scanning_text">Skan edilir…</string>
     <string name="hints_virus_apk_list_item_summary">apk</string>
     <string name="hints_virus_apk_summary">%s (apk)</string>
     <string name="hints_virus_app_list_item_summary">tətbiq</string>
@@ -2748,6 +2776,10 @@ Cihazınız indi %s daha sürətlidir."</string>
     <string name="miui_optimization_close_final_tip">Sistem optimallaşdırılması deaktiv edilsin?</string>
     <string name="miui_optimization_close_title">Bu xüsusiyyət tərtibatçılar üçün nəzərdə tutulub və ümumi istifadəçilər üçün əlverişli olmaya bilər. Sistem optimallaşdırmasını söndürmək aşağıdakı dəyişikliklərə səbəb ola bilər:</string>
     <string name="miuix_access_state_desc">Seçildi</string>
+    <string name="miuix_accessibility_title">Başlıq</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Düzəliş rejimindən çıxış</string>
+    <string name="miuix_appcompat_accessibility_new_message">Yeni mesaj</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Düzəliş rejimində başla</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Bütün seçimi ləğv et</string>
     <string name="miuix_appcompat_action_mode_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elementləri seç</string>
@@ -2763,6 +2795,18 @@ Cihazınız indi %s daha sürətlidir."</string>
     <string name="miuix_appcompat_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_select_all_description">Hamısını seç</string>
     <string name="miuix_appcompat_select_item">Elementləri seç</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Bağlamaq üçün aşağı sürüşdürün</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Yarım ekran rejimine keçmək üçün aşağı sürüşdürün</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Minimize edilmiş rejimə keçmək üçün aşağı sürüşdürün</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Yarım ekran rejimine keçmək üçün yuxarı sürüşdürün</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Maksimal rejimə keçmək üçün yuxarı sürüşdürün</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Yarım ekran</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maksimal</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimize edilmiş</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Yarım ekran rejima keçildi</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Maksimal rejima keçildi</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Minimize edilmiş rejima keçildi</string>
+    <string name="miuix_progressbar_loading">Yüklənir</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yeniləmək üşün aşağıya çəkin</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uğurla yeniləndi</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Yenilənir…</string>
@@ -2771,6 +2815,7 @@ Cihazınız indi %s daha sürətlidir."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">İndilik bu qədər</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Bir saniyə…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Eementlər yüklənə bilmədi</string>
+    <string name="miuix_show_password">Parolu göstər</string>
     <string name="mixed_need_to_confirm">Təsdiqləmək üçün yenidən daxil edin</string>
     <string name="mixed_password_confirmed_header_confirm">Uğurla təyin edildi. Təsdiqləmək üçün toxunun.</string>
     <string name="mixed_password_confirmed_header_continue">Uğurla təyin edildi.\"Növbəti\" seçiminə toxunun.</string>
@@ -2787,7 +2832,7 @@ Cihazınız indi %s daha sürətlidir."</string>
     <string name="modify_risk_app_permission_dialog_confirm">Aktiv et</string>
     <string name="modify_risk_app_permission_dialog_message">Məxfiliyini qorumaq üçün bu tətbiqə İcazələr verdikdən sonra \"Boş mesajlara qayıt\" aktiv etməyi tövsiyə edirik</string>
     <string name="modify_risk_app_permission_dialog_title">Boş mesajlara qayıdın</string>
-    <string name="modify_risk_app_permission_steps">%1$d. Aç &lt;b>Tənzimləmələr&lt;/b> > &lt;b>Tətbiqlər&lt;/b>.&lt;br>&lt;/br> %2$d. Seç &lt;b>Tətbiqlət&lt;/b>.&lt;br>&lt;/br> %3$d. Seç &lt;b>icazələri idarə et&lt;/b>.&lt;br>&lt;/br> %4$d. Bas ︙ ikonunu və seç&lt;b>İcazələri kiliddən aç&lt;/b>.&lt;br>&lt;/br> %5$d. Sonra fərdi icazələr verə bilərsən</string>
+    <string name="modify_risk_app_permission_steps">%1$d. Açın &lt;b>Tənzimləmələr&lt;/b> > &lt;b>Tətbiqlər&lt;/b>.&lt;br>&lt;/br> %2$d. Seçin &lt;b>Tətbiqlər&lt;/b>.&lt;br>&lt;/br> %3$d. Seçin &lt;b>İcazələri idarə et&lt;/b>.&lt;br>&lt;/br> %4$d. ︙ ikonuna basın və seçin &lt;b>İcazələri kiliddən aç&lt;/b>.&lt;br>&lt;/br> %5$d. Daha sonra fərdi icazələr verə bilərsiniz.</string>
     <string name="modifypassword">Şifrə növünü dəyişdirin</string>
     <string name="monday">Bazar ertəsi</string>
     <string name="monday_short">B.e.</string>
@@ -3136,6 +3181,7 @@ Marşurutlayıcınıza qoşulmaq üçün başqa Ethernet kabelindən istifadə e
     <string name="optimize_result_toast_system_no_item_selected">Heç bir element seçilmədi</string>
     <string name="optional_permissions">İxtiyari icazələr</string>
     <string name="optional_permissions_desc">Əlavə xüsusiyyətlərdən istifadə etdiyiniz zaman bu icazələr tələb olunur.</string>
+    <string name="optmizingbar_item_img_description">Hazırdır</string>
     <string name="optmizingbar_optimize_done">Optimallaşdırıldı</string>
     <string name="optmizingbar_ready">Optimallaşdırılır…</string>
     <string name="optmizingbar_stop_optmize">Dayandır</string>
@@ -3300,9 +3346,11 @@ Marşurutlayıcınıza qoşulmaq üçün başqa Ethernet kabelindən istifadə e
     <string name="pc_going_to_extreme_mode">Qışlama rejiminə daxil olur</string>
     <string name="pc_handle_battery_level">Tutmaq</string>
     <string name="pc_have_no_battery_issue">Problem yoxdur</string>
+    <string name="pc_health_charge_default">Tamamilə şarj edin</string>
     <string name="pc_health_charge_protect_noti_summary_title">Batareya səviyyəsi %1$s çatdıqda cihaz şarj etməyi dayandıracaq</string>
     <string name="pc_health_charge_protect_notification_summary">Batareyanın köhnəlməsinin qarşısını almaq üçün Batareya qorunmasını aktiv et</string>
     <string name="pc_health_charge_protect_summary">Batareyanın ömrünü uzatmaq üçün, batareya səviyyəsi %1$s çatanda cihaz enerji yığmanı dayandıracaq.</string>
+    <string name="pc_health_charge_protect_summary_new">Batareyanın ömrünü uzatmaq üçün batareya səviyyəsi %1$s çatdıqda cihaz şarj etməyi dayandıracaq və yalnız planlaşdırıldığı zaman tam şarj olacaq</string>
     <string name="pc_health_charge_protect_title">Batareyanın qorunması</string>
     <string name="pc_hide_more_power_rank_apps">Gizlət</string>
     <string name="pc_hidemode_normal">Tarazlaşdırılmış</string>
@@ -3321,6 +3369,8 @@ Marşurutlayıcınıza qoşulmaq üçün başqa Ethernet kabelindən istifadə e
     <string name="pc_install_manager">USB vasitəsilə quraşdır</string>
     <string name="pc_intellect_charge_protect_summary">İstifadə ssenariləri əsasında şarjı tənzimləyin</string>
     <string name="pc_intellect_charge_protect_title">Optimallaşdırılmış enerji yığma</string>
+    <string name="pc_is_exiting_low_temperature">"Söndürülür
+Soyuq davamlılıq rejimi"</string>
     <string name="pc_is_exiting_super_power">"Ultra batareyaya
 qənaət söndürülür"</string>
     <string name="pc_keywords_fast_charge">Sürətli enerji yığma</string>
@@ -3342,7 +3392,7 @@ qənaət söndürülür"</string>
     <string name="pc_low_battery_fast_charge_summary">Ekran sönük olduqda və batareya az olduqda şarjı sürətləndirmək üçün təchiz olunmuş şarj cihazını qoşun. Bu xüsusiyyət cihazınızın istiləşməsinə səbəb ola bilər.</string>
     <string name="pc_low_temp_charge_summary">Şarj cihazını bağlı saxlayın və normal doldurulması üçün ekran söndükdən sonra batareyanın istiləşməsini gözləyin</string>
     <string name="pc_low_temp_charge_title">Aşağı temperaturda şarj</string>
-    <string name="pc_low_temperature_extreme_endurance_summary">Temperatur çox aşağı olduqda batareyanın ömrünü uzatmaq üçün cihazın fəaliyyətini məhdudlaşdır</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">Soyuq mühitlərdə batareyanın ömrünü uzatmaq üçün cihazın performansını məhdudlaşdırın</string>
     <string name="pc_low_temperature_extreme_endurance_title">Soyuq davamlılıq rejimi</string>
     <string name="pc_main_activity_back">Geri</string>
     <string name="pc_main_battery_text_day">%1$sdəq əlavə edildi, %2$sgün qaldı</string>
@@ -3659,7 +3709,7 @@ qənaət söndürülür"</string>
     <string name="power_center_battery_health_poor_tip">Batareya sağlamlığının az olduğu görünür. Batareyanızı səlahiyyətli xidmət mərkəzində yoxlayın.</string>
     <string name="power_center_battery_health_summary">Batareya sağlamlığı statistikasının dəqiqliyini artırmaq üçün cihazınızı %1$d-%2$d dəfə tam enerji yığın və boşaldın</string>
     <string name="power_center_battery_last">%s qalır</string>
-    <string name="power_center_battery_level">%s enerji yığdı</string>
+    <string name="power_center_battery_level">%sşarj oldu</string>
     <string name="power_center_battery_level_general">Normal</string>
     <string name="power_center_battery_problem_and_suggest">%1$s. %2$s.</string>
     <string name="power_center_battery_software">Proqram təminatı %s</string>
@@ -5139,6 +5189,9 @@ Formatlama ^2 mövcud məzmunu silir. Məzmunu itirməmək üçün onu başqa bi
     <string name="tab_sms">SMS</string>
     <string name="tab_sort_all">Hamısı</string>
     <string name="tab_title">Əngəlli siyahısı</string>
+    <string name="talkback_virus_scan_omitted">Skan edilməyib</string>
+    <string name="talkback_virus_scan_risky">Riskli</string>
+    <string name="talkback_virus_scan_safe">Təhlükəsiz</string>
     <string name="tc_cmd_invalid">Şablon yararsızdır</string>
     <string name="tc_get_cmd_error">Şablon alına bilmədi</string>
     <string name="tc_parse_error">SMS təhlil edilə bilmədi</string>

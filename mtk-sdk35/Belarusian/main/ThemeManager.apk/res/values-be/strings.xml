@@ -75,7 +75,7 @@
     <string name="ai_creativity_switch_gender">Выберыце пол</string>
     <string name="ai_creativity_template">Шаблон</string>
     <string name="ai_delete_wallpaper">Выдаліць</string>
-    <string name="ai_estimated_two_three_minutes" formatted="false">Гэта зойме каля %1d–%2d хвілін</string>
+    <string name="ai_estimated_two_three_minutes">Гэта зойме каля %1$d–%2$d хвілін</string>
     <string name="ai_generate">Cозданный AI</string>
     <string name="ai_generate_action">Стварыць</string>
     <string name="ai_generate_add_latter">Дадайце новыя фота, калі гэты працэс будзе завершаны.</string>
@@ -89,6 +89,7 @@
     <string name="ai_generate_text">Стварыць дынамічныя шпалеры</string>
     <string name="ai_generate_title">Стварыць дынамічныя шпалеры?</string>
     <string name="ai_generate_verify_text">Праверка ўтрымання выявы…</string>
+    <string name="ai_generate_waiting">Сервер заняты. Пачакайце хвіліну ці дзве і паўтарыце спробу</string>
     <string name="ai_generate_wallpaper_done">Шпалеры паспяхова створаны</string>
     <string name="ai_generate_wallpaper_fail">Не атрымалася стварыць шпалеры</string>
     <string name="ai_generate_wallpaper_fail_message">Магчыма, абраныя вамі фатаграфіі парушаюць нашыя правілы. Абярыце новыя фатаграфіі.</string>
@@ -121,10 +122,10 @@
     <string name="ai_wallpaper_inside_invitation">Бэта-тэставанне дынамічных шпалер AI</string>
     <string name="ai_wallpaper_inside_invitation_agree">Згадзіцца</string>
     <string name="ai_wallpaper_inside_invitation_description">Гэта функцыя задзейнічае магчымасці вялікіх мадэляў для выкарыстання фатаграфій пейзажаў, гарадоў, раслін і аўтамабіляў пры стварэнні дынамічных відэашпалеры. Націсніце «Пагадзіцца», каб паспрабаваць!</string>
-    <string name="ai_wallpaper_inside_invitation_disagree">Не пагаджацца</string>
+    <string name="ai_wallpaper_inside_invitation_disagree">Не згаджацца</string>
     <string name="ai_wallpaper_network_connection_exception">Не атрымалася падлучыцца да сеткі</string>
     <string name="ai_wallpaper_network_exception">Адбылася памылка сеткі</string>
-    <string name="ai_wallpaper_no_longer">Не паказываць ізноў</string>
+    <string name="ai_wallpaper_no_longer">Больш не паказваць</string>
     <string name="ai_wallpaper_not_conform_to_generation_condition">Немагчыма стварыць шпалеры на аснове гэтай выявы.</string>
     <string name="ai_wallpaper_notification_title">Тэмы</string>
     <string name="ai_wallpaper_retry">Паспрабаваць ізноў</string>
@@ -150,9 +151,8 @@
     <string name="app_description_content">«Тэмы» — гэта сістэмная праграма. Яна дае доступ да шпалер і шматлікіх варыянтаў персаналізацыі. Пасля выдалення ярлыка з Галоўнага экрана вы па-ранейшаму зможаце атрымаць доступ да праграмы «Тэмы» праз Налады.</string>
     <string name="app_description_title">Выдаліць «Тэмы» з Галоўнага экрана?</string>
     <string name="app_name">Тэмы</string>
-    <string name="app_permission_optional">Неабавязковыя дазволы</string>
-    <string name="app_permission_require">Абавязковыя дазволы</string>
-    <string name="app_permission_use_desc">Дазвалення</string>
+    <string name="app_permission_require">Абавязковыя дазвалення</string>
+    <string name="app_permission_use_desc">Дазволы</string>
     <string name="app_permission_use_group_account">Акаўнты</string>
     <string name="app_permission_use_group_account_desc">Для доступу да дадзеных Xiaomi Акаўнта</string>
     <string name="app_permission_use_group_phone">Тэлефон</string>
@@ -161,7 +161,7 @@
     <string name="app_permission_use_group_storage_desc">Выкарыстанне і захаванне тэм, шпалер, мелодый і шрыфтоў</string>
     <string name="application_notify_title">Увага</string>
     <string name="applied_success_contine">Працягнуць прагляд</string>
-    <string name="applied_success_subtitle_a">Рыхтуйцеся да %dМіжнароднага конкурсу па тэмах Xiaomi!</string>
+    <string name="applied_success_subtitle_a">Рыхтуйцеся да Міжнароднага конкурсу па тэмах Xiaomi %d!</string>
     <string name="applied_success_subtitle_b">Падпісвайцеся на дызайнераў, каб быць у курсе новых выпускаў</string>
     <string name="apply_4k_video_wallpaper_warning">Відэа 4K і 8K нельга выкарыстоўваць у якасці відэашпалер.</string>
     <string name="apply_by_customize">Наладзіць</string>
@@ -208,7 +208,7 @@
     <string name="backup_theme_dialog_ok">Захаваць</string>
     <string name="backup_theme_fail_trial_rights_message">Немагчыма захаваць выпрабавальныя элементы</string>
     <string name="backup_theme_name">Захаванне тэмы</string>
-    <string name="backup_theme_progress_message">Захаванне…</string>
+    <string name="backup_theme_progress_message">Стварэнне бэкапа…</string>
     <string name="backup_theme_success_message">Налады бягучай тэмы былі захаваныя.</string>
     <string name="banner_image">Выява банэра</string>
     <string name="beep">Гук апавяшчэння</string>
@@ -239,7 +239,6 @@
     <string name="card_retry">Паспрабаваць зноў</string>
     <string name="carefully_chosen_wallpaper">Выбар рэдактара</string>
     <string name="carousel_no_set_wallpaper_effects">Немагчыма ўсталяваць эфекты, калі ўключана «Карусель шпалер»</string>
-    <string name="change_host_hint">Змяніць вузел</string>
     <string name="change_wallpaper">Шпалеры</string>
     <string name="channel_featured_page">Рэкамендаваныя</string>
     <string name="character_counter_content_description">Уведзена сімвалаў: %1$d з %2$d</string>
@@ -254,7 +253,7 @@
     <string name="classification_more_understand_you">Выберыце вашу любімую катэгорыю</string>
     <string name="clear_text_end_icon_content_description">Ачысціць тэкст</string>
     <string name="clearable_edittext_clear_description">Ачысціць</string>
-    <string name="close">Закрыць</string>
+    <string name="close">Зачыніць</string>
     <string name="close_drawer">Закрыць меню навігацыі</string>
     <string name="close_sheet">Закрыць аркуш</string>
     <string name="columbus_ad_flag_text">РЭКЛАМА</string>
@@ -328,6 +327,7 @@
     <string name="delete_image">Выдаліць фота</string>
     <string name="deleting">Выдаленне…</string>
     <string name="delivers_fresh_content_and_design_daily">Свежыя дызайны кожны дзень</string>
+    <string name="depth_effect_talkback">Эфект глыбіні</string>
     <string name="description_author">Аўтар</string>
     <string name="description_designer">Дызайнер</string>
     <string name="description_download">Спампавана</string>
@@ -336,6 +336,7 @@
     <string name="description_uploadtime">Абноўлена</string>
     <string name="description_version">Версія</string>
     <string name="description_version_szie">Версія: %1$s Памер: %2$s</string>
+    <string name="designer_page_in_xiaomi_community">Старонка %s у Xiaomi Community</string>
     <string name="designer_page_latest_scene">"Апошнія папулярныя аб'екты"</string>
     <string name="desktop_wallpaper">Галоўны экран</string>
     <string name="detail_author_attention_head">Паглядзіце некаторых з гэтых дызайнераў</string>
@@ -388,15 +389,15 @@
     <string name="exo_controls_play_description">Гуляць</string>
     <string name="exo_controls_playback_speed">Хуткасць</string>
     <string name="exo_controls_previous_description">Назад</string>
-    <string name="exo_controls_repeat_all_description">Паўтарыць усе</string>
-    <string name="exo_controls_repeat_off_description">Не паўтараць нічога</string>
-    <string name="exo_controls_repeat_one_description">Паўтарыць адзін элемент</string>
+    <string name="exo_controls_repeat_all_description">Цяпер: паўтараць усё. Змяніць.</string>
+    <string name="exo_controls_repeat_off_description">Цяпер: без паўтораў. Змяніць.</string>
+    <string name="exo_controls_repeat_one_description">Цяпер: паўтараць фрагмент. Змяніць.</string>
     <string name="exo_controls_rewind_description">Пераматаць назад</string>
     <string name="exo_controls_seek_bar_description">Ход прайгравання</string>
     <string name="exo_controls_settings_description">Налады</string>
     <string name="exo_controls_show">Паказаць элементы кіравання прайгравальніка</string>
-    <string name="exo_controls_shuffle_off_description">Перамешванне выключана</string>
-    <string name="exo_controls_shuffle_on_description">Перамешванне ўключана</string>
+    <string name="exo_controls_shuffle_off_description">Уключыць рэжым перамешвання</string>
+    <string name="exo_controls_shuffle_on_description">Выключыць рэжым перамешвання</string>
     <string name="exo_controls_stop_description">Спыніць</string>
     <string name="exo_controls_vr_description">VR-рэжым</string>
     <string name="exo_download_completed">Спампоўка завершана</string>
@@ -413,7 +414,7 @@
     <string name="exo_track_mono">Мона</string>
     <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Альтэрнатыўны запіс</string>
-    <string name="exo_track_role_closed_captions">Цітры</string>
+    <string name="exo_track_role_closed_captions">Субцітры</string>
     <string name="exo_track_role_commentary">Каментарыі</string>
     <string name="exo_track_role_supplementary">Дадатковы запіс</string>
     <string name="exo_track_selection_auto">Аўтаматычна</string>
@@ -422,10 +423,11 @@
     <string name="exo_track_selection_title_text">Тэкст</string>
     <string name="exo_track_selection_title_video">Відэа</string>
     <string name="exo_track_stereo">Стэрэа</string>
-    <string name="exo_track_surround">"Аб'ёмны гук"</string>
-    <string name="exo_track_surround_5_point_1">"Аб'ёмны гук 5.1"</string>
-    <string name="exo_track_surround_7_point_1">"Аб'ёмны гук 7.1"</string>
+    <string name="exo_track_surround">Аб’ёмны гук</string>
+    <string name="exo_track_surround_5_point_1">Аб’ёмны гук 5.1</string>
+    <string name="exo_track_surround_7_point_1">Аб’ёмны гук 7.1</string>
     <string name="exo_track_unknown">Невядома</string>
+    <string name="exo_track_unknown_name">Невядома (%1$s)</string>
     <string name="expand_button_title">Пашыраныя налады</string>
     <string name="expect_more">Сачыце за навінамі!</string>
     <string name="explore_new_and_popular_themes">Даследуйце новыя і папулярныя тэмы</string>
@@ -446,6 +448,7 @@
     <string name="find_more_theme">Іншыя тэмы</string>
     <string name="find_more_wallpapers">Іншыя шпалеры</string>
     <string name="fingerprint_style">Эфекты адбіткаў пальцаў</string>
+    <string name="flip_wallpaper_preview_revert">Змяніць арыентацыю</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -500,6 +503,7 @@
     <string name="fmt_weekday_timezone">W z</string>
     <string name="fold_sensor_video_wallpaper_group">Дынамічныя шпалеры экрана, які складаецца</string>
     <string name="follow_designer_notice">Ніколі не прапускайце новую тэму</string>
+    <string name="font_detail_font_preview">Папярэдні прагляд шрыфта</string>
     <string name="format_day_desc">Дзень месяца: %s</string>
     <string name="format_day_week_desc">Дзень месяца: %1$s, %2$s</string>
     <string name="format_lunar_calendar_month_day_desc">Дата па традыцыйным кітайскім календары: %s</string>
@@ -554,8 +558,8 @@
     <string name="home_bar_ai_filters">AI-фільтры</string>
     <string name="home_bar_ai_photo">AI-партрэт</string>
     <string name="home_bar_enhance">Паляпшэнне</string>
-    <string name="home_tab_selected">Выбрана</string>
-    <string name="home_tab_unselected">Не выбрана</string>
+    <string name="home_tab_selected">Абрана %s</string>
+    <string name="home_tab_unselected">Не абран(-ы/а): %s</string>
     <string name="home_vh_enhance_permission_btn">Налады</string>
     <string name="home_vh_enhance_permission_tips">Дайце неабходныя дазволы, каб паляпшаць фота.</string>
     <string name="home_vh_enhance_permission_title">Дазволіць доступ да фота</string>
@@ -572,11 +576,11 @@
     <string name="incompatible_dialog_ok">Зразумела</string>
     <string name="incompatible_dialog_title">Праблемы сумяшчальнасці</string>
     <string name="indeterminate">Птушка не пастаўлена і не знята</string>
+    <string name="indicator_talkback">Абраная: старонка %d. Ссуньце, каб прагледзець наступную старонку.</string>
     <string name="install_fail">Не атрымалася ўсталяваць</string>
     <string name="install_succ">Паспяхова ўсталявана</string>
     <string name="installing">Усталёўка…</string>
     <string name="is_setting_wallpaper_message">Усталёўка шпалер…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Будзільнікі</string>
     <string name="item_resource_audio_optional_color_ring">Мелодыя выкліку</string>
     <string name="item_resource_audio_optional_notification_ring">Апавяшчэнні</string>
@@ -823,8 +827,8 @@
     <string name="lockscreen_magazine_summary">Катэгорыі</string>
     <string name="lockscreen_magazine_system_subscribe">Шпалеры: %1$s</string>
     <string name="lockscreen_magazine_system_title">Афлайн</string>
-    <string name="lockscreen_magazine_title">Карусель шпалер</string>
-    <string name="lockscreen_wallpaper">Экран блакіроўкі</string>
+    <string name="lockscreen_magazine_title">Чаргаванне тэмаў</string>
+    <string name="lockscreen_wallpaper">Экран блакавання</string>
     <string name="lockstyle_personal_settings">Наладзіць</string>
     <string name="login_invalid">Сесія састарэла. Ўвайдзіце паўторна.</string>
     <string name="match_theme">Падбор тэм</string>
@@ -841,7 +845,6 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Выберыце час</string>
     <string name="material_timepicker_text_input_mode_description">Пераключыцца на рэжым тэксту пры ўводзе часу.</string>
-    <string name="max_usable_themes">%d+</string>
     <string name="message">Тэкставае паведамленне</string>
     <string name="message_sim_one">Паведамленне SIM %d</string>
     <string name="message_sim_two">Паведамленне SIM %d</string>
@@ -1054,8 +1057,8 @@ mm"</string>
     <string name="my_attention_head">Дызайнеры, на якіх вы падпісаныя</string>
     <string name="my_fonts">Мае шрыфты</string>
     <string name="my_gifts">Падарункі</string>
-    <string name="my_gifts_purchased">Набыта</string>
-    <string name="my_gifts_received">Атрымана</string>
+    <string name="my_gifts_purchased">Набытыя тэмы</string>
+    <string name="my_gifts_received">Атрыманыя</string>
     <string name="native_body">Тэкст паведамлення</string>
     <string name="native_headline">Загаловак</string>
     <string name="native_media_view">Цэнтр мультымедыя</string>
@@ -1192,9 +1195,6 @@ mm"</string>
     <string name="rain_probability_desc">Верагоднасць ападкаў: %s</string>
     <string name="range_end">Канец пераліку</string>
     <string name="range_start">Пачатак пераліку</string>
-    <string name="rank_one" formatted="false">%d. %s</string>
-    <string name="rank_three" formatted="false">%d. %s</string>
-    <string name="rank_two" formatted="false">%d. %s</string>
     <string name="read_write_file">Доступ да файлаў і іх захаванне на гэтай прыладзе</string>
     <string name="read_write_file_a">Доступ да файлаў і фота, якія захоўваюцца на вашай прыладзе, і іх захаванне (для захоўвання спампаванага кантэнту)</string>
     <string name="recently_used">Нядаўнія</string>
@@ -1410,7 +1410,7 @@ mm"</string>
     <string name="rewarded_ad_no_ad_download">"Памылка прайгравання рэкламы. Вы можаце загрузіць гэты аб'ект зараз!"</string>
     <string name="rewarded_ad_pop_des">Прагляд рэкламы дазволіць вам загружаць прэміум-тэмы і ўзнагароджваць такім чынам нашых дызайнераў. Паглядзець рэкламу зараз?</string>
     <string name="rewarded_ad_pop_des_for_lw">Прагляд рэкламных відэа дазволіць вам загружаць жывыя шпалеры і ўзнагароджваць такім чынам нашых дызайнераў. Паглядзець рэкламу зараз?</string>
-    <string name="rewarded_ad_pop_ok">Глядзець</string>
+    <string name="rewarded_ad_pop_ok">Гадзіннік</string>
     <string name="rewarded_ad_pop_title">Прэміум-тэмы</string>
     <string name="rewarded_ad_watch_again_pop">Паглядзіце відэа для спампоўкі прэміум тэмы. Паглядзець зараз?</string>
     <string name="rewarded_ad_watch_again_pop_for_lw">Паглядзіце відэа для спампоўкі гэтых шпалер. Паглядзець зараз?</string>
@@ -1437,7 +1437,7 @@ mm"</string>
     <string name="search_hint_header_text">Папулярныя</string>
     <string name="search_menu_title">Пошук</string>
     <string name="search_sort">Сартаваць па</string>
-    <string name="search_update_guide_bubble">Новыя</string>
+    <string name="search_update_guide_bubble">Новае</string>
     <string name="search_update_guide_text">Паспрабуйце цалкам новыя функцыі пошуку</string>
     <string name="searchview_clear_text_content_description">Ачысціць тэкст</string>
     <string name="searchview_navigation_content_description">Назад</string>
@@ -1474,7 +1474,7 @@ mm"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still_apply">Ужыць</string>
     <string name="storage_file">"Для захавання загружаных аб'ектаў"</string>
-    <string name="submission_successfully">Адпраўлена паспяхова</string>
+    <string name="submission_successfully">Паспяхова даслана</string>
     <string name="subscription_service_shutdown_tip">Шпалеры, на якія вы падпісаны, больш не адлюстроўваюцца, паколькі вы карыстаецеся іншым сэрвісам. Вы можаце зноў прымяніць шпалеры па падпісцы.</string>
     <string name="successfully_applied_wallpaper_tip">Шпалеры паспяхова прыменены</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -1506,6 +1506,9 @@ mm"</string>
     <string name="system_phone">Выклікі</string>
     <string name="system_precust">Перадусталяваныя</string>
     <string name="tab">Укладка</string>
+    <string name="talkback_font_detail_font_preview">%1$s%2$s</string>
+    <string name="talkback_ringtone_time_three">%1$s %2$s</string>
+    <string name="talkback_title_my_miwallpaper_resource">%1$s%2$d</string>
     <string name="template_percent">Працэнтаў: %1$d.</string>
     <string name="text_billing_info">Плацежная інфармацыя</string>
     <string name="text_cancel_subscription_service">Адмяніць гэтую падпіску зараз?</string>
@@ -1515,7 +1518,7 @@ mm"</string>
     <string name="text_pay_monthly" formatted="false">Пачынаючы з %s, аўтаматычна працягваецца за %s/месяц да адмены</string>
     <string name="text_pay_weekly" formatted="false">Пачынаючы з %s, аўтаматычна працягваецца за %s/тыдзень да адмены</string>
     <string name="text_pay_yearly" formatted="false">Пачынаючы з %s, аўтаматычна працягваецца за %s/год да адмены</string>
-    <string name="text_play">Гуляць</string>
+    <string name="text_play">Прайграць</string>
     <string name="text_start_time_format">dd.MM</string>
     <string name="text_status_apply_now">Ужыць</string>
     <string name="text_status_be_subscribing">Вы падпісаны</string>
@@ -1582,10 +1585,10 @@ mm"</string>
     <string name="theme_batch_update_all">Абнавіць усё</string>
     <string name="theme_batch_update_dlg_title">Абнаўленне тэмы</string>
     <string name="theme_batch_updating_text">Абнаўленне (%1$d)</string>
-    <string name="theme_bug_report">Водгук</string>
+    <string name="theme_bug_report">Зваротная сувязь</string>
     <string name="theme_changed_failed_message">Немагчыма прымяніць тэму</string>
     <string name="theme_changed_message">Тэма прыменена</string>
-    <string name="theme_changing_dialog_title">"Прымяненне "</string>
+    <string name="theme_changing_dialog_title">Прымяненне</string>
     <string name="theme_component_title_alarm">Будзільнік</string>
     <string name="theme_component_title_alarmstyle">Стыль будзільніка</string>
     <string name="theme_component_title_all">Тэмы</string>
@@ -1602,22 +1605,22 @@ mm"</string>
     <string name="theme_component_title_lockwallpaper">Экран блакавання</string>
     <string name="theme_component_title_miwallpaper">MIUI шпалеры</string>
     <string name="theme_component_title_mms">Паведамленні</string>
-    <string name="theme_component_title_notification">Апавяшчэнні</string>
+    <string name="theme_component_title_notification">Апавяшчэнне</string>
     <string name="theme_component_title_others">Іншае</string>
     <string name="theme_component_title_photo_frame">Фотарамкі</string>
-    <string name="theme_component_title_ringtone">Мелодыя</string>
+    <string name="theme_component_title_ringtone">Рынгтон</string>
     <string name="theme_component_title_statusbar">Панэль стану</string>
     <string name="theme_component_title_wallpaper">Галоўны экран</string>
     <string name="theme_current_using_has_update">Тэма была абнаўлена</string>
     <string name="theme_desc">"Тэмы дазваляюць наладзіць некалькі аб'ектаў карыстацкага інтэрфейсу ў рамках ўсёй сістэмы."</string>
     <string name="theme_desc_a">Зрабіце вашу прыладу больш займальнай з дапамогай тэм, шпалер, шрыфтоў і мелодый.</string>
     <string name="theme_desc_b">Рады вітаць у «Тэмах»! Зрабіце вашу прыладу больш займальнай з дапамогай тэм, шпалер, шрыфтоў і мелодый.</string>
-    <string name="theme_description_title_customized">Уласны</string>
+    <string name="theme_description_title_customized">Карыстальніцкае</string>
     <string name="theme_description_title_default">Па змаўчанні</string>
     <string name="theme_detail">Падрабязнасці</string>
     <string name="theme_detail_tab_comment">Каментарыі</string>
     <string name="theme_detail_tab_recommend">Рэкамендацыі</string>
-    <string name="theme_detail_tab_theme">Падрабязнасці</string>
+    <string name="theme_detail_tab_theme">Падрабязней</string>
     <string name="theme_download_success_hint">Паспяхова запампавана. Націсніце, каб паглядзець.</string>
     <string name="theme_empty_redirect">Вярнуцца ў Тэмы</string>
     <string name="theme_favorite_add_fail">Не атрымалася дадаць да выбраных</string>
@@ -1633,7 +1636,7 @@ mm"</string>
     <string name="theme_import_from_sdcard">Імпарт</string>
     <string name="theme_is_external_priority_storage">Захаваць на SD-карту</string>
     <string name="theme_is_external_priority_storage_summary">Праграма Тэмы перазапусціцца для ўжывання змяненняў.</string>
-    <string name="theme_multiple_button_title_customize">Персаналізуй</string>
+    <string name="theme_multiple_button_title_customize">Наладзіць</string>
     <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_on_the_phone_alert">Немагчыма прайграць падчас выклікаў</string>
@@ -1643,11 +1646,11 @@ mm"</string>
     <string name="theme_select_others">Агляд</string>
     <string name="theme_setting">Налады</string>
     <string name="theme_user_agreement_allow">Згаджаюся</string>
-    <string name="theme_user_agreement_content1">"Выкарыстоўваючы гэты прадукт, вы згаджаецеся з "</string>
+    <string name="theme_user_agreement_content1">Выкарыстоўваючы гэты прадукт, вы згаджаецеся з</string>
     <string name="theme_user_agreement_content2">Карыстальніцкае пагадненне</string>
-    <string name="theme_user_agreement_content3">" і "</string>
+    <string name="theme_user_agreement_content3">і</string>
     <string name="theme_user_agreement_content4">Палітыка прыватнасці</string>
-    <string name="theme_user_agreement_content5">". Гэта праграма павінна падлучыцца да Інтэрнэту, каб працаваць звычайна. "</string>
+    <string name="theme_user_agreement_content5">. Гэта праграма павінна падлучыцца да Інтэрнэту, каб працаваць звычайна.</string>
     <string name="theme_user_agreement_exit">Не згадзіцца</string>
     <string name="theme_user_agreement_remind_again">Паказаць Умовы выкарыстання</string>
     <string name="theme_user_agreement_remind_never">Больш не паказваць</string>
@@ -1748,7 +1751,7 @@ mm"</string>
     <string name="video_audio_apply_success">Відэа з гукам усталявана</string>
     <string name="video_cancel">Скасаваць</string>
     <string name="video_data_tips_message">Выкарыстанне мабільнага інтэрнэту можа выклікаць дадатковыя выдаткі. Працягнуць?</string>
-    <string name="video_data_tips_title">Папярэджанне пра трафік</string>
+    <string name="video_data_tips_title">Папярэджанне аб выкарыстанні трафіка</string>
     <string name="video_edit_export_fail_toast">Памылка экспарту</string>
     <string name="video_not_support_message">Гэта відэа можа адлюстроўвацца няправільна або запаволіць вашу прыладу. Ужыць у любым выпадку?</string>
     <string name="video_not_support_title">Занадта вялікае відэа</string>
@@ -1784,7 +1787,7 @@ mm"</string>
     <string name="wallpaper_might_like">Шпалеры, якія могуць вам спадабацца</string>
     <string name="wallpaper_restore_defalut_push">Адноўлены значэнні па змаўчанні</string>
     <string name="wallpaper_scroll_type_tips">Пракрутка шпалераў</string>
-    <string name="wallpaper_set_as_both">Усталяваць на абодва</string>
+    <string name="wallpaper_set_as_both">Устанавіць на абодва</string>
     <string name="wallpaper_set_as_desktop">Усталяваць на галоўны экран</string>
     <string name="wallpaper_set_as_lockscreen">Усталяваць на экран блакіроўкі</string>
     <string name="wallpaper_set_as_lockscreen_personal_wallpaper_carousel">Дадаць да абраных фота ў Каруселі шпалер</string>
@@ -1803,7 +1806,7 @@ mm"</string>
     <string name="wednesday">Серада</string>
     <string name="wednesday_short">Сер</string>
     <string name="wednesday_shortest">Сер</string>
-    <string name="wifi_check_cancel">Скасаваць</string>
+    <string name="wifi_check_cancel">Адмена</string>
     <string name="wifi_check_confirm">Пацвердзіць</string>
     <string name="wifi_check_message">Выкарыстоўваць мабільны інтэрнэт для спампоўкі абнаўленняў?</string>
     <string name="wifi_check_tip">Больш не паказваць</string>

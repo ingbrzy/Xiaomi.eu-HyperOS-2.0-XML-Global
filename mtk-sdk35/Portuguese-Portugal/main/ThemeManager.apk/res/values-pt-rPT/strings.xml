@@ -43,7 +43,7 @@
     <string name="accessibiliy_description_content_back">Voltar</string>
     <string name="accessibiliy_description_content_favorite">Adicionar aos favoritos</string>
     <string name="accessibiliy_description_content_more">Mais</string>
-    <string name="accessibiliy_description_content_search">Pesquisar</string>
+    <string name="accessibiliy_description_content_search">Rápida</string>
     <string name="accessibiliy_description_content_share">Partilhar</string>
     <string name="account_info">A minha conta</string>
     <string name="account_name_not_login">Iniciar sessão</string>
@@ -75,7 +75,7 @@
     <string name="ai_creativity_switch_gender">Selecionar género</string>
     <string name="ai_creativity_template">Modelo</string>
     <string name="ai_delete_wallpaper">Delete</string>
-    <string name="ai_estimated_two_three_minutes" formatted="false">Isso levará cerca de %1d-%2d minutos</string>
+    <string name="ai_estimated_two_three_minutes">Isso levará cerca de %1$d-%2$d minutos</string>
     <string name="ai_generate">Gerado por IA</string>
     <string name="ai_generate_action">Gerar</string>
     <string name="ai_generate_add_latter">Adicione novas fotografias quando este processo estiver concluído.</string>
@@ -89,6 +89,7 @@
     <string name="ai_generate_text">Gerar papel de parede dinâmico</string>
     <string name="ai_generate_title">Gerar papel de parede dinâmico?</string>
     <string name="ai_generate_verify_text">A verificar o conteúdo da imagem…</string>
+    <string name="ai_generate_waiting">O servidor está ocupado. Espere um minuto ou dois e tente novamente.</string>
     <string name="ai_generate_wallpaper_done">Papel de parede gerado com sucesso</string>
     <string name="ai_generate_wallpaper_fail">Não foi possível gerar o papel de parede</string>
     <string name="ai_generate_wallpaper_fail_message">As fotos que selecionou podem ter violado as nossas diretrizes. Selecione novas fotos.</string>
@@ -136,7 +137,7 @@
     <string name="ai_wallpaper_tips_car">Automóveis</string>
     <string name="ai_wallpaper_tips_city">Cidades</string>
     <string name="ai_wallpaper_tips_content_violation">Esse conteúdo pode violar as nossas diretrizes. Não é possível continuar a gerar papéis de parede.</string>
-    <string name="ai_wallpaper_tips_network_exception">Ocorreu um erro de rede. Verifique a sua ligação de rede e tente novamente.</string>
+    <string name="ai_wallpaper_tips_network_exception">Ocorreu um erro na rede. Verifique a sua ligação de rede e tente novamente.</string>
     <string name="ai_wallpaper_tips_plant">Plantas</string>
     <string name="ai_wallpaper_tips_service_exception">Não foi possível conectar com o servidor. Aguarde um minuto ou dois e tente novamente.</string>
     <string name="ai_wallpaper_tips_title_content_violation">Atenção</string>
@@ -150,11 +151,10 @@
     <string name="app_description_content">Temas é uma aplicação do sistema. Ela fornece planos de fundo e diversas opções de personalização. Ainda vai poder utilizar os Temas através das Definições após remover o atalho no Ecrã inicial.</string>
     <string name="app_description_title">Remover \"Temas\" do Ecrã inicial?</string>
     <string name="app_name">Temas</string>
-    <string name="app_permission_optional">Permissões opcionais</string>
     <string name="app_permission_require">Permissões obrigatórias</string>
     <string name="app_permission_use_desc">Permissões</string>
     <string name="app_permission_use_group_account">Contas</string>
-    <string name="app_permission_use_group_account_desc">Para obter informações da Conta Xiaomi</string>
+    <string name="app_permission_use_group_account_desc">Para obter informaçõess da Conta Xiaomi</string>
     <string name="app_permission_use_group_phone">Telefone</string>
     <string name="app_permission_use_group_phone_desc">Para verificação e autorização de contas</string>
     <string name="app_permission_use_group_storage">Armazenamento</string>
@@ -184,7 +184,7 @@
     <string name="apply_wallpaper_warning_use_aod_and_linked_wallpaper">Estás a utilizar um conjunto de papéis de parede agora. Se aplicar um novo tema, o papel de parede do Ecrã de bloqueio e do Ecrã inicial serão substituídos, e o Ecrã sempre ligado será reposto para o estilo anterior. Aplicar na mesma?</string>
     <string name="apply_wallpaper_warning_use_aod_and_super_wallpaper">Estás a utilizar um Super papel de parede no momento. Se selecionar um novo papel de parede, ele será aplicado tanto para o seu Ecrã inicial quanto para o Ecrã de bloqueio, e o Ecrã sempre ligado será restaurada para a definição anterior. Aplicar agora?</string>
     <string name="apply_wallpaper_warning_use_linked_wallpaper">Estás a utilizar um conjunto de papéis de parede agora. Se aplicar um novo tema, os papéis de parede do Ecrã de bloqueio e do Ecrã inicial serão substituídos. Aplicar na mesma?</string>
-    <string name="apply_wallpaper_warning_use_super_wallpaper">Estás a utilizar um Super papel de parede no momento. Se selecionar um novo papel de parede, ele será aplicado tanto para o seu Ecrã inicial quanto para o Ecrã de bloqueio. Aplicar agora?</string>
+    <string name="apply_wallpaper_warning_use_super_wallpaper">Atualmente, estás a utilizar um Super papel de parede. Se selecionar um novo papel de parede, este será aplicado aos Ecrãs inicial e de bloqueio. Aplicar agora?</string>
     <string name="aqi_format">IQA %s</string>
     <string name="aqi_format_desc">Índice de qualidade do ar: %s</string>
     <string name="audio_duration_minutes_format">%1$d minutos</string>
@@ -208,7 +208,7 @@
     <string name="backup_theme_dialog_ok">Fazer cópia</string>
     <string name="backup_theme_fail_trial_rights_message">Não é possível fazer cópias de temas de avaliação</string>
     <string name="backup_theme_name">Cópia de temas</string>
-    <string name="backup_theme_progress_message">A copiar o tema…</string>
+    <string name="backup_theme_progress_message">A fazer cópia…</string>
     <string name="backup_theme_success_message">As suas definições atuais do tema foram copiadas.</string>
     <string name="banner_image">Imagem de banner</string>
     <string name="beep">Som de notificação</string>
@@ -239,7 +239,6 @@
     <string name="card_retry">Tente novamente</string>
     <string name="carefully_chosen_wallpaper">Escolha dos editores</string>
     <string name="carousel_no_set_wallpaper_effects">Não é possível selecionar efeitos quando o Carrossel de Papéis de parede está ligado</string>
-    <string name="change_host_hint">Alterar host</string>
     <string name="change_wallpaper">Papel de parede</string>
     <string name="channel_featured_page">Destaque</string>
     <string name="character_counter_content_description">Carateres introduzidos: %1$d de %2$d</string>
@@ -328,6 +327,7 @@
     <string name="delete_image">Eliminar fotos</string>
     <string name="deleting">A eliminar…</string>
     <string name="delivers_fresh_content_and_design_daily">Designs frescos diariamente</string>
+    <string name="depth_effect_talkback">Efeito de profundidade</string>
     <string name="description_author">Autor</string>
     <string name="description_designer">Designer</string>
     <string name="description_download">Transferido</string>
@@ -336,6 +336,7 @@
     <string name="description_uploadtime">Atualização</string>
     <string name="description_version">Versão</string>
     <string name="description_version_szie">Versão: %1$s Tamanho: %2$s</string>
+    <string name="designer_page_in_xiaomi_community">Página da Comunidade Xiaomi de %s</string>
     <string name="designer_page_latest_scene">Últimos itens populares</string>
     <string name="desktop_wallpaper">Ecrã inicial</string>
     <string name="detail_author_attention_head">Confira alguns destes designers</string>
@@ -388,15 +389,15 @@
     <string name="exo_controls_play_description">Reproduzir</string>
     <string name="exo_controls_playback_speed">Velocidade</string>
     <string name="exo_controls_previous_description">Anterior</string>
-    <string name="exo_controls_repeat_all_description">Repetir tudo</string>
-    <string name="exo_controls_repeat_off_description">Não repetir nenhum</string>
-    <string name="exo_controls_repeat_one_description">Repetir um</string>
+    <string name="exo_controls_repeat_all_description">Modo atual: repet. tudo. Ative/des. repetição.</string>
+    <string name="exo_controls_repeat_off_description">Modo atual: não repetir. Ative/des. repetição.</string>
+    <string name="exo_controls_repeat_one_description">Modo atual: repetir um. Ative/des. repetição.</string>
     <string name="exo_controls_rewind_description">Recuar</string>
     <string name="exo_controls_seek_bar_description">Progresso da reprodução</string>
     <string name="exo_controls_settings_description">Definições</string>
     <string name="exo_controls_show">Mostrar controlos do leitor</string>
-    <string name="exo_controls_shuffle_off_description">Reprodução aleatória desativ.</string>
-    <string name="exo_controls_shuffle_on_description">Reprodução aleatória ativada</string>
+    <string name="exo_controls_shuffle_off_description">Ativar modo aleatório</string>
+    <string name="exo_controls_shuffle_on_description">Desativar modo aleatório</string>
     <string name="exo_controls_stop_description">Parar</string>
     <string name="exo_controls_vr_description">Modo de RV</string>
     <string name="exo_download_completed">Transferência concluída</string>
@@ -426,6 +427,7 @@
     <string name="exo_track_surround_5_point_1">Som surround 5.1</string>
     <string name="exo_track_surround_7_point_1">Som surround 7.1</string>
     <string name="exo_track_unknown">Desconhecida</string>
+    <string name="exo_track_unknown_name">Desconhecido (%1$s)</string>
     <string name="expand_button_title">Avançadas</string>
     <string name="expect_more">Fique ligado para mais atualizações!</string>
     <string name="explore_new_and_popular_themes">Explore temas novos e populares</string>
@@ -446,6 +448,7 @@
     <string name="find_more_theme">Encontrar mais</string>
     <string name="find_more_wallpapers">Encontre mais</string>
     <string name="fingerprint_style">Efeitos da impressão digital</string>
+    <string name="flip_wallpaper_preview_revert">Alterar a orientação</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -500,6 +503,7 @@
     <string name="fmt_weekday_timezone">W z</string>
     <string name="fold_sensor_video_wallpaper_group">Papéis de parede dinâmicos para ecrã dobrável</string>
     <string name="follow_designer_notice">Não perca nenhum tema novo</string>
+    <string name="font_detail_font_preview">Prévia do tipo de letra</string>
     <string name="format_day_desc">Dia do mês: %s</string>
     <string name="format_day_week_desc">Dia do mês: %1$s, %2$s</string>
     <string name="format_lunar_calendar_month_day_desc">Data conforme o Calendário Tradicional Chinês: %s</string>
@@ -554,8 +558,8 @@
     <string name="home_bar_ai_filters">Filtros de IA</string>
     <string name="home_bar_ai_photo">Retrato IA</string>
     <string name="home_bar_enhance">Aprimorar</string>
-    <string name="home_tab_selected">Selecionado</string>
-    <string name="home_tab_unselected">Não selecionado</string>
+    <string name="home_tab_selected">%s selecionado</string>
+    <string name="home_tab_unselected">%s não selecionado</string>
     <string name="home_vh_enhance_permission_btn">Definições</string>
     <string name="home_vh_enhance_permission_tips">Conceda as permissões necessárias para poder aprimorar as suas fotografias.</string>
     <string name="home_vh_enhance_permission_title">Permitir acesso a fotos</string>
@@ -572,11 +576,11 @@
     <string name="incompatible_dialog_ok">Percebi</string>
     <string name="incompatible_dialog_title">Problemas de compatibilidade</string>
     <string name="indeterminate">Nem selecionada nem desselecionada</string>
+    <string name="indicator_talkback">Selecionado: página %d. Deslize para ver a próxima página.</string>
     <string name="install_fail">Não foi possível instalar</string>
     <string name="install_succ">Instalado com sucesso</string>
     <string name="installing">A instalar…</string>
     <string name="is_setting_wallpaper_message">A definir papel de parede…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarmes</string>
     <string name="item_resource_audio_optional_color_ring">Toque de marcação</string>
     <string name="item_resource_audio_optional_notification_ring">Notificações</string>
@@ -801,7 +805,7 @@
     <string name="linked_wallpaper">Conjuntos de papéis de parede</string>
     <string name="live_wallpaper">Animado</string>
     <string name="live_wallpapers">Papéis de parede animados</string>
-    <string name="loading">Um momento…</string>
+    <string name="loading">Aguarde…</string>
     <string name="loading_resource_detail_fail">Não é possível carregar o recurso</string>
     <string name="loading_resource_detail_info">Um momento…</string>
     <string name="local_photos">Fotos locais</string>
@@ -841,7 +845,6 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Selecionar hora</string>
     <string name="material_timepicker_text_input_mode_description">Mude para o modo de introdução de texto para a introdução da hora.</string>
-    <string name="max_usable_themes">%d+</string>
     <string name="message">Mensagem de texto</string>
     <string name="message_sim_one">Mensagem SIM %d</string>
     <string name="message_sim_two">Mensagem SIM %d</string>
@@ -1054,7 +1057,7 @@ mm"</string>
     <string name="my_attention_head">Designers que segue</string>
     <string name="my_fonts">Os meus tipos de letra</string>
     <string name="my_gifts">Presentes</string>
-    <string name="my_gifts_purchased">Comprados</string>
+    <string name="my_gifts_purchased">Comprado</string>
     <string name="my_gifts_received">Recebidos</string>
     <string name="native_body">Corpo</string>
     <string name="native_headline">Título</string>
@@ -1176,7 +1179,7 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="purchased_failed_dialog_retry">Tentar novamente</string>
     <string name="purchased_failed_dialog_title">Erro</string>
     <string name="purchased_getting_theme_info">A obter informações do tema…</string>
-    <string name="purchased_list">Comprados</string>
+    <string name="purchased_list">Comprado</string>
     <string name="purchased_list_current">Temas otimizados</string>
     <string name="purchased_list_legacy">Temas básicos</string>
     <string name="purchased_menu_refund">Obter um reembolso</string>
@@ -1192,9 +1195,6 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="rain_probability_desc">Chance de precipitação: %s</string>
     <string name="range_end">Fim do intervalo</string>
     <string name="range_start">Início do intervalo</string>
-    <string name="rank_one" formatted="false">%d. %s</string>
-    <string name="rank_three" formatted="false">%d. %s</string>
-    <string name="rank_two" formatted="false">%d. %s</string>
     <string name="read_write_file">Aceder e guardar ficheiros neste dispositivo</string>
     <string name="read_write_file_a">Aceder e guardar ficheiros e fotos no seu dispositivo (para armazenar o seu conteúdo baixado)</string>
     <string name="recently_used">Utilizado recentemente</string>
@@ -1291,7 +1291,7 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="resource_import_failed">Não é possível importar</string>
     <string name="resource_import_successful">Concluído</string>
     <string name="resource_importing">A importar…</string>
-    <string name="resource_is_off_shelf">Não disponível</string>
+    <string name="resource_is_off_shelf">Indisponível</string>
     <string name="resource_list_title">Selecionados recentemente</string>
     <string name="resource_local_picker">Escolher toque local</string>
     <string name="resource_menu_refresh">Atualizar</string>
@@ -1410,7 +1410,7 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="rewarded_ad_no_ad_download">Não foi possível reproduzir o anúncio. Pode transferir este item agora!</string>
     <string name="rewarded_ad_pop_des">Assistir vídeos de anúncios permitirá que transfira temas premium e recompense nossos designers. Assistir agora?</string>
     <string name="rewarded_ad_pop_des_for_lw">Assistir vídeos de anúncios permitirá que transfira papéis de parede de fundo animados e recompense nossos designers. Assistir agora?</string>
-    <string name="rewarded_ad_pop_ok">Assistir</string>
+    <string name="rewarded_ad_pop_ok">Relógio</string>
     <string name="rewarded_ad_pop_title">Temas premium</string>
     <string name="rewarded_ad_watch_again_pop">Termine de assistir ao vídeo para transferir este tema premium. Assistir agora?</string>
     <string name="rewarded_ad_watch_again_pop_for_lw">Termine de assistir o vídeo para transferir este papel de parede. Assistir agora?</string>
@@ -1506,6 +1506,9 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="system_phone">Chamadas</string>
     <string name="system_precust">Pré-instalados</string>
     <string name="tab">Separador</string>
+    <string name="talkback_font_detail_font_preview">%1$s%2$s</string>
+    <string name="talkback_ringtone_time_three">%1$s %2$s</string>
+    <string name="talkback_title_my_miwallpaper_resource">%1$s%2$d</string>
     <string name="template_percent">%1$d por cento.</string>
     <string name="text_billing_info">Informação de faturamento</string>
     <string name="text_cancel_subscription_service">Cancelar esta subscrição agora?</string>
@@ -1515,7 +1518,7 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="text_pay_monthly" formatted="false">A partir de %s, renova automaticamente por %s/mês até ser cancelado</string>
     <string name="text_pay_weekly" formatted="false">A partir de %s, renova automaticamente por %s/semana até ser cancelado</string>
     <string name="text_pay_yearly" formatted="false">A partir de %s, renova automaticamente por %s/ano até ser cancelado</string>
-    <string name="text_play">Jogar</string>
+    <string name="text_play">Reproduzir</string>
     <string name="text_start_time_format">dd/MM</string>
     <string name="text_status_apply_now">Aplicar</string>
     <string name="text_status_be_subscribing">Subscrito</string>
@@ -1585,7 +1588,7 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="theme_bug_report">Comentários</string>
     <string name="theme_changed_failed_message">Não é possível aplicar o tema</string>
     <string name="theme_changed_message">Tema aplicado</string>
-    <string name="theme_changing_dialog_title">"A aplicar "</string>
+    <string name="theme_changing_dialog_title">A aplicar</string>
     <string name="theme_component_title_alarm">Alarme</string>
     <string name="theme_component_title_alarmstyle">Estilo de alarme</string>
     <string name="theme_component_title_all">Temas</string>
@@ -1600,9 +1603,9 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="theme_component_title_launcher">Bandeja dos favoritos</string>
     <string name="theme_component_title_lockstyle">Estilo de bloqueio</string>
     <string name="theme_component_title_lockwallpaper">Ecrã de bloqueio</string>
-    <string name="theme_component_title_miwallpaper">Papel de parede MIUI</string>
+    <string name="theme_component_title_miwallpaper">Papéis de parede MIUI</string>
     <string name="theme_component_title_mms">Mensagens</string>
-    <string name="theme_component_title_notification">Notificação</string>
+    <string name="theme_component_title_notification">Notificações</string>
     <string name="theme_component_title_others">Outros</string>
     <string name="theme_component_title_photo_frame">Molduras de imagens</string>
     <string name="theme_component_title_ringtone">Toque</string>
@@ -1613,7 +1616,7 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="theme_desc_a">Deixe o seu dispositivo mais divertido com temas, papéis de parede, tipos de letra e toques.</string>
     <string name="theme_desc_b">Boas-vindas à Temas! Deixe seu dispositivo mais divertido com temas, papéis de parede, tipos de letra e toques.</string>
     <string name="theme_description_title_customized">Personalizado</string>
-    <string name="theme_description_title_default">Predefinido</string>
+    <string name="theme_description_title_default">Predefinida</string>
     <string name="theme_detail">Detalhes</string>
     <string name="theme_detail_tab_comment">Comentários</string>
     <string name="theme_detail_tab_recommend">Recomendado</string>
@@ -1630,7 +1633,7 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="theme_fresh_man_notifaction">Novos temas disponíveis</string>
     <string name="theme_home_page">Início</string>
     <string name="theme_immediately_apply_tip">Aplicar atualização do tema agora?</string>
-    <string name="theme_import_from_sdcard">Importar</string>
+    <string name="theme_import_from_sdcard">importar</string>
     <string name="theme_is_external_priority_storage">Guardar no cartão SD</string>
     <string name="theme_is_external_priority_storage_summary">A aplicação Temas vai reiniciar imediatamente para aplicar esta alteração.</string>
     <string name="theme_multiple_button_title_customize">Personalizar</string>
@@ -1642,13 +1645,13 @@ Vamos partilhar mais informações quando estiver novamente online."</string>
     <string name="theme_resource_widget_removed">Este widget não está mais disponível</string>
     <string name="theme_select_others">Navegar</string>
     <string name="theme_setting">Definições</string>
-    <string name="theme_user_agreement_allow">Concordar</string>
-    <string name="theme_user_agreement_content1">"Ao utilizar este produto, está a concordar com o "</string>
+    <string name="theme_user_agreement_allow">Aceitar</string>
+    <string name="theme_user_agreement_content1">Ao utilizar este produto, está a concordar com o</string>
     <string name="theme_user_agreement_content2">Contrato do Utilizador</string>
-    <string name="theme_user_agreement_content3">" e a "</string>
+    <string name="theme_user_agreement_content3">e a</string>
     <string name="theme_user_agreement_content4">Política de Privacidade</string>
-    <string name="theme_user_agreement_content5">". Esta aplicação necessita de uma ligação à Internet para funcionar normalmente.  "</string>
-    <string name="theme_user_agreement_exit">Discordo</string>
+    <string name="theme_user_agreement_content5">. Esta aplicação necessita de uma ligação à Internet para funcionar normalmente.</string>
+    <string name="theme_user_agreement_exit">Não aceitar</string>
     <string name="theme_user_agreement_remind_again">Mostrar Termos de Utilização</string>
     <string name="theme_user_agreement_remind_never">Não voltar a mostrar</string>
     <string name="theme_user_agreement_remind_summary">Mostrar os Termos de Utilização sempre que abrir a aplicação Temas. Esta definição só vai ter efeito quando reiniciar o dispositivo.</string>

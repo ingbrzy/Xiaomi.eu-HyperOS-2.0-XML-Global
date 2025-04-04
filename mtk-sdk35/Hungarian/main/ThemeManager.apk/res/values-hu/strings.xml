@@ -75,20 +75,21 @@
     <string name="ai_creativity_switch_gender">Nem kiválasztása</string>
     <string name="ai_creativity_template">Sablon</string>
     <string name="ai_delete_wallpaper">Törlés</string>
-    <string name="ai_estimated_two_three_minutes" formatted="false">A folyamat körülbelül %1d–%2d percig tart</string>
+    <string name="ai_estimated_two_three_minutes">A folyamat körülbelül %1$d–%2$d percig tart</string>
     <string name="ai_generate">AI által generált</string>
     <string name="ai_generate_action">Generálás</string>
     <string name="ai_generate_add_latter">Új fényképek hozzáadása, ha a folyamat befejeződött.</string>
     <string name="ai_generate_background">Befejezés a háttérben</string>
     <string name="ai_generate_determine">Fényképek elemzése…</string>
     <string name="ai_generate_fail">Nem sikerült létrehozni</string>
-    <string name="ai_generate_forbid">Fejlesztés alatt áll ez a funkció. Kérjük, figyelje a frissítéseket!</string>
+    <string name="ai_generate_forbid">Frissítjük ezt a funkciót. Maradjon velünk!</string>
     <string name="ai_generate_latter">Várjon egy-két percet, majd próbálja újra.</string>
     <string name="ai_generate_loading">Dinamikus háttérképek generálása…</string>
     <string name="ai_generate_message">Ha dinamikus háttérképet generál, a statikus háttérképen végrehajtott módosítások nem kerülnek mentésre. Most generálja?</string>
     <string name="ai_generate_text">Dinamikus háttérkép generálása</string>
     <string name="ai_generate_title">Dinamikus háttérkép generálása?</string>
     <string name="ai_generate_verify_text">Kép tartalmának ellenőrzése…</string>
+    <string name="ai_generate_waiting">A szerver foglalt. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="ai_generate_wallpaper_done">Háttérkép sikeres generálása</string>
     <string name="ai_generate_wallpaper_fail">Háttérkép generálása sikertelen</string>
     <string name="ai_generate_wallpaper_fail_message">Az Ön által kiválasztott fényképek sérthették az irányelveinket. Válasszon új fényképeket.</string>
@@ -150,7 +151,6 @@
     <string name="app_description_content">A Témák egy rendszeralkalmazás. Háttérképeket és számos személyre szabható beállítást tartalmaz. A Témák a Beállításokon keresztül azután is elérhető, hogy törölte a parancsikont a Kezdőképernyőről.</string>
     <string name="app_description_title">Eltávolítja a \"Témákat\" a Kezdőképernyőről?</string>
     <string name="app_name">Témák</string>
-    <string name="app_permission_optional">Opcionális engedélyek</string>
     <string name="app_permission_require">Kötelező engedélyek</string>
     <string name="app_permission_use_desc">Engedélyek</string>
     <string name="app_permission_use_group_account">Fiókok</string>
@@ -189,7 +189,7 @@
     <string name="aqi_format_desc">Légszennyezettségi mutató: %s</string>
     <string name="audio_duration_minutes_format">%1$d perc</string>
     <string name="audio_duration_seconds_format">%1$d másodperc</string>
-    <string name="author_already_attention">Követve</string>
+    <string name="author_already_attention">Követés</string>
     <string name="author_attention">Követés</string>
     <string name="author_attention_succeed">Sikeres követés</string>
     <string name="author_dynamic_no_resource">Itt még nincs semmi. Kövessen be néhány tervezőt a kezdéshez.</string>
@@ -239,8 +239,7 @@
     <string name="card_retry">Próbálja újra</string>
     <string name="carefully_chosen_wallpaper">Szerkesztői ajánlás</string>
     <string name="carousel_no_set_wallpaper_effects">Nem lehet effekteket beállítani, ha a Váltakozó háttérképek be van kapcsolva</string>
-    <string name="change_host_hint">Kiszolgáló változtatása</string>
-    <string name="change_wallpaper">Háttérkép</string>
+    <string name="change_wallpaper">Háttérkép beállítások</string>
     <string name="channel_featured_page">Kiemelt</string>
     <string name="character_counter_content_description">Begépelt karakterszám: %2$d/%1$d</string>
     <string name="character_counter_overflowed_content_description">Maximális karakterszám túllépve: %2$d/%1$d</string>
@@ -328,6 +327,7 @@
     <string name="delete_image">Fényképek törlése</string>
     <string name="deleting">Törlés…</string>
     <string name="delivers_fresh_content_and_design_daily">Friss tervezések mindennap</string>
+    <string name="depth_effect_talkback">Mélységhatás</string>
     <string name="description_author">Készítő:</string>
     <string name="description_designer">Tervező:</string>
     <string name="description_download">Letöltés:</string>
@@ -336,6 +336,7 @@
     <string name="description_uploadtime">Feltöltve:</string>
     <string name="description_version">Verzió:</string>
     <string name="description_version_szie">Verzió: %1$s Méret: %2$s</string>
+    <string name="designer_page_in_xiaomi_community">%s Xiaomi Community-oldala</string>
     <string name="designer_page_latest_scene">Legutóbb népszerű elemek</string>
     <string name="desktop_wallpaper">Háttérkép</string>
     <string name="detail_author_attention_head">Nézzen meg néhányat ezen tervezők közül</string>
@@ -388,15 +389,15 @@
     <string name="exo_controls_play_description">Lejátszás</string>
     <string name="exo_controls_playback_speed">Sebesség</string>
     <string name="exo_controls_previous_description">Előző</string>
-    <string name="exo_controls_repeat_all_description">Összes szám ismétlése</string>
-    <string name="exo_controls_repeat_off_description">Nincs ismétlés</string>
-    <string name="exo_controls_repeat_one_description">Egy szám ismétlése</string>
+    <string name="exo_controls_repeat_all_description">Jelenlegi: Összes ismétlése. Ismétlés mód be/ki.</string>
+    <string name="exo_controls_repeat_off_description">Jelenlegi: Nincs ismétlés. Ismétlés mód be/ki.</string>
+    <string name="exo_controls_repeat_one_description">Jelenlegi: Egy ismétlése. Ismétlés mód be/ki.</string>
     <string name="exo_controls_rewind_description">Visszatekerés</string>
     <string name="exo_controls_seek_bar_description">Lejátszási folyamat</string>
     <string name="exo_controls_settings_description">Beállítások</string>
     <string name="exo_controls_show">Lejátszásvezérlők mutatása</string>
-    <string name="exo_controls_shuffle_off_description">Keverés kikapcsolva</string>
-    <string name="exo_controls_shuffle_on_description">Keverés bekapcsolva</string>
+    <string name="exo_controls_shuffle_off_description">Keverés mód bekapcsolása</string>
+    <string name="exo_controls_shuffle_on_description">Keverés mód kikapcsolása</string>
     <string name="exo_controls_stop_description">Leállítás</string>
     <string name="exo_controls_vr_description">VR-mód</string>
     <string name="exo_download_completed">A letöltés befejeződött</string>
@@ -426,6 +427,7 @@
     <string name="exo_track_surround_5_point_1">5.1-es térhatású hangzás</string>
     <string name="exo_track_surround_7_point_1">7.1-es térhatású hangzás</string>
     <string name="exo_track_unknown">Ismeretlen</string>
+    <string name="exo_track_unknown_name">Ismeretlen (%1$s)</string>
     <string name="expand_button_title">Speciális</string>
     <string name="expect_more">Maradjon velünk a további hírekért!</string>
     <string name="explore_new_and_popular_themes">Fedezzen fel új és népszerű témákat</string>
@@ -446,6 +448,7 @@
     <string name="find_more_theme">További témák</string>
     <string name="find_more_wallpapers">További háttérképek</string>
     <string name="fingerprint_style">Ujjlenyomat effektek</string>
+    <string name="flip_wallpaper_preview_revert">Tájolás megváltoztatása</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -500,6 +503,7 @@
     <string name="fmt_weekday_timezone">W z</string>
     <string name="fold_sensor_video_wallpaper_group">Összecsukható képernyő dinamikus háttérképek</string>
     <string name="follow_designer_notice">Soha ne maradjon le egyetlen témáról sem</string>
+    <string name="font_detail_font_preview">Betűtípus előnézete</string>
     <string name="format_day_desc">"A hónap napja: %s, "</string>
     <string name="format_day_week_desc">A hónap napja: %1$s, %2$s</string>
     <string name="format_lunar_calendar_month_day_desc">A hagyományos kínai naptár szerinti dátum: %s</string>
@@ -554,8 +558,8 @@
     <string name="home_bar_ai_filters">AI szűrő</string>
     <string name="home_bar_ai_photo">AI portré</string>
     <string name="home_bar_enhance">Javítás</string>
-    <string name="home_tab_selected">Kiválasztott</string>
-    <string name="home_tab_unselected">Nem kiválaszott</string>
+    <string name="home_tab_selected">Kiválasztott %s</string>
+    <string name="home_tab_unselected">Nem kiválaszott %s</string>
     <string name="home_vh_enhance_permission_btn">Beállítások</string>
     <string name="home_vh_enhance_permission_tips">Adja meg a szükséges engedélyeket a fényképek javításához.</string>
     <string name="home_vh_enhance_permission_title">Hozzáférés engedélyezése a fényképekhez</string>
@@ -572,11 +576,11 @@
     <string name="incompatible_dialog_ok">Rendben</string>
     <string name="incompatible_dialog_title">Kompatibilitási problémák</string>
     <string name="indeterminate">Sem bejelöléssel, sem bejelölés nélkül</string>
+    <string name="indicator_talkback">Kijelölve: %d. oldal. Csúsztassa a következő oldal megtekintéséhez.</string>
     <string name="install_fail">Telepítés sikertelen</string>
     <string name="install_succ">Sikeresen telepítve</string>
     <string name="installing">Telepítés…</string>
     <string name="is_setting_wallpaper_message">Háttérkép beállítása…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Ébresztés/Riasztás</string>
     <string name="item_resource_audio_optional_color_ring">Hívásvárakoztatás hangja</string>
     <string name="item_resource_audio_optional_notification_ring">Értesítések</string>
@@ -824,7 +828,7 @@
     <string name="lockscreen_magazine_system_subscribe">%1$s háttérkép</string>
     <string name="lockscreen_magazine_system_title">Alapértelmezett</string>
     <string name="lockscreen_magazine_title">Váltakozó háttérképek</string>
-    <string name="lockscreen_wallpaper">Zár háttere</string>
+    <string name="lockscreen_wallpaper">Képernyőzár</string>
     <string name="lockstyle_personal_settings">Testreszabás</string>
     <string name="login_invalid">Időtúllépés történt. Jelentkezzen be újra.</string>
     <string name="match_theme">Megfelelő témák</string>
@@ -841,7 +845,6 @@
     <string name="material_timepicker_pm">du.</string>
     <string name="material_timepicker_select_time">Időpont kiválasztása</string>
     <string name="material_timepicker_text_input_mode_description">Időbevitelhez váltson szövegbeviteli módba.</string>
-    <string name="max_usable_themes">%d+</string>
     <string name="message">Szöveges üzenet</string>
     <string name="message_sim_one">SIM %d üzenet</string>
     <string name="message_sim_two">SIM %d üzenet</string>
@@ -993,9 +996,9 @@ mm"</string>
     <string name="month_september">szeptember</string>
     <string name="month_september_short">Szept</string>
     <string name="month_september_shortest">Szept</string>
-    <string name="more">Továbbiak</string>
+    <string name="more">Több</string>
     <string name="more_personal_setting">További beállítások</string>
-    <string name="more_ringtones">Még több csengőhang</string>
+    <string name="more_ringtones">További csengőhangok</string>
     <string name="more_system_wallpaper">Több rendszer-háttérkép</string>
     <string name="more_wallpapers">Koppintson további háttérképek megtekintéséhez</string>
     <string name="morning">Reggel</string>
@@ -1054,7 +1057,7 @@ mm"</string>
     <string name="my_attention_head">Ön által követett tervezők</string>
     <string name="my_fonts">Betűkészleteim</string>
     <string name="my_gifts">Ajándékok</string>
-    <string name="my_gifts_purchased">Vásárlás</string>
+    <string name="my_gifts_purchased">Megvásárolt</string>
     <string name="my_gifts_received">Fogadott</string>
     <string name="native_body">Törzs</string>
     <string name="native_headline">Címsor</string>
@@ -1176,7 +1179,7 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="purchased_failed_dialog_retry">Próbálja újra</string>
     <string name="purchased_failed_dialog_title">Hiba</string>
     <string name="purchased_getting_theme_info">Témák adatainak lekérése…</string>
-    <string name="purchased_list">Megvásároltak</string>
+    <string name="purchased_list">Megvásárolt</string>
     <string name="purchased_list_current">Optimalizált témák</string>
     <string name="purchased_list_legacy">Örökölt témák</string>
     <string name="purchased_menu_refund">Kérjen visszatérítést</string>
@@ -1192,9 +1195,6 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="rain_probability_desc">Csapadék valószínűsége: %s</string>
     <string name="range_end">Tartomány vége</string>
     <string name="range_start">Tartomány kezdete</string>
-    <string name="rank_one" formatted="false">%d. %s</string>
-    <string name="rank_three" formatted="false">%d. %s</string>
-    <string name="rank_two" formatted="false">%d. %s</string>
     <string name="read_write_file">Fájlok elérése és mentése ezen az eszközön</string>
     <string name="read_write_file_a">A készüléken tárolt fájlok és fényképek elérése és mentése (a letöltött tartalmak tárolására)</string>
     <string name="recently_used">Mostanában használva</string>
@@ -1410,7 +1410,7 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="rewarded_ad_no_ad_download">Nem tudja lejátszani a reklámot. Letöltheti most ezt az elemet!</string>
     <string name="rewarded_ad_pop_des">Reklámok megtekintésével letölthet prémium témákat és megjutalmazhatja dizájnereinket. Megnézi őket most?</string>
     <string name="rewarded_ad_pop_des_for_lw">Reklámvideók megtekintésével letölthet élő háttérképeket és jutalmazhatja a tervezőket. Megnézi őket most?</string>
-    <string name="rewarded_ad_pop_ok">Megtekintés</string>
+    <string name="rewarded_ad_pop_ok">Óra</string>
     <string name="rewarded_ad_pop_title">Prémium témák</string>
     <string name="rewarded_ad_watch_again_pop">Befejezi a videó megtekintését a prémium téma letöltése érdekében? Megtekinti most?</string>
     <string name="rewarded_ad_watch_again_pop_for_lw">Videó megtekintésének befejezése a háttérkép letöltése érdekében? Megtekinti most?</string>
@@ -1428,7 +1428,7 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="saturday_short">Szo</string>
     <string name="saturday_shortest">Szo</string>
     <string name="save_error">Mentés sikertelen</string>
-    <string name="save_succ">Sikeresen mentve</string>
+    <string name="save_succ">Sikeresen elmentve</string>
     <string name="scroll_switch">Csúsztasson az elemek közötti váltáshoz</string>
     <string name="sdcard_not_mounted_dialog_message">"Helyezzen be egy SD-kártyát.
 "</string>
@@ -1441,7 +1441,7 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="search_update_guide_text">Fedezze fel az összes új keresési funkciót</string>
     <string name="searchview_clear_text_content_description">Szöveg törlése</string>
     <string name="searchview_navigation_content_description">Vissza</string>
-    <string name="select_all">Összes kijelölése</string>
+    <string name="select_all">Az összes kiválasztása</string>
     <string name="selected">Kijelölve</string>
     <string name="selected_resource_file_invalid">A kiválasztott fájl formátuma hibás.</string>
     <string name="send">Küldés</string>
@@ -1465,7 +1465,7 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="show_reward_video_unlock">Téma feloldása sikeres</string>
     <string name="side_sheet_accessibility_pane_title">Oldalsáv</string>
     <string name="sim_one">SIM %d</string>
-    <string name="sim_two">SIM %d</string>
+    <string name="sim_two">%d SIM-kártya</string>
     <string name="similar_theme">Hasonló témák</string>
     <string name="skip_ad">Kihagyás</string>
     <string name="somatosensory_temperature_format">Olyan, mintha %s°</string>
@@ -1506,6 +1506,9 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="system_phone">Hívások</string>
     <string name="system_precust">Előre telepített</string>
     <string name="tab">Lap</string>
+    <string name="talkback_font_detail_font_preview">%1$s%2$s</string>
+    <string name="talkback_ringtone_time_three">%1$s %2$s</string>
+    <string name="talkback_title_my_miwallpaper_resource">%1$s%2$d</string>
     <string name="template_percent">%1$d százalék.</string>
     <string name="text_billing_info">Számlázási adatok</string>
     <string name="text_cancel_subscription_service">Lemondja az előfizetést most?</string>
@@ -1515,7 +1518,7 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="text_pay_monthly" formatted="false">%s-tól kezdődően, automatikusan megújul %s/hónap áron lemondásig</string>
     <string name="text_pay_weekly" formatted="false">%s-tól kezdődően, automatikusan megújul %s/hét áron lemondásig</string>
     <string name="text_pay_yearly" formatted="false">%s-tól kezdődően, automatikusan megújul %s/év áron lemondásig</string>
-    <string name="text_play">Játék</string>
+    <string name="text_play">Play</string>
     <string name="text_start_time_format">MM. dd.</string>
     <string name="text_status_apply_now">Alkalmaz</string>
     <string name="text_status_be_subscribing">Feliratkozva</string>
@@ -1569,7 +1572,7 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="the_tw_youth_day">Világifjúsági Nap</string>
     <string name="the_united_nations_day">Egyesült Nemzetek Napja</string>
     <string name="the_valentines_day">Valentin nap</string>
-    <string name="the_wallpaper_does_not_support_graffiti_text">Ez a háttérkép nem támogatja a Firkákat</string>
+    <string name="the_wallpaper_does_not_support_graffiti_text">Ez a háttérkép nem támogatja a firkákat</string>
     <string name="the_water_lantern_festival">Vízi lámpásfesztivál</string>
     <string name="theme_apply_audio_dialog_item_alarm">Riasztás</string>
     <string name="theme_apply_audio_dialog_item_color_ring_back_tone">Egyéni hívásvárakoztatási hang</string>
@@ -1577,7 +1580,7 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="theme_apply_audio_dialog_item_ringtone">Csengőhang</string>
     <string name="theme_apply_failured">Nem sikerült alkalmazni</string>
     <string name="theme_apply_fully">A téma alkalmazása sikeres. A váltakozó háttérképek funkció kikapcsolva.</string>
-    <string name="theme_apply_success">Sikeresen alkalmazva</string>
+    <string name="theme_apply_success">Sikeresen beállítva</string>
     <string name="theme_applying">Alkalmazás…</string>
     <string name="theme_batch_update_all">Összes frissítése</string>
     <string name="theme_batch_update_dlg_title">Frissítés</string>
@@ -1585,7 +1588,7 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="theme_bug_report">Visszajelzés</string>
     <string name="theme_changed_failed_message">A téma beállítása nem sikerült.</string>
     <string name="theme_changed_message">Téma beállítva</string>
-    <string name="theme_changing_dialog_title">"Téma alkalmazása. Kérjük, várjon "</string>
+    <string name="theme_changing_dialog_title">Téma alkalmazása. Kérjük, várjon</string>
     <string name="theme_component_title_alarm">Riasztások</string>
     <string name="theme_component_title_alarmstyle">Riasztás</string>
     <string name="theme_component_title_all">Témák</string>
@@ -1594,25 +1597,25 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="theme_component_title_boot_audio">Boot hangja</string>
     <string name="theme_component_title_clock">Óra</string>
     <string name="theme_component_title_contact">Tárcsázó</string>
-    <string name="theme_component_title_font">Betűtípus</string>
+    <string name="theme_component_title_font">Betűtípusok</string>
     <string name="theme_component_title_framework">Téma</string>
     <string name="theme_component_title_icon">Ikonok</string>
     <string name="theme_component_title_launcher">Asztal</string>
     <string name="theme_component_title_lockstyle">Zár stílusa</string>
-    <string name="theme_component_title_lockwallpaper">Zár háttere</string>
+    <string name="theme_component_title_lockwallpaper">Képernyőzár</string>
     <string name="theme_component_title_miwallpaper">MIUI háttérkép</string>
-    <string name="theme_component_title_mms">Üzenetek</string>
-    <string name="theme_component_title_notification">Értesítés hang</string>
+    <string name="theme_component_title_mms">Üzenetváltás</string>
+    <string name="theme_component_title_notification">Értesítés</string>
     <string name="theme_component_title_others">Egyéb</string>
     <string name="theme_component_title_photo_frame">Képkeret</string>
-    <string name="theme_component_title_ringtone">Csengőhang</string>
+    <string name="theme_component_title_ringtone">Figyelmeztető hang</string>
     <string name="theme_component_title_statusbar">Állapotsor</string>
     <string name="theme_component_title_wallpaper">Háttérkép</string>
     <string name="theme_current_using_has_update">Témafrissítés érhető el</string>
     <string name="theme_desc">A Témák használatával több felhasználói felületen megtalálható elemet is testre szabhat a rendszerben.</string>
     <string name="theme_desc_a">Tegye szórakoztatóbbá készülékét témákkal, háttérképekkel, betűtípusokkal és csengőhangokkal.</string>
     <string name="theme_desc_b">Üdvözli Önt a Témák alkalmazás! Tegye szórakoztatóbbá készülékét témákkal, háttérképekkel, betűtípusokkal és csengőhangokkal.</string>
-    <string name="theme_description_title_customized">Egyéni téma</string>
+    <string name="theme_description_title_customized">Egyéni</string>
     <string name="theme_description_title_default">Alapértelmezett</string>
     <string name="theme_detail">Részletek</string>
     <string name="theme_detail_tab_comment">Hozzászólások</string>
@@ -1642,17 +1645,17 @@ Amint újra online lesz, bővebb tájékoztatást fog kapni."</string>
     <string name="theme_resource_widget_removed">Ez a modul már nem elérhető</string>
     <string name="theme_select_others">Egyéb</string>
     <string name="theme_setting">Beállítások</string>
-    <string name="theme_user_agreement_allow">Elfogadás</string>
-    <string name="theme_user_agreement_content1">"Elolvastam és megértettem a "</string>
+    <string name="theme_user_agreement_allow">Egyetértek</string>
+    <string name="theme_user_agreement_content1">Elolvastam és megértettem a</string>
     <string name="theme_user_agreement_content2">Felhasználói szerződés</string>
-    <string name="theme_user_agreement_content3">" és az "</string>
+    <string name="theme_user_agreement_content3">és az</string>
     <string name="theme_user_agreement_content4">Adatvédelmi irányelvek</string>
-    <string name="theme_user_agreement_content5">". A Hibanapló normális működéséhez internetkapcsolat szükséges. "</string>
+    <string name="theme_user_agreement_content5">. A Hibanapló normális működéséhez internetkapcsolat szükséges.</string>
     <string name="theme_user_agreement_exit">Elutasítás</string>
     <string name="theme_user_agreement_remind_again">Szerződési feltételek mutatása</string>
-    <string name="theme_user_agreement_remind_never">Ne jelenjen meg újra</string>
+    <string name="theme_user_agreement_remind_never">Ne mutassa újra</string>
     <string name="theme_user_agreement_remind_summary">A felhasználási feltételek ablak mutatása minden alkalommal. A készülék újraindítása után lép érvénybe</string>
-    <string name="theme_user_agreement_title">Felhasználási feltételek</string>
+    <string name="theme_user_agreement_title">Felhasználási feltételekben</string>
     <string name="theme_yes">Igen</string>
     <string name="themes_has_an_updated_version">Elérhető a Témák új verziója</string>
     <string name="themes_might_like">Témák, amelyek tetszhetnek Önnek</string>
@@ -1792,7 +1795,7 @@ Bármikor visszavonhatja a Témák alkalmazás Adatvédelmi irányelvéhez adott
     <string name="wallpaper_settings_loading_text">Egy pillanat…</string>
     <string name="wallpaper_settings_no_history">Nincs előzmény</string>
     <string name="wallpaper_settings_pad_more_page_title">További háttérképek</string>
-    <string name="wallpaper_settings_page_title">Háttérkép</string>
+    <string name="wallpaper_settings_page_title">Háttérkép beállítások</string>
     <string name="warning_miui_optimization_closed_dialog_agree">Beállítások</string>
     <string name="warning_miui_optimization_closed_dialog_disagree">Alkalmaz</string>
     <string name="warning_miui_optimization_closed_dialog_message">Úgy tűnik, hogy nem kapcsolta be a MIUI-optimalizációt. Enélkül ez a téma nem fog megfelelően működni, amikor alkalmazza. Ennek ellenére alkalmazhatja, vagy bekapcsolhatja a MIUI-optimalizációt a Beállításokban.</string>

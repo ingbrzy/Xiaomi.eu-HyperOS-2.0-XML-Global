@@ -114,6 +114,10 @@
     <string name="accessibility_keyboard_ok_button">Uđi</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Slova</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Blokiranje simbola</string>
+    <string name="accessibility_sliding_button_state_description_off">isključeno</string>
+    <string name="accessibility_sliding_button_state_description_on">uključeno</string>
+    <string name="accessibility_tab_state_description_unselect">Nije odabrano</string>
+    <string name="accessibility_tab_statedesc_unselect">Nije odabrano</string>
     <string name="action_button_text_100">Optimiziraj</string>
     <string name="action_button_text_60">Popravi</string>
     <string name="action_button_text_60_80">Popravi</string>
@@ -687,6 +691,7 @@ Nećete izgubiti podatke aplikacija."</string>
     <string name="back_modifypassword">Vratite se na promjenu vrste lozinke</string>
     <string name="back_sound_data">Uključite mobilne podatke i pokušajte ponovo.</string>
     <string name="back_sound_fail">Ne mogu postaviti. Promijenjene postavke operatera. Postavite trenutnu SIM karticu kao podatkovnu karticu, povežite se s mrežom i pokušajte ponovo.</string>
+    <string name="back_sound_no_support_oversea">SIM %1$d ne podržava ovaj plan</string>
     <string name="back_sound_success">Uspješno postavljeno</string>
     <string name="back_sound_support">Prvo isključite Wi-Fi</string>
     <string name="back_sound_support_china">Turn off WLAN first</string>
@@ -761,6 +766,7 @@ Nećete izgubiti podatke aplikacija."</string>
     <string name="beauty_fun_filter">Uljepšavanje</string>
     <string name="beauty_fun_front_light">Prednje svijetlo za popunjavanje</string>
     <string name="beauty_fun_light">Ispuna svjetlom</string>
+    <string name="beauty_fun_portrait_center_check">Ultra HD način rada ne podržava FocusFrame</string>
     <string name="beauty_fun_privacy">Fotoaparat privatnosti</string>
     <string name="beauty_fun_privacy_dialog_message">Kada koristite fotoaparat za značajke prepoznavanja lica, Vaše će se lice automatski prepoznavati, a ostala snimljena područja bit će prikrivena.</string>
     <string name="beauty_fun_privacy_dialog_tips">Ova značajka može smanjiti stopu uspješnosti prepoznavanja lica</string>
@@ -771,6 +777,7 @@ Nećete izgubiti podatke aplikacija."</string>
     <string name="beauty_fun_privacy_tips">Fotoaparat privatnosti sada će se prema zadanim postavkama koristiti sa kompatibilnim značajkama prepoznavanja lica</string>
     <string name="beauty_fun_screen_light">Svijetlo za popunjavanje zaslona</string>
     <string name="beauty_fun_settings_light">Osvjetljenje ispune svjetlom</string>
+    <string name="beauty_fun_ultra_clear_check">FocusFrame ne podržava Ultra HD način</string>
     <string name="beauty_fun_video_effect">Uljepšavanje za videozapise</string>
     <string name="beauty_portrait_center_desc">Automatski identificirajte i centrirajte lica u videopozivima i sastancima. Ovu značajku ne podržavaju neke aplikacije.</string>
     <string name="beauty_settings">Postavke</string>
@@ -983,6 +990,11 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="cancal_to_setting_fingerprint">Odustani</string>
     <string name="cancel">Odustani</string>
     <string name="cancel_button">Odustani</string>
+    <string name="car_sickness_relief_comment_text">Kada se otkrije kretanje vozila, točkice se prikazuju na obje strane zaslona kako bi pokazale da li se vozilo kreće, što može pomoći u odgađanju pojave mučnine u autu.</string>
+    <string name="car_sickness_relief_example_text_1">Kada vozilo ubrzava ili usporava</string>
+    <string name="car_sickness_relief_example_text_2">Kada vozilo skreće ili mijenja traku</string>
+    <string name="car_sickness_remind_time_title">Indikatori kretanja u autu</string>
+    <string name="car_sickness_title">Ublažavanje mučnine u autu</string>
     <string name="card_main_apkclean_title">Izbriši APK-ove</string>
     <string name="card_main_appdataclean_title">Izbriši podatke aplikacije</string>
     <string name="card_main_applock_action">Uključi</string>
@@ -1927,6 +1939,8 @@ Biti će dodani u iznimke, ali prethodno blokirane stavke neće se prikazivati u
     <string name="gamebox_screenshot">Snimka zaslona</string>
     <string name="gamebox_simcard">Prebaci SIM kartice</string>
     <string name="gamebox_time">Brojač</string>
+    <string name="gamebox_time_elapsed_time_talkback">%1$s %2$s</string>
+    <string name="gamebox_time_ready_to_start_talkback">Nije započeto</string>
     <string name="gamebox_type_close">Ne prikazuj</string>
     <string name="gamebox_type_float">Prečica je popravljena</string>
     <string name="gamebox_type_gesture">Povuci za prikaz</string>
@@ -2002,9 +2016,19 @@ Biti će dodani u iznimke, ali prethodno blokirane stavke neće se prikazivati u
     <string name="gb_barrage_chat_desc">Uvijek vjerujte da će se dogoditi nešto divno</string>
     <string name="gb_barrage_chat_pre_desc">Pregled</string>
     <string name="gb_barrage_chat_text_color">Boja</string>
+    <string name="gb_barrage_chat_text_color_black_talkback">Crno</string>
+    <string name="gb_barrage_chat_text_color_blue_talkback">Plavo</string>
+    <string name="gb_barrage_chat_text_color_red_talkback">Crveno</string>
+    <string name="gb_barrage_chat_text_color_white_talkback">Bijelo</string>
+    <string name="gb_barrage_chat_text_color_yellow_talkback">Žuto</string>
     <string name="gb_barrage_chat_text_size">Veličina teksta</string>
     <string name="gb_barrage_chat_text_size_big">Veliko</string>
+    <string name="gb_barrage_chat_text_size_largest_talkback">Najveće</string>
+    <string name="gb_barrage_chat_text_size_medium_talkback">Srednje</string>
+    <string name="gb_barrage_chat_text_size_slightly_large_talkback">Veće</string>
+    <string name="gb_barrage_chat_text_size_slightly_small_talkback">Manje</string>
     <string name="gb_barrage_chat_text_size_small">Malo</string>
+    <string name="gb_barrage_chat_text_size_smallest_talkback">Najmanje</string>
     <string name="gb_barrage_chat_text_speed">Brzina</string>
     <string name="gb_barrage_chat_text_speed_faster">Brzo</string>
     <string name="gb_barrage_chat_text_speed_moderate">Srednja</string>
@@ -2270,6 +2294,7 @@ i istražite naše Mijenjanje glasa!"</string>
     <string name="gb_voice_changer_user_status_renew">Obnovi</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Vaša pretplata je istekla. Obnovite svoju pretplatu kako biste nastavili uživati u pogodnostima!</string>
     <string name="gb_voice_changer_user_vip_expired">Isteklo</string>
+    <string name="gb_voice_changer_user_vip_loading">Pričekajte trenutak…</string>
     <string name="gb_voice_changer_user_vip_remain_time">Datum isteka: %s</string>
     <string name="gb_wild_mode_game_performance_enhance">Poboljšajte performanse za igranje</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"Snimite ključne trenutke
@@ -2288,6 +2313,8 @@ svojih gejmerskih sesija"</string>
     <string name="gb_xunyou_gift_type_two_new">Xunyou %d-dnevno ubrzanje</string>
     <string name="gd_app_edit_done">Gotovo</string>
     <string name="gd_app_edit_title_new">Uredite prečice plutajućih prozora</string>
+    <string name="gd_beauty_manage_summary">Otvorite s bočne kutije s alatima tijekom videopoziva da biste koristili ovu značajku</string>
+    <string name="gd_beauty_manage_title">Uljepšavanje za video pozive</string>
     <string name="gd_dock_shortcut_fullscreen">Cijeli zaslon</string>
     <string name="gd_dock_shortcut_splitescreen">Podijeljeni zaslon</string>
     <string name="gd_setting_conversation">Konferencijski alati</string>
@@ -2301,6 +2328,7 @@ svojih gejmerskih sesija"</string>
     <string name="gd_setting_dock_title">Bočni izbornik</string>
     <string name="gd_setting_dock_video_summary">Koristite efekte kao što je Dolby Atmos dok gledate videozapise</string>
     <string name="gd_setting_dock_video_summary_new">Koristite alate i efekte tijekom gledanja videozapisa</string>
+    <string name="gd_setting_group_custom_beauty_new">Upravljaj uljepšavanjem za video pozive</string>
     <string name="gd_setting_group_custom_conversation_apps">Snimite uzorak glasa za pozive</string>
     <string name="gd_setting_group_custom_gtb_apps">Igre</string>
     <string name="gd_setting_group_custom_gtb_apps_new">Upravljanje aplikacijama za igre</string>
@@ -2883,6 +2911,10 @@ Vaš uređaj je sada %s brži."</string>
     <string name="miui_optimization_close_final_tip">Isključite optimizaciju sustava?</string>
     <string name="miui_optimization_close_title">Ova je značajka namijenjena razvojnim programerima i možda nije prikladna za druge korisnike. Isključivanje optimizacije sistema moglo bi donijeti sljedeće promjene:</string>
     <string name="miuix_access_state_desc">Odabrano</string>
+    <string name="miuix_accessibility_title">Naslov</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Izlaz iz načina uređivanja</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nova poruka</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Uđi u način uređivanja</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poništiti sve</string>
     <string name="miuix_appcompat_action_mode_select_all">Odaberi sve</string>
     <string name="miuix_appcompat_action_mode_title_empty">Odaberi</string>
@@ -2898,6 +2930,18 @@ Vaš uređaj je sada %s brži."</string>
     <string name="miuix_appcompat_select_all">Odaberi sve</string>
     <string name="miuix_appcompat_select_all_description">Odaberi sve</string>
     <string name="miuix_appcompat_select_item">Odaberi stavke</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Pomaknite prema dolje za zatvaranje</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Pomaknite prema dolje za prelaz na polovicu zaslona</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Pomaknite prema dolje za minimiziranje</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Pomaknite prema gore za prelaz na polovicu zaslona</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Pomaknite prema gore za maksimiziranje</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Polovina zaslona</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximizirano</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimizirano</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Prebaceno na polovicu zaslona</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Prebaceno na maximizirano</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Prebaceno na minimizirano</string>
+    <string name="miuix_progressbar_loading">Učitavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Povucite dolje za osvježavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uspješno osvježeno</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Osvježavanje…</string>
@@ -2906,6 +2950,7 @@ Vaš uređaj je sada %s brži."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je sve za sada</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Samo trenutak…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ne može učitati stavke</string>
+    <string name="miuix_show_password">Prikaži lozinku</string>
     <string name="mixed_need_to_confirm">Unesite ponovno za potvrdu</string>
     <string name="mixed_password_confirmed_header_confirm">Uspješno postavljeno. Dodirnite za potvrdu.</string>
     <string name="mixed_password_confirmed_header_continue">Uspješno postavljeno. Dodirnite \"Dalje\".</string>
@@ -2922,7 +2967,7 @@ Vaš uređaj je sada %s brži."</string>
     <string name="modify_risk_app_permission_dialog_confirm">Uključi</string>
     <string name="modify_risk_app_permission_dialog_message">Za zaštitu vaše privatnosti, preporučujemo uključivanje \"Vrati prazne poruke\" nakon davanja dozvola ovoj aplikaciji.</string>
     <string name="modify_risk_app_permission_dialog_title">Vrati praznu poruku</string>
-    <string name="modify_risk_app_permission_steps">%1$d. Otvori &lt;b>Postavke&lt;/b> > &lt;b>Aplikacije&lt;/b>.&lt;br>&lt;/br> %2$d. Odaberi &lt;b>Aplikacije&lt;/b>.&lt;br>&lt;/br> %3$d. Odaberi &lt;b>Upravljaj dozvolama&lt;/b>.&lt;br>&lt;/br> %4$d. Dodirnite ︙ ikonicu i odaberite &lt;b>Odblokiraj dozvole&lt;/b>.&lt;br>&lt;/br> %5$d. Možete onda izdati individualne dozvole.</string>
+    <string name="modify_risk_app_permission_steps">%1$d. Otvori &lt;b>Postavke&lt;/b> > &lt;b>Aplikacije&lt;/b>.&lt;br>&lt;/br> %2$d. Odaberi &lt;b>Aplikacije&lt;/b>.&lt;br>&lt;/br> %3$d. Odaberi &lt;b>Upravljaj dozvolama&lt;/b>.&lt;br>&lt;/br> %4$d. Dodirnite ︙ ikonicu i odaberite &lt;b>Odblokiraj dozvole&lt;/b>.&lt;br>&lt;/br> %5$d. Onda možete izdati individualne dozvole.</string>
     <string name="modifypassword">Promjeni vrstu zaporke</string>
     <string name="monday">Ponedjeljak</string>
     <string name="monday_short">Pon</string>
@@ -3304,6 +3349,7 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="optimize_result_toast_system_no_item_selected">Nema odabranih stavki</string>
     <string name="optional_permissions">Neobavezne dozvole</string>
     <string name="optional_permissions_desc">Ovo su potrebne dozvole kada koristite dodatne značajke.</string>
+    <string name="optmizingbar_item_img_description">Gotovo</string>
     <string name="optmizingbar_optimize_done">Optimizirano</string>
     <string name="optmizingbar_ready">Optimiziranje…</string>
     <string name="optmizingbar_stop_optmize">Zaustavi</string>
@@ -3469,9 +3515,11 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="pc_going_to_extreme_mode">Ulazak u stanje hibernacije</string>
     <string name="pc_handle_battery_level">Držač</string>
     <string name="pc_have_no_battery_issue">Nema problema</string>
+    <string name="pc_health_charge_default">Punjenje do kraja</string>
     <string name="pc_health_charge_protect_noti_summary_title">Uređaj će se prestati puniti kada baterija dosegne %1$s napunjenosti</string>
     <string name="pc_health_charge_protect_notification_summary">Uključite značajku Zaštita baterije kako biste smanjili starenje baterije</string>
     <string name="pc_health_charge_protect_summary">Kako bi se produljilo trajanje baterije, uređaj će prestati s punjenjem kad razina baterije dosegne %1$s</string>
+    <string name="pc_health_charge_protect_summary_new">Kako bi se produžio vijek trajanja baterije, uređaj će se prestati puniti kada razina baterije dosegne %1$s i potpuno će se napuniti samo prema rasporedu</string>
     <string name="pc_health_charge_protect_title">Zaštita baterije</string>
     <string name="pc_hide_more_power_rank_apps">Sakrij</string>
     <string name="pc_hidemode_normal">Uravnoteženo</string>
@@ -3490,6 +3538,8 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="pc_install_manager">Instaliraj putem USB-a</string>
     <string name="pc_intellect_charge_protect_summary">Prilagodite punjenje na temelju scenarija korištenja</string>
     <string name="pc_intellect_charge_protect_title">Optimizirano punjenje</string>
+    <string name="pc_is_exiting_low_temperature">"Isključivanje
+Dodatne izdržljivosti u hladnim uvjetima"</string>
     <string name="pc_is_exiting_super_power">"Isključivanje
 Ultra štednje baterije"</string>
     <string name="pc_keywords_fast_charge">Brzo punjenje</string>
@@ -3511,7 +3561,7 @@ Ultra štednje baterije"</string>
     <string name="pc_low_battery_fast_charge_summary">Povežite priloženi punjač kako biste ubrzali punjenje kada je zaslon isključen, a baterija gotovo prazna. Ova funkcija može prouzročiti zagrijavanje uređaja.</string>
     <string name="pc_low_temp_charge_summary">Ostavite punjač priključen i pričekajte da se baterija zagrije nakon što se zaslon ugasi kako biste normalno punili</string>
     <string name="pc_low_temp_charge_title">Punjenje na niskoj temperaturi</string>
-    <string name="pc_low_temperature_extreme_endurance_summary">Ograničava performanse uređaja za produživanje života baterije kada je ambijentalna temperatura ekstremno niska</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">Ograničite performanse uređaja kako biste produljili trajanje baterije u hladnim okruženjima</string>
     <string name="pc_low_temperature_extreme_endurance_title">Dodatna izdržljivost u hladnim uvjetima</string>
     <string name="pc_main_activity_back">Natrag</string>
     <string name="pc_main_battery_text_day">Dodano %1$sm, oko %2$sd preostalo</string>
@@ -3828,7 +3878,7 @@ Ultra štednje baterije"</string>
     <string name="power_center_battery_health_poor_tip">Čini se da je stanje baterije slabo. Provjerite bateriju u ovlaštenom servisnom centru.</string>
     <string name="power_center_battery_health_summary">U potpunosti napunite i ispraznite svoj uređaj %1$d-%2$d puta radi poboljšanja točnosti statistika stanja baterije</string>
     <string name="power_center_battery_last">%s preostalo</string>
-    <string name="power_center_battery_level">%s napunjeno</string>
+    <string name="power_center_battery_level">%snapunjeno</string>
     <string name="power_center_battery_level_general">Normalno</string>
     <string name="power_center_battery_problem_and_suggest">%1$s. %2$s.</string>
     <string name="power_center_battery_software">Softver %s</string>
@@ -5312,6 +5362,9 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="tab_sms">SMS</string>
     <string name="tab_sort_all">Sve</string>
     <string name="tab_title">Lista blokiranih</string>
+    <string name="talkback_virus_scan_omitted">Nije skenirano</string>
+    <string name="talkback_virus_scan_risky">Rizično</string>
+    <string name="talkback_virus_scan_safe">Osiguraj</string>
     <string name="tc_cmd_invalid">Predložak nije važeći</string>
     <string name="tc_get_cmd_error">Ne mogu dobiti predložak</string>
     <string name="tc_parse_error">Ne mogu analizirati SMS</string>

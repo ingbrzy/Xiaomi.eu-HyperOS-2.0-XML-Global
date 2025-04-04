@@ -114,6 +114,10 @@
     <string name="accessibility_keyboard_ok_button">入力</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">英字</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">記号ロック</string>
+    <string name="accessibility_sliding_button_state_description_off">オフ</string>
+    <string name="accessibility_sliding_button_state_description_on">オン</string>
+    <string name="accessibility_tab_state_description_unselect">未選択</string>
+    <string name="accessibility_tab_statedesc_unselect">未選択</string>
     <string name="action_button_text_100">最適化</string>
     <string name="action_button_text_60">修正</string>
     <string name="action_button_text_60_80">修正</string>
@@ -687,6 +691,7 @@
     <string name="back_modifypassword">パスワードの種類の変更に戻る</string>
     <string name="back_sound_data">モバイルデータをオンにして、もう一度お試しください。</string>
     <string name="back_sound_fail">設定できませんでした。通信事業者設定が変更されました。現在のSIMカードをデータカードとして設定し、ネットワークに接続して、もう一度お試しください。</string>
+    <string name="back_sound_no_support_oversea">SIM %1$d はこのプランをサポートしていません</string>
     <string name="back_sound_success">正常に設定されました</string>
     <string name="back_sound_support">まず、Wi-Fiをオフにしてください</string>
     <string name="back_sound_support_china">まず、WLANをオフにしてください</string>
@@ -761,6 +766,7 @@
     <string name="beauty_fun_filter">ビューティ</string>
     <string name="beauty_fun_front_light">フロントフィルライト</string>
     <string name="beauty_fun_light">フィルライト</string>
+    <string name="beauty_fun_portrait_center_check">ウルトラ HD モードは FocusFrame をサポートしていません</string>
     <string name="beauty_fun_privacy">プライバシーカメラ</string>
     <string name="beauty_fun_privacy_dialog_message">カメラで顔認識機能を使用すると、顔が自動的に検出され、他の撮影領域がぼかされます。</string>
     <string name="beauty_fun_privacy_dialog_tips">この機能により、顔認識の成功率が低下する可能性があります</string>
@@ -771,6 +777,7 @@
     <string name="beauty_fun_privacy_tips">顔認識機能に対応したプライバシーカメラがデフォルトで使用されるようになりました</string>
     <string name="beauty_fun_screen_light">スクリーンフィルライト</string>
     <string name="beauty_fun_settings_light">フィルライトの明るさ</string>
+    <string name="beauty_fun_ultra_clear_check">FocusFrame はウルトラ HD モードをサポートしていません</string>
     <string name="beauty_fun_video_effect">ビデオのビューティ</string>
     <string name="beauty_portrait_center_desc">ビデオ通話や会議で、自動的に顔を識別して中央に配置します。この機能は、一部のアプリではサポートされていません。</string>
     <string name="beauty_settings">設定</string>
@@ -983,6 +990,11 @@
     <string name="cancal_to_setting_fingerprint">キャンセル</string>
     <string name="cancel">キャンセル</string>
     <string name="cancel_button">キャンセル</string>
+    <string name="car_sickness_relief_comment_text">車両の動きが検出されると、画面の両側に点が表示され、車両が動いているかどうかが示され、乗り物酔いの発症を遅らせるのに役立ちます。</string>
+    <string name="car_sickness_relief_example_text_1">車両が加速または減速するとき</string>
+    <string name="car_sickness_relief_example_text_2">車両が曲がったり車線を変更したりするとき</string>
+    <string name="car_sickness_remind_time_title">モーションインジケーター</string>
+    <string name="car_sickness_title">乗り物酔いの緩和</string>
     <string name="card_main_apkclean_title">APKを削除</string>
     <string name="card_main_appdataclean_title">アプリデータを消去</string>
     <string name="card_main_applock_action">オンにする</string>
@@ -1928,6 +1940,8 @@
     <string name="gamebox_screenshot">スクリーンショット</string>
     <string name="gamebox_simcard">SIMカードを切り替える</string>
     <string name="gamebox_time">タイマー</string>
+    <string name="gamebox_time_elapsed_time_talkback">%1$s %2$s</string>
+    <string name="gamebox_time_ready_to_start_talkback">開始されていません</string>
     <string name="gamebox_type_close">表示しない</string>
     <string name="gamebox_type_float">固定ショートカット</string>
     <string name="gamebox_type_gesture">スワイプして表示</string>
@@ -2003,9 +2017,19 @@
     <string name="gb_barrage_chat_desc">きっと素晴らしいことが起こる。私たちはいつだってそう信じている</string>
     <string name="gb_barrage_chat_pre_desc">プレビュー</string>
     <string name="gb_barrage_chat_text_color">色</string>
+    <string name="gb_barrage_chat_text_color_black_talkback">黒</string>
+    <string name="gb_barrage_chat_text_color_blue_talkback">青</string>
+    <string name="gb_barrage_chat_text_color_red_talkback">赤</string>
+    <string name="gb_barrage_chat_text_color_white_talkback">白</string>
+    <string name="gb_barrage_chat_text_color_yellow_talkback">黄</string>
     <string name="gb_barrage_chat_text_size">文字サイズ</string>
     <string name="gb_barrage_chat_text_size_big">大</string>
+    <string name="gb_barrage_chat_text_size_largest_talkback">最大</string>
+    <string name="gb_barrage_chat_text_size_medium_talkback">中</string>
+    <string name="gb_barrage_chat_text_size_slightly_large_talkback">大</string>
+    <string name="gb_barrage_chat_text_size_slightly_small_talkback">小</string>
     <string name="gb_barrage_chat_text_size_small">小</string>
+    <string name="gb_barrage_chat_text_size_smallest_talkback">最小</string>
     <string name="gb_barrage_chat_text_speed">速度</string>
     <string name="gb_barrage_chat_text_speed_faster">速い</string>
     <string name="gb_barrage_chat_text_speed_moderate">中程度</string>
@@ -2271,6 +2295,7 @@
     <string name="gb_voice_changer_user_status_renew">更新</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">サブスクリプションの有効期限が切れました。今すぐサブスクリプションを更新して、特典を受け取りましょう！</string>
     <string name="gb_voice_changer_user_vip_expired">期限切れ</string>
+    <string name="gb_voice_changer_user_vip_loading">お待ちください…</string>
     <string name="gb_voice_changer_user_vip_remain_time">有効期限：%s</string>
     <string name="gb_wild_mode_game_performance_enhance">ゲーム向けのパフォーマンスを強化する</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"ゲームセッションの
@@ -2289,6 +2314,8 @@
     <string name="gb_xunyou_gift_type_two_new">Xunyou %d日ブースト</string>
     <string name="gd_app_edit_done">完了</string>
     <string name="gd_app_edit_title_new">フローティングウィンドウのショートカットを編集</string>
+    <string name="gd_beauty_manage_summary">この機能を使用するには、ビデオ通話中にサイドツールボックスから開いてください</string>
+    <string name="gd_beauty_manage_title">ビデオ通話のビューティ</string>
     <string name="gd_dock_shortcut_fullscreen">全画面表示</string>
     <string name="gd_dock_shortcut_splitescreen">画面分割</string>
     <string name="gd_setting_conversation">会議ツール</string>
@@ -2302,6 +2329,7 @@
     <string name="gd_setting_dock_title">サイドバー</string>
     <string name="gd_setting_dock_video_summary">ビデオの視聴中にドルビーアトモスなどのエフェクトを使用する</string>
     <string name="gd_setting_dock_video_summary_new">ビデオの視聴中にツールやエフェクトを使用する</string>
+    <string name="gd_setting_group_custom_beauty_new">ビデオ通話のビューティを管理</string>
     <string name="gd_setting_group_custom_conversation_apps">通話の声紋を録音する</string>
     <string name="gd_setting_group_custom_gtb_apps">ゲーム</string>
     <string name="gd_setting_group_custom_gtb_apps_new">ゲームアプリを管理</string>
@@ -2884,6 +2912,10 @@
     <string name="miui_optimization_close_final_tip">システムの最適化をオフにしますか？</string>
     <string name="miui_optimization_close_title">この機能は開発者向けのもので、一般ユーザーには不便かもしれません。システムの最適化をオフにすると、以下のような変更が行われる可能性があります。</string>
     <string name="miuix_access_state_desc">選択済み</string>
+    <string name="miuix_accessibility_title">タイトル</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">編集モードを終了</string>
+    <string name="miuix_appcompat_accessibility_new_message">新しいメッセージ</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">編集モードに入る</string>
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
@@ -2899,6 +2931,18 @@
     <string name="miuix_appcompat_select_all">すべて選択</string>
     <string name="miuix_appcompat_select_all_description">すべて選択</string>
     <string name="miuix_appcompat_select_item">アイテムを選択</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">閉じるためには下にスクロール</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">半画面モードに切り替えるためには下にスクロール</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">最小化するためには下にスクロール</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">半画面モードに切り替えるためには上にスクロール</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">最大化するためには上にスクロール</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">半画面</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">最大化</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">最小化</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">半画面モードに切り替え</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">最大化モードに切り替え</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">最小化モードに切り替え</string>
+    <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">正常に更新されました</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">更新中…</string>
@@ -2907,6 +2951,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">今のところ以上です</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">お待ちください…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">アイテムを読み込めませんでした</string>
+    <string name="miuix_show_password">パスワードを表示</string>
     <string name="mixed_need_to_confirm">再度入力して確定してください</string>
     <string name="mixed_password_confirmed_header_confirm">正常に設定されました。タップして確認してください。</string>
     <string name="mixed_password_confirmed_header_continue">正常に設定されました。\"次へ\"をタップしてください。</string>
@@ -2923,7 +2968,7 @@
     <string name="modify_risk_app_permission_dialog_confirm">オンにする</string>
     <string name="modify_risk_app_permission_dialog_message">プライバシーを保護するために、このアプリに権限を付与した後、「空のメッセージを返す」をオンにすることをお勧めします。</string>
     <string name="modify_risk_app_permission_dialog_title">空のメッセージを返す</string>
-    <string name="modify_risk_app_permission_steps">%1$d. &lt;b>[設定]&lt;/b> > &lt;b>[アプリ]&lt;/b>を開きます。&lt;br>&lt;/br> %2$d. Select &lt;b>[アプリ]&lt;/b>を選択します。&lt;br>&lt;/br> %3$d. &lt;b>[アクセス許可を管理]&lt;/b>選択します。&lt;br>&lt;/br> %4$d. ︙アイコンをタップし、&lt;b>[権限のブロックを解除]&lt;/b>を選択します。&lt;br>&lt;/br> %5$d. その後、個別の権限を付与できます。</string>
+    <string name="modify_risk_app_permission_steps">%1$d. &lt;b>[設定]&lt;/b> > &lt;b>[アプリ]&lt;/b> を開きます。&lt;br>&lt;/br> %2$d. &lt;b>[アプリ]&lt;/b> を選択します。&lt;br>&lt;/br> %3$d. &lt;b>[アクセス許可を管理]&lt;/b> 選択します。&lt;br>&lt;/br> %4$d. ︙アイコンをタップし、&lt;b>[権限のブロックを解除]&lt;/b> を選択します。&lt;br>&lt;/br> %5$d. その後、個別の権限を付与できます。</string>
     <string name="modifypassword">パスワードの種類を変更</string>
     <string name="monday">月曜日</string>
     <string name="monday_short">月</string>
@@ -3305,6 +3350,7 @@
     <string name="optimize_result_toast_system_no_item_selected">アイテムが選択されていません</string>
     <string name="optional_permissions">任意のアクセス許可</string>
     <string name="optional_permissions_desc">これらの権限は、追加機能を使用するときに必要です。</string>
+    <string name="optmizingbar_item_img_description">完了</string>
     <string name="optmizingbar_optimize_done">最適化済み</string>
     <string name="optmizingbar_ready">最適化しています…</string>
     <string name="optmizingbar_stop_optmize">停止</string>
@@ -3470,9 +3516,11 @@
     <string name="pc_going_to_extreme_mode">休止モードを起動中</string>
     <string name="pc_handle_battery_level">グリップ</string>
     <string name="pc_have_no_battery_issue">問題なし</string>
+    <string name="pc_health_charge_default">フル充電</string>
     <string name="pc_health_charge_protect_noti_summary_title">バッテリー残量が %1$s に達すると、デバイスの充電は停止します</string>
     <string name="pc_health_charge_protect_notification_summary">バッテリーの劣化を抑えるためにバッテリー保護をオンにする</string>
     <string name="pc_health_charge_protect_summary">バッテリー駆動時間を延ばすため、バッテリー残量が %1$s に達すると充電が停止します</string>
+    <string name="pc_health_charge_protect_summary_new">バッテリー駆動時間を延ばすため、バッテリー残量が %1$s に達するとデバイスの充電が停止し、スケジュールされたときにのみ完全に充電されます</string>
     <string name="pc_health_charge_protect_title">バッテリー保護</string>
     <string name="pc_hide_more_power_rank_apps">非表示</string>
     <string name="pc_hidemode_normal">バランス</string>
@@ -3491,6 +3539,8 @@
     <string name="pc_install_manager">USB経由でインストール</string>
     <string name="pc_intellect_charge_protect_summary">使用シナリオに基づいて充電を調整します</string>
     <string name="pc_intellect_charge_protect_title">最適化された充電</string>
+    <string name="pc_is_exiting_low_temperature">"低温耐久モード
+をオフにしています"</string>
     <string name="pc_is_exiting_super_power">"ウルトラバッテリーセーバー
 をオフにしています"</string>
     <string name="pc_keywords_fast_charge">高速充電</string>
@@ -3512,7 +3562,7 @@
     <string name="pc_low_battery_fast_charge_summary">画面がオフでバッテリー残量が少ない場合は、付属の充電器を接続すると充電が速くなります。この機能により、デバイスが熱くなる可能性があります。</string>
     <string name="pc_low_temp_charge_summary">充電器を接続したまま、画面がオフになってからバッテリーが温まるまで待つと、正常に充電されます</string>
     <string name="pc_low_temp_charge_title">低温充電</string>
-    <string name="pc_low_temperature_extreme_endurance_summary">周囲温度が極端に低い場合、デバイスのパフォーマンスを制限してバッテリー駆動時間を延ばします</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">寒い環境ではデバイスのパフォーマンスを制限してバッテリー駆動時間を延ばす</string>
     <string name="pc_low_temperature_extreme_endurance_title">低温耐久モード</string>
     <string name="pc_main_activity_back">戻る</string>
     <string name="pc_main_battery_text_day">使用時間%1$s分延長、残り約%2$s日</string>
@@ -5313,6 +5363,9 @@
     <string name="tab_sms">SMS</string>
     <string name="tab_sort_all">すべて</string>
     <string name="tab_title">ブロックリスト</string>
+    <string name="talkback_virus_scan_omitted">スキャンされていません</string>
+    <string name="talkback_virus_scan_risky">リスクがあります</string>
+    <string name="talkback_virus_scan_safe">安全です</string>
     <string name="tc_cmd_invalid">テンプレートが無効です</string>
     <string name="tc_get_cmd_error">テンプレートを取得できませんでした</string>
     <string name="tc_parse_error">SMSを解析できませんでした</string>

@@ -114,6 +114,10 @@
     <string name="accessibility_keyboard_ok_button">Enter</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Chữ cái</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Khóa biểu tượng</string>
+    <string name="accessibility_sliding_button_state_description_off">tắt</string>
+    <string name="accessibility_sliding_button_state_description_on">bật</string>
+    <string name="accessibility_tab_state_description_unselect">Không được chọn</string>
+    <string name="accessibility_tab_statedesc_unselect">Không được chọn</string>
     <string name="action_button_text_100">Tối ưu</string>
     <string name="action_button_text_60">Sửa</string>
     <string name="action_button_text_60_80">Sửa</string>
@@ -687,6 +691,7 @@ Bạn sẽ không mất bất kỳ dữ liệu ứng dụng nào."</string>
     <string name="back_modifypassword">Quay lại thay đổi loại mật khẩu</string>
     <string name="back_sound_data">Bật dữ liệu di động và thử lại.</string>
     <string name="back_sound_fail">Không thể thiết lập. Cài đặt nhà mạng đã thay đổi. Thiết lập thẻ SIM hiện tại làm thẻ dữ liệu, kết nối mạng và thử lại.</string>
+    <string name="back_sound_no_support_oversea">SIM %1$d không hỗ trợ gói này</string>
     <string name="back_sound_success">Đặt thành công</string>
     <string name="back_sound_support">Tắt Wi-Fi trước</string>
     <string name="back_sound_support_china">Tắt WLAN trước</string>
@@ -761,6 +766,7 @@ Bạn sẽ không mất bất kỳ dữ liệu ứng dụng nào."</string>
     <string name="beauty_fun_filter">Làm đẹp</string>
     <string name="beauty_fun_front_light">Tăng sáng trước</string>
     <string name="beauty_fun_light">Tăng sáng</string>
+    <string name="beauty_fun_portrait_center_check">Chế độ Ultra HD không hỗ trợ FocusFrame</string>
     <string name="beauty_fun_privacy">Camera cá nhân</string>
     <string name="beauty_fun_privacy_dialog_message">Khi bạn sử dụng camera với tính năng nhận dạng khuôn mặt, khuôn mặt của bạn sẽ được phát hiện tự động và các khu vực được chụp khác sẽ bị che đi.</string>
     <string name="beauty_fun_privacy_dialog_tips">Tính năng này có thể làm giảm tỷ lệ thành công của việc nhận dạng khuôn mặt</string>
@@ -771,6 +777,7 @@ Bạn sẽ không mất bất kỳ dữ liệu ứng dụng nào."</string>
     <string name="beauty_fun_privacy_tips">Camera cá nhân hiện sẽ được sử dụng mặc định với tính năng nhận dạng khuôn mặt tương thích</string>
     <string name="beauty_fun_screen_light">Tăng sáng màn hình</string>
     <string name="beauty_fun_settings_light">Độ sáng tăng sáng</string>
+    <string name="beauty_fun_ultra_clear_check">FocusFrame không hỗ trợ chế độ Ultra HD</string>
     <string name="beauty_fun_video_effect">Làm đẹp cho video</string>
     <string name="beauty_portrait_center_desc">Tự động nhận dạng và canh giữa khuôn mặt khi thực hiện cuộc gọi video và cuộc họp. Tính năng này không hỗ trợ một số ứng dụng.</string>
     <string name="beauty_settings">Cài đặt</string>
@@ -983,6 +990,11 @@ Tuy nhiên, một số giao dịch của bạn vẫn chưa hoàn thành. Để 
     <string name="cancal_to_setting_fingerprint">Hủy</string>
     <string name="cancel">Hủy</string>
     <string name="cancel_button">Hủy</string>
+    <string name="car_sickness_relief_comment_text">Khi phát hiện chuyển động của xe, các chấm sẽ hiển thị ở cả hai bên màn hình để chỉ ra phương tiện có đang di chuyển hay không, điều này có thể giúp trì hoãn sự xuất hiện của chứng say xe.</string>
+    <string name="car_sickness_relief_example_text_1">Khi xe tăng tốc hoặc giảm tốc</string>
+    <string name="car_sickness_relief_example_text_2">Khi xe rẽ hoặc đổi làn đường</string>
+    <string name="car_sickness_remind_time_title">Chỉ báo chuyển động</string>
+    <string name="car_sickness_title">Giảm say tàu xe</string>
     <string name="card_main_apkclean_title">Xóa tập tin APK</string>
     <string name="card_main_appdataclean_title">Xóa dữ liệu ứng dụng</string>
     <string name="card_main_applock_action">Bật</string>
@@ -1926,6 +1938,8 @@ Nó sẽ được thêm vào danh sách ngoại lệ, nhưng các mục bị ch�
     <string name="gamebox_screenshot">Chụp ảnh màn hình</string>
     <string name="gamebox_simcard">Chuyển đổi thẻ SIM</string>
     <string name="gamebox_time">Hẹn giờ</string>
+    <string name="gamebox_time_elapsed_time_talkback">%1$s %2$s</string>
+    <string name="gamebox_time_ready_to_start_talkback">Not started</string>
     <string name="gamebox_type_close">Không hiển thị</string>
     <string name="gamebox_type_float">Lối tắt cố định</string>
     <string name="gamebox_type_gesture">Trượt để hiển thị</string>
@@ -2001,9 +2015,19 @@ Nó sẽ được thêm vào danh sách ngoại lệ, nhưng các mục bị ch�
     <string name="gb_barrage_chat_desc">Luôn tin rằng điều tốt đẹp sẽ đến</string>
     <string name="gb_barrage_chat_pre_desc">Xem trước</string>
     <string name="gb_barrage_chat_text_color">Màu sắc</string>
+    <string name="gb_barrage_chat_text_color_black_talkback">Black</string>
+    <string name="gb_barrage_chat_text_color_blue_talkback">Blue</string>
+    <string name="gb_barrage_chat_text_color_red_talkback">Red</string>
+    <string name="gb_barrage_chat_text_color_white_talkback">White</string>
+    <string name="gb_barrage_chat_text_color_yellow_talkback">Yellow</string>
     <string name="gb_barrage_chat_text_size">Cỡ chữ</string>
     <string name="gb_barrage_chat_text_size_big">Lớn</string>
+    <string name="gb_barrage_chat_text_size_largest_talkback">Largest</string>
+    <string name="gb_barrage_chat_text_size_medium_talkback">Medium</string>
+    <string name="gb_barrage_chat_text_size_slightly_large_talkback">Larger</string>
+    <string name="gb_barrage_chat_text_size_slightly_small_talkback">Smaller</string>
     <string name="gb_barrage_chat_text_size_small">Nhỏ</string>
+    <string name="gb_barrage_chat_text_size_smallest_talkback">Smallest</string>
     <string name="gb_barrage_chat_text_speed">Tốc độ</string>
     <string name="gb_barrage_chat_text_speed_faster">Nhanh</string>
     <string name="gb_barrage_chat_text_speed_moderate">Trung bình</string>
@@ -2269,6 +2293,7 @@ và khám phá thay đổi giọng nói của bạn!"</string>
     <string name="gb_voice_changer_user_status_renew">Gia hạn</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Đăng ký của bạn đã hết hạn. Gia hạn đăng ký để nhận thêm nhiều ưu đãi!</string>
     <string name="gb_voice_changer_user_vip_expired">Đã hết hạn</string>
+    <string name="gb_voice_changer_user_vip_loading">Just a sec…</string>
     <string name="gb_voice_changer_user_vip_remain_time">Ngày hết hạn: %s</string>
     <string name="gb_wild_mode_game_performance_enhance">Tăng hiệu suất cho trò chơi</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"Quay lại các khoảnh khắc
@@ -2287,6 +2312,8 @@ quan trọng khi chơi game"</string>
     <string name="gb_xunyou_gift_type_two_new">Tăng tốc Xunyou %d ngày</string>
     <string name="gd_app_edit_done">Hoàn tất</string>
     <string name="gd_app_edit_title_new">Sửa lối tắt cửa sổ nổi</string>
+    <string name="gd_beauty_manage_summary">Mở từ hộp công cụ bên trong khi gọi video để sử dụng tính năng này</string>
+    <string name="gd_beauty_manage_title">Làm đẹp cho cuộc gọi video</string>
     <string name="gd_dock_shortcut_fullscreen">Toàn màn hình</string>
     <string name="gd_dock_shortcut_splitescreen">Chia màn hình</string>
     <string name="gd_setting_conversation">Công cụ hội nghị</string>
@@ -2300,6 +2327,7 @@ quan trọng khi chơi game"</string>
     <string name="gd_setting_dock_title">Thanh bên</string>
     <string name="gd_setting_dock_video_summary">Sử dụng các hiệu ứng như Dolby Atmos khi xem video</string>
     <string name="gd_setting_dock_video_summary_new">Sử dụng các công cụ và hiệu ứng khi xem video</string>
+    <string name="gd_setting_group_custom_beauty_new">Quản lý Làm đẹp cho cuộc gọi video</string>
     <string name="gd_setting_group_custom_conversation_apps">Ghi lại vết giọng nói cho cuộc gọi</string>
     <string name="gd_setting_group_custom_gtb_apps">Game</string>
     <string name="gd_setting_group_custom_gtb_apps_new">Quản lý ứng dụng trò chơi</string>
@@ -2882,6 +2910,10 @@ Thiết bị của bạn nhanh hơn %s."</string>
     <string name="miui_optimization_close_final_tip">Tắt tối ưu hệ thống?</string>
     <string name="miui_optimization_close_title">Tính năng này dành cho nhà phát triển và có thể không thuận tiện cho người dùng phổ thông. Tắt tối ưu hệ thống có thể dẫn đến các thay đổi sau:</string>
     <string name="miuix_access_state_desc">Đã chọn</string>
+    <string name="miuix_accessibility_title">Tiêu đề</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Thoát khỏi chế độ chỉnh sửa</string>
+    <string name="miuix_appcompat_accessibility_new_message">Có tin nhắn mới</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Vào chế độ chỉnh sửa</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Bỏ chọn tất cả</string>
     <string name="miuix_appcompat_action_mode_select_all">Chọn tất cả</string>
     <string name="miuix_appcompat_action_mode_title_empty">Chọn mục</string>
@@ -2897,6 +2929,7 @@ Thiết bị của bạn nhanh hơn %s."</string>
     <string name="miuix_appcompat_select_all">Chọn tất cả</string>
     <string name="miuix_appcompat_select_all_description">Chọn tất cả</string>
     <string name="miuix_appcompat_select_item">Chọn mục</string>
+    <string name="miuix_progressbar_loading">Đang tải</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Kéo xuống để làm mới</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Làm mới thành công</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Đang làm mới…</string>
@@ -2905,6 +2938,7 @@ Thiết bị của bạn nhanh hơn %s."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Đã tải toàn bộ nội dung</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vui lòng chờ…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Không thể tải mục</string>
+    <string name="miuix_show_password">Hiển thị mật khẩu</string>
     <string name="mixed_need_to_confirm">Nhập lại để xác nhận</string>
     <string name="mixed_password_confirmed_header_confirm">Thiết lập thành công. Chạm để xác nhận.</string>
     <string name="mixed_password_confirmed_header_continue">Thiết lập thành công. Chạm \"Tiếp theo\".</string>
@@ -3304,6 +3338,7 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="optimize_result_toast_system_no_item_selected">Không có mục nào được chọn</string>
     <string name="optional_permissions">Quyền tùy chọn</string>
     <string name="optional_permissions_desc">Các quyền này được yêu cầu khi bạn sử dụng các tính năng bổ sung.</string>
+    <string name="optmizingbar_item_img_description">Hoàn tất</string>
     <string name="optmizingbar_optimize_done">Đã tối ưu</string>
     <string name="optmizingbar_ready">Đang tối ưu…</string>
     <string name="optmizingbar_stop_optmize">Dừng</string>
@@ -3469,9 +3504,11 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="pc_going_to_extreme_mode">Đang vào Chế độ ngủ đông</string>
     <string name="pc_handle_battery_level">Tay cầm</string>
     <string name="pc_have_no_battery_issue">Không có vấn đề</string>
+    <string name="pc_health_charge_default">Sạc đầy</string>
     <string name="pc_health_charge_protect_noti_summary_title">Thiết bị sẽ dừng sạc khi mức pin đạt đến %1$s</string>
     <string name="pc_health_charge_protect_notification_summary">Bật Bảo vệ pin để giảm sự lão hóa của pin</string>
     <string name="pc_health_charge_protect_summary">Để kéo dài thời gian sử dụng pin, thiết bị sẽ dừng sạc khi mức pin đạt đến %1$s</string>
+    <string name="pc_health_charge_protect_summary_new">Để kéo dài tuổi thọ pin, thiết bị sẽ ngừng sạc khi mức pin đạt %1$s và chỉ sạc đầy khi được lên lịch</string>
     <string name="pc_health_charge_protect_title">Bảo vệ pin</string>
     <string name="pc_hide_more_power_rank_apps">Ẩn</string>
     <string name="pc_hidemode_normal">Cân bằng</string>
@@ -3490,6 +3527,8 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="pc_install_manager">Cài đặt qua USB</string>
     <string name="pc_intellect_charge_protect_summary">Điều chỉnh sạc dựa trên trường hợp sử dụng</string>
     <string name="pc_intellect_charge_protect_title">Sạc tối ưu</string>
+    <string name="pc_is_exiting_low_temperature">"Đang tắt
+Chế độ chịu lạnh"</string>
     <string name="pc_is_exiting_super_power">"Đang tắt
 Tiết kiệm pin tối ưu"</string>
     <string name="pc_keywords_fast_charge">Sạc nhanh</string>
@@ -3511,7 +3550,7 @@ Tiết kiệm pin tối ưu"</string>
     <string name="pc_low_battery_fast_charge_summary">Kết nối bộ sạc đi kèm để tăng tốc độ sạc khi màn hình tắt và pin yếu. Tính năng này có thể khiến thiết bị của bạn nóng lên.</string>
     <string name="pc_low_temp_charge_summary">Giữ bộ sạc được kết nối và đợi pin ấm lên sau khi màn hình tắt để sạc bình thường</string>
     <string name="pc_low_temp_charge_title">Sạc nhiệt độ thấp</string>
-    <string name="pc_low_temperature_extreme_endurance_summary">Giới hạn hiệu suất của thiết bị để kéo dài thời gian sử dụng pin khi nhiệt độ môi trường xung quanh cực thấp</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">Giới hạn hiệu suất của thiết bị để kéo dài thời gian sử dụng pin trong môi trường lạnh</string>
     <string name="pc_low_temperature_extreme_endurance_title">Chế độ chịu lạnh</string>
     <string name="pc_main_activity_back">Quay lại</string>
     <string name="pc_main_battery_text_day">Đã thêm %1$s phút, còn lại khoảng %2$s ngày</string>
@@ -3828,7 +3867,7 @@ Tiết kiệm pin tối ưu"</string>
     <string name="power_center_battery_health_poor_tip">Dường như tình trạng pin không tốt. Hãy đến trung tâm dịch vụ được ủy quyền để kiểm tra tình trạng pin.</string>
     <string name="power_center_battery_health_summary">Sạc đầy và xả sạc thiết bị %1$d-%2$d lần để cải thiện độ chính xác thống kê tình trạng pin</string>
     <string name="power_center_battery_last">Còn lại %s</string>
-    <string name="power_center_battery_level">Đã sạc %s</string>
+    <string name="power_center_battery_level">%sđã sạc</string>
     <string name="power_center_battery_level_general">Bình thường</string>
     <string name="power_center_battery_problem_and_suggest">%1$s. %2$s.</string>
     <string name="power_center_battery_software">Phần mềm %s</string>
@@ -5312,6 +5351,9 @@ Rút lại chấp thuận ngay?"</string>
     <string name="tab_sms">SMS</string>
     <string name="tab_sort_all">Tất cả</string>
     <string name="tab_title">Danh sách chặn</string>
+    <string name="talkback_virus_scan_omitted">Chưa quét</string>
+    <string name="talkback_virus_scan_risky">Rủi ro</string>
+    <string name="talkback_virus_scan_safe">Bảo mật</string>
     <string name="tc_cmd_invalid">Mẫu không hợp lệ</string>
     <string name="tc_get_cmd_error">Không thể nhận mẫu</string>
     <string name="tc_parse_error">Không thể phân tích SMS</string>
