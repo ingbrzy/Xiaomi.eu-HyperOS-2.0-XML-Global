@@ -427,7 +427,7 @@
     <string name="data_disable_warning_no_mms">لن تتمكن من إرسال أو استقبال رسائل الوسائط المتعددة إذا قمت بإيقاف التشغيل بيانات الهاتف (WCDMA/LTE). ولكنك ستتمكن من القيام بذلك إذا اتصلت بشبكة Wi-Fi.</string>
     <string name="data_disable_warning_with_mms">ستظل قادرًا على إرسال أو استقبال رسائل الوسائط المتعددة إذا قمت بإيقاف التشغيل بيانات الهاتف (WCDMA/LTE). اتصل بشبكة Wi-Fi لإستخدام الإنترنت.</string>
     <string name="data_enable_always_warn">أسال قبل استخدام بيانات الجوال</string>
-    <string name="data_enable_summary">السماح لهذا الجهاز باستخدام بيانات الجوال</string>
+    <string name="data_enable_summary">السماح لهذا الجهاز باستخدام بيانات الهاتف</string>
     <string name="data_enable_warning">يؤدي السماح بإستخدام بيانات الهاتف دائمًا إلى فرض رسوم إضافية خارج خطة شركة الاتصالات الخاصة بك. هل مازلت ترغب في المتابعة؟</string>
     <string name="data_enabled">بيانات الجوال</string>
     <string name="data_for_high_temperature_toast">"Your device is overheated. Can't use this feature now."</string>
@@ -566,7 +566,9 @@
     <string name="enable_2g_dialog_title">تنبيه</string>
     <string name="enable_2g_dialog_warn_message">إذا قمت بإيقاف تشغيل 2G وكنت في منطقة حيث 2G هي الشبكة الوحيدة المتاحة، فلن تتمكن من إجراء أي مكالمات طارئة أو غير طارئة. هل تريد الإيقاف الآن؟</string>
     <string name="enable_2g_summary">تعتبر شبكات 2G أقل أمانًا، ولكنها قد تعمل على تحسين جودة الاتصال في بعض المواقع</string>
+    <string name="enable_2g_summary_eu">استخدام اتصالات الشبكة الخلوية 2G. بالنسبة للمكالمات الطارئة، يتم تفعيل شبكة 2G دائمًا.</string>
     <string name="enable_2g_title">السماح باستخدام 2G</string>
+    <string name="enable_2g_title_eu">السماح بتفعيل 2G</string>
     <string name="enable_antispam_strange_summary">كتم الرنين الأول للمكالمات الواردة من الأرقام الغير معروفة</string>
     <string name="enable_antispam_strange_title">كتم الرنين الأول</string>
     <string name="enable_cdma_call_waiting_setting">خلال إحدى المكالمات، سيتم إخطارك بشأن المكالمات الواردة.</string>
@@ -598,7 +600,7 @@
     <string name="enable_esim_dialog_title">تشغيل بطاقة eSIM</string>
     <string name="enable_esim_error_toast_message">تعذر تشغيل بطاقة eSIM</string>
     <string name="enable_esim_progress_activating_message">جارٍ تشغيل بطاقة eSIM…</string>
-    <string name="enable_esim_summary">تعطيل SIM %s بعد تشغيلها</string>
+    <string name="enable_esim_summary">ستستبدل eSIM بطاقة SIM %s</string>
     <string name="enable_esim_title">تشغيل بطاقة eSIM</string>
     <string name="enable_fdn">تفعيل أرقام الطلب الثابتة</string>
     <string name="enable_fdn_ok">‏إيقاف FDN</string>
@@ -1144,7 +1146,7 @@
     <string name="network_settings_query_failed_message">تعذر البحث عن شبكات جوال.</string>
     <string name="network_settings_select_automatic_hint">"لا يمكن التسجيل في الشبكة التي أخترتها.
 استخدام شبكة مفضلة بدلاً عنها."</string>
-    <string name="network_settings_title">شبكات الجوال</string>
+    <string name="network_settings_title">شبكات الهاتف</string>
     <string name="network_settings_turn_off">إيقاف</string>
     <string name="network_settings_warn_message">سيتصل جهازك فقط بالشبكات المختارة يدويًا.</string>
     <string name="network_state_display">إظهار حالة الشبكة</string>
@@ -1160,6 +1162,8 @@
     <string name="new_password_label">كلمة المرور الجديدة مكونة من %d أرقام</string>
     <string name="new_pin2_label">PIN%d الجديد</string>
     <string name="new_pin_label">رمز PIN الجديد</string>
+    <string name="newcall_settings_summary">يتم توفير خدمات الاتصال الجديدة بتقنية 5G بواسطة شركة الاتصالات الخاصة بك</string>
+    <string name="newcall_settings_title">5G مكالمات جديدة</string>
     <string name="night">المساء</string>
     <string name="no_active_esim_text">لا توجد بطاقة eSIM</string>
     <string name="no_change">لم يتم إجراء أي تغييرات.</string>
@@ -1196,6 +1200,8 @@
     <string name="obtain_location_information">الموقع</string>
     <string name="obtain_location_information_summary">لتحسين بيئة الشبكة الحالية</string>
     <string name="oem_radio_info_label">المعلومات/الإعدادات المتعلّقة بالمصنّع الأصلي للجهاز</string>
+    <string name="offline_call_has_call">الشخص الآخر مشغول. حاول مُجددًا في غضون دقيقة أو دقيقتين</string>
+    <string name="offline_call_not_match_contact">لا يمكن الاتصال. أنت لست من جهات الاتصال لدى الشخص الآخر</string>
     <string name="ok">حسنًا</string>
     <string name="oldPin2Label">‏PIN2 القديم</string>
     <string name="oldPinLabel">‏رمز PIN القديم</string>

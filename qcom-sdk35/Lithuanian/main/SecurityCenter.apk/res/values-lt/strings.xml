@@ -114,6 +114,10 @@
     <string name="accessibility_keyboard_ok_button">Įvesti</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Raidės</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">„Symbols lock“</string>
+    <string name="accessibility_sliding_button_state_description_off">išjungta</string>
+    <string name="accessibility_sliding_button_state_description_on">įjungta</string>
+    <string name="accessibility_tab_state_description_unselect">Nepasirinkta</string>
+    <string name="accessibility_tab_statedesc_unselect">Nepasirinkta</string>
     <string name="action_button_text_100">Optimizuoti</string>
     <string name="action_button_text_60">Ištaisyti</string>
     <string name="action_button_text_60_80">Ištaisyti</string>
@@ -688,6 +692,7 @@ Jokie programos duomenys nebus prarasti."</string>
     <string name="back_modifypassword">Grįžti į slaptažodžio tipo keitimą</string>
     <string name="back_sound_data">Įjunkite mobiliuosius duomenis ir pabandykite dar kartą.</string>
     <string name="back_sound_fail">Nepavyko nustatyti. Operatoriaus parametrai buvo pakeisti. Nustatykite dabartinę SIM kortelę kaip duomenų kortelę, prisijunkite prie tinklo ir pabandykite dar kartą.</string>
+    <string name="back_sound_no_support_oversea">SIM %1$d nepalaiko šio plano</string>
     <string name="back_sound_success">Sėkmingai nustatyta</string>
     <string name="back_sound_support">Pirmiausia išjunkite „Wi-Fi“</string>
     <string name="back_sound_support_china">Turn off WLAN first</string>
@@ -762,6 +767,7 @@ Jokie programos duomenys nebus prarasti."</string>
     <string name="beauty_fun_filter">Pagražinimas</string>
     <string name="beauty_fun_front_light">Priekinio fotoaparato užpildančios šviesos funkcija</string>
     <string name="beauty_fun_light">Užpildanti šviesa</string>
+    <string name="beauty_fun_portrait_center_check">„Ultra“ HD būsena nepalaiko „FocusFrame“</string>
     <string name="beauty_fun_privacy">Fotoaparato privatumo funkcija</string>
     <string name="beauty_fun_privacy_dialog_message">Kai naudojate fotoaparatą taikydami veido atpažinimo funkciją, jūsų veidas bus aptiktas automatiškai, o kitos sritys bus užmaskuotos.</string>
     <string name="beauty_fun_privacy_dialog_tips">Ši funkcija gali paveikti sėkmingą veido atpažinimą</string>
@@ -772,6 +778,7 @@ Jokie programos duomenys nebus prarasti."</string>
     <string name="beauty_fun_privacy_tips">Fotoaparato privatumo funkcija pagal numatymą bus naudojama kartu su veido atpažinimo funkcijomis</string>
     <string name="beauty_fun_screen_light">Ekrano užpildančios šviesos funkcija</string>
     <string name="beauty_fun_settings_light">Užpildančios šviesos ryškumas</string>
+    <string name="beauty_fun_ultra_clear_check">„FocusFrame“ nepalaiko „Ultra“ HD būsenos</string>
     <string name="beauty_fun_video_effect">Vaizdo įrašų pagražinimas</string>
     <string name="beauty_portrait_center_desc">Automatiškai nustatyti ir centruoti veidus vaizdo skambučiuose ir susitikimuose. Kai kurios programos šios funkcijos nepalaiko.</string>
     <string name="beauty_settings">Parametrai</string>
@@ -984,6 +991,11 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="cancal_to_setting_fingerprint">Atšaukti</string>
     <string name="cancel">Atšaukti</string>
     <string name="cancel_button">Atšaukti</string>
+    <string name="car_sickness_relief_comment_text">Kai aptinkamas transporto priemonės judėjimas, abiejose ekrano pusėse rodomi taškai, nurodantys, ar transporto priemonė juda, o tai gali padėti atitolinti judesio sukelto pykinimo atsiradimą.</string>
+    <string name="car_sickness_relief_example_text_1">Kai transporto priemonė pagreitėja arba sulėtėja</string>
+    <string name="car_sickness_relief_example_text_2">Kai transporto priemonė pasuka arba persirikiuoja</string>
+    <string name="car_sickness_remind_time_title">Judėjimo rodikliai</string>
+    <string name="car_sickness_title">Judėjimo sukelto pykinimo palengvinimas</string>
     <string name="card_main_apkclean_title">Trinti APK failus</string>
     <string name="card_main_appdataclean_title">Valyti programos duomenis</string>
     <string name="card_main_applock_action">Įjungti</string>
@@ -1928,6 +1940,8 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="gamebox_screenshot">Ekranvaizdis</string>
     <string name="gamebox_simcard">Perjungti SIM korteles</string>
     <string name="gamebox_time">Laikmatis</string>
+    <string name="gamebox_time_elapsed_time_talkback">%1$s %2$s</string>
+    <string name="gamebox_time_ready_to_start_talkback">Not started</string>
     <string name="gamebox_type_close">Nerodyti</string>
     <string name="gamebox_type_float">Fiksuota nuoroda</string>
     <string name="gamebox_type_gesture">Rodymui – perbraukite</string>
@@ -2003,9 +2017,19 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="gb_barrage_chat_desc">Visuomet galvokite, kad netrukus įvyks kažkas nuostabaus</string>
     <string name="gb_barrage_chat_pre_desc">Peržiūra</string>
     <string name="gb_barrage_chat_text_color">Spalva</string>
+    <string name="gb_barrage_chat_text_color_black_talkback">Black</string>
+    <string name="gb_barrage_chat_text_color_blue_talkback">Blue</string>
+    <string name="gb_barrage_chat_text_color_red_talkback">Red</string>
+    <string name="gb_barrage_chat_text_color_white_talkback">White</string>
+    <string name="gb_barrage_chat_text_color_yellow_talkback">Yellow</string>
     <string name="gb_barrage_chat_text_size">Teksto dydis</string>
     <string name="gb_barrage_chat_text_size_big">Didelis</string>
+    <string name="gb_barrage_chat_text_size_largest_talkback">Largest</string>
+    <string name="gb_barrage_chat_text_size_medium_talkback">Medium</string>
+    <string name="gb_barrage_chat_text_size_slightly_large_talkback">Larger</string>
+    <string name="gb_barrage_chat_text_size_slightly_small_talkback">Smaller</string>
     <string name="gb_barrage_chat_text_size_small">Mažas</string>
+    <string name="gb_barrage_chat_text_size_smallest_talkback">Smallest</string>
     <string name="gb_barrage_chat_text_speed">Greitis</string>
     <string name="gb_barrage_chat_text_speed_faster">Greitas</string>
     <string name="gb_barrage_chat_text_speed_moderate">Vidutinis</string>
@@ -2271,6 +2295,7 @@ Išmėginkite skirtingus charakterius ir specialiuosius efektus."</string>
     <string name="gb_voice_changer_user_status_renew">Atnaujinti</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Jūsų narystės galiojimas baigėsi. Atnaujinkite, norėdami naudotis visais teikiamais privalumais!</string>
     <string name="gb_voice_changer_user_vip_expired">Nebegalioja</string>
+    <string name="gb_voice_changer_user_vip_loading">Just a sec…</string>
     <string name="gb_voice_changer_user_vip_remain_time">Galiojimo data: %s</string>
     <string name="gb_wild_mode_game_performance_enhance">Pagerinkite žaidimų veikimą</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"Įrašykite pagrindines
@@ -2289,6 +2314,8 @@ Išmėginkite skirtingus charakterius ir specialiuosius efektus."</string>
     <string name="gb_xunyou_gift_type_two_new">„Xunyou“ %d dienų spartinimas</string>
     <string name="gd_app_edit_done">Atlikta</string>
     <string name="gd_app_edit_title_new">Redaguoti laikinojo lango nuorodas</string>
+    <string name="gd_beauty_manage_summary">Norėdami naudoti šią funkciją, vykstant vaizdo skambučiui atidarykite šoninį įrankių rinkinį</string>
+    <string name="gd_beauty_manage_title">Vaizdo pokalbių pagražinimas</string>
     <string name="gd_dock_shortcut_fullscreen">Visaekranis režimas</string>
     <string name="gd_dock_shortcut_splitescreen">Padalintas ekranas</string>
     <string name="gd_setting_conversation">Konferencijos įrankiai</string>
@@ -2302,6 +2329,7 @@ Išmėginkite skirtingus charakterius ir specialiuosius efektus."</string>
     <string name="gd_setting_dock_title">Šoninė juosta</string>
     <string name="gd_setting_dock_video_summary">Žiūrėdami vaizdo įrašus naudokite tokius efektus kaip „Dolby Atmos“</string>
     <string name="gd_setting_dock_video_summary_new">Žiūrėdami vaizdo įrašus naudokite įrankius ir efektus</string>
+    <string name="gd_setting_group_custom_beauty_new">Valdyti vaizdo pokalbių pagražinimą</string>
     <string name="gd_setting_group_custom_conversation_apps">Įrašyti balso ypatybes skambučiams</string>
     <string name="gd_setting_group_custom_gtb_apps">Žaidimai</string>
     <string name="gd_setting_group_custom_gtb_apps_new">Valdyti žaidimų programas</string>
@@ -2884,6 +2912,10 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="miui_optimization_close_final_tip">Išjungti sistemos optimizavimą?</string>
     <string name="miui_optimization_close_title">Ši funkcija skirta kūrėjams ir gali būti neparankti įprastiems naudotojams. Dėl sistemos optimizavimo išjungimo gali įsigalioti tolesni pokyčiai:</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
+    <string name="miuix_accessibility_title">Pavadinimas</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Išeiti iš redagavimo režimo</string>
+    <string name="miuix_appcompat_accessibility_new_message">Yra naujų žinučių</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Įjunkite redagavimo veikseną</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
@@ -2899,6 +2931,18 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="miuix_appcompat_select_all">Žymėti viską</string>
     <string name="miuix_appcompat_select_all_description">Pasirinkti viską</string>
     <string name="miuix_appcompat_select_item">Pasirinkti elementus</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Slinkite žemyn, kad uždarytumėte</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Slinkite žemyn, kad perjungtumėte į pusę ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Slinkite žemyn, kad suskleistumėte</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Slinkite aukštyn, kad perjungtumėte į pusę ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Slinkite aukštyn, kad išskleistumėte maksimaliai</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Pusė ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Išskleista maksimaliai</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Suskleista</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Perjungta į pusę ekrano</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Perjungta į maksimalią išskleidimą</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Perjungta į suskleidimą</string>
+    <string name="miuix_progressbar_loading">Įkeliama</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Atnaujinimui braukite žemyn</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sėkmingai atnaujinta</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Atnaujinama…</string>
@@ -2907,6 +2951,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Šiam kartui tiek</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Sekundėlę…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nepavyko įkelti elementų</string>
+    <string name="miuix_show_password">Rodyti slaptažodį</string>
     <string name="mixed_need_to_confirm">Įveskite dar kartą, kad patvirtinti</string>
     <string name="mixed_password_confirmed_header_confirm">Sėkmingai nustatyta. Palieskite, kad patvirtinti.</string>
     <string name="mixed_password_confirmed_header_continue">Sėkmingai nustatyta. Paspauskite „Toliau“.</string>
@@ -2923,7 +2968,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="modify_risk_app_permission_dialog_confirm">Įjungti</string>
     <string name="modify_risk_app_permission_dialog_message">Kad apsaugotumėte savo privatumą, rekomenduojame įjungti parinktį „Grąžinti tuščius pranešimus“, kai suteiksite leidimus šiai programai.</string>
     <string name="modify_risk_app_permission_dialog_title">Grąžinti tuščius pranešimus</string>
-    <string name="modify_risk_app_permission_steps">%1$d. Atidarykite &lt;b>Parametrus&lt;/b> > &lt;b>Programos&lt;/b>.&lt;br>&lt;/br> %2$d. Pasirinkite &lt;b>Programos&lt;/b>.&lt;br>&lt;/br> %3$d. Pasirinkite &lt;b>Leidimų valdymas&lt;/b>.&lt;br>&lt;/br> %4$d. Bakstelėkite ︙ piktogramą ir pasirinkite&lt;b>Atblokuoti leidimus&lt;/b>.&lt;br>&lt;/br> %5$d. Tuomet galite suteikti individualius leidimus.</string>
+    <string name="modify_risk_app_permission_steps">%1$d. Atidarykite &lt;b>Parametrai&lt;/b> > &lt;b>Programos&lt;/b>.&lt;br>&lt;/br> %2$d. Pasirinkite &lt;b>Programos&lt;/b>.&lt;br>&lt;/br> %3$d. Pasirinkite &lt;b>Leidimų valdymas&lt;/b>.&lt;br>&lt;/br> %4$d. Bakstelėkite ︙ piktogramą ir pasirinkite&lt;b>Atblokuoti teises&lt;/b>.&lt;br>&lt;/br> %5$d. Tuomet galite suteikti individualias teises.</string>
     <string name="modifypassword">Keisti slaptažodžio tipą</string>
     <string name="monday">Pirmadienis</string>
     <string name="monday_short">Pr.</string>
@@ -3305,6 +3350,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="optimize_result_toast_system_no_item_selected">Nepasirinkta jokių elementų</string>
     <string name="optional_permissions">Pasirenkamieji leidimai</string>
     <string name="optional_permissions_desc">Šie leidimai būtini, kai naudojamos papildomos funkcijos.</string>
+    <string name="optmizingbar_item_img_description">Atlikta</string>
     <string name="optmizingbar_optimize_done">Optimizuota</string>
     <string name="optmizingbar_ready">Optimizuojama…</string>
     <string name="optmizingbar_stop_optmize">Stabdyti</string>
@@ -3470,9 +3516,11 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pc_going_to_extreme_mode">Pereinama į užmigdymo režimą</string>
     <string name="pc_handle_battery_level">Laikiklis</string>
     <string name="pc_have_no_battery_issue">Jokių problemų</string>
+    <string name="pc_health_charge_default">Pakrauti visiškai</string>
     <string name="pc_health_charge_protect_noti_summary_title">Įrenginys nutrauks įkrovimą, kai pasieks %1$s akumuliatoriaus lygį</string>
     <string name="pc_health_charge_protect_notification_summary">Įjungti baterijos apsaugą, kad būtų sumažintas baterijos susinaudojimas</string>
     <string name="pc_health_charge_protect_summary">Siekdamas prailginti baterijos gyvavimo laiką, įrenginys nustos krautis, kai bus pasiektas baterijos %1$s lygis</string>
+    <string name="pc_health_charge_protect_summary_new">Siekdamas prailginti baterijos gyvavimo laiką, įrenginys nustos krautis, kai bus pasiektas baterijos %1$s lygis ir ji visiškai pasikraus pagal nustatytą tvarkaraštį</string>
     <string name="pc_health_charge_protect_title">Baterijos apsauga</string>
     <string name="pc_hide_more_power_rank_apps">Slėpti</string>
     <string name="pc_hidemode_normal">Subalansuota</string>
@@ -3491,6 +3539,8 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pc_install_manager">Įdiegimas per USB</string>
     <string name="pc_intellect_charge_protect_summary">Reguliuoti krovimą, priklausomai nuo naudojimo</string>
     <string name="pc_intellect_charge_protect_title">Optimizuotas įkrovimas</string>
+    <string name="pc_is_exiting_low_temperature">"Išjungiama
+Šalčio atsparumo režimas"</string>
     <string name="pc_is_exiting_super_power">"
 Ultra energijos taupymas išjungiamas"</string>
     <string name="pc_keywords_fast_charge">Greitasis krovimas</string>
@@ -3512,7 +3562,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pc_low_battery_fast_charge_summary">Prijunkite pateiktą įkroviklį, kad pagreitintumėte įkrovimą, kai ekranas išjungtas ir baterija išsikrovusi. Dėl šios funkcijos jūsų įrenginys gali įkaisti.</string>
     <string name="pc_low_temp_charge_summary">Laikykite įkroviklį prijungtą ir palaukite, kol ekranui išsijungus akumuliatorius sušils, kad įkrautumėte įprastai</string>
     <string name="pc_low_temp_charge_title">Įkrovimas žemoje temperatūroje</string>
-    <string name="pc_low_temperature_extreme_endurance_summary">Apribokite įrenginio veikimą, kad pailgintumėte baterijos veikimo laiką, kai aplinkos temperatūra itin žema</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">Apribokite įrenginio veiklą, kad šaltoje aplinkoje prailgintumėte baterijos gyvavimo laiką</string>
     <string name="pc_low_temperature_extreme_endurance_title">Šalčio atsparumo režimas</string>
     <string name="pc_main_activity_back">Grįžti</string>
     <string name="pc_main_battery_text_day">Pridėta %1$s min., liko maždaug %2$s d.</string>
@@ -3829,7 +3879,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="power_center_battery_health_poor_tip">Atrodo, jūsų akumuliatoriaus sveikata – žema. Patikrinkite akumuliatorių įgaliotame paslaugų centre.</string>
     <string name="power_center_battery_health_summary">Norėdami patobulinti akumuliatoriaus sveikatos statistikos tikslumą, pilnai įkraukite ir iškraukite įrenginį %1$d-%2$d kartus.</string>
     <string name="power_center_battery_last">Liko %s</string>
-    <string name="power_center_battery_level">%s įkrauta</string>
+    <string name="power_center_battery_level">%scharged</string>
     <string name="power_center_battery_level_general">Įprastas</string>
     <string name="power_center_battery_problem_and_suggest">%1$s. %2$s.</string>
     <string name="power_center_battery_software">Programinė įranga %s</string>
@@ -5314,6 +5364,9 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="tab_sms">SMS</string>
     <string name="tab_sort_all">Visi</string>
     <string name="tab_title">Blokuojamų sąrašas</string>
+    <string name="talkback_virus_scan_omitted">Nenuskaityta</string>
+    <string name="talkback_virus_scan_risky">Rizikinga</string>
+    <string name="talkback_virus_scan_safe">Saugu</string>
     <string name="tc_cmd_invalid">Netinkamas šablonas</string>
     <string name="tc_get_cmd_error">Nepavyko gauti šablono</string>
     <string name="tc_parse_error">Nepavyko išanalizuoti SMS</string>

@@ -87,6 +87,10 @@
     <string name="accessibility_keyboard_ok_button">Enter</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">אותיות</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">נעילת סמלים</string>
+    <string name="accessibility_sliding_button_state_description_off">כבוי</string>
+    <string name="accessibility_sliding_button_state_description_on">פועל</string>
+    <string name="accessibility_tab_state_description_unselect">לא נבחר</string>
+    <string name="accessibility_tab_statedesc_unselect">לא נבחר</string>
     <string name="action_button_text_100">ייעל</string>
     <string name="action_button_text_60">תקן</string>
     <string name="action_button_text_60_80">תקן</string>
@@ -660,6 +664,7 @@
     <string name="back_modifypassword">חזרה לעמוד סוג שינוי הסיסמה</string>
     <string name="back_sound_data">הפעל את חיבור הנתונים הסלולרי ונסה שוב.</string>
     <string name="back_sound_fail">לא ניתן היה להגדיר. הגדרות ספק הרשת שונו. הגדר את כרטיס ה-SIM הנוכחי ככרטיס נתונים, התחבר לרשת ונסה שוב.</string>
+    <string name="back_sound_no_support_oversea">כרטיס ה-SIM %1$d אינו תומך בתוכנית זו</string>
     <string name="back_sound_success">הוגדר בהצלחה</string>
     <string name="back_sound_support">קודם יש להשבית Wi-Fi</string>
     <string name="back_sound_support_china">Turn off WLAN first</string>
@@ -734,6 +739,7 @@
     <string name="beauty_fun_filter">ייפוי</string>
     <string name="beauty_fun_front_light">מילוי אור קדמי</string>
     <string name="beauty_fun_light">מילוי אור</string>
+    <string name="beauty_fun_portrait_center_check">מצב Ultra HD לא תומך ב-FocusFrame</string>
     <string name="beauty_fun_privacy">מצלמת פרטיות</string>
     <string name="beauty_fun_privacy_dialog_message">כאשר אתה משתמש במצלמה עם תכונות זיהוי פנים, הפנים שלך יזוהו באופן אוטומטי ואזורים מצולמים אחרים יטושטשו.</string>
     <string name="beauty_fun_privacy_dialog_tips">תכונה זו עשויה להוריד את שיעור ההצלחה של זיהוי פנים</string>
@@ -744,6 +750,7 @@
     <string name="beauty_fun_privacy_tips">מצלמת הפרטיות תשתמש כעת בתכונות זיהוי פנים תואמות כברירת מחדל</string>
     <string name="beauty_fun_screen_light">מילוי אור של המסך</string>
     <string name="beauty_fun_settings_light">בהירות מילוי אור</string>
+    <string name="beauty_fun_ultra_clear_check">FocusFrame לא תומך במצב Ultra HD</string>
     <string name="beauty_fun_video_effect">ייפוי עבור וידאו</string>
     <string name="beauty_portrait_center_desc">זהה פנים והצג אותן במרכז המסך באופן אוטומטי במהלך שיחות וידאו ובפגישות. תכונה זו אינה נתמכת על ידי יישומים מסוימים.</string>
     <string name="beauty_settings">הגדרות</string>
@@ -944,6 +951,11 @@
     <string name="cancal_to_setting_fingerprint">ביטול</string>
     <string name="cancel">ביטול</string>
     <string name="cancel_button">ביטול</string>
+    <string name="car_sickness_relief_comment_text">כאשר זוהה שהרכב בתנועה, בשני צידי המסך מוצגות נקודות שמעידות על כך שהרכב נמצא בתנועה, וזה עשוי לסייע לעיכוב של תחילת מחלת הנסיעה.</string>
+    <string name="car_sickness_relief_example_text_1">כשהרכב מאיץ או מאט</string>
+    <string name="car_sickness_relief_example_text_2">כשהרכב מסתובב או עובר נתיב</string>
+    <string name="car_sickness_remind_time_title">מחווני תנועה</string>
+    <string name="car_sickness_title">הקלה על מחלת הנסיעה</string>
     <string name="card_main_apkclean_title">מחיקת קובצי APK</string>
     <string name="card_main_appdataclean_title">מחיקת נתוני יישומים</string>
     <string name="card_main_applock_action">הפעל</string>
@@ -1806,6 +1818,8 @@
     <string name="gamebox_screenshot">צילום מסך</string>
     <string name="gamebox_simcard">החלף בין כרטיסי SIM</string>
     <string name="gamebox_time">שעון עצר</string>
+    <string name="gamebox_time_elapsed_time_talkback">%1$s %2$s</string>
+    <string name="gamebox_time_ready_to_start_talkback">Not started</string>
     <string name="gamebox_type_close">לא להציג</string>
     <string name="gamebox_type_float">קיצור קבוע</string>
     <string name="gamebox_type_gesture">העבר אצבע כדי להציג</string>
@@ -1881,9 +1895,19 @@
     <string name="gb_barrage_chat_desc">האמן תמיד כי משהו נפלא עומד להתרחש</string>
     <string name="gb_barrage_chat_pre_desc">תצוגה מקדימה</string>
     <string name="gb_barrage_chat_text_color">צבע</string>
+    <string name="gb_barrage_chat_text_color_black_talkback">Black</string>
+    <string name="gb_barrage_chat_text_color_blue_talkback">Blue</string>
+    <string name="gb_barrage_chat_text_color_red_talkback">Red</string>
+    <string name="gb_barrage_chat_text_color_white_talkback">White</string>
+    <string name="gb_barrage_chat_text_color_yellow_talkback">Yellow</string>
     <string name="gb_barrage_chat_text_size">גודל הטקסט</string>
     <string name="gb_barrage_chat_text_size_big">גדול</string>
+    <string name="gb_barrage_chat_text_size_largest_talkback">Largest</string>
+    <string name="gb_barrage_chat_text_size_medium_talkback">Medium</string>
+    <string name="gb_barrage_chat_text_size_slightly_large_talkback">Larger</string>
+    <string name="gb_barrage_chat_text_size_slightly_small_talkback">Smaller</string>
     <string name="gb_barrage_chat_text_size_small">קטן</string>
+    <string name="gb_barrage_chat_text_size_smallest_talkback">Smallest</string>
     <string name="gb_barrage_chat_text_speed">מהירות</string>
     <string name="gb_barrage_chat_text_speed_faster">מהיר</string>
     <string name="gb_barrage_chat_text_speed_moderate">בינוני</string>
@@ -2149,6 +2173,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_voice_changer_user_status_renew">חידוש</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">פג תוקף המינוי שלך. חדש את המינוי עכשיו כדי לקבל הטבות!</string>
     <string name="gb_voice_changer_user_vip_expired">פג תוקף</string>
+    <string name="gb_voice_changer_user_vip_loading">Just a sec…</string>
     <string name="gb_voice_changer_user_vip_remain_time">תאריך תפוגה: %s</string>
     <string name="gb_wild_mode_game_performance_enhance">לשפר את הביצועים לגיימינג</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"הקלט את הרגעים החשובים
@@ -2167,6 +2192,8 @@ Record sequences and use them anytime!"</string>
     <string name="gb_xunyou_gift_type_two_new">Xunyou האצה ל-%d ימים</string>
     <string name="gd_app_edit_done">בוצע</string>
     <string name="gd_app_edit_title_new">ערכו קיצורי דרך בחלון הצף</string>
+    <string name="gd_beauty_manage_summary">פתחו מארגז הכלים הצדדי בזמן שיחת וידאו כדי להשתמש במאפיין זה</string>
+    <string name="gd_beauty_manage_title">ייפוי לשיחות וידאו</string>
     <string name="gd_dock_shortcut_fullscreen">מסך מלא</string>
     <string name="gd_dock_shortcut_splitescreen">מסך מפוצל</string>
     <string name="gd_setting_conversation">כלי ועידה</string>
@@ -2180,6 +2207,7 @@ Record sequences and use them anytime!"</string>
     <string name="gd_setting_dock_title">סרגל צד</string>
     <string name="gd_setting_dock_video_summary">להשתמש באפקטים כמו Dolby Atmos בזמן צפייה בסרטונים</string>
     <string name="gd_setting_dock_video_summary_new">להשתמש בכלים ובאפקטים בזמן צפייה בסרטונים</string>
+    <string name="gd_setting_group_custom_beauty_new">ניהול של ייפוי לשיחות וידאו</string>
     <string name="gd_setting_group_custom_conversation_apps">הקלטת טביעת קול לשיחות</string>
     <string name="gd_setting_group_custom_gtb_apps">משחקים</string>
     <string name="gd_setting_group_custom_gtb_apps_new">ניהול יישומי משחק</string>
@@ -2748,6 +2776,10 @@ Record sequences and use them anytime!"</string>
     <string name="miui_optimization_close_final_tip">להשבית את האופטימיזציה של המערכת?</string>
     <string name="miui_optimization_close_title">מאפיין זה מיועד למפתחים, וייתכן שהוא לא יהיה נוח לכלל המשתמשים. השבתת אופטימיזציה של המערכת עשויה להביא לשינויים הבאים:</string>
     <string name="miuix_access_state_desc">נבחר</string>
+    <string name="miuix_accessibility_title">כותרת</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">יציאה ממצבי עריכה</string>
+    <string name="miuix_appcompat_accessibility_new_message">הודessage חדש</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">כניסה למצב עריכה</string>
     <string name="miuix_appcompat_action_mode_deselect_all">לבטל בחירת הכול</string>
     <string name="miuix_appcompat_action_mode_select_all">בחר הכל</string>
     <string name="miuix_appcompat_action_mode_title_empty">בחר פריטים</string>
@@ -2763,6 +2795,7 @@ Record sequences and use them anytime!"</string>
     <string name="miuix_appcompat_select_all">בחר הכל</string>
     <string name="miuix_appcompat_select_all_description">בחר הכל</string>
     <string name="miuix_appcompat_select_item">בחר פריטים</string>
+    <string name="miuix_progressbar_loading">טוען</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">משוך כלפי מטה כדי לרענן</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">רוענן בהצלחה</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">מרענן…</string>
@@ -2771,6 +2804,7 @@ Record sequences and use them anytime!"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">זה הכול לעכשיו</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">רק רגע…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">לא ניתן היה לטעון פריטים</string>
+    <string name="miuix_show_password">הצג סיסמה</string>
     <string name="mixed_need_to_confirm">הזן שוב לאישור</string>
     <string name="mixed_password_confirmed_header_confirm">הוגדר בהצלחה. לחץ לאישור.</string>
     <string name="mixed_password_confirmed_header_continue">הוגדר בהצלחה. לחץ על \"הבא\".</string>
@@ -2787,7 +2821,7 @@ Record sequences and use them anytime!"</string>
     <string name="modify_risk_app_permission_dialog_confirm">להפעיל</string>
     <string name="modify_risk_app_permission_dialog_message">כדי להגן על פרטיותכם, אנו ממליצים להפעיל את האפשרות \"להחזיר הודעות ריקות\" אחרי מתן הרשאות ליישום זה.</string>
     <string name="modify_risk_app_permission_dialog_title">להחזיר הודעות ריקות</string>
-    <string name="modify_risk_app_permission_steps">%1$d. לפתוח את &lt;b>הגדרות&lt;/b> > &lt;b>יישומים&lt;/b>.&lt;br>&lt;/br> %2$d. לבחור&lt;b>יישומים&lt;/b>.&lt;br>&lt;/br> %3$d. לבחור&lt;b>ניהול הרשאות&lt;/b>.&lt;br>&lt;/br> %4$d. להקיש על הצלמית ︙ ולבחור &lt;b>ביטול חסימת ההרשאות&lt;/b>.&lt;br>&lt;/br> %5$d. לאחר מכן, ניתן לתת הרשאות פרטניות.</string>
+    <string name="modify_risk_app_permission_steps">%1$d. פתחו את &lt;b>הגדרות&lt;/b> > &lt;b>יישומים&lt;/b>.&lt;br>&lt;/br> %2$d. בחרו &lt;b>יישומים&lt;/b>.&lt;br>&lt;/br> %3$d. בחרו &lt;b>ניהול הרשאות&lt;/b>.&lt;br>&lt;/br> %4$d. הקישו על הצלמית ︙ ובחרו &lt;b>ביטול חסימת ההרשאות&lt;/b>.&lt;br>&lt;/br> %5$d. לאחר מכן, ניתן לתת הרשאות פרטניות.</string>
     <string name="modifypassword">שינוי סוג הסיסמה</string>
     <string name="monday">שני</string>
     <string name="monday_short">"ב'"</string>
@@ -3136,6 +3170,7 @@ Record sequences and use them anytime!"</string>
     <string name="optimize_result_toast_system_no_item_selected">לא נבחרו פריטים</string>
     <string name="optional_permissions">הרשאות שאינן חובה</string>
     <string name="optional_permissions_desc">הרשאות אלה נדרשות לצורך שימוש בתכונות נוספות.</string>
+    <string name="optmizingbar_item_img_description">בוצע</string>
     <string name="optmizingbar_optimize_done">יועל</string>
     <string name="optmizingbar_ready">מייעל…</string>
     <string name="optmizingbar_stop_optmize">הפסק</string>
@@ -3300,9 +3335,11 @@ Record sequences and use them anytime!"</string>
     <string name="pc_going_to_extreme_mode">נכנס למצב שינה עמוקה</string>
     <string name="pc_handle_battery_level">תופסן</string>
     <string name="pc_have_no_battery_issue">אין בעיות</string>
+    <string name="pc_health_charge_default">לטעון עד הסוף</string>
     <string name="pc_health_charge_protect_noti_summary_title">המכשיר יפסיק את הטעינה כשרמת הסוללה תגיע ל-%1$s</string>
     <string name="pc_health_charge_protect_notification_summary">הפעלת הגנת הסוללה כדי לצמצם בלאי של הסוללה</string>
     <string name="pc_health_charge_protect_summary">המכשיר יפסיק את הטעינה כשאחוז טעינת הסוללה מגיע ל-%1$s כדי להאריך את משך חיי הסוללה</string>
+    <string name="pc_health_charge_protect_summary_new">כדי להאריך את משך חיי הסוללה, טעינת המכשיר תופסק כשרמת הסוללה מגיעה ל-%1$s, וטעינה מלאה תתבצע רק כשזו תוכננה</string>
     <string name="pc_health_charge_protect_title">הגנת הסוללה</string>
     <string name="pc_hide_more_power_rank_apps">הסתר</string>
     <string name="pc_hidemode_normal">מאוזן</string>
@@ -3321,6 +3358,8 @@ Record sequences and use them anytime!"</string>
     <string name="pc_install_manager">התקן באמצעות USB</string>
     <string name="pc_intellect_charge_protect_summary">התאם את הטעינה על סמך תרחישי שימוש</string>
     <string name="pc_intellect_charge_protect_title">טעינה ממוטבת</string>
+    <string name="pc_is_exiting_low_temperature">"משבית
+מצב סבילות לקור"</string>
     <string name="pc_is_exiting_super_power">"מכבה
 חיסכון קיצוני בסוללה"</string>
     <string name="pc_keywords_fast_charge">טעינה מהירה</string>
@@ -3342,7 +3381,7 @@ Record sequences and use them anytime!"</string>
     <string name="pc_low_battery_fast_charge_summary">לחבר את המטען המסופק כדי להאיץ את הטעינה בזמן שהמסך כבוי ורמת הסוללה נמוכה. מאפיין זה עלול לגרום להתחממות המכשיר.</string>
     <string name="pc_low_temp_charge_summary">יש להשאיר את המטען מחובר ולחכות עד שהסוללה תתחמם אחרי כיבוי המסך כדי לטעון כרגיל</string>
     <string name="pc_low_temp_charge_title">טעינה בטמפרטורה נמוכה</string>
-    <string name="pc_low_temperature_extreme_endurance_summary">מגביל את ביצועי המכשיר כדי להאריך את חיי הסוללה כשטמפרטורת הסביבה נמוכה באופן קיצוני</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">הגבלת ביצועי המכשיר כדי להאריך את משך חיי הסוללה בסביבה קרה</string>
     <string name="pc_low_temperature_extreme_endurance_title">מצב סבילות לקור</string>
     <string name="pc_main_activity_back">חזרה</string>
     <string name="pc_main_battery_text_day">"התווספו %1$s ד', בערך %2$s ד' נותרו"</string>
@@ -3659,7 +3698,7 @@ Record sequences and use them anytime!"</string>
     <string name="power_center_battery_health_poor_tip">נראה שרמת בריאות הסוללה נמוכה. בדוק את הסוללה שלך במרכז שירות מורשה.</string>
     <string name="power_center_battery_health_summary">הטען ורוקן את טעינת מכשירך במלואה %1$d-%2$d פעמים על מנת לשפר את הדיוק של נתוני בריאות הסוללה</string>
     <string name="power_center_battery_last">%s נותרו</string>
-    <string name="power_center_battery_level">הסוללה טעונה ב-%s</string>
+    <string name="power_center_battery_level">טעונה ב-%s</string>
     <string name="power_center_battery_level_general">רגיל</string>
     <string name="power_center_battery_problem_and_suggest">%1$s. %2$s.</string>
     <string name="power_center_battery_software">תוכנה %s</string>
@@ -5139,6 +5178,9 @@ Record sequences and use them anytime!"</string>
     <string name="tab_sms">מסרונים</string>
     <string name="tab_sort_all">הכול</string>
     <string name="tab_title">רשימת החסומים</string>
+    <string name="talkback_virus_scan_omitted">לא נסרק</string>
+    <string name="talkback_virus_scan_risky">מסוכן</string>
+    <string name="talkback_virus_scan_safe">מאובטח</string>
     <string name="tc_cmd_invalid">התבנית אינה חוקית</string>
     <string name="tc_get_cmd_error">לא ניתן היה לקבל את התבנית</string>
     <string name="tc_parse_error">לא ניתן היה לנתח את המסרון</string>

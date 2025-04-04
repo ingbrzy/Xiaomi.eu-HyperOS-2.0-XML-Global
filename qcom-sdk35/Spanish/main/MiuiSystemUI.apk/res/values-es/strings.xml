@@ -222,7 +222,6 @@
     <string name="accessibility_quick_settings_dnd_none_on">silencio total</string>
     <string name="accessibility_quick_settings_edit">Cambiar el orden de los ajustes.</string>
     <string name="accessibility_quick_settings_expand">Abrir ajustes rápidos.</string>
-    <string name="accessibility_quick_settings_handle_handsfree_battery_level">Grip conectado</string>
     <string name="accessibility_quick_settings_open_settings">Abrir ajustes de %s.</string>
     <string name="accessibility_quick_settings_page">Página %1$d de %2$d</string>
     <string name="accessibility_quick_settings_power_menu">Menú de encendido</string>
@@ -725,7 +724,7 @@ Puedes hacer cambios en cualquier momento en Ajustes."</string>
     <string name="controls_tile_locked">Dispositivo bloqueado</string>
     <string name="copy">Copiar</string>
     <string name="creating_new_guest_dialog_message">Creando nuevo invitado…</string>
-    <string name="creating_new_user_dialog_message">Creando nuevo usuario…</string>
+    <string name="creating_new_user_dialog_message">Creando usuario…</string>
     <string name="csd_500_system_lowered_text">El volumen de los auriculares ha superado el límite de seguridad de esta semana</string>
     <string name="csd_button_keep_listening">Seguir escuchando</string>
     <string name="csd_button_lower_volume">Bajar volumen</string>
@@ -782,7 +781,7 @@ Si vuelves a activar el uso de datos, es posible que se apliquen cargos."</strin
     <string name="debug_debugging_category">Depuración</string>
     <string name="debug_drawing_category">Dibujo</string>
     <string name="debug_hw_drawing_category">Renderización acelerada por hardware</string>
-    <string name="debug_hw_overdraw">Depurar overdraw de GPU</string>
+    <string name="debug_hw_overdraw">Depurar sobredibujos de GPU</string>
     <string name="debug_input_category">Entrada</string>
     <string name="debug_layout">Mostrar límites de diseño</string>
     <string name="debug_layout_summary">Muestra límites de vídeo, márgenes, etc.</string>
@@ -1062,7 +1061,6 @@ Apágala con el botón de encendido del teléfono."</string>
     <string name="fullaod_apply_super_wallpaper_toast">El tema de la Pantalla siempre activa se ha configurado como personalizado debido a los Superfondos de pantalla</string>
     <string name="fullaod_apply_third_theme_toast">El tema de la Pantalla siempre activa se ha configurado como personalizado debido a los temas de terceros</string>
     <string name="fullaod_apply_third_wallpaper_toast">El tema de la Pantalla siempre activa se ha configurado como personalizado debido a los fondos de pantalla de terceros</string>
-    <string name="fullaod_apply_video_depth_toast">Estilo de la Pantalla siempre activa cambiado a Personalizado</string>
     <string name="fullscreen_text">Pantalla completa</string>
     <string name="game_status">Reproduciendo</string>
     <string name="global_action_smart_lock_disabled">Prolongar Desbloqueo inhabilitado</string>
@@ -1174,7 +1172,7 @@ Toca para ver más información."</string>
     <string name="ime_security_warning_global">Los métodos de entrada podrían recoger todos los textos que escribas, incluyendo los datos personales como contraseñas y números de tarjetas de crédito. ¿Usar %1$s?</string>
     <string name="ime_security_warning_title_global">Activando teclado</string>
     <string name="immediately_destroy_activities">No mantener actividades</string>
-    <string name="immediately_destroy_activities_summary">Destruye actividades cuando el usuario deja de usarlas</string>
+    <string name="immediately_destroy_activities_summary">Destruir actividades cuando el usuario salga de ellas</string>
     <string name="immersive_cling_description">Para salir, desliza hacia abajo desde la parte superior de la pantalla</string>
     <string name="immersive_cling_positive">Entendido</string>
     <string name="immersive_cling_title">Visualización en pantalla completa</string>
@@ -1629,6 +1627,7 @@ M"</string>
     <string name="miui_rhombus_clock_week">EEE</string>
     <string name="miui_rhombus_clock_week_full">EEEE</string>
     <string name="miui_screen_rotation_freeze_message">Orientación de la pantalla bloqueada en el modo apaisado</string>
+    <string name="miui_screen_rotation_freeze_portrait_message">Orientación de pantalla bloqueada en el modo vertical</string>
     <string name="miui_smart_frame_clock_date">d/M</string>
     <string name="miui_smart_frame_clock_week">EEE</string>
     <string name="miui_snooze_always_float">No ocultar</string>
@@ -1826,7 +1825,6 @@ Si tienes alguna pregunta, ponte en contacto con %2$s."</string>
     <string name="mtrl_picker_toggle_to_year_selection">Toca para cambiar a la vista de año</string>
     <string name="mtrl_timepicker_cancel">Cancelar</string>
     <string name="mtrl_timepicker_confirm">Aceptar</string>
-    <string name="multiwin_bottomcaption">Barra de acción de ventanas flotantes</string>
     <string name="multiwin_closewindow">Cerrar ventana</string>
     <string name="multiwin_newwindow">Nueva ventana</string>
     <string name="multiwin_windowcontrol">Barra de control de ventanas</string>
@@ -2015,7 +2013,7 @@ Si tienes alguna pregunta, ponte en contacto con %2$s."</string>
     <string name="power_remaining_settings_home_page">%1$s: %2$s</string>
     <string name="power_suggestion_battery_run_out">Puede que se agote la batería sobre las %1$s</string>
     <string name="preference_copied">\"%1$s\" se ha copiado en el portapapeles.</string>
-    <string name="preference_summary_default_combination">%1$s/%2$s</string>
+    <string name="preference_summary_default_combination">%1$s / %2$s</string>
     <string name="priority_conversations">Conversaciones prioritarias</string>
     <string name="priority_mode_dream_overlay_content_description">No molestar</string>
     <string name="privacy_dialog_active_app_usage">En uso por %1$s</string>
@@ -2223,11 +2221,11 @@ Si tienes alguna pregunta, ponte en contacto con %2$s."</string>
     <string name="quick_settings_screen_record_label">Grabar pantalla</string>
     <string name="quick_settings_screen_record_start">Iniciar</string>
     <string name="quick_settings_screen_record_stop">Detener</string>
+    <string name="quick_settings_screen_rotation_inner_landscape_locked">Orientación de la pantalla interna bloqueada en el modo apaisado</string>
     <string name="quick_settings_screen_rotation_inner_locked">Rotación de la pantalla interior desactivada</string>
+    <string name="quick_settings_screen_rotation_inner_portrait_locked">Orientación de la pantalla interna bloqueada en el modo vertical</string>
     <string name="quick_settings_screen_rotation_inner_unlocked">Rotación de la pantalla interior activada</string>
-    <string name="quick_settings_screen_rotation_outer_landscape_locked">Pantalla exterior bloqueada en el modo apaisado</string>
     <string name="quick_settings_screen_rotation_outer_locked">La orientación de la pantalla exterior está bloqueada</string>
-    <string name="quick_settings_screen_rotation_outer_portrait_locked">Pantalla exterior bloqueada en el modo retrato</string>
     <string name="quick_settings_screen_rotation_outer_unlocked">Rotación de la pantalla exterior activada</string>
     <string name="quick_settings_screenlock_label">Pantalla de bloqueo</string>
     <string name="quick_settings_screensaver_label">Salvapantallas</string>
@@ -2734,7 +2732,7 @@ Recibirás una notificación cuando puedas volver a usarlo."</string>
     <string name="user_add_user">Añadir usuario</string>
     <string name="user_add_user_item_summary">Los usuarios tienen contenido y aplicaciones propios</string>
     <string name="user_add_user_item_title">Usuario</string>
-    <string name="user_add_user_message_long">"Puedes compartir este dispositivo si creas más usuarios. Cada uno tendrá su propio espacio y podrá personalizarlo con aplicaciones, un fondo de pantalla y mucho más. Los usuarios también pueden ajustar opciones del dispositivo, como la conexión Wi‑Fi, que afectan a todos los usuarios.
+    <string name="user_add_user_message_long">"Puedes compartir este dispositivo si creas más usuarios. Cada uno tendrá su propio espacio y podrá personalizarlo con aplicaciones, un fondo de pantalla y más. Los usuarios también pueden ajustar opciones del dispositivo, como la conexión Wi‑Fi, que afectan a todos los usuarios.
 
 Cuando añadas un usuario, tendrá que configurar su espacio.
 

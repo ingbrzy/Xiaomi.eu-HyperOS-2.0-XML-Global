@@ -114,6 +114,10 @@
     <string name="accessibility_keyboard_ok_button">Saisir</string>
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Lettres</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Verrouillage des symboles</string>
+    <string name="accessibility_sliding_button_state_description_off">désactivé</string>
+    <string name="accessibility_sliding_button_state_description_on">activé</string>
+    <string name="accessibility_tab_state_description_unselect">Non sélectionné</string>
+    <string name="accessibility_tab_statedesc_unselect">Non sélectionné</string>
     <string name="action_button_text_100">Optimiser</string>
     <string name="action_button_text_60">Corriger</string>
     <string name="action_button_text_60_80">Corriger</string>
@@ -687,6 +691,7 @@ Vous ne perdrez aucune donnée d'application."</string>
     <string name="back_modifypassword">Retourner au changement du type de mot de passe</string>
     <string name="back_sound_data">Activer les données mobiles et réessayez.</string>
     <string name="back_sound_fail">"Impossible de définir. Les paramètres de l'opérateur ont été modifiés. Définissez la care SIM actuelle comme votre carte de données, connectez-vous et réessayez."</string>
+    <string name="back_sound_no_support_oversea">La carte SIM %1$d ne prend pas en charge ce forfait</string>
     <string name="back_sound_success">Défini avec succès</string>
     <string name="back_sound_support">"Désactiver d'abord le Wi-Fi"</string>
     <string name="back_sound_support_china">Turn off WLAN first</string>
@@ -761,6 +766,7 @@ Vous ne perdrez aucune donnée d'application."</string>
     <string name="beauty_fun_filter">Embellir</string>
     <string name="beauty_fun_front_light">Lumière de remplissage avant</string>
     <string name="beauty_fun_light">Lumière de remplissage</string>
+    <string name="beauty_fun_portrait_center_check">Le mode Ultra HD ne prend pas en charge FocusFrame</string>
     <string name="beauty_fun_privacy">Caméra de confidentialité</string>
     <string name="beauty_fun_privacy_dialog_message">"Lorsque vous utilisez l'appareil photo pour les fonctions de reconnaissance faciale, votre visage sera détecté automatiquement et les autres zones capturées seront masquées."</string>
     <string name="beauty_fun_privacy_dialog_tips">Cette fonctionnalité peut réduire le taux de réussite de la reconnaissance faciale</string>
@@ -771,6 +777,7 @@ Vous ne perdrez aucune donnée d'application."</string>
     <string name="beauty_fun_privacy_tips">La caméra de confidentialité sera désormais utilisée par défaut avec les fonctionnalités de reconnaissance faciale compatibles</string>
     <string name="beauty_fun_screen_light">"Lumière de remplissage d'écran"</string>
     <string name="beauty_fun_settings_light">Remplir la luminosité de la lumière</string>
+    <string name="beauty_fun_ultra_clear_check">FocusFrame ne prend pas en charge le mode Ultra HD</string>
     <string name="beauty_fun_video_effect">Embellissez pour la vidéo</string>
     <string name="beauty_portrait_center_desc">"Identifiez et centrez automatiquement les visages dans les appels vidéo et les réunions. Cette fonctionnalité n'est pas prise en charge par certaines applications."</string>
     <string name="beauty_settings">Paramètres</string>
@@ -983,6 +990,11 @@ Cependant, certaines de vos transactions ne sont pas encore terminées. Pour pou
     <string name="cancal_to_setting_fingerprint">Annuler</string>
     <string name="cancel">Annuler</string>
     <string name="cancel_button">Annuler</string>
+    <string name="car_sickness_relief_comment_text">"Lorsque le mouvement du véhicule est détecté, des points sont affichés de chaque côté de l'écran pour indiquer si le véhicule se déplace, ce qui peut aider à retarder l'apparition du mal des transports."</string>
+    <string name="car_sickness_relief_example_text_1">Lorsque le véhicule accélère ou ralentit</string>
+    <string name="car_sickness_relief_example_text_2">Lorsque le véhicule tourne ou change de voie</string>
+    <string name="car_sickness_remind_time_title">Indicateurs de mouvement</string>
+    <string name="car_sickness_title">Soulagement du mal des transports</string>
     <string name="card_main_apkclean_title">Supprimer les APK</string>
     <string name="card_main_appdataclean_title">"Effacer les données de l'application"</string>
     <string name="card_main_applock_action">Activer</string>
@@ -1928,6 +1940,8 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="gamebox_screenshot">"Capture d'écran"</string>
     <string name="gamebox_simcard">Changer de carte SIM</string>
     <string name="gamebox_time">Minuteur</string>
+    <string name="gamebox_time_elapsed_time_talkback">%1$s %2$s</string>
+    <string name="gamebox_time_ready_to_start_talkback">Not started</string>
     <string name="gamebox_type_close">Ne pas afficher</string>
     <string name="gamebox_type_float">Raccourci fixe</string>
     <string name="gamebox_type_gesture">Balayer pour afficher</string>
@@ -2003,9 +2017,19 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="gb_barrage_chat_desc">Toujours croire que quelque chose de merveilleux va se produire</string>
     <string name="gb_barrage_chat_pre_desc">Aperçu</string>
     <string name="gb_barrage_chat_text_color">Couleur</string>
+    <string name="gb_barrage_chat_text_color_black_talkback">Black</string>
+    <string name="gb_barrage_chat_text_color_blue_talkback">Blue</string>
+    <string name="gb_barrage_chat_text_color_red_talkback">Red</string>
+    <string name="gb_barrage_chat_text_color_white_talkback">White</string>
+    <string name="gb_barrage_chat_text_color_yellow_talkback">Yellow</string>
     <string name="gb_barrage_chat_text_size">Taille du texte</string>
     <string name="gb_barrage_chat_text_size_big">Grande</string>
+    <string name="gb_barrage_chat_text_size_largest_talkback">Largest</string>
+    <string name="gb_barrage_chat_text_size_medium_talkback">Medium</string>
+    <string name="gb_barrage_chat_text_size_slightly_large_talkback">Larger</string>
+    <string name="gb_barrage_chat_text_size_slightly_small_talkback">Smaller</string>
     <string name="gb_barrage_chat_text_size_small">Petite</string>
+    <string name="gb_barrage_chat_text_size_smallest_talkback">Smallest</string>
     <string name="gb_barrage_chat_text_speed">Vitesse</string>
     <string name="gb_barrage_chat_text_speed_faster">Rapide</string>
     <string name="gb_barrage_chat_text_speed_moderate">Moyen</string>
@@ -2271,6 +2295,7 @@ et explorez notre changeur de voix!"</string>
     <string name="gb_voice_changer_user_status_renew">Renouveler</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Vos abonnements ont expiré. Renouvelez votre abonnement maintenant pour bénéficier des avantages!</string>
     <string name="gb_voice_changer_user_vip_expired">Expirée</string>
+    <string name="gb_voice_changer_user_vip_loading">Just a sec…</string>
     <string name="gb_voice_changer_user_vip_remain_time">"Date d'expiration : %s"</string>
     <string name="gb_wild_mode_game_performance_enhance">Améliorer les performances pour les jeux</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"Enregistrez les moments clés
@@ -2289,6 +2314,8 @@ et explorez notre changeur de voix!"</string>
     <string name="gb_xunyou_gift_type_two_new">Xunyou %d- boost du jour</string>
     <string name="gd_app_edit_done">Terminé</string>
     <string name="gd_app_edit_title_new">Modifier les raccourcis des fenêtres flottantes</string>
+    <string name="gd_beauty_manage_summary">Ouvrez la boîte à outils latérale pendant les appels vidéo pour utiliser cette fonctionnalité</string>
+    <string name="gd_beauty_manage_title">Embellir les appels vidéo</string>
     <string name="gd_dock_shortcut_fullscreen">Plein écran</string>
     <string name="gd_dock_shortcut_splitescreen">Écran divisé</string>
     <string name="gd_setting_conversation">Outils de conférence</string>
@@ -2302,6 +2329,7 @@ et explorez notre changeur de voix!"</string>
     <string name="gd_setting_dock_title">Barre latérale</string>
     <string name="gd_setting_dock_video_summary">Utilisez des effets tels que Dolby Atmos tout en regardant des vidéos</string>
     <string name="gd_setting_dock_video_summary_new">Utiliser des outils et des effets tout en regardant des vidéos</string>
+    <string name="gd_setting_group_custom_beauty_new">Gérer embellir les appels vidéo</string>
     <string name="gd_setting_group_custom_conversation_apps">"Enregistrez l'empreinte vocale pour les appels"</string>
     <string name="gd_setting_group_custom_gtb_apps">Jeux</string>
     <string name="gd_setting_group_custom_gtb_apps_new">Gérer les applications de jeux</string>
@@ -2531,7 +2559,7 @@ to join our egg hunt!"</string>
     <string name="hints_scan_result_phone_safe">Tout semble bon !</string>
     <string name="hints_scan_result_safe">Sûr</string>
     <string name="hints_scanning">Analyse en cours…</string>
-    <string name="hints_scanning_text">Analyse en cours…</string>
+    <string name="hints_scanning_text">Analyse…</string>
     <string name="hints_virus_apk_list_item_summary">application</string>
     <string name="hints_virus_apk_summary">%s (apk)</string>
     <string name="hints_virus_app_list_item_summary">application</string>
@@ -2884,6 +2912,10 @@ Votre appareil est désormais %s plus rapide."</string>
     <string name="miui_optimization_close_final_tip">"Désactiver l'optimisation du système?"</string>
     <string name="miui_optimization_close_title">"Cette fonctionnalité est destinée aux développeurs et peut ne pas convenir aux utilisateurs généraux. La désactivation de l'optimisation du système peut entraîner les modifications suivantes :"</string>
     <string name="miuix_access_state_desc">Sélectionné</string>
+    <string name="miuix_accessibility_title">Titre</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">"Quitter le mode d'édition"</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nouveau message</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entrer en mode édition</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Tout désélectionner</string>
     <string name="miuix_appcompat_action_mode_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_action_mode_title_empty">Sélectionner des éléments</string>
@@ -2899,6 +2931,18 @@ Votre appareil est désormais %s plus rapide."</string>
     <string name="miuix_appcompat_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_select_all_description">Tout sélectionner</string>
     <string name="miuix_appcompat_select_item">Sélectionnez les éléments</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Faites défiler vers le bas pour fermer</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Faites défiler vers le bas pour passer en mode demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Faites défiler vers le bas pour minimiser</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Faites défiler vers le haut pour passer en mode demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Faites défiler vers le haut pour maximiser</string>
+    <string name="miuix_bottom_sheet_accessibility_state_half_screen">Demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Maximisé</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Minimisé</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Passé en mode demi-écran</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Passé en mode maximisé</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Passé en mode minimisé</string>
+    <string name="miuix_progressbar_loading">Chargement</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualisé avec succès</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Actualisation…</string>
@@ -2907,6 +2951,7 @@ Votre appareil est désormais %s plus rapide."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">"C'est tout pour le moment"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Juste un instant…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Impossible de charger les éléments</string>
+    <string name="miuix_show_password">Afficher le mot de passe</string>
     <string name="mixed_need_to_confirm">Saisir une fois de plus pour confirmer</string>
     <string name="mixed_password_confirmed_header_confirm">Défini avec succès. Appuyez sur \"Confirmer\".</string>
     <string name="mixed_password_confirmed_header_continue">Défini avec succès. Appuyez sur \"Suivant\".</string>
@@ -3305,6 +3350,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="optimize_result_toast_system_no_item_selected">Aucun élément sélectionné</string>
     <string name="optional_permissions">Autorisations optionnelles</string>
     <string name="optional_permissions_desc">Ces autorisations sont requises lorsque vous utilisez des fonctionnalités supplémentaires.</string>
+    <string name="optmizingbar_item_img_description">Terminé</string>
     <string name="optmizingbar_optimize_done">Optimisé</string>
     <string name="optmizingbar_ready">Optimisation…</string>
     <string name="optmizingbar_stop_optmize">Arrêter</string>
@@ -3470,9 +3516,11 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pc_going_to_extreme_mode">Entrée en Mode hibernation</string>
     <string name="pc_handle_battery_level">Poignée</string>
     <string name="pc_have_no_battery_issue">Aucun problème</string>
+    <string name="pc_health_charge_default">Charger complètement</string>
     <string name="pc_health_charge_protect_noti_summary_title">"L'appareil cesse de charger lorsque le niveau de la batterie atteint %1$s"</string>
     <string name="pc_health_charge_protect_notification_summary">Activer la protection de la batterie pour réduire le vieillissement de la batterie</string>
     <string name="pc_health_charge_protect_summary">"Pour prolonger la durée de vie de la batterie, l'appareil arrête le chargement lorsque le niveau de charge atteint %1$s"</string>
+    <string name="pc_health_charge_protect_summary_new">"Pour prolonger l'autonomie de la batterie, l'appareil cesse de se charger lorsque le niveau de batterie atteint %1$s et ne charge complètement qu'à l’heure prévue"</string>
     <string name="pc_health_charge_protect_title">Protection de la batterie</string>
     <string name="pc_hide_more_power_rank_apps">Masquer</string>
     <string name="pc_hidemode_normal">Équilibré</string>
@@ -3491,6 +3539,8 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pc_install_manager">Installation via USB</string>
     <string name="pc_intellect_charge_protect_summary">"Ajuster la charge en fonction des scénarios d'utilisation"</string>
     <string name="pc_intellect_charge_protect_title">Charge optimisée</string>
+    <string name="pc_is_exiting_low_temperature">"Désactivation
+Mode d'endurance à froid"</string>
     <string name="pc_is_exiting_super_power">"Désactivation
 de l'économiseur de batterie Ultra"</string>
     <string name="pc_keywords_fast_charge">Charge rapide</string>
@@ -3512,7 +3562,7 @@ de l'économiseur de batterie Ultra"</string>
     <string name="pc_low_battery_fast_charge_summary">"Connectez le chargeur fourni pour accélérer la charge lorsque l'écran est éteint et que la batterie est faible. Cette fonctionnalité peut faire chauffer votre appareil."</string>
     <string name="pc_low_temp_charge_summary">"Gardez le chargeur connecté et attendez que la batterie se réchauffe après que l'écran se soit éteint pour charger normalement"</string>
     <string name="pc_low_temp_charge_title">Charge en basse température</string>
-    <string name="pc_low_temperature_extreme_endurance_summary">"Limiter les performances de l'appareil pour prolonger l'autonomie de la batterie lorsque la température ambiante est extrêmement basse"</string>
+    <string name="pc_low_temperature_extreme_endurance_summary">"Limiter les performances de l'appareil pour prolonger l'autonomie de la batterie dans des environnements froids"</string>
     <string name="pc_low_temperature_extreme_endurance_title">"Mode d'endurance à froid"</string>
     <string name="pc_main_activity_back">Retour</string>
     <string name="pc_main_battery_text_day">Ajouté %1$s min, il reste environ %2$s j</string>
@@ -5313,6 +5363,9 @@ Le formatage effacera le contenu existant sur la ^2. Pour éviter de perdre du c
     <string name="tab_sms">SMS</string>
     <string name="tab_sort_all">Tout</string>
     <string name="tab_title">Liste noire</string>
+    <string name="talkback_virus_scan_omitted">Non analysé</string>
+    <string name="talkback_virus_scan_risky">Risqué</string>
+    <string name="talkback_virus_scan_safe">Sécurisé</string>
     <string name="tc_cmd_invalid">Modèle invalide</string>
     <string name="tc_get_cmd_error">"Impossible d'obtenir le modèle"</string>
     <string name="tc_parse_error">"Impossible d'analyser les SMS"</string>

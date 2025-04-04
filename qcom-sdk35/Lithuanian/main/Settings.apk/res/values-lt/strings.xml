@@ -838,7 +838,7 @@ Valdiklis: %2$s
     <string name="app_backup">Kurti kopiją</string>
     <string name="app_battery_usage_summary">Nustatyti programų akumuliatoriaus energijos vartojimą</string>
     <string name="app_battery_usage_title">Programos akumuliatoriaus energijos vartojimas</string>
-    <string name="app_bluetooth_device_blacklist">„Bluetooth“ blokuojamų sąrašas</string>
+    <string name="app_bluetooth_device_blacklist">„Bluetooth“ blokuojamų įrenginių sąrašas</string>
     <string name="app_cache_optimization">Programėlės podėlio optimizavimas</string>
     <string name="app_cache_optimization_summary">Įjungę šią funkciją, perkraukite savo įrenginį, kad funkcija pradėtų veikti</string>
     <string name="app_cellular_data_usage">Programos duomenų naudojimas</string>
@@ -1223,7 +1223,11 @@ Paskutinį kartą vykdyta %2$s"</string>
     <string name="back_navigation_animation_summary">Įgalinkite sistemos animacijas, kad būtų galima naudoti numatomus grįžimo atgal gestus.</string>
     <string name="back_sensitivity_dialog_message">Didesnis jautrumas gali būti nesuderinamas su visais programų gestais palei ekrano kraštus.</string>
     <string name="back_sensitivity_dialog_title">Grįžtamasis jautrumas</string>
+    <string name="back_strap_image_new_text">Įjunkite šią funkciją, kad gautumėte vaizdinius pranešimus ir suasmenintus šviesos efektus</string>
     <string name="back_strap_image_text">Kai įrenginys nukreiptas ekranu žemyn ir ekranas išjungtas, galinis apšvietimas rodys pranešimų priminimus ir skirtingų scenų apšvietimo efektus</string>
+    <string name="back_strap_off">Išjungti</string>
+    <string name="back_strap_on">Įjungti</string>
+    <string name="back_strap_on_back_light_display">Tik kai įrenginys nukreiptas ekranu žemyn</string>
     <string name="back_strap_status_close">Išjungta</string>
     <string name="back_strap_status_open">Įjungta</string>
     <string name="back_strap_title">Foninio apšvietimo efektai</string>
@@ -1701,7 +1705,7 @@ Anksčiau nebuvote prisijungę prie %2$s."</string>
     <string name="bluetooth_device_advanced_title">Susieti „Bluetooth“ įrenginiai</string>
     <string name="bluetooth_device_audio_share_connecting">Jungiamasi…</string>
     <string name="bluetooth_device_audio_share_message">Bendrinkite įrenginio garsą su šiomis ausinėmis</string>
-    <string name="bluetooth_device_blacklist_tital">„Bluetooth“ blokuojamų sąrašas</string>
+    <string name="bluetooth_device_blacklist_tital">„Bluetooth“ blokuojamų įrenginių sąrašas</string>
     <string name="bluetooth_device_button_accept">Gerai</string>
     <string name="bluetooth_device_button_accept_permission">Sutinku</string>
     <string name="bluetooth_device_button_audio_share_success">Supratau</string>
@@ -4073,6 +4077,19 @@ Jei norite sužinoti daugiau, susisiekite su kredito teikėju."</string>
     <string name="flashback_support_apps_title">Pasiekiamos programos</string>
     <string name="flashback_title">Programų kortelės</string>
     <string name="flashback_wangzhe_summary">Rodyti atgaivinimo laikmatį</string>
+    <string name="flip_aod_settings_title_new">Užrakto ekranas (išorinis)</string>
+    <string name="flip_application_settings_title_new">Išorinio ekrano programėlės</string>
+    <string name="flip_close_lid_settings_title">Ekranas sulenkus</string>
+    <string name="flip_continuity_bottom_text">Kai kurios programos dar nebuvo optimizuotos rodyti išoriniame ekrane. Rezultatai gali skirtis.</string>
+    <string name="flip_continuity_directly_off_the_screen">Išjungti ekraną</string>
+    <string name="flip_continuity_display_lock_screent">Užrakto ekranas</string>
+    <string name="flip_continuity_settings_title">Sulenkiamas ekranas</string>
+    <string name="flip_continuity_status_list_title">Sulenkiamas ekranas</string>
+    <string name="flip_continuity_use_list_title">Sulenkę naudokitės ir toliau</string>
+    <string name="flip_continuity_use_subtitle">Kai įjungta ši funkcija, sulenkę įrenginį, galite ir toliau naudotis pasirinktomis programomis</string>
+    <string name="flip_dial_settings_title_new">Valdiklis</string>
+    <string name="flip_quick_switch_settings_title">Valdymo centras</string>
+    <string name="flip_wallpaper_settings_title_new">Fono paveikslėlis</string>
     <string name="floating_window_switch_label">Įjungti laikinuosius langus</string>
     <string name="floating_window_switch_label_disable">Išjungti laikinuosius langus</string>
     <string name="fluency_mode">Sisteminės animacijos</string>
@@ -4877,7 +4894,7 @@ Atidarykite „Xiaomi debesį“ ir atkurkite elementus iš ten."</string>
     <string name="keyboard_settings_title">„Android“ klaviatūra</string>
     <string name="keyboard_settings_with_physical_keyboard_summary">Ekrano klaviatūra, fizinė klaviatūra, įrankiai</string>
     <string name="keyboard_shortcuts_helper">Spartieji klavišai</string>
-    <string name="keyboard_shortcuts_helper_summary">Rodyti sparčiųjų klavišų sąrašą</string>
+    <string name="keyboard_shortcuts_helper_summary">Paspauskite ir palaikykite* nuorodų sąrašui rodyti</string>
     <string name="keyboard_skin_follow_system_enable">Perjunkite į tamsų režimą kartu su sistema</string>
     <string name="keyguard_advance_setting_title">Išplėstiniai parametrai</string>
     <string name="keyguard_multi_window_tip">Negalima rodyti šio puslapio pedalintame ekrane. Vietoj to, galite grįžti į viso ekrano režimą.</string>
@@ -6150,7 +6167,6 @@ Norėdami pasiekti papildomus parametrus – tęskite."</string>
     <string name="miui_sos_emergency_failed_sms">Nepavyko išsiųsti pranešimo %1$s (%2$s)</string>
     <string name="miui_sos_emergency_failed_sms_noname">Nepavyko išsiųsti pranešimo į %1s.</string>
     <string name="miui_sos_emergency_title">Pagalbos SOS</string>
-    <string name="miui_sos_enable_switch_summary">Norėdami pagalbos kontaktams išsiųsti SOS pranešimą su jūsų vietovės informacija, spustelėkite „Įjungimo“ mygtuką 5 kartus</string>
     <string name="miui_sos_enable_switch_title">Pagalbos SOS</string>
     <string name="miui_sos_exit_dialog_cancel">Atšaukti</string>
     <string name="miui_sos_exit_dialog_message">Suaktyvinote „Pagalbos SOS“. Jūsų vietos informacija siunčiama jūsų pagalbos kontaktams. Vis tiek išjungti?</string>
@@ -6524,6 +6540,7 @@ Pasirinkite operacinę sistemą:"</string>
     <string name="natural_haptic">Natūralus lietimas</string>
     <string name="natural_haptic_summary">Nauji haptinio grįžtamojo ryšio modeliai suteikiantys papildomą dimensiją viskam, ką matote ir paliečiate ekrane.</string>
     <string name="natural_scroll">Natūrali slinktis</string>
+    <string name="natural_scroll_summary">Turinys slenka kartu su jūsų pirštu</string>
     <string name="nature_color">Numatytosios</string>
     <string name="nav_tutorial_button_description">Naršymo gestais mokomosios medžiagos paleidimo mygtukas. Dukart palieskite, kad suaktyvintumėte.</string>
     <string name="navigation_guide_app_quick_switch_hide_line_summary">Ekrano apačioje braukite aukštyn ir braukite į kairę arba dešinę</string>
@@ -7278,7 +7295,7 @@ Prieš naudodami šią paslaugą perskaitykite ir sutikite su %s."</string>
     <string name="pointer_fill_style_yellow_button">Keisti rodyklės užpildymo stilių į geltoną</string>
     <string name="pointer_location">Žymiklio vieta</string>
     <string name="pointer_location_summary">Rodyti lietimo koordinates</string>
-    <string name="pointer_settings_category">Pelė/jutiklinis kilimėlis</string>
+    <string name="pointer_settings_category">Pelė</string>
     <string name="pointer_speed">Žymiklio greitis</string>
     <string name="popup_window">Riboti slankiuosius pranešimus</string>
     <string name="post_dsds_reboot_notification_text">Palieskite ir atnaujinkite SIM nustatymus</string>
@@ -7743,6 +7760,8 @@ Jei naudosite specialiai tam skirtą paskyrą, sinchronizuoti failai, nuotraukos
     <string name="process_stats_type_cached">Išsaugota talpykloje</string>
     <string name="process_stats_type_foreground">Priekinis planas</string>
     <string name="processes_subtitle">Procesai</string>
+    <string name="product_page_name_des_super_ai">Jūsų išmanusis asmeninis asistentas</string>
+    <string name="product_page_name_super_ai">Xiaomi Hyper XiaoAi</string>
     <string name="profile_connect_timeout_subtext">Prisijungiant kilo problema. Išjunkite įrenginį ir vėl jį įjunkite</string>
     <string name="profile_info_settings_title">Profilio informacija</string>
     <string name="profile_owner_add_title">Suaktyvinti profilio valdytoją?</string>
@@ -8490,6 +8509,7 @@ Jei norite naudoti programos prisegimą, atlikite toliau nurodytus veiksmus. \u0
     <string name="search_storage_settings">Saugykla;Atmintinė</string>
     <string name="search_sync_settings">Sinchronizuoti;Automatiškai;tik Wi-Fi</string>
     <string name="search_system_app_settings">Sisteminės programos</string>
+    <string name="search_system_personalize_title">fonų demonstracija;rytiniai sveikinimai;„Fonų karuselė“;temų stilius;temos;temų parametrai;užrakto ekrano fonas;pagrindinio ekrano fonas;permatomi fonai;pagrindinis ekranas ir fonai;„Xiaomi“ fonai;fonas skaidrus;mano fonai;internetiniai fonai;skambėjimo fonai;telefono skambėjimo tinai;žinučių skambėjimo tonas;skambučių skambėjimo tonas;skambėjimo tonų parametrai;žadintuvo skambėjimo tonas;naršymo fonas;skaidrių fonas;nuotraukų peržiūros fonas;„Fonų karuselės“ peržiūra;internetinės temos;krovimo garsas;krovimo animacijos;pirštų atspaudų efektai;pirštų atspaudų stilius;atrakinti animaciją;tema;suasmeninti;suasmeninta;fonas;piktograma;dinamiškas fonas;užrakinti ekrano efektus;mažos piktogramos;skaitymo būsena;anime;oficialios temos;pasirinktos temos;pasirinkti fonai;pagražinimas;mėgstamiausi fonai;vaizdo įrašų fonas;tinkintas skambėjimo fonas;skambutis atgal;įspėjimo garsai;pranešimų garsai;žinutės įspėjimas;vaivorykštinė baterija;populiarūs fonai;solidžios spalvos fonai;dinamiškas užrakinimo ekranas;krovimo efektai;multifunkcinis užrakinimo ekranas;giroskopas;suapvalintos piktogramos;linijinės piktogramos;muzikinis užrakinimo ekranas;namų ekrano efektai;dinamiškos piktogramos;ranka pieštos piktogramos;laisvojo stiliaus pagrindinis ekranas;užrakinimo ekrano animacija;krovimo animacija;permatoma tema;slenkantis užrakinimo ekranas</string>
     <string name="search_theme_settings_title">Temos;Tema;Suasmeninimas;Suasmeninti</string>
     <string name="search_touch_assistant">Taktilinė pagalba;Lietimo pagalba</string>
     <string name="search_touch_sensitive_title">Pirštinės režimas;pirštinės;pirštinė</string>
@@ -10288,6 +10308,7 @@ Bandykite naudoti spartesnę saugyklą („^3“) arba vietoj jos rinkitės neš
     <string name="tv_media_transfer_earc_subtitle">Prisijungta per „eARC“</string>
     <string name="tv_media_transfer_hdmi">HDMI išvestis</string>
     <string name="tv_media_transfer_internal_speakers">Vidiniai garsiakalbiai</string>
+    <string name="twenty_four_select_time_format">24 valandų formatas</string>
     <string name="twilight_mode_launch_location">Vietovės nustatymai</string>
     <string name="twilight_mode_location_off_dialog_message">Reikia įrenginio vietovės, kad būtų galima nustatyti laiką nuo saulėlydžio iki saulėtekio.</string>
     <string name="twohours">1 valanda</string>
@@ -10399,7 +10420,7 @@ Be to, įrenginyje ištrinamas išsaugotas kontrolinio kodo modelis. Negalėsite
     <string name="unlock_set_unlock_none_title">Nenustatyta</string>
     <string name="unlock_set_unlock_off_title">Nėra</string>
     <string name="unlock_set_unlock_password_none">Nenustatyta</string>
-    <string name="unlock_set_unlock_password_summary">Įveskite keturias ar daugiau raidžių arba skaitmenų prietaiso atrakinimui</string>
+    <string name="unlock_set_unlock_password_summary">Įveskite bent keturių raidžių arba skaitmenų kombinaciją prietaiso atrakinimui</string>
     <string name="unlock_set_unlock_password_title">Slaptažodis</string>
     <string name="unlock_set_unlock_pattern_summary">Nubrėžkite paprastą figūrą prietaiso atrakinimui</string>
     <string name="unlock_set_unlock_pattern_title">Raštas</string>
@@ -10983,7 +11004,7 @@ Vykstant balso skambučiui negalima naudoti interneto ir kai kurios programos ga
     <string name="weight_light">„Light“</string>
     <string name="weight_setting_toast">Galimas tik numatytojo sistemos šrifto storio keitimas</string>
     <string name="welcome">Sveiki</string>
-    <string name="wellbing_title">Skaitmeninė gerovė &amp; tėvų kontrolė</string>
+    <string name="wellbing_title">Skaitmeninė gerovė ir tėvų kontrolė</string>
     <string name="wep_network_less_secure_warning_title">Šiame tinkle naudojamas senesnis ir mažiau saugus saugos protokolas, vadinamas WEP</string>
     <string name="wfc_disclaimer_agree_button_text">TĘSTI</string>
     <string name="wfc_disclaimer_disagree_text">AČIŪ, NE</string>

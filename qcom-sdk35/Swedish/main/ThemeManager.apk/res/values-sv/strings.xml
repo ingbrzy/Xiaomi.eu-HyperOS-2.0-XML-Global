@@ -43,7 +43,7 @@
     <string name="accessibiliy_description_content_back">Tillbaka</string>
     <string name="accessibiliy_description_content_favorite">Lägg till i favoriter</string>
     <string name="accessibiliy_description_content_more">Mer</string>
-    <string name="accessibiliy_description_content_search">Söka</string>
+    <string name="accessibiliy_description_content_search">Sök</string>
     <string name="accessibiliy_description_content_share">Dela</string>
     <string name="account_info">Mitt konto</string>
     <string name="account_name_not_login">Logga in</string>
@@ -75,20 +75,21 @@
     <string name="ai_creativity_switch_gender">Välj könstillhörighet</string>
     <string name="ai_creativity_template">Mall</string>
     <string name="ai_delete_wallpaper">Ta bort</string>
-    <string name="ai_estimated_two_three_minutes" formatted="false">Det här kommer att ta cirka %1d - %2d minuter</string>
+    <string name="ai_estimated_two_three_minutes">Det här kommer att ta cirka %1$d - %2$d minuter</string>
     <string name="ai_generate">AI-genererad</string>
     <string name="ai_generate_action">Generera</string>
     <string name="ai_generate_add_latter">Lägg till nya foton när den här processen är klar.</string>
     <string name="ai_generate_background">Avsluta i bakgrunden</string>
     <string name="ai_generate_determine">Analyserar foton…</string>
-    <string name="ai_generate_fail">Det gick inte att generera</string>
-    <string name="ai_generate_forbid">Vi uppgraderar den här funktionen. Håll dig informerad!</string>
+    <string name="ai_generate_fail">Kunde inte generera</string>
+    <string name="ai_generate_forbid">Vi uppgraderar den här funktionen. Håll dig uppdaterad!</string>
     <string name="ai_generate_latter">Vänta en minut eller två och försök igen.</string>
     <string name="ai_generate_loading">Genererar dynamisk bakgrund…</string>
     <string name="ai_generate_message">Om du genererar en dynamisk bakgrund kommer dina ändringar i statiska bakgrunder inte att sparas. Generera nu?</string>
     <string name="ai_generate_text">Generera dynamisk bakgrund</string>
     <string name="ai_generate_title">Generera dynamisk bakgrund?</string>
     <string name="ai_generate_verify_text">Verifierar bildinnehåll…</string>
+    <string name="ai_generate_waiting">Den här servern är upptagen. Vänta en minut eller två och försök igen.</string>
     <string name="ai_generate_wallpaper_done">Har nu genererat bakgrund</string>
     <string name="ai_generate_wallpaper_fail">Kunde inte generera bakgrund</string>
     <string name="ai_generate_wallpaper_fail_message">Fotona du valt kan ha brutit mot våra riktlinjer. Välj nya foton.</string>
@@ -105,7 +106,7 @@
     <string name="ai_select_again">Markera</string>
     <string name="ai_select_images_in_the_following_formats">Välj ett av följande filformat: JPG, JPEG, PNG, BMP, WEBP, HEIC, eller HEIF.</string>
     <string name="ai_select_message">Kunde inte generera dynamisk bakgrund för de foton du valt. För bästa resultat, välj tydliga foton av landskap, städer, växter eller bilar.</string>
-    <string name="ai_select_title">Det gick inte att generera</string>
+    <string name="ai_select_title">Kunde inte generera</string>
     <string name="ai_select_wallpaper">Välj bakgrundsbild</string>
     <string name="ai_service_unavailable">Tjänsten är inte tillgänglig</string>
     <string name="ai_service_unavailable_content">Du har brutit mot våra riktlinjer och ditt konto har stängts av. Försök igen senare.</string>
@@ -139,7 +140,7 @@
     <string name="ai_wallpaper_tips_network_exception">Ett nätverksfel uppstod. Kontrollera din nätverksanslutning och försök igen.</string>
     <string name="ai_wallpaper_tips_plant">Växter</string>
     <string name="ai_wallpaper_tips_service_exception">Kunde inte ansluta till servern. Vänta en minut eller två och försök igen.</string>
-    <string name="ai_wallpaper_tips_title_content_violation">Uppmärksamma</string>
+    <string name="ai_wallpaper_tips_title_content_violation">Observera</string>
     <string name="ai_wallpaper_tips_view">Landskap</string>
     <string name="alarm_sound">Alarm</string>
     <string name="all_resources">Alla</string>
@@ -150,7 +151,6 @@
     <string name="app_description_content">Themes är en system-app. Den tillhandahåller bakgrundsbilder och flera anpassningsalternativ. Du kommer fortfarande kunna använda Themes via Inställningar efter du tagit bort genvägen från Hemskärmen.</string>
     <string name="app_description_title">Ta bort \"Themes\" från Hemskärmen?</string>
     <string name="app_name">Teman</string>
-    <string name="app_permission_optional">Valfria behörigheter</string>
     <string name="app_permission_require">Obligatoriska behörigheter</string>
     <string name="app_permission_use_desc">Behörigheter</string>
     <string name="app_permission_use_group_account">Konton</string>
@@ -176,7 +176,7 @@
     <string name="apply_theme_with_ringtones">Använd tema ringsignaler</string>
     <string name="apply_wallpaper_after_three_theme">Du använder för närvarande ett tredjeparts-tema. Om du byter bakgrund på din låsskärm kommer detta orsaka att klockstilen på låsskärmen återställs till standard. Använd nu?</string>
     <string name="apply_wallpaper_dialog_title">Lägg till bakgrund</string>
-    <string name="apply_wallpaper_notice">Uppmärksamma</string>
+    <string name="apply_wallpaper_notice">Observera</string>
     <string name="apply_wallpaper_notice_cancel">Avbryt</string>
     <string name="apply_wallpaper_notice_content">Det aktuella temat innehåller en anpassad modul för skärmlås, som kan förhindra att du kan utföra justeringar relaterade till skärmlåset.</string>
     <string name="apply_wallpaper_notice_lockscreen">Ditt aktuella tema innehåller en anpassad låsskärm. Vi ersätter den med låsskärmen om du lägger till detta wallpaper. Lägg till ändå?</string>
@@ -234,12 +234,11 @@
     <string name="canceled_subscription_failed">Kunde avbryta prenumerationen. Försök igen.</string>
     <string name="canceled_trial_failed">Kunde inte avbryta. Försök igen.</string>
     <string name="card_data_request_error">Ett fel inträffade, vänta en minut eller två och försök igen.</string>
-    <string name="card_loading">Vänta lite…</string>
+    <string name="card_loading">Vänta en stund…</string>
     <string name="card_no_network">Kunde inte ansluta till nätverk. Kontrollera inställningar och försök igen.</string>
     <string name="card_retry">Försök igen</string>
     <string name="carefully_chosen_wallpaper">Redaktörens val</string>
     <string name="carousel_no_set_wallpaper_effects">Kan inte ställa in effekter när bakgrundsbildskarusellen är på</string>
-    <string name="change_host_hint">Ändra värd</string>
     <string name="change_wallpaper">Bakgrund</string>
     <string name="channel_featured_page">Utvalda</string>
     <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
@@ -328,6 +327,7 @@
     <string name="delete_image">Ta bort foton</string>
     <string name="deleting">Tar bort…</string>
     <string name="delivers_fresh_content_and_design_daily">Nya designer varje dag</string>
+    <string name="depth_effect_talkback">Djupeffekt</string>
     <string name="description_author">Upphovsman</string>
     <string name="description_designer">Designer</string>
     <string name="description_download">Nedladdat</string>
@@ -336,8 +336,9 @@
     <string name="description_uploadtime">Uppdatera</string>
     <string name="description_version">Version</string>
     <string name="description_version_szie">Version: %1$s Storlek: %2$s</string>
+    <string name="designer_page_in_xiaomi_community">%ss sida på Xiaomi Community</string>
     <string name="designer_page_latest_scene">Senaste populära objekt</string>
-    <string name="desktop_wallpaper">Hemskärm</string>
+    <string name="desktop_wallpaper">Hemskräm</string>
     <string name="detail_author_attention_head">Kolla in några av dessa designers</string>
     <string name="detail_recommend_title">Du kanske gillar dessa</string>
     <string name="dev_options">Utvecklaralternativ</string>
@@ -349,7 +350,7 @@
     <string name="dialog_confirm_title">Avsluta nu?</string>
     <string name="discover_your_favorites">Upptäck dina favoriter</string>
     <string name="disk_space_Insufficient">Otillräckligt lagringsutrymme</string>
-    <string name="download_failed">Det går inte att ladda ner</string>
+    <string name="download_failed">Kunde inte ladda ned</string>
     <string name="download_management">Nedladdningar</string>
     <string name="download_preview_failed">Kan inte ladda förhandsvisning</string>
     <string name="download_success">Nedladdning slutförd</string>
@@ -388,15 +389,15 @@
     <string name="exo_controls_play_description">Spela upp</string>
     <string name="exo_controls_playback_speed">Hastighet</string>
     <string name="exo_controls_previous_description">Föregående</string>
-    <string name="exo_controls_repeat_all_description">Upprepa alla</string>
-    <string name="exo_controls_repeat_off_description">Upprepa inga</string>
-    <string name="exo_controls_repeat_one_description">Upprepa en</string>
+    <string name="exo_controls_repeat_all_description">Aktuellt läge: Upprepa alla. Ändra läge för upprepning.</string>
+    <string name="exo_controls_repeat_off_description">Aktuellt läge: Upprepa inga. Ändra läge för upprepning.</string>
+    <string name="exo_controls_repeat_one_description">Aktuellt läge: Upprepa en. Ändra läge för upprepning.</string>
     <string name="exo_controls_rewind_description">Spola tillbaka</string>
     <string name="exo_controls_seek_bar_description">Uppspelningsförlopp</string>
     <string name="exo_controls_settings_description">Inställningar</string>
     <string name="exo_controls_show">Visa spelarkontroller</string>
-    <string name="exo_controls_shuffle_off_description">Blanda inte spår</string>
-    <string name="exo_controls_shuffle_on_description">Blanda spår</string>
+    <string name="exo_controls_shuffle_off_description">Aktivera blandningsläget</string>
+    <string name="exo_controls_shuffle_on_description">Inaktivera blandningsläget</string>
     <string name="exo_controls_stop_description">Stoppa</string>
     <string name="exo_controls_vr_description">VR-läge</string>
     <string name="exo_download_completed">Nedladdningen är klar</string>
@@ -426,6 +427,7 @@
     <string name="exo_track_surround_5_point_1">5.1-kanaligt surroundljud</string>
     <string name="exo_track_surround_7_point_1">7.1-kanaligt surroundljud</string>
     <string name="exo_track_unknown">Okänt</string>
+    <string name="exo_track_unknown_name">Okänd (%1$s)</string>
     <string name="expand_button_title">Avancerat</string>
     <string name="expect_more">Håll utkik efter fler uppdateringar!</string>
     <string name="explore_new_and_popular_themes">Utforska nya och polulära teman</string>
@@ -446,6 +448,7 @@
     <string name="find_more_theme">Hitta fler</string>
     <string name="find_more_wallpapers">Hitta fler</string>
     <string name="fingerprint_style">Fingeravtryckseffekter</string>
+    <string name="flip_wallpaper_preview_revert">Byt orientering</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -500,6 +503,7 @@
     <string name="fmt_weekday_timezone">W z</string>
     <string name="fold_sensor_video_wallpaper_group">Dynamiska bakgrunder för viksärmar</string>
     <string name="follow_designer_notice">Missa aldrig ett nytt tema</string>
+    <string name="font_detail_font_preview">Förhandsgranskning framifrån</string>
     <string name="format_day_desc">Dag i månaden: %s</string>
     <string name="format_day_week_desc">Dag i månaden: %1$s, %2$s</string>
     <string name="format_lunar_calendar_month_day_desc">Datum i enlighet med den traditionella kinesiska kalendern: %s</string>
@@ -554,8 +558,8 @@
     <string name="home_bar_ai_filters">AI-filter</string>
     <string name="home_bar_ai_photo">AI-porträtt</string>
     <string name="home_bar_enhance">Förbättra</string>
-    <string name="home_tab_selected">Valda</string>
-    <string name="home_tab_unselected">Inte valda</string>
+    <string name="home_tab_selected">Valda %s</string>
+    <string name="home_tab_unselected">Inte vald: %s</string>
     <string name="home_vh_enhance_permission_btn">Inställningar</string>
     <string name="home_vh_enhance_permission_tips">Bevilja de behörigheter som krävs för att kunna förbättra dina foton.</string>
     <string name="home_vh_enhance_permission_title">Tillåt åtkomst till foton</string>
@@ -572,11 +576,11 @@
     <string name="incompatible_dialog_ok">Jag förstår</string>
     <string name="incompatible_dialog_title">Kompatibilitetsproblem</string>
     <string name="indeterminate">Varken markerad eller avmarkerad</string>
+    <string name="indicator_talkback">Vald: sida %d. Dra för att visa nästa sida.</string>
     <string name="install_fail">Kunde inte installera</string>
     <string name="install_succ">Installerad</string>
     <string name="installing">Installerar…</string>
     <string name="is_setting_wallpaper_message">Ställer in bakgrund…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Alarm</string>
     <string name="item_resource_audio_optional_color_ring">Kopplingston</string>
     <string name="item_resource_audio_optional_notification_ring">Notifikationer</string>
@@ -801,7 +805,7 @@
     <string name="linked_wallpaper">Bakgrundsset</string>
     <string name="live_wallpaper">Levande bakgrund</string>
     <string name="live_wallpapers">Levande bakgrunder</string>
-    <string name="loading">Vänta lite…</string>
+    <string name="loading">Vänta ett ögonblick…</string>
     <string name="loading_resource_detail_fail">Det går inte att ladda resursen</string>
     <string name="loading_resource_detail_info">Vänta lite…</string>
     <string name="local_photos">Bilder från din telefon</string>
@@ -841,7 +845,6 @@
     <string name="material_timepicker_pm">EM</string>
     <string name="material_timepicker_select_time">Välj tid</string>
     <string name="material_timepicker_text_input_mode_description">Byt till textinmatningsläget och ange tid.</string>
-    <string name="max_usable_themes">%d+</string>
     <string name="message">Textmeddelande</string>
     <string name="message_sim_one">SIM %d meddelande</string>
     <string name="message_sim_two">SIM %d meddelande</string>
@@ -1055,7 +1058,7 @@ mm"</string>
     <string name="my_fonts">Mina teckensnitt</string>
     <string name="my_gifts">Gåvor</string>
     <string name="my_gifts_purchased">Köpt</string>
-    <string name="my_gifts_received">Mottagit</string>
+    <string name="my_gifts_received">Mottaget</string>
     <string name="native_body">Brödtext</string>
     <string name="native_headline">Rubrik</string>
     <string name="native_media_view">Medievisning</string>
@@ -1112,7 +1115,7 @@ Du får mer information när du är online igen."</string>
     <string name="online_precust_lifestyle">Livsstil</string>
     <string name="online_precust_museum">Brittiskt museum</string>
     <string name="online_precust_plant">Krukväxt</string>
-    <string name="online_precust_scenery">Omgivning</string>
+    <string name="online_precust_scenery">Dekor</string>
     <string name="online_ringtones">Ringsignaler online</string>
     <string name="online_search_hint">Sök efter onlineresurser</string>
     <string name="online_themes">Teman online</string>
@@ -1159,7 +1162,7 @@ Du får mer information när du är online igen."</string>
     <string name="present_online_themes">Hämtar fler teman online</string>
     <string name="preview_image">Förhandsgranska</string>
     <string name="price_for_automatic_renewal">Förnya automatiskt för %1$s</string>
-    <string name="privacy_desc">Integritetspolicy (obligatorisk)</string>
+    <string name="privacy_desc">Sekretesspolicy (obligatorisk)</string>
     <string name="privacy_simple_content">Aktivera anpassade rekommendationer för att få innehåll och produkter skräddarsydda efter dina intressen.</string>
     <string name="privacy_simple_hint">Du kan ändra dina preferenser när som helst i Inställningar.</string>
     <string name="privacy_simple_title">Personliga rekommendationer</string>
@@ -1167,7 +1170,7 @@ Du får mer information när du är online igen."</string>
     <string name="provision_default_theme_title">Standard</string>
     <string name="provision_download_cancel">Avbröt nedladdning</string>
     <string name="provision_download_fail">Kunde inte ladda ner. Prova standard eller klassiskt tema.</string>
-    <string name="provision_loading_tips">Vänta lite…</string>
+    <string name="provision_loading_tips">Vänta en stund…</string>
     <string name="provision_second_title">Välj ett av flera standardteman</string>
     <string name="provision_title">Välj ett tema</string>
     <string name="purchased_account_changed_dialog">Det verkar som om din inloggningsstatus har förändrats. Uppdatera hemsidan för att fortsätta.</string>
@@ -1192,9 +1195,6 @@ Du får mer information när du är online igen."</string>
     <string name="rain_probability_desc">Chans till nederbörd: %s</string>
     <string name="range_end">Intervallets slut</string>
     <string name="range_start">Intervallets början</string>
-    <string name="rank_one" formatted="false">%d. %s</string>
-    <string name="rank_three" formatted="false">%d. %s</string>
-    <string name="rank_two" formatted="false">%d. %s</string>
     <string name="read_write_file">Få åtkomst till och spara filer på denna enhet</string>
     <string name="read_write_file_a">Få åtkomst till, och spara filer och foton som lagras på din enhet (för lagring av ditt nedladdade innehåll)</string>
     <string name="recently_used">Nyligen använda</string>
@@ -1410,7 +1410,7 @@ Du får mer information när du är online igen."</string>
     <string name="rewarded_ad_no_ad_download">Kunde inte spela upp annons. Du kan ladda ner detta objekt nu!</string>
     <string name="rewarded_ad_pop_des">Att titta på annonsvideor kommer att tillåta dig att ladda ner premium-teman och belöna våra designers. Titta nu?</string>
     <string name="rewarded_ad_pop_des_for_lw">Att titta på annonsvideor kommer att tillåta dig att ladda ner live bakgrundsbilder och belöna våra designers. Titta nu?</string>
-    <string name="rewarded_ad_pop_ok">Titta</string>
+    <string name="rewarded_ad_pop_ok">Klocka</string>
     <string name="rewarded_ad_pop_title">Premium-teman</string>
     <string name="rewarded_ad_watch_again_pop">Titta klart på videon för att ladda ner detta premium-tema. Titta nu?</string>
     <string name="rewarded_ad_watch_again_pop_for_lw">Titta klart på videon för att ladda ner denna bakgrundsbild. Titta nu?</string>
@@ -1437,11 +1437,11 @@ Du får mer information när du är online igen."</string>
     <string name="search_hint_header_text">Populära ord</string>
     <string name="search_menu_title">Sök</string>
     <string name="search_sort">Sortera efter</string>
-    <string name="search_update_guide_bubble">Ny</string>
+    <string name="search_update_guide_bubble">Nytt</string>
     <string name="search_update_guide_text">Upplev helt nya sökfunktioner</string>
     <string name="searchview_clear_text_content_description">Rensa text</string>
     <string name="searchview_navigation_content_description">Tillbaka</string>
-    <string name="select_all">Välj alla</string>
+    <string name="select_all">Markera allt</string>
     <string name="selected">Valt</string>
     <string name="selected_resource_file_invalid">Kan inte använda valda resursfilen</string>
     <string name="send">Skicka</string>
@@ -1472,7 +1472,7 @@ Du får mer information när du är online igen."</string>
     <string name="special_topic">Kategorier</string>
     <string name="start_all">Återuppta alla</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="still_apply">Lägg till</string>
+    <string name="still_apply">Applicera</string>
     <string name="storage_file">För att spara nedladdade objekt</string>
     <string name="submission_successfully">Inskickat</string>
     <string name="subscription_service_shutdown_tip">Bakgrunder som prenumererats på visas inte längre, eftersom använder en annan tjänst. Du kan endast använda en en bakgrund som prenumererats på, igen.</string>
@@ -1506,6 +1506,9 @@ Du får mer information när du är online igen."</string>
     <string name="system_phone">Samtal</string>
     <string name="system_precust">Förinstallerade</string>
     <string name="tab">Flik</string>
+    <string name="talkback_font_detail_font_preview">%1$s%2$s</string>
+    <string name="talkback_ringtone_time_three">%1$s %2$s</string>
+    <string name="talkback_title_my_miwallpaper_resource">%1$s%2$d</string>
     <string name="template_percent">%1$d procent.</string>
     <string name="text_billing_info">Fakturainformation</string>
     <string name="text_cancel_subscription_service">Avbryt den här prenumerationen nu?</string>
@@ -1569,7 +1572,7 @@ Du får mer information när du är online igen."</string>
     <string name="the_tw_youth_day">Ungdomsdagen</string>
     <string name="the_united_nations_day">FN-dagen</string>
     <string name="the_valentines_day">Alla hjärtans dag</string>
-    <string name="the_wallpaper_does_not_support_graffiti_text">Den här bakgrunden stöder inte klotter</string>
+    <string name="the_wallpaper_does_not_support_graffiti_text">Den här barkgrunden stöder inte klotter</string>
     <string name="the_water_lantern_festival">Water Lantern-festivalen</string>
     <string name="theme_apply_audio_dialog_item_alarm">Alarm</string>
     <string name="theme_apply_audio_dialog_item_color_ring_back_tone">Anpassad kopplingston</string>
@@ -1577,7 +1580,7 @@ Du får mer information när du är online igen."</string>
     <string name="theme_apply_audio_dialog_item_ringtone">Ringsignal</string>
     <string name="theme_apply_failured">Det gick inte att tillämpa</string>
     <string name="theme_apply_fully">Tillämpade tema framgångsrikt. Bakgrundsbildskarusell är av.</string>
-    <string name="theme_apply_success">Tillämpad</string>
+    <string name="theme_apply_success">Framgångsrikt tillämpat</string>
     <string name="theme_applying">Tillämpar…</string>
     <string name="theme_batch_update_all">Uppdatera alla</string>
     <string name="theme_batch_update_dlg_title">Uppdatera tema</string>
@@ -1585,7 +1588,7 @@ Du får mer information när du är online igen."</string>
     <string name="theme_bug_report">Feedback</string>
     <string name="theme_changed_failed_message">Det går inte att tillämpa tema</string>
     <string name="theme_changed_message">Tema Tillämpad</string>
-    <string name="theme_changing_dialog_title">"Tillämpar "</string>
+    <string name="theme_changing_dialog_title">Tillämpar</string>
     <string name="theme_component_title_alarm">Alarm</string>
     <string name="theme_component_title_alarmstyle">Alarm stil</string>
     <string name="theme_component_title_all">Teman</string>
@@ -1602,12 +1605,12 @@ Du får mer information när du är online igen."</string>
     <string name="theme_component_title_lockwallpaper">Låsskärm</string>
     <string name="theme_component_title_miwallpaper">MIUI bakgrund</string>
     <string name="theme_component_title_mms">Meddelanden</string>
-    <string name="theme_component_title_notification">Meddelande</string>
-    <string name="theme_component_title_others">Övriga</string>
+    <string name="theme_component_title_notification">Notifikation</string>
+    <string name="theme_component_title_others">Övrigt</string>
     <string name="theme_component_title_photo_frame">Bildramar</string>
     <string name="theme_component_title_ringtone">Ringsignal</string>
     <string name="theme_component_title_statusbar">Statusfält</string>
-    <string name="theme_component_title_wallpaper">Hemskärm</string>
+    <string name="theme_component_title_wallpaper">Hemskräm</string>
     <string name="theme_current_using_has_update">Tema uppdatering tillgänglig</string>
     <string name="theme_desc">Teman tillåter dig att anpassa flera UI-element över systemet.</string>
     <string name="theme_desc_a">Gör din enhet roligare med Teman, Bakgrunder, Teckensnitt och Ringsignaler.</string>
@@ -1643,11 +1646,11 @@ Du får mer information när du är online igen."</string>
     <string name="theme_select_others">Bläddra</string>
     <string name="theme_setting">Inställningar</string>
     <string name="theme_user_agreement_allow">Godkänn</string>
-    <string name="theme_user_agreement_content1">"Genom att använda denna produkt, godkänner du till vår "</string>
+    <string name="theme_user_agreement_content1">Genom att använda denna produkt, godkänner du till vår</string>
     <string name="theme_user_agreement_content2">Användaravtal</string>
-    <string name="theme_user_agreement_content3">" och "</string>
+    <string name="theme_user_agreement_content3">och</string>
     <string name="theme_user_agreement_content4">Integritetspolicy</string>
-    <string name="theme_user_agreement_content5">". Denna app behöver ansluta till Internet för att fungera normalt. "</string>
+    <string name="theme_user_agreement_content5">. Denna app behöver ansluta till Internet för att fungera normalt.</string>
     <string name="theme_user_agreement_exit">Godkänn inte</string>
     <string name="theme_user_agreement_remind_again">Visa Villkor</string>
     <string name="theme_user_agreement_remind_never">Visa inte igen</string>
@@ -1714,7 +1717,7 @@ Du får mer information när du är online igen."</string>
     <string name="up_to_the_end">Inga fler objekt att visa</string>
     <string name="update_btn">Uppdatera nu</string>
     <string name="update_button_text">Uppdatera</string>
-    <string name="update_check">Sök efter uppdateringar</string>
+    <string name="update_check">Sök efter uppdatering</string>
     <string name="update_checking">Söker efter uppdateringar…</string>
     <string name="update_downloading">Hämtar uppdateringar…</string>
     <string name="update_fail">Kunde inte få info. Försök igen.</string>
@@ -1748,7 +1751,7 @@ Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Te
     <string name="video_audio_apply_success">Konfigurerad video med ljud lyckades</string>
     <string name="video_cancel">Avbryt</string>
     <string name="video_data_tips_message">Att använda mobildata kan generera ytterligare avgifter. Fortsätt ändå?</string>
-    <string name="video_data_tips_title">Varning för dataanvändning</string>
+    <string name="video_data_tips_title">Dataanvändningsvarning</string>
     <string name="video_edit_export_fail_toast">Kunde inte exportera</string>
     <string name="video_not_support_message">Den här videon kan visas felaktigt eller göra din enhet långsammare. Lägga till ändå?</string>
     <string name="video_not_support_title">Den videon är för stor</string>
@@ -1760,7 +1763,7 @@ Du kan när som helst dra tillbaka ditt samtycke till Integritetspolicyn för Te
     <string name="wallpaper_and_personal">Bakgrundsbild och anpassning</string>
     <string name="wallpaper_apply">Tillämpa</string>
     <string name="wallpaper_apply_outer_and_inner">Lägg till på inre och yttre skärmar</string>
-    <string name="wallpaper_crop">Urklipp</string>
+    <string name="wallpaper_crop">Beskär</string>
     <string name="wallpaper_decoded_error">Kan inte ladda bakgrund</string>
     <string name="wallpaper_delete_all">Radera de valda objekten nu?</string>
     <string name="wallpaper_delete_all_title">Ta bort objekt</string>

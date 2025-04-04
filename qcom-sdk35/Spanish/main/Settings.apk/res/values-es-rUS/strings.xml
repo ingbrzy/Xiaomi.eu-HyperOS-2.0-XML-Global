@@ -1223,7 +1223,11 @@ Las llamadas, los mensajes y el tráfico de red pueden ser visibles para tu orga
     <string name="back_navigation_animation_summary">Habilita animaciones del sistema para gestos de retroceso predictivos.</string>
     <string name="back_sensitivity_dialog_message">La sensibilidad alta puede entrar en conflicto con los gestos de las apps que se hagan en los bordes de la pantalla.</string>
     <string name="back_sensitivity_dialog_title">Sensibilidad posterior</string>
+    <string name="back_strap_image_new_text">Active esta función para recibir notificaciones visuales y efectos de luz personalizados</string>
     <string name="back_strap_image_text">Cuando el dispositivo está boca abajo con la pantalla apagada, la luz de fondo mostrará recordatorios de notificaciones y efectos de iluminación para diferentes escenas.</string>
+    <string name="back_strap_off">Desactivado</string>
+    <string name="back_strap_on">Activado</string>
+    <string name="back_strap_on_back_light_display">Solo cuando la pantalla está hacia abajo</string>
     <string name="back_strap_status_close">Desactivado</string>
     <string name="back_strap_status_open">Activado</string>
     <string name="back_strap_title">Efectos de luz de fondo</string>
@@ -4073,6 +4077,19 @@ Para obtener más información, comunícate con el proveedor."</string>
     <string name="flashback_support_apps_title">Aplicaciones disponibles</string>
     <string name="flashback_title">Aplicación Flashcards</string>
     <string name="flashback_wangzhe_summary">Mostrar cuenta regresiva de resurrección</string>
+    <string name="flip_aod_settings_title_new">Pantalla de bloqueo (exterior)</string>
+    <string name="flip_application_settings_title_new">Aplicaciones de la pantalla exterior</string>
+    <string name="flip_close_lid_settings_title">Pantalla plegada</string>
+    <string name="flip_continuity_bottom_text">Algunas aplicaciones aún no se han optimizado para su visualización en la pantalla externa. Los resultados podrían variar.</string>
+    <string name="flip_continuity_directly_off_the_screen">Apagar la pantalla</string>
+    <string name="flip_continuity_display_lock_screent">Bloquear la pantalla</string>
+    <string name="flip_continuity_settings_title">Pantalla plegada</string>
+    <string name="flip_continuity_status_list_title">Pantalla plegada</string>
+    <string name="flip_continuity_use_list_title">Continuar usando después de plegar</string>
+    <string name="flip_continuity_use_subtitle">Cuando esta función está activada, puede seguir usando aplicaciones seleccionadas después de plegar el dispositivo</string>
+    <string name="flip_dial_settings_title_new">Widget</string>
+    <string name="flip_quick_switch_settings_title">Centro de control</string>
+    <string name="flip_wallpaper_settings_title_new">Fondo de pantalla</string>
     <string name="floating_window_switch_label">Activar ventanas flotantes</string>
     <string name="floating_window_switch_label_disable">Desactivar ventanas flotantes</string>
     <string name="fluency_mode">Animaciones del sistema</string>
@@ -4877,7 +4894,7 @@ Abra Xiaomi Cloud y restaure elementos desde allí."</string>
     <string name="keyboard_settings_title">Teclado de Android</string>
     <string name="keyboard_settings_with_physical_keyboard_summary">Teclado en pantalla, teclado físico, herramientas</string>
     <string name="keyboard_shortcuts_helper">Combinaciones de teclas</string>
-    <string name="keyboard_shortcuts_helper_summary">Mostrar lista de combinaciones de teclas</string>
+    <string name="keyboard_shortcuts_helper_summary">Mantenga presionado*para mostrar la lista de accesos directos</string>
     <string name="keyboard_skin_follow_system_enable">Cambiar al Modo oscuro junto con el sistema</string>
     <string name="keyguard_advance_setting_title">Ajustes avanzados</string>
     <string name="keyguard_multi_window_tip">No se puede mostrar esta página en Pantalla dividida. Puede volver a la versión de pantalla completa.</string>
@@ -6150,7 +6167,6 @@ Continúe para acceder a los ajustes adicionales."</string>
     <string name="miui_sos_emergency_failed_sms">No se pudo enviar el mensaje a %1$s (%2$s)</string>
     <string name="miui_sos_emergency_failed_sms_noname">No se pudo enviar el mensaje a %1s.</string>
     <string name="miui_sos_emergency_title">SOS de emergencia</string>
-    <string name="miui_sos_enable_switch_summary">Presione rápidamente 5 veces el botón de encendido para enviar a sus contactos de emergencia un mensaje que contenga su ubicación</string>
     <string name="miui_sos_enable_switch_title">SOS de emergencia</string>
     <string name="miui_sos_exit_dialog_cancel">Cancelar</string>
     <string name="miui_sos_exit_dialog_message">Activó SOS de emergencia. Su ubicación está siendo enviada a su contacto de emergencia. ¿Desactivar?</string>
@@ -6524,6 +6540,7 @@ Seleccione su sistema operativo:"</string>
     <string name="natural_haptic">Toque natural</string>
     <string name="natural_haptic_summary">Los nuevos patrones de respuesta táctil aportan una dimensión adicional a todo lo que ve y toca en la pantalla.</string>
     <string name="natural_scroll">Desplazamiento natural</string>
+    <string name="natural_scroll_summary">El contenido se desplaza junto con su dedo</string>
     <string name="nature_color">Predeterminado</string>
     <string name="nav_tutorial_button_description">Botón para comenzar el instructivo de la navegación por gestos. Presiona dos veces para activarlo.</string>
     <string name="navigation_guide_app_quick_switch_hide_line_summary">Deslice hacia arriba desde la parte inferior de la pantalla, después deslice a a la izquierda o derecha</string>
@@ -7278,7 +7295,7 @@ OTG se desactiva automáticamente después de 10 minutos de inactividad."</strin
     <string name="pointer_fill_style_yellow_button">Cambia estilo de relleno a amarillo</string>
     <string name="pointer_location">Ubicación del puntero</string>
     <string name="pointer_location_summary">Mostrar coordenadas táctiles</string>
-    <string name="pointer_settings_category">Ratón/trackpad</string>
+    <string name="pointer_settings_category">Ratón</string>
     <string name="pointer_speed">Velocidad del puntero</string>
     <string name="popup_window">Restringir notificaciones flotantes</string>
     <string name="post_dsds_reboot_notification_text">Presiona para actualizar la configuración de la tarjeta SIM</string>
@@ -7743,6 +7760,8 @@ Usa una cuenta exclusiva para evitar que aparezcan archivos sincronizados, fotos
     <string name="process_stats_type_cached">En caché</string>
     <string name="process_stats_type_foreground">En primer plano</string>
     <string name="processes_subtitle">Procesos</string>
+    <string name="product_page_name_des_super_ai">Su asistente personal inteligente</string>
+    <string name="product_page_name_super_ai">Xiaomi Hyper XiaoAi</string>
     <string name="profile_connect_timeout_subtext">Error al establecer la conexión. Apaga el dispositivo y vuelve a encenderlo.</string>
     <string name="profile_info_settings_title">Datos del perfil</string>
     <string name="profile_owner_add_title">¿Activar el Administrador de perfiles?</string>
@@ -8489,6 +8508,7 @@ Para usar la fijación de apps, haz lo siguiente: \u0009
     <string name="search_storage_settings">Almacenamiento;Memoria</string>
     <string name="search_sync_settings">Sincronización;Auto;solo Wi -Fi</string>
     <string name="search_system_app_settings">Aplicaciones del sistema</string>
+    <string name="search_system_personalize_title">presentación de diapositivas de fondo de pantalla; saludos matutinos; carrusel de fondos de pantalla; estilo de tema; temas; configuración de tema; fondo de pantalla de bloqueo; fondo de pantalla de inicio; fondos de pantalla transparentes; pantalla de inicio y fondos de pantalla; fondos de pantalla de Xiaomi; fondo de pantalla transparente; mis fondos de pantalla; fondos de pantalla online; tonos de llamada; tono de llamada de teléfono; tono de llamada de texto; tono de llamada de llamada; configuración de tono de llamada; tono de llamada de alarma; fondo de pantalla desplazable; fondo de pantalla de presentación de diapositivas; fondo de pantalla de presentación de diapositivas de fotos; presentación de diapositivas de carrusel de fondos de pantalla; temas online; sonido de carga; animaciones de carga; efectos de huellas digitales; estilo de huella digital; animación de desbloqueo; tema; personalizar; personalización; fondo de pantalla; ícono; fondo de pantalla dinámico; efectos de pantalla de bloqueo; iconos pequeños; modo de lectura; anime; temas oficiales; temas seleccionados; fondos de pantalla seleccionados; embellecer; fondos de pantalla favoritos; fondo de pantalla de video; tono de llamada personalizado; devolución de llamada; sonidos de alerta; sonidos de notificación; alerta de texto; batería de arco iris; fondos de pantalla populares; fondos de pantalla de color sólido; pantalla de bloqueo dinámica; cargando efectos;pantalla de bloqueo multifuncional;giroscopio;iconos redondeados;iconos lineales;pantalla de bloqueo de música;efectos de pantalla de inicio;iconos dinámicos;iconos dibujados a mano;pantalla de inicio de estilo libre;animación de pantalla de bloqueo;animación de arranque;tema transparente;pantalla de bloqueo de presentación de diapositivas</string>
     <string name="search_theme_settings_title">Temas;Tema;Personalización;Personalizar</string>
     <string name="search_touch_assistant">Bola flotante;Asistente táctil</string>
     <string name="search_touch_sensitive_title">Modo guantes;guantes;guante</string>
@@ -10275,6 +10295,7 @@ Si lo habilitas, este dispositivo podrá unirse a una red Thread, y podrás usar
     <string name="tv_media_transfer_earc_subtitle">Se estableció conexión con un cable eARC</string>
     <string name="tv_media_transfer_hdmi">Salida de HDMI</string>
     <string name="tv_media_transfer_internal_speakers">Bocinas internas</string>
+    <string name="twenty_four_select_time_format">Formato de 24 horas</string>
     <string name="twilight_mode_launch_location">Configuración de la ubicación</string>
     <string name="twilight_mode_location_off_dialog_message">Se requiere la ubicación del dispositivo para determinar los horarios del amanecer y el atardecer.</string>
     <string name="twohours">1 hora</string>
