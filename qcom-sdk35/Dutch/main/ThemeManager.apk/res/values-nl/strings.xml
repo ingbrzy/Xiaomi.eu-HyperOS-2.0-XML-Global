@@ -119,7 +119,7 @@
     <string name="ai_wallpaper_feedback">Feedback</string>
     <string name="ai_wallpaper_function_introduction">"Maak dynamische videoachtergronden van foto's van landschappen, steden, planten en auto's"</string>
     <string name="ai_wallpaper_i_know">Begrepen</string>
-    <string name="ai_wallpaper_inside_invitation">Bètatest dynamische AI-achtergrond</string>
+    <string name="ai_wallpaper_inside_invitation">Bètatest AI-dynamische achtergronden</string>
     <string name="ai_wallpaper_inside_invitation_agree">Akkoord</string>
     <string name="ai_wallpaper_inside_invitation_description">"Deze functie gebruikt grote modelmogelijkheden om foto's van landschappen, steden, planten en auto's te gebruiken om dynamische videoachtergronden te maken. Tik op \"Akkoord\" om het uit te proberen!"</string>
     <string name="ai_wallpaper_inside_invitation_disagree">Niet akkoord</string>
@@ -243,6 +243,7 @@
     <string name="channel_featured_page">Uitgelicht</string>
     <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
     <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
+    <string name="check_version_update_failed">检查更新失败，请稍后重试</string>
     <string name="choose_pay_method">Selecteer betaalmethode</string>
     <string name="choose_video_dialog_invalid_default_message">Deze video wordt niet ondersteund.</string>
     <string name="choose_video_dialog_invalid_direction_title">"Horizontale video's worden niet ondersteund."</string>
@@ -309,7 +310,7 @@
     <string name="creator_failed_title">Kon niet uploaden</string>
     <string name="creator_failed_user_photo">"Kan geselecteerde foto's niet uploaden. Selecteer andere foto's en probeer het opnieuw."</string>
     <string name="creator_progress">Genereren…</string>
-    <string name="creator_succ_message">"Succesvol gegenereerd. Controleer het resultaat in Thema's > AI-creativiteit > Mijn creaties."</string>
+    <string name="creator_succ_message">"Succesvol gegenereerd. Controleer het resultaat in Thema's > AI-creativiteitsassistent > Mijn creaties."</string>
     <string name="current_using_desktop_wallpaper_text">Startscherm</string>
     <string name="current_using_lockscreen_wallpaper_text">Vergrendelscherm</string>
     <string name="current_version_incompatible">Niet compatibel</string>
@@ -346,7 +347,7 @@
     <string name="dialog_confirm_cancel">Annuleren</string>
     <string name="dialog_confirm_confirm">Afsluiten</string>
     <string name="dialog_confirm_description">Items worden nu gegenereerd. U kunt de resultaten bekijken in Mijn creaties. Nu afsluiten?</string>
-    <string name="dialog_confirm_description1">"Genereren. Controleer het resultaat in Thema's > AI-creativiteit > Mijn creaties."</string>
+    <string name="dialog_confirm_description1">"Genereren. Controleer het resultaat in Thema's > AI-creativiteitsassistent > Mijn creaties."</string>
     <string name="dialog_confirm_title">Nu afsluiten?</string>
     <string name="discover_your_favorites">Ontdek uw favorieten</string>
     <string name="disk_space_Insufficient">Onvoldoende opslagruimte</string>
@@ -389,15 +390,15 @@
     <string name="exo_controls_play_description">Afspelen</string>
     <string name="exo_controls_playback_speed">Snelheid</string>
     <string name="exo_controls_previous_description">Vorige</string>
-    <string name="exo_controls_repeat_all_description">Huidige modus: Alles herhalen. Herhaalmodus schakelen.</string>
-    <string name="exo_controls_repeat_off_description">Huidige modus: Niets herhalen. Herhaalmodus schakelen.</string>
-    <string name="exo_controls_repeat_one_description">Huidige modus: 1 herhalen. Herhaalmodus schakelen.</string>
+    <string name="exo_controls_repeat_all_description">Alles herhalen</string>
+    <string name="exo_controls_repeat_off_description">Niets herhalen</string>
+    <string name="exo_controls_repeat_one_description">Eén herhalen</string>
     <string name="exo_controls_rewind_description">Terugspoelen</string>
     <string name="exo_controls_seek_bar_description">Afspeelvoortgang</string>
     <string name="exo_controls_settings_description">Instellingen</string>
     <string name="exo_controls_show">Afspeelbediening tonen</string>
-    <string name="exo_controls_shuffle_off_description">Shuffle aanzetten</string>
-    <string name="exo_controls_shuffle_on_description">Shuffle uitzetten</string>
+    <string name="exo_controls_shuffle_off_description">Shuffle uit</string>
+    <string name="exo_controls_shuffle_on_description">Shuffle aan</string>
     <string name="exo_controls_stop_description">Stoppen</string>
     <string name="exo_controls_vr_description">VR-modus</string>
     <string name="exo_download_completed">Downloaden voltooid</string>
@@ -427,7 +428,6 @@
     <string name="exo_track_surround_5_point_1">5.1 surroundgeluid</string>
     <string name="exo_track_surround_7_point_1">7.1 surroundgeluid</string>
     <string name="exo_track_unknown">Onbekend</string>
-    <string name="exo_track_unknown_name">Onbekend (%1$s)</string>
     <string name="expand_button_title">Geavanceerd</string>
     <string name="expect_more">Blijf op de hoogte voor meer updates!</string>
     <string name="explore_new_and_popular_themes">"Ontdek nieuwe en populaire thema's"</string>
@@ -447,6 +447,7 @@
     <string name="find_more">Meer vinden</string>
     <string name="find_more_theme">Vind meer</string>
     <string name="find_more_wallpapers">Vind meer</string>
+    <string name="find_new_version">发现新版本 %s，请前往更新</string>
     <string name="fingerprint_style">Vingerafdrukeffecten</string>
     <string name="flip_wallpaper_preview_revert">Verander oriëntatie</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -1069,6 +1070,7 @@ mm"</string>
     <string name="need_permission_a">"Welkom bij Thema's!"</string>
     <string name="need_permission_b">Geef uw apparaat een nieuwe look</string>
     <string name="need_permission_des_b">"Bekijk wat Thema's te bieden heeft"</string>
+    <string name="network_unusable">网络不可用，请检查网络连接</string>
     <string name="new_devices_push_titl_content">Wij hebben wat u nodig heeft</string>
     <string name="new_devices_push_title">Nieuwe telefoon, nieuw thema</string>
     <string name="new_ringtone">Nieuwe beltonen</string>
@@ -1095,6 +1097,7 @@ mm"</string>
     <string name="notifications_permission_decline">Niet toestaan</string>
     <string name="notifications_permission_title">App toestaan om je meldingen te sturen?</string>
     <string name="notify_style">Meldingseffecten</string>
+    <string name="obtain_app_info_fail">获取应用信息失败</string>
     <string name="off">Uit</string>
     <string name="offline_dialog_image_description">Icoon</string>
     <string name="offline_dialog_text">"Bedankt voor je interesse.
@@ -1447,7 +1450,7 @@ We delen meer zodra je weer online bent."</string>
     <string name="send">Verzenden</string>
     <string name="service_expiration_date">Geldig tot %1$s</string>
     <string name="set_color_ring_back_tone">Stel een aangepaste terugbeltoon in</string>
-    <string name="setting_ai">AI-creativiteit</string>
+    <string name="setting_ai">AI-creativiteitsassistent</string>
     <string name="settings">Instellingen</string>
     <string name="settings_wallpaper_preview">Achtergrondvoorbeeld</string>
     <string name="shortcut_add">Toevoegen</string>

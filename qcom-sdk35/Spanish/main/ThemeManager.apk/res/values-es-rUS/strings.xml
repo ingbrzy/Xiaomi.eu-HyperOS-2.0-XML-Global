@@ -119,7 +119,7 @@
     <string name="ai_wallpaper_feedback">Comentarios</string>
     <string name="ai_wallpaper_function_introduction">Cree fondos de pantalla de video dinámicos a partir de fotografías de paisajes, ciudades, plantas y autos</string>
     <string name="ai_wallpaper_i_know">Entendido</string>
-    <string name="ai_wallpaper_inside_invitation">Prueba beta de fondos de pantalla dinámicos con IA</string>
+    <string name="ai_wallpaper_inside_invitation">Prueba beta de Fondos de pantalla dinámicos con IA</string>
     <string name="ai_wallpaper_inside_invitation_agree">Aceptar</string>
     <string name="ai_wallpaper_inside_invitation_description">Esta función utiliza capacidades de modelos de gran tamaño para usar fotos de paisajes, ciudades, plantas y automóviles para crear fondos de pantalla de video dinámicos. ¡Toque \"Aceptar\" para probarlo!</string>
     <string name="ai_wallpaper_inside_invitation_disagree">No aceptar</string>
@@ -243,6 +243,7 @@
     <string name="channel_featured_page">Destacado</string>
     <string name="character_counter_content_description">Caracteres ingresados: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">Se excedió en %1$d el límite de caracteres de %2$d</string>
+    <string name="check_version_update_failed">检查更新失败，请稍后重试</string>
     <string name="choose_pay_method">Seleccionar el método de pago</string>
     <string name="choose_video_dialog_invalid_default_message">Este video no es soportado.</string>
     <string name="choose_video_dialog_invalid_direction_title">No se admiten videos horizontales.</string>
@@ -309,7 +310,7 @@
     <string name="creator_failed_title">No se pudo subir</string>
     <string name="creator_failed_user_photo">No se pueden subir las fotos seleccionadas. Seleccione otras fotos e inténtelo de nuevo.</string>
     <string name="creator_progress">Generando…</string>
-    <string name="creator_succ_message">Generado con éxito. Compruebe el resultado en Temas > Creatividad con IA > Mis creaciones.</string>
+    <string name="creator_succ_message">Generado con éxito. Compruebe el resultado en Temas > Asistente de Creatividad con IA > Mis creaciones.</string>
     <string name="current_using_desktop_wallpaper_text">Pantalla de inicio</string>
     <string name="current_using_lockscreen_wallpaper_text">Pantalla de bloqueo</string>
     <string name="current_version_incompatible">Incompatible</string>
@@ -346,7 +347,7 @@
     <string name="dialog_confirm_cancel">Cancelar</string>
     <string name="dialog_confirm_confirm">Salir</string>
     <string name="dialog_confirm_description">Los elementos se están generando. Puede ver los resultados en Mis creaciones. ¿Quiere salir ahora?</string>
-    <string name="dialog_confirm_description1">Generando. Compruebe el resultado en Temas > Creatividad con IA > Mis creaciones.</string>
+    <string name="dialog_confirm_description1">Generando. Compruebe el resultado en Temas > Asistente de Creatividad con IA > Mis creaciones.</string>
     <string name="dialog_confirm_title">¿Salir ahora?</string>
     <string name="discover_your_favorites">Descubra sus favoritos</string>
     <string name="disk_space_Insufficient">Espacio insuficiente</string>
@@ -389,15 +390,15 @@
     <string name="exo_controls_play_description">Reproducir</string>
     <string name="exo_controls_playback_speed">Velocidad</string>
     <string name="exo_controls_previous_description">Anterior</string>
-    <string name="exo_controls_repeat_all_description">Ahora: rep. todo. Cambia modo.</string>
-    <string name="exo_controls_repeat_off_description">Ahora: no repite. Cambia modo.</string>
-    <string name="exo_controls_repeat_one_description">Ahora: repetir 1. Cambia modo.</string>
+    <string name="exo_controls_repeat_all_description">Repetir todo</string>
+    <string name="exo_controls_repeat_off_description">No repetir</string>
+    <string name="exo_controls_repeat_one_description">Repetir uno</string>
     <string name="exo_controls_rewind_description">Retroceder</string>
     <string name="exo_controls_seek_bar_description">Reproducción en curso</string>
     <string name="exo_controls_settings_description">Configuración</string>
     <string name="exo_controls_show">Mostrar controles del reproductor</string>
-    <string name="exo_controls_shuffle_off_description">Habilitar reproducción aleatoria</string>
-    <string name="exo_controls_shuffle_on_description">Inhabilitar reproducción aleatoria</string>
+    <string name="exo_controls_shuffle_off_description">Reprod. aleatoria desactivada</string>
+    <string name="exo_controls_shuffle_on_description">Reprod. aleatoria activada</string>
     <string name="exo_controls_stop_description">Detener</string>
     <string name="exo_controls_vr_description">Modo RV</string>
     <string name="exo_download_completed">Se completó la descarga</string>
@@ -427,7 +428,6 @@
     <string name="exo_track_surround_5_point_1">Sonido envolvente 5.1</string>
     <string name="exo_track_surround_7_point_1">Sonido envolvente 7.1</string>
     <string name="exo_track_unknown">Desconocido</string>
-    <string name="exo_track_unknown_name">Desconocido (%1$s)</string>
     <string name="expand_button_title">Opciones avanzadas</string>
     <string name="expect_more">¡Permanezca atento para más actualizaciones!</string>
     <string name="explore_new_and_popular_themes">Explore temas nuevos y populares</string>
@@ -447,6 +447,7 @@
     <string name="find_more">Encontrar más</string>
     <string name="find_more_theme">Encontrar más</string>
     <string name="find_more_wallpapers">Encontrar más</string>
+    <string name="find_new_version">发现新版本 %s，请前往更新</string>
     <string name="fingerprint_style">Efectos con huella digital</string>
     <string name="flip_wallpaper_preview_revert">Cambiar de orientación</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -1069,6 +1070,7 @@ mm"</string>
     <string name="need_permission_a">¡Bienvenido a Temas!</string>
     <string name="need_permission_b">Dele a su dispositivo un nuevo look</string>
     <string name="need_permission_des_b">Vea lo que Temas tiene para ofrecer</string>
+    <string name="network_unusable">网络不可用，请检查网络连接</string>
     <string name="new_devices_push_titl_content">Tenemos lo que necesita</string>
     <string name="new_devices_push_title">Nuevo teléfono, nuevo tema</string>
     <string name="new_ringtone">Nuevos tonos de llamada</string>
@@ -1095,6 +1097,7 @@ mm"</string>
     <string name="notifications_permission_decline">No permitir</string>
     <string name="notifications_permission_title">¿Permitir que la app te envíe notificaciones?</string>
     <string name="notify_style">Efectos con notificación</string>
+    <string name="obtain_app_info_fail">获取应用信息失败</string>
     <string name="off">No</string>
     <string name="offline_dialog_image_description">Ícono</string>
     <string name="offline_dialog_text">"Gracias por tu interés.
@@ -1447,7 +1450,7 @@ Te compartiremos más información cuando vuelvas a estar en línea."</string>
     <string name="send">Enviar</string>
     <string name="service_expiration_date">Válido hasta %1$s</string>
     <string name="set_color_ring_back_tone">Establezca un tono de espera personalizado</string>
-    <string name="setting_ai">Creatividad con IA</string>
+    <string name="setting_ai">Asistente de Creatividad con IA</string>
     <string name="settings">Configuración</string>
     <string name="settings_wallpaper_preview">Previsualización de fondo de pantalla</string>
     <string name="shortcut_add">Agregar</string>
@@ -1693,9 +1696,9 @@ Te compartiremos más información cuando vuelvas a estar en línea."</string>
     <string name="to_activate_the_account">Activa ahora tu Cuenta Mi</string>
     <string name="toast_day_max_enhance">Hoy no se puede mejorar más fotos</string>
     <string name="toast_day_max_enhance1">Hoy no se puede mejorar más fotos. ¡Vuelva mañana!</string>
-    <string name="toast_day_max_filter">Ya no se pueden usar más filtros con IA</string>
+    <string name="toast_day_max_filter">Hoy ya no se pueden usar más Filtros con IA</string>
     <string name="toast_day_max_filter1">Hoy no se puede usar más Filtros con IA. ¡Vuelva mañana!</string>
-    <string name="toast_day_max_photo">Ya no se puede usar Retrato con IA</string>
+    <string name="toast_day_max_photo">Hoy ya no se puede usar Retrato con IA</string>
     <string name="toast_day_max_photo1">Hoy no se puede usar más Retrato con IA. ¡Vuelva mañana!</string>
     <string name="today">Hoy</string>
     <string name="tomorrow">Mañana</string>
