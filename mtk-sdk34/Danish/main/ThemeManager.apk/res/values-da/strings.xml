@@ -111,7 +111,7 @@
     <string name="ai_service_unavailable">Service ikke tilgængelig.</string>
     <string name="ai_service_unavailable_content">Du har overtrådt vores retningslinjer, og din konto er blevet suspenderet. Prøv igen senere.</string>
     <string name="ai_waiting_in_line_please_wait">Serveren er optaget. Det kan tage et øjeblik.</string>
-    <string name="ai_wallpaper">AI-dynamisk baggrund</string>
+    <string name="ai_wallpaper">AI-dynamiske baggrunde</string>
     <string name="ai_wallpaper_account_exception">Det ser ud til, at der er et problem med din konto. Prøv igen senere eller skift konto.</string>
     <string name="ai_wallpaper_cancel">Annuller</string>
     <string name="ai_wallpaper_click_to">Tryk for at se</string>
@@ -119,7 +119,7 @@
     <string name="ai_wallpaper_feedback">Feedback</string>
     <string name="ai_wallpaper_function_introduction">Skab dynamiske videobaggrunde fra fotos af landskaber, byer, planter og biler</string>
     <string name="ai_wallpaper_i_know">Forstået</string>
-    <string name="ai_wallpaper_inside_invitation">Betatest for AI-dynamisk baggrund</string>
+    <string name="ai_wallpaper_inside_invitation">Betatest for AI-dynamiske baggrunde</string>
     <string name="ai_wallpaper_inside_invitation_agree">Acceptér</string>
     <string name="ai_wallpaper_inside_invitation_description">Denne funktion bruger store modelkapaciteter for at bruge fotos af landskaber, byer, planter og biler til at skabe dynamiske baggrunde. Tryk på \"Bekræft\" for at prøve den!</string>
     <string name="ai_wallpaper_inside_invitation_disagree">Accepter ikke</string>
@@ -243,6 +243,7 @@
     <string name="channel_featured_page">Fremhævet</string>
     <string name="character_counter_content_description">Du har brugt %1$d ud af %2$d tegn</string>
     <string name="character_counter_overflowed_content_description">Du har brugt %1$d tegn og dermed overskredet tegnbegrænsningen på %2$d.</string>
+    <string name="check_version_update_failed">检查更新失败，请稍后重试</string>
     <string name="choose_pay_method">Vælg betalingsmåde</string>
     <string name="choose_video_dialog_invalid_default_message">Denne video understøttes ikke.</string>
     <string name="choose_video_dialog_invalid_direction_title">Horisontale videoer understøttes ikke.</string>
@@ -309,7 +310,7 @@
     <string name="creator_failed_title">Kunne ikke uploade</string>
     <string name="creator_failed_user_photo">Kunne ikke uploade de valgte fotos. Vælg andre fotos, og prøv igen.</string>
     <string name="creator_progress">Genererer…</string>
-    <string name="creator_succ_message">Genereret. Tjek resultatet under Temaer > AI-kreativitet > Mine kreationer.</string>
+    <string name="creator_succ_message">Genereret. Tjek resultatet under Temaer > AI-kreativitetsassistent > Mine kreationer.</string>
     <string name="current_using_desktop_wallpaper_text">Startskærm</string>
     <string name="current_using_lockscreen_wallpaper_text">Låseskærm</string>
     <string name="current_version_incompatible">Ikke kompatibel</string>
@@ -346,7 +347,7 @@
     <string name="dialog_confirm_cancel">Annuller</string>
     <string name="dialog_confirm_confirm">Afslut</string>
     <string name="dialog_confirm_description">Elementerne genereres nu. Du kan se resultaterne i Mine kreationer. Afslut nu?</string>
-    <string name="dialog_confirm_description1">Generering færdig. Tjek resultatet under Temaer > AI-kreativitet > Mine kreationer.</string>
+    <string name="dialog_confirm_description1">Generering færdig. Tjek resultatet under Temaer > AI-kreativitetsassistent > Mine kreationer.</string>
     <string name="dialog_confirm_title">Afslut nu?</string>
     <string name="discover_your_favorites">Find dine favoritter</string>
     <string name="disk_space_Insufficient">Ikke nok hukommelse</string>
@@ -389,15 +390,15 @@
     <string name="exo_controls_play_description">Afspil</string>
     <string name="exo_controls_playback_speed">Hastighed</string>
     <string name="exo_controls_previous_description">Forrige</string>
-    <string name="exo_controls_repeat_all_description">Tilstand: Gentag alle. Slå Gentag til/fra.</string>
-    <string name="exo_controls_repeat_off_description">Tilstand: Gentag ikke. Slå Gentag til/fra.</string>
-    <string name="exo_controls_repeat_one_description">Tilstand: Gentag én. Slå Gentag til/fra.</string>
+    <string name="exo_controls_repeat_all_description">Gentag alle</string>
+    <string name="exo_controls_repeat_off_description">Gentag ingen</string>
+    <string name="exo_controls_repeat_one_description">Gentag én</string>
     <string name="exo_controls_rewind_description">Spol tilbage</string>
     <string name="exo_controls_seek_bar_description">Afspilningsstatus</string>
     <string name="exo_controls_settings_description">Indstillinger</string>
     <string name="exo_controls_show">Vis afspilningsknapper</string>
-    <string name="exo_controls_shuffle_off_description">Aktivér Bland</string>
-    <string name="exo_controls_shuffle_on_description">Deaktiver Bland</string>
+    <string name="exo_controls_shuffle_off_description">Bland er slået fra</string>
+    <string name="exo_controls_shuffle_on_description">Bland er slået til</string>
     <string name="exo_controls_stop_description">Stop</string>
     <string name="exo_controls_vr_description">VR-tilstand</string>
     <string name="exo_download_completed">Downloaden er udført</string>
@@ -427,7 +428,6 @@
     <string name="exo_track_surround_5_point_1">5.1 surround sound</string>
     <string name="exo_track_surround_7_point_1">7.1 surroundsound</string>
     <string name="exo_track_unknown">Ukendt</string>
-    <string name="exo_track_unknown_name">Ukendt (%1$s)</string>
     <string name="expand_button_title">Avanceret</string>
     <string name="expect_more">Hold øje med flere opdateringer!</string>
     <string name="explore_new_and_popular_themes">Undersøg nye og populære temaer</string>
@@ -447,6 +447,7 @@
     <string name="find_more">Find flere</string>
     <string name="find_more_theme">Find mere</string>
     <string name="find_more_wallpapers">Find mere</string>
+    <string name="find_new_version">发现新版本 %s，请前往更新</string>
     <string name="fingerprint_style">Fingeraftrykseffekter</string>
     <string name="flip_wallpaper_preview_revert">Skift orientering</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -556,7 +557,7 @@
     <string name="home_apply_failured">Kan ikke anvende baggrund for startskærm</string>
     <string name="home_apply_success">Baggrund for startskærm anvendt</string>
     <string name="home_bar_ai_filters">AI-filtre</string>
-    <string name="home_bar_ai_photo">AI-portræt</string>
+    <string name="home_bar_ai_photo">AI-portrætter</string>
     <string name="home_bar_enhance">Forbedr</string>
     <string name="home_tab_selected">Valgt: %s</string>
     <string name="home_tab_unselected">Ikke valgt: %s</string>
@@ -1069,6 +1070,7 @@ mm"</string>
     <string name="need_permission_a">Velkommen til Temaer!</string>
     <string name="need_permission_b">Giv din enhed et nyt look</string>
     <string name="need_permission_des_b">Se, hvad Temaer kan tilbyde</string>
+    <string name="network_unusable">网络不可用，请检查网络连接</string>
     <string name="new_devices_push_titl_content">Vi har det, du har brug for</string>
     <string name="new_devices_push_title">Ny telefon, nyt tema</string>
     <string name="new_ringtone">Nye ringetoner</string>
@@ -1095,6 +1097,7 @@ mm"</string>
     <string name="notifications_permission_decline">Tillad ikke</string>
     <string name="notifications_permission_title">Vil du tillade, at appen sender dig notifikationer?</string>
     <string name="notify_style">Notifikationseffekter</string>
+    <string name="obtain_app_info_fail">获取应用信息失败</string>
     <string name="off">Fra</string>
     <string name="offline_dialog_image_description">Ikon</string>
     <string name="offline_dialog_text">"Tak for din interesse.
@@ -1447,7 +1450,7 @@ Vi deler mere, når du er online igen."</string>
     <string name="send">Send</string>
     <string name="service_expiration_date">Gyldig indtil %1$s</string>
     <string name="set_color_ring_back_tone">Indstil en tilpasset tilbagekaldsringetone</string>
-    <string name="setting_ai">AI-kreativitet</string>
+    <string name="setting_ai">AI-kreativitetsassistent</string>
     <string name="settings">Indstillinger</string>
     <string name="settings_wallpaper_preview">Forhåndsvisning af baggrund</string>
     <string name="shortcut_add">Tilføj</string>
@@ -1695,7 +1698,7 @@ Vi deler mere, når du er online igen."</string>
     <string name="toast_day_max_enhance1">Kan ikke forbedre flere fotos i dag. Kom tilbage i morgen!</string>
     <string name="toast_day_max_filter">Kan ikke bruge AI-filtre mere i dag</string>
     <string name="toast_day_max_filter1">Kan ikke bruge flere AI-filtre i dag. Kom tilbage i morgen!</string>
-    <string name="toast_day_max_photo">Kan ikke bruge AI-portræt mere i dag</string>
+    <string name="toast_day_max_photo">Kan ikke bruge AI-portrætter mere i dag</string>
     <string name="toast_day_max_photo1">Kan ikke bruge AI-portrætter mere i dag. Kom tilbage i morgen!</string>
     <string name="today">I dag</string>
     <string name="tomorrow">I morgen</string>
