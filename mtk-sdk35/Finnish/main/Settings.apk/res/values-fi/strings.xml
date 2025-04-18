@@ -956,7 +956,7 @@ Muutetaanko asetuksia nyt?"</string>
     <string name="apply_now_button_text">Päivitä</string>
     <string name="apply_password_to_category_title">Vaadi lukituksen poistoa</string>
     <string name="apply_update_fail">Ei voitu päivittää</string>
-    <string name="approve_title">Varmenne</string>
+    <string name="approve_title">Standardimerkintä</string>
     <string name="apps_dashboard_title">Sovellukset</string>
     <string name="apps_storage">Sovellusten tallennustila</string>
     <string name="apps_summary">%1$d sovellusta asennettu</string>
@@ -1205,7 +1205,7 @@ Käytetty viimeksi %2$s"</string>
     <string name="automatic_system_heap_dump_summary">Tallenna Android-järjestelmän keon vedos automaattisesti, jos se käyttää liikaa muistia</string>
     <string name="automatic_system_heap_dump_title">Tallenna järjestelmän keon vedokset automaattisesti</string>
     <string name="autoui_mode_guide_text">Optimoi sovelluksen sisäiset asettelut yhteensopiville sovelluksille visuaalisen kokemuksen parantamiseksi</string>
-    <string name="autoui_mode_name">Optimoi sovelluksen asettelu</string>
+    <string name="autoui_mode_name">Optimoi sovelluksien asettelu</string>
     <string name="autoui_mode_no_support_apps">Ei voitu löytää yhteensopivia sovelluksia</string>
     <string name="autoui_search_hint">Etsi sovelluksia</string>
     <string name="available_size">%s saatavilla</string>
@@ -1223,7 +1223,14 @@ Käytetty viimeksi %2$s"</string>
     <string name="back_navigation_animation_summary">Ota käyttöön takaisin siirtymisen ennakoivat järjestelmäanimaatiot</string>
     <string name="back_sensitivity_dialog_message">Suurempi herkkyys voi olla ristiriidassa näytön reunan sovelluseleiden kanssa.</string>
     <string name="back_sensitivity_dialog_title">Takaisin-eleen herkkyys</string>
+    <string name="back_strap_app_notification_title">Sovellusilmoitukset</string>
+    <string name="back_strap_call_reminder_title">Saapuvat puhelut</string>
+    <string name="back_strap_image_new_text">Ota tämä ominaisuus käyttöön saadaksesi visuaalisia ilmoituksia ja mukautettuja valotehosteita</string>
     <string name="back_strap_image_text">Kun laite on kuvapuoli alaspäin ja näyttö pois päältä, taustavalo näyttää ilmoitusmuistutuksia ja valaistustehosteita eri kohtauksissa</string>
+    <string name="back_strap_off">Pois</string>
+    <string name="back_strap_on">Päällä</string>
+    <string name="back_strap_on_back_light_display">Vain kun näyttö on alaspäin</string>
+    <string name="back_strap_other_seetings">Lisäasetukset</string>
     <string name="back_strap_status_close">Pois</string>
     <string name="back_strap_status_open">Päällä</string>
     <string name="back_strap_title">Taustavalotehosteet</string>
@@ -2800,7 +2807,7 @@ Avaa ilmoitusalue vetämällä alas näytön yläreunasta ja kosketa keskustelua
     <string name="credentials_reset_summary">Poista kaikki varmenteet</string>
     <string name="credentials_settings_not_available">Kirjautumistunnukset eivät ole tämän käyttäjän käytettävissä</string>
     <string name="credentials_title">Kirjautumistietojen tallennustila</string>
-    <string name="credentials_title_verification">Varmenne</string>
+    <string name="credentials_title_verification">Standardimerkintä</string>
     <string name="credman_app_list_preference_none">Mitään ei ole valittu</string>
     <string name="credman_autofill_confirmation_message">&lt;b>Use &lt;xliff:g id=app_name example=Palveluntarjoaja>%1$s&lt;/xliff:g>?&lt;/b> &lt;br/> &lt;br/> Uudet salasanat, avainkoodit ja muut tiedot tallennetaan nyt tänne. &lt;xliff:g id=app_name example=Palveluntarjoaja>%1$s&lt;/xliff:g> voi päätellä näytön näkymän perusteella, mitä voidaan täyttää automaattisesti.</string>
     <string name="credman_autofill_confirmation_message_new_ui">&lt;b>Vaihdetaanko palveluksi &lt;xliff:g id=app_name example=Provider>%1$s&lt;/xliff:g>?&lt;/b> &lt;br/> &lt;br/> Uudet salasanat, avainkoodit ja muut tiedot tallennetaan nyt tänne. &lt;xliff:g id=app_name example=Provider>%1$s&lt;/xliff:g> voi päätellä näytön näkymän perusteella, mitä voidaan täyttää automaattisesti.</string>
@@ -3223,9 +3230,9 @@ Tämä asetus vaikuttaa kaikkiin tämän laitteen käyttäjiin."</string>
     <string name="device_mall_card_title">Tarkista saatavilla olevat edut</string>
     <string name="device_memory">RAM-muisti</string>
     <string name="device_miui_more">Katso lisää</string>
-    <string name="device_miui_version">OS-versio</string>
-    <string name="device_miui_version_for_POCO">OS-versio (POCO:lle)</string>
-    <string name="device_miui_version_parameters">OS-versio</string>
+    <string name="device_miui_version">Järjestelmäversio</string>
+    <string name="device_miui_version_for_POCO">Järjestelmäversio (POCO:lle)</string>
+    <string name="device_miui_version_parameters">Järjestelmäversio</string>
     <string name="device_miui_version_update">Päivitä</string>
     <string name="device_name">Laitteen nimi</string>
     <string name="device_name_input_error">Laitteen nimeä ei voitu tallentaa</string>
@@ -4073,6 +4080,19 @@ Pyydä lisätietoja luoton myöntäjältä."</string>
     <string name="flashback_support_apps_title">Saatavilla olevat sovellukset</string>
     <string name="flashback_title">Sovelluskortit</string>
     <string name="flashback_wangzhe_summary">Näytä ylösnousemuslaskenta</string>
+    <string name="flip_aod_settings_title_new">Lukitusnäyttö (ulkoinen)</string>
+    <string name="flip_application_settings_title_new">Ulkoisen näytön sovellukset</string>
+    <string name="flip_close_lid_settings_title">Taitettu näyttö</string>
+    <string name="flip_continuity_bottom_text">Joitakin sovelluksia ei ole vielä optimoitu näytettäväksi ulkonäytöllä. Tulokset voivat vaihdella.</string>
+    <string name="flip_continuity_directly_off_the_screen">Sammuta näyttö</string>
+    <string name="flip_continuity_display_lock_screent">Lukitusnäyttö</string>
+    <string name="flip_continuity_settings_title">Taitettu näyttö</string>
+    <string name="flip_continuity_status_list_title">Taitettu näyttö</string>
+    <string name="flip_continuity_use_list_title">Jatka käyttöä taittamisen jälkeen</string>
+    <string name="flip_continuity_use_subtitle">Kun tämä ominaisuus on käytössä, voit jatkaa valittujen sovellusten käyttöä laitteen taittamisen jälkeen</string>
+    <string name="flip_dial_settings_title_new">Widgetti</string>
+    <string name="flip_quick_switch_settings_title">Ohjauskeskus</string>
+    <string name="flip_wallpaper_settings_title_new">Taustakuva</string>
     <string name="floating_window_switch_label">Ota kelluvat ikkunat käyttöön</string>
     <string name="floating_window_switch_label_disable">Poista kelluvat ikkunat käytöstä</string>
     <string name="fluency_mode">Järjestelmän animaatiot</string>
@@ -4470,6 +4490,12 @@ Alue, jolla voit vahvistaa näytön lukituksen, siirtyy oikealle."</string>
     <string name="gxzw_quick_open_slow_summary">Avaa pikavalikko painamalla ja pitämällä pohjassa sormenjälkikuvaketta. Käytä pikavalintaa pyyhkäisemällä.</string>
     <string name="gxzw_quick_open_slow_title">Paina ja pidä pohjassa</string>
     <string name="gxzw_quick_open_title">Pikavalinnat</string>
+    <string name="gxzw_recognizing_anim_a">Ripple</string>
+    <string name="gxzw_recognizing_anim_b">Spiral</string>
+    <string name="gxzw_recognizing_anim_c">Halo</string>
+    <string name="gxzw_recognizing_anim_d">Wave</string>
+    <string name="gxzw_recognizing_anim_e">Aperture</string>
+    <string name="gxzw_recognizing_anim_f">Diffusion</string>
     <string name="gxzw_vibrate_summary">Värinää ei tapahdu, jos sormenjälkianimaatiota ei ole valittu</string>
     <string name="gxzw_vibrate_title">Värinä lukituksen avaamisen aikana</string>
     <string name="handle_ota_connect_first">Yhdistä kahva</string>
@@ -4877,7 +4903,7 @@ Avaa Xiaomi Cloud ja palauta kohteet sieltä."</string>
     <string name="keyboard_settings_title">Android-näppäimistö</string>
     <string name="keyboard_settings_with_physical_keyboard_summary">Näyttönäppäimistö, fyysinen näppäimistö, työkalut</string>
     <string name="keyboard_shortcuts_helper">Pikanäppäimet</string>
-    <string name="keyboard_shortcuts_helper_summary">Näytä pikanäppäimet</string>
+    <string name="keyboard_shortcuts_helper_summary">Paina pitkään*näyttääksesi pikavalintaluettelon</string>
     <string name="keyboard_skin_follow_system_enable">Vaihda tummaan tilaan järjestelmää myöden</string>
     <string name="keyguard_advance_setting_title">Lisäasetukset</string>
     <string name="keyguard_multi_window_tip">Tätä sivua ei voi näyttää jaetussa näytössä. Voit sen sijaan palata koko näytön versioon.</string>
@@ -5063,6 +5089,8 @@ Avaa Xiaomi Cloud ja palauta kohteet sieltä."</string>
     <string name="knock_slide_shape">Piirrä ympyrä rystysellä</string>
     <string name="knock_slide_v">Piirrä V rystysellä</string>
     <string name="label_mi_stats">Mi-analytiikka</string>
+    <string name="lamp_effect_brightness">Kirkkaus</string>
+    <string name="lamp_effect_color">Väri</string>
     <string name="lamp_effect_settings">Tehosteet</string>
     <string name="language_and_input_for_work_category_title">Työprofiilin näppäimistöt ja työkalut</string>
     <string name="language_empty_list_user_restricted">Käyttöoikeutesi ei riitä laitteen kielen vaihtamiseen.</string>
@@ -6150,7 +6178,6 @@ Jatka käyttääksesi lisäasetuksia."</string>
     <string name="miui_sos_emergency_failed_sms">Viestiä ei voitu lähettää käyttäjälle %1$s(%2$s)</string>
     <string name="miui_sos_emergency_failed_sms_noname">Viestiä ei voitu lähettää %1s.</string>
     <string name="miui_sos_emergency_title">Hätätila</string>
-    <string name="miui_sos_enable_switch_summary">Paina virtapainiketta nopeasti 5 kertaa lähettääksesi hätäviestin sijaintitietoinesi hätäyhteystiedoillesi</string>
     <string name="miui_sos_enable_switch_title">Hätätila</string>
     <string name="miui_sos_exit_dialog_cancel">Peruuta</string>
     <string name="miui_sos_exit_dialog_message">Olet aktivoinut Hätätilan. Sijaintitietosi lähetetään hätäyhteystiedoillesi. Sammutetaanko silti?</string>
@@ -6484,7 +6511,7 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="multi_face_input_reach_upper_limit">Kasvotietoja ei voitu lisätä. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="multi_face_input_success_name_title">Nimi</string>
     <string name="multi_face_list">Kasvotiedot</string>
-    <string name="multi_face_name_prefix">"Kasvot "</string>
+    <string name="multi_face_name_prefix">Kasvotiedot %s</string>
     <string name="multi_face_number_reach_limit">Ei voi lisätä tietoja enemmän kuin 2 kasvoille</string>
     <string name="multi_music_coexistence_summary">Älä säädä median äänenvoimakkuutta saapuvien ilmoitusten aikana tai kun ääntä toistetaan toisesta lähteestä</string>
     <string name="multi_music_coexistence_title">Useita äänilähteitä</string>
@@ -6510,7 +6537,7 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="mute_voiceassist_stream">Mykistä ääniavustaja</string>
     <string name="mvno_match_data">MVNO-arvo</string>
     <string name="mvno_type">MVNO-tyyppi</string>
-    <string name="my_device">Minun laite</string>
+    <string name="my_device">Laitteeni</string>
     <string name="my_device_disclaimer">Huomautus: Laitteistotiedot, mukaan lukien prosessori, akun kapasiteetti, näytön koko ja resoluutio sekä kamera ovat Xiaomi-työläisten, -suunnittelijoiden ja -toimittajien tarjoamat.</string>
     <string name="my_device_info_account_preference_summary">%d tiliä</string>
     <string name="my_device_info_account_preference_title">Tili</string>
@@ -6524,6 +6551,7 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="natural_haptic">Luonnollinen kosketus</string>
     <string name="natural_haptic_summary">Uudet haptiset palautekuviot tuovat uuden ulottuvuuden kaikkeen, mitä näet ja kosketat näytölläsi.</string>
     <string name="natural_scroll">Luonnollinen vieritys</string>
+    <string name="natural_scroll_summary">Sisältö rullautuu sormesi mukana</string>
     <string name="nature_color">Oletus</string>
     <string name="nav_tutorial_button_description">Aloita eleillä navigoinnin ohje, painike. Aktivoi kaksoisnapauttamalla.</string>
     <string name="navigation_guide_app_quick_switch_hide_line_summary">Pyyhkäise näytön alareunasta ylöspäin ja pyyhkäise sitten vasemmalle tai oikealle</string>
@@ -7081,7 +7109,7 @@ OTG sammuu automaattisesti 10 minuutin käyttämättömyyden jälkeen."</string>
     <string name="packages_subtitle">Sisältyvät paketit</string>
     <string name="pad_add_fingerprint_finish_message">Jatka pääsyä lisäasetuksiin.</string>
     <string name="pad_add_fingerprint_message">Aseta sormesi virtapainikkeen päälle</string>
-    <string name="pad_application_mode_name">Vaakasuora sovelluksen asettelu</string>
+    <string name="pad_application_mode_name">Vaakasuora sovelluksien asettelu</string>
     <string name="page_agnostic_16k_pages_text">Olet sivusta riippumattoman tilan 16 kt:n tilassa. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelman lukitus on auki. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat siirtyä tuotantotilaan uudelleen, sinun on vaihdettava takaisin 4 kt:n tilaan ja lukittava käynnistysohjelma. Tämä palauttaa laitteen tehdasasetukset uudelleen ja palauttaa sen tuotantoasetuksiin. Kun laite käynnistyy Androidissa, poista OEM-avaus käytöstä kehittäjäasetuksista. Jos laitteen käynnistäminen Androidiin epäonnistuu tai se on epävakaa, asenna Flash uudelleen viimeisimmillä tehdasasetusten näköistiedostoilla osoitteesta &lt;a href=\"https://developers.google.com/android/images\">https://developers.google.com/android/images&lt;/a> tai käytä &lt;a href=\"https://flash.android.com/back-to-public\">https://flash.android.com/back-to-public&lt;/a> ja valitse \"Pyyhi laite\", \"Lukitse käynnistysohjelma\" ja \"Pakota Flash kaikille osioille\".</string>
     <string name="page_agnostic_16k_pages_text_short">Olet sivusta riippumattoman tilan 16 kt:n tilassa. Ohjelmiston eheyttä ei voida taata tässä tilassa. Kaikki tälle puhelimelle tallennettu data voi olla vaarassa, kun käynnistysohjelman lukitus on auki. Jotkin ominaisuudet on poistettu käytöstä näissä tiloissa, eivätkä kaikki sovellukset välttämättä toimi. Jos haluat siirtyä tuotantotilaan uudelleen, sinun on vaihdettava takaisin 4 kt:n tilaan ja lukittava käynnistysohjelma. Lue lisää napauttamalla.</string>
     <string name="page_agnostic_16k_pages_title">Käytetään 16 kt:n sivusta riippumatonta tilaa</string>
@@ -7239,6 +7267,7 @@ Lue ja hyväksy %s ennen kuin käytät tätä palvelua."</string>
     <string name="photography_handle_launch_and_take_photo">Ota kuva</string>
     <string name="photography_handle_launch_camera">Avaa kamera</string>
     <string name="photography_handle_long_press_camera_key_enter_camera">Paina ja pidä laukaisinta painettuna suorittaaksesi toiminnon</string>
+    <string name="photography_handle_low_battery_notify_title">Kamerakahvan laiteohjelmistopäivitys</string>
     <string name="photography_handle_quick_launch_camera_title">Äkkilaukaus</string>
     <string name="photography_handle_sn">Sarjanumero</string>
     <string name="photography_handle_title">Kameran kahva</string>
@@ -7278,7 +7307,7 @@ Lue ja hyväksy %s ennen kuin käytät tätä palvelua."</string>
     <string name="pointer_fill_style_yellow_button">Keltainen osoittimen täytön tyyli</string>
     <string name="pointer_location">Osoittimen sijainti</string>
     <string name="pointer_location_summary">Näytä kosketuskoordinaatit</string>
-    <string name="pointer_settings_category">Hiiri/ohjauslevy</string>
+    <string name="pointer_settings_category">Hiiri</string>
     <string name="pointer_speed">Osoittimen nopeus</string>
     <string name="popup_window">Rajoita kelluvia ilmoituksia</string>
     <string name="post_dsds_reboot_notification_text">Päivitä SIM‑asetukset napauttamalla</string>
@@ -8491,6 +8520,7 @@ Näin voit kiinnittää sovelluksen: \u0009
     <string name="search_storage_settings">Tallennustila;Muisti</string>
     <string name="search_sync_settings">Synkronoi;Auto;Vain Wi-Fi</string>
     <string name="search_system_app_settings">Järjestelmäsovellukset</string>
+    <string name="search_system_personalize_title">taustakuvaesitys;aamuntoivotus;Taustakuvakaruselli;teeman tyyli;teemat;teeman asetukset;Lukitusnäytön taustakuva;Aloitusnäytön taustakuva;läpinäkyvät taustakuvat;Aloitusnäyttö ja taustakuvat;Xiaomi-taustakuvat;läpinäkyvä taustakuva;omat taustakuvat;online-taustakuvat;soittoäänet;puhelimen soittoääni;tekstiviestin soittoääni;puhelun soittoääni;soittoäänen asetukset;hälytyksen soittoääni;rullaava taustakuva;esityksen taustakuva;kuvaesityksen taustakuva;Taustakuvakarusellin esitys;online-teemat;latausääni;latausanimaatiot;sormenjälkitehosteet;sormenjäljen tyyli;avauksen animaatio;teema;personoi;personointi;taustakuva;ikoni;dynaaminen taustakuva;Lukitusnäytön tehosteet;pienet ikonit;lukutila;anime;viralliset teemat;valitut teemat;valitut taustakuvat;kaunista;suosikkitaustakuvat;videotaustakuva;mukautettu soittoääni;vastausääni;hälytysäänet;ilmoitusäänet;tekstiviestihälytys;sateenkaariakku;suositut taustakuvat;yksiväriset taustakuvat;dynaaminen lukitusnäyttö;lataustehosteet;monitoiminen lukitusnäyttö;gyro;pyöristetyt ikonit;lineaariset ikonit;musiikki-lukitusnäyttö;Aloitusnäytön tehosteet;dynaamiset ikonit;käsin piirretyt ikonit;vapaa tyyli -aloitusnäyttö;Lukitusnäytön animaatio;käynnistysanimaatio;läpinäkyvä teema;esityksen lukitusnäyttö</string>
     <string name="search_theme_settings_title">Teemat;Teema;Personointi;Personoi</string>
     <string name="search_touch_assistant">Kelluva painike;Kosketuksen assistentti</string>
     <string name="search_touch_sensitive_title">Käsinetila;käsineet;käsine</string>
@@ -10277,6 +10307,7 @@ Kun se on käytössä, laite voi liittyä Thread-verkostoon. Näin voit ohjata p
     <string name="tv_media_transfer_earc_subtitle">Yhdistetty eARC:n kautta</string>
     <string name="tv_media_transfer_hdmi">HDMI-toisto</string>
     <string name="tv_media_transfer_internal_speakers">Sisäiset kaiuttimet</string>
+    <string name="twenty_four_select_time_format">24 tunnin muoto</string>
     <string name="twilight_mode_launch_location">Sijaintiasetukset</string>
     <string name="twilight_mode_location_off_dialog_message">Laitteen sijainti vaaditaan auringon lasku- ja nousuaikojen määrittämiseen.</string>
     <string name="twohours">1 tunti</string>
@@ -10561,6 +10592,7 @@ tai kuulokkeita, joissa pistoke on 3,5 mm."</string>
     <string name="usb_summary_power_only">Yhdistetyn laitteen lataaminen</string>
     <string name="usb_summary_tether">Internetin jakaminen USB:n kautta</string>
     <string name="usb_summary_tether_power">Internetin jakaminen USB:n kautta ja yhdistetyn laitteen lataaminen</string>
+    <string name="usb_switch_reverse_charge_failed">Ei saatavilla</string>
     <string name="usb_switching">Vaihdetaan…</string>
     <string name="usb_switching_failed">Vaihtaminen epäonnistui</string>
     <string name="usb_tethering_active_subtext">Yhdistetty kannettavaan yhteyspisteeseen</string>
