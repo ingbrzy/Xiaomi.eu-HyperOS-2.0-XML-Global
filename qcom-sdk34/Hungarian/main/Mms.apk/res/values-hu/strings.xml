@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
     <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
+    <string name="accessibility_sliding_button_state_description_off">Kikapcsolva</string>
+    <string name="accessibility_sliding_button_state_description_on">Bekapcsolva</string>
+    <string name="accessibility_tab_state_description_unselect">Nem kiválaszott</string>
     <string name="action_get_otp">Kód kérése</string>
     <string name="action_sign_in">Bejelentkezés</string>
     <string name="action_sign_in_short">Bejelentkezés</string>
@@ -468,10 +471,8 @@ Felhívjuk a figyelmét, hogy az internetes üzenetküldő funkció további ér
     <string name="menu_unlock">Eltávolítás a kedvencekből</string>
     <string name="menu_view_contact">Névjegy megtekintése</string>
     <string name="menu_view_group_info">Csoportinformáció</string>
-    <string name="message_cannot_send_air_mode">"Nem lehet üzeneteket küldeni.
-Először kapcsold ki a Repülőgépes üzemmódot."</string>
-    <string name="message_cannot_send_sim_unavailable">"Nem lehet üzeneteket küldeni.
-Ellenőrizd a SIM-kártyádat."</string>
+    <string name="message_cannot_send_air_mode">Üzenet küldéséhez kapcsolja ki a Repülőgép módot</string>
+    <string name="message_cannot_send_sim_unavailable">Üzenet küldéséhez helyezzen be egy SIM-kártyát</string>
     <string name="message_class_label">"Üzenet osztálya: "</string>
     <string name="message_contact">Névjegy:</string>
     <string name="message_details_title">Üzenet részletei</string>
@@ -499,6 +500,12 @@ Ellenőrizd a SIM-kártyádat."</string>
     <string name="midnight">Éjszakai</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">Kiválasztott</string>
+    <string name="miuix_accessibility_title">Cím</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Összecsukott</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Kibontott</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Kilépés a szerkesztő módból</string>
+    <string name="miuix_appcompat_accessibility_new_message">Új értesítés</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Nyissa meg a szerkesztési módot</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kijelölések törlése</string>
     <string name="miuix_appcompat_action_mode_select_all">Összes kijelölése</string>
     <string name="miuix_appcompat_action_mode_title_empty">Kiválasztás</string>
@@ -514,12 +521,15 @@ Ellenőrizd a SIM-kártyádat."</string>
     <string name="miuix_appcompat_select_all">Az összes kiválasztása</string>
     <string name="miuix_appcompat_select_all_description">Összes kijelölése</string>
     <string name="miuix_appcompat_select_item">Elemek kiválasztása</string>
+    <string name="miuix_appcompat_show_dialog_description">Felugró ablak</string>
     <string name="miuix_item_view_role_description">Lap</string>
     <string name="miuix_navigator_category_group_collapse">Összecsukás</string>
     <string name="miuix_navigator_category_group_expand">Kinyitás</string>
     <string name="miuix_navigator_content_switch_description">Oldalsáv megjelenítése</string>
     <string name="miuix_navigator_multiple_choice">Kiválaszt</string>
     <string name="miuix_navigator_navigator_switch_description">Oldalsáv elrejtése</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Eszköztár a képernyő alján</string>
+    <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sikeresen frissítve</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Frissítés…</string>
@@ -528,6 +538,9 @@ Ellenőrizd a SIM-kártyádat."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Egyelőre ennyi</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Egy pillanat...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemek betöltése sikertelen</string>
+    <string name="miuix_show_password">Jelszó megjelenítése</string>
+    <string name="miuix_stretchablewidget_collapsed">Összecsukott</string>
+    <string name="miuix_stretchablewidget_expanded">Kibontott</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Minden MMS letiltásra kerül, kivéve az engedélyezett feladóktól érkező MMS-eket. Engedélyezett felhazsnálók lehetnek többek között a hálózati szolgáltatók, a nemzeti vasúti foglalási rendszerek stb.</string>
     <string name="mms_block_alert_ok">Tiltás</string>
@@ -621,6 +634,18 @@ Lehet, hogy ez az üzenet kéretlen."</string>
     <string name="mx_privacy_policy">Mi Üzenet Adatvédelmi szabályzata</string>
     <string name="mx_stranger_recommend_msg">Mi Üzenet elutasítása ismeretlen telefonszámokról</string>
     <string name="need_download">Letöltés…</string>
+    <string name="net_message_download_btn_content_desc">Letöltés</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Kód másolása %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Link megnyitása %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Alkalmazás megnyitása</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Naptár megnyitása</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Tárcsázás %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Válasz</string>
+    <string name="net_message_media_card_img_content_desc">Fénykép</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Videólejátszás befejeződött</string>
+    <string name="net_message_media_card_video_content_desc">Videó</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Szüneteltetés</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Lejátszás</string>
     <string name="net_sms_subscribed">Sikeresen feliratkozott</string>
     <string name="net_sms_unsubscribe">Sikeresen leiratkozva</string>
     <string name="networking_allow_continue">Engedélyezés</string>
@@ -668,6 +693,7 @@ Lehet, hogy ez az üzenet kéretlen."</string>
     <string name="over_max_mms_size">Az MMS túl nagy.</string>
     <string name="overwrite_edited_content">A szerkesztett tartalom felülíródik.</string>
     <string name="packages_select_sim_cards_title">Válasszon SIM-kártyát</string>
+    <string name="page_indicator">Oldaljelző</string>
     <string name="passenger_title">Utas</string>
     <string name="pay_bill">Fizetés</string>
     <string name="payment_failed">Nem sikerült a fizetés végrehajtása</string>
@@ -909,6 +935,7 @@ Tekintse meg az ajánlott chatbotokat!"</string>
     <string name="recommend_bar_ok">Bekapcsolás</string>
     <string name="recommend_bar_title_mx_rcs">Mi Üzenet</string>
     <string name="recommend_close">Kikapcsolás</string>
+    <string name="recommend_close_button">Bezárás</string>
     <string name="recommend_disagree">Elutasítom</string>
     <string name="recommend_free_internet_message">Ingyenes internetes üzenetküldés</string>
     <string name="recommend_free_mi">Mi Üzenet</string>
@@ -1058,6 +1085,7 @@ Tekintse meg az ajánlott chatbotokat!"</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">Először telepítse a Hangrögzítőt</string>
     <string name="sp_category_all">Minden szolgáltatói üzenet</string>
     <string name="sp_category_bank">Banki üzenetek</string>
     <string name="sp_category_title_prefix">%s</string>

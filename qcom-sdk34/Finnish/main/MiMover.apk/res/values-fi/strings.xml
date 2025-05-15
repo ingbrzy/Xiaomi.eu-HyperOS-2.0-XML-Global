@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Jaa…</string>
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
+    <string name="accessibility_sliding_button_state_description_off">pois päältä</string>
+    <string name="accessibility_sliding_button_state_description_on">päällä</string>
+    <string name="accessibility_tab_state_description_unselect">Ei valittu</string>
+    <string name="accessibility_tab_statedesc_unselect">Ei valittu</string>
     <string name="account_or_password_incorrect">Virheellinen käyttäjätunnus tai salasana</string>
     <string name="actionbar_button_up_description">Takaisin</string>
     <string name="afternoon">Iltapäivä</string>
@@ -175,7 +179,7 @@ Vieraile osoitteessa https://appleid.apple.com/#!&amp;page=signin sammuttaaksesi
     <string name="dialog_request_permission_message_extra_summary">Nämä luvat vaaditaan, jotta tämän sovelluksen perusominaisuudet ja -palvelut olisivat saatavilla.</string>
     <string name="dialog_request_permission_message_extra_title">Vaaditut käyttöoikeudet</string>
     <string name="dialog_request_permission_message_global">Tämä sovellus tarvitsee seuraavat käyttöoikeudet voidakseen toimia normaalisti:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Samalla ymmärtääksesi täysin käyttäjänoikeutesi sekä tavat, joilla käytämme tietojasi, lue ja hyväksy meidän &lt;a href='%1s'>Käyttäjäsopimus&lt;/a> ja &lt;a href='%2s'>Tietosuojakäytäntö&lt;/a>.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"Ymmärtääksesi täysin oikeutesi käyttäjänä sekä tapoja, joilla käytämme tietojasi, lue ja hyväksy &lt;a href='%1s'>Xiaomi-käyttöjärjestelmän käyttäjäsopimus&lt;/a> ja &lt;a href='%2s'>Mi Moverin tietosuojakäytäntö&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">Samalla ymmärtääksesi täysin oikeutesi käyttäjänä sekä tavat, joilla käytämme tietojasi, lue ja hyväksy meidän %1$s ja %2$s.</string>
     <string name="dialog_request_permission_title">Huomio</string>
     <string name="dialog_request_permission_title_global">Käyttöoikeuksia vaaditaan</string>
@@ -196,11 +200,13 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="err_bakfile_broken">Tätä varmuuskopiota ei voi käyttää.</string>
     <string name="err_bakfile_not_exist">Varmuuskopiotiedostoa ei ole olemassa.</string>
     <string name="err_binder_died">Sovellus pysähtyi yllättäen.</string>
+    <string name="err_data_protection">Edistyksellinen tietosuoja on käytössä vanhassa laitteessa. Vahvistus vaaditaan.</string>
     <string name="err_install_incompatible">Yhteensopivuusongelma</string>
     <string name="err_low_storage">Ei tarpeeksi tallennustilaa</string>
     <string name="err_no_gms">Yhteensopimaton sovellusversio. Asenna tämä sovellus erikseen.</string>
     <string name="err_not_allow">Ei tueta</string>
     <string name="err_pkg_not_exist">Sovellusta ei löytynyt.</string>
+    <string name="err_receiver_no_space">Ei voitu siirtää. Uuden laitteen tallennustila ei riitä.</string>
     <string name="err_remote_no_space">Ei tarpeeksi tallennustilaa uudessa laitteessa</string>
     <string name="err_remote_timeout">Siirto aikakatkaistiin</string>
     <string name="err_send_error">Ei voitu lähettää</string>
@@ -269,6 +275,12 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Selvä</string>
+    <string name="force_update_button_scan_host">Asenna</string>
+    <string name="force_update_content_guest">Päivitä Mi Mover uuteen laitteeseen, jotta voit siirtää kohteita.</string>
+    <string name="force_update_content_host">Päivitä Mi Mover vanhaan laitteeseen, jotta voit siirtää kohteita.</string>
+    <string name="force_update_title_guest">Päivitä Mi Mover uuteen laitteeseen</string>
+    <string name="force_update_title_host">Päivitä Mi Mover vanhaan laitteeseen</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
@@ -408,6 +420,10 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="miui_wait_link_title_1">%d. Napauta \"Olen lähettäjä\" ja odota hetki.</string>
     <string name="miui_wait_link_title_2">%d. Valitse tämä yhteys vanhan laitteen tukiasemaan.</string>
     <string name="miuix_access_state_desc">Valittu</string>
+    <string name="miuix_accessibility_title">Otsikko</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Poistu muokkaustilasta</string>
+    <string name="miuix_appcompat_accessibility_new_message">Uusi viesti</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Aloita muokkaustila</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -423,6 +439,7 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_select_all_description">Valitse kaikki</string>
     <string name="miuix_appcompat_select_item">Valitse kohteet</string>
+    <string name="miuix_progressbar_loading">Lataa</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Virkistetty onnistuneesti</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Virkistetään…</string>
@@ -431,6 +448,7 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="miuix_sbl_tracking_progress_labe_up_none">Siinä kaikki tältä erää</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Hetki vain…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kohteita ei voitu ladata</string>
+    <string name="miuix_show_password">Näytä salasana</string>
     <string name="mms">Multimediaviesti</string>
     <string name="mms_contacts_calllog">Viestit, yhteystiedot ja puheluhistoria</string>
     <string name="monday">Maanantai</string>
@@ -503,11 +521,15 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="new_trans_intro_question_6">%d. Miksi sovellustietoja ei voida siirtää kolmannen osapuolen laitteelta?</string>
     <string name="new_trans_intro_question_7">%d. Jos lähden Mi Moverista siirron aikana, joudunko aloittamaan alusta seuraavan kerran?</string>
     <string name="new_trans_intro_question_8">%d. Miksi WeChat-historiani katosi uudesta laitteesta?</string>
+    <string name="new_version_transfer_downloading">Päivitetään Mi Moveria</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Päivitetään…</string>
     <string name="new_wait_link_message_2">\"Olen lähettäjä\" -painike on ihan Mi Mover -aloitussivulla.</string>
     <string name="next">Seuraava</string>
     <string name="night">Ilta</string>
     <string name="no_more_memory_title">Kohteen Mi Mover on luotava paikallinen varmuuskopio tästä laitteesta. Tallennustilaa ei ole tarpeeksi varmuuskopion luomiseen nyt. Vapauta ensin tilaa.</string>
     <string name="noon">Keskipäivä</string>
+    <string name="not_selectable">Ei voi valita</string>
     <string name="not_set">Ei asetettu</string>
     <string name="not_support_data_content1">%d. Laitemallikohtaiset kohteet</string>
     <string name="not_support_data_content2">%d. Sovellustiedot</string>
@@ -556,6 +578,8 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="open_photo_and_contacts_cloud_sync_summary">Ota synkronointi käyttöön, jotta yhteystiedot ja Galleria-kohteet näkyvät tässä laitteessa.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">Synkronoi yhteystiedot ja Galleria-kohteet</string>
     <string name="operation_send">Lähetä</string>
+    <string name="opposite_new_version_transfer_content">Odota, että toinen laite päivittyy ja käynnistä Mi Mover uudelleen, ja yhdistä sitten uudelleen napauttamalla.</string>
+    <string name="opposite_new_version_transfer_title">Toinen laite päivittyy</string>
     <string name="option_about">Tietoja kohteesta Mi Mover</string>
     <string name="option_feedback_title">Palaute</string>
     <string name="option_privacy_policy">Tietosuojakäytäntö</string>
@@ -603,7 +627,7 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="privacy_desc">Tervetuloa kohteeseen Mi Mover! Tämä sovellus tarjoaa seuraavat palvelut:</string>
     <string name="privacy_experience_statement">Liity Käyttäjäkokemusohjelmaamme ja jaa käyttäjätietoja kanssamme auttaaksesi meitä parantamaan tuotteitamme ja palveluitamme.</string>
     <string name="privacy_item1">· Tiedostojen, viestien, järjestelmän sovellusasetusten ja sovellusten siirtäminen</string>
-    <string name="privacy_message">&lt;Data>Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%1$s\">Tietosuojakäytäntö&lt;/a> ennen kohteen Mi Mover käyttöä. Voit peruuttaa suostumuksesi Mi Mover -tietosuojakäytäntöön kohdassa \"About Mi Mover\" million tahansa. Joe et suostu käyttämään edellä mainittuja palveluita, et voi käyttää joitain tämän sovelluksen ominaisuuksia. Sen perustoiminnot ovat kuitenkin edelleen käytettävissäsi.&lt;/Data></string>
+    <string name="privacy_message"><Data>Lue ja hyväksy meidän &lt;a href=\"%2$s\">Käyttäjäsopimus&lt;/a> ja &lt;a href=\"%1$s\">Tietosuojakäytäntö&lt;/a> ennen kohteen Mi Mover käyttöä. Voit peruuttaa suostumuksesi Mi Mover -tietosuojakäytäntöön kohdassa \"About Mi Mover\" million tahansa. Joe et suostu käyttämään edellä mainittuja palveluita, et voi käyttää joitain tämän sovelluksen ominaisuuksia. Sen perustoiminnot ovat kuitenkin edelleen käytettävissäsi.</Data></string>
     <string name="privacy_policy">Tietosuojakäytäntö</string>
     <string name="privacy_title">Käyttöehdot</string>
     <string name="prompt_before_transmission_message1_summary">Jos päätät siirtää ne vanhasta laitteestasi, sovellustiedot (mukaan lukien keskusteluhistoria) korvataan.</string>
@@ -695,6 +719,12 @@ Vapauta vähintään %s."</string>
     <string name="secret_password_confirm_summary">Vahvista henkilöllisyytesi antamalla tietosuojasalasanasi, jotta voit siirtää yksityisiä tiedostoja uudelle laitteellesi.</string>
     <string name="secret_password_confirm_title">Yksityisyydensuojan salasana</string>
     <string name="secret_title">Yksityiset kohteet</string>
+    <string name="security_connect_button_negative">Peruuta</string>
+    <string name="security_connect_button_positive">Yhdistä</string>
+    <string name="security_connect_content">Varmista, että molempien laitteiden yhteyskoodit täsmäävät. Napauta sitten \"Yhdistä\" siirtääksesi kohteita.</string>
+    <string name="security_connect_hint">Yhteyskoodi</string>
+    <string name="security_connect_title_guest">Yhdistä uuteen laitteeseen nyt?</string>
+    <string name="security_connect_title_host">Yhdistä vanhaan laitteeseen nyt?</string>
     <string name="select_all">Valitse kaikki</string>
     <string name="select_android_summary">Huawei, OPPO, vivo ja muut</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@ Lataa ja asenna Mi Mover."</string>
     <string name="trans_sync_transfer_data_list">Valitse siirrettävät kohteet vanhalla laitteella</string>
     <string name="trans_sync_transfer_data_list_apple">Siirrä kohteita Apple-laitteeltasi</string>
     <string name="trans_sync_transfer_data_list_hint">Hetki vain…</string>
+    <string name="trans_sync_transfer_data_list_pad">Valitse siirrettävät kohteet vanhasta laitteesta</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Valitse kohteita vanhalta laitteeltasi ja napauta \"Lähetä\".</string>
     <string name="trans_time_format_second">Alle %d minuutti</string>
     <string name="trans_time_spent">Aika: %s</string>
@@ -878,6 +909,10 @@ Lataa ja asenna Mi Mover."</string>
     <string name="transfer_lose_connect_title">Yhteys katkesi</string>
     <string name="transfer_multi_connect_summary">Siirto keskeytettiin tietoturvasyiden vuoksi. Voit jatkaa joka tapauksessa napauttamalla \"Yhdistä uudelleen\".</string>
     <string name="transfer_multi_connect_title">Näyttää siltä, että tähän tukiasemaan on liitetty useita laitteita</string>
+    <string name="transfer_no_memory_dialog_btn">Selvä</string>
+    <string name="transfer_no_memory_dialog_summary">Uudessa laitteessa ei ole tarpeeksi tallennustilaa siirron loppuun saattamiseksi. Tyhjennä laitteessa tilaa, jotta voit lopettaa kohteiden siirron.</string>
+    <string name="transfer_no_memory_dialog_title">Ei tarpeeksi tallennustilaa</string>
+    <string name="transfer_no_memory_dialog_title_pad">Ei tarpeeksi tallennustilaa</string>
     <string name="transfer_quit_alert_btn_negative">Poistu</string>
     <string name="transfer_quit_alert_btn_positive">Älä poistu</string>
     <string name="transfer_quit_alert_message">"Mi Mover toimii nyt. Poistutaanko siitä huolimatta?

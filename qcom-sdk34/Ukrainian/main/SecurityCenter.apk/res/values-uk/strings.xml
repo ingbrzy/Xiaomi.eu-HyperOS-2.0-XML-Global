@@ -962,6 +962,7 @@
     <string name="button_text_trust">Довіряти цій мережі</string>
     <string name="button_text_update_now">Оновити</string>
     <string name="button_to_setting">Налаштування</string>
+    <string name="button_toll_correction">Калібрувати баланс</string>
     <string name="byteShort">Б</string>
     <string name="call_address">Чорний список за регіоном</string>
     <string name="call_all_number_block">Блокувати всі виклики</string>
@@ -1061,6 +1062,7 @@
     <string name="charging_text_battery_full_time">"Час останньої зарядки "</string>
     <string name="charging_text_battery_nearly_full">Батарея майже повністю заряджена</string>
     <string name="charging_text_battery_perfect">Батарея заряджена</string>
+    <string name="check_bill_balance">Перевірка балансу</string>
     <string name="choose">Обрати</string>
     <string name="choose_gs_show_way">Виберіть орієнтацію робочого столу</string>
     <string name="clean_immediately">Очистити</string>
@@ -1684,6 +1686,7 @@
     <string name="fixed_cellular_data_quota_monthly">Місячний ліміт трафіку</string>
     <string name="fixed_package_tips">Після перевищення ліміту, буде стягуватися додаткова плата.</string>
     <string name="fixed_traffic_quota">"Ліміт трафіку (обов'язково)"</string>
+    <string name="fixed_traffic_quota_offline">"Ліміт трафіку (обов'язково)"</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -2038,8 +2041,14 @@
     <string name="gb_beauty_nature_light">Природний</string>
     <string name="gb_beauty_warm_light">Теплий</string>
     <string name="gb_collimator_color">Колір</string>
+    <string name="gb_collimator_color_blue_talkback">Синій</string>
+    <string name="gb_collimator_color_purple_talkback">Фіолетовий</string>
+    <string name="gb_collimator_color_red_talkback">Червоний</string>
+    <string name="gb_collimator_color_white_talkback">Білий</string>
+    <string name="gb_collimator_color_yellow_talkback">Жовтий</string>
     <string name="gb_collimator_size">Розмір</string>
     <string name="gb_collimator_style">Тип</string>
+    <string name="gb_collimator_style_talkback">Стиль %1$d</string>
     <string name="gb_collimator_toast">Приціл допоможе покращити влучність</string>
     <string name="gb_cooler_device_toast">"Візуальні можливості, покращені
 Xiaomi Gaming Cooler"</string>
@@ -2142,7 +2151,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_msg_transparent_dispaly_summary">Прозорий</string>
     <string name="gb_network_status_bad">Сталася помилка підключення.</string>
     <string name="gb_new_feature">Нова функція</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Цю програму не можна використовувати на зовнішньому екрані</string>
     <string name="gb_operat_frequently">Не так швидко!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Неможливо активувати Збалансований режим Game Turbo, коли увімкнено загальносистемний режим продуктивності. Ви можете змінити налаштування живлення у програмі Безпека.&lt;br>&lt;a href=\"#\">Відкрити програму Безпека&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Переключено на Режим продуктивності. Ваш пристрій може нагріватися та споживати більше енергії.</string>
@@ -2507,20 +2516,20 @@ Xiaomi Gaming Cooler"</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Заблокувати другу SIM-карту</string>
     <string name="gtb_setting_item_title_smart_5g">Оптимізація мережі 5G</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Збільшення швидкості Мі Wi-Fi</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Назад до гри</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">Не вдалося підключитися до мережі</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Переглянути</string>
+    <string name="gtb_spring_festival_guide">"Переключіться на альбомний режим,
+щоб приєднатися до нашого полювання на яйця!"</string>
+    <string name="gtb_spring_festival_guide_know">Зрозуміло</string>
+    <string name="gtb_spring_festival_push_active_desc">Вигравайте телефони, смартпристрої та купони</string>
+    <string name="gtb_spring_festival_push_active_title">Полювання за пасхальними яйцями почалося!</string>
+    <string name="gtb_spring_festival_push_desc">Приєднуйтесь до нашого полювання за яйцями та вигравайте призи</string>
+    <string name="gtb_spring_festival_push_egg_title">Ви отримали пасхальне яйце!</string>
+    <string name="gtb_spring_festival_push_gift_title">Скоро вас чекають призи полювання за яйцями!</string>
+    <string name="gtb_spring_festival_push_join">Оформити</string>
+    <string name="gtb_spring_festival_push_see">Переглянути</string>
+    <string name="gtb_spring_festival_shortcut_create">Створити ярлик на робочому столі</string>
     <string name="gtb_start_phone_accelerate">Збільшити</string>
     <string name="gtb_stop_accelerate">Зупинити</string>
     <string name="gtb_timer">Таймер</string>
@@ -2715,6 +2724,7 @@ to join our egg hunt!"</string>
     <string name="main_activity_content_summary_update">Оновлення системи</string>
     <string name="main_alert_message_no_imsi">SIM-карту не виявлено</string>
     <string name="main_alert_message_open_traffic_ctrl">Ми рекомендуємо обмежити трафік</string>
+    <string name="main_balance_check">Перевірка балансу</string>
     <string name="main_bill_remained">Баланс</string>
     <string name="main_button_mi_sim_close">Активувати Mi SIM</string>
     <string name="main_button_mi_sim_open">Переглянути деталі</string>
@@ -2729,6 +2739,7 @@ to join our egg hunt!"</string>
     <string name="main_daily_card_guide_dialog_title">Встановіть тариф</string>
     <string name="main_daily_card_guide_dialog_title_new">Встановіть тариф</string>
     <string name="main_daily_package">Щоденний тарифний план</string>
+    <string name="main_declaration_dialog_msg">Значення балансу, яке відображається в цій функції, не може використовуватися як доказ під час переговорів з вашим оператором. Статистика використання мобільних даних та голосових дзвінків, надана вашим оператором, має пріоритет.</string>
     <string name="main_indicator_title">Активація</string>
     <string name="main_leisure_remained">Залишок безкоштовного трафіку</string>
     <string name="main_month_total_used">Використано цього місяця</string>
@@ -3258,6 +3269,7 @@ to join our egg hunt!"</string>
     <string name="notify_weekly_traffic_body">Для автоматичного обмеження трафіку, налаштуйте ваш місячний тариф.</string>
     <string name="notify_weekly_traffic_title">Використано %s цього тижня</string>
     <string name="notify_weekly_traffic_title_for_slotnum">Використано %1$s на %2$s за цей тиждень</string>
+    <string name="now_inquiry">Деталі</string>
     <string name="number_address">Місцезнаходження</string>
     <string name="numeric_need_to_confirm">Введіть ще раз для підтвердження</string>
     <string name="numeric_password_confirmed_header_confirm">Встановлено успішно. Натисніть, щоб підтвердити.</string>
@@ -3483,6 +3495,10 @@ to join our egg hunt!"</string>
     <string name="pc_continuity_open_save_mode_notifi_title">Батарея %s розрядилася</string>
     <string name="pc_current_power_mode">Поточний режим</string>
     <string name="pc_cycle_count_protect_title">Цикли</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Зрозуміло</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Більше не показувати</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">"Порт Type-C на короткій стороні пристрою не підтримує передачу даних. Підключіться до комп'ютера за допомогою іншого порту."</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Нагадування про заряджання</string>
     <string name="pc_emergency_call">Екстрений виклик</string>
     <string name="pc_endurance_calculation">Підрахунок…</string>
     <string name="pc_entered_extreme_mode">Режим глибокого сну увімк.</string>
@@ -4007,7 +4023,7 @@ to join our egg hunt!"</string>
     <string name="power_consume_other">Інше</string>
     <string name="power_consume_rank_hardware">Пристрій</string>
     <string name="power_consume_rank_software">Програми</string>
-    <string name="power_consume_rank_title">Енергоспоживання</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Програми: %s</string>
     <string name="power_customize_giveup_change">Скасувати зміни?</string>
     <string name="power_dailog_night_charge_protection_done">Зрозуміло</string>
@@ -4587,6 +4603,7 @@ to join our egg hunt!"</string>
     <string name="renew_now">Продовжити</string>
     <string name="repair">Виправити</string>
     <string name="repair_loading_text">Хвилинку…</string>
+    <string name="repeat_prompts">Повільніше! Не надсилайте декілька запитів поспіль.</string>
     <string name="repeat_type">Повтор</string>
     <string name="repeated_marked_number_summary">Не блокувати повторний дзвінок від того ж відміченого номера впродовж %d хвилин</string>
     <string name="repeated_marked_number_title">Не блокувати повторні дзвінки від відмічених номерів</string>
@@ -5378,6 +5395,7 @@ to join our egg hunt!"</string>
     <string name="tc_parse_error">Не вдалося проаналізувати SMS</string>
     <string name="tc_receive_timeout">Час калібрування минув</string>
     <string name="tc_send_sms_error">Не вдалося відправити SMS</string>
+    <string name="tc_sms_bill_report_receive_content">Калібрувальне SMS-повідомлення (переконайтеся, що SMS містить інформацію про баланс)</string>
     <string name="tc_sms_report_direction">SMS код запиту</string>
     <string name="tc_sms_report_do_report">Надіслати</string>
     <string name="tc_sms_report_get_default">SMS повідомлення для отримання статистики використання трафіку від вашого оператора - безкоштовні.</string>
@@ -5502,6 +5520,7 @@ to join our egg hunt!"</string>
     <string name="title_app_update">Доступні оновлення</string>
     <string name="title_auto_update">Автооновлення</string>
     <string name="title_background_connection">Не можете використовувати %s у фоновому режимі</string>
+    <string name="title_bill_balance_inquiry">Баланс (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Пропускаєте дзвінки від контактів</string>
     <string name="title_block_calls_from_strangers">Пропускаєте важливі дзвінки</string>
     <string name="title_chain_start">Обмежити взаємний запуск</string>
@@ -5524,6 +5543,7 @@ to join our egg hunt!"</string>
     <string name="title_eye_shield">Колір екрана виглядає не так</string>
     <string name="title_find_device">Пошук пристрою</string>
     <string name="title_first_aid_kit">Вирішення проблем</string>
+    <string name="title_flow_base_reminder">Налаштування про використання трафіку</string>
     <string name="title_flow_notification">Сповіщення про мобільний інтернет</string>
     <string name="title_flow_purchase">Замовити мобільний інтернет</string>
     <string name="title_flow_rank">Трафік мобільного інтернету</string>
@@ -5640,6 +5660,7 @@ Rolled over extra data"</string>
     <string name="traffic_remind">Попередження щодо трафіку</string>
     <string name="traffic_remind_switch">Попередження про трафік</string>
     <string name="traffic_reminder_settings">Встановити попередження про трафік</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Регіон</string>
     <string name="traffic_setting_fragment_brand">Марка</string>
     <string name="traffic_setting_fragment_button1_text">Скасувати</string>
@@ -5704,13 +5725,18 @@ Rolled over extra data"</string>
     <string name="usage_sorted_empty_text">Порожньо</string>
     <string name="usage_sorted_loading_text">Хвилинку…</string>
     <string name="usage_type_audio">Аудіо</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">ЦП - всього</string>
     <string name="usage_type_cpu_foreground">ЦП - активний режим</string>
     <string name="usage_type_data_recv">Отримано мобільний інтернет</string>
     <string name="usage_type_data_send">Відправлено мобільний інтернет</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Час відсутності сигналу</string>
     <string name="usage_type_on_time">Час роботи</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Відео</string>
     <string name="usage_type_wake_lock">Активний режим</string>
     <string name="usage_type_wifi_running">Wi-Fi запущено</string>
@@ -5844,6 +5870,7 @@ Rolled over extra data"</string>
     <string name="videobox_settings_timing">Нагадування про перерву</string>
     <string name="videobox_settings_timing_desc">Отримувати нагадування про перерву кожну годину</string>
     <string name="videobox_settings_title">Інструменти для відео</string>
+    <string name="view_package_info">Переглянути деталі плану</string>
     <string name="view_traffic_detail">Переглянути деталі</string>
     <string name="view_traffic_details">Переглянути статистику використання трафіку</string>
     <string name="virus_app_delete_installed">Видалити</string>

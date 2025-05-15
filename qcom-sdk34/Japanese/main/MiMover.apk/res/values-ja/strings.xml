@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="accessibility_sliding_button_state_description_off">オフ</string>
+    <string name="accessibility_sliding_button_state_description_on">オン</string>
+    <string name="accessibility_tab_state_description_unselect">未選択</string>
+    <string name="accessibility_tab_statedesc_unselect">未選択</string>
     <string name="account_or_password_incorrect">アカウントIDまたはパスワードが正しくありません</string>
     <string name="actionbar_button_up_description">戻る</string>
     <string name="afternoon">午後</string>
@@ -175,7 +179,7 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスしてオフにし�
     <string name="dialog_request_permission_message_extra_summary">このアプリの基本的な機能やサービスを利用できるようにするためには、これらのアクセス許可が必要です。</string>
     <string name="dialog_request_permission_message_extra_title">必須のアクセス許可</string>
     <string name="dialog_request_permission_message_global">このアプリが正常に動作するには、以下のアクセス許可が必要です。</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>また、ユーザーとしてのご利用者の権利と当社によるデータの使用方法を完全に理解するために、当社の&lt;a href='%1s'>利用規約&lt;/a>と&lt;a href='%2s'>プライバシーポリシー&lt;/a>を読んで同意してください。&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"ユーザーとしての権利と当社によるデータの使用方法を完全に理解するために、&lt;a href='%1s'>Xiaomi オペレーティングシステム利用規約&lt;/a>と&lt;a href='%2s'>Mi Mover プライバシーポリシー&lt;/a>を読んで同意してください。"</Data></string>
     <string name="dialog_request_permission_message_provision_link">また、ユーザーとしてのご利用者の権利と当社による個人データの使用方法について十分に理解するために、%1$sと%2$sを読み、同意してください。</string>
     <string name="dialog_request_permission_title">注意</string>
     <string name="dialog_request_permission_title_global">アクセス許可が必要です</string>
@@ -196,11 +200,13 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="err_bakfile_broken">このバックアップを使用できません。</string>
     <string name="err_bakfile_not_exist">バックアップファイルは存在しません。</string>
     <string name="err_binder_died">アプリが予期せず停止しました。</string>
+    <string name="err_data_protection">古いデバイスで高度なデータ保護がオンになっています。認証が必要です。</string>
     <string name="err_install_incompatible">互換性の問題</string>
     <string name="err_low_storage">ストレージの空き容量が足りません</string>
     <string name="err_no_gms">アプリバージョンに互換性がありません。このアプリは別途インストールしてください。</string>
     <string name="err_not_allow">サポートされていません</string>
     <string name="err_pkg_not_exist">アプリは見つかりませんでした。</string>
+    <string name="err_receiver_no_space">転送できませんでした。新しいデバイスのストレージ容量が不足しています。</string>
     <string name="err_remote_no_space">新しいデバイスに十分なストレージがありません</string>
     <string name="err_remote_timeout">転送がタイムアウトしました</string>
     <string name="err_send_error">送信できませんでした</string>
@@ -269,6 +275,12 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">了解</string>
+    <string name="force_update_button_scan_host">インストール</string>
+    <string name="force_update_content_guest">アイテムを転送するには、新しいデバイスの Mi Mover をアップデートしてください。</string>
+    <string name="force_update_content_host">アイテムを転送するには、古いデバイスの Mi Mover をアップデートしてください。</string>
+    <string name="force_update_title_guest">新しいデバイスで Mi Mover をアップデート</string>
+    <string name="force_update_title_host">古いデバイスで Mi Mover をアップデート</string>
     <string name="friday">金曜日</string>
     <string name="friday_short">金</string>
     <string name="friday_shortest">金</string>
@@ -408,6 +420,10 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="miui_wait_link_title_1">%d. \"私は送信者です\"をタップして少し待ちます。</string>
     <string name="miui_wait_link_title_2">%d. 古いデバイスでこのホットスポットを選択して接続します。</string>
     <string name="miuix_access_state_desc">選択済み</string>
+    <string name="miuix_accessibility_title">タイトル</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">編集モードを終了</string>
+    <string name="miuix_appcompat_accessibility_new_message">新しいメッセージ</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">編集モードに入る</string>
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
@@ -423,6 +439,7 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="miuix_appcompat_select_all">すべて選択</string>
     <string name="miuix_appcompat_select_all_description">すべて選択</string>
     <string name="miuix_appcompat_select_item">アイテムを選択</string>
+    <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">正常に更新されました</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">更新中…</string>
@@ -431,6 +448,7 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="miuix_sbl_tracking_progress_labe_up_none">今のところ以上です</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">お待ちください…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">アイテムを読み込めませんでした</string>
+    <string name="miuix_show_password">パスワードを表示</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">メッセージ、連絡先、通話履歴</string>
     <string name="monday">月曜日</string>
@@ -503,11 +521,15 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="new_trans_intro_question_6">%d. サードパーティのデバイスからアプリデータを転送できないのはなぜですか？</string>
     <string name="new_trans_intro_question_7">%d. 転送の途中でMi Moverを離れた場合、次回は最初からやり直す必要がありますか？</string>
     <string name="new_trans_intro_question_8">%d. 新しいデバイスでWeChatの履歴が消えたのはなぜですか？</string>
+    <string name="new_version_transfer_downloading">Mi Mover をアップデート中</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">アップデート中…</string>
     <string name="new_wait_link_message_2">\"私は送信者です\"のボタンは、Mi Moverのスタートページにあります。</string>
     <string name="next">次へ</string>
     <string name="night">夜</string>
     <string name="no_more_memory_title">Mi Moverは、このデバイス上にローカルバックアップを作成する必要があります。現在、バックアップを作成するのに十分なストレージ容量がありません。まず、容量を解放してください。</string>
     <string name="noon">正午</string>
+    <string name="not_selectable">選択できません</string>
     <string name="not_set">未設定</string>
     <string name="not_support_data_content1">%d. デバイスモデルに固有のアイテム</string>
     <string name="not_support_data_content2">%d. アプリデータ</string>
@@ -556,6 +578,8 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="open_photo_and_contacts_cloud_sync_summary">同期をオンにすると、このデバイスに連絡先やギャラリーのアイテムが表示されます。</string>
     <string name="open_photo_and_contacts_cloud_sync_title">連絡先とギャラリーのアイテムを同期</string>
     <string name="operation_send">送信</string>
+    <string name="opposite_new_version_transfer_content">一方のデバイスがアップデートされ、Mi Mover が再起動するまで待ってから、タップして再接続します。</string>
+    <string name="opposite_new_version_transfer_title">一方のデバイスがアップデート中です</string>
     <string name="option_about">Mi Moverについて</string>
     <string name="option_feedback_title">フィードバック</string>
     <string name="option_privacy_policy">プライバシーポリシー</string>
@@ -603,7 +627,7 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="privacy_desc">Mi Moverへようこそ！このアプリでは以下のサービスを提供しています。</string>
     <string name="privacy_experience_statement">ユーザーエクスペリエンスプログラムに参加して、ユーザーデータを共有し、当社の製品やサービスの改善にご協力ください。</string>
     <string name="privacy_item1">· ファイル、メッセージ、システムアプリ設定、アプリの転送</string>
-    <string name="privacy_message">&lt;Data>Mi Moverを利用する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>と&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>を読んで同意してください。\"Mi Moverについて\"でプライバシーポリシーへの同意をいつでも撤回することができます。前述のサービスの利用に同意しない場合、このアプリの一部機能が使用できなくなります。ただし、基本的な機能は引き続き利用できます。&lt;/Data></string>
+    <string name="privacy_message"><Data>Mi Moverを利用する前に、&lt;a href=\"%2$s\">利用規約&lt;/a>と&lt;a href=\"%1$s\">プライバシーポリシー&lt;/a>を読んで同意してください。\"Mi Moverについて\"でプライバシーポリシーへの同意をいつでも撤回することができます。前述のサービスの利用に同意しない場合、このアプリの一部機能が使用できなくなります。ただし、基本的な機能は引き続き利用できます。</Data></string>
     <string name="privacy_policy">プライバシーポリシー</string>
     <string name="privacy_title">使用条件</string>
     <string name="prompt_before_transmission_message1_summary">古いデバイスからの転送を選択した場合、アプリデータ（チャット履歴を含む）は上書きされます。</string>
@@ -695,6 +719,12 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="secret_password_confirm_summary">プライバシー保護パスワードを入力して本人確認を行い、プライベートファイルを新しいデバイスに転送できるようにします。</string>
     <string name="secret_password_confirm_title">プライバシー保護パスワード</string>
     <string name="secret_title">プライベートアイテム</string>
+    <string name="security_connect_button_negative">キャンセル</string>
+    <string name="security_connect_button_positive">接続</string>
+    <string name="security_connect_content">両方のデバイスの接続コードが一致していることを確認してください。次に、[接続] をタップしてアイテムを転送します。</string>
+    <string name="security_connect_hint">接続コード</string>
+    <string name="security_connect_title_guest">今すぐ新しいデバイスに接続しますか？</string>
+    <string name="security_connect_title_host">今すぐ古いデバイスに接続しますか？</string>
     <string name="select_all">すべて選択</string>
     <string name="select_android_summary">Huawei、OPPO、vivoなど</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@ Mi Mover をダウンロードしてインストールします。"</string>
     <string name="trans_sync_transfer_data_list">古いデバイスで転送するアイテムを選択してください</string>
     <string name="trans_sync_transfer_data_list_apple">Apple デバイスからアイテムを転送する</string>
     <string name="trans_sync_transfer_data_list_hint">お待ちください…</string>
+    <string name="trans_sync_transfer_data_list_pad">転送する古いデバイスのアイテムを選択してください</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">古いデバイス上のアイテムを選択し、\"送信\"をタップしてください。</string>
     <string name="trans_time_format_second">%d分未満</string>
     <string name="trans_time_spent">時間：%s</string>
@@ -878,6 +909,10 @@ Mi Mover をダウンロードしてインストールします。"</string>
     <string name="transfer_lose_connect_title">接続が中断されました</string>
     <string name="transfer_multi_connect_summary">セキュリティ上の理由により、転送が中断されました。転送を続ける場合は、\"もう一度接続\" をタップしてください。</string>
     <string name="transfer_multi_connect_title">このホットスポットには複数のデバイスが接続されているようです</string>
+    <string name="transfer_no_memory_dialog_btn">了解</string>
+    <string name="transfer_no_memory_dialog_summary">新しいデバイスには転送を完了するのに十分なストレージ容量がありません。アイテムの転送を完了できるように、ストレージの空き容量を増やしてください。</string>
+    <string name="transfer_no_memory_dialog_title">空き容量が残りわずかです</string>
+    <string name="transfer_no_memory_dialog_title_pad">空き容量が残りわずかです</string>
     <string name="transfer_quit_alert_btn_negative">終了</string>
     <string name="transfer_quit_alert_btn_positive">終了しない</string>
     <string name="transfer_quit_alert_message">"Mi Moverは現在実行中です。終了してもよろしいですか？

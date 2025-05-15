@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
     <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
     <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string name="accessibility_sliding_button_state_description_off">تم إيقاف التشغيل</string>
+    <string name="accessibility_sliding_button_state_description_on">تم التشغيل</string>
+    <string name="accessibility_tab_state_description_unselect">غير محدد</string>
     <string name="action_get_otp">الحصول على الرمز</string>
     <string name="action_sign_in">تسجيل الدخول</string>
     <string name="action_sign_in_short">تسجيل الدخول</string>
@@ -468,10 +471,8 @@
     <string name="menu_unlock">حذف من المفضلة</string>
     <string name="menu_view_contact">عرض جهات الإتصال</string>
     <string name="menu_view_group_info">معلومات المجموعة</string>
-    <string name="message_cannot_send_air_mode">"لا يمكن إرسال الرسائل.
-شغل وضع الطائرة أولاً."</string>
-    <string name="message_cannot_send_sim_unavailable">"لا يمكن إرسال الرسائل.
-تحقق من بطاقة SIM."</string>
+    <string name="message_cannot_send_air_mode">قم بإيقاف تشغيل وضع الطيران لإرسال الرسائل</string>
+    <string name="message_cannot_send_sim_unavailable">أدخل بطاقة SIM لإرسال الرسائل</string>
     <string name="message_class_label">"فئة الرسالة: "</string>
     <string name="message_contact">جهة الإتصال:</string>
     <string name="message_details_title">تفاصيل الرسالة</string>
@@ -499,6 +500,12 @@
     <string name="midnight">الليل</string>
     <string name="millionbyte">م. ب</string>
     <string name="miuix_access_state_desc">محدد</string>
+    <string name="miuix_accessibility_title">العنوان</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">تم التقليص</string>
+    <string name="miuix_appcompat_accessibility_expand_state">تم التوسيع</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">الخروج من وضع التحرير</string>
+    <string name="miuix_appcompat_accessibility_new_message">إشعار جديد</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">ابدأ وضع التحرير</string>
     <string name="miuix_appcompat_action_mode_deselect_all">الغاء تحديد الكل</string>
     <string name="miuix_appcompat_action_mode_select_all">تحديد الكل</string>
     <string name="miuix_appcompat_action_mode_title_empty">تحديد عناصر</string>
@@ -514,12 +521,15 @@
     <string name="miuix_appcompat_select_all">تحديد الكل</string>
     <string name="miuix_appcompat_select_all_description">تحديد الكل</string>
     <string name="miuix_appcompat_select_item">تحديد العناصر</string>
+    <string name="miuix_appcompat_show_dialog_description">نافذة منبثقة</string>
     <string name="miuix_item_view_role_description">التبويب</string>
     <string name="miuix_navigator_category_group_collapse">تقليص</string>
     <string name="miuix_navigator_category_group_expand">توسيع</string>
     <string name="miuix_navigator_content_switch_description">عرض الشريط الجانبي</string>
     <string name="miuix_navigator_multiple_choice">تحديد</string>
     <string name="miuix_navigator_navigator_switch_description">إخفاء الشريط الجانبي</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">شريط الأدوات في أسفل الشاشة</string>
+    <string name="miuix_progressbar_loading">تحميل</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">اسحب لأسفل للتحديث</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">تم التحديث بنجاح</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">جارٍ التحديث…</string>
@@ -528,6 +538,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">هذا كل شئ حتى الان</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">لحظة من فضلك…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">تعذر تحميل العناصر</string>
+    <string name="miuix_show_password">إظهار كلمة المرور</string>
+    <string name="miuix_stretchablewidget_collapsed">تم التقليص</string>
+    <string name="miuix_stretchablewidget_expanded">تم التوسيع</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">سيتم حظر جميع رسائل الوسائط المتعددة ماعدا الرسائل الواردة من المرسلين المعتمدين. المرسلين المعتمدين هم مشغلو الشبكات وأنظمة حجز القطارات المحلية وإلخ.</string>
     <string name="mms_block_alert_ok">حظر</string>
@@ -621,11 +634,23 @@
     <string name="mx_privacy_policy">سياسة خصوصية رسالة Mi</string>
     <string name="mx_stranger_recommend_msg">حظر رسائل Mi من الأرقام الغير معروفة</string>
     <string name="need_download">جارٍ المزامنة…</string>
+    <string name="net_message_download_btn_content_desc">التنزيل</string>
+    <string name="net_message_json_card_core_entity_content_desc1">نسخ الكود %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">افتح الرابط %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">فتح التطبيق</string>
+    <string name="net_message_json_card_core_entity_content_desc4">فتح التقويم</string>
+    <string name="net_message_json_card_core_entity_content_desc5">اتصل على %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">رد</string>
+    <string name="net_message_media_card_img_content_desc">صورة</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">تم الانتهاء من تشغيل الفيديو</string>
+    <string name="net_message_media_card_video_content_desc">فيديوهات</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">إيقاف مؤقت</string>
+    <string name="net_message_media_card_video_start_play_content_desc">تشغيل</string>
     <string name="net_sms_subscribed">تم الأشتراك بنجاح</string>
     <string name="net_sms_unsubscribe">تم إلغاء الأشتراك بنجاح</string>
     <string name="networking_allow_continue">السماح</string>
     <string name="networking_allow_title">تنبيه</string>
-    <string name="new_message">إنشاء رسالة</string>
+    <string name="new_message">رسالة جديدة</string>
     <string name="new_message_arrived">غير مقروء</string>
     <string name="new_phrase">إضافة رد</string>
     <string name="new_phrase_hint">أدخل رد جديد</string>
@@ -668,6 +693,7 @@
     <string name="over_max_mms_size">.رسالة الوسائط المتعددة كبيرة جدًا</string>
     <string name="overwrite_edited_content">سوف تتم الكتابة فوق المحتويات التي قمت بتعديلها.</string>
     <string name="packages_select_sim_cards_title">تحديد بطاقة SIM</string>
+    <string name="page_indicator">مؤشر الصفحة</string>
     <string name="passenger_title">الراكب</string>
     <string name="pay_bill">دفع</string>
     <string name="payment_failed">تعذر إتمام عملية الدفع</string>
@@ -847,7 +873,7 @@
     <string name="rcs_conversation_rcs_tip">[دردشة آلية] %s</string>
     <string name="rcs_create_new_group">إنشاء دردشة جماعية</string>
     <string name="rcs_dspt">إرسال واستقبال الرسائل باستخدام شبكة WLAN أو شبكة الهاتف المحمول</string>
-    <string name="rcs_dspt_unavailable">"5G Messaging-related features aren't supported due to carrier restrictions"</string>
+    <string name="rcs_dspt_unavailable">لا يتم دعم الميزات المتعلقة برسائل 5G بسبب قيود شركة الاتصالات</string>
     <string name="rcs_file_link_as_sms">قم بزيارة %s لعرض ملف RCS المرسل إليك.</string>
     <string name="rcs_forward_faild">تعذر إعادة التوجيه</string>
     <string name="rcs_forward_successful">تم إعادة التوجيه بنجاح</string>
@@ -909,6 +935,7 @@
     <string name="recommend_bar_ok">تفعيل</string>
     <string name="recommend_bar_title_mx_rcs">رسالة Mi</string>
     <string name="recommend_close">إيقاف</string>
+    <string name="recommend_close_button">إغلاق</string>
     <string name="recommend_disagree">لا أوافق</string>
     <string name="recommend_free_internet_message">رسائل الإنترنت المجانية</string>
     <string name="recommend_free_mi">رسالة Mi</string>
@@ -1058,6 +1085,7 @@
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">ثبت المسجل أولا</string>
     <string name="sp_category_all">كل رسائل الخدمة</string>
     <string name="sp_category_bank">رسائل إشعارات البنك</string>
     <string name="sp_category_title_prefix">%s</string>

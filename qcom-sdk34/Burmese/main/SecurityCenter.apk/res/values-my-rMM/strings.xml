@@ -935,6 +935,7 @@
     <string name="button_text_trust">ဤကွန်ရက်ကို ယုံသည်</string>
     <string name="button_text_update_now">အပ်ဒိတ်လုပ်ရန်</string>
     <string name="button_to_setting">ဆက်တင်များ</string>
+    <string name="button_toll_correction">လက်ကျန်ချိန်ညှိရန်</string>
     <string name="byteShort">B</string>
     <string name="call_address">ဒေသအလိုက် ဘလော့စာရင်း</string>
     <string name="call_all_number_block">ခေါ်ဆိုမှုအားလုံး ဘလော့လုပ်ရန်</string>
@@ -1025,6 +1026,7 @@
     <string name="charging_text_battery_full_time">"နောက်ဆုံးအားသွင်းခဲ့မှု "</string>
     <string name="charging_text_battery_nearly_full">အားပြည့်လုနီးပါး သွင်းခဲ့သည်</string>
     <string name="charging_text_battery_perfect">အားပြည့်သွားပြီ</string>
+    <string name="check_bill_balance">လက်ကျန်စစ်ရန်</string>
     <string name="choose">ရွေးချယ်ပါ</string>
     <string name="choose_gs_show_way">ပင်မစာမျက်နှာ အနေအထားအား ရွေးပါ</string>
     <string name="clean_immediately">ရှင်းလင်း</string>
@@ -1570,6 +1572,7 @@
     <string name="fixed_cellular_data_quota_monthly">လစဉ်ဒေတာအကန့်အသတ်</string>
     <string name="fixed_package_tips">အကန့်အသတ်ပမာဏကျော်ပြီးနောက် ဖုန်းခအပိုကုန်ပါမည်</string>
     <string name="fixed_traffic_quota">ဒေတာအကန့်အသတ် (မဖြစ်မနေ)</string>
+    <string name="fixed_traffic_quota_offline">ဒေတာအကန့်အသတ် (လိုအပ်သည်)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -1809,7 +1812,7 @@
     <string name="gamebox_immersion_tips_content">နှစ်မြှုပ် မုဒ်သည် ဆင်းမ်ကဒ်၏ မိုဘိုင်းဒေတာ ချိတ်ဆက်မှုမှအပ ကျန်လုပ်ဆောင်ချက် အားလုံးကို ကန့်သတ်ထားမည်။ ခေါ်ဆိုမှုများနှင့် လွဲချော်ခဲ့သော ခေါ်ဆိုမှုအတွက် အသိပေးချက်များကို လက်ခံရရှိမည် မဟုတ်ပါ။ နှစ်မြှုပ် မုဒ်အား ပိတ်လိုက်သောအခါ ဆင်းမ်ကဒ် လုပ်ဆောင်ချက် အားလုံးကို ပြန်လည်ရရှိပါမည်။ နှစ်မြှုပ် မုဒ်အား ဖွင့်မလား?</string>
     <string name="gamebox_immersion_tips_title">သတိပြုရန်</string>
     <string name="gamebox_immerson_open">နှစ်မြှုပ် မုဒ်အား ဖွင့်ထားပါက ကွန်ရက်များအား မပြောင်းပါနှင့်…</string>
-    <string name="gamebox_macro">Combos</string>
+    <string name="gamebox_macro">ကွန်ဘို</string>
     <string name="gamebox_manual_record">ရိုက်ကူးရန်</string>
     <string name="gamebox_mem_clean">မန်မိုရီရှင်းပါ</string>
     <string name="gamebox_mem_filter">ဂိမ်းစစ်ထုတ်ခြင်းများ</string>
@@ -1924,8 +1927,14 @@
     <string name="gb_beauty_nature_light">သဘာဝ</string>
     <string name="gb_beauty_warm_light">နွေးထွေးသော</string>
     <string name="gb_collimator_color">အရောင်</string>
+    <string name="gb_collimator_color_blue_talkback">အပြာ</string>
+    <string name="gb_collimator_color_purple_talkback">ခရမ်း</string>
+    <string name="gb_collimator_color_red_talkback">အနီ</string>
+    <string name="gb_collimator_color_white_talkback">အဖြူ</string>
+    <string name="gb_collimator_color_yellow_talkback">အဝါ</string>
     <string name="gb_collimator_size">အရွယ်</string>
     <string name="gb_collimator_style">အမျိုးအစား</string>
+    <string name="gb_collimator_style_talkback">စတိုင် %1$d</string>
     <string name="gb_collimator_toast">မြင်ကွင်းချိန်စက်သည် ချိန်ရွယ်ခြင်းအတွက် ပိုအဆင်ပြေစေသည်</string>
     <string name="gb_cooler_device_toast">"မြင်ကွင်းအတွေ့အကြုံကို
 nXiaomi ဂိမ်းအေးစနစ်က ပံ့ပိုးသည်"</string>
@@ -1968,9 +1977,9 @@ nXiaomi ဂိမ်းအေးစနစ်က ပံ့ပိုးသည်"<
     <string name="gb_first_window_title">ဂိမ်း အရှိန်မြှင့်ခြင်း</string>
     <string name="gb_game_end_toast">ဂိမ်းများရှိ အဓိကအခိုက်အတန့်များကို ပြန်သွားရန်</string>
     <string name="gb_game_fill_desc">အချို့ကိစ္စများတွင် အကြောင်းအရာများ ပျက်ယွင်းနိုင်သည်</string>
-    <string name="gb_game_macro_bubble_tips">Try combos</string>
-    <string name="gb_game_macro_toast_tips">"Try combos!
-Record sequences and use them anytime!"</string>
+    <string name="gb_game_macro_bubble_tips">ကွန်ဘိုသုံးကြည့်ပါ</string>
+    <string name="gb_game_macro_toast_tips">"ကွန်ဘိုများသုံးကြည့်ပါ။
+အစီအစဉ်များကို မှတ်တမ်းတင်ပြီး အချိန်မရွေးသုံးနိုင်သည်။"</string>
     <string name="gb_game_mode_change_btn_right">ပြန်စရန်</string>
     <string name="gb_game_mode_change_message">အပြောင်းအလဲများကို သုံးရန် ဂိမ်းကို ယခုပြန်စလိုသလား</string>
     <string name="gb_game_mode_change_new">ဤနေရာတွင် အပြင်အဆင်များ အပြောင်းအလဲလုပ်ပါ</string>
@@ -2028,7 +2037,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_msg_transparent_dispaly_summary">နောက်ခံအကြည်</string>
     <string name="gb_network_status_bad">ချိတ်ဆက်ခြင်းမှားယွင်းမှုတစ်ခု ဖြစ်ပွားသည်။</string>
     <string name="gb_new_feature">အင်္ဂါရပ်အသစ်များ</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">ဤအက်(ပ်)ကို အပြင်မျက်နှာပြင်တွင် သုံးမရပါ</string>
     <string name="gb_operat_frequently">အလွန်မမြန်ပါစေနှင့်။</string>
     <string name="gb_performace_guide_disable_desc"><Data>စနစ်အနှံ့ စွမ်းဆောင်ရည်မုဒ်ကို ဖွင့်ထားလျှင် ဂိမ်းအရှိန်မြှင့်စနစ်တွင် ဘက်မျှမုဒ်သို့ ပြောင်းမရပါ။ လုံခြုံရေးတွင် ဓာတ်ခဲဆက်တင်ကို ပြောင်းနိုင်သည်။&lt;br>&lt;a href=\"#\">လုံခြုံရေး ဖွင့်ရန်&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">စွမ်းဆောင်ရည်မုဒ်သို့ ပြောင်းထားသည်။ စက်အပူလွန်ပြီး ဓာတ်ခဲပိုကုန်နိုင်သည်။</string>
@@ -2392,9 +2401,9 @@ Record sequences and use them anytime!"</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">ဒုတိယ SIM ကို ဘလော့လုပ်ရန်</string>
     <string name="gtb_setting_item_title_smart_5g">5G ကွန်ရက် အဆင့်မြှင့်ခြင်း</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi အရှိန်မြှင့်တင်ခြင်း</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
+    <string name="gtb_spring_festival_back_game">ဂိမ်းသို့ပြန်သွားရန်</string>
     <string name="gtb_spring_festival_egg_obtain_fail">ကွန်ရက်သို့ ချိတ်ဆက်၍ မရပါ</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
+    <string name="gtb_spring_festival_goto_gameturbo">ကြည့်ရှု</string>
     <string name="gtb_spring_festival_guide">ကျွန်ုပ်တို့၏ egg hunt ဂိမ်းသို့ ဝင်ရောက်ရန် အလျားလိုက်မုဒ်သို့ ပြောင်းပါ။</string>
     <string name="gtb_spring_festival_guide_know">နားလည်ပါပြီ</string>
     <string name="gtb_spring_festival_push_active_desc">ဖုန်း၊ စမတ်စက်များနှင့် ကူပွန်များ ကံစမ်းလိုက်ပါ။</string>
@@ -2597,6 +2606,7 @@ Record sequences and use them anytime!"</string>
     <string name="main_activity_content_summary_update">စက်စနစ်အပ်ဒိတ်</string>
     <string name="main_alert_message_no_imsi">မည်သည့် ဆင်းမ်ကဒ်မှ ရှာမတွေ့ပါ။</string>
     <string name="main_alert_message_open_traffic_ctrl">ဒေတာသုံးစွဲမှုအား ကန့်သတ်ထားရန် အကြံပြုပါသည်</string>
+    <string name="main_balance_check">လက်ကျန်စစ်ရန်</string>
     <string name="main_bill_remained">ဖုန်းလက်ကျန်ငွေ</string>
     <string name="main_button_mi_sim_close">Mi ဆင်းမ်ကို အသက်သွင်းပါ</string>
     <string name="main_button_mi_sim_open">အသေးစိတ် ကြည့်ရှုရန်</string>
@@ -2611,6 +2621,7 @@ Record sequences and use them anytime!"</string>
     <string name="main_daily_card_guide_dialog_title">ဒေတာအစီအစဉ် အမျိုးအစားအား သတ်မှတ်ပါ</string>
     <string name="main_daily_card_guide_dialog_title_new">ဒေတာပလန် အမျိုးအစား သတ်မှတ်ပါ</string>
     <string name="main_daily_package">နေ့စဉ် အစီအစဉ်</string>
+    <string name="main_declaration_dialog_msg">ဤအင်္ဂါရပ်တွင် ပြထားသော လက်ကျန်တန်ဖိုးကို ဖုန်းလိုင်းကုမ္ပဏီနှင့် ညှိနှိုင်းစဉ် သက်သေအဖြစ် သုံးမရပါ။ ဖုန်းလိုင်းကုမ္ပဏီမှ ပံ့ပိုးသော မိုဘိုင်းဒေတာနှင့် အသံအသုံးပြုမှု ကိန်းဂဏန်းများကို ဦးစားပေးရမည်။</string>
     <string name="main_indicator_title">အသက်သွင်းခြင်း</string>
     <string name="main_leisure_remained">အသုံးနည်းသည့်အချိန်ဒေတာလက်ကျန်</string>
     <string name="main_month_total_used">ဤလတွင် သုံးခဲ့သော</string>
@@ -3095,6 +3106,7 @@ Record sequences and use them anytime!"</string>
     <string name="notify_weekly_traffic_body">သင့်ဒေတာအသုံးပြုမှုအား အလိုအလျောက်ကန့်သတ်ရန် သင်၏လစဉ်ဒေတာ သုံးစွဲမှုအစီစဉ်အားသတ်မှတ်ပါ။</string>
     <string name="notify_weekly_traffic_title">ဤအပတ်တွင် %s သုံးခဲ့ပြီး</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s မှ ဤအပတ် %2$s အသုံးပြုခဲ့သော</string>
+    <string name="now_inquiry">အသေးစိတ်</string>
     <string name="number_address">တည်နေရာ</string>
     <string name="numeric_need_to_confirm">အတည်ပြုရန် နောက်တစ်ကြိမ် ပြန်ရိုက်ထည့်ပါ</string>
     <string name="numeric_password_confirmed_header_confirm">သတ်မှတ်ပြီးပါပြီ။ အတည်ပြုရန် ထိနှိပ်ပါ။</string>
@@ -3319,6 +3331,10 @@ Record sequences and use them anytime!"</string>
     <string name="pc_continuity_open_save_mode_notifi_title">%s ဓာတ်ခဲအားနည်းသည်</string>
     <string name="pc_current_power_mode">လက်ရှိမုဒ်</string>
     <string name="pc_cycle_count_protect_title">စက်ဝန်းများ</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">ရပါပြီ</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">ထပ်မပြပါနှင့်</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">စက်အနံဘက်ရှိ Type-C ပေါက်တွင် ဒေတာလွှဲပြောင်းခြင်း မပံ့ပိုးပါ။ အခြားအပေါက်နှင့် ကွန်ပျူတာချိတ်ပါ။</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">အားသွင်းသတိပေးချက်</string>
     <string name="pc_emergency_call">အရေးပေါ်</string>
     <string name="pc_endurance_calculation">တွက်ချက်နေသည်…</string>
     <string name="pc_entered_extreme_mode">ဟိုက်ဘာနိတ်မုဒ်ဖွင့်ထားသည်</string>
@@ -3843,7 +3859,7 @@ Record sequences and use them anytime!"</string>
     <string name="power_consume_other">အခြား</string>
     <string name="power_consume_rank_hardware">ဟာ့ဒ်ဝဲလ်</string>
     <string name="power_consume_rank_software">အက်ပ်များ</string>
-    <string name="power_consume_rank_title">ပါဝါ သုံးစွဲမှု</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">အက်ပ်များ− %s</string>
     <string name="power_customize_giveup_change">အပြောင်းအလဲများ ဖယ်ပစ်မလား?</string>
     <string name="power_dailog_night_charge_protection_done">နားလည်ပါပြီ</string>
@@ -4422,6 +4438,7 @@ Record sequences and use them anytime!"</string>
     <string name="renew_now">အသစ်လုပ်ခြင်း</string>
     <string name="repair">ပြင်ဆင်ပါ</string>
     <string name="repair_loading_text">ခဏစောင့်ပါ…</string>
+    <string name="repeat_prompts">ဖြည်းဖြည်း။ တောင်းဆိုချက်အမျိုးမျိုး ဆက်တိုက်မတင်ပါနှင့်။</string>
     <string name="repeat_type">ထပ်တလဲလဲလုပ်ရန်</string>
     <string name="repeated_marked_number_summary">သတင်းပို့ပြီးနံပါတ်မှ ဒုတိယအကြိမ်ခေါ်ဆိုမှုကို %d မိနစ်အတွင်း မပိတ်ပါနှင့်</string>
     <string name="repeated_marked_number_title">"စာရင်းမှတ်ထားသော နံပါတ်များမှ ထပ်ခါတလဲလဲခေါ်ဆိုမှုများအား ဘလော့မလုပ်ပါနှင့်။
@@ -5211,6 +5228,7 @@ Record sequences and use them anytime!"</string>
     <string name="tc_parse_error">SMS အား မသုံးသပ်နိုင်ပါ</string>
     <string name="tc_receive_timeout">ချိန်ညှိခြင်း အချိန်ကုန်သွားပြီ</string>
     <string name="tc_send_sms_error">SMS ပို့၍မရပါ</string>
+    <string name="tc_sms_bill_report_receive_content">SMS ချိန်ညှိခြင်း (SMS တွင် လက်ကျန်အချက်အလက်များ ပါဝင်ကြောင်း သေချာပါစေ)</string>
     <string name="tc_sms_report_direction">SMS မေးမြန်းမှုကုဒ်</string>
     <string name="tc_sms_report_do_report">ပေးပို့</string>
     <string name="tc_sms_report_get_default">သင့်ဖုန်းလိုင်းဝန်ဆောင်မှုဌာနမှ ပေးပို့သော ဒေတာသုံးစွဲမှုစာရင်း မက်ဆေ့(ချ်)များအတွက် အဖိုးအခပေးရန် မလိုပါ။</string>
@@ -5335,6 +5353,7 @@ Record sequences and use them anytime!"</string>
     <string name="title_app_update">အသစ်မွမ်းမံ ရှိနေပါသည်</string>
     <string name="title_auto_update">အလိုအလျောက် အပ်ဒိတ်လုပ်ပါ</string>
     <string name="title_background_connection">နောက်ခံတွင် %s ကို သုံးမရပါ</string>
+    <string name="title_bill_balance_inquiry">လက်ကျန် (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">အဆက်အသွယ်များမှ လွတ်သွားသောခေါ်ဆိုမှုများ</string>
     <string name="title_block_calls_from_strangers">လွတ်သွားသော အရေးကြီးသောခေါ်ဆိုမှုများ</string>
     <string name="title_chain_start">ချတ်တွဲစတင်မှုကို ကန့်သတ်ပါ</string>
@@ -5357,6 +5376,7 @@ Record sequences and use them anytime!"</string>
     <string name="title_eye_shield">မျက်နှာပြင်အရောင် မမှန်ပါ</string>
     <string name="title_find_device">စက်ကို ရှာပါ</string>
     <string name="title_first_aid_kit">ပြဿနာ ဖြေရှင်းမည်</string>
+    <string name="title_flow_base_reminder">ဒေတာသုံးစွဲမှု သတိပေးချက်များ</string>
     <string name="title_flow_notification">မိုဘိုင်းဒေတာချိတ်ဆက်မှုအသိပေးချက်</string>
     <string name="title_flow_purchase">မိုဘိုင်းဒေတာကိုဝယ်ပါ</string>
     <string name="title_flow_rank">မိုဘိုင်းဒေတာ အသုံးပြုမှု</string>
@@ -5473,6 +5493,7 @@ Rolled over extra data"</string>
     <string name="traffic_remind">ဒေတာအသုံးပြမှု သတိပေးချက်</string>
     <string name="traffic_remind_switch">ဒေတာအသုံးပြမှု သတိပေးချက်</string>
     <string name="traffic_reminder_settings">ဒေတာအသုံးပြုမှု သတိပေးချက် သတ်မှတ်ရန်</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Locale</string>
     <string name="traffic_setting_fragment_brand">အမှတ်တံဆိပ်</string>
     <string name="traffic_setting_fragment_button1_text">ပယ်ဖျက်မည်</string>
@@ -5537,13 +5558,18 @@ Rolled over extra data"</string>
     <string name="usage_sorted_empty_text">မရှိသော</string>
     <string name="usage_sorted_loading_text">ခဏစောင့်ပါ…</string>
     <string name="usage_type_audio">အော်ဒီယို</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">CPU စုစုပေါင်း</string>
     <string name="usage_type_cpu_foreground">CPU အနီးမြင်ကွင်း</string>
     <string name="usage_type_data_recv">မိုဘိုင်းဒေတာ ရရှိပြီးပြီ</string>
     <string name="usage_type_data_send">မိုဘိုင်းဒေတာ ပို့ပြီးပြီ</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">အချက်မပြသော အချိန်</string>
     <string name="usage_type_on_time">အချိန်အယူအဆ</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">ဗီဒီယို</string>
     <string name="usage_type_wake_lock">နိုးကြားနေစေပါ</string>
     <string name="usage_type_wifi_running">Wi-Fi အလုပ်လုပ်နေသည်</string>
@@ -5675,6 +5701,7 @@ Rolled over extra data"</string>
     <string name="videobox_settings_timing">Binge သတိပေးချက်</string>
     <string name="videobox_settings_timing_desc">အနားယူရန် သတိပေးခြင်းအတွက် နာရီအပိုင်းအခြားအလိုက် Binge သတိပေးချက်တစ်ခု ရယူလိုက်ပါ</string>
     <string name="videobox_settings_title">ဗီဒီယို ကိရိယာပုံး</string>
+    <string name="view_package_info">ပလန်အသေးစိတ်ကြည့်ရန်</string>
     <string name="view_traffic_detail">အသေးစိတ် ကြည့်ရှုရန်</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">ဖြုတ်ရန်</string>

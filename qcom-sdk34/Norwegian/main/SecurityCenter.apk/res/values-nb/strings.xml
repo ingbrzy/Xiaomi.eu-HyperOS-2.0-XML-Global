@@ -962,6 +962,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="button_text_trust">Stol på dette nettverket</string>
     <string name="button_text_update_now">Oppdater</string>
     <string name="button_to_setting">Innstillinger</string>
+    <string name="button_toll_correction">Kalibrer saldo</string>
     <string name="byteShort">B</string>
     <string name="call_address">Område-blokkeringsliste</string>
     <string name="call_all_number_block">Blokker alle anrop</string>
@@ -1061,6 +1062,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="charging_text_battery_full_time">"Sist fulladet "</string>
     <string name="charging_text_battery_nearly_full">Nesten fulladet</string>
     <string name="charging_text_battery_perfect">Fullladet</string>
+    <string name="check_bill_balance">Sjekk saldo</string>
     <string name="choose">Velg</string>
     <string name="choose_gs_show_way">Velg orientering på startside</string>
     <string name="clean_immediately">Tøm</string>
@@ -1684,6 +1686,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="fixed_cellular_data_quota_monthly">Månedlig datagrense</string>
     <string name="fixed_package_tips">Ekstra avgifter vil bli generert etter at du har nådd grensen</string>
     <string name="fixed_traffic_quota">Datagrense (obligatorisk)</string>
+    <string name="fixed_traffic_quota_offline">Datagrense (obligatorisk)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -1923,7 +1926,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="gamebox_immersion_tips_content">Engasjerende modus begrenser all SIM-kortfunksjonalitet bortsett fra mobildatatilkoblingen. Du vil ikke bli avbrutt av anrop eller motta varsler om ubesvarte anrop. Alle SIM-kortfunksjoner blir gjenopprettet når engasjerende modus deaktiveres. Aktivere engasjerende modus?</string>
     <string name="gamebox_immersion_tips_title">Merk</string>
     <string name="gamebox_immerson_open">Aktiverer engasjerende modus, ikke bytt nettverk…</string>
-    <string name="gamebox_macro">Combos</string>
+    <string name="gamebox_macro">Komboer</string>
     <string name="gamebox_manual_record">Opptak</string>
     <string name="gamebox_mem_clean">Tøm minne</string>
     <string name="gamebox_mem_filter">Spillfiltre</string>
@@ -2038,8 +2041,14 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="gb_beauty_nature_light">Naturlig</string>
     <string name="gb_beauty_warm_light">Varm</string>
     <string name="gb_collimator_color">Farge</string>
+    <string name="gb_collimator_color_blue_talkback">Blå</string>
+    <string name="gb_collimator_color_purple_talkback">Lilla</string>
+    <string name="gb_collimator_color_red_talkback">Rød</string>
+    <string name="gb_collimator_color_white_talkback">Hvit</string>
+    <string name="gb_collimator_color_yellow_talkback">Gul</string>
     <string name="gb_collimator_size">Størrelse</string>
     <string name="gb_collimator_style">Type</string>
+    <string name="gb_collimator_style_talkback">Stil %1$d</string>
     <string name="gb_collimator_toast">Et sikte gjør det mer praktisk å sikte</string>
     <string name="gb_cooler_device_toast">"Visuell opplevelse forbedret med
 Xiaomi Gaming Cooler"</string>
@@ -2082,9 +2091,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_first_window_title">Spillturbo</string>
     <string name="gb_game_end_toast">Gå tilbake til viktige øyeblikk i spillene dine</string>
     <string name="gb_game_fill_desc">Innholdet kan i noen tilfeller forvrenges</string>
-    <string name="gb_game_macro_bubble_tips">Try combos</string>
-    <string name="gb_game_macro_toast_tips">"Try combos!
-Record sequences and use them anytime!"</string>
+    <string name="gb_game_macro_bubble_tips">Prøv komboer</string>
+    <string name="gb_game_macro_toast_tips">"Prøv komboer!
+Ta opp sekvenser og bruk dem når som helst!"</string>
     <string name="gb_game_mode_change_btn_right">Start på nytt</string>
     <string name="gb_game_mode_change_message">Starte spillet på nytt for å bruke endringene nå?</string>
     <string name="gb_game_mode_change_new">Veksle mellom layouter her</string>
@@ -2142,7 +2151,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Gjennomsiktig</string>
     <string name="gb_network_status_bad">En tilkoblingsfeil oppstod.</string>
     <string name="gb_new_feature">Ny funksjon</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Denne appen kan ikke brukes på den utvendige skjermen</string>
     <string name="gb_operat_frequently">Ikke så fort!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Kan ikke bytte til balansert modus i Game Turbo når systemomfattende ytelsesmodus er aktivert. Du kan endre batteriinnstillinger i Sikkerhet.&lt;br>&lt;a href=\"#\">Åpne Sikkerhet&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Byttet til ytelsesmodus. Enheten kan opphetes og bruke mer strøm.</string>
@@ -2507,9 +2516,9 @@ Trykk på og hold inne indikatoren for å flytte vinduet rundt."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Blokker sekundært SIM-kort</string>
     <string name="gtb_setting_item_title_smart_5g">Nettverksoptimalisering for 5G</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi Wi-Fi-hastighetsøkning</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
+    <string name="gtb_spring_festival_back_game">Tilbake til spillet</string>
     <string name="gtb_spring_festival_egg_obtain_fail">Kunne ikke koble til nettverket</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Vis</string>
     <string name="gtb_spring_festival_guide">"Bytt til landskapsmodus
 for å bli med på eggjakten!"</string>
     <string name="gtb_spring_festival_guide_know">Skjønner</string>
@@ -2715,6 +2724,7 @@ Leverandøren kan belaste deg med ytterligere avgifter hvis du bruker mobildataf
     <string name="main_activity_content_summary_update">Systemoppdatering</string>
     <string name="main_alert_message_no_imsi">Finner ikke SIM-kort</string>
     <string name="main_alert_message_open_traffic_ctrl">Vi anbefaler å begrense databruken</string>
+    <string name="main_balance_check">Sjekk saldo</string>
     <string name="main_bill_remained">Telefonsaldo</string>
     <string name="main_button_mi_sim_close">Activer Mi SIM</string>
     <string name="main_button_mi_sim_open">Se detaljer</string>
@@ -2729,6 +2739,7 @@ Leverandøren kan belaste deg med ytterligere avgifter hvis du bruker mobildataf
     <string name="main_daily_card_guide_dialog_title">Angi datamengde</string>
     <string name="main_daily_card_guide_dialog_title_new">Angi datamengde</string>
     <string name="main_daily_package">Daglig dataplan</string>
+    <string name="main_declaration_dialog_msg">Saldoverdien som vises i denne funksjonen, kan ikke brukes som bevis når du forhandler med operatøren. Statistikk over mobildata- og talebruk som oppgis av operatøren din, går foran.</string>
     <string name="main_indicator_title">Aktivering</string>
     <string name="main_leisure_remained">Rimeligere databruk gjenstår</string>
     <string name="main_month_total_used">Brukt denne måneden</string>
@@ -3258,6 +3269,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="notify_weekly_traffic_body">Sett den månedlige dataplanen din for å begrense databruk automatisk.</string>
     <string name="notify_weekly_traffic_title">Brukt %s denne uken</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s brukt %2$s denne uken</string>
+    <string name="now_inquiry">Detaljer</string>
     <string name="number_address">Sted</string>
     <string name="numeric_need_to_confirm">Skriv inn på nytt for å bekrefte</string>
     <string name="numeric_password_confirmed_header_confirm">Handlingen var vellykket. Trykk for å bekrefte.</string>
@@ -3483,6 +3495,10 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="pc_continuity_open_save_mode_notifi_title">%ss batterinivå er lavt</string>
     <string name="pc_current_power_mode">Aktuell modus</string>
     <string name="pc_cycle_count_protect_title">Sykluser</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Skjønner</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Ikke vis igjen</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">Type-C-inngangen på den korte siden av enheten støtter ikke dataoverføring. Koble til datamaskinen med den andre inngangen.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Ladepåminnelse</string>
     <string name="pc_emergency_call">Nødsituasjon</string>
     <string name="pc_endurance_calculation">Beregner…</string>
     <string name="pc_entered_extreme_mode">Dvalemodus er på</string>
@@ -4007,7 +4023,7 @@ Ultrabatterisparer"</string>
     <string name="power_consume_other">Annet</string>
     <string name="power_consume_rank_hardware">Maskinvare</string>
     <string name="power_consume_rank_software">Apper</string>
-    <string name="power_consume_rank_title">Strømforbruk</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Apper: %s</string>
     <string name="power_customize_giveup_change">Forkast endringer?</string>
     <string name="power_dailog_night_charge_protection_done">Skjønner</string>
@@ -4587,6 +4603,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="renew_now">Forny</string>
     <string name="repair">Reparer</string>
     <string name="repair_loading_text">Et øyeblikk…</string>
+    <string name="repeat_prompts">Vent litt! Ikke send inn flere forespørsler på rad.</string>
     <string name="repeat_type">Gjenta</string>
     <string name="repeated_marked_number_summary">Ikke blokker et nytt anrop fra det samme rapporterte nummeret i %d minutter</string>
     <string name="repeated_marked_number_title">Ikke blokker gjentatte anrop fra rapporterte numre</string>
@@ -5378,6 +5395,7 @@ Formatering vil slette alt eksisterende innhold på ^2. For å unngå å miste i
     <string name="tc_parse_error">Kunne ikke dele opp SMS</string>
     <string name="tc_receive_timeout">Tidsavbrudd ved kalibrering</string>
     <string name="tc_send_sms_error">Kunne ikke sende SMS</string>
+    <string name="tc_sms_bill_report_receive_content">Kalibrerings-SMS (sørg for at SMS-meldingen inneholder saldoopplysninger)</string>
     <string name="tc_sms_report_direction">SMS-henvendeleskode</string>
     <string name="tc_sms_report_do_report">Send</string>
     <string name="tc_sms_report_get_default">Du vil ikke belastes for meldinger som brukes for å få informasjon om databruk fra leverandøren din.</string>
@@ -5502,6 +5520,7 @@ Formatering vil slette alt eksisterende innhold på ^2. For å unngå å miste i
     <string name="title_app_update">Oppdateringer tilgjengelig</string>
     <string name="title_auto_update">Oppdater automatisk</string>
     <string name="title_background_connection">Kan ikke bruke %s i bakgrunnen</string>
+    <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Unngå anrop fra kontakter</string>
     <string name="title_block_calls_from_strangers">Unngå viktige anrop</string>
     <string name="title_chain_start">Begrens kjedestart</string>
@@ -5524,6 +5543,7 @@ Formatering vil slette alt eksisterende innhold på ^2. For å unngå å miste i
     <string name="title_eye_shield">Ser ikke skjermfargen riktig ut</string>
     <string name="title_find_device">Finn enhet</string>
     <string name="title_first_aid_kit">Løs problemer</string>
+    <string name="title_flow_base_reminder">Påminnelser om databruk</string>
     <string name="title_flow_notification">Mobildatavarsling</string>
     <string name="title_flow_purchase">Kjøp mobildata</string>
     <string name="title_flow_rank">Mobil databruk</string>
@@ -5640,6 +5660,7 @@ Gjenstående data inkluderer data som har blitt videreført fra den forrige mån
     <string name="traffic_remind">Advarsel databruk</string>
     <string name="traffic_remind_switch">Advarsel databruk</string>
     <string name="traffic_reminder_settings">Angi varsel for databruk</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Lokalt</string>
     <string name="traffic_setting_fragment_brand">Merke</string>
     <string name="traffic_setting_fragment_button1_text">Avbryt</string>
@@ -5704,13 +5725,18 @@ Gjenstående data inkluderer data som har blitt videreført fra den forrige mån
     <string name="usage_sorted_empty_text">Tøm</string>
     <string name="usage_sorted_loading_text">Et øyeblikk…</string>
     <string name="usage_type_audio">Lyd</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">CPU totalt</string>
     <string name="usage_type_cpu_foreground">CPU forgrunn</string>
     <string name="usage_type_data_recv">Mobildata mottatt</string>
     <string name="usage_type_data_send">Mobildata sendt</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Tid uten signal</string>
     <string name="usage_type_on_time">Tid på</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Video</string>
     <string name="usage_type_wake_lock">Hold våken</string>
     <string name="usage_type_wifi_running">Wi-Fi kjører</string>
@@ -5844,6 +5870,7 @@ Denne funksjonen fungerer ikke når Batterisparer eller Ultrabatterisparer er ak
     <string name="videobox_settings_timing">Binge-varsel</string>
     <string name="videobox_settings_timing_desc">Få et binge-varsel hver time for å få en påminnelse om å ta en pause</string>
     <string name="videobox_settings_title">Verktøykasse for video</string>
+    <string name="view_package_info">Vis detaljer om abonnementet</string>
     <string name="view_traffic_detail">Vis detaljer</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">Avinstaller</string>

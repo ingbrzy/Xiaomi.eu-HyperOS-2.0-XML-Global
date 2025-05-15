@@ -962,6 +962,7 @@
     <string name="button_text_trust">이 네트워크 신뢰</string>
     <string name="button_text_update_now">업데이트</string>
     <string name="button_to_setting">설정</string>
+    <string name="button_toll_correction">잔액 보정</string>
     <string name="byteShort">B</string>
     <string name="call_address">지역 차단 목록</string>
     <string name="call_all_number_block">모든 전화 차단</string>
@@ -1061,6 +1062,7 @@
     <string name="charging_text_battery_full_time">"마지막 충전 "</string>
     <string name="charging_text_battery_nearly_full">배터리가 거의 가득찼습니다.</string>
     <string name="charging_text_battery_perfect">완전히 충전됨</string>
+    <string name="check_bill_balance">잔액 확인</string>
     <string name="choose">선택</string>
     <string name="choose_gs_show_way">홈페이지 방향 선택</string>
     <string name="clean_immediately">지우기</string>
@@ -1686,6 +1688,7 @@
     <string name="fixed_cellular_data_quota_monthly">월간 데이터 한도</string>
     <string name="fixed_package_tips">한도에 도달하면 추가 요금이 발생할 수 있음</string>
     <string name="fixed_traffic_quota">데이터 제한 (필수)</string>
+    <string name="fixed_traffic_quota_offline">데이터 한도 (요구됨)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d일</string>
@@ -2040,8 +2043,14 @@
     <string name="gb_beauty_nature_light">자연</string>
     <string name="gb_beauty_warm_light">따스함</string>
     <string name="gb_collimator_color">색상</string>
+    <string name="gb_collimator_color_blue_talkback">파란색</string>
+    <string name="gb_collimator_color_purple_talkback">보라색</string>
+    <string name="gb_collimator_color_red_talkback">빨간색</string>
+    <string name="gb_collimator_color_white_talkback">흰색</string>
+    <string name="gb_collimator_color_yellow_talkback">노란색</string>
     <string name="gb_collimator_size">크기</string>
     <string name="gb_collimator_style">유형</string>
+    <string name="gb_collimator_style_talkback">스타일 %1$d</string>
     <string name="gb_collimator_toast">조준경은 에이밍을 더 편리하게 해줍니다</string>
     <string name="gb_cooler_device_toast">"Xiaomi Gaming Cooler로
 시각적 경험 향상"</string>
@@ -2144,7 +2153,7 @@
     <string name="gb_msg_transparent_dispaly_summary">투명도</string>
     <string name="gb_network_status_bad">연결 오류 발생</string>
     <string name="gb_new_feature">새로운 기능</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">이 앱은 외부 화면에서 사용할 수 없음</string>
     <string name="gb_operat_frequently">그렇게 빠르지 않습니다!</string>
     <string name="gb_performace_guide_disable_desc"><Data>시스템 전체 성능 모드가 켜져 있을 시 게임 터보에서 균형 모드로 전환할 수 없습니다. 보안에서 배터리 설정을 변경하실 수 있습니다.&lt;br>&lt;a href=\"#\">보안 열기&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">성능 모드로 전환되었습니다. 기기가 과열되고 전력 소모가 증가할 것입니다.</string>
@@ -2509,20 +2518,20 @@
     <string name="gtb_setting_item_title_disable_ndds_sim">보조 SIM 차단</string>
     <string name="gtb_setting_item_title_smart_5g">5G 네트워크 최적화</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi 가속</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">게임으로 돌아가기</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">네트워크에 연결할 수 없음</string>
+    <string name="gtb_spring_festival_goto_gameturbo">보기</string>
+    <string name="gtb_spring_festival_guide">"에그 헌트에 참여하시려면
+가로 모드로 전환하십시오!"</string>
+    <string name="gtb_spring_festival_guide_know">알겠습니다</string>
+    <string name="gtb_spring_festival_push_active_desc">휴대전화, 스마트 기기 및 쿠폰 획득</string>
+    <string name="gtb_spring_festival_push_active_title">이스터에그 헌트가 진행 중입니다!</string>
+    <string name="gtb_spring_festival_push_desc">에그 헌트에 참여하여 상품을 획득하십시오</string>
+    <string name="gtb_spring_festival_push_egg_title">이스터에그를 수신했습니다!</string>
+    <string name="gtb_spring_festival_push_gift_title">에그 헌트 상품이 찾아옵니다!</string>
+    <string name="gtb_spring_festival_push_join">참여</string>
+    <string name="gtb_spring_festival_push_see">보기</string>
+    <string name="gtb_spring_festival_shortcut_create">홈 화면 바로가기 생성</string>
     <string name="gtb_start_phone_accelerate">가속</string>
     <string name="gtb_stop_accelerate">중지</string>
     <string name="gtb_timer">타이머</string>
@@ -2717,6 +2726,7 @@ to join our egg hunt!"</string>
     <string name="main_activity_content_summary_update">시스템 업데이트</string>
     <string name="main_alert_message_no_imsi">SIM 카드 발견되지 않음</string>
     <string name="main_alert_message_open_traffic_ctrl">데이터 사용량 제한을 추천드립니다.</string>
+    <string name="main_balance_check">잔액 확인</string>
     <string name="main_bill_remained">휴대전화 잔액</string>
     <string name="main_button_mi_sim_close">Mi SIM 활성화</string>
     <string name="main_button_mi_sim_open">세부사항 보기</string>
@@ -2731,6 +2741,7 @@ to join our egg hunt!"</string>
     <string name="main_daily_card_guide_dialog_title">데이터 플랜 유형 설정</string>
     <string name="main_daily_card_guide_dialog_title_new">데이터 플랜 유형 설정</string>
     <string name="main_daily_package">일일 데이터 플랜</string>
+    <string name="main_declaration_dialog_msg">이 기능에 표시되는 잔액은 이동통신사와의 협상 시 증거로 사용할 수 없습니다. 이동통신사에서 제공하는 모바일 데이터 및 음성 사용 통계를 우선으로 합니다.</string>
     <string name="main_indicator_title">활성화</string>
     <string name="main_leisure_remained">오프 피크 데이터 잔량</string>
     <string name="main_month_total_used">이번 달에 사용됨</string>
@@ -3260,6 +3271,7 @@ SMS 전송"</string>
     <string name="notify_weekly_traffic_body">데이터 사용량을 자동으로 제한하려면 월간 데이터 계획을 설정하십시오.</string>
     <string name="notify_weekly_traffic_title">이번 주에 %s 사용됨</string>
     <string name="notify_weekly_traffic_title_for_slotnum">이번 주에 %1$s에서 %2$s 사용됨</string>
+    <string name="now_inquiry">세부사항</string>
     <string name="number_address">위치</string>
     <string name="numeric_need_to_confirm">다시 입력하여 확인</string>
     <string name="numeric_password_confirmed_header_confirm">설정 성공, 확인을 탭하십시오.</string>
@@ -3485,6 +3497,10 @@ SMS 전송"</string>
     <string name="pc_continuity_open_save_mode_notifi_title">%s 배터리 부족</string>
     <string name="pc_current_power_mode">현재 모드</string>
     <string name="pc_cycle_count_protect_title">주기</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">알겠습니다</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">다시 표시하지 않기</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">기기의 짧은 면에 있는 Type-C 포트는 데이터 전송을 지원하지 않습니다. 다른 포트를 사용하여 컴퓨터에 연결하십시오.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">충전 알림</string>
     <string name="pc_emergency_call">긴급 전화</string>
     <string name="pc_endurance_calculation">계산 중…</string>
     <string name="pc_entered_extreme_mode">최대 절전 모드 켜짐</string>
@@ -4009,7 +4025,7 @@ SMS 전송"</string>
     <string name="power_consume_other">기타</string>
     <string name="power_consume_rank_hardware">하드웨어</string>
     <string name="power_consume_rank_software">앱</string>
-    <string name="power_consume_rank_title">전력 사용량</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">앱: %s</string>
     <string name="power_customize_giveup_change">변경 사항을 취소하시겠습니까?</string>
     <string name="power_dailog_night_charge_protection_done">알겠습니다</string>
@@ -4589,6 +4605,7 @@ SMS 전송"</string>
     <string name="renew_now">갱신</string>
     <string name="repair">수리</string>
     <string name="repair_loading_text">잠시만 기다려주십시오…</string>
+    <string name="repeat_prompts">천천히 하십시오! 여러 요청을 한 번에 제출하지 마십시오.</string>
     <string name="repeat_type">반복</string>
     <string name="repeated_marked_number_summary">%d분 이내에 신고된 동일한 번호의 두 번째 전화를 차단하지 않음</string>
     <string name="repeated_marked_number_title">신고된 번호로부터 반복해서 걸려 오는 통화를 차단하지 않습니다.</string>
@@ -5380,6 +5397,7 @@ SMS 전송"</string>
     <string name="tc_parse_error">SMS를 구문 분석 실패</string>
     <string name="tc_receive_timeout">보정 시간 초과됨</string>
     <string name="tc_send_sms_error">SMS 전송 실패</string>
+    <string name="tc_sms_bill_report_receive_content">SMS 보정 (SMS에 잔액 정보가 포함되어 있는지 확인)</string>
     <string name="tc_sms_report_direction">SMS 조회 코드</string>
     <string name="tc_sms_report_do_report">전송</string>
     <string name="tc_sms_report_get_default">통신사로부터 데이터 사용량 정보를 받기 위하여 사용한 메시지에 대해서는 요금이 부과되지 않습니다.</string>
@@ -5504,6 +5522,7 @@ SMS 전송"</string>
     <string name="title_app_update">업데이트 사용 가능</string>
     <string name="title_auto_update">자동으로 업데이트</string>
     <string name="title_background_connection">백그라운드에서 %s 사용 불가</string>
+    <string name="title_bill_balance_inquiry">잔액 (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">연락처에서 걸려온 부재중 전화</string>
     <string name="title_block_calls_from_strangers">중요한 전화 누락</string>
     <string name="title_chain_start">연속 실행 제한</string>
@@ -5526,6 +5545,7 @@ SMS 전송"</string>
     <string name="title_eye_shield">화면의 색상이 올바르지 않음</string>
     <string name="title_find_device">기기 찾기</string>
     <string name="title_first_aid_kit">문제 해결</string>
+    <string name="title_flow_base_reminder">데이터 사용량 알림</string>
     <string name="title_flow_notification">모바일 데이터 알림</string>
     <string name="title_flow_purchase">모바일 데이터 구매</string>
     <string name="title_flow_rank">모바일 데이터 사용량</string>
@@ -5642,6 +5662,7 @@ Rolled over extra data"</string>
     <string name="traffic_remind">데이터 사용량 경고</string>
     <string name="traffic_remind_switch">데이터 사용량 경고</string>
     <string name="traffic_reminder_settings">데이터 사용량 경고 설정</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">로케일</string>
     <string name="traffic_setting_fragment_brand">브랜드</string>
     <string name="traffic_setting_fragment_button1_text">취소</string>
@@ -5706,13 +5727,18 @@ Rolled over extra data"</string>
     <string name="usage_sorted_empty_text">비어있음</string>
     <string name="usage_sorted_loading_text">잠시만 기다려주십시오…</string>
     <string name="usage_type_audio">오디오</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">총 CPU</string>
     <string name="usage_type_cpu_foreground">CPU 포그라운드</string>
     <string name="usage_type_data_recv">모바일 데이터 수신됨</string>
     <string name="usage_type_data_send">모바일 데이터 전송됨</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">신호 없는 시간</string>
     <string name="usage_type_on_time">운행된 시간</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">동영상</string>
     <string name="usage_type_wake_lock">계속 켜짐</string>
     <string name="usage_type_wifi_running">Wi-Fi 실행 중</string>
@@ -5846,6 +5872,7 @@ Rolled over extra data"</string>
     <string name="videobox_settings_timing">빈지 워치 경보</string>
     <string name="videobox_settings_timing_desc">매시간 휴식을 알리는 빈지 워치 경보 수신</string>
     <string name="videobox_settings_title">동영상 도구상자</string>
+    <string name="view_package_info">요금제 세부사항 보기</string>
     <string name="view_traffic_detail">세부사항 보기</string>
     <string name="view_traffic_details">데이터 사용량 통계 보기</string>
     <string name="virus_app_delete_installed">설치 제거</string>

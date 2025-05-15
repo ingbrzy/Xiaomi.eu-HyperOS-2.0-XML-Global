@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Deljenje z:</string>
     <string name="abc_shareactionprovider_share_with_application">Deljenje z drugimi prek aplikacije %s</string>
     <string name="abc_toolbar_collapse_description">Strnitev</string>
+    <string name="accessibility_sliding_button_state_description_off">Izklopljeno</string>
+    <string name="accessibility_sliding_button_state_description_on">Vklopljeno</string>
+    <string name="accessibility_tab_state_description_unselect">Ni izbrano</string>
     <string name="action_get_otp">Pridobi kodo</string>
     <string name="action_sign_in">Prijava</string>
     <string name="action_sign_in_short">Prijava</string>
@@ -468,10 +471,8 @@ Upoštevajte, da je funkcija internetnih sporočil do nadaljnjega onemogočena. 
     <string name="menu_unlock">Odstrani iz priljubljenih</string>
     <string name="menu_view_contact">Prikaži stik</string>
     <string name="menu_view_group_info">Podatki o skupini</string>
-    <string name="message_cannot_send_air_mode">"Ni mogoče poslati sporočila.
-Najprej izklopite Letalski način."</string>
-    <string name="message_cannot_send_sim_unavailable">"Ni mogoče poslati sporočila.
-Preverite vašo SIM kartico."</string>
+    <string name="message_cannot_send_air_mode">Za pošiljanje sporočil izklopite Letalski način</string>
+    <string name="message_cannot_send_sim_unavailable">Za pošiljanje sporočil vstavite SIM kartico</string>
     <string name="message_class_label">"Vrsta sporočila: "</string>
     <string name="message_contact">Stik:</string>
     <string name="message_details_title">Podrobnosti sporočila</string>
@@ -499,6 +500,12 @@ Preverite vašo SIM kartico."</string>
     <string name="midnight">Noč</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">Izbrano</string>
+    <string name="miuix_accessibility_title">Naslov</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Strnjeno</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Razširjeno</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Končajte z načinom urejanja</string>
+    <string name="miuix_appcompat_accessibility_new_message">Novo obvestilo</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Začni urejanje</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Prekliči izbiro</string>
     <string name="miuix_appcompat_action_mode_select_all">Izberi vse</string>
     <string name="miuix_appcompat_action_mode_title_empty">Izberite predmete</string>
@@ -514,12 +521,15 @@ Preverite vašo SIM kartico."</string>
     <string name="miuix_appcompat_select_all">Izberi vse</string>
     <string name="miuix_appcompat_select_all_description">Izberite vse</string>
     <string name="miuix_appcompat_select_item">Izberite predmete</string>
+    <string name="miuix_appcompat_show_dialog_description">Pojavno okno</string>
     <string name="miuix_item_view_role_description">Zavihek</string>
     <string name="miuix_navigator_category_group_collapse">Strni</string>
     <string name="miuix_navigator_category_group_expand">Razširi</string>
     <string name="miuix_navigator_content_switch_description">Prikaži stransko vrstico</string>
     <string name="miuix_navigator_multiple_choice">Izberi</string>
     <string name="miuix_navigator_navigator_switch_description">Skrij stransko vrstico</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Orodna vrstica na dnu zaslona</string>
+    <string name="miuix_progressbar_loading">Nalaganje</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Povlecite za osvežitev</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uspešno osveženo</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Osveževanje…</string>
@@ -528,6 +538,9 @@ Preverite vašo SIM kartico."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je zaenkrat vse</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Samo trenutek…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Predmetov ni mogoče naložiti</string>
+    <string name="miuix_show_password">Prikaži geslo</string>
+    <string name="miuix_stretchablewidget_collapsed">Strnjeno</string>
+    <string name="miuix_stretchablewidget_expanded">Razširjeno</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Vsi MMS, razen sporočil, poslanih od pooblaščenih pošiljateljev, bodo blokirani. Pooblaščeni pošiljatelji vključujejo mobilne operaterje, nacionalne sisteme rezervacij za železnice, itd.</string>
     <string name="mms_block_alert_ok">Blokiraj</string>
@@ -621,6 +634,18 @@ To sporočilo je lahko nezaželeno."</string>
     <string name="mx_privacy_policy">Pravilnik o zasebnosti za Mi Sporočila</string>
     <string name="mx_stranger_recommend_msg">Tapnite za blokiranje Mi Sporočil od neznanih številk</string>
     <string name="need_download">Sinhroniziram…</string>
+    <string name="net_message_download_btn_content_desc">Prenesi</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Kopiraj kodo %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Odpri povezavo %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Odpri aplikacijo</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Odpri koledar</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Pokliči %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Odgovori</string>
+    <string name="net_message_media_card_img_content_desc">Fotografija</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Predvajanje videa je končano</string>
+    <string name="net_message_media_card_video_content_desc">Videoposnetek</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Ustavi</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Predvajaj</string>
     <string name="net_sms_subscribed">Uspešno naročeno</string>
     <string name="net_sms_unsubscribe">Odjava uspela</string>
     <string name="networking_allow_continue">Dovoli</string>
@@ -668,6 +693,7 @@ To sporočilo je lahko nezaželeno."</string>
     <string name="over_max_mms_size">MMS sporočilo je preveliko.</string>
     <string name="overwrite_edited_content">Vsebina ki ste jo vnesli bo prepisana.</string>
     <string name="packages_select_sim_cards_title">Izberite SIM kartico</string>
+    <string name="page_indicator">Kazalnik strani</string>
     <string name="passenger_title">Potnik</string>
     <string name="pay_bill">Plačaj</string>
     <string name="payment_failed">Ni možno dokončati plačila</string>
@@ -909,6 +935,7 @@ Oglejte si priporočene klepetalne robote!"</string>
     <string name="recommend_bar_ok">Vklopi</string>
     <string name="recommend_bar_title_mx_rcs">Mi Sporočila</string>
     <string name="recommend_close">Izklopi</string>
+    <string name="recommend_close_button">Zapri</string>
     <string name="recommend_disagree">Ne strinjam se</string>
     <string name="recommend_free_internet_message">Brezplačna spletna sporočila</string>
     <string name="recommend_free_mi">Mi Sporočila</string>
@@ -1058,6 +1085,7 @@ Oglejte si priporočene klepetalne robote!"</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">Najprej namestite Snemalnik</string>
     <string name="sp_category_all">Vsa storitvena sporočila</string>
     <string name="sp_category_bank">Obvestila o bančnih sporočilih</string>
     <string name="sp_category_title_prefix">%s</string>

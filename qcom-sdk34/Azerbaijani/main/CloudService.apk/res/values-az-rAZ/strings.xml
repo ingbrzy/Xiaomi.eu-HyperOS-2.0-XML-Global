@@ -5,6 +5,10 @@
     <string name="accept_all_positive">Seç</string>
     <string name="accept_use_permissions">İcazə ver</string>
     <string name="access_denied">Müraciət rədd edildi</string>
+    <string name="accessibility_sliding_button_state_description_off">söndür</string>
+    <string name="accessibility_sliding_button_state_description_on">aktiv</string>
+    <string name="accessibility_tab_state_description_unselect">Seçilməmiş</string>
+    <string name="accessibility_tab_statedesc_unselect">Seçilməmiş</string>
     <string name="account_related">Cihazınız mövcud Xiaomi Hesabı (%s) ilə əlaqələndirilmiş vəziyyətdədir. Cihazı təsdiqləmək üçün şəbəkəyə qoşulun.</string>
     <string name="actionbar_button_up_description">Geri</string>
     <string name="activate_find_device_success">Cihazı tap uğurla aktivləşdirildi</string>
@@ -29,6 +33,7 @@
     <string name="calendar_sync_item_permission">təqvim</string>
     <string name="call_log_sync_item_permission">zəng tarixçəsi</string>
     <string name="check_contact">Əlavə et</string>
+    <string name="checked">Seçildi</string>
     <string name="choose_contact_title">Kontaktlar</string>
     <string name="clearable_edittext_clear_description">Təmizlə</string>
     <string name="close">Bağla</string>
@@ -110,6 +115,7 @@
     <string name="download_gallery_data_summary">Sinxronlaşdırılmış şəkil və videoları cihazınıza endirmək üçün i.mi.com saytına daxil olun.</string>
     <string name="download_gallery_data_title">Elementləri cihazınıza endirin</string>
     <string name="e2ee_button_close">Söndür</string>
+    <string name="e2ee_button_exit_all_devices">Bütün cihazlardan çıxış et</string>
     <string name="e2ee_button_next">Növbəti</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Təhlükəsizlik açarınızı yeniləyə bilmək üçün bu cihaz üçün ekran kilidini aktiv edin.</string>
     <string name="e2ee_data_protection_close_button">Söndür</string>
@@ -164,6 +170,7 @@
     <string name="e2ee_exit_account_button_exit">Çıxış et</string>
     <string name="e2ee_exit_account_subtitle">Xiaomi Hesabınızla əlaqəli son qoşulmuş cihazdan çıxmaq üzrəsiniz. Yenidən daxil olmaq və buludda saxlanılan datanıza daxil olmaq üçün ekran kilidi və ya təhlükəsizlik açarından istifadə etməlisiniz. Alternativ olaraq, Qabaqcıl məlumatların qorunmasını söndürmək üçün aşağıda \"Söndür\" seçiminə klikləyin.</string>
     <string name="e2ee_exit_account_title">Çıxılır</string>
+    <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
     <string name="e2ee_load_failed">Server məşğuldur. Bir və ya iki dəqiqə gözləyin və yenidən cəhd edin.</string>
     <string name="e2ee_loading">Bir saniyə…</string>
     <string name="e2ee_loading_close">Söndürülür…</string>
@@ -226,7 +233,7 @@
     <string name="find_device_dspt_provision">Əgər cihazınızı itirsəniz məkanını tapmaq, kilidləmək, və ya sıfırlamaq üçün &lt;font color=#0097FF>%s&lt;/font> ünvanına gedə bilərsiniz. Bu xüsusiyyəti istənilən vaxt Tənzimləmələr menyusundan aça və ya bağlaya bilərsiniz.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">Cihazı tap funksiyasını aktiv etməklə siz <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi Cloud Gizlilik Siyasətini</u></a> qəbul edirsiniz. Gizlilik Siyasətinə verdiyiniz razılığı geri götürmək üçün bu funksiyanı söndürün.</string>
+    <string name="find_device_gdpr_prompt">Cihazı tap funksiyasını aktiv etməklə siz <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi Cloud Gizlilik Siyasətini</u></a>qəbul edirsiniz. Gizlilik Siyasətinə verdiyiniz razılığı geri çəkmək üçün bu funksiyanı söndürün.</string>
     <string name="find_device_operation_failure_rpc">RPC xətası səbəbindən əməliyyat yerinə yetirilə bilmədi.</string>
     <string name="find_device_permissions_footer">Seçdiyiniz icazələri vermək üçün \"İcazə ver\" seçiminə toxunun.</string>
     <string name="find_device_permissions_header">Cihazı tap-a xoş gəlmisiniz! Siz bu tətbiqdən cihazınız itdikdə onun yerini tapmaq, izləmək və kilidləmək üçün istifadə edə bilərsiniz. Siz həmçinin anonim olaraq başqalarına Xiaomi cihazlarını tapmaqda kömək edə bilərsiniz. Bu tətbiq normal işləmək üçün aşağıdakı icazələri tələb edir:</string>
@@ -377,6 +384,12 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="local_lockscreen_sub_title_open_e2ee">Qabaqcıl məlumat mühafizəsini aktiv etmək üçün bu cihazın ekran kilidini doğrulayın</string>
     <string name="local_lockscreen_sub_title_update_key">Cihazının ekran kilidini daxil et</string>
     <string name="local_lockscreen_sub_title_verify_e2ee">Bu cihazı etibarlı kimi tanımaq üçün ekran kilidini təsdiq et</string>
+    <string name="lockscreen_access_pattern_area">Naxış sahəsi.</string>
+    <string name="lockscreen_access_pattern_cell_added">Hücrə əlavə edildi</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">%1$s hücrə əlavə edildi</string>
+    <string name="lockscreen_access_pattern_cleared">Naxış təmizləndi</string>
+    <string name="lockscreen_access_pattern_detected">Forma tamamlandı</string>
+    <string name="lockscreen_access_pattern_start">Naxış başladıldı</string>
     <string name="lockscreen_device_list_title">Ekran kilidini doğrulamaq üçün cihaz seç</string>
     <string name="lockscreen_error_hint">Yanlışdır. Yenidən cəhd edin.</string>
     <string name="lockscreen_negative_btn">Ləğv et</string>
@@ -613,6 +626,10 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="midrive_guide_btn_installed">Mi Drive-ı açın</string>
     <string name="midrive_guide_btn_installing">Quraşdırılır…</string>
     <string name="miuix_access_state_desc">Seçildi</string>
+    <string name="miuix_accessibility_title">Başlıq</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Düzəliş rejimindən çıxış</string>
+    <string name="miuix_appcompat_accessibility_new_message">Yeni mesaj</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Düzəliş rejimində başla</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Bütün seçimi ləğv et</string>
     <string name="miuix_appcompat_action_mode_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elementləri seç</string>
@@ -628,6 +645,7 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="miuix_appcompat_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_select_all_description">Hamısını seç</string>
     <string name="miuix_appcompat_select_item">Elementləri seç</string>
+    <string name="miuix_progressbar_loading">Yüklənir</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yeniləmək üşün aşağıya çəkin</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uğurla yeniləndi</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Yenilənir…</string>
@@ -636,6 +654,7 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="miuix_sbl_tracking_progress_labe_up_none">İndilik bu qədər</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Bir saniyə…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Eementlər yüklənə bilmədi</string>
+    <string name="miuix_show_password">Parolu göstər</string>
     <string name="monday">Bazar ertəsi</string>
     <string name="monday_short">B.e.</string>
     <string name="monday_shortest">B.e.</string>
@@ -680,6 +699,7 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="night">Axşam</string>
     <string name="no_sim">SIM kart tapıla bilmədi</string>
     <string name="noon">Günorta</string>
+    <string name="not_checked">Seçilmədi</string>
     <string name="noti_quota_button_text">Təkmilləşdir</string>
     <string name="noti_quota_full_sum">Elementləri sinxronizasiya etməyə davam etmək üçün yaddaş planınızı təkmilləşdirin.</string>
     <string name="noti_quota_full_sum_without_button">Elementləri sinxronizasiya etməyə davam etmək üçün daha çox yaddaş sahəsi əldə edin.</string>
@@ -779,6 +799,8 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="privacy_runtime_perm_contacts_title">Kontaktlara daxil olun və onları redaktə edin</string>
     <string name="privacy_runtime_perm_external_storage_desc">Əlaqə profili şəkillərini sinxronlaşdırmaq üçün</string>
     <string name="privacy_runtime_perm_external_storage_title">Yaddaşa müraciət et</string>
+    <string name="privacy_runtime_perm_get_installed_apps_desc">Tətbiq məlumatlarının sinxronlaşdırılması üçün</string>
+    <string name="privacy_runtime_perm_get_installed_apps_title">Tətbiq məlumatlarına giriş</string>
     <string name="privacy_runtime_perm_notification_desc">Xiaomi Cloud xidmətləri bildirişləri göndərmək üçün</string>
     <string name="privacy_runtime_perm_notification_title">Bildirişlər</string>
     <string name="privacy_runtime_perm_phone_state_desc">Telefon nömrəsinə və cihazın vəziyyətinə daxil olmaq üçün</string>
@@ -900,7 +922,7 @@ Həmçinin, siz başqalarına Xiaomi cihazlarını tapmaqda anonim şəkildə k�
     <string name="share_sdk_pref_category_search_local_title">Kontaktlar</string>
     <string name="share_sdk_pref_category_title_scan_qr_code">QR kodunu analiz et</string>
     <string name="share_sdk_pref_family_detail_title">Ailə qrup detallarını göstər</string>
-    <string name="share_sdk_privacy_link_description">Bu xidməti istifadə etməzdən əvvəl <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Xiaomi Hesabı Gizlilik Siyasəti</u></a> sazişimizi qəbul edin.</string>
+    <string name="share_sdk_privacy_link_description">Bu xidməti istifadə etməzdən əvvəl <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Xiaomi Account Gizlilik Siyasəti</u></a> sazişimizi qəbul edin.</string>
     <string name="share_sdk_qr_code_description">"%1$s'adlı şəxsin dəvəti"</string>
     <string name="share_sdk_qr_code_expire_time">QR kodu etibarlılıq müddəti: %1$s</string>
     <string name="share_sdk_resend_invitation_times_exceed">Gedən dəvətlər çoxdur. 24 saatdan sonra yenidən cəhd edin.</string>
