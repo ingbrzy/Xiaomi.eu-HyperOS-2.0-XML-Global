@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Dijeli s</string>
     <string name="abc_shareactionprovider_share_with_application">Dijeli putem aplikacije %s</string>
     <string name="abc_toolbar_collapse_description">Sažmi</string>
+    <string name="accessibility_sliding_button_state_description_off">isključeno</string>
+    <string name="accessibility_sliding_button_state_description_on">uključeno</string>
+    <string name="accessibility_tab_state_description_unselect">Nije odabrano</string>
+    <string name="accessibility_tab_statedesc_unselect">Nije odabrano</string>
     <string name="account_or_password_incorrect">Pogrešan račun ID ili lozinka</string>
     <string name="actionbar_button_up_description">Natrag</string>
     <string name="afternoon">Popodne</string>
@@ -175,7 +179,7 @@ Posjetite https://appleid.apple.com/#!&amp;page=signin za isključivanje"</strin
     <string name="dialog_request_permission_message_extra_summary">Ova su potrebne dozvole kako bi se omogućile osnovne značajke i usluge ove aplikacije.</string>
     <string name="dialog_request_permission_message_extra_title">Obvezne dozvole</string>
     <string name="dialog_request_permission_message_global">Ova aplikacija treba sljedeća dopuštenja da bi mogla normalno raditi:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Istovremeno, kako biste u potpunosti razumjeli svoja prava kao korisnika, kao i načine na koje koristimo Vaše podatke, molimo pročitajte i potvrdite naš &lt;a href='%1s'>Korisnički ugovor&lt;/a> i &lt;a href='%2s'>Pravila o privatnosti&lt;/a>.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>Da bi u potpunosti razumjeli svoja korisnička prava kao i načine na koje koristimo vaše podatke, trebate pročitati i pristati na naš &lt;a href=\"%1s\">Korisnički ugovor Xiaomi operativnog sistema&lt;/a> i naša &lt;a href=\"%2s\">Pravila o privatnosti Mi Selidbe&lt;/a>.</Data></string>
     <string name="dialog_request_permission_message_provision_link">Također, kako biste u potpunosti mogli razumjeti svoja prava kao korisnik, kao i kako koristimo Vaše podatke, pročitajte i potvrdite naš %1$s i %2$s.</string>
     <string name="dialog_request_permission_title">Pažnja</string>
     <string name="dialog_request_permission_title_global">Potrebne dozvole</string>
@@ -196,11 +200,13 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="err_bakfile_broken">Ne mogu koristiti ovu Sig. kopiju.</string>
     <string name="err_bakfile_not_exist">Sigurnosna kopija datoteke ne postoji.</string>
     <string name="err_binder_died">Aplikacija se neočekivano zaustavila.</string>
+    <string name="err_data_protection">Na starom uređaju uključena je napredna zaštita podataka. Potrebna verifikacija.</string>
     <string name="err_install_incompatible">Problemi kompatibilnosti</string>
     <string name="err_low_storage">Nema dovoljno prostora za pohranu</string>
     <string name="err_no_gms">Nekompatibilna verzija aplikacije. Instalirajte ovu aplikaciju zasebno.</string>
     <string name="err_not_allow">Nije podržano</string>
     <string name="err_pkg_not_exist">Ne mogu pronaći aplikaciju.</string>
+    <string name="err_receiver_no_space">Prijenos nije moguć. Nema dovoljno prostora za pohranu na novom uređaju.</string>
     <string name="err_remote_no_space">Na novom uređaju nema dovoljno mjesta u pohrani</string>
     <string name="err_remote_timeout">Prijenos istekao</string>
     <string name="err_send_error">Nije moguće poslati</string>
@@ -269,6 +275,12 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Razumijem</string>
+    <string name="force_update_button_scan_host">Instaliraj</string>
+    <string name="force_update_content_guest">Ažurirajte Mi Selidbu na novom uređaju kako biste mogli prenositi stavke.</string>
+    <string name="force_update_content_host">Ažurirajte Mi Selidbu na starom uređaju kako biste mogli prenositi stavke.</string>
+    <string name="force_update_title_guest">Ažurirajte Mi Selidbu na novom uređaju</string>
+    <string name="force_update_title_host">Ažurirajte Mi Selidbu na starom uređaju</string>
     <string name="friday">Petak</string>
     <string name="friday_short">Pet</string>
     <string name="friday_shortest">Pet</string>
@@ -408,6 +420,10 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="miui_wait_link_title_1">%d. Dotaknite \"Ja sam pošiljatelj\" i pričekajte trenutak.</string>
     <string name="miui_wait_link_title_2">%d. Odaberite ovaj hotspot na svojem starom uređaju za povezivanje.</string>
     <string name="miuix_access_state_desc">Odabrano</string>
+    <string name="miuix_accessibility_title">Naslov</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Izlaz iz načina uređivanja</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nova poruka</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Uđi u način uređivanja</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poništiti sve</string>
     <string name="miuix_appcompat_action_mode_select_all">Odaberi sve</string>
     <string name="miuix_appcompat_action_mode_title_empty">Odaberi</string>
@@ -423,6 +439,7 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="miuix_appcompat_select_all">Odaberi sve</string>
     <string name="miuix_appcompat_select_all_description">Odaberi sve</string>
     <string name="miuix_appcompat_select_item">Odaberi stavke</string>
+    <string name="miuix_progressbar_loading">Učitavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Povucite dolje za osvježavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uspješno osvježeno</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Osvježavanje…</string>
@@ -431,6 +448,7 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je sve za sada</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Samo trenutak…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ne može učitati stavke</string>
+    <string name="miuix_show_password">Prikaži lozinku</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Poruke, kontakti i povijest poziva</string>
     <string name="monday">Ponedjeljak</string>
@@ -503,11 +521,15 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="new_trans_intro_question_6">%d. Zašto se podaci aplikacija ne mogu prenjeti s uređaja treće strane?</string>
     <string name="new_trans_intro_question_7">%d. Ako izađem iz Mi Selidbe usred prijenosa, hoći li idući puta morat započinjat sve iznova?</string>
     <string name="new_trans_intro_question_8">%d. Zašto je moja WeChat povijest nestala na m+novom uređaju?</string>
+    <string name="new_version_transfer_downloading">Ažuriranje Mi Selidbe</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Ažuriranje…</string>
     <string name="new_wait_link_message_2">Gumb \"Ja sam pošiljatelj\" nalazi se točno na početnoj stranici Mi Selidbe.</string>
     <string name="next">Sljedeće</string>
     <string name="night">Večer</string>
     <string name="no_more_memory_title">Mi Selidba mora stvoriti lokalnu sigurnosnu kopiju na ovom uređaju. Sad nema dovoljno prostora za pohranu da biste stvorili sigurnosnu kopiju. Prvo oslobodite prostor.</string>
     <string name="noon">Podne</string>
+    <string name="not_selectable">Odabir nije moguć</string>
     <string name="not_set">Nije postavljeno</string>
     <string name="not_support_data_content1">%d. Stavke specifične za model uređaja</string>
     <string name="not_support_data_content2">%d. Podaci aplikacije</string>
@@ -556,6 +578,8 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="open_photo_and_contacts_cloud_sync_summary">Uključite sinkronizaciju kako bi se kontakti i stavke iz Galerije pojavili na ovom uređaju.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">Sinkroniziraj kontakte i stavke iz Galerije</string>
     <string name="operation_send">Pošalji</string>
+    <string name="opposite_new_version_transfer_content">Pričekajte da se drugi uređaj ažurira i ponovno pokrene Mi Selidbu, zatim dodirnite za ponovno povezivanje.</string>
+    <string name="opposite_new_version_transfer_title">Drugi uređaj se ažurira</string>
     <string name="option_about">O Mi Selidbi</string>
     <string name="option_feedback_title">Povratna informacija</string>
     <string name="option_privacy_policy">Pravila o privatnosti</string>
@@ -603,7 +627,7 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="privacy_desc">Dobrodošli u Mi Selidbu. Ova aplikacija nudi Vam sljedeće usluge:</string>
     <string name="privacy_experience_statement">Priključite se našem Programu iskustava korisnika kako biste dijelili podatke s nama u svrhu poboljšanja naših proizvoda i usluga.</string>
     <string name="privacy_item1">· Prijenos datoteka, poruka, postavki aplikacija sustava i aplikacija</string>
-    <string name="privacy_message">&lt;Data>Pročitajte i potvrdite naš &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> prije korištenja Mi Selidbe. Možete povući svoj pristanak na Pravila o privatnosti Mi Selidbe u \"O Mi Selidbi\" u svakom trenutku. Ako se ne slažete s gore navedenim uslugama, nećete moći koristiti neke od značajki ove aplikacije, međutim njena osnovna funkcionalnost i dalje će Vam biti dostupna.&lt;/Data></string>
+    <string name="privacy_message"><Data>Pročitajte i potvrdite naš &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> i &lt;a href=\"%1$s\">Pravila o privatnosti&lt;/a> prije korištenja Mi Selidbe. Možete povući svoj pristanak na Pravila o privatnosti Mi Selidbe u \"O Mi Selidbi\" u svakom trenutku. Ako se ne slažete s gore navedenim uslugama, nećete moći koristiti neke od značajki ove aplikacije, međutim njena osnovna funkcionalnost i dalje će Vam biti dostupna.</Data></string>
     <string name="privacy_policy">Pravila o privatnosti</string>
     <string name="privacy_title">Uvjeti korištenja</string>
     <string name="prompt_before_transmission_message1_summary">Ako ih odlučite preseliti sa starog uređaja, podaci aplikacija (uključujući povijest čavrljanja) bit će prepisani.</string>
@@ -695,6 +719,12 @@ Oslobodite se barem %s."</string>
     <string name="secret_password_confirm_summary">Potvrdite vaš identitet unoseći svoju zaporku Zaštite privatnosti da bi mogli prenijeti privatne datoteke na svoj novi uređaj.</string>
     <string name="secret_password_confirm_title">Zaporka zaštite privatnosti</string>
     <string name="secret_title">Privatne stavke</string>
+    <string name="security_connect_button_negative">Otkaži</string>
+    <string name="security_connect_button_positive">Poveži</string>
+    <string name="security_connect_content">Provjerite odgovaraju li kodovi veze na oba uređaja. Zatim dodirnite \"Poveži\" za prijenos stavki.</string>
+    <string name="security_connect_hint">Kod veze</string>
+    <string name="security_connect_title_guest">Spojite se na novi uređaj?</string>
+    <string name="security_connect_title_host">Spojite se na stari uređaj?</string>
     <string name="select_all">Odaberite sve</string>
     <string name="select_android_summary">Huawei, OPPO, vivo i više</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@ Preuzmite i instalirajte Mi Selidbu."</string>
     <string name="trans_sync_transfer_data_list">Odaberite stavke koje želite prenijeti na stari uređaj</string>
     <string name="trans_sync_transfer_data_list_apple">Prenesite stavke sa svog Apple uređaja</string>
     <string name="trans_sync_transfer_data_list_hint">Pričekajte trenutak…</string>
+    <string name="trans_sync_transfer_data_list_pad">Odaberite stavke na starom uređaju za prijenos</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Odaberite stavke na starom uređaju i dodirnite \"Pošalji\".</string>
     <string name="trans_time_format_second">Manje od %d minute preostalo</string>
     <string name="trans_time_spent">Vrijeme: %s</string>
@@ -878,6 +909,10 @@ Preuzmite i instalirajte Mi Selidbu."</string>
     <string name="transfer_lose_connect_title">Veza je prekinuta</string>
     <string name="transfer_multi_connect_summary">Vaš prijenos bio je prekinut iz sigurnosnih razloga. Možete dotaknuti \"Ponovno se poveži\" kako biste svejedno nastavili.</string>
     <string name="transfer_multi_connect_title">Izgleda da je više uređaja povezano na ovaj hotspot</string>
+    <string name="transfer_no_memory_dialog_btn">Razumijem</string>
+    <string name="transfer_no_memory_dialog_summary">Novi uređaj nema dovoljno prostora za pohranu za dovršetak prijenosa. Oslobodite prostor na uređaju kako biste mogli dovršiti prijenos stavki.</string>
+    <string name="transfer_no_memory_dialog_title">Nedostaje prostora za pohranu</string>
+    <string name="transfer_no_memory_dialog_title_pad">Nedostaje prostora za pohranu</string>
     <string name="transfer_quit_alert_btn_negative">Prekid</string>
     <string name="transfer_quit_alert_btn_positive">Ne odustaj</string>
     <string name="transfer_quit_alert_message">"Mi Selidba sada radi. Ipak napustiti?

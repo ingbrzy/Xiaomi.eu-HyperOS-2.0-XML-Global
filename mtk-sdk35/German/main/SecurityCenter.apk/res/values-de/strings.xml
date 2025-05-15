@@ -962,6 +962,7 @@ Jedoch sind einige deiner Transaktionen noch nicht abgeschlossen. Um deine Zusti
     <string name="button_text_trust">Diesem Netzwerk vertrauen</string>
     <string name="button_text_update_now">Aktualisieren</string>
     <string name="button_to_setting">Einstellungen</string>
+    <string name="button_toll_correction">Guthaben kalibrieren</string>
     <string name="byteShort">B</string>
     <string name="call_address">Ortssperrliste</string>
     <string name="call_all_number_block">Alle Anrufe blockieren</string>
@@ -1061,6 +1062,7 @@ Jedoch sind einige deiner Transaktionen noch nicht abgeschlossen. Um deine Zusti
     <string name="charging_text_battery_full_time">"Letzte Änderung "</string>
     <string name="charging_text_battery_nearly_full">Fast voll aufgeladen</string>
     <string name="charging_text_battery_perfect">Voll aufgeladen</string>
+    <string name="check_bill_balance">Prüfe Kontostand</string>
     <string name="choose">Auswählen</string>
     <string name="choose_gs_show_way">Ausrichtung der Startseite auswählen</string>
     <string name="clean_immediately">Löschen</string>
@@ -1686,6 +1688,7 @@ Alle Daten auf deinem Gerät werden möglicherweise gelöscht und dein Passwort 
     <string name="fixed_cellular_data_quota_monthly">Monatliches Datenlimit</string>
     <string name="fixed_package_tips">Es werden zusätzliche Gebühren generiert, nachdem du das Limit erreicht hast</string>
     <string name="fixed_traffic_quota">Datenlimit (obligatorisch)</string>
+    <string name="fixed_traffic_quota_offline">Datenlimit (erforderlich)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -1925,7 +1928,7 @@ Alle Daten auf deinem Gerät werden möglicherweise gelöscht und dein Passwort 
     <string name="gamebox_immersion_tips_content">Der Immersive Modus schränkt die Funktionalität der SIM-Karte mit Ausnahme der mobilen Datenverbindung ein. Du wirst weder durch Anrufe unterbrochen noch erhälst du Benachrichtigungen über verpasste Anrufe. Alle Funktionen der SIM-Karte werden wiederhergestellt, wenn der immersive Modus ausgeschaltet ist. Immersiven Modus einschalten?</string>
     <string name="gamebox_immersion_tips_title">Achtung</string>
     <string name="gamebox_immerson_open">Immersiven Modus einschalten, Netzwerke nicht wechseln…</string>
-    <string name="gamebox_macro">Combos</string>
+    <string name="gamebox_macro">Kombinationen</string>
     <string name="gamebox_manual_record">Aufnehmen</string>
     <string name="gamebox_mem_clean">Speicher bereinigen</string>
     <string name="gamebox_mem_filter">Spielfilter</string>
@@ -2040,8 +2043,14 @@ Alle Daten auf deinem Gerät werden möglicherweise gelöscht und dein Passwort 
     <string name="gb_beauty_nature_light">Natürlich</string>
     <string name="gb_beauty_warm_light">Warm</string>
     <string name="gb_collimator_color">Farbe</string>
+    <string name="gb_collimator_color_blue_talkback">Blau</string>
+    <string name="gb_collimator_color_purple_talkback">Lila</string>
+    <string name="gb_collimator_color_red_talkback">Rot</string>
+    <string name="gb_collimator_color_white_talkback">Weiß</string>
+    <string name="gb_collimator_color_yellow_talkback">Gelb</string>
     <string name="gb_collimator_size">Größe</string>
     <string name="gb_collimator_style">Typ</string>
+    <string name="gb_collimator_style_talkback">Stil %1$d</string>
     <string name="gb_collimator_toast">Ein Visier macht das Zielen viel komfortabler</string>
     <string name="gb_cooler_device_toast">"Visuelles Erlebnis mit
 Xiaomi Gaming Cooler verbessert"</string>
@@ -2084,9 +2093,9 @@ Xiaomi Gaming Cooler verbessert"</string>
     <string name="gb_first_window_title">Spiel-Turbo</string>
     <string name="gb_game_end_toast">Schlüsselmomente deines Spieles erneut erleben</string>
     <string name="gb_game_fill_desc">Inhalte werden in einigen Fällen verzerrt dargestellt</string>
-    <string name="gb_game_macro_bubble_tips">Try combos</string>
-    <string name="gb_game_macro_toast_tips">"Try combos!
-Record sequences and use them anytime!"</string>
+    <string name="gb_game_macro_bubble_tips">Probiere Kombinationen aus</string>
+    <string name="gb_game_macro_toast_tips">"Probiere Kombinationen aus!
+Nimm Sequenzen auf und verwende sie jederzeit!"</string>
     <string name="gb_game_mode_change_btn_right">Neu starten</string>
     <string name="gb_game_mode_change_message">Spiel jetzt neu starten, um Änderungen zu übernehmen?</string>
     <string name="gb_game_mode_change_new">Hier zwischen Layouts wechseln</string>
@@ -2144,7 +2153,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
     <string name="gb_network_status_bad">Ein Verbindungsfehler ist aufgetreten.</string>
     <string name="gb_new_feature">Neue Funktion</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Diese App kann auf dem äußeren Bildschirm nicht verwendet werden</string>
     <string name="gb_operat_frequently">Nicht so schnell!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Kann im Spiel-Turbo nicht in den ausgewogenen Modus wechseln, wenn der systemweite Leistungsmodus aktiviert ist. Sie können die Akkueinstellungen unter Sicherheit ändern.&lt;br>&lt;a href=\"#\">Sicherheit öffnen&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">In den Leistungsmodus gewechselt. Dein Gerät könnte sich aufheizen und mehr Strom verbrauchen.</string>
@@ -2509,9 +2518,9 @@ Drücke und halte den Indikator, um das Fenster zu verschieben."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Sekundäre SIM blockieren</string>
     <string name="gtb_setting_item_title_smart_5g">5G-Netzwerkoptimierung</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi Geschwindigkeitserhöhung</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
+    <string name="gtb_spring_festival_back_game">Zurück zum Spiel</string>
     <string name="gtb_spring_festival_egg_obtain_fail">Netzwerkverbindung fehlgeschlagen</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Anzeigen</string>
     <string name="gtb_spring_festival_guide">"Wechsle zum Querformat
 , um unserer Eiersuche beizutreten!"</string>
     <string name="gtb_spring_festival_guide_know">Verstanden</string>
@@ -2717,6 +2726,7 @@ Es können zusätzliche Kosten für die Nutzung von mobilen Daten entstehen."</s
     <string name="main_activity_content_summary_update">System-Update</string>
     <string name="main_alert_message_no_imsi">Keine SIM-Karte erkannt</string>
     <string name="main_alert_message_open_traffic_ctrl">Wir empfehlen die Datennutzung einzuschränken</string>
+    <string name="main_balance_check">Prüfe Kontostand</string>
     <string name="main_bill_remained">Telefonguthaben</string>
     <string name="main_button_mi_sim_close">Mi SIM aktivieren</string>
     <string name="main_button_mi_sim_open">Details anzeigen</string>
@@ -2731,6 +2741,7 @@ Es können zusätzliche Kosten für die Nutzung von mobilen Daten entstehen."</s
     <string name="main_daily_card_guide_dialog_title">Datentariftyp einstellen</string>
     <string name="main_daily_card_guide_dialog_title_new">Datentarif einstellen</string>
     <string name="main_daily_package">Täglicher Datentarif</string>
+    <string name="main_declaration_dialog_msg">Der in dieser Funktion angezeigte Guthabenwert kann bei Verhandlungen mit deinem Mobilfunkanbieter nicht als Beweismittel verwendet werden. Die von deinem Anbieter bereitgestellten Statistiken zur mobilen Daten- und Sprachnutzung haben Vorrang.</string>
     <string name="main_indicator_title">Aktivierung</string>
     <string name="main_leisure_remained">Off-Peak Daten verbleibend</string>
     <string name="main_month_total_used">Diesen Monat verwendet</string>
@@ -3260,6 +3271,7 @@ Stelle eine Verbindung mit einem anderen Ethernet-Kabel her. Wenn du vermutest, 
     <string name="notify_weekly_traffic_body">Um Datenverbrauch autom. zu limitieren, stelle deinen monatl. Datenplan ein.</string>
     <string name="notify_weekly_traffic_title">Verbraucht %s diese Woche</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s hat diese Woche %2$s verbraucht</string>
+    <string name="now_inquiry">Details</string>
     <string name="number_address">Standort</string>
     <string name="numeric_need_to_confirm">Zur Bestätigung erneut eingeben</string>
     <string name="numeric_password_confirmed_header_confirm">Erfolgreich festgelegt. Tippen zum Bestätigen.</string>
@@ -3485,6 +3497,10 @@ Stelle eine Verbindung mit einem anderen Ethernet-Kabel her. Wenn du vermutest, 
     <string name="pc_continuity_open_save_mode_notifi_title">%s Akku ist schwach</string>
     <string name="pc_current_power_mode">Aktueller Modus</string>
     <string name="pc_cycle_count_protect_title">Zeiträume</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Verstanden</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Nicht mehr anzeigen</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">Der Typ-C-Anschluss an der kurzen Seite des Geräts unterstützt keine Datenübertragung. Verbinde das Gerät über den anderen Anschluss mit dem Computer.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Auflade-Erinnerung</string>
     <string name="pc_emergency_call">Notfall</string>
     <string name="pc_endurance_calculation">Berechnung…</string>
     <string name="pc_entered_extreme_mode">Ruhezustand ist aktiv</string>
@@ -4009,7 +4025,7 @@ wird ausgeschaltet"</string>
     <string name="power_consume_other">Sonstige</string>
     <string name="power_consume_rank_hardware">Hardware</string>
     <string name="power_consume_rank_software">Apps</string>
-    <string name="power_consume_rank_title">Energieverbrauch</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Apps: %s</string>
     <string name="power_customize_giveup_change">Änderungen verwerfen?</string>
     <string name="power_dailog_night_charge_protection_done">Verstanden</string>
@@ -4589,6 +4605,7 @@ Zustimmung jetzt widerrufen?"</string>
     <string name="renew_now">Erneuern</string>
     <string name="repair">Reparieren</string>
     <string name="repair_loading_text">Einen Moment…</string>
+    <string name="repeat_prompts">Langsam! Reiche nicht mehrere Anfragen hintereinander ein.</string>
     <string name="repeat_type">Wiederholen</string>
     <string name="repeated_marked_number_summary">Einen zweiten Anruf von der gleichen gemeldeten Nummer innerhalb von %d Minuten nicht blockieren</string>
     <string name="repeated_marked_number_title">Keine Wiederholungsanrufe von gemeldeten Nummern sperren</string>
@@ -5380,6 +5397,7 @@ Das Formatieren wird existierende Inhalte auf ^2 löschen. Um den Verlust von In
     <string name="tc_parse_error">SMS wurde nicht analysiert</string>
     <string name="tc_receive_timeout">Zeitüberschreitung bei der Kalibrierung</string>
     <string name="tc_send_sms_error">SMS wurde nicht gesendet</string>
+    <string name="tc_sms_bill_report_receive_content">Kalibrierungs-SMS (stelle sicher, dass die SMS Informationen zum Guthaben enthält)</string>
     <string name="tc_sms_report_direction">SMS Anfrage Code</string>
     <string name="tc_sms_report_do_report">Sende</string>
     <string name="tc_sms_report_get_default">Es entstehen Ihnen keine Kosten für Nachrichten, um Datenverbrauchsinfos von Ihrem Netzbetreiber abzurufen.</string>
@@ -5504,6 +5522,7 @@ Das Formatieren wird existierende Inhalte auf ^2 löschen. Um den Verlust von In
     <string name="title_app_update">Update verfügbar</string>
     <string name="title_auto_update">Autom. aktualisieren</string>
     <string name="title_background_connection">%s kann nicht im Hintergrund geöffnet werden</string>
+    <string name="title_bill_balance_inquiry">Guthaben (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Anrufe deiner Kontakte verpasst</string>
     <string name="title_block_calls_from_strangers">Wichtige Anrufe verpasst</string>
     <string name="title_chain_start">Kettenstart einschränken</string>
@@ -5526,6 +5545,7 @@ Das Formatieren wird existierende Inhalte auf ^2 löschen. Um den Verlust von In
     <string name="title_eye_shield">Bildschirmfarben sehen komisch aus</string>
     <string name="title_find_device">Gerätesuche</string>
     <string name="title_first_aid_kit">Probleme lösen</string>
+    <string name="title_flow_base_reminder">Datennutzungserinnerungen</string>
     <string name="title_flow_notification">Mobile Daten Benachrichtigung</string>
     <string name="title_flow_purchase">Mobile Daten kaufen</string>
     <string name="title_flow_rank">Mobile Datennutzung</string>
@@ -5642,6 +5662,7 @@ Die verbliebenen Daten enthalten Daten, die vom letzten Monat übernommen wurden
     <string name="traffic_remind">Datennutzungswarnung</string>
     <string name="traffic_remind_switch">Datennutzungswarnung</string>
     <string name="traffic_reminder_settings">Datennutzungswarnung einstellen</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Standort (GPS)</string>
     <string name="traffic_setting_fragment_brand">Marke</string>
     <string name="traffic_setting_fragment_button1_text">Abbruch</string>
@@ -5706,13 +5727,18 @@ Die verbliebenen Daten enthalten Daten, die vom letzten Monat übernommen wurden
     <string name="usage_sorted_empty_text">Kein Inhalt</string>
     <string name="usage_sorted_loading_text">Einen Moment…</string>
     <string name="usage_type_audio">Audio</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">CPU gesamt</string>
     <string name="usage_type_cpu_foreground">CPU im Vordergrund</string>
     <string name="usage_type_data_recv">Mobile Daten erhalten</string>
     <string name="usage_type_data_send">Mobile Daten gesendet</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Zeit ohne Signal</string>
     <string name="usage_type_on_time">Zeit an</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Video</string>
     <string name="usage_type_wake_lock">Aktiv</string>
     <string name="usage_type_wifi_running">WLAN aktiv</string>
@@ -5846,6 +5872,7 @@ Diese Funktion funktioniert nicht, wenn der Energiesparmodus oder der Ultra-Ener
     <string name="videobox_settings_timing">Binge-Wecker</string>
     <string name="videobox_settings_timing_desc">Erhalte einen stündlichen Binge-Wecker, der dich daran erinnert, eine Pause zu machen.</string>
     <string name="videobox_settings_title">Video-Werkzeugkasten</string>
+    <string name="view_package_info">Tarifdetails anzeigen</string>
     <string name="view_traffic_detail">Details anzeigen</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">Deinstallieren</string>

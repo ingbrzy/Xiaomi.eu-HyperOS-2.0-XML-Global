@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Bendrinti su</string>
     <string name="abc_shareactionprovider_share_with_application">Bendrinti naudojant programą „%s“</string>
     <string name="abc_toolbar_collapse_description">Sutraukti</string>
+    <string name="accessibility_sliding_button_state_description_off">išjungta</string>
+    <string name="accessibility_sliding_button_state_description_on">įjungta</string>
+    <string name="accessibility_tab_state_description_unselect">Nepasirinkta</string>
+    <string name="accessibility_tab_statedesc_unselect">Nepasirinkta</string>
     <string name="account_or_password_incorrect">Neteisingas paskyros ID arba slaptažodis</string>
     <string name="actionbar_button_up_description">Grįžti</string>
     <string name="afternoon">Popietė</string>
@@ -175,7 +179,7 @@ Apsilankykite https://appleid.apple.com/#!&amp;page=signin, norėdami išjungti"
     <string name="dialog_request_permission_message_extra_summary">Šie leidimai yra būtini įprastų programos funkcijų ir paslaugų naudojimui.</string>
     <string name="dialog_request_permission_message_extra_title">Privalomi leidimai</string>
     <string name="dialog_request_permission_message_global">Šios programos funkcionalumui užtikrinti reikalingi toliau nurodyti leidimai:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Tuo pat metu, norėdami visiškai suprasti savo teises, kaip naudotojas, taip pat, kokiais būdais naudojame jūsų duomenis, perskaitykite ir sutikite su mūsų &lt;a href='%1s'>naudotojo sutartimi&lt;/a> ir &lt;a href='%2s'>privatumo politika&lt;/a>.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">Tuo pat metu, norėdami visiškai suprasti savo teises, kaip naudotojas, taip pat, kokiais būdais naudojame jūsų duomenis, perskaitykite ir sutikite su mūsų %1$s ir %2$s.</string>
     <string name="dialog_request_permission_title">Dėmesio</string>
     <string name="dialog_request_permission_title_global">Reikalingi leidimai</string>
@@ -196,11 +200,13 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="err_bakfile_broken">Negalima naudoti šios atsarginės kopijos.</string>
     <string name="err_bakfile_not_exist">Atkūrimo failas neegzistuoja.</string>
     <string name="err_binder_died">Programa netikėtai sustojo.</string>
+    <string name="err_data_protection">Sename įrenginyje įjungta išplėstinė duomenų apsauga. Reikalingas patvirtinimas.</string>
     <string name="err_install_incompatible">Suderinamumo problema</string>
     <string name="err_low_storage">Nepakanka vietos saugykloje</string>
     <string name="err_no_gms">Nesuderinama programos versija. Šią programą įdiekite atskirai.</string>
     <string name="err_not_allow">Nepalaikoma</string>
     <string name="err_pkg_not_exist">Nepavyko rasti programos.</string>
+    <string name="err_receiver_no_space">Nepavyko perkelti. Įrenginyje nepakanka saugyklos vietos.</string>
     <string name="err_remote_no_space">Naujajame įrenginyje nepakanka laisvos vietos</string>
     <string name="err_remote_timeout">Perdavimui skirtas laikas pasibaigė</string>
     <string name="err_send_error">Nepavyko išsiųsti</string>
@@ -269,6 +275,12 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Supratau</string>
+    <string name="force_update_button_scan_host">Įdiegti</string>
+    <string name="force_update_content_guest">Norėdami perkelti elementus, atnaujinkite „Mi Mover“ naujame įrenginyje.</string>
+    <string name="force_update_content_host">Norėdami perkelti elementus, atnaujinkite „Mi Mover“ sename įrenginyje.</string>
+    <string name="force_update_title_guest">Atnaujinti „Mi Mover“ naujame įrenginyje</string>
+    <string name="force_update_title_host">Atnaujinti „Mi Mover“ sename įrenginyje</string>
     <string name="friday">Penktadienis</string>
     <string name="friday_short">Pn.</string>
     <string name="friday_shortest">Pn.</string>
@@ -408,6 +420,10 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="miui_wait_link_title_1">%d. Bakstelėkite „Aš siuntėjas“ ir minutėlę palaukite.</string>
     <string name="miui_wait_link_title_2">%d. Norėdami prisijungti, senajame įrenginyje pasirinkite šią aktyviąją sritį.</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
+    <string name="miuix_accessibility_title">Pavadinimas</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Išeiti iš redagavimo režimo</string>
+    <string name="miuix_appcompat_accessibility_new_message">Yra naujų žinučių</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Įjunkite redagavimo veikseną</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
@@ -423,6 +439,7 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="miuix_appcompat_select_all">Žymėti viską</string>
     <string name="miuix_appcompat_select_all_description">Pasirinkti viską</string>
     <string name="miuix_appcompat_select_item">Pasirinkti elementus</string>
+    <string name="miuix_progressbar_loading">Įkeliama</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Atnaujinimui braukite žemyn</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sėkmingai atnaujinta</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Atnaujinama…</string>
@@ -431,6 +448,7 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="miuix_sbl_tracking_progress_labe_up_none">Šiam kartui tiek</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Sekundėlę…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nepavyko įkelti elementų</string>
+    <string name="miuix_show_password">Rodyti slaptažodį</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Pranešimai, kontaktai ir skambučių istorija</string>
     <string name="monday">Pirmadienis</string>
@@ -503,11 +521,15 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="new_trans_intro_question_6">%d. Kodėl negalima perkelti programos duomenų iš trečiosios šalies įrenginio?</string>
     <string name="new_trans_intro_question_7">%d. Jei išjungsiu „Mi Mover“ perkėlimo proceso eigoje, ar galėsiu kitą kartą pradėti iš naujo?</string>
     <string name="new_trans_intro_question_8">%d. Kodėl naujajame įrenginyje dingo mano „WeChat“ istorija?</string>
+    <string name="new_version_transfer_downloading">Atnaujinamas „Mi Mover“</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Atnaujinama…</string>
     <string name="new_wait_link_message_2">„Aš siuntėjas“ mygtukas yra dešinėje „Mi Mover“ pradinio puslapio pusėje.</string>
     <string name="next">Kitas</string>
     <string name="night">Vakaras</string>
     <string name="no_more_memory_title">„Mi Mover“ reikalinga vietinė atsarginė kopija šiame įrenginyje. Šiuo metu atkūrimui įrenginyje nepakanka laisvos vietos. Pirmiausia atlaisvinkite šiek tiek vietos.</string>
     <string name="noon">Vidurdienis</string>
+    <string name="not_selectable">Negalima pasirinkti</string>
     <string name="not_set">Nenustatyta</string>
     <string name="not_support_data_content1">%dĮrenginio modeliui pritaikyti elementai</string>
     <string name="not_support_data_content2">%d. Programos duomenys</string>
@@ -556,6 +578,8 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="open_photo_and_contacts_cloud_sync_summary">Norėdami įgalinti elementų peržiūrą įrenginyje, įjunkite kontaktų ir galerijos elementų sinchronizavimą.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">Sinchronizuoti kontaktus ir galerijos elementus</string>
     <string name="operation_send">Siųsti</string>
+    <string name="opposite_new_version_transfer_content">Palaukite, kol atsinaujins kitas įrenginys ir perkraukite „Mi Mover“, tuomet spustelėkite, kad vėl prisijungtumėte.</string>
+    <string name="opposite_new_version_transfer_title">Kitas įrenginys atsinaujina</string>
     <string name="option_about">Apie „Mi Mover“</string>
     <string name="option_feedback_title">Atsiliepimas</string>
     <string name="option_privacy_policy">Privatumo politika</string>
@@ -603,7 +627,7 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="privacy_desc">Sveiki atvykę į „Mi Mover“! Ši programa teikia toliau nurodytas paslaugas:</string>
     <string name="privacy_experience_statement">Prisijunkite prie mūsų naudotojų patirties programos, norėdami bendrinti naudotojo duomenis su mumis ir taip mums padėti tobulinti jums teikiamų produktų ir paslaugų kokybę.</string>
     <string name="privacy_item1">Failų, pranešimų, sisteminių programų parametrų ir programų perdavimą</string>
-    <string name="privacy_message">&lt;Data>Prieš pradėdami naudoti „Mi Mover“, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%1$s\">privatumo politika&lt;/a>. „Mi Mover“ privatumo politikos įgaliojimus galite bet kada atšaukti programos skiltyje „Apie „Mi Mover““. Nesutikus su pirmiau nurodytomis paslaugomis, neturėsite galimybės naudotis kai kuriomis mūsų programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos.&lt;/Data></string>
+    <string name="privacy_message"><Data>Prieš pradėdami naudoti „Mi Mover“, susipažinkite ir sutikite su mūsų &lt;a href=\"%2$s\">naudotojo sutartimi&lt;/a> ir &lt;a href=\"%1$s\">privatumo politika&lt;/a>. „Mi Mover“ privatumo politikos įgaliojimus galite bet kada atšaukti programos skiltyje „Apie „Mi Mover““. Nesutikus su pirmiau nurodytomis paslaugomis, neturėsite galimybės naudotis kai kuriomis mūsų programos funkcijomis; tačiau, pagrindinės programos funkcijos ir toliau išliks pasiekiamos.</Data></string>
     <string name="privacy_policy">Privatumo politika</string>
     <string name="privacy_title">Nuostatos ir sąlygos</string>
     <string name="prompt_before_transmission_message1_summary">Jei pasirinksite perkelti juos iš savo seno įrenginio, bus perrašyti programėlės duomenys (įskaitant pokalbių istorija).</string>
@@ -695,6 +719,12 @@ Atlaisvinkite bent %s."</string>
     <string name="secret_password_confirm_summary">Patvirtinkite savo tapatybę įvesdami privatumo apsaugos slaptažodį, kad galėtumėte perkelti privačius failus į naują įrenginį.</string>
     <string name="secret_password_confirm_title">Privatumo apsaugos slaptažodis</string>
     <string name="secret_title">Asmeniniai elementai</string>
+    <string name="security_connect_button_negative">Atšaukti</string>
+    <string name="security_connect_button_positive">Prisijungti</string>
+    <string name="security_connect_content">Užtikrinkite, kad abiejuose įrenginiuose sutampa jungties kodai. Tuomet spustelėkite „Prisijungti“, kad perkeltumėte elementus.</string>
+    <string name="security_connect_hint">Prisijungimo kodas</string>
+    <string name="security_connect_title_guest">Prisijungti prie naujo įrenginio dabar?</string>
+    <string name="security_connect_title_host">Prisijungti prie senojo įrenginio dabar?</string>
     <string name="select_all">Žymėti viską</string>
     <string name="select_android_summary">„Huawei“, „OPPO“, „vivo“ ir dar daugiau</string>
     <string name="select_android_title">„Android“</string>
@@ -867,6 +897,7 @@ Atsisiųsti ir įdiegti „Mi Mover“."</string>
     <string name="trans_sync_transfer_data_list">Pasirinkite elementus perkėlimui į senąjį įrenginį</string>
     <string name="trans_sync_transfer_data_list_apple">Perkelkite elementus iš savo „Apple“ įrenginio</string>
     <string name="trans_sync_transfer_data_list_hint">Sekundėlę…</string>
+    <string name="trans_sync_transfer_data_list_pad">Sename įrenginyje pasirinkite norimus perkelti elementus</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Savo sename įrenginyje pasirinkite elementus ir spustelėkite „Siųsti“.</string>
     <string name="trans_time_format_second">Liko mažiau nei %d minutė</string>
     <string name="trans_time_spent">Laikas: %s</string>
@@ -878,6 +909,10 @@ Atsisiųsti ir įdiegti „Mi Mover“."</string>
     <string name="transfer_lose_connect_title">Ryšys nutrūko</string>
     <string name="transfer_multi_connect_summary">Jūsų perdavimas sutrukdytas dėl saugumo priežasčių. Norėdami tęsti, bakstelėkite „Prisijungti iš naujo“.</string>
     <string name="transfer_multi_connect_title">Atrodo, keletas įrenginių prisijungę prie šios aktyviosios srities</string>
+    <string name="transfer_no_memory_dialog_btn">Supratau</string>
+    <string name="transfer_no_memory_dialog_summary">Naujajame įrenginyje nepakanka saugyklos vietos, kad būtų atliktas perkėlimas. Išvalykite įrenginio failus, kad galėtumėte perkelti elementus.</string>
+    <string name="transfer_no_memory_dialog_title">Trūksta vietos</string>
+    <string name="transfer_no_memory_dialog_title_pad">Trūksta vietos</string>
     <string name="transfer_quit_alert_btn_negative">Išeiti</string>
     <string name="transfer_quit_alert_btn_positive">Neišeiti</string>
     <string name="transfer_quit_alert_message">"„Mi Mover“ šiuo metu veikia. Vis tiek išeiti?

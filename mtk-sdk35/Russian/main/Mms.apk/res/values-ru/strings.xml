@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Поделиться с помощью</string>
     <string name="abc_shareactionprovider_share_with_application">Поделиться с помощью %s</string>
     <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="accessibility_sliding_button_state_description_off">Отключено</string>
+    <string name="accessibility_sliding_button_state_description_on">Включено</string>
+    <string name="accessibility_tab_state_description_unselect">Не выбрано</string>
     <string name="action_get_otp">Получить код</string>
     <string name="action_sign_in">Войти</string>
     <string name="action_sign_in_short">Войти</string>
@@ -468,10 +471,8 @@
     <string name="menu_unlock">Удалить из избранных</string>
     <string name="menu_view_contact">Просмотреть контакт</string>
     <string name="menu_view_group_info">Информация о группе</string>
-    <string name="message_cannot_send_air_mode">"Не удалось отправить сообщения.
-Сначала отключите режим полета."</string>
-    <string name="message_cannot_send_sim_unavailable">"Не удалось отправить сообщения.
-Проверьте SIM-карту."</string>
+    <string name="message_cannot_send_air_mode">Для отправки сообщений отключите Режим полета</string>
+    <string name="message_cannot_send_sim_unavailable">Для отправки сообщений вставьте SIM-карту</string>
     <string name="message_class_label">"Класс сообщения: "</string>
     <string name="message_contact">Контакт:</string>
     <string name="message_details_title">Информация о сообщении</string>
@@ -499,6 +500,12 @@
     <string name="midnight">Ночь</string>
     <string name="millionbyte">МБ</string>
     <string name="miuix_access_state_desc">Выбрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Свернуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Развернуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйти из режима редактирования</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новое уведомление</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Перейти в режим редактирования</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Отменить выбор</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбрать все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Выберите объекты</string>
@@ -514,12 +521,15 @@
     <string name="miuix_appcompat_select_all">Выбрать все</string>
     <string name="miuix_appcompat_select_all_description">Выбрать все</string>
     <string name="miuix_appcompat_select_item">Выберите объекты</string>
+    <string name="miuix_appcompat_show_dialog_description">Всплывающее окно</string>
     <string name="miuix_item_view_role_description">Вкладка</string>
     <string name="miuix_navigator_category_group_collapse">Свернуть</string>
     <string name="miuix_navigator_category_group_expand">Развернуть</string>
     <string name="miuix_navigator_content_switch_description">Показать боковую панель</string>
     <string name="miuix_navigator_multiple_choice">Выбрать</string>
     <string name="miuix_navigator_navigator_switch_description">Скрыть боковую панель</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Панель инструментов в нижней части экрана</string>
+    <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потяните вниз для обновления</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Обновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновление…</string>
@@ -528,6 +538,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">На данный момент это все</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Секунду…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не удалось загрузить данные</string>
+    <string name="miuix_show_password">Показать пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Свернуто</string>
+    <string name="miuix_stretchablewidget_expanded">Развернуто</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Все MMS, кроме сообщений от авторизованных отправителей, будут заблокированы. Авторизованными отправителями являются сетевые операторы, национальные системы бронирования железнодорожных билетов и т. д.</string>
     <string name="mms_block_alert_ok">Блокировать</string>
@@ -621,6 +634,18 @@
     <string name="mx_privacy_policy">Политика конфиденциальности Mi Сообщений</string>
     <string name="mx_stranger_recommend_msg">Нажмите для блокировки Mi сообщений с неизвестных номеров</string>
     <string name="need_download">Синхронизация…</string>
+    <string name="net_message_download_btn_content_desc">Скачать</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Копировать код %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Открыть ссылку %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Открыть приложение</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Открыть Календарь</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Набрать %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Ответить</string>
+    <string name="net_message_media_card_img_content_desc">Фото</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Воспроизведение видео завершено</string>
+    <string name="net_message_media_card_video_content_desc">Видео</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Пауза</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Играть</string>
     <string name="net_sms_subscribed">Вы успешно подписались</string>
     <string name="net_sms_unsubscribe">Вы успешно отказались от подписки</string>
     <string name="networking_allow_continue">Разрешить</string>
@@ -668,6 +693,7 @@
     <string name="over_max_mms_size">Размер MMS слишком велик.</string>
     <string name="overwrite_edited_content">Перезаписать содержимое?</string>
     <string name="packages_select_sim_cards_title">Выберите SIM-карту</string>
+    <string name="page_indicator">Индикатор страницы</string>
     <string name="passenger_title">Пассажир</string>
     <string name="pay_bill">Оплатить</string>
     <string name="payment_failed">Не удалось завершить платеж</string>
@@ -909,6 +935,7 @@
     <string name="recommend_bar_ok">Включить</string>
     <string name="recommend_bar_title_mx_rcs">Mi сообщения</string>
     <string name="recommend_close">Отключить</string>
+    <string name="recommend_close_button">Закрыть</string>
     <string name="recommend_disagree">Отклонить</string>
     <string name="recommend_free_internet_message">Бесплатный обмен сообщениями через интернет</string>
     <string name="recommend_free_mi">Mi Сообщения</string>
@@ -1058,6 +1085,7 @@
     <string name="snippet_audio">[Аудио]</string>
     <string name="snippet_picture">[Изображение]</string>
     <string name="snippet_timed">[Таймер]</string>
+    <string name="soundrecorder_not_found">Сначала установите Диктофон</string>
     <string name="sp_category_all">Все служебные сообщения</string>
     <string name="sp_category_bank">Сообщения от банков</string>
     <string name="sp_category_title_prefix">%s</string>

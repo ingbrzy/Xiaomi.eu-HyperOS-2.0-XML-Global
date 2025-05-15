@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Partager avec</string>
     <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
     <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="accessibility_sliding_button_state_description_off">désactivé</string>
+    <string name="accessibility_sliding_button_state_description_on">activé</string>
+    <string name="accessibility_tab_state_description_unselect">Non sélectionné</string>
+    <string name="accessibility_tab_statedesc_unselect">Non sélectionné</string>
     <string name="account_or_password_incorrect">Identifiant de compte ou mot de passe incorrect</string>
     <string name="actionbar_button_up_description">Retour</string>
     <string name="afternoon">Après midi</string>
@@ -175,7 +179,7 @@ Visiter https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
     <string name="dialog_request_permission_message_extra_summary">Ces autorisations sont nécessaires pour rendre les fonctionnalités et services de base de cette application disponibles.</string>
     <string name="dialog_request_permission_message_extra_title">Autorisations obligatoires</string>
     <string name="dialog_request_permission_message_global">Cette application a besoin des autorisations suivantes pour fonctionner normalement:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>D'autre part, pour bien comprendre vos droits en tant qu'utilisateur ainsi que la façon dont nous utilisons vos données, lisez et acceptez nos &lt;a href='%1s'>Accord Utilisateur&lt;/a> et &lt;a href='%2s'>Politique de Confidentialité&lt;/a>.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"Pour bien comprendre vos droits en tant qu'utilisateur ainsi que les façons dont nous utilisons vos données, lisez et acceptez notre &lt;a href='%1s'>Accord Utilisateur du Systeme d'exploitation Xiaomi&lt;/a> et &lt;a href='%2s'>Politique de Confidentialité Mi Mover&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">"Dans le même temps, pour bien comprendre vos droits en tant qu'utilisateur ainsi que la manière dont nous utilisons vos données, lisez et acceptez notre %1$s et %2$s."</string>
     <string name="dialog_request_permission_title">Attention</string>
     <string name="dialog_request_permission_title_global">Autorisations requises</string>
@@ -196,11 +200,13 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="err_bakfile_broken">"Impossible d'utiliser cette sauvegarde."</string>
     <string name="err_bakfile_not_exist">"Le fichier de sauvegarde n'existe pas."</string>
     <string name="err_binder_died">"L'application s'est arrêtée de manière inattendue."</string>
+    <string name="err_data_protection">"La protection avancée des données est activée sur l'ancien appareil. Vérification requise."</string>
     <string name="err_install_incompatible">Problème de compatibilité</string>
     <string name="err_low_storage">"Pas assez d'espace de stockage"</string>
     <string name="err_no_gms">"Version de l'application incompatible. Installez cette application séparément."</string>
     <string name="err_not_allow">Non pris en charge</string>
     <string name="err_pkg_not_exist">"Impossible de trouver l'application."</string>
+    <string name="err_receiver_no_space">Impossible de transférer. Stockage insuffisant sur le nouvel appareil.</string>
     <string name="err_remote_no_space">Espace de stockage insuffisant sur le nouvel appareil</string>
     <string name="err_remote_timeout">Délai de transfert expiré</string>
     <string name="err_send_error">"Impossible d'envoyer"</string>
@@ -269,6 +275,12 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">"C'est compris"</string>
+    <string name="force_update_button_scan_host">Installer</string>
+    <string name="force_update_content_guest">Mettre à jour Mi Mover sur le nouvel appareil pour pouvoir transférer des éléments.</string>
+    <string name="force_update_content_host">"Mettre à jour Mi Mover sur l'ancien appareil pour pouvoir transférer des éléments."</string>
+    <string name="force_update_title_guest">Mettre à jour Mi Mover sur le nouvel appareil</string>
+    <string name="force_update_title_host">"Mettre à jour Mi Mover sur l'ancien appareil"</string>
     <string name="friday">Vendredi</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
@@ -408,6 +420,10 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="miui_wait_link_title_1">%d. Appuyer sur \"Je suis un expéditeur\" et attendez un instant.</string>
     <string name="miui_wait_link_title_2">"%d. Sélectionnez ce point d'accès sur votre ancien appareil pour vous connecter."</string>
     <string name="miuix_access_state_desc">Sélectionné</string>
+    <string name="miuix_accessibility_title">Titre</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">"Quitter le mode d'édition"</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nouveau message</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entrer en mode édition</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Tout désélectionner</string>
     <string name="miuix_appcompat_action_mode_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_action_mode_title_empty">Sélectionner des éléments</string>
@@ -423,6 +439,7 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="miuix_appcompat_select_all">Tout sélectionner</string>
     <string name="miuix_appcompat_select_all_description">Tout sélectionner</string>
     <string name="miuix_appcompat_select_item">Sélectionnez les éléments</string>
+    <string name="miuix_progressbar_loading">Chargement</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Faites glisser vers le bas pour actualiser</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualisé avec succès</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Actualisation…</string>
@@ -431,6 +448,7 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="miuix_sbl_tracking_progress_labe_up_none">"C'est tout pour le moment"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Juste un instant…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Impossible de charger les éléments</string>
+    <string name="miuix_show_password">Afficher le mot de passe</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Messages, contacts, et historique des appels</string>
     <string name="monday">Lundi</string>
@@ -503,11 +521,15 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="new_trans_intro_question_6">"%d. Pourquoi les données de l'application ne peuvent-elles pas être transférées à partir d'un appareil tiers ?"</string>
     <string name="new_trans_intro_question_7">"%d. Si je quitte Mi Mover au milieu d'un transfert, devrai-je recommencer la prochaine fois ?"</string>
     <string name="new_trans_intro_question_8">%d. Pourquoi mon historique WeChat a-t-il disparu sur le nouvel appareil ?</string>
+    <string name="new_version_transfer_downloading">Mise à jour de Mi Mover</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Mise à jour…</string>
     <string name="new_wait_link_message_2">"Le bouton \"Je suis un expéditeur\" se trouve directement sur la page d'accueil de Mi Mover."</string>
     <string name="next">Suivant</string>
     <string name="night">Soirée</string>
     <string name="no_more_memory_title">"Mi Mover à besoin de crééer une sauvegarde locale sur cet appereil. Il n'y a pas assez d'espace de stockage pour crééer une sauvegarde maintenant. Libérez de l'espace en premier."</string>
     <string name="noon">Midi</string>
+    <string name="not_selectable">Impossible de sélectionner</string>
     <string name="not_set">Non définie</string>
     <string name="not_support_data_content1">"%d. Éléments spécifiques au modèle d'appareil"</string>
     <string name="not_support_data_content2">"%d. Données de l'application"</string>
@@ -556,6 +578,8 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="open_photo_and_contacts_cloud_sync_summary">Activez la synchronisation pour faire apparaître les contacts et les éléments de la Galerie sur cet appareil.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">Synchroniser les contacts et les éléments de la Galerie</string>
     <string name="operation_send">Envoyer</string>
+    <string name="opposite_new_version_transfer_content">"Attendez que l'autre appareil se mette à jour et redémarre Mi Mover, puis appuyez pour reconnecter."</string>
+    <string name="opposite_new_version_transfer_title">"L'autre appareil est en train de se mettre à jour"</string>
     <string name="option_about">A propos de Mi Mover</string>
     <string name="option_feedback_title">Commentaires</string>
     <string name="option_privacy_policy">Politique de Confidentialité</string>
@@ -603,7 +627,7 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="privacy_desc">Bienvenue sur Mi Mover! Cette application fournit les services suivants :</string>
     <string name="privacy_experience_statement">"Rejoignez notre programme d'expérience utilisateur pour partager les données utilisateur avec nous afin de nous aider à améliorer nos produits et services."</string>
     <string name="privacy_item1">"· Transfert de fichiers, de messages, de paramètres d'application système et d'applications"</string>
-    <string name="privacy_message">"&lt;Data>Lisez et acceptez notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> et notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> avant d'utiliser Mi Mover. Vous pouvez retirer votre consentement à la Politique de Confidentialité de Mi Mover dans \"À propos de Mi Mover\" à tout moment. Si vous n'acceptez pas d'utiliser les services susmentionnés, vous ne pourrez pas utiliser certaines fonctionnalités de cette application; cependant, sa fonctionnalité de base sera toujours disponible pour vous.&lt;/Data>"</string>
+    <string name="privacy_message"><Data>"Lisez et acceptez notre &lt;a href=\"%2$s\">Accord Utilisateur&lt;/a> et notre &lt;a href=\"%1$s\">Politique de Confidentialité&lt;/a> avant d'utiliser Mi Mover. Vous pouvez retirer votre consentement à la Politique de Confidentialité de Mi Mover dans \"À propos de Mi Mover\" à tout moment. Si vous n'acceptez pas d'utiliser les services susmentionnés, vous ne pourrez pas utiliser certaines fonctionnalités de cette application; cependant, sa fonctionnalité de base sera toujours disponible pour vous."</Data></string>
     <string name="privacy_policy">Politique de Confidentialité</string>
     <string name="privacy_title">"Conditions d'utilisation"</string>
     <string name="prompt_before_transmission_message1_summary">"Si vous choisissez de les transférer depuis votre ancien appareil, les données de l'application (y compris l'historique des discussions) seront écrasées."</string>
@@ -695,6 +719,12 @@ Libérez au moins %s."</string>
     <string name="secret_password_confirm_summary">Vérifiez votre identité en entrant votre mot de passe de protection de la vie privée pour pouvoir transférer des fichiers privés sur votre nouvel appareil.</string>
     <string name="secret_password_confirm_title">Mot de passe de protection de confidentialité</string>
     <string name="secret_title">Éléments privés</string>
+    <string name="security_connect_button_negative">Annuler</string>
+    <string name="security_connect_button_positive">Connexion</string>
+    <string name="security_connect_content">Assurez-vous que les codes de connexion sur les deux appareils correspondent. Appuyez ensuite sur \"Connecter\" pour transférer des éléments.</string>
+    <string name="security_connect_hint">Code de connexion</string>
+    <string name="security_connect_title_guest">Se connecter au nouvel appareil maintenant ?</string>
+    <string name="security_connect_title_host">"Se connecter à l'ancien appareil maintenant ?"</string>
     <string name="select_all">Tout sélectionner</string>
     <string name="select_android_summary">Huawei, OPPO, vivo et plus</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@ pour télécharger et installer Mi Mover."</string>
     <string name="trans_sync_transfer_data_list">"Sélectionner les éléments à transférer sur l'ancien appareil"</string>
     <string name="trans_sync_transfer_data_list_apple">Transférer des éléments de votre appareil Apple</string>
     <string name="trans_sync_transfer_data_list_hint">Un instant…</string>
+    <string name="trans_sync_transfer_data_list_pad">"Sélectionnez les éléments à transférer sur l'ancien appareil"</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Sélectionnez les éléments sur votre ancien appareil et appuyez sur \"Envoyer\".</string>
     <string name="trans_time_format_second">Moins de %d minute</string>
     <string name="trans_time_spent">Temps: %s</string>
@@ -878,6 +909,10 @@ pour télécharger et installer Mi Mover."</string>
     <string name="transfer_lose_connect_title">La connexion à été interrompue</string>
     <string name="transfer_multi_connect_summary">Votre transfert à été intérrompu en raison de probèmes de sécurité. Vous pouvez appuyer sur \"Se reconnecter\" pour continuer quand même.</string>
     <string name="transfer_multi_connect_title">Il semblerait que plusieurs appareils soient connectés à ce point de connexion</string>
+    <string name="transfer_no_memory_dialog_btn">"C'est compris"</string>
+    <string name="transfer_no_memory_dialog_summary">"Le nouvel appareil ne dispose pas de suffisamment d'espace de stockage pour terminer le transfert. Libérez de l'espace sur l'appareil pour pouvoir terminer le transfert des éléments."</string>
+    <string name="transfer_no_memory_dialog_title">Stockage insuffisant</string>
+    <string name="transfer_no_memory_dialog_title_pad">Stockage insuffisant</string>
     <string name="transfer_quit_alert_btn_negative">Quitter</string>
     <string name="transfer_quit_alert_btn_positive">Ne pas quitter</string>
     <string name="transfer_quit_alert_message">"Mi Mover est en cours d'utilisation. Quitter quand même?

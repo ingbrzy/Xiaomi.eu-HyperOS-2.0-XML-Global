@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Поділитися:</string>
     <string name="abc_shareactionprovider_share_with_application">Поділитися через додаток %s</string>
     <string name="abc_toolbar_collapse_description">Згорнути</string>
+    <string name="accessibility_sliding_button_state_description_off">вимкнено</string>
+    <string name="accessibility_sliding_button_state_description_on">увімкнено</string>
+    <string name="accessibility_tab_state_description_unselect">Не вибрано</string>
+    <string name="accessibility_tab_statedesc_unselect">Не вибрано</string>
     <string name="account_or_password_incorrect">Неправильний акаунт або пароль</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Після обіду</string>
@@ -175,7 +179,7 @@
     <string name="dialog_request_permission_message_extra_summary">Ці дозволи необхідні, щоб зробити доступними основні функції та послуги програми.</string>
     <string name="dialog_request_permission_message_extra_title">"Обов'язкові дозволи"</string>
     <string name="dialog_request_permission_message_global">Для правильної роботи програмі необхідно отримати наступні дозволи:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>В той же час, щоб повністю зрозуміти ваші права як Користувача, а також те, як ми використовуємо ваші дані, прочитайте і погодьтеся з нашою &lt;a href='%1s'>Угодою користувача&lt;/a> та &lt;a href='%2s'>Політикою конфіденційності&lt;/a>.&lt;/Data>."</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">У той же час, щоб дізнатися про свої права користувача, а також способи використання ваших даних, ознайомтеся та погодьтеся з нашою %1$s та %2$s.</string>
     <string name="dialog_request_permission_title">Увага</string>
     <string name="dialog_request_permission_title_global">Необхідні дозволи</string>
@@ -196,11 +200,13 @@
     <string name="err_bakfile_broken">Неможливо використати резервну копію.</string>
     <string name="err_bakfile_not_exist">Файл резервної копії не існує.</string>
     <string name="err_binder_died">Програма раптово припинила роботу.</string>
+    <string name="err_data_protection">На старому пристрої увімкнено розширений захист даних. Потрібна перевірка.</string>
     <string name="err_install_incompatible">Проблема сумісності</string>
     <string name="err_low_storage">"Пам'ять заповнена"</string>
     <string name="err_no_gms">Несумісна версія програми. Встановіть цю програму окремо.</string>
     <string name="err_not_allow">Не підтримується</string>
     <string name="err_pkg_not_exist">Не вдалося знайти програму.</string>
+    <string name="err_receiver_no_space">"Не вдалося передати. Недостатньо пам'яті на новому пристрої."</string>
     <string name="err_remote_no_space">"Недостатньо пам'яті на новому пристрої"</string>
     <string name="err_remote_timeout">Час передачі закінчився</string>
     <string name="err_send_error">Не вдалося відправити</string>
@@ -269,6 +275,12 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Зрозуміло</string>
+    <string name="force_update_button_scan_host">Встановити</string>
+    <string name="force_update_content_guest">"Оновіть Mi Mover на новому пристрої, щоб мати можливість передавати об'єкти"</string>
+    <string name="force_update_content_host">"Оновіть Mi Mover на старому пристрої, щоб мати можливість передавати об'єкти"</string>
+    <string name="force_update_title_guest">Оновіть Mi Mover на новому пристрої</string>
+    <string name="force_update_title_host">Оновіть Mi Mover на старому пристрої</string>
     <string name="friday">"П'ятниця"</string>
     <string name="friday_short">Пт</string>
     <string name="friday_shortest">Пт</string>
@@ -408,6 +420,10 @@
     <string name="miui_wait_link_title_1">%d. Натисніть \"Я - відправник\" та зачекайте хвилинку.</string>
     <string name="miui_wait_link_title_2">%d. Щоб підключитися, виберіть цю точку доступу на вашому старому пристрої.</string>
     <string name="miuix_access_state_desc">Вибрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Вийти з режиму редагування</string>
+    <string name="miuix_appcompat_accessibility_new_message">Нове повідомлення</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Ввійти в режим редагування</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняти вибір</string>
     <string name="miuix_appcompat_action_mode_select_all">Вибрати все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Вибрати</string>
@@ -423,6 +439,7 @@
     <string name="miuix_appcompat_select_all">Вибрати все</string>
     <string name="miuix_appcompat_select_all_description">Вибрати все</string>
     <string name="miuix_appcompat_select_item">Вибрати елементи</string>
+    <string name="miuix_progressbar_loading">Завантаження</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потягніть вниз для оновлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Оновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Оновлення…</string>
@@ -431,6 +448,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Більше нічого немає</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Хвилинку…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не вдалося завантажити елементи</string>
+    <string name="miuix_show_password">Показати пароль</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Повідомлення, контакти та історія викликів</string>
     <string name="monday">Понеділок</string>
@@ -503,11 +521,15 @@
     <string name="new_trans_intro_question_6">%d. Чому дані програм не можуть бути перенесені із сторонніх пристроїв?</string>
     <string name="new_trans_intro_question_7">%d. Якщо я залишу Mi Mover під час передачі, наступного разу мені доведеться почати все спочатку?</string>
     <string name="new_trans_intro_question_8">%d. Чому моя історія WeChat зникла на новому пристрої?</string>
+    <string name="new_version_transfer_downloading">Оновлення Mi Mover</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Оновлення…</string>
     <string name="new_wait_link_message_2">Кнопка \"Я - відправник\" знаходиться у правому кутку стартової сторінки програми Мі Mover.</string>
     <string name="next">Далі</string>
     <string name="night">Вечір</string>
     <string name="no_more_memory_title">"Програмі Mi Mover необхідно створити резервну копію на цьому пристрої. В даний час на пристрої недостатньо пам'яті. Звільніть пам'ять і повторіть спробу."</string>
     <string name="noon">Полудень</string>
+    <string name="not_selectable">Не вдалося вибрати</string>
     <string name="not_set">Не налаштовано</string>
     <string name="not_support_data_content1">"%d. Об'єкти, специфічні для конкретної моделі пристрою"</string>
     <string name="not_support_data_content2">%d. Дані програми</string>
@@ -556,6 +578,8 @@
     <string name="open_photo_and_contacts_cloud_sync_summary">"Увімкніть синхронізацію, щоб дозволити контактам та об'єктам галереї з'явитися на цьому пристрої"</string>
     <string name="open_photo_and_contacts_cloud_sync_title">"Синхронізувати контакти та об'єкти галереї"</string>
     <string name="operation_send">Відправити</string>
+    <string name="opposite_new_version_transfer_content">Зачекайте на завершення оновлення на іншому пристрої та перезапустіть Mi Mover, а потім натисніть, щоб перепідключитися.</string>
+    <string name="opposite_new_version_transfer_title">Інший пристрій оновлюється</string>
     <string name="option_about">Про Mi Mover</string>
     <string name="option_feedback_title">Відгук</string>
     <string name="option_privacy_policy">Політика конфіденційності</string>
@@ -603,7 +627,7 @@
     <string name="privacy_desc">Ласкаво просимо до Mi Mover! Ця програма надає наступні послуги:</string>
     <string name="privacy_experience_statement">Приєднуйтесь до нашої Програми покращення якості, щоб поділитися з нами своїми даними користувача, які допоможуть нам покращити наші продукти та послуги.</string>
     <string name="privacy_item1">· Перенесення файлів, повідомлень, програм та налаштувань системних програм</string>
-    <string name="privacy_message">&lt;Data>Перед використанням програми Mi Mover ознайомтеся і погодьтеся з нашою&lt;a href=\"%2$s\">Угодою користувача&lt;/a> та &lt;a href=\"%1$s\">Політикою конфіденційності&lt;/a>. Ви можете в будь-який час відкликати свою згоду з Політикою конфіденційності програми Mi Mover в розділі \"Про Mi Mover\". Якщо ви не згодні використовувати вищезгадані служби, ви не зможете скористатися деякими функціями цієї програми, однак її основні функції залишаться доступними.&lt;/Data></string>
+    <string name="privacy_message"><Data>Перед використанням програми Mi Mover ознайомтеся і погодьтеся з нашою&lt;a href=\"%2$s\">Угодою користувача&lt;/a> та &lt;a href=\"%1$s\">Політикою конфіденційності&lt;/a>. Ви можете в будь-який час відкликати свою згоду з Політикою конфіденційності програми Mi Mover в розділі \"Про Mi Mover\". Якщо ви не згодні використовувати вищезгадані служби, ви не зможете скористатися деякими функціями цієї програми, однак її основні функції залишаться доступними.</Data></string>
     <string name="privacy_policy">Політикою конфіденційності</string>
     <string name="privacy_title">Правила та умови</string>
     <string name="prompt_before_transmission_message1_summary">Якщо ви виберете перенесення із старого пристрою, дані програм (включаючи історію діалогів) будуть перезаписані.</string>
@@ -695,6 +719,12 @@
     <string name="secret_password_confirm_summary">Підтвердіть свою особистість, увівши пароль захисту особистих даних, щоб передати особисті файли на новий пристрій.</string>
     <string name="secret_password_confirm_title">Пароль захисту особистих даних</string>
     <string name="secret_title">Особисті дані</string>
+    <string name="security_connect_button_negative">Скасувати</string>
+    <string name="security_connect_button_positive">Підключитиcя</string>
+    <string name="security_connect_content">"Переконайтеся, що коди підключення на обох пристроях співпадають. Потім натисніть \"Підключитися\", щоб перенести об'єкти."</string>
+    <string name="security_connect_hint">Код підключення</string>
+    <string name="security_connect_title_guest">Підключитися до нового пристрою зараз?</string>
+    <string name="security_connect_title_host">Підключитися до старого пристрою зараз?</string>
     <string name="select_all">Вибрати все</string>
     <string name="select_android_summary">Huawei, OPPO, vivo і т.д.</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@
     <string name="trans_sync_transfer_data_list">"Виберіть на старому пристрої об'єкти для перенесення"</string>
     <string name="trans_sync_transfer_data_list_apple">"Переносьте об'єкти з вашого пристрою Apple"</string>
     <string name="trans_sync_transfer_data_list_hint">Секунду…</string>
+    <string name="trans_sync_transfer_data_list_pad">"Виберіть об'єкти для передачі на старому пристрої"</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">"Виберіть об'єкти на вашому старому пристрої та натисніть \"Відправити\"."</string>
     <string name="trans_time_format_second">Залишилося менше %d хв</string>
     <string name="trans_time_spent">Час: %s</string>
@@ -878,6 +909,10 @@
     <string name="transfer_lose_connect_title">Підключення було перервано</string>
     <string name="transfer_multi_connect_summary">Передачу було перервано через міркування безпеки. Ви можете натиснути \"Підключитися ще раз\", щоб продовжити.</string>
     <string name="transfer_multi_connect_title">Схоже, що декілька пристроїв було підключено до цієї точки доступу</string>
+    <string name="transfer_no_memory_dialog_btn">Зрозуміло</string>
+    <string name="transfer_no_memory_dialog_summary">"На новому пристрої недостатньо пам'яті для завершення передачі. Звільніть пам'ять, щоб завершити передачу."</string>
+    <string name="transfer_no_memory_dialog_title">"Недостатньо пам'яті"</string>
+    <string name="transfer_no_memory_dialog_title_pad">"Недостатньо пам'яті"</string>
     <string name="transfer_quit_alert_btn_negative">Скасувати</string>
     <string name="transfer_quit_alert_btn_positive">Скасувати</string>
     <string name="transfer_quit_alert_message">"Виконується перенесення даних. Вийти з програми?

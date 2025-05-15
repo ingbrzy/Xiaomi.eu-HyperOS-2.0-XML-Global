@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="accessibility_sliding_button_state_description_off">Turned off</string>
+    <string name="accessibility_sliding_button_state_description_on">Turned on</string>
+    <string name="accessibility_tab_state_description_unselect">Not selected</string>
     <string name="action_get_otp">Get code</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -339,7 +342,7 @@ Please note that the internet messaging functionality is now suspended until fur
     <string name="fare">Fare</string>
     <string name="favorite_at_time">Added to favourites at: %1s</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="fdn_check_failure">You can only send messages to your fixed dialing numbers.</string>
+    <string name="fdn_check_failure">You can only send messages to your fixed dialling numbers.</string>
     <string name="feature_mx">Mi Message</string>
     <string name="feature_mx_summary"><b>Mi Message allows you to send messages to other Mi Message users over the internet without incurring charges</b>. An outgoing SMS message is required to activate this service. Your carrier will charge you for this message. Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using this feature.</string>
     <string name="feature_smart_sms">Smart Messaging</string>
@@ -468,8 +471,7 @@ Please note that the internet messaging functionality is now suspended until fur
     <string name="menu_unlock">Remove from favourites</string>
     <string name="menu_view_contact">View contact</string>
     <string name="menu_view_group_info">Group info</string>
-    <string name="message_cannot_send_air_mode">"Can't send messages.
-Turn off Aeroplane mode first."</string>
+    <string name="message_cannot_send_air_mode">Turn off Aeroplane mode to send messages</string>
     <string name="message_cannot_send_sim_unavailable">"Can't send messages.
 Check your SIM card."</string>
     <string name="message_class_label">"Message class: "</string>
@@ -499,6 +501,12 @@ Check your SIM card."</string>
     <string name="midnight">Night</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_accessibility_title">Title</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Collapsed</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expanded</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Exit edit mode</string>
+    <string name="miuix_appcompat_accessibility_new_message">New notification</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Enter edit mode</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect all</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -514,12 +522,15 @@ Check your SIM card."</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop-up window</string>
     <string name="miuix_item_view_role_description">Tab</string>
     <string name="miuix_navigator_category_group_collapse">Collapse</string>
     <string name="miuix_navigator_category_group_expand">Expand</string>
     <string name="miuix_navigator_content_switch_description">Show sidebar</string>
     <string name="miuix_navigator_multiple_choice">Select</string>
     <string name="miuix_navigator_navigator_switch_description">Hide sidebar</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Toolbar at the bottom of the screen</string>
+    <string name="miuix_progressbar_loading">Loading</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -528,6 +539,9 @@ Check your SIM card."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">"That's all for now"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Just a sec…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
+    <string name="miuix_show_password">Show password</string>
+    <string name="miuix_stretchablewidget_collapsed">Collapsed</string>
+    <string name="miuix_stretchablewidget_expanded">Expanded</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">All MMS except the messages sent from authorised senders will be blocked. Authorised senders include network carriers, national railway booking systems, etc.</string>
     <string name="mms_block_alert_ok">Block</string>
@@ -621,11 +635,23 @@ This message might be unsolicited."</string>
     <string name="mx_privacy_policy">Mi Message Privacy Policy</string>
     <string name="mx_stranger_recommend_msg">Tap to block Mi Messages from unknown numbers</string>
     <string name="need_download">Syncing…</string>
+    <string name="net_message_download_btn_content_desc">Download</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Copy code %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Open link %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Open app</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Open Calendar</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Dial %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Reply</string>
+    <string name="net_message_media_card_img_content_desc">Photo</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Video playback completed</string>
+    <string name="net_message_media_card_video_content_desc">Video</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Pause</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Play</string>
     <string name="net_sms_subscribed">Subscribed successfully</string>
     <string name="net_sms_unsubscribe">Unsubscribed successfully</string>
     <string name="networking_allow_continue">Allow</string>
     <string name="networking_allow_title">Attention</string>
-    <string name="new_message">Compose</string>
+    <string name="new_message">New message</string>
     <string name="new_message_arrived">Unread</string>
     <string name="new_phrase">Add reply</string>
     <string name="new_phrase_hint">Enter new reply</string>
@@ -668,6 +694,7 @@ This message might be unsolicited."</string>
     <string name="over_max_mms_size">MMS is too big.</string>
     <string name="overwrite_edited_content">"The content you've edited will be overwritten."</string>
     <string name="packages_select_sim_cards_title">Select SIM card</string>
+    <string name="page_indicator">Page indicator</string>
     <string name="passenger_title">Passenger</string>
     <string name="pay_bill">Pay</string>
     <string name="payment_failed">"Couldn't complete payment"</string>
@@ -909,6 +936,7 @@ Check out recommended chatbots!"</string>
     <string name="recommend_bar_ok">Turn on</string>
     <string name="recommend_bar_title_mx_rcs">Mi Message</string>
     <string name="recommend_close">Turn off</string>
+    <string name="recommend_close_button">Close</string>
     <string name="recommend_disagree">"Don't agree"</string>
     <string name="recommend_free_internet_message">Free internet messaging</string>
     <string name="recommend_free_mi">Mi Message</string>
@@ -1058,6 +1086,7 @@ Check out recommended chatbots!"</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">Install Recorder first</string>
     <string name="sp_category_all">All service messages</string>
     <string name="sp_category_bank">Bank notification messages</string>
     <string name="sp_category_title_prefix">%s</string>

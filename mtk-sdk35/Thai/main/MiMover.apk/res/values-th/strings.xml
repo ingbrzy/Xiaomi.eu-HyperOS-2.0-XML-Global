@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
     <string name="abc_shareactionprovider_share_with_application">แชร์ทาง %s</string>
     <string name="abc_toolbar_collapse_description">ยุบ</string>
+    <string name="accessibility_sliding_button_state_description_off">ปิด</string>
+    <string name="accessibility_sliding_button_state_description_on">เปิด</string>
+    <string name="accessibility_tab_state_description_unselect">ไม่ได้เลือก</string>
+    <string name="accessibility_tab_statedesc_unselect">ไม่ได้เลือก</string>
     <string name="account_or_password_incorrect">ID บัญชีหรือรหัสผ่านไม่ถูกต้อง</string>
     <string name="actionbar_button_up_description">ย้อนกลับ</string>
     <string name="afternoon">บ่าย</string>
@@ -175,7 +179,7 @@
     <string name="dialog_request_permission_message_extra_summary">สิทธิ์เหล่านี้จำเป็นต้องมีเพื่อให้ฟีเจอร์และบริการพื้นฐานของแอปนี้พร้อมใช้งาน</string>
     <string name="dialog_request_permission_message_extra_title">สิทธิ์ที่จำเป็น</string>
     <string name="dialog_request_permission_message_global">แอปนี้ต้องการการอนุญาตต่อไปนี้เพื่อให้สามารถทำงานได้ตามปกติ:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>ในเวลาเดียวกันเพื่อทำความเข้าใจสิทธิ์ของคุณอย่างเต็มที่ในฐานะผู้ใช้รวมถึงวิธีการที่เราใช้ข้อมูลของคุณ โปรดอ่านและยอมรับ &lt;a href='%1s'>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href='%2s'>นโยบายความเป็นส่วนตัว&lt;/a> ของเรา&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"เพื่อทำความเข้าใจสิทธิ์ของคุณอย่างเต็มที่ในฐานะผู้ใช้รวมถึงวิธีการที่เราใช้ข้อมูลของคุณ โปรดอ่านและยอมรับ &lt;a href='%1s'>ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href='%2s'>นโยบายความเป็นส่วนตัว&lt;/a>ของเรา"</Data></string>
     <string name="dialog_request_permission_message_provision_link">ในเวลาเดียวกัน เพื่อให้เข้าใจถึงสิทธิ์ของคุณในฐานะผู้ใช้อย่างถ่องแท้รวมถึงวิธีที่เราใช้ข้อมูลของคุณ โปรดอ่านและยอมรับ %1$s และ %2$s</string>
     <string name="dialog_request_permission_title">โปรดทราบ</string>
     <string name="dialog_request_permission_title_global">ต้องการการอนุญาต</string>
@@ -196,11 +200,13 @@
     <string name="err_bakfile_broken">ไม่สามารถสำรองข้อมูลนี้ได้</string>
     <string name="err_bakfile_not_exist">ไม่พบไฟล์ข้อมูลสำรองดังกล่าว</string>
     <string name="err_binder_died">แอปหยุดกระทันหัน</string>
+    <string name="err_data_protection">การป้องกันข้อมูลขั้นสูงเปิดอยู่ในอุปกรณ์เครื่องเก่า จำเป็นต้องมีการตรวจสอบ</string>
     <string name="err_install_incompatible">ปัญหาความเข้ากันได้</string>
     <string name="err_low_storage">ที่ว่างไม่เพียงพอ</string>
     <string name="err_no_gms">เวอร์ชั่นแอปไม่เข้ากัน กรุณาติดตั้งแอปแยกต่างหาก</string>
     <string name="err_not_allow">ไม่รองรับ</string>
     <string name="err_pkg_not_exist">ไม่พบแอป</string>
+    <string name="err_receiver_no_space">ไม่สามารถโอนย้ายได้ พื้นที่เก็บข้อมูลไม่เพียงพอในอุปกรณ์ใหม่</string>
     <string name="err_remote_no_space">พื้นที่จัดเก็บข้อมูลไม่เพียงพอในอุปกรณ์ใหม่</string>
     <string name="err_remote_timeout">การโอนหมดเวลา</string>
     <string name="err_send_error">ไม่สามารถส่งได้</string>
@@ -269,6 +275,12 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">รับทราบ</string>
+    <string name="force_update_button_scan_host">ติดตั้ง</string>
+    <string name="force_update_content_guest">อัปเดต Mi Mover บนอุปกรณ์เครื่องใหม่เพื่อให้สามารถถ่ายโอนรายการได้</string>
+    <string name="force_update_content_host">อัปเดต Mi Mover บนอุปกรณ์เครื่องเก่าเพื่อให้สามารถถ่ายโอนรายการได้</string>
+    <string name="force_update_title_guest">อัปเดต Mi Mover บนอุปกรณ์ใหม่</string>
+    <string name="force_update_title_host">อัปเดต Mi Mover บนอุปกรณ์เก่า</string>
     <string name="friday">วันศุกร์</string>
     <string name="friday_short">ศุกร์</string>
     <string name="friday_shortest">ศุกร์</string>
@@ -408,6 +420,10 @@
     <string name="miui_wait_link_title_1">%d แตะ \"ฉันเป็นผู้ส่ง\" และรอสักครู่</string>
     <string name="miui_wait_link_title_2">%d เลือกฮอตสปอตนี้บนอุปกรณ์เก่าของคุณเพื่อเชื่อมต่อ</string>
     <string name="miuix_access_state_desc">ที่เลือกไว้</string>
+    <string name="miuix_accessibility_title">หัวข้อ</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">ออกจากโหมดแก้ไข</string>
+    <string name="miuix_appcompat_accessibility_new_message">มีข้อความใหม่</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">เข้าสู่โหมดแก้ไข</string>
     <string name="miuix_appcompat_action_mode_deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_title_empty">เลือกรายการ</string>
@@ -423,6 +439,7 @@
     <string name="miuix_appcompat_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_all_description">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_item">เลือกรายการ</string>
+    <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">รีเฟรชสำเร็จแล้ว</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">กำลังรีเฟรช…</string>
@@ -431,6 +448,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">นั่นคือทั้งหมดตอนนี้</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">รอสักครู่…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">ไม่สามารถโหลดรายการได้</string>
+    <string name="miuix_show_password">แสดงรหัสผ่าน</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">ข้อความ, ผู้ติดต่อ และประวัติการโทร</string>
     <string name="monday">วันจันทร์</string>
@@ -503,11 +521,15 @@
     <string name="new_trans_intro_question_6">%d. เหตุใดจึงไม่สามารถถ่ายโอนข้อมูลแอปจากอุปกรณ์บุคคลที่สามได้?</string>
     <string name="new_trans_intro_question_7">%d. ถ้าฉันออกจาก Mi Mover ระหว่างการโอน ครั้งต่อไปจะต้องเริ่มใหม่หรือไม่?</string>
     <string name="new_trans_intro_question_8">%d. เหตุใดประวัติ WeChat ของฉันจึงหายไปในอุปกรณ์ใหม่?</string>
+    <string name="new_version_transfer_downloading">กำลังอัปเดต Mi Mover</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">กำลังอัปเดต…</string>
     <string name="new_wait_link_message_2">ปุ่ม \"ฉันเป็นผู้ส่ง\" อยู่ในหน้าเริ่มต้นของ Mi Mover</string>
     <string name="next">ถัดไป</string>
     <string name="night">เย็น</string>
     <string name="no_more_memory_title">Mi Mover ต้องสร้างการสำรองข้อมูลในเครื่องบนอุปกรณ์นี้ มีพื้นที่เก็บข้อมูลไม่เพียงพอที่จะสร้างการสำรองข้อมูลได้ในขณะนี้ เพิ่มพื้นที่ว่างก่อน</string>
     <string name="noon">เที่ยงวัน</string>
+    <string name="not_selectable">ไม่สามารถเลือกได้</string>
     <string name="not_set">ไม่ได้ตั้งค่า</string>
     <string name="not_support_data_content1">%d รายการเฉพาะรุ่นอุปกรณ์</string>
     <string name="not_support_data_content2">%d ข้อมูลแอป</string>
@@ -556,6 +578,8 @@
     <string name="open_photo_and_contacts_cloud_sync_summary">เปิดการซิงค์เพื่อให้ผู้ติดต่อและรายการในคลังภาพปรากฏบนอุปกรณ์นี้</string>
     <string name="open_photo_and_contacts_cloud_sync_title">ซิงค์รายชื่อและรายการในคลังภาพ</string>
     <string name="operation_send">ส่ง</string>
+    <string name="opposite_new_version_transfer_content">รอให้อุปกรณ์อื่นอัปเดตและรีสตาร์ท Mi Mover จากนั้นแตะเพื่อเชื่อมต่ออีกครั้ง</string>
+    <string name="opposite_new_version_transfer_title">อุปกรณ์อื่นกำลังอัปเดต</string>
     <string name="option_about">เกี่ยวกับ Mi Mover</string>
     <string name="option_feedback_title">ข้อเสนอแนะ</string>
     <string name="option_privacy_policy">นโยบายความเป็นส่วนตัว</string>
@@ -603,7 +627,7 @@
     <string name="privacy_desc">ยินดีต้อนรับสู่ Mi Mover! แอปนี้ให้บริการดังต่อไปนี้:</string>
     <string name="privacy_experience_statement">เข้าร่วมโปรแกรมประสบการณ์ผู้ใช้ของเราเพื่อแบ่งปันข้อมูลผู้ใช้กับเราเพื่อช่วยปรับปรุงผลิตภัณฑ์และบริการของเรา</string>
     <string name="privacy_item1">· การถ่ายโอนไฟล์ ข้อความ การตั้งค่าแอประบบ และแอป</string>
-    <string name="privacy_message">&lt;Data>อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> ก่อนใช้ Mi Mover คุณสามารถถอนการยินยอมต่อนโยบายความเป็นส่วนตัวของ Mi Mover ใน\"About Mi Mover\" ได้ทุกเมื่อ หากคุณไม่ยินยอมที่จะใช้บริการข้างต้นคุณจะไม่สามารถใช้คุณสมบัติบางอย่างของแอปนี้ได้ อย่างไรก็ตามฟังก์ชันพื้นฐานจะยังคงพร้อมใช้งานสำหรับคุณ&lt;/Data></string>
+    <string name="privacy_message"><Data>อ่านและยอมรับ &lt;a href=\"%2$s\">ข้อตกลงการใช้งาน&lt;/a> และ &lt;a href=\"%1$s\">นโยบายความเป็นส่วนตัว&lt;/a> ก่อนใช้ Mi Mover คุณสามารถถอนการยินยอมต่อนโยบายความเป็นส่วนตัวของ Mi Mover ใน\"About Mi Mover\" ได้ทุกเมื่อ หากคุณไม่ยินยอมที่จะใช้บริการข้างต้นคุณจะไม่สามารถใช้คุณสมบัติบางอย่างของแอปนี้ได้ อย่างไรก็ตามฟังก์ชันพื้นฐานจะยังคงพร้อมใช้งานสำหรับคุณ</Data></string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
     <string name="privacy_title">ข้อตกลงและเงื่อนไข</string>
     <string name="prompt_before_transmission_message1_summary">หากคุณเลือกโอนจากอุปกรณ์เครื่องเก่า ข้อมูลแอป (รวมถึงประวัติการแชท) จะถูกเขียนทับ</string>
@@ -695,6 +719,12 @@
     <string name="secret_password_confirm_summary">ยืนยันตัวตนของคุณโดยป้อนรหัสผ่านการปกป้องความเป็นส่วนตัวเพื่อให้สามารถถ่ายโอนไฟล์ส่วนตัวไปยังอุปกรณ์ใหม่ของคุณได้</string>
     <string name="secret_password_confirm_title">รหัสผ่านการปกป้องความเป็นส่วนตัว</string>
     <string name="secret_title">รายการส่วนบุคคล</string>
+    <string name="security_connect_button_negative">ยกเลิก </string>
+    <string name="security_connect_button_positive">เชื่อมต่อ</string>
+    <string name="security_connect_content">ตรวจสอบให้แน่ใจว่ารหัสการเชื่อมต่อบนอุปกรณ์ทั้งสองตรงกัน จากนั้นแตะ \"เชื่อมต่อ\" เพื่อถ่ายโอนรายการ</string>
+    <string name="security_connect_hint">รหัสการเชื่อมต่อ</string>
+    <string name="security_connect_title_guest">เชื่อมต่อไปยังอุปกรณ์ใหม่ตอนนี้?</string>
+    <string name="security_connect_title_host">เชื่อมต่อไปยังอุปกรณ์เก่าตอนนี้?</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="select_android_summary">Huawei, OPPO, vivo, และอีกมากมาย</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@
     <string name="trans_sync_transfer_data_list">เลือกรายการที่จะถ่ายโอนบนอุปกรณ์เก่า</string>
     <string name="trans_sync_transfer_data_list_apple">ถ่ายโอนรายการจากอุปกรณ์ Apple ของคุณ</string>
     <string name="trans_sync_transfer_data_list_hint">รอสักครู่…</string>
+    <string name="trans_sync_transfer_data_list_pad">เลือกรายการในอุปกรณ์เก่าที่จะถ่ายโอน</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">เลือกรายการบนอุปกรณ์เครื่องเก่าของคุณแล้วแตะ \"ส่ง\"</string>
     <string name="trans_time_format_second">เหลือน้อยกว่า %d นาที</string>
     <string name="trans_time_spent">เวลา: %s</string>
@@ -878,6 +909,10 @@
     <string name="transfer_lose_connect_title">ถูกตัดการเชื่อมต่อ</string>
     <string name="transfer_multi_connect_summary">การโอนของคุณถูกขัดจังหวะเนื่องจากเหตุผลด้านความปลอดภัย คุณสามารถแตะ \"เชื่อมต่ออีกครั้ง\" เพื่อดำเนินการต่อ</string>
     <string name="transfer_multi_connect_title">ดูเหมือนว่าอุปกรณ์หลายเครื่องเชื่อมต่อกับฮอตสปอตนี้</string>
+    <string name="transfer_no_memory_dialog_btn">รับทราบ</string>
+    <string name="transfer_no_memory_dialog_summary">อุปกรณ์ใหม่ไม่มีพื้นที่เก็บข้อมูลเพียงพอที่จะถ่ายโอนข้อมูลได้ กรุณาเคลียร์พื้นที่บนอุปกรณ์เพื่อให้สามารถถ่ายโอนข้อมูลได้</string>
+    <string name="transfer_no_memory_dialog_title">ที่จัดเก็บข้อมูลไม่เพียงพอ</string>
+    <string name="transfer_no_memory_dialog_title_pad">ที่จัดเก็บข้อมูลไม่เพียงพอ</string>
     <string name="transfer_quit_alert_btn_negative">ออก</string>
     <string name="transfer_quit_alert_btn_positive">ไม่ออก</string>
     <string name="transfer_quit_alert_message">"Mi Mover กำลังทำงานอยู่ตอนนี้ ยืนยันออก?

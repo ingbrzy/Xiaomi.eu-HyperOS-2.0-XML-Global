@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Делите помоћу</string>
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
+    <string name="accessibility_sliding_button_state_description_off">искључено</string>
+    <string name="accessibility_sliding_button_state_description_on">укључено</string>
+    <string name="accessibility_tab_state_description_unselect">Није изабрано</string>
+    <string name="accessibility_tab_statedesc_unselect">Није изабрано</string>
     <string name="account_or_password_incorrect">Нетачан ID или лозинка налога</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Поподне</string>
@@ -175,7 +179,7 @@
     <string name="dialog_request_permission_message_extra_summary">Ове дозволе се захтевају за доступност основних функција и услуга ове апликације.</string>
     <string name="dialog_request_permission_message_extra_title">Обавезне дозволе</string>
     <string name="dialog_request_permission_message_global">Ова апликација захтева следеће дозволе да би радила нормално:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Истовремено, да бисте потпуно разумели ваша корисничка права као и начин на који користимо ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор&lt;/a> и &lt;a href='%2s'>Правила о приватности&lt;/a>.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"Да бисте у потпуности разумели ваша права као корисника као и начине на које користимо ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор о Xiaomi оперативном систему&lt;/a> и &lt;a href='%2s'>Правила о приватности Mi Mover-а&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">Истовремено, ради потпуног разумевања ваших корисничких права, као и начина на које користимо ваше податке, прочитајте и прихватите наш %1$s и %2$s.</string>
     <string name="dialog_request_permission_title">Пажња</string>
     <string name="dialog_request_permission_title_global">Потребне су дозволе</string>
@@ -196,11 +200,13 @@
     <string name="err_bakfile_broken">Не може се користити овај бекап.</string>
     <string name="err_bakfile_not_exist">Бекап фајла не постоји.</string>
     <string name="err_binder_died">Апликација се неочекивано зауставила.</string>
+    <string name="err_data_protection">Напредна заштита података је укључена на старом уређају. Потребна је потврда.</string>
     <string name="err_install_incompatible">Проблем компатибилности</string>
     <string name="err_low_storage">Нема довољно складишног простора</string>
     <string name="err_no_gms">Некомпатибилна верзија апликације. Инсталирајте ову апликацију засебно.</string>
     <string name="err_not_allow">Није подржано</string>
     <string name="err_pkg_not_exist">Није пронађена апликација.</string>
+    <string name="err_receiver_no_space">Пренос није успео. Нема довољно складишног простора на новом уређају.</string>
     <string name="err_remote_no_space">Нема довољно складишног простора на новом уређају</string>
     <string name="err_remote_timeout">Пренос је истекао</string>
     <string name="err_send_error">Слање није успело</string>
@@ -269,6 +275,12 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Схватам</string>
+    <string name="force_update_button_scan_host">Инсталирај</string>
+    <string name="force_update_content_guest">Ажурирајте Mi Mover на новом уређају да бисте могли да преносите ставке.</string>
+    <string name="force_update_content_host">Ажурирајте Mi Mover на старом уређају да бисте могли да преносите ставке.</string>
+    <string name="force_update_title_guest">Ажурирајте Mi Mover на новом уређају</string>
+    <string name="force_update_title_host">Ажурирајте Mi Mover на старом уређају</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
@@ -408,6 +420,10 @@
     <string name="miui_wait_link_title_1">%d. Додирните „Ја сам пошиљалац” и сачекајте моменат.</string>
     <string name="miui_wait_link_title_2">%d. Изаберите ову приступну тачку на старом уређају ради повезивања.</string>
     <string name="miuix_access_state_desc">Изабрано</string>
+    <string name="miuix_accessibility_title">Наслов</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Изађи из режима уређивања</string>
+    <string name="miuix_appcompat_accessibility_new_message">Нова порука</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Улаз у режим за уређивање</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -423,6 +439,7 @@
     <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
     <string name="miuix_appcompat_select_item">Одаберите ставке</string>
+    <string name="miuix_progressbar_loading">Учитавање</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -431,6 +448,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">То је све за сада</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
+    <string name="miuix_show_password">Прикажи лозинку</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Поруке, контакти и историја позива</string>
     <string name="monday">Понедељак</string>
@@ -503,11 +521,15 @@
     <string name="new_trans_intro_question_6">%d. Зашто се подаци о апликацијама не могу пренети са уређаја треће стране?</string>
     <string name="new_trans_intro_question_7">%d. Ако напустим Mi Mover током трансфера, да ли ћу следећи пут морати да почнем испочетка?</string>
     <string name="new_trans_intro_question_8">%d. Зашто је моја историја WeChat-а нестала на новом уређају?</string>
+    <string name="new_version_transfer_downloading">Ажурирање Mi Mover-а</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Aжурирање…</string>
     <string name="new_wait_link_message_2">Дугме „Ја сам пошиљалац” је десно на почетној страници Mi Mover-а.</string>
     <string name="next">Даље</string>
     <string name="night">Вече</string>
     <string name="no_more_memory_title">Потребно је да Mi Mover креира локални бекап на овом уређају. Нема довољно складишног простора за креирање бекапа. Прво ослободите део простора.</string>
     <string name="noon">Подне</string>
+    <string name="not_selectable">Не може се изабрати</string>
     <string name="not_set">Није подешено</string>
     <string name="not_support_data_content1">%d. Ставке специфичне за модел уређаја</string>
     <string name="not_support_data_content2">%d. Подаци апликације</string>
@@ -556,6 +578,8 @@
     <string name="open_photo_and_contacts_cloud_sync_summary">Искључите синхронизацију да би се контакти и ставке из Галерије појавиле на овом уређају.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">Синхронизуј контакте и ставке у Галерији</string>
     <string name="operation_send">Пошаљи</string>
+    <string name="opposite_new_version_transfer_content">Сачекајте да се други уређај ажурира и поново покрене Mi Mover, а затим додирните да бисте се поново повезали.</string>
+    <string name="opposite_new_version_transfer_title">Други уређај се ажурира</string>
     <string name="option_about">О апликацији Mi Mover</string>
     <string name="option_feedback_title">Повратне информације</string>
     <string name="option_privacy_policy">Правила о приватности</string>
@@ -603,7 +627,7 @@
     <string name="privacy_desc">Добро дошли у Mi Mover! Ова апликација пружа следеће услуге:</string>
     <string name="privacy_experience_statement">Придружите се нашем Програму корисничког искуства дељењем корисничких податка са нама да бисте нам помогли у побољшању производа и услуга.</string>
     <string name="privacy_item1">· Преношење фајлова, порука, подешавања системских апликација и апликација</string>
-    <string name="privacy_message">&lt;Data>Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%1$s\">Правила о приватности&lt;/a> пре коришћења Mi Mover-а. Увек можете повући пристанак на Правила о приватности Mi Mover-а у \"О апликацији Mi Mover\". Ако не прихватите услове горе наведених услуга, нећете моћи користити неке функције ове апликације; ипак, њене основне функције ће вам и даље бити доступне.&lt;/Data></string>
+    <string name="privacy_message"><Data>Прочитајте и прихватите наш &lt;a href=\"%2$s\">Кориснички уговор&lt;/a> и &lt;a href=\"%1$s\">Правила о приватности&lt;/a> пре коришћења Mi Mover-а. Увек можете повући пристанак на Правила о приватности Mi Mover-а у \"О апликацији Mi Mover\". Ако не прихватите услове горе наведених услуга, нећете моћи користити неке функције ове апликације; ипак, њене основне функције ће вам и даље бити доступне.</Data></string>
     <string name="privacy_policy">Правила о приватности</string>
     <string name="privacy_title">Одредбе и услови</string>
     <string name="prompt_before_transmission_message1_summary">Ако одлучите да их пренесете са старог уређаја, подаци апликације (укључујући историју ћаскања) ће бити преписани.</string>
@@ -695,6 +719,12 @@
     <string name="secret_password_confirm_summary">Потврдите свој идентитет тако што ћете унети Лозинку за заштиту приватности да бисте могли да преносите приватне фајлове на свој нови уређај.</string>
     <string name="secret_password_confirm_title">Лозинка за заштиту приватности</string>
     <string name="secret_title">Приватне ставке</string>
+    <string name="security_connect_button_negative">Откажи</string>
+    <string name="security_connect_button_positive">Повежи</string>
+    <string name="security_connect_content">Уверите се да се кодови везе на оба уређаја подударају. Затим додирните „Повежи“ да бисте пренели ставке.</string>
+    <string name="security_connect_hint">Шифра везе</string>
+    <string name="security_connect_title_guest">Повезати се са новим уређајем сада?</string>
+    <string name="security_connect_title_host">Повезати се са старим уређајем сада?</string>
     <string name="select_all">Изабери све</string>
     <string name="select_android_summary">Huawei, OPPO, vivo и више</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@
     <string name="trans_sync_transfer_data_list">Изаберите ставке за слање на стари уређај</string>
     <string name="trans_sync_transfer_data_list_apple">Пренесите ставке са свог Apple уређаја</string>
     <string name="trans_sync_transfer_data_list_hint">Само тренутак…</string>
+    <string name="trans_sync_transfer_data_list_pad">Изаберите ставке на старом уређају за пренос</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Изаберите ставке на старом уређају и додирните „Пошаљи“.</string>
     <string name="trans_time_format_second">Мање од %d минута</string>
     <string name="trans_time_spent">Време: %s</string>
@@ -878,6 +909,10 @@
     <string name="transfer_lose_connect_title">Веза је прекинута</string>
     <string name="transfer_multi_connect_summary">Пренос је прекинут због безбедности. Можете додирнути „Повежи опет” за наставак.</string>
     <string name="transfer_multi_connect_title">Изгледа да је више уређаја повезано на ову приступну тачку</string>
+    <string name="transfer_no_memory_dialog_btn">Схватам</string>
+    <string name="transfer_no_memory_dialog_summary">Нови уређај нема довољно складишног простора да заврши пренос. Ослободите простор на уређају да бисте могли да завршите пренос ставки.</string>
+    <string name="transfer_no_memory_dialog_title">Недостатак складишног просторa</string>
+    <string name="transfer_no_memory_dialog_title_pad">Недостатак складишног просторa</string>
     <string name="transfer_quit_alert_btn_negative">Напусти</string>
     <string name="transfer_quit_alert_btn_positive">Не напуштај</string>
     <string name="transfer_quit_alert_message">"Mi Mover је сада активан. Ипак напустити?

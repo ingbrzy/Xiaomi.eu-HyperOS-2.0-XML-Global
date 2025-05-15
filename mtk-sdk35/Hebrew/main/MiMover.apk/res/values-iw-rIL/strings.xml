@@ -3,6 +3,10 @@
     <string name="PRD_summary_4">כיבוי ה-Wi-Fi או החלפה בין רשתות Wi-Fi במהלך תהליך ההעברה עלולים לגרום לכשל בתהליך ההעברה.</string>
     <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
     <string name="PRD_summary_5">העברות במהירות גבוהה עלולות לגרום למכשיר להתחמם יותר מהרגיל. המכשיר יתקרר לאחר סיום ההעברה.</string>
+    <string name="accessibility_sliding_button_state_description_off">כבוי</string>
+    <string name="accessibility_sliding_button_state_description_on">פועל</string>
+    <string name="accessibility_tab_state_description_unselect">לא נבחר</string>
+    <string name="accessibility_tab_statedesc_unselect">לא נבחר</string>
     <string name="account_or_password_incorrect">מזהה החשבון או הסיסמה שגויים</string>
     <string name="actionbar_button_up_description">הקודם</string>
     <string name="afternoon">אחר הצהריים</string>
@@ -139,7 +143,7 @@
     <string name="dialog_request_permission_message_extra_summary">הרשאות אלה נדרשות כדי שהתכונות והשירותים הבסיסיים של האפליקציה יהיו זמינים.</string>
     <string name="dialog_request_permission_message_extra_title">הרשאות חובה</string>
     <string name="dialog_request_permission_message_global">אפליקציה זו זקוקה להרשאות הבאות כדי שתוכל לעבוד בצורה רגילה:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>יחד עם זאת, כדי להבין היטב את זכויותיך כמשתמש, וכן כיצד אנו משתמשים בנתונים שלך, קרא והסכם ל&lt;a href='%1s'>הסכם המשתמש&lt;/a> ול&lt;a href='%2s'>מדיניות הפרטיות&lt;/a> שלנו.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">בתוך כך, על מנת להבין באופן מלא את זכויותיך כמשתמש וגם את הדרכים שבהן אנו משתמשים במידע שלך, עליך לקרוא את %1$s ואת %2$s שלנו ולהסכים אתם.</string>
     <string name="dialog_request_permission_title">שים לב</string>
     <string name="dialog_request_permission_title_global">נדרשת הרשאה</string>
@@ -160,11 +164,13 @@
     <string name="err_bakfile_broken">לא ניתן להשתמש בגיבוי זה.</string>
     <string name="err_bakfile_not_exist">קובץ גיבוי אינו קיים.</string>
     <string name="err_binder_died">היישום עצר באופן לא צפוי.</string>
+    <string name="err_data_protection">הגנת נתונים מתקדמת מופעלת במכשיר הישן. נדרש אימות.</string>
     <string name="err_install_incompatible">בעיית תאימות</string>
     <string name="err_low_storage">אין מספיק שטח לאחסון</string>
     <string name="err_no_gms">גרסת היישום אינה תואמת. התקן גרסה זו בנפרד.</string>
     <string name="err_not_allow">לא נתמך</string>
     <string name="err_pkg_not_exist">לא ניתן היה למצוא את היישום.</string>
+    <string name="err_receiver_no_space">לא ניתן להעביר. אין מספיק שטח אחסון במכשיר החדש.</string>
     <string name="err_remote_no_space">אין מספיק נפח אחסון במכשיר החדש</string>
     <string name="err_remote_timeout">פג תוקף ההעברה</string>
     <string name="err_send_error">לא ניתן לשלוח</string>
@@ -232,6 +238,12 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">הבנתי</string>
+    <string name="force_update_button_scan_host">להתקין</string>
+    <string name="force_update_content_guest">יש לעדכן את Mi Mover במכשיר החדש כדי שתוכלו להעביר תוכן.</string>
+    <string name="force_update_content_host">יש לעדכן את Mi Mover במכשיר הישן כדי שתוכלו להעביר תוכן.</string>
+    <string name="force_update_title_guest">לעדכן את Mi Mover במכשיר החדש</string>
+    <string name="force_update_title_host">לעדכן את Mi Mover במכשיר הישן</string>
     <string name="friday">שישי</string>
     <string name="friday_short">"ו'"</string>
     <string name="friday_shortest">"ו'"</string>
@@ -371,6 +383,10 @@
     <string name="miui_wait_link_title_1">%d. הקש על \"אני שולח\" וחכה רגע.</string>
     <string name="miui_wait_link_title_2">%d. בחר את הנקודה החמה הזו במכשיר הישן שלך כדי להתחבר.</string>
     <string name="miuix_access_state_desc">נבחר</string>
+    <string name="miuix_accessibility_title">כותרת</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">יציאה ממצבי עריכה</string>
+    <string name="miuix_appcompat_accessibility_new_message">הודessage חדש</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">כניסה למצב עריכה</string>
     <string name="miuix_appcompat_action_mode_deselect_all">לבטל בחירת הכול</string>
     <string name="miuix_appcompat_action_mode_select_all">בחר הכל</string>
     <string name="miuix_appcompat_action_mode_title_empty">בחר פריטים</string>
@@ -386,6 +402,7 @@
     <string name="miuix_appcompat_select_all">בחר הכל</string>
     <string name="miuix_appcompat_select_all_description">בחר הכל</string>
     <string name="miuix_appcompat_select_item">בחר פריטים</string>
+    <string name="miuix_progressbar_loading">טוען</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">משוך כלפי מטה כדי לרענן</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">רוענן בהצלחה</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">מרענן…</string>
@@ -394,6 +411,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">זה הכול לעכשיו</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">רק רגע…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">לא ניתן היה לטעון פריטים</string>
+    <string name="miuix_show_password">הצג סיסמה</string>
     <string name="mms">הודעת מולטימדיה (MMS)</string>
     <string name="mms_contacts_calllog">הודעות, אנשי קשר, ויומן שיחות</string>
     <string name="monday">שני</string>
@@ -466,11 +484,15 @@
     <string name="new_trans_intro_question_6">%d. למה לא ניתן להעביר נתוני אפליקציות ממכשיר צד שלישי?</string>
     <string name="new_trans_intro_question_7">%d. אם אעזוב את Mi Mover באמצע העברה, האם אצטרך להתחיל מחדש בפעם הבאה?</string>
     <string name="new_trans_intro_question_8">%d. למה היסטוריית ה-WeChat שלי נעלמה במכשיר החדש?</string>
+    <string name="new_version_transfer_downloading">מעדכן את Mi Mover</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">מעדכן…</string>
     <string name="new_wait_link_message_2">כפתור \"אני שולח\" נמצא בעמוד הפתיחה של Mi Mover.</string>
     <string name="next">הבא</string>
     <string name="night">ערב</string>
     <string name="no_more_memory_title">Mi Mover צריך ליצור גיבוי מקומי על גבי מכשיר זה. אין מכשיר מספיק מקום אחסון על מנת ליצור גיבוי כעת. פנה שטח אחסון תחילה.</string>
     <string name="noon">צהריים</string>
+    <string name="not_selectable">לא ניתן לבחור</string>
     <string name="not_support_data_content1">%d. פריטים הספציפיים לדגם המכשיר</string>
     <string name="not_support_data_content2">%d. נתוני יישומים</string>
     <string name="not_support_data_content3">%d. נתוני שטח שני</string>
@@ -518,6 +540,8 @@
     <string name="open_photo_and_contacts_cloud_sync_summary">הפעל סנכרון כדי שאנשי הקשר ופריטי הגלריה יופיעו במכשיר זה.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">סנכרן אנשי קשר ופריטי גלריה</string>
     <string name="operation_send">שליחה</string>
+    <string name="opposite_new_version_transfer_content">המתינו להשלמת העדכון במכשיר השני, אתחלו את Mi Mover ואז הקישו כדי להתחבר מחדש.</string>
+    <string name="opposite_new_version_transfer_title">המכשיר השני מתעדכן</string>
     <string name="option_about">אודות Mi Mover</string>
     <string name="option_feedback_title">משוב</string>
     <string name="option_privacy_policy">מדיניות הפרטיות</string>
@@ -564,7 +588,7 @@
     <string name="privacy_desc">ברוך הבא ל-Mi Mover! יישום זה מספק את השירותים הבאים:</string>
     <string name="privacy_experience_statement">הצטרף לתכנית חוויית המשתמש שלנו כדי לשתף אתנו את נתוני המשתמש, במטרה לעזור לנו לשפר את המוצרים והשירותים שלנו.</string>
     <string name="privacy_item1">· העברת קבצים, הודעות, הגדרות יישומי מערכת, ויישומים</string>
-    <string name="privacy_message">&lt;Data>עליך לקרוא ולהסכים ל&lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ול&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> לפני השימוש ב-Mi Mover. תוכל לבטל את הסכמתך למדיניות הפרטיות של Mi Mover בכל עת ב-\"אודות Mi Mover\". אם אינך מסכים להשתמש בשירותים האמורים לעיל, לא תוכל להשתמש בכמה מהתכונות של יישום זה; עם זאת, יכולות התפקוד הבסיסיות שלו עדיין יהיו זמינות עבורך.&lt;/Data></string>
+    <string name="privacy_message"><Data>עליך לקרוא ולהסכים ל&lt;a href=\"%2$s\">הסכם המשתמש&lt;/a> ול&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> לפני השימוש ב-Mi Mover. תוכל לבטל את הסכמתך למדיניות הפרטיות של Mi Mover בכל עת ב-\"אודות Mi Mover\". אם אינך מסכים להשתמש בשירותים האמורים לעיל, לא תוכל להשתמש בכמה מהתכונות של יישום זה; עם זאת, יכולות התפקוד הבסיסיות שלו עדיין יהיו זמינות עבורך.</Data></string>
     <string name="privacy_policy">מדיניות הפרטיות</string>
     <string name="privacy_title">תנאי השימוש</string>
     <string name="prompt_before_transmission_message1_summary">"אם תבחר להעביר אותם מהמכשיר הישן, נתוני היישומים (כולל היסטוריית הצ'טים) יידרסו."</string>
@@ -655,6 +679,12 @@
     <string name="secret_password_confirm_summary">יש לאמת את זהותך על-ידי הזנת הסיסמה להגנת הפרטיות כדי להעביר קבצים פרטיים למכשיר החדש.</string>
     <string name="secret_password_confirm_title">סיסמה להגנת הפרטיות</string>
     <string name="secret_title">פריטים פרטיים</string>
+    <string name="security_connect_button_negative">ביטול</string>
+    <string name="security_connect_button_positive">התחברות</string>
+    <string name="security_connect_content">ודאו שקודי ההתחברות בשני המכשירים תואמים. לאחר מכן, הקישו על \"התחברות\" כדי להעביר תוכן.</string>
+    <string name="security_connect_hint">קוד התחברות</string>
+    <string name="security_connect_title_guest">להתחבר למכשיר החדש עכשיו?</string>
+    <string name="security_connect_title_host">להתחבר למכשיר הישן עכשיו?</string>
     <string name="select_all">לבחור הכול</string>
     <string name="select_android_summary">Huawei, OPPO, vivo ועוד</string>
     <string name="select_android_title">אנדרואיד</string>
@@ -825,6 +855,7 @@
     <string name="trans_sync_transfer_data_list">בחר פריטים אשר ברצונך להעביר למכשיר הישן</string>
     <string name="trans_sync_transfer_data_list_apple">העברת פריטים ממכשיר ה-Apple שלכם</string>
     <string name="trans_sync_transfer_data_list_hint">רק רגע…</string>
+    <string name="trans_sync_transfer_data_list_pad">בחרו פריטים להעברה במכשיר הישן</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">נא לבחור תוכן במכשיר הישן שלך ולהקיש על \"שליחה\".</string>
     <string name="trans_time_format_second">פחות מדקה %d</string>
     <string name="trans_time_spent">זמן: %s</string>
@@ -836,6 +867,10 @@
     <string name="transfer_lose_connect_title">החיבור הופרע</string>
     <string name="transfer_multi_connect_summary">מסיבות אבטחה, ההעברה הופסקה. תוכל להקיש על \"התחבר שוב\" כדי להמשיך בכל זאת.</string>
     <string name="transfer_multi_connect_title">נראה שלנקודה חמה זו מחוברים מספר מכשירים</string>
+    <string name="transfer_no_memory_dialog_btn">הבנתי</string>
+    <string name="transfer_no_memory_dialog_summary">אין במכשיר החדש מספיק שטח אחסון כדי לסיים את ההעברה. פנו שטח אחסון במכשיר כדי שתוכלו לסיים את העברת התוכן.</string>
+    <string name="transfer_no_memory_dialog_title">אין מספיק שטח אחסון</string>
+    <string name="transfer_no_memory_dialog_title_pad">אין מספיק שטח אחסון</string>
     <string name="transfer_quit_alert_btn_negative">יציאה</string>
     <string name="transfer_quit_alert_btn_positive">אל תצא</string>
     <string name="transfer_quit_alert_message">"Mi Mover עובד כעת. האם לצאת?

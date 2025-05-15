@@ -962,6 +962,7 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="button_text_trust">Aquesta xarxa és de confiança</string>
     <string name="button_text_update_now">Actualizeu</string>
     <string name="button_to_setting">Configuració</string>
+    <string name="button_toll_correction">"Calibra l'equilibri"</string>
     <string name="byteShort">B</string>
     <string name="call_address">"Llista de bloqueig d'àrea"</string>
     <string name="call_all_number_block">Bloqueja totes les trucades</string>
@@ -1061,6 +1062,7 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="charging_text_battery_full_time">"Última càrrega "</string>
     <string name="charging_text_battery_nearly_full">Quasi carregada</string>
     <string name="charging_text_battery_perfect">Càrrega completa</string>
+    <string name="check_bill_balance">Consulta el saldo</string>
     <string name="choose">Trieu</string>
     <string name="choose_gs_show_way">"Seleccioneu l'orientació de la Pantalla d'Inici"</string>
     <string name="clean_immediately">Neteja</string>
@@ -1684,6 +1686,7 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
     <string name="fixed_cellular_data_quota_monthly">Límit de dades mensual</string>
     <string name="fixed_package_tips">Es generaran taxes addicionals un cop hàgiu assolit el límit</string>
     <string name="fixed_traffic_quota">Límit de dades (obligatori)</string>
+    <string name="fixed_traffic_quota_offline">Límit de dades (obligatori)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -2038,8 +2041,14 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
     <string name="gb_beauty_nature_light">Natural</string>
     <string name="gb_beauty_warm_light">Càlid</string>
     <string name="gb_collimator_color">Color</string>
+    <string name="gb_collimator_color_blue_talkback">Blau</string>
+    <string name="gb_collimator_color_purple_talkback">Lila</string>
+    <string name="gb_collimator_color_red_talkback">Vermell</string>
+    <string name="gb_collimator_color_white_talkback">Blanc</string>
+    <string name="gb_collimator_color_yellow_talkback">Groc</string>
     <string name="gb_collimator_size">Mida</string>
     <string name="gb_collimator_style">Tipus</string>
+    <string name="gb_collimator_style_talkback">Estil %1$d</string>
     <string name="gb_collimator_toast">Un visor fa que l’objectiu sigui molt més convenient</string>
     <string name="gb_cooler_device_toast">"Experiència visual millorada per
 Xiaomi Gaming Cooler"</string>
@@ -2142,7 +2151,7 @@ Enregistreu seqüències i feu-les servir en qualsevol moment."</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
     <string name="gb_network_status_bad">"S'ha produït un error de xarxa."</string>
     <string name="gb_new_feature">Nova característica</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Aquesta aplicació no es pot utilitzar a la pantalla exterior</string>
     <string name="gb_operat_frequently">No tan ràpid!</string>
     <string name="gb_performace_guide_disable_desc"><Data>No es pot canviar al mode equilibrat a Accelerador de Jocs quan el Mode rendiment de tot el sistema està activat. Pots canviar la configuració de la bateria a Seguretat.&lt;br>&lt;a href=\"#\">Obre Seguretat&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">"S'ha canviat al Mode rendiment. És possible que el vostre dispositiu s'escalfi i consumeixi més energia."</string>
@@ -2507,20 +2516,20 @@ Premeu prolongadament l'indicador per moure la finestra."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Bloqueja la SIM secundària</string>
     <string name="gtb_setting_item_title_smart_5g">Optimització de xarxa 5G</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Augment de velocitat del Mi WiFi</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Torna al joc</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">"No s'ha pogut connectar a la xarxa"</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Mostra</string>
+    <string name="gtb_spring_festival_guide">"Canvieu al mode paisatge
+per unir-vos a la nostra caça d'ous!"</string>
+    <string name="gtb_spring_festival_guide_know">Entesos</string>
+    <string name="gtb_spring_festival_push_active_desc">Guanya telèfons, dispositius intel·ligents i cupons</string>
+    <string name="gtb_spring_festival_push_active_title">"La caça d'ous de Pasqua està en marxa!"</string>
+    <string name="gtb_spring_festival_push_desc">"Uniu-vos a la nostra caça d'ous per guanyar premis"</string>
+    <string name="gtb_spring_festival_push_egg_title">Haeu rebut un ou de Pasqua!</string>
+    <string name="gtb_spring_festival_push_gift_title">"Arriben els premis de la caça d'ous!"</string>
+    <string name="gtb_spring_festival_push_join">Uniu-vos</string>
+    <string name="gtb_spring_festival_push_see">Mostra</string>
+    <string name="gtb_spring_festival_shortcut_create">"Crea una drecera a la Pantalla d'inici"</string>
     <string name="gtb_start_phone_accelerate">Augmenta el rendiment</string>
     <string name="gtb_stop_accelerate">Atura</string>
     <string name="gtb_timer">Temporitzador</string>
@@ -2715,6 +2724,7 @@ L'operadora podria carregar-li costos addicionals si torneu a utilitzar la conne
     <string name="main_activity_content_summary_update">Actualització del sistema</string>
     <string name="main_alert_message_no_imsi">"No s'ha detectat cap targeta SIM"</string>
     <string name="main_alert_message_open_traffic_ctrl">"Recomanem restringir l'ús de dades"</string>
+    <string name="main_balance_check">Consulta el saldo</string>
     <string name="main_bill_remained">Saldo del telèfon</string>
     <string name="main_button_mi_sim_close">Activa la SIM Mi</string>
     <string name="main_button_mi_sim_open">Veure detalls</string>
@@ -2729,6 +2739,7 @@ L'operadora podria carregar-li costos addicionals si torneu a utilitzar la conne
     <string name="main_daily_card_guide_dialog_title">Estableix el tipus de pla de dades</string>
     <string name="main_daily_card_guide_dialog_title_new">Estableix el tipus de pla de dades</string>
     <string name="main_daily_package">Pla de dades diari</string>
+    <string name="main_declaration_dialog_msg">"El valor del saldo que es mostra en aquesta funció no es pot utilitzar com a prova quan es negocia amb el vostre operador. Les dades mòbils i les estadístiques d'ús de veu proporcionades pel vostre operador tenen prioritat."</string>
     <string name="main_indicator_title">Activació</string>
     <string name="main_leisure_remained">Dades restants en horari vall</string>
     <string name="main_month_total_used">Utilitzats aquest mes</string>
@@ -3258,6 +3269,7 @@ Proveu a fer servir un altre cable Ethernet per connectar l'encaminador. Si sosp
     <string name="notify_weekly_traffic_body">"Per limitar l'ús de dades automàticament, configureu el vostre pla de dades mensual."</string>
     <string name="notify_weekly_traffic_title">"S'han utilitzat %s aquesta setmana"</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s fets servir %2$s aquesta setmana</string>
+    <string name="now_inquiry">Detalls</string>
     <string name="number_address">Ubicació</string>
     <string name="numeric_need_to_confirm">Torneu a introduir-la per confirmar</string>
     <string name="numeric_password_confirmed_header_confirm">"S'ha establert amb èxit. Toqueu per confirmar."</string>
@@ -3483,6 +3495,10 @@ Proveu a fer servir un altre cable Ethernet per connectar l'encaminador. Si sosp
     <string name="pc_continuity_open_save_mode_notifi_title">%s bateria baixa</string>
     <string name="pc_current_power_mode">Mode actual</string>
     <string name="pc_cycle_count_protect_title">Cicle</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Entesos</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">No ho tornis a mostrar</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">"El port tipus C a la part curta del dispositiu no admet la transferència de dades. Connecteu-vos a l'ordinador amb l'altre port."</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Recordatori de càrrega</string>
     <string name="pc_emergency_call">Emergència</string>
     <string name="pc_endurance_calculation">"S'està calculant…"</string>
     <string name="pc_entered_extreme_mode">"Mode d'hibernació activat"</string>
@@ -4008,7 +4024,7 @@ l'Estalvi de bateria ultra"</string>
     <string name="power_consume_other">Altres</string>
     <string name="power_consume_rank_hardware">Maquinari</string>
     <string name="power_consume_rank_software">Aplicacions</string>
-    <string name="power_consume_rank_title">Ús de bateria</string>
+    <string name="power_consume_rank_title">"Detalls d'ús de la bateria"</string>
     <string name="power_consume_software_total_format">Aplicacions: %s</string>
     <string name="power_customize_giveup_change">Voleu descartar els canvis?</string>
     <string name="power_dailog_night_charge_protection_done">Entesos</string>
@@ -4588,6 +4604,7 @@ Voleu retirar el consentiment ara?"</string>
     <string name="renew_now">Renova</string>
     <string name="repair">Repara</string>
     <string name="repair_loading_text">Un moment…</string>
+    <string name="repeat_prompts">Alenteix! No envieu diverses sol·licituds seguides.</string>
     <string name="repeat_type">Repeteix</string>
     <string name="repeated_marked_number_summary">No bloquegeu una segona trucada des del mateix número notificat en menys de %d minuts</string>
     <string name="repeated_marked_number_title">No bloquegis trucades repetides des de números notificats</string>
@@ -5379,6 +5396,7 @@ La formatació esborrarà tots els continguts de ^2. Per a evitar la pèrdua de 
     <string name="tc_parse_error">"No s'ha pogut analitzar l'SMS"</string>
     <string name="tc_receive_timeout">Temps de calibratge excedit</string>
     <string name="tc_send_sms_error">"No s'ha pogut enviar l'SMS"</string>
+    <string name="tc_sms_bill_report_receive_content">"SMS de calibratge (assegureu-vos que l'SMS conté informació de saldo)"</string>
     <string name="tc_sms_report_direction">Sol·licitud de codi SMS</string>
     <string name="tc_sms_report_do_report">Envia</string>
     <string name="tc_sms_report_get_default">"No rebreu càrrecs pels missatges utilitzats per obtenir la informació d'ús de dades de la vostra operadora."</string>
@@ -5503,6 +5521,7 @@ La formatació esborrarà tots els continguts de ^2. Per a evitar la pèrdua de 
     <string name="title_app_update">Hi ha actualitzacions disponibles</string>
     <string name="title_auto_update">Actualització automàtica</string>
     <string name="title_background_connection">No es pot utilitzar %s en segon pla</string>
+    <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Trobeu a faltar trucades de la vostra llista de contactes</string>
     <string name="title_block_calls_from_strangers">Trobeu a faltar trucades importants</string>
     <string name="title_chain_start">"Restringeix l'inici en cadena"</string>
@@ -5525,6 +5544,7 @@ La formatació esborrarà tots els continguts de ^2. Per a evitar la pèrdua de 
     <string name="title_eye_shield">El color de la pantalla no es veu bé</string>
     <string name="title_find_device">Troba dispositiu</string>
     <string name="title_first_aid_kit">Resoldre problemes</string>
+    <string name="title_flow_base_reminder">"Recordatoris d'ús de dades"</string>
     <string name="title_flow_notification">"Informe d'ús de dades"</string>
     <string name="title_flow_purchase">Hora de recarregar</string>
     <string name="title_flow_rank">Ús de dades mòbils</string>
@@ -5641,6 +5661,7 @@ Les dades restants inclouen dades excedents del mes anterior."</string>
     <string name="traffic_remind">Avís d’ús de dades</string>
     <string name="traffic_remind_switch">Avís d’ús de dades</string>
     <string name="traffic_reminder_settings">"Estableix un avís d'ús de dades"</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Configuració regional</string>
     <string name="traffic_setting_fragment_brand">Marca</string>
     <string name="traffic_setting_fragment_button1_text">Cancel·leu</string>
@@ -5705,13 +5726,18 @@ Les dades restants inclouen dades excedents del mes anterior."</string>
     <string name="usage_sorted_empty_text">Buit</string>
     <string name="usage_sorted_loading_text">Un moment…</string>
     <string name="usage_type_audio">Àudio</string>
+    <string name="usage_type_background_desk_power_consumption_time">Ús de fons</string>
     <string name="usage_type_cpu">Total de la CPU</string>
     <string name="usage_type_cpu_foreground">​​CPU en primer pla</string>
     <string name="usage_type_data_recv">Dades mòbils rebudes</string>
     <string name="usage_type_data_send">Dades mòbils enviades</string>
+    <string name="usage_type_front_desk_power_consumption_time">Ús en primer pla</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Temps sense senyal</string>
     <string name="usage_type_on_time">Temps encès</string>
+    <string name="usage_type_power_consumption_ratio">Ús de la bateria</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">"Potència utilitzada per %3$s com a percentatge de l'energia utilitzada per totes les aplicacions durant l'últim %1$s %2$s"</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">"Potència utilitzada per %2$s com a percentatge de l'energia utilitzada per totes les aplicacions durant l'últim %1$s"</string>
     <string name="usage_type_video">Vídeo</string>
     <string name="usage_type_wake_lock">Actiu</string>
     <string name="usage_type_wifi_running">Wi-Fi funcionant</string>
@@ -5845,6 +5871,7 @@ Aquesta funció requereix un consum d'energia més elevat.
     <string name="videobox_settings_timing">Alerta de descans</string>
     <string name="videobox_settings_timing_desc">Rebeu una alerta de descans cada hora que us recorda que heu de reposar</string>
     <string name="videobox_settings_title">"Caixa d'eines de vídeo"</string>
+    <string name="view_package_info">Veure els detalls del pla</string>
     <string name="view_traffic_detail">Veure detalls</string>
     <string name="view_traffic_details">"Consulteu les estadístiques d'ús de dades"</string>
     <string name="virus_app_delete_installed">Desinstal·la</string>

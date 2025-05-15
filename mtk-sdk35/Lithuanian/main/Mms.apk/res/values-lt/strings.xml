@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Bendrinti su</string>
     <string name="abc_shareactionprovider_share_with_application">Bendrinti naudojant programą „%s“</string>
     <string name="abc_toolbar_collapse_description">Sutraukti</string>
+    <string name="accessibility_sliding_button_state_description_off">Išjungta</string>
+    <string name="accessibility_sliding_button_state_description_on">Įjungta</string>
+    <string name="accessibility_tab_state_description_unselect">Nepasirinkta</string>
     <string name="action_get_otp">Gauti kodą</string>
     <string name="action_sign_in">Prisijungti</string>
     <string name="action_sign_in_short">Prisijungti</string>
@@ -468,10 +471,8 @@ Atkreipkite dėmesį, kad žinučių siuntimo funkcija internetu yra sustabdyta 
     <string name="menu_unlock">Pašalinti iš parankinių</string>
     <string name="menu_view_contact">Peržiūrėti kontaktą</string>
     <string name="menu_view_group_info">Grupės info</string>
-    <string name="message_cannot_send_air_mode">"Nepavyko išsiųsti pranešimų.
-Pirmiausia išjunkite lėktuvo režimą."</string>
-    <string name="message_cannot_send_sim_unavailable">"Nepavyko išsiųsti pranešimų.
-Patikrinkite savo SIM kortelę."</string>
+    <string name="message_cannot_send_air_mode">Norėdami siųsti žinutes, išjunkite lėktuvo režimą</string>
+    <string name="message_cannot_send_sim_unavailable">Norėdami siųsti žinutes, įdėkite SIM kortelę</string>
     <string name="message_class_label">"Žinutės klasė: "</string>
     <string name="message_contact">Kontaktas:</string>
     <string name="message_details_title">Pranešimo informacija</string>
@@ -499,6 +500,12 @@ Patikrinkite savo SIM kortelę."</string>
     <string name="midnight">Naktis</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">Pasirinkta</string>
+    <string name="miuix_accessibility_title">Pavadinimas</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Sutraukta</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Išskleista</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Išeiti iš redagavimo režimo</string>
+    <string name="miuix_appcompat_accessibility_new_message">Naujas pranešimas</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Įjunkite redagavimo veikseną</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
@@ -514,12 +521,15 @@ Patikrinkite savo SIM kortelę."</string>
     <string name="miuix_appcompat_select_all">Žymėti viską</string>
     <string name="miuix_appcompat_select_all_description">Pasirinkti viską</string>
     <string name="miuix_appcompat_select_item">Pasirinkti elementus</string>
+    <string name="miuix_appcompat_show_dialog_description">Laikinasis langas</string>
     <string name="miuix_item_view_role_description">Skirtukas</string>
     <string name="miuix_navigator_category_group_collapse">Suskleisti</string>
     <string name="miuix_navigator_category_group_expand">Išplėsti</string>
     <string name="miuix_navigator_content_switch_description">Rodyti šoninę juostą</string>
     <string name="miuix_navigator_multiple_choice">Pasirinkti</string>
     <string name="miuix_navigator_navigator_switch_description">Slėpti šoninę juostą</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Įrankių juosta ekrano apačioje</string>
+    <string name="miuix_progressbar_loading">Įkeliama</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Atnaujinimui braukite žemyn</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sėkmingai atnaujinta</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Atnaujinama…</string>
@@ -528,6 +538,9 @@ Patikrinkite savo SIM kortelę."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Šiam kartui tiek</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Sekundėlę…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nepavyko įkelti elementų</string>
+    <string name="miuix_show_password">Rodyti slaptažodį</string>
+    <string name="miuix_stretchablewidget_collapsed">Sutraukta</string>
+    <string name="miuix_stretchablewidget_expanded">Išskleista</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Visi MMS, išskyrus pranešimus išsiųstus iš įgaliotų siuntėjų, bus blokuojami. Prie Įgaliotų siuntėjų priskiriami tinklo operatoriai, vietinės geležinkelio užsakymų sistemos ir kt.</string>
     <string name="mms_block_alert_ok">Blokuoti</string>
@@ -621,11 +634,23 @@ Patikrinkite savo SIM kortelę."</string>
     <string name="mx_privacy_policy">„Mi žinutės“ privatumo politika</string>
     <string name="mx_stranger_recommend_msg">Palieskite, kad blokuoti Mi žinutes iš nežinomų numerių</string>
     <string name="need_download">Sinchronizuojama…</string>
+    <string name="net_message_download_btn_content_desc">Atsisiųsti</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Kopijuoti kodą %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Atidaryti nuorodą %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Atidaryti programą</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Atidaryti kalendorių</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Skambinti %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Atsakyti</string>
+    <string name="net_message_media_card_img_content_desc">Nuotrauka</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Vaizdo įrašo atkūrimas baigtas</string>
+    <string name="net_message_media_card_video_content_desc">Vaizdo įrašas</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Pristabdyti</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Leisti</string>
     <string name="net_sms_subscribed">Prenumerata sėkminga</string>
     <string name="net_sms_unsubscribe">Sėkmingai atsisakyta prenumeratos</string>
     <string name="networking_allow_continue">Leisti</string>
     <string name="networking_allow_title">Dėmesio</string>
-    <string name="new_message">Rašyti</string>
+    <string name="new_message">Nauja žinutė</string>
     <string name="new_message_arrived">Neskaityta</string>
     <string name="new_phrase">Pridėti atsakymą</string>
     <string name="new_phrase_hint">Įveskite naują atsakymą</string>
@@ -668,6 +693,7 @@ Patikrinkite savo SIM kortelę."</string>
     <string name="over_max_mms_size">MMS per didelė.</string>
     <string name="overwrite_edited_content">Turinys, kurį redagavote, bus perrašytas.</string>
     <string name="packages_select_sim_cards_title">Pasirinkti SIM kortelę</string>
+    <string name="page_indicator">Puslapio indikatorius</string>
     <string name="passenger_title">Keleivis</string>
     <string name="pay_bill">Mokėti</string>
     <string name="payment_failed">Nepavyko užbaigti mokėjimo</string>
@@ -909,6 +935,7 @@ Peržiūrėkite rekomenduojamus pokalbių robotus!"</string>
     <string name="recommend_bar_ok">Įjungti</string>
     <string name="recommend_bar_title_mx_rcs">Mi Žinutė</string>
     <string name="recommend_close">Išjungti</string>
+    <string name="recommend_close_button">Uždaryti</string>
     <string name="recommend_disagree">Nesutinku</string>
     <string name="recommend_free_internet_message">Nemokamas susirašinėjimas internetu</string>
     <string name="recommend_free_mi">Mi Žinutė</string>
@@ -1058,6 +1085,7 @@ Peržiūrėkite rekomenduojamus pokalbių robotus!"</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">Pirmiausia įdiekite diktofoną</string>
     <string name="sp_category_all">Visos paslaugų žinutės</string>
     <string name="sp_category_bank">Pranešimai iš Bankų</string>
     <string name="sp_category_title_prefix">%s</string>

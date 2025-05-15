@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="accessibility_sliding_button_state_description_off">Изключено</string>
+    <string name="accessibility_sliding_button_state_description_on">Включено</string>
+    <string name="accessibility_tab_state_description_unselect">Неизбрани</string>
     <string name="action_get_otp">Вземи код</string>
     <string name="action_sign_in">Вход</string>
     <string name="action_sign_in_short">Вход</string>
@@ -468,10 +471,8 @@
     <string name="menu_unlock">Премахни от любими</string>
     <string name="menu_view_contact">Преглед на контакт</string>
     <string name="menu_view_group_info">Група информация</string>
-    <string name="message_cannot_send_air_mode">"Не могат да бъдат изпращани съобщения.
-Първо изключете Самолетния режим."</string>
-    <string name="message_cannot_send_sim_unavailable">"Не могат да бъдат изпращани съобщения.
-Проверете вашата SIM карта."</string>
+    <string name="message_cannot_send_air_mode">Изключете Самолетния режим, за да изпращате съобщения</string>
+    <string name="message_cannot_send_sim_unavailable">Поставете SIM карта, за да изпращате съообщения</string>
     <string name="message_class_label">"Клас на съобщение: "</string>
     <string name="message_contact">Контакт:</string>
     <string name="message_details_title">Детайли за съобщение</string>
@@ -499,6 +500,12 @@
     <string name="midnight">Нощ</string>
     <string name="millionbyte">МБ</string>
     <string name="miuix_access_state_desc">Избрани</string>
+    <string name="miuix_accessibility_title">Заглавие</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Прибрани</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Разширени</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Изход от режим на редактиране</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ново известие</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Стартуване на режим редактиране</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
@@ -514,12 +521,15 @@
     <string name="miuix_appcompat_select_all">Избери всички</string>
     <string name="miuix_appcompat_select_all_description">Избери всички</string>
     <string name="miuix_appcompat_select_item">Изберете елементи</string>
+    <string name="miuix_appcompat_show_dialog_description">Изскачащ прозорец</string>
     <string name="miuix_item_view_role_description">Таб</string>
     <string name="miuix_navigator_category_group_collapse">Скрий</string>
     <string name="miuix_navigator_category_group_expand">Разширяване</string>
     <string name="miuix_navigator_content_switch_description">Показване на страничната лента</string>
     <string name="miuix_navigator_multiple_choice">Избиране</string>
     <string name="miuix_navigator_navigator_switch_description">Скриване на страничната лента</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Лента с инструменти в долната част на екрана</string>
+    <string name="miuix_progressbar_loading">Зареждане</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
@@ -528,6 +538,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Това е всичко за сега</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
+    <string name="miuix_show_password">Покажи паролата</string>
+    <string name="miuix_stretchablewidget_collapsed">Прибрани</string>
+    <string name="miuix_stretchablewidget_expanded">Разширени</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Всички MMS съобщения освен изпратените от упълномощени изпращачи ще бъдат блокирани. Упълномощените изпращачи включват мобилни оператори, системи за резервации на националните железопътни линии и т.н.</string>
     <string name="mms_block_alert_ok">Блокирай</string>
@@ -621,11 +634,23 @@
     <string name="mx_privacy_policy">Правила за поверителност на Mi Съобщение</string>
     <string name="mx_stranger_recommend_msg">Натиснете, за да блокирате Mi Съобщения от непознати номера</string>
     <string name="need_download">Синхронизация…</string>
+    <string name="net_message_download_btn_content_desc">Изтегляне</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Копиране на код %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Отвори линк %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Отвори приложение</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Отвори Календар</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Набери %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Отговор</string>
+    <string name="net_message_media_card_img_content_desc">Снимка</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Видео възпроизвеждането завърши</string>
+    <string name="net_message_media_card_video_content_desc">Видео</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Пауза</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Пусни</string>
     <string name="net_sms_subscribed">Абонирахте се успешно</string>
     <string name="net_sms_unsubscribe">Успешно отписване</string>
     <string name="networking_allow_continue">Позволи</string>
     <string name="networking_allow_title">Предупреждение</string>
-    <string name="new_message">Създаване</string>
+    <string name="new_message">Ново съобщение</string>
     <string name="new_message_arrived">Непрочетено</string>
     <string name="new_phrase">Добавяне на отговор</string>
     <string name="new_phrase_hint">Въведете нов отговор</string>
@@ -668,6 +693,7 @@
     <string name="over_max_mms_size">MMS-ът е прекалено голям.</string>
     <string name="overwrite_edited_content">Редактираното съдържание ще бъде презаписано. Ще продължите ли?</string>
     <string name="packages_select_sim_cards_title">Изберете SIM карта</string>
+    <string name="page_indicator">Индикатор за страница</string>
     <string name="passenger_title">Пътнически</string>
     <string name="pay_bill">Плащане</string>
     <string name="payment_failed">Неуспешно завършване на плащането</string>
@@ -909,6 +935,7 @@
     <string name="recommend_bar_ok">Включи</string>
     <string name="recommend_bar_title_mx_rcs">Mi Съобщение</string>
     <string name="recommend_close">Изключване</string>
+    <string name="recommend_close_button">Затваряне</string>
     <string name="recommend_disagree">Не приемам</string>
     <string name="recommend_free_internet_message">Безплатни интернет съобщения</string>
     <string name="recommend_free_mi">Mi Съобщение</string>
@@ -1058,6 +1085,7 @@
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">Първо инсталирайте Звукозапис</string>
     <string name="sp_category_all">Всички съобщения от оператора</string>
     <string name="sp_category_bank">Съобщения от банки</string>
     <string name="sp_category_title_prefix">%s</string>
