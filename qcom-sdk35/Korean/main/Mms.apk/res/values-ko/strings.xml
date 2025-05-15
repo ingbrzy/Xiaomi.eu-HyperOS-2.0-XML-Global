@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">공유 대상:</string>
     <string name="abc_shareactionprovider_share_with_application">%s과(와) 공유</string>
     <string name="abc_toolbar_collapse_description">접기</string>
+    <string name="accessibility_sliding_button_state_description_off">꺼짐</string>
+    <string name="accessibility_sliding_button_state_description_on">켜짐</string>
+    <string name="accessibility_tab_state_description_unselect">선택되지 않음</string>
     <string name="action_get_otp">코드 얻기</string>
     <string name="action_sign_in">로그인</string>
     <string name="action_sign_in_short">로그인</string>
@@ -38,7 +41,7 @@
     <string name="ad_notification_title">중요하지 않은 메시지</string>
     <string name="ad_settings">광고 설정</string>
     <string name="ad_switch">추천</string>
-    <string name="add_attachment">첨부 파일 추가</string>
+    <string name="add_attachment">첨부파일 추가</string>
     <string name="add_contact">vCard</string>
     <string name="add_miui_contact">연락처</string>
     <string name="add_music">음악 추가</string>
@@ -198,9 +201,9 @@
     <string name="copy_message_success">복사 성공</string>
     <string name="copy_message_text">복사</string>
     <string name="copy_otp_success">복사 성공</string>
-    <string name="copy_to_sdcard">첨부 파일 저장</string>
-    <string name="copy_to_sdcard_fail">첨부 파일을 저장하지 못했습니다.</string>
-    <string name="copy_to_sdcard_success">첨부 파일이 %s로 저장됨</string>
+    <string name="copy_to_sdcard">첨부파일 저장</string>
+    <string name="copy_to_sdcard_fail">첨부파일을 저장하지 못했습니다.</string>
+    <string name="copy_to_sdcard_success">첨부파일이 %s로 저장됨</string>
     <string name="copy_toast_msg">클립보드에 링크 복사됨</string>
     <string name="copy_verification_code_tip">복사 성공</string>
     <string name="date">날짜</string>
@@ -323,7 +326,7 @@
     <string name="expire_on">만료: %s</string>
     <string name="expiry_time">유효 기간</string>
     <string name="exporting_progress_private_message">내보내는 중…</string>
-    <string name="fail_to_add_attachment">첨부 파일을 추가하지 못했습니다.</string>
+    <string name="fail_to_add_attachment">첨부파일을 추가하지 못했습니다.</string>
     <string name="fail_to_add_image">복사한 항목에 접근할 수 없음</string>
     <string name="fail_to_view_attachment">첨부파일 사용 불가</string>
     <string name="failed_to_add_media">이 %1$s을(를) 메시지에 추가할 수 없습니다.</string>
@@ -468,10 +471,8 @@
     <string name="menu_unlock">즐겨찾기에서 제거</string>
     <string name="menu_view_contact">연락처 보기</string>
     <string name="menu_view_group_info">그룹 정보</string>
-    <string name="message_cannot_send_air_mode">"메시지를 전송할 수 없습니다.
-먼저 비행기 모드를 끄십시오."</string>
-    <string name="message_cannot_send_sim_unavailable">"메시지를 전송할 수 없습니다.
-SIM 카드를 확인하십시오."</string>
+    <string name="message_cannot_send_air_mode">메시지를 보내려면 비행기 모드를 끄십시오</string>
+    <string name="message_cannot_send_sim_unavailable">메시지를 보내려면 SIM 카드를 삽입하십시오</string>
     <string name="message_class_label">"메시지 클래스: "</string>
     <string name="message_contact">연락처:</string>
     <string name="message_details_title">메시지 세부사항</string>
@@ -499,6 +500,12 @@ SIM 카드를 확인하십시오."</string>
     <string name="midnight">야간</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">선택됨</string>
+    <string name="miuix_accessibility_title">제목</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">축소됨</string>
+    <string name="miuix_appcompat_accessibility_expand_state">확장됨</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">편집 모드 종료</string>
+    <string name="miuix_appcompat_accessibility_new_message">새로운 알림</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">편집 모드로 들어가기</string>
     <string name="miuix_appcompat_action_mode_deselect_all">전체 선택 해제</string>
     <string name="miuix_appcompat_action_mode_select_all">모두 선택</string>
     <string name="miuix_appcompat_action_mode_title_empty">항목 선택</string>
@@ -514,12 +521,15 @@ SIM 카드를 확인하십시오."</string>
     <string name="miuix_appcompat_select_all">모두 선택</string>
     <string name="miuix_appcompat_select_all_description">전체 선택</string>
     <string name="miuix_appcompat_select_item">항목 선택</string>
+    <string name="miuix_appcompat_show_dialog_description">팝업 창</string>
     <string name="miuix_item_view_role_description">탭</string>
     <string name="miuix_navigator_category_group_collapse">접기</string>
     <string name="miuix_navigator_category_group_expand">확장</string>
     <string name="miuix_navigator_content_switch_description">사이드바 표시</string>
     <string name="miuix_navigator_multiple_choice">선택</string>
     <string name="miuix_navigator_navigator_switch_description">사이드바 숨기기</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">화면 하단의 도구 모음</string>
+    <string name="miuix_progressbar_loading">로드 중</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">아래로 당겨 새로고침</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">새로고침 성공</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">새로고침 중…</string>
@@ -528,6 +538,9 @@ SIM 카드를 확인하십시오."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">결과가 더 없음</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">잠시만 기다려주십시오…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">항목 불러오기 실패</string>
+    <string name="miuix_show_password">비밀번호 표시</string>
+    <string name="miuix_stretchablewidget_collapsed">축소됨</string>
+    <string name="miuix_stretchablewidget_expanded">확장됨</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">인증된 발신자의 메시지를 제외한 모든 MMS가 차단될 것입니다. 인증된 발신자는 네트워크 통신사, 국내 철도 예약 시스템, 기타 등을 포함합니다.</string>
     <string name="mms_block_alert_ok">차단</string>
@@ -621,11 +634,23 @@ SIM 카드를 확인하십시오."</string>
     <string name="mx_privacy_policy">Mi 메시지 개인 정보 보호 정책</string>
     <string name="mx_stranger_recommend_msg">알 수 없는 번호에서 온 Mi 메시지를 차단하려면 탭</string>
     <string name="need_download">동기화 중…</string>
+    <string name="net_message_download_btn_content_desc">다운로드</string>
+    <string name="net_message_json_card_core_entity_content_desc1">코드 %s 복사</string>
+    <string name="net_message_json_card_core_entity_content_desc2">링크 %s 열기</string>
+    <string name="net_message_json_card_core_entity_content_desc3">앱 실행</string>
+    <string name="net_message_json_card_core_entity_content_desc4">캘린더 열기</string>
+    <string name="net_message_json_card_core_entity_content_desc5">%s에 발신</string>
+    <string name="net_message_json_card_core_entity_content_desc6">답장</string>
+    <string name="net_message_media_card_img_content_desc">사진</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">동영상 재생 완료됨</string>
+    <string name="net_message_media_card_video_content_desc">동영상</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">일시 정지</string>
+    <string name="net_message_media_card_video_start_play_content_desc">재생</string>
     <string name="net_sms_subscribed">구독 성공</string>
     <string name="net_sms_unsubscribe">구독 해제 성공</string>
     <string name="networking_allow_continue">허용</string>
     <string name="networking_allow_title">참고</string>
-    <string name="new_message">작성</string>
+    <string name="new_message">새 메시지</string>
     <string name="new_message_arrived">읽지 않음</string>
     <string name="new_phrase">답장 추가</string>
     <string name="new_phrase_hint">새 답장 입력</string>
@@ -668,6 +693,7 @@ SIM 카드를 확인하십시오."</string>
     <string name="over_max_mms_size">MMS가 너무 큽니다.</string>
     <string name="overwrite_edited_content">편집한 내용을 덮어씁니다.</string>
     <string name="packages_select_sim_cards_title">SIM 카드 선택</string>
+    <string name="page_indicator">페이지 표시기</string>
     <string name="passenger_title">탑승객</string>
     <string name="pay_bill">결제</string>
     <string name="payment_failed">결제 실패</string>
@@ -909,6 +935,7 @@ SIM 카드를 확인하십시오."</string>
     <string name="recommend_bar_ok">켜기</string>
     <string name="recommend_bar_title_mx_rcs">Mi 메시지</string>
     <string name="recommend_close">끄기</string>
+    <string name="recommend_close_button">닫기</string>
     <string name="recommend_disagree">동의하지 않음</string>
     <string name="recommend_free_internet_message">무료 인터넷 메시지</string>
     <string name="recommend_free_mi">Mi 메시지</string>
@@ -1058,6 +1085,7 @@ SIM 카드를 확인하십시오."</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">먼저 녹음기를 설치</string>
     <string name="sp_category_all">모든 서비스 메시지</string>
     <string name="sp_category_bank">은행 알림 메시지</string>
     <string name="sp_category_title_prefix">%s</string>
@@ -1074,7 +1102,7 @@ SIM 카드를 확인하십시오."</string>
     <string name="status_unread">읽지 않음</string>
     <string name="stick">고정</string>
     <string name="sticked">고정 성공</string>
-    <string name="storage_dialog_attachments">MMS 첨부 파일:</string>
+    <string name="storage_dialog_attachments">MMS 첨부파일:</string>
     <string name="storage_dialog_available_space">사용 가능한 공간:</string>
     <string name="storage_dialog_database">데이터베이스:</string>
     <string name="storage_dialog_mms">MMS: %d</string>
@@ -1181,7 +1209,7 @@ SIM 카드를 확인하십시오."</string>
     <string name="tuesday_short">화</string>
     <string name="tuesday_shortest">화</string>
     <string name="turn_on">켜기</string>
-    <string name="type_attachment">첨부 파일</string>
+    <string name="type_attachment">첨부파일</string>
     <string name="type_audio">오디오</string>
     <string name="type_picture">사진</string>
     <string name="type_to_compose_text_or_leave_blank">메시지 입력, 또는 공백 그대로 두기</string>
@@ -1217,7 +1245,7 @@ SIM 카드를 확인하십시오."</string>
     <string name="voice_report_off">끄기</string>
     <string name="voice_report_wiredon">이어폰 사용</string>
     <string name="wap_push_title">"[WAP 푸시] "</string>
-    <string name="warning_show">%ds에서 전송됨</string>
+    <string name="warning_show">%d초 후 전송</string>
     <string name="wednesday">수요일</string>
     <string name="wednesday_short">수</string>
     <string name="wednesday_shortest">수</string>

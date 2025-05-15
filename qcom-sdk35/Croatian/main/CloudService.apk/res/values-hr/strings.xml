@@ -32,6 +32,10 @@
     <string name="accept_all_positive">Odaberite</string>
     <string name="accept_use_permissions">Odobri</string>
     <string name="access_denied">Pristup odbijen</string>
+    <string name="accessibility_sliding_button_state_description_off">isključeno</string>
+    <string name="accessibility_sliding_button_state_description_on">uključeno</string>
+    <string name="accessibility_tab_state_description_unselect">Nije odabrano</string>
+    <string name="accessibility_tab_statedesc_unselect">Nije odabrano</string>
     <string name="account_related">Vaš uređaj je povezan s postojećim Xiaomi Računom (%s). Povežite se na mrežu da potvrdite uređaj.</string>
     <string name="actionbar_button_up_description">Natrag</string>
     <string name="activate_find_device_success">Pronađi uređaj uspješno pokrenut</string>
@@ -56,6 +60,7 @@
     <string name="calendar_sync_item_permission">kalendar</string>
     <string name="call_log_sync_item_permission">povijest poziva</string>
     <string name="check_contact">Dodaj</string>
+    <string name="checked">Odabrano</string>
     <string name="choose_contact_title">Kontakti</string>
     <string name="clearable_edittext_clear_description">Očisti</string>
     <string name="close">Zatvori</string>
@@ -156,6 +161,7 @@
     <string name="download_gallery_data_summary">Idite na i.mi.com za preuzimanje sinkroniziranih fotografija i videozapisa na svoj uređaj.</string>
     <string name="download_gallery_data_title">Na svoj uređaj preuzmite stavke</string>
     <string name="e2ee_button_close">Isključi</string>
+    <string name="e2ee_button_exit_all_devices">Odjavite se na svim uređajima</string>
     <string name="e2ee_button_next">Sljedeće</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Uključite zaključavanje zaslona za ovaj uređaj da bi mogli ažurirati svoju zaporku sigurnosti.</string>
     <string name="e2ee_data_protection_close_button">Isključi</string>
@@ -210,6 +216,7 @@
     <string name="e2ee_exit_account_button_exit">Odjavi se</string>
     <string name="e2ee_exit_account_subtitle">Odjavit ćete se iz posljednjeg povezanog uređaja povezanog sa vašim Xiaomi računom. Trebat će vam zaključavanje zaslona ili zaporka sigurnosti da bi se ponovo prijavili i pristupili vašim podacima pohranjenim na cloudu. Alternativno, dodirnite \"Isključi\" ispod da bi isključili Naprednu zaštitu podataka.</string>
     <string name="e2ee_exit_account_title">Odjava</string>
+    <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
     <string name="e2ee_load_failed">Server je zauzet. Pričekajte minutu ili dvije i pokušajte ponovo.</string>
     <string name="e2ee_loading">Pričekajte trenutak…</string>
     <string name="e2ee_loading_close">Isključivanje…</string>
@@ -273,7 +280,7 @@
     <string name="find_device_dspt_provision">U slučaju da izgubite Vaš mobitel, možete otići na &lt;font color=#0097FF>%s&lt;/font>kako biste locirali, zaključali ili resetirali Vaš uređaj. Ovu funkciju bilo kada možete upaliti ili ugasiti u Podešavanjima.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">Uključivanjem Pronađi uređaj pristajete na <a href="app://com.miui.cloudservice.gdpr.license"><u>Pravila o privatnosti Xiaomi Clouda</u></a>. Da biste povukli svoj pristanak na Pravila o privatnosti, isključite ovu značajku.</string>
+    <string name="find_device_gdpr_prompt">Uključujući Pronađi uređaj, prihvaćate <a href="app://com.miui.cloudservice.gdpr.license"><u>Pravila o privatnosti Xiaomi Clouda</u></a>. Za povlačenje vaše suglasnosti na Pravila o privatnosti isključite ove funkcije.</string>
     <string name="find_device_operation_failure_rpc">Nije moguće izvršiti radnju zbog RPC pogreške.</string>
     <string name="find_device_permissions_footer">Dodirnite \"Dodijeli\" da biste dodijelili dopuštenja koja ste odabrali.</string>
     <string name="find_device_permissions_header">Dobrodošli u Pronađi uređaj! Ovu aplikaciju možete koristiti za lociranje, praćenje i zaključavanje vašeg uređaja ako nedostaje. Također možete anonimno pomoći drugima locirati njihove Xiaomi uređaje. Ova aplikacija zahtijeva sljedeće dozvole za normalno funkcioniranje:</string>
@@ -424,6 +431,12 @@ Također možete anonimno pomoći drugim locirati njihove Xiaomi uređaje."</str
     <string name="local_lockscreen_sub_title_open_e2ee">Verificirajte zaključavanje zaslona ovog uređaja da bi mogli uključiti Naprednu zaštitu podataka</string>
     <string name="local_lockscreen_sub_title_update_key">Unesite zaključavanje zaslona vašeg uređaja</string>
     <string name="local_lockscreen_sub_title_verify_e2ee">Potvrdite svoje zaključavanje zaslona da bi mogli potvrditi ovaj uređaj kao pouzdan</string>
+    <string name="lockscreen_access_pattern_area">Područje uzorka.</string>
+    <string name="lockscreen_access_pattern_cell_added">Ćelija dodana</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">Ćelija%1$s dodana</string>
+    <string name="lockscreen_access_pattern_cleared">Uzorak obrisan</string>
+    <string name="lockscreen_access_pattern_detected">Uzorak završen</string>
+    <string name="lockscreen_access_pattern_start">Uzorak započet</string>
     <string name="lockscreen_device_list_title">Odaberite uređaj za verificiranje zaključavanja zaslona</string>
     <string name="lockscreen_error_hint">Neispravno. Pokušajte ponovo.</string>
     <string name="lockscreen_negative_btn">Otkaži</string>
@@ -660,6 +673,10 @@ Provjerite koristite li povezani Xiaomi račun kao račun sustava."</string>
     <string name="midrive_guide_btn_installed">Otvori Mi Drive</string>
     <string name="midrive_guide_btn_installing">Instaliranje…</string>
     <string name="miuix_access_state_desc">Odabrano</string>
+    <string name="miuix_accessibility_title">Naslov</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Izlaz iz načina uređivanja</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nova poruka</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Uđi u način uređivanja</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poništiti sve</string>
     <string name="miuix_appcompat_action_mode_select_all">Odaberi sve</string>
     <string name="miuix_appcompat_action_mode_title_empty">Odaberi</string>
@@ -675,6 +692,7 @@ Provjerite koristite li povezani Xiaomi račun kao račun sustava."</string>
     <string name="miuix_appcompat_select_all">Odaberi sve</string>
     <string name="miuix_appcompat_select_all_description">Odaberi sve</string>
     <string name="miuix_appcompat_select_item">Odaberi stavke</string>
+    <string name="miuix_progressbar_loading">Učitavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Povucite dolje za osvježavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uspješno osvježeno</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Osvježavanje…</string>
@@ -683,6 +701,7 @@ Provjerite koristite li povezani Xiaomi račun kao račun sustava."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je sve za sada</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Samo trenutak…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ne može učitati stavke</string>
+    <string name="miuix_show_password">Prikaži lozinku</string>
     <string name="monday">Ponedjeljak</string>
     <string name="monday_short">Pon</string>
     <string name="monday_shortest">Pon</string>
@@ -727,6 +746,7 @@ Provjerite koristite li povezani Xiaomi račun kao račun sustava."</string>
     <string name="night">Večer</string>
     <string name="no_sim">Nije moguće pronaći SIM karticu</string>
     <string name="noon">Podne</string>
+    <string name="not_checked">Nije odabrano</string>
     <string name="not_set">Nije postavljeno</string>
     <string name="noti_quota_button_text">Nadogradi</string>
     <string name="noti_quota_full_sum">Nadogradite svoj plan pohrane za nastavak sinkroniziranja stavki.</string>
@@ -828,6 +848,8 @@ Podaci o lokaciji možda neće biti prijavljeni ako je mrežna povezanost slaba.
     <string name="privacy_runtime_perm_contacts_title">Pristup i uređivanje kontakta</string>
     <string name="privacy_runtime_perm_external_storage_desc">Za sinkronizaciju profilnih fotografija kontakata</string>
     <string name="privacy_runtime_perm_external_storage_title">Pristup pohrani</string>
+    <string name="privacy_runtime_perm_get_installed_apps_desc">Za sinkronizaciju podataka</string>
+    <string name="privacy_runtime_perm_get_installed_apps_title">Pristup podacima aplikacije</string>
     <string name="privacy_runtime_perm_notification_desc">Za slanje obavijesti Xiaomi Cloud usluge</string>
     <string name="privacy_runtime_perm_notification_title">Obavijesti</string>
     <string name="privacy_runtime_perm_phone_state_desc">Za pristup telefonskom broju i statusu uređaja</string>
@@ -950,7 +972,7 @@ Podaci o lokaciji možda neće biti prijavljeni ako je mrežna povezanost slaba.
     <string name="share_sdk_pref_category_search_local_title">Kontakti</string>
     <string name="share_sdk_pref_category_title_scan_qr_code">Skeniraj QR kod</string>
     <string name="share_sdk_pref_family_detail_title">Prikaz pojedinosti obiteljske grupe</string>
-    <string name="share_sdk_privacy_link_description">Pročitajte i potvrdite <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Pravila o privatnosti Xiaomi Računa</u></a> prije korištenja ove usluge.</string>
+    <string name="share_sdk_privacy_link_description">Trebate pročitati i pristati na <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Pravila o privatnosti Xiaomi računa</u></a> prije korištenja ove usluge.</string>
     <string name="share_sdk_qr_code_description">%1$s pozivnica</string>
     <string name="share_sdk_qr_code_expire_time">Rok valjanosti QR koda: %1$s</string>
     <string name="share_sdk_resend_invitation_times_exceed">Previše odlaznih pozivnica. Pokušajte ponovno za 24 sata.</string>

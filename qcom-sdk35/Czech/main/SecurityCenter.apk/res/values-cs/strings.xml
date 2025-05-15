@@ -962,6 +962,7 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="button_text_trust">Důvěřovat této síti</string>
     <string name="button_text_update_now">Aktualizovat</string>
     <string name="button_to_setting">Nastavení</string>
+    <string name="button_toll_correction">Kalibrovat zůstatek</string>
     <string name="byteShort">B</string>
     <string name="call_address">Blokované oblasti</string>
     <string name="call_all_number_block">Blokovat všechny hovory</string>
@@ -1061,6 +1062,7 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="charging_text_battery_full_time">"Poslední nabití "</string>
     <string name="charging_text_battery_nearly_full">Téměř plně nabitá</string>
     <string name="charging_text_battery_perfect">Plně nabito</string>
+    <string name="check_bill_balance">Zkontrolujte zůstatek účtu</string>
     <string name="choose">Vybrat</string>
     <string name="choose_gs_show_way">Zvolte orientaci domovské stránky</string>
     <string name="clean_immediately">Vymazat</string>
@@ -1684,6 +1686,7 @@ Všechna data na vašem zařízení mohou být smazána a heslo Zamykací obrazo
     <string name="fixed_cellular_data_quota_monthly">Měsíční datový limit</string>
     <string name="fixed_package_tips">Po dosažení limitu vám budou účtovány dodatečné poplatky</string>
     <string name="fixed_traffic_quota">Datový limit (povinné)</string>
+    <string name="fixed_traffic_quota_offline">Datový limit (povinné)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -2038,8 +2041,14 @@ Všechna data na vašem zařízení mohou být smazána a heslo Zamykací obrazo
     <string name="gb_beauty_nature_light">Přirozené</string>
     <string name="gb_beauty_warm_light">Teplé</string>
     <string name="gb_collimator_color">Barva</string>
+    <string name="gb_collimator_color_blue_talkback">Modrá</string>
+    <string name="gb_collimator_color_purple_talkback">Purpurová</string>
+    <string name="gb_collimator_color_red_talkback">Červené</string>
+    <string name="gb_collimator_color_white_talkback">Bílé</string>
+    <string name="gb_collimator_color_yellow_talkback">Žlutá</string>
     <string name="gb_collimator_size">Velikost</string>
     <string name="gb_collimator_style">Typ</string>
+    <string name="gb_collimator_style_talkback">Styl %1$d</string>
     <string name="gb_collimator_toast">Díky mířidlu je ovládání zbraní mnohem pohodlnější</string>
     <string name="gb_cooler_device_toast">"Vizuální zážitek vylepšila funkce
 Xiaomi Gaming Cooler"</string>
@@ -2142,7 +2151,7 @@ Nahrajte a propojte sekvence podle svého gusta!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Průhledný</string>
     <string name="gb_network_status_bad">Došlo k chybě připojení.</string>
     <string name="gb_new_feature">Nová funkce</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Tuto aplikaci nelze použít na vnější obrazovce</string>
     <string name="gb_operat_frequently">Ne tak rychle!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Po zapnutí Výkonného režimu nelze v Game Turbo přepnout na Vyvážený režim. Nastavení baterie můžete změnit v Optimalizaci.&lt;br>&lt;a href=\"#\">Otevřít Optimalizaci&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Přepnuto do výkonného režimu. Vaše zařízení se může zahřívat a spotřebovávat více energie.</string>
@@ -2507,20 +2516,20 @@ Přidržením indikátoru okno posunete."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Blokovat sekundární SIM kartu</string>
     <string name="gtb_setting_item_title_smart_5g">Optimalizace sítě 5G</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi posílení rychlosti</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Zpět do hry</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">Připojení k síti se nezdařilo</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Zobrazit</string>
+    <string name="gtb_spring_festival_guide">"Přepněte se do režimu na šířku
+a zapojte se do hledání vajíček!"</string>
+    <string name="gtb_spring_festival_guide_know">Rozumím</string>
+    <string name="gtb_spring_festival_push_active_desc">Vyhrajte telefony, chytrá zařízení a kupóny</string>
+    <string name="gtb_spring_festival_push_active_title">Hledání velikonočních vajíček bylo spuštěno!</string>
+    <string name="gtb_spring_festival_push_desc">Zapojte se do hledání velikonočních vajíček a vyhrajte</string>
+    <string name="gtb_spring_festival_push_egg_title">Obdrželi jste velikonoční vajíčko!</string>
+    <string name="gtb_spring_festival_push_gift_title">Přichází výhry z hledání velikonočních vajíček!</string>
+    <string name="gtb_spring_festival_push_join">Připojit se</string>
+    <string name="gtb_spring_festival_push_see">Zobrazit</string>
+    <string name="gtb_spring_festival_shortcut_create">Vytvořit zástupce na Domovské obrazovce</string>
     <string name="gtb_start_phone_accelerate">Zvýšit</string>
     <string name="gtb_stop_accelerate">Zastavit</string>
     <string name="gtb_timer">Časovač</string>
@@ -2715,6 +2724,7 @@ Při dalším využití mobilního připojení vám mohou být operátorem účt
     <string name="main_activity_content_summary_update">Aktualizace systému</string>
     <string name="main_alert_message_no_imsi">Nebyla nalezena SIM karta</string>
     <string name="main_alert_message_open_traffic_ctrl">Doporučujeme omezit využití datového připojení</string>
+    <string name="main_balance_check">Zkontrolujte zůstatek účtu</string>
     <string name="main_bill_remained">Zůstatek na telefonu</string>
     <string name="main_button_mi_sim_close">Aktivovat Mi SIM</string>
     <string name="main_button_mi_sim_open">Zobrazit podrobnosti</string>
@@ -2729,6 +2739,7 @@ Při dalším využití mobilního připojení vám mohou být operátorem účt
     <string name="main_daily_card_guide_dialog_title">Nastavte datový plán</string>
     <string name="main_daily_card_guide_dialog_title_new">Nastavte datový plán</string>
     <string name="main_daily_package">Denní datový plán</string>
+    <string name="main_declaration_dialog_msg">Hodnotu zůstatku uvedenou v této funkci nelze použít jako důkaz při vyjednávání s vaším operátorem. Přednost mají statistiky o využití mobilních dat a hlasu poskytnuté vaším operátorem.</string>
     <string name="main_indicator_title">Aktivace</string>
     <string name="main_leisure_remained">Zbývající data mimo špičku</string>
     <string name="main_month_total_used">Využito tento měsíc</string>
@@ -3258,6 +3269,7 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="notify_weekly_traffic_body">Pro automatické omezení využitých dat nastavte svůj měsíční limit.</string>
     <string name="notify_weekly_traffic_title">Využito tento týden: %s</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s využito %2$s tento týden</string>
+    <string name="now_inquiry">Podrobnosti</string>
     <string name="number_address">Oblast</string>
     <string name="numeric_need_to_confirm">Zadejte znovu pro potvrzení</string>
     <string name="numeric_password_confirmed_header_confirm">Úspěšně nastaveno. Klepněte pro potvrzení.</string>
@@ -3483,6 +3495,10 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="pc_continuity_open_save_mode_notifi_title">Baterie zařízení %s je vybitá</string>
     <string name="pc_current_power_mode">Aktuální režim</string>
     <string name="pc_cycle_count_protect_title">Počet cyklů</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Rozumím</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Znovu nezobrazovat</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">Port USB-C na krátké straně zařízení nepodporuje přenos dat. K počítači se připojte pomocí jiného portu.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Připomenutí nabíjení</string>
     <string name="pc_emergency_call">Tísňové volání</string>
     <string name="pc_endurance_calculation">Výpočet…</string>
     <string name="pc_entered_extreme_mode">Režim Hibernace je zapnutý</string>
@@ -3884,7 +3900,7 @@ Ultra spořiče baterie"</string>
     <string name="power_center_battery_duration_screen_on">Zbývající čas</string>
     <string name="power_center_battery_hardware">Hardware %s</string>
     <string name="power_center_battery_health_poor_tip">Zdá se, že úroveň zdraví baterie zařízení je velmi nízká. Doporučujeme navštívit autorizované servisní centrum.</string>
-    <string name="power_center_battery_health_summary">Pro zlepšení přesnosti statistik zdraví baterie nejprve zařízení %1$d-%2$dkrát plně nabijte a vybijte</string>
+    <string name="power_center_battery_health_summary">Pro zlepšení přesnosti statistik zdraví baterie nejprve zařízení %1$d-%2$d-krát plně nabijte a vybijte</string>
     <string name="power_center_battery_last">Zbývá %s</string>
     <string name="power_center_battery_level">Nabití: %s</string>
     <string name="power_center_battery_level_general">Normální</string>
@@ -4007,7 +4023,7 @@ Ultra spořiče baterie"</string>
     <string name="power_consume_other">Ostatní</string>
     <string name="power_consume_rank_hardware">Hardware</string>
     <string name="power_consume_rank_software">Aplikace</string>
-    <string name="power_consume_rank_title">Spotřeba energie</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Aplikace: %s</string>
     <string name="power_customize_giveup_change">Zahodit změny?</string>
     <string name="power_dailog_night_charge_protection_done">Rozumím</string>
@@ -4587,6 +4603,7 @@ Odebrat souhlas nyní?"</string>
     <string name="renew_now">Obnovit</string>
     <string name="repair">Opravit</string>
     <string name="repair_loading_text">Ještě chvilku…</string>
+    <string name="repeat_prompts">Zpomalte! Neposílejte mnoho požadavků za sebou.</string>
     <string name="repeat_type">Opakovat</string>
     <string name="repeated_marked_number_summary">Neblokovat druhý hovor ze stejného nahlášeného čísla během %d minut</string>
     <string name="repeated_marked_number_title">Neblokovat opakující se volání z nahlášených čísel</string>
@@ -5378,6 +5395,7 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="tc_parse_error">Ověření SMS se nezdařilo</string>
     <string name="tc_receive_timeout">Platnost kalibrace vypršela</string>
     <string name="tc_send_sms_error">Zaslání SMS se nezdařilo</string>
+    <string name="tc_sms_bill_report_receive_content">SMS kalibrace (ujistěte se, že SMS obsahuje informace o zůstatku)</string>
     <string name="tc_sms_report_direction">Kód informační SMS</string>
     <string name="tc_sms_report_do_report">Odeslat</string>
     <string name="tc_sms_report_get_default">SMS zpráva pro zjištění využití dat od vašeho operátora je bezplatná.</string>
@@ -5502,6 +5520,7 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="title_app_update">Dostupné aktualizace</string>
     <string name="title_auto_update">Aktualizovat automaticky</string>
     <string name="title_background_connection">%s nemůže využít připojení na pozadí</string>
+    <string name="title_bill_balance_inquiry">Zůstatek (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Zmeškané hovory z vašeho seznamu kontaktů</string>
     <string name="title_block_calls_from_strangers">Zmeškali jste důležitý hovor</string>
     <string name="title_chain_start">Zakázat řetězové spuštění</string>
@@ -5524,6 +5543,7 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="title_eye_shield">Barvy displeje nevypadají v pořádku</string>
     <string name="title_find_device">Najít zařízení</string>
     <string name="title_first_aid_kit">Vyřešit problémy</string>
+    <string name="title_flow_base_reminder">Připomenutí využití dat</string>
     <string name="title_flow_notification">Upozornění na mobilní data</string>
     <string name="title_flow_purchase">Koupit mobilní data</string>
     <string name="title_flow_rank">Využití mobilních dat</string>
@@ -5640,6 +5660,7 @@ Zbývající data včetně dat, která byla přenesena z minulého měsíce."</s
     <string name="traffic_remind">Upozornění na využití dat</string>
     <string name="traffic_remind_switch">Upozornění na využití dat</string>
     <string name="traffic_reminder_settings">Nastavit upozornění na využití dat</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Místní</string>
     <string name="traffic_setting_fragment_brand">Značka</string>
     <string name="traffic_setting_fragment_button1_text">Zrušit</string>
@@ -5704,13 +5725,18 @@ Zbývající data včetně dat, která byla přenesena z minulého měsíce."</s
     <string name="usage_sorted_empty_text">Prázdné</string>
     <string name="usage_sorted_loading_text">Ještě chvilku…</string>
     <string name="usage_type_audio">Zvuk</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">Celkové využití procesoru</string>
     <string name="usage_type_cpu_foreground">Využití procesoru na popředí</string>
     <string name="usage_type_data_recv">Přijatá mobilní data</string>
     <string name="usage_type_data_send">Odeslaná mobilní data</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Doba bez signálu</string>
     <string name="usage_type_on_time">Doba zapnutí</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Video</string>
     <string name="usage_type_wake_lock">Zakázat režim spánku</string>
     <string name="usage_type_wifi_running">Spuštěná Wi-Fi</string>
@@ -5844,6 +5870,7 @@ Funkci nelze využít, pokud je zapnutý Spořič baterie nebo Ultra spořič ba
     <string name="videobox_settings_timing">Upozornění na sledování</string>
     <string name="videobox_settings_timing_desc">Každou hodinu zobrazit upozornění na příliš dlouhé sledování</string>
     <string name="videobox_settings_title">Nástroje videa</string>
+    <string name="view_package_info">Zobrazit podrobnosti plánu</string>
     <string name="view_traffic_detail">Zobrazit podrobnosti</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">Odinstalovat</string>

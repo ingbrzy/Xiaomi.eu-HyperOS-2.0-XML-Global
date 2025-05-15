@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
     <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
+    <string name="accessibility_sliding_button_state_description_off">ki</string>
+    <string name="accessibility_sliding_button_state_description_on">bekapcsolva</string>
+    <string name="accessibility_tab_state_description_unselect">Nincs kiválasztva</string>
+    <string name="accessibility_tab_statedesc_unselect">Nincs kiválasztva</string>
     <string name="account_or_password_incorrect">Helytelen fiókazonosító vagy jelszó</string>
     <string name="actionbar_button_up_description">Vissza</string>
     <string name="afternoon">Délután</string>
@@ -175,7 +179,7 @@ Látogasson el ide https://appleid.apple.com/#!&amp;page=signin a kikapcsolásho
     <string name="dialog_request_permission_message_extra_summary">Ezekre az engedélyekre az alkalmazás alapfunkcióinak és szolgáltatásainak elérhetősége miatt van szükség.</string>
     <string name="dialog_request_permission_message_extra_title">Kötelező engedélyek</string>
     <string name="dialog_request_permission_message_global">Az alkalmazásnak a normális működéshez a következő engedélyekre van szüksége:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Ugyanakkor felhasználóként az Ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa és fogadja el &lt;a href='%1s'>Felhasználási feltételeinket&lt;/a> és &lt;a href='%2s'>Adatvédelmi szabályzatunkat&lt;/a>.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">Ugyanakkor felhasználóként az Ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa és fogadja el %1$s és %2$s dokumentumainkat.</string>
     <string name="dialog_request_permission_title">Figyelem</string>
     <string name="dialog_request_permission_title_global">Engedélyek szükségesek</string>
@@ -196,11 +200,13 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="err_bakfile_broken">Ez a mentés nem használható.</string>
     <string name="err_bakfile_not_exist">A mentésfájl nem létezik.</string>
     <string name="err_binder_died">Az alkalmazás váratlanul leállt.</string>
+    <string name="err_data_protection">A régi eszközön be van kapcsolva a speciális adatvédelem. Hitelesítés szükséges.</string>
     <string name="err_install_incompatible">Kompatibilitási probléma</string>
     <string name="err_low_storage">Nincs elég tárhely</string>
     <string name="err_no_gms">Nem kompatibilis alkalmazásverzió. Telepítse ezt az alkalmazást elkülönítve.</string>
     <string name="err_not_allow">Nem támogatott</string>
     <string name="err_pkg_not_exist">Az alkalmazás nem található.</string>
+    <string name="err_receiver_no_space">Nem sikerült az átvitel. Nincs elegendő tárhely az új készüléken.</string>
     <string name="err_remote_no_space">Nincs elég tárhely az új készüléken</string>
     <string name="err_remote_timeout">Az átvitel időtúllépés miatt megszakadt</string>
     <string name="err_send_error">Nem sikerült elküldeni</string>
@@ -269,6 +275,12 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Rendben</string>
+    <string name="force_update_button_scan_host">Telepítés</string>
+    <string name="force_update_content_guest">Az elemek átviteléhez frissítse a Mi Átköltözést az új készüléken.</string>
+    <string name="force_update_content_host">Az elemek átviteléhez frissítse a Mi Átköltözést a régi készüléken.</string>
+    <string name="force_update_title_guest">A Mi Átköltözés frissítése az új készüléken</string>
+    <string name="force_update_title_host">A Mi Átköltözés frissítése a régi készüléken</string>
     <string name="friday">Péntek</string>
     <string name="friday_short">Pén</string>
     <string name="friday_shortest">Pén</string>
@@ -408,6 +420,10 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="miui_wait_link_title_1">%d. Koppintson a „Feladó vagyok” opcióra és várjon egy pillanatot.</string>
     <string name="miui_wait_link_title_2">%d. A csatlakozáshoz válassza ki ezt a hotspotot a régi készüléken.</string>
     <string name="miuix_access_state_desc">Kiválasztott</string>
+    <string name="miuix_accessibility_title">Cím</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Kilépés a szerkesztő módból</string>
+    <string name="miuix_appcompat_accessibility_new_message">Új üzenet</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Nyissa meg a szerkesztési módot</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kijelölések törlése</string>
     <string name="miuix_appcompat_action_mode_select_all">Összes kijelölése</string>
     <string name="miuix_appcompat_action_mode_title_empty">Kiválasztás</string>
@@ -423,6 +439,7 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="miuix_appcompat_select_all">Az összes kiválasztása</string>
     <string name="miuix_appcompat_select_all_description">Összes kijelölése</string>
     <string name="miuix_appcompat_select_item">Elemek kiválasztása</string>
+    <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sikeresen frissítve</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Frissítés…</string>
@@ -431,6 +448,7 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="miuix_sbl_tracking_progress_labe_up_none">Egyelőre ennyi</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Egy pillanat...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemek betöltése sikertelen</string>
+    <string name="miuix_show_password">Jelszó megjelenítése</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Üzenetek, névjegyek és hívásnapló</string>
     <string name="monday">Hétfő</string>
@@ -503,11 +521,15 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="new_trans_intro_question_6">%d. Miért nem lehet az alkalmazás adatait egy harmadik féltől származó készülékről átvinni?</string>
     <string name="new_trans_intro_question_7">%d. Ha kilépek a Mi Átköltözésből az átvitel közben, legközelebb elölről kell kezdenem az egészet?</string>
     <string name="new_trans_intro_question_8">%d. Miért tűntek el a WeChat előzményeim az új készüléken?</string>
+    <string name="new_version_transfer_downloading">Mi Átköltözés frissítése</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Frissítés…</string>
     <string name="new_wait_link_message_2">A „Feladó vagyok” gomb a Mi Fájlátvitel kezdőoldalán található meg.</string>
     <string name="next">Következő</string>
     <string name="night">Este</string>
     <string name="no_more_memory_title">A Mi Movernek létre kell hoznia egy helyi biztonsági mentést az eszközön. Nincs elég tárhely biztonsági mentés készítéséhez. Először szabadítson fel egy kis helyet.</string>
     <string name="noon">Dél</string>
+    <string name="not_selectable">Nem lehet kijelölni</string>
     <string name="not_set">Nincs beállítva</string>
     <string name="not_support_data_content1">%d. A készülékmodellre jellemző elemek</string>
     <string name="not_support_data_content2">%d. Alkalmazásadatok</string>
@@ -556,6 +578,8 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="open_photo_and_contacts_cloud_sync_summary">Kapcsolja be a szinkronizálást, hogy a névjegyek és a Galéria elemek megjelenjenek ezen az eszközön.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">Névjegyek és Galéria elemek szinkronizálása</string>
     <string name="operation_send">Elküld</string>
+    <string name="opposite_new_version_transfer_content">Várja meg a másik készülék frissítését és a Mi Átköltözés újraindítását, majd koppintson az újracsatlakozásra.</string>
+    <string name="opposite_new_version_transfer_title">Másik készülék frissítése folyamatban</string>
     <string name="option_about">Mi Mover névjegy</string>
     <string name="option_feedback_title">Visszajelzés</string>
     <string name="option_privacy_policy">Adatvédelmi irányelvek</string>
@@ -603,7 +627,7 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="privacy_desc">Üdvözli a Mi Mover! Ez az alkalmazás az alábbi szolgáltatásokat kínálja:</string>
     <string name="privacy_experience_statement">Csatlakozzon User Experience programunkhoz, és ossza meg felhasználói adatait velünk, hogy javítani tudjuk termékeinket és szolgáltatásainkat.</string>
     <string name="privacy_item1">· Fájlok, üzenetek, rendszeralkalmazás beállítások és alkalmazások átvitele</string>
-    <string name="privacy_message">&lt;Data>Olvassa el és fogadja el a &lt;a href=\"%2$s\">Felhasználási feltételeinket&lt;/a> és az &lt;a href=\"%1$s\">Adatvédelmi Irányelveinket&lt;/a> mielőtt a Mi Mover alkalmazást használja. A Mi Mover Adatvédelmi Irányelveihez adott hozzájárulását bármikor visszavonhatja a Mi Mover névjegye menüpontban. Ha nem járul hozzá a fent említett szolgáltatások használatához, akkor nem fogja tudni használni az alkalmazás egyes funkcióit; alapvető funkciói azonban továbbra is elérhetőek lesznek az Ön számára.&lt;/Data></string>
+    <string name="privacy_message"><Data>Olvassa el és fogadja el a &lt;a href=\"%2$s\">Felhasználási feltételeinket&lt;/a> és az &lt;a href=\"%1$s\">Adatvédelmi Irányelveinket&lt;/a> mielőtt a Mi Mover alkalmazást használja. A Mi Mover Adatvédelmi Irányelveihez adott hozzájárulását bármikor visszavonhatja a Mi Mover névjegye menüpontban. Ha nem járul hozzá a fent említett szolgáltatások használatához, akkor nem fogja tudni használni az alkalmazás egyes funkcióit; alapvető funkciói azonban továbbra is elérhetőek lesznek az Ön számára.</Data></string>
     <string name="privacy_policy">Adatvédelmi irányelvek</string>
     <string name="privacy_title">Felhasználási feltételek</string>
     <string name="prompt_before_transmission_message1_summary">Ha úgy dönt, hogy átviszi őket a régi készülékéről, az alkalmazásadatok (beleértve a csevegési előzményeket is) felülíródnak.</string>
@@ -695,6 +719,12 @@ Szabadítson fel legalább %s méretű helyet."</string>
     <string name="secret_password_confirm_summary">Hitelesítse személyazonosságát az adatvédelmi jelszó megadásával, hogy a személyes fájlokat át tudja vinni az új készülékre.</string>
     <string name="secret_password_confirm_title">Adatvédelmi jelszó</string>
     <string name="secret_title">Személyes elemek</string>
+    <string name="security_connect_button_negative">Mégse</string>
+    <string name="security_connect_button_positive">Csatlakozás</string>
+    <string name="security_connect_content">Ellenőrizze, hogy a két készülék csatlakozási kódjai megegyezzenek. Az elemek átviteléhez koppintson a \"Csatlakozás\" gombra.</string>
+    <string name="security_connect_hint">Csatlakozási kód</string>
+    <string name="security_connect_title_guest">Csatlakozik az új készülékhez most?</string>
+    <string name="security_connect_title_host">Csatlakozik a régi készülékhez most?</string>
     <string name="select_all">Az összes kiválasztása</string>
     <string name="select_android_summary">Huawei, OPPO, vivo és egyebek</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@ Töltse le és telepítse a Mi Átköltözést."</string>
     <string name="trans_sync_transfer_data_list">Válassza ki az átküldeni kívánt elemeket a régi eszközön</string>
     <string name="trans_sync_transfer_data_list_apple">Elemek átvitele az Apple készülékről</string>
     <string name="trans_sync_transfer_data_list_hint">Egy pillanat…</string>
+    <string name="trans_sync_transfer_data_list_pad">Válassza ki a régi készüléken az átvinni kívánt elemeket</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Válassza ki az elemeket a régi eszközén és koppintson a „Küldés” lehetőségre</string>
     <string name="trans_time_format_second">Kevesebb mint %d perc</string>
     <string name="trans_time_spent">Idő: %s</string>
@@ -878,6 +909,10 @@ Töltse le és telepítse a Mi Átköltözést."</string>
     <string name="transfer_lose_connect_title">A csatlakozás megszakadt</string>
     <string name="transfer_multi_connect_summary">Az átvitel biztonsági okok miatt megszakításra került. Ha így is szeretné folytatni, kattintson a „Csatlakozás újra” lehetőségre.</string>
     <string name="transfer_multi_connect_title">Úgy tűnik, hogy több készülék is csatlakozva van erre a hotspotra</string>
+    <string name="transfer_no_memory_dialog_btn">Rendben</string>
+    <string name="transfer_no_memory_dialog_summary">Az új készüléken nincs elég tárhely az átvitel befejezéséhez. Szabadítson fel helyet a készüléken, hogy be tudja fejezni az elemek átvitelét.</string>
+    <string name="transfer_no_memory_dialog_title">Nincs elegendő tárhely</string>
+    <string name="transfer_no_memory_dialog_title_pad">Nincs elegendő tárhely</string>
     <string name="transfer_quit_alert_btn_negative">Kilépés</string>
     <string name="transfer_quit_alert_btn_positive">Ne lépjen ki</string>
     <string name="transfer_quit_alert_message">"A Mi Mover dolgozik. Biztosan kilép?

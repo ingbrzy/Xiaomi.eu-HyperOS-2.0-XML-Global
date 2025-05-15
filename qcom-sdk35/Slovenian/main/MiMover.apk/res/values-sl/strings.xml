@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Skupna raba z:</string>
     <string name="abc_shareactionprovider_share_with_application">Skupna raba z drugimi prek aplikacije %s</string>
     <string name="abc_toolbar_collapse_description">Strnitev</string>
+    <string name="accessibility_sliding_button_state_description_off">izklopljeno</string>
+    <string name="accessibility_sliding_button_state_description_on">vklopljeno</string>
+    <string name="accessibility_tab_state_description_unselect">Izbrano</string>
+    <string name="accessibility_tab_statedesc_unselect">Izbrano</string>
     <string name="account_or_password_incorrect">Nepravilni uporabniški ID ali geslo</string>
     <string name="actionbar_button_up_description">Nazaj</string>
     <string name="afternoon">Popoldne</string>
@@ -175,7 +179,7 @@ Obiščite https://appleid.apple.com/#!&amp;page=signin za izklop"</string>
     <string name="dialog_request_permission_message_extra_summary">Ta dovoljenja so potrebna za omogočanje osnovnih funkcij in storitev te aplikacije.</string>
     <string name="dialog_request_permission_message_extra_title">Obvezna dovoljenja</string>
     <string name="dialog_request_permission_message_global">Ta aplikacija zahteva naslednja dovoljenja za normalno delovanje:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Istočasno, da bi popolnoma razumeli vaše pravice kot uporabnika, prav tako tudi načine na katere uporabljamo vaše podatke, preberite in se strinjate z našim &lt;a href='%1s'>Uporabniškim dogovorom&lt;/a> in &lt;a href='%2s'>Pravilnikom o zasebnosti&lt;/a>.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">Istočasno, da bi popolnoma razumeli vaše pravice kot uporabnika, prav tako tudi načine na katere uporabljamo vaše podatke, preberite in se strinjate z našim %1$s in %2$s.</string>
     <string name="dialog_request_permission_title">Pozor</string>
     <string name="dialog_request_permission_title_global">Zahtevana dovoljenja</string>
@@ -196,11 +200,13 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="err_bakfile_broken">Ni mogoče uporabiti te varnostne kopije.</string>
     <string name="err_bakfile_not_exist">Datoteka varnostne kopije ne obstaja.</string>
     <string name="err_binder_died">Aplikacija se je nepričakovano ustavila.</string>
+    <string name="err_data_protection">V stari napravi je vklopljena napredna zaščita podatkov. Zahtevano preverjanje.</string>
     <string name="err_install_incompatible">Težava z združljivostjo</string>
     <string name="err_low_storage">Ni dovolj prostora za shranjevanje</string>
     <string name="err_no_gms">Nezdružljiva različica aplikacije. To aplikacijo namestite ločeno.</string>
     <string name="err_not_allow">Ni podprto</string>
     <string name="err_pkg_not_exist">Ni mogoče najti aplikacijo.</string>
+    <string name="err_receiver_no_space">Ni bilo mogoče prenesti. V novi napravi ni dovolj prostora za shranjevanje.</string>
     <string name="err_remote_no_space">Na novi napravi ni dovolj prostora</string>
     <string name="err_remote_timeout">Prenos je potekel</string>
     <string name="err_send_error">Ni mogoče poslati</string>
@@ -269,6 +275,12 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Razumem</string>
+    <string name="force_update_button_scan_host">Namesti</string>
+    <string name="force_update_content_guest">Posodobite Mi Mover na novi napravi, da boste lahko prenesli elemente.</string>
+    <string name="force_update_content_host">Posodobite Mi Mover na stari napravi, da boste lahko prenesli elemente.</string>
+    <string name="force_update_title_guest">Posodobite Mi Mover na novi napravi</string>
+    <string name="force_update_title_host">Posodobite Mi Mover na stari napravi</string>
     <string name="friday">Petek</string>
     <string name="friday_short">Pet</string>
     <string name="friday_shortest">Pet</string>
@@ -408,6 +420,10 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="miui_wait_link_title_1">%d. Tapnite »Pošiljatelj sem« in počakajte trenutek.</string>
     <string name="miui_wait_link_title_2">%d. Da bi se povezali, na stari napravi izberite to dostopno točko.</string>
     <string name="miuix_access_state_desc">Izbrano</string>
+    <string name="miuix_accessibility_title">Naslov</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Končajte z načinom urejanja</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nova sporočila</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Začni urejanje</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Prekliči izbiro</string>
     <string name="miuix_appcompat_action_mode_select_all">Izberi vse</string>
     <string name="miuix_appcompat_action_mode_title_empty">Izberite predmete</string>
@@ -423,6 +439,7 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="miuix_appcompat_select_all">Izberi vse</string>
     <string name="miuix_appcompat_select_all_description">Izberite vse</string>
     <string name="miuix_appcompat_select_item">Izberite predmete</string>
+    <string name="miuix_progressbar_loading">Nalaganje</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Povlecite za osvežitev</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uspešno osveženo</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Osveževanje…</string>
@@ -431,6 +448,7 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je zaenkrat vse</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Samo trenutek…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Predmetov ni mogoče naložiti</string>
+    <string name="miuix_show_password">Prikaži geslo</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Sporočila, stiki, zgodovina klicev</string>
     <string name="monday">Ponedeljek</string>
@@ -503,11 +521,15 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="new_trans_intro_question_6">%d. Zakaj ni mogoče prenesti podatke aplikacij iz naprave tretjih ponudnikov?</string>
     <string name="new_trans_intro_question_7">%d. Če zapustim aplikacijo Mi Mover med prenosom, se bo prenos naslednjič začel od začetka?</string>
     <string name="new_trans_intro_question_8">%d. Zakaj na novi napravi ni moje WeChat zgodovine?</string>
+    <string name="new_version_transfer_downloading">Posodobljanje Mi Mover</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Posadabljanje…</string>
     <string name="new_wait_link_message_2">Gumb »Pošiljatelj sem« se nahaja na začetni strani aplikacije Mi Mover.</string>
     <string name="next">Naprej</string>
     <string name="night">Večer</string>
     <string name="no_more_memory_title">Mi Mover mora ustvariti lokalno varnostno kopijo na tej napravi. Trenutno ni dovolj prostora v shrambi, da bi ustvaril varnostno kopijo. Najprej sprostite nekaj prostora.</string>
     <string name="noon">Opoldne</string>
+    <string name="not_selectable">Ni mogoče izbrati</string>
     <string name="not_set">Ni nastavljeno</string>
     <string name="not_support_data_content1">%d. Predmeti, značilni za model naprave</string>
     <string name="not_support_data_content2">%d. Podatki o aplikaciji</string>
@@ -556,6 +578,8 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="open_photo_and_contacts_cloud_sync_summary">Vklopite sinhronizacijo, da bi se stiki in predmeti iz Galerije prikazale na tej napravi.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">Sinhronizacija stikov in predmetov iz Galerije</string>
     <string name="operation_send">Pošlji</string>
+    <string name="opposite_new_version_transfer_content">Počakajte, da se druga naprava posodobi in znova zažene Mi Mover, nato tapnite za ponovno povezavo.</string>
+    <string name="opposite_new_version_transfer_title">Druga naprava se posodablja</string>
     <string name="option_about">O aplikaciji Mi Mover</string>
     <string name="option_feedback_title">Povratne informacije</string>
     <string name="option_privacy_policy">Pravilnik o zasebnosti</string>
@@ -603,7 +627,7 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="privacy_desc">Dobrodošli v Mi Mover! Ta aplikacija vam ponuja naslednje storitve:</string>
     <string name="privacy_experience_statement">Pridružite se našemu Programu uporabniških izkušenj, ter delite z nami uporabniške podatke, da bi nam pomagali izboljšati naše izdelke in storitve.</string>
     <string name="privacy_item1">· Prenos datotek, sporočil, nastavitev sistemskih aplikacij in aplikacij</string>
-    <string name="privacy_message">&lt;Data>Pred uporabo aplikacije Mi Mover preberite in se strinjajte z &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a> in &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a>. V \"O aplikaciji Mi Mover\" lahko kadarkoli prekličete vaše soglasje s Pravilnikom o zasebnosti aplikacije Mi Mover. Če se ne strinjate z uporabo zgoraj omenjenih storitev ne boste mogli uporabljati nekatere funkcije te aplikacije, vendarle vam bodo osnovne funkcije še zmeraj na voljo.&lt;/Data></string>
+    <string name="privacy_message"><Data>Pred uporabo aplikacije Mi Mover preberite in se strinjajte z &lt;a href=\"%2$s\">Uporabniškim dogovorom&lt;/a> in &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a>. V \"O aplikaciji Mi Mover\" lahko kadarkoli prekličete vaše soglasje s Pravilnikom o zasebnosti aplikacije Mi Mover. Če se ne strinjate z uporabo zgoraj omenjenih storitev ne boste mogli uporabljati nekatere funkcije te aplikacije, vendarle vam bodo osnovne funkcije še zmeraj na voljo.</Data></string>
     <string name="privacy_policy">Pravilnikom o zasebnosti</string>
     <string name="privacy_title">Pogoji in določila</string>
     <string name="prompt_before_transmission_message1_summary">Če se odločite za prenos iz stare naprave, bodo podatki aplikacij (vključno z zgodovino klepeta) prepisani.</string>
@@ -695,6 +719,12 @@ Sprostite najmanj %s."</string>
     <string name="secret_password_confirm_summary">Potrdite svojo identiteto z vnosom gesla za zaščito zasebnosti, da boste lahko prenesli zasebne datoteke v novo napravo.</string>
     <string name="secret_password_confirm_title">Geslo za zaščito zasebnosti</string>
     <string name="secret_title">Zasebni predmeti</string>
+    <string name="security_connect_button_negative">Prekliči</string>
+    <string name="security_connect_button_positive">Poveži</string>
+    <string name="security_connect_content">Prepričajte se, da se kodi za povezavo na obeh napravah ujemata. Nato tapnite »Poveži« za prenos elementov.</string>
+    <string name="security_connect_hint">Koda za povezavo</string>
+    <string name="security_connect_title_guest">Se želite povezati z novo napravo?</string>
+    <string name="security_connect_title_host">Se želite povezati s staro napravo?</string>
     <string name="select_all">Izberi vse</string>
     <string name="select_android_summary">Huawei, OPPO, vivo in še več</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@ Prenesite in namestite Mi Mover."</string>
     <string name="trans_sync_transfer_data_list">Izberite predmete, ki jih želite prenesti na staro napravo</string>
     <string name="trans_sync_transfer_data_list_apple">Prenesite elemente s svoje naprave Apple</string>
     <string name="trans_sync_transfer_data_list_hint">Samo trenutek…</string>
+    <string name="trans_sync_transfer_data_list_pad">Izberite elemente za prenos v stari napravi</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Izberite predmete v stari napravi in tapnite »Pošlji«.</string>
     <string name="trans_time_format_second">Manj kot %d minuto</string>
     <string name="trans_time_spent">Čas: %s</string>
@@ -878,6 +909,10 @@ Prenesite in namestite Mi Mover."</string>
     <string name="transfer_lose_connect_title">Povezava je bila prekinjena</string>
     <string name="transfer_multi_connect_summary">Vaš prenos je bil prekinjen zaradi varnostnih razlogov. Če vseeno želite nadaljevati tapnite »Poveži ponovno«.</string>
     <string name="transfer_multi_connect_title">Izgleda, da je več naprav povezanih na to dostopno točko</string>
+    <string name="transfer_no_memory_dialog_btn">Razumem</string>
+    <string name="transfer_no_memory_dialog_summary">Nova naprava nima dovolj prostora za shranjevanje za dokončanje prenosa. Sprostite prostor v napravi, da boste lahko dokončali prenos elementov.</string>
+    <string name="transfer_no_memory_dialog_title">Premalo prostora za shranjevanje</string>
+    <string name="transfer_no_memory_dialog_title_pad">Premalo prostora za shranjevanje</string>
     <string name="transfer_quit_alert_btn_negative">Izhod</string>
     <string name="transfer_quit_alert_btn_positive">Ne zapusti</string>
     <string name="transfer_quit_alert_message">"Mi Mover trenutno deluje. Želite vseeno zapustiti?

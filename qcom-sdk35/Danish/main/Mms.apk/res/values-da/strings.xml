@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Del med</string>
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="accessibility_sliding_button_state_description_off">Slået fra</string>
+    <string name="accessibility_sliding_button_state_description_on">Slået til</string>
+    <string name="accessibility_tab_state_description_unselect">Ikke valgt</string>
     <string name="action_get_otp">Få kode</string>
     <string name="action_sign_in">Log ind</string>
     <string name="action_sign_in_short">Log ind</string>
@@ -468,10 +471,8 @@ Bemærk, at beskedtjenesten er midlertidigt afbrudt, indtil andet meddeles. Dett
     <string name="menu_unlock">Fjern fra favoritter</string>
     <string name="menu_view_contact">Se kontakt</string>
     <string name="menu_view_group_info">Gruppeoplysninger</string>
-    <string name="message_cannot_send_air_mode">"Kan ikke sende beskeder.
-Sluk først for flytilstand."</string>
-    <string name="message_cannot_send_sim_unavailable">"Kan ikke sende beskeder.
-Kontroller dit SIM-kort."</string>
+    <string name="message_cannot_send_air_mode">Slå flytilstand fra for at sende beskeder</string>
+    <string name="message_cannot_send_sim_unavailable">Indsæt SIM-kort for at sende beskeder</string>
     <string name="message_class_label">"Beskedklasse: "</string>
     <string name="message_contact">Kontaktperson:</string>
     <string name="message_details_title">Beskedoplysninger</string>
@@ -499,6 +500,12 @@ Kontroller dit SIM-kort."</string>
     <string name="midnight">Nat</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">Valgt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Skjult</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Udvidet</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Afslut redigeringsvisning</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ny notifikation</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Start redigeringsvisning</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valgte emner</string>
@@ -514,12 +521,15 @@ Kontroller dit SIM-kort."</string>
     <string name="miuix_appcompat_select_all">Vælg alle</string>
     <string name="miuix_appcompat_select_all_description">Vælg alle</string>
     <string name="miuix_appcompat_select_item">Vælg emner</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop op-vindue</string>
     <string name="miuix_item_view_role_description">Fane</string>
     <string name="miuix_navigator_category_group_collapse">Skjul</string>
     <string name="miuix_navigator_category_group_expand">Udvid</string>
     <string name="miuix_navigator_content_switch_description">Vis sidebjælke</string>
     <string name="miuix_navigator_multiple_choice">Vælg</string>
     <string name="miuix_navigator_navigator_switch_description">Skjul sidebjælke</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Værktøjslinje nederst på skærmen</string>
+    <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Opdaterer…</string>
@@ -528,6 +538,9 @@ Kontroller dit SIM-kort."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det er alt for nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
+    <string name="miuix_show_password">Vis adgangskode</string>
+    <string name="miuix_stretchablewidget_collapsed">Skjult</string>
+    <string name="miuix_stretchablewidget_expanded">Udvidet</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">"Alle MMS'er, undtagen beskeder sendt fra autoriserede afsendere, vil blive blokeret. Autoriserede afsendere omfatter netværksoperatører, nationale togbookingsystemer etc."</string>
     <string name="mms_block_alert_ok">Blokér</string>
@@ -621,11 +634,23 @@ Denne besked kan være sendt uopfordret."</string>
     <string name="mx_privacy_policy">Privatlivspolitik for Mi Message</string>
     <string name="mx_stranger_recommend_msg">Tryk for at blokere Mi Messages fra ukendte numre</string>
     <string name="need_download">Synkroniserer…</string>
+    <string name="net_message_download_btn_content_desc">Download</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Kopiér kode %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Åbn link %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Åbn app</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Åbn Kalender</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Ring %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Svar</string>
+    <string name="net_message_media_card_img_content_desc">Foto</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Videoafspilning er fuldført</string>
+    <string name="net_message_media_card_video_content_desc">Video</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Sæt på pause</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Afspil</string>
     <string name="net_sms_subscribed">Abonnement er tegnet</string>
     <string name="net_sms_unsubscribe">Opsagt abonnement med succes</string>
     <string name="networking_allow_continue">Tillad</string>
     <string name="networking_allow_title">Giv agt</string>
-    <string name="new_message">Opret</string>
+    <string name="new_message">Ny besked</string>
     <string name="new_message_arrived">Ulæst</string>
     <string name="new_phrase">Tilføj svar</string>
     <string name="new_phrase_hint">Indtast nyt svar</string>
@@ -668,6 +693,7 @@ Denne besked kan være sendt uopfordret."</string>
     <string name="over_max_mms_size">MMS er for stor.</string>
     <string name="overwrite_edited_content">Det indhold, du har redigeret, vil blive overskrevet.</string>
     <string name="packages_select_sim_cards_title">Vælg SIM-kort</string>
+    <string name="page_indicator">Sideindikator</string>
     <string name="passenger_title">Passager</string>
     <string name="pay_bill">Betal</string>
     <string name="payment_failed">Kunne ikke gennemføre betalingen</string>
@@ -909,6 +935,7 @@ Tjek anbefalede chatbots!"</string>
     <string name="recommend_bar_ok">Slå til</string>
     <string name="recommend_bar_title_mx_rcs">Mi Message</string>
     <string name="recommend_close">Deaktiver</string>
+    <string name="recommend_close_button">Luk</string>
     <string name="recommend_disagree">Acceptér ikke</string>
     <string name="recommend_free_internet_message">Gratis internet-beskedtjeneste</string>
     <string name="recommend_free_mi">Mi Message</string>
@@ -1058,6 +1085,7 @@ Tjek anbefalede chatbots!"</string>
     <string name="snippet_audio">[Lyd]</string>
     <string name="snippet_picture">[Billede]</string>
     <string name="snippet_timed">[På tid]</string>
+    <string name="soundrecorder_not_found">Installer Optager først</string>
     <string name="sp_category_all">Alle servicebeskeder</string>
     <string name="sp_category_bank">Banknotifikationsbeskeder</string>
     <string name="sp_category_title_prefix">%s</string>

@@ -962,6 +962,7 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="button_text_trust">Megbízható hálózat</string>
     <string name="button_text_update_now">Frissítés</string>
     <string name="button_to_setting">Beállítások</string>
+    <string name="button_toll_correction">Egyenleg kalibrálása</string>
     <string name="byteShort">B</string>
     <string name="call_address">Körzetszám tiltólista</string>
     <string name="call_all_number_block">Minden hívás letiltása</string>
@@ -1061,6 +1062,7 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="charging_text_battery_full_time">"Utolsó feltöltés: "</string>
     <string name="charging_text_battery_nearly_full">Majdnem teljesen feltöltve</string>
     <string name="charging_text_battery_perfect">Teljesen feltöltve</string>
+    <string name="check_bill_balance">Egyenleg ellenőrzése</string>
     <string name="choose">Kiválasztás</string>
     <string name="choose_gs_show_way">A kezdőképernyő tájolásának kiválasztása</string>
     <string name="clean_immediately">Tisztítás</string>
@@ -1684,6 +1686,7 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="fixed_cellular_data_quota_monthly">Havi adatkorlát</string>
     <string name="fixed_package_tips">További díjak merülnek fel, ha elérte a korlátot</string>
     <string name="fixed_traffic_quota">Adatkorlát (kötelező)</string>
+    <string name="fixed_traffic_quota_offline">Adatkorlát (kötelező)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -1923,7 +1926,7 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="gamebox_immersion_tips_content">Az Immerzív mód korlátozza az összes SIM-kártyát, kivéve a mobil adatkapcsolatot. Sem hívások nem fogják megszakítani, sem értesítések a nem fogadott hívásokról. A SIM-kártya összes funkciója helyreáll, ha az Immerzív mód kikapcsolásra kerül. Bekapcsolja az Immerzív módot?</string>
     <string name="gamebox_immersion_tips_title">Figyelmeztetés</string>
     <string name="gamebox_immerson_open">Az Immerzív mód bekapcsolás alatt, ne váltson hálózatot!…</string>
-    <string name="gamebox_macro">Combos</string>
+    <string name="gamebox_macro">Kombók</string>
     <string name="gamebox_manual_record">Felvétel</string>
     <string name="gamebox_mem_clean">Memóriatisztítás</string>
     <string name="gamebox_mem_filter">Játékszűrők</string>
@@ -2038,8 +2041,14 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="gb_beauty_nature_light">Természetes</string>
     <string name="gb_beauty_warm_light">Meleg</string>
     <string name="gb_collimator_color">Szín</string>
+    <string name="gb_collimator_color_blue_talkback">Kék</string>
+    <string name="gb_collimator_color_purple_talkback">Lila</string>
+    <string name="gb_collimator_color_red_talkback">Piros</string>
+    <string name="gb_collimator_color_white_talkback">Fehér</string>
+    <string name="gb_collimator_color_yellow_talkback">Sárga</string>
     <string name="gb_collimator_size">Méret</string>
     <string name="gb_collimator_style">Típus</string>
+    <string name="gb_collimator_style_talkback">%1$d. stílus</string>
     <string name="gb_collimator_toast">Az irányzórés megkönnyíti a célzást</string>
     <string name="gb_cooler_device_toast">"A vizuális élményt a
 Xiaomi Gaming Cooler javítja"</string>
@@ -2082,9 +2091,9 @@ Xiaomi Gaming Cooler javítja"</string>
     <string name="gb_first_window_title">Játékgyorsító</string>
     <string name="gb_game_end_toast">Tekintse át a játék fontos pillanatait</string>
     <string name="gb_game_fill_desc">A tartalom egyes esetekben torzulhat</string>
-    <string name="gb_game_macro_bubble_tips">Try combos</string>
-    <string name="gb_game_macro_toast_tips">"Try combos!
-Record sequences and use them anytime!"</string>
+    <string name="gb_game_macro_bubble_tips">Kombók kipróbálása</string>
+    <string name="gb_game_macro_toast_tips">"Próbálkozzon kombókkal!
+Rögzítsen sorozatokat, és használja őket bármikor!"</string>
     <string name="gb_game_mode_change_btn_right">Újraindítás</string>
     <string name="gb_game_mode_change_message">Újraindítja a játékot a változtatások alkalmazásához?</string>
     <string name="gb_game_mode_change_new">Itt válthat az elrendezések között</string>
@@ -2142,7 +2151,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Átlátszó</string>
     <string name="gb_network_status_bad">Hiba keletkezett a kapcsolatban.</string>
     <string name="gb_new_feature">Új funkció</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Ez az alkalmazás nem használható külső képernyőn</string>
     <string name="gb_operat_frequently">Csak ne olyan gyorsan!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Nem lehet kiegyensúlyozott módra váltani a Játékgyorsítóban, ha a rendszer egészére kiterjedő Teljesítménymód be van kapcsolva. Az akkumulátor beállításait a Biztonság menüpontban módosíthatja.&lt;br>&lt;a href=\"#\">Biztonság megnyitása&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Teljesítménymódra váltott. Előfordulhat, hogy a készülék felmelegszik és több energiát fogyaszt.</string>
@@ -2507,9 +2516,9 @@ Az ablak mozgatásához nyomja hosszan a jelzőt."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Másodlagos SIM blokkolása</string>
     <string name="gtb_setting_item_title_smart_5g">5G hálózatoptimalizáció</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi sebesség gyorsítás</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
+    <string name="gtb_spring_festival_back_game">Vissza a játékhoz</string>
     <string name="gtb_spring_festival_egg_obtain_fail">Nem sikerült csatlakozni a hálózathoz</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Megtekintés</string>
     <string name="gtb_spring_festival_guide">"Váltson fekvő módre
 hogy csatlakozzon a tojásvadászatunkhoz!"</string>
     <string name="gtb_spring_festival_guide_know">Rendben</string>
@@ -2715,6 +2724,7 @@ A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat ha
     <string name="main_activity_content_summary_update">Rendszerfrissítés</string>
     <string name="main_alert_message_no_imsi">Nem észlelhető SIM-kártya</string>
     <string name="main_alert_message_open_traffic_ctrl">Javasoljuk, hogy korlátozza az adathasználatát</string>
+    <string name="main_balance_check">Egyenleg ellenőrzése</string>
     <string name="main_bill_remained">Telefonegyenleg</string>
     <string name="main_button_mi_sim_close">Mi SIM aktiválása</string>
     <string name="main_button_mi_sim_open">Részletek megtekintése</string>
@@ -2729,6 +2739,7 @@ A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat ha
     <string name="main_daily_card_guide_dialog_title">Állítsa be az adat-előfizetés típusát</string>
     <string name="main_daily_card_guide_dialog_title_new">Adatcsomag típusának beállítása</string>
     <string name="main_daily_package">Napi adatforgalom</string>
+    <string name="main_declaration_dialog_msg">Az ebben a funkcióban megjelenített egyenlegérték nem használható bizonyítékként a szolgáltatóval folytatott tárgyalások során. A szolgáltatója által megadott adatforgalomra és hanghasználatra vonatkozó statisztikák elsőbbséget élveznek.</string>
     <string name="main_indicator_title">Aktiválás</string>
     <string name="main_leisure_remained">Hátralévő csúcsidőn kívüli adat</string>
     <string name="main_month_total_used">Ebben a hónapban felhasznált</string>
@@ -3258,6 +3269,7 @@ Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondo
     <string name="notify_weekly_traffic_body">Az adatforgalom automatikus korlátozásához állítsa be a havi adat-előfizetést.</string>
     <string name="notify_weekly_traffic_title">Ezen a héten %s felhasználva</string>
     <string name="notify_weekly_traffic_title_for_slotnum">Ezen a héten %1$s felhasznált %2$s</string>
+    <string name="now_inquiry">Részletek</string>
     <string name="number_address">Tartózkodási hely</string>
     <string name="numeric_need_to_confirm">Adja meg újra a megerősítéshez</string>
     <string name="numeric_password_confirmed_header_confirm">Sikeresen beállítva. Érintse meg a megerősítéshez.</string>
@@ -3483,6 +3495,10 @@ Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondo
     <string name="pc_continuity_open_save_mode_notifi_title">%s akkumulátor alacsony töltöttségű</string>
     <string name="pc_current_power_mode">Jelenlegi mód</string>
     <string name="pc_cycle_count_protect_title">Ciklusok</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Rendben</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Ne mutassa újra</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">A készülék rövid oldalán található USB-C nem támogatja az adatátvitelt. Csatlakoztassa a számítógéphez a másik csatlakozóval.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Töltési emlékeztető</string>
     <string name="pc_emergency_call">Segélyhívás</string>
     <string name="pc_endurance_calculation">Számítás…</string>
     <string name="pc_entered_extreme_mode">Hibernálás mód</string>
@@ -4007,7 +4023,7 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="power_consume_other">Egyéb</string>
     <string name="power_consume_rank_hardware">Hardver</string>
     <string name="power_consume_rank_software">Alkalmazások</string>
-    <string name="power_consume_rank_title">Energiafogyasztás</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Alkalmazások: %s</string>
     <string name="power_customize_giveup_change">Elveti a módosításokat?</string>
     <string name="power_dailog_night_charge_protection_done">Rendben</string>
@@ -4587,6 +4603,7 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="renew_now">Megújítás</string>
     <string name="repair">Javítás</string>
     <string name="repair_loading_text">Egy pillanat…</string>
+    <string name="repeat_prompts">Lassítson! Ne küldjön be több kérelmet egymás után.</string>
     <string name="repeat_type">Ismétlés</string>
     <string name="repeated_marked_number_summary">%d percen belül ne blokkoljon második hívást ugyanarról a bejelentett számról</string>
     <string name="repeated_marked_number_title">Ne tiltsa az ismétlődő hívásokat a bejelentett számokról</string>
@@ -5378,6 +5395,7 @@ A formázás eltávolítja a tartalmakat a(z) ^2 SD-kártyáról. A tartalmak el
     <string name="tc_parse_error">SMS elemzése sikertelen</string>
     <string name="tc_receive_timeout">A kalibráció időtúllépés miatt leállt</string>
     <string name="tc_send_sms_error">SMS küldése sikertelen</string>
+    <string name="tc_sms_bill_report_receive_content">Kalibrációs SMS (ellenőrizze, hogy az SMS tartalmazza-e az egyenleg adatokat)</string>
     <string name="tc_sms_report_direction">SMS Kód (parancs SMS-ben a szolgáltatónak)</string>
     <string name="tc_sms_report_do_report">Küldés</string>
     <string name="tc_sms_report_get_default">A szolgáltatója nem számol fel különdíjat az adatforgalmi adatok lekéréséhez használt üzenetekért.</string>
@@ -5502,6 +5520,7 @@ A formázás eltávolítja a tartalmakat a(z) ^2 SD-kártyáról. A tartalmak el
     <string name="title_app_update">Elérhető frissítések</string>
     <string name="title_auto_update">Automatikus frissítés</string>
     <string name="title_background_connection">%s nem képes a háttérben működni</string>
+    <string name="title_bill_balance_inquiry">Egyenleg (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Elmulasztott hívásokat a névjegyeiből ismert számokról</string>
     <string name="title_block_calls_from_strangers">Fontos hívásokat mulasztott el</string>
     <string name="title_chain_start">Láncindulás korlátozása</string>
@@ -5524,6 +5543,7 @@ A formázás eltávolítja a tartalmakat a(z) ^2 SD-kártyáról. A tartalmak el
     <string name="title_eye_shield">A képernyő színei nem látszanak helyesnek</string>
     <string name="title_find_device">Készülékkeresés</string>
     <string name="title_first_aid_kit">Problémamegoldás</string>
+    <string name="title_flow_base_reminder">Adatforgalmi emlékeztetők</string>
     <string name="title_flow_notification">Mobiladat-kapcsolat értesítés</string>
     <string name="title_flow_purchase">Mobiladat vásárlása</string>
     <string name="title_flow_rank">Mobiladat-használat</string>
@@ -5640,6 +5660,7 @@ A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyisége
     <string name="traffic_remind">Adatforgalmi figyelmeztetés</string>
     <string name="traffic_remind_switch">Adathasználati figyelmeztetés</string>
     <string name="traffic_reminder_settings">Adathasználati figyelmeztetés beállítása</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Helyi</string>
     <string name="traffic_setting_fragment_brand">Gyártó</string>
     <string name="traffic_setting_fragment_button1_text">Mégse</string>
@@ -5704,13 +5725,18 @@ A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyisége
     <string name="usage_sorted_empty_text">Üres</string>
     <string name="usage_sorted_loading_text">Egy pillanat…</string>
     <string name="usage_type_audio">Audió</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">CPU teljes</string>
     <string name="usage_type_cpu_foreground">CPU-használat az előtérben</string>
     <string name="usage_type_data_recv">Fogadott adatok</string>
     <string name="usage_type_data_send">Elküldött adatok</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Jel nélkül eltelt idő</string>
     <string name="usage_type_on_time">Bekapcsolva</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Videó</string>
     <string name="usage_type_wake_lock">Ébren tartás</string>
     <string name="usage_type_wifi_running">Wi-Fi használatban</string>
@@ -5844,6 +5870,7 @@ Ez a funkció nem működik, ha az Akkumulátorkímélő vagy az Ultraerős akku
     <string name="videobox_settings_timing">Figyelmeztető jelzés</string>
     <string name="videobox_settings_timing_desc">Szünet beiktatására emlékeztető óránkénti figyelmeztető jelzés fogadása</string>
     <string name="videobox_settings_title">Videó eszköztár</string>
+    <string name="view_package_info">A csomag részleteinek megtekintése</string>
     <string name="view_traffic_detail">Részletek megjelenítése</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">Eltávolítás</string>

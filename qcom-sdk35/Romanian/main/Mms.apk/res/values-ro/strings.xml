@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Trimiteți la</string>
     <string name="abc_shareactionprovider_share_with_application">Trimiteți folosind %s</string>
     <string name="abc_toolbar_collapse_description">Restrângeți</string>
+    <string name="accessibility_sliding_button_state_description_off">Oprit</string>
+    <string name="accessibility_sliding_button_state_description_on">Pornit</string>
+    <string name="accessibility_tab_state_description_unselect">Nu a fost selectat</string>
     <string name="action_get_otp">Obține cod</string>
     <string name="action_sign_in">Conectează-te</string>
     <string name="action_sign_in_short">Conectează-te</string>
@@ -468,10 +471,8 @@ Vă rugăm să rețineți că funcționalitatea de mesagerie pe internet este ac
     <string name="menu_unlock">Elimină de la favorite</string>
     <string name="menu_view_contact">Vizualizează contactul</string>
     <string name="menu_view_group_info">Informații grup</string>
-    <string name="message_cannot_send_air_mode">"Nu se pot trimite mesaje.
-Dezactivați mai întâi Modul Avion."</string>
-    <string name="message_cannot_send_sim_unavailable">"Nu se poate trimite mesaje.
-Verificați cartela SIM."</string>
+    <string name="message_cannot_send_air_mode">Dezactivați Mod avion pentru a trimite mesaje</string>
+    <string name="message_cannot_send_sim_unavailable">Introduceți cartela SIM pentru a trimite mesaje</string>
     <string name="message_class_label">"Clasă mesaj: "</string>
     <string name="message_contact">Contact:</string>
     <string name="message_details_title">Detalii mesaje</string>
@@ -499,6 +500,12 @@ Verificați cartela SIM."</string>
     <string name="midnight">Noapte</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">Selectat</string>
+    <string name="miuix_accessibility_title">Titlu</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Colaps</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Extins</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Ieșire din modul de editare</string>
+    <string name="miuix_appcompat_accessibility_new_message">Notificare nouă</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Intrare în modul de editare</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselectează tot</string>
     <string name="miuix_appcompat_action_mode_select_all">Selectează tot</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selectați elementele</string>
@@ -514,12 +521,15 @@ Verificați cartela SIM."</string>
     <string name="miuix_appcompat_select_all">Selectează tot</string>
     <string name="miuix_appcompat_select_all_description">Selectează tot</string>
     <string name="miuix_appcompat_select_item">Selectați elementele</string>
+    <string name="miuix_appcompat_show_dialog_description">Fereastră pop-up</string>
     <string name="miuix_item_view_role_description">Filă</string>
     <string name="miuix_navigator_category_group_collapse">Colaps</string>
     <string name="miuix_navigator_category_group_expand">Extindeți</string>
     <string name="miuix_navigator_content_switch_description">Afișează bara laterală</string>
     <string name="miuix_navigator_multiple_choice">Selectați</string>
     <string name="miuix_navigator_navigator_switch_description">Ascunde bara laterală</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Bara de instrumente din partea de jos a ecranului</string>
+    <string name="miuix_progressbar_loading">Încărcare</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Trage în jos pentru a reîmprospăta</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Reîmprospătat cu succes</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Se reîmprospătează…</string>
@@ -528,6 +538,9 @@ Verificați cartela SIM."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Asta este tot pentru acum</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Doar o secundă…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nu s-au putut încărca elemente</string>
+    <string name="miuix_show_password">Afișează parola</string>
+    <string name="miuix_stretchablewidget_collapsed">Colaps</string>
+    <string name="miuix_stretchablewidget_expanded">Extins</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Toate MMS-urile, cu excepția mesajelor trimise de la expeditori autorizați, vor fi blocate. Expeditorii autorizați includ operatorii de rețea, sistemele naționale de rezervare a căilor ferate etc.</string>
     <string name="mms_block_alert_ok">Blochează</string>
@@ -621,11 +634,23 @@ Este posibil ca acest mesaj să nu fie solicitat."</string>
     <string name="mx_privacy_policy">Politica de confidențialitate pentru Mesajele Mi</string>
     <string name="mx_stranger_recommend_msg">Atingeți pentru a bloca Mesaje Mi de la numere necunoscute</string>
     <string name="need_download">Sincronizarea…</string>
+    <string name="net_message_download_btn_content_desc">Descarcă</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Copiază codul %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Deschide link-ul %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Deschide aplicația</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Deschide Calendar</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Apelează %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Răspunde</string>
+    <string name="net_message_media_card_img_content_desc">Fotografie</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Redarea video a fost finalizată</string>
+    <string name="net_message_media_card_video_content_desc">Videoclip</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Întrerupe</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Redă</string>
     <string name="net_sms_subscribed">Abonat cu succes</string>
     <string name="net_sms_unsubscribe">Dezabonare cu succes</string>
     <string name="networking_allow_continue">Permite</string>
     <string name="networking_allow_title">Atenție</string>
-    <string name="new_message">Compune</string>
+    <string name="new_message">Mesaj nou</string>
     <string name="new_message_arrived">Necitite</string>
     <string name="new_phrase">Adăugați un răspuns</string>
     <string name="new_phrase_hint">Introduceți un răspuns nou</string>
@@ -668,6 +693,7 @@ Este posibil ca acest mesaj să nu fie solicitat."</string>
     <string name="over_max_mms_size">MMS-ul este prea mare.</string>
     <string name="overwrite_edited_content">Conținutul editat va fi suprascris.</string>
     <string name="packages_select_sim_cards_title">Selectează cartela SIM</string>
+    <string name="page_indicator">Indicator de pagină</string>
     <string name="passenger_title">Pasager</string>
     <string name="pay_bill">Plătește</string>
     <string name="payment_failed">Nu s-a putut finaliza plata</string>
@@ -847,7 +873,7 @@ Urmărește chatbot-urile recomandate!"</string>
     <string name="rcs_conversation_rcs_tip">[Chatbot] %s</string>
     <string name="rcs_create_new_group">Creați grup chat</string>
     <string name="rcs_dspt">Trimiterea și primirea mesajelor utilizând rețeaua WLAN sau mobilă</string>
-    <string name="rcs_dspt_unavailable">"5G Messaging-related features aren't supported due to carrier restrictions"</string>
+    <string name="rcs_dspt_unavailable">Funcțiile legate de mesageria 5G nu sunt acceptate din cauza restricțiilor operatorului</string>
     <string name="rcs_file_link_as_sms">Vizitați %s pentru a vizualiza fișierul RCS trimis ție.</string>
     <string name="rcs_forward_faild">Nu s-a putut redirecționa</string>
     <string name="rcs_forward_successful">Redirecționat cu succes</string>
@@ -909,6 +935,7 @@ Urmărește chatbot-urile recomandate!"</string>
     <string name="recommend_bar_ok">Porniți</string>
     <string name="recommend_bar_title_mx_rcs">Mesaje Mi</string>
     <string name="recommend_close">Dezactivează</string>
+    <string name="recommend_close_button">Închide</string>
     <string name="recommend_disagree">Nu sunt de acord</string>
     <string name="recommend_free_internet_message">Mesagerie gratuită pe internet</string>
     <string name="recommend_free_mi">Mesaje Mi</string>
@@ -1058,6 +1085,7 @@ Urmărește chatbot-urile recomandate!"</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">Instalați Înregistrator mai întâi</string>
     <string name="sp_category_all">Toate mesajele de serviciu</string>
     <string name="sp_category_bank">Mesaje notificări de la bancă</string>
     <string name="sp_category_title_prefix">%s</string>
@@ -1217,7 +1245,7 @@ Urmărește chatbot-urile recomandate!"</string>
     <string name="voice_report_off">Oprit</string>
     <string name="voice_report_wiredon">Cu căști</string>
     <string name="wap_push_title">"[WAP Push] "</string>
-    <string name="warning_show">Trimite în %ds</string>
+    <string name="warning_show">Trimite în %d s</string>
     <string name="wednesday">Miercuri</string>
     <string name="wednesday_short">Mie</string>
     <string name="wednesday_shortest">Mie</string>

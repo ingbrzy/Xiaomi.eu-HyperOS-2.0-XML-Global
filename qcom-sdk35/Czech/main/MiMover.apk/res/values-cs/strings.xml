@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Sdílet s</string>
     <string name="abc_shareactionprovider_share_with_application">Sdílet s aplikací %s</string>
     <string name="abc_toolbar_collapse_description">Sbalit</string>
+    <string name="accessibility_sliding_button_state_description_off">vypnuto</string>
+    <string name="accessibility_sliding_button_state_description_on">zapnuto</string>
+    <string name="accessibility_tab_state_description_unselect">Nevybráno</string>
+    <string name="accessibility_tab_statedesc_unselect">Nevybráno</string>
     <string name="account_or_password_incorrect">Nespravené ID účtu nebo heslo</string>
     <string name="actionbar_button_up_description">Zpět</string>
     <string name="afternoon">Odpoledne</string>
@@ -175,7 +179,7 @@ Pro vypnutí ověření přejděte na https://appleid.apple.com/#!&amp;page=sign
     <string name="dialog_request_permission_message_extra_summary">Udělení těchto oprávnění je povinné pro využití základních funkcí a služeb této aplikace.</string>
     <string name="dialog_request_permission_message_extra_title">Povinná oprávnění</string>
     <string name="dialog_request_permission_message_global">Tato aplikace vyžaduje pro správné fungování udělení následujících oprávnění:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Pro lepší porozumění vašim uživatelským právům a způsobům, jakými vaše data využíváme, si přečtěte a souhlaste s našimi &lt;a href='%1s'>Smluvními podmínkami&lt;/a> a &lt;a href='%2s'>Zásadami ochrany osobních údajů&lt;/a>.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">Pro lepší porozumění vašim uživatelským právům a způsobům, jakými vaše data využíváme, si přečtěte a souhlaste s našimi %1$s a %2$s.</string>
     <string name="dialog_request_permission_title">Upozornění</string>
     <string name="dialog_request_permission_title_global">Vyžadována oprávnění</string>
@@ -196,11 +200,13 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="err_bakfile_broken">Tuto zálohu nelze použít.</string>
     <string name="err_bakfile_not_exist">Zálohovaný soubor neexistuje.</string>
     <string name="err_binder_died">Aplikace přestala pracovat.</string>
+    <string name="err_data_protection">Na starém zařízení je zapnuta pokročilá ochrana dat. Je vyžadováno ověření.</string>
     <string name="err_install_incompatible">Problém s kompatibilitou</string>
     <string name="err_low_storage">Nedostatek místa na úložišti</string>
     <string name="err_no_gms">Nekompatibilní verze aplikace. Nainstalujte aplikaci samostatně.</string>
     <string name="err_not_allow">Nepodporováno</string>
     <string name="err_pkg_not_exist">Aplikaci nelze najít.</string>
+    <string name="err_receiver_no_space">Nelze přenést. V úložišti nového zařízení není dost místa.</string>
     <string name="err_remote_no_space">Na úložišti nového zařízení není dostatek místa</string>
     <string name="err_remote_timeout">Čas relace přenosu vypršel</string>
     <string name="err_send_error">Odeslání se nezdařilo</string>
@@ -269,6 +275,12 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Rozumím</string>
+    <string name="force_update_button_scan_host">Instalovat</string>
+    <string name="force_update_content_guest">Aktualizujte Přesun do nového zařízení (Mi Mover) na novém zařízení, abyste mohli přenést položky.</string>
+    <string name="force_update_content_host">Aktualizujte Přesun do nového zařízení (Mi Mover) na starém zařízení, abyste mohli přenést položky.</string>
+    <string name="force_update_title_guest">Aktualizujte Přesun do nového zařízení (Mi Mover) na novém zařízení</string>
+    <string name="force_update_title_host">Aktualizujte Přesun do nového zařízení (Mi Mover) na starém zařízení</string>
     <string name="friday">Pátek</string>
     <string name="friday_short">Pát</string>
     <string name="friday_shortest">Pát</string>
@@ -408,6 +420,10 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="miui_wait_link_title_1">%d. Klepněte na \"Jsem odesílatel\" a chvíli počkejte.</string>
     <string name="miui_wait_link_title_2">%d. Na starém zařízení zvolte tento hotspot a připojte se.</string>
     <string name="miuix_access_state_desc">Vybráno</string>
+    <string name="miuix_accessibility_title">Nadpis</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Ukončit režim úprav</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nová zpráva</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Začít režim úprav</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Zrušit výběr</string>
     <string name="miuix_appcompat_action_mode_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_action_mode_title_empty">Vybrat položky</string>
@@ -423,6 +439,7 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="miuix_appcompat_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_select_all_description">Vybrat vše</string>
     <string name="miuix_appcompat_select_item">Vybrat položky</string>
+    <string name="miuix_progressbar_loading">Načítání</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potáhněte pro obnovení</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Úspěšně obnoveno</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Obnovování…</string>
@@ -431,6 +448,7 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je prozatím vše</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Ještě chvilku…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Načtení položek se nezdařilo</string>
+    <string name="miuix_show_password">Zobrazit heslo</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Zprávy, kontakty a historie volání</string>
     <string name="monday">Pondělí</string>
@@ -503,11 +521,15 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="new_trans_intro_question_6">%d. Proč nemohu přenést data aplikací ze zařízení třetí strany?</string>
     <string name="new_trans_intro_question_7">%d. Pokud z aplikace během přenosu odejdu, budu muset příště spustit přenos znovu od začátku?</string>
     <string name="new_trans_intro_question_8">%d. Proč nemůžu na novém zařízení najít historii konverzací aplikace WeChat?</string>
+    <string name="new_version_transfer_downloading">Aktualizace Přesunu do nového zařízení (Mi Mover)</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Aktualizace…</string>
     <string name="new_wait_link_message_2">Tlačítko \"Jsem odesílatel\" naleznete na úvodní stránce aplikace.</string>
     <string name="next">Další</string>
     <string name="night">Večer</string>
     <string name="no_more_memory_title">Přesun do nového zařízení (Mi Mover) vyžaduje vytvoření zálohy na tomto zařízení. Na zařízení však momentálně není dostatek místa. Nejprve uvolněte místo na úložišti zařízení.</string>
     <string name="noon">Poledne</string>
+    <string name="not_selectable">Nelze vybrat</string>
     <string name="not_set">Nenastaveno</string>
     <string name="not_support_data_content1">%d. Položky specifické pro model zařízení</string>
     <string name="not_support_data_content2">%d. Data aplikací</string>
@@ -556,6 +578,8 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="open_photo_and_contacts_cloud_sync_summary">Pro zobrazení kontaktů a položek z Galerie na tomto zařízení nejprve zapněte synchronizaci.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">Synchronizovat kontakty a položky z Galerie</string>
     <string name="operation_send">Odeslat</string>
+    <string name="opposite_new_version_transfer_content">Počkejte, až se druhé zařízení aktualizuje, pak restartujte Přesun do nového zařízení (Mi Mover) a klepnutím se znovu připojte.</string>
+    <string name="opposite_new_version_transfer_title">Druhé zařízení se aktualizuje</string>
     <string name="option_about">O Přesunu do nového zařízení</string>
     <string name="option_feedback_title">Zpětná vazba</string>
     <string name="option_privacy_policy">Zásady ochrany osobních údajů</string>
@@ -603,7 +627,7 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="privacy_desc">Vítejte v aplikaci Přesun do nového zařízení (Mi Mover)! Tato aplikace poskytuje následující služby:</string>
     <string name="privacy_experience_statement">Připojte se do našeho programu Optimalizace na základě uživatelské zkušenosti a sdílejte s námi svá uživatelská data. Tato data nám pomohou vylepšovat naše produkty a služby.</string>
     <string name="privacy_item1">· Přenos souborů, zpráv, aplikací a nastavení systémových aplikací</string>
-    <string name="privacy_message">&lt;Data>Před využitím aplikace Přesun do nového zařízení si přečtěte a souhlaste s našimi &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a> a &lt;a href=\"%1$s\">Zásadami ochrany osobních údajů&lt;/a>. Souhlas se Zásadami ochrany osobních údajů aplikace můžete kdykoli odebrat v \"O Přesunu do nového zařízení\". Pokud se rozhodnete souhlas neudělit, některé z funkcí aplikace vám nebudou dostupné. Základní funkce aplikace však budou i nadále dostupné.&lt;/Data></string>
+    <string name="privacy_message"><Data>Před využitím aplikace Přesun do nového zařízení si přečtěte a souhlaste s našimi &lt;a href=\"%2$s\">Smluvními podmínkami&lt;/a> a &lt;a href=\"%1$s\">Zásadami ochrany osobních údajů&lt;/a>. Souhlas se Zásadami ochrany osobních údajů aplikace můžete kdykoli odebrat v \"O Přesunu do nového zařízení\". Pokud se rozhodnete souhlas neudělit, některé z funkcí aplikace vám nebudou dostupné. Základní funkce aplikace však budou i nadále dostupné.</Data></string>
     <string name="privacy_policy">Zásadami ochrany osobních údajů</string>
     <string name="privacy_title">Pravidla a podmínky</string>
     <string name="prompt_before_transmission_message1_summary">Pokud se rozhodnete tato data ze starého zařízení nyní přenést, data aplikací (včetně historií konverzací) na novém zařízení budou přepsána.</string>
@@ -695,6 +719,12 @@ Uvolněte alespoň %s."</string>
     <string name="secret_password_confirm_summary">Ověřte svou identitu zadáním hesla pro ochranu osobních údajů, abyste mohli do svého nového zařízení přenášet soukromé soubory.</string>
     <string name="secret_password_confirm_title">Heslo pro ochranu osobních údajů</string>
     <string name="secret_title">Soukromé položky</string>
+    <string name="security_connect_button_negative">Zrušit</string>
+    <string name="security_connect_button_positive">Připojit</string>
+    <string name="security_connect_content">Zkontrolujte, že se kódy připojení na obou zařízeních shodují. Poté klepněte na „Připojit“ a přeneste položky.</string>
+    <string name="security_connect_hint">Kód připojení</string>
+    <string name="security_connect_title_guest">Připojit se nyní k novému zařízení?</string>
+    <string name="security_connect_title_host">Připojit se nyní ke starému zařízení?</string>
     <string name="select_all">Vybrat vše</string>
     <string name="select_android_summary">Huawei, OPPO, vivo atd.</string>
     <string name="select_android_title">Android</string>
@@ -867,6 +897,7 @@ Stáhněte a nainstalujte Přesun do nového zařízení (Mi Mover)."</string>
     <string name="trans_sync_transfer_data_list">Na starém zařízení vyberte položky k odeslání</string>
     <string name="trans_sync_transfer_data_list_apple">Přenos položek ze zařízení Apple</string>
     <string name="trans_sync_transfer_data_list_hint">Okamžik…</string>
+    <string name="trans_sync_transfer_data_list_pad">Na starém zařízení vyberte položky k přenosu</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Vyberte položky na starém zařízení a klepněte na „Odeslat“.</string>
     <string name="trans_time_format_second">Méně než %d minuta</string>
     <string name="trans_time_spent">Čas: %s</string>
@@ -878,6 +909,10 @@ Stáhněte a nainstalujte Přesun do nového zařízení (Mi Mover)."</string>
     <string name="transfer_lose_connect_title">Spojení bylo přerušeno</string>
     <string name="transfer_multi_connect_summary">Přenos byl z bezpečnostních důvodů přerušen. Po pokračování klepněte na \"Připojit znovu\".</string>
     <string name="transfer_multi_connect_title">Zdá se, že k tomuto hotspotu je připojeno více zařízení</string>
+    <string name="transfer_no_memory_dialog_btn">Rozumím</string>
+    <string name="transfer_no_memory_dialog_summary">Nové zařízení nemá dostatek úložného prostoru k dokončení přenosu. Uvolněte místo, abyste mohli dokončit přenos položek.</string>
+    <string name="transfer_no_memory_dialog_title">Nedostatek místa v úložišti</string>
+    <string name="transfer_no_memory_dialog_title_pad">Nedostatek místa v úložišti</string>
     <string name="transfer_quit_alert_btn_negative">Ukončit</string>
     <string name="transfer_quit_alert_btn_positive">Neukončovat</string>
     <string name="transfer_quit_alert_message">"Přesun do nového zařízení je právě spuštěn. Přesto ukončit?

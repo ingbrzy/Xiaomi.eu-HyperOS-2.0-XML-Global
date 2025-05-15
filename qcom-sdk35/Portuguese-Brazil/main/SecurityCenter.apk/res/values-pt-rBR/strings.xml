@@ -962,6 +962,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="button_text_trust">Confiar nesta rede</string>
     <string name="button_text_update_now">Atualizar</string>
     <string name="button_to_setting">Configurações</string>
+    <string name="button_toll_correction">Calibrar saldo</string>
     <string name="byteShort">B</string>
     <string name="call_address">Bloqueio de área</string>
     <string name="call_all_number_block">Bloquear todas as chamadas</string>
@@ -1061,6 +1062,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="charging_text_battery_full_time">"Última carga "</string>
     <string name="charging_text_battery_nearly_full">Quase carregada</string>
     <string name="charging_text_battery_perfect">Bateria carregada</string>
+    <string name="check_bill_balance">Verificar balanço</string>
     <string name="choose">Escolher</string>
     <string name="choose_gs_show_way">Selecionar orientação da página inicial</string>
     <string name="clean_immediately">Limpar</string>
@@ -1635,6 +1637,7 @@ Ele será adicionado às exceções, mas os itens bloqueados anteriormente não 
     <string name="fixed_cellular_data_quota_monthly">Limite mensal de dados</string>
     <string name="fixed_package_tips">Cobranças adicionais serão geradas após você atingir o limite</string>
     <string name="fixed_traffic_quota">Limite de dados (obrigatório)</string>
+    <string name="fixed_traffic_quota_offline">Limite de dados (exigido)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -1989,8 +1992,14 @@ Ele será adicionado às exceções, mas os itens bloqueados anteriormente não 
     <string name="gb_beauty_nature_light">Natural</string>
     <string name="gb_beauty_warm_light">Quente</string>
     <string name="gb_collimator_color">Cor</string>
+    <string name="gb_collimator_color_blue_talkback">Azul</string>
+    <string name="gb_collimator_color_purple_talkback">Roxo</string>
+    <string name="gb_collimator_color_red_talkback">Vermelho</string>
+    <string name="gb_collimator_color_white_talkback">Branco</string>
+    <string name="gb_collimator_color_yellow_talkback">Amarelo</string>
     <string name="gb_collimator_size">Tamanho</string>
     <string name="gb_collimator_style">Tipo</string>
+    <string name="gb_collimator_style_talkback">Estilo %1$d</string>
     <string name="gb_collimator_toast">A mira torna mais conveniente mirar em objetos</string>
     <string name="gb_cooler_device_toast">"Experiência visual aprimorada pelo
 Xiaomi Gaming Cooler"</string>
@@ -2093,7 +2102,7 @@ Grave sequências e use-as a qualquer momento!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparente</string>
     <string name="gb_network_status_bad">Ocorreu um erro na conexão.</string>
     <string name="gb_new_feature">Novo recurso</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Este app não pode ser utilizado na tela externa</string>
     <string name="gb_operat_frequently">Não tão rápido!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Não é possível alternar para o Modo equilibrado no Game Turbo quando o Modo desempenho do sistema está ativado. Você pode alterar as configurações da bateria no app Segurança.&lt;br>&lt;a href=\"#\">Abrir Segurança&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Alterado para o Modo desempenho. O seu dispositivo pode aquecer e consumir mais energia.</string>
@@ -2458,20 +2467,20 @@ Pressione e segure o indicador para mover o app pela tela."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Bloquear SIM secundário</string>
     <string name="gtb_setting_item_title_smart_5g">Otimização de rede 5G</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Acelerar velocidade do Mi WiFi</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Voltar ao jogo</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">Não foi possível conectar-se à rede</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Ver</string>
+    <string name="gtb_spring_festival_guide">"Mude para o modo paisagem
+para aproveitar a nossa caça aos ovos!"</string>
+    <string name="gtb_spring_festival_guide_know">Entendido</string>
+    <string name="gtb_spring_festival_push_active_desc">Ganhe telefones, dispositivos inteligentes e cupons</string>
+    <string name="gtb_spring_festival_push_active_title">A caça aos ovos de páscoa começou!</string>
+    <string name="gtb_spring_festival_push_desc">Participe da nossa caça aos ovos para ganhar prêmios</string>
+    <string name="gtb_spring_festival_push_egg_title">Você recebeu um Ovo de páscoa!</string>
+    <string name="gtb_spring_festival_push_gift_title">Os prêmios da caça aos ovos chegam!</string>
+    <string name="gtb_spring_festival_push_join">Inscrever-se</string>
+    <string name="gtb_spring_festival_push_see">Ver</string>
+    <string name="gtb_spring_festival_shortcut_create">Criar atalho na Tela inicial</string>
     <string name="gtb_start_phone_accelerate">Acelerar</string>
     <string name="gtb_stop_accelerate">Parar</string>
     <string name="gtb_timer">Timer</string>
@@ -2666,6 +2675,7 @@ Sua operadora poderá cobrar tarifas adicionais se continuar a usar a conexão a
     <string name="main_activity_content_summary_update">Atualização de sistema</string>
     <string name="main_alert_message_no_imsi">Nenhum cartão SIM detectado</string>
     <string name="main_alert_message_open_traffic_ctrl">Nós recomendamos a restrição do uso de dados</string>
+    <string name="main_balance_check">Verificar balanço</string>
     <string name="main_bill_remained">Saldo do telefone</string>
     <string name="main_button_mi_sim_close">Ativar Mi SIM</string>
     <string name="main_button_mi_sim_open">Ver detalhes</string>
@@ -2680,6 +2690,7 @@ Sua operadora poderá cobrar tarifas adicionais se continuar a usar a conexão a
     <string name="main_daily_card_guide_dialog_title">Definir tipo de plano de dados</string>
     <string name="main_daily_card_guide_dialog_title_new">Definir tipo de plano de dados</string>
     <string name="main_daily_package">Plano de dados diário</string>
+    <string name="main_declaration_dialog_msg">O valor do saldo exibido nesse recurso não pode ser usado como prova ao negociar com sua operadora. As estatísticas de uso de dados móveis e voz fornecidas por sua operadora têm precedência.</string>
     <string name="main_indicator_title">Ativação</string>
     <string name="main_leisure_remained">Dados restantes</string>
     <string name="main_month_total_used">Usado este mês</string>
@@ -3209,6 +3220,7 @@ Tente usar outro cabo de rede para conectar seu roteador. Caso você suspeite qu
     <string name="notify_weekly_traffic_body">Para limitar o uso de dados automaticamente, defina seu plano de dados mensal.</string>
     <string name="notify_weekly_traffic_title">%s usados nesta semana</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s usou %2$s esta semana</string>
+    <string name="now_inquiry">Detalhes</string>
     <string name="number_address">Localização</string>
     <string name="numeric_need_to_confirm">Insira novamente para confirmar</string>
     <string name="numeric_password_confirmed_header_confirm">Configurado com sucesso. Toque para confirmar.</string>
@@ -3434,6 +3446,10 @@ Tente usar outro cabo de rede para conectar seu roteador. Caso você suspeite qu
     <string name="pc_continuity_open_save_mode_notifi_title">A bateria do %s está fraca</string>
     <string name="pc_current_power_mode">Modo atual</string>
     <string name="pc_cycle_count_protect_title">Ciclos</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Entendido</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Não mostrar novamente</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">A porta Type-C no lado mais curto do dispositivo não é compatível com a transferência de dados. Conecte-se ao computador com a outra porta.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Lembrete de carregamento</string>
     <string name="pc_emergency_call">Emergência</string>
     <string name="pc_endurance_calculation">Calculando…</string>
     <string name="pc_entered_extreme_mode">Modo de hibernação ativado</string>
@@ -3958,7 +3974,7 @@ a Ultra economia de bateria"</string>
     <string name="power_consume_other">Outros</string>
     <string name="power_consume_rank_hardware">Hardware</string>
     <string name="power_consume_rank_software">Apps</string>
-    <string name="power_consume_rank_title">Uso de energia</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Apps: %s</string>
     <string name="power_customize_giveup_change">Descartar alterações?</string>
     <string name="power_dailog_night_charge_protection_done">Entendido</string>
@@ -4538,6 +4554,7 @@ Retirar o consentimento agora?"</string>
     <string name="renew_now">Renovar</string>
     <string name="repair">Reparar</string>
     <string name="repair_loading_text">Aguarde…</string>
+    <string name="repeat_prompts">Tenha calma! Não submeta vários pedidos seguidos.</string>
     <string name="repeat_type">Repetir</string>
     <string name="repeated_marked_number_summary">Não bloquear a segunda chamada do mesmo número reportado dentro de %d minutos</string>
     <string name="repeated_marked_number_title">Não bloquear chamadas repetidas de números reportados</string>
@@ -5329,6 +5346,7 @@ A formatação apagará o conteúdo existente no ^2. Para evitar a perda de dado
     <string name="tc_parse_error">Não foi possível analisar o SMS</string>
     <string name="tc_receive_timeout">A calibração expirou</string>
     <string name="tc_send_sms_error">Não foi possível enviar o SMS</string>
+    <string name="tc_sms_bill_report_receive_content">SMS de calibração (certificar-se de que o SMS contém informações sobre a calibração)</string>
     <string name="tc_sms_report_direction">Código de requisição SMS</string>
     <string name="tc_sms_report_do_report">Enviar</string>
     <string name="tc_sms_report_get_default">Você não será cobrado por mensagens SMS usadas para obter suas estatísticas de uso de dados de sua operadora.</string>
@@ -5453,6 +5471,7 @@ A formatação apagará o conteúdo existente no ^2. Para evitar a perda de dado
     <string name="title_app_update">Atualização disponível</string>
     <string name="title_auto_update">Atualizar automaticamente</string>
     <string name="title_background_connection">Não consegue usar %s em segundo plano</string>
+    <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Perdeu chamadas de seus contatos</string>
     <string name="title_block_calls_from_strangers">Perdeu chamadas importantes</string>
     <string name="title_chain_start">Restringir início sequencial</string>
@@ -5475,6 +5494,7 @@ A formatação apagará o conteúdo existente no ^2. Para evitar a perda de dado
     <string name="title_eye_shield">As cores na tela estão estranhas</string>
     <string name="title_find_device">Encontrar dispositivo</string>
     <string name="title_first_aid_kit">Resolver problemas</string>
+    <string name="title_flow_base_reminder">Lembretes de uso de dados</string>
     <string name="title_flow_notification">Notificação de dados móveis</string>
     <string name="title_flow_purchase">Comprar dados móveis</string>
     <string name="title_flow_rank">Uso de dados móveis</string>
@@ -5591,6 +5611,7 @@ Os dados restantes incluem dados remanescentes do mês anterior."</string>
     <string name="traffic_remind">Aviso sobre o uso de dados</string>
     <string name="traffic_remind_switch">Aviso sobre o uso de dados</string>
     <string name="traffic_reminder_settings">Definir alerta de uso de dados</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Localização</string>
     <string name="traffic_setting_fragment_brand">Marca</string>
     <string name="traffic_setting_fragment_button1_text">Cancelar</string>
@@ -5655,13 +5676,18 @@ Os dados restantes incluem dados remanescentes do mês anterior."</string>
     <string name="usage_sorted_empty_text">Vazio</string>
     <string name="usage_sorted_loading_text">Aguarde…</string>
     <string name="usage_type_audio">Áudio</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">Total de CPU</string>
     <string name="usage_type_cpu_foreground">CPU em primeiro plano</string>
     <string name="usage_type_data_recv">Dados móveis recebidos</string>
     <string name="usage_type_data_send">Dados móveis enviados</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Período sem sinal</string>
     <string name="usage_type_on_time">Tempo ativo</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Vídeo</string>
     <string name="usage_type_wake_lock">Mantido ativo</string>
     <string name="usage_type_wifi_running">Wi-Fi em uso</string>
@@ -5795,6 +5821,7 @@ Este recurso não funcionará quando a Economia de bateria ou a Ultra Economia d
     <string name="videobox_settings_timing">Alerta de descanso</string>
     <string name="videobox_settings_timing_desc">Receber um alerta de descanso a cada hora para lembrar-lhe de fazer uma pausa</string>
     <string name="videobox_settings_title">Caixa de ferramentas de vídeo</string>
+    <string name="view_package_info">Ver detalhes do plano</string>
     <string name="view_traffic_detail">Ver detalhes</string>
     <string name="view_traffic_details">Ver estatísticas de uso de dados</string>
     <string name="virus_app_delete_installed">Desinstalar</string>

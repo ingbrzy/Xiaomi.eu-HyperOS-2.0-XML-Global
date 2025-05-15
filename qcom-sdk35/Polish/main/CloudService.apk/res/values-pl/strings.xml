@@ -32,6 +32,10 @@
     <string name="accept_all_positive">Wybierz</string>
     <string name="accept_use_permissions">Przyznaj</string>
     <string name="access_denied">Odmowa dostępu</string>
+    <string name="accessibility_sliding_button_state_description_off">wyłączony</string>
+    <string name="accessibility_sliding_button_state_description_on">włączone</string>
+    <string name="accessibility_tab_state_description_unselect">Niezaznaczone</string>
+    <string name="accessibility_tab_statedesc_unselect">Niezaznaczone</string>
     <string name="account_related">To urządzenie jest już powiązane z istniejącym kontem Xiaomi (%s). Połącz z siecią, aby zweryfikować urządzenie.</string>
     <string name="actionbar_button_up_description">Wstecz</string>
     <string name="activate_find_device_success">Aktywowano funkcję Znajdź urządzenie pomyślnie</string>
@@ -56,6 +60,7 @@
     <string name="calendar_sync_item_permission">kalendarz</string>
     <string name="call_log_sync_item_permission">historia połączeń</string>
     <string name="check_contact">Dodaj</string>
+    <string name="checked">Wybrano</string>
     <string name="choose_contact_title">Kontakty</string>
     <string name="clearable_edittext_clear_description">Wyczyść</string>
     <string name="close">Zamknij</string>
@@ -156,6 +161,7 @@
     <string name="download_gallery_data_summary">Przejdź do i.mi.com i pobierz zsynchronizowane zdjęcia i filmy na swoje urządzenie.</string>
     <string name="download_gallery_data_title">Pobierz elementy na swoje urządzenie</string>
     <string name="e2ee_button_close">Wyłącz</string>
+    <string name="e2ee_button_exit_all_devices">Wyloguj się na wszystkich urządzeniach</string>
     <string name="e2ee_button_next">Dalej</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Włącz blokadę ekranu na tym urządzeniu, aby zyskać możliwość aktualizacji klucza dostępu.</string>
     <string name="e2ee_data_protection_close_button">Wyłącz</string>
@@ -210,6 +216,7 @@
     <string name="e2ee_exit_account_button_exit">Wyloguj się</string>
     <string name="e2ee_exit_account_subtitle">Zamierzasz wylogować się z ostatniego urządzenia powiązanego z Twoim kontem Xiaomi. Aby zalogować się ponownie i uzyskać dostęp do danych przechowywanych w chmurze, konieczne będzie użycie kodu blokady ekranu lub klucza dostępu. Możesz też dotknąć „Wyłącz” poniżej, aby dezaktywować zaawansowaną ochronę danych.</string>
     <string name="e2ee_exit_account_title">Wylogowywanie</string>
+    <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
     <string name="e2ee_load_failed">Serwer jest zajęty. Poczekaj minutę lub dwie i spróbuj ponownie.</string>
     <string name="e2ee_loading">Chwileczkę…</string>
     <string name="e2ee_loading_close">Wyłączanie…</string>
@@ -273,7 +280,7 @@
     <string name="find_device_dspt_provision">Jeśli zgubisz urządzenie, przejdź do &lt;font color=#0097FF>%s&lt;/font>, aby je zlokalizować, zablokować lub usunąć zawartość. Możesz włączyć lub wyłączyć tę funkcję w Ustawieniach.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">Aktywacja funkcji „Znajdź urządzenie” jest równoznaczne z akceptacją <a href="app://com.miui.cloudservice.gdpr.license"><u>Polityki Prywatności Chmury Xiaomi</u></a>. Aby wycofać akceptację Polityki Prywatności, wyłącz wspomnianą funkcję.</string>
+    <string name="find_device_gdpr_prompt">Aktywacja funkcji „Znajdź urządzenie” jest równoznaczna z akceptacją <a href="app://com.miui.cloudservice.gdpr.license"><u>Polityki Prywatności Chmury Xiaomi</u></a>. Aby wycofać akceptację Polityki Prywatności, wyłącz wspomnianą funkcję.</string>
     <string name="find_device_operation_failure_rpc">Nie udało się wykonać operacji ze względu na błąd RPC.</string>
     <string name="find_device_permissions_footer">Dotknij \"Przyznaj\", aby nadać uprawnienia, które wybrałeś.</string>
     <string name="find_device_permissions_header">Witamy w Znajdź urządzenie! Aplikacja umożliwia lokalizowanie, śledzenie i blokowanie zagubionego urządzenia. Możesz także anonimowo pomóc innym użytkownikom zlokalizować ich urządzenia Xiaomi. Oto uprawnienia potrzebne do prawidłowego działania aplikacji:</string>
@@ -424,6 +431,12 @@ Możesz także anonimowo pomóc innym użytkownikom zlokalizować ich urządzeni
     <string name="local_lockscreen_sub_title_open_e2ee">Zweryfikuj kod blokady ekranu urządzenia, aby włączyć zaawansowaną ochronę danych.</string>
     <string name="local_lockscreen_sub_title_update_key">Wprowadź kod blokady ekranu swojego urządzenia</string>
     <string name="local_lockscreen_sub_title_verify_e2ee">Potwierdź blokadę ekranu, aby zweryfikować urządzenie jako zaufane</string>
+    <string name="lockscreen_access_pattern_area">Obszar wzoru.</string>
+    <string name="lockscreen_access_pattern_cell_added">Dodano komórkę</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">Dodano komórkę%1$s</string>
+    <string name="lockscreen_access_pattern_cleared">Wzór wyczyszczony</string>
+    <string name="lockscreen_access_pattern_detected">Wzór kompletny</string>
+    <string name="lockscreen_access_pattern_start">Wzór rozpoczęty</string>
     <string name="lockscreen_device_list_title">Wybierz urządzenie, aby zweryfikować kod blokady ekranu</string>
     <string name="lockscreen_error_hint">Nieprawidłowy kod. Spróbuj ponownie.</string>
     <string name="lockscreen_negative_btn">Anuluj</string>
@@ -660,6 +673,10 @@ Upewnij się, że używasz powiązanego konta Xiaomi jako konta systemowego."</s
     <string name="midrive_guide_btn_installed">Otwórz Mi Drive</string>
     <string name="midrive_guide_btn_installing">Instalowanie…</string>
     <string name="miuix_access_state_desc">Wybrane</string>
+    <string name="miuix_accessibility_title">Tytuł</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Wyjdź z trybu edycji</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nowa wiadomość</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Wprowadź tryb edycji</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Odznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_select_all">Zaznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_title_empty">Zaznacz elementy</string>
@@ -675,6 +692,7 @@ Upewnij się, że używasz powiązanego konta Xiaomi jako konta systemowego."</s
     <string name="miuix_appcompat_select_all">Zaznacz wszystko</string>
     <string name="miuix_appcompat_select_all_description">Wybierz wszystko</string>
     <string name="miuix_appcompat_select_item">Wybierz elementy</string>
+    <string name="miuix_progressbar_loading">Wczytywanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Przeciągnij w dół, aby odświeżyć</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Pomyślnie odświeżono</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Odświeżanie…</string>
@@ -683,6 +701,7 @@ Upewnij się, że używasz powiązanego konta Xiaomi jako konta systemowego."</s
     <string name="miuix_sbl_tracking_progress_labe_up_none">To wszystko na teraz</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Chwileczkę…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nie udało się załadować elementów</string>
+    <string name="miuix_show_password">Pokaż hasło</string>
     <string name="monday">Poniedziałek</string>
     <string name="monday_short">Pon</string>
     <string name="monday_shortest">Pon</string>
@@ -727,6 +746,7 @@ Upewnij się, że używasz powiązanego konta Xiaomi jako konta systemowego."</s
     <string name="night">Wieczór</string>
     <string name="no_sim">Nie udało się wykryć karty SIM</string>
     <string name="noon">Południe</string>
+    <string name="not_checked">Nie wybrano</string>
     <string name="not_set">Nie ustawiono</string>
     <string name="noti_quota_button_text">Ulepsz</string>
     <string name="noti_quota_full_sum">Zwiększ swój pakiet pamięci, aby kontynuować synchronizacje elementów.</string>
@@ -828,6 +848,8 @@ Informacje o lokalizacji mogą nie zostać zgłoszone, gdy połączenie sieciowe
     <string name="privacy_runtime_perm_contacts_title">Edycja i dostęp do kontaktów</string>
     <string name="privacy_runtime_perm_external_storage_desc">Do synchronizowania zdjęć profilowych kontaktów</string>
     <string name="privacy_runtime_perm_external_storage_title">Dostęp do pamięci</string>
+    <string name="privacy_runtime_perm_get_installed_apps_desc">Do synchronizacji danych aplikacji</string>
+    <string name="privacy_runtime_perm_get_installed_apps_title">Dostęp do danych aplikacji</string>
     <string name="privacy_runtime_perm_notification_desc">Do wysyłania powiadomień usług Chmury Xiaomi</string>
     <string name="privacy_runtime_perm_notification_title">Powiadomienia</string>
     <string name="privacy_runtime_perm_phone_state_desc">Do uzyskiwania numeru telefonu i statusu urządzenia</string>
@@ -950,7 +972,7 @@ Informacje o lokalizacji mogą nie zostać zgłoszone, gdy połączenie sieciowe
     <string name="share_sdk_pref_category_search_local_title">Kontakty</string>
     <string name="share_sdk_pref_category_title_scan_qr_code">Skanuj kod QR</string>
     <string name="share_sdk_pref_family_detail_title">Wyświetl szczegóły grupy rodzinnej</string>
-    <string name="share_sdk_privacy_link_description">Przeczytaj i zaakceptuj <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Politykę Prywatności konta Xiaomi</u></a>, przed skorzystaniem z tych usług.</string>
+    <string name="share_sdk_privacy_link_description">Przeczytaj i zaakceptuj <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Politykę Prywatności konta Xiaomi</u></a> przed skorzystaniem z tych usług.</string>
     <string name="share_sdk_qr_code_description">Zaproszenie od %1$s</string>
     <string name="share_sdk_qr_code_expire_time">Termin ważności kodu QR: %1$s</string>
     <string name="share_sdk_resend_invitation_times_exceed">Za dużo wysłanych zaproszeń. Spróbuj ponownie za 24 godziny.</string>

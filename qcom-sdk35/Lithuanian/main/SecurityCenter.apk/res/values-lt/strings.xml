@@ -963,6 +963,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="button_text_trust">Pasitikėti šiuo tinklu</string>
     <string name="button_text_update_now">Atnaujinti</string>
     <string name="button_to_setting">Parametrai</string>
+    <string name="button_toll_correction">Kalibruoti balansą</string>
     <string name="byteShort">B</string>
     <string name="call_address">Blokuojamų vietų sąrašas</string>
     <string name="call_all_number_block">Blokuoti visus skambučius</string>
@@ -1062,6 +1063,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="charging_text_battery_full_time">"Paskutinis įkrovimas "</string>
     <string name="charging_text_battery_nearly_full">Beveik pilnai įkrauta</string>
     <string name="charging_text_battery_perfect">Pilnai įkrauta</string>
+    <string name="check_bill_balance">Patikrinti likutį</string>
     <string name="choose">Pasirinkite</string>
     <string name="choose_gs_show_way">Pasirinkite pagr. psl. padėtį</string>
     <string name="clean_immediately">Valyti</string>
@@ -1686,6 +1688,7 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="fixed_cellular_data_quota_monthly">Mėnesio duomenų limitas</string>
     <string name="fixed_package_tips">Pasiekus limitą gali būti taikomi papildomi mokesčiai</string>
     <string name="fixed_traffic_quota">Duomenų limitas (privaloma)</string>
+    <string name="fixed_traffic_quota_offline">Duomenų limitas (būtina)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -1925,7 +1928,7 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="gamebox_immersion_tips_content">Įtraukiantis režimas riboja visą SIM kortelės funkcionalumą, išskyrus mobiliųjų duomenų ryšį. Nebūsite trukdomi skambučių, ar gautų pranešimų apie praleistus skambučius. Visos SIM kortelės funkcijos atsistatys, kai išjungsite įtraukiantį režimą. Išjungti įtraukiantį režimą?</string>
     <string name="gamebox_immersion_tips_title">Dėmesio</string>
     <string name="gamebox_immerson_open">Išjungiamas įtraukiantis režimas, neperjunkite tinklo…</string>
-    <string name="gamebox_macro">Combos</string>
+    <string name="gamebox_macro">Deriniai</string>
     <string name="gamebox_manual_record">Įrašyti</string>
     <string name="gamebox_mem_clean">Valyti atmintį</string>
     <string name="gamebox_mem_filter">Žaidimų filtrai</string>
@@ -2040,8 +2043,14 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="gb_beauty_nature_light">Natūralus</string>
     <string name="gb_beauty_warm_light">Šiltos</string>
     <string name="gb_collimator_color">Spalva</string>
+    <string name="gb_collimator_color_blue_talkback">Mėlynas</string>
+    <string name="gb_collimator_color_purple_talkback">Violetinė</string>
+    <string name="gb_collimator_color_red_talkback">Raudonas</string>
+    <string name="gb_collimator_color_white_talkback">Baltas</string>
+    <string name="gb_collimator_color_yellow_talkback">Geltonas</string>
     <string name="gb_collimator_size">Dydis</string>
     <string name="gb_collimator_style">Tipas</string>
+    <string name="gb_collimator_style_talkback">Stilius %1$d</string>
     <string name="gb_collimator_toast">Taikinys leidžia daug patogiau nusitaikyti</string>
     <string name="gb_cooler_device_toast">"Vizualinė patirtis, patobulinta 
 „Xiaomi Gaming Cooler“"</string>
@@ -2084,9 +2093,9 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="gb_first_window_title">Turbo žaidimai</string>
     <string name="gb_game_end_toast">Aplankykite pagrindines jūsų žaidimų akimirkas</string>
     <string name="gb_game_fill_desc">Kai kuriais atvejais turinys gali būti iškreiptas</string>
-    <string name="gb_game_macro_bubble_tips">Try combos</string>
-    <string name="gb_game_macro_toast_tips">"Try combos!
-Record sequences and use them anytime!"</string>
+    <string name="gb_game_macro_bubble_tips">Išbandykite derinius</string>
+    <string name="gb_game_macro_toast_tips">"Išbandykite derinius!
+Įrašykite sekas ir jas naudokite bet kada!"</string>
     <string name="gb_game_mode_change_btn_right">Paleisti iš naujo</string>
     <string name="gb_game_mode_change_message">Paleisti žaidimą iš naujo dabar, kad būtų pritaikyti pakeitimai?</string>
     <string name="gb_game_mode_change_new">Čia perjunkite išdėstymą</string>
@@ -2144,7 +2153,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Skaidrus</string>
     <string name="gb_network_status_bad">Sujungimo klaida.</string>
     <string name="gb_new_feature">Nauja funkcija</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Šios programos negalima naudoti išoriniame ekrane</string>
     <string name="gb_operat_frequently">Ne taip greitai!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Negalima perjungti į subalansuotą režimą Turbo žaidimuose, kai įjungtas visos sistemos efektyvumo režimas. Akumuliatoriaus parametrus galite pakeisti saugumo skiltyje.&lt;br>&lt;a href=\"#\">Atidaryti saugumą&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Perjungta į efektyvumo režimą. Jūsų įrenginys gali įkaisti ir sunaudoti daugiau energijos.</string>
@@ -2509,20 +2518,20 @@ Norėdami judinti langą, paspauskite ir palaikykite indikatorių."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Blokuoti antrinę SIM</string>
     <string name="gtb_setting_item_title_smart_5g">5G tinklo optimizavimas</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">„Mi“ „Wi-Fi“ greičio didinimas</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Grįžti į žaidimą</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">Nepavyko prisijungti prie tinklo</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Peržiūrėti</string>
+    <string name="gtb_spring_festival_guide">"Norėdami prisijungti prie kiaušinių medžioklės,
+perjunkite į gulsčią režimą!"</string>
+    <string name="gtb_spring_festival_guide_know">Supratau</string>
+    <string name="gtb_spring_festival_push_active_desc">Laimėkite telefonų, išmaniųjų įrenginių ir kuponų</string>
+    <string name="gtb_spring_festival_push_active_title">Velykinių kiaušinių medžioklė prasidėjo!</string>
+    <string name="gtb_spring_festival_push_desc">Prisijunkite prie kiaušinių medžioklės, kad laimėtumėte prizų</string>
+    <string name="gtb_spring_festival_push_egg_title">Gavote velykinį kiaušinį!</string>
+    <string name="gtb_spring_festival_push_gift_title">Kiaušinių medžioklės prizai atkeliauja!</string>
+    <string name="gtb_spring_festival_push_join">Prisijungti</string>
+    <string name="gtb_spring_festival_push_see">Peržiūrėti</string>
+    <string name="gtb_spring_festival_shortcut_create">Sukurti pagrindinio ekrano nuorodą</string>
     <string name="gtb_start_phone_accelerate">Spartinti</string>
     <string name="gtb_stop_accelerate">Stabdyti</string>
     <string name="gtb_timer">Laikmatis</string>
@@ -2717,6 +2726,7 @@ to join our egg hunt!"</string>
     <string name="main_activity_content_summary_update">Sistemos atnaujinimas</string>
     <string name="main_alert_message_no_imsi">Neaptikta SIM kortelė</string>
     <string name="main_alert_message_open_traffic_ctrl">Rekomenduojame apriboti duomenų vartojimą</string>
+    <string name="main_balance_check">Patikrinti likutį</string>
     <string name="main_bill_remained">Telefono balansas</string>
     <string name="main_button_mi_sim_close">Aktyvuoti Mi SIM</string>
     <string name="main_button_mi_sim_open">Išsamiau</string>
@@ -2731,6 +2741,7 @@ to join our egg hunt!"</string>
     <string name="main_daily_card_guide_dialog_title">Nustatykite duomenų planą</string>
     <string name="main_daily_card_guide_dialog_title_new">Nustatykite duomenų planą</string>
     <string name="main_daily_package">Kasdienis duomenų planas</string>
+    <string name="main_declaration_dialog_msg">Derantis su operatoriumi, negalima kaip įrodymo naudoti šios funkcijos balanso reikšmės. Pirmenybė teikiama mobiliųjų duomenų ir balso naudojimo statistikai, kurią pateikia jūsų operatorius.</string>
     <string name="main_indicator_title">Aktyvavimas</string>
     <string name="main_leisure_remained">Sumažinto tarifo duomenų liko</string>
     <string name="main_month_total_used">Šį mėnesį išnaudota</string>
@@ -3260,6 +3271,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="notify_weekly_traffic_body">Nustatykite savo mėnesinį duomenų planą, norėdami automatiškai ribotų duomenų naudojimą.</string>
     <string name="notify_weekly_traffic_title">Šią savaitę išnaudota %s</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s used %2$s šią savaitę</string>
+    <string name="now_inquiry">Išsami informacija</string>
     <string name="number_address">Vieta</string>
     <string name="numeric_need_to_confirm">Įveskite dar kartą, kad patvirtinti</string>
     <string name="numeric_password_confirmed_header_confirm">Sėkmingai nustatyta. Palieskite, kad patvirtinti.</string>
@@ -3485,6 +3497,10 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="pc_continuity_open_save_mode_notifi_title">%s baterija išsekusi</string>
     <string name="pc_current_power_mode">Dabartinė būsena</string>
     <string name="pc_cycle_count_protect_title">Ciklai</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Supratau</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Daugiau neberodyti</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">C tipo prievadas trumpojoje įrenginio pusėje nepalaiko duomenų perdavimo. Prijunkite prie kompiuterio naudodami kitą prievadą.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Įkrovimo priminimas</string>
     <string name="pc_emergency_call">Skubi pagalba</string>
     <string name="pc_endurance_calculation">Skaičiuojama…</string>
     <string name="pc_entered_extreme_mode">Užmigdymo režimas įjungtas</string>
@@ -4009,7 +4025,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="power_consume_other">Kita</string>
     <string name="power_consume_rank_hardware">Aparatinė įranga</string>
     <string name="power_consume_rank_software">Programos</string>
-    <string name="power_consume_rank_title">Energijos naudojimas</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Programos: %s</string>
     <string name="power_customize_giveup_change">Neišsaugoti pakeitimų?</string>
     <string name="power_dailog_night_charge_protection_done">Supratau</string>
@@ -4590,6 +4606,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="renew_now">Atnaujinti</string>
     <string name="repair">Ištaisyti</string>
     <string name="repair_loading_text">Sekundėlę…</string>
+    <string name="repeat_prompts">Ramiau! Nereikia teikti kelių užklausų iš eilės.</string>
     <string name="repeat_type">Kartoti</string>
     <string name="repeated_marked_number_summary">Neblokuoti antrojo skambučio iš to paties pranešto numerio %d minutes</string>
     <string name="repeated_marked_number_title">Neblokuoti pasikartojančių skambučių nuo praneštų numerių</string>
@@ -5381,6 +5398,7 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="tc_parse_error">Nepavyko išanalizuoti SMS</string>
     <string name="tc_receive_timeout">Kalibravimo laikas baigėsi</string>
     <string name="tc_send_sms_error">Nepavyko išsiųsti SMS</string>
+    <string name="tc_sms_bill_report_receive_content">Kalibracijos SMS (užtikrinkite, kad SMS yra balanso informacija)</string>
     <string name="tc_sms_report_direction">SMS užklausos kodas</string>
     <string name="tc_sms_report_do_report">Siųsti</string>
     <string name="tc_sms_report_get_default">Mokesčiai už žinutes, skirtas gauti duomenų vartojimo informaciją iš jūsų operatoriaus, nebus taikomi.</string>
@@ -5505,6 +5523,7 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="title_app_update">Yra atnaujinimų</string>
     <string name="title_auto_update">Atnaujinti automatiškai</string>
     <string name="title_background_connection">Nepavyksta naudoti „%s“ fone</string>
+    <string name="title_bill_balance_inquiry">Balansas (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Praleidžiate kontaktų skambučius</string>
     <string name="title_block_calls_from_strangers">Praleidžiate svarbius skambučius</string>
     <string name="title_chain_start">Apriboti masinį paleidimą</string>
@@ -5527,6 +5546,7 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="title_eye_shield">Ekrano spalvų testas neatrodo gerai</string>
     <string name="title_find_device">Rasti įrenginį</string>
     <string name="title_first_aid_kit">Spręsti problemas</string>
+    <string name="title_flow_base_reminder">Duomenų naudojimo priminimai</string>
     <string name="title_flow_notification">Mobiliųjų duomenų įspėjimas</string>
     <string name="title_flow_purchase">Įsigyti mobiliųjų duomenų</string>
     <string name="title_flow_rank">Mobiliųjų duomenų naudojimas</string>
@@ -5643,6 +5663,7 @@ Rolled over extra data"</string>
     <string name="traffic_remind">Duomenų naudojimo įspėjimas</string>
     <string name="traffic_remind_switch">Duomenų naudojimo įspėjimas</string>
     <string name="traffic_reminder_settings">Nustatyti duomenų naudojimo įspėjimą</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Lokalė</string>
     <string name="traffic_setting_fragment_brand">Firma</string>
     <string name="traffic_setting_fragment_button1_text">Atšaukti</string>
@@ -5707,13 +5728,18 @@ Rolled over extra data"</string>
     <string name="usage_sorted_empty_text">Tuščia</string>
     <string name="usage_sorted_loading_text">Sekundėlę…</string>
     <string name="usage_type_audio">Audio</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">Procesorius iš viso</string>
     <string name="usage_type_cpu_foreground">Procesorius vykdo</string>
     <string name="usage_type_data_recv">Gauti mobilieji duomenys</string>
     <string name="usage_type_data_send">Mobilieji duomenys išsiųsti</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Laikas be ryšio</string>
     <string name="usage_type_on_time">Įjungtas</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Video</string>
     <string name="usage_type_wake_lock">Neleisti užmigti</string>
     <string name="usage_type_wifi_running">Wi-Fi veikia</string>
@@ -5847,6 +5873,7 @@ Funkcija neveiks, jei įjungtas energijos taupymas arba Ultra energijos taupymas
     <string name="videobox_settings_timing">Įspėjimas apie besaikį žiūrėjimą</string>
     <string name="videobox_settings_timing_desc">Gauti valandinius įspėjimus apie besaikį žiūrėjimą, kurie jums priimintų pailsėti.</string>
     <string name="videobox_settings_title">Vaizdo įrašų įrankių dėžė</string>
+    <string name="view_package_info">Žiūrėti plano informaciją</string>
     <string name="view_traffic_detail">Išsamiau</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">Išdiegti</string>

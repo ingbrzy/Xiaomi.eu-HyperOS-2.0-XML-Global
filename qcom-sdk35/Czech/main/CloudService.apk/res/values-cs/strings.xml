@@ -32,6 +32,10 @@
     <string name="accept_all_positive">Vybrat</string>
     <string name="accept_use_permissions">Udělit</string>
     <string name="access_denied">Přístup zamítnut</string>
+    <string name="accessibility_sliding_button_state_description_off">vypnuto</string>
+    <string name="accessibility_sliding_button_state_description_on">zapnuto</string>
+    <string name="accessibility_tab_state_description_unselect">Nevybráno</string>
+    <string name="accessibility_tab_statedesc_unselect">Nevybráno</string>
     <string name="account_related">Toto zařízení je propojeno s již existujícím Xiaomi účtem (%s). Připojte se k síti pro ověření zařízení.</string>
     <string name="actionbar_button_up_description">Zpět</string>
     <string name="activate_find_device_success">Funkce Najít zařízení byla úspěšně aktivována</string>
@@ -56,6 +60,7 @@
     <string name="calendar_sync_item_permission">kalendář</string>
     <string name="call_log_sync_item_permission">historie hovorů</string>
     <string name="check_contact">Přidat</string>
+    <string name="checked">Vybráno</string>
     <string name="choose_contact_title">Kontakty</string>
     <string name="clearable_edittext_clear_description">Smazat</string>
     <string name="close">Zavřít</string>
@@ -156,6 +161,7 @@
     <string name="download_gallery_data_summary">Pro stažení fotografií a videí synchronizovaných s cloudem přejděte na i.mi.com.</string>
     <string name="download_gallery_data_title">Stáhněte položky do vašeho zařízení</string>
     <string name="e2ee_button_close">Vypnout</string>
+    <string name="e2ee_button_exit_all_devices">Odhlásit se ze všech zařízení</string>
     <string name="e2ee_button_next">Další</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Zapněte zámek obrazovky tohoto zařízení, abyste mohli aktualizovat svůj bezpečnostní klíč.</string>
     <string name="e2ee_data_protection_close_button">Vypnout</string>
@@ -210,6 +216,7 @@
     <string name="e2ee_exit_account_button_exit">Odhlásit se</string>
     <string name="e2ee_exit_account_subtitle">Chystáte se odhlásit z posledního aktuálně připojeného zařízení spojeného s vaším Xiaomi účtem. Abyste se mohli znovu přihlásit a získat přístup k datům uloženým v cloudu, budete muset použít zámek obrazovky nebo bezpečnostní klíč. Rovněž můžete níže klepnout na „Vypnout“ a vypnout Pokročilou ochranu dat.</string>
     <string name="e2ee_exit_account_title">Odhlášení</string>
+    <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
     <string name="e2ee_load_failed">Server je zaneprázdněn. Počkejte chvíli a zkuste to znovu</string>
     <string name="e2ee_loading">Ještě chvilku…</string>
     <string name="e2ee_loading_close">Vypínání…</string>
@@ -273,7 +280,7 @@
     <string name="find_device_dspt_provision">Pokud své zařízení ztratíte, můžete navštívit&lt;font color=#0097FF>%s&lt;/font> pro jeho vyhledání, zablokování nebo vymazání jeho obsahu. Tuto funkci můžete kdykoli zapnout nebo vypnout v Nastavení.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">Zapnutím funkce „Najít zařízení“ souhlasíte se <a href="app://com.miui.cloudservice.gdpr.license"><u>zásadami ochrany osobních údajů Xiaomi Cloudu</u></a>. Chcete-li svůj souhlas se zásadami ochrany osobních údajů odvolat, tuto funkci vypněte.</string>
+    <string name="find_device_gdpr_prompt">Zapnutím funkce Najít zařízení souhlasíte se <a href="app://com.miui.cloudservice.gdpr.license"><u>Zásadami ochrany osobních údajů pro Xiaomi Cloud</u></a>. Chcete-li svůj souhlas se Zásadami ochrany osobních údajů odvolat, tuto funkci vypněte.</string>
     <string name="find_device_operation_failure_rpc">Operaci nebylo možné provést z důvodu chyby RPC.</string>
     <string name="find_device_permissions_footer">Klepněte na \"Udělit\" pro udělení vybraných oprávnění.</string>
     <string name="find_device_permissions_header">Vítejte ve službě Najít zařízení! Pomocí této aplikace můžete najít, sledovat nebo uzamknout své zařízení v případě ztráty. Můžete také anonymně pomoci ostatním najít jejich Xiaomi zařízení. Pro správnou funkci této aplikace jsou nutná následující oprávnění:</string>
@@ -424,6 +431,12 @@ Můžete také anonymně pomoci ostatním najít jejich Xiaomi zařízení."</st
     <string name="local_lockscreen_sub_title_open_e2ee">Ověřte zámek obrazovky tohoto zařízení, abyste mohli zapnout Pokročilou ochranu dat</string>
     <string name="local_lockscreen_sub_title_update_key">Zadejte zámek obrazovky svého zařízení</string>
     <string name="local_lockscreen_sub_title_verify_e2ee">Abyste mohli toto zařízení ověřit jako důvěryhodné, potvrďte svůj zámek obrazovky</string>
+    <string name="lockscreen_access_pattern_area">Oblast pro vzor</string>
+    <string name="lockscreen_access_pattern_cell_added">Buňka přidána</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">Buňka%1$s přidána</string>
+    <string name="lockscreen_access_pattern_cleared">Vzor byl vymazán</string>
+    <string name="lockscreen_access_pattern_detected">Bezpečnostní vzor dokončen</string>
+    <string name="lockscreen_access_pattern_start">Vzor byl zahájen</string>
     <string name="lockscreen_device_list_title">Vyberte zařízení k ověření jeho zámku obrazovky</string>
     <string name="lockscreen_error_hint">Nesprávný zámek obrazovky</string>
     <string name="lockscreen_negative_btn">Zrušit</string>
@@ -660,6 +673,10 @@ Dbejte na to, abyste používali stejný Xiaomi účet jako je váš systémový
     <string name="midrive_guide_btn_installed">Otevřít Mi Drive</string>
     <string name="midrive_guide_btn_installing">Instalování…</string>
     <string name="miuix_access_state_desc">Vybráno</string>
+    <string name="miuix_accessibility_title">Nadpis</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Ukončit režim úprav</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nová zpráva</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Začít režim úprav</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Zrušit výběr</string>
     <string name="miuix_appcompat_action_mode_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_action_mode_title_empty">Vybrat položky</string>
@@ -675,6 +692,7 @@ Dbejte na to, abyste používali stejný Xiaomi účet jako je váš systémový
     <string name="miuix_appcompat_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_select_all_description">Vybrat vše</string>
     <string name="miuix_appcompat_select_item">Vybrat položky</string>
+    <string name="miuix_progressbar_loading">Načítání</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potáhněte pro obnovení</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Úspěšně obnoveno</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Obnovování…</string>
@@ -683,6 +701,7 @@ Dbejte na to, abyste používali stejný Xiaomi účet jako je váš systémový
     <string name="miuix_sbl_tracking_progress_labe_up_none">To je prozatím vše</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Ještě chvilku…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Načtení položek se nezdařilo</string>
+    <string name="miuix_show_password">Zobrazit heslo</string>
     <string name="monday">Pondělí</string>
     <string name="monday_short">Pon</string>
     <string name="monday_shortest">Pon</string>
@@ -727,6 +746,7 @@ Dbejte na to, abyste používali stejný Xiaomi účet jako je váš systémový
     <string name="night">Večer</string>
     <string name="no_sim">SIM karta nebyla nalezena</string>
     <string name="noon">Poledne</string>
+    <string name="not_checked">Nevybráno</string>
     <string name="not_set">Nenastaveno</string>
     <string name="noti_quota_button_text">Navýšit</string>
     <string name="noti_quota_full_sum">Pro synchronizaci položek navyšte plán svého úložiště.</string>
@@ -828,6 +848,8 @@ Při špatném síťovém signálu nemusí být poloha zaznamenána."</string>
     <string name="privacy_runtime_perm_contacts_title">Přístup ke kontaktům a jejich úprava</string>
     <string name="privacy_runtime_perm_external_storage_desc">Pro synchronizaci kontaktů a profilových fotografií</string>
     <string name="privacy_runtime_perm_external_storage_title">Přístup k úložišti</string>
+    <string name="privacy_runtime_perm_get_installed_apps_desc">Pro synchronizaci dat aplikace</string>
+    <string name="privacy_runtime_perm_get_installed_apps_title">Přístup k datům aplikace</string>
     <string name="privacy_runtime_perm_notification_desc">Pro příjem oznámení služeb Xiaomi Cloudu</string>
     <string name="privacy_runtime_perm_notification_title">Oznámení</string>
     <string name="privacy_runtime_perm_phone_state_desc">Pro přístup k telefonnímu číslu a stavu zařízení</string>
@@ -950,7 +972,7 @@ Při špatném síťovém signálu nemusí být poloha zaznamenána."</string>
     <string name="share_sdk_pref_category_search_local_title">Kontakty</string>
     <string name="share_sdk_pref_category_title_scan_qr_code">Naskenujte QR kód</string>
     <string name="share_sdk_pref_family_detail_title">Zobrazit detaily skupiny</string>
-    <string name="share_sdk_privacy_link_description">Před využitím této služby si přečtěte a souhlaste se <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Zásadami ochrany osobních údajů Xiaomi účtu</u></a>.</string>
+    <string name="share_sdk_privacy_link_description">Před využitím této služby si přečtěte a potvrďte svůj souhlas se <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Zásadami ochrany osobních údajů Xiaomi účtu</u></a>.</string>
     <string name="share_sdk_qr_code_description">Pozvánka uživatele %1$s</string>
     <string name="share_sdk_qr_code_expire_time">Platnost QR kódu: %1$s</string>
     <string name="share_sdk_resend_invitation_times_exceed">Příliš mnoho odchozích pozvánek. Zkuste to znovu za 24 hodin.</string>

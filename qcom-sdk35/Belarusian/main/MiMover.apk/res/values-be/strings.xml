@@ -30,6 +30,10 @@
     <string name="abc_shareactionprovider_share_with">Абагуліць праз</string>
     <string name="abc_shareactionprovider_share_with_application">Абагуліць праз праграму \"%s\"</string>
     <string name="abc_toolbar_collapse_description">Згарнуць</string>
+    <string name="accessibility_sliding_button_state_description_off">выключаны</string>
+    <string name="accessibility_sliding_button_state_description_on">уключана</string>
+    <string name="accessibility_tab_state_description_unselect">Неабраны</string>
+    <string name="accessibility_tab_statedesc_unselect">Неабраны</string>
     <string name="account_or_password_incorrect">Няправільны ідэнтыфікатар акаўнта ці пароль</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Поўдзень</string>
@@ -172,10 +176,10 @@
     <string name="dialog_request_network_btn_positive">Згадзіцца</string>
     <string name="dialog_request_permission_message">Сардэчна запрашаем у Mi Mover! Вы можаце выкарыстоўваць гэтую праграму для перадачы дадзеных са старой прылады на новую. Дадзеныя, якія пераносяцца, не будуць загружаныя на нашы серверы. Для нармальнай працы праграме трэба падлучыцца да Інтэрнэту, а таксама атрымаць наступныя дазволы:</string>
     <string name="dialog_request_permission_message_buttom_content">Дазволіць гэтай праграме падлучацца да інтэрнэту і падаць абавязковыя дазвалення, пералічаныя вышэй.</string>
-    <string name="dialog_request_permission_message_extra_summary">Гэтыя дазвалення неабходныя для доступу да асноўных функцый і службаў гэтай праграмы.</string>
+    <string name="dialog_request_permission_message_extra_summary">Гэтыя дазволы неабходныя для доступу да асноўных функцый і службаў гэтай праграмы.</string>
     <string name="dialog_request_permission_message_extra_title">Абавязковыя дазволы</string>
     <string name="dialog_request_permission_message_global">Для нармальнай працы гэтай праграме неабходныя наступныя дазвалення:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>У той жа час, каб вывучыць свае правы карыстальніка, а таксама спосабы выкарыстання вашых дадзеных, азнаёмцеся і пагадзіцеся з нашымі &lt;a href='%1s'>Карыстальніцкім пагадненнем&lt;/a> і &lt;a href='%2s'>Палітыкай прыватнасці&lt;/a>.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">У той жа час, каб вывучыць свае правы карыстальніка, а таксама спосабы выкарыстання вашых дадзеных, азнаёмцеся і пагадзіцеся з нашымі %1$s і %2$s.</string>
     <string name="dialog_request_permission_title">Увага</string>
     <string name="dialog_request_permission_title_global">Патрабуюцца дазволы</string>
@@ -196,11 +200,13 @@
     <string name="err_bakfile_broken">Немагчыма выкарыстаць рэзервовую копію.</string>
     <string name="err_bakfile_not_exist">Файл рэзервовай копіі не існуе.</string>
     <string name="err_binder_died">Праграма нечакана спынілася.</string>
+    <string name="err_data_protection">На старой прыладзе ўключана пашыраная абарона дадзеных. Патрабуецца праверка.</string>
     <string name="err_install_incompatible">Праблема сумяшчальнасці</string>
     <string name="err_low_storage">Недастаткова месца ў сховішчы</string>
     <string name="err_no_gms">Несумяшчальная версія праграмы. Усталюйце гэтую праграму асобна.</string>
     <string name="err_not_allow">Не падтрымліваецца</string>
     <string name="err_pkg_not_exist">Праграма не знойдзена.</string>
+    <string name="err_receiver_no_space">Не ўдалося перанесці. Недастаткова месца ў сховішчы на новай прыладзе.</string>
     <string name="err_remote_no_space">Недастаткова памяці на новай прыладзе</string>
     <string name="err_remote_timeout">Час перадачы скончыўся</string>
     <string name="err_send_error">Не атрымалася адправіць</string>
@@ -269,6 +275,12 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Зразумела</string>
+    <string name="force_update_button_scan_host">Усталяваць</string>
+    <string name="force_update_content_guest">"Абнавіце Mi Mover на новай прыладзе, каб перанесці аб'екты."</string>
+    <string name="force_update_content_host">"Абнавіце Mi Mover на старой прыладзе, каб перанесці аб'екты."</string>
+    <string name="force_update_title_guest">Абнавіце Mi Mover на новай прыладзе</string>
+    <string name="force_update_title_host">Абнавіце Mi Mover на старой прыладзе</string>
     <string name="friday">Пятніца</string>
     <string name="friday_short">Птн</string>
     <string name="friday_shortest">Птн</string>
@@ -408,6 +420,10 @@
     <string name="miui_wait_link_title_1">%d. Націсніце «Я адпраўнік» і пачакайце хвілінку.</string>
     <string name="miui_wait_link_title_2">%d. Выберыце хот-спот на вашай старой прыладзе для падлучэння.</string>
     <string name="miuix_access_state_desc">Выбрана</string>
+    <string name="miuix_accessibility_title">Загаловак</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйсці з рэжыма рэдагавання</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новае паведамленне</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Пачаць рэдагаванне</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняць выбар з усіх</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбраць усё</string>
     <string name="miuix_appcompat_action_mode_title_empty">"Выбраць аб'екты"</string>
@@ -423,6 +439,7 @@
     <string name="miuix_appcompat_select_all">Выбраць усё</string>
     <string name="miuix_appcompat_select_all_description">Выбраць усё</string>
     <string name="miuix_appcompat_select_item">"Выберыце аб'екты"</string>
+    <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Пацягніце ўніз для абнаўлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Абноўлена</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Абнаўленне…</string>
@@ -431,6 +448,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Пакуль што гэта ўсё</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Хвілінку…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Не атрымалася загрузіць аб'екты"</string>
+    <string name="miuix_show_password">Паказаць пароль</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Паведамленні, кантакты і гісторыя выклікаў</string>
     <string name="monday">Панядзелак</string>
@@ -503,11 +521,15 @@
     <string name="new_trans_intro_question_6">%d. Чаму не ўдаецца перанесці дадзеныя праграмы з прылады іншага вытворцы?</string>
     <string name="new_trans_intro_question_7">%d. Ці давядзецца пачаць аперацыю зноў, калі я зачыню праграму Mi Mover падчас пераносу дадзеных?</string>
     <string name="new_trans_intro_question_8">%d. Чаму на новай прыладзе не адлюстроўваецца гісторыя дыялогаў WeChat?</string>
+    <string name="new_version_transfer_downloading">Mi Mover абнаўляецца</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Абнаўленне…</string>
     <string name="new_wait_link_message_2">Кнопка «Я адпраўнік» знаходзіцца ў правым куце стартавай старонкі праграмы Mi Mover.</string>
     <string name="next">Далей</string>
     <string name="night">Вечар</string>
     <string name="no_more_memory_title">Mi Mover неабходна стварыць лакальную рэзервовую копію на гэтай прыладзе. Зараз недастаткова месцы для захоўвання рэзервовай копіі. Спачатку вызваліце ​​месца.</string>
     <string name="noon">Сярэдзіна дня</string>
+    <string name="not_selectable">Немагчыма абраць</string>
     <string name="not_set">Не зададзена</string>
     <string name="not_support_data_content1">"%d. Аб'екты, спецыфічныя для канкрэтнай мадэлі прылады"</string>
     <string name="not_support_data_content2">%d. Дадзеныя праграмы</string>
@@ -556,6 +578,8 @@
     <string name="open_photo_and_contacts_cloud_sync_summary">"Уключыце сінхранізацыю, каб кантакты і аб'екты галерэі адлюстроўваліся на гэтай прыладзе."</string>
     <string name="open_photo_and_contacts_cloud_sync_title">"Сінхранізаваць кантакты і аб'екты Галерэі"</string>
     <string name="operation_send">Даслаць</string>
+    <string name="opposite_new_version_transfer_content">Пачакайце, пакуль іншая прылада абновіцца і перазапусціць Mi Mover, а затым націсніце, каб падключыцца паўторна.</string>
+    <string name="opposite_new_version_transfer_title">Іншая прылада абнаўляецца</string>
     <string name="option_about">Аб Mi Mover</string>
     <string name="option_feedback_title">Водгук</string>
     <string name="option_privacy_policy">Палітыка прыватнасці</string>
@@ -603,7 +627,7 @@
     <string name="privacy_desc">Сардэчна запрашаем у Mi Mover! Гэтая праграма прадастаўляе наступныя паслугі:</string>
     <string name="privacy_experience_statement">Далучайцеся да нашай Праграмы паляпшэння якасці, каб перадаваць нам дадзеныя аб выкарыстанні і дапамагаць нам паляпшаць нашы прадукты і паслугі.</string>
     <string name="privacy_item1">· Перадача файлаў, паведамленняў, настроек сістэмных праграм і праграм</string>
-    <string name="privacy_message">&lt;Data>Перад пачаткам выкарыстання праграмы Mi Mover азнаёмцеся і пагадзіцеся з нашымі &lt;a href=\"%2$s\">Карыстальніцкім пагадненнем&lt;/a> і &lt;a href=\"%1$s\">Палітыкай прыватнасці&lt;/a>. Вы можаце адклікаць сваю згоду з Палітыкай прыватнасці Mi Mover ў «Аб Mi Mover» у любы час. Калі вы не згодныя з вышэйазначанымі дакументамі, вы не зможаце выкарыстоўваць некаторыя функцыі гэтай праграмы, аднак яе асноўныя функцыі застануцца даступнымі вам.&lt;/Data></string>
+    <string name="privacy_message"><Data>Перад пачаткам выкарыстання праграмы Mi Mover азнаёмцеся і пагадзіцеся з нашымі &lt;a href=\"%2$s\">Карыстальніцкім пагадненнем&lt;/a> і &lt;a href=\"%1$s\">Палітыкай прыватнасці&lt;/a>. Вы можаце адклікаць сваю згоду з Палітыкай прыватнасці Mi Mover ў «Аб Mi Mover» у любы час. Калі вы не згодныя з вышэйазначанымі дакументамі, вы не зможаце выкарыстоўваць некаторыя функцыі гэтай праграмы, аднак яе асноўныя функцыі застануцца даступнымі вам.</Data></string>
     <string name="privacy_policy">Палітыкай прыватнасці</string>
     <string name="privacy_title">Умовы і палажэнні</string>
     <string name="prompt_before_transmission_message1_summary">Калі вы выберыце перанос са старой прылады, дадзеныя праграм (у тым ліку гісторыя чата) будуць перазапісаны.</string>
@@ -695,6 +719,12 @@
     <string name="secret_password_confirm_summary">Пацвердзіце сваю асобу, увёўшы пароль для абароны прыватнасці, каб перадаць прыватныя файлы на новую прыладу.</string>
     <string name="secret_password_confirm_title">Пароль для абароны прыватнасці</string>
     <string name="secret_title">"Прыватныя аб'екты"</string>
+    <string name="security_connect_button_negative">Адмена</string>
+    <string name="security_connect_button_positive">Падключыцца</string>
+    <string name="security_connect_content">"Упэўніцеся, што коды падключэння на абедзвюх прыладах супадаюць. Затым націсніце «Падключыцца», каб перанесці аб'екты."</string>
+    <string name="security_connect_hint">Код падключэння</string>
+    <string name="security_connect_title_guest">Падключыцца да новай прылады зараз?</string>
+    <string name="security_connect_title_host">Падключыцца да старой прылады зараз?</string>
     <string name="select_all">Выбраць усе</string>
     <string name="select_android_summary">Huawei, OPPO, vivo і іншыя</string>
     <string name="select_android_title">Android</string>
@@ -812,8 +842,8 @@
     <string name="tips_dual_app_title">"%d. Наступныя праграмы з'яўляюцца клонамі."</string>
     <string name="tips_hot_content">Гэта нармальна. Ваша прылада астыне пасля завяршэння пераносу.</string>
     <string name="tips_hot_title">%d. Падчас пераносу прылада можа нагрэцца.</string>
-    <string name="tips_private_space_content">З-за сістэмных абмежаванняў перанос даных з Другой прасторы немагчымы.</string>
-    <string name="tips_private_space_content_tablet">З-за сістэмных абмежаванняў перанос даных з Другой прасторы немагчымы.</string>
+    <string name="tips_private_space_content">З-за сістэмных абмежаванняў перанос дадзеных з Другой прасторы немагчымы.</string>
+    <string name="tips_private_space_content_tablet">З-за сістэмных абмежаванняў перанос дадзеных з Другой прасторы немагчымы.</string>
     <string name="tips_private_space_title">%d. Другая прастора ўключана.</string>
     <string name="tips_private_space_title_tablet">%d. Другая прастора ўключана.</string>
     <string name="tips_prudent_operation_content">Перапыненне злучэння спыніць перадачу.</string>
@@ -867,6 +897,7 @@
     <string name="trans_sync_transfer_data_list">"Абярыце аб'екты для перадачы на ​​старой прыладзе"</string>
     <string name="trans_sync_transfer_data_list_apple">"Перанясіце аб'екты з вашай старой прылады Apple"</string>
     <string name="trans_sync_transfer_data_list_hint">Хвілінку…</string>
+    <string name="trans_sync_transfer_data_list_pad">"Абярыце аб'екты для пераносу на старой прыладзе"</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">"Абярыце аб'екты на старой прыладзе і націсніце «Даслаць»."</string>
     <string name="trans_time_format_second">Засталося менш за %d хвіліну</string>
     <string name="trans_time_spent">Час: %s</string>
@@ -878,6 +909,10 @@
     <string name="transfer_lose_connect_title">Падключэнне перапынена</string>
     <string name="transfer_multi_connect_summary">Ваша перадача перарвана па меркаваннях бяспекі. Вы можаце націснуць на «Падключыцца зноў», каб працягнуць у любым выпадку.</string>
     <string name="transfer_multi_connect_title">Здаецца, да гэтага хот-спота падлучаныя некалькі прылад</string>
+    <string name="transfer_no_memory_dialog_btn">Зразумела</string>
+    <string name="transfer_no_memory_dialog_summary">"На новай прыладзе недастаткова месца ў сховішчы для завяршэння пераносу. Вызваліце месца на прыладзе, каб завяршыць перанос аб'ектаў."</string>
+    <string name="transfer_no_memory_dialog_title">Недастаткова месца ў сховішчы</string>
+    <string name="transfer_no_memory_dialog_title_pad">Недастаткова месца ў сховішчы</string>
     <string name="transfer_quit_alert_btn_negative">Выйсці</string>
     <string name="transfer_quit_alert_btn_positive">Не выходзіць</string>
     <string name="transfer_quit_alert_message">"Mi Mover зараз працуе. Усё роўна выйсці?
