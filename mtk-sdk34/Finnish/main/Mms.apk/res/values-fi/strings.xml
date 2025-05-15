@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Jaa…</string>
     <string name="abc_shareactionprovider_share_with_application">Jaa: %s</string>
     <string name="abc_toolbar_collapse_description">Tiivistä</string>
+    <string name="accessibility_sliding_button_state_description_off">Sammutettu</string>
+    <string name="accessibility_sliding_button_state_description_on">Käynnistetty</string>
+    <string name="accessibility_tab_state_description_unselect">Ei valittu</string>
     <string name="action_get_otp">Hanki koodi</string>
     <string name="action_sign_in">Kirjaudu sisään</string>
     <string name="action_sign_in_short">Kirjaudu sisään</string>
@@ -468,10 +471,8 @@ Huomaa, että Internet-viestintä on nyt keskeytetty toistaiseksi. Tämä ei mil
     <string name="menu_unlock">Poista suosikeista</string>
     <string name="menu_view_contact">Näytä yhteystiedot</string>
     <string name="menu_view_group_info">Ryhmän tiedot</string>
-    <string name="message_cannot_send_air_mode">"Viestejä ei voi lähettää.
-Sammuta ensin lentokonetila."</string>
-    <string name="message_cannot_send_sim_unavailable">"Viestejä ei voi lähettää.
-Tarkista SIM-korttisi."</string>
+    <string name="message_cannot_send_air_mode">Poista lentokonetila käytöstä lähettääksesi viestejä</string>
+    <string name="message_cannot_send_sim_unavailable">Aseta SIM-kortti viestien lähettämiseksi</string>
     <string name="message_class_label">"Viestin luokka: "</string>
     <string name="message_contact">Yhteystieto:</string>
     <string name="message_details_title">Viestin tiedot</string>
@@ -499,6 +500,12 @@ Tarkista SIM-korttisi."</string>
     <string name="midnight">Yö</string>
     <string name="millionbyte">Mt</string>
     <string name="miuix_access_state_desc">Valittu</string>
+    <string name="miuix_accessibility_title">Otsikko</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Pienennetty</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Laajennettu</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Poistu muokkaustilasta</string>
+    <string name="miuix_appcompat_accessibility_new_message">Uusi ilmoitus</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Aloita muokkaustila</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -514,12 +521,15 @@ Tarkista SIM-korttisi."</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_select_all_description">Valitse kaikki</string>
     <string name="miuix_appcompat_select_item">Valitse kohteet</string>
+    <string name="miuix_appcompat_show_dialog_description">Ponnahdusikkuna</string>
     <string name="miuix_item_view_role_description">Välilehti</string>
     <string name="miuix_navigator_category_group_collapse">Pienennä</string>
     <string name="miuix_navigator_category_group_expand">Laajenna</string>
     <string name="miuix_navigator_content_switch_description">Näytä sivupalkki</string>
     <string name="miuix_navigator_multiple_choice">Valitse</string>
     <string name="miuix_navigator_navigator_switch_description">Piilota sivupalkki</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Työkalupalkki näytön alareunassa</string>
+    <string name="miuix_progressbar_loading">Lataa</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Virkistetty onnistuneesti</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Virkistetään…</string>
@@ -528,6 +538,9 @@ Tarkista SIM-korttisi."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Siinä kaikki tältä erää</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Hetki vain…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kohteita ei voitu ladata</string>
+    <string name="miuix_show_password">Näytä salasana</string>
+    <string name="miuix_stretchablewidget_collapsed">Pienennetty</string>
+    <string name="miuix_stretchablewidget_expanded">Laajennettu</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Kaikki multimediaviestit paitsi valtuutettujen lähettäjien lähettämät estetään. Valtuutettuihin lähettäjiin kuuluvat verkonhaltijat, kansalliset rautatievarausjärjestelmät jne.</string>
     <string name="mms_block_alert_ok">Estä</string>
@@ -621,11 +634,23 @@ Tämä viesti saattaa olla ei-toivottu."</string>
     <string name="mx_privacy_policy">Mi Viestit -tietosuojakäytäntö</string>
     <string name="mx_stranger_recommend_msg">Napauta estääksesi Mi Viestit tuntemattomilta numeroilta</string>
     <string name="need_download">Synkronoidaan…</string>
+    <string name="net_message_download_btn_content_desc">Lataa</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Kopioi koodi %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Avaa linkki%s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Avaa sovellus</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Avaa Kalenteri</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Soita %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Vastaa</string>
+    <string name="net_message_media_card_img_content_desc">Kuva</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Videon toisto valmis</string>
+    <string name="net_message_media_card_video_content_desc">Video</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Pysäytä</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Toista</string>
     <string name="net_sms_subscribed">Tilattu onnistuneesti</string>
     <string name="net_sms_unsubscribe">Tilaus poistettu onnistuneesti</string>
     <string name="networking_allow_continue">Salli</string>
     <string name="networking_allow_title">Huomio</string>
-    <string name="new_message">Koota</string>
+    <string name="new_message">Uusi viesti</string>
     <string name="new_message_arrived">Lukematon</string>
     <string name="new_phrase">Lisää vastaus</string>
     <string name="new_phrase_hint">Syötä uusi vastaus</string>
@@ -668,6 +693,7 @@ Tämä viesti saattaa olla ei-toivottu."</string>
     <string name="over_max_mms_size">Multimediaviesti on liian iso.</string>
     <string name="overwrite_edited_content">Muokkaamasi sisältö korvataan.</string>
     <string name="packages_select_sim_cards_title">Valitse SIM-kortti</string>
+    <string name="page_indicator">Sivun ilmaisin</string>
     <string name="passenger_title">Matkustaja</string>
     <string name="pay_bill">Maksa</string>
     <string name="payment_failed">Maksua ei voitu suorittaa</string>
@@ -909,6 +935,7 @@ Katso suositellut chatbotit!"</string>
     <string name="recommend_bar_ok">Ota käyttöön</string>
     <string name="recommend_bar_title_mx_rcs">Mi Viestit</string>
     <string name="recommend_close">Poista käytöstä</string>
+    <string name="recommend_close_button">Sulje</string>
     <string name="recommend_disagree">Älä hyväksy</string>
     <string name="recommend_free_internet_message">Ilmainen nettiviestintä</string>
     <string name="recommend_free_mi">Mi Viestit</string>
@@ -1058,6 +1085,7 @@ Katso suositellut chatbotit!"</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">Asenna Tallennin ensin</string>
     <string name="sp_category_all">Kaikki palveluviestit</string>
     <string name="sp_category_bank">Pankin ilmoitusviestit</string>
     <string name="sp_category_title_prefix">%s</string>

@@ -962,6 +962,7 @@
     <string name="button_text_trust">Доверявам се на тази мрежа</string>
     <string name="button_text_update_now">Актуализирай</string>
     <string name="button_to_setting">Настройки</string>
+    <string name="button_toll_correction">Калибрирай баланса</string>
     <string name="byteShort">Б</string>
     <string name="call_address">Списък с блокирани по място</string>
     <string name="call_all_number_block">Блокирай всички повиквания</string>
@@ -1061,6 +1062,7 @@
     <string name="charging_text_battery_full_time">"Последно зареждане "</string>
     <string name="charging_text_battery_nearly_full">Почти заредена</string>
     <string name="charging_text_battery_perfect">Напълно заредена</string>
+    <string name="check_bill_balance">Проверка на баланса</string>
     <string name="choose">Изберете</string>
     <string name="choose_gs_show_way">Избор на ориентация на домашната страница</string>
     <string name="clean_immediately">Изчистване</string>
@@ -1684,6 +1686,7 @@
     <string name="fixed_cellular_data_quota_monthly">Месечен лимит на данни</string>
     <string name="fixed_package_tips">След като достигнете лимита ще бъдат начислени допълнителни такси</string>
     <string name="fixed_traffic_quota">Лимит на данни (задължително)</string>
+    <string name="fixed_traffic_quota_offline">Лимит на данни (задължително)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -2038,8 +2041,14 @@
     <string name="gb_beauty_nature_light">Естествен</string>
     <string name="gb_beauty_warm_light">Топъл</string>
     <string name="gb_collimator_color">Цвят</string>
+    <string name="gb_collimator_color_blue_talkback">син</string>
+    <string name="gb_collimator_color_purple_talkback">Лилава</string>
+    <string name="gb_collimator_color_red_talkback">Червено</string>
+    <string name="gb_collimator_color_white_talkback">Бяло</string>
+    <string name="gb_collimator_color_yellow_talkback">Жълто</string>
     <string name="gb_collimator_size">Размер</string>
     <string name="gb_collimator_style">Тип</string>
+    <string name="gb_collimator_style_talkback">Стил %1$d</string>
     <string name="gb_collimator_toast">Мерникът прави прицелването много по-лесно</string>
     <string name="gb_cooler_device_toast">"Визуално изживяване, подобрено от
 Xiaomi Gaming Cooler"</string>
@@ -2142,7 +2151,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_msg_transparent_dispaly_summary">Прозрачно</string>
     <string name="gb_network_status_bad">Грешка при свързването.</string>
     <string name="gb_new_feature">Нова услуга</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Това приложение не може да бъде използвано на външния екран</string>
     <string name="gb_operat_frequently">Не толкова бързо!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Не можете да превключите към Балансиран режим в Game Turbo при включен Режим Производителност. Можете да промените настройките на батерията в Настройките.&lt;br>&lt;a href=\"#\">Отваряне на Сигурност&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Преминахте към Режим Производителност. Възможно е устройството Ви да се нагрее и да консумира повече енергия.</string>
@@ -2507,20 +2516,20 @@ Xiaomi Gaming Cooler"</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Блокиране на второстепенната SIM карта</string>
     <string name="gtb_setting_item_title_smart_5g">Оптимизация на 5G мрежата</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Засилване на скоростта на Mi WiFi</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Обратно към играта</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">Неуспешно свързване с мрежата</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Преглед</string>
+    <string name="gtb_spring_festival_guide">"Превключи към пейзажен режим,
+за да се присъединиш се към нашето търсене на яйца!"</string>
+    <string name="gtb_spring_festival_guide_know">Разбрах</string>
+    <string name="gtb_spring_festival_push_active_desc">Спечели телефони, смарт устройства и купони</string>
+    <string name="gtb_spring_festival_push_active_title">Търсенето на великденски яйца започна!</string>
+    <string name="gtb_spring_festival_push_desc">Присъедини се към търсенето на яйца и спечели награди!</string>
+    <string name="gtb_spring_festival_push_egg_title">Ти получи великденско яйце!</string>
+    <string name="gtb_spring_festival_push_gift_title">Наградите от търсенето на яйца идват!</string>
+    <string name="gtb_spring_festival_push_join">Присъединяване</string>
+    <string name="gtb_spring_festival_push_see">Преглед</string>
+    <string name="gtb_spring_festival_shortcut_create">Създаване на пряк път на Началния екран</string>
     <string name="gtb_start_phone_accelerate">Ускоряване</string>
     <string name="gtb_stop_accelerate">Стоп</string>
     <string name="gtb_timer">Таймер</string>
@@ -2715,6 +2724,7 @@ to join our egg hunt!"</string>
     <string name="main_activity_content_summary_update">Системно обновление</string>
     <string name="main_alert_message_no_imsi">SIM картата не е открита</string>
     <string name="main_alert_message_open_traffic_ctrl">Препоръчваме да ограничите използването на мобилни данни</string>
+    <string name="main_balance_check">Проверка на баланса</string>
     <string name="main_bill_remained">Оставащ кредит</string>
     <string name="main_button_mi_sim_close">Активирай Mi SIM</string>
     <string name="main_button_mi_sim_open">Покажи подробности</string>
@@ -2729,6 +2739,7 @@ to join our egg hunt!"</string>
     <string name="main_daily_card_guide_dialog_title">Задайте вид план за данни</string>
     <string name="main_daily_card_guide_dialog_title_new">Задайте вид план за данни</string>
     <string name="main_daily_package">Дневен план за данни</string>
+    <string name="main_declaration_dialog_msg">Показаният в тази функция баланс не може да се използва като доказателство при преговори с оператора. Мобилните данни и статистиките за използване на глас, предоставяни от оператора, имат предимство.</string>
     <string name="main_indicator_title">Активиране</string>
     <string name="main_leisure_remained">Оставаш лимит на слаб трафик</string>
     <string name="main_month_total_used">Използвани този месец</string>
@@ -3258,6 +3269,7 @@ to join our egg hunt!"</string>
     <string name="notify_weekly_traffic_body">За автоматично регулиране на използваните данни, задайте месечния си пакет от данни.</string>
     <string name="notify_weekly_traffic_title">Използвани тази седмица: %s</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s използва %2$s тази седмица</string>
+    <string name="now_inquiry">Подробности</string>
     <string name="number_address">Местоположение</string>
     <string name="numeric_need_to_confirm">Въведете отново за потвърждение</string>
     <string name="numeric_password_confirmed_header_confirm">Успешно настроено. Чукнете за потвърждение.</string>
@@ -3483,6 +3495,10 @@ to join our egg hunt!"</string>
     <string name="pc_continuity_open_save_mode_notifi_title">%s батерията е изтощена</string>
     <string name="pc_current_power_mode">Настоящ режим</string>
     <string name="pc_cycle_count_protect_title">Цикли</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Разбрах</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Не показвай отново</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">Портът Type-C от късата страна на устройството не поддържа пренос на данни. Свържете се към компютъра с другия порт.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Напомняне за зареждане</string>
     <string name="pc_emergency_call">Спешност</string>
     <string name="pc_endurance_calculation">Изчисляване…</string>
     <string name="pc_entered_extreme_mode">Включен е Режим Хибернация</string>
@@ -4007,7 +4023,7 @@ to join our egg hunt!"</string>
     <string name="power_consume_other">Други</string>
     <string name="power_consume_rank_hardware">Система</string>
     <string name="power_consume_rank_software">Приложения</string>
-    <string name="power_consume_rank_title">Консумация на енергия</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Приложения: %s</string>
     <string name="power_customize_giveup_change">Ще отмените ли промените?</string>
     <string name="power_dailog_night_charge_protection_done">Разбрах</string>
@@ -4587,6 +4603,7 @@ to join our egg hunt!"</string>
     <string name="renew_now">Поднови</string>
     <string name="repair">Поправи</string>
     <string name="repair_loading_text">Момент…</string>
+    <string name="repeat_prompts">Забави! Не изпращай няколко заявки подред.</string>
     <string name="repeat_type">Повторение</string>
     <string name="repeated_marked_number_summary">Не блокирай второ повикване от същия докладван номер в рамките на %d минути</string>
     <string name="repeated_marked_number_title">Не блокирай повтарящи се обаждания от докладвани номера</string>
@@ -5378,6 +5395,7 @@ to join our egg hunt!"</string>
     <string name="tc_parse_error">Не може да се потвърди SMS</string>
     <string name="tc_receive_timeout">Времето за калибриране изтече</string>
     <string name="tc_send_sms_error">Неуспешно изпращане на SMS</string>
+    <string name="tc_sms_bill_report_receive_content">SMS за калибриране (увери се, че SMS-ът съдържа информация за баланс)</string>
     <string name="tc_sms_report_direction">SMS код на запитването</string>
     <string name="tc_sms_report_do_report">Изпрати</string>
     <string name="tc_sms_report_get_default">Ще бъде изпратено безплатно съобщение, за да получите статистика за използвания трафик от оператора.</string>
@@ -5502,6 +5520,7 @@ to join our egg hunt!"</string>
     <string name="title_app_update">Налични са актуализации</string>
     <string name="title_auto_update">Авт. обновяване</string>
     <string name="title_background_connection">Да се използва ли %s на заден план</string>
+    <string name="title_bill_balance_inquiry">Баланс (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Пропуснати обаждания от вашите контакти</string>
     <string name="title_block_calls_from_strangers">Пропуснали сте важни обаждания</string>
     <string name="title_chain_start">Ограничи верижното стартиране</string>
@@ -5524,6 +5543,7 @@ to join our egg hunt!"</string>
     <string name="title_eye_shield">Цветовете на екрана не изглеждат добре</string>
     <string name="title_find_device">Открий устройството</string>
     <string name="title_first_aid_kit">Разрешаване на проблеми</string>
+    <string name="title_flow_base_reminder">Напомняния за употреба на данни</string>
     <string name="title_flow_notification">Стат. за изп. данни са скрити</string>
     <string name="title_flow_purchase">Купи допълнителни Мб</string>
     <string name="title_flow_rank">Използване на мобилен план за данни</string>
@@ -5640,6 +5660,7 @@ to join our egg hunt!"</string>
     <string name="traffic_remind">Предупреждение за употреба на данни</string>
     <string name="traffic_remind_switch">Предупреждение за употреба на данни</string>
     <string name="traffic_reminder_settings">Задаване на предупреждение за използване на данни</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Локално</string>
     <string name="traffic_setting_fragment_brand">Марка</string>
     <string name="traffic_setting_fragment_button1_text">Отказ</string>
@@ -5704,13 +5725,18 @@ to join our egg hunt!"</string>
     <string name="usage_sorted_empty_text">Празно</string>
     <string name="usage_sorted_loading_text">Момент…</string>
     <string name="usage_type_audio">Аудио</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">Процесор, общо</string>
     <string name="usage_type_cpu_foreground">Процесор, на преден план</string>
     <string name="usage_type_data_recv">Получени мобилни данни</string>
     <string name="usage_type_data_send">Изпратени мобилни данни</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Време без сигнал</string>
     <string name="usage_type_on_time">Продължителност на включване</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Видео</string>
     <string name="usage_type_wake_lock">Оставяне в будно състояние</string>
     <string name="usage_type_wifi_running">Работещ Wi-Fi</string>
@@ -5844,6 +5870,7 @@ to join our egg hunt!"</string>
     <string name="videobox_settings_timing">Сигнал за твърде много гледане</string>
     <string name="videobox_settings_timing_desc">Получавайте почасови сигнали за твърде много гледане, които ви напомнят да си починете</string>
     <string name="videobox_settings_title">Инструменти за видео</string>
+    <string name="view_package_info">Виж подробности за плана</string>
     <string name="view_traffic_detail">Покажи подробности</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">Деинсталиране</string>

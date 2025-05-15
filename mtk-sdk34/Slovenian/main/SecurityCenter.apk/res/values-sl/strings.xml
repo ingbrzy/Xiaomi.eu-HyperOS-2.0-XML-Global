@@ -962,6 +962,7 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="button_text_trust">Zaupaj tem omrežju</string>
     <string name="button_text_update_now">Posodobi</string>
     <string name="button_to_setting">Nastavitve</string>
+    <string name="button_toll_correction">Uskladi stanje</string>
     <string name="byteShort">B</string>
     <string name="call_address">Seznam blokiranih lokacij</string>
     <string name="call_all_number_block">Blokiraj vse klice</string>
@@ -1061,6 +1062,7 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="charging_text_battery_full_time">Zadnje polnjenje</string>
     <string name="charging_text_battery_nearly_full">Skoraj napolnjeno</string>
     <string name="charging_text_battery_perfect">Napolnjeno</string>
+    <string name="check_bill_balance">Preveri dobroimetje</string>
     <string name="choose">Izberi</string>
     <string name="choose_gs_show_way">Izberite orientacijo začetne strani</string>
     <string name="clean_immediately">Počisti</string>
@@ -1684,6 +1686,7 @@ Dodana bo na seznam izjem, ampak pretekli blokirani predmeti ne bodo prikazani v
     <string name="fixed_cellular_data_quota_monthly">Mesečna omejitev podatkov</string>
     <string name="fixed_package_tips">Dodatni stroški se lahko ustvarijo, po tem, ko dosežete omejitev</string>
     <string name="fixed_traffic_quota">Omejitev podatkov (obvezno)</string>
+    <string name="fixed_traffic_quota_offline">Omejitev podatkov (obvezno)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -2038,8 +2041,14 @@ Dodana bo na seznam izjem, ampak pretekli blokirani predmeti ne bodo prikazani v
     <string name="gb_beauty_nature_light">Naravno</string>
     <string name="gb_beauty_warm_light">Toplo</string>
     <string name="gb_collimator_color">Barva</string>
+    <string name="gb_collimator_color_blue_talkback">Modra</string>
+    <string name="gb_collimator_color_purple_talkback">Vijolično</string>
+    <string name="gb_collimator_color_red_talkback">Rdeči</string>
+    <string name="gb_collimator_color_white_talkback">Beli</string>
+    <string name="gb_collimator_color_yellow_talkback">Rumen</string>
     <string name="gb_collimator_size">Velikost</string>
     <string name="gb_collimator_style">Vrsta</string>
+    <string name="gb_collimator_style_talkback">Slog %1$d</string>
     <string name="gb_collimator_toast">Vizir vam olajša ciljanje</string>
     <string name="gb_cooler_device_toast">"Vizualno izkušnjo izboljša
 Xiaomi Gaming Cooler"</string>
@@ -2142,7 +2151,7 @@ Zabeležite zaporedji in jih uporabite kadar koli!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparentno</string>
     <string name="gb_network_status_bad">Prišlo je do napake povezave.</string>
     <string name="gb_new_feature">Nove funkcije</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Te aplikacije ni mogoče uporabiti na zunanjem zaslonu</string>
     <string name="gb_operat_frequently">Ne tako hitro!</string>
     <string name="gb_performace_guide_disable_desc"><Data>V aplikaciji Game Turbo ni mogoče preklopiti na Uravnotežen način, ko je vklopljen Način učinkovitosti delovanja za celoten sistem. Nastavitve baterije lahko spremenite v Varnosti.&lt;br>&lt;a href=\"#\">Odpri Varnost&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Preklopljeno na Način učinkovitosti delovanja. Vaša naprava se lahko segreje in porabi več baterije.</string>
@@ -2507,20 +2516,20 @@ Pritisnite in držite indikator za premikanje okna."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Blokiraj sekundarno SIM kartico</string>
     <string name="gtb_setting_item_title_smart_5g">5G optimizacija omrežja</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi pospeševanje hitrosti Wi-Fi omrežja</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Nazaj na igro</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">Povezava z omrežjem ni uspela</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Poglej</string>
+    <string name="gtb_spring_festival_guide">"Preklopi na ležeči način
+ za pridružitev našemu lovu na pirhe!"</string>
+    <string name="gtb_spring_festival_guide_know">Razumem</string>
+    <string name="gtb_spring_festival_push_active_desc">Osvojite telefone, pametne naprave in kupone</string>
+    <string name="gtb_spring_festival_push_active_title">Lov na velikonočna jajca se je začel!</string>
+    <string name="gtb_spring_festival_push_desc">Pridružite se našemu lovu na pirhe in osvojite nagrade</string>
+    <string name="gtb_spring_festival_push_egg_title">Prejeli ste velikonočno jajce!</string>
+    <string name="gtb_spring_festival_push_gift_title">Prihajajo nagrade lova na pirhe!</string>
+    <string name="gtb_spring_festival_push_join">Pridružite se</string>
+    <string name="gtb_spring_festival_push_see">Poglej</string>
+    <string name="gtb_spring_festival_shortcut_create">Ustvari bližnjico na Začetnem zaslonu</string>
     <string name="gtb_start_phone_accelerate">Povečaj</string>
     <string name="gtb_stop_accelerate">Ustavi</string>
     <string name="gtb_timer">Časovnik</string>
@@ -2715,6 +2724,7 @@ Vaš operater vam lahko računa dodatne stroške če ponovno uporabite mobilno p
     <string name="main_activity_content_summary_update">Posodobitev sistema</string>
     <string name="main_alert_message_no_imsi">SIM kartica ni najdena</string>
     <string name="main_alert_message_open_traffic_ctrl">Priporočamo vam da omejite uporabo podatkov</string>
+    <string name="main_balance_check">Preveri dobroimetje</string>
     <string name="main_bill_remained">Stanje računa</string>
     <string name="main_button_mi_sim_close">Aktiviraj Mi SIM</string>
     <string name="main_button_mi_sim_open">Prikaži podrobnosti</string>
@@ -2729,6 +2739,7 @@ Vaš operater vam lahko računa dodatne stroške če ponovno uporabite mobilno p
     <string name="main_daily_card_guide_dialog_title">Nastavite vrsto mobilnih podatkov</string>
     <string name="main_daily_card_guide_dialog_title_new">Nastavite vrsto mobilnih podatkov</string>
     <string name="main_daily_package">Dnevni načrt mobilnih podatkov</string>
+    <string name="main_declaration_dialog_msg">Prikazana vrednost stanja v tej funkciji ne more služiti kot dokaz pri pogajanjih z vašim operaterjem. Statistika o porabi mobilnih podatkov in glasovnih storitev, ki jo zagotovi vaš operater, ima prednost.</string>
     <string name="main_indicator_title">Aktivacija</string>
     <string name="main_leisure_remained">Preostanek podatkov izven najvišje porabe</string>
     <string name="main_month_total_used">Porabljeno ta mesec</string>
@@ -3258,6 +3269,7 @@ Poskusite povezati usmerjevalnik z drugim omrežnim kablom. Če mislite, da je t
     <string name="notify_weekly_traffic_body">Da bi se samodejno omejila poraba podatkov nastavite vaš mesečni promet.</string>
     <string name="notify_weekly_traffic_title">Izkoriščeno %s ta teden</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s porabljeno %2$s ta teden</string>
+    <string name="now_inquiry">Podrobnosti</string>
     <string name="number_address">Lokacija</string>
     <string name="numeric_need_to_confirm">Za potrditev vnesite še enkrat</string>
     <string name="numeric_password_confirmed_header_confirm">Uspešno nastavljeno. Tapnite za potrditev.</string>
@@ -3483,6 +3495,10 @@ Poskusite povezati usmerjevalnik z drugim omrežnim kablom. Če mislite, da je t
     <string name="pc_continuity_open_save_mode_notifi_title">Stanje baterije naprave %s je nizko</string>
     <string name="pc_current_power_mode">Trenutni način</string>
     <string name="pc_cycle_count_protect_title">Cikli</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Razumem</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Ne prikaži več</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">Vhod USB C na krajši strani naprave ne podpira prenosa podatkov. Za povezavo z računalnikom uporabite drugi vhod.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Opomnik za polnjenje</string>
     <string name="pc_emergency_call">Pomoč v stiski</string>
     <string name="pc_endurance_calculation">Izračunavanje…</string>
     <string name="pc_entered_extreme_mode">Način hibernacije vklopljen</string>
@@ -4007,7 +4023,7 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="power_consume_other">Drugo</string>
     <string name="power_consume_rank_hardware">Strojna oprema</string>
     <string name="power_consume_rank_software">Aplikacije</string>
-    <string name="power_consume_rank_title">Poraba baterije</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Aplikacije: %s</string>
     <string name="power_customize_giveup_change">Zavržem spremembe?</string>
     <string name="power_dailog_night_charge_protection_done">Razumem</string>
@@ -4587,6 +4603,7 @@ Ali želite preklicati soglasje?"</string>
     <string name="renew_now">Obnovi</string>
     <string name="repair">Obnovi</string>
     <string name="repair_loading_text">Trenutek…</string>
+    <string name="repeat_prompts">Počasi! Ne pošiljajte več zahtev zaporedoma.</string>
     <string name="repeat_type">Ponovitev</string>
     <string name="repeated_marked_number_summary">Ne blokiraj drugi klic od iste prijavljene številke v obdobju od %d minut</string>
     <string name="repeated_marked_number_title">Ne blokiraj ponovljenih klicev iz prijavljenih številk</string>
@@ -5378,6 +5395,7 @@ Formatiranje bo izbrisalo vse obstoječe vsebine na ^2. Da bi preprečili izgubo
     <string name="tc_parse_error">Ni mogoče prebrati SMS-a</string>
     <string name="tc_receive_timeout">Potečen čas kalibracije</string>
     <string name="tc_send_sms_error">Ni mogoče poslati SMS-a</string>
+    <string name="tc_sms_bill_report_receive_content">SMS za uskladitev (poskrbite, da SMS vsebuje podatke o stanju)</string>
     <string name="tc_sms_report_direction">SMS zahteva za kodo</string>
     <string name="tc_sms_report_do_report">Pošlji</string>
     <string name="tc_sms_report_get_default">Ne boste nosili stroškov porabe SMS sporočil za pridobitev stanja porabe podatkov vašega mobilnega ponudnika.</string>
@@ -5502,6 +5520,7 @@ Formatiranje bo izbrisalo vse obstoječe vsebine na ^2. Da bi preprečili izgubo
     <string name="title_app_update">Posodobitve so na voljo</string>
     <string name="title_auto_update">Posodobi samodejno</string>
     <string name="title_background_connection">Ni mogoče uporabljati %s v ozadju</string>
+    <string name="title_bill_balance_inquiry">Stanje (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Zgrešeni klici s strani vaših stikov</string>
     <string name="title_block_calls_from_strangers">Ste zgrešili pomembne klice</string>
     <string name="title_chain_start">Omeji verižni zagon</string>
@@ -5524,6 +5543,7 @@ Formatiranje bo izbrisalo vse obstoječe vsebine na ^2. Da bi preprečili izgubo
     <string name="title_eye_shield">Barve zaslona niso prave</string>
     <string name="title_find_device">Poišči napravo</string>
     <string name="title_first_aid_kit">Reši težave</string>
+    <string name="title_flow_base_reminder">Opomniki porabe podatkov</string>
     <string name="title_flow_notification">Obvestilo mobilnih podatkov</string>
     <string name="title_flow_purchase">Kupi mobilne podatke</string>
     <string name="title_flow_rank">Poraba mobilnih podatkov</string>
@@ -5640,6 +5660,7 @@ Preostali podatki vključujejo podatke, ki so prenešeni iz prejšnega meseca."<
     <string name="traffic_remind">Opozorilo porabe podatkov</string>
     <string name="traffic_remind_switch">Opozorilo porabe podatkov</string>
     <string name="traffic_reminder_settings">Nastavite opozorilo porabe podatkov</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Lokalno</string>
     <string name="traffic_setting_fragment_brand">Znamka</string>
     <string name="traffic_setting_fragment_button1_text">Prekliči</string>
@@ -5704,13 +5725,18 @@ Preostali podatki vključujejo podatke, ki so prenešeni iz prejšnega meseca."<
     <string name="usage_sorted_empty_text">Prazno</string>
     <string name="usage_sorted_loading_text">Trenutek…</string>
     <string name="usage_type_audio">Zvok</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">CPU skupno</string>
     <string name="usage_type_cpu_foreground">CPU v ospredju</string>
     <string name="usage_type_data_recv">Mobilni podatki prejeti</string>
     <string name="usage_type_data_send">Mobilni podatki poslani</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Čas brez signala</string>
     <string name="usage_type_on_time">Čas vključenosti</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Video</string>
     <string name="usage_type_wake_lock">Ostani buden</string>
     <string name="usage_type_wifi_running">WiFi vklopljen</string>
@@ -5844,6 +5870,7 @@ Ta funkcija ne bo delovala, ko je vklopljeno varčevanje z baterijo ali skrajno 
     <string name="videobox_settings_timing">Opozorilo o pretiravanju</string>
     <string name="videobox_settings_timing_desc">Vsako uro boste prejeli opozorilo o pretiravanju, ki vas opozori, naj si oddahnete</string>
     <string name="videobox_settings_title">Orodja za videoposnetke</string>
+    <string name="view_package_info">Prikaži podrobnosti o paketu</string>
     <string name="view_traffic_detail">Prikaz podrobnosti</string>
     <string name="view_traffic_details">Ogled statistike porabe podatkov</string>
     <string name="virus_app_delete_installed">Odstrani</string>

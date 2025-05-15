@@ -3,6 +3,10 @@
     <string name="PRD_summary_4">خاموش کردن Wi-Fi یا جابجایی شبکه‌های Wi-Fi در طول فرآیند انتقال ممکن است باعث شکست فرآیند انتقال شود.</string>
     <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
     <string name="PRD_summary_5">انتقال با سرعت بالا می‌تواند باعث شود دستگاه شما داغ‌تر از حد معمول شود. مطمئن شوید که دستگاه شما پس از اتمام انتقال خنک می‌شود.</string>
+    <string name="accessibility_sliding_button_state_description_off">خاموش</string>
+    <string name="accessibility_sliding_button_state_description_on">روشن</string>
+    <string name="accessibility_tab_state_description_unselect">انتخاب نشده</string>
+    <string name="accessibility_tab_statedesc_unselect">انتخاب نشده</string>
     <string name="account_or_password_incorrect">نام کاربری یا گذرواژه نادرست است</string>
     <string name="actionbar_button_up_description">بازگشت</string>
     <string name="afternoon">بعد از ظهر</string>
@@ -139,7 +143,7 @@
     <string name="dialog_request_permission_message_extra_summary">این مجوزها برای ممکن سازی ویژگی‌ها و خدمات پایه‌ای این برنامه لازم هستند.</string>
     <string name="dialog_request_permission_message_extra_title">مجوزهای اجباری</string>
     <string name="dialog_request_permission_message_global">این برنامه برای کارکرد عادی نیاز به مجوزهای زیر دارد:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>ضمناً برای درک بهتر حقوق خود به عنوان کاربر و همچنین راه‌هایی که ما از داده‌های شما استفاده می‌کنیم، &lt;a href='%1s'>توافق‌نامه کاربر&lt;/a> و &lt;a href='%2s'>سیاست حفظ حریم خصوصی&lt;/a> ما را خوانده و بپذیرید.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"برای درک کامل حقوق خود به عنوان کاربر و همچنین روش‌های استفاده ما از داده‌های شما، &lt;a href='%1s'>توافق‌نامه کاربر سیستم عامل Xiaomi&lt;/a> و &lt;a href='%2s'>سیاست حفظ حریم خصوصی Mi Mover&lt;/a> را خوانده و با آن موافقت کنید."</Data></string>
     <string name="dialog_request_permission_message_provision_link">در عین حال، برای درک کامل حقوق خود به عنوان یک کاربر و همچنین نحوه استفاده ما از داده‌های شما، %1$s و %2$s ما را خوانده و با آن موافقت کنید.</string>
     <string name="dialog_request_permission_title">توجه</string>
     <string name="dialog_request_permission_title_global">نیازمند مجوز است</string>
@@ -160,11 +164,13 @@
     <string name="err_bakfile_broken">از این نسخه پشتیبان نمی‌توان استفاده کرد.</string>
     <string name="err_bakfile_not_exist">فایل پشتیبان موجود نیست.</string>
     <string name="err_binder_died">برنامه به صورت غیر منتظره متوقف شد.</string>
+    <string name="err_data_protection">حفاظت پیشرفته داده‌ها در دستگاه قدیمی روشن است. نیازمند تأیید است.</string>
     <string name="err_install_incompatible">اشکالات سازگاری</string>
     <string name="err_low_storage">فضای ذخیره سازی کافی نیست</string>
     <string name="err_no_gms">نسخه برنامه ناسازگار است. این برنامه را به صورت جدا نصب کنید.</string>
     <string name="err_not_allow">مورد پشتیبانی نیست</string>
     <string name="err_pkg_not_exist">برنامه یافت نشد.</string>
+    <string name="err_receiver_no_space">انتقال نیافت. حافظه کافی در دستگاه جدید نیست.</string>
     <string name="err_remote_no_space">فضای کافی در دستگاه جدید موجود نیست</string>
     <string name="err_remote_timeout">زمان انتقال بیش از حد طول کشید</string>
     <string name="err_send_error">ارسال نشد</string>
@@ -232,6 +238,12 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">متوجه‌ام</string>
+    <string name="force_update_button_scan_host">نصب</string>
+    <string name="force_update_content_guest">جابجاگر Mi را در دستگاه جدید به‌روزرسانی کنید تا بتوانید موارد را انتقال دهید.</string>
+    <string name="force_update_content_host">جابجاگر Mi را در دستگاه قدیمی به‌روزرسانی کنید تا بتوانید موارد را انتقال دهید.</string>
+    <string name="force_update_title_guest">جابجاگر Mi را در دستگاه جدید به‌روز کنید</string>
+    <string name="force_update_title_host">جابجاگر Mi را در دستگاه قدیمی به‌روز کنید</string>
     <string name="friday">جمعه</string>
     <string name="friday_short">جمعه</string>
     <string name="friday_shortest">جمع</string>
@@ -371,6 +383,10 @@
     <string name="miui_wait_link_title_1">%d. روی «من یک فرستنده هستم» زده و کمی صبر کنید.</string>
     <string name="miui_wait_link_title_2">%d. این کانون داغ را در دستگاه قدیمی انتخاب کرده تا وصل شوید.</string>
     <string name="miuix_access_state_desc">انتخاب شده</string>
+    <string name="miuix_accessibility_title">عنوان</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">خروج از حالت ویرایش</string>
+    <string name="miuix_appcompat_accessibility_new_message">پیام جدید</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">ورود به حالت ویرایش</string>
     <string name="miuix_appcompat_action_mode_deselect_all">لغو انتخاب همه</string>
     <string name="miuix_appcompat_action_mode_select_all">انتخاب همه</string>
     <string name="miuix_appcompat_action_mode_title_empty">انتخاب موارد</string>
@@ -386,6 +402,7 @@
     <string name="miuix_appcompat_select_all">انتخاب همه</string>
     <string name="miuix_appcompat_select_all_description">انتخاب همه</string>
     <string name="miuix_appcompat_select_item">انتخاب موارد</string>
+    <string name="miuix_progressbar_loading">در حال بارگذاری</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">برای تازه‌سازی پایین بکشید</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">با موفقیت تازه‌سازی شد</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">در حال تازه سازی…</string>
@@ -394,6 +411,7 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">به پایان صفحه رسیدید</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">چند لحظه صبر کنید…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">موارد بارگذاری نشدند</string>
+    <string name="miuix_show_password">نمایش رمز عبور</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">پیام‌ها، مخاطبین و تاریخچه تماس</string>
     <string name="monday">دوشنبه</string>
@@ -466,11 +484,15 @@
     <string name="new_trans_intro_question_6">%d. چرا داده‌های برنامه‌ها نمی‌توانند از یک دستگاه سوم‌شخص جابجا شوند؟</string>
     <string name="new_trans_intro_question_7">%d. اگر جابجاگر Mi را در وسط یک جابجایی ترک کنم، آیا باید بار بعدی از ابتدا آغاز کنم؟</string>
     <string name="new_trans_intro_question_8">%d. چرا تاریخچه WeChat من در دستگاه جدید ناپدید شد؟</string>
+    <string name="new_version_transfer_downloading">درحال به‌روزرسانی جابجاگر Mi</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">در حال به‌روزرسانی…</string>
     <string name="new_wait_link_message_2">دکمه «من یک فرستنده هستم» درست در صفحه آغاز جابجاگر Mi قرار دارد.</string>
     <string name="next">بعدی</string>
     <string name="night">شب</string>
     <string name="no_more_memory_title">جابجاگر Mi نیاز به ایجاد یک نسخه پشتیبان محلی روی این دستگاه دارد. برای ایجاد نسخه پشتیبان فضای کافی وجود ندارد. ابتدا کمی فضا آزاد کنید.</string>
     <string name="noon">ظهر</string>
+    <string name="not_selectable">انتخاب نمی‌شود</string>
     <string name="not_support_data_content1">%d. موارد خاص مدل دستگاه</string>
     <string name="not_support_data_content2">%d. داده‌‌های برنامه</string>
     <string name="not_support_data_content3">%d. داده‌های فضای دوم</string>
@@ -518,6 +540,8 @@
     <string name="open_photo_and_contacts_cloud_sync_summary">همگام‌سازی را روشن کرده تا مخاطبین و موارد گالری در این دستگاه نمایش داده شود.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">همگام‌سازی مخاطبین و موارد گالری</string>
     <string name="operation_send">ارسال</string>
+    <string name="opposite_new_version_transfer_content">صبر کرده تا دستگاه دیگر به‌روز شده و جابجاگر Mi دوباره راه‌اندازی شود، سپس روی اتصال دوباره ضربه بزنید.</string>
+    <string name="opposite_new_version_transfer_title">دستگاه دیگر درحال به‌روزرسانی است</string>
     <string name="option_about">درباره جابجاگر Mi</string>
     <string name="option_feedback_title">بازخورد</string>
     <string name="option_privacy_policy">سیاست حفظ حریم خصوصی</string>
@@ -564,7 +588,7 @@
     <string name="privacy_desc">به جابجاگر Mi خوش آمدید! این برنامه خدمات زیر را ارائه می‌دهد:</string>
     <string name="privacy_experience_statement">برای کمک به ما در بهبود محصولات و خدمات خود، به برنامه تجربه کاربر ما پیوسته تا داده‌های کاربر را با ما به اشتراک بگذارید.</string>
     <string name="privacy_item1">· انتقال فایل‌ها، پیام‌ها، تنظیمات برنامه‌های سیستمی و برنامه‌ها</string>
-    <string name="privacy_message">&lt;Data>پیش از استفاده از جابجاگر Mi، &lt;a href=\"%2$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%1$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را خوانده و بپذیرید. شما در هر زمانی می‌توانید رضایت خود را نسبت به سیاست حفظ حریم خصوصی جابجاگر Mi در «درباره جابجاگر Mi» پس بگیرید. چنانچه نمی‌پذیرید از خدمات گفته شده استفاده کنید، نمی‌توانید از برخی ویژگی‌های این برنامه استفاده کنید؛ با این وجود، کارایی‌های پایه‌های همچنان برای شما در دسترس خواهند بود.&lt;/Data></string>
+    <string name="privacy_message"><Data>پیش از استفاده از جابجاگر Mi، &lt;a href=\"%2$s\">توافق‌نامه کاربر&lt;/a> و &lt;a href=\"%1$s\">سیاست حفظ حریم خصوصی&lt;/a> ما را خوانده و بپذیرید. شما در هر زمانی می‌توانید رضایت خود را نسبت به سیاست حفظ حریم خصوصی جابجاگر Mi در «درباره جابجاگر Mi» پس بگیرید. چنانچه نمی‌پذیرید از خدمات گفته شده استفاده کنید، نمی‌توانید از برخی ویژگی‌های این برنامه استفاده کنید؛ با این وجود، کارایی‌های پایه‌های همچنان برای شما در دسترس خواهند بود.</Data></string>
     <string name="privacy_policy">سیاست حفظ حریم خصوصی</string>
     <string name="privacy_title">شرایط و ضوابط</string>
     <string name="prompt_before_transmission_message1_summary">چنانچه تصمیم بگیرید آن‌ها را از دستگاه قدیمی خود منتقل کنید، داده‌های برنامه (از جمله تاریخچه گپ) رونویسی می‌شوند.</string>
@@ -655,6 +679,12 @@
     <string name="secret_password_confirm_summary">هویت خود را با وارد کردن گذرواژه حفاظت از حریم خصوصی خود تأیید کنید تا بتوانید فایل‌های خصوصی را به دستگاه جدید خود منتقل کنید.</string>
     <string name="secret_password_confirm_title">گذرواژه حفاظت از حریم خصوصی</string>
     <string name="secret_title">موارد خصوصی</string>
+    <string name="security_connect_button_negative">لغو</string>
+    <string name="security_connect_button_positive">اتصال</string>
+    <string name="security_connect_content">مطمئن شوید که کدهای اتصال در هر دو دستگاه مطابق یکدیگر هستند. سپس با زدن روی «اتصال» موارد را منتقل کنید.</string>
+    <string name="security_connect_hint">کد اتصال</string>
+    <string name="security_connect_title_guest">به دستگاه جدید وصل شود؟</string>
+    <string name="security_connect_title_host">به دستگاه قدیمی وصل شود؟</string>
     <string name="select_all">انتخاب همه</string>
     <string name="select_android_summary">Huawei، OPPO، vivo و بیشتر</string>
     <string name="select_android_title">Android</string>
@@ -825,6 +855,7 @@
     <string name="trans_sync_transfer_data_list">موارد را برای انتقال از دستگاه قدیمی انتخاب کنید</string>
     <string name="trans_sync_transfer_data_list_apple">موارد را از دستگاه اپل خود انتقال دهید</string>
     <string name="trans_sync_transfer_data_list_hint">چند لحظه صبر کنید…</string>
+    <string name="trans_sync_transfer_data_list_pad">موارد موجود در دستگاه قدیمی را برای انتقال انتخاب کنید</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">موارد روی دستگاه قدیمی خود را انتخاب کرده و سپس «ارسال» را بزنید.</string>
     <string name="trans_time_format_second">کمتر از %d دقیقه</string>
     <string name="trans_time_spent">زمان: %s</string>
@@ -836,6 +867,10 @@
     <string name="transfer_lose_connect_title">اتصال قطع شد</string>
     <string name="transfer_multi_connect_summary">انتقال شما به دلایل امنیتی قطع شد. می‌توانید با زدن روی «اتصال دوباره» در هر صورت ادامه دهید.</string>
     <string name="transfer_multi_connect_title">به نظر می‌رسد چندین دستگاه به این کانون داغ وصل شده‌اند</string>
+    <string name="transfer_no_memory_dialog_btn">متوجه‌ام</string>
+    <string name="transfer_no_memory_dialog_summary">دستگاه جدید فضای ذخیره‌سازی کافی برای تکمیل انتقال ندارد. فضای دستگاه را خالی کنید تا بتوانید انتقال موارد را به پایان برسانید.</string>
+    <string name="transfer_no_memory_dialog_title">حافظه کافی نیست</string>
+    <string name="transfer_no_memory_dialog_title_pad">حافظه کافی نیست</string>
     <string name="transfer_quit_alert_btn_negative">خروج</string>
     <string name="transfer_quit_alert_btn_positive">خارج نشود</string>
     <string name="transfer_quit_alert_message">"جابجاگر Mi درحال کار کردن است. در هر صورت خارج شود؟

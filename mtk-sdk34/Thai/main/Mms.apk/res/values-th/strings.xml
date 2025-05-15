@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
     <string name="abc_shareactionprovider_share_with_application">แชร์ทาง %s</string>
     <string name="abc_toolbar_collapse_description">ยุบ</string>
+    <string name="accessibility_sliding_button_state_description_off">ปิดใช้งานแล้ว</string>
+    <string name="accessibility_sliding_button_state_description_on">เปิดใช้งานแล้ว</string>
+    <string name="accessibility_tab_state_description_unselect">ไม่ได้เลือกไว้</string>
     <string name="action_get_otp">ขอรับรหัส</string>
     <string name="action_sign_in">ลงชื่อเข้าใช้</string>
     <string name="action_sign_in_short">ลงชื่อเข้าใช้</string>
@@ -473,10 +476,8 @@
     <string name="menu_unlock">ลบจากรายการโปรด</string>
     <string name="menu_view_contact">ดูรายชื่อ</string>
     <string name="menu_view_group_info">ข้อมูลกลุ่ม</string>
-    <string name="message_cannot_send_air_mode">"ส่งข้อความไม่ได้
-ปิดโหมดใช้งานบนเครื่องบินก่อน"</string>
-    <string name="message_cannot_send_sim_unavailable">"ส่งข้อความไม่ได้
-ตรวจสอบซิมการ์ดของคุณ"</string>
+    <string name="message_cannot_send_air_mode">ปิดโหมดเครื่องบินเพื่อส่งข้อความ</string>
+    <string name="message_cannot_send_sim_unavailable">ใส่ซิมการ์ดเพื่อส่งข้อความ</string>
     <string name="message_class_label">"คลาสข้อความ: "</string>
     <string name="message_contact">ผู้ติดต่อ:</string>
     <string name="message_details_title">รายละเอียดข้อความ</string>
@@ -504,6 +505,12 @@
     <string name="midnight">กลางคืน</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">ที่เลือกไว้</string>
+    <string name="miuix_accessibility_title">หัวเรื่อง</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">หุบ</string>
+    <string name="miuix_appcompat_accessibility_expand_state">ขยาย</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">ออกจากโหมดแก้ไข</string>
+    <string name="miuix_appcompat_accessibility_new_message">การแจ้งเตือนใหม่</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">เข้าสู่โหมดแก้ไข</string>
     <string name="miuix_appcompat_action_mode_deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_title_empty">เลือกรายการ</string>
@@ -519,12 +526,15 @@
     <string name="miuix_appcompat_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_all_description">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_item">เลือกรายการ</string>
+    <string name="miuix_appcompat_show_dialog_description">หน้าต่างป๊อปอัป</string>
     <string name="miuix_item_view_role_description">แท็บ</string>
     <string name="miuix_navigator_category_group_collapse">หุบ</string>
     <string name="miuix_navigator_category_group_expand">ขยาย</string>
     <string name="miuix_navigator_content_switch_description">แสดงแถบด้านข้าง</string>
     <string name="miuix_navigator_multiple_choice">เลือก</string>
     <string name="miuix_navigator_navigator_switch_description">ซ่อนแถบด้านข้าง</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">แถบเครื่องมือที่ด้านล่างของหน้าจอ</string>
+    <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">รีเฟรชสำเร็จแล้ว</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">กำลังรีเฟรช…</string>
@@ -533,6 +543,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">นั่นคือทั้งหมดตอนนี้</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">รอสักครู่…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">ไม่สามารถโหลดรายการได้</string>
+    <string name="miuix_show_password">แสดงรหัสผ่าน</string>
+    <string name="miuix_stretchablewidget_collapsed">หุบ</string>
+    <string name="miuix_stretchablewidget_expanded">ขยาย</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">MMS ทั้งหมดยกเว้นข้อความที่ส่งจากผู้ส่งที่ได้รับอนุญาตจะถูกบล็อก ผู้ส่งที่ได้รับอนุญาต ได้แก่ ผู้ให้บริการ เครือข่าย ระบบจองรถไฟแห่งชาติ เป็นต้น</string>
     <string name="mms_block_alert_ok">บล็อค</string>
@@ -626,11 +639,23 @@
     <string name="mx_privacy_policy">นโยบายความเป็นส่วนตัว Mi ข้อความ</string>
     <string name="mx_stranger_recommend_msg">แตะบล็อกข้อความ Mi จากเลขหมายที่ไม่รู้จัก</string>
     <string name="need_download">กำลังซิงค์…</string>
+    <string name="net_message_download_btn_content_desc">ดาวน์โหลด</string>
+    <string name="net_message_json_card_core_entity_content_desc1">คัดลอกโค้ด %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">เปิดลิงค์ %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">เปิดแอป</string>
+    <string name="net_message_json_card_core_entity_content_desc4">เปิดปฏิทิน</string>
+    <string name="net_message_json_card_core_entity_content_desc5">โทร %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">ตอบกลับ</string>
+    <string name="net_message_media_card_img_content_desc">รูปภาพ</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">การเล่นวิดีโอเสร็จสมบูรณ์</string>
+    <string name="net_message_media_card_video_content_desc">วีดีโอ</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">หยุดชั่วคราว</string>
+    <string name="net_message_media_card_video_start_play_content_desc">เล่น</string>
     <string name="net_sms_subscribed">สมัครเรียบร้อยแล้ว</string>
     <string name="net_sms_unsubscribe">ยกเลิกการสมัครเรียบร้อยแล้ว</string>
     <string name="networking_allow_continue">อนุญาต</string>
     <string name="networking_allow_title">โปรดทราบ</string>
-    <string name="new_message">เขียน</string>
+    <string name="new_message">ข้อความใหม่</string>
     <string name="new_message_arrived">ยังไม่ได้อ่าน</string>
     <string name="new_phrase">เพิ่มการตอบกลับ</string>
     <string name="new_phrase_hint">ป้อนการตอบกลับใหม่</string>
@@ -673,6 +698,7 @@
     <string name="over_max_mms_size">ข้อความ MMS มีขนาดเกินกำหนด</string>
     <string name="overwrite_edited_content">เนื้อหาที่คุณแก้ไขจะถูกเขียนทับ</string>
     <string name="packages_select_sim_cards_title">เลือกซิมการ์ด</string>
+    <string name="page_indicator">ตัวระบุหน้า</string>
     <string name="passenger_title">ผู้โดยสาร</string>
     <string name="pay_bill">ชำระเงิน</string>
     <string name="payment_failed">การชำระเงินไม่สำเร็จ</string>
@@ -852,7 +878,7 @@
     <string name="rcs_conversation_rcs_tip">[Chatbot] %s</string>
     <string name="rcs_create_new_group">สร้างกลุ่มแชท</string>
     <string name="rcs_dspt">ส่งและรับข้อความโดยใช้ WLAN หรือเครือข่ายมือถือ</string>
-    <string name="rcs_dspt_unavailable">"5G Messaging-related features aren't supported due to carrier restrictions"</string>
+    <string name="rcs_dspt_unavailable">คุณสมบัติที่เกี่ยวข้องกับการส่งข้อความ 5G ไม่รองรับเนื่องจากข้อจำกัดของผู้ให้บริการ</string>
     <string name="rcs_file_link_as_sms">ไปที่ %s เพื่อดูไฟล์ RCS ที่ส่งถึงคุณ</string>
     <string name="rcs_forward_faild">ส่งไม่ได้</string>
     <string name="rcs_forward_successful">ส่งต่อเรียบร้อยแล้ว</string>
@@ -914,6 +940,7 @@
     <string name="recommend_bar_ok">เปิดใช้งาน</string>
     <string name="recommend_bar_title_mx_rcs">ข้อความ Mi</string>
     <string name="recommend_close">ปิดใช้งาน</string>
+    <string name="recommend_close_button">ปิด</string>
     <string name="recommend_disagree">ไม่เห็นด้วย</string>
     <string name="recommend_free_internet_message">การส่งข้อความทางอินเทอร์เน็ตฟรี</string>
     <string name="recommend_free_mi">Mi ข้อความ</string>
@@ -1063,6 +1090,7 @@
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">ติดตั้งบันทึกเสียงก่อน</string>
     <string name="sp_category_all">ข้อความทุกประเภทบริการ</string>
     <string name="sp_category_bank">ข้อความแจ้งเตือนจากธนาคาร</string>
     <string name="sp_category_title_prefix">%s</string>
@@ -1222,7 +1250,7 @@
     <string name="voice_report_off">ปิด</string>
     <string name="voice_report_wiredon">ด้วยหูฟัง</string>
     <string name="wap_push_title">"[WAP Push] "</string>
-    <string name="warning_show">ส่งแบบ %d</string>
+    <string name="warning_show">ส่งใน %d วิ</string>
     <string name="wednesday">วันพุธ</string>
     <string name="wednesday_short">พุธ</string>
     <string name="wednesday_shortest">พุธ</string>

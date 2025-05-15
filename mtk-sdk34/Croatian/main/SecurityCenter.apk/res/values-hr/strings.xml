@@ -962,6 +962,7 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="button_text_trust">Vjeruj ovoj mreži</string>
     <string name="button_text_update_now">Ažuriraj</string>
     <string name="button_to_setting">Postavke</string>
+    <string name="button_toll_correction">Kalibriraj balans</string>
     <string name="byteShort">B</string>
     <string name="call_address">Lista blokiranih područja</string>
     <string name="call_all_number_block">Blokiraj sve pozive</string>
@@ -1061,6 +1062,7 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="charging_text_battery_full_time">"Zadnje punjenje "</string>
     <string name="charging_text_battery_nearly_full">Skoro napunjeno</string>
     <string name="charging_text_battery_perfect">Napunjeno</string>
+    <string name="check_bill_balance">Provjera stanja</string>
     <string name="choose">Odaberi</string>
     <string name="choose_gs_show_way">Odaberite orijentaciju početne stranice</string>
     <string name="clean_immediately">Očisti</string>
@@ -1685,6 +1687,7 @@ Biti će dodani u iznimke, ali prethodno blokirane stavke neće se prikazivati u
     <string name="fixed_cellular_data_quota_monthly">Mjesečno ograničenje podataka</string>
     <string name="fixed_package_tips">Dodatni troškovi stvarat će se nakon što dosegnete granicu</string>
     <string name="fixed_traffic_quota">Ograničenje podataka (obavezno)</string>
+    <string name="fixed_traffic_quota_offline">Ograničenje podataka (obavezno)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -1924,7 +1927,7 @@ Biti će dodani u iznimke, ali prethodno blokirane stavke neće se prikazivati u
     <string name="gamebox_immersion_tips_content">Imersivni način ograničava sve funkcionalnosti SIM kartice, osim mobilne podatkovne veze. Nećete biti prekinuti pozivima niti primati obavijesti o propuštenim pozivima. Sve značajke SIM kartice bit će vraćene nakon isključivanja imersivnog načina. Uključiti Imersivni način?</string>
     <string name="gamebox_immersion_tips_title">Pažnja</string>
     <string name="gamebox_immerson_open">Ako uključite Imersivni način, nemojte mijenjati mreže…</string>
-    <string name="gamebox_macro">Combos</string>
+    <string name="gamebox_macro">Kombinacije</string>
     <string name="gamebox_manual_record">Snimi</string>
     <string name="gamebox_mem_clean">Očisti memoriju</string>
     <string name="gamebox_mem_filter">Filteri igre</string>
@@ -2039,8 +2042,14 @@ Biti će dodani u iznimke, ali prethodno blokirane stavke neće se prikazivati u
     <string name="gb_beauty_nature_light">Prirodno</string>
     <string name="gb_beauty_warm_light">Topla</string>
     <string name="gb_collimator_color">Boja</string>
+    <string name="gb_collimator_color_blue_talkback">Plavo</string>
+    <string name="gb_collimator_color_purple_talkback">Ljubičasta</string>
+    <string name="gb_collimator_color_red_talkback">Crveno</string>
+    <string name="gb_collimator_color_white_talkback">Bijelo</string>
+    <string name="gb_collimator_color_yellow_talkback">Žuto</string>
     <string name="gb_collimator_size">Veličina</string>
     <string name="gb_collimator_style">Vrsta</string>
+    <string name="gb_collimator_style_talkback">Stil %1$d</string>
     <string name="gb_collimator_toast">Nišan olakšava ciljanje</string>
     <string name="gb_cooler_device_toast">"Vizualno iskustvo poboljšava
 Xiaomi Gaming Cooler"</string>
@@ -2083,9 +2092,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_first_window_title">Game Turbo</string>
     <string name="gb_game_end_toast">Ponovno pogledajte ključne trenutke Vaših igara</string>
     <string name="gb_game_fill_desc">Sadržaj u nekim slučajevima može biti iskrivljen</string>
-    <string name="gb_game_macro_bubble_tips">Try combos</string>
-    <string name="gb_game_macro_toast_tips">"Try combos!
-Record sequences and use them anytime!"</string>
+    <string name="gb_game_macro_bubble_tips">Isprobajte kombinacije</string>
+    <string name="gb_game_macro_toast_tips">"Isprobajte kombinacije!
+Snimite sekvence i koristite ih bilo kada!"</string>
     <string name="gb_game_mode_change_btn_right">Ponovno pokreni</string>
     <string name="gb_game_mode_change_message">Ponovno pokrenuti igru za primjenu promjene sada?</string>
     <string name="gb_game_mode_change_new">Prebacujte se između rasporeda ovdje</string>
@@ -2143,7 +2152,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparentno</string>
     <string name="gb_network_status_bad">Došlo je do pogreške pri povezivanju.</string>
     <string name="gb_new_feature">Nova značajka</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Ova se aplikacija ne može koristiti na vanjskom zaslonu</string>
     <string name="gb_operat_frequently">Ne tako brzo!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Ne možete se prebaciti na Uravnoteženi način rada u Game Turbo kada je uključen Način izvedbe za cijeli sustav. Postavke baterije možete promijeniti u Sigurnosti.&lt;br>&lt;a href=\"#\">Otvorite Sigurnost&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Prebačen na način izvedbe. Vaš bi se uređaj mogao zagrijati i trošiti više energije.</string>
@@ -2508,20 +2517,20 @@ Pritisnite i držite indikator za pomicanje prozora."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Blokiraj drugi SIM</string>
     <string name="gtb_setting_item_title_smart_5g">Optimizacija 5G mreže</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Povećanje brzine MI WiFi</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Natrag u igru</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">Povezivanje s mrežom nije uspjelo</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Prikaži</string>
+    <string name="gtb_spring_festival_guide">"Prebacite se na pejzažni način
+pridružite se našem lovu na jaja!"</string>
+    <string name="gtb_spring_festival_guide_know">Shvatam</string>
+    <string name="gtb_spring_festival_push_active_desc">Osvojite telefone, pametne uređaje i kupone</string>
+    <string name="gtb_spring_festival_push_active_title">Počeo je lov na uskršnja jaja!</string>
+    <string name="gtb_spring_festival_push_desc">Pridružite se našem lovu na jaja kako biste osvojili nagrade</string>
+    <string name="gtb_spring_festival_push_egg_title">Dobili ste uskršnje jaje!</string>
+    <string name="gtb_spring_festival_push_gift_title">Stižu nagrade za lov na jaja!</string>
+    <string name="gtb_spring_festival_push_join">Pridruži se</string>
+    <string name="gtb_spring_festival_push_see">Prikaži</string>
+    <string name="gtb_spring_festival_shortcut_create">Napravi prečicu na Početnom zaslonu</string>
     <string name="gtb_start_phone_accelerate">Ubrzaj</string>
     <string name="gtb_stop_accelerate">Zaustavi</string>
     <string name="gtb_timer">Brojač</string>
@@ -2716,6 +2725,7 @@ Vaš vam operater može naplatiti dodatne troškove ako ponovno koristite mobiln
     <string name="main_activity_content_summary_update">Ažuriranje sustava</string>
     <string name="main_alert_message_no_imsi">Nema SIM kartice</string>
     <string name="main_alert_message_open_traffic_ctrl">Naša je preporuka da ograničite uporabu podataka</string>
+    <string name="main_balance_check">Provjera stanja</string>
     <string name="main_bill_remained">Stanje računa</string>
     <string name="main_button_mi_sim_close">Aktiviraj Mi SIM</string>
     <string name="main_button_mi_sim_open">Prikaži pojedinosti</string>
@@ -2730,6 +2740,7 @@ Vaš vam operater može naplatiti dodatne troškove ako ponovno koristite mobiln
     <string name="main_daily_card_guide_dialog_title">Postavite plan podataka</string>
     <string name="main_daily_card_guide_dialog_title_new">Postavite plan podataka</string>
     <string name="main_daily_package">Dnevni plan podataka</string>
+    <string name="main_declaration_dialog_msg">Vrijednost stanja prikazana u ovoj značajci ne može se koristiti kao dokaz prilikom pregovora s vašim operaterom. Statistika upotrebe mobilnih podataka i glasa koju pruža vaš operater ima prednost.</string>
     <string name="main_indicator_title">Aktivacija</string>
     <string name="main_leisure_remained">Preostalo do ograničenja podataka</string>
     <string name="main_month_total_used">Iskorišteno ovaj mjesec</string>
@@ -3259,6 +3270,7 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="notify_weekly_traffic_body">Kako bi se ograničila uporaba podataka automatski, postavite vaš mjesečni promet.</string>
     <string name="notify_weekly_traffic_title">Iskorišteno %s ovaj tjedan</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s iskorišteno %2$s ovaj tjedan</string>
+    <string name="now_inquiry">Pojedinosti</string>
     <string name="number_address">Lokacija</string>
     <string name="numeric_need_to_confirm">Unesite ponovno za potvrdu</string>
     <string name="numeric_password_confirmed_header_confirm">Uspješno postavljeno. Dodirnite za potvrdu.</string>
@@ -3484,6 +3496,10 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="pc_continuity_open_save_mode_notifi_title">%s slaba baterija</string>
     <string name="pc_current_power_mode">Trenutni način</string>
     <string name="pc_cycle_count_protect_title">Ciklusi</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Razumijem</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Ne prikazuj ponovno</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">Priključak Tipa C na kratkoj strani uređaja ne podržava prijenos podataka. Spojite se na računalo s drugim priključkom.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Podsjetnik za punjenje</string>
     <string name="pc_emergency_call">Hitno</string>
     <string name="pc_endurance_calculation">Izračunavanje…</string>
     <string name="pc_entered_extreme_mode">Stanje hibernacije je uključeno</string>
@@ -4008,7 +4024,7 @@ Ultra štednje baterije"</string>
     <string name="power_consume_other">Ostalo</string>
     <string name="power_consume_rank_hardware">Hardver</string>
     <string name="power_consume_rank_software">Aplikacije</string>
-    <string name="power_consume_rank_title">Potrošnja baterije</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Aplik.: %s</string>
     <string name="power_customize_giveup_change">Odbaciti promjene?</string>
     <string name="power_dailog_night_charge_protection_done">Razumijem</string>
@@ -4588,6 +4604,7 @@ Povući suglasnost odmah?"</string>
     <string name="renew_now">Obnovi</string>
     <string name="repair">Obnovi</string>
     <string name="repair_loading_text">Pričekajte trenutak…</string>
+    <string name="repeat_prompts">Usporite! Nemojte slati više zahtjeva za redom.</string>
     <string name="repeat_type">Ponovi</string>
     <string name="repeated_marked_number_summary">Ne blokiraj drugi poziv s istog prijavljenog broja unutar %d minute</string>
     <string name="repeated_marked_number_title">Ne blokiraj ponovljene pozive s prijavljenih brojeva</string>
@@ -5379,6 +5396,7 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="tc_parse_error">Ne mogu analizirati SMS</string>
     <string name="tc_receive_timeout">Isteklo je vrijeme kalibracije</string>
     <string name="tc_send_sms_error">Ne mogu poslati SMS</string>
+    <string name="tc_sms_bill_report_receive_content">Kalibracija SMS (uvjerite se da SMS sadrži podatke o balansu)</string>
     <string name="tc_sms_report_direction">SMS Upit za kod</string>
     <string name="tc_sms_report_do_report">Pošalji</string>
     <string name="tc_sms_report_get_default">Nećete snositi troškove korištenja SMS poruka za dobivanje stanja uporabe podataka vašeg mobilnog operatera.</string>
@@ -5503,6 +5521,7 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="title_app_update">Dostupna ažuriranja</string>
     <string name="title_auto_update">Ažuriraj automatski</string>
     <string name="title_background_connection">Ne možete koristiti %s u pozadini</string>
+    <string name="title_bill_balance_inquiry">Ravnoteža (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Propušteni pozivi iz vaših kontakata</string>
     <string name="title_block_calls_from_strangers">Nedostaju važni pozivi</string>
     <string name="title_chain_start">Ograniči lančano pokretanje</string>
@@ -5525,6 +5544,7 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="title_eye_shield">Boja zaslona ne izgleda dobro</string>
     <string name="title_find_device">Pronađi uređaj</string>
     <string name="title_first_aid_kit">Riješite probleme</string>
+    <string name="title_flow_base_reminder">Podsjetnici korištenja podataka</string>
     <string name="title_flow_notification">Obavijest Mobilnih podataka</string>
     <string name="title_flow_purchase">Kupi mobilne podatke</string>
     <string name="title_flow_rank">Uporaba mobilnih podataka</string>
@@ -5641,6 +5661,7 @@ Preostali podaci uključuju podatke koji se prenjeli iz prethodnog mjeseca."</st
     <string name="traffic_remind">Upozorenje korištenja podataka</string>
     <string name="traffic_remind_switch">Upozorenje korištenja podataka</string>
     <string name="traffic_reminder_settings">Postavite upozorenje korištenja podataka</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Lokalno</string>
     <string name="traffic_setting_fragment_brand">Marka</string>
     <string name="traffic_setting_fragment_button1_text">Odustani</string>
@@ -5705,13 +5726,18 @@ Preostali podaci uključuju podatke koji se prenjeli iz prethodnog mjeseca."</st
     <string name="usage_sorted_empty_text">Prazno</string>
     <string name="usage_sorted_loading_text">Pričekajte trenutak…</string>
     <string name="usage_type_audio">Zvuk</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">Ukupno CPU-a</string>
     <string name="usage_type_cpu_foreground">Glavni zadatak CPU-a</string>
     <string name="usage_type_data_recv">Primljeni mobilni podaci</string>
     <string name="usage_type_data_send">Poslani mobilni podaci</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Vrijeme bez signala</string>
     <string name="usage_type_on_time">Vrijeme uključenosti</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Videozapis</string>
     <string name="usage_type_wake_lock">Zadrži u aktivnom stanju</string>
     <string name="usage_type_wifi_running">Wi-Fi uključen</string>
@@ -5845,6 +5871,7 @@ Ova značajka neće raditi kada je uključena Štednja baterije ili Ultra štedn
     <string name="videobox_settings_timing">Upozorenje za pauzu</string>
     <string name="videobox_settings_timing_desc">Primajte upozorenje za pauzu po satu koja Vas podsjećaju da se trebate odmoriti</string>
     <string name="videobox_settings_title">Alat za videozapise</string>
+    <string name="view_package_info">Pogledajte detalje plana</string>
     <string name="view_traffic_detail">Prikaz pojedinosti</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">Deinstaliraj</string>

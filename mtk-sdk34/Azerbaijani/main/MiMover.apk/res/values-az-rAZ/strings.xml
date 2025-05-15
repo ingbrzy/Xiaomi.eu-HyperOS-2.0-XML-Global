@@ -3,6 +3,10 @@
     <string name="PRD_summary_4">Köçürmə prosesi zamanı Wi-Fi-ı söndürmək və ya Wi-Fi şəbəkələrini dəyişmək köçürmə prosesinin uğursuz olmasına səbəb ola bilər.</string>
     <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
     <string name="PRD_summary_5">Yüksək sürətli köçürmələr cihazınızın normaldan daha isti olmasına səbəb ola bilər. Köçürmə başa çatdıqda cihazınızın soyuyacağına əmin olun.</string>
+    <string name="accessibility_sliding_button_state_description_off">söndür</string>
+    <string name="accessibility_sliding_button_state_description_on">aktiv</string>
+    <string name="accessibility_tab_state_description_unselect">Seçilməmiş</string>
+    <string name="accessibility_tab_statedesc_unselect">Seçilməmiş</string>
     <string name="account_or_password_incorrect">Yanlış hesab kimliyi və ya şifrə</string>
     <string name="actionbar_button_up_description">Geri</string>
     <string name="afternoon">Günortadan sonra</string>
@@ -139,7 +143,7 @@ Söndürmək üçün https://appleid.apple.com/#!&amp;page=signin ünvanını zi
     <string name="dialog_request_permission_message_extra_summary">Bu icazələr bu tətbiqin əsas xüsusiyyətləri və xidmətlərinin istifadə edilə bilməsi üçün tələb olunur.</string>
     <string name="dialog_request_permission_message_extra_title">Məcburi icazələr</string>
     <string name="dialog_request_permission_message_global">Bu tətbiqin normal işləməsi üçün aşağıdakı icazələrə ehtiyac var:</string>
-    <string name="dialog_request_permission_message_link" formatted="false">"&lt;Data>Eyni zamanda, bir istifadəçi kimi hüquqlarınızı və məlumatlarınızı necə istifadə etdiyimizi tam olaraq anlamaq üçün, &lt;a href='%1s'>İstifadəçi Sazişi&lt;/a> və &lt;a href='%2s'>Gizlilik Siyasəti&lt;/a> sazişlərimizi oxuyun və qəbul edin.&lt;/Data>"</string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">Eyni zamanda bir istifadəçi olaraq hüquqlarınızı və məlumatlarınızı necə istifadə etdiyimizi başa düşmək üçün %1$s və %2$s müqavilələrimizi oxuyun və qəbul edin.</string>
     <string name="dialog_request_permission_title">Diqqət</string>
     <string name="dialog_request_permission_title_global">İcazələr tələb edilir</string>
@@ -160,11 +164,13 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="err_bakfile_broken">Bu yedəkləmə istifadə edilə bilmir.</string>
     <string name="err_bakfile_not_exist">Yedəkləmə faylı mövcud deyil.</string>
     <string name="err_binder_died">Tətbiq gözlənilmədən dayandı.</string>
+    <string name="err_data_protection">Köhnə cihazda qabaqcıl məlumat mühafizəsi işə salınıb. Doğrulama tələb olunur.</string>
     <string name="err_install_incompatible">Uyğunluq problemi</string>
     <string name="err_low_storage">Kifayət qədər yaddaş sahəsi yoxdur</string>
     <string name="err_no_gms">Uyğunsuz tətbiq versiyası. Bu tətbiqi ayrı olaraq quraşdırın.</string>
     <string name="err_not_allow">Dəstəklənmir</string>
     <string name="err_pkg_not_exist">Tətbiq tapıla bilmədi.</string>
+    <string name="err_receiver_no_space">Köçürmək mümkün olmadı. Yeni cihazda kifayət qədər yaddaş yoxdur.</string>
     <string name="err_remote_no_space">Yeni cihazda kifayət qədər yaddaş sahəsi yoxdur</string>
     <string name="err_remote_timeout">Köçürmə müddəti bitdi</string>
     <string name="err_send_error">Göndərilə bilmədi</string>
@@ -232,6 +238,12 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="force_update_button_neutral_guest">Başa düşdüm</string>
+    <string name="force_update_button_scan_host">Quraşdır</string>
+    <string name="force_update_content_guest">Elementləri köçürə bilmək üçün yeni cihazda Mi Daşıyıcıyı yeniləyin.</string>
+    <string name="force_update_content_host">Elementləri köçürə bilmək üçün köhnə cihazda Mi Daşıyıcıyı yeniləyin.</string>
+    <string name="force_update_title_guest">Yeni cihazda Mi Daşıyıcıyı yeniləyin</string>
+    <string name="force_update_title_host">Köhnə cihazda Mi Daşıyıcıyı yeniləyin</string>
     <string name="friday">Cümə</string>
     <string name="friday_short">C.</string>
     <string name="friday_shortest">C.</string>
@@ -371,6 +383,10 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="miui_wait_link_title_1">%d. \"Göndərənəm\" seçiminə toxunun və biraz gözləyin.</string>
     <string name="miui_wait_link_title_2">%d. Qoşulmaq üçün köhnə cihazınızdakı bu giriş nöqtəsini seçin.</string>
     <string name="miuix_access_state_desc">Seçildi</string>
+    <string name="miuix_accessibility_title">Başlıq</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Düzəliş rejimindən çıxış</string>
+    <string name="miuix_appcompat_accessibility_new_message">Yeni mesaj</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Düzəliş rejimində başla</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Bütün seçimi ləğv et</string>
     <string name="miuix_appcompat_action_mode_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elementləri seç</string>
@@ -386,6 +402,7 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="miuix_appcompat_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_select_all_description">Hamısını seç</string>
     <string name="miuix_appcompat_select_item">Elementləri seç</string>
+    <string name="miuix_progressbar_loading">Yüklənir</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yeniləmək üşün aşağıya çəkin</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uğurla yeniləndi</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Yenilənir…</string>
@@ -394,6 +411,7 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="miuix_sbl_tracking_progress_labe_up_none">İndilik bu qədər</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Bir saniyə…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Eementlər yüklənə bilmədi</string>
+    <string name="miuix_show_password">Parolu göstər</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Mesajlar, kontaktlar, və zəng tarixçəsi</string>
     <string name="monday">Bazar ertəsi</string>
@@ -466,11 +484,15 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="new_trans_intro_question_6">%d. Niyə tətbiq məlumatları üçüncü bir cihazdan ötürülə bilməz?</string>
     <string name="new_trans_intro_question_7">%d. Bir köçürmənin ortasında Mi Daşyıcı-dan ayrılsam, növbəti dəfə yenidən başlamalıyam?</string>
     <string name="new_trans_intro_question_8">%d. Niyə WeChat tarixçəm yeni cihazda yox oldu?</string>
+    <string name="new_version_transfer_downloading">Mi Daşıyıcı yenilənir</string>
+    <string name="new_version_transfer_downloading_progress">%s</string>
+    <string name="new_version_transfer_upgrading">Yenilənir…</string>
     <string name="new_wait_link_message_2">Mi Daşıyıcı-nın başlanğıc səhifəsindəki \"Göndərənəm\" düyməsi sağdadır.</string>
     <string name="next">Növbəti</string>
     <string name="night">Axşam</string>
     <string name="no_more_memory_title">Mi Daşıyıcı bu cihazda yerli yedəkləmə yaratmaq istəyir. Yedəkləmə yaratmaq üçün kifayət qədər yaddaş sahəsi yoxdur. Əvvəlcə biraz sahə boşaldın.</string>
     <string name="noon">Günorta</string>
+    <string name="not_selectable">Seçmək mümkün deyil</string>
     <string name="not_support_data_content1">%d. Cihaz modelinə xas olan elementlər</string>
     <string name="not_support_data_content2">%d. Tətbiq məlumatı</string>
     <string name="not_support_data_content3">%d. İkinci sahə məlumatları</string>
@@ -518,6 +540,8 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="open_photo_and_contacts_cloud_sync_summary">Kontaktların və Qalereya elementlərinin bu cihazda görünməsi üçün sinxronlaşdırmanı açın.</string>
     <string name="open_photo_and_contacts_cloud_sync_title">Kontaktları və Qalereya elementlərini sinxronlaşdır</string>
     <string name="operation_send">Göndər</string>
+    <string name="opposite_new_version_transfer_content">Digər cihazın Mi Daşıyıcıyı yeniləməsini və yenidən başlatmasını gözləyin, sonra yenidən qoşulmaq üçün toxunun.</string>
+    <string name="opposite_new_version_transfer_title">Digər cihaz yenilənir</string>
     <string name="option_about">Mi Daşıyıcı haqqında</string>
     <string name="option_feedback_title">Geri bildiriş</string>
     <string name="option_privacy_policy">Gizlilik Siyasəti</string>
@@ -564,7 +588,7 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="privacy_desc">Mi Daşıyıcı-ya xoş gəldiniz! Bu tətbiq aşağıdakı xidmətləri təmin edir:</string>
     <string name="privacy_experience_statement">Məhsullarımızı və xidmətlərimizi yaxşılaşdırmağa kömək etmək üçün istifadəçi məlumatlarını bizimlə paylaşmaq üçün İstifadəçi Təcrübəsi proqramımıza qoşulun.</string>
     <string name="privacy_item1">· Faylların, mesajların, sistem tətbiq tənzimləmələrinin və tətbiqlərin köçürülməsi</string>
-    <string name="privacy_message">&lt;Data>Mi Daşıyıcı-nı istifadə etməzdən &lt;a href=\"%2$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%1$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi oxuyun və qəbul edin. Mi Daşıyıcı-nın Gizlilik Siyasəti ilə razılığınızı istənilən vaxt \"Mi Daşıyıcı haqqında\" bölməsindən geri çəkə bilərsiniz. Yuxarıda göstərilən xidmətlərdən istifadə etməyi qəbul etməsəniz, bu tətbiqin bəzi xüsusiyyətlərindən istifadə edə bilməyəcəksiniz; lakin, əsas funksionallığı hələ də sizin üçün mövcud olacaq.&lt;/Data></string>
+    <string name="privacy_message"><Data>Mi Daşıyıcı-nı istifadə etməzdən &lt;a href=\"%2$s\">İstifadəçi Sazişi&lt;/a> və &lt;a href=\"%1$s\">Gizlilik Siyasəti&lt;/a> sazişlərimizi oxuyun və qəbul edin. Mi Daşıyıcı-nın Gizlilik Siyasəti ilə razılığınızı istənilən vaxt \"Mi Daşıyıcı haqqında\" bölməsindən geri çəkə bilərsiniz. Yuxarıda göstərilən xidmətlərdən istifadə etməyi qəbul etməsəniz, bu tətbiqin bəzi xüsusiyyətlərindən istifadə edə bilməyəcəksiniz; lakin, əsas funksionallığı hələ də sizin üçün mövcud olacaq.</Data></string>
     <string name="privacy_policy">Gizlilik Siyasəti</string>
     <string name="privacy_title">Şərtlər və qaydalar</string>
     <string name="prompt_before_transmission_message1_summary">Bunları köhnə cihazınızdan köçürməyi seçsəniz, tətbiq məlumatı (söhbət tarixi daxil olmaqla) yazılacaq.</string>
@@ -655,6 +679,12 @@ Daxilə köçürülə bilməyən məlumatlar yenidən daxilə köçürülməlidi
     <string name="secret_password_confirm_summary">Məxfi faylları yeni cihazına köçürə bilmək üçün Gizlilik qoruması şifrəsini daxil etməklə kimliyini təsfiq et.</string>
     <string name="secret_password_confirm_title">Gizlilik qoruma şifrəsi</string>
     <string name="secret_title">Şəxsi elementlər</string>
+    <string name="security_connect_button_negative">Ləğv et</string>
+    <string name="security_connect_button_positive">Qoşul</string>
+    <string name="security_connect_content">Hər iki cihazdakı bağlantı kodlarının uyğun olduğundan əmin olun. Sonra elementləri köçürmək üçün \"Qoşul\" düyməsinə toxunun.</string>
+    <string name="security_connect_hint">Bağlantı kodu</string>
+    <string name="security_connect_title_guest">İndi yeni cihaza qoşulsun?</string>
+    <string name="security_connect_title_host">İndi köhnə cihaza qoşulsun?</string>
     <string name="select_all">Hamısını seç</string>
     <string name="select_android_summary">Huawei, OPPO, vivo, və daha çoxu</string>
     <string name="select_android_title">Android</string>
@@ -825,6 +855,7 @@ Mi Daşıyıcını yükləyin və quraşdırın."</string>
     <string name="trans_sync_transfer_data_list">Köhnə cihaza köçürmək üçün elementlər seçin</string>
     <string name="trans_sync_transfer_data_list_apple">Apple cihazınızdan elementləri köçürün</string>
     <string name="trans_sync_transfer_data_list_hint">Bir saniyə…</string>
+    <string name="trans_sync_transfer_data_list_pad">Köçürmək üçün köhnə cihazdakı elementləri seçin</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Köhnə cihazınızda elementləri seçin və \"Göndər\" üzərinə klikləyin.</string>
     <string name="trans_time_format_second">%d dəqiqədən az</string>
     <string name="trans_time_spent">Müddət: %s</string>
@@ -836,6 +867,10 @@ Mi Daşıyıcını yükləyin və quraşdırın."</string>
     <string name="transfer_lose_connect_title">Əlaqə kəsildi</string>
     <string name="transfer_multi_connect_summary">Təhlükəsizlik səbəbindən köçürməniz dayandırıldı. Hər halda davam etmək üçün \"Yenidən qoşul\" seçiminə toxunun.</string>
     <string name="transfer_multi_connect_title">Bir çox cihazın bu giriş nöqtəsinə qoşulduğu görünür</string>
+    <string name="transfer_no_memory_dialog_btn">Başa düşdüm</string>
+    <string name="transfer_no_memory_dialog_summary">Yeni cihazın köçürməni tamamlamaq üçün kifayət qədər yaddaş yeri yoxdur. Elementlərin köçürülməsini başa çatdırmaq üçün cihazda yer təmizləyin.</string>
+    <string name="transfer_no_memory_dialog_title">Yetərsiz yaddaş sahəsi</string>
+    <string name="transfer_no_memory_dialog_title_pad">Yetərsiz yaddaş sahəsi</string>
     <string name="transfer_quit_alert_btn_negative">Çıx</string>
     <string name="transfer_quit_alert_btn_positive">Çıxış etmə</string>
     <string name="transfer_quit_alert_message">"Mi Daşıyıcı indi işləyir. Hər halda çıxış edilsin?

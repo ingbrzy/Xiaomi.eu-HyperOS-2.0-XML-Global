@@ -962,6 +962,7 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="button_text_trust">Luota tähän verkkoon</string>
     <string name="button_text_update_now">Päivitä</string>
     <string name="button_to_setting">Asetukset</string>
+    <string name="button_toll_correction">Kalibroi saldo</string>
     <string name="byteShort">t</string>
     <string name="call_address">Alueellinen estolista</string>
     <string name="call_all_number_block">Estä kaikki puhelut</string>
@@ -1061,6 +1062,7 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="charging_text_battery_full_time">"Viimeisin lataus "</string>
     <string name="charging_text_battery_nearly_full">Melkein ladattu täyteen</string>
     <string name="charging_text_battery_perfect">Ladattu täyteen</string>
+    <string name="check_bill_balance">Tarkista saldo</string>
     <string name="choose">Valitse</string>
     <string name="choose_gs_show_way">Valitse aloitussivun orientaatio</string>
     <string name="clean_immediately">Tyhjennä</string>
@@ -1684,6 +1686,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="fixed_cellular_data_quota_monthly">Kuukausittainen dataraja</string>
     <string name="fixed_package_tips">Lisämaksuja kertyy, kun olet saavuttanut rajan</string>
     <string name="fixed_traffic_quota">Dataraja (pakollinen)</string>
+    <string name="fixed_traffic_quota_offline">Dataraja (pakollinen)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -2038,8 +2041,14 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="gb_beauty_nature_light">Luonnollinen</string>
     <string name="gb_beauty_warm_light">Lämmin</string>
     <string name="gb_collimator_color">Väri</string>
+    <string name="gb_collimator_color_blue_talkback">Sininen</string>
+    <string name="gb_collimator_color_purple_talkback">Violetti</string>
+    <string name="gb_collimator_color_red_talkback">Punainen</string>
+    <string name="gb_collimator_color_white_talkback">Valkoinen</string>
+    <string name="gb_collimator_color_yellow_talkback">Keltainen</string>
     <string name="gb_collimator_size">Koko</string>
     <string name="gb_collimator_style">Tyyppi</string>
+    <string name="gb_collimator_style_talkback">Tyyli %1$d</string>
     <string name="gb_collimator_toast">Tähtäin tekee kohdentamisesta paljon helpompaa</string>
     <string name="gb_cooler_device_toast">"Visuaalista kokemusta parantaa
 Xiaomi Gaming Cooler"</string>
@@ -2142,7 +2151,7 @@ Tallenna sekvenssit ja käytä niitä milloin tahansa!"</string>
     <string name="gb_msg_transparent_dispaly_summary">Läpinäkyvä</string>
     <string name="gb_network_status_bad">Tapahtui yhteysvirhe.</string>
     <string name="gb_new_feature">Uusi ominaisuus</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Tätä sovellusta ei voi käyttää ulkoisella näytöllä</string>
     <string name="gb_operat_frequently">Ei niin nopeasti!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Ei voi vaihtaa Tasapainotettuun tilaan Game Turbossa, kun järjestelmälaajuinen suorituskykytila on päällä. Voit muuttaa akun asetuksia Tietoturvassa.&lt;br>&lt;a href=\"#\">Avaa Tietoturva&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Vaihdettu suorituskykytilaan. Laitteesi saattaa lämmetä ja kuluttaa enemmän virtaa.</string>
@@ -2507,20 +2516,20 @@ Pidä ilmaisinta painettuna siirtääksesi ikkunaa ympäriinsä."</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Estä toissijainen SIM-kortti</string>
     <string name="gtb_setting_item_title_smart_5g">5G-verkon optimointi</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi WiFi:n nopeutus</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Takaisin peliin</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">Ei voitu yhdistää verkkoon</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Näytä</string>
+    <string name="gtb_spring_festival_guide">"Vaihda vaakatilaan
+liittyäksesi munajahtiin!"</string>
+    <string name="gtb_spring_festival_guide_know">Selvä</string>
+    <string name="gtb_spring_festival_push_active_desc">Voita puhelimia, älylaitteita ja kuponkeja</string>
+    <string name="gtb_spring_festival_push_active_title">Pääsiäismunajahti on käynnissä!</string>
+    <string name="gtb_spring_festival_push_desc">Liity munajahtiimme ja voita palkintoja</string>
+    <string name="gtb_spring_festival_push_egg_title">Olet saanut pääsiäismunan!</string>
+    <string name="gtb_spring_festival_push_gift_title">Munajahdin palkinnot tulossa!</string>
+    <string name="gtb_spring_festival_push_join">Liity</string>
+    <string name="gtb_spring_festival_push_see">Näytä</string>
+    <string name="gtb_spring_festival_shortcut_create">Luo aloitusnäytön pikavalinta</string>
     <string name="gtb_start_phone_accelerate">Nopeuta</string>
     <string name="gtb_stop_accelerate">Lopeta</string>
     <string name="gtb_timer">Ajastin</string>
@@ -2715,6 +2724,7 @@ Operaattorisi saattaa veloittaa sinua lisämaksuilla, jos käytät mobiilidatayh
     <string name="main_activity_content_summary_update">Järjestelmäpäivitys</string>
     <string name="main_alert_message_no_imsi">SIM-korttia ei havaittu</string>
     <string name="main_alert_message_open_traffic_ctrl">Suosittelemme datan käytön rajoittamista</string>
+    <string name="main_balance_check">Tarkista saldo</string>
     <string name="main_bill_remained">Puhelimen saldo</string>
     <string name="main_button_mi_sim_close">Aktivoi Mi SIM</string>
     <string name="main_button_mi_sim_open">Näytä tiedot</string>
@@ -2729,6 +2739,7 @@ Operaattorisi saattaa veloittaa sinua lisämaksuilla, jos käytät mobiilidatayh
     <string name="main_daily_card_guide_dialog_title">Aseta datasuunnitelman tyyppi</string>
     <string name="main_daily_card_guide_dialog_title_new">Määritä datasuunnitelman tyyppi</string>
     <string name="main_daily_package">Päivittäinen datasuunnitelma</string>
+    <string name="main_declaration_dialog_msg">Tässä ominaisuudessa näkyvää saldoarvoa ei voida käyttää todisteena neuvoteltaessa operaattorisi kanssa. Operaattorisi toimittamat mobiilidatan ja puheen käyttötilastot ovat ensisijaisia.</string>
     <string name="main_indicator_title">Aktivointi</string>
     <string name="main_leisure_remained">Hiljaisen ajan dataa jäljellä</string>
     <string name="main_month_total_used">Käytetty tässä kuussa</string>
@@ -3258,6 +3269,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="notify_weekly_traffic_body">Rajoittaaksesi datan käyttöä automaattisesti, aseta kuukausikohtainen datasuunnitelmasi.</string>
     <string name="notify_weekly_traffic_title">Käytetty %s tällä viikolla</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s käytetty %2$s tällä viikolla</string>
+    <string name="now_inquiry">Tiedot</string>
     <string name="number_address">Sijainti</string>
     <string name="numeric_need_to_confirm">Syötä uudelleen vahvistaaksesi</string>
     <string name="numeric_password_confirmed_header_confirm">Asetettu onnistuneesti. Napauta vahvistaaksesi.</string>
@@ -3483,6 +3495,10 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_continuity_open_save_mode_notifi_title">Laitteen %s akku on vähissä</string>
     <string name="pc_current_power_mode">Nykyinen tila</string>
     <string name="pc_cycle_count_protect_title">Syklit</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Selvä</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Älä näytä uudelleen</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">Laitteen lyhyen puolen tyypin C-portti ei tue tiedonsiirtoa. Yhdistä tietokoneeseen toisen portin kanssa.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Latausmuistutus</string>
     <string name="pc_emergency_call">Hätä</string>
     <string name="pc_endurance_calculation">Lasketaan…</string>
     <string name="pc_entered_extreme_mode">Horrostila on käytössä</string>
@@ -4007,7 +4023,7 @@ ultravirransäästö"</string>
     <string name="power_consume_other">Muut</string>
     <string name="power_consume_rank_hardware">Laitteisto</string>
     <string name="power_consume_rank_software">Sovellukset</string>
-    <string name="power_consume_rank_title">Virrankäyttö</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Sovellukset: %s</string>
     <string name="power_customize_giveup_change">Hylätäänkö muutokset?</string>
     <string name="power_dailog_night_charge_protection_done">Selvä</string>
@@ -4587,6 +4603,7 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="renew_now">Uusi</string>
     <string name="repair">Korjaus</string>
     <string name="repair_loading_text">Hetki vain…</string>
+    <string name="repeat_prompts">Hidasta! Älä lähetä useita pyyntöjä peräkkäin.</string>
     <string name="repeat_type">Toista</string>
     <string name="repeated_marked_number_summary">Älä estä toista puhelua samasta ilmoitetusta numerosta %d minuutin aikana</string>
     <string name="repeated_marked_number_title">Älä estä toistuvia puheluita ilmoitetuilta numeroilta</string>
@@ -5378,6 +5395,7 @@ Alustaminen poistaa nykyisen sisällön kohteesta ^2. Sisällön menettämisen v
     <string name="tc_parse_error">Tekstiviestiä ei voitu jäsentää</string>
     <string name="tc_receive_timeout">Kalibrointi aikakatkaistiin</string>
     <string name="tc_send_sms_error">Tekstiviestiä ei voitu lähettää</string>
+    <string name="tc_sms_bill_report_receive_content">Kalibrointitekstiviesti (varmista, että tekstiviesti sisältää saldotiedot)</string>
     <string name="tc_sms_report_direction">Tekstiviesti kyselykoodi</string>
     <string name="tc_sms_report_do_report">Lähetä</string>
     <string name="tc_sms_report_get_default">Sinua ei veloiteta tekstiviesteistä, joita käytetään datan käytön saamiseksi operaattoriltasi.</string>
@@ -5502,6 +5520,7 @@ Alustaminen poistaa nykyisen sisällön kohteesta ^2. Sisällön menettämisen v
     <string name="title_app_update">Päivityksiä saatavilla</string>
     <string name="title_auto_update">Päivitä automaattisesti</string>
     <string name="title_background_connection">%s ei voida käyttää taustalla</string>
+    <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Ovatko puhelut yhteystiedoiltasi jääneet saamatta</string>
     <string name="title_block_calls_from_strangers">Jäävätkö tärkeät puhelut saamatta</string>
     <string name="title_chain_start">Rajoita ketjukäynnistymistä</string>
@@ -5524,6 +5543,7 @@ Alustaminen poistaa nykyisen sisällön kohteesta ^2. Sisällön menettämisen v
     <string name="title_eye_shield">Eivätkö näytön värit näytä oikeilta</string>
     <string name="title_find_device">Etsi laite</string>
     <string name="title_first_aid_kit">Ratkaise ongelmat</string>
+    <string name="title_flow_base_reminder">Datankäyttömuistutukset</string>
     <string name="title_flow_notification">Mobiilidatan ilmoitus</string>
     <string name="title_flow_purchase">Osta mobiilidataa</string>
     <string name="title_flow_rank">Mobiilidatan käyttö</string>
@@ -5640,6 +5660,7 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="traffic_remind">Datankäyttövaroitus</string>
     <string name="traffic_remind_switch">Datankäyttövaroitus</string>
     <string name="traffic_reminder_settings">Aseta tiedonsiirtovaroitus</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Paikallinen</string>
     <string name="traffic_setting_fragment_brand">Merkki</string>
     <string name="traffic_setting_fragment_button1_text">Peruuta</string>
@@ -5704,13 +5725,18 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="usage_sorted_empty_text">Tyhjä</string>
     <string name="usage_sorted_loading_text">Hetki vain…</string>
     <string name="usage_type_audio">Ääni</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">CPU yhteensä</string>
     <string name="usage_type_cpu_foreground">CPU etualalla</string>
     <string name="usage_type_data_recv">Vastaanotettu mobiilidata</string>
     <string name="usage_type_data_send">Lähetetty mobiilidata</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Aika ilman signaalia</string>
     <string name="usage_type_on_time">Päällä</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Video</string>
     <string name="usage_type_wake_lock">Pysy hereillä</string>
     <string name="usage_type_wifi_running">Wi-Fi käytössä</string>
@@ -5844,6 +5870,7 @@ Tämä ominaisuus ei toimi, kun virransäästö tai ultravirransäästö on käy
     <string name="videobox_settings_timing">Hälytys pitkittyneestä istunnosta</string>
     <string name="videobox_settings_timing_desc">Vastaanota joka tunti hälytys, joka muistuttaa sinua pitämään tauon</string>
     <string name="videobox_settings_title">Videotyökalulaatikko</string>
+    <string name="view_package_info">Katso suunnitelman tiedot</string>
     <string name="view_traffic_detail">Näytä lisätietoja</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">Poista</string>

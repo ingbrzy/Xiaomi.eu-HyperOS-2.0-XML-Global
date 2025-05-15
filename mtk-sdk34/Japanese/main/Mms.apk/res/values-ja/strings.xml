@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="accessibility_sliding_button_state_description_off">オフにしました</string>
+    <string name="accessibility_sliding_button_state_description_on">オンにしました</string>
+    <string name="accessibility_tab_state_description_unselect">選択されていません</string>
     <string name="action_get_otp">コードを取得</string>
     <string name="action_sign_in">サインイン</string>
     <string name="action_sign_in_short">サインイン</string>
@@ -468,10 +471,8 @@
     <string name="menu_unlock">お気に入りから削除</string>
     <string name="menu_view_contact">連絡先を表示</string>
     <string name="menu_view_group_info">グループ情報</string>
-    <string name="message_cannot_send_air_mode">"メッセージを送信できません。
-まず、機内モードをオフにしてください。"</string>
-    <string name="message_cannot_send_sim_unavailable">"メッセージを送信できません。
-SIMカードを確認してください。"</string>
+    <string name="message_cannot_send_air_mode">メッセージを送信するには機内モードをオフにしてください</string>
+    <string name="message_cannot_send_sim_unavailable">メッセージを送信するには SIM カードを挿入してください</string>
     <string name="message_class_label">"メッセージクラス: "</string>
     <string name="message_contact">連絡先:</string>
     <string name="message_details_title">メッセージの詳細</string>
@@ -499,6 +500,12 @@ SIMカードを確認してください。"</string>
     <string name="midnight">真夜中</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">選択済み</string>
+    <string name="miuix_accessibility_title">タイトル</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">折りたたみました</string>
+    <string name="miuix_appcompat_accessibility_expand_state">展開しました</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">編集モードを終了</string>
+    <string name="miuix_appcompat_accessibility_new_message">新しい通知</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">編集モードに入る</string>
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
@@ -514,12 +521,15 @@ SIMカードを確認してください。"</string>
     <string name="miuix_appcompat_select_all">すべて選択</string>
     <string name="miuix_appcompat_select_all_description">すべて選択</string>
     <string name="miuix_appcompat_select_item">アイテムを選択</string>
+    <string name="miuix_appcompat_show_dialog_description">ポップアップウィンドウ</string>
     <string name="miuix_item_view_role_description">タブ</string>
     <string name="miuix_navigator_category_group_collapse">折りたたむ</string>
     <string name="miuix_navigator_category_group_expand">展開</string>
     <string name="miuix_navigator_content_switch_description">サイドバーを表示</string>
     <string name="miuix_navigator_multiple_choice">選択</string>
     <string name="miuix_navigator_navigator_switch_description">サイドバーを非表示</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">画面の下部にあるツールバー</string>
+    <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">正常に更新されました</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">更新中…</string>
@@ -528,6 +538,9 @@ SIMカードを確認してください。"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">今のところ以上です</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">お待ちください…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">アイテムを読み込めませんでした</string>
+    <string name="miuix_show_password">パスワードを表示</string>
+    <string name="miuix_stretchablewidget_collapsed">折りたたみました</string>
+    <string name="miuix_stretchablewidget_expanded">展開しました</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">承認された送信者から送信されたメッセージを除くすべてのMMSがブロックされます。承認された送信者には、ネットワークキャリア、全国鉄道予約システムなどが含まれます。</string>
     <string name="mms_block_alert_ok">ブロック</string>
@@ -621,11 +634,23 @@ SIMカードを確認してください。"</string>
     <string name="mx_privacy_policy">Mi メッセージ プライバシーポリシー</string>
     <string name="mx_stranger_recommend_msg">不明な番号のMiメッセージをブロックするにはタップします</string>
     <string name="need_download">同期中…</string>
+    <string name="net_message_download_btn_content_desc">ダウンロード</string>
+    <string name="net_message_json_card_core_entity_content_desc1">コード %s をコピー</string>
+    <string name="net_message_json_card_core_entity_content_desc2">リンク %s を開く</string>
+    <string name="net_message_json_card_core_entity_content_desc3">アプリを開く</string>
+    <string name="net_message_json_card_core_entity_content_desc4">カレンダーを開く</string>
+    <string name="net_message_json_card_core_entity_content_desc5">%s に発信</string>
+    <string name="net_message_json_card_core_entity_content_desc6">返信</string>
+    <string name="net_message_media_card_img_content_desc">写真</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">ビデオの再生が完了しました</string>
+    <string name="net_message_media_card_video_content_desc">ビデオ</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">一時停止</string>
+    <string name="net_message_media_card_video_start_play_content_desc">再生</string>
     <string name="net_sms_subscribed">正常に購読しました</string>
     <string name="net_sms_unsubscribe">正常に購読を解除しました</string>
     <string name="networking_allow_continue">許可</string>
     <string name="networking_allow_title">注意</string>
-    <string name="new_message">新規作成</string>
+    <string name="new_message">新しいメッセージ</string>
     <string name="new_message_arrived">未読</string>
     <string name="new_phrase">返信を追加</string>
     <string name="new_phrase_hint">新しい返信を入力</string>
@@ -668,6 +693,7 @@ SIMカードを確認してください。"</string>
     <string name="over_max_mms_size">MMSが大きすぎます。</string>
     <string name="overwrite_edited_content">編集した内容が上書きされます。</string>
     <string name="packages_select_sim_cards_title">SIMカードを選択</string>
+    <string name="page_indicator">ページインジケーター</string>
     <string name="passenger_title">乗客</string>
     <string name="pay_bill">支払う</string>
     <string name="payment_failed">支払いを完了できませんでした</string>
@@ -847,7 +873,7 @@ SIMカードを確認してください。"</string>
     <string name="rcs_conversation_rcs_tip">[チャットボット] %s</string>
     <string name="rcs_create_new_group">グループチャットを作成</string>
     <string name="rcs_dspt">WLAN またはモバイルネットワークを使用してメッセージを送受信します</string>
-    <string name="rcs_dspt_unavailable">"5G Messaging-related features aren't supported due to carrier restrictions"</string>
+    <string name="rcs_dspt_unavailable">通信事業者の制限により、5G メッセージング関連の機能はサポートされていません</string>
     <string name="rcs_file_link_as_sms">%sにアクセスして、送信されたRCSファイルを表示します。</string>
     <string name="rcs_forward_faild">転送できませんでした</string>
     <string name="rcs_forward_successful">正常に転送されました</string>
@@ -909,6 +935,7 @@ SIMカードを確認してください。"</string>
     <string name="recommend_bar_ok">オンにする</string>
     <string name="recommend_bar_title_mx_rcs">Mi メッセージ</string>
     <string name="recommend_close">オフにする</string>
+    <string name="recommend_close_button">閉じる</string>
     <string name="recommend_disagree">同意しない</string>
     <string name="recommend_free_internet_message">無料のインターネットメッセージング</string>
     <string name="recommend_free_mi">Mi メッセージ</string>
@@ -1058,6 +1085,7 @@ SIMカードを確認してください。"</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">まず、レコーダーをインストールしてください</string>
     <string name="sp_category_all">すべてのサービスメッセージ</string>
     <string name="sp_category_bank">銀行通知メッセージ</string>
     <string name="sp_category_title_prefix">%s</string>
@@ -1217,7 +1245,7 @@ SIMカードを確認してください。"</string>
     <string name="voice_report_off">オフ</string>
     <string name="voice_report_wiredon">イヤホン接続時</string>
     <string name="wap_push_title">"[WAPプッシュ] "</string>
-    <string name="warning_show">%dsで送信</string>
+    <string name="warning_show">%d秒後に送信</string>
     <string name="wednesday">水曜日</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>

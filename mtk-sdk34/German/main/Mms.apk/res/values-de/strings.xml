@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Teilen mit</string>
     <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
     <string name="abc_toolbar_collapse_description">Minimieren</string>
+    <string name="accessibility_sliding_button_state_description_off">Ausgeschaltet</string>
+    <string name="accessibility_sliding_button_state_description_on">Eingeschaltet</string>
+    <string name="accessibility_tab_state_description_unselect">Nicht ausgewählt</string>
     <string name="action_get_otp">Code anfordern</string>
     <string name="action_sign_in">Anmelden</string>
     <string name="action_sign_in_short">Anmelden</string>
@@ -468,10 +471,8 @@ bitte beachten Sie, dass die Internet-Messaging-Funktionalität jetzt bis auf we
     <string name="menu_unlock">Aus Favoriten entfernen</string>
     <string name="menu_view_contact">Kontakt anzeigen</string>
     <string name="menu_view_group_info">Gruppeninfo</string>
-    <string name="message_cannot_send_air_mode">"Nachrichten können nicht versandt werden.
-Schalte zuerst den Flugzeugmodus aus."</string>
-    <string name="message_cannot_send_sim_unavailable">"Nachrichten können nicht versandt werden.
-Überprüfe deine SIM-Karte."</string>
+    <string name="message_cannot_send_air_mode">Schalte den Flugzeugmodus aus, um Nachrichten zu senden</string>
+    <string name="message_cannot_send_sim_unavailable">Lege die SIM-Karte ein, um Nachrichten zu senden</string>
     <string name="message_class_label">"Klassifizierung der Nachricht: "</string>
     <string name="message_contact">Kontakt:</string>
     <string name="message_details_title">Nachrichtendetails</string>
@@ -499,6 +500,12 @@ Schalte zuerst den Flugzeugmodus aus."</string>
     <string name="midnight">Nacht</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">Ausgewählt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Eingeklappt</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Erweitert</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Bearbeitungsmodus beenden</string>
+    <string name="miuix_appcompat_accessibility_new_message">Neue Benachrichtigung</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Bearbeitungsmodus starten</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Auswahl aufheben</string>
     <string name="miuix_appcompat_action_mode_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elemente auswählen</string>
@@ -514,12 +521,15 @@ Schalte zuerst den Flugzeugmodus aus."</string>
     <string name="miuix_appcompat_select_all">Alles auswählen</string>
     <string name="miuix_appcompat_select_all_description">Alles auswählen</string>
     <string name="miuix_appcompat_select_item">Elemente auswählen</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop-up-Fenster</string>
     <string name="miuix_item_view_role_description">Tab</string>
     <string name="miuix_navigator_category_group_collapse">Ausblenden</string>
     <string name="miuix_navigator_category_group_expand">Erweitern</string>
     <string name="miuix_navigator_content_switch_description">Seitenleiste anzeigen</string>
     <string name="miuix_navigator_multiple_choice">Auswählen</string>
     <string name="miuix_navigator_navigator_switch_description">Seitenleiste ausblenden</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Werkzeugleiste am unteren Rand des Bildschirms</string>
+    <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Zum Aktualisieren nach unten ziehen</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Erfolgreich aktualisiert</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Wird aktualisiert…</string>
@@ -528,6 +538,9 @@ Schalte zuerst den Flugzeugmodus aus."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">"Das war's fürs Erste"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Moment...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Laden von Elementen fehlgeschlagen</string>
+    <string name="miuix_show_password">Vis adgangskode</string>
+    <string name="miuix_stretchablewidget_collapsed">Eingeklappt</string>
+    <string name="miuix_stretchablewidget_expanded">Erweitert</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Alle MMS mit Ausnahme der von autorisierten Absendern gesendeten Nachrichten werden blockiert. Zu den zugelassenen Absendern gehören Netzbetreiber, nationale Bahnbuchungssysteme etc.</string>
     <string name="mms_block_alert_ok">Blockieren</string>
@@ -621,11 +634,23 @@ Diese Nachricht könnte unerwünscht sein."</string>
     <string name="mx_privacy_policy">Datenschutzrichtlinien für Mi-Message</string>
     <string name="mx_stranger_recommend_msg">Tippen um Mi Messages von unbekannten Nummern zu blockieren</string>
     <string name="need_download">Synchronisieren…</string>
+    <string name="net_message_download_btn_content_desc">Download</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Code %s kopieren</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Link %s öffnen</string>
+    <string name="net_message_json_card_core_entity_content_desc3">App öffnen</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Kalender öffnen</string>
+    <string name="net_message_json_card_core_entity_content_desc5">%s wählen</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Antworten</string>
+    <string name="net_message_media_card_img_content_desc">Foto</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Video-Wiedergabe abgeschlossen</string>
+    <string name="net_message_media_card_video_content_desc">Video</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Pause</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Wiedergabe</string>
     <string name="net_sms_subscribed">Erfolgreich abonniert</string>
     <string name="net_sms_unsubscribe">Erfolgreich abbestellt</string>
     <string name="networking_allow_continue">Erlauben</string>
     <string name="networking_allow_title">Achtung</string>
-    <string name="new_message">Nachricht erstellen</string>
+    <string name="new_message">Neue Nachricht</string>
     <string name="new_message_arrived">Ungelesen</string>
     <string name="new_phrase">Antwort hinzufügen</string>
     <string name="new_phrase_hint">Eine neue Antwort eingeben</string>
@@ -668,6 +693,7 @@ Diese Nachricht könnte unerwünscht sein."</string>
     <string name="over_max_mms_size">MMS ist zu Groß.</string>
     <string name="overwrite_edited_content">Die Inhalte, die du bearbeitet hast, werden überschrieben.</string>
     <string name="packages_select_sim_cards_title">SIM-Karte auswählen</string>
+    <string name="page_indicator">Seitenanzeige</string>
     <string name="passenger_title">Passagier</string>
     <string name="pay_bill">Bezahlen</string>
     <string name="payment_failed">Bezahlung konnte nicht abgeschlossen werden</string>
@@ -909,6 +935,7 @@ Diese Nachricht könnte unerwünscht sein."</string>
     <string name="recommend_bar_ok">Einschalten</string>
     <string name="recommend_bar_title_mx_rcs">Mi Message</string>
     <string name="recommend_close">Ausschalten</string>
+    <string name="recommend_close_button">Schließen</string>
     <string name="recommend_disagree">Nicht zustimmen</string>
     <string name="recommend_free_internet_message">Kostenlose Internet-Nachrichtenübermittlung</string>
     <string name="recommend_free_mi">Mi Message</string>
@@ -1058,6 +1085,7 @@ Diese Nachricht könnte unerwünscht sein."</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">Zuerst Rekorder installieren</string>
     <string name="sp_category_all">Alle Service-Meldungen</string>
     <string name="sp_category_bank">Bank Benachrichtigungen</string>
     <string name="sp_category_title_prefix">%s</string>

@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="accessibility_sliding_button_state_description_off">Avaktiverad</string>
+    <string name="accessibility_sliding_button_state_description_on">Påslaget</string>
+    <string name="accessibility_tab_state_description_unselect">Inte vald</string>
     <string name="action_get_otp">Hämta kod</string>
     <string name="action_sign_in">Logga in</string>
     <string name="action_sign_in_short">Logga in</string>
@@ -468,10 +471,8 @@ Var god observera att funktionen för internetmeddelanden nu är avstängd tills
     <string name="menu_unlock">Ta bort från favoriter</string>
     <string name="menu_view_contact">Visa kontakt</string>
     <string name="menu_view_group_info">Gruppinfo</string>
-    <string name="message_cannot_send_air_mode">"Kan inte skicka meddelanden.
-Stäng av Flygplansläge först."</string>
-    <string name="message_cannot_send_sim_unavailable">"Kan inte skicka meddelanden.
-Kontrollera ditt SIM-kort."</string>
+    <string name="message_cannot_send_air_mode">Avaktivera Flygplansläge för att skicka meddelanden</string>
+    <string name="message_cannot_send_sim_unavailable">Sätt i SIM-kort för att skicka meddelanden</string>
     <string name="message_class_label">"Meddelandeklass: "</string>
     <string name="message_contact">Kontakt:</string>
     <string name="message_details_title">Meddelandedetaljer</string>
@@ -499,6 +500,12 @@ Kontrollera ditt SIM-kort."</string>
     <string name="midnight">Natt</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">Valt</string>
+    <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Ihopfälld</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expanderad</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Avsluta redigeringsläge</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ny notifikation</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Gå till redigeringsläge</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Avmarkera alla</string>
     <string name="miuix_appcompat_action_mode_select_all">Välj alla</string>
     <string name="miuix_appcompat_action_mode_title_empty">Välj objekt</string>
@@ -514,12 +521,15 @@ Kontrollera ditt SIM-kort."</string>
     <string name="miuix_appcompat_select_all">Välj alla</string>
     <string name="miuix_appcompat_select_all_description">Välj alla</string>
     <string name="miuix_appcompat_select_item">Välj objekt</string>
+    <string name="miuix_appcompat_show_dialog_description">Dialogruta</string>
     <string name="miuix_item_view_role_description">Flik</string>
     <string name="miuix_navigator_category_group_collapse">Fäll ihop</string>
     <string name="miuix_navigator_category_group_expand">Expandera</string>
     <string name="miuix_navigator_content_switch_description">Visa sidopanel</string>
     <string name="miuix_navigator_multiple_choice">Välj</string>
     <string name="miuix_navigator_navigator_switch_description">Dölj sidopanel</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Verktygspanel längst ner på skärmen</string>
+    <string name="miuix_progressbar_loading">Laddar</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Dra nedåt för att uppdatera</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uppdaterat</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Uppdaterar…</string>
@@ -528,6 +538,9 @@ Kontrollera ditt SIM-kort."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Det är allt för nu</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vänta en stund…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Det gick inte att ladda objekt</string>
+    <string name="miuix_show_password">Visa lösenord</string>
+    <string name="miuix_stretchablewidget_collapsed">Ihopfälld</string>
+    <string name="miuix_stretchablewidget_expanded">Expanderad</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Alla MMS förutom meddelanden som skickats från godkända avsändare kommer att blockeras. Godkända avsändare är bland annat nätverksoperatörer, tågbokningssystem osv.</string>
     <string name="mms_block_alert_ok">Blockera</string>
@@ -621,11 +634,23 @@ Det här meddelandet kan vara oönskat."</string>
     <string name="mx_privacy_policy">Integritetspolicy för Mi Message</string>
     <string name="mx_stranger_recommend_msg">Tryck för att blockera MI meddelande från okända nummer</string>
     <string name="need_download">Synkroniserar…</string>
+    <string name="net_message_download_btn_content_desc">Ladda ned</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Kopiera koden %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Öppna länken %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Öppna app</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Öppna kalender</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Ring %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Svara</string>
+    <string name="net_message_media_card_img_content_desc">Foto</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Videouppspelning genomförd</string>
+    <string name="net_message_media_card_video_content_desc">Video</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Pausa</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Spela</string>
     <string name="net_sms_subscribed">Prenumererar</string>
     <string name="net_sms_unsubscribe">Abonnemang uppsagt</string>
     <string name="networking_allow_continue">Tillåt</string>
     <string name="networking_allow_title">Uppmärksamma</string>
-    <string name="new_message">Skapa meddelande</string>
+    <string name="new_message">Nytt meddelande</string>
     <string name="new_message_arrived">Oläst</string>
     <string name="new_phrase">Lägga till svar</string>
     <string name="new_phrase_hint">Lägg till nytt svar</string>
@@ -668,6 +693,7 @@ Det här meddelandet kan vara oönskat."</string>
     <string name="over_max_mms_size">MMS för stort.</string>
     <string name="overwrite_edited_content">Innehållet som du har redigerat kommer att skrivas över.</string>
     <string name="packages_select_sim_cards_title">Välj SIM-kort</string>
+    <string name="page_indicator">Sidindikator</string>
     <string name="passenger_title">Passagerare</string>
     <string name="pay_bill">Betala</string>
     <string name="payment_failed">Kunde inte slutföra betalningen</string>
@@ -909,6 +935,7 @@ Kolla in våra rekommenderade chatbots!"</string>
     <string name="recommend_bar_ok">Aktivera</string>
     <string name="recommend_bar_title_mx_rcs">Mi Meddelande</string>
     <string name="recommend_close">Stäng av</string>
+    <string name="recommend_close_button">Stäng</string>
     <string name="recommend_disagree">Acceptera inte</string>
     <string name="recommend_free_internet_message">Gratis internetmeddelanden</string>
     <string name="recommend_free_mi">Mi Meddelande</string>
@@ -1058,6 +1085,7 @@ Kolla in våra rekommenderade chatbots!"</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
     <string name="snippet_timed">[Timed]</string>
+    <string name="soundrecorder_not_found">Installera Diktafon först</string>
     <string name="sp_category_all">Alla tjänstmeddelanden</string>
     <string name="sp_category_bank">Banknotifikationsmeddelande</string>
     <string name="sp_category_title_prefix">%s</string>

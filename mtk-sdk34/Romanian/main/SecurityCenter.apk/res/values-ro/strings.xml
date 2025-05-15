@@ -962,6 +962,7 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="button_text_trust">Aveți încredere în această rețea</string>
     <string name="button_text_update_now">Actualizați</string>
     <string name="button_to_setting">Setări</string>
+    <string name="button_toll_correction">Calibrați soldul</string>
     <string name="byteShort">B</string>
     <string name="call_address">Lista neagră zonă</string>
     <string name="call_all_number_block">Blocați toate apelurile</string>
@@ -1061,6 +1062,7 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="charging_text_battery_full_time">"Ultima încărcare "</string>
     <string name="charging_text_battery_nearly_full">Aproape complet încărcat</string>
     <string name="charging_text_battery_perfect">Încărcat complet</string>
+    <string name="check_bill_balance">Verifică sold</string>
     <string name="choose">Alege</string>
     <string name="choose_gs_show_way">Selectați orientarea paginii principale</string>
     <string name="clean_immediately">Șterge</string>
@@ -1684,6 +1686,7 @@ Va fi adăugat la excepții, dar elementele blocate anterior nu vor apărea în 
     <string name="fixed_cellular_data_quota_monthly">Limita lunară de date</string>
     <string name="fixed_package_tips">Taxe suplimentare vor fi generate după ce atingeți limita</string>
     <string name="fixed_traffic_quota">Limita de date (obligatorie)</string>
+    <string name="fixed_traffic_quota_offline">Limită de date (obligatoriu)</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -2038,8 +2041,14 @@ Va fi adăugat la excepții, dar elementele blocate anterior nu vor apărea în 
     <string name="gb_beauty_nature_light">Natural</string>
     <string name="gb_beauty_warm_light">Cald</string>
     <string name="gb_collimator_color">Culoare</string>
+    <string name="gb_collimator_color_blue_talkback">Albastru</string>
+    <string name="gb_collimator_color_purple_talkback">Mov</string>
+    <string name="gb_collimator_color_red_talkback">Roșu</string>
+    <string name="gb_collimator_color_white_talkback">Alb</string>
+    <string name="gb_collimator_color_yellow_talkback">Galben</string>
     <string name="gb_collimator_size">Mărime</string>
     <string name="gb_collimator_style">Tip</string>
+    <string name="gb_collimator_style_talkback">Stil %1$d</string>
     <string name="gb_collimator_toast">Un vizor face ca obiectivul să fie mult mai convenabil</string>
     <string name="gb_cooler_device_toast">"Experiență vizuală îmbunătățită de
 Xiaomi Gaming Cooler"</string>
@@ -2142,7 +2151,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
     <string name="gb_network_status_bad">A apărut o eroare de conexiune.</string>
     <string name="gb_new_feature">Funcție nouă</string>
-    <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
+    <string name="gb_not_support_on_device">Această aplicație nu poate fi utilizată pe ecranul exterior</string>
     <string name="gb_operat_frequently">Prea repede!</string>
     <string name="gb_performace_guide_disable_desc"><Data>Nu se poate comuta la Modul echilibrat în Joc Turbo când Modul Performanță la nivelul întregului sistem este activat. Puteți modifica setările bateriei în Securitate.&lt;br>&lt;a href=\"#\">Deschide Securitate&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Schimbat la Modul Performanță. Este posibil ca dispozitivul dvs. să se încălzească și să consume mai multă energie.</string>
@@ -2507,20 +2516,20 @@ ale sesiunilor dvs. de joc"</string>
     <string name="gtb_setting_item_title_disable_ndds_sim">Blochează SIM secundar</string>
     <string name="gtb_setting_item_title_smart_5g">Optimizare rețea 5G</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Impuls de viteză Mi Wi-Fi</string>
-    <string name="gtb_spring_festival_back_game">Back to game</string>
-    <string name="gtb_spring_festival_egg_obtain_fail">"Couldn't connect to the network"</string>
-    <string name="gtb_spring_festival_goto_gameturbo">View</string>
-    <string name="gtb_spring_festival_guide">"Switch to landscape mode
-to join our egg hunt!"</string>
-    <string name="gtb_spring_festival_guide_know">Got it</string>
-    <string name="gtb_spring_festival_push_active_desc">Win phones, smart devices and coupons</string>
-    <string name="gtb_spring_festival_push_active_title">Easter egg hunt is on!</string>
-    <string name="gtb_spring_festival_push_desc">Join our egg hunt to win prizes</string>
-    <string name="gtb_spring_festival_push_egg_title">You received an Easter egg!</string>
-    <string name="gtb_spring_festival_push_gift_title">Egg hunt prizes are coming!</string>
-    <string name="gtb_spring_festival_push_join">Join</string>
-    <string name="gtb_spring_festival_push_see">View</string>
-    <string name="gtb_spring_festival_shortcut_create">Create a Home screen shortcut</string>
+    <string name="gtb_spring_festival_back_game">Înapoi la joc</string>
+    <string name="gtb_spring_festival_egg_obtain_fail">Nu s-a putut conecta la rețea</string>
+    <string name="gtb_spring_festival_goto_gameturbo">Vizualizează</string>
+    <string name="gtb_spring_festival_guide">"Schimbă la modul peisaj
+pentru a te alătura vânătorii noastre de ouă!"</string>
+    <string name="gtb_spring_festival_guide_know">Am înțeles</string>
+    <string name="gtb_spring_festival_push_active_desc">Câștigă telefoane, dispozitive inteligente și cupoane</string>
+    <string name="gtb_spring_festival_push_active_title">A început vânătoarea de ouă de Paște!</string>
+    <string name="gtb_spring_festival_push_desc">Alăturați-vă vânătorii noastre de ouă pentru a câștiga premii</string>
+    <string name="gtb_spring_festival_push_egg_title">Ai primit un ou de Paște!</string>
+    <string name="gtb_spring_festival_push_gift_title">Vin premiile pentru vânătoarea de ouă!</string>
+    <string name="gtb_spring_festival_push_join">Alătură-te</string>
+    <string name="gtb_spring_festival_push_see">Vizualizează</string>
+    <string name="gtb_spring_festival_shortcut_create">Creați o comandă rapidă pe Ecranul principal</string>
     <string name="gtb_start_phone_accelerate">Accelerează</string>
     <string name="gtb_stop_accelerate">Oprește</string>
     <string name="gtb_timer">Temporizator</string>
@@ -2715,6 +2724,7 @@ Operatorul poate percepe taxe suplimentare dacă utilizați din nou conexiunea d
     <string name="main_activity_content_summary_update">Actualizare sistem</string>
     <string name="main_alert_message_no_imsi">Nici o cartelă SIM detectată</string>
     <string name="main_alert_message_open_traffic_ctrl">Vă recomandăm restricționarea utilizării datelor</string>
+    <string name="main_balance_check">Verifică sold</string>
     <string name="main_bill_remained">Sold telefon</string>
     <string name="main_button_mi_sim_close">Activați Mi SIM</string>
     <string name="main_button_mi_sim_open">Vezi detalii</string>
@@ -2729,6 +2739,7 @@ Operatorul poate percepe taxe suplimentare dacă utilizați din nou conexiunea d
     <string name="main_daily_card_guide_dialog_title">Setați tipul planului de date</string>
     <string name="main_daily_card_guide_dialog_title_new">Setați tipul de plan de date</string>
     <string name="main_daily_package">Plan de date zilnic</string>
+    <string name="main_declaration_dialog_msg">Valoarea soldului afișată în această funcție nu poate fi folosită ca dovadă atunci când negociați cu operatorul dvs. Datele mobile și statisticile de utilizare a vocii furnizate de operatorul dvs. au prioritate.</string>
     <string name="main_indicator_title">Activare</string>
     <string name="main_leisure_remained">Date din afara consumului de vârf rămase</string>
     <string name="main_month_total_used">Utilizate luna aceasta</string>
@@ -3256,6 +3267,7 @@ Citiți intrucțiunile care însoțesc routerul și restaurați routerul la set�
     <string name="notify_weekly_traffic_body">Pentru a limita automat utilizarea datelor, setați abonamentul de date lunar.</string>
     <string name="notify_weekly_traffic_title">Folosite %s în această săptămână</string>
     <string name="notify_weekly_traffic_title_for_slotnum">%1$s a folosit %2$s în această săptămână</string>
+    <string name="now_inquiry">Detalii</string>
     <string name="number_address">Locație</string>
     <string name="numeric_need_to_confirm">Introduceți încă o dată pentru confirmare</string>
     <string name="numeric_password_confirmed_header_confirm">Setat cu succes. Atingeți pentru a confirma.</string>
@@ -3481,6 +3493,10 @@ Citiți intrucțiunile care însoțesc routerul și restaurați routerul la set�
     <string name="pc_continuity_open_save_mode_notifi_title">%s bateria este descărcată</string>
     <string name="pc_current_power_mode">Modul curent</string>
     <string name="pc_cycle_count_protect_title">Cicluri</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_btn">Am înțeles</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Nu mai afișa din nou</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_message">Portul de Tip C de pe partea scurtă a dispozitivului nu acceptă transferul de date. Conectați-vă la computer cu celălalt port.</string>
+    <string name="pc_dialog_dual_type_c_port_reminder_title">Se încarcă memento-ul</string>
     <string name="pc_emergency_call">Urgență</string>
     <string name="pc_endurance_calculation">Se calculează…</string>
     <string name="pc_entered_extreme_mode">Modul de hibernare este pornit</string>
@@ -4005,7 +4021,7 @@ Economizator baterie ultra"</string>
     <string name="power_consume_other">Altele</string>
     <string name="power_consume_rank_hardware">Hardware</string>
     <string name="power_consume_rank_software">Aplicații</string>
-    <string name="power_consume_rank_title">Consumul de energie</string>
+    <string name="power_consume_rank_title">Battery usage details</string>
     <string name="power_consume_software_total_format">Aplicații: %s</string>
     <string name="power_customize_giveup_change">Renunțați la modificări?</string>
     <string name="power_dailog_night_charge_protection_done">Am înțeles</string>
@@ -4585,6 +4601,7 @@ Vă retrageți consimțământul acum?"</string>
     <string name="renew_now">Reînnoiește</string>
     <string name="repair">Repară</string>
     <string name="repair_loading_text">Doar o secundă…</string>
+    <string name="repeat_prompts">Încetinește! Nu trimiteți mai multe solicitări la rând.</string>
     <string name="repeat_type">Repetă</string>
     <string name="repeated_marked_number_summary">Nu blocați un al doilea apel de la același număr raportat în decurs de %d minute</string>
     <string name="repeated_marked_number_title">Nu blocați apelurile repetate de la numere raportate</string>
@@ -5376,6 +5393,7 @@ Formatarea va șterge conținutul existent pe ^2. Pentru a evita pierderea conț
     <string name="tc_parse_error">Nu s-a putut analiza SMS-ul</string>
     <string name="tc_receive_timeout">Calibrarea a expirat</string>
     <string name="tc_send_sms_error">Nu s-a putut trimite SMS-ul</string>
+    <string name="tc_sms_bill_report_receive_content">SMS de calibrare (asigurați-vă că SMS-ul conține informații despre sold)</string>
     <string name="tc_sms_report_direction">Cod cerere SMS</string>
     <string name="tc_sms_report_do_report">Trimite</string>
     <string name="tc_sms_report_get_default">Nu veți plăti taxe pentru mesajele utilizate pentru a obține informațiile de utilizare a datelor de la operatorul dvs.</string>
@@ -5500,6 +5518,7 @@ Formatarea va șterge conținutul existent pe ^2. Pentru a evita pierderea conț
     <string name="title_app_update">Actualizare disponibilă</string>
     <string name="title_auto_update">Actualizați automat</string>
     <string name="title_background_connection">Nu se poate utiliza %s în fundal</string>
+    <string name="title_bill_balance_inquiry">Sold (SIM %1$s)</string>
     <string name="title_block_calls_from_cantacts">Apeluri pierdute de la persoanele dvs. de contact</string>
     <string name="title_block_calls_from_strangers">Ați pierdut apeluri importante</string>
     <string name="title_chain_start">Restricționare pornire lanț</string>
@@ -5522,6 +5541,7 @@ Formatarea va șterge conținutul existent pe ^2. Pentru a evita pierderea conț
     <string name="title_eye_shield">Culoarea ecranului nu arată bine</string>
     <string name="title_find_device">Găsește dispozitiv</string>
     <string name="title_first_aid_kit">Rezolvă probleme</string>
+    <string name="title_flow_base_reminder">Memento-uri privind utilizarea datelor</string>
     <string name="title_flow_notification">Notificări date mobile</string>
     <string name="title_flow_purchase">Cumpărați date mobile</string>
     <string name="title_flow_rank">Utilizarea datelor mobile</string>
@@ -5638,6 +5658,7 @@ Datele rămase includ datele care au fost raportate din luna precedentă."</stri
     <string name="traffic_remind">Avertisment de utilizare a traficului</string>
     <string name="traffic_remind_switch">Avertisment de utilizare a datelor</string>
     <string name="traffic_reminder_settings">Setează avertismentul de utilizare a datelor</string>
+    <string name="traffic_reminder_settings_card" />
     <string name="traffic_setting_fragment_area">Local</string>
     <string name="traffic_setting_fragment_brand">Marcă</string>
     <string name="traffic_setting_fragment_button1_text">Anulează</string>
@@ -5702,13 +5723,18 @@ Datele rămase includ datele care au fost raportate din luna precedentă."</stri
     <string name="usage_sorted_empty_text">Gol</string>
     <string name="usage_sorted_loading_text">Doar o secundă…</string>
     <string name="usage_type_audio">Audio</string>
+    <string name="usage_type_background_desk_power_consumption_time">Background usage</string>
     <string name="usage_type_cpu">CPU total</string>
     <string name="usage_type_cpu_foreground">CPU prim-plan</string>
     <string name="usage_type_data_recv">Date mobile primite</string>
     <string name="usage_type_data_send">Date mobile trimise</string>
+    <string name="usage_type_front_desk_power_consumption_time">Foreground usage</string>
     <string name="usage_type_gps">GPS</string>
     <string name="usage_type_no_coverage">Timp fără semnal</string>
     <string name="usage_type_on_time">Timp conectat</string>
+    <string name="usage_type_power_consumption_ratio">Battery usage</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
     <string name="usage_type_video">Video</string>
     <string name="usage_type_wake_lock">Ţine treaz</string>
     <string name="usage_type_wifi_running">Funcționare Wi-Fi</string>
@@ -5842,6 +5868,7 @@ Această funcție nu va funcționa când Economizator baterie sau Economizator b
     <string name="videobox_settings_timing">Alertă pentru pauză</string>
     <string name="videobox_settings_timing_desc">Primiți o alertă de pauză la fiecare oră care să vă amintească să faceți o pauză</string>
     <string name="videobox_settings_title">Instrumente video</string>
+    <string name="view_package_info">Vedeți detaliile planului</string>
     <string name="view_traffic_detail">Vezi detalii</string>
     <string name="view_traffic_details">View data usage stats</string>
     <string name="virus_app_delete_installed">Dezinstalează</string>

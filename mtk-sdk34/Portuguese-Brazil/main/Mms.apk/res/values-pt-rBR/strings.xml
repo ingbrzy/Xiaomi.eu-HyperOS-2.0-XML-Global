@@ -27,6 +27,9 @@
     <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
     <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
     <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="accessibility_sliding_button_state_description_off">Desativado</string>
+    <string name="accessibility_sliding_button_state_description_on">Ativado</string>
+    <string name="accessibility_tab_state_description_unselect">Não selecionado</string>
     <string name="action_get_otp">Obter código</string>
     <string name="action_sign_in">Fazer login</string>
     <string name="action_sign_in_short">Fazer login</string>
@@ -428,10 +431,8 @@ Por favor, observe que o recurso de mensagens pela internet está agora suspenso
     <string name="menu_unlock">Remover dos favoritos</string>
     <string name="menu_view_contact">Ver contato</string>
     <string name="menu_view_group_info">Info. do grupo</string>
-    <string name="message_cannot_send_air_mode">"Não é possível enviar mensagens.
-Desative o Modo Avião primeiro."</string>
-    <string name="message_cannot_send_sim_unavailable">"Não é possível enviar mensagens.
-Verifique seu cartão SIM."</string>
+    <string name="message_cannot_send_air_mode">Desative o Modo avião para enviar mensagens</string>
+    <string name="message_cannot_send_sim_unavailable">Insira o cartão SIM para enviar mensagens</string>
     <string name="message_class_label">"Classe da mensagem: "</string>
     <string name="message_contact">Contato:</string>
     <string name="message_details_title">Detalhes da mensagem</string>
@@ -459,6 +460,12 @@ Verifique seu cartão SIM."</string>
     <string name="midnight">Noite</string>
     <string name="millionbyte">MB</string>
     <string name="miuix_access_state_desc">Selecionado</string>
+    <string name="miuix_accessibility_title">Título</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Recolhido</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expandido</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Sair do modo de edição</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nova notificação</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Iniciar modo de edição</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Desmarcar tudo</string>
     <string name="miuix_appcompat_action_mode_select_all">Selecionar tudo</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selecionar itens</string>
@@ -474,12 +481,15 @@ Verifique seu cartão SIM."</string>
     <string name="miuix_appcompat_select_all">Selecionar tudo</string>
     <string name="miuix_appcompat_select_all_description">Selecionar tudo</string>
     <string name="miuix_appcompat_select_item">Selecionar itens</string>
+    <string name="miuix_appcompat_show_dialog_description">Janela pop-up</string>
     <string name="miuix_item_view_role_description">Aba</string>
     <string name="miuix_navigator_category_group_collapse">Recolher</string>
     <string name="miuix_navigator_category_group_expand">Expandir</string>
     <string name="miuix_navigator_content_switch_description">Mostrar barra lateral</string>
     <string name="miuix_navigator_multiple_choice">Selecionar</string>
     <string name="miuix_navigator_navigator_switch_description">Ocultar barra lateral</string>
+    <string name="miuix_navigator_toolbar_screen_bottom">Caixa de ferramentas na parte inferior da tela</string>
+    <string name="miuix_progressbar_loading">Carregando</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Puxe para baixo para atualizar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Atualizado com sucesso</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Atualizando…</string>
@@ -488,6 +498,9 @@ Verifique seu cartão SIM."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Isso é tudo por agora</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Aguarde…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Não foi possível carregar os itens</string>
+    <string name="miuix_show_password">Mostrar senha</string>
+    <string name="miuix_stretchablewidget_collapsed">Recolhido</string>
+    <string name="miuix_stretchablewidget_expanded">Expandido</string>
     <string name="mms">MMS</string>
     <string name="mms_block_alert_message">Todos os MMS exceto mensagens enviadas por remetentes autorizados serão bloqueadas. Remetentes autorizados incluem operadoras de rede, sistema de reserva de passagens de trem, etc.</string>
     <string name="mms_block_alert_ok">Bloquear</string>
@@ -581,11 +594,23 @@ Esta mensagem pode não ter sido solicitada."</string>
     <string name="mx_privacy_policy">Política de Privacidade do Mi Message</string>
     <string name="mx_stranger_recommend_msg">Toque para bloquear Mi Messages de números desconhecidos</string>
     <string name="need_download">Sincronizando…</string>
+    <string name="net_message_download_btn_content_desc">Baixar</string>
+    <string name="net_message_json_card_core_entity_content_desc1">Copiar código %s</string>
+    <string name="net_message_json_card_core_entity_content_desc2">Abrir link %s</string>
+    <string name="net_message_json_card_core_entity_content_desc3">Abrir app</string>
+    <string name="net_message_json_card_core_entity_content_desc4">Abrir Agenda</string>
+    <string name="net_message_json_card_core_entity_content_desc5">Discar %s</string>
+    <string name="net_message_json_card_core_entity_content_desc6">Responder</string>
+    <string name="net_message_media_card_img_content_desc">Foto</string>
+    <string name="net_message_media_card_video_complete_play_content_desc">Reprodução de vídeo concluída</string>
+    <string name="net_message_media_card_video_content_desc">Vídeo</string>
+    <string name="net_message_media_card_video_pause_play_content_desc">Pausar</string>
+    <string name="net_message_media_card_video_start_play_content_desc">Reproduzir</string>
     <string name="net_sms_subscribed">Inscrito com sucesso</string>
     <string name="net_sms_unsubscribe">Desinscrito com sucesso</string>
     <string name="networking_allow_continue">Permitir</string>
     <string name="networking_allow_title">Atenção</string>
-    <string name="new_message">Escrever</string>
+    <string name="new_message">Nova mensagem</string>
     <string name="new_message_arrived">Não lida</string>
     <string name="new_phrase">Adicionar resposta</string>
     <string name="new_phrase_hint">Inserir nova resposta</string>
@@ -628,6 +653,7 @@ Esta mensagem pode não ter sido solicitada."</string>
     <string name="over_max_mms_size">MMS muito grande.</string>
     <string name="overwrite_edited_content">O conteúdo que você editou será sobrescrito.</string>
     <string name="packages_select_sim_cards_title">Selecionar cartão SIM</string>
+    <string name="page_indicator">Indicador de página</string>
     <string name="passenger_title">Passageiro</string>
     <string name="pay_bill">Pagar</string>
     <string name="payment_failed">Não foi possível concluir o pagamento</string>
@@ -807,7 +833,7 @@ Confira os chatbots recomendados!"</string>
     <string name="rcs_conversation_rcs_tip">[Chatbot] %s</string>
     <string name="rcs_create_new_group">Criar chat em grupo</string>
     <string name="rcs_dspt">Envie e receba mensagens utilizando o Wi-Fi ou redes móveis</string>
-    <string name="rcs_dspt_unavailable">"5G Messaging-related features aren't supported due to carrier restrictions"</string>
+    <string name="rcs_dspt_unavailable">Os recursos relacionados a mensagens 5G não são suportados devido a restrições da operadora.</string>
     <string name="rcs_file_link_as_sms">Acesse %s para ver o arquivo RCS enviado para você.</string>
     <string name="rcs_forward_faild">Não foi posível encaminhar</string>
     <string name="rcs_forward_successful">Encaminhado com sucesso</string>
@@ -869,6 +895,7 @@ Confira os chatbots recomendados!"</string>
     <string name="recommend_bar_ok">Ativar</string>
     <string name="recommend_bar_title_mx_rcs">Mi Message</string>
     <string name="recommend_close">Desativar</string>
+    <string name="recommend_close_button">Fechar</string>
     <string name="recommend_disagree">Não aceitar</string>
     <string name="recommend_free_internet_message">Mensagens via internet gratuitas</string>
     <string name="recommend_free_mi">Mi Message</string>
@@ -1018,6 +1045,7 @@ Confira os chatbots recomendados!"</string>
     <string name="snippet_audio">[Áudio]</string>
     <string name="snippet_picture">[Imagem]</string>
     <string name="snippet_timed">[Programada]</string>
+    <string name="soundrecorder_not_found">Instale o Gravador primeiro</string>
     <string name="sp_category_all">Todas as mensagens de serviço</string>
     <string name="sp_category_bank">Mensagens de notificação de bancos</string>
     <string name="sp_category_title_prefix">%s</string>
@@ -1177,7 +1205,7 @@ Confira os chatbots recomendados!"</string>
     <string name="voice_report_off">Desativado</string>
     <string name="voice_report_wiredon">Com fones de ouvido</string>
     <string name="wap_push_title">"[WAP Push] "</string>
-    <string name="warning_show">Enviar em %ds</string>
+    <string name="warning_show">Enviar em %d s</string>
     <string name="wednesday">Quarta-feira</string>
     <string name="wednesday_short">Qua</string>
     <string name="wednesday_shortest">Qua</string>

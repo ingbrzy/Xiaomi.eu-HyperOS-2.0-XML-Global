@@ -32,6 +32,10 @@
     <string name="accept_all_positive">Kiválasztás</string>
     <string name="accept_use_permissions">Engedély</string>
     <string name="access_denied">Hozzáférés megtagadva</string>
+    <string name="accessibility_sliding_button_state_description_off">ki</string>
+    <string name="accessibility_sliding_button_state_description_on">bekapcsolva</string>
+    <string name="accessibility_tab_state_description_unselect">Nincs kiválasztva</string>
+    <string name="accessibility_tab_statedesc_unselect">Nincs kiválasztva</string>
     <string name="account_related">A készülék társítva van egy már létező Xiaomi Fiókhoz (%s). Csatlakozzon a hálózathoz és ellenőrizze készülékét.</string>
     <string name="actionbar_button_up_description">Vissza</string>
     <string name="activate_find_device_success">Készülékkeresés sikeresen aktiválva</string>
@@ -56,6 +60,7 @@
     <string name="calendar_sync_item_permission">naptár</string>
     <string name="call_log_sync_item_permission">hívásnapló</string>
     <string name="check_contact">Hozzáadás</string>
+    <string name="checked">Kiválasztott</string>
     <string name="choose_contact_title">Névjegyek</string>
     <string name="clearable_edittext_clear_description">Törlés</string>
     <string name="close">Bezárás</string>
@@ -156,6 +161,7 @@
     <string name="download_gallery_data_summary">Látogasson el a www.i.mi.com weboldalra, és töltse le készülékére a szinkronizált fényképeket és videókat.</string>
     <string name="download_gallery_data_title">Töltse le az elemeket a készülékére</string>
     <string name="e2ee_button_close">Kikapcsolás</string>
+    <string name="e2ee_button_exit_all_devices">Kijelentkezés minden készülékről</string>
     <string name="e2ee_button_next">Következő</string>
     <string name="e2ee_change_security_key_lockscreen_tip">Kapcsolja be a képernyőzárat ezen a készüléken, hogy frissíthesse a biztonsági jelkódot.</string>
     <string name="e2ee_data_protection_close_button">Kikapcsolás</string>
@@ -210,6 +216,7 @@
     <string name="e2ee_exit_account_button_exit">Kijelentkezés</string>
     <string name="e2ee_exit_account_subtitle">A Xiaomi Fiókjához tartozó utolsó, jelenleg csatlakoztatott készülékről készül kijelentkezni. A képernyőzár vagy biztonsági jelkód használatával újra be kell jelentkeznie, hogy hozzáférhessen a felhőben tárolt adataihoz. Másik megoldásként koppintson az alábbi „Kikapcsolás” lehetőségre a Speciális adatvédelem kikapcsolásához.</string>
     <string name="e2ee_exit_account_title">Kijelentkezés</string>
+    <string name="e2ee_exit_many_devices_hint">%1$s %2$s</string>
     <string name="e2ee_load_failed">A szerver foglalt. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="e2ee_loading">Egy pillanat…</string>
     <string name="e2ee_loading_close">Kikapcsolás…</string>
@@ -273,7 +280,7 @@
     <string name="find_device_dspt_provision">Elveszett készüléke helyének meghatározásához, zárolásához, illetve az adatok törléséhez látogasson el a(z) &lt;font color=#0097FF>%s&lt;/font> weboldalra. Ez a funkció bármikor ki- vagy bekapcsolható a Beállítások menüpontban.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">A Készülékkeresés bekapcsolásával Ön elfogadja a <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi Cloud Adatvédelmi irányelveit</u></a>. Ha szeretné visszavonni az Adatvédelmi irányelvekhez való hozzájárulását, kapcsolja ki ezt a funkciót.</string>
+    <string name="find_device_gdpr_prompt">A Készülékkeresés bekapcsolásával Ön elfogadja a <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi Cloud Adatvédelmi irányelveket</u></a>. Ha szeretné visszavonni az Adatvédelmi irányelvekhez való hozzájárulását, kapcsolja ki ezt a funkciót.</string>
     <string name="find_device_operation_failure_rpc">RPC hiba miatt nem sikerült végrehajtani a műveletet.</string>
     <string name="find_device_permissions_footer">Érintse meg az \"Engedélyezés\" gombot a kiválasztott engedélyek megadásához.</string>
     <string name="find_device_permissions_header">Üdvözöljük a Készülékkeresésben! Ezzel az alkalmazással megtalálhatja, nyomon követheti és zárolhatja készülékét, ha az eltűnt. Névtelenül is segíthet másoknak megtalálni Xiaomi-készülékeiket. Ennek az alkalmazásnak a normál működéshez a következő engedélyekre van szüksége:</string>
@@ -424,6 +431,12 @@ Másoknak is segíthet névtelenül a Xiaomi-készülékeik helymeghatározásá
     <string name="local_lockscreen_sub_title_open_e2ee">Hitelesítse a készülék képernyőzárát, hogy bekapcsolhassa a Speciális adatvédelem funkciót</string>
     <string name="local_lockscreen_sub_title_update_key">Adja meg a készüléke képernyőzárát</string>
     <string name="local_lockscreen_sub_title_verify_e2ee">Erősítse meg a képernyőzárat, hogy az eszközt megbízhatónak igazolja.</string>
+    <string name="lockscreen_access_pattern_area">Minta területe.</string>
+    <string name="lockscreen_access_pattern_cell_added">Feloldási pont hozzáadva</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">A feloldási pont%1$s hozzáadva</string>
+    <string name="lockscreen_access_pattern_cleared">A feloldóminta törölve</string>
+    <string name="lockscreen_access_pattern_detected">A feloldóminta befejezve</string>
+    <string name="lockscreen_access_pattern_start">A feloldóminta elkezdődött</string>
     <string name="lockscreen_device_list_title">Válasszon ki egy készüléket a képernyőzár hitelesítéséhez</string>
     <string name="lockscreen_error_hint">Helytelen. Próbálja újra.</string>
     <string name="lockscreen_negative_btn">Mégse</string>
@@ -660,6 +673,10 @@ Ellenőrizze, hogy a társított Xiaomi Fiókot használja rendszerfiókként."<
     <string name="midrive_guide_btn_installed">Mi Drive megnyitása</string>
     <string name="midrive_guide_btn_installing">Telepítés…</string>
     <string name="miuix_access_state_desc">Kiválasztott</string>
+    <string name="miuix_accessibility_title">Cím</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Kilépés a szerkesztő módból</string>
+    <string name="miuix_appcompat_accessibility_new_message">Új üzenet</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Nyissa meg a szerkesztési módot</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kijelölések törlése</string>
     <string name="miuix_appcompat_action_mode_select_all">Összes kijelölése</string>
     <string name="miuix_appcompat_action_mode_title_empty">Kiválasztás</string>
@@ -675,6 +692,7 @@ Ellenőrizze, hogy a társított Xiaomi Fiókot használja rendszerfiókként."<
     <string name="miuix_appcompat_select_all">Az összes kiválasztása</string>
     <string name="miuix_appcompat_select_all_description">Összes kijelölése</string>
     <string name="miuix_appcompat_select_item">Elemek kiválasztása</string>
+    <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sikeresen frissítve</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Frissítés…</string>
@@ -683,6 +701,7 @@ Ellenőrizze, hogy a társított Xiaomi Fiókot használja rendszerfiókként."<
     <string name="miuix_sbl_tracking_progress_labe_up_none">Egyelőre ennyi</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Egy pillanat...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemek betöltése sikertelen</string>
+    <string name="miuix_show_password">Jelszó megjelenítése</string>
     <string name="monday">Hétfő</string>
     <string name="monday_short">Hét</string>
     <string name="monday_shortest">Hét</string>
@@ -727,6 +746,7 @@ Ellenőrizze, hogy a társított Xiaomi Fiókot használja rendszerfiókként."<
     <string name="night">Este</string>
     <string name="no_sim">Nem található SIM-kártya</string>
     <string name="noon">Dél</string>
+    <string name="not_checked">Nem kiválaszott</string>
     <string name="not_set">Nincs beállítva</string>
     <string name="noti_quota_button_text">Bővítés</string>
     <string name="noti_quota_full_sum">Az elemek szinkronizálásának folytatásához váltson magasabb tárhely csomagra.</string>
@@ -828,6 +848,8 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="privacy_runtime_perm_contacts_title">Névjegyekhez való hozzáférés és azok szerkesztése</string>
     <string name="privacy_runtime_perm_external_storage_desc">Névjegyprofilképek szinkronizálásához</string>
     <string name="privacy_runtime_perm_external_storage_title">Hozzáférés a tárhelyhez</string>
+    <string name="privacy_runtime_perm_get_installed_apps_desc">Az alkalmazásadatok szinkronizálásához</string>
+    <string name="privacy_runtime_perm_get_installed_apps_title">Hozzáférés az alkalmazásadatokhoz</string>
     <string name="privacy_runtime_perm_notification_desc">Értesítések küldése a felhőalapú biztonsági mentésekről</string>
     <string name="privacy_runtime_perm_notification_title">Értesítések</string>
     <string name="privacy_runtime_perm_phone_state_desc">A telefonszámhoz és a készülék állapotához való hozzáféréshez</string>
@@ -950,7 +972,7 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="share_sdk_pref_category_search_local_title">Névjegyek</string>
     <string name="share_sdk_pref_category_title_scan_qr_code">QR-kód beolvasása</string>
     <string name="share_sdk_pref_family_detail_title">Családi csoport részletek megtekintése</string>
-    <string name="share_sdk_privacy_link_description">A szolgáltatás használata előtt olvassa el és fogadja el a <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Xiaomi Fiók Adatvédelmi irányelveit</u></a>.</string>
+    <string name="share_sdk_privacy_link_description">A szolgáltatás használata előtt olvassa el és fogadja el a <a href="https://account.xiaomi.com/about/protocol/privacy"><u>Xiaomi Fiók Adatvédelmi irányelveket</u></a>.</string>
     <string name="share_sdk_qr_code_description">%1$s meghívója</string>
     <string name="share_sdk_qr_code_expire_time">QR-kód érvényességi időtartam: %1$s</string>
     <string name="share_sdk_resend_invitation_times_exceed">Túl sok kimenő meghívó. Próbálkozzon ismét 24 óra múlva.</string>
