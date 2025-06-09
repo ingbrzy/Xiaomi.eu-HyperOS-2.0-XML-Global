@@ -198,6 +198,9 @@
     <string name="am">Matin</string>
     <string name="anti_disturb_msg_detail">"Désactiver toutes les notifications à l'exception des appels entrants"</string>
     <string name="anti_disturb_msg_title">NPD</string>
+    <string name="antispam_add_black_number_message">Le numéro saisi est court. Bloquer tous les numéros commençant par ces chiffres ?</string>
+    <string name="antispam_add_black_number_negative">Non</string>
+    <string name="antispam_add_black_number_positive">Oui</string>
     <string name="antispam_guangdian_card_hint">"Votre carte SIM ne prend pas en charge le changement à un autre message d'absence. Contactez votre opérateur pour plus de détails."</string>
     <string name="antispam_guangdian_card_title">Changement non pris en charge</string>
     <string name="antispam_mms_text">Définir Messaging en tant que votre application SMS par défaut pour pouvoir afficher les messages bloqués</string>
@@ -207,6 +210,12 @@
     <string name="antispam_notificaiton_type_show_except_blacklist">Numéros non bloqués</string>
     <string name="antispam_notificaiton_type_show_none">Jamais</string>
     <string name="antispam_notification_setting_title">Notifications</string>
+    <string name="antispam_st_all_net">Toute connexion Internet</string>
+    <string name="antispam_st_smart_close">Désactivé</string>
+    <string name="antispam_st_smart_update">Base de données de reconnaissance des nombres</string>
+    <string name="antispam_st_smart_update_title">Mettre à jour la base de données de reconnaissance des nombres</string>
+    <string name="antispam_st_wlan_net">Wi-Fi uniquementUniquement sur Wi-Fi</string>
+    <string name="antispam_st_wlan_net_china">Uniquement sur WLAN</string>
     <string name="antispam_xpace_text">Passer dans le Premier espace pour définir la Liste noire</string>
     <string name="antivirus_browser_check">Vérifier les sites web dans le Navigateur Mi</string>
     <string name="antivirus_browser_check_summary">Vérifiez automatiquement les sites web dans le Navigateur Mi et recevez des avertissements sur les risques possibles</string>
@@ -390,6 +399,7 @@
     <string name="app_manager_force_stop_dlg_title">"Forcer l'arrêt ?"</string>
     <string name="app_manager_full_screen_summary">Autorisez les applications sélectionnées à fonctionner en mode Plein écran</string>
     <string name="app_manager_full_screen_title">Mode Plein écran</string>
+    <string name="app_manager_global_recommend_title">Pour vous</string>
     <string name="app_manager_globel_other_perm_title">Autres autorisations</string>
     <string name="app_manager_globel_perm_summary">Gérer les autorisations relatives à la localisation, au stockage, au téléphone, aux messages et aux contacts.</string>
     <string name="app_manager_globel_perm_title">"Autorisations de l'application"</string>
@@ -1862,6 +1872,14 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="game_toolbox_more_tools_title">"Plus d'outils"</string>
     <string name="game_toolbox_perf_config_desc">Configurer les paramètres de performance du jeu</string>
     <string name="game_toolbox_perf_config_title">Paramètres de performance</string>
+    <string name="game_toolbox_slow_charge_desc">"Activez cette fonctionnalité pour améliorer l'expérience de jeu pendant la charge en ralentissant la vitesse de charge. Cela peut empêcher votre appareil de surchauffer. Activer maintenant ?"</string>
+    <string name="game_toolbox_slow_charge_dialog_btn">"C'est compris"</string>
+    <string name="game_toolbox_slow_charge_negative_btn">Annuler</string>
+    <string name="game_toolbox_slow_charge_notification_msg">Cette fonctionnalité améliore l’expérience de jeu pendant la charge en ralentissant la vitesse de charge. Cela peut empêcher votre appareil de surchauffer.</string>
+    <string name="game_toolbox_slow_charge_notification_title">Chargement lent en cours</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Activer</string>
+    <string name="game_toolbox_slow_charge_title">Chargement lent</string>
+    <string name="game_toolbox_slow_charge_toast">Le chargement lent est activé</string>
     <string name="game_toolbox_title">Outils de jeu</string>
     <string name="game_toolbox_title_game_center">Jeux</string>
     <string name="game_toolbox_title_wild">Mode ultime</string>
@@ -3427,6 +3445,8 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pc_batery_information">Infos de la batterie</string>
     <string name="pc_batery_protection">Protection de la batterie</string>
     <string name="pc_battery_charge_protect">Protection de charge</string>
+    <string name="pc_battery_charging_error_message">"Une erreur de charge s'est produite. Rendez-vous dans un centre de service après-vente pour une réparation."</string>
+    <string name="pc_battery_charging_error_title">Erreur de chargement</string>
     <string name="pc_battery_chart_loading">Juste un instant…</string>
     <string name="pc_battery_date_year_month_format">MMM yyyy</string>
     <string name="pc_battery_detail_curve_reference_now">Maintenant</string>
@@ -3845,6 +3865,10 @@ de l'économiseur de batterie Ultra"</string>
     <string name="phone_manage_app_manager_summary">Gérer les applications sur votre appareil</string>
     <string name="phone_manage_clean_summary">"Libérer de l'espace de stockage"</string>
     <string name="phone_manage_clean_title">Nettoyeur</string>
+    <string name="phone_manage_content_description_add">Ajouter</string>
+    <string name="phone_manage_content_description_remove">Effacer</string>
+    <string name="phone_manage_edit_cancel">Annuler</string>
+    <string name="phone_manage_edit_confirm">Sauvegarder les modifications </string>
     <string name="phone_manage_electric_summary">Optimiser votre appareil pour économiser la batterie</string>
     <string name="phone_manage_electric_title">Batterie</string>
     <string name="phone_manage_privacy_title">Protection de la vie privée</string>
@@ -3996,8 +4020,6 @@ de l'économiseur de batterie Ultra"</string>
     <string name="power_center_super_wireless_charge_dialog_summary">Ce mode augmente la vitesse du ventilateur du refroidisseur du chargeur sans fil. Gardez ce mode activé pour charger votre appareil plus rapidement ou désactivez-le si vous pensez que le bruit est trop fort.</string>
     <string name="power_center_super_wireless_charge_dialog_summary2">"Accédez à Sécurité > Batterie > Paramètres pour plus d'options."</string>
     <string name="power_center_super_wireless_charge_dialog_title">Chargement rapide sans fil</string>
-    <string name="power_center_super_wireless_charge_enter_noti_summary">无线充电器风扇转速提高，充电速度更快</string>
-    <string name="power_center_super_wireless_charge_enter_noti_title">可开启极速无线充电模式</string>
     <string name="power_center_super_wireless_charge_noti_summary">Appuyez pour ouvrir les paramètres</string>
     <string name="power_center_super_wireless_charge_noti_switch">Avertir de la charge sans fil rapide</string>
     <string name="power_center_super_wireless_charge_noti_title">Le chargement rapide sans fil est activé</string>
