@@ -198,6 +198,9 @@
     <string name="am">SA</string>
     <string name="anti_disturb_msg_detail">Tắt tất cả thông báo trừ cuộc gọi đến</string>
     <string name="anti_disturb_msg_title">Không làm phiền</string>
+    <string name="antispam_add_black_number_message">Số bạn nhập ngắn. Chặn tất cả các số bắt đầu bằng những chữ số này?</string>
+    <string name="antispam_add_black_number_negative">Không</string>
+    <string name="antispam_add_black_number_positive">Có</string>
     <string name="antispam_guangdian_card_hint">SIM của bạn không hỗ trợ chuyển đổi âm hồi báo. Liên hệ nhà cung cấp để biết thêm chi tiết.</string>
     <string name="antispam_guangdian_card_title">Chuyển đổi không được hỗ trợ.</string>
     <string name="antispam_mms_text">Đặt Tin nhắn làm ứng dụng nhắn tin SMS mặc định để có thể xem các tin nhắn bị chặn</string>
@@ -207,6 +210,12 @@
     <string name="antispam_notificaiton_type_show_except_blacklist">Số ngoài danh sách chặn</string>
     <string name="antispam_notificaiton_type_show_none">Không bao giờ</string>
     <string name="antispam_notification_setting_title">Thông báo</string>
+    <string name="antispam_st_all_net">Bất kỳ kết nối internet</string>
+    <string name="antispam_st_smart_close">Tắt</string>
+    <string name="antispam_st_smart_update">Cơ sở dữ liệu nhận dạng số</string>
+    <string name="antispam_st_smart_update_title">Cập nhật cơ sở dữ liệu nhận dạng số</string>
+    <string name="antispam_st_wlan_net">Chỉ trên Wi-Fi</string>
+    <string name="antispam_st_wlan_net_china">Chỉ trên WLAN</string>
     <string name="antispam_xpace_text">Chuyển sang Không gian thứ nhất để thiết lập Danh sách chặn</string>
     <string name="antivirus_browser_check">Kiểm tra trang web trong Trình duyệt Mi</string>
     <string name="antivirus_browser_check_summary">Kiểm tra trang web trong Trình duyệt Mi tự động và nhận cảnh báo về những rủi ro có thể xảy ra</string>
@@ -390,6 +399,7 @@
     <string name="app_manager_force_stop_dlg_title">Buộc dừng?</string>
     <string name="app_manager_full_screen_summary">Cho phép ứng dụng được chọn làm việc trong chế độ toàn màn hình</string>
     <string name="app_manager_full_screen_title">Chế độ toàn màn hình</string>
+    <string name="app_manager_global_recommend_title">Dành riêng cho bạn</string>
     <string name="app_manager_globel_other_perm_title">Quyền khác</string>
     <string name="app_manager_globel_perm_summary">Quản lý quyền truy cập vị trí, lưu trữ, điện thoại, tin nhắn và liên hệ.</string>
     <string name="app_manager_globel_perm_title">Quyền ứng dụng</string>
@@ -1860,6 +1870,14 @@ Nó sẽ được thêm vào danh sách ngoại lệ, nhưng các mục bị ch�
     <string name="game_toolbox_more_tools_title">Thêm công cụ</string>
     <string name="game_toolbox_perf_config_desc">Cấu hình cài đặt hiệu suất trò chơi</string>
     <string name="game_toolbox_perf_config_title">Cài đặt hiệu suất</string>
+    <string name="game_toolbox_slow_charge_desc">Bật tính năng này để nâng cao trải nghiệm chơi game trong khi sạc bằng cách làm chậm tốc độ sạc. Điều này có thể ngăn thiết bị của bạn quá nhiệt. Bật ngay?</string>
+    <string name="game_toolbox_slow_charge_dialog_btn">Tôi biết</string>
+    <string name="game_toolbox_slow_charge_negative_btn">Hủy</string>
+    <string name="game_toolbox_slow_charge_notification_msg">Tính năng này nâng cao trải nghiệm chơi game trong khi sạc bằng cách làm chậm tốc độ sạc. Điều này có thể ngăn thiết bị của bạn quá nhiệt.</string>
+    <string name="game_toolbox_slow_charge_notification_title">Đang sạc chậm</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Bật</string>
+    <string name="game_toolbox_slow_charge_title">Sạc chậm</string>
+    <string name="game_toolbox_slow_charge_toast">Sạc chậm đã bật</string>
     <string name="game_toolbox_title">Công cụ chơi game</string>
     <string name="game_toolbox_title_game_center">Game</string>
     <string name="game_toolbox_title_wild">Chế độ tối ưu</string>
@@ -3426,6 +3444,8 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="pc_batery_information">Thông tin pin</string>
     <string name="pc_batery_protection">Bảo vệ pin</string>
     <string name="pc_battery_charge_protect">Bảo vệ sạc</string>
+    <string name="pc_battery_charging_error_message">Đã xảy ra lỗi sạc. Hãy đến trung tâm dịch vụ sau bán hàng để sửa chữa.</string>
+    <string name="pc_battery_charging_error_title">Lỗi sạc</string>
     <string name="pc_battery_chart_loading">Vui lòng chờ…</string>
     <string name="pc_battery_date_year_month_format">MMM yyyy</string>
     <string name="pc_battery_detail_curve_reference_now">Hiện tại</string>
@@ -3844,6 +3864,10 @@ Tiết kiệm pin tối ưu"</string>
     <string name="phone_manage_app_manager_summary">Quản lý ứng dụng trên thiết bị</string>
     <string name="phone_manage_clean_summary">Giải phóng dung lượng lưu trữ</string>
     <string name="phone_manage_clean_title">Dọn dẹp</string>
+    <string name="phone_manage_content_description_add">Thêm</string>
+    <string name="phone_manage_content_description_remove">Xóa</string>
+    <string name="phone_manage_edit_cancel">Hủy</string>
+    <string name="phone_manage_edit_confirm">Lưu thay đổi</string>
     <string name="phone_manage_electric_summary">Tối ưu thiết bị để tiết kiệm pin</string>
     <string name="phone_manage_electric_title">Pin</string>
     <string name="phone_manage_privacy_title">Bảo vệ riêng tư</string>
@@ -3995,8 +4019,6 @@ Tiết kiệm pin tối ưu"</string>
     <string name="power_center_super_wireless_charge_dialog_summary">Chế độ này tăng tốc độ quạt làm mát sạc không dây. Bật chế độ này để sạc thiết bị nhanh hơn, hoặc tắt đi nếu bạn cảm thấy quá ồn.</string>
     <string name="power_center_super_wireless_charge_dialog_summary2">Vào Bảo mật > Pin > Cài đặt để có thêm tùy chọn.</string>
     <string name="power_center_super_wireless_charge_dialog_title">Sạc nhanh không dây</string>
-    <string name="power_center_super_wireless_charge_enter_noti_summary">无线充电器风扇转速提高，充电速度更快</string>
-    <string name="power_center_super_wireless_charge_enter_noti_title">可开启极速无线充电模式</string>
     <string name="power_center_super_wireless_charge_noti_summary">Chạm để mở Cài đặt</string>
     <string name="power_center_super_wireless_charge_noti_switch">Thông báo về sạc nhanh không dây</string>
     <string name="power_center_super_wireless_charge_noti_title">Sạc nhanh không dây đang bật</string>
@@ -5736,8 +5758,8 @@ Dữ liệu còn lại bao gồm dữ liệu đã gia hạn từ tháng trước
     <string name="usage_type_no_coverage">Thời gian không có tín hiệu</string>
     <string name="usage_type_on_time">Thời gian bật</string>
     <string name="usage_type_power_consumption_ratio">Sử dụng pin</string>
-    <string name="usage_type_power_consumption_ratio_hint_binary">Power used by %3$s as a percentage of power used by all apps in the last %1$s %2$s</string>
-    <string name="usage_type_power_consumption_ratio_hint_single">Power used by %2$s as a percentage of power used by all apps in the last %1$s</string>
+    <string name="usage_type_power_consumption_ratio_hint_binary">Pin được sử dụng bởi %3$s dưới dạng phần trăm pin được sử dụng bởi tất cả các ứng dụng trong %1$s %2$s gần đây</string>
+    <string name="usage_type_power_consumption_ratio_hint_single">Pin được sử dụng bởi %2$s dưới dạng phần trăm pin được sử dụng bởi tất cả ứng dụng trong %1$s gần đây</string>
     <string name="usage_type_video">Video</string>
     <string name="usage_type_wake_lock">Luôn bật</string>
     <string name="usage_type_wifi_running">Đang mở Wi-Fi</string>
