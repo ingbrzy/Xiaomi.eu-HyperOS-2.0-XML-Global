@@ -159,9 +159,6 @@
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Črke</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Zakleni simbole</string>
     <string name="accessibility_keyguard_face_unlock_view">Odklepanje z obrazom</string>
-    <string name="accessibility_left_control_center_button">Bližnjica</string>
-    <string name="accessibility_left_lock_screen_magazine_button">Wallpaper Carousel</string>
-    <string name="accessibility_left_uwb_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Aktivne zahteve za lokacijo</string>
     <string name="accessibility_lock_icon">Naprava je zaklenjena.</string>
     <string name="accessibility_long_click_tile">Odpri nastavitve</string>
@@ -194,7 +191,6 @@
     <string name="accessibility_phone_three_bars">Telefon s tremi črticami.</string>
     <string name="accessibility_phone_two_bars">Telefon z dvema črticama.</string>
     <string name="accessibility_qr_code_scanner_button">Optični bralnik kod QR</string>
-    <string name="accessibility_qs_edit_add_tile_label">%1$s. Tapnite dvakrat, da bi dodali.</string>
     <string name="accessibility_qs_edit_move_tile">Premesti stikalo %1$s</string>
     <string name="accessibility_qs_edit_position">Položaj %1$d</string>
     <string name="accessibility_qs_edit_remove_tile">Odstrani stikalo %1$s</string>
@@ -203,7 +199,6 @@
     <string name="accessibility_qs_edit_tile_add_action">dodajanje ploščice na konec</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Dodajanje na položaj %1$d</string>
     <string name="accessibility_qs_edit_tile_added">%1$s je bil dodan na položaj %2$d</string>
-    <string name="accessibility_qs_edit_tile_label">Položaj %1$d, %2$s. Tapnite dvakrat za urejanje.</string>
     <string name="accessibility_qs_edit_tile_move">Premakni stikalo %1$s na položaj %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Premik na položaj %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s je odstranjen</string>
@@ -229,7 +224,7 @@
     <string name="accessibility_quick_settings_rotation">Samodejno sukanje zaslona</string>
     <string name="accessibility_quick_settings_settings">Odpri nastavitve.</string>
     <string name="accessibility_quick_settings_user">Prijavljeni ste kot %s.</string>
-    <string name="accessibility_recent">Pregled</string>
+    <string name="accessibility_recent_button">Pregled</string>
     <string name="accessibility_ringer_silent">Zvonjenje izklopljeno.</string>
     <string name="accessibility_ringer_vibrate">Zvonjenje z vibriranjem.</string>
     <string name="accessibility_rotate_button">Sukanje zaslona</string>
@@ -1114,6 +1109,7 @@ Izklopite z gumbom za vklop."</string>
     <string name="guest_reset_guest_confirm_button">Ponastavi</string>
     <string name="guest_reset_guest_dialog_title">Želite ponastaviti gosta?</string>
     <string name="guest_resetting">Ponastavljanje gosta …</string>
+    <string name="gxzw_icon_access_tips">Ikona prstnega odtisa</string>
     <string name="gxzw_quick_close">Zapri</string>
     <string name="gxzw_quick_open_add_event">Dodaj dogodek</string>
     <string name="gxzw_quick_open_add_event_sub">Koledar</string>
@@ -1582,6 +1578,7 @@ Nekateri dnevniki morda vsebujejo občutljive podatke, zato dostop do vseh dnevn
     <string name="media_ttt_default_device_type">tablični računalnik</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="messages_count_overflow_indicator">Več kot %d</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="microphone_blocked_dream_overlay_content_description">Mikrofon je blokiran.</string>
     <string name="midnight">Noč</string>
     <string name="minimize_button_text">Minimiraj</string>
@@ -1626,11 +1623,17 @@ d. M."</string>
     <string name="miui_magazine_clock_date">d. M.</string>
     <string name="miui_magazine_clock_date_content_description">d. M.</string>
     <string name="miui_magazine_clock_week">EEE</string>
+    <string name="miui_notification_menu_custom_fold">Združi v »Več obvestil«</string>
+    <string name="miui_notification_menu_custom_unfold">Ne združi</string>
     <string name="miui_notification_menu_more_setting">Več</string>
+    <string name="miui_notification_menu_msg_custom_fold">Želite združiti prilagojena obvestila iz »%1$s« v »Več obvestil«?</string>
+    <string name="miui_notification_menu_msg_custom_unfold">Želite prikazati prilagojena obvestila iz »%1$s« v plošči obvestil?</string>
     <string name="miui_notification_menu_msg_not_allow">Izklopim vsa obvestila za %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Izklopili boste Osrednje obvestilo za %1$s. Ta obvestila bodo prikazana normalno. Želite nadaljevati?</string>
     <string name="miui_notification_menu_setting_success">Konec</string>
     <string name="miui_notification_menu_snooze">Odloži</string>
+    <string name="miui_notification_menu_title_custom_fold">Združi prilagojena obvestila</string>
+    <string name="miui_notification_menu_title_custom_unfold">Ustavi združevanje prilagojenih obvestil</string>
     <string name="miui_notification_menu_title_no_drawable">Nadaljuj na notranjem zaslonu</string>
     <string name="miui_notification_menu_title_not_allow">Izklopi</string>
     <string name="miui_notification_menu_unfocus">Izklopite Osrednje obvestilo</string>
@@ -1946,10 +1949,6 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="ongoing_privacy_dialog_recent_op">Nedavno uporabljala aplikacija %1$s</string>
     <string name="ongoing_privacy_dialog_separator">", "</string>
     <string name="ongoing_privacy_dialog_using_op">Trenutno uporablja aplikacija %1$s</string>
-    <string name="open_camera_hint_text">Podrsajte na levo za Kamero</string>
-    <string name="open_lock_screen_magazine_hint_text">Za več možnosti podrsajte na desno</string>
-    <string name="open_remote_center_hint_text">Podrsajte na desno za kontrole</string>
-    <string name="open_uwb_hint_text">Da bi odprli Xiaomi Magic Control podrsajte na desno</string>
     <string name="orb_search_action">Dejanje iskanja</string>
     <string name="osu_completing_sign_up">Dokončevanje registracije …</string>
     <string name="osu_connect_failed">Povezave ni bilo mogoče vzpostaviti</string>
@@ -2074,6 +2073,7 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="qs_control_big_tile_state_closed">Izklop</string>
     <string name="qs_control_big_tile_state_connected">Povezano</string>
     <string name="qs_control_big_tile_state_connecting">Povezovanje…</string>
+    <string name="qs_control_big_tile_state_disconnected">Ni povezano</string>
     <string name="qs_control_big_tile_state_opening">Vklop…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">Uporaba Wi-Fi signala telefona</string>
     <string name="qs_control_big_tile_state_tethered_wlan">Uporaba WLAN signala telefona</string>
@@ -2136,11 +2136,10 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Izklopi</string>
     <string name="quick_settings_cellular_detail_title">Mobilni podatki</string>
     <string name="quick_settings_cellular_detail_unable_change">Ni mogoče nastaviti med klicem</string>
-    <string name="quick_settings_cellular_state_change_message_connected">Povezano z mobilnim podatkovnim omrežjem</string>
-    <string name="quick_settings_cellular_state_change_message_disconnected">Nepovezano z mobilnim podatkovnim omrežjem</string>
     <string name="quick_settings_cellular_state_change_message_off">Mobilni podatki so izklopljeni</string>
     <string name="quick_settings_cellular_state_change_message_on">Mobilni podatki so vklopljeni</string>
     <string name="quick_settings_color_correction_label">Popravljanje barv</string>
+    <string name="quick_settings_connected">Povezava je vzpostavljena</string>
     <string name="quick_settings_connecting">Vzpostavljanje povezave ...</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Varčevanje z energijo baterije</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Vklop ob %s</string>
@@ -2249,6 +2248,7 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="quick_settings_sim_disabled">" (Onemogočeno)"</string>
     <string name="quick_settings_state_change_message_off">%1$s je izklopljen</string>
     <string name="quick_settings_state_change_message_on">%1$s je vklopljen</string>
+    <string name="quick_settings_state_saved">Shranjeno</string>
     <string name="quick_settings_state_saved_bt_devices">Shranjene Bluetooth naprave</string>
     <string name="quick_settings_state_saved_wifi_devices">Shranjena Wi-Fi omrežja</string>
     <string name="quick_settings_state_saved_wlan_devices_china">Shranjeni WLAN</string>
@@ -2334,6 +2334,7 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="screen_pinning_toast_cancel">Nepripeta aplikacija</string>
     <string name="screen_pinning_toast_gesture_mode">Z dna zaslona podrsajte navzgor in zadržite, če želite to aplikacijo odpeti.</string>
     <string name="screen_pinning_toast_navigation_mode">Pritisnite in pridržite gumba za nazaj in za predogled, da odstranite to aplikacijo</string>
+    <string name="screen_pinning_toast_navigation_talkback_mode">Pritisnite in držite gumb Meni, da odstranite to aplikacijo</string>
     <string name="screen_pinning_toast_recents_invisible">Če želite odpeti to aplikacijo, hkrati pridržite gumba za nazaj in za začetni zaslon.</string>
     <string name="screen_pinning_toast_start">Ta aplikacija je pripeta</string>
     <string name="screen_share_dialog_spinner_text">Obseg</string>
@@ -2508,6 +2509,7 @@ Za več informacij se obrnite na skrbnika za IT."</string>
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Ethernet</string>
+    <string name="status_bar_next_alarm">Alarm se bo sprožil ob %1$s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings_auto_rotation">Samodejno zasukaj zaslon</string>
     <string name="status_bar_work">Profil za Android Work</string>

@@ -159,9 +159,6 @@
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Cлова</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Блокирање симбола</string>
     <string name="accessibility_keyguard_face_unlock_view">Откључавање лицем</string>
-    <string name="accessibility_left_control_center_button">Пречица</string>
-    <string name="accessibility_left_lock_screen_magazine_button">Ротирајућа позадина</string>
-    <string name="accessibility_left_uwb_button">Xiaomi магична контрола</string>
     <string name="accessibility_location_active">Има активних захтева за локацију</string>
     <string name="accessibility_lock_icon">Уређај је закључан</string>
     <string name="accessibility_long_click_tile">Отворите подешавања</string>
@@ -194,7 +191,6 @@
     <string name="accessibility_phone_three_bars">Сигнал телефона од три црте.</string>
     <string name="accessibility_phone_two_bars">Сигнал телефона од две црте.</string>
     <string name="accessibility_qr_code_scanner_button">Скенер QR кода</string>
-    <string name="accessibility_qs_edit_add_tile_label">%1$s. Додирните два пута за додавање.</string>
     <string name="accessibility_qs_edit_move_tile">Премести %1$s</string>
     <string name="accessibility_qs_edit_position">%1$d. позиција</string>
     <string name="accessibility_qs_edit_remove_tile">Уклони %1$s</string>
@@ -203,7 +199,6 @@
     <string name="accessibility_qs_edit_tile_add_action">додали плочицу на крај</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Додајте на %1$d. позицију</string>
     <string name="accessibility_qs_edit_tile_added">%1$s је додато на позицију %2$d</string>
-    <string name="accessibility_qs_edit_tile_label">Позиција %1$d, %2$s. Додирните два пута да уредите.</string>
     <string name="accessibility_qs_edit_tile_move">Помери %1$s на позицију %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Преместите на %1$d. позицију</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s је уклоњено</string>
@@ -229,7 +224,7 @@
     <string name="accessibility_quick_settings_rotation">Аутоматско ротирање екрана</string>
     <string name="accessibility_quick_settings_settings">Отвори Подешавања.</string>
     <string name="accessibility_quick_settings_user">Пријављени сте као %s</string>
-    <string name="accessibility_recent">Преглед</string>
+    <string name="accessibility_recent_button">Преглед</string>
     <string name="accessibility_ringer_silent">Нечујно звоно.</string>
     <string name="accessibility_ringer_vibrate">Вибрација звона.</string>
     <string name="accessibility_rotate_button">Ротирајте екран</string>
@@ -1114,6 +1109,7 @@
     <string name="guest_reset_guest_confirm_button">Ресетуј</string>
     <string name="guest_reset_guest_dialog_title">Желите ли да ресетујете сесију госта?</string>
     <string name="guest_resetting">Сесија госта се ресетује…</string>
+    <string name="gxzw_icon_access_tips">Икона отиска прста</string>
     <string name="gxzw_quick_close">Затвори</string>
     <string name="gxzw_quick_open_add_event">Додај догађај</string>
     <string name="gxzw_quick_open_add_event_sub">Календар</string>
@@ -1582,6 +1578,7 @@
     <string name="media_ttt_default_device_type">таблет</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="messages_count_overflow_indicator">%d+</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="microphone_blocked_dream_overlay_content_description">Микрофон је блокиран</string>
     <string name="midnight">Ноћ</string>
     <string name="minimize_button_text">Умањите</string>
@@ -1626,11 +1623,17 @@ d. M."</string>
     <string name="miui_magazine_clock_date">d. M.</string>
     <string name="miui_magazine_clock_date_content_description">d. M.</string>
     <string name="miui_magazine_clock_week">EEE</string>
+    <string name="miui_notification_menu_custom_fold">Групиши у „Још обавештења“</string>
+    <string name="miui_notification_menu_custom_unfold">Не групиши</string>
     <string name="miui_notification_menu_more_setting">Више</string>
+    <string name="miui_notification_menu_msg_custom_fold">Груписати прилагођена обавештења од \"%1$s\" у „Још обавештења“?</string>
+    <string name="miui_notification_menu_msg_custom_unfold">Приказати прилагођена обавештења од \"%1$s\" у Панелу обавештења?</string>
     <string name="miui_notification_menu_msg_not_allow">Искључити сва обавештења за %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Истицање обавештења ће бити искључено за %1$s. Ова обавештења ће се нормално приказивати. Искључити сада?</string>
     <string name="miui_notification_menu_setting_success">Готово</string>
     <string name="miui_notification_menu_snooze">Одложи</string>
+    <string name="miui_notification_menu_title_custom_fold">Групиши прилагођена обавештења</string>
+    <string name="miui_notification_menu_title_custom_unfold">Заустави груписање прилагођених обавештења</string>
     <string name="miui_notification_menu_title_no_drawable">Наставите на унутрашњем екрану</string>
     <string name="miui_notification_menu_title_not_allow">Искључи</string>
     <string name="miui_notification_menu_unfocus">Искључи Истицање обавештења</string>
@@ -1946,10 +1949,6 @@ mm"</string>
     <string name="ongoing_privacy_dialog_recent_op">Недавно користио/ла %1$s</string>
     <string name="ongoing_privacy_dialog_separator">", "</string>
     <string name="ongoing_privacy_dialog_using_op">Користи: %1$s</string>
-    <string name="open_camera_hint_text">Повуците икону за отварање Камере</string>
-    <string name="open_lock_screen_magazine_hint_text">Превуците десно за више опција</string>
-    <string name="open_remote_center_hint_text">Превуците надесно за приказ контрола</string>
-    <string name="open_uwb_hint_text">Превуците надесно да отворите Xiaomi магичну контролу</string>
     <string name="orb_search_action">Радња претраге</string>
     <string name="osu_completing_sign_up">Регистрација се довршава…</string>
     <string name="osu_connect_failed">Повезивање није успело</string>
@@ -2074,6 +2073,7 @@ mm"</string>
     <string name="qs_control_big_tile_state_closed">Иск.</string>
     <string name="qs_control_big_tile_state_connected">Повезано</string>
     <string name="qs_control_big_tile_state_connecting">Повезивање…</string>
+    <string name="qs_control_big_tile_state_disconnected">Није повезано</string>
     <string name="qs_control_big_tile_state_opening">Укључивање…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">Коришћење Wi-Fi сигнала телефона</string>
     <string name="qs_control_big_tile_state_tethered_wlan">Коришћење WLAN сигнала телефона</string>
@@ -2136,11 +2136,10 @@ mm"</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Искључи</string>
     <string name="quick_settings_cellular_detail_title">Мобилни подаци</string>
     <string name="quick_settings_cellular_detail_unable_change">Не може се подесити током позива</string>
-    <string name="quick_settings_cellular_state_change_message_connected">Повезано на мобилну мрежу за пренос података</string>
-    <string name="quick_settings_cellular_state_change_message_disconnected">Прекинута веза са мобилним преносним подацима</string>
     <string name="quick_settings_cellular_state_change_message_off">Мобилни подаци су искључени</string>
     <string name="quick_settings_cellular_state_change_message_on">Мобилни подаци су укључени</string>
     <string name="quick_settings_color_correction_label">Корекција боја</string>
+    <string name="quick_settings_connected">Повезан</string>
     <string name="quick_settings_connecting">Повезује се...</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Уштеда батерије</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Укључује се у %s</string>
@@ -2249,6 +2248,7 @@ mm"</string>
     <string name="quick_settings_sim_disabled">" (онемогућено)"</string>
     <string name="quick_settings_state_change_message_off">%1$s је искључен</string>
     <string name="quick_settings_state_change_message_on">%1$s је укључен</string>
+    <string name="quick_settings_state_saved">Сачуванo</string>
     <string name="quick_settings_state_saved_bt_devices">Сачувани Bluetooth уређаји</string>
     <string name="quick_settings_state_saved_wifi_devices">Сачуване Wi-Fi мреже</string>
     <string name="quick_settings_state_saved_wlan_devices_china">Сачувани WLAN</string>
@@ -2334,6 +2334,7 @@ mm"</string>
     <string name="screen_pinning_toast_cancel">Откачена апликација</string>
     <string name="screen_pinning_toast_gesture_mode">Превуците нагоре са дна екрана и паузирајте да бисте откачили ову апликацију</string>
     <string name="screen_pinning_toast_navigation_mode">Притисните и задржите тастере за повратак и преглед да бисте откачили ову апликацију</string>
+    <string name="screen_pinning_toast_navigation_talkback_mode">Притисните и задржите тастер Мени да бисте откачили ову апликацију</string>
     <string name="screen_pinning_toast_recents_invisible">Да бисте откачили ову апликацију, додирните и задржите дугмад Назад и Почетна</string>
     <string name="screen_pinning_toast_start">Ова апликација је закачена</string>
     <string name="screen_share_dialog_spinner_text">Обим</string>
@@ -2508,6 +2509,7 @@ mm"</string>
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Етернет</string>
+    <string name="status_bar_next_alarm">Аларм ће се укључити у %1$s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings_auto_rotation">Аутоматско ротирање екрана</string>
     <string name="status_bar_work">Пословни профил</string>

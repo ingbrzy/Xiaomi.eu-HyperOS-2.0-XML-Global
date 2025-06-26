@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="PRD_summary_4">Isključivanje Wi-Fi-ja ili promjena Wi-Fi mreže tijekom procesa prijenosa može uzrokovati neuspjeh procesa prijenosa.</string>
-    <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
+    <string name="PRD_summary_4_china">Isključivanje WLAN-a ili promjena WLAN mreže tijekom procesa prijenosa može uzrokovati neuspjeh procesa prijenosa.</string>
     <string name="PRD_summary_5">Prijenosi velike brzine mogu uzrokovati zagrijavanje vašeg uređaja više nego inače. Budite sigurni da će se vaš uređaj ohladiti kada prijenos završi.</string>
     <string name="abc_action_bar_home_description">Idi na početnu</string>
     <string name="abc_action_bar_up_description">Natrag</string>
@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with">Dijeli s</string>
     <string name="abc_shareactionprovider_share_with_application">Dijeli putem aplikacije %s</string>
     <string name="abc_toolbar_collapse_description">Sažmi</string>
-    <string name="accessibility_sliding_button_state_description_off">isključeno</string>
-    <string name="accessibility_sliding_button_state_description_on">uključeno</string>
+    <string name="accessibility_sliding_button_state_description_off">Isključeno</string>
+    <string name="accessibility_sliding_button_state_description_on">Uključeno</string>
     <string name="accessibility_tab_state_description_unselect">Nije odabrano</string>
-    <string name="accessibility_tab_statedesc_unselect">Nije odabrano</string>
     <string name="account_or_password_incorrect">Pogrešan račun ID ili lozinka</string>
     <string name="actionbar_button_up_description">Natrag</string>
     <string name="afternoon">Popodne</string>
@@ -70,6 +69,9 @@
     <string name="ble_guest_connecting_title">Spajanje na novi uređaj…</string>
     <string name="ble_host_verification_summary">Unesite %d-znamenkasti kod na svojem starom uređaju.</string>
     <string name="ble_host_verification_title">Spajanje na stari uređaj…</string>
+    <string name="ble_manual_authorization_content">Dodijelite potrebna dopuštenja da biste mogli prenositi stavke pomoću Mi Selidbe. Ta dopuštenja možete dati u postavkama.</string>
+    <string name="ble_manual_authorization_positive_btn">Postavke</string>
+    <string name="ble_manual_authorization_title">Potrebna su dopuštenja</string>
     <string name="ble_manual_connect">Poveži ručno</string>
     <string name="ble_refuse_button">Odbaci</string>
     <string name="ble_start_ap_successed">Uspješno stvoren hotspot. Čekanje povezivanja…</string>
@@ -421,8 +423,10 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="miui_wait_link_title_2">%d. Odaberite ovaj hotspot na svojem starom uređaju za povezivanje.</string>
     <string name="miuix_access_state_desc">Odabrano</string>
     <string name="miuix_accessibility_title">Naslov</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Smanjeno</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Prošireno</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Izlaz iz načina uređivanja</string>
-    <string name="miuix_appcompat_accessibility_new_message">Nova poruka</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nova obavijest</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Uđi u način uređivanja</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Poništiti sve</string>
     <string name="miuix_appcompat_action_mode_select_all">Odaberi sve</string>
@@ -439,6 +443,7 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="miuix_appcompat_select_all">Odaberi sve</string>
     <string name="miuix_appcompat_select_all_description">Odaberi sve</string>
     <string name="miuix_appcompat_select_item">Odaberi stavke</string>
+    <string name="miuix_appcompat_show_dialog_description">Iskočni prozor</string>
     <string name="miuix_progressbar_loading">Učitavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Povucite dolje za osvježavanje</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Uspješno osvježeno</string>
@@ -449,6 +454,8 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Samo trenutak…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ne može učitati stavke</string>
     <string name="miuix_show_password">Prikaži lozinku</string>
+    <string name="miuix_stretchablewidget_collapsed">Smanjeno</string>
+    <string name="miuix_stretchablewidget_expanded">Prošireno</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Poruke, kontakti i povijest poziva</string>
     <string name="monday">Ponedjeljak</string>
@@ -876,7 +883,7 @@ Oslobodite se barem %s."</string>
     <string name="trans_apple_hint_1_title">%d. Instalirajte Mi Selidbu</string>
     <string name="trans_apple_hint_2_content">Otvorite Mi Selidbu na svom Apple uređaju, dodirnite \"Dodirnite za slanje stavki\" i skenirajte QR kod.</string>
     <string name="trans_apple_hint_2_title">%d. Povezani uređaji</string>
-    <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
+    <string name="trans_apple_hint_china">Nemojte napustiti ovu stranicu niti koristiti WLAN dok prebacivanje ne završi.</string>
     <string name="trans_apple_interrupt_sub">Dodirnite ispod za ponovno povezivanje</string>
     <string name="trans_apple_interrupt_title">Prekinuto</string>
     <string name="trans_detail_item_app_data_skip_data">Nije moguće prenijeti podatke aplikacije</string>

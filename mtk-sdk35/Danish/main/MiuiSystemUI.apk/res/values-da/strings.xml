@@ -159,9 +159,6 @@
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Bogstaver</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Symbollås</string>
     <string name="accessibility_keyguard_face_unlock_view">Ansigtsoplåsning</string>
-    <string name="accessibility_left_control_center_button">Genvej</string>
-    <string name="accessibility_left_lock_screen_magazine_button">Baggrundskarrusel</string>
-    <string name="accessibility_left_uwb_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Aktive lokationsanmodninger</string>
     <string name="accessibility_lock_icon">Enheden er låst</string>
     <string name="accessibility_long_click_tile">Åbn indstillinger</string>
@@ -194,7 +191,6 @@
     <string name="accessibility_phone_three_bars">Telefon tre bjælker.</string>
     <string name="accessibility_phone_two_bars">Telefon to bjælker.</string>
     <string name="accessibility_qr_code_scanner_button">QR-kodescanner</string>
-    <string name="accessibility_qs_edit_add_tile_label">%1$s. Dobbelttryk for at tilføje.</string>
     <string name="accessibility_qs_edit_move_tile">Flyt %1$s</string>
     <string name="accessibility_qs_edit_position">Lokation %1$d</string>
     <string name="accessibility_qs_edit_remove_tile">Fjern %1$s</string>
@@ -203,7 +199,6 @@
     <string name="accessibility_qs_edit_tile_add_action">føj feltet til slutningen</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Føj til lokation %1$d</string>
     <string name="accessibility_qs_edit_tile_added">%1$s er føjet til position %2$d</string>
-    <string name="accessibility_qs_edit_tile_label">Position %1$d, %2$s. Dobbelttryk for at redigere.</string>
     <string name="accessibility_qs_edit_tile_move">Flyt %1$s til position %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Flyt til %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s er fjernet</string>
@@ -229,7 +224,7 @@
     <string name="accessibility_quick_settings_rotation">Roter skærmen automatisk</string>
     <string name="accessibility_quick_settings_settings">Åbn Indstillinger.</string>
     <string name="accessibility_quick_settings_user">Logget ind som %s</string>
-    <string name="accessibility_recent">Oversigt</string>
+    <string name="accessibility_recent_button">Oversigt</string>
     <string name="accessibility_ringer_silent">Lydløs.</string>
     <string name="accessibility_ringer_vibrate">Ringervibration.</string>
     <string name="accessibility_rotate_button">Roter skærmen</string>
@@ -1114,6 +1109,7 @@ Sluk med Tænd-knappen."</string>
     <string name="guest_reset_guest_confirm_button">Nulstil</string>
     <string name="guest_reset_guest_dialog_title">Vil du nulstille gæsten?</string>
     <string name="guest_resetting">Nulstiller gæst…</string>
+    <string name="gxzw_icon_access_tips">Fingeraftryksikon</string>
     <string name="gxzw_quick_close">Luk</string>
     <string name="gxzw_quick_open_add_event">Tilføj begivenhed</string>
     <string name="gxzw_quick_open_add_event_sub">Kalender</string>
@@ -1582,6 +1578,7 @@ Selvom du ikke giver denne app adgang til alle enhedslogs, kan den stadig tilgå
     <string name="media_ttt_default_device_type">tablet</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="messages_count_overflow_indicator">%d+</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="microphone_blocked_dream_overlay_content_description">Mikrofonen er blokeret</string>
     <string name="midnight">Nat</string>
     <string name="minimize_button_text">Minimer</string>
@@ -1626,11 +1623,17 @@ d.M"</string>
     <string name="miui_magazine_clock_date">d.M</string>
     <string name="miui_magazine_clock_date_content_description">dd.MM</string>
     <string name="miui_magazine_clock_week">EEE</string>
+    <string name="miui_notification_menu_custom_fold">Gruppér i \"Flere notifikationer\"</string>
+    <string name="miui_notification_menu_custom_unfold">Gruppér ikke</string>
     <string name="miui_notification_menu_more_setting">Mere</string>
+    <string name="miui_notification_menu_msg_custom_fold">Gruppér tilpassede notifikationer fra \"%1$s\" i \"Flere notifikationer\"?</string>
+    <string name="miui_notification_menu_msg_custom_unfold">Vis tilpassede notifikationer fra \"%1$s\" i Notifikationsskygge?</string>
     <string name="miui_notification_menu_msg_not_allow">Slå alle notifikationer fra for %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Du er ved at deaktivere notifikations-spotlight for %1$s. Disse notifikationer vil blive vist normalt. Deaktivér nu?</string>
     <string name="miui_notification_menu_setting_success">Udført</string>
     <string name="miui_notification_menu_snooze">Slumre</string>
+    <string name="miui_notification_menu_title_custom_fold">Gruppér tilpassede notifikationer</string>
+    <string name="miui_notification_menu_title_custom_unfold">Stop gruppering af tilpassede notifikationer</string>
     <string name="miui_notification_menu_title_no_drawable">Fortsæt på inderskærmen</string>
     <string name="miui_notification_menu_title_not_allow">Slå fra</string>
     <string name="miui_notification_menu_unfocus">Deaktivér notifikations-spotlight</string>
@@ -1946,10 +1949,6 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="ongoing_privacy_dialog_recent_op">Anvendt for nylig af %1$s</string>
     <string name="ongoing_privacy_dialog_separator">", "</string>
     <string name="ongoing_privacy_dialog_using_op">Anvendes i øjeblikket af %1$s</string>
-    <string name="open_camera_hint_text">Træk ikonet for at åbne kamera</string>
-    <string name="open_lock_screen_magazine_hint_text">Stryg til højre for flere muligheder</string>
-    <string name="open_remote_center_hint_text">Stryg mod højre for at se kontroller</string>
-    <string name="open_uwb_hint_text">Stryg til højre for at åbne Xiaomi Magic Control</string>
     <string name="orb_search_action">Søg handling</string>
     <string name="osu_completing_sign_up">Fuldfører registrering…</string>
     <string name="osu_connect_failed">Der kunne ikke oprettes forbindelse</string>
@@ -2074,6 +2073,7 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="qs_control_big_tile_state_closed">Slukket</string>
     <string name="qs_control_big_tile_state_connected">Forbundet</string>
     <string name="qs_control_big_tile_state_connecting">Opretter forbindelse…</string>
+    <string name="qs_control_big_tile_state_disconnected">Ikke forbundet</string>
     <string name="qs_control_big_tile_state_opening">Tænd…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">Bruger telefonens Wi-fi-signal</string>
     <string name="qs_control_big_tile_state_tethered_wlan">Bruger telefonens WLAN-signal</string>
@@ -2136,11 +2136,10 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Slå fra</string>
     <string name="quick_settings_cellular_detail_title">Mobildata</string>
     <string name="quick_settings_cellular_detail_unable_change">Kan ikke indstille under opkald</string>
-    <string name="quick_settings_cellular_state_change_message_connected">Tilsluttet til mobildata-netværket</string>
-    <string name="quick_settings_cellular_state_change_message_disconnected">Forbindelse afbrudt til mobildata-netværket</string>
     <string name="quick_settings_cellular_state_change_message_off">Mobildata er deaktiveret</string>
     <string name="quick_settings_cellular_state_change_message_on">Mobildata er aktiveret</string>
     <string name="quick_settings_color_correction_label">Farvekorrigering</string>
+    <string name="quick_settings_connected">Forbundet</string>
     <string name="quick_settings_connecting">Opretter forbindelse…</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Batterisparefunktion</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Tænd kl. %s</string>
@@ -2249,6 +2248,7 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="quick_settings_sim_disabled">" (Deaktiveret)"</string>
     <string name="quick_settings_state_change_message_off">%1$s er deaktiveret</string>
     <string name="quick_settings_state_change_message_on">%1$s er aktiveret</string>
+    <string name="quick_settings_state_saved">Gemt</string>
     <string name="quick_settings_state_saved_bt_devices">Gemte Bluetooth-enheder</string>
     <string name="quick_settings_state_saved_wifi_devices">Gemte wi-fi-netværker</string>
     <string name="quick_settings_state_saved_wlan_devices_china">Gemt WLAN</string>
@@ -2334,6 +2334,7 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="screen_pinning_toast_cancel">Frigjort app</string>
     <string name="screen_pinning_toast_gesture_mode">Kør opad fra bunden af skærmen, og hold pause for at frigøre denne app</string>
     <string name="screen_pinning_toast_navigation_mode">Tryk og hold knapperne Tilbage og Forhåndsvisning for at frigøre denne app</string>
+    <string name="screen_pinning_toast_navigation_talkback_mode">Tryk og hold Menu-knappen nede for at frigøre denne app</string>
     <string name="screen_pinning_toast_recents_invisible">Du kan frigøre denne app ved at holde knapperne Tilbage og Hjem nede</string>
     <string name="screen_pinning_toast_start">Denne app er fastgjort</string>
     <string name="screen_share_dialog_spinner_text">Omfang</string>
@@ -2508,6 +2509,7 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Ethernet</string>
+    <string name="status_bar_next_alarm">Alarmen går i gang kl. %1$s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings_auto_rotation">Roter skærm automatisk</string>
     <string name="status_bar_work">Arbejdsprofil</string>

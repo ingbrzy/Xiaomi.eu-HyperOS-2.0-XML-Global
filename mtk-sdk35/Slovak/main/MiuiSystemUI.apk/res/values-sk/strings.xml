@@ -159,9 +159,6 @@
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Písmená</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Zámok symbolov</string>
     <string name="accessibility_keyguard_face_unlock_view">Odomknutie pomocou tváre</string>
-    <string name="accessibility_left_control_center_button">Odkaz</string>
-    <string name="accessibility_left_lock_screen_magazine_button">Denná tapeta</string>
-    <string name="accessibility_left_uwb_button">Xiaomi magické ovládanie</string>
     <string name="accessibility_location_active">Žiadosti o polohu sú aktívne</string>
     <string name="accessibility_lock_icon">Zariadenie je uzamknuté</string>
     <string name="accessibility_long_click_tile">Otvoriť nastavenia</string>
@@ -194,7 +191,6 @@
     <string name="accessibility_phone_three_bars">Tri čiarky signálu telefónnej siete.</string>
     <string name="accessibility_phone_two_bars">Dve čiarky signálu telefónnej siete.</string>
     <string name="accessibility_qr_code_scanner_button">Skener QR kódov</string>
-    <string name="accessibility_qs_edit_add_tile_label">%1$s. Pridať dvojitým ťuknutím.</string>
     <string name="accessibility_qs_edit_move_tile">Presunúť %1$s</string>
     <string name="accessibility_qs_edit_position">%1$d. pozícia</string>
     <string name="accessibility_qs_edit_remove_tile">Odstrániť %1$s</string>
@@ -203,7 +199,6 @@
     <string name="accessibility_qs_edit_tile_add_action">pridať kartu na koniec</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Pridať na %1$d. pozíciu</string>
     <string name="accessibility_qs_edit_tile_added">%1$s bola pridaná na pozíciu %2$d</string>
-    <string name="accessibility_qs_edit_tile_label">Pozícia %1$d, %2$s. Dvojitým ťuknutím upraviť.</string>
     <string name="accessibility_qs_edit_tile_move">Presunúť %1$s na pozíciu %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Presunúť na %1$d. pozíciu</string>
     <string name="accessibility_qs_edit_tile_removed">Dlaždica %1$s odstránená</string>
@@ -229,7 +224,7 @@
     <string name="accessibility_quick_settings_rotation">Automatické otáčanie obrazovky</string>
     <string name="accessibility_quick_settings_settings">Otvoriť nastavenia</string>
     <string name="accessibility_quick_settings_user">Prihlásený používateľ %s</string>
-    <string name="accessibility_recent">Prehľad</string>
+    <string name="accessibility_recent_button">Prehľad</string>
     <string name="accessibility_ringer_silent">Tiché zvonenie.</string>
     <string name="accessibility_ringer_vibrate">Vibračné zvonenie.</string>
     <string name="accessibility_rotate_button">Otočenie obrazovky</string>
@@ -1114,6 +1109,7 @@ Vypnete ju môžete stlačením Tlačidla napájania."</string>
     <string name="guest_reset_guest_confirm_button">Resetovať</string>
     <string name="guest_reset_guest_dialog_title">Chcete resetovať reláciu hosťa?</string>
     <string name="guest_resetting">Relácia hosťa sa resetuje…</string>
+    <string name="gxzw_icon_access_tips">Ikona odtlačku prsta</string>
     <string name="gxzw_quick_close">Zatvoriť</string>
     <string name="gxzw_quick_open_add_event">Pridať udalosť</string>
     <string name="gxzw_quick_open_add_event_sub">Kalendár</string>
@@ -1582,6 +1578,7 @@ Ak tejto aplikácii nepovolíte prístup k všetkým denníkom zariadenia, stá
     <string name="media_ttt_default_device_type">tablet</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="messages_count_overflow_indicator">%d+</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="microphone_blocked_dream_overlay_content_description">Mikrofón je blokovaný</string>
     <string name="midnight">Noc</string>
     <string name="minimize_button_text">Minimalizovať</string>
@@ -1626,11 +1623,17 @@ d. M."</string>
     <string name="miui_magazine_clock_date">d. M.</string>
     <string name="miui_magazine_clock_date_content_description">d. M.</string>
     <string name="miui_magazine_clock_week">EEE</string>
+    <string name="miui_notification_menu_custom_fold">Zoskupiť v časti \"Ďalšie upozornenia\"</string>
+    <string name="miui_notification_menu_custom_unfold">Nezoskupovať</string>
     <string name="miui_notification_menu_more_setting">Viac</string>
+    <string name="miui_notification_menu_msg_custom_fold">Zoskupiť vlastné upozornenia z \"%1$s\" v časti \"Ďalšie upozornenia\"?</string>
+    <string name="miui_notification_menu_msg_custom_unfold">Zobraziť vlastné upozornenia z \"%1$s\" v Notifikačnej roletke?</string>
     <string name="miui_notification_menu_msg_not_allow">Vypnúť všetky upozornenia z aplikácie %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Chystáte sa vypnúť zvýraznenie upozornenia pre %1$s. Tieto upozornenia sa zobrazia normálne. Vypnúť teraz?</string>
     <string name="miui_notification_menu_setting_success">Hotovo</string>
     <string name="miui_notification_menu_snooze">Odložiť</string>
+    <string name="miui_notification_menu_title_custom_fold">Zoskupiť vlastné upozornenia</string>
+    <string name="miui_notification_menu_title_custom_unfold">Zastaviť zoskupovanie vlastných upozornení</string>
     <string name="miui_notification_menu_title_no_drawable">Pokračujte na vnútornej obrazovke</string>
     <string name="miui_notification_menu_title_not_allow">Vypnúť</string>
     <string name="miui_notification_menu_unfocus">Vypnúť zvýraznenie upozornenia</string>
@@ -1946,10 +1949,6 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="ongoing_privacy_dialog_recent_op">Nedávno využila aplikácia %1$s</string>
     <string name="ongoing_privacy_dialog_separator">", "</string>
     <string name="ongoing_privacy_dialog_using_op">Využíva aplikácia %1$s</string>
-    <string name="open_camera_hint_text">Potiahnite ikonu pre otvorenie Fotoaparátu</string>
-    <string name="open_lock_screen_magazine_hint_text">Pre viac možností potiahnite prstom doprava</string>
-    <string name="open_remote_center_hint_text">Potiahnite doprava pre zobrazenie ovládania</string>
-    <string name="open_uwb_hint_text">Potiahnite doprava pre otvorenie Xiaomi magického ovládania</string>
     <string name="orb_search_action">Akcia vyhľadávania</string>
     <string name="osu_completing_sign_up">Dokončuje sa registrácia…</string>
     <string name="osu_connect_failed">Nepodarilo sa pripojiť</string>
@@ -2074,6 +2073,7 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="qs_control_big_tile_state_closed">Vyp.</string>
     <string name="qs_control_big_tile_state_connected">Pripojené</string>
     <string name="qs_control_big_tile_state_connecting">Pripája sa…</string>
+    <string name="qs_control_big_tile_state_disconnected">Nepripojené</string>
     <string name="qs_control_big_tile_state_opening">Zapína sa…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">Používanie Wi-Fi signálu telefónu</string>
     <string name="qs_control_big_tile_state_tethered_wlan">Používanie WLAN signálu telefónu</string>
@@ -2136,11 +2136,10 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Vypnúť</string>
     <string name="quick_settings_cellular_detail_title">Mobilné dáta</string>
     <string name="quick_settings_cellular_detail_unable_change">Nie je možné nastaviť počas hovoru</string>
-    <string name="quick_settings_cellular_state_change_message_connected">Pripojené k sieti mobilných dát</string>
-    <string name="quick_settings_cellular_state_change_message_disconnected">Odpojené od siete mobilných dát</string>
     <string name="quick_settings_cellular_state_change_message_off">Mobilné dáta sú vypnuté</string>
     <string name="quick_settings_cellular_state_change_message_on">Mobilné dáta sú zapnuté</string>
     <string name="quick_settings_color_correction_label">Úprava farieb</string>
+    <string name="quick_settings_connected">Pripojené</string>
     <string name="quick_settings_connecting">Pripája sa...</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Šetrič batérie</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Zapne sa o %s</string>
@@ -2249,6 +2248,7 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="quick_settings_sim_disabled">" (Vypnuté)"</string>
     <string name="quick_settings_state_change_message_off">%1$s je vyp.</string>
     <string name="quick_settings_state_change_message_on">%1$s je zap.</string>
+    <string name="quick_settings_state_saved">Uložené</string>
     <string name="quick_settings_state_saved_bt_devices">Uložené Bluetooth zariadenia</string>
     <string name="quick_settings_state_saved_wifi_devices">Uložené siete Wi-Fi</string>
     <string name="quick_settings_state_saved_wlan_devices_china">Uložená sieť WLAN</string>
@@ -2334,6 +2334,7 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="screen_pinning_toast_cancel">Odopnutá aplikácia</string>
     <string name="screen_pinning_toast_gesture_mode">Potiahnutím prstom nahor z dolnej časti obrazovky a pozastavením zrušíte pripnutie tejto aplikácie</string>
     <string name="screen_pinning_toast_navigation_mode">Stlačte a podržte tlačidlo späť a tlačidlo náhľadu pre zrušenie pripnutia tejto aplikácie</string>
+    <string name="screen_pinning_toast_navigation_talkback_mode">Stlačte a podržte tlačidlo Menu na zrušenie pripnutia tejto aplikácie</string>
     <string name="screen_pinning_toast_recents_invisible">Túto aplikáciu odopnete pridržaním tlačidiel Späť a Domov</string>
     <string name="screen_pinning_toast_start">Táto aplikácia je pripnutá</string>
     <string name="screen_share_dialog_spinner_text">Rozsah</string>
@@ -2508,6 +2509,7 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Ethernet</string>
+    <string name="status_bar_next_alarm">Budík sa spustí %1$s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings_auto_rotation">Automatické otočenie obrazovky</string>
     <string name="status_bar_work">Pracovný profil</string>

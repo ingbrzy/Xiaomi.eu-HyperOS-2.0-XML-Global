@@ -29,6 +29,9 @@
     <string name="abc_toolbar_collapse_description">Згорнути</string>
     <string name="access_non_personal_data">Якщо ви відкличите згоду на надання дозволу на доступ і використання неособистих даних з вашого пристрою, послуги Каруселі шпалер\"будуть відключені, а будь-які зібрані дані будуть видалені протягом періоду, зазначеного в чинних законах і правилах.</string>
     <string name="accessibility_enabled">TalkBack увімкнено.</string>
+    <string name="accessibility_sliding_button_state_description_off">Вимкнено</string>
+    <string name="accessibility_sliding_button_state_description_on">Увімкнено</string>
+    <string name="accessibility_tab_state_description_unselect">Не вибрано</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="activate_esim_tips">Не вдалося активувати. Повторіть спробу.</string>
     <string name="activating_esim_tips">Активація…</string>
@@ -327,7 +330,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="item_facerecognition">Розблокування за допомогою обличчя</string>
     <string name="item_fingerprint">Відбиток пальця</string>
     <string name="item_lock_screen_password">Тільки блокування екрана</string>
-    <string name="item_lock_screen_password_only">Блокуванян екрана</string>
+    <string name="item_lock_screen_password_only">блокування екрана</string>
     <string name="item_return">Налаштувати</string>
     <string name="item_skip">Пропустити</string>
     <string name="kind_note01">Під час складання пристрою не кладіть на екран тверді предмети, такі як карти, монети або ключі, щоб не подряпати внутрішній екран.</string>
@@ -349,8 +352,11 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="kind_tip_title">Увага</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Передача даних про місцезнаходження аварійно-рятувальним службам</string>
+    <string name="language_disabled_description">%1$s, недоступно</string>
     <string name="language_picker_other_languages_title">Більше мов</string>
+    <string name="language_selected_description">%1$s, вибрано</string>
     <string name="language_settings">Виберіть мову</string>
+    <string name="language_unselected_description">%1$s, двічі торкніться, щоб застосувати</string>
     <string name="layout_size_huge">XL</string>
     <string name="layout_size_large">Великий</string>
     <string name="layout_size_normal">Звичайний</string>
@@ -375,6 +381,12 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="miui_settings">Налаштування</string>
     <string name="miui_terms_no_network">Ви не підключені до інтернету. Ознайомитися з умовами Угоди користувача можна на %s.</string>
     <string name="miuix_access_state_desc">Вибрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Згорнуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Розгорнуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Вийти з режиму редагування</string>
+    <string name="miuix_appcompat_accessibility_new_message">Нове сповіщення</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Ввійти в режим редагування</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняти вибір</string>
     <string name="miuix_appcompat_action_mode_select_all">Вибрати все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Вибрати</string>
@@ -390,6 +402,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="miuix_appcompat_select_all">Вибрати все</string>
     <string name="miuix_appcompat_select_all_description">Вибрати все</string>
     <string name="miuix_appcompat_select_item">Вибрати елементи</string>
+    <string name="miuix_appcompat_show_dialog_description">Спливаюче вікно</string>
+    <string name="miuix_progressbar_loading">Завантаження</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потягніть вниз для оновлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Оновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Оновлення…</string>
@@ -398,6 +412,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="miuix_sbl_tracking_progress_labe_up_none">Більше нічого немає</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Хвилинку…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не вдалося завантажити елементи</string>
+    <string name="miuix_show_password">Показати пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Згорнуто</string>
+    <string name="miuix_stretchablewidget_expanded">Розгорнуто</string>
     <string name="mobile_network">Використання мобільного інтернету</string>
     <string name="monday">Понеділок</string>
     <string name="monday_short">Пон</string>
@@ -489,7 +506,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="other_settings_minor_mode_summary"><Data>"Help minors develop healthy device usage habits. When Child mode is on, a feature shortcut will be added in Settings and on the Home screen. By turning on this feature, you're agreeing to the &lt;a href=%1$s>Child Mode Privacy Policy&lt;/a >."</Data></string>
     <string name="other_settings_quality_service">Дозволи системного Daemon</string>
     <string name="other_settings_quality_service_summary">"Системний Daemon використовується для підвищення стабільності та продуктивності системи. Для нормальної роботи цій службі необхідні дозволи на доступ і збереження об'єктів до пам'яті пристрою."</string>
-    <string name="other_settings_upload_debug_log_detail">"Допоможіть покращити доствід користувача, автоматично відправояючи дані про діагностику, використання пристрою та програм до Xiaomi. Це допоможе збільшити час автономної роботи, стабільність системи та програм і т.д.
+    <string name="other_settings_upload_debug_log_detail">"Допоможіть покращити досвід користувача, автоматично відправляючи дані про діагностику, використання пристрою та програм до Xiaomi. Це допоможе збільшити час автономної роботи, стабільність системи та програм і т.д.
 Дані, які ви відправите, будуть містити загальну інформацію про ваш пристрій і спосіб його використання (наприклад, рівень заряду батареї, активність системи і програм, а також помилки). Дані будуть використовуватися для покращення пристроїв Xiaomi.
 Увімкнення цієї функції не впливає на здатність вашого пристрою відправляти необхідну інформацію до основних служб, таких як оновлення системи та безпека.
 Ви можете змінити налаштування цієї функції у розділі \"Налаштування\" > \"Відбитки пальців, дані обличчя та екран блокування\" > \"Конфіденційність\" > \"Використання та діагностика\"."</string>

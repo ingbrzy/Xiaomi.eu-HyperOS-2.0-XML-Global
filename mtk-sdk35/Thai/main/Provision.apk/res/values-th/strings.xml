@@ -29,6 +29,9 @@
     <string name="abc_toolbar_collapse_description">ยุบ</string>
     <string name="access_non_personal_data">หากคุณเพิกถอนความยินยอมในการเข้าถึงและการใช้ข้อมูลที่ไม่ใช่ข้อมูลส่วนบุคคลจากอุปกรณ์ของคุณ บริการ ภาพพื้นหลังรายวันl จะถูกปิดใช้งานและข้อมูลที่เก็บรวบรวมจะถูกลบภายในระยะเวลาที่ระบุไว้ในกฎหมายและข้อบังคับที่บังคับใช้</string>
     <string name="accessibility_enabled">เปิดใช้สิ่งอำนวยความสะดวกแล้ว</string>
+    <string name="accessibility_sliding_button_state_description_off">ปิดใช้งานแล้ว</string>
+    <string name="accessibility_sliding_button_state_description_on">เปิดใช้งานแล้ว</string>
+    <string name="accessibility_tab_state_description_unselect">ไม่ได้เลือกไว้</string>
     <string name="actionbar_button_up_description">ย้อนกลับ</string>
     <string name="activate_esim_tips">ไม่สามารถเปิดใช้งานได้ ลองอีกครั้ง</string>
     <string name="activating_esim_tips">กำลังเปิดใช้งาน…</string>
@@ -349,8 +352,11 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="kind_tip_title">โปรดทราบ</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">การแชร์ข้อมูลตำแหน่งกับหน่วยงานกู้ภัยฉุกเฉิน</string>
+    <string name="language_disabled_description">%1$s ไม่พร้อมใช้งาน</string>
     <string name="language_picker_other_languages_title">ภาษาเพิ่มเติม</string>
+    <string name="language_selected_description">เลือก %1$s ไว้</string>
     <string name="language_settings">เลือกภาษา</string>
+    <string name="language_unselected_description">%1$s แตะสองครั้งเพื่อใช้งาน</string>
     <string name="layout_size_huge">XL</string>
     <string name="layout_size_large">ใหญ่</string>
     <string name="layout_size_normal">ปกติ</string>
@@ -375,6 +381,12 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="miui_settings">การตั้งค่า</string>
     <string name="miui_terms_no_network">คุณไม่ได้เชื่อมกับต่ออินเตอร์เน็ต กรุณาอ่านข้อตกลงและข้อตกลงการใช้งานได้ที่ %s</string>
     <string name="miuix_access_state_desc">ที่เลือกไว้</string>
+    <string name="miuix_accessibility_title">หัวเรื่อง</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">หุบ</string>
+    <string name="miuix_appcompat_accessibility_expand_state">ขยาย</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">ออกจากโหมดแก้ไข</string>
+    <string name="miuix_appcompat_accessibility_new_message">การแจ้งเตือนใหม่</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">เข้าสู่โหมดแก้ไข</string>
     <string name="miuix_appcompat_action_mode_deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_title_empty">เลือกรายการ</string>
@@ -390,6 +402,8 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="miuix_appcompat_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_all_description">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_item">เลือกรายการ</string>
+    <string name="miuix_appcompat_show_dialog_description">หน้าต่างป๊อปอัป</string>
+    <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">รีเฟรชสำเร็จแล้ว</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">กำลังรีเฟรช…</string>
@@ -398,6 +412,9 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="miuix_sbl_tracking_progress_labe_up_none">นั่นคือทั้งหมดตอนนี้</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">รอสักครู่…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">ไม่สามารถโหลดรายการได้</string>
+    <string name="miuix_show_password">แสดงรหัสผ่าน</string>
+    <string name="miuix_stretchablewidget_collapsed">หุบ</string>
+    <string name="miuix_stretchablewidget_expanded">ขยาย</string>
     <string name="mobile_network">ใช้ข้อมูลมือถือ</string>
     <string name="monday">วันจันทร์</string>
     <string name="monday_short">จันทร์</string>
@@ -728,7 +745,7 @@ For the purposes of risk prevention, statistics, and analytical processing, we n
     <string name="sim_card_detection_info_sb">"ใส่ซิมการ์ดก่อนดำเนินการต่อ ค้นหาอุปกรณ์ และฟังก์ชันที่เกี่ยวข้องกับการซิงค์จะใช้งานไม่ได้อย่างสมบูรณ์หากคุณสร้างบัญชีโดยไม่มีซิมการ์ด อุปกรณ์นี้รองรับ eSIM "</string>
     <string name="sim_card_detection_info_sb_esim">แตะเพื่อเปิดใช้งาน eSIM</string>
     <string name="sim_card_detection_mobile_not_available">ซิมการ์ดไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="sim_card_detection_sb_esim">Activate eSIM</string>
+    <string name="sim_card_detection_sb_esim">เปิดใช้งาน eSIM</string>
     <string name="sim_card_detection_sb_nonactivated">ยังไม่เปิดใช้งาน</string>
     <string name="sim_card_do_not_select_dial_card">Select SIM card when dialing</string>
     <string name="sim_dectection_next">ทำต่อ</string>

@@ -159,9 +159,6 @@
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Літери</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Блокування символів</string>
     <string name="accessibility_keyguard_face_unlock_view">Розблокування за допомогою обличчя</string>
-    <string name="accessibility_left_control_center_button">Ярлик</string>
-    <string name="accessibility_left_lock_screen_magazine_button">Карусель шпалер</string>
-    <string name="accessibility_left_uwb_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Запити про місцезнаходження активні</string>
     <string name="accessibility_lock_icon">Пристрій заблоковано</string>
     <string name="accessibility_long_click_tile">Відкрити налаштування</string>
@@ -194,7 +191,6 @@
     <string name="accessibility_phone_three_bars">Три смужки сигналу телефону.</string>
     <string name="accessibility_phone_two_bars">Дві смужки сигналу телефону.</string>
     <string name="accessibility_qr_code_scanner_button">Сканер QR-коду</string>
-    <string name="accessibility_qs_edit_add_tile_label">%1$s. Натисніть двічі, щоб додати.</string>
     <string name="accessibility_qs_edit_move_tile">Перемістити кнопку %1$s</string>
     <string name="accessibility_qs_edit_position">Позиція %1$d</string>
     <string name="accessibility_qs_edit_remove_tile">Видалити кнопку %1$s</string>
@@ -203,7 +199,6 @@
     <string name="accessibility_qs_edit_tile_add_action">додати опцію в кінець</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Додати на позицію %1$d</string>
     <string name="accessibility_qs_edit_tile_added">%1$s було додано на позицію %2$d</string>
-    <string name="accessibility_qs_edit_tile_label">Позиція %1$d, кнопка %2$s. Натисніть двічі для зміни.</string>
     <string name="accessibility_qs_edit_tile_move">Перемістити кнопку %1$s на позицію %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Перемістити на позицію %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s було видалено</string>
@@ -229,7 +224,7 @@
     <string name="accessibility_quick_settings_rotation">Автоматично обертати екран</string>
     <string name="accessibility_quick_settings_settings">Відкрити налаштування.</string>
     <string name="accessibility_quick_settings_user">Ви ввійшли як %s</string>
-    <string name="accessibility_recent">Огляд</string>
+    <string name="accessibility_recent_button">Огляд</string>
     <string name="accessibility_ringer_silent">Дзвінок беззвучний.</string>
     <string name="accessibility_ringer_vibrate">Дзвінок на вібросигналі.</string>
     <string name="accessibility_rotate_button">Обернути екран</string>
@@ -1114,6 +1109,7 @@
     <string name="guest_reset_guest_confirm_button">Скинути</string>
     <string name="guest_reset_guest_dialog_title">Скинути сеанс у режимі \"Гість\"?</string>
     <string name="guest_resetting">Скидання сеансу в режимі \"Гість\"…</string>
+    <string name="gxzw_icon_access_tips">Значок відбитка пальця</string>
     <string name="gxzw_quick_close">Закрити</string>
     <string name="gxzw_quick_open_add_event">Додати подію</string>
     <string name="gxzw_quick_open_add_event_sub">Календар</string>
@@ -1582,6 +1578,7 @@
     <string name="media_ttt_default_device_type">планшет</string>
     <string name="megabyte_per_second">Мб/с</string>
     <string name="messages_count_overflow_indicator">%d+</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="microphone_blocked_dream_overlay_content_description">Мікрофон заблоковано</string>
     <string name="midnight">Ніч</string>
     <string name="minimize_button_text">Згорнути</string>
@@ -1626,11 +1623,17 @@ d.M"</string>
     <string name="miui_magazine_clock_date">d.M</string>
     <string name="miui_magazine_clock_date_content_description">dd.MM</string>
     <string name="miui_magazine_clock_week">EEE</string>
+    <string name="miui_notification_menu_custom_fold">Групувати у розділі \"Додаткові сповіщення\"</string>
+    <string name="miui_notification_menu_custom_unfold">Не групувати</string>
     <string name="miui_notification_menu_more_setting">Ще</string>
+    <string name="miui_notification_menu_msg_custom_fold">Групувати персональні сповіщення від \"%1$s\" у розділі \"Додаткові сповіщення\"?</string>
+    <string name="miui_notification_menu_msg_custom_unfold">Показувати персональні сповіщення від \"%1$s\" у Панелі сповіщень?</string>
     <string name="miui_notification_menu_msg_not_allow">Вимкнути всі сповіщення від %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Ви збираєтеся вимкнути підствічення сповіщень на %1$s. Наступні сповіщення будуть відображатися у звичайному форматі. Вимкнути?</string>
     <string name="miui_notification_menu_setting_success">Готово</string>
     <string name="miui_notification_menu_snooze">Відкласти</string>
+    <string name="miui_notification_menu_title_custom_fold">Групувати персональні сповіщення</string>
+    <string name="miui_notification_menu_title_custom_unfold">Припинити групування персональних сповіщень</string>
     <string name="miui_notification_menu_title_no_drawable">Продовжуйте роботу на внутрішньому екрані</string>
     <string name="miui_notification_menu_title_not_allow">Вимкнути</string>
     <string name="miui_notification_menu_unfocus">Вимкнути пісвічення сповіщень</string>
@@ -1946,10 +1949,6 @@ IT-адміністратор може відстежувати й контро�
     <string name="ongoing_privacy_dialog_recent_op">Нещодавно використано в додатку %1$s</string>
     <string name="ongoing_privacy_dialog_separator">", "</string>
     <string name="ongoing_privacy_dialog_using_op">Використовується в додатку %1$s</string>
-    <string name="open_camera_hint_text">Потягніть, щоб відкрити Камеру</string>
-    <string name="open_lock_screen_magazine_hint_text">Проведіть вправо для перегляду других параметрів</string>
-    <string name="open_remote_center_hint_text">Проведіть вправо для перегляду елементів керування</string>
-    <string name="open_uwb_hint_text">Проведіть вправо, щоб відкрити Xiaomi Magic Control</string>
     <string name="orb_search_action">Команда пошуку</string>
     <string name="osu_completing_sign_up">Завершення реєстрації…</string>
     <string name="osu_connect_failed">Не вдалося підключитись</string>
@@ -2074,6 +2073,7 @@ IT-адміністратор може відстежувати й контро�
     <string name="qs_control_big_tile_state_closed">Вимк.</string>
     <string name="qs_control_big_tile_state_connected">Підключено</string>
     <string name="qs_control_big_tile_state_connecting">Підключення…</string>
+    <string name="qs_control_big_tile_state_disconnected">Не підключено</string>
     <string name="qs_control_big_tile_state_opening">Увімкнення…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">Використовується сигнал Wi-Fi телефона</string>
     <string name="qs_control_big_tile_state_tethered_wlan">Використовується сигнал WLAN телефона</string>
@@ -2136,11 +2136,10 @@ IT-адміністратор може відстежувати й контро�
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Відключити</string>
     <string name="quick_settings_cellular_detail_title">Мобільний інтернет</string>
     <string name="quick_settings_cellular_detail_unable_change">Неможливо задати під час виклику</string>
-    <string name="quick_settings_cellular_state_change_message_connected">Підключено до мобільного інтернету</string>
-    <string name="quick_settings_cellular_state_change_message_disconnected">Відключено від мобільного інтернету</string>
     <string name="quick_settings_cellular_state_change_message_off">Мобільний інтернет вимк.</string>
     <string name="quick_settings_cellular_state_change_message_on">Мобільний інтернет увімк.</string>
     <string name="quick_settings_color_correction_label">Корекція кольору</string>
+    <string name="quick_settings_connected">Під’єднано</string>
     <string name="quick_settings_connecting">З’єднання…</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Режим енергозбереження</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Вмикається о %s</string>
@@ -2249,6 +2248,7 @@ IT-адміністратор може відстежувати й контро�
     <string name="quick_settings_sim_disabled">" (Відключено)"</string>
     <string name="quick_settings_state_change_message_off">%1$s вимк.</string>
     <string name="quick_settings_state_change_message_on">%1$s увімк.</string>
+    <string name="quick_settings_state_saved">Збережено</string>
     <string name="quick_settings_state_saved_bt_devices">Збережені Bluetooth-пристрої</string>
     <string name="quick_settings_state_saved_wifi_devices">Збережені мережі Wi-Fi</string>
     <string name="quick_settings_state_saved_wlan_devices_china">Збережена WLAN</string>
@@ -2334,6 +2334,7 @@ IT-адміністратор може відстежувати й контро�
     <string name="screen_pinning_toast_cancel">Програму відкріплено</string>
     <string name="screen_pinning_toast_gesture_mode">Проведіть вверх від нижнього краю екрану та затримайте палець, щоб відкріпити програму</string>
     <string name="screen_pinning_toast_navigation_mode">Утримуйте кнопки \"Назад\" та \"Перегляд\", щоб відкріпити цю програму</string>
+    <string name="screen_pinning_toast_navigation_talkback_mode">Натисніть та утримуйте кнопку \"Меню\", щоб відкріпити цю програму</string>
     <string name="screen_pinning_toast_recents_invisible">Щоб відкріпити цей додаток, натисніть і утримуйте кнопки \"Назад\" та \"Головний екран\"</string>
     <string name="screen_pinning_toast_start">Ця програма закріплена</string>
     <string name="screen_share_dialog_spinner_text">Діапазон</string>
@@ -2508,6 +2509,7 @@ IT-адміністратор може відстежувати й контро�
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Ethernet</string>
+    <string name="status_bar_next_alarm">Будильник задзвонить о %1$s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings_auto_rotation">Автообертання екрана</string>
     <string name="status_bar_work">Робочий профіль</string>

@@ -159,9 +159,6 @@
     <string name="accessibility_keyboard_symbol_board_shift2letter_button">Letras</string>
     <string name="accessibility_keyboard_symbol_board_symbol_lock_button">Bloqueo de símbolos</string>
     <string name="accessibility_keyguard_face_unlock_view">Desbloqueo facial</string>
-    <string name="accessibility_left_control_center_button">Acceso directo</string>
-    <string name="accessibility_left_lock_screen_magazine_button">Carrusel de fondos de pantalla</string>
-    <string name="accessibility_left_uwb_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Solicitudes de ubicación activas</string>
     <string name="accessibility_lock_icon">Dispositivo bloqueado</string>
     <string name="accessibility_long_click_tile">Abrir configuración</string>
@@ -194,7 +191,6 @@
     <string name="accessibility_phone_three_bars">Tres barras de teléfono</string>
     <string name="accessibility_phone_two_bars">Dos barras de teléfono</string>
     <string name="accessibility_qr_code_scanner_button">Escáner de código QR</string>
-    <string name="accessibility_qs_edit_add_tile_label">%1$s. Toque dos veces para agregar.</string>
     <string name="accessibility_qs_edit_move_tile">Mover %1$s</string>
     <string name="accessibility_qs_edit_position">Posición %1$d</string>
     <string name="accessibility_qs_edit_remove_tile">Eliminar %1$s</string>
@@ -203,7 +199,6 @@
     <string name="accessibility_qs_edit_tile_add_action">agregar tarjeta al final</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Agregar a la posición %1$d</string>
     <string name="accessibility_qs_edit_tile_added">Se agregó %1$s a la posición %2$d</string>
-    <string name="accessibility_qs_edit_tile_label">Posición %1$d, %2$s. Toque dos veces para editar.</string>
     <string name="accessibility_qs_edit_tile_move">Mover %1$s a la posición %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Mover a %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s eliminado</string>
@@ -229,7 +224,7 @@
     <string name="accessibility_quick_settings_rotation">Girar la pantalla automáticamente</string>
     <string name="accessibility_quick_settings_settings">Abrir Configuración</string>
     <string name="accessibility_quick_settings_user">Accediste como %s</string>
-    <string name="accessibility_recent">Recientes</string>
+    <string name="accessibility_recent_button">Recientes</string>
     <string name="accessibility_ringer_silent">Timbre en silencio</string>
     <string name="accessibility_ringer_vibrate">Timbre en vibración</string>
     <string name="accessibility_rotate_button">Girar pantalla</string>
@@ -1114,6 +1109,7 @@ Apáguela con el botón de encendido del celular."</string>
     <string name="guest_reset_guest_confirm_button">Restablecer</string>
     <string name="guest_reset_guest_dialog_title">¿Quieres restablecer el invitado?</string>
     <string name="guest_resetting">Restableciendo invitado…</string>
+    <string name="gxzw_icon_access_tips">Ícono de huella digital</string>
     <string name="gxzw_quick_close">Cerrar</string>
     <string name="gxzw_quick_open_add_event">Agregar evento</string>
     <string name="gxzw_quick_open_add_event_sub">Calendario</string>
@@ -1582,6 +1578,7 @@ Si no permites que esta app acceda a todos los registros del dispositivo, aún p
     <string name="media_ttt_default_device_type">tablet</string>
     <string name="megabyte_per_second">MB/s</string>
     <string name="messages_count_overflow_indicator">%d o más</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="microphone_blocked_dream_overlay_content_description">El micrófono está bloqueado</string>
     <string name="midnight">Noche</string>
     <string name="minimize_button_text">Minimizar</string>
@@ -1626,11 +1623,17 @@ d/M"</string>
     <string name="miui_magazine_clock_date">d/M</string>
     <string name="miui_magazine_clock_date_content_description">dd/MM</string>
     <string name="miui_magazine_clock_week">EEE</string>
+    <string name="miui_notification_menu_custom_fold">Agrupar en \"Más notificaciones\"</string>
+    <string name="miui_notification_menu_custom_unfold">No agrupar</string>
     <string name="miui_notification_menu_more_setting">Más</string>
+    <string name="miui_notification_menu_msg_custom_fold">¿Agrupar notificaciones personalizadas de \"%1$s\" en \"Más notificaciones\"?</string>
+    <string name="miui_notification_menu_msg_custom_unfold">¿Mostrar notificaciones personalizadas de \"%1$s\" en la Barra de notificaciones?</string>
     <string name="miui_notification_menu_msg_not_allow">¿Desactivar todas las notificaciones de %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Está a punto de desactivar el Destacado de notificaciones para %1$s. Estas notificaciones se mostrarán con normalidad. ¿Desactivar ahora?</string>
     <string name="miui_notification_menu_setting_success">Hecho</string>
     <string name="miui_notification_menu_snooze">Posponer</string>
+    <string name="miui_notification_menu_title_custom_fold">Agrupar notificaciones personalizadas</string>
+    <string name="miui_notification_menu_title_custom_unfold">Dejar de agrupar notificaciones personalizadas</string>
     <string name="miui_notification_menu_title_no_drawable">Continuar en la pantalla interior</string>
     <string name="miui_notification_menu_title_not_allow">Desactivar</string>
     <string name="miui_notification_menu_unfocus">Desactivar el Destacado de notificaciones</string>
@@ -1946,10 +1949,6 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="ongoing_privacy_dialog_recent_op">Uso reciente en %1$s</string>
     <string name="ongoing_privacy_dialog_separator">", "</string>
     <string name="ongoing_privacy_dialog_using_op">En uso en %1$s</string>
-    <string name="open_camera_hint_text">Deslice el ícono para abrir la cámara</string>
-    <string name="open_lock_screen_magazine_hint_text">Deslice a la derecha para más opciones</string>
-    <string name="open_remote_center_hint_text">Deslice a la derecha para ver los controles</string>
-    <string name="open_uwb_hint_text">Deslice a la derecha para abrir el Xiaomi Magic Control</string>
     <string name="orb_search_action">Acción de búsqueda</string>
     <string name="osu_completing_sign_up">Completando registro…</string>
     <string name="osu_connect_failed">No se pudo establecer conexión</string>
@@ -2074,6 +2073,7 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="qs_control_big_tile_state_closed">Desactivado</string>
     <string name="qs_control_big_tile_state_connected">Conectado</string>
     <string name="qs_control_big_tile_state_connecting">Conectando…</string>
+    <string name="qs_control_big_tile_state_disconnected">No conectado</string>
     <string name="qs_control_big_tile_state_opening">Activando…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">Usando señal Wi-Fi del teléfono</string>
     <string name="qs_control_big_tile_state_tethered_wlan">Usando señal WLAN del teléfono</string>
@@ -2136,11 +2136,10 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="quick_settings_cellular_detail_dialog_positive_button_turnoff">Desactivar</string>
     <string name="quick_settings_cellular_detail_title">Datos móviles</string>
     <string name="quick_settings_cellular_detail_unable_change">No se puede ajustar durante una llamada</string>
-    <string name="quick_settings_cellular_state_change_message_connected">Conectado a una red de datos móviles</string>
-    <string name="quick_settings_cellular_state_change_message_disconnected">Desconectado de la red de datos móviles</string>
     <string name="quick_settings_cellular_state_change_message_off">Datos móviles desactivados</string>
     <string name="quick_settings_cellular_state_change_message_on">Datos móviles activados</string>
     <string name="quick_settings_color_correction_label">Corregir colores</string>
+    <string name="quick_settings_connected">Conectado</string>
     <string name="quick_settings_connecting">Conectando…</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Ahorro de batería</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">A la(s) %s</string>
@@ -2249,6 +2248,7 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="quick_settings_sim_disabled">" (Deshabilitado)"</string>
     <string name="quick_settings_state_change_message_off">%1$s desactivado</string>
     <string name="quick_settings_state_change_message_on">%1$s activado</string>
+    <string name="quick_settings_state_saved">Guardado</string>
     <string name="quick_settings_state_saved_bt_devices">Dispositivos Bluetooth guardados</string>
     <string name="quick_settings_state_saved_wifi_devices">Redes Wi-Fi guardadas</string>
     <string name="quick_settings_state_saved_wlan_devices_china">WLAN guardado</string>
@@ -2334,6 +2334,7 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="screen_pinning_toast_cancel">Aplicaciones no fijadas</string>
     <string name="screen_pinning_toast_gesture_mode">Deslice hacia arriba desde la parte inferior de la pantalla y pause para desanclar esta aplicación</string>
     <string name="screen_pinning_toast_navigation_mode">Mantenga pulsados los botones de atrás y previsualizar para desanclar esta aplicación</string>
+    <string name="screen_pinning_toast_navigation_talkback_mode">Mantenga pulsado el botón Menú para desanclar esta aplicación</string>
     <string name="screen_pinning_toast_recents_invisible">Para dejar de fijar esta app, mantén presionados los botones de inicio y Atrás</string>
     <string name="screen_pinning_toast_start">Esta aplicación está fijada</string>
     <string name="screen_share_dialog_spinner_text">Rango</string>
@@ -2508,6 +2509,7 @@ Si tienes preguntas, comunícate con %2$s."</string>
     <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
     <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Ethernet</string>
+    <string name="status_bar_next_alarm">La alarma sonará a las %1$s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings_auto_rotation">Girar la pantalla automáticamente</string>
     <string name="status_bar_work">Perfil de trabajo</string>
