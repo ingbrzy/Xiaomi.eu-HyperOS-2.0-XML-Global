@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="PRD_summary_4">Tắt Wi-Fi hoặc chuyển mạng Wi-Fi trong quá trình chuyển có thể khiến quá trình chuyển không thành công.</string>
-    <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
+    <string name="PRD_summary_4_china">Tắt WLAN hoặc chuyển mạng WLAN trong quá trình chuyển có thể khiến quá trình chuyển không thành công.</string>
     <string name="PRD_summary_5">Chuyển tốc độ cao có thể khiến thiết bị của bạn nóng hơn bình thường. Có thể yên tâm rằng thiết bị sẽ hạ nhiệt khi quá trình chuyển kết thúc.</string>
     <string name="abc_action_bar_home_description">Chỉ đường về nhà</string>
     <string name="abc_action_bar_up_description">Di chuyển lên</string>
@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with">Chia sẻ với</string>
     <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
     <string name="abc_toolbar_collapse_description">Thu gọn</string>
-    <string name="accessibility_sliding_button_state_description_off">tắt</string>
-    <string name="accessibility_sliding_button_state_description_on">bật</string>
-    <string name="accessibility_tab_state_description_unselect">Không được chọn</string>
-    <string name="accessibility_tab_statedesc_unselect">Không được chọn</string>
+    <string name="accessibility_sliding_button_state_description_off">Đã tắt</string>
+    <string name="accessibility_sliding_button_state_description_on">Đã bật</string>
+    <string name="accessibility_tab_state_description_unselect">Chưa chọn</string>
     <string name="account_or_password_incorrect">ID tài khoản hoặc mật khẩu không chính xác</string>
     <string name="actionbar_button_up_description">Quay lại</string>
     <string name="afternoon">Buổi chiều</string>
@@ -70,6 +69,9 @@
     <string name="ble_guest_connecting_title">Đang kết nối với thiết bị mới…</string>
     <string name="ble_host_verification_summary">Nhập mã gồm %d-chữ số trên thiết bị cũ của bạn.</string>
     <string name="ble_host_verification_title">Đang kết nối với thiết bị cũ…</string>
+    <string name="ble_manual_authorization_content">Cấp các quyền yêu cầu để có thể chuyển mục bằng Mi Mover. Bạn có thể cấp các quyền này trong Cài đặt.</string>
+    <string name="ble_manual_authorization_positive_btn">Cài đặt</string>
+    <string name="ble_manual_authorization_title">Yêu cầu quyền</string>
     <string name="ble_manual_connect">Kết nối thủ công</string>
     <string name="ble_refuse_button">Từ chối</string>
     <string name="ble_start_ap_successed">Tạo điểm phát sóng thành công. Đang chờ kết nối…</string>
@@ -421,8 +423,10 @@ Mở WeChat và vào Tôi > Cài đặt > Chung > Sao lưu &amp; di chuyển tr�
     <string name="miui_wait_link_title_2">%d. Chọn điểm phát sóng này trên thiết bị cũ của bạn để kết nối.</string>
     <string name="miuix_access_state_desc">Đã chọn</string>
     <string name="miuix_accessibility_title">Tiêu đề</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Thu gọn</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Mở rộng</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Thoát khỏi chế độ chỉnh sửa</string>
-    <string name="miuix_appcompat_accessibility_new_message">Có tin nhắn mới</string>
+    <string name="miuix_appcompat_accessibility_new_message">Thông báo mới</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Vào chế độ chỉnh sửa</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Bỏ chọn tất cả</string>
     <string name="miuix_appcompat_action_mode_select_all">Chọn tất cả</string>
@@ -439,6 +443,7 @@ Mở WeChat và vào Tôi > Cài đặt > Chung > Sao lưu &amp; di chuyển tr�
     <string name="miuix_appcompat_select_all">Chọn tất cả</string>
     <string name="miuix_appcompat_select_all_description">Chọn tất cả</string>
     <string name="miuix_appcompat_select_item">Chọn mục</string>
+    <string name="miuix_appcompat_show_dialog_description">Cửa sổ nổi</string>
     <string name="miuix_progressbar_loading">Đang tải</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Kéo xuống để làm mới</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Làm mới thành công</string>
@@ -449,6 +454,8 @@ Mở WeChat và vào Tôi > Cài đặt > Chung > Sao lưu &amp; di chuyển tr�
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vui lòng chờ…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Không thể tải mục</string>
     <string name="miuix_show_password">Hiển thị mật khẩu</string>
+    <string name="miuix_stretchablewidget_collapsed">Thu gọn</string>
+    <string name="miuix_stretchablewidget_expanded">Mở rộng</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Tin nhắn, liên hệ và lịch sử cuộc gọi</string>
     <string name="monday">Thứ hai</string>
@@ -876,7 +883,7 @@ Giải phóng ít nhất %s."</string>
     <string name="trans_apple_hint_1_title">%d. Cài đặt Mi Mover</string>
     <string name="trans_apple_hint_2_content">Mở Mi Mover trên thiết bị Apple của bạn, chạm vào \"Chạm để gửi mục\" và quét mã QR.</string>
     <string name="trans_apple_hint_2_title">%d. Kết nối thiết bị</string>
-    <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
+    <string name="trans_apple_hint_china">Không rời khỏi trang này hoặc sử dụng WLAN cho đến khi chuyển hoàn tất.</string>
     <string name="trans_apple_interrupt_sub">Chạm vào bên dưới để kết nối lại</string>
     <string name="trans_apple_interrupt_title">Gián đoạn</string>
     <string name="trans_detail_item_app_data_skip_data">Không thể chuyển dữ liệu ứng dụng</string>
