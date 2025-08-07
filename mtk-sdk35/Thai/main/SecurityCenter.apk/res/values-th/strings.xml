@@ -340,6 +340,7 @@
     <string name="app_management_for_install">บล็อกการดาวน์โหลดแอป</string>
     <string name="app_management_for_install_desc">ป้องกันไม่ให้แอปนี้ดาวน์โหลดหรือติดตั้งแอปอื่นๆ</string>
     <string name="app_management_measures">การจัดการแอป</string>
+    <string name="app_manager_ad_text_btn_resume">ดำเนินการต่อ</string>
     <string name="app_manager_advanced_setting">การตั้งค่าขั้นสูง</string>
     <string name="app_manager_airtel_dlg_msg">หากคุณมีคำถาม โปรดติดต่อ Airtel</string>
     <string name="app_manager_airtel_dlg_title">บล็อกโดย Airtel</string>
@@ -462,8 +463,8 @@
     <string name="app_manager_uninstall_notify_title">ถอนการติดตั้งแอปที่ไม่ค่อยได้ใช้</string>
     <string name="app_manager_uninstall_protected_dlg_msg">การถอนการติดตั้งระบบแอปอาจทำให้ส่วนประกอบระบบไม่สามารถทำงานได้อย่างถูกต้อง ถอนการติดตั้งหรือไม่?</string>
     <string name="app_manager_uninstall_protected_dlg_title">ถอนการติดตั้งระบบแอป</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">แอปที่โคลนไว้จะถูกลบออกพร้อมกับข้อมูลแอป</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">การถอนการติดตั้งแอปโคลนจะลบข้อมูลแอปทั้งหมด</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">แอปที่โคลนไว้จะถูกถอนการติดตั้งไปพร้อมกัน</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">แอปคู่ที่เกี่ยวข้องจะถูกถอนการติดตั้งพร้อมกับข้อมูลแอป</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">ถอนการติดตั้งแอปโคลน?</string>
     <string name="app_manager_unstall_application">ถอนการติดตั้ง</string>
     <string name="app_managere_not_have_app">ไม่มี</string>
@@ -570,8 +571,8 @@
     <string name="applock_lock_mode_locked_or_exit">เมื่ออุปกรณ์ถูกล็อกหรือออกจากแอป</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">เมื่ออุปกรณ์ถูกล็อก​ หรืออยู่ใน %d นาทีหลังจากออกจากแอป</string>
     <string name="applock_login_and_add_account">ลงชื่อเข้าใช้และเพิ่ม</string>
-    <string name="applock_mixtype_hidepwd_icon">ซ่อน</string>
-    <string name="applock_mixtype_showpwd_icon">แสดง</string>
+    <string name="applock_mixtype_hidepwd_icon">ซ่อนรหัสผ่าน</string>
+    <string name="applock_mixtype_showpwd_icon">แสดงรหัสผ่าน</string>
     <string name="applock_no_account_login">คุณไม่ได้ลงชื่อเข้าใช้ บัญชี Xiaomi ของคุณ</string>
     <string name="applock_not_add_account"><u>ภายหลัง</u></string>
     <string name="applock_not_add_account_normal">ไม่เพิ่มบัญชี</string>
@@ -583,6 +584,12 @@
     <string name="applock_operate_fingerprint_title">ใช้ลายนิ้วมือของคุณ</string>
     <string name="applock_operate_hidenoti_summary">ล็อกแอป สามารถทำได้สำหรับแอปที่มีการป้องกัน</string>
     <string name="applock_operate_hidenoti_title">ต้องการซ่อนการแจ้งเตือนที่ละเอียดอ่อนหรือไม่?</string>
+    <string name="applock_password_set_luck_button">ตั้งค่า</string>
+    <string name="applock_password_set_luck_comment">คุณต้องตั้งค่าล็อคหน้าจอเพื่อใช้คุณสมบัติส่วนตัวบนอุปกรณ์นี้</string>
+    <string name="applock_password_set_luck_message">"หากต้องการเข้าถึงฟีเจอร์ส่วนตัวบนอุปกรณ์ของคุณอย่างปลอดภัย Xiaomi HyperOS จะใช้การล็อกหน้าจอของคุณตามค่าเริ่มต้นสำหรับการยืนยันตัวตน
+
+หากคุณยังไม่ได้ตั้งค่าการล็อกหน้าจอ ให้ทำตามคำแนะนำเพื่อตั้งค่า"</string>
+    <string name="applock_password_set_luck_title">ตั้งการล็อกหน้าจอก่อน</string>
     <string name="applock_recommend_tips">%s ของผู้ใช้ปกป้องแอปเหล่านี้</string>
     <string name="applock_recommend_title">เลือกแอป</string>
     <string name="applock_set_complete">ใช้ล็อกแอป</string>
@@ -867,6 +874,22 @@
     <string name="bind_xiaomi_account_success">เพิ่มบัญชี Xiaomi เรียบร้อยแล้ว</string>
     <string name="bind_xiaomi_account_summary">ใช้บัญชี Xiaomi เพื่อรีเซ็ตรหัสผ่านของคุณ</string>
     <string name="bind_xiaomi_account_title">เพิ่มบัญชี Xiaomi</string>
+    <string name="biometric_applock_password_lockout_title">มีการพยายามมากครั้งเกินที่ระบบกำหนด</string>
+    <string name="biometric_applock_pwd">การยืนยันล็อกแอป</string>
+    <string name="biometric_applock_pwd_or_finger">ยืนยันด้วยลายนิ้วมือหรือล็อกแอป</string>
+    <string name="biometric_face_error">ไม่สามารถตรวจสอบได้</string>
+    <string name="biometric_face_finger_change">ข้อมูลไบโอเมตริกซ์มีการเปลี่ยนแปลง กรุณากรอกรหัสผ่านเพื่อยืนยัน</string>
+    <string name="biometric_finger_verify">การตรวจสอบลายนิ้วมือ</string>
+    <string name="biometric_lockscreen_pwd">การยืนยันการล็อคหน้าจอ</string>
+    <string name="biometric_lockscreen_pwd_or_finger">ยืนยันด้วยลายนิ้วมือหรือล็อคหน้าจอ</string>
+    <string name="biometric_private_password">การยืนยันรหัสผ่านเพื่อการปกป้องความเป็นส่วนตัว</string>
+    <string name="biometric_private_password_lockout_title">มีการพยายามมากครั้งเกินที่ระบบกำหนด</string>
+    <string name="biometric_private_pwd_or_finger">ยืนยันด้วยลายนิ้วมือหรือรหัสผ่านป้องกันความเป็นส่วนตัว</string>
+    <string name="biometric_reset_password_tips">รีเซ็ตรหัสผ่านสำเร็จแล้ว ป้อนรหัสผ่านใหม่เพื่อปลดล็อค</string>
+    <string name="biometric_screen_lock_password_lockout_title">มีการพยายามมากครั้งเกินที่ระบบกำหนด</string>
+    <string name="biometric_subtitle">สำหรับการเปิด %1$s</string>
+    <string name="biometric_subtitle_default">ยืนยันตัวตนของคุณ</string>
+    <string name="biometric_verify_retry">ลองอีกครั้ง</string>
     <string name="birthday">วันเกิด</string>
     <string name="bl_no_blacklist">ไม่มีหมายเลขที่ถูกบล็อก</string>
     <string name="bl_no_block_call">ไม่มีสายเรียกเข้าที่ถูกบล็อก</string>
@@ -1002,6 +1025,8 @@
     <string name="car_sickness_relief_comment_text">เมื่อตรวจพบความเคลื่อนไหวของยานพาหนะ จุดต่างๆ จะปรากฏบนหน้าจอทั้งสองข้างเพื่อระบุว่ายานพาหนะกำลังเคลื่อนที่อยู่หรือไม่ ซึ่งอาจช่วยชะลอการเกิดอาการเมาเดินทางได้</string>
     <string name="car_sickness_relief_example_text_1">เมื่อรถเพิ่มความเร็วหรือลดความเร็วลง</string>
     <string name="car_sickness_relief_example_text_2">เมื่อรถเลี้ยวหรือเปลี่ยนเลน</string>
+    <string name="car_sickness_relief_exit_text">การบรรเทาอาการเมารถหยุดทำงานแล้ว</string>
+    <string name="car_sickness_relief_start_text">การบรรเทาอาการเมารถได้ผลแล้ว</string>
     <string name="car_sickness_remind_time_title">ตัวระบุการเคลื่อนไหว</string>
     <string name="car_sickness_title">บรรเทาอาการเมา</string>
     <string name="card_main_apkclean_title">ลบ APKs</string>
@@ -1178,6 +1203,7 @@
     <string name="connected_devices_notification_title">อนุญาตให้อุปกรณ์ด้านบนแสดงการแจ้งเตือนของอุปกรณ์นี้ไหม?</string>
     <string name="connected_devices_permission">การเชื่อมต่อระหว่างกันและการอนุญาต</string>
     <string name="connected_devices_permission_settings">การเชื่อมต่อระหว่างกันและการอนุญาต</string>
+    <string name="connected_devices_permission_summary">จัดการการเข้าถึงอุปกรณ์นี้</string>
     <string name="connected_devices_record">บันทึก</string>
     <string name="connected_devices_record_desc">อนุญาตให้อุปกรณ์ใกล้เคียงที่ลงชื่อเข้าใช้บัญชีเดียวกันบันทึกเสียงบนอุปกรณ์นี้</string>
     <string name="connected_devices_record_title">อนุญาตให้อุปกรณ์ด้านบนบันทึกเสียงบนอุปกรณ์นี้ไหม?</string>
@@ -1345,6 +1371,8 @@
     <string name="deep_save_ontime_boot_shutdown_summary">ตั้งเวลาเพื่อเปิด-ปิดอุปกรณ์โดยอัตโนมัติ</string>
     <string name="delete">ลบ</string>
     <string name="delete_all_sms">ลบทั้งหมด</string>
+    <string name="delete_connected_devices">ลบอุปกรณ์ที่เลือกตอนนี้เลยใช่ไหม?</string>
+    <string name="delete_connected_devices_title">ลบ %1$s เดี๋ยวนี้?</string>
     <string name="delete_from_manual_item_white_list">ลบออกจากรายการยกเว้น</string>
     <string name="delete_input">ลบ</string>
     <string name="deleted_apps">แอปที่ถูกลบ</string>
@@ -1821,6 +1849,8 @@
     <string name="game_anti_disturb_msg">เกมส์ DND</string>
     <string name="game_balance_more_setting_title">การตั้งค่าเพิ่มเติม</string>
     <string name="game_balance_vision_enhance_subtitle">เพิ่มคอนทราสต์และเพิ่มรายละเอียดสำหรับเกม</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">ใช้ได้เฉพาะเมื่อตั้งค่าความละเอียดของเกมเป็นค่าสูงสุดเท่านั้น</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">ใช้ได้เฉพาะเมื่อตั้งค่าความแม่นยำในการเรนเดอร์ของเกมเป็นค่าสูงสุดเท่านั้น</string>
     <string name="game_balance_vision_enhance_title">ปรับปรุงภาพ</string>
     <string name="game_booster">Game Turbo</string>
     <string name="game_booster_close">Game Turbo ปิดอยู่</string>
@@ -1858,8 +1888,13 @@
     <string name="game_toolbox_ai_upgrade_dialog_btn">อัปเดต</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">มีการอัปเดตสำหรับบริการเกม AI แล้ว โปรดอัปเดตก่อนใช้งานฟีเจอร์ที่เกี่ยวข้อง</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">ตรวจหาการอัปเดต</string>
+    <string name="game_toolbox_auto_brightness_talkback">ความสว่างอัตโนมัติ</string>
+    <string name="game_toolbox_btn_back_talkback">ย้อนกลับ</string>
+    <string name="game_toolbox_cellular_network">เพิ่มความเร็วเครือข่ายมือถือ</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">เปิดเพื่อลดคุณภาพของภาพเล็กน้อยและลดการใช้พลังงานอย่างมาก</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"หมายเหตุ:
+เมื่อเปิดใช้งานอัตราเฟรมอัจฉริยะ เครื่องมือตรวจจับอัตราเฟรมในเกมและของบริษัทอื่นอาจตรวจจับอัตราเฟรมได้ไม่แม่นยำ โปรดดูแดชบอร์ดประสิทธิภาพเพื่อดูอัตราเฟรมจริง"</string>
     <string name="game_toolbox_display_style_desc">ปรับแต่งรูปแบบภาพ (รองรับ HDR ของเกม)</string>
     <string name="game_toolbox_display_style_game_hdr">เกม HDR</string>
     <string name="game_toolbox_display_style_title">สไตล์ภาพ</string>
@@ -1868,10 +1903,20 @@
     <string name="game_toolbox_fps_shake">จิตเตอร์ %d FPS</string>
     <string name="game_toolbox_immersion_sound_desc">เมื่อใช้หูฟัง จะจับเอฟเฟ็กต์เสียงต่างๆ เช่น เสียงฝีเท้าและเสียงพูดได้อย่างแม่นยำ ช่วยเพิ่มอรรถรสในการเล่นเกม</string>
     <string name="game_toolbox_immersion_sound_title">เสียงสมจริง</string>
+    <string name="game_toolbox_item_joystick_key_mapping">ปุ่มจอยควบคุม</string>
+    <string name="game_toolbox_margin_restrain_description">ตั้งค่าช่วงการปฏิเสธการสัมผัสเพื่อลดการสัมผัสโดยไม่ได้ตั้งใจ</string>
     <string name="game_toolbox_mem_clean_desc">ล้างหน่วยความจำและเพิ่มความเร็ว</string>
     <string name="game_toolbox_more_tools_title">เครื่องมือเพิ่มเติม</string>
     <string name="game_toolbox_perf_config_desc">กำหนดค่าการตั้งค่าประสิทธิภาพเกม</string>
     <string name="game_toolbox_perf_config_title">การตั้งค่าประสิทธิภาพ</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">คุณสามารถปรับแต่งความละเอียดสุดยอด และอัตราเฟรมอัจฉริยะเพื่อจัดการอัตราเฟรมและคุณภาพของภาพได้ &lt;font color=%s>อัตราเฟรมจริงจะแสดงบนแดชบอร์ดประสิทธิภาพ&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">เมื่อเปิดใช้งานการให้ความสำคัญกับอัตราเฟรม อัตราเฟรมจริงจะเป็นตามที่แสดงบนแดชบอร์ดประสิทธิภาพ</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">ความสำคัญของอัตราเฟรมช่วยปรับปรุงอัตราเฟรมผ่านอัตราเฟรมอัจฉริยะ &lt;font color=%s>อัตราเฟรมจริงจะแสดงบนแดชบอร์ดประสิทธิภาพ&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">เมื่อเปิดใช้งานการให้ความสำคัญกับภาพ อัตราเฟรมจริงจะเป็นตามที่แสดงบนแดชบอร์ดประสิทธิภาพ</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">ความสำคัญของภาพช่วยปรับปรุงคุณภาพของภาพผ่านความละเอียดสูงสุด และจัดการอัตราเฟรมผ่านอัตราเฟรมอัจฉริยะ &lt;font color=%s>อัตราเฟรมจริงจะแสดงบนแดชบอร์ดประสิทธิภาพ&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">ความสว่างหน้าจอ</string>
+    <string name="game_toolbox_settings_talkback">ตั้งค่า</string>
     <string name="game_toolbox_slow_charge_desc">เปิดใช้งานฟีเจอร์นี้เพื่อยกระดับประสบการณ์การเล่นเกมขณะชาร์จโดยลดความเร็วในการชาร์จลง ฟีเจอร์นี้สามารถป้องกันไม่ให้อุปกรณ์ของคุณร้อนเกินไป เปิดใช้งานตอนนี้เลยไหม?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">รับทราบ</string>
     <string name="game_toolbox_slow_charge_negative_btn">ยกเลิก </string>
@@ -1880,6 +1925,12 @@
     <string name="game_toolbox_slow_charge_positive_btn">เปิดใช้งาน</string>
     <string name="game_toolbox_slow_charge_title">ชาร์จช้า</string>
     <string name="game_toolbox_slow_charge_toast">ชาร์จช้าเปิดอยู่</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">การตอบสนองแบบสัมผัสไม่ทำงานกับเค้าโครงเดิม การตอบสนองแบบสัมผัสปิดอยู่</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">การตอบสนองแบบสัมผัสไม่ทำงานกับเค้าโครงเดิม</string>
+    <string name="game_toolbox_smotion_vibrate_desc">เพิ่มการตอบสนองแบบสัมผัสตามการเคลื่อนไหวของเกม รองรับเฉพาะบางเกมเท่านั้น</string>
+    <string name="game_toolbox_smotion_vibrate_title">การตอบสนองการสัมผัส</string>
+    <string name="game_toolbox_super_follow_up_msg">ปรับปรุงการตอบสนองการสัมผัสและการติดตามผ่านทางไปป์ไลน์ฮาร์ดแวร์-ซอฟต์แวร์เต็มรูปแบบ</string>
+    <string name="game_toolbox_super_shake_msg">ลดการสั่นสะเทือนจากการแตะและปัด ช่วยเพิ่มเสถียรภาพในการควบคุม</string>
     <string name="game_toolbox_title">เครื่องมือการเล่นเกม</string>
     <string name="game_toolbox_title_game_center">เกม</string>
     <string name="game_toolbox_title_wild">โหมดสุดยอด</string>
@@ -2745,6 +2796,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="main_alert_message_no_imsi">ไม่พบซิมการ์ด</string>
     <string name="main_alert_message_open_traffic_ctrl">พวกเราแนะนำจำกัดการใช้ข้อมูล</string>
     <string name="main_balance_check">ตรวจสอบยอดคงเหลือ</string>
+    <string name="main_bill_out_talkback">ยอดคงเหลือติดลบ %1$.2f</string>
     <string name="main_bill_remained">ยอดโทรคงเหลือ</string>
     <string name="main_button_mi_sim_close">ใช้งาน Mi ซิม</string>
     <string name="main_button_mi_sim_open">เรียกดูรายละเอียด</string>
@@ -3343,6 +3395,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="open_extreme_power_save_mode_title">เปิดใช้งานตัวประหยัดแบตเตอรี่ขั้นสูง</string>
     <string name="open_game">เปิด</string>
     <string name="open_now">อนุญาตให้แอปใช้งานข้อมูลมือถือ</string>
+    <string name="open_physical_sim_self_detection_noti_centent">การเชื่อมต่อโรมมิ่งของคุณอาจทำงานไม่ถูกต้อง</string>
+    <string name="open_physical_sim_self_detection_noti_title">ลองวินิจฉัยเครือข่ายโรมมิ่ง</string>
     <string name="open_wlan_title">อนุญาตให้แอปนี้เปิดและปิด Wi-Fi</string>
     <string name="operator_location_settings">ตั้งค่าผู้ให้บริการและตำแหน่งพิกัด</string>
     <string name="operator_location_settings_message">ไม่รู้จักผู้ให้บริการและตำแหน่งของคุณ ไม่สามารถตั้งค่ายอดเงินคงเหลือของโทรศัพท์และคำเตือนการใช้ข้อมูลในขณะนี้</string>
@@ -3431,6 +3485,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="password_unlock">ปลดล็อคด้วยรหัสผ่าน</string>
     <string name="password_xspace_forget_pattern_message">แก้ไขรหัสผ่านพื้นที่ทับซ้อน คุณจะต้องลบพื้นที่ทับซ้อนปัจจุบันของคุณและสร้างใหม่</string>
     <string name="pc_18W_high_power_reverse_charging_summary">ชาร์จเร็วขึ้นด้วยการชาร์จย้อนกลับกำลังสูง การเชื่อมต่อ USB ใช้สำหรับการชาร์จเท่านั้น</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">ชาร์จได้เร็วขึ้นด้วยการชาร์จย้อนกลับที่มีกำลังไฟสูง</string>
     <string name="pc_18W_high_power_reverse_charging_title">ชาร์จย้อนกลับ</string>
     <string name="pc_abnormal_scan_button_text">ปิดแอป</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">ป้องกันไม่ให้ระบบเข้าสู่โหมดสแตนด์บาย</string>
@@ -3645,6 +3700,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">พับอุปกรณ์ก่อนชาร์จเพื่อประสบการณ์การชาร์จที่รวดเร็วและเสถียรยิ่งขึ้น</string>
     <string name="pc_remind_close_cover_to_charge_title">พับเพื่อชาร์จ</string>
     <string name="pc_reminder_always_protect_summary">เปลี่ยนไปใช้การชาร์จแบบจำกัดเพื่อยืดอายุแบตเตอรี่</string>
+    <string name="pc_remove_shell_charging_notification_msg">ไม่สามารถใช้การชาร์จแบบไร้สายได้เมื่อใช้เคสเกม ถอดเคสออกแล้วลองอีกครั้ง หรือใช้การชาร์จแบบมีสาย</string>
+    <string name="pc_remove_shell_charging_notification_title">ถอดเคสออกเพื่อใช้การชาร์จแบบไร้สาย</string>
+    <string name="pc_remove_shell_charging_toast">ถอดเคสออกเพื่อใช้การชาร์จไร้สายแบบย้อนกลับ</string>
     <string name="pc_satellite_auto_enter_super_power">เปิดตัวประหยัดแบตเตอรี่อัลตร้าเพื่อให้แน่ใจว่ามีการสื่อสารผ่านดาวเทียม</string>
     <string name="pc_save_charge">การชาร์จ</string>
     <string name="pc_save_other_setting">การตั้งค่าอื่นๆ</string>
@@ -4058,6 +4116,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">เปลี่ยนเป็นอัตราการรีเฟรช %d Hz</string>
     <string name="power_dialog_super_save_msg">ตัวประหยัดแบตเตอรี่อัลตร้าจำกัดคุณลักษณะการใช้พลังงานมากที่สุดและลดประสิทธิภาพของอุปกรณ์ของคุณเพื่อที่จะออกจากฟังก์ชั่นพื้นฐาน (เช่น การโทร SMS และการเชื่อมต่อกับเครือข่าย) ใช้ได้นานที่สุด เปิดตัวประหยัดแบตเตอรี่อัลตร้าหรือไม่?</string>
     <string name="power_dialog_super_save_msg_5g">ตังประหยัดแบตเตอรี่อัลตร้าจะจำกัดคุณสมบัติที่ใช้พลังงานสูงส่วนใหญ่ (เช่น การเชื่อมต่อ 5G) ลดประสิทธิภาพของอุปกรณ์ของคุณ เฉพาะการโทร ข้อความ และการเชื่อมต่อเครือข่ายจะไม่ได้รับผลกระทบ เปิดตัวประหยัดแบตเตอรี่อัลตร้าหรือไม่?</string>
+    <string name="power_dialog_super_save_msg_p2">ตัวประหยัดแบตเตอรี่อัลตร้า จะปิดจอแสดงผลด้านหลังและจำกัดคุณสมบัติที่กินไฟมากที่สุด ทำให้ประสิทธิภาพการทำงานของอุปกรณ์ลดลงเพื่อให้ฟังก์ชันพื้นฐาน (เช่น การโทร SMS และการเชื่อมต่อกับเครือข่าย) ใช้งานได้นานที่สุด เปิด ตัวประหยัดแบตเตอรี่อัลตร้า หรือไม่?</string>
     <string name="power_dialog_super_save_title">ตัวประหยัดแบตเตอรี่อัลตร้า</string>
     <string name="power_idle">โทรศัพท์ไม่ได้ใช้งาน</string>
     <string name="power_main_battery_last_day_hour">ใช้ได้อีก %1$s วัน %2$s ชม.</string>
@@ -4267,6 +4326,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">เมื่อคุณใช้เกินแพ็คเกจข้อมูลของคุณ</string>
     <string name="pref_package_traffic_settings">แพ็คเกจข้อมูล</string>
+    <string name="pref_physical_sim_self_detection_cat_title">ทดสอบเครือข่าย</string>
     <string name="pref_pkg_begin_date">วันที่รีเซ็ตรอบการใช้</string>
     <string name="pref_roaming_daily_limit_setting">ตั้งเพดานข้อมูลรายวันขณะโรมมิ่ง</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">เพดานข้อมูลรายวัน</string>
@@ -4278,6 +4338,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pref_title_diagnostics_show_float_notification">การแจ้งเตือนแบบลอย</string>
     <string name="pref_title_manual_check_virus_db_update">ตรวจสอบการอัปเดต</string>
     <string name="pref_title_over_traffic_limit_warning">เมื่อใช้ไปเกินกำหนด</string>
+    <string name="pref_title_physical_sim_self_detection">การวินิจฉัยเครือข่ายโรมมิ่ง</string>
     <string name="pref_title_traffic_limit_number">ปริมาณ</string>
     <string name="pref_title_traffic_package_type">ประเภทแพ็คเกจข้อมูล</string>
     <string name="pref_title_traffic_speed_state">แสดงความเร็วเครือข่าย</string>
@@ -4330,6 +4391,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">คุณลักษณะนี้ช่วยให้คุณซ่อนไอคอนแอปเพื่อไม่ให้ปรากฏบนหน้าจอหลักอีกต่อไป</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">หลังจากคุณป้อนรหัสผ่านของคุณแล้ว โฟลเดอร์ที่มีแอปที่ซ่อนอยู่จะปรากฏขึ้นมา</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">วางสองนิ้วไว้บนหน้าจอ แล้วคุณจะเห็นข้อความที่ขอให้คุณป้อนรหัสผ่านล็อกแอปของคุณ</string>
+    <string name="privacy_custom_password_long">ป้อนสูงสุด %d หลัก</string>
+    <string name="privacy_custom_password_too_short">ป้อนอย่างน้อย %d หลัก</string>
     <string name="privacy_danger_permission_status_summary">จัดการแอปที่ขอการอนุญาตที่ละเอียดอ่อน</string>
     <string name="privacy_danger_permission_status_title">การดำเนินการที่ละเอียดอ่อน</string>
     <string name="privacy_danger_permission_summary">มอนิเตอร์ว่าแอปใช้สิทธิ์ของคุณอย่างไรบ้าง</string>
@@ -4389,6 +4452,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_global_guide_permission_guide_text">คุณจะได้รับการแจ้งเตือนแถบสถานะเมื่อแอปบันทึกเสียงหรือใช้กล้องถ่ายรูป หากต้องการเรียนรู้ว่าแอปใดทำเช่นนั้นให้แตะการแจ้งเตือน</string>
     <string name="privacy_guide_permission_guide_text">คุณสามารถรับการแจ้งเตือนในแถบสถานะเมื่อแอปเข้าถึง ตำแหน่งของคุณ บันทึกเสียง หรือถ่ายภาพ</string>
     <string name="privacy_hide_other_permissions">ซ่อนการอนุญาตอื่นๆ</string>
+    <string name="privacy_hybrid_password_long">ป้อนไม่เกิน %d ตัวอักษร</string>
+    <string name="privacy_hybrid_password_too_short">ป้อนอย่างน้อย %d ตัวอักษร</string>
     <string name="privacy_informed_title">สถิติ</string>
     <string name="privacy_input_mode">อินพุตที่ปลอดภัย</string>
     <string name="privacy_input_model_tips">อินพุตที่ปลอดภัยเปิดอยู่ แป้นพิมพ์ของคุณไม่สามารถแสดงหน้าต่างป๊อปอัปหรือเข้าถึงรายชื่อติดต่อ ข้อมูลตำแหน่ง และประวัติการโทร</string>
@@ -4409,6 +4474,28 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_notification_title_mic">%1s กำลังใช้ไมโครโฟนในพื้นหลัง</string>
     <string name="privacy_other_permission_manage_summary">จัดการสิทธิ์ที่เกี่ยวข้องกับความเป็นส่วนตัวอื่นๆ</string>
     <string name="privacy_other_permission_manage_title">การอนุญาตอื่นๆ</string>
+    <string name="privacy_password_chanage_process">เปลี่ยนรหัสผ่านการป้องกันความเป็นส่วนตัว</string>
+    <string name="privacy_password_custom_password">PIN ที่กำหนดเอง</string>
+    <string name="privacy_password_digital_password">ตั้งค่า PIN %d-หลัก</string>
+    <string name="privacy_password_enter_custom_password">ป้อนรหัสผ่าน %1$d–%2$d หลัก</string>
+    <string name="privacy_password_enter_custom_password_again">ป้อนรหัส PIN ของคุณอีกครั้ง</string>
+    <string name="privacy_password_enter_custom_password_not_match">รหัส PIN ที่ป้อนไม่ตรงกัน</string>
+    <string name="privacy_password_enter_digital_password">ป้อน PIN %d หลักของคุณ</string>
+    <string name="privacy_password_enter_digital_password_again">ป้อน PIN %d หลักของคุณอีกครั้ง</string>
+    <string name="privacy_password_enter_graphic_password">วาดรูปแบบการปลดล็อก เชื่อมต่ออย่างน้อย %d จุด</string>
+    <string name="privacy_password_enter_hybrid_password">ป้อนรหัสผ่าน %1$d–%2$d ตัวอักษรของคุณ</string>
+    <string name="privacy_password_enter_hybrid_password_again">ป้อนรหัสผ่านของคุณอีกครั้ง</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">รหัสผ่านไม่สามารถมีอักขระที่ไม่ถูกต้องได้</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">รหัสผ่านไม่ตรงกัน</string>
+    <string name="privacy_password_graphic_password">รูปแบบ</string>
+    <string name="privacy_password_hybrid_password">รหัสผ่าน</string>
+    <string name="privacy_password_other_password">รหัสผ่านอื่นๆ</string>
+    <string name="privacy_password_setup_confirm">ตกลง</string>
+    <string name="privacy_password_setup_hint">ป้อนรหัสผ่านของคุณ</string>
+    <string name="privacy_password_setup_next">ต่อไป</string>
+    <string name="privacy_password_setup_not_match">ลองอีกครั้ง</string>
+    <string name="privacy_password_setup_process">ตั้งรหัสผ่านการปกป้องความเป็นส่วนตัว</string>
+    <string name="privacy_password_update_type">เลือกประเภทรหัสผ่าน</string>
     <string name="privacy_permission_call">การเข้าถึงหรือแก้ไขประวัติการโทร</string>
     <string name="privacy_permission_call_title">ป้องกันการโทร</string>
     <string name="privacy_permission_camera_title">จำกัดการใช้กล้องในพื้นหลัง</string>
@@ -4521,6 +4608,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_risk_uninstall_title">ถอนการติดตั้งแอป</string>
     <string name="privacy_risk_work_encryption">โซเชียลมีเดียและไฟล์สำนักงานไม่ได้รับการป้องกัน</string>
     <string name="privacy_screen_share_notification_content">คุณกำลังฉายภาพไปยังอุปกรณ์อื่น การคุ้มครองความเป็นส่วนตัวเปิดอยู่</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">ป้องกันความเป็นส่วนตัวของคุณ</string>
+    <string name="privacy_screen_share_notification_land_title">แชร์หน้าจอ</string>
     <string name="privacy_screen_share_notification_protect_content">รายการที่ละเอียดอ่อนจะไม่แสดงบนอุปกรณ์ภายนอก</string>
     <string name="privacy_screen_share_notification_protect_title">เนื้อหาบนหน้าจอได้รับการคุ้มครอง</string>
     <string name="privacy_screen_share_notification_title">ฉายภาพเนื้อหาหน้าจอ</string>
@@ -4567,6 +4656,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_using_record">บันทึกเสียง</string>
     <string name="privacyapp_number_masked_text">เนื้อหาการแจ้งเตือนถูกซ่อน</string>
     <string name="privacyapp_number_unmasked_text">เนื้อหาการแจ้งเตือนสามารถซ่อนได้</string>
+    <string name="private_file">ไฟล์ส่วนบุคคล</string>
+    <string name="private_note">บันทึกที่ซ่อนอยู่</string>
+    <string name="private_photo">อัลบั้มส่วนตัว</string>
+    <string name="private_sms">ข้อความส่วนตัว</string>
     <string name="process_kernel_label">แอนดรอยด์</string>
     <string name="process_mediaserver_label">เซิร์ฟเวอร์สื่อมีเดีย</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
@@ -4575,6 +4668,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="prompt_input_time_illegal">ไม่สามารถตั้งเวลาดังกล่าวได้ แก้ไขและลองอีกครั้ง</string>
     <string name="protocol_exception_title">การวิเคราะห์โปรโตคอลเครือข่าย</string>
     <string name="protocol_loop_back_exception_summary">การทดสอบการวนกลับภายในเครื่องล้มเหลว หากต้องการรายงานปัญหานี้ ให้ไปที่แอป Feedback และส่งบันทึกจากอุปกรณ์ของคุณ</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">ย้อนกลับ</string>
     <string name="provision_next">ถัดไป</string>
     <string name="provision_skip_underline">ข้าม</string>
@@ -5685,6 +5779,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="traffic_remind_switch">แจ้งเตือนการใช้ข้อมูล</string>
     <string name="traffic_reminder_settings">ตั้งค่าการเตือนการใช้ข้อมูล</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">เลือกผู้ให้บริการ</string>
     <string name="traffic_setting_fragment_area">สังกัด</string>
     <string name="traffic_setting_fragment_brand">แพ็คเกจ</string>
     <string name="traffic_setting_fragment_button1_text">ยกเลิก</string>

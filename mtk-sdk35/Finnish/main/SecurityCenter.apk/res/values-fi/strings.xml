@@ -340,6 +340,7 @@
     <string name="app_management_for_install">Estä sovellusten lataukset</string>
     <string name="app_management_for_install_desc">Estä tätä sovellusta lataamasta tai asentamasta muita sovelluksia</string>
     <string name="app_management_measures">Sovellusten hallinta</string>
+    <string name="app_manager_ad_text_btn_resume">Jatka</string>
     <string name="app_manager_advanced_setting">Lisäasetukset</string>
     <string name="app_manager_airtel_dlg_msg">Jos sinulla on kysyttävää, ota yhteyttä Airteliin</string>
     <string name="app_manager_airtel_dlg_title">Airtel estänyt</string>
@@ -462,8 +463,8 @@ Et menetä mitään sovellustietoja."</string>
     <string name="app_manager_uninstall_notify_title">Poista harvoin käytetyt sovellukset</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Järjestelmäsovelluksien poistaminen saattaa estää joitakin järjestelmäkomponentteja toimimasta kunnolla. Poistetaanko siitä huolimatta?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Poistetaan järjestelmäsovelluksia</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Sovellusdatan mukana poistuu myös vastaavat kaksoissovellukset.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Kaksoissovelluksen poistaminen hävittää myös kaikki sovellustiedot.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Kaksoissovelluksen asennus poistetaan tämän kanssa.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Sovellustietojen mukana poistetaan myös vastaavat kaksoissovellukset.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Poistetaanko kaksoissovellus?</string>
     <string name="app_manager_unstall_application">Poista</string>
     <string name="app_managere_not_have_app">Tyhjä</string>
@@ -570,8 +571,8 @@ Et menetä mitään sovellustietoja."</string>
     <string name="applock_lock_mode_locked_or_exit">Kun laite on lukittu tai poistuttuasi sovelluksesta</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">Kun laite on lukittu​ tai %d minuutin kuluttua sovelluksesta poistumisesta</string>
     <string name="applock_login_and_add_account">Kirjaudu ja lisää</string>
-    <string name="applock_mixtype_hidepwd_icon">Piilota</string>
-    <string name="applock_mixtype_showpwd_icon">Näytä</string>
+    <string name="applock_mixtype_hidepwd_icon">Piilota salasana</string>
+    <string name="applock_mixtype_showpwd_icon">Näytä salasana</string>
     <string name="applock_no_account_login">Et ole kirjautunut Xiaomi-tilillesi</string>
     <string name="applock_not_add_account"><u>Ei nyt</u></string>
     <string name="applock_not_add_account_normal">Älä lisää tiliä</string>
@@ -583,6 +584,12 @@ Et menetä mitään sovellustietoja."</string>
     <string name="applock_operate_fingerprint_title">Käytä sormenjälkeäsi</string>
     <string name="applock_operate_hidenoti_summary">Sovelluslukko voi tehdä tämän suojatuille sovelluksille</string>
     <string name="applock_operate_hidenoti_title">Haluatko piilottaa arkaluontoiset ilmoitukset?</string>
+    <string name="applock_password_set_luck_button">Asetukset</string>
+    <string name="applock_password_set_luck_comment">Sinun on määritettävä näytön lukitus käyttääksesi tämän laitteen yksityisiä ominaisuuksia.</string>
+    <string name="applock_password_set_luck_message">"Jotta voit käyttää turvallisesti laitteesi yksityisiä ominaisuuksia, Xiaomi HyperOS käyttää oletuksena näytön lukitusta henkilöllisyyden vahvistamiseen.
+
+Jos et ole vielä määrittänyt näytön lukitusta, määritä se seuraamalla ohjeita."</string>
+    <string name="applock_password_set_luck_title">Aseta ensin näytönlukitus</string>
     <string name="applock_recommend_tips">%s käyttäjistä suojaa näitä sovelluksia</string>
     <string name="applock_recommend_title">Valitse sovellukset</string>
     <string name="applock_set_complete">Käytä sovelluslukkoa</string>
@@ -867,6 +874,22 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="bind_xiaomi_account_success">Xiaomi-tili lisätty onnistuneesti</string>
     <string name="bind_xiaomi_account_summary">Käytä Xiaomi-tiliä salasanasi palauttamiseen</string>
     <string name="bind_xiaomi_account_title">Lisää Xiaomi-tili</string>
+    <string name="biometric_applock_password_lockout_title">Liian monta epäonnistunutta yritystä</string>
+    <string name="biometric_applock_pwd">Sovelluslukon vahvistus</string>
+    <string name="biometric_applock_pwd_or_finger">Vahvista sormenjäljellä tai Sovelluslukolla</string>
+    <string name="biometric_face_error">Ei voitu vahvistaa</string>
+    <string name="biometric_face_finger_change">Biometriset tiedot ovat muuttuneet. Vahvista antamalla salasanasi.</string>
+    <string name="biometric_finger_verify">Sormenjälkitarkistus</string>
+    <string name="biometric_lockscreen_pwd">Näytön lukituksen vahvistus</string>
+    <string name="biometric_lockscreen_pwd_or_finger">Vahvista sormenjäljellä tai näytön lukituksella</string>
+    <string name="biometric_private_password">Yksityisyydensuojan salasanan vahvistus</string>
+    <string name="biometric_private_password_lockout_title">Liian monta epäonnistunutta yritystä</string>
+    <string name="biometric_private_pwd_or_finger">Vahvista sormenjäljellä tai yksityisyydensuojan salasanalla</string>
+    <string name="biometric_reset_password_tips">Salasanan vaihto onnistui. Syötä uusi salasana avataksesi lukituksen.</string>
+    <string name="biometric_screen_lock_password_lockout_title">Liian monta epäonnistunutta yritystä</string>
+    <string name="biometric_subtitle">Sovelluksen %1$s avaamiseksi</string>
+    <string name="biometric_subtitle_default">Vahvista henkilöllisyytesi</string>
+    <string name="biometric_verify_retry">Yritä uudestaan</string>
     <string name="birthday">Syntymäpäivä</string>
     <string name="bl_no_blacklist">Ei estettyjä numeroita.</string>
     <string name="bl_no_block_call">Ei estettyjä puheluita.</string>
@@ -1002,6 +1025,8 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="car_sickness_relief_comment_text">Kun ajoneuvo havaitsee liikettä, näytön molemmilla puolilla näkyy pisteitä, jotka osoittavat, onko ajoneuvo liikkeessä, mikä voi auttaa viivästyttämään matkapahoinvoinnin puhkeamista.</string>
     <string name="car_sickness_relief_example_text_1">Kun ajoneuvo kiihtyy tai hidastaa</string>
     <string name="car_sickness_relief_example_text_2">Kun ajoneuvo kääntyy tai vaihtaa kaistaa</string>
+    <string name="car_sickness_relief_exit_text">Matkapahoinvoinnin lievitys lakkasi toimimasta</string>
+    <string name="car_sickness_relief_start_text">Matkapahoinvoinnin lievitys toimii</string>
     <string name="car_sickness_remind_time_title">Liikeilmaisimet</string>
     <string name="car_sickness_title">Matkapahoinvoinnin helpotus</string>
     <string name="card_main_apkclean_title">Poista APK:t</string>
@@ -1178,6 +1203,7 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="connected_devices_notification_title">Saako yllä olevan laitteen näyttää tämän laitteen ilmoitukset?</string>
     <string name="connected_devices_permission">Yhteenliitettävyys ja käyttöoikeudet</string>
     <string name="connected_devices_permission_settings">Yhteenliitettävyys ja käyttöoikeudet</string>
+    <string name="connected_devices_permission_summary">Hallitse pääsyä tähän laitteeseen</string>
     <string name="connected_devices_record">Nauhoita</string>
     <string name="connected_devices_record_desc">Salli samalle tilille kirjautuneiden lähellä olevien laitteiden tallentaa ääntä tälle laitteelle</string>
     <string name="connected_devices_record_title">Saako yllä olevan laitteen tallentaa ääntä tälle laitteelle?</string>
@@ -1344,6 +1370,8 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="deep_save_ontime_boot_shutdown_summary">Ajoita aika kytkeäksesi laitteen päälle ja pois päältä</string>
     <string name="delete">Poista</string>
     <string name="delete_all_sms">Poista kaikki</string>
+    <string name="delete_connected_devices">Poistetaanko valitut laitteet nyt?</string>
+    <string name="delete_connected_devices_title">Poistetaanko %1$s nyt?</string>
     <string name="delete_from_manual_item_white_list">Poista poikkeuksista</string>
     <string name="delete_input">Poista</string>
     <string name="deleted_apps">Poistetut sovellukset</string>
@@ -1819,6 +1847,8 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="game_anti_disturb_msg">Pelien DND</string>
     <string name="game_balance_more_setting_title">Lisäasetukset</string>
     <string name="game_balance_vision_enhance_subtitle">Lisää kontrastia ja parantaa pelien yksityiskohtia</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">Käytettävissä vain, kun pelin resoluutio on asetettu korkeimpaan arvoon</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">Käytettävissä vain, kun pelin kuvantamistarkkuus on asetettu korkeimpaan arvoon</string>
     <string name="game_balance_vision_enhance_title">Parannettu grafiikka</string>
     <string name="game_booster">Game Turbo</string>
     <string name="game_booster_close">Game Turbo ei ole käytössä</string>
@@ -1856,8 +1886,13 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="game_toolbox_ai_upgrade_dialog_btn">Päivitä</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">Päivitys saatavilla tekoälypelipalveluihin. Päivitä ennen niihin liittyvien ominaisuuksien käyttöä.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Tarkista päivitykset</string>
+    <string name="game_toolbox_auto_brightness_talkback">Automaattinen kirkkaudensäätö</string>
+    <string name="game_toolbox_btn_back_talkback">Takaisin</string>
+    <string name="game_toolbox_cellular_network">Mobiiliverkon nopeuden lisääminen</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Kytke päälle vähentääksesi kuvanlaatua hieman ja virrankulutusta merkittävästi</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"Huomio:
+Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen kuvataajuuden havainnointityökalut eivät ehkä toimi täsmällisesti. Katso todellinen kuvataajuus suorituskyvyn hallintapaneelista."</string>
     <string name="game_toolbox_display_style_desc">Säädä visuaalista tyyliä (tukee pelin HDR:ää)</string>
     <string name="game_toolbox_display_style_game_hdr">Pelin HDR</string>
     <string name="game_toolbox_display_style_title">Visuaalinen tyyli</string>
@@ -1866,10 +1901,20 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="game_toolbox_fps_shake">Värinä %d FPS</string>
     <string name="game_toolbox_immersion_sound_desc">Kun käytät kuulokkeita, sieppaa äänitehosteita, kuten askeleita ja ääniä, mikä parantaa pelien immersiota</string>
     <string name="game_toolbox_immersion_sound_title">Mukaansatempaava ääni</string>
+    <string name="game_toolbox_item_joystick_key_mapping">Ohjaimen painike</string>
+    <string name="game_toolbox_margin_restrain_description">Määritä kosketuksen hylkäysalue vähentääksesi tahattomia kosketuksia</string>
     <string name="game_toolbox_mem_clean_desc">Tyhjennä muisti nopeuden lisäämiseksi</string>
     <string name="game_toolbox_more_tools_title">Lisää työkaluja</string>
     <string name="game_toolbox_perf_config_desc">Määritä pelin suorituskykyasetukset</string>
     <string name="game_toolbox_perf_config_title">Suorituskykyasetukset</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">Voit mukauttaa superresoluution ja älykkään kuvataajuuden hallitaksesi kuvataajuutta ja kuvanlaatua. &lt;font color=%s>Todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.&lt;/font>.</string>
+    <string name="game_toolbox_performance_config_frc_notice">Kun kuvataajuuden prioriteetti on käytössä, todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">Kuvataajuuden prioriteettu parantaa kuvataajuutta älykkään kuvataajuuden avulla. &lt;font color=%s>Todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">Kun kuvaprioriteetti on käytössä, todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">Kuvaprioriteetti parantaa kuvanlaatua superresoluution avulla ja hallitsee kuvataajuutta älykkään kuvataajuuden kautta. &lt;font color=%s>Todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">Näytön kirkkaus</string>
+    <string name="game_toolbox_settings_talkback">Asetukset</string>
     <string name="game_toolbox_slow_charge_desc">Ota tämä ominaisuus käyttöön parantaaksesi pelikokemusta latauksen aikana hidastamalla latausnopeutta. Tämä voi estää laitteen ylikuumenemisen. Otetetaanko nyt käyttöön?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Selvä</string>
     <string name="game_toolbox_slow_charge_negative_btn">Peruuta</string>
@@ -1878,6 +1923,12 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="game_toolbox_slow_charge_positive_btn">Ota käyttöön</string>
     <string name="game_toolbox_slow_charge_title">Hidas lataus</string>
     <string name="game_toolbox_slow_charge_toast">Hidas lataus on käytössä</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Haptinen palaute ei toimi alkuperäisten asettelujen kanssa. Haptinen palaute on pois käytöstä.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptinen palaute ei toimi alkuperäisten asettelujen kanssa</string>
+    <string name="game_toolbox_smotion_vibrate_desc">Lisää haptinen palaute pelin liikkeiden mukaan. Vain joitakin pelejä tuetaan.</string>
+    <string name="game_toolbox_smotion_vibrate_title">Haptinen palaute</string>
+    <string name="game_toolbox_super_follow_up_msg">Paranna kosketusvastetta ja seurantaa koko laitteisto-ohjelmistossa</string>
+    <string name="game_toolbox_super_shake_msg">Vähennä napautus- ja pyyhkäisyvärinää, mikä parantaa ohjauksen vakautta</string>
     <string name="game_toolbox_title">Pelityökalut</string>
     <string name="game_toolbox_title_game_center">Pelit</string>
     <string name="game_toolbox_title_wild">Ääritila</string>
@@ -1893,7 +1944,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="game_wid_viewpoint_buttom">Pidä pieni paussi.</string>
     <string name="gamebooster_confirm_dialog_negative_btn">Älä hyväksy</string>
     <string name="gamebooster_confirm_dialog_positive_btn">Hyväksy</string>
-    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">-tietosuojakäytäntö&lt;/a></Data></string>
     <string name="gamebooster_confirm_dialog_title">Hyväksy meidän tietosuojakäytäntö</string>
     <string name="gamebooster_dialog_recover">Uusi</string>
     <string name="gamebooster_dialog_start_booster">Aloita</string>
@@ -2486,7 +2537,7 @@ Pidä ilmaisinta painettuna siirtääksesi ikkunaa ympäriinsä."</string>
     <string name="gtb_dialog_hint_smart_5g">Voit kytkeä tämän ominaisuuden päälle ja pois kohdassa Game Turbo > Asetukset.</string>
     <string name="gtb_dialog_privacy_speed_message">Olet käyttämässä kohdetta Xunyou Game Booster. Tämä palvelu kerää Xiaomi-tilitunnuksesi tallentaaksesi jäsenyytesi keston.</string>
     <string name="gtb_dialog_privacy_speed_tips"><Data>Olen lukenut ja hyväksynyt Xunyou Game Booster -&lt;a href=\"%1$s\">tietosuojakäytännön.&lt;/a></Data></string>
-    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>Olen lukenut ja hyväksynyt Xunyou Game Booster &lt;a href=\"%1$s\">-tietosuojakäytännön&lt;/a>.</Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou Game Booster</string>
     <string name="gtb_dialog_privacy_voice_message">Olet käyttämässä Xunyou Game -äänenvaihtajaa. Tämä palvelu kerää Xiaomi-tilitunnuksesi tallentaaksesi jäsenyytesi keston.</string>
     <string name="gtb_dialog_privacy_voice_tips"><Data>Olen lukenut ja hyväksynyt Xunyou Game -äänenvaihtajan &lt;a href=\"%1$s\">tietosuojakäytännön.&lt;/a></Data></string>
@@ -2743,6 +2794,7 @@ Operaattorisi saattaa veloittaa sinua lisämaksuilla, jos käytät mobiilidatayh
     <string name="main_alert_message_no_imsi">SIM-korttia ei havaittu</string>
     <string name="main_alert_message_open_traffic_ctrl">Suosittelemme datan käytön rajoittamista</string>
     <string name="main_balance_check">Tarkista saldo</string>
+    <string name="main_bill_out_talkback">Negatiivinen saldo %1$.2f</string>
     <string name="main_bill_remained">Puhelimen saldo</string>
     <string name="main_button_mi_sim_close">Aktivoi Mi SIM</string>
     <string name="main_button_mi_sim_open">Näytä tiedot</string>
@@ -3341,6 +3393,8 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="open_extreme_power_save_mode_title">Kytke äärimmäinen virransäästö päälle</string>
     <string name="open_game">Avaa</string>
     <string name="open_now">Salli sovelluksen käyttää mobiilidataa</string>
+    <string name="open_physical_sim_self_detection_noti_centent">Verkkovierailuyhteys ei ehkä toimi kunnolla</string>
+    <string name="open_physical_sim_self_detection_noti_title">Kokeile verkkovierailun vianmääritystä</string>
     <string name="open_wlan_title">Anna tämän sovelluksen ottaa Wi-Fi käyttöön ja pois käytöstä</string>
     <string name="operator_location_settings">Aseta operaattori ja sijainti</string>
     <string name="operator_location_settings_message">Operaattoriasi ja sijaintiasi ei voitu tunnistaa. Puhelimen saldoa ja tiedonsiirtovaroituksia ei voi asettaa nyt.</string>
@@ -3429,6 +3483,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="password_unlock">Avaa lukitus salasanalla</string>
     <string name="password_xspace_forget_pattern_message">Jos haluat vaihtaa toisen tilan salasanan, poista nykyinen toinen tila ja luo uusi.</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Lataa nopeammin tehokkaalla käänteisellä latauksella. USB-liitäntää käytetään vain lataamiseen.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">Lataa nopeammin tehokkaalla käänteisellä latauksella.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Käänteinen lataus</string>
     <string name="pc_abnormal_scan_button_text">Sulje sovellukset</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Estää järjestelmää siirtymästä valmiustilaan</string>
@@ -3643,6 +3698,9 @@ ultravirransäästö"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Taita laite ennen lataamista nopeamman ja vakaamman latauskokemuksen saavuttamiseksi.</string>
     <string name="pc_remind_close_cover_to_charge_title">Taita ladataksesi</string>
     <string name="pc_reminder_always_protect_summary">Vaihda rajoitettuun lataukseen vähentääksesi akun ikääntymistä</string>
+    <string name="pc_remove_shell_charging_notification_msg">Langatonta latausta ei voi käyttää pelikuoria käytettäessä. Poista kuoret ja yritä uudelleen tai käytä langallista latausta.</string>
+    <string name="pc_remove_shell_charging_notification_title">Poista kuoret langatonta latausta varten</string>
+    <string name="pc_remove_shell_charging_toast">Poista kuoret käänteistä langatonta latausta varten</string>
     <string name="pc_satellite_auto_enter_super_power">Ultravirransäästö on otettu käyttöön satelliittiviestinnän varmistamiseksi</string>
     <string name="pc_save_charge">Ladataan</string>
     <string name="pc_save_other_setting">Muut asetukset</string>
@@ -4056,6 +4114,7 @@ ultravirransäästö"</string>
     <string name="power_dialog_performance_mode_checkbox">Vaihda virkistystaajuuteen %d Hz</string>
     <string name="power_dialog_super_save_msg">Ultravirransäästö rajoittaa valtaosa akkua kuluttavia ominaisuuksia ja laskee laitteesi suorituskykyä salliakseen perustoiminnot (esim. puhelut, tekstiviestit ja verkkoon yhdistäminen) toimimaan mahdollisimman kauan. Otetaanko ultravirransäästö käyttöön?</string>
     <string name="power_dialog_super_save_msg_5g">Ultravirransäästö rajoittaa useimpia akkua kuluttavia ominaisuuksia (esim. 5G-liitettävyys), mikä heikentää laitteen suorituskykyä. Vain puhelut, viestit ja verkkoyhteydet eivät ole vaikutuksenalaisia. Otetaanko ultravirransäästö käyttöön?</string>
+    <string name="power_dialog_super_save_msg_p2">Ultravirransäästö sammuttaa takanäytön ja rajoittaa eniten akkua kuluttavia ominaisuuksia, mikä alentaa laitteesi suorituskykyä ja pitää perustoiminnot (esim. puhelut, tekstiviestit ja verkkoon yhdistäminen) käytettävissä mahdollisimman kauan. Otetaanko ultravirransäästö käyttöön?</string>
     <string name="power_dialog_super_save_title">Ultravirransäästö</string>
     <string name="power_idle">Puhelin käyttämättömänä</string>
     <string name="power_main_battery_last_day_hour">%1$spv %2$st jäljellä</string>
@@ -4265,6 +4324,7 @@ ultravirransäästö"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Kun menet yli datasuunnitelmasi</string>
     <string name="pref_package_traffic_settings">Datasuunnitelma</string>
+    <string name="pref_physical_sim_self_detection_cat_title">Testaa verkkoa</string>
     <string name="pref_pkg_begin_date">Käytön palautuspäivä</string>
     <string name="pref_roaming_daily_limit_setting">Aseta verkkovierailun päiväkohtainen datakatto</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Päiväkohtainen datakatto</string>
@@ -4276,6 +4336,7 @@ ultravirransäästö"</string>
     <string name="pref_title_diagnostics_show_float_notification">Kelluvat ilmoitukset</string>
     <string name="pref_title_manual_check_virus_db_update">Tarkista päivitykset</string>
     <string name="pref_title_over_traffic_limit_warning">Ylittyessä</string>
+    <string name="pref_title_physical_sim_self_detection">Verkkovierailun vianmääritys</string>
     <string name="pref_title_traffic_limit_number">Koko</string>
     <string name="pref_title_traffic_package_type">Datasuunnitelman tyyppi</string>
     <string name="pref_title_traffic_speed_state">Näytä yhteyden nopeus</string>
@@ -4328,6 +4389,8 @@ ultravirransäästö"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">Tämä ominaisuus sallii sinun piilottaa sovellusten kuvakkeita, jotta ne eivät enää näy aloitusnäytölläsi.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Piilotettujen sovellusten hakemisto näytetään salasanan syötettyäsi.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Levitä kaksi sormea näytölle. Näet viestin jossa pyydetään Sovelluslukon salasanaa.</string>
+    <string name="privacy_custom_password_long">Syötä enintään %d numeroa</string>
+    <string name="privacy_custom_password_too_short">Syötä vähintään %d numeroa</string>
     <string name="privacy_danger_permission_status_summary">Hallitse sovelluksia, jotka vaativat arkaluontoisia käyttöoikeuksia</string>
     <string name="privacy_danger_permission_status_title">Arkaluontoiset toimet</string>
     <string name="privacy_danger_permission_summary">Seuraa, kuinka sovellukset käyttävät käyttöoikeuksiasi</string>
@@ -4387,6 +4450,8 @@ ultravirransäästö"</string>
     <string name="privacy_global_guide_permission_guide_text">Saat tilarivihälytyksen, kun sovellukset tallentavat ääntä tai käyttävät kameraa. Napauta ilmoitusta selvittääksesi mikä sovellus tekee sen.</string>
     <string name="privacy_guide_permission_guide_text">Voit saada hälytyksen tilapalkilla, kun sovellukset käyttävät sijaintiasi, nauhoittavat ääntä tai ottavat valokuvia.</string>
     <string name="privacy_hide_other_permissions">Piilota muut käyttöoikeudet</string>
+    <string name="privacy_hybrid_password_long">Kirjoita enintään %d merkkiä</string>
+    <string name="privacy_hybrid_password_too_short">Syötä vähintään %d merkkiä</string>
     <string name="privacy_informed_title">Tilastot</string>
     <string name="privacy_input_mode">Suojattu syöttö</string>
     <string name="privacy_input_model_tips">Suojattu syöttö on päällä. Näppäimistö ei voi näyttää ponnahdusikkunoita tai käyttää yhteystietoja, sijaintitietoja ja puheluhistoriaa.</string>
@@ -4407,6 +4472,28 @@ ultravirransäästö"</string>
     <string name="privacy_notification_title_mic">%1s käyttää mikrofonia taustalla</string>
     <string name="privacy_other_permission_manage_summary">Hallinnoi muita yksityisyyteen liittyviä oikeuksia</string>
     <string name="privacy_other_permission_manage_title">Muut käyttöoikeudet</string>
+    <string name="privacy_password_chanage_process">Vaihda yksityisyydensuojan salasana</string>
+    <string name="privacy_password_custom_password">Mukautettu PIN</string>
+    <string name="privacy_password_digital_password">%d-numeroinen PIN</string>
+    <string name="privacy_password_enter_custom_password">Anna sinun %1$d–%2$d-numeroinen PIN</string>
+    <string name="privacy_password_enter_custom_password_again">Anna sinun PIN uudelleen</string>
+    <string name="privacy_password_enter_custom_password_not_match">PIN-koodit eivät täsmää</string>
+    <string name="privacy_password_enter_digital_password">Anna sinun %d-numeroinen PIN</string>
+    <string name="privacy_password_enter_digital_password_again">Anna sinun %d-numeroinen PIN uudestaan</string>
+    <string name="privacy_password_enter_graphic_password">Piirrä lukituksen avauskuvio. Yhdistä vähintään %d pistettä.</string>
+    <string name="privacy_password_enter_hybrid_password">Anna sinun %1$d–%2$d-merkkinen salasana</string>
+    <string name="privacy_password_enter_hybrid_password_again">Syötä salasanasi uudelleen</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">Salasana ei saa sisältää virheellisiä merkkejä</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">Salasanat eivät täsmää</string>
+    <string name="privacy_password_graphic_password">Kuvio</string>
+    <string name="privacy_password_hybrid_password">Salasana</string>
+    <string name="privacy_password_other_password">Muu salasana</string>
+    <string name="privacy_password_setup_confirm">OK</string>
+    <string name="privacy_password_setup_hint">Anna salasanasi</string>
+    <string name="privacy_password_setup_next">Seuraava</string>
+    <string name="privacy_password_setup_not_match">Yritä uudelleen</string>
+    <string name="privacy_password_setup_process">Aseta yksityisyydensuojan salasana</string>
+    <string name="privacy_password_update_type">Valitse salasanatyyppi</string>
     <string name="privacy_permission_call">Puheluhistorian käyttäminen tai muokkaaminen</string>
     <string name="privacy_permission_call_title">Suojaa puhelut</string>
     <string name="privacy_permission_camera_title">Rajoita taustakameran käyttöä</string>
@@ -4519,6 +4606,8 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="privacy_risk_uninstall_title">Poista sovelluksia</string>
     <string name="privacy_risk_work_encryption">Sosiaalista mediaa ja toimistotiedostoja ei ole suojattu</string>
     <string name="privacy_screen_share_notification_content">Suoratoistat toiselle laitteelle. Yksityisyyden suojaus on päällä.</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">Yksityisyyden suojaaminen</string>
+    <string name="privacy_screen_share_notification_land_title">Näytön jakaminen</string>
     <string name="privacy_screen_share_notification_protect_content">Arkaluonteisia kohteita ei näytetä ulkoisella laitteella</string>
     <string name="privacy_screen_share_notification_protect_title">Näytön sisältö on suojattu</string>
     <string name="privacy_screen_share_notification_title">Suoratoista näytön sisältöä</string>
@@ -4565,6 +4654,10 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="privacy_using_record">Äänen tallentaminen</string>
     <string name="privacyapp_number_masked_text">Ilmoituksen sisältö on piilotettu</string>
     <string name="privacyapp_number_unmasked_text">Ilmoituksen sisällön voi piilottaa</string>
+    <string name="private_file">Yksityiset tiedostot</string>
+    <string name="private_note">Piilotetut muistiinpanot</string>
+    <string name="private_photo">Yksityinen albumi</string>
+    <string name="private_sms">Yksityiset viestit</string>
     <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediapalvelin</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
@@ -4573,6 +4666,7 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="prompt_input_time_illegal">Tätä aikaa ei voi määrittää, muuta sitä ja yrittää uudelleen</string>
     <string name="protocol_exception_title">Verkkoprotokollan diagnostiikka</string>
     <string name="protocol_loop_back_exception_summary">Paikallinen silmukkakokeen testaus epäonnistui. Ilmoita tämä ongelma, siirry Palaute -sovellukseen ja lähetä loki laitteestasi.</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">Takaisin</string>
     <string name="provision_next">Seuraava</string>
     <string name="provision_skip_underline">Ohita</string>
@@ -5683,6 +5777,7 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="traffic_remind_switch">Datankäyttövaroitus</string>
     <string name="traffic_reminder_settings">Aseta tiedonsiirtovaroitus</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">Aseta puhelinoperaattori</string>
     <string name="traffic_setting_fragment_area">Paikallinen</string>
     <string name="traffic_setting_fragment_brand">Merkki</string>
     <string name="traffic_setting_fragment_button1_text">Peruuta</string>

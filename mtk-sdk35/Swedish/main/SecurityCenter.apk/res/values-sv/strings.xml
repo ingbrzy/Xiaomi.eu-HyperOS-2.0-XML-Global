@@ -340,6 +340,7 @@
     <string name="app_management_for_install">Blockera app-nedladdningar</string>
     <string name="app_management_for_install_desc">Förhindra den här appen från att ladda ner eller installera andra appar</string>
     <string name="app_management_measures">Apphantering</string>
+    <string name="app_manager_ad_text_btn_resume">Återuppta</string>
     <string name="app_manager_advanced_setting">Avancerade inställningar</string>
     <string name="app_manager_airtel_dlg_msg">Kontakta Airtel om du har några frågor</string>
     <string name="app_manager_airtel_dlg_title">Blockerad av Airtel</string>
@@ -462,8 +463,8 @@ Du kommer inte förlora någon appdata."</string>
     <string name="app_manager_uninstall_notify_title">Avinstallera sällan använda appar</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Att avinstallera systemappar kan förhindra vissa delar av systemet från att fungera korrekt. Avinstallera ändå?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Avinstallerar systemappar</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Den andra instansen av Dubbelappen kommer tas bort samt all applikationsdata.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Avinstallation Dubbelappen kommer ta bort all applikationsdata.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Dubbelappar kommer avinstalleras tillsammans med den här.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Den andra instansen av Dubbelappen kommer att avinstalleras tillsmmans med all applikationsdata.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Avinstallera Dubbelapp?</string>
     <string name="app_manager_unstall_application">Avinstallera</string>
     <string name="app_managere_not_have_app">Tom</string>
@@ -570,8 +571,8 @@ Du kommer inte förlora någon appdata."</string>
     <string name="applock_lock_mode_locked_or_exit">När enheten är låst eller efter en app avslutas</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">När enheten är låst, eller i %d minuter efter att appen avslutats</string>
     <string name="applock_login_and_add_account">Logga in &amp; lägg till</string>
-    <string name="applock_mixtype_hidepwd_icon">Dölj</string>
-    <string name="applock_mixtype_showpwd_icon">Visa</string>
+    <string name="applock_mixtype_hidepwd_icon">Dölj lösenord</string>
+    <string name="applock_mixtype_showpwd_icon">Visa lösenord</string>
     <string name="applock_no_account_login">Du är inte inloggad till ditt Xiaomi-konto</string>
     <string name="applock_not_add_account"><u>Inte nu</u></string>
     <string name="applock_not_add_account_normal">Lägg inte till konto</string>
@@ -583,6 +584,12 @@ Du kommer inte förlora någon appdata."</string>
     <string name="applock_operate_fingerprint_title">Använd ditt fingeravtryck</string>
     <string name="applock_operate_hidenoti_summary">Applås kan göra detta för de skyddade apparna</string>
     <string name="applock_operate_hidenoti_title">Vill du dölja känsliga notifikationer?</string>
+    <string name="applock_password_set_luck_button">Inställningar</string>
+    <string name="applock_password_set_luck_comment">Du måste ange ett skärmlås för att använda privata funktioner på den här enheten.</string>
+    <string name="applock_password_set_luck_message">"För att komma åt privata funktioner på din enhet säkert, använder Xiaomi HyperOS ditt skärmlås som standard, för identifieringsverifiering.
+
+Om du inte har angivit ett skärmlås än, följ instruktionerna för att ange ett."</string>
+    <string name="applock_password_set_luck_title">Ange skärmlås först</string>
     <string name="applock_recommend_tips">%s av användarna skyddar dessa appar</string>
     <string name="applock_recommend_title">Välj appar</string>
     <string name="applock_set_complete">Använd Applås</string>
@@ -867,6 +874,22 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="bind_xiaomi_account_success">Xiaomi-konto tillagt</string>
     <string name="bind_xiaomi_account_summary">Använd Xiaomi-konto för att återställa ditt lösenord</string>
     <string name="bind_xiaomi_account_title">Lägg till Xiaomi-konto</string>
+    <string name="biometric_applock_password_lockout_title">För många misslyckade försök</string>
+    <string name="biometric_applock_pwd">Verifiering av applås</string>
+    <string name="biometric_applock_pwd_or_finger">Verifiera med fingeravtryck, eller applås</string>
+    <string name="biometric_face_error">Kunde inte verifiera</string>
+    <string name="biometric_face_finger_change">Biometrisk data har ändrats. Ange ditt lösenord frö att verifiera.</string>
+    <string name="biometric_finger_verify">ID-kontroll med fingeravtryck</string>
+    <string name="biometric_lockscreen_pwd">Verifiering av skärmlås</string>
+    <string name="biometric_lockscreen_pwd_or_finger">Verifiera med fingeravtryck, eller skärmlås</string>
+    <string name="biometric_private_password">Verifiering av lösenord för integritetsskydd</string>
+    <string name="biometric_private_password_lockout_title">För många misslyckade försök</string>
+    <string name="biometric_private_pwd_or_finger">Verifiera med fingeravtryck, eller lösenord för integritetsskydd</string>
+    <string name="biometric_reset_password_tips">Lösenord återställt. Ange ett nytt lösenord för att låsa upp.</string>
+    <string name="biometric_screen_lock_password_lockout_title">För många misslyckade försök</string>
+    <string name="biometric_subtitle">För att öppna %1$s</string>
+    <string name="biometric_subtitle_default">Verifiera din identitet</string>
+    <string name="biometric_verify_retry">Försök igen</string>
     <string name="birthday">Födelsedag</string>
     <string name="bl_no_blacklist">Inga blockerade nummer.</string>
     <string name="bl_no_block_call">Inga blockerade samtal.</string>
@@ -1002,6 +1025,8 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="car_sickness_relief_comment_text">När fordonsrörelse upptäcks kommer prickar att visas på båda sidor av skärmen för att indikera om fordonet rör sig, vilket kan hjälpa till att försena känslan av åksjuka.</string>
     <string name="car_sickness_relief_example_text_1">När fordonet ökar eller minskar i hastighet</string>
     <string name="car_sickness_relief_example_text_2">När fordon svänger eller byter fil</string>
+    <string name="car_sickness_relief_exit_text">Hjälpen för åksjuka har slutat att fungera</string>
+    <string name="car_sickness_relief_start_text">Hjälpen för åksjuka fungerar</string>
     <string name="car_sickness_remind_time_title">Rörlseindikatorer</string>
     <string name="car_sickness_title">Mot åksjuka</string>
     <string name="card_main_apkclean_title">Ta bort APKs</string>
@@ -1178,6 +1203,7 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="connected_devices_notification_title">Tillåt enheten ovan att visa den här enhetens notifikationer?</string>
     <string name="connected_devices_permission">Interkonnektivitet och behörigheter</string>
     <string name="connected_devices_permission_settings">Interkonnektivitet och behörigheter</string>
+    <string name="connected_devices_permission_summary">Hantera åtkomst till den här enheten</string>
     <string name="connected_devices_record">Spela in</string>
     <string name="connected_devices_record_desc">Tillåt närliggande enheter inloggade på samma konto att spela in ljud på den här enheten</string>
     <string name="connected_devices_record_title">Tillåt enheten ovan att spela in ljud på den här enheten?</string>
@@ -1344,6 +1370,8 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="deep_save_ontime_boot_shutdown_summary">Schemalägg när enheten ska startas och stängas av</string>
     <string name="delete">Ta bort</string>
     <string name="delete_all_sms">Ta bort alla</string>
+    <string name="delete_connected_devices">Radera de valda enheterna nu?</string>
+    <string name="delete_connected_devices_title">Radera %1$s nu?</string>
     <string name="delete_from_manual_item_white_list">Ta bort från undantag</string>
     <string name="delete_input">Ta bort</string>
     <string name="deleted_apps">Borttagna appar</string>
@@ -1819,6 +1847,8 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="game_anti_disturb_msg">Stör ej för spel</string>
     <string name="game_balance_more_setting_title">Ytterligare inställningar</string>
     <string name="game_balance_vision_enhance_subtitle">Öka kontrast och förbättra detaljer för spel</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">Endast tillgänglig när spelupplösningen är inställd på högsta värdet</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">Endast tillgänglig när spelets inhämtningsprecision är inställd på högsta värdet</string>
     <string name="game_balance_vision_enhance_title">Förbättrade visuella effekter</string>
     <string name="game_booster">Spelturbo</string>
     <string name="game_booster_close">Spelturbo är av</string>
@@ -1856,8 +1886,13 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="game_toolbox_ai_upgrade_dialog_btn">Uppdatera</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">En uppdatering för AI-speltjänster finns. Uppdatera innan du använder relaterade funktioner.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Sök efter uppdateringar</string>
+    <string name="game_toolbox_auto_brightness_talkback">Automatisk ljusstyrka</string>
+    <string name="game_toolbox_btn_back_talkback">Bakåt</string>
+    <string name="game_toolbox_cellular_network">Öka hastigheten på mobilt nätverk</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Aktivera för att minska bildkvalitén lite och minska strömkonsumtionen mycket</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"Notera:
+När Smart bildfrekvens är aktiverad, detektionsverktyg för bildfrekvenser kanske inte detekterar bildfrekvensen korrekt. Se prestandapanelen för den faktiska bildfrekvensen."</string>
     <string name="game_toolbox_display_style_desc">Justera visuell stil (stöder spel-HDR)</string>
     <string name="game_toolbox_display_style_game_hdr">Spel-HDR</string>
     <string name="game_toolbox_display_style_title">Visuell stil</string>
@@ -1866,10 +1901,20 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="game_toolbox_fps_shake">Instabilitet %d FPS</string>
     <string name="game_toolbox_immersion_sound_desc">Fånga ljudeffekter så som fotsteg och röster korrekt, när du använder hörlurar, genom att förstärka spelets uppslukande ljud</string>
     <string name="game_toolbox_immersion_sound_title">Uppslukande ljud</string>
+    <string name="game_toolbox_item_joystick_key_mapping">Kontroller-knapp</string>
+    <string name="game_toolbox_margin_restrain_description">Ställ in beröringsavvisande intervall för att minska oavsiktliga beröringar</string>
     <string name="game_toolbox_mem_clean_desc">Rensa minnet och öka hastigheten</string>
     <string name="game_toolbox_more_tools_title">Fler verktyg</string>
     <string name="game_toolbox_perf_config_desc">Konfigurera spelprestanda-inställningar</string>
     <string name="game_toolbox_perf_config_title">Prestandainställningar</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">Du kan anpassa Superupplösning och Smart bildfrekvens för att hantera bildfrekvens och bildkvalité. &lt;font color=%s>Faktisk bildfrekvens visas på prestandapanelen.&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">När prioriteringen för bildfrekvens är aktiv visas den faktiska bildfrekvensen på prestandapanelen</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">Prioriteringen för bildfrekvens förbättrar bildfrekvensen via Smart bildfrekvens. &lt;font color=%s>Faktisk bildfrekvens visas på prestandapanelen.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">När bildprioritering är aktiverat visas den faktiska bildfrekvensen på prestandapanelen</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">Bildprioritet förbättrar bildkvalitén via Superupplösning och hanterar bildfrekvens via Smart bildfrekvens. &lt;font color=%s>Faktisk bildfrekvens visas på prestandapanelen.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">Bakgrundsbelysning</string>
+    <string name="game_toolbox_settings_talkback">Inställningar</string>
     <string name="game_toolbox_slow_charge_desc">Aktivera den här funktionen för att förstärka spelupplevelsen medan du laddar långsamt. Det här lan förhindra dina enheter från att överhettas. Aktivera nu?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Jag förstår</string>
     <string name="game_toolbox_slow_charge_negative_btn">Avbryt</string>
@@ -1878,6 +1923,12 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="game_toolbox_slow_charge_positive_btn">Aktivera</string>
     <string name="game_toolbox_slow_charge_title">Långsam laddning</string>
     <string name="game_toolbox_slow_charge_toast">Långsam laddning är på</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Haptisk feedback funderar inte med original-layouts. Haptisk feedback är avaktiverat.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptisk feedback funderar inte med original-layouts</string>
+    <string name="game_toolbox_smotion_vibrate_desc">Lägg till haptisk feedback i enlighet med spelrörelser. Bara vissa spel stöds.</string>
+    <string name="game_toolbox_smotion_vibrate_title">Haptisk feedback</string>
+    <string name="game_toolbox_super_follow_up_msg">Förstärk beröringssvar och spåra genom hela hårdvaru-mjukvarulinjen</string>
+    <string name="game_toolbox_super_shake_msg">Minska berörings- och svep-instabiliteten, förbättra kontrollstabiliteten</string>
     <string name="game_toolbox_title">Spelverktyg</string>
     <string name="game_toolbox_title_game_center">Spel</string>
     <string name="game_toolbox_title_wild">Ultimat läge</string>
@@ -1893,7 +1944,7 @@ All data på enheten kan raderas och ditt lösenord till Låsskärmen kanske nol
     <string name="game_wid_viewpoint_buttom">Ta en kort paus.</string>
     <string name="gamebooster_confirm_dialog_negative_btn">Godkänn inte</string>
     <string name="gamebooster_confirm_dialog_positive_btn">Acceptera</string>
-    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Integritetspolicy&lt;/a></Data></string>
     <string name="gamebooster_confirm_dialog_title">Godkänn vår Integritetspolicy</string>
     <string name="gamebooster_dialog_recover">Förnya</string>
     <string name="gamebooster_dialog_start_booster">Start</string>
@@ -2486,7 +2537,7 @@ Tryck och håll inne indikatorn för att flytta runt fönstret."</string>
     <string name="gtb_dialog_hint_smart_5g">Du kan slå på eller av denna funktion i Game Turbo > Inställningar.</string>
     <string name="gtb_dialog_privacy_speed_message">Du är på väg att använda Xunyou spelförstärkare. Denna tjänst samlar in ditt Xiaomi-konto-ID för att registrera ditt medlemskaps varaktighet.</string>
     <string name="gtb_dialog_privacy_speed_tips"><Data>Jag har läst och godkänt Xunyou-spelförstärkares &lt;a href=\"%1$s\">sekretesspolicy.&lt;/a></Data></string>
-    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>Jag har läst och samtycker till Xunyou Game Booster &lt;a href=\"%1$s\">integritetspolicy&lt;/a>.</Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou spelförstärkare</string>
     <string name="gtb_dialog_privacy_voice_message">Du är på väg att använda Xunyou röstförvrängare. Denna tjänst samlar in ditt Xiaomi-konto-ID för att registrera ditt medlemskaps varaktighet.</string>
     <string name="gtb_dialog_privacy_voice_tips"><Data>Jag har läst och godkänt Xunyou-spelröstförändrares &lt;a href=\"%1$s\">sekretesspolicy.&lt;/a></Data></string>
@@ -2743,6 +2794,7 @@ Din operatör kan debitera för ytterligare kostnader om du använder mobildataa
     <string name="main_alert_message_no_imsi">Inget SIM-kort upptäckt</string>
     <string name="main_alert_message_open_traffic_ctrl">Vi rekommenderar att begränsa dataanvändningen</string>
     <string name="main_balance_check">Kolla saldo</string>
+    <string name="main_bill_out_talkback">Negativt saldo %1$.2f</string>
     <string name="main_bill_remained">Saldo</string>
     <string name="main_button_mi_sim_close">Aktivera Mi SIM</string>
     <string name="main_button_mi_sim_open">Visa detaljer</string>
@@ -3341,6 +3393,8 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="open_extreme_power_save_mode_title">Aktivera Extrem Batterisparare</string>
     <string name="open_game">Öppna</string>
     <string name="open_now">Tillåt app att använda mobildata</string>
+    <string name="open_physical_sim_self_detection_noti_centent">Din roaminganslutning kanske inte fungerar som den ska</string>
+    <string name="open_physical_sim_self_detection_noti_title">Testa nätverksdiagnostik för roaming</string>
     <string name="open_wlan_title">Tillåt den här appen att aktivera och inaktivera Wi-Fi</string>
     <string name="operator_location_settings">Ange operatör och plats</string>
     <string name="operator_location_settings_message">Kunde inte känna igen din operatör och plats. Det går inte att ställa in telefonbalans och varningar om dataanvändning nu.</string>
@@ -3429,6 +3483,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="password_unlock">Lås upp med lösenord</string>
     <string name="password_xspace_forget_pattern_message">För att ändra lösenord till det Sekundära utrymmet måste du ta bort det nuvarande Sekundära utrymmet och skapa ett nytt.</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Ladda snabbare med hög strömförbrukning, omvänd laddning. USB-anslutning används endast för laddning.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">Ladda snabbare med omvänd laddning med hög strömförbrukning.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Omvänd laddning</string>
     <string name="pc_abnormal_scan_button_text">Stäng appar</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Förhindrar systemet från att gå till läget standby</string>
@@ -3643,6 +3698,9 @@ Ultra batterisparare"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Vik enheten innan laddning för en snabbare och stabilare laddningsupplevelse.</string>
     <string name="pc_remind_close_cover_to_charge_title">Vik för att ladda</string>
     <string name="pc_reminder_always_protect_summary">Växla till begränsad laddning för att minska batteriets åldrande</string>
+    <string name="pc_remove_shell_charging_notification_msg">Kan inte använda trådlös laddning när spelfodral används. Ta bort det och försök igen, eller använda laddning via kabel.</string>
+    <string name="pc_remove_shell_charging_notification_title">Ta bort fodralet för att använda trådlös laddning</string>
+    <string name="pc_remove_shell_charging_toast">Ta bort fodralet för att använda omvänd trådlös laddning</string>
     <string name="pc_satellite_auto_enter_super_power">Aktiverade ultra batterisparare för att säkerställa satellitkommunikation</string>
     <string name="pc_save_charge">Laddar</string>
     <string name="pc_save_other_setting">Andra inställningar</string>
@@ -4056,6 +4114,7 @@ Ultra batterisparare"</string>
     <string name="power_dialog_performance_mode_checkbox">Växla till %d Hx uppdateringsintervall</string>
     <string name="power_dialog_super_save_msg">Ultra batterisparare begränsar de flesta kraftkrävande funktionerna och minskar enhetens prestanda. Detta ger telefonen en grundläggande funktionalitet (t.ex. samtal, SMS och anslutning till nätverket). Slå på Ultra batterisparare?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra batterisparare begränsar de flesta strömförbrukande funktionerna (t. ex. 5G-anslutning) som minskar din enhets prestanda. Endast samtal, meddelanden och nätverksanslutning kommer inte att påverkas. Slå på Ultra batterisparare?</string>
+    <string name="power_dialog_super_save_msg_p2">Ultra batterisparare stänger av bakre skärmen och begränsar de flesta kraftkrävande funktionerna, minskar enhetens prestanda för att lämna grundläggande funktionalitet (t.ex. samtal, SMS och anslutning till nätverket) så länge som möjligt. Slå på Ultra batterisparare?</string>
     <string name="power_dialog_super_save_title">Ultra Batterisparare</string>
     <string name="power_idle">Telefon inaktiv</string>
     <string name="power_main_battery_last_day_hour">%1$s dag(ar): %2$s tim(mar) återstår</string>
@@ -4265,6 +4324,7 @@ Ultra batterisparare"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">När du överskrider din gräns för dataanvändning</string>
     <string name="pref_package_traffic_settings">Mobildataabonnemang</string>
+    <string name="pref_physical_sim_self_detection_cat_title">Testa nätverk</string>
     <string name="pref_pkg_begin_date">Återställningsdatum för dataanvändning</string>
     <string name="pref_roaming_daily_limit_setting">Ange daglig gräns när roaming är på</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Daglig datagräns</string>
@@ -4276,6 +4336,7 @@ Ultra batterisparare"</string>
     <string name="pref_title_diagnostics_show_float_notification">Svävande notifikationer</string>
     <string name="pref_title_manual_check_virus_db_update">Sök efter uppdateringar</string>
     <string name="pref_title_over_traffic_limit_warning">Vid överskridelse</string>
+    <string name="pref_title_physical_sim_self_detection">Nätverksdiagnostik för roaming</string>
     <string name="pref_title_traffic_limit_number">Storlek</string>
     <string name="pref_title_traffic_package_type">Dataplan</string>
     <string name="pref_title_traffic_speed_state">Visa nätverkshastighet</string>
@@ -4328,6 +4389,8 @@ Ultra batterisparare"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">Denna funktion tillåter dig att dölja appikoner så att de inte syns på din Hemskärm.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">När du angett ditt lösenord kommer mappen med dolda appar visas.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Placera två fingrar på skärmen och dela på dem. Du kommer se ett meddelande som frågar dig att ange ett lösenord till Applås.</string>
+    <string name="privacy_custom_password_long">Ange upp till %d siffror</string>
+    <string name="privacy_custom_password_too_short">Ange minst %d siffror</string>
     <string name="privacy_danger_permission_status_summary">Hantera appar som begär känsliga behörigheter</string>
     <string name="privacy_danger_permission_status_title">Känsliga åtgärder</string>
     <string name="privacy_danger_permission_summary">Övervaka hur appar använder dina behörigheter</string>
@@ -4387,6 +4450,8 @@ Ultra batterisparare"</string>
     <string name="privacy_global_guide_permission_guide_text">Du kommer att få en statusfält-avisering när appar spelar in ljud eller använder kameran. För att ta reda på vilken app som gör det, tryck på aviseringen.</string>
     <string name="privacy_guide_permission_guide_text">Du kan ta emot en varning i statusfältet när appar hämtar dina plats, spelar in ljud, eller tar foton.</string>
     <string name="privacy_hide_other_permissions">Dölj andra behörigheter</string>
+    <string name="privacy_hybrid_password_long">Ange upp till %d tecken</string>
+    <string name="privacy_hybrid_password_too_short">Ange minst %d tecken</string>
     <string name="privacy_informed_title">Statistik</string>
     <string name="privacy_input_mode">Säker inmatning</string>
     <string name="privacy_input_model_tips">Säkerställ att inmatning är på. Tangentbordet kan inte visa popup-fönster eller komma åt kontakter, platsinformation och samtalshistorik.</string>
@@ -4407,6 +4472,28 @@ Ultra batterisparare"</string>
     <string name="privacy_notification_title_mic">%1s använder mikrofon i bakgrunden</string>
     <string name="privacy_other_permission_manage_summary">Hantera andra integritetsrelaterade behörigheter</string>
     <string name="privacy_other_permission_manage_title">Andra behörigheter</string>
+    <string name="privacy_password_chanage_process">Byt lösenord för integritetsskydd</string>
+    <string name="privacy_password_custom_password">Anpassad kod</string>
+    <string name="privacy_password_digital_password">%d-siffrig kod</string>
+    <string name="privacy_password_enter_custom_password">Ange din%1$d - %2$d-siffriga kod</string>
+    <string name="privacy_password_enter_custom_password_again">Ange din kod igen</string>
+    <string name="privacy_password_enter_custom_password_not_match">PIN-koderna matchar inte</string>
+    <string name="privacy_password_enter_digital_password">Ange din %d-siffriga kod</string>
+    <string name="privacy_password_enter_digital_password_again">Ange din %d-siffriga kod igen</string>
+    <string name="privacy_password_enter_graphic_password">Rita ett upplåsningsmönster. Anslut minst %d punkter.</string>
+    <string name="privacy_password_enter_hybrid_password">Ange ditt %1$d - %2$d tecken långa lösenord</string>
+    <string name="privacy_password_enter_hybrid_password_again">Ange ditt lösenord igen</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">Lösenorden kan inte innehålla ogiltiga tecken</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">Lösenorden matchar inte</string>
+    <string name="privacy_password_graphic_password">Mönster</string>
+    <string name="privacy_password_hybrid_password">Lösenord</string>
+    <string name="privacy_password_other_password">Annat lösenord</string>
+    <string name="privacy_password_setup_confirm">OK</string>
+    <string name="privacy_password_setup_hint">Ange ditt lösenord</string>
+    <string name="privacy_password_setup_next">Nästa</string>
+    <string name="privacy_password_setup_not_match">Försök igen</string>
+    <string name="privacy_password_setup_process">Ställ in lösenord för Integritetsskydd</string>
+    <string name="privacy_password_update_type">Ange en lösenordstyp</string>
     <string name="privacy_permission_call">Tillträder eller redigerar samtalshistorik</string>
     <string name="privacy_permission_call_title">Skydda samtal</string>
     <string name="privacy_permission_camera_title">Begränsa kameraanvändning i bakgrunden</string>
@@ -4519,6 +4606,8 @@ Dra tillbaka samtycke nu?"</string>
     <string name="privacy_risk_uninstall_title">Avinstallera appar</string>
     <string name="privacy_risk_work_encryption">Sociala media- och kontorsfiler är inte skyddade</string>
     <string name="privacy_screen_share_notification_content">Du castar till en annan enhet. Integritetsskydd är aktivt.</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">Skydda din integritet</string>
+    <string name="privacy_screen_share_notification_land_title">Dela skärm</string>
     <string name="privacy_screen_share_notification_protect_content">Känsliga objekt kommer inte att visas på den externa enheten</string>
     <string name="privacy_screen_share_notification_protect_title">Skärminnehållet är skyddat</string>
     <string name="privacy_screen_share_notification_title">Casting av skärminnehåll</string>
@@ -4565,6 +4654,10 @@ Dra tillbaka samtycke nu?"</string>
     <string name="privacy_using_record">Spelar in ljud</string>
     <string name="privacyapp_number_masked_text">Notisinnehåll är dolt</string>
     <string name="privacyapp_number_unmasked_text">Notisinnehåll kan inte döljas</string>
+    <string name="private_file">Privata filer</string>
+    <string name="private_note">Dolda anteckningar</string>
+    <string name="private_photo">Privat album</string>
+    <string name="private_sms">Privata meddelanden</string>
     <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="process_vpnsdkmanager_label">Speloptimering</string>
@@ -4573,6 +4666,7 @@ Dra tillbaka samtycke nu?"</string>
     <string name="prompt_input_time_illegal">Kan inte ange den här tiden, försök igen</string>
     <string name="protocol_exception_title">Diagnostisera nätverksprotokoll</string>
     <string name="protocol_loop_back_exception_summary">\"Local loop back\"-test misslyckades. För att rapportera detta, öppna Feedback-appen och skicka loggen från din enhet.</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">Tillbaka</string>
     <string name="provision_next">Nästa</string>
     <string name="provision_skip_underline">Hoppa över</string>
@@ -5683,6 +5777,7 @@ Kvarvarande data inkluderar sparad data från förra månaden."</string>
     <string name="traffic_remind_switch">Dataanvändningsvarning</string>
     <string name="traffic_reminder_settings">Ange varning för dataanvändning</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">Välj operatör</string>
     <string name="traffic_setting_fragment_area">Plats</string>
     <string name="traffic_setting_fragment_brand">Märke</string>
     <string name="traffic_setting_fragment_button1_text">Avbryt</string>

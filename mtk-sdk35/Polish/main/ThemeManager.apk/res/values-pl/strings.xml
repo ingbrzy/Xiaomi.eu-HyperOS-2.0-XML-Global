@@ -33,10 +33,9 @@
     <string name="abc_shareactionprovider_share_with_application">Udostępnij przez: %s</string>
     <string name="abc_toolbar_collapse_description">Zwiń</string>
     <string name="about_ai_wallpaper">Informacje</string>
-    <string name="accessibility_sliding_button_state_description_off">wyłączony</string>
-    <string name="accessibility_sliding_button_state_description_on">włączone</string>
-    <string name="accessibility_tab_state_description_unselect">Niezaznaczone</string>
-    <string name="accessibility_tab_statedesc_unselect">Niezaznaczone</string>
+    <string name="accessibility_sliding_button_state_description_off">Wyłączono</string>
+    <string name="accessibility_sliding_button_state_description_on">Włączono</string>
+    <string name="accessibility_tab_state_description_unselect">Nie wybrano</string>
     <string name="accessibiliy_description_content_account">Profil</string>
     <string name="accessibiliy_description_content_ad">Reklama</string>
     <string name="accessibiliy_description_content_add_resource">Dodaj elementy</string>
@@ -66,6 +65,8 @@
     <string name="ai_creativity_switch_gender">Wybierz płeć</string>
     <string name="ai_creativity_template">Szablon</string>
     <string name="ai_delete_wallpaper">Usuń</string>
+    <string name="ai_direct_check_msg">Możesz generować tylko jedną tapetę naraz. Aby zacząć generować nową, poczekaj, aż bieżąca będzie gotowa.</string>
+    <string name="ai_direct_check_title">Trwa generowanie</string>
     <string name="ai_estimated_two_three_minutes">Proces zajmie ok. %1$d–%2$d min</string>
     <string name="ai_generate">Wygenerowane przez SI</string>
     <string name="ai_generate_action">Generuj</string>
@@ -106,9 +107,16 @@
     <string name="ai_wallpaper_account_exception">Wygląda na to, że wystąpił problem z kontem. Spróbuj ponownie później lub przełącz się na inne konto.</string>
     <string name="ai_wallpaper_cancel">Anuluj</string>
     <string name="ai_wallpaper_click_to">Dotknij aby wyświetlić</string>
+    <string name="ai_wallpaper_complete">Pomyślnie wygenerowano tapetę</string>
     <string name="ai_wallpaper_desc">Treść wygenerowana przez SI</string>
+    <string name="ai_wallpaper_desc_new">Za pomocą nowej opcji Tapety SI możesz zmienić styl istniejącej tapety bądź wygenerować zupełnie nowe statyczne lub dynamiczne tapety.</string>
+    <string name="ai_wallpaper_dynamic">Dynamiczne</string>
     <string name="ai_wallpaper_feedback">Opinie</string>
     <string name="ai_wallpaper_function_introduction">Twórz dynamiczne tapety wideo ze zdjęć krajobrazów, miast, roślin i samochodów</string>
+    <string name="ai_wallpaper_generate_error">Nie udało się wygenerować tapety</string>
+    <string name="ai_wallpaper_generate_generating">Generowanie…</string>
+    <string name="ai_wallpaper_generate_loading">Generowanie tapety…</string>
+    <string name="ai_wallpaper_generate_waiting">Oczekiwanie…</string>
     <string name="ai_wallpaper_i_know">Rozumiem</string>
     <string name="ai_wallpaper_inside_invitation">Wypróbuj wersję beta funkcji Dynamiczne tapety SI</string>
     <string name="ai_wallpaper_inside_invitation_agree">Zgadzam się</string>
@@ -116,6 +124,7 @@
     <string name="ai_wallpaper_inside_invitation_disagree">Nie zgadzam się</string>
     <string name="ai_wallpaper_network_connection_exception">Nie udało się połączyć z siecią</string>
     <string name="ai_wallpaper_network_exception">Wystąpił błąd sieci</string>
+    <string name="ai_wallpaper_new">Tapety SI</string>
     <string name="ai_wallpaper_no_longer">Nie pokazuj ponownie</string>
     <string name="ai_wallpaper_not_conform_to_generation_condition">Nie można wygenerować tapety na podstawie wybranego obrazu</string>
     <string name="ai_wallpaper_notification_title">Motywy</string>
@@ -124,7 +133,9 @@
     <string name="ai_wallpaper_selection_prompt">Wybierz zdjęcia</string>
     <string name="ai_wallpaper_selection_prompt_message">Najlepsze wyniki uzyskasz, wybierając wyraźne zdjęcia pasujące do poniższych kategorii.</string>
     <string name="ai_wallpaper_service_exception">Błąd serwera</string>
+    <string name="ai_wallpaper_sign">Tapety i podpisy</string>
     <string name="ai_wallpaper_start_use">Rozpocznij</string>
+    <string name="ai_wallpaper_static">Statyczne</string>
     <string name="ai_wallpaper_tips_car">Samochody</string>
     <string name="ai_wallpaper_tips_city">Miasta</string>
     <string name="ai_wallpaper_tips_content_violation">Ta zawartość może naruszać nasz regulamin. Nie można wygenerować tapety.</string>
@@ -865,8 +876,10 @@ mm"</string>
 mm"</string>
     <string name="miuix_access_state_desc">Wybrane</string>
     <string name="miuix_accessibility_title">Tytuł</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Zwinięto</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Rozwinięto</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Wyjdź z trybu edycji</string>
-    <string name="miuix_appcompat_accessibility_new_message">Nowa wiadomość</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nowe powiadomienie</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Wprowadź tryb edycji</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Odznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_select_all">Zaznacz wszystko</string>
@@ -883,17 +896,18 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Zaznacz wszystko</string>
     <string name="miuix_appcompat_select_all_description">Wybierz wszystko</string>
     <string name="miuix_appcompat_select_item">Wybierz elementy</string>
-    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Przewiń w dół, aby zamknąć</string>
-    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Przewiń w dół, aby przełączyć się na tryb połowy ekranu</string>
-    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Przewiń w dół, aby zminimalizować</string>
-    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Przewiń w górę, aby przełączyć się na tryb połowy ekranu</string>
-    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Przewiń w górę, aby zmaksymalizować</string>
+    <string name="miuix_appcompat_show_dialog_description">Wyskakujące okno</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_close">Przesuń w dół, aby zamknąć</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_half_screen">Przesuń w dół, aby przełączyć na połowę ekranu</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_down_to_minimized">Przesuń w dół, aby zminimalizować</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_half_screen">Przesuń w górę, aby przełączyć na połowę ekranu</string>
+    <string name="miuix_bottom_sheet_accessibility_scroll_up_to_maximized">Przesuń w górę, aby zmaksymalizować</string>
     <string name="miuix_bottom_sheet_accessibility_state_half_screen">Połowa ekranu</string>
-    <string name="miuix_bottom_sheet_accessibility_state_maximized">Zmaksymalizowane</string>
-    <string name="miuix_bottom_sheet_accessibility_state_minimized">Zminimalizowane</string>
-    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Przełącz do trybu połowy ekranu</string>
-    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Przełącz do trybu zmaksymalizowanego</string>
-    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Przełącz do trybu zminimalizowanego</string>
+    <string name="miuix_bottom_sheet_accessibility_state_maximized">Zmaksymalizowano</string>
+    <string name="miuix_bottom_sheet_accessibility_state_minimized">Zminimalizowano</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_half_screen">Przełącz na połowę ekranu</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_maximized">Zmaksymalizuj</string>
+    <string name="miuix_bottom_sheet_accessibility_switch_to_minimized">Zminimalizuj</string>
     <string name="miuix_compat_contact">Kontakty</string>
     <string name="miuix_compat_dialog_button">Rozumiem</string>
     <string name="miuix_compat_dialog_cancel">Anuluj</string>
@@ -902,6 +916,7 @@ mm"</string>
     <string name="miuix_compat_dialog_ok">OK</string>
     <string name="miuix_compat_dialog_update_title">Problemy z kompatybilnością</string>
     <string name="miuix_compat_mms">Wiadomości</string>
+    <string name="miuix_popup_window_default_title">Wyskakujące okno</string>
     <string name="miuix_progressbar_loading">Wczytywanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Przeciągnij w dół, aby odświeżyć</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Pomyślnie odświeżono</string>
@@ -912,6 +927,8 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Chwileczkę…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nie udało się załadować elementów</string>
     <string name="miuix_show_password">Pokaż hasło</string>
+    <string name="miuix_stretchablewidget_collapsed">Zwinięto</string>
+    <string name="miuix_stretchablewidget_expanded">Rozwinięto</string>
     <string name="mix_global">System</string>
     <string name="mix_home">Ekran główny</string>
     <string name="mix_icon">Ikony</string>
@@ -1106,6 +1123,16 @@ Więcej informacji otrzymasz, gdy znów będziesz online."</string>
     <string name="permission_title">Dostęp do zdjęć lub plików na urządzeniu</string>
     <string name="personal_recommend_desc">Otrzymuj rekomendacje na podstawie swoich preferencji</string>
     <string name="personal_recommend_title">Spersonalizowane rekomendacje</string>
+    <string name="pet_adoption_content">Zwierzak zacznie drzemać, gdy będzie senny, ale możesz go szturchnąć, by zobaczyć, jak zareaguje. Każde dotknięcie odblokowuje nową niespodziankę!</string>
+    <string name="pet_adoption_title">Wchodź w interakcję z pupilem</string>
+    <string name="pet_adoption_title3">Adoptuj zwierzaka</string>
+    <string name="pet_adoption_title4">Dodaj zwierzaka, aby obserwować, jak dorasta</string>
+    <string name="pet_adoption_title5">Kłębek</string>
+    <string name="pet_audio_permission_desc">Zezwól aplikacji na dostęp do mikrofonu, aby móc rozmawiać ze swoim pupilem.</string>
+    <string name="pet_audio_permission_title">Wymagane uprawnienia</string>
+    <string name="pet_custom_btn">Rozpocznij</string>
+    <string name="pet_custom_content">Prześlij zdjęcie swojego pupila, aby rozpocząć i odblokować słodkie niespodzianki!</string>
+    <string name="pet_custom_title">Utwórz zwierzaka</string>
     <string name="pet_generate_add_tips">Dodaj do Ekranu głównego i baw się dobrze!</string>
     <string name="pet_generate_loading">Generowanie…</string>
     <string name="pet_generate_max_count">W tym momencie nie można wygenerować więcej elementów.</string>
@@ -1114,10 +1141,14 @@ Więcej informacji otrzymasz, gdy znów będziesz online."</string>
     <string name="pet_generate_succ_notify">Wygenerowano Zwierzaka SI</string>
     <string name="pet_generate_succ_notify2">Czas na zabawę!</string>
     <string name="pet_hot">Popularne</string>
+    <string name="pet_icon_description">Dodaj skrót do Ekranu głównego, aby w dowolnym momencie sprawdzić, co słychać u Twojego zwierzaka.</string>
+    <string name="pet_icon_title">Utwórz skrót na Ekranie głównym</string>
     <string name="pet_introduction_subtitle">Prześlij zdjęcie zwierzęcia, na którym wyraźnie widać niezasłonięty pysk.</string>
     <string name="pet_select_message">Wybierz zdjęcie zwierzęcia, na którym wyraźnie je widać, jest niezasłonięte i zajmuje więcej niż połowę kadru.</string>
     <string name="pet_subtitle">Zawartość generowana przy użyciu SI</string>
     <string name="pet_title">Zwierzaki SI</string>
+    <string name="pet_training_title1">Witamy w Zwierzakach SI!</string>
+    <string name="pet_training_title2">Adoptuj jedno z naszych uroczych zwierzątek lub stwórz własne!</string>
     <string name="pet_upload_image">Przesyłanie…</string>
     <string name="peyment_pay_now_btn">Zapłać</string>
     <string name="peyment_theme_detail_buy_btn">Kup %1s</string>
@@ -1719,7 +1750,7 @@ Więcej informacji otrzymasz, gdy znów będziesz online."</string>
     <string name="user_authorization_dialog_disagree">Wyjdź</string>
     <string name="user_authorization_dialog_message"><Data>"Musimy zebrać niezbędne dane osobowe, aby świadczyć podstawowe usługi. Możesz dowiedzieć się, jak postępujemy z informacjami, które zbieramy w naszej &lt;a href=\"%1$s\">Polityce Prywatności&lt;/a>. Przeczytaj i zaakceptuj naszą &lt;a href=\"%2$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%3$s\">Politykę Prywatności&lt;/a> przed skorzystaniem z Motywów.
 W dowolnym momencie możesz wycofać swoją zgodę na Politykę Prywatności Motywów w Ustawieniach."</Data></string>
-    <string name="user_authorization_dialog_message_a"><Data>Zaakceptuj naszą &lt;a href=\"%1$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%2$s\">Politykę Prywatności&lt;/a>, zanim przejdziesz dalej. Możesz w każdej chwili zmienić swoje preferencje w Ustawieniach.</Data></string>
+    <string name="user_authorization_dialog_message_a"><Data>Zaakceptuj naszą &lt;a href=\"%1$s\">Umowę Użytkownika&lt;/a> i &lt;a href=\"%2$s\">Politykę Prywatności&lt;/a>, zanim przejdziesz dalej. Możesz w każdej chwili zmienić swoje preferencje w ustawieniach.</Data></string>
     <string name="user_authorization_dialog_title">Warunki użytkowania</string>
     <string name="user_know">Rozumiem</string>
     <string name="using_theme_has_update_tips">Dostępna jest aktualizacja dla tego motywu.</string>

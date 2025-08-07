@@ -340,6 +340,7 @@
     <string name="app_management_for_install">Bloquear descargas de aplicaciones</string>
     <string name="app_management_for_install_desc">Evitar que esta aplicación descargue o instale otras aplicaciones</string>
     <string name="app_management_measures">Gestión de aplicaciones</string>
+    <string name="app_manager_ad_text_btn_resume">Reanudar</string>
     <string name="app_manager_advanced_setting">Ajustes avanzados</string>
     <string name="app_manager_airtel_dlg_msg">Si tiene alguna pregunta, contacte con Airtel</string>
     <string name="app_manager_airtel_dlg_title">Bloqueado por Airtel</string>
@@ -462,8 +463,8 @@ No perderá ningún dato de aplicación."</string>
     <string name="app_manager_uninstall_notify_title">Desinstalar aplicaciones que se utilizan con poca frecuencia</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Desinstalar aplicaciones del sistema puede causar que algunos componentes no funcionen normalmente. ¿Desinstalar de todos modos?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Desinstalar aplicaciones del sistema</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Las aplicaciones duales correspondientes se eliminarán junto con los datos de la aplicación.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Desinstalar una aplicación dual elimina todos los datos de la aplicación.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">La aplicación dual se desinstalará junto con esta.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Las aplicaciones duales correspondientes se desinstalarán junto a los datos de la aplicación.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">¿Desinstalar aplicación dual?</string>
     <string name="app_manager_unstall_application">Desinstalar</string>
     <string name="app_managere_not_have_app">Vaciar</string>
@@ -570,8 +571,8 @@ No perderá ningún dato de aplicación."</string>
     <string name="applock_lock_mode_locked_or_exit">Cuando el dispositivo esté bloqueado o después de salir de la aplicación</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">Cuando el dispositivo está bloqueado o %d minuto después de salir de la aplicación</string>
     <string name="applock_login_and_add_account">Iniciar sesión y agregar</string>
-    <string name="applock_mixtype_hidepwd_icon">Ocultar</string>
-    <string name="applock_mixtype_showpwd_icon">Mostrar</string>
+    <string name="applock_mixtype_hidepwd_icon">Ocultar contraseña</string>
+    <string name="applock_mixtype_showpwd_icon">Mostrar contraseña</string>
     <string name="applock_no_account_login">No ha iniciado sesión en su Cuenta Mi</string>
     <string name="applock_not_add_account"><u>Ahora no</u></string>
     <string name="applock_not_add_account_normal">No agregar una cuenta</string>
@@ -583,6 +584,12 @@ No perderá ningún dato de aplicación."</string>
     <string name="applock_operate_fingerprint_title">Use su huella digital</string>
     <string name="applock_operate_hidenoti_summary">El Bloqueo de aplicaciones puede hacer esto para las aplicaciones protegidas</string>
     <string name="applock_operate_hidenoti_title">¿Quiere ocultar notificaciones sensibles?</string>
+    <string name="applock_password_set_luck_button">Configuración</string>
+    <string name="applock_password_set_luck_comment">Debe configurar un bloqueo de pantalla para usar funciones privadas en este dispositivo.</string>
+    <string name="applock_password_set_luck_message">"Para acceder de forma segura a las funciones privadas de su dispositivo, Xiaomi HyperOS utiliza su bloqueo de pantalla de forma predeterminada para la verificación de identidad.
+
+Si aún no ha configurado un bloqueo de pantalla, siga las instrucciones para configurar uno."</string>
+    <string name="applock_password_set_luck_title">Establezca el bloqueo de pantalla primero</string>
     <string name="applock_recommend_tips">%s de los usuarios protegen estas aplicaciones</string>
     <string name="applock_recommend_title">Seleccionar aplicaciones</string>
     <string name="applock_set_complete">Usar Bloqueo de aplicaciones</string>
@@ -867,6 +874,22 @@ Sin embargo, algunas de sus transacciones aún no se han completado. Para poder 
     <string name="bind_xiaomi_account_success">Cuenta Mi agregada con éxito</string>
     <string name="bind_xiaomi_account_summary">Usa la Cuenta Mi para restablecer tu contraseña</string>
     <string name="bind_xiaomi_account_title">Agregar Cuenta Mi</string>
+    <string name="biometric_applock_password_lockout_title">Demasiados intentos fallidos</string>
+    <string name="biometric_applock_pwd">Verificación del bloqueo de aplicaciones</string>
+    <string name="biometric_applock_pwd_or_finger">Verificar con huella digital o Bloqueo de aplicaciones</string>
+    <string name="biometric_face_error">No se pudo verificar</string>
+    <string name="biometric_face_finger_change">Los datos biométricos han cambiado. Ingrese su contraseña para verificar.</string>
+    <string name="biometric_finger_verify">Verificación con huella digital</string>
+    <string name="biometric_lockscreen_pwd">Verificación del bloqueo de pantalla</string>
+    <string name="biometric_lockscreen_pwd_or_finger">Verificar con huella digital o bloqueo de pantalla</string>
+    <string name="biometric_private_password">Verificación de contraseñas de Protección de la privacidad</string>
+    <string name="biometric_private_password_lockout_title">Demasiados intentos fallidos</string>
+    <string name="biometric_private_pwd_or_finger">Verificar con huella digital o contraseña de Protección de la privacidad</string>
+    <string name="biometric_reset_password_tips">La contraseña se ha restablecido con éxito. Ingrese la nueva contraseña para desbloquearla.</string>
+    <string name="biometric_screen_lock_password_lockout_title">Demasiados intentos fallidos</string>
+    <string name="biometric_subtitle">Para abrir %1$s</string>
+    <string name="biometric_subtitle_default">Verifique su identidad</string>
+    <string name="biometric_verify_retry">Vuelva a intentarlo</string>
     <string name="birthday">Cumpleaños</string>
     <string name="bl_no_blacklist">Sin números bloqueados.</string>
     <string name="bl_no_block_call">Sin llamadas bloqueadas.</string>
@@ -1002,6 +1025,8 @@ Sin embargo, algunas de sus transacciones aún no se han completado. Para poder 
     <string name="car_sickness_relief_comment_text">Cuando se detecta movimiento del vehículo, se muestran puntos en ambos lados de la pantalla para indicar si el vehículo está en movimiento, lo que puede ayudar a retrasar la aparición del mareo por movimiento.</string>
     <string name="car_sickness_relief_example_text_1">Cuando el vehículo acelera o desacelera</string>
     <string name="car_sickness_relief_example_text_2">Cuando el vehículo gira o cambia de carril</string>
+    <string name="car_sickness_relief_exit_text">El alivio del mareo por movimiento ha dejado de trabajar</string>
+    <string name="car_sickness_relief_start_text">El alivio del mareo por movimiento está trabajando</string>
     <string name="car_sickness_remind_time_title">Indicadores de movimiento</string>
     <string name="car_sickness_title">Alivio del mareo por movimiento</string>
     <string name="card_main_apkclean_title">Eliminar APKs</string>
@@ -1178,6 +1203,7 @@ Sin embargo, algunas de sus transacciones aún no se han completado. Para poder 
     <string name="connected_devices_notification_title">¿Permitir que el dispositivo de arriba muestre las notificaciones de este dispositivo?</string>
     <string name="connected_devices_permission">Interconectividad y permisos</string>
     <string name="connected_devices_permission_settings">Interconectividad y permisos</string>
+    <string name="connected_devices_permission_summary">Gestionar el acceso a este dispositivo</string>
     <string name="connected_devices_record">Grabar</string>
     <string name="connected_devices_record_desc">Permita que los dispositivos cercanos que hayan iniciado sesión en la misma cuenta graben audio en este dispositivo</string>
     <string name="connected_devices_record_title">¿Permitir que el dispositivo anterior grabe audio en este dispositivo?</string>
@@ -1345,6 +1371,8 @@ Sin embargo, algunas de sus transacciones aún no se han completado. Para poder 
     <string name="deep_save_ontime_boot_shutdown_summary">Programar hora de enecendido/apagado del dispositivo</string>
     <string name="delete">Eliminar</string>
     <string name="delete_all_sms">Eliminar todo</string>
+    <string name="delete_connected_devices">¿Eliminar los dispositivos seleccionados?</string>
+    <string name="delete_connected_devices_title">¿Eliminar %1$s ahora?</string>
     <string name="delete_from_manual_item_white_list">Eliminar de la lista de excepciones</string>
     <string name="delete_input">Eliminar</string>
     <string name="deleted_apps">Aplicaciones eliminadas</string>
@@ -1821,6 +1849,8 @@ Se agregará a las excepciones, pero los elementos previamente bloqueados no apa
     <string name="game_anti_disturb_msg">No molestar en juegos</string>
     <string name="game_balance_more_setting_title">Configuración adicional</string>
     <string name="game_balance_vision_enhance_subtitle">Incrementar el contraste y mejorar los detalles para juegos</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">Solo disponible cuando la resolución del juego está configurada en el valor más alto</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">Solo disponible cuando la precisión de renderizado del juego está configurada en el valor más alto</string>
     <string name="game_balance_vision_enhance_title">Efectos visuales mejorados</string>
     <string name="game_booster">Game Turbo</string>
     <string name="game_booster_close">Game Turbo desactivado</string>
@@ -1858,8 +1888,13 @@ Se agregará a las excepciones, pero los elementos previamente bloqueados no apa
     <string name="game_toolbox_ai_upgrade_dialog_btn">Actualizar</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">Hay una actualización disponible para los servicios de juegos con IA. Actualice antes de usar las funciones relacionadas.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Buscar actualizaciones</string>
+    <string name="game_toolbox_auto_brightness_talkback">Brillo automático</string>
+    <string name="game_toolbox_btn_back_talkback">Atrás</string>
+    <string name="game_toolbox_cellular_network">Aumento de velocidad de la red móvil</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Activa para reducir ligeramente la calidad de la imagen y reducir significativamente el consumo de energía</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"Nota:
+Cuando la Tasa de fotogramas inteligente está activada, es posible que las herramientas de detección de velocidad de fotogramas del juego y de terceros no lo detecten con precisión. Consulte el panel de rendimiento para ver la velocidad de fotogramas real."</string>
     <string name="game_toolbox_display_style_desc">Ajusta el estilo visual (compatible con HDR en juegos)</string>
     <string name="game_toolbox_display_style_game_hdr">HDR en juegos</string>
     <string name="game_toolbox_display_style_title">Estilo visual</string>
@@ -1868,10 +1903,20 @@ Se agregará a las excepciones, pero los elementos previamente bloqueados no apa
     <string name="game_toolbox_fps_shake">%d FPS de fluctuación</string>
     <string name="game_toolbox_immersion_sound_desc">Al usar audífonos, captura con precisión los efectos de sonido, como pasos y voces, lo que mejora la inmersión en el juego</string>
     <string name="game_toolbox_immersion_sound_title">Sonido envolvente</string>
+    <string name="game_toolbox_item_joystick_key_mapping">Botón del controlador</string>
+    <string name="game_toolbox_margin_restrain_description">Establece el rango de rechazo táctil para reducir los toques accidentales</string>
     <string name="game_toolbox_mem_clean_desc">Limpia la memoria y aumenta la velocidad</string>
     <string name="game_toolbox_more_tools_title">Más herramientas</string>
     <string name="game_toolbox_perf_config_desc">Configura los ajustes de rendimiento del juego</string>
     <string name="game_toolbox_perf_config_title">Configuración de rendimiento</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">Puede personalizar la Superresolución y la velocidad de fotogramas inteligente para administrar la velocidad de fotogramas y la calidad de imagen. &lt;font color=%s>La velocidad de fotogramas real se muestra en el panel de rendimiento.&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">Cuando la Prioridad de tasa de fotogramas está activada, la velocidad de fotogramas real es la que se muestra en el panel de rendimiento</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">La Prioridad de tasa de fotogramas mejora la velocidad de fotogramas mediante la Tasa de fotogramas inteligente. &lt;font color=%s>La tasa de fotogramas real se muestra en el panel de rendimiento.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">Cuando la Prioridad de imagen está activada, la velocidad de fotogramas real es la que se muestra en el panel de rendimiento</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">La Prioridad de imagen mejora la calidad de la imagen mediante la superresolución y administra la velocidad de fotogramas mediante la velocidad de fotogramas inteligente. &lt;font color=%s>La velocidad de fotogramas real se muestra en el panel de rendimiento.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">Brillo de la pantalla</string>
+    <string name="game_toolbox_settings_talkback">Configuración</string>
     <string name="game_toolbox_slow_charge_desc">Active esta función para mejorar la experiencia de juego mientras se carga, reduciendo la velocidad de carga. Esto puede evitar que su dispositivo se sobrecaliente. ¿Activar ahora?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Entendido</string>
     <string name="game_toolbox_slow_charge_negative_btn">Cancelar</string>
@@ -1880,6 +1925,12 @@ Se agregará a las excepciones, pero los elementos previamente bloqueados no apa
     <string name="game_toolbox_slow_charge_positive_btn">Activar</string>
     <string name="game_toolbox_slow_charge_title">Carga lenta</string>
     <string name="game_toolbox_slow_charge_toast">Carga lenta activada</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">La respuesta táctil no funciona con los diseños originales. La respuesta táctil está desactivada.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">La respuesta táctil no funciona con los diseños originales</string>
+    <string name="game_toolbox_smotion_vibrate_desc">Agrega respuesta táctil según los movimientos del juego. Solo algunos juegos son compatibles.</string>
+    <string name="game_toolbox_smotion_vibrate_title">Respuesta táctil</string>
+    <string name="game_toolbox_super_follow_up_msg">Mejora la respuesta táctil y el seguimiento a través de todo el proceso de hardware y software</string>
+    <string name="game_toolbox_super_shake_msg">Reduce la vibración al tocar y deslizar, mejorando la estabilidad del control</string>
     <string name="game_toolbox_title">Herramientas de juegos</string>
     <string name="game_toolbox_title_game_center">Juegos</string>
     <string name="game_toolbox_title_wild">Modo ultimate</string>
@@ -2408,13 +2459,13 @@ Mantenga presionado el indicador para mover la ventana."</string>
     <string name="go_to_mi_sim">Tap to use Mi SIM.</string>
     <string name="go_to_send">Enviar</string>
     <string name="go_to_setting_fingerprint">Configuración</string>
-    <string name="google_base_app_install_choice">La aplicación necesita el Marco de Servicios de Google para funcionar normalmente. ¿Descarga e instalar?</string>
+    <string name="google_base_app_install_choice">La aplicación necesita el Marco de los servicios de Google para funcionar normalmente. ¿Descarga e instalar?</string>
     <string name="google_base_app_installed">Instalado con éxito</string>
     <string name="google_base_app_installing">Instalando…</string>
     <string name="google_base_app_network_anomaly">No se pudo conectar a la red. Compruebe sus ajustes de red e inténtelo de nuevo.</string>
     <string name="google_base_app_timeout">La sesión expiró. Espere un minuto o dos e intente nuevamente.</string>
     <string name="google_base_app_title">Instalando servicios de Google</string>
-    <string name="google_base_app_toast">Se está instalando el Marco de Servicios de Google en segundo plano. Espere un minuto o dose intente denuevo.</string>
+    <string name="google_base_app_toast">Se está instalando el Marco de los servicios de Google en segundo plano. Espere un minuto o dose intente denuevo.</string>
     <string name="grant_dialog_button_allow_onetime">Una vez</string>
     <string name="grant_dialog_button_deny_and_dont_ask_again">Denegar y no volver a preguntar</string>
     <string name="grant_dialog_button_onetime">Permitir una vez</string>
@@ -2745,6 +2796,7 @@ La operadora puede cobrarle cargos adicionales si usa su conexión a datos móvi
     <string name="main_alert_message_no_imsi">No se detectó ninguna SIM</string>
     <string name="main_alert_message_open_traffic_ctrl">Le recomendamos restringir el uso de datos</string>
     <string name="main_balance_check">Comprobar el saldo</string>
+    <string name="main_bill_out_talkback">Saldo negativo %1$.2f</string>
     <string name="main_bill_remained">Saldo del teléfono</string>
     <string name="main_button_mi_sim_close">Activar Mi SIM</string>
     <string name="main_button_mi_sim_open">Ver detalles</string>
@@ -3327,7 +3379,7 @@ Intente usar otro cable Ethernet para conectar el router. Si sospecha que hay un
     <string name="om_settings_memory_occupy_notify">Gran tamaño de caché</string>
     <string name="om_settings_memory_occupy_notify_never">Nunca</string>
     <string name="om_settings_notify_manage">Notifications</string>
-    <string name="om_settings_speed_up_auto">Aumento de velocidad Auto</string>
+    <string name="om_settings_speed_up_auto">Aumento de velocidad automático</string>
     <string name="om_settings_title">Ajustes de aumento de velocidad</string>
     <string name="om_shortcut_added_toast_text">Agregada con éxito</string>
     <string name="om_shortcut_dialog_summary">RAM Jet le permite limpiar la memoria y aumentar la velocidad de su dispositivo con un solo toque. ¿Agregar RAM Jet a su pantalla de inicio?</string>
@@ -3343,6 +3395,8 @@ Intente usar otro cable Ethernet para conectar el router. Si sospecha que hay un
     <string name="open_extreme_power_save_mode_title">Activar Ahorro de batería extremo</string>
     <string name="open_game">Abrir</string>
     <string name="open_now">Permitir que la aplicación use datos móviles</string>
+    <string name="open_physical_sim_self_detection_noti_centent">Puede que su conexión de roaming no funcione correctamente</string>
+    <string name="open_physical_sim_self_detection_noti_title">Probar diagnósticos de redes roaming</string>
     <string name="open_wlan_title">Permitir que esta aplicación active y desactive Wi-Fi</string>
     <string name="operator_location_settings">Establecer operadora y ubicación</string>
     <string name="operator_location_settings_message">No se pudo reconocer su operadora y ubicación. No se pueden establecer advertencias de uso de datos y saldo del teléfono ahora.</string>
@@ -3431,6 +3485,7 @@ Intente usar otro cable Ethernet para conectar el router. Si sospecha que hay un
     <string name="password_unlock">Desbloquear vía contraseña</string>
     <string name="password_xspace_forget_pattern_message">Para cambiar su contraseña del segundo espacio deberá eliminar el segundo espacio actual y crear uno nuevo.</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Carga más rápida con carga inversa de alta potencia. La conexión USB solo se utiliza para cargar.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">Carga más rápida con carga inversa de alta potencia.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Carga reversible</string>
     <string name="pc_abnormal_scan_button_text">Cerrar aplicaciones</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Evita que el sistema pase al modo en suspensión</string>
@@ -3574,8 +3629,8 @@ Intente usar otro cable Ethernet para conectar el router. Si sospecha que hay un
     <string name="pc_hidemode_power_save">Ahorra batería</string>
     <string name="pc_high_temp_discharge_reminder">Cargue su dispositivo. La batería podría dañarse si el dispositivo se sobrecalienta mientras la batería está baja.</string>
     <string name="pc_high_temp_protection_noti_bt_text">Entendido</string>
-    <string name="pc_high_temp_protection_noti_summary">No puedo usar hotspots, datos móviles y servicios de ubicación ahora</string>
-    <string name="pc_high_temp_protection_noti_summary2">No se puede usar hotspot ahora</string>
+    <string name="pc_high_temp_protection_noti_summary">No se puede usar puntos de acceso, datos móviles y servicios de ubicación ahora</string>
+    <string name="pc_high_temp_protection_noti_summary2">No se puede usar punto de acceso ahora</string>
     <string name="pc_high_temp_protection_noti_tile">Su dispositivo está sobrecalentado</string>
     <string name="pc_hight_refresh_rate_reminder_content">Su dispositivo está utilizando una tasa de refresco más alta para una mejor experiencia de visualización. Esto podría aumentar el consumo de energía y la temperatura del dispositivo.</string>
     <string name="pc_hight_refresh_rate_reminder_summary">Usando una tasa de refresco más alta. Esto podría aumentar el consumo de energía y la temperatura del dispositivo.</string>
@@ -3645,6 +3700,9 @@ el Ahorro de batería extremo"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Cierre el dispositivo antes de cargarlo para una experiencia de carga más rápida y estable.</string>
     <string name="pc_remind_close_cover_to_charge_title">Cierre para cargar</string>
     <string name="pc_reminder_always_protect_summary">Cambie a una carga limitada para reducir el envejecimiento de la batería</string>
+    <string name="pc_remove_shell_charging_notification_msg">No se puede usar la carga inalámbrica al usar una funda gaming. Retírela y vuelva a intentarlo, o use la carga por cable.</string>
+    <string name="pc_remove_shell_charging_notification_title">Retire la funda para usar la carga inalámbrica</string>
+    <string name="pc_remove_shell_charging_toast">Retire la funda para usar la carga inalámbrica inversa</string>
     <string name="pc_satellite_auto_enter_super_power">Se activó el Ahorro de batería extremo para garantizar las comunicaciones por satélite</string>
     <string name="pc_save_charge">Cargando</string>
     <string name="pc_save_other_setting">Otros ajustes</string>
@@ -4030,7 +4088,7 @@ el Ahorro de batería extremo"</string>
     <string name="power_center_surface_temp_low">Frío</string>
     <string name="power_center_surface_temp_lower">Fresco</string>
     <string name="power_center_surface_temp_normal">Medio</string>
-    <string name="power_center_time_to_boot">Tiempo</string>
+    <string name="power_center_time_to_boot">Hora</string>
     <string name="power_center_time_to_shutdown">Tiempo</string>
     <string name="power_center_title">Batería</string>
     <string name="power_center_unoffical_battery_button">Encuentre un proveedor de servicios autorizado</string>
@@ -4058,6 +4116,7 @@ el Ahorro de batería extremo"</string>
     <string name="power_dialog_performance_mode_checkbox">Cambiar a tasa de refresco de %d Hz</string>
     <string name="power_dialog_super_save_msg">El Ahorro de batería ultra restringe las funciones con mayor consumo de energía y reduce el rendimiento de su dispositivo para mantener las funciones básicas (p. ej. llamadas, mensajes y conexión a la red) disponibles el mayor tiempo posible. ¿Activar ahorrador de batería ultra?</string>
     <string name="power_dialog_super_save_msg_5g">Ahorro de batería ultra restringe la mayoría de las funciones que consumen energía (por ejemplo, conectividad 5G) reduciendo el rendimiento de su dispositivo. Solo las llamadas, los mensajes y la conectividad de red no se verán afectados. ¿Activar Ahorro de batería Ultra?</string>
+    <string name="power_dialog_super_save_msg_p2">El Ahorro de batería extremo desactiva la pantalla trasera y restringe la mayoría de las funciones que consumen mucha energía, lo que reduce el rendimiento del dispositivo para que las funciones básicas (como llamadas, SMS y conexión a la red) estén disponibles el mayor tiempo posible. ¿Activar el Ahorro de batería extremo?</string>
     <string name="power_dialog_super_save_title">Ahorro de batería ultra</string>
     <string name="power_idle">Teléfono inactivo</string>
     <string name="power_main_battery_last_day_hour">%1$s d y %2$s h restantes</string>
@@ -4267,6 +4326,7 @@ el Ahorro de batería extremo"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Cuando sobrepase su plan de datos</string>
     <string name="pref_package_traffic_settings">Plan de datos</string>
+    <string name="pref_physical_sim_self_detection_cat_title">Comprobar la red</string>
     <string name="pref_pkg_begin_date">Fecha de reinicio de uso</string>
     <string name="pref_roaming_daily_limit_setting">Límite de datos diario en roaming</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Límite de datos diarios</string>
@@ -4278,6 +4338,7 @@ el Ahorro de batería extremo"</string>
     <string name="pref_title_diagnostics_show_float_notification">Notificaciones flotantes</string>
     <string name="pref_title_manual_check_virus_db_update">Buscar actualizaciones</string>
     <string name="pref_title_over_traffic_limit_warning">Al exceder el límite</string>
+    <string name="pref_title_physical_sim_self_detection">Diagnósticos de redes roaming</string>
     <string name="pref_title_traffic_limit_number">Tamaño</string>
     <string name="pref_title_traffic_package_type">Tipo de plan de datos</string>
     <string name="pref_title_traffic_speed_state">Mostrar velocidad de la red</string>
@@ -4330,6 +4391,8 @@ el Ahorro de batería extremo"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">Esta función le permite ocultar íconos de aplicaciones para que ya no aparezcan en su pantalla de inicio.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Después de introducir su contraseña, aparecerá la carpeta con las aplicaciones ocultas.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Separe dos dedos en la pantalla. Verá un mensaje solicitándole introducir su contraseña de bloqueo de aplicación.</string>
+    <string name="privacy_custom_password_long">Ingrese hasta %d dígitos</string>
+    <string name="privacy_custom_password_too_short">Ingrese al menos %d números</string>
     <string name="privacy_danger_permission_status_summary">Administrar aplicaciones que requieren permisos confidenciales</string>
     <string name="privacy_danger_permission_status_title">Acciones delicadas</string>
     <string name="privacy_danger_permission_summary">Monitorizar como las aplicaciones usan sus permisos</string>
@@ -4389,6 +4452,8 @@ el Ahorro de batería extremo"</string>
     <string name="privacy_global_guide_permission_guide_text">Recibirá una alerta en la barra de estado cuando las aplicaciones graben audio o usen la cámara. Para saber qué aplicación lo hace, toque sobre la alerta.</string>
     <string name="privacy_guide_permission_guide_text">Usted puede recibir una alerta en la barra de estado cuando las aplicaciones accedan a su ubicación, graben audios o tomen fotos.</string>
     <string name="privacy_hide_other_permissions">Ocultar otros permisos</string>
+    <string name="privacy_hybrid_password_long">Ingrese hasta %d caracteres</string>
+    <string name="privacy_hybrid_password_too_short">Ingrese al menos %d caracteres</string>
     <string name="privacy_informed_title">Estadísticas</string>
     <string name="privacy_input_mode">Entrada segura</string>
     <string name="privacy_input_model_tips">La entrada segura está activada. Su teclado no puede mostrar ventanas emergentes ni acceder a contactos, información de ubicación e historial de llamadas.</string>
@@ -4409,6 +4474,28 @@ el Ahorro de batería extremo"</string>
     <string name="privacy_notification_title_mic">%1sestá usando el micrófono en segundo plano</string>
     <string name="privacy_other_permission_manage_summary">Administrar otros permisos relacionados con la privacidad</string>
     <string name="privacy_other_permission_manage_title">Otros permisos</string>
+    <string name="privacy_password_chanage_process">Cambie la contraseña de Protección de la privacidad</string>
+    <string name="privacy_password_custom_password">Personalizar PIN</string>
+    <string name="privacy_password_digital_password">PIN de %d dígitos</string>
+    <string name="privacy_password_enter_custom_password">Ingrese su PIN de %1$d–%2$d dígitos</string>
+    <string name="privacy_password_enter_custom_password_again">Ingrese su PIN de nuevo</string>
+    <string name="privacy_password_enter_custom_password_not_match">Los PIN no coinciden</string>
+    <string name="privacy_password_enter_digital_password">Ingrese su PIN de %d dígitos</string>
+    <string name="privacy_password_enter_digital_password_again">Ingrese de nuevo su PIN de %d dígitos</string>
+    <string name="privacy_password_enter_graphic_password">Dibuje el patrón de desbloqueo. Conecte al menos %d puntos.</string>
+    <string name="privacy_password_enter_hybrid_password">Ingrese tu contraseña de %1$d–%2$d caracteres</string>
+    <string name="privacy_password_enter_hybrid_password_again">Ingrese su contraseña de nuevo</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">La contraseña no puede contener caracteres inválidos</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">Las contraseñas no coinciden</string>
+    <string name="privacy_password_graphic_password">Patrón</string>
+    <string name="privacy_password_hybrid_password">Contraseña</string>
+    <string name="privacy_password_other_password">Otra contraseña</string>
+    <string name="privacy_password_setup_confirm">Aceptar</string>
+    <string name="privacy_password_setup_hint">Ingrese su contraseña</string>
+    <string name="privacy_password_setup_next">Siguiente</string>
+    <string name="privacy_password_setup_not_match">Vuelva a intentarlo</string>
+    <string name="privacy_password_setup_process">Establezca la contraseña de Protección de la privacidad</string>
+    <string name="privacy_password_update_type">Seleccione el tipo de contraseña</string>
     <string name="privacy_permission_call">Accediendo o editando el historial de llamadas</string>
     <string name="privacy_permission_call_title">Proteger llamadas</string>
     <string name="privacy_permission_camera_title">Restringir el uso de la cámara en segundo plano</string>
@@ -4521,6 +4608,8 @@ Debido a que %2$s brinda sus servicios en función de la recopilación de la inf
     <string name="privacy_risk_uninstall_title">Desinstalar aplicaciones</string>
     <string name="privacy_risk_work_encryption">Los archivos de las redes sociales y de trabajo no están protegidos</string>
     <string name="privacy_screen_share_notification_content">Está transmitiendo a otro dispositivo. Protección de la privacidad activada.</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">Protegiendo su privacidad</string>
+    <string name="privacy_screen_share_notification_land_title">Compartiendo pantalla</string>
     <string name="privacy_screen_share_notification_protect_content">Los elementos sensibles no se mostrarán en el dispositivo externo</string>
     <string name="privacy_screen_share_notification_protect_title">El contenido de la pantalla está protegido</string>
     <string name="privacy_screen_share_notification_title">Transmitiendo contenido de la pantalla</string>
@@ -4567,6 +4656,10 @@ Debido a que %2$s brinda sus servicios en función de la recopilación de la inf
     <string name="privacy_using_record">Grabar audio</string>
     <string name="privacyapp_number_masked_text">El contenido de la notificación está oculto</string>
     <string name="privacyapp_number_unmasked_text">El contenido de la notificación se puede ocultar</string>
+    <string name="private_file">Archivos privados</string>
+    <string name="private_note">Notas ocultas</string>
+    <string name="private_photo">Álbum privado</string>
+    <string name="private_sms">Mensajes privados</string>
     <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Servidor multimedia</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
@@ -4575,6 +4668,7 @@ Debido a que %2$s brinda sus servicios en función de la recopilación de la inf
     <string name="prompt_input_time_illegal">No se pudo establecer esta hora, cámbiela y vuelva a intentarlo</string>
     <string name="protocol_exception_title">Diagnósticos de protocolo de red</string>
     <string name="protocol_loop_back_exception_summary">El test local ha fallado. Para informar de este problema, vaya a la aplicación Comentarios y envíe un registro desde su dispositivo.</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">Atrás</string>
     <string name="provision_next">Siguiente</string>
     <string name="provision_skip_underline">Saltar</string>
@@ -5685,6 +5779,7 @@ Los datos restantes incluyen datos transferidos desde el mes anterior."</string>
     <string name="traffic_remind_switch">Advertencia de uso de datos</string>
     <string name="traffic_reminder_settings">Establecer advertencia de uso de datos</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">Seleccionar operadora</string>
     <string name="traffic_setting_fragment_area">Ubicación</string>
     <string name="traffic_setting_fragment_brand">Marca</string>
     <string name="traffic_setting_fragment_button1_text">Cancelar</string>
