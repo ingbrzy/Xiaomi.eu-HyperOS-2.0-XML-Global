@@ -340,6 +340,7 @@
     <string name="app_management_for_install">Alkalmazásletöltések letiltása</string>
     <string name="app_management_for_install_desc">Megakadályozza, hogy ez az alkalmazás más alkalmazásokat töltsön le vagy telepítsen</string>
     <string name="app_management_measures">Alkalmazáskezelés</string>
+    <string name="app_manager_ad_text_btn_resume">Folytatás</string>
     <string name="app_manager_advanced_setting">További beállítások</string>
     <string name="app_manager_airtel_dlg_msg">Amennyiben kérdése van, lépjen kapcsolatba az Airtellel</string>
     <string name="app_manager_airtel_dlg_title">Letiltva az Airtel által</string>
@@ -462,8 +463,8 @@ beállításait. Alkalmazásadatait nem fogja elveszteni."</string>
     <string name="app_manager_uninstall_notify_title">A ritkán használt alkalmazások eltávolítása</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Rendszeralkalmazás eltávolítása akadályozhatja más rendszerelemek megfelelő működését is. Biztosan eltávolítja?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Rendszeralkalmazások eltávolítása</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">A megfelelő klónozott alkalmazások el lesznek távolítva adataikkal együtt.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">A klónozott alkalmazás eltávolítása törölni fog minden adatot.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">A klónozott alkalmazás ezzel együtt eltávolításra kerül.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Az egyező klónozott alkalmazások az alkalmazásadatokkal együtt eltávolításra kerülnek.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Eltávolítja a klónozott alkalmazást?</string>
     <string name="app_manager_unstall_application">Eltávolítás</string>
     <string name="app_managere_not_have_app">Üres</string>
@@ -570,8 +571,8 @@ beállításait. Alkalmazásadatait nem fogja elveszteni."</string>
     <string name="applock_lock_mode_locked_or_exit">Ha a készülék zárolva van, vagy az alkalmazásból kilépés után</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">Ha a készülék zárolva van, vagy %d perccel az alkalmazásból kilépés után</string>
     <string name="applock_login_and_add_account">Belépés és hozzáadás</string>
-    <string name="applock_mixtype_hidepwd_icon">Elrejtés</string>
-    <string name="applock_mixtype_showpwd_icon">Megjelenítés</string>
+    <string name="applock_mixtype_hidepwd_icon">Jelszó elrejtése</string>
+    <string name="applock_mixtype_showpwd_icon">Jelszó megjelenítése</string>
     <string name="applock_no_account_login">Nincs bejelentkezve a Xiaomi Fiókjába</string>
     <string name="applock_not_add_account"><u>Nem most</u></string>
     <string name="applock_not_add_account_normal">Ne adjon hozzá fiókot</string>
@@ -583,6 +584,12 @@ beállításait. Alkalmazásadatait nem fogja elveszteni."</string>
     <string name="applock_operate_fingerprint_title">Ujjlenyomat használata</string>
     <string name="applock_operate_hidenoti_summary">Az alkalmazászár ezt megteheti a védett alkalmazásokkal kapcsolatban</string>
     <string name="applock_operate_hidenoti_title">El akarja rejteni az érzékeny értesítéseket?</string>
+    <string name="applock_password_set_luck_button">Beállítások</string>
+    <string name="applock_password_set_luck_comment">A privát funkciók használatához ezen a készüléken képernyőzárat kell beállítania.</string>
+    <string name="applock_password_set_luck_message">"A készülék privát funkcióinak biztonságos eléréséhez a Xiaomi HyperOS alapértelmezés szerint a képernyőzárat használja a személyazonosság ellenőrzésére.
+
+Ha még nem állított be képernyőzárat, kövesse az utasításokat a beállításához."</string>
+    <string name="applock_password_set_luck_title">Először állítson be képernyőzárat</string>
     <string name="applock_recommend_tips">A felhasználók közül %s védi ezeket az alkalmazásokat</string>
     <string name="applock_recommend_title">Alkalmazások kiválasztása</string>
     <string name="applock_set_complete">Alkalmazások zárolása használata</string>
@@ -867,6 +874,22 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="bind_xiaomi_account_success">Xiaomi Fiók sikeresen hozzáadva</string>
     <string name="bind_xiaomi_account_summary">Használjon Xiaomi Fiókot a jelszó visszaállításához</string>
     <string name="bind_xiaomi_account_title">Xiaomi Fiók hozzáadása</string>
+    <string name="biometric_applock_password_lockout_title">Túl sok sikertelen kísérlet</string>
+    <string name="biometric_applock_pwd">Alkalmazászáras hitelesítés</string>
+    <string name="biometric_applock_pwd_or_finger">Hitelesítés ujjlenyomattal vagy alkalmazások zárolásával</string>
+    <string name="biometric_face_error">Nem lehet hitelesíteni</string>
+    <string name="biometric_face_finger_change">A biometrikus adatok megváltoztak. Adja meg jelszavát a hitelesítéshez.</string>
+    <string name="biometric_finger_verify">Hitelesítés ujjlenyomattal</string>
+    <string name="biometric_lockscreen_pwd">Képernyőzáras hitelesítés</string>
+    <string name="biometric_lockscreen_pwd_or_finger">Hitelesítés ujjlenyomattal vagy képernyőzárral</string>
+    <string name="biometric_private_password">Adatvédelmi jelszavas hitelesítés</string>
+    <string name="biometric_private_password_lockout_title">Túl sok sikertelen kísérlet</string>
+    <string name="biometric_private_pwd_or_finger">Hitelesítés ujjlenyomattal vagy adatvédelmi jelszóval</string>
+    <string name="biometric_reset_password_tips">A jelszó visszaállítása sikerült. A feloldáshoz adja meg az új jelszót.</string>
+    <string name="biometric_screen_lock_password_lockout_title">Túl sok sikertelen kísérlet</string>
+    <string name="biometric_subtitle">%1$s megnyitásához</string>
+    <string name="biometric_subtitle_default">Személyazonosság igazolása</string>
+    <string name="biometric_verify_retry">Újra</string>
     <string name="birthday">Születésnap</string>
     <string name="bl_no_blacklist">A tiltólista üres.</string>
     <string name="bl_no_block_call">Nincsenek tiltott hívások.</string>
@@ -1002,6 +1025,8 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="car_sickness_relief_comment_text">A jármű mozgásának észlelésekor a képernyő mindkét oldalán pontok jelzik, hogy a jármű mozog-e, ami segíthet késleltetni az utazási betegség kialakulását.</string>
     <string name="car_sickness_relief_example_text_1">Amikor a jármű felgyorsul vagy lelassul</string>
     <string name="car_sickness_relief_example_text_2">Amikor a jármű kanyarodik vagy sávot vált</string>
+    <string name="car_sickness_relief_exit_text">Az émelygés elleni hatás megszűnt</string>
+    <string name="car_sickness_relief_start_text">Az émelygés elleni hatás érvényesül</string>
     <string name="car_sickness_remind_time_title">Mozgásérzékelők</string>
     <string name="car_sickness_title">Utazási betegség enyhítése</string>
     <string name="card_main_apkclean_title">APK-k törlése</string>
@@ -1178,6 +1203,7 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="connected_devices_notification_title">Engedélyezi a fenti készüléknek, hogy megjelenítse ennek a készüléknek az értesítéseit?</string>
     <string name="connected_devices_permission">Összekapcsolhatóság és engedélyek</string>
     <string name="connected_devices_permission_settings">Összekapcsolhatóság és engedélyek</string>
+    <string name="connected_devices_permission_summary">Hozzáférés kezelése ehhez a készülékhez</string>
     <string name="connected_devices_record">Rögzítés</string>
     <string name="connected_devices_record_desc">Engedélyezze, hogy a közelben lévő, ugyanabba a fiókba bejelentkezett készülékek hangot rögzítsenek ezen az eszközön</string>
     <string name="connected_devices_record_title">Engedélyezi, hogy a fenti készülékkel hangot rögzítsenek ezen a készüléken?</string>
@@ -1344,6 +1370,8 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="deep_save_ontime_boot_shutdown_summary">A készülék be- és kikapcsolásának időzítése</string>
     <string name="delete">Törlés</string>
     <string name="delete_all_sms">Az összes törlése</string>
+    <string name="delete_connected_devices">Törli a kijelölt készülékeket most?</string>
+    <string name="delete_connected_devices_title">Törli %1$s-t most?</string>
     <string name="delete_from_manual_item_white_list">Eltávolítás a kivételek listájáról</string>
     <string name="delete_input">Eltávolítás</string>
     <string name="deleted_apps">Törölt alkalmazások</string>
@@ -1819,6 +1847,8 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="game_anti_disturb_msg">Ne zavarjanak játékokban</string>
     <string name="game_balance_more_setting_title">További beállítások</string>
     <string name="game_balance_vision_enhance_subtitle">Játék közben növeli a kontrasztot és javítja a részleteket</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">Csak akkor érhető el, ha a játék felbontása a legmagasabb értékre van állítva</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">Csak akkor érhető el, ha a játék renderelési pontossága a legmagasabb értékre van állítva</string>
     <string name="game_balance_vision_enhance_title">Javított látvány</string>
     <string name="game_booster">Játékgyorsító</string>
     <string name="game_booster_close">A Játékgyorsító ki van kapcsolva</string>
@@ -1856,8 +1886,13 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="game_toolbox_ai_upgrade_dialog_btn">Frissítés</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">Elérhető az AI játékszolgáltatások frissítése. A kapcsolódó funkciók használata előtt frissítsen.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Frissítések keresése</string>
+    <string name="game_toolbox_auto_brightness_talkback">Automatikus fényerő</string>
+    <string name="game_toolbox_btn_back_talkback">Vissza</string>
+    <string name="game_toolbox_cellular_network">Mobilhálózati sebességgyorsítás</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Kapcsolja be a képminőség enyhe csökkentéséhez és az energiafogyasztás jelentős mérsékléséhez</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"Megjegyzés:
+Ha az Intelligens képkockasebesség be van kapcsolva, a játékban és harmadik féltől származó képkockasebesség-érzékelő eszközök nem biztos, hogy pontosan érzékelik a képkockasebességet. A tényleges képkockasebességet a teljesítmény-vezérlőpulton találja."</string>
     <string name="game_toolbox_display_style_desc">Vizuális stílus beállítása (támogatja a játék HDR-t)</string>
     <string name="game_toolbox_display_style_game_hdr">Játék HDR</string>
     <string name="game_toolbox_display_style_title">Vizuális stílus</string>
@@ -1866,10 +1901,20 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="game_toolbox_fps_shake">Jitter %d FPS</string>
     <string name="game_toolbox_immersion_sound_desc">Ha fülhallgatót használ, pontosan rögzítheti a hanghatásokat, például a lépéseket és a hangokat, ami fokozza a játékélményt</string>
     <string name="game_toolbox_immersion_sound_title">Immerzív hang</string>
+    <string name="game_toolbox_item_joystick_key_mapping">Vezérlőgomb</string>
+    <string name="game_toolbox_margin_restrain_description">Beállíthatja az érintésblokkolási tartományt a véletlen érintések csökkentéséhez</string>
     <string name="game_toolbox_mem_clean_desc">Memóriatisztítás és sebességnövelés</string>
     <string name="game_toolbox_more_tools_title">További eszközök</string>
     <string name="game_toolbox_perf_config_desc">A játék teljesítménybeállításainak konfigurálása</string>
     <string name="game_toolbox_perf_config_title">Teljesítménybeállítások</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">A Szuperfelbontás és az Intelligens képkockasebesség beállításaival szabályozhatja a képkockasebességet és a képminőséget. &lt;font color=%s>A tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg.&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">Ha a Képkockasebesség prioritás be van kapcsolva, a tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">A képkockasebesség prioritás az Intelligens képkockasebesség segítségével javítja a képkockasebességet. &lt;font color=%s>A tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">Ha a Kép prioritás be van kapcsolva, a tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">A kép prioritás a Szuperfelbontás segítségével javítja a képminőséget, és az Intelligens képkockasebesség segítségével kezeli a képkockasebességet. &lt;font color=%s>A tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">Fényerő</string>
+    <string name="game_toolbox_settings_talkback">Beállítások</string>
     <string name="game_toolbox_slow_charge_desc">Kapcsolja be ezt a funkciót, hogy a töltés közbeni játékélményt fokozza a töltési sebesség lassításával. Ez megakadályozhatja a készülék túlmelegedését. Bekapcsolja most?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Rendben</string>
     <string name="game_toolbox_slow_charge_negative_btn">Mégse</string>
@@ -1878,6 +1923,12 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="game_toolbox_slow_charge_positive_btn">Bekapcsolás</string>
     <string name="game_toolbox_slow_charge_title">Lassú töltés</string>
     <string name="game_toolbox_slow_charge_toast">Lassú töltés bekapcsolva</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">A haptikus visszajelzés nem működik az eredeti elrendezésekkel. Haptikus visszajelzés kikapcsolva.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">A haptikus visszajelzés nem működik az eredeti elrendezésekkel</string>
+    <string name="game_toolbox_smotion_vibrate_desc">Haptikus visszajelzést hozzáadása a játék mozdulataihoz. Csak néhány játék támogatja ezt a funkciót.</string>
+    <string name="game_toolbox_smotion_vibrate_title">Haptikus visszajelzés</string>
+    <string name="game_toolbox_super_follow_up_msg">Javíthatja az érintésre adott választ és a nyomon követést a teljes hardver-szoftver rendszeren keresztül</string>
+    <string name="game_toolbox_super_shake_msg">Csökkentheti a koppintás és a csúsztatás okozta jittert, és javíthatja a vezérlés stabilitását</string>
     <string name="game_toolbox_title">Játékeszközök</string>
     <string name="game_toolbox_title_game_center">Játékok</string>
     <string name="game_toolbox_title_wild">Végleges mód</string>
@@ -1893,7 +1944,7 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="game_wid_viewpoint_buttom">Vegyen egy kis szünetet.</string>
     <string name="gamebooster_confirm_dialog_negative_btn">Elutasítom</string>
     <string name="gamebooster_confirm_dialog_positive_btn">Elfogadom</string>
-    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">adatvédelmi irányelvek&lt;/a></Data></string>
     <string name="gamebooster_confirm_dialog_title">Fogadja el Adatvédelmi irányelvünket</string>
     <string name="gamebooster_dialog_recover">Megújítás</string>
     <string name="gamebooster_dialog_start_booster">Kezdés</string>
@@ -2486,7 +2537,7 @@ Az ablak mozgatásához nyomja hosszan a jelzőt."</string>
     <string name="gtb_dialog_hint_smart_5g">A funkció bármikor ki- vagy bekapcsolható a Játékgyorsító > Beállítások menüben.</string>
     <string name="gtb_dialog_privacy_speed_message">Ön épp a Xunyou Game Boostert készül használni. A szolgáltatás begyűjti a Xiaomi Fiók azonosítóját a tagság idejének rögzítéséhez.</string>
     <string name="gtb_dialog_privacy_speed_tips"><Data>Elolvastam és elfogadom a Xunyou Game Booster &lt;a href=\"%1$s\">Adatvédelmi irányelvét&lt;/a></Data></string>
-    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>Elolvastam és elfogadom a Xunyou Game Booster &lt;a href=\"%1$s\">adatvédelmi irányelveit&lt;/a>.</Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou Game Booster</string>
     <string name="gtb_dialog_privacy_voice_message">Ön épp a Xunyou Game Hangtorzítót készül használni. A szolgáltatás begyűjti a Xiaomi Fiók azonosítóját a tagság idejének rögzítéséhez.</string>
     <string name="gtb_dialog_privacy_voice_tips"><Data>Elolvastam és elfogadom a Xunyou Hangtorzító &lt;a href=\"%1$s\">Adatvédelmi irányelvét&lt;/a></Data></string>
@@ -2743,6 +2794,7 @@ A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat ha
     <string name="main_alert_message_no_imsi">Nem észlelhető SIM-kártya</string>
     <string name="main_alert_message_open_traffic_ctrl">Javasoljuk, hogy korlátozza az adathasználatát</string>
     <string name="main_balance_check">Egyenleg ellenőrzése</string>
+    <string name="main_bill_out_talkback">Negatív egyenleg %1$.2f</string>
     <string name="main_bill_remained">Telefonegyenleg</string>
     <string name="main_button_mi_sim_close">Mi SIM aktiválása</string>
     <string name="main_button_mi_sim_open">Részletek megtekintése</string>
@@ -3331,7 +3383,7 @@ Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondo
     <string name="om_shortcut_dialog_summary">A RAM Jettel felszabadíthatja a memóriát és felgyorsíthatja készülékét egyetlen érintéssel. Hozzáadja a RAM Jetet a Kezdőképernyőhöz?</string>
     <string name="om_shortcut_dialog_title">RAM Jet</string>
     <string name="once_settings_camera_ttile">Megosztás metaadat nélkül</string>
-    <string name="once_settings_location_title">Megosztás helyi információ nélkül</string>
+    <string name="once_settings_location_title">Megosztás helyinformáció nélkül</string>
     <string name="once_settings_subtitle">Hogyan szeretné megosztani a kiválasztott elemeket?</string>
     <string name="once_settings_title">Adatvédelem</string>
     <string name="one_address_choose_hint">%s1</string>
@@ -3341,6 +3393,8 @@ Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondo
     <string name="open_extreme_power_save_mode_title">A Rendkívül erős akkumulátorkímélő bekapcsolása</string>
     <string name="open_game">Megnyitás</string>
     <string name="open_now">Az alkalmazás használhatja a mobiladat-kapcsolatot</string>
+    <string name="open_physical_sim_self_detection_noti_centent">Barangolás kapcsolata nem működik megfelelően</string>
+    <string name="open_physical_sim_self_detection_noti_title">Barangolás hálózati diagnosztika kipróbálása</string>
     <string name="open_wlan_title">Engedélyezze az alkalmazásnak a Wi-Fi be- és kikapcsolását</string>
     <string name="operator_location_settings">Szolgáltató és tartózkodási hely beállítása</string>
     <string name="operator_location_settings_message">Nem sikerült felismerni a szolgáltatót és a tartózkodási helyet. Most nem lehet beállítani a telefonegyenleg és az adathasználati figyelmeztetéseket.</string>
@@ -3429,6 +3483,7 @@ Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondo
     <string name="password_unlock">Feloldás jelszóval</string>
     <string name="password_xspace_forget_pattern_message">A Második asztal jelszavának megváltoztatásához törölnie kell a jelenlegi Második asztalát, majd létrehozni egy újat.</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Gyorsabb töltés a nagy teljesítményű fordított töltéssel. Az USB-csatlakozás csak töltésre szolgál.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">Töltsön gyorsabban a nagy teljesítményű fordított töltéssel.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Fordított töltés</string>
     <string name="pc_abnormal_scan_button_text">Alkalmazások bezárása</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Megakadályozza, hogy a rendszer készenléti állapotba kerüljön</string>
@@ -3643,6 +3698,9 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Töltés előtt hajtsa össze a készüléket a gyorsabb és stabilabb töltés érdekében.</string>
     <string name="pc_remind_close_cover_to_charge_title">A töltéshez hajtsa össze</string>
     <string name="pc_reminder_always_protect_summary">Váltson korlátozott töltésre, hogy mérsékelje az akkumulátor öregedését</string>
+    <string name="pc_remove_shell_charging_notification_msg">Gaming tok használata esetén a vezeték nélküli töltés nem használható. Vegye le a tokot, és próbálja újra, vagy használjon vezetékes töltést.</string>
+    <string name="pc_remove_shell_charging_notification_title">A vezeték nélküli töltéshez vegye le a tokot</string>
+    <string name="pc_remove_shell_charging_toast">Vegye le a tokot a fordított vezeték nélküli töltés használásához</string>
     <string name="pc_satellite_auto_enter_super_power">Ultraerős akkumulátorkímélő a műholdas kommunikáció biztosítása érdekében bekapcsolt</string>
     <string name="pc_save_charge">Töltés</string>
     <string name="pc_save_other_setting">Egyéb beállítások</string>
@@ -4056,6 +4114,7 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="power_dialog_performance_mode_checkbox">Váltás %d Hz-es frissítési frekvenciára</string>
     <string name="power_dialog_super_save_msg">Az ultraerős akkumulátorkímélő korlátozza a legtöbb energiaigényes funkciót és csökkenti az készülék teljesítményét, hogy az alapvető funkciókat (pl. hívások, SMS és a hálózathoz való csatlakozás) a lehető leghosszabb ideig elérhetővé tegye. Bekapcsolja az Ultraerős akkumulátorkímélőt?</string>
     <string name="power_dialog_super_save_msg_5g">Az Ultra akkumulátorkímélő korlátozza a legtöbb olyan energiaigényes funkciót (pl. 5G-kapcsolat), amely csökkenti készülékének teljesítményét. Csak a hívások, az üzenetek és a hálózati kapcsolat nem érintett. Bekapcsolja az Ultra akkumulátorkímélőt?</string>
+    <string name="power_dialog_super_save_msg_p2">Az Ultra akkumulátorkímélő kikapcsolja a hátsó kijelzőt és korlátozza a legtöbb energiát fogyasztó funkciót, csökkentve a készülék teljesítményét annak érdekében, hogy az alapvető funkciók (pl. hívások, SMS-ek és a hálózathoz való csatlakozás) a lehető leghosszabb ideig rendelkezésre álljanak. Bekapcsolja az Ultra akkumulátorkímélőt?</string>
     <string name="power_dialog_super_save_title">Ultraerős akkumulátorkímélő</string>
     <string name="power_idle">Telefon - tétlen</string>
     <string name="power_main_battery_last_day_hour">%1$s nap %2$s óra van hátra</string>
@@ -4265,6 +4324,7 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Ha túllépi az adatforgalmi keretet</string>
     <string name="pref_package_traffic_settings">Adat-előfizetés</string>
+    <string name="pref_physical_sim_self_detection_cat_title">Hálózat tesztelése</string>
     <string name="pref_pkg_begin_date">Számlázási időszak kezdete</string>
     <string name="pref_roaming_daily_limit_setting">Napi adatforgalmi korlát adatbarangolás alatt</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Napi adatforgalmi korlát</string>
@@ -4276,6 +4336,7 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pref_title_diagnostics_show_float_notification">Lebegő értesítések</string>
     <string name="pref_title_manual_check_virus_db_update">Frissítések keresése</string>
     <string name="pref_title_over_traffic_limit_warning">Túlforgalmazáskor</string>
+    <string name="pref_title_physical_sim_self_detection">Barangolás hálózati diagnosztika</string>
     <string name="pref_title_traffic_limit_number">Napi adatforgalom beállítása</string>
     <string name="pref_title_traffic_package_type">Az adat-előfizetés típusa</string>
     <string name="pref_title_traffic_speed_state">Hálózati sebesség az állapotsoron</string>
@@ -4328,6 +4389,8 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">Ez a funkció lehetővé teszi, hogy Ön elrejthesse az alkalmazásikonokat, így azok többé nem jelennek meg a Kezdőképernyőn.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Miután megadta a jelszavát, láthatóvá válik a rejtett alkalmazások mappája.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Távolítsa egymástól két ujját a képernyőn. A megjelenő ablakban meg kell majd adnia az Alkalmazások zárolására használt jelszavát.</string>
+    <string name="privacy_custom_password_long">Legfeljebb %d számjegyet írjon be</string>
+    <string name="privacy_custom_password_too_short">Írjon be legalább %d számjegyet</string>
     <string name="privacy_danger_permission_status_summary">Érzékeny engedélyeket igénylő alkalmazások kezelése</string>
     <string name="privacy_danger_permission_status_title">Érzékeny műveletek</string>
     <string name="privacy_danger_permission_summary">Figyelje, hogyan használják az alkalmazások az engedélyeit</string>
@@ -4387,6 +4450,8 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="privacy_global_guide_permission_guide_text">Állapotsáv figyelmeztetést kap, amikor az alkalmazások hangot rögzítenek vagy kamerát használnak. Ha szeretné tudni, hogy melyik alkalmazás teszi ezt, koppintson a riasztásra.</string>
     <string name="privacy_guide_permission_guide_text">Fogadhat értesítést az állapotsávban, ha az alkalmazások hozzáférnek az Ön tartózkodási helyéhez, hangot rögzítenek vagy képet készítenek.</string>
     <string name="privacy_hide_other_permissions">Egyéb engedélyek elrejtése</string>
+    <string name="privacy_hybrid_password_long">Enter up to %d characters</string>
+    <string name="privacy_hybrid_password_too_short">Írjon be legalább %d karaktert</string>
     <string name="privacy_informed_title">Statisztikák</string>
     <string name="privacy_input_mode">Biztonságos bevitel</string>
     <string name="privacy_input_model_tips">A biztonságos bevitel be van kapcsolva. A billentyűzet nem jeleníthet meg felugró ablakokat, illetve nem férhet hozzá a névjegyekhez, a helyadatokhoz és a hívásnaplóhoz.</string>
@@ -4407,6 +4472,28 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="privacy_notification_title_mic">%1s a háttérben használja a mikrofont</string>
     <string name="privacy_other_permission_manage_summary">Egyéb adatvédelemmel kapcsolatos engedélyek kezelése</string>
     <string name="privacy_other_permission_manage_title">Egyéb engedélyek</string>
+    <string name="privacy_password_chanage_process">Adatvédelmi jelszó módosítása</string>
+    <string name="privacy_password_custom_password">Egyéni PIN</string>
+    <string name="privacy_password_digital_password">%d számjegyű PIN</string>
+    <string name="privacy_password_enter_custom_password">Írja be %1$d–%2$d számjegyű PIN-kódját</string>
+    <string name="privacy_password_enter_custom_password_again">Írja be újra PIN-kódját</string>
+    <string name="privacy_password_enter_custom_password_not_match">A PIN-kódok nem egyeznek</string>
+    <string name="privacy_password_enter_digital_password">Írja be %d számjegyű PIN-kódját</string>
+    <string name="privacy_password_enter_digital_password_again">Írja be újra %d számjegyű PIN-kódját</string>
+    <string name="privacy_password_enter_graphic_password">Rajzolja be a feloldómintát. Legalább %d pontot kapcsoljon össze.</string>
+    <string name="privacy_password_enter_hybrid_password">Írja be %1$d–%2$d kerekter hosszúságú jelszavát</string>
+    <string name="privacy_password_enter_hybrid_password_again">Adja meg a jelszót újra</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">A jelszó nem tartalmazhat érvénytelen karaktereket</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">A jelszavak nem egyeznek</string>
+    <string name="privacy_password_graphic_password">Minta</string>
+    <string name="privacy_password_hybrid_password">Jelszó</string>
+    <string name="privacy_password_other_password">Egyéb jelszó</string>
+    <string name="privacy_password_setup_confirm">OK</string>
+    <string name="privacy_password_setup_hint">Írja be a jelszavát</string>
+    <string name="privacy_password_setup_next">Következő</string>
+    <string name="privacy_password_setup_not_match">Újrapróbálkozás</string>
+    <string name="privacy_password_setup_process">Adatvédelmi jelszó beállítása</string>
+    <string name="privacy_password_update_type">Jelszótípus kiválasztása</string>
     <string name="privacy_permission_call">Híváslistához való hozzáférés vagy annak szerkesztése</string>
     <string name="privacy_permission_call_title">Hívások védelme</string>
     <string name="privacy_permission_camera_title">Háttérkamera használatának korlátozása</string>
@@ -4519,6 +4606,8 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="privacy_risk_uninstall_title">Alkalmazások eltávolítása</string>
     <string name="privacy_risk_work_encryption">A közösségi média és az office fájlok nincsenek védve</string>
     <string name="privacy_screen_share_notification_content">Egy másik eszközre vetít ki. Az adatvédelem be van kapcsolva.</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">Magánéletének védelme</string>
+    <string name="privacy_screen_share_notification_land_title">Képernyő megosztása</string>
     <string name="privacy_screen_share_notification_protect_content">Az érzékeny elemek nem jelennek meg a külső eszközön</string>
     <string name="privacy_screen_share_notification_protect_title">A képernyőtartalom védett</string>
     <string name="privacy_screen_share_notification_title">Képernyőtartalom kivetítése</string>
@@ -4565,6 +4654,10 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="privacy_using_record">Hangrögzítés</string>
     <string name="privacyapp_number_masked_text">Az értesítés tartalma el van rejtve</string>
     <string name="privacyapp_number_unmasked_text">Az értesítés tartalma elrejthető</string>
+    <string name="private_file">Privát fájlok</string>
+    <string name="private_note">Rejtett jegyzetek</string>
+    <string name="private_photo">Privát album</string>
+    <string name="private_sms">Privát üzenetek</string>
     <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Médiaszerver</string>
     <string name="process_vpnsdkmanager_label">Játékgyorsító</string>
@@ -4573,6 +4666,7 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="prompt_input_time_illegal">Nem lehet erre az időre beállítani, módosítsa és próbálja újra</string>
     <string name="protocol_exception_title">Hálózati protokoll diagnosztika</string>
     <string name="protocol_loop_back_exception_summary">Helyi visszacsatolási teszt sikertelen. Ahhoz, hogy jelentse a problémát, menjen a Hibajelentés alkalmazásba és küldjön egy naplót a készülékről.</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">Vissza</string>
     <string name="provision_next">Tovább</string>
     <string name="provision_skip_underline">Kihagyás</string>
@@ -5683,6 +5777,7 @@ A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyisége
     <string name="traffic_remind_switch">Adathasználati figyelmeztetés</string>
     <string name="traffic_reminder_settings">Adathasználati figyelmeztetés beállítása</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">Szolgáltató kiválasztása</string>
     <string name="traffic_setting_fragment_area">Helyi</string>
     <string name="traffic_setting_fragment_brand">Gyártó</string>
     <string name="traffic_setting_fragment_button1_text">Mégse</string>

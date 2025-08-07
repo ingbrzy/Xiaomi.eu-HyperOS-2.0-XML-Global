@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="PRD_summary_4">転送中に Wi-Fi をオフにしたり、Wi-Fi ネットワークを切り替えたりすると、転送プロセスが失敗する可能性があります。</string>
-    <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
+    <string name="PRD_summary_4_china">転送中に WLAN をオフにしたり、WLAN ネットワークを切り替えたりすると、転送プロセスが失敗する可能性があります。</string>
     <string name="PRD_summary_5">高速転送により、デバイスが通常より熱くなることがあります。転送が終了すれば、デバイスは冷却されますのでご安心ください。</string>
     <string name="abc_action_bar_home_description">ホームに戻る</string>
     <string name="abc_action_bar_up_description">前に戻る</string>
@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with">共有</string>
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
-    <string name="accessibility_sliding_button_state_description_off">オフ</string>
-    <string name="accessibility_sliding_button_state_description_on">オン</string>
-    <string name="accessibility_tab_state_description_unselect">未選択</string>
-    <string name="accessibility_tab_statedesc_unselect">未選択</string>
+    <string name="accessibility_sliding_button_state_description_off">オフにしました</string>
+    <string name="accessibility_sliding_button_state_description_on">オンにしました</string>
+    <string name="accessibility_tab_state_description_unselect">選択されていません</string>
     <string name="account_or_password_incorrect">アカウントIDまたはパスワードが正しくありません</string>
     <string name="actionbar_button_up_description">戻る</string>
     <string name="afternoon">午後</string>
@@ -70,6 +69,9 @@
     <string name="ble_guest_connecting_title">新しいデバイスに接続しています…</string>
     <string name="ble_host_verification_summary">古いデバイスで%d桁のコードを入力してください。</string>
     <string name="ble_host_verification_title">古いデバイスに接続しています…</string>
+    <string name="ble_manual_authorization_content">Mi Mover でアイテムを転送するには、必要な権限を付与してください。これらの権限は設定で付与できます。</string>
+    <string name="ble_manual_authorization_positive_btn">設定</string>
+    <string name="ble_manual_authorization_title">権限が必要です</string>
     <string name="ble_manual_connect">手動で接続</string>
     <string name="ble_refuse_button">拒否</string>
     <string name="ble_start_ap_successed">ホットスポットを正常に作成しました。接続を待機中…</string>
@@ -421,8 +423,10 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="miui_wait_link_title_2">%d. 古いデバイスでこのホットスポットを選択して接続します。</string>
     <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_accessibility_title">タイトル</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">折りたたみました</string>
+    <string name="miuix_appcompat_accessibility_expand_state">展開しました</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">編集モードを終了</string>
-    <string name="miuix_appcompat_accessibility_new_message">新しいメッセージ</string>
+    <string name="miuix_appcompat_accessibility_new_message">新しい通知</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">編集モードに入る</string>
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
@@ -439,6 +443,7 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="miuix_appcompat_select_all">すべて選択</string>
     <string name="miuix_appcompat_select_all_description">すべて選択</string>
     <string name="miuix_appcompat_select_item">アイテムを選択</string>
+    <string name="miuix_appcompat_show_dialog_description">ポップアップウィンドウ</string>
     <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">正常に更新されました</string>
@@ -449,6 +454,8 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">お待ちください…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">アイテムを読み込めませんでした</string>
     <string name="miuix_show_password">パスワードを表示</string>
+    <string name="miuix_stretchablewidget_collapsed">折りたたみました</string>
+    <string name="miuix_stretchablewidget_expanded">展開しました</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">メッセージ、連絡先、通話履歴</string>
     <string name="monday">月曜日</string>
@@ -876,7 +883,7 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="trans_apple_hint_1_title">%d. Mi Mover のインストール</string>
     <string name="trans_apple_hint_2_content">Apple デバイスで Mi Mover を開き、[タップしてアイテムを送信] をタップして、QR コードをスキャンします。</string>
     <string name="trans_apple_hint_2_title">%d. デバイスの接続</string>
-    <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
+    <string name="trans_apple_hint_china">転送が完了するまで、このページを離れたり、WLAN を使用したりしないでください。</string>
     <string name="trans_apple_interrupt_sub">再接続するには以下をタップしてください</string>
     <string name="trans_apple_interrupt_title">中断されました</string>
     <string name="trans_detail_item_app_data_skip_data">アプリデータを転送できません</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="PRD_summary_4">전송 과정 중에 Wi-Fi를 끄거나 Wi-Fi 네트워크를 전환하면 전송 과정이 실패할 수 있습니다.</string>
-    <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
+    <string name="PRD_summary_4_china">전송 과정 중에 WLAN을 끄거나 WLAN 네트워크를 변경하면 전송이 실패할 수 있습니다.</string>
     <string name="PRD_summary_5">고속 전송으로 인해 기기가 평소보다 뜨거워질 수 있습니다. 전송이 완료되면 기기의 온도가 낮아지므로 안심하셔도 됩니다.</string>
     <string name="abc_action_bar_home_description">홈으로 이동</string>
     <string name="abc_action_bar_up_description">위로 이동</string>
@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with">공유 대상:</string>
     <string name="abc_shareactionprovider_share_with_application">%s과(와) 공유</string>
     <string name="abc_toolbar_collapse_description">접기</string>
-    <string name="accessibility_sliding_button_state_description_off">끔</string>
+    <string name="accessibility_sliding_button_state_description_off">꺼짐</string>
     <string name="accessibility_sliding_button_state_description_on">켜짐</string>
     <string name="accessibility_tab_state_description_unselect">선택되지 않음</string>
-    <string name="accessibility_tab_statedesc_unselect">선택되지 않음</string>
     <string name="account_or_password_incorrect">잘못된 계정 ID 또는 비밀번호</string>
     <string name="actionbar_button_up_description">뒤로</string>
     <string name="afternoon">오후</string>
@@ -70,6 +69,9 @@
     <string name="ble_guest_connecting_title">새 기기에 연결 중…</string>
     <string name="ble_host_verification_summary">이전 기기의 %d자리 코드를 입력하십시오.</string>
     <string name="ble_host_verification_title">이전 기기에 연결 중…</string>
+    <string name="ble_manual_authorization_content">Mi Mover로 항목을 전송할 수 있도록 필요한 권한을 부여하십시오. 설정에서 이러한 권한을 부여할 수 있습니다.</string>
+    <string name="ble_manual_authorization_positive_btn">설정</string>
+    <string name="ble_manual_authorization_title">권한 요구됨</string>
     <string name="ble_manual_connect">수동 연결</string>
     <string name="ble_refuse_button">거부</string>
     <string name="ble_start_ap_successed">핫스팟 생성 성공. 연결 대기 중…</string>
@@ -421,8 +423,10 @@ WeChat을 여시고 나 > 설정 > 채팅 > 채팅 기록 백업 및 마이그�
     <string name="miui_wait_link_title_2">%d. 이전 기기에서 해당 핫스팟을 선택하고 연결하십시오.</string>
     <string name="miuix_access_state_desc">선택됨</string>
     <string name="miuix_accessibility_title">제목</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">축소됨</string>
+    <string name="miuix_appcompat_accessibility_expand_state">확장됨</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">편집 모드 종료</string>
-    <string name="miuix_appcompat_accessibility_new_message">새 메시지</string>
+    <string name="miuix_appcompat_accessibility_new_message">새로운 알림</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">편집 모드로 들어가기</string>
     <string name="miuix_appcompat_action_mode_deselect_all">전체 선택 해제</string>
     <string name="miuix_appcompat_action_mode_select_all">모두 선택</string>
@@ -439,6 +443,7 @@ WeChat을 여시고 나 > 설정 > 채팅 > 채팅 기록 백업 및 마이그�
     <string name="miuix_appcompat_select_all">모두 선택</string>
     <string name="miuix_appcompat_select_all_description">전체 선택</string>
     <string name="miuix_appcompat_select_item">항목 선택</string>
+    <string name="miuix_appcompat_show_dialog_description">팝업 창</string>
     <string name="miuix_progressbar_loading">로드 중</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">아래로 당겨 새로고침</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">새로고침 성공</string>
@@ -449,6 +454,8 @@ WeChat을 여시고 나 > 설정 > 채팅 > 채팅 기록 백업 및 마이그�
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">잠시만 기다려주십시오…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">항목 불러오기 실패</string>
     <string name="miuix_show_password">비밀번호 표시</string>
+    <string name="miuix_stretchablewidget_collapsed">축소됨</string>
+    <string name="miuix_stretchablewidget_expanded">확장됨</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">메시지, 연락처, 통화 기록</string>
     <string name="monday">월요일</string>
@@ -876,7 +883,7 @@ Xiaomi 계정에 로그인하여 항목을 복구하십시오."</string>
     <string name="trans_apple_hint_1_title">%d. Mi Mover 설치</string>
     <string name="trans_apple_hint_2_content">Apple 기기에서 Mi Mover를 여시고, \"탭하여 항목 전송\"을 탭하신 후, QR 코드를 스캔하십시오.</string>
     <string name="trans_apple_hint_2_title">%d. 기기 연결</string>
-    <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
+    <string name="trans_apple_hint_china">전송이 완료될 때까지 이 페이지에서 나가거나 WLAN을 사용하지 마십시오.</string>
     <string name="trans_apple_interrupt_sub">아래를 탭하여 다시 연결</string>
     <string name="trans_apple_interrupt_title">중단됨</string>
     <string name="trans_detail_item_app_data_skip_data">앱 데이터 전송 실패</string>

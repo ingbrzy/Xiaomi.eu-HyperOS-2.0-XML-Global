@@ -340,6 +340,7 @@
     <string name="app_management_for_install">Uygulama indirmelerini engelle</string>
     <string name="app_management_for_install_desc">Bu uyulamanın diğer uygulamaları indirmesini veya yüklemesini engelleyin</string>
     <string name="app_management_measures">Uygulama yönetimi</string>
+    <string name="app_manager_ad_text_btn_resume">Devam et</string>
     <string name="app_manager_advanced_setting">Gelişmiş ayarlar</string>
     <string name="app_manager_airtel_dlg_msg">Sorunuz varsa Airtel ile iletişime geçin</string>
     <string name="app_manager_airtel_dlg_title">Airtel tarafından engellendi</string>
@@ -462,8 +463,8 @@
     <string name="app_manager_uninstall_notify_title">Nadir kullanılan uygulamaları kaldır</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Sistem uygulamalarını kaldırmak bazı sistem bileşenlerinin düzgün çalışmasına engel olabilir. Uygulama yine de kaldırılsın mı?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Sistem uygulamalarını kaldırmak</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Karşılık gelen çift uygulamalar, uygulama verileri ile birlikte silinecektir.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Çift uygulamayı kaldırmak uygulama verilerin tamamını silecektir.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Çift uygulamalar bununla birlikte kaldırılacaktır.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Karşılık gelen çift uygulamalar, uygulama verileri ile birlikte kaldılıacaktır.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Çift uygulama kaldırılsın mı?</string>
     <string name="app_manager_unstall_application">Kaldır</string>
     <string name="app_managere_not_have_app">Boş</string>
@@ -570,8 +571,8 @@
     <string name="applock_lock_mode_locked_or_exit">Cihaz kilitlendiğinde veya uygulamadan çıkıldığında</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">Cihaz kilitlendiğinde veya uygulamadan çıkış yaptıktan sonra %d dakika içinde</string>
     <string name="applock_login_and_add_account">Oturum aç &amp; ekle</string>
-    <string name="applock_mixtype_hidepwd_icon">Gizle</string>
-    <string name="applock_mixtype_showpwd_icon">Göster</string>
+    <string name="applock_mixtype_hidepwd_icon">Şifreyi gizle</string>
+    <string name="applock_mixtype_showpwd_icon">Şifreyi göster</string>
     <string name="applock_no_account_login">Xiaomi Hesabınızda oturum açmadınız</string>
     <string name="applock_not_add_account"><u>Şimdi değil</u></string>
     <string name="applock_not_add_account_normal">Hesap ekleme</string>
@@ -583,6 +584,12 @@
     <string name="applock_operate_fingerprint_title">Parmak izinizi kullanın</string>
     <string name="applock_operate_hidenoti_summary">Uygulama kilidi, korumalı uygulamalar için bunu yapabilir</string>
     <string name="applock_operate_hidenoti_title">Hassas bildirimleri gizlemek istiyor musunuz?</string>
+    <string name="applock_password_set_luck_button">Ayarlar</string>
+    <string name="applock_password_set_luck_comment">Bu cihazdaki özel özellikleri kullanmak için bir ekran kilidi ayarlamalısınız.</string>
+    <string name="applock_password_set_luck_message">"Cihazınızdaki özel özelliklere güvenli bir şekilde erişmek için Xiaomi HyperOS kimlik doğrulamak için varsayılan olarak ekran kilidinizi kullanır.
+
+Henüz bir ekran kilidi ayarlamadıysanız bir tane ayarlamak için talimatları takip edin."</string>
+    <string name="applock_password_set_luck_title">Öncelikle ekran kilidi ayarlayın</string>
     <string name="applock_recommend_tips">Kullanıcıların %s oranı bu uygulamaları koruyor</string>
     <string name="applock_recommend_title">Uygulamaları seçin</string>
     <string name="applock_set_complete">Uygulama kilidini kullan</string>
@@ -867,6 +874,22 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="bind_xiaomi_account_success">Xiaomi Hesabı başarıyla eklendi</string>
     <string name="bind_xiaomi_account_summary">Şifrenizi sıfırlamak için Xiaomi Hesabınızı kullanın</string>
     <string name="bind_xiaomi_account_title">Xiaomi Hesabı ekle</string>
+    <string name="biometric_applock_password_lockout_title">Çok fazla sayıda başarısız deneme</string>
+    <string name="biometric_applock_pwd">Uygulama kilidi doğrulama</string>
+    <string name="biometric_applock_pwd_or_finger">Parmak izi veya Uygulama kilidi ile doğrula</string>
+    <string name="biometric_face_error">Doğrulanamadı</string>
+    <string name="biometric_face_finger_change">Biyometrik verisi değişti. Doğrulamak için şifre girin.</string>
+    <string name="biometric_finger_verify">Parmak izi doğrulama</string>
+    <string name="biometric_lockscreen_pwd">Ekran kilidi doğrulama</string>
+    <string name="biometric_lockscreen_pwd_or_finger">Parmak izi veya Ekran kilidi ile doğrula</string>
+    <string name="biometric_private_password">Gizlilik koruma şifresi doğrulama</string>
+    <string name="biometric_private_password_lockout_title">Çok fazla sayıda başarısız deneme</string>
+    <string name="biometric_private_pwd_or_finger">Parmak izi veya Gizlilik koruma şifresi ile doğrula</string>
+    <string name="biometric_reset_password_tips">Şifre başarıyla sıfırlandı. Kilidi açmak için yeni şifreyi girin.</string>
+    <string name="biometric_screen_lock_password_lockout_title">Çok fazla sayıda başarısız deneme</string>
+    <string name="biometric_subtitle">%1$s açmak için</string>
+    <string name="biometric_subtitle_default">Kimliğinizi doğrulayın</string>
+    <string name="biometric_verify_retry">Tekrar dene</string>
     <string name="birthday">Doğum günü</string>
     <string name="bl_no_blacklist">Engellenen numara yok.</string>
     <string name="bl_no_block_call">Engellenen arama yok.</string>
@@ -1002,6 +1025,8 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="car_sickness_relief_comment_text">Araç hareketi algılandığında ekranın her iki yanında aracın hareket edip etmediğini gösteren noktalar görüntülenir ve bu da taşıt tutmasının başlangıcını geciktirmeye yardımcı olabilir.</string>
     <string name="car_sickness_relief_example_text_1">Araç hızlandığında veya yavaşladığında</string>
     <string name="car_sickness_relief_example_text_2">Araç döndüğünde veya şerit değiştirdiğinde</string>
+    <string name="car_sickness_relief_exit_text">Hareket hastalığı giderici çalışmayı durdurdu</string>
+    <string name="car_sickness_relief_start_text">Hareket hastalığı giderici çalışıyor</string>
     <string name="car_sickness_remind_time_title">Hareket göstergeleri</string>
     <string name="car_sickness_title">Taşıt tutmasından kurtulma</string>
     <string name="card_main_apkclean_title">"Apk'ları sil"</string>
@@ -1178,6 +1203,7 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="connected_devices_notification_title">Yukarıdaki cihazın bu cihazın bildirimlerini görüntülemesine izin verilsin mi?</string>
     <string name="connected_devices_permission">Ara bağlantı ve izinler</string>
     <string name="connected_devices_permission_settings">Ara bağlantı ve izinler</string>
+    <string name="connected_devices_permission_summary">Bu cihaza erişimi yönet</string>
     <string name="connected_devices_record">Kayıt</string>
     <string name="connected_devices_record_desc">Aynı hesapta oturum açmış yakındaki cihazların bu cihazda ses kaydetmesine izin verin</string>
     <string name="connected_devices_record_title">Yukarıdaki cihazın bu cihazda ses kaydetmesine izin verilsin mi?</string>
@@ -1344,6 +1370,8 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="deep_save_ontime_boot_shutdown_summary">Cihazı açıp kapatmak üzere program ayarlayın</string>
     <string name="delete">Sil</string>
     <string name="delete_all_sms">Tümünü sil</string>
+    <string name="delete_connected_devices">Seçili cihazlar şimdi silinsin mi?</string>
+    <string name="delete_connected_devices_title">%1$s şimdi silinsin mi?</string>
     <string name="delete_from_manual_item_white_list">İstisnalardan kaldır</string>
     <string name="delete_input">Sil</string>
     <string name="deleted_apps">Silinen uygulamalar</string>
@@ -1819,6 +1847,8 @@ Numara istisnalara eklenecek, ancak daha önce engellenen ögeler arama geçmiş
     <string name="game_anti_disturb_msg">Oyun Rahatsız Etme Modu</string>
     <string name="game_balance_more_setting_title">Ek ayarlar</string>
     <string name="game_balance_vision_enhance_subtitle">Oyunlar için kontrastı artırın ve ayrıntıları geliştirin</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">Yalnızca oyun çözünürlüğü en yüksek değere ayarlandığında kullanılabilir</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">Yalnızca oyunun işleme hassasiyeti en yüksek değere ayarlandığında kullanılabilir</string>
     <string name="game_balance_vision_enhance_title">Geliştirilmiş görseller</string>
     <string name="game_booster">Game Turbo</string>
     <string name="game_booster_close">Game Turbo kapalı</string>
@@ -1856,8 +1886,13 @@ Numara istisnalara eklenecek, ancak daha önce engellenen ögeler arama geçmiş
     <string name="game_toolbox_ai_upgrade_dialog_btn">Güncelle</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">AI oyun hizmetleri için bir güncelleme mevcut. İlgili özellikleri kullanmadan önce güncelleyin.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Güncellemeleri kontrol et</string>
+    <string name="game_toolbox_auto_brightness_talkback">Otomatik parlaklık</string>
+    <string name="game_toolbox_btn_back_talkback">Geri</string>
+    <string name="game_toolbox_cellular_network">Mobil ağ hızı artırma</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Resim kalitesini biraz azaltmak ve güç tüketimini önemli ölçüde düşürmek için açın</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"Not:
+Akıllı çerçeve oranı açıkken oyun içi ve üçüncü taraf çerçeve oranı algılama araçları çerçeve oranını doğru algılamayabilir. Gerçek çerçeve oranını görmek için performans panosuna bakın."</string>
     <string name="game_toolbox_display_style_desc">"Görsel stili ayarlayın (oyun HDR'ını destekler)"</string>
     <string name="game_toolbox_display_style_game_hdr">Oyun HDR</string>
     <string name="game_toolbox_display_style_title">Görsel stil</string>
@@ -1866,10 +1901,20 @@ Numara istisnalara eklenecek, ancak daha önce engellenen ögeler arama geçmiş
     <string name="game_toolbox_fps_shake">Titreme %d FPS</string>
     <string name="game_toolbox_immersion_sound_desc">Kulaklık kullanırken ayak sesleri ve sesler gibi ses efektlerini doğru bir şekilde yakalayarak oyunun sürüklenmesini artırın</string>
     <string name="game_toolbox_immersion_sound_title">Sürükleyici ses</string>
+    <string name="game_toolbox_item_joystick_key_mapping">Denetleyici tuşu</string>
+    <string name="game_toolbox_margin_restrain_description">Kazara dokunmaları azaltmak için dokunma reddetme aralığı belirleyin</string>
     <string name="game_toolbox_mem_clean_desc">Belleği temizleyin ve hızı artırın</string>
     <string name="game_toolbox_more_tools_title">Daha fazla araç</string>
     <string name="game_toolbox_perf_config_desc">Oyun performans ayarlarını yapılandır</string>
     <string name="game_toolbox_perf_config_title">Performans ayarları</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">Çerçeve oranını ve resim kalitesini yönetmek için Süper çözünürlük ve Akıllı çerçeve oranını özelleştirebilirsiniz. &lt;font color=%s>Gerçek çerçeve oranı performans panosunda gösterilir.&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">Çerçeve oranı önceliği açıkken gerçek çerçeve oranı performans panosunda görüntülendiği gibidir</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">Çerçeve oranı önceliği Akıllı çerçeve oranı ile çerçeve oranını geliştirir. &lt;font color=%s>Gerçek çerçeve oranı performans panosunda gösterilir.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">Resim önceliği açıkken gerçek çerçeve oranı performans panosunda görüntülendiği gibidir</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">Resim önceliği Süper çözünürlük ile resim kalitesini arttırır ve Akıllı çerçeve oranı ile çerçeve oranını yönetir. &lt;font color=%s>Gerçek çerçeve oranı performans tablosunda gösterilir.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">Ekran parlaklığı</string>
+    <string name="game_toolbox_settings_talkback">Ayarlar</string>
     <string name="game_toolbox_slow_charge_desc">Şarj hızını yavaşlatarak şarj sırasında oyun deneyimini geliştirmek için bu özelliği açın. Bu, cihazınızın aşırı ısınmasını önleyebilir. Şimdi açılsın mı?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Anladım</string>
     <string name="game_toolbox_slow_charge_negative_btn">İptal</string>
@@ -1878,6 +1923,12 @@ Numara istisnalara eklenecek, ancak daha önce engellenen ögeler arama geçmiş
     <string name="game_toolbox_slow_charge_positive_btn">Aç</string>
     <string name="game_toolbox_slow_charge_title">Yavaş şarj</string>
     <string name="game_toolbox_slow_charge_toast">Yavaş şarj açık</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Dokunsal geri bildirim orijinal düzenle çalışmaz. Dokunsal geri bildirim kapalı.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Dokunsal geri bildirim orijinal düzenle çalışmaz</string>
+    <string name="game_toolbox_smotion_vibrate_desc">Oyun hareketlerine göre dokunsal geri bildirim ekleyin. Yalnızca bazı oyunlar desteklenir.</string>
+    <string name="game_toolbox_smotion_vibrate_title">Dokunsal geri bildirim</string>
+    <string name="game_toolbox_super_follow_up_msg">Donanım-yazılım hattının tamamı boyunca dokunma yanıtını ve izlemeyi geliştirin</string>
+    <string name="game_toolbox_super_shake_msg">Dokunma ve kaydırma titremesini azaltarak kontrol kararlılığını geliştirin</string>
     <string name="game_toolbox_title">Oyun araçları</string>
     <string name="game_toolbox_title_game_center">Oyunlar</string>
     <string name="game_toolbox_title_wild">Nihai mod</string>
@@ -2742,6 +2793,7 @@ Mobil veri bağlantısını tekrar kullanmanız durumunda, operatörünüz ek ü
     <string name="main_alert_message_no_imsi">SIM kart bulunamadı</string>
     <string name="main_alert_message_open_traffic_ctrl">Veri kullanımını kısıtlamanızı öneriyoruz</string>
     <string name="main_balance_check">Bakiyeyi kontrol et</string>
+    <string name="main_bill_out_talkback">Eksi bakiye %1$.2f</string>
     <string name="main_bill_remained">Kalan bakiye</string>
     <string name="main_button_mi_sim_close">"Mi SIM'i etkinleştir"</string>
     <string name="main_button_mi_sim_open">Ayrıntıları görüntüle</string>
@@ -3368,6 +3420,8 @@ Yönlendiriciniz ile bağlantı için kullandığınız Ethernet kablosunu deği
     <string name="open_extreme_power_save_mode_title">Yüksek pil tasarrufunu aç</string>
     <string name="open_game">Aç</string>
     <string name="open_now">Uygulamanın mobil veri kullanımına izin ver</string>
+    <string name="open_physical_sim_self_detection_noti_centent">Dolaşım bağlantınız düzgün çalışmıyor olabilir</string>
+    <string name="open_physical_sim_self_detection_noti_title">Dolaşım ağı tanılamayı dene</string>
     <string name="open_wlan_title">"Bu uygulamanın Wi-Fi'yi açmasına ve kapatmasına izin ver"</string>
     <string name="operator_location_settings">Operatör ve konum ayarlayın</string>
     <string name="operator_location_settings_message">Operatörünüz ve konumunuzu tanınamadı. Telefon bakiyesi ve veri kullanımı uyarıları şimdi ayarlanamıyor.</string>
@@ -3456,6 +3510,7 @@ Yönlendiriciniz ile bağlantı için kullandığınız Ethernet kablosunu deği
     <string name="password_unlock">Şifre ile kilit aç</string>
     <string name="password_xspace_forget_pattern_message">İkinci alan şifresini değiştirmek için mevcut İkinci alanı silmeniz ve yeni bir alan oluşturmanız gerekmektedir.</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Yüksek güçlü ters şarj ile daha hızlı şarj edin. USB bağlantısı yalnızca şarj için kullanılır.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">Yüksek güçlü ters şarj ile daha hızlı şarj edin.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Ters şarj</string>
     <string name="pc_abnormal_scan_button_text">Uygulamaları kapat</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Sistemin bekleme moduna geçmesini önler</string>
@@ -3670,6 +3725,9 @@ kapatılıyor"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Daha hızlı ve daha sabit bir şarj deneyimi için şarj etmeden önce cihazı katlayın.</string>
     <string name="pc_remind_close_cover_to_charge_title">Şarj etmek için katla</string>
     <string name="pc_reminder_always_protect_summary">Pil yaşlanmasını azaltmak için sınırlı şarj özelliğine geçin</string>
+    <string name="pc_remove_shell_charging_notification_msg">Oyun kılıfı kullanırken kablosuz şarj kullanılamıyor. Kılıfı çıkarın ve tekrar deneyin veya kablolu şarjı kullanın.</string>
+    <string name="pc_remove_shell_charging_notification_title">Kablosuz şarjı kullanmak için kılıfı çıkarın</string>
+    <string name="pc_remove_shell_charging_toast">Ters kablosuz şarjı kullanmak için kılıfı çıkarın</string>
     <string name="pc_satellite_auto_enter_super_power">Uydu iletişimlerini sağlamak için Ultra pil tasarrufu açıldı</string>
     <string name="pc_save_charge">Şarj oluyor</string>
     <string name="pc_save_other_setting">Diğer ayarlar</string>
@@ -4083,6 +4141,7 @@ kapatılıyor"</string>
     <string name="power_dialog_performance_mode_checkbox">%d Hz yenileme hızına geç</string>
     <string name="power_dialog_super_save_msg">Ultra pil tasarrufu, temel işlevleri (örn. aramalar, SMS, ağ bağlantısı) en uzun süre yürütebilmek için en çok güç tüketen özellikleri kısıtlar ve cihazınızın performansını azaltır. Ultra pil tasarrufu açılsın mı?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra pil tasarrufu, cihazınızın performansını düşüren, güç tüketen özellikleri kısıtlar (5G bağlanabilirliği gibi). Sadece aramalar, iletiler ve ağ bağlantısı etkilenmeyecek. Ultra pil tasarrufu etkinleştirilsin mi?</string>
+    <string name="power_dialog_super_save_msg_p2">Ultra pil tasarrufu arka ekranı kapatır ve en çok güç tüketen özellikleri kısıtlayarak cihazın performansını düşürür ve temel işlevlerin (ör. aramalar, SMS ve ağa bağlanmak) mümkün olduğunca uzun süre kullanılmasını sağlar. Ultra pil tasarrufu açılsın mı?</string>
     <string name="power_dialog_super_save_title">Ultra pil tasarrufu</string>
     <string name="power_idle">Telefon beklemede</string>
     <string name="power_main_battery_last_day_hour">%1$sgün %2$ssa kaldı</string>
@@ -4292,6 +4351,7 @@ kapatılıyor"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Tarife limitinizi aştığınızda</string>
     <string name="pref_package_traffic_settings">Tarife</string>
+    <string name="pref_physical_sim_self_detection_cat_title">Ağı test et</string>
     <string name="pref_pkg_begin_date">Kullanım periyodu sıfırlama tarihi</string>
     <string name="pref_roaming_daily_limit_setting">Dolaşım modunda günlük veri limiti belirleyin</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Günlük veri limiti</string>
@@ -4303,6 +4363,7 @@ kapatılıyor"</string>
     <string name="pref_title_diagnostics_show_float_notification">Kayan bildirimler</string>
     <string name="pref_title_manual_check_virus_db_update">Güncellemeleri kontrol et</string>
     <string name="pref_title_over_traffic_limit_warning">Aşıldığında</string>
+    <string name="pref_title_physical_sim_self_detection">Dolaşım ağı tanılama</string>
     <string name="pref_title_traffic_limit_number">Boyut</string>
     <string name="pref_title_traffic_package_type">Tarife türü</string>
     <string name="pref_title_traffic_speed_state">Ağ bağlantı hızını göster</string>
@@ -4355,6 +4416,8 @@ kapatılıyor"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">Bu özellik, uygulama ögelerini gizlemenizi sağlar, böylece Ana ekranınızda gözükmezler.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Şifrenizi girdikten sonra gizli uygulamaların bulunduğu klasör görünecektir.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Ekranda iki parmağınızı ayırın. Uygulama kilitleme şifrenizi girmenizi isteyen bir mesaj göreceksiniz.</string>
+    <string name="privacy_custom_password_long">En fazla %d hane girin</string>
+    <string name="privacy_custom_password_too_short">En az %d hane girin</string>
     <string name="privacy_danger_permission_status_summary">Hassas izinleri talep eden uygulamalar</string>
     <string name="privacy_danger_permission_status_title">Hassas işlemler</string>
     <string name="privacy_danger_permission_summary">Uygulamaların izinleri nasıl kullandığını izleyin</string>
@@ -4414,6 +4477,8 @@ kapatılıyor"</string>
     <string name="privacy_global_guide_permission_guide_text">Uygulamalar ses kaydettiğinde veya kamerayı kullandığında bir durum çubuğu uyarısı alacaksınız. Hangi uygulamanın bunları yaptığını öğrenmek için uyarıya dokunun.</string>
     <string name="privacy_guide_permission_guide_text">Uygulamalar konumunuza eriştiğinde, ses kaydettiğinde veya fotoğraf çektiğinde durum çubuğunda bir uyarı alabilirsiniz.</string>
     <string name="privacy_hide_other_permissions">Diğer izinleri gizle</string>
+    <string name="privacy_hybrid_password_long">En fazla %d karakter girin</string>
+    <string name="privacy_hybrid_password_too_short">En az %d karakter girin</string>
     <string name="privacy_informed_title">İstatistik</string>
     <string name="privacy_input_mode">Güvenli giriş</string>
     <string name="privacy_input_model_tips">Güvenli giriş açık. Klavyeniz açılan penceleri göstermeyebilir veya kişiler, konum bilgisi ve arama geçmişine erişemeyebilir.</string>
@@ -4434,6 +4499,28 @@ kapatılıyor"</string>
     <string name="privacy_notification_title_mic">%1s arka planda mikrofonu kullanıyor</string>
     <string name="privacy_other_permission_manage_summary">Diğer gizlilikle ilgili izinleri yönet</string>
     <string name="privacy_other_permission_manage_title">Diğer izinler</string>
+    <string name="privacy_password_chanage_process">Gizlilik koruma şifresini değiştir</string>
+    <string name="privacy_password_custom_password">Özel PIN</string>
+    <string name="privacy_password_digital_password">%d-haneli PIN</string>
+    <string name="privacy_password_enter_custom_password">"%1$d–%2$d-haneli PIN'i girin"</string>
+    <string name="privacy_password_enter_custom_password_again">"PIN'i tekrar gir"</string>
+    <string name="privacy_password_enter_custom_password_not_match">PIN kodları eşleşmiyor</string>
+    <string name="privacy_password_enter_digital_password">"%d-haneli PIN'i girin"</string>
+    <string name="privacy_password_enter_digital_password_again">"%d-haneli PIN'i tekrar girin"</string>
+    <string name="privacy_password_enter_graphic_password">Kilit açma deseni çizin. En az %d noktayı birbirine bağlayın.</string>
+    <string name="privacy_password_enter_hybrid_password">%1$d–%2$d-karakterli şifrenizi girin</string>
+    <string name="privacy_password_enter_hybrid_password_again">Şifrenizi tekrar girin</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">Şifre geçersiz karakterler içeremez</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">Şifreler eşleşmiyor</string>
+    <string name="privacy_password_graphic_password">Desen</string>
+    <string name="privacy_password_hybrid_password">Şifre</string>
+    <string name="privacy_password_other_password">Diğer şifre</string>
+    <string name="privacy_password_setup_confirm">Tamam</string>
+    <string name="privacy_password_setup_hint">Şifrenizi girin</string>
+    <string name="privacy_password_setup_next">İleri</string>
+    <string name="privacy_password_setup_not_match">Tekrar dene</string>
+    <string name="privacy_password_setup_process">Gizlilik koruma şifresi ayarla</string>
+    <string name="privacy_password_update_type">Şifre türü seçin</string>
     <string name="privacy_permission_call">Arama geçmişine erişim veya arama geçmişini düzenleme</string>
     <string name="privacy_permission_call_title">Aramaları koruyun</string>
     <string name="privacy_permission_camera_title">Arka plan kamera kullanımını kısıtlayın</string>
@@ -4546,6 +4633,8 @@ kapatılıyor"</string>
     <string name="privacy_risk_uninstall_title">Uygulamaları kaldır</string>
     <string name="privacy_risk_work_encryption">Sosyal medya ve ofis dosyaları korunmuyor</string>
     <string name="privacy_screen_share_notification_content">Başka bir cihaza yansıtıyorsunuz. Gizlilik koruması açık.</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">Gizliliğinizi koruma</string>
+    <string name="privacy_screen_share_notification_land_title">Ekran paylaşma</string>
     <string name="privacy_screen_share_notification_protect_content">Hassas ögeler harici cihazda gösterilmeyecek</string>
     <string name="privacy_screen_share_notification_protect_title">Ekran içeriği korumalı</string>
     <string name="privacy_screen_share_notification_title">Ekran içeriğini yansıtmak</string>
@@ -4592,6 +4681,10 @@ kapatılıyor"</string>
     <string name="privacy_using_record">Ses kaydetme</string>
     <string name="privacyapp_number_masked_text">Bildirim içeriği gizli</string>
     <string name="privacyapp_number_unmasked_text">Bildirim içeriği gizlenebilir</string>
+    <string name="private_file">Özel dosyalar</string>
+    <string name="private_note">Gizli notlar</string>
+    <string name="private_photo">Özel albüm</string>
+    <string name="private_sms">Özel mesajlar</string>
     <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medya sunucusu</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
@@ -4600,6 +4693,7 @@ kapatılıyor"</string>
     <string name="prompt_input_time_illegal">Bu zamana ayarlanamadı, zamanı değiştirin ve yeniden deneyin</string>
     <string name="protocol_exception_title">Ağ protokolu tanımlamaları</string>
     <string name="protocol_loop_back_exception_summary">Yerel döngü testi başarısız oldu. Sorunu bildirmek için Geri bildirim uygulamasına gidin ve cihazından bir hata raporu gönderin.</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">Geri</string>
     <string name="provision_next">İleri</string>
     <string name="provision_skip_underline">Atla</string>
@@ -5710,6 +5804,7 @@ Kalan veri miktarı geçen aydan kalan veri miktarınıda içerir."</string>
     <string name="traffic_remind_switch">Veri kullanımı uyarısı</string>
     <string name="traffic_reminder_settings">Veri kullanımı uyarısını ayarla</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">Operatör seçin</string>
     <string name="traffic_setting_fragment_area">Yerel</string>
     <string name="traffic_setting_fragment_brand">Marka</string>
     <string name="traffic_setting_fragment_button1_text">İptal</string>

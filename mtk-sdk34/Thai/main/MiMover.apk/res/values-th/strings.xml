@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="PRD_summary_4">การปิด Wi-Fi หรือสลับเครือข่าย Wi-Fi ในระหว่างกระบวนการถ่ายโอนอาจทำให้กระบวนการถ่ายโอนล้มเหลว</string>
-    <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
+    <string name="PRD_summary_4_china">การปิด WLAN หรือสลับเครือข่าย WLAN ในระหว่างกระบวนการถ่ายโอนอาจทำให้กระบวนการถ่ายโอนล้มเหลว</string>
     <string name="PRD_summary_5">การถ่ายโอนความเร็วสูงอาจทำให้อุปกรณ์ของคุณร้อนกว่าปกติ มั่นใจได้ว่าอุปกรณ์ของคุณจะเย็นลงเมื่อการถ่ายโอนเสร็จสิ้น</string>
     <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
     <string name="abc_action_bar_up_description">กลับ</string>
@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
     <string name="abc_shareactionprovider_share_with_application">แชร์ทาง %s</string>
     <string name="abc_toolbar_collapse_description">ยุบ</string>
-    <string name="accessibility_sliding_button_state_description_off">ปิด</string>
-    <string name="accessibility_sliding_button_state_description_on">เปิด</string>
-    <string name="accessibility_tab_state_description_unselect">ไม่ได้เลือก</string>
-    <string name="accessibility_tab_statedesc_unselect">ไม่ได้เลือก</string>
+    <string name="accessibility_sliding_button_state_description_off">ปิดใช้งานแล้ว</string>
+    <string name="accessibility_sliding_button_state_description_on">เปิดใช้งานแล้ว</string>
+    <string name="accessibility_tab_state_description_unselect">ไม่ได้เลือกไว้</string>
     <string name="account_or_password_incorrect">ID บัญชีหรือรหัสผ่านไม่ถูกต้อง</string>
     <string name="actionbar_button_up_description">ย้อนกลับ</string>
     <string name="afternoon">บ่าย</string>
@@ -70,6 +69,9 @@
     <string name="ble_guest_connecting_title">กำลังเชื่อมต่อกับอุปกรณ์ใหม่…</string>
     <string name="ble_host_verification_summary">ป้อนรหัส %d-หลักบนอุปกรณ์เก่าของคุณ</string>
     <string name="ble_host_verification_title">กำลังเชื่อมต่อกับอุปกรณ์เก่า…</string>
+    <string name="ble_manual_authorization_content">ให้สิทธิ์ที่จำเป็นเพื่อสามารถโอนย้ายรายการด้วย Mi Mover คุณสามารถให้สิทธิ์เหล่านี้ในการตั้งค่าได้</string>
+    <string name="ble_manual_authorization_positive_btn">การตั้งค่า</string>
+    <string name="ble_manual_authorization_title">ต้องการการอนุญาต</string>
     <string name="ble_manual_connect">เชื่อมต่อด้วยตนเอง</string>
     <string name="ble_refuse_button">ปฏิเสธ</string>
     <string name="ble_start_ap_successed">สร้างฮอตสปอตสำเร็จแล้ว กำลังรอการเชื่อมต่อ…</string>
@@ -332,7 +334,7 @@
     <string name="hsa_code_null">รหัสยืนยันไม่สามารถเว้นว่างได้</string>
     <string name="hsa_input_tip">รหัส Apple ID ของคุณใช้การตรวจสอบสิทธิ์สองชั้น กรุณาป้อนรหัสยืนยัน</string>
     <string name="hsa_send_again">ส่งอีกครั้ง</string>
-    <string name="hsa_send_again_countdown">ส่งอีกครั้ง(%dวิ)</string>
+    <string name="hsa_send_again_countdown">ส่งอีกครั้ง(%d วิ)</string>
     <string name="hsa_send_failed">ไม่สามารถส่งรหัสยืนยันได้ กรุณารอ 1-2 นาทีแล้วลองอีกครั้ง</string>
     <string name="hsa_sending">กำลังส่ง…</string>
     <string name="hsa_tip_message">หากคุณไม่ได้รับรหัสยืนยัน ตรวจสอบให้แน่ใจว่าคุณได้ลงชื่อเข้าใช้ iCloud บนอุปกรณ์ Apple ของคุณแล้ว</string>
@@ -420,9 +422,11 @@
     <string name="miui_wait_link_title_1">%d แตะ \"ฉันเป็นผู้ส่ง\" และรอสักครู่</string>
     <string name="miui_wait_link_title_2">%d เลือกฮอตสปอตนี้บนอุปกรณ์เก่าของคุณเพื่อเชื่อมต่อ</string>
     <string name="miuix_access_state_desc">ที่เลือกไว้</string>
-    <string name="miuix_accessibility_title">หัวข้อ</string>
+    <string name="miuix_accessibility_title">หัวเรื่อง</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">หุบ</string>
+    <string name="miuix_appcompat_accessibility_expand_state">ขยาย</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">ออกจากโหมดแก้ไข</string>
-    <string name="miuix_appcompat_accessibility_new_message">มีข้อความใหม่</string>
+    <string name="miuix_appcompat_accessibility_new_message">การแจ้งเตือนใหม่</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">เข้าสู่โหมดแก้ไข</string>
     <string name="miuix_appcompat_action_mode_deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_select_all">เลือกทั้งหมด</string>
@@ -439,6 +443,7 @@
     <string name="miuix_appcompat_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_all_description">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_item">เลือกรายการ</string>
+    <string name="miuix_appcompat_show_dialog_description">หน้าต่างป๊อปอัป</string>
     <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">รีเฟรชสำเร็จแล้ว</string>
@@ -449,6 +454,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">รอสักครู่…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">ไม่สามารถโหลดรายการได้</string>
     <string name="miuix_show_password">แสดงรหัสผ่าน</string>
+    <string name="miuix_stretchablewidget_collapsed">หุบ</string>
+    <string name="miuix_stretchablewidget_expanded">ขยาย</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">ข้อความ, ผู้ติดต่อ และประวัติการโทร</string>
     <string name="monday">วันจันทร์</string>
@@ -876,7 +883,7 @@
     <string name="trans_apple_hint_1_title">%d ติดตั้ง Mi Mover</string>
     <string name="trans_apple_hint_2_content">เปิด Mi Mover บนอุปกรณ์ Apple ของคุณ แตะ \"แตะเพื่อส่งรายการ\" และสแกนรหัส QR</string>
     <string name="trans_apple_hint_2_title">%d เชื่อมต่ออุปกรณ์</string>
-    <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
+    <string name="trans_apple_hint_china">อย่าออกจากหน้านี้หรือใช้ WLAN จนกว่าการถ่ายโอนจะเสร็จสิ้น</string>
     <string name="trans_apple_interrupt_sub">แตะด้านล่างเพื่อเชื่อมต่ออีกครั้ง</string>
     <string name="trans_apple_interrupt_title">ถูกขัดจังหวะ</string>
     <string name="trans_detail_item_app_data_skip_data">ไม่สามารถถ่ายโอนข้อมูลแอป</string>

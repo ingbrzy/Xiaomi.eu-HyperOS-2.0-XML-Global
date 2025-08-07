@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="PRD_summary_4">Η απενεργοποίηση του Wi-Fi ή η εναλλαγή δικτύων Wi-Fi κατά τη διαδικασία μεταφοράς μπορεί να προκαλέσει την αποτυχία της διαδικασίας μεταφοράς.</string>
-    <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
+    <string name="PRD_summary_4_china">Η απενεργοποίηση του WLAN ή η εναλλαγή δικτύων WLAN κατά τη διαδικασία μεταφοράς μπορεί να προκαλέσει την αποτυχία της διαδικασίας μεταφοράς.</string>
     <string name="PRD_summary_5">Οι μεταφορές υψηλής ταχύτητας μπορεί να προκαλέσουν τη θέρμανση της συσκευής σας περισσότερο από το κανονικό. Να είστε βέβαιοι ότι η συσκευή σας θα κρυώσει όταν ολοκληρωθεί η μεταφορά.</string>
     <string name="abc_action_bar_home_description">Πλοήγηση στην αρχική σελίδα</string>
     <string name="abc_action_bar_up_description">Πλοήγηση προς τα επάνω</string>
@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with">Κοινοποίηση σε</string>
     <string name="abc_shareactionprovider_share_with_application">Κοινοποίηση στην εφαρμογή %s</string>
     <string name="abc_toolbar_collapse_description">Σύμπτυξη</string>
-    <string name="accessibility_sliding_button_state_description_off">απενεργοποιημένο</string>
-    <string name="accessibility_sliding_button_state_description_on">ενεργό</string>
-    <string name="accessibility_tab_state_description_unselect">Μη επιλεγμένο</string>
-    <string name="accessibility_tab_statedesc_unselect">Μη επιλεγμένο</string>
+    <string name="accessibility_sliding_button_state_description_off">Απενεργοποιήθηκε</string>
+    <string name="accessibility_sliding_button_state_description_on">Ενεργοποιήθηκε</string>
+    <string name="accessibility_tab_state_description_unselect">Καμία επιλογή</string>
     <string name="account_or_password_incorrect">Λανθασμένο ID λογαριασμού ή κωδικός</string>
     <string name="actionbar_button_up_description">Πίσω</string>
     <string name="afternoon">Απόγευμα</string>
@@ -70,6 +69,9 @@
     <string name="ble_guest_connecting_title">Γίνεται σύνδεση σε νέα συσκευή…</string>
     <string name="ble_host_verification_summary">Εισαγάγετε %d-ψήφιο κωδικό στην παλαιά σας συσκευή.</string>
     <string name="ble_host_verification_title">Γίνεται σύνδεση σε παλαιά συσκευή…</string>
+    <string name="ble_manual_authorization_content">Παραχωρήστε τις απαιτούμενες άδειες για να μπορέσετε να μεταφέρετε αντικείμενα με τη Μεταφορά Mi. Μπορείτε να παραχωρήσετε αυτές τις άδειες στις Ρυθμίσεις.</string>
+    <string name="ble_manual_authorization_positive_btn">Ρυθμίσεις</string>
+    <string name="ble_manual_authorization_title">Απαιτούνται άδειες</string>
     <string name="ble_manual_connect">Μυ αυτόματη σύνδεση</string>
     <string name="ble_refuse_button">Απόρριψη</string>
     <string name="ble_start_ap_successed">Επιτυχής δημιουργία φορητού σημείο πρόσβασης. Αναμονή για σύνδεση…</string>
@@ -421,8 +423,10 @@
     <string name="miui_wait_link_title_2">%d. Επιλέξτε αυτό το φορητό σημείο πρόσβασης στην παλαιά σας συσκευή για να συνδεθείτε.</string>
     <string name="miuix_access_state_desc">Έγινε επιλογή</string>
     <string name="miuix_accessibility_title">Τίτλος</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Έκλεισε</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Επεκτάθηκε</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Έξοδος από τη λειτουργία επεξεργασίας</string>
-    <string name="miuix_appcompat_accessibility_new_message">Νέο μήνυμα</string>
+    <string name="miuix_appcompat_accessibility_new_message">Νέα ειδοποίηση</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Έναρξη λειτουργίας επεξεργασίας</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Αποεπιλογή όλων</string>
     <string name="miuix_appcompat_action_mode_select_all">Επιλογή όλων</string>
@@ -439,6 +443,7 @@
     <string name="miuix_appcompat_select_all">Επιλογή όλων</string>
     <string name="miuix_appcompat_select_all_description">Επιλογή όλων</string>
     <string name="miuix_appcompat_select_item">Επιλογή αντικειμένων</string>
+    <string name="miuix_appcompat_show_dialog_description">Αναδυόμενο παράθυρο</string>
     <string name="miuix_progressbar_loading">Φόρτωση</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Τραβήξτε προς τα κάτω για ανανέωση</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Επιτυχής ανανέωση</string>
@@ -449,6 +454,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Μια στιγμή…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Αδυναμία λήψης αντικειμένων</string>
     <string name="miuix_show_password">Εμφάνιση κωδικού</string>
+    <string name="miuix_stretchablewidget_collapsed">Έκλεισε</string>
+    <string name="miuix_stretchablewidget_expanded">Επεκτάθηκε</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Μηνύματα, επαφές και ιστορικό κλήσεων</string>
     <string name="monday">Δευτέρα</string>
@@ -876,7 +883,7 @@
     <string name="trans_apple_hint_1_title">%d. Εγκατάσταση της Μεταφοράς Mi</string>
     <string name="trans_apple_hint_2_content">Ανοίξτε την Μεταφορά Mi στη συσκευή Apple σας, πατήστε \"Πατήστε για αποστολή στοιχείων\" και σαρώστε τον κωδικό QR.</string>
     <string name="trans_apple_hint_2_title">%d. Συνδέστε συσκευές</string>
-    <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
+    <string name="trans_apple_hint_china">Μην εγκαταλείψετε αυτή τη σελίδα και μην χρησιμοποιήσετε το WLAN πριν την ολοκλήρωση της μεταφοράς.</string>
     <string name="trans_apple_interrupt_sub">Πατήστε παρακάτω για επανασύνδεση</string>
     <string name="trans_apple_interrupt_title">Διακόπηκε</string>
     <string name="trans_detail_item_app_data_skip_data">Αδυναμία μεταφοράς δεδομένων εφαρμογής</string>
