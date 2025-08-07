@@ -340,6 +340,7 @@
     <string name="app_management_for_install">Blokirajte prenose aplikacij</string>
     <string name="app_management_for_install_desc">Preprečite tej aplikaciji prenos ali namestitev drugih aplikacij</string>
     <string name="app_management_measures">Upravljanje aplikacij</string>
+    <string name="app_manager_ad_text_btn_resume">Nadaljuj</string>
     <string name="app_manager_advanced_setting">Napredne nastavitve</string>
     <string name="app_manager_airtel_dlg_msg">Če imate vprašanja, se obrnite na Airtel</string>
     <string name="app_manager_airtel_dlg_title">Blokirano s strani Airtel</string>
@@ -462,8 +463,8 @@ Ne boste izgubili nobenih podatkov aplikacij."</string>
     <string name="app_manager_uninstall_notify_title">Odstrani redko uporabljene aplikacije</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Odstranitev sistemskih aplikacij lahko prepreči pravilno delovanje nekaterih sistemskih komponent. Jih želite vseeno odstraniti?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Odstranjevanje sistemskih aplikacij</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Primerne dvojne aplikacije bodo odstranjene skupaj s podatki aplikacij.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Odstranitev dvojne aplikacije bo odstranilo vse podatke aplikacije.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Dvojna aplikacija bo odstranjena skupaj s to.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Ustrezne dvojne aplikacije bodo odstranjene skupaj s podatki aplikacije.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Odstranim dvojno aplikacijo?</string>
     <string name="app_manager_unstall_application">Odstrani</string>
     <string name="app_managere_not_have_app">Prazno</string>
@@ -570,8 +571,8 @@ Ne boste izgubili nobenih podatkov aplikacij."</string>
     <string name="applock_lock_mode_locked_or_exit">Ko je naprava zaklenjena ali po izhodu iz aplikacije</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">Ko je naprava zaklenjena ali %d minuto po izhodu iz aplikacije</string>
     <string name="applock_login_and_add_account">Prijavite se in dodajte</string>
-    <string name="applock_mixtype_hidepwd_icon">Skrij</string>
-    <string name="applock_mixtype_showpwd_icon">Prikaži</string>
+    <string name="applock_mixtype_hidepwd_icon">Skrij geslo</string>
+    <string name="applock_mixtype_showpwd_icon">Prikaži geslo</string>
     <string name="applock_no_account_login">Niste vpisani v vaš Xiaomi Račun</string>
     <string name="applock_not_add_account"><u>Ne zdaj</u></string>
     <string name="applock_not_add_account_normal">Ne dodaj račun</string>
@@ -583,6 +584,12 @@ Ne boste izgubili nobenih podatkov aplikacij."</string>
     <string name="applock_operate_fingerprint_title">Uporabite vaš prstni odtis</string>
     <string name="applock_operate_hidenoti_summary">Zaklepanje aplikacij lahko skrije vsebino za zavarovane aplikacije</string>
     <string name="applock_operate_hidenoti_title">Želiti skriti občutljiva obvestila?</string>
+    <string name="applock_password_set_luck_button">Nastavitve</string>
+    <string name="applock_password_set_luck_comment">Za uporabo zasebnih funkcij v tej napravi, morate nastaviti zaklepanje zaslona.</string>
+    <string name="applock_password_set_luck_message">"Za varen dostop do zasebnih funkcij v vaši napravi Xiaomi HyperOS privzeto uporablja zaklepanje zaslona za preverjanje identitete.
+
+Če še niste nastavili zaklepanja zaslona, ​​sledite navodilom in to storite."</string>
+    <string name="applock_password_set_luck_title">Najprej nastavite zaklepanje zaslona</string>
     <string name="applock_recommend_tips">%s uporabnikov je zavarovalo te aplikacije</string>
     <string name="applock_recommend_title">Izberite aplikacije</string>
     <string name="applock_set_complete">Uporabi Zaklepanje aplikacij</string>
@@ -867,6 +874,22 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="bind_xiaomi_account_success">Xiaomi Račun uspešno dodan</string>
     <string name="bind_xiaomi_account_summary">Za ponastavitev gesla uporabite Xiaomi Račun</string>
     <string name="bind_xiaomi_account_title">Dodaj Xiaomi Račun</string>
+    <string name="biometric_applock_password_lockout_title">Preveč napačnih poskusov</string>
+    <string name="biometric_applock_pwd">Preverjanje zaklepanja aplikacij</string>
+    <string name="biometric_applock_pwd_or_finger">Potrdite s prstnim odtisom ali z zaklepanjem aplikacij</string>
+    <string name="biometric_face_error">Ni mogoče preveriti</string>
+    <string name="biometric_face_finger_change">Biometrični podatki so se spremenili. Vnesite svoje geslo za potrditev.</string>
+    <string name="biometric_finger_verify">Preverjanje prstnega odtisa</string>
+    <string name="biometric_lockscreen_pwd">Preverjanje zaklepanja zaslona</string>
+    <string name="biometric_lockscreen_pwd_or_finger">Potrdite s prstnim odtisom ali z zaklepanjem zaslona</string>
+    <string name="biometric_private_password">Preverjanje gesla za zaščito zasebnosti</string>
+    <string name="biometric_private_password_lockout_title">Preveč napačnih poskusov</string>
+    <string name="biometric_private_pwd_or_finger">Potrdite s prstnim odtisom ali z geslom za zaščito zasebnosti</string>
+    <string name="biometric_reset_password_tips">Geslo je bilo uspešno ponastavljeno. Za odklepanje vnesite novo geslo.</string>
+    <string name="biometric_screen_lock_password_lockout_title">Preveč napačnih poskusov</string>
+    <string name="biometric_subtitle">Za odpiranje %1$s</string>
+    <string name="biometric_subtitle_default">Potrdite svojo identiteto</string>
+    <string name="biometric_verify_retry">Poskusite ponovno</string>
     <string name="birthday">Rojstni dan</string>
     <string name="bl_no_blacklist">Ni blokiranih številk.</string>
     <string name="bl_no_block_call">Ni blokiranih klicev.</string>
@@ -1002,6 +1025,8 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="car_sickness_relief_comment_text">Ko je zaznano gibanje vozila, se na obeh straneh zaslona prikažejo pike, ki kažejo, ali se vozilo premika, kar lahko pomaga odložiti nastanek potovalne slabosti.</string>
     <string name="car_sickness_relief_example_text_1">Ko vozilo pospeši ali upočasni hitrost</string>
     <string name="car_sickness_relief_example_text_2">Ko vozilo zavije ali zamenja vozni pas.</string>
+    <string name="car_sickness_relief_exit_text">Lajšanje potovalne slabosti je prenehalo delovati</string>
+    <string name="car_sickness_relief_start_text">Lajšanje potovalne slabosti deluje</string>
     <string name="car_sickness_remind_time_title">Kazalniki gibanja</string>
     <string name="car_sickness_title">Lajšanje potovalne slabosti</string>
     <string name="card_main_apkclean_title">Izbriši APK datoteke</string>
@@ -1178,6 +1203,7 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="connected_devices_notification_title">Želite dovoliti zgornji napravi, da prikazuje obvestila te naprave?</string>
     <string name="connected_devices_permission">Medsebojna povezljivost in dovoljenja</string>
     <string name="connected_devices_permission_settings">Medsebojna povezljivost in dovoljenja</string>
+    <string name="connected_devices_permission_summary">Upravljajte dostop do te naprave</string>
     <string name="connected_devices_record">Posnemi</string>
     <string name="connected_devices_record_desc">Dovolite bližnjim napravam, prijavljenim v isti račun, snemanje zvoka na tej napravi</string>
     <string name="connected_devices_record_title">Dovolite zgornji napravi snemanje zvoka na tej napravi?</string>
@@ -1344,6 +1370,8 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="deep_save_ontime_boot_shutdown_summary">Določite čas za vklop in izklop naprave</string>
     <string name="delete">Izbriši</string>
     <string name="delete_all_sms">Izbriši vse</string>
+    <string name="delete_connected_devices">Želite izbrisati izbrane naprave zdaj?</string>
+    <string name="delete_connected_devices_title">Želite izbrisati %1$s zdaj?</string>
     <string name="delete_from_manual_item_white_list">Odstrani iz izjem</string>
     <string name="delete_input">Izbriši</string>
     <string name="deleted_apps">Izbrisane aplikacije</string>
@@ -1819,6 +1847,8 @@ Dodana bo na seznam izjem, ampak pretekli blokirani predmeti ne bodo prikazani v
     <string name="game_anti_disturb_msg">Način Ne moti za igre</string>
     <string name="game_balance_more_setting_title">Dodatne nastavitve</string>
     <string name="game_balance_vision_enhance_subtitle">Zviša kontrast in izboljša detajle v igrah</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">Na voljo samo, če je ločljivost igre nastavljena na najvišjo vrednost</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">Na voljo samo, če je natančnost upodabljanja igre nastavljena na najvišjo vrednost.</string>
     <string name="game_balance_vision_enhance_title">Izboljšana slika</string>
     <string name="game_booster">Game Turbo</string>
     <string name="game_booster_close">Game Turbo je izklopljen</string>
@@ -1856,8 +1886,13 @@ Dodana bo na seznam izjem, ampak pretekli blokirani predmeti ne bodo prikazani v
     <string name="game_toolbox_ai_upgrade_dialog_btn">Posodobi</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">Na voljo je posodobitev za storitve iger z umetno inteligenco. Posodobite pred uporabo povezanih funkcij.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Preveri za posodobitve</string>
+    <string name="game_toolbox_auto_brightness_talkback">Samodejna svetlost</string>
+    <string name="game_toolbox_btn_back_talkback">Nazaj</string>
+    <string name="game_toolbox_cellular_network">Pospeševanje hitrosti mobilnega omrežja</string>
     <string name="game_toolbox_display_avrs">AVRS (avtomatiziran sistem glasovnega odziva)</string>
     <string name="game_toolbox_display_avrs_desc">Vklopite, da rahlo zmanjšate kakovost slike in občutno zmanjšate porabo energije</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"Opomba:
+Ko je vklopljena pametna hitrost sličic, orodja za zaznavanje hitrosti sličic v igri in drugih ponudnikov morda ne bodo natančno zaznala hitrosti sličic. Za dejansko hitrost sličic si oglejte nadzorno ploščo za zmogljivost."</string>
     <string name="game_toolbox_display_style_desc">Prilagodite vizualni slog (podpira HDR igre)</string>
     <string name="game_toolbox_display_style_game_hdr">HDR (visok dinamični razpon) igre</string>
     <string name="game_toolbox_display_style_title">Vizualni slog</string>
@@ -1866,10 +1901,20 @@ Dodana bo na seznam izjem, ampak pretekli blokirani predmeti ne bodo prikazani v
     <string name="game_toolbox_fps_shake">Tresenje %d FPS</string>
     <string name="game_toolbox_immersion_sound_desc">Ko uporabljate slušalke, natančno zajemite zvočne učinke, kot so koraki in glasovi, kar izboljša poglobitev v igro</string>
     <string name="game_toolbox_immersion_sound_title">Poglobljen zvok</string>
+    <string name="game_toolbox_item_joystick_key_mapping">Gumb krmilnika</string>
+    <string name="game_toolbox_margin_restrain_description">Nastavite obseg zavrnitve dotika, da zmanjšate nenamerne dotike</string>
     <string name="game_toolbox_mem_clean_desc">Počistite pomnilnik in povečajte hitrost</string>
     <string name="game_toolbox_more_tools_title">Več orodja</string>
     <string name="game_toolbox_perf_config_desc">Konfigurirajte nastavitve delovanja igre</string>
     <string name="game_toolbox_perf_config_title">Nastavitve učinkovitosti delovanja</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">Funkciji Super ločljivost in Pametna hitrost sličic lahko prilagodite za upravljanje hitrosti sličic in kakovosti slike. &lt;font color=%s>Dejanska hitrost sličic je prikazana na nadzorni plošči za zmogljivost.&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">Ko je vklopljena prednostna nastavitev hitrosti sličic, je dejanska hitrost sličic prikazana na nadzorni plošči za zmogljivost</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">Prednostna nastavitev hitrosti sličic izboljša hitrost sličic s pametno hitrostjo sličic. &lt;font color=%s>Dejanska hitrost sličic je prikazana na nadzorni plošči za zmogljivost.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">Ko je vklopljena prednostna nastavitev slike, je dejanska hitrost sličic prikazana na nadzorni plošči za zmogljivost</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">Prednostna nastavitev slike izboljša kakovost slike z možnostjo super ločljivosti in upravlja hitrost sličic s funkcijo Pametna hitrost sličic. &lt;font color=%s>Dejanska hitrost sličic je prikazana na nadzorni plošči za zmogljivost.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">Svetlost zaslona</string>
+    <string name="game_toolbox_settings_talkback">Nastavitve</string>
     <string name="game_toolbox_slow_charge_desc">Vklopite to funkcijo za izboljšano igralno izkušnjo med polnjenjem, saj upočasni hitrost polnjenja. To lahko prepreči pregrevanje vaše naprave. Želite vklopiti zdaj?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Razumem</string>
     <string name="game_toolbox_slow_charge_negative_btn">Prekliči</string>
@@ -1878,6 +1923,12 @@ Dodana bo na seznam izjem, ampak pretekli blokirani predmeti ne bodo prikazani v
     <string name="game_toolbox_slow_charge_positive_btn">Vklopi</string>
     <string name="game_toolbox_slow_charge_title">Počasno polnjenje</string>
     <string name="game_toolbox_slow_charge_toast">Počasno polnjenje je vklopljeno</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Haptične povratne informacije ne delujejo z izvirnimi postavitvami. Haptične povratne informacije so izklopljene.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptične povratne informacije ne delujejo z izvirnimi postavitvami</string>
+    <string name="game_toolbox_smotion_vibrate_desc">Dodajte haptične povratne informacije v skladu z igralnimi potezami. Podprte so le nekatere igre.</string>
+    <string name="game_toolbox_smotion_vibrate_title">Haptične povratne informacije</string>
+    <string name="game_toolbox_super_follow_up_msg">Izboljšajte odzivnost na dotik in sledenje prek celotnega cevovoda strojne in programske opreme</string>
+    <string name="game_toolbox_super_shake_msg">Zmanjšajte tresenje pri dotiku in drsanju ter izboljšajte stabilnost upravljanja</string>
     <string name="game_toolbox_title">Igralna orodja</string>
     <string name="game_toolbox_title_game_center">Igre</string>
     <string name="game_toolbox_title_wild">Ultimativni način</string>
@@ -1893,7 +1944,7 @@ Dodana bo na seznam izjem, ampak pretekli blokirani predmeti ne bodo prikazani v
     <string name="game_wid_viewpoint_buttom">Vzemite si kratki oddih.</string>
     <string name="gamebooster_confirm_dialog_negative_btn">Ne strinjam se</string>
     <string name="gamebooster_confirm_dialog_positive_btn">Strinjam se</string>
-    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>&lt;br>&lt;a href=\"%1$s\">Pravilnik o zasebnosti&lt;/a> za Hunyou pospeševalnik igre</Data></string>
     <string name="gamebooster_confirm_dialog_title">Strinjajte se z našim Pravilnikom o zasebnosti</string>
     <string name="gamebooster_dialog_recover">Ponovi</string>
     <string name="gamebooster_dialog_start_booster">Začetek</string>
@@ -2486,7 +2537,7 @@ Pritisnite in držite indikator za premikanje okna."</string>
     <string name="gtb_dialog_hint_smart_5g">Funkcijo lahko vklopite in izklopite v Game Turbo > Nastavitve.</string>
     <string name="gtb_dialog_privacy_speed_message">Uporabili boste Xunyou Game Booster. Ta storitev bo zbrala vaš ID Xiaomi Računa, da zabeleži trajanje vašega članstva.</string>
     <string name="gtb_dialog_privacy_speed_tips"><Data>Prebral/-a sem in se strinjam z Xunyou Game Booster &lt;a href=\"%1$s\">Pravilnikom o zasebnosti.&lt;/a></Data></string>
-    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>Prebral/a sem in se strinjam s &lt;a href=\"%1$s\">Pravilnikom o zasebnosti&lt;/a> za Xunyou pospeševalnik igre.</Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou Game Booster</string>
     <string name="gtb_dialog_privacy_voice_message">Uporabili boste Xunyou Game Voice Changer. Ta storitev bo zbrala vaš ID Xiaomi Računa, da zabeleži trajanje vašega članstva.</string>
     <string name="gtb_dialog_privacy_voice_tips"><Data>Prebral/-a sem in se strinjam z Xunyou Game Voice Changer &lt;a href=\"%1$s\">Pravilnikom o zasebnosti.&lt;/a></Data></string>
@@ -2743,6 +2794,7 @@ Vaš operater vam lahko računa dodatne stroške če ponovno uporabite mobilno p
     <string name="main_alert_message_no_imsi">SIM kartica ni najdena</string>
     <string name="main_alert_message_open_traffic_ctrl">Priporočamo vam da omejite uporabo podatkov</string>
     <string name="main_balance_check">Preveri dobroimetje</string>
+    <string name="main_bill_out_talkback">Negativno stanje %1$.2f</string>
     <string name="main_bill_remained">Stanje računa</string>
     <string name="main_button_mi_sim_close">Aktiviraj Mi SIM</string>
     <string name="main_button_mi_sim_open">Prikaži podrobnosti</string>
@@ -3341,6 +3393,8 @@ Poskusite povezati usmerjevalnik z drugim omrežnim kablom. Če mislite, da je t
     <string name="open_extreme_power_save_mode_title">Vklopi Ekstremno varčevanje z baterijo</string>
     <string name="open_game">Odpri</string>
     <string name="open_now">Dovoli aplikacijam uporabo mobilnih podatkov</string>
+    <string name="open_physical_sim_self_detection_noti_centent">Vaša povezava gostovanja morda ne deluje pravilno</string>
+    <string name="open_physical_sim_self_detection_noti_title">Preizkusi diagnostiko omrežja gostovanja</string>
     <string name="open_wlan_title">Aplikaciji dovoli vklop ali izklop Wi-Fi omrežja</string>
     <string name="operator_location_settings">Nastavite operaterja in lokacijo</string>
     <string name="operator_location_settings_message">Vašega operaterja in lokacije ni bilo mogoče prepoznati. Zdaj ni mogoče nastaviti obvestila o stanju računa telefona in porabi podatkov.</string>
@@ -3429,6 +3483,7 @@ Poskusite povezati usmerjevalnik z drugim omrežnim kablom. Če mislite, da je t
     <string name="password_unlock">Odklepanje z geslom</string>
     <string name="password_xspace_forget_pattern_message">Za spremembo gesla za Drugi prostor, morate izbrisati vaš trenutni Drugi prostor in nato ustvarite novo geslo.</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Polnite hitreje z zmogljivim povratnim polnjenjem. USB povezava se uporablja samo za polnjenje.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">Hitrejše polnjenje z visokozmogljivim povratnim polnjenjem.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Povratno polnjenje</string>
     <string name="pc_abnormal_scan_button_text">Zapira aplikacije</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Preprečuje prehod sistema v stanje pripravljenosti</string>
@@ -3643,6 +3698,9 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Za hitrejše in stabilnejše polnjenje, pred polnjenjem zložite napravo.</string>
     <string name="pc_remind_close_cover_to_charge_title">Zložite za polnjenje</string>
     <string name="pc_reminder_always_protect_summary">Preklopite na omejeno polnjenje, da zmanjšate staranje baterije</string>
+    <string name="pc_remove_shell_charging_notification_msg">Brezžično polnjenje ni mogoče, če uporabljate igralni ovitek. Odstranite ga in poskusite znova ali uporabite žično polnjenje.</string>
+    <string name="pc_remove_shell_charging_notification_title">Za brezžično polnjenje odstranite ovitek</string>
+    <string name="pc_remove_shell_charging_toast">Za uporabo povratnega brezžičnega polnjenja odstranite ovitek</string>
     <string name="pc_satellite_auto_enter_super_power">Vklopljeno skrajno varčevanje z baterijo za zagotavljanje satelitskih komunikacij</string>
     <string name="pc_save_charge">Polnjenje</string>
     <string name="pc_save_other_setting">Ostale nastavitve</string>
@@ -4056,6 +4114,7 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="power_dialog_performance_mode_checkbox">Preklopite na %d Hz stopnjo osveževanja</string>
     <string name="power_dialog_super_save_msg">Skrajno varčevanje z baterijo omeji večino storitev, ki porabljajo baterijo (npr. 5G povezljivost), kar zniža učinkovitost delovanja naprave.To ne bo vplivalo le na klice, sporočila ter omrežno povezanost. Želite vklopiti Skrajno varčevanje z baterijo?</string>
     <string name="power_dialog_super_save_msg_5g">Skrajno varčevanje z baterijo omeji večino storitev, ki porabljajo baterijo (npr. 5G povezljivost), kar zniža učinkovitost delovanja naprave.To ne bo vplivalo le na klice, sporočila ter omrežno povezanost. Želite vklopiti Skrajno varčevanje z baterijo?</string>
+    <string name="power_dialog_super_save_msg_p2">Skrajno varčevanje z baterijo izklopi zaslon na zadnji strani in omeji večino funkcij, ki porabljajo baterijo, kar zniža učinkovitost delovanja naprave na osnovne funkcionalnosti (npr. klici, SMS sporočila in povezovanje z omrežjem), ki so na voljo toliko časa, kot je mogoče. Želite vklopiti Skrajno varčevanje z baterijo?</string>
     <string name="power_dialog_super_save_title">Skrajno varčevanje z baterijo</string>
     <string name="power_idle">Nedejavnost telefona</string>
     <string name="power_main_battery_last_day_hour">Prestalo še %1$s d %2$s u</string>
@@ -4265,6 +4324,7 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Ko presežete podatkovni načrt</string>
     <string name="pref_package_traffic_settings">Mobilni podatki</string>
+    <string name="pref_physical_sim_self_detection_cat_title">Preveri omrežje</string>
     <string name="pref_pkg_begin_date">Datum ponastavitve porabe</string>
     <string name="pref_roaming_daily_limit_setting">Nastavi dnevno omejitev podatkov za gostovanje</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Dnevna omejitev podatkov</string>
@@ -4276,6 +4336,7 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pref_title_diagnostics_show_float_notification">Plavajoča obvestila</string>
     <string name="pref_title_manual_check_virus_db_update">Preveri za posodobitve</string>
     <string name="pref_title_over_traffic_limit_warning">Ko je presežen</string>
+    <string name="pref_title_physical_sim_self_detection">Diagnostika omrežja gostovanja</string>
     <string name="pref_title_traffic_limit_number">Velikost</string>
     <string name="pref_title_traffic_package_type">Vrsta prenosa mobilnih podatkov</string>
     <string name="pref_title_traffic_speed_state">Prikaži hitrost omrežja</string>
@@ -4328,6 +4389,8 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">Funkcija vam omogoča skritje ikon aplikacij, tako da one več ne bodo prikazane na vašem Začetnem zaslonu.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Ko boste vnesli geslo, se bo pojavila skrita mapa s skritimi aplikacijami.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Razširite dva prsta po zaslonu. Pojavilo se bo sporočilo, ki vas bo pozvalo k vnosu gesla za Zaklepanje aplikacije.</string>
+    <string name="privacy_custom_password_long">Vnesite največ %d številk</string>
+    <string name="privacy_custom_password_too_short">Vnesite vsaj %d številk</string>
     <string name="privacy_danger_permission_status_summary">Upravljajte z aplikacijami, ki zahtevajo občutljiva dovoljenja</string>
     <string name="privacy_danger_permission_status_title">Občutljiva dejanja</string>
     <string name="privacy_danger_permission_summary">Nadzorujte kako aplikacije uporabljajo vaša dovoljenja</string>
@@ -4387,6 +4450,8 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="privacy_global_guide_permission_guide_text">V statusni vrstici boste prejeli obvestilo vsakič, ko aplikacija posname zvok ali uporabi kamero. Da bi izvedli katera aplikacija izvaja ta dejanja, tapnite na obvestilo.</string>
     <string name="privacy_guide_permission_guide_text">Lahko prejmete obvestilo v statusni vrstici, ko aplikacije dostopajo do lokacije, snemajo zvok ali fotografirajo.</string>
     <string name="privacy_hide_other_permissions">Skrij ostala dovoljenja</string>
+    <string name="privacy_hybrid_password_long">Vnesite največ %d znakov</string>
+    <string name="privacy_hybrid_password_too_short">Vnesite vsaj %d znakov</string>
     <string name="privacy_informed_title">Statistika</string>
     <string name="privacy_input_mode">Varen vnos</string>
     <string name="privacy_input_model_tips">Varni vnos je vklopljen. Tipkovnica ne more prikazati pojavnih oken ali dostopati do stikov, podatkov o lokaciji in zgodovine klicev.</string>
@@ -4407,6 +4472,28 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="privacy_notification_title_mic">%1s uporablja mikrofon v ozadju</string>
     <string name="privacy_other_permission_manage_summary">Upravljajte druga dovoljenja, povezana z zasebnostjo</string>
     <string name="privacy_other_permission_manage_title">Druga dovoljenja</string>
+    <string name="privacy_password_chanage_process">Spremenite geslo za zaščito zasebnosti</string>
+    <string name="privacy_password_custom_password">Številka PIN po meri</string>
+    <string name="privacy_password_digital_password">%d-mestna številka PIN</string>
+    <string name="privacy_password_enter_custom_password">Vnesite svojo %1$d–%2$d-mestno številko PIN</string>
+    <string name="privacy_password_enter_custom_password_again">Ponovno vnesite svojo številko PIN</string>
+    <string name="privacy_password_enter_custom_password_not_match">Številki PIN se ne ujemata</string>
+    <string name="privacy_password_enter_digital_password">Vnesite svojo %d-mestno številko PIN</string>
+    <string name="privacy_password_enter_digital_password_again">Ponovno vnesite svojo %d-mestno številko PIN</string>
+    <string name="privacy_password_enter_graphic_password">Narišite vzorec za odklepanje. Povežite vsaj %d pike.</string>
+    <string name="privacy_password_enter_hybrid_password">Vnesite geslo sestavljeno iz %1$d–%2$d znakov</string>
+    <string name="privacy_password_enter_hybrid_password_again">Ponovno vnesite svoje geslo</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">Geslo ne sme vsebovati neveljavnih znakov</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">Gesli se ne ujemata</string>
+    <string name="privacy_password_graphic_password">Vzorec</string>
+    <string name="privacy_password_hybrid_password">Geslo</string>
+    <string name="privacy_password_other_password">Drugo geslo</string>
+    <string name="privacy_password_setup_confirm">V redu</string>
+    <string name="privacy_password_setup_hint">Vnesite svoje geslo</string>
+    <string name="privacy_password_setup_next">Naprej</string>
+    <string name="privacy_password_setup_not_match">Poskusite ponovno</string>
+    <string name="privacy_password_setup_process">Nastavite geslo za zaščito zasebnosti</string>
+    <string name="privacy_password_update_type">Izberite vrsto gesla</string>
     <string name="privacy_permission_call">Dostop do ali urejanje zgodovine klicev</string>
     <string name="privacy_permission_call_title">Zaščiti klice</string>
     <string name="privacy_permission_camera_title">Omejite uporabo kamere v ozadju</string>
@@ -4519,6 +4606,8 @@ Ali želite preklicati soglasje?"</string>
     <string name="privacy_risk_uninstall_title">Odstrani aplikacije</string>
     <string name="privacy_risk_work_encryption">Družbena omrežja in delovne datoteke niso zaščitene</string>
     <string name="privacy_screen_share_notification_content">Oddajate v drugo napravo. Zaščita zasebnosti je vklopljena.</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">Zaščita vaše zasebnosti</string>
+    <string name="privacy_screen_share_notification_land_title">Zaslon v skupni rabi</string>
     <string name="privacy_screen_share_notification_protect_content">Občutljivi elementi ne bodo prikazani v zunanji napravi</string>
     <string name="privacy_screen_share_notification_protect_title">Vsebina zaslona je zaščitena</string>
     <string name="privacy_screen_share_notification_title">Oddajanje vsebine zaslona</string>
@@ -4565,6 +4654,10 @@ Ali želite preklicati soglasje?"</string>
     <string name="privacy_using_record">Snemanje zvoka</string>
     <string name="privacyapp_number_masked_text">Vsebina obvesti je skrita</string>
     <string name="privacyapp_number_unmasked_text">Vsebino obvestil lahko skrijete</string>
+    <string name="private_file">Skrite datoteke</string>
+    <string name="private_note">Skrite beležke</string>
+    <string name="private_photo">Zasebni album</string>
+    <string name="private_sms">Zasebna sporočila</string>
     <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medijski strežnik</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
@@ -4573,6 +4666,7 @@ Ali želite preklicati soglasje?"</string>
     <string name="prompt_input_time_illegal">Ni mogoče nastaviti ta čas, spremenite ga in poskusite ponovno</string>
     <string name="protocol_exception_title">Diagnostika protokola omrežja</string>
     <string name="protocol_loop_back_exception_summary">Test povratne povezave lokalne zanke ni uspel. Če želite prijaviti to težavo, pojdite v aplikacijo Povratne informacije in pošljite poročilo iz svoje naprave.</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">Nazaj</string>
     <string name="provision_next">Naprej</string>
     <string name="provision_skip_underline">Preskoči</string>
@@ -5683,6 +5777,7 @@ Preostali podatki vključujejo podatke, ki so prenešeni iz prejšnega meseca."<
     <string name="traffic_remind_switch">Opozorilo porabe podatkov</string>
     <string name="traffic_reminder_settings">Nastavite opozorilo porabe podatkov</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">Izberite ponudnika</string>
     <string name="traffic_setting_fragment_area">Lokalno</string>
     <string name="traffic_setting_fragment_brand">Znamka</string>
     <string name="traffic_setting_fragment_button1_text">Prekliči</string>

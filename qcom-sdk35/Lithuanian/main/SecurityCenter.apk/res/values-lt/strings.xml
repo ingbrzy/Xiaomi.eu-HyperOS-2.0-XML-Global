@@ -340,6 +340,7 @@
     <string name="app_management_for_install">Blokuoti programėlės atsisiuntimus</string>
     <string name="app_management_for_install_desc">Neleiskite programėlei atsisiųsti arba diegti kitų programėlių</string>
     <string name="app_management_measures">Programėlės valdymas</string>
+    <string name="app_manager_ad_text_btn_resume">Tęsti</string>
     <string name="app_manager_advanced_setting">Išplėstiniai parametrai</string>
     <string name="app_manager_airtel_dlg_msg">Jei turite klausimų, susisiekite su „Airtel“</string>
     <string name="app_manager_airtel_dlg_title">Užblokuota „Airtel“</string>
@@ -463,8 +464,8 @@ Jokie programos duomenys nebus prarasti."</string>
     <string name="app_manager_uninstall_notify_title">Išdiegti retai naudojamas programas</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Išdiegus sistemos programas, kai kurie sistemos komponentai gali veikti netinkamai. Vis tiek išdiegti?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Sisteminių programų išdiegimas</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Susijusios dvigubos programos bus pašalintos kartu su programos duomenimis.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Išdiegus dvigubą programą bus panaikinti visi programos duomenys.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Dviguba programėlė bus išdiegta kartu su šia programėle.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Atitinkamos dvigubos programėlės bus išdiegtos kartu su programėlių duomenimis.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Išdiegti dvigubą programą?</string>
     <string name="app_manager_unstall_application">Išdiegti</string>
     <string name="app_managere_not_have_app">Tuščia</string>
@@ -571,8 +572,8 @@ Jokie programos duomenys nebus prarasti."</string>
     <string name="applock_lock_mode_locked_or_exit">Kai prietaisas užrakintas arba užvėrus programą</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">Kai prietaisas užrakintas arba praėjus %d minutei po programos užvėrimo</string>
     <string name="applock_login_and_add_account">Prisijungti ir pridėti</string>
-    <string name="applock_mixtype_hidepwd_icon">Slėpti</string>
-    <string name="applock_mixtype_showpwd_icon">Rodyti</string>
+    <string name="applock_mixtype_hidepwd_icon">Slėpti slaptažodį</string>
+    <string name="applock_mixtype_showpwd_icon">Rodyti slaptažodį</string>
     <string name="applock_no_account_login">Nesate prisijungę prie „Xiaomi“ paskyros</string>
     <string name="applock_not_add_account"><u>Ne dabar</u></string>
     <string name="applock_not_add_account_normal">Nepridėkite paskyros</string>
@@ -584,6 +585,12 @@ Jokie programos duomenys nebus prarasti."</string>
     <string name="applock_operate_fingerprint_title">Naudoti piršto atspaudus</string>
     <string name="applock_operate_hidenoti_summary">Programų užraktas tai leidžia apsaugotoms programoms</string>
     <string name="applock_operate_hidenoti_title">Norite paslėpti privačius pranešimus?</string>
+    <string name="applock_password_set_luck_button">Parametrai</string>
+    <string name="applock_password_set_luck_comment">Norėdami naudoti privačias šio įrenginio funkcijas, turite nustatyti ekrano užraktą.</string>
+    <string name="applock_password_set_luck_message">"Kad saugiai pasiektumėte privačias įrenginio funkcijas, „Xiaomi HyperOS“ pagal numatytuosius nustatymus naudoja ekrano užraktą tapatybei patvirtinti.
+
+Jei dar nenustatėte ekrano užrakto, vadovaukitės instrukcijomis, kad jį nustatytumėte."</string>
+    <string name="applock_password_set_luck_title">Pirmiausia nustatykite ekrano užraktą</string>
     <string name="applock_recommend_tips">%s naudotojų apsaugo šias programas</string>
     <string name="applock_recommend_title">Pasirinkti programas</string>
     <string name="applock_set_complete">Naudoti programų užraktą</string>
@@ -868,6 +875,22 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="bind_xiaomi_account_success">„Xiaomi“ paskyra sėkmingai pridėta</string>
     <string name="bind_xiaomi_account_summary">Norėdami iš naujo nustatyti slaptažodį, naudokite „Xiaomi“ paskyrą</string>
     <string name="bind_xiaomi_account_title">Pridėti „Xiaomi“ paskyrą</string>
+    <string name="biometric_applock_password_lockout_title">Per daug nesėkmingų bandymų</string>
+    <string name="biometric_applock_pwd">Programėlės užrakto patvirtinimas</string>
+    <string name="biometric_applock_pwd_or_finger">Patvirtinkite piršto atspaudu arba programėlės užraktu</string>
+    <string name="biometric_face_error">Nepavyko patvirtinti</string>
+    <string name="biometric_face_finger_change">Biometriniai duomenys pasikeitė. Įveskite slaptažodį patvirtinimui.</string>
+    <string name="biometric_finger_verify">Piršto atspaudo patvirtinimas</string>
+    <string name="biometric_lockscreen_pwd">Ekrano užrakto patvirtinimas</string>
+    <string name="biometric_lockscreen_pwd_or_finger">Patvirtinkite piršto atspaudu arba ekrano užraktu</string>
+    <string name="biometric_private_password">Privatumo apsaugos slaptažodžio patvirtinimas</string>
+    <string name="biometric_private_password_lockout_title">Per daug nesėkmingų bandymų</string>
+    <string name="biometric_private_pwd_or_finger">Patvirtinkite piršto atspaudu arba privatumo apsaugos slaptažodžiu</string>
+    <string name="biometric_reset_password_tips">Slaptažodis sėkmingai nustatytas iš naujo. Įveskite naują slaptažodį, kad atrakintumėte.</string>
+    <string name="biometric_screen_lock_password_lockout_title">Per daug nesėkmingų bandymų</string>
+    <string name="biometric_subtitle">Atidarymui %1$s</string>
+    <string name="biometric_subtitle_default">Patvirtinkite savo tapatybę</string>
+    <string name="biometric_verify_retry">Bandyti dar kartą</string>
     <string name="birthday">Gimtadienis</string>
     <string name="bl_no_blacklist">Nėra užblokuotų numerių.</string>
     <string name="bl_no_block_call">Nėra užblokuotų skambučių.</string>
@@ -1003,6 +1026,8 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="car_sickness_relief_comment_text">Kai aptinkamas transporto priemonės judėjimas, abiejose ekrano pusėse rodomi taškai, nurodantys, ar transporto priemonė juda, o tai gali padėti atitolinti judesio sukelto pykinimo atsiradimą.</string>
     <string name="car_sickness_relief_example_text_1">Kai transporto priemonė pagreitėja arba sulėtėja</string>
     <string name="car_sickness_relief_example_text_2">Kai transporto priemonė pasuka arba persirikiuoja</string>
+    <string name="car_sickness_relief_exit_text">Kinetozės sukelto pykinimo palengvinimas nustojo veikti</string>
+    <string name="car_sickness_relief_start_text">Kinetozės sukelto pykinimo palengvinimas</string>
     <string name="car_sickness_remind_time_title">Judėjimo rodikliai</string>
     <string name="car_sickness_title">Judėjimo sukelto pykinimo palengvinimas</string>
     <string name="card_main_apkclean_title">Trinti APK failus</string>
@@ -1179,6 +1204,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="connected_devices_notification_title">Leisti toliau nurodytam įrenginiui rodyti šio įrenginio pranešimus?</string>
     <string name="connected_devices_permission">Sujungiamumas ir leidimai</string>
     <string name="connected_devices_permission_settings">Sujungiamumas ir leidimai</string>
+    <string name="connected_devices_permission_summary">Valdykite prieigą prie šio įrenginio</string>
     <string name="connected_devices_record">Įrašyti</string>
     <string name="connected_devices_record_desc">Leisti prie tos pačios paskyros prisijungusiems įrenginiams įrašyti garsą šiame įrenginyje</string>
     <string name="connected_devices_record_title">Leisti aukščiau nurodytam įrenginiui įrašyti garsą šiame įrenginyje?</string>
@@ -1345,6 +1371,8 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="deep_save_ontime_boot_shutdown_summary">Nustatyti prietaiso įjungimo ir išjungimo laiką</string>
     <string name="delete">Trinti</string>
     <string name="delete_all_sms">Trinti visus</string>
+    <string name="delete_connected_devices">Ištrinti pasirinktus įrenginius dabar?</string>
+    <string name="delete_connected_devices_title">Trinti %1$s dabar?</string>
     <string name="delete_from_manual_item_white_list">Pašalinti iš išimčių</string>
     <string name="delete_input">Trinti</string>
     <string name="deleted_apps">Ištrintos programos</string>
@@ -1821,6 +1849,8 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="game_anti_disturb_msg">„Netrukdyti“ žaidimų režimas</string>
     <string name="game_balance_more_setting_title">Papildomi parametrai</string>
     <string name="game_balance_vision_enhance_subtitle">Padidinamas kontrastas ir pagerinamos žaidimų detalės</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">Prieinama tik tuomet, kai žaidimų rezoliucija yra didžiausia</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">Prieinama tik tuomet, kai žaidimų atvaizdavimo tikslumas yra didžiausias</string>
     <string name="game_balance_vision_enhance_title">Patobulinti vaizdiniai elementai</string>
     <string name="game_booster">Turbo žaidimai</string>
     <string name="game_booster_close">„Turbo žaidimai“ išjungti</string>
@@ -1858,8 +1888,13 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="game_toolbox_ai_upgrade_dialog_btn">Atnaujinti</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">DI žaidimų paslaugų naujinys jau prieinamas. Prieš naudodami susijusias funkcijas, atnaujinkite.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Tikrinti ar yra atnaujinimų</string>
+    <string name="game_toolbox_auto_brightness_talkback">Automatinis ryškumas</string>
+    <string name="game_toolbox_btn_back_talkback">Grįžti</string>
+    <string name="game_toolbox_cellular_network">Mobiliojo tinklo greičio didinimas</string>
     <string name="game_toolbox_display_avrs">AVRS (automatinio atsakymo balsu sistemos)</string>
     <string name="game_toolbox_display_avrs_desc">Įjunkite, kad šiek tiek sumažintumėte vaizdo kokybę ir ypač sumažintumėte galios suvartojimą</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"Pastaba:
+kai įjungtas išmanusis kadrų dažnis, žaidimų ir trečiųjų šalių kadrų dažnio aptikimo įrankiai gali netiksliai aptikti kadrų dažnį. Faktinį kadrų dažnį rasite našumo prietaisų skydelyje."</string>
     <string name="game_toolbox_display_style_desc">Pareguliuoti vizualinį stilių (palaiko žaidimų HDR)</string>
     <string name="game_toolbox_display_style_game_hdr">Žaidimų HDR</string>
     <string name="game_toolbox_display_style_title">Vizualinis stilius</string>
@@ -1868,10 +1903,20 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="game_toolbox_fps_shake">Laiko pokyčių %d kadr./s</string>
     <string name="game_toolbox_immersion_sound_desc">Naudojant įkišamąsias ausines, tiksliai užfiksuojami tokie garso efektai, kaip žingsniai ir garsai, todėl labiau įsitraukiama į žaidimą</string>
     <string name="game_toolbox_immersion_sound_title">Įtraukiantis garsas</string>
+    <string name="game_toolbox_item_joystick_key_mapping">Valdiklio mygtukas</string>
+    <string name="game_toolbox_margin_restrain_description">Nustatykite lietimo atmetimo diapazoną, kad išvengtumėte atsitiktinių prilietimų</string>
     <string name="game_toolbox_mem_clean_desc">Išvalyti atmintį ir didinti greitį</string>
     <string name="game_toolbox_more_tools_title">Daugiau įrankių</string>
     <string name="game_toolbox_perf_config_desc">Konfigūruoti žaidimo našumo parametrus</string>
     <string name="game_toolbox_perf_config_title">Našumo parametrai</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">Galite tinkinti super skiriamąją gebą ir išmanųjį kadrų dažnį, kad valdytumėte kadrų dažnį ir vaizdo kokybę. &lt;font color=%s>Faktinis kadrų dažnis rodomas našumo skydelyje.&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">Kai įjungtas kadrų dažnio prioritetas, tikras kadrų dažnis rodomas našumo skydelyje</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">Kadrų dažnio prioritetas pagerina dažnį per išmanųjį kadrų dažnį. &lt;font color=%s>Aktualus kadrų dažnis rodomas našumo skydelyje.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">Kai įjungtas vaizdo prioritetas, tikras kadrų dažnis rodomas našumo skydelyje</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">Vaizdo prioritetas pagerina vaizdo kokybę per super skiriamąją gebą ir valdo kadrų dažnį per išmanųjį kadrų dažnį. &lt;font color=%s>Faktinis kadrų dažnis rodomas našumo skydelyje.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">Ekrano ryškumas</string>
+    <string name="game_toolbox_settings_talkback">Parametrai</string>
     <string name="game_toolbox_slow_charge_desc">Įjunkite šią funkciją, geresnei žaidimų patirčiai sumažinant įkrovimo greitį žaidimų metu. Tai gali apsaugoti jūsų įrenginį nuo perkaitimo. Įjungti dabar?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Supratau</string>
     <string name="game_toolbox_slow_charge_negative_btn">Atšaukti</string>
@@ -1880,6 +1925,12 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="game_toolbox_slow_charge_positive_btn">Įjungti</string>
     <string name="game_toolbox_slow_charge_title">Lėtas įkrovimas</string>
     <string name="game_toolbox_slow_charge_toast">Įjungtas lėtas įkrovimas</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Haptinis grįžtamasis ryšys neveikia, esant originaliam išdėstymui. Haptinis grįžtamasis ryšys išjungtas.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptinis grįžtamasis ryšys neveikia, esant originaliam išdėstymui</string>
+    <string name="game_toolbox_smotion_vibrate_desc">Pridėti haptinį grįžtamąjį ryšį pagal žaidimo judesius. Palaikomi tik kai kurie žaidimai.</string>
+    <string name="game_toolbox_smotion_vibrate_title">Haptinis grįžtamasis ryšys</string>
+    <string name="game_toolbox_super_follow_up_msg">Padidinkite atsaką lietimui ir sekite per visą programinės ir aparatinės įrangos eigą</string>
+    <string name="game_toolbox_super_shake_msg">Sumažinkite prisilietimų ir braukimų pokyčius, pagerindami valdymo stabilumą</string>
     <string name="game_toolbox_title">Žaidimų įrankiai</string>
     <string name="game_toolbox_title_game_center">Žaidimai</string>
     <string name="game_toolbox_title_wild">Stipriausias režimas</string>
@@ -1895,7 +1946,7 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="game_wid_viewpoint_buttom">Padarykite trumpą pertrauką.</string>
     <string name="gamebooster_confirm_dialog_negative_btn">Nesutinku</string>
     <string name="gamebooster_confirm_dialog_positive_btn">Sutinku</string>
-    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>„Xunyou Game Booster“ &lt;br>&lt;a href=\"%1$s\">privatumo politika&lt;/a></Data></string>
     <string name="gamebooster_confirm_dialog_title">Sutikite su mūsų privatumo politika</string>
     <string name="gamebooster_dialog_recover">Atnaujinti</string>
     <string name="gamebooster_dialog_start_booster">Pradžia</string>
@@ -2488,7 +2539,7 @@ Norėdami judinti langą, paspauskite ir palaikykite indikatorių."</string>
     <string name="gtb_dialog_hint_smart_5g">Šią funkciją bet kada galite išjungti arba įjungti skiltyje „Turbo žaidimai“ > „Parametrai“.</string>
     <string name="gtb_dialog_privacy_speed_message">Ketinate naudotis „Xunyou Game Booster“. Ši paslauga rinks jūsų „Xiaomi“ paskyros ID, kad užfiksuotų prenumeratos trukmę.</string>
     <string name="gtb_dialog_privacy_speed_tips"><Data>Perskaičiau ir sutinku su „Xunyou Game Booster“ &lt;a href=\"%1$s\">Privatumo politika.&lt;/a></Data></string>
-    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>Perskaičiau ir sutinku su „Xunyou Game Booster“ &lt;a href=\"%1$s\">privatumo politika&lt;/a>.</Data></string>
     <string name="gtb_dialog_privacy_speed_title">„Xunyou Game Booster“</string>
     <string name="gtb_dialog_privacy_voice_message">Ketinate naudotis „Xunyou“ žaidimų balso keitimo priemone. Ši paslauga rinks jūsų „Xiaomi“ paskyros ID, kad užfiksuotų prenumeratos trukmę.</string>
     <string name="gtb_dialog_privacy_voice_tips"><Data>Perskaičiau ir sutinku su „Xunyou“ balso keitimo žaidimo &lt;a href=\"%1$s\">Privatumo politika.&lt;/a></Data></string>
@@ -2745,6 +2796,7 @@ perjunkite į gulsčią režimą!"</string>
     <string name="main_alert_message_no_imsi">Neaptikta SIM kortelė</string>
     <string name="main_alert_message_open_traffic_ctrl">Rekomenduojame apriboti duomenų vartojimą</string>
     <string name="main_balance_check">Patikrinti likutį</string>
+    <string name="main_bill_out_talkback">Negatyvus balansas %1$.2f</string>
     <string name="main_bill_remained">Telefono balansas</string>
     <string name="main_button_mi_sim_close">Aktyvuoti Mi SIM</string>
     <string name="main_button_mi_sim_open">Išsamiau</string>
@@ -3343,6 +3395,8 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="open_extreme_power_save_mode_title">Įjungti ekstremalų energijos taupymą</string>
     <string name="open_game">Atidaryti</string>
     <string name="open_now">Leisti programai naudoti mobiliuosius duomenis</string>
+    <string name="open_physical_sim_self_detection_noti_centent">Jūsų tarptiklinis ryšys gali veikti netinkamai</string>
+    <string name="open_physical_sim_self_detection_noti_title">Išbandykite tarptinklinio ryšio tinklo diagnostiką</string>
     <string name="open_wlan_title">Leiskite šiai programai įjungti ir išjungti „Wi-Fi“</string>
     <string name="operator_location_settings">Nustatykite operatorių ir vietą</string>
     <string name="operator_location_settings_message">Nepavyko atpažinti jūsų operatoriaus ir vietos. Dabar nepavyko nustatyti telefono likučio ir duomenų naudojimo įspėjimų.</string>
@@ -3431,6 +3485,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="password_unlock">Atrakinti naudojant slaptažodį</string>
     <string name="password_xspace_forget_pattern_message">Norėdami pakeisti „Antrosios erdvės“ slaptažodį, turėtumėte ištrinti esamą „Antrąją erdvę“ ir sukurti naują.</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Įkraukite greičiau naudodami didelės galios atvirkštinį įkrovimą. USB jungtis naudojama tik įkrovimui.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">Kraukite greičiau su aukštos galios atvirkštiniu įkrovimu.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Atvirkštinis įkrovimas</string>
     <string name="pc_abnormal_scan_button_text">Uždaro programas</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Neleidžia sistemai persijungti į pristabdymo režimą</string>
@@ -3645,6 +3700,9 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Sulenkite įrenginį prieš kraunant, kad įkrovimas būtų greitesnis ir stabilesnis.</string>
     <string name="pc_remind_close_cover_to_charge_title">Sulenkite, norėdami įkrauti</string>
     <string name="pc_reminder_always_protect_summary">Perjunkite į ribotą krovimą, kad lėčiau sentų akumuliatorius</string>
+    <string name="pc_remove_shell_charging_notification_msg">Negalima naudoti belaidžio įkrovimo uždėjus žaidimų dėklą. Nuimkite jį ir bandykite dar kartą arba naudokite laidinį įkrovimą.</string>
+    <string name="pc_remove_shell_charging_notification_title">Nuimkite dėklą, kad galėtumėte naudoti belaidį įkrovimą</string>
+    <string name="pc_remove_shell_charging_toast">Nuimkite dėklą, kad galėtumėte naudoti atvirkštinį belaidį įkrovimą</string>
     <string name="pc_satellite_auto_enter_super_power">Įjungtas ultra energijos taupymas, siekiant užtikrinti palydovinį ryšį</string>
     <string name="pc_save_charge">Įkraunama</string>
     <string name="pc_save_other_setting">Kiti parametrai</string>
@@ -4058,6 +4116,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="power_dialog_performance_mode_checkbox">Perjungti į %d Hz naujinimo dažnį</string>
     <string name="power_dialog_super_save_msg">„Ultra energijos taupymas“ apriboja daugumą energiją naudojančių funkcijų ir sumažina jūsų įrenginio spartą, siekiant išlaikyti bazinį įrenginio funkcionalumą (pvz., skambučius, SMS ir interneto prieigą) pasiekiamą kuo ilgiau. Įjungti ultra energijos taupymą?</string>
     <string name="power_dialog_super_save_msg_5g">„Ultra“ energijos taupymas apriboja daugumą energiją eikvojančių funkcijų (pvz., 5G ryšį), sumažindamas jūsų įrenginio našumą. Šis pokytis nepaveiks tik skambučių, pranešimų ir tinklo ryšio. Įjungti „Ultra“ energijos taupymą?</string>
+    <string name="power_dialog_super_save_msg_p2">Ultra energijos taupymas išjungia galinį ekraną ir apriboja daugumą energiją eikvojančių funkcijų, sumažindamas įrenginio našumą, kad pagrindinės funkcijos (pvz., skambučiai, SMS žinutės ir prisijungimas prie tinklo) veiktų kuo ilgiau. Įjungti ultra energijos taupymą?</string>
     <string name="power_dialog_super_save_title">Ultra energijos taupymas</string>
     <string name="power_idle">Telefonas budėjimo režimu</string>
     <string name="power_main_battery_last_day_hour">Liko %1$s d. %2$s val.</string>
@@ -4267,6 +4326,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">Kai viršijate duomenų plano limitą</string>
     <string name="pref_package_traffic_settings">Duomenų planas</string>
+    <string name="pref_physical_sim_self_detection_cat_title">Tikrinti tinklą</string>
     <string name="pref_pkg_begin_date">Mėnesinio vartojimo atstatymo data</string>
     <string name="pref_roaming_daily_limit_setting">Nustatyti kasdienį tarptinklinių duomenų limitą</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Dienos duomenų limitas</string>
@@ -4278,6 +4338,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pref_title_diagnostics_show_float_notification">Išplaukiantys pranešimai</string>
     <string name="pref_title_manual_check_virus_db_update">Tikrinti ar yra atnaujinimų</string>
     <string name="pref_title_over_traffic_limit_warning">Kai viršyta</string>
+    <string name="pref_title_physical_sim_self_detection">Tarptinklinio ryšio tinklo diagnostika</string>
     <string name="pref_title_traffic_limit_number">Dydis</string>
     <string name="pref_title_traffic_package_type">Duomenų plano tipas«</string>
     <string name="pref_title_traffic_speed_state">Rodyti tinklo greitį</string>
@@ -4330,6 +4391,8 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">Ši funkcija jums suteikia galimybę paslėpti programų piktogramas, kad jos nebebūtų rodomos pagrindiniame ekrane.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">Įvedus slaptažodį, ekrane atsiras aplankas su slepiamomis programomis.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Išplėskite du pirštus ekrane. Ekrane pamatysite programų užrakto slaptažodžio užklausą.</string>
+    <string name="privacy_custom_password_long">Įveskite iki %d skaitmenų</string>
+    <string name="privacy_custom_password_too_short">Įveskite bent %d skaitmenis</string>
     <string name="privacy_danger_permission_status_summary">Valdyti programas, reiklaujančias slaptų leidimų</string>
     <string name="privacy_danger_permission_status_title">Slapti veiksmai</string>
     <string name="privacy_danger_permission_summary">Stebėkite, kaip programos naudoja jūsų leidimus</string>
@@ -4390,6 +4453,8 @@ Nesutikus su pirmiau nurodytomis paslaugomis, neturėsite galimybės naudotis ka
     <string name="privacy_global_guide_permission_guide_text">Jūs gausite būsenos juostos įspėjimą, kai programėlės įrašinės garsą ar naudosis kamera. Norėdami sužinoti, kuri programėlė tai daro, bakstelkite įspėjimą.</string>
     <string name="privacy_guide_permission_guide_text">Įspėjimai gali būti gaunami, kai programa pasiekia jūsų vietovę, įrašo garsą arba fotografuoja.</string>
     <string name="privacy_hide_other_permissions">Slėpti kitus leidimus</string>
+    <string name="privacy_hybrid_password_long">Įveskite iki %d simbolių</string>
+    <string name="privacy_hybrid_password_too_short">Įveskite bent %d simbolius</string>
     <string name="privacy_informed_title">Statistika</string>
     <string name="privacy_input_mode">Saugi įvestis</string>
     <string name="privacy_input_model_tips">Saugi įvestis įjungta. Jūsų klaviatūra negali rodyti atsiveriančių langų ar prieigos kontaktų, vietovės duomenų ir iškviesti istoriją.</string>
@@ -4410,6 +4475,28 @@ Nesutikus su pirmiau nurodytomis paslaugomis, neturėsite galimybės naudotis ka
     <string name="privacy_notification_title_mic">„%1s“ naudoja mikrofoną fone</string>
     <string name="privacy_other_permission_manage_summary">Valdyti kitus su privatumu susijusius leidimus</string>
     <string name="privacy_other_permission_manage_title">Kiti leidimai</string>
+    <string name="privacy_password_chanage_process">Pakeisti privatumo saugos slaptažodį</string>
+    <string name="privacy_password_custom_password">Pasirinktinis PIN</string>
+    <string name="privacy_password_digital_password">%d skaitmenų PIN</string>
+    <string name="privacy_password_enter_custom_password">Įveskite savo %1$d–%2$d skaitmenų PIN</string>
+    <string name="privacy_password_enter_custom_password_again">Dar kartą įveskite savo PIN</string>
+    <string name="privacy_password_enter_custom_password_not_match">PIN kodai nesutampa</string>
+    <string name="privacy_password_enter_digital_password">Įveskite savo %d skaitmenų PIN</string>
+    <string name="privacy_password_enter_digital_password_again">Dar kartą įveskite savo %d skaitmenų PIN</string>
+    <string name="privacy_password_enter_graphic_password">Nubraižykite atrakinimo raštą. Sujunkite bent %d taškus.</string>
+    <string name="privacy_password_enter_hybrid_password">Įveskite savo %1$d–%2$d simbolių slaptažodį</string>
+    <string name="privacy_password_enter_hybrid_password_again">Dar kartą įveskite slaptažodį</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">Slaptažodyje negali būti netinkamų simbolių</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">Slaptažodžiai nesutampa</string>
+    <string name="privacy_password_graphic_password">Raštas</string>
+    <string name="privacy_password_hybrid_password">Slaptažodis</string>
+    <string name="privacy_password_other_password">Kitas slaptažodis</string>
+    <string name="privacy_password_setup_confirm">Gerai</string>
+    <string name="privacy_password_setup_hint">Įveskite savo slaptažodį</string>
+    <string name="privacy_password_setup_next">Toliau</string>
+    <string name="privacy_password_setup_not_match">Bandykite dar kartą</string>
+    <string name="privacy_password_setup_process">Nustatyti privatumo saugos slaptažodį</string>
+    <string name="privacy_password_update_type">Pasirinkite slaptažodžio tipą</string>
     <string name="privacy_permission_call">Skambučių istorijos prieiga ir redagavimas</string>
     <string name="privacy_permission_call_title">Skambučių apsauga</string>
     <string name="privacy_permission_camera_title">Apriboti foninį fotoaparato naudojimą</string>
@@ -4522,6 +4609,8 @@ Atšaukti sutikimą dabar?"</string>
     <string name="privacy_risk_uninstall_title">Išdiegti programas</string>
     <string name="privacy_risk_work_encryption">socialinių tinklų medija ir ofisai nėra apsaugoti</string>
     <string name="privacy_screen_share_notification_content">Perduodate į kitą įrenginį. Privatumo apsauga įjungta.</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">Jūsų privatumo apsauga</string>
+    <string name="privacy_screen_share_notification_land_title">Bendrinamas ekranas</string>
     <string name="privacy_screen_share_notification_protect_content">Delikatūs elementai nebus rodomi išoriniame įrenginyje</string>
     <string name="privacy_screen_share_notification_protect_title">Ekrano turinys apsaugotas</string>
     <string name="privacy_screen_share_notification_title">Perduodamas ekrano turinys</string>
@@ -4568,6 +4657,10 @@ Atšaukti sutikimą dabar?"</string>
     <string name="privacy_using_record">Garso įrašymas</string>
     <string name="privacyapp_number_masked_text">Pranešimo turinys – paslėptas</string>
     <string name="privacyapp_number_unmasked_text">Pranešimo turinys negali būti paslėptas</string>
+    <string name="private_file">Privatūs failai</string>
+    <string name="private_note">Paslėpti užrašai</string>
+    <string name="private_photo">Privatus albumas</string>
+    <string name="private_sms">Asmeninės žinutės</string>
     <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medijų serveris</string>
     <string name="process_vpnsdkmanager_label">Turbo žaidimai</string>
@@ -4576,6 +4669,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="prompt_input_time_illegal">Negalima nustatyti šio laiko. Pakeiskite jį ir pabandykite dar kartą</string>
     <string name="protocol_exception_title">Tinklo protokolo diagnostika</string>
     <string name="protocol_loop_back_exception_summary">Nepavyko atlikti diagnostikos. Galite pasinaudoti programa „Ataskaita“, kad apie tai praneštumėte.</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">Grįžti</string>
     <string name="provision_next">Kitas</string>
     <string name="provision_skip_underline">Praleisti</string>
@@ -5686,6 +5780,7 @@ Rolled over extra data"</string>
     <string name="traffic_remind_switch">Duomenų naudojimo įspėjimas</string>
     <string name="traffic_reminder_settings">Nustatyti duomenų naudojimo įspėjimą</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">Pasirinkite operatorių</string>
     <string name="traffic_setting_fragment_area">Lokalė</string>
     <string name="traffic_setting_fragment_brand">Firma</string>
     <string name="traffic_setting_fragment_button1_text">Atšaukti</string>

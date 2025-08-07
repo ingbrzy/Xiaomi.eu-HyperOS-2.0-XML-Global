@@ -313,6 +313,7 @@
     <string name="app_management_for_install">לחסום הורדות על-ידי היישום</string>
     <string name="app_management_for_install_desc">למנוע מיישום זה להוריד או להתקין יישומים אחרים</string>
     <string name="app_management_measures">ניהול היישום</string>
+    <string name="app_manager_ad_text_btn_resume">חידוש</string>
     <string name="app_manager_advanced_setting">הגדרות מתקדמות</string>
     <string name="app_manager_airtel_dlg_msg">בכל שאלה נא לפנות ל-Airtel</string>
     <string name="app_manager_airtel_dlg_title">נחסם על-ידי Airtel</string>
@@ -435,8 +436,8 @@
     <string name="app_manager_uninstall_notify_title">הסר יישומים שלא נמצאים בשימוש לעתים קרובות</string>
     <string name="app_manager_uninstall_protected_dlg_msg">הסרת התקנה של יישומי מערכת עלולה למנוע ממרכיבים מסויימים של המערכת לעבוד כנדרש. להסיר בכל זאת?</string>
     <string name="app_manager_uninstall_protected_dlg_title">הסרת התקנה של יישומי מערכת</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">יישומים משוכפלים תואמים יוסרו יחד עם נתוני היישום שלהם.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">הסרת היישום המשוכפל תסיר את כל נתוני היישום.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">היישום המשוכפל יוסר יחד עם יישום זה.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">היישומים המשוכפלים התואמים יוסרו יחד עם נתוני היישומים.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">להסיר את התקנת היישום המשוכפל?</string>
     <string name="app_manager_unstall_application">הסר התקנה</string>
     <string name="app_managere_not_have_app">ריק</string>
@@ -543,8 +544,8 @@
     <string name="applock_lock_mode_locked_or_exit">כאשר המכשיר נעול או לאחר יציאה מיישום</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">"כאשר המכשיר נעול או %d דק' לאחר יציאה מיישום"</string>
     <string name="applock_login_and_add_account">כניסה והוספה</string>
-    <string name="applock_mixtype_hidepwd_icon">הסתר</string>
-    <string name="applock_mixtype_showpwd_icon">הצג</string>
+    <string name="applock_mixtype_hidepwd_icon">להסתיר את הסיסמה</string>
+    <string name="applock_mixtype_showpwd_icon">להציג את הסיסמה</string>
     <string name="applock_no_account_login">לא התחברת לחשבון Xiaomi שלך</string>
     <string name="applock_not_add_account"><u>לא כעת</u></string>
     <string name="applock_not_add_account_normal">לא להוסיף חשבון</string>
@@ -556,6 +557,12 @@
     <string name="applock_operate_fingerprint_title">השתמש בטביעת אצבע</string>
     <string name="applock_operate_hidenoti_summary">נועל היישומים יכול לעשות זאת עבור היישומים המוגנים</string>
     <string name="applock_operate_hidenoti_title">רוצה להסתיר התראות רגישות?</string>
+    <string name="applock_password_set_luck_button">הגדרות</string>
+    <string name="applock_password_set_luck_comment">עליכם להגדיר שיטת נעילת מסך כדי להשתמש במאפיינים פרטיים במכשיר זה.</string>
+    <string name="applock_password_set_luck_message">"כדי לתת גישה למאפיינים פרטיים במכשיר שלכם בצורה מאובטחת, Xiaomi HyperOS משתמשת בשיטת נעילת המסך שלכם לאימות הזהות כברירת המחדל.
+
+אם עדיין לא הגדרתם שיטת נעילת מסך, בצעו את ההוראות כדי לעשות זאת."</string>
+    <string name="applock_password_set_luck_title">הגדר שיטה לנעילת המסך תחילה</string>
     <string name="applock_recommend_tips">%s מהמשתמשים מגינים על היישומים האלה</string>
     <string name="applock_recommend_title">בחר יישומים</string>
     <string name="applock_set_complete">השתמש בנועל היישומים</string>
@@ -840,6 +847,22 @@
     <string name="bind_xiaomi_account_success">חשבון Xiaomi נוסף בהצלחה</string>
     <string name="bind_xiaomi_account_summary">יש להשתמש בחשבון Xiaomi לאיפוס הסיסמה שלך</string>
     <string name="bind_xiaomi_account_title">הוספת חשבון Xiaomi</string>
+    <string name="biometric_applock_password_lockout_title">יותר מדי ניסיונות כושלים</string>
+    <string name="biometric_applock_pwd">אימות נועל היישומים</string>
+    <string name="biometric_applock_pwd_or_finger">אימות באמצעות טביעת אצבע או נועל היישומים</string>
+    <string name="biometric_face_error">לא ניתן היה לאמת</string>
+    <string name="biometric_face_finger_change">חל שינוי בנתונים הביומטריים. יש להזין את הסיסמה לאימות.</string>
+    <string name="biometric_finger_verify">אימות על-ידי טביעת אצבע</string>
+    <string name="biometric_lockscreen_pwd">אימות נעילת המסך</string>
+    <string name="biometric_lockscreen_pwd_or_finger">אימות באמצעות טביעת אצבע או שיטת נעילת מסך</string>
+    <string name="biometric_private_password">אימות הסיסמה להגנת הפרטיות</string>
+    <string name="biometric_private_password_lockout_title">יותר מדי ניסיונות כושלים</string>
+    <string name="biometric_private_pwd_or_finger">אימות באמצעות טביעת אצבע או סיסמה להגנת הפרטיות</string>
+    <string name="biometric_reset_password_tips">הסיסמה אופסה בהצלחה. יש להזין את הסיסמה החדשה לביטול נעילה.</string>
+    <string name="biometric_screen_lock_password_lockout_title">יותר מדי ניסיונות כושלים</string>
+    <string name="biometric_subtitle">לפתיחת %1$s</string>
+    <string name="biometric_subtitle_default">אמת את זהותך</string>
+    <string name="biometric_verify_retry">יש לנסות שוב</string>
     <string name="birthday">יום הולדת</string>
     <string name="bl_no_blacklist">אין מספרים חסומים.</string>
     <string name="bl_no_block_call">אין שיחות חסומות.</string>
@@ -968,6 +991,8 @@
     <string name="car_sickness_relief_comment_text">כאשר זוהה שהרכב בתנועה, בשני צידי המסך מוצגות נקודות שמעידות על כך שהרכב נמצא בתנועה, וזה עשוי לסייע לעיכוב של תחילת מחלת הנסיעה.</string>
     <string name="car_sickness_relief_example_text_1">כשהרכב מאיץ או מאט</string>
     <string name="car_sickness_relief_example_text_2">כשהרכב מסתובב או עובר נתיב</string>
+    <string name="car_sickness_relief_exit_text">ההקלה על מחלת הנסיעה הפסיקה לעבוד</string>
+    <string name="car_sickness_relief_start_text">ההקלה על מחלת הנסיעה עובדת</string>
     <string name="car_sickness_remind_time_title">מחווני תנועה</string>
     <string name="car_sickness_title">הקלה על מחלת הנסיעה</string>
     <string name="card_main_apkclean_title">מחיקת קובצי APK</string>
@@ -1123,6 +1148,7 @@
     <string name="connected_devices_notification_title">האם לאפשר למכשיר לעיל להציג את ההתראות של מכשיר זה?</string>
     <string name="connected_devices_permission">קישוריות הדדית והרשאות</string>
     <string name="connected_devices_permission_settings">קישוריות הדדית והרשאות</string>
+    <string name="connected_devices_permission_summary">ניהול גישה למכשיר זה</string>
     <string name="connected_devices_record">הקלטה</string>
     <string name="connected_devices_record_desc">אפשר למכשירים בסביבה המחוברים לאותו חשבון להקליט שמע במכשיר זה</string>
     <string name="connected_devices_record_title">האם לאפשר למכשיר לעיל להקליט שמע במכשיר זה?</string>
@@ -1287,6 +1313,8 @@
     <string name="deep_save_ontime_boot_shutdown_summary">תזמן את ההפעלה והכיבוי של המכשיר</string>
     <string name="delete">מחק</string>
     <string name="delete_all_sms">מחק הכל</string>
+    <string name="delete_connected_devices">למחוק את המכשירים שנבחרו עכשיו?</string>
+    <string name="delete_connected_devices_title">למחוק את %1$s עכשיו?</string>
     <string name="delete_from_manual_item_white_list">הסר מרשימת החריגים</string>
     <string name="delete_input">מחיקה</string>
     <string name="deleted_apps">יישומים שנמחקו</string>
@@ -1704,6 +1732,8 @@
     <string name="game_anti_disturb_msg">"'נא לא להפריע' עבור משחקים"</string>
     <string name="game_balance_more_setting_title">הגדרות נוספות</string>
     <string name="game_balance_vision_enhance_subtitle">הגדל את הניגודיות ושפר את הפרטים עבור משחקים</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">זמין רק כאשר רזולוציית המשחק מוגדרת לערך הגבוה ביותר</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">זמין רק כאשר דיוק הרנדור של המשחק מוגדר לערך הגבוה ביותר</string>
     <string name="game_balance_vision_enhance_title">מרכיבים חזותיים משופרים</string>
     <string name="game_booster">מאיץ משחקים</string>
     <string name="game_booster_close">מאיץ המשחקים כבוי</string>
@@ -1741,8 +1771,13 @@
     <string name="game_toolbox_ai_upgrade_dialog_btn">לעדכן</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">זמין עדכון לשירותי AI לגיימינג. יש לעדכן כדי להשתמש במאפיינים הקשורים.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">בדיקת עדכונים</string>
+    <string name="game_toolbox_auto_brightness_talkback">בהירות אוטומטית</string>
+    <string name="game_toolbox_btn_back_talkback">חזרה</string>
+    <string name="game_toolbox_cellular_network">האצת מהירות הרשת הסלולרית</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">יש להפעיל לירידה קלה באיכות התמונה ולירידה משמעותית בצריכת החשמל</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"הערה:
+כאשר מופעל קצב פריימים חכם, ייתכן שכלי הזיהוי של קצב הפריימים במשחק וכלי זיהוי של קצב הפריימים של צד שלישי לא יזהו את קצב הפריימים בצורה מדויקת. לקצב הפריימים בפועל, עיינו בלוח הביצועים."</string>
     <string name="game_toolbox_display_style_desc">כוונון הסגנון החזותי (תומך ב-HDR למשחקים)</string>
     <string name="game_toolbox_display_style_game_hdr">HDR למשחקים</string>
     <string name="game_toolbox_display_style_title">סגנון חזותי</string>
@@ -1751,10 +1786,20 @@
     <string name="game_toolbox_fps_shake">ריצוד %d פריימים לשנייה</string>
     <string name="game_toolbox_immersion_sound_desc">תיעוד מדויק של אפקטים קוליים, כמו צעדים וקולות, בשימוש באוזניות. זה תורם לשיפור ההשתקעות במשחק</string>
     <string name="game_toolbox_immersion_sound_title">צליל מקיף</string>
+    <string name="game_toolbox_item_joystick_key_mapping">כפתור הבקר</string>
+    <string name="game_toolbox_margin_restrain_description">הגדרת טווח דחיית מגע כדי לצמצם תגובה למגע מקרי</string>
     <string name="game_toolbox_mem_clean_desc">ניקוי הזיכרון והאצת המהירות</string>
     <string name="game_toolbox_more_tools_title">כלים נוספים</string>
     <string name="game_toolbox_perf_config_desc">קביעת התצורה של הגדרות הביצועים במשחקים</string>
     <string name="game_toolbox_perf_config_title">הגדרות הביצועים</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">ניתן לבצע התאמה אישית של רזולוציית-העל ושל קצב הפריימים החכם כדי לשלוט בקצב הפריימים ובאיכות התמונה. &lt;font color=%s>קצב הפריימים בפועל מוצג בלוח הביצועים.&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">כאשר מופעלת עדיפות לקצב הפריימים, קצב הפריימים הוא כפי שמוצג בלוח הביצועים</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">עדיפות לקצב הפריימים משפרת את קצב הפריימים באמצעות קצב פריימים חכם. &lt;font color=%s>קצב הפריימים בפועל מוצג בלוח הביצועים.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">כאשר מופעלת עדיפות לתמונה, קצב הפריימים בפועל הוא כפי שמוצג בלוח הביצועים</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">עדיפות לתמונה משפרת את איכות התמונה באמצעות רזולוציית-על, ומנהלת את קצב הפריימים באמצעות קצב פריימים חכם. &lt;font color=%s>קצב הפריימים בפועל מוצג בלוח הביצועים.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">בהירות המסך</string>
+    <string name="game_toolbox_settings_talkback">הגדרות</string>
     <string name="game_toolbox_slow_charge_desc">יש להפעיל את המאפיין הזה כדי לשפר את חוויית הגיימינג בזמן טעינה על-ידי האטת מהירות הטעינה. זה יכול למנוע התחממות-יתר של המכשיר. להפעיל עכשיו?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">הבנתי</string>
     <string name="game_toolbox_slow_charge_negative_btn">ביטול</string>
@@ -1763,6 +1808,12 @@
     <string name="game_toolbox_slow_charge_positive_btn">להפעיל</string>
     <string name="game_toolbox_slow_charge_title">טעינה איטית</string>
     <string name="game_toolbox_slow_charge_toast">טעינה איטית מופעלת</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">משוב מישוש לא עובד עם פריסות מקוריות. משוב המישוש מובשת.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">משוב מישוש לא עובד עם פריסות מקוריות</string>
+    <string name="game_toolbox_smotion_vibrate_desc">הוספת משוב מישוש בהתאם לתנועות במשחק. רק חלק מהמשחקים נתמכים.</string>
+    <string name="game_toolbox_smotion_vibrate_title">משוב מישוש</string>
+    <string name="game_toolbox_super_follow_up_msg">הגברת התגובה למגע וניטור באמצעות צנרת חומרה-תוכנה מלאה</string>
+    <string name="game_toolbox_super_shake_msg">הפחתת ריצוד כתוצאה מהקשה והחלקה, שיפור יציבות הבקרה</string>
     <string name="game_toolbox_title">כלי גיימינג</string>
     <string name="game_toolbox_title_game_center">משחקים</string>
     <string name="game_toolbox_title_wild">המצב האולטימטיבי</string>
@@ -1778,7 +1829,7 @@
     <string name="game_wid_viewpoint_buttom">קח הפסקה קצרה.</string>
     <string name="gamebooster_confirm_dialog_negative_btn">לא מסכימ/ה</string>
     <string name="gamebooster_confirm_dialog_positive_btn">מסכימ/ה</string>
-    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>מאיץ המשחקים של Xunyou &lt;br>&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a></Data></string>
     <string name="gamebooster_confirm_dialog_title">יש להסכים למדיניות הפרטיות שלנו</string>
     <string name="gamebooster_dialog_recover">חידוש</string>
     <string name="gamebooster_dialog_start_booster">התחלה</string>
@@ -2371,7 +2422,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gtb_dialog_hint_smart_5g">תוכל להפעיל ולהשבית את המאפיין הזה תחת מאיץ המשחקים > הגדרות.</string>
     <string name="gtb_dialog_privacy_speed_message">את/ה עומד/ת להשתמש במאיץ המשחקים של Xunyou. שירות זה יאסוף את מזהה חשבון Xiaomi שלך כדי לתעד את משך החברות שלך.</string>
     <string name="gtb_dialog_privacy_speed_tips"><Data>קראתי ואני מסכים ל&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> של מאיץ המשחקים של Xunyou.</Data></string>
-    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>קראתי את &lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> של מאיץ המשחקים של Xunyou והסכמתי עמה.</Data></string>
     <string name="gtb_dialog_privacy_speed_title">מאיץ המשחקים של Xunyou</string>
     <string name="gtb_dialog_privacy_voice_message">את/ה עומד/ת להשתמש במשנה קול במשחק של Xunyou. שירות זה יאסוף את מזהה חשבון Xiaomi שלך כדי לתעד את משך החברות שלך.</string>
     <string name="gtb_dialog_privacy_voice_tips"><Data>"קראתי ואני מסכים ל&lt;a href=\"%1$s\">מדיניות הפרטיות&lt;/a> של 'שינוי קול במשחק' של Xunyou."</Data></string>
@@ -2626,6 +2677,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="main_alert_message_no_imsi">לא זוהה כרטיס SIM</string>
     <string name="main_alert_message_open_traffic_ctrl">אנו ממליצים על הגבלת שימוש בנתונים</string>
     <string name="main_balance_check">בירור יתרה</string>
+    <string name="main_bill_out_talkback">יתרה שלילית %1$.2f</string>
     <string name="main_bill_remained">יתרת הטלפון</string>
     <string name="main_button_mi_sim_close">הפעלת Mi SIM</string>
     <string name="main_button_mi_sim_open">הצג פרטים</string>
@@ -3179,6 +3231,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="open_extreme_power_save_mode_title">הפעל מצב של חיסכון קיצוני בסוללה</string>
     <string name="open_game">פתיחה</string>
     <string name="open_now">אפשר ליישום להשתמש בנתונים סלולריים</string>
+    <string name="open_physical_sim_self_detection_noti_centent">ייתכן שהחיבור שלך בנדידה לא עובד כנדרש</string>
+    <string name="open_physical_sim_self_detection_noti_title">מומלץ לנסות את אבחון הרשת בנדידה</string>
     <string name="open_wlan_title">אפשר ליישום זה להפעיל ולכבות את ה-Wi-Fi</string>
     <string name="operator_location_settings">הגדר ספק ומיקום</string>
     <string name="operator_location_settings_message">לא ניתן לזהות את הספק והמיקום שלך. לא ניתן להגדיר כעת אזהרות יתרת טלפון ושימוש בנתונים.</string>
@@ -3266,6 +3320,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="password_unlock">ביטול נעילה עם סיסמה</string>
     <string name="password_xspace_forget_pattern_message">"על מנת שתוכל לשנות את סיסמת 'שטח שני', עליך למחוק את 'שטח שני' הנוכחי שלך וליצור אחד חדש."</string>
     <string name="pc_18W_high_power_reverse_charging_summary">טעינה מהירה יותר עם טעינה הפוכה בעוצמה גבוהה. חיבור ה-USB משמש לטעינה בלבד.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">טעינה מהירה יותר עם טעינה הפוכה בעוצמה גבוהה.</string>
     <string name="pc_18W_high_power_reverse_charging_title">טעינה הפוכה</string>
     <string name="pc_abnormal_scan_button_text">סגירת יישומים</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">מונע מהמערכת להיכנס למצב שינה</string>
@@ -3480,6 +3535,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">יש לקפל את המכשיר לפני הטעינה לחוויית טעינה מהירה ויציבה יותר.</string>
     <string name="pc_remind_close_cover_to_charge_title">יש לקפל כדי לטעון</string>
     <string name="pc_reminder_always_protect_summary">מעבר לטעינה מוגבלת כדי לצמצם את בלאי הסוללה</string>
+    <string name="pc_remove_shell_charging_notification_msg">לא ניתן להתשמש בטעינה אלחוטית כשמשתמשים במארז גיימינג. יש להסיר אותו לנסות מחדש, או להשתמש בטעינה עם כבל.</string>
+    <string name="pc_remove_shell_charging_notification_title">יש להסיר את המארז כדי להשתמש בטעינה אלחוטית</string>
+    <string name="pc_remove_shell_charging_toast">הסירו את המארז לשימוש בטעינת רשת אלחוטית אחורית</string>
     <string name="pc_satellite_auto_enter_super_power">הופעל חיסכון קיצוני בסוללה כדי להבטיח תקשורת לוויינית</string>
     <string name="pc_save_charge">טוען</string>
     <string name="pc_save_other_setting">הגדרות נוספות</string>
@@ -3893,6 +3951,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">מעבר לקצב רענון של %d הרץ</string>
     <string name="power_dialog_super_save_msg">חיסכון קיצוני בסוללה יגביל את רוב תכונות צריכת החשמל ותקטין את ביצועי המכשיר בכדי לאפשר שמירה על פונקציונליות בסיסית (למשל שיחות, SMS, וחיבור לרשת) לזמן ארוך ככל שניתן. האם להפעיל חיסכון קיצוני בסוללה?</string>
     <string name="power_dialog_super_save_msg_5g">מצב חיסכון סוללה קיצוני מגביל את רוב המאפיינים עם צריכת סוללה גבוהה (למשל, קישוריות 5G), מה שפוגע בביצועי המכשיר. רק שיחות, הודעות וקישוריות לרשת לא ייפגעו. להפעיל מצב של חיסכון סוללה קיצוני?</string>
+    <string name="power_dialog_super_save_msg_p2">מצב חיסכון קיצוני בסוללה מכבה את התצוגה האחורית ומגביל את רוב המאפיינים עם צריכת חשמל גבוהה, מה שמפחית את ביצועי המכשיר כדי לאפשר שימוש בפונקציות בסיסיות (למשל, שיחות, מסרונים וחיבור לרשת) למשך זמן ארוך ככל שניתן. האם להפעיל את מצב חיסכון קיצוני בסוללה?</string>
     <string name="power_dialog_super_save_title">חיסכון קיצוני בסוללה</string>
     <string name="power_idle">מצב המתנה</string>
     <string name="power_main_battery_last_day_hour">"%1$s ימים %2$s ש' נותרו"</string>
@@ -4102,6 +4161,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">כאשר הינך חורג מתכנית הנתונים שלך</string>
     <string name="pref_package_traffic_settings">תכנית נתונים</string>
+    <string name="pref_physical_sim_self_detection_cat_title">בדיקת הרשת</string>
     <string name="pref_pkg_begin_date">תאריך איפוס שימוש</string>
     <string name="pref_roaming_daily_limit_setting">הגדר מגבלת נתונים יומית בעת נדידה</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">מגבלת נתונים יומית</string>
@@ -4113,6 +4173,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pref_title_diagnostics_show_float_notification">התראות צפות</string>
     <string name="pref_title_manual_check_virus_db_update">בדוק זמינות עדכונים</string>
     <string name="pref_title_over_traffic_limit_warning">בעת חריגה</string>
+    <string name="pref_title_physical_sim_self_detection">אבחון הרשת בנדידה</string>
     <string name="pref_title_traffic_limit_number">גודל</string>
     <string name="pref_title_traffic_package_type">סוג תכנית נתונים</string>
     <string name="pref_title_traffic_speed_state">הצג את מהירות החיבור של הרשת</string>
@@ -4164,6 +4225,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">תכונה זו מאפשרת לך להסתיר אייקונים שאינם מופיעים יותר במסך הבית.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">לאחר הזנת הסיסמה תופיע התיקייה עם האפליקציות הנסתרות.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">פסק שתי אצבעות על גבי המסך. תראה הודעה המבקשת להזין את סיסמתך לנעילת האפליקציות.</string>
+    <string name="privacy_custom_password_long">יש להזין לכל היותר %d ספרות</string>
+    <string name="privacy_custom_password_too_short">יש להזין לפחות %d ספרות</string>
     <string name="privacy_danger_permission_status_summary">נהל את האפליקציות שמבקשות הרשאות רגישות</string>
     <string name="privacy_danger_permission_status_title">פעולות רגישות</string>
     <string name="privacy_danger_permission_summary">נטר את ניצול ההרשאות על-ידי אפליקציות</string>
@@ -4223,6 +4286,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_global_guide_permission_guide_text">תישלח התראה לשורת המצב כאשר יישומים מקליטים שמע או משתמשים במצלמה. הקישו על ההתראה כדי לגלות איזה יישום עושה זאת.</string>
     <string name="privacy_guide_permission_guide_text">ניתן לקבל התראה בשורת המצב כאשר יישום מקבל גישה למיקום שלך, מקליט שמע או מצלם תמונות.</string>
     <string name="privacy_hide_other_permissions">להסתיר הרשאות אחרות</string>
+    <string name="privacy_hybrid_password_long">יש להזין לכל היותר %d תווים</string>
+    <string name="privacy_hybrid_password_too_short">יש להזין לפחות %d תווים</string>
     <string name="privacy_informed_title">סטטיסטיקה</string>
     <string name="privacy_input_mode">קלט בטוח</string>
     <string name="privacy_input_model_tips">קלט בטוח מופעל. המקלדת שלך לא יכולה להציג חלונות קופצים או לגשת לאנשי קשר, פרטי מיקום, והיסטוריית שיחות.</string>
@@ -4243,6 +4308,28 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_notification_title_mic">%1s משתמשת במיקרופון ברקע</string>
     <string name="privacy_other_permission_manage_summary">ניהול הרשאות אחרות הקשורות לפרטיות</string>
     <string name="privacy_other_permission_manage_title">הרשאות אחרות</string>
+    <string name="privacy_password_chanage_process">שינוי הסיסמה להגנת הפרטיות</string>
+    <string name="privacy_password_custom_password">קוד PIN מותאם אישית</string>
+    <string name="privacy_password_digital_password">קוד PIN בן %d ספרות</string>
+    <string name="privacy_password_enter_custom_password">הזינו את קוד ה-PIN בן %1$d–%2$d הספרות</string>
+    <string name="privacy_password_enter_custom_password_again">הזינו שוב את קוד ה-PIN</string>
+    <string name="privacy_password_enter_custom_password_not_match">קודי ה-PIN אינם תואמים</string>
+    <string name="privacy_password_enter_digital_password">הזינו את קוד ה-PIN בן %d הספרות</string>
+    <string name="privacy_password_enter_digital_password_again">הזינו שוב את קוד ה-PIN בן %d הספרות</string>
+    <string name="privacy_password_enter_graphic_password">סמנו תבנית ביטול נעילה. יש לחבר לפחות %d נקודות.</string>
+    <string name="privacy_password_enter_hybrid_password">הזינו את הסיסמה בת %1$d–%2$d התווים</string>
+    <string name="privacy_password_enter_hybrid_password_again">הזינו שוב את הסיסמה</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">הסיסמה לא יכולה להכיל תווים לא חוקיים</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">הסיסמאות אינן תואמות</string>
+    <string name="privacy_password_graphic_password">תבנית</string>
+    <string name="privacy_password_hybrid_password">סיסמה</string>
+    <string name="privacy_password_other_password">סיסמה אחרת</string>
+    <string name="privacy_password_setup_confirm">אישור</string>
+    <string name="privacy_password_setup_hint">הזינו את הסיסמה</string>
+    <string name="privacy_password_setup_next">הבא</string>
+    <string name="privacy_password_setup_not_match">יש לנסות שוב</string>
+    <string name="privacy_password_setup_process">הגדרת סיסמה להגנת הפרטיות</string>
+    <string name="privacy_password_update_type">יש לבחור סוג סיסמה</string>
     <string name="privacy_permission_call">גישה ליומן השיחות או עריכתו</string>
     <string name="privacy_permission_call_title">הגן על שיחות</string>
     <string name="privacy_permission_camera_title">הגבל את השימוש במצלמה ברקע</string>
@@ -4355,6 +4442,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_risk_uninstall_title">הסרת התקנה של יישומים</string>
     <string name="privacy_risk_work_encryption">קבצים משרדיים ושל מדיה חברתית אינם מוגנים</string>
     <string name="privacy_screen_share_notification_content">מתבצע שידור למכשיר אחר. הגנת הפרטיות מופעלת.</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">מגן על הפרטיות שלכם</string>
+    <string name="privacy_screen_share_notification_land_title">מתבצע שיתוף המסך</string>
     <string name="privacy_screen_share_notification_protect_content">תוכן רגיש לא יוצג במכשיר החיצוני</string>
     <string name="privacy_screen_share_notification_protect_title">תוכן המסך מוגן</string>
     <string name="privacy_screen_share_notification_title">שידור תוכן המסך</string>
@@ -4401,6 +4490,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_using_record">הקלטת שמע</string>
     <string name="privacyapp_number_masked_text">תוכן ההתראות מוסתר</string>
     <string name="privacyapp_number_unmasked_text">ניתן להסתיר את תוכן ההתראות</string>
+    <string name="private_file">קבצים פרטיים</string>
+    <string name="private_note">פתקים מוסתרים</string>
+    <string name="private_photo">אלבום פרטי</string>
+    <string name="private_sms">הודעות פרטיות</string>
     <string name="process_kernel_label">אנדרואיד</string>
     <string name="process_mediaserver_label">שרת מדיה</string>
     <string name="process_vpnsdkmanager_label">מאיץ המשחקים</string>
@@ -4409,6 +4502,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="prompt_input_time_illegal">לא ניתן להגדיר זמן זה, שנה ונסה שוב</string>
     <string name="protocol_exception_title">אבחון פרוטוקול רשת</string>
     <string name="protocol_loop_back_exception_summary">"בדיקת לולאה חוזרת מקומית נכשלה. לדיווח על בעיה זו יש לעבור אל היישום 'משוב' ולשלוח יומן שגיאות מהמכשיר שלך."</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">הקודם</string>
     <string name="provision_next">הבא</string>
     <string name="provision_skip_underline">דלג</string>
@@ -5516,6 +5610,7 @@ Rolled over extra data"</string>
     <string name="traffic_remind_switch">אזהרת שימוש בנתונים</string>
     <string name="traffic_reminder_settings">הגדר אזהרת שימוש בנתונים</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">יש לבחור מפעיל</string>
     <string name="traffic_setting_fragment_area">מיקום</string>
     <string name="traffic_setting_fragment_brand">מותג</string>
     <string name="traffic_setting_fragment_button1_text">ביטול</string>

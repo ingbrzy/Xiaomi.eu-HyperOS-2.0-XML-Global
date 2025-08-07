@@ -340,6 +340,7 @@
     <string name="app_management_for_install">Block app downloads</string>
     <string name="app_management_for_install_desc">Prevent this app from downloading or installing other apps</string>
     <string name="app_management_measures">App management</string>
+    <string name="app_manager_ad_text_btn_resume">Resume</string>
     <string name="app_manager_advanced_setting">Advanced settings</string>
     <string name="app_manager_airtel_dlg_msg">If you have questions, contact Airtel</string>
     <string name="app_manager_airtel_dlg_title">Blocked by Airtel</string>
@@ -462,8 +463,8 @@ You will not lose any app data."</string>
     <string name="app_manager_uninstall_notify_title">Uninstall rarely used apps</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Uninstalling system apps may prevent some system components from working properly. Uninstall anyway?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Uninstalling system apps</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Corresponding dual apps will be removed together with app data.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Uninstalling dual app will remove all app data.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Dual app will be uninstalled together with this one.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Corresponding dual apps will be uninstalled together with app data.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Uninstall dual app?</string>
     <string name="app_manager_unstall_application">Uninstall</string>
     <string name="app_managere_not_have_app">Empty</string>
@@ -570,8 +571,8 @@ You will not lose any app data."</string>
     <string name="applock_lock_mode_locked_or_exit">When device is locked or after exiting app</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">When device is locked​ or in %d minute after exiting app</string>
     <string name="applock_login_and_add_account">Sign in &amp; add</string>
-    <string name="applock_mixtype_hidepwd_icon">Hide</string>
-    <string name="applock_mixtype_showpwd_icon">Show</string>
+    <string name="applock_mixtype_hidepwd_icon">Hide password</string>
+    <string name="applock_mixtype_showpwd_icon">Show password</string>
     <string name="applock_no_account_login">"You aren't signed in to your Xiaomi Account"</string>
     <string name="applock_not_add_account"><u>Not now</u></string>
     <string name="applock_not_add_account_normal">"Don't add account"</string>
@@ -583,6 +584,12 @@ You will not lose any app data."</string>
     <string name="applock_operate_fingerprint_title">Use your fingerprint</string>
     <string name="applock_operate_hidenoti_summary">App lock can do this for the protected apps</string>
     <string name="applock_operate_hidenoti_title">Want to hide sensitive notifications?</string>
+    <string name="applock_password_set_luck_button">Settings</string>
+    <string name="applock_password_set_luck_comment">You must set a screen lock to use private features on this device.</string>
+    <string name="applock_password_set_luck_message">"To securely access private features on your device, Xiaomi HyperOS uses your screen lock by default for identity verification.
+
+If you haven't set a screen lock yet, follow the instructions to set one."</string>
+    <string name="applock_password_set_luck_title">Set screen lock first</string>
     <string name="applock_recommend_tips">%s of the users protect these apps</string>
     <string name="applock_recommend_title">Select apps</string>
     <string name="applock_set_complete">Use App lock</string>
@@ -867,6 +874,22 @@ However, some of your transactions aren't completed yet. To be able to withdraw 
     <string name="bind_xiaomi_account_success">Xiaomi Account added successfully</string>
     <string name="bind_xiaomi_account_summary">Use Xiaomi Account to reset your password</string>
     <string name="bind_xiaomi_account_title">Add Xiaomi Account</string>
+    <string name="biometric_applock_password_lockout_title">Too many unsuccessful attempts</string>
+    <string name="biometric_applock_pwd">App lock verification</string>
+    <string name="biometric_applock_pwd_or_finger">Verify with fingerprint or App lock</string>
+    <string name="biometric_face_error">"Couldn't verify"</string>
+    <string name="biometric_face_finger_change">Biometric data has changed. Enter your password to verify.</string>
+    <string name="biometric_finger_verify">Fingerprint verification</string>
+    <string name="biometric_lockscreen_pwd">Screen lock verification</string>
+    <string name="biometric_lockscreen_pwd_or_finger">Verify with fingerprint or screen lock</string>
+    <string name="biometric_private_password">Privacy protection password verification</string>
+    <string name="biometric_private_password_lockout_title">Too many unsuccessful attempts</string>
+    <string name="biometric_private_pwd_or_finger">Verify with fingerprint or Privacy protection password</string>
+    <string name="biometric_reset_password_tips">Reset password successfully. Enter new password to unlock.</string>
+    <string name="biometric_screen_lock_password_lockout_title">Too many unsuccessful attempts</string>
+    <string name="biometric_subtitle">For openning %1$s</string>
+    <string name="biometric_subtitle_default">Verify your identity</string>
+    <string name="biometric_verify_retry">Try again</string>
     <string name="birthday">Birthday</string>
     <string name="bl_no_blacklist">No blocked numbers.</string>
     <string name="bl_no_block_call">No blocked calls.</string>
@@ -1002,6 +1025,8 @@ However, some of your transactions aren't completed yet. To be able to withdraw 
     <string name="car_sickness_relief_comment_text">When vehicle motion is detected, dots are displayed on both sides of the screen to indicate whether the vehicle is moving, which may help delay the onset of motion sickness.</string>
     <string name="car_sickness_relief_example_text_1">When vehicle speeds up or slows down</string>
     <string name="car_sickness_relief_example_text_2">When vehicle turns or changes lanes</string>
+    <string name="car_sickness_relief_exit_text">Motion sickness relief has stopped working</string>
+    <string name="car_sickness_relief_start_text">Motion sickness relief is working</string>
     <string name="car_sickness_remind_time_title">Motion indicators</string>
     <string name="car_sickness_title">Motion sickness relief</string>
     <string name="card_main_apkclean_title">Delete APKs</string>
@@ -1178,6 +1203,7 @@ However, some of your transactions aren't completed yet. To be able to withdraw 
     <string name="connected_devices_notification_title">"Allow the device above to display this device's notifications?"</string>
     <string name="connected_devices_permission">Interconnectivity and permissions</string>
     <string name="connected_devices_permission_settings">Interconnectivity and permissions</string>
+    <string name="connected_devices_permission_summary">Manage access to this device</string>
     <string name="connected_devices_record">Record</string>
     <string name="connected_devices_record_desc">Allow nearby devices signed in to the same account to record audio on this device</string>
     <string name="connected_devices_record_title">Allow the device above to record audio on this device?</string>
@@ -1344,6 +1370,8 @@ However, some of your transactions aren't completed yet. To be able to withdraw 
     <string name="deep_save_ontime_boot_shutdown_summary">Schedule time to turn device on and off</string>
     <string name="delete">Delete</string>
     <string name="delete_all_sms">Delete all</string>
+    <string name="delete_connected_devices">Delete the selected devices now?</string>
+    <string name="delete_connected_devices_title">Delete %1$s now?</string>
     <string name="delete_from_manual_item_white_list">Remove from exceptions</string>
     <string name="delete_input">Delete</string>
     <string name="deleted_apps">Deleted apps</string>
@@ -1819,6 +1847,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="game_anti_disturb_msg">Game DND</string>
     <string name="game_balance_more_setting_title">Additional settings</string>
     <string name="game_balance_vision_enhance_subtitle">Increase contrast and enhance details for games</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">"Only available when the game's resolution is set to the highest value"</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">"Only available when the game's rendering precision is set to the highest value"</string>
     <string name="game_balance_vision_enhance_title">Enhanced visuals</string>
     <string name="game_booster">Game Turbo</string>
     <string name="game_booster_close">Game Turbo is off</string>
@@ -1856,8 +1886,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="game_toolbox_ai_upgrade_dialog_btn">Update</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">An update for AI gaming services is available. Update before using related features.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Check for updates</string>
+    <string name="game_toolbox_auto_brightness_talkback">Auto brightness</string>
+    <string name="game_toolbox_btn_back_talkback">Back</string>
+    <string name="game_toolbox_cellular_network">Mobile network speed boost</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Turn on to slightly reduce picture quality and significantly lower power consumption</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"Note:
+When Smart frame rate is on, in-game and third-party frame rate detection tools may not accurately detect frame rate. Refer to the performance dashboard for the actual frame rate."</string>
     <string name="game_toolbox_display_style_desc">Adjust visual style (supports game HDR)</string>
     <string name="game_toolbox_display_style_game_hdr">Game HDR</string>
     <string name="game_toolbox_display_style_title">Visual style</string>
@@ -1866,10 +1901,20 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="game_toolbox_fps_shake">Jitter %d FPS</string>
     <string name="game_toolbox_immersion_sound_desc">When using earphones, accurately capture sound effects like footsteps and voices, enhancing game immersion</string>
     <string name="game_toolbox_immersion_sound_title">Immersive sound</string>
+    <string name="game_toolbox_item_joystick_key_mapping">Controller button</string>
+    <string name="game_toolbox_margin_restrain_description">Set touch rejection range to reduce accidental touches</string>
     <string name="game_toolbox_mem_clean_desc">Clear memory and boost speed</string>
     <string name="game_toolbox_more_tools_title">More tools</string>
     <string name="game_toolbox_perf_config_desc">Configure game performance settings</string>
     <string name="game_toolbox_perf_config_title">Performance settings</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">You can customise Super resolution and Smart frame rate to manage frame rate and picture quality. &lt;font color=%s>Actual frame rate is displayed on the performance dashboard.&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">When Frame rate priority is on, actual frame rate is as displayed on the performance dashboard</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">Frame rate priority improves frame rate via Smart frame rate. &lt;font color=%s>Actual frame rate is displayed on the performance dashboard.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">When Picture priority is on, actual frame rate is as displayed on the performance dashboard</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">Picture priority improves picture quality via Super resolution and manages frame rate via Smart frame rate. &lt;font color=%s>Actual frame rate is displayed on the performance dashboard.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">Screen brightness</string>
+    <string name="game_toolbox_settings_talkback">Settings</string>
     <string name="game_toolbox_slow_charge_desc">Turn on this feature to enhance gaming experience while charging by slowing down charging speed. This can prevent your device from overheating. Turn on now?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Got it</string>
     <string name="game_toolbox_slow_charge_negative_btn">Cancel</string>
@@ -1878,6 +1923,12 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="game_toolbox_slow_charge_positive_btn">Turn on</string>
     <string name="game_toolbox_slow_charge_title">Slow charging</string>
     <string name="game_toolbox_slow_charge_toast">Slow charging is on</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">"Hapitic feedback doesn't work with original layouts. Hapitic feedback is off."</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">"Hapitic feedback doesn't work with original layouts"</string>
+    <string name="game_toolbox_smotion_vibrate_desc">Add haptic feedback in accordance with game moves. Only some games are supported.</string>
+    <string name="game_toolbox_smotion_vibrate_title">Haptic feedback</string>
+    <string name="game_toolbox_super_follow_up_msg">Enhance touch response and tracking through the full hardware-software pipeline</string>
+    <string name="game_toolbox_super_shake_msg">Reduce tap and swipe jitter, improving control stability</string>
     <string name="game_toolbox_title">Gaming tools</string>
     <string name="game_toolbox_title_game_center">Games</string>
     <string name="game_toolbox_title_wild">Ultimate mode</string>
@@ -2743,6 +2794,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
     <string name="main_alert_message_no_imsi">No SIM card detected</string>
     <string name="main_alert_message_open_traffic_ctrl">We recommend restricting data usage</string>
     <string name="main_balance_check">Check balance</string>
+    <string name="main_bill_out_talkback">Negative balance %1$.2f</string>
     <string name="main_bill_remained">Phone balance</string>
     <string name="main_button_mi_sim_close">Activate Mi SIM</string>
     <string name="main_button_mi_sim_open">View details</string>
@@ -3341,6 +3393,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="open_extreme_power_save_mode_title">Turn on Extreme battery saver</string>
     <string name="open_game">Open</string>
     <string name="open_now">Allow app to use mobile data</string>
+    <string name="open_physical_sim_self_detection_noti_centent">Your roaming connection might not be working properly</string>
+    <string name="open_physical_sim_self_detection_noti_title">Try roaming network diagnostics</string>
     <string name="open_wlan_title">Allow this app to turn Wi-Fi on and off</string>
     <string name="operator_location_settings">Set carrier and location</string>
     <string name="operator_location_settings_message">"Couldn't recognise your carrier and location. Can't set phone balance and data usage warnings now."</string>
@@ -3429,6 +3483,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="password_unlock">Unlock via password</string>
     <string name="password_xspace_forget_pattern_message">To change your Second space password, you should delete your current Second space and create a new one.</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Charge faster with high-power reverse charging. USB connection is only used for charging.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">Charge faster with high-power reverse charging.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Reverse charging</string>
     <string name="pc_abnormal_scan_button_text">Close apps</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Prevents the system from going into standby mode</string>
@@ -3643,6 +3698,9 @@ Ultra battery saver"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Fold the device before charging for a faster and more stable charging experience.</string>
     <string name="pc_remind_close_cover_to_charge_title">Fold to charge</string>
     <string name="pc_reminder_always_protect_summary">Switch to limited charging to reduce battery ageing</string>
+    <string name="pc_remove_shell_charging_notification_msg">"Can't use wireless charging when using a gaming case. Remove it and try again, or use wired charging."</string>
+    <string name="pc_remove_shell_charging_notification_title">Remove case to use wireless charging</string>
+    <string name="pc_remove_shell_charging_toast">Remove case to use reverse wireless charging</string>
     <string name="pc_satellite_auto_enter_super_power">Turned on Ultra battery saver to ensure satellite communications</string>
     <string name="pc_save_charge">Charging</string>
     <string name="pc_save_other_setting">Other settings</string>
@@ -4056,6 +4114,7 @@ Ultra battery saver"</string>
     <string name="power_dialog_performance_mode_checkbox">Switch to %d Hz refresh rate</string>
     <string name="power_dialog_super_save_msg">"Ultra battery saver restricts most power-consuming features and decreases your device's performance in order to leave basic functionality (e.g. calls, SMS, and connecting to the network) available as long as possible. Turn on Ultra battery saver?"</string>
     <string name="power_dialog_super_save_msg_5g">"Ultra battery saver restricts most power consuming features (e.g. 5G connectivity) lowering your device's performance. Only calls, messages, and network connectivity won't be affected. Turn on Ultra battery saver?"</string>
+    <string name="power_dialog_super_save_msg_p2">"Ultra battery saver turns off rear display and restricts most power-consuming features, decreasing your device's performance in order to leave basic functionality (e.g. calls, SMS, and connecting to the network) available as long as possible. Turn on Ultra battery saver?"</string>
     <string name="power_dialog_super_save_title">Ultra battery saver</string>
     <string name="power_idle">Phone idle</string>
     <string name="power_main_battery_last_day_hour">%1$sd %2$sh remaining</string>
@@ -4265,6 +4324,7 @@ Ultra battery saver"</string>
     <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_over_traffic_limit">When you go over your data plan</string>
     <string name="pref_package_traffic_settings">Data plan</string>
+    <string name="pref_physical_sim_self_detection_cat_title">Test network</string>
     <string name="pref_pkg_begin_date">Usage reset date</string>
     <string name="pref_roaming_daily_limit_setting">Set daily data limit while roaming</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Daily data limit</string>
@@ -4276,6 +4336,7 @@ Ultra battery saver"</string>
     <string name="pref_title_diagnostics_show_float_notification">Floating notifications</string>
     <string name="pref_title_manual_check_virus_db_update">Check for updates</string>
     <string name="pref_title_over_traffic_limit_warning">When exceeded</string>
+    <string name="pref_title_physical_sim_self_detection">Roaming network diagnostics</string>
     <string name="pref_title_traffic_limit_number">Size</string>
     <string name="pref_title_traffic_package_type">Data plan type</string>
     <string name="pref_title_traffic_speed_state">Show network speed</string>
@@ -4328,6 +4389,8 @@ Ultra battery saver"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">This feature allows you to hide app icons so they no longer appear on your Home screen.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">After you enter your password, the folder with hidden apps will appear.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">"Spread two fingers on the screen. You'll see a message asking you to enter your App lock password."</string>
+    <string name="privacy_custom_password_long">Enter up to %d digits</string>
+    <string name="privacy_custom_password_too_short">Enter at least %d digits</string>
     <string name="privacy_danger_permission_status_summary">Manage apps that request sensitive permissions</string>
     <string name="privacy_danger_permission_status_title">Sensitive actions</string>
     <string name="privacy_danger_permission_summary">Monitor how apps use your permissions</string>
@@ -4387,6 +4450,8 @@ Ultra battery saver"</string>
     <string name="privacy_global_guide_permission_guide_text">"You'll receive a status bar alert when apps record audio or use camera. To learn which app does that, tap the alert."</string>
     <string name="privacy_guide_permission_guide_text">You can receive an alert in status bar when apps access your location, record audio, or take photos.</string>
     <string name="privacy_hide_other_permissions">Hide other permissions</string>
+    <string name="privacy_hybrid_password_long">Enter up to %d characters</string>
+    <string name="privacy_hybrid_password_too_short">Enter at least %d characters</string>
     <string name="privacy_informed_title">Stats</string>
     <string name="privacy_input_mode">Secure input</string>
     <string name="privacy_input_model_tips">"Secure input is on. Your keyboard can't display pop-up windows or access contacts, location info, and call history."</string>
@@ -4407,6 +4472,28 @@ Ultra battery saver"</string>
     <string name="privacy_notification_title_mic">%1s is using microphone in the background</string>
     <string name="privacy_other_permission_manage_summary">Manage other privacy-related permissions</string>
     <string name="privacy_other_permission_manage_title">Other permissions</string>
+    <string name="privacy_password_chanage_process">Change Privacy protection password</string>
+    <string name="privacy_password_custom_password">Custom PIN</string>
+    <string name="privacy_password_digital_password">%d-digit PIN</string>
+    <string name="privacy_password_enter_custom_password">Enter your %1$d–%2$d-digit PIN</string>
+    <string name="privacy_password_enter_custom_password_again">Enter your PIN again</string>
+    <string name="privacy_password_enter_custom_password_not_match">"PINs don't match"</string>
+    <string name="privacy_password_enter_digital_password">Enter your %d-digit PIN</string>
+    <string name="privacy_password_enter_digital_password_again">Enter your %d-digit PIN again</string>
+    <string name="privacy_password_enter_graphic_password">Draw unlock pattern. Connect at least %d dots.</string>
+    <string name="privacy_password_enter_hybrid_password">Enter your %1$d–%2$d-character password</string>
+    <string name="privacy_password_enter_hybrid_password_again">Enter your password again</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">"Password can't contain invalid characters"</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">"Passwords don't match"</string>
+    <string name="privacy_password_graphic_password">Pattern</string>
+    <string name="privacy_password_hybrid_password">Password</string>
+    <string name="privacy_password_other_password">Other password</string>
+    <string name="privacy_password_setup_confirm">OK</string>
+    <string name="privacy_password_setup_hint">Enter your password</string>
+    <string name="privacy_password_setup_next">Next</string>
+    <string name="privacy_password_setup_not_match">Try again</string>
+    <string name="privacy_password_setup_process">Set Privacy protection password</string>
+    <string name="privacy_password_update_type">Select password type</string>
     <string name="privacy_permission_call">Accessing or editing call history</string>
     <string name="privacy_permission_call_title">Protect calls</string>
     <string name="privacy_permission_camera_title">Restrict background camera usage</string>
@@ -4519,6 +4606,8 @@ Withdraw consent now?"</string>
     <string name="privacy_risk_uninstall_title">Uninstall apps</string>
     <string name="privacy_risk_work_encryption">"Social media and office files aren't protected"</string>
     <string name="privacy_screen_share_notification_content">"You're casting to another device. Privacy protection is on."</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">Protecting your privacy</string>
+    <string name="privacy_screen_share_notification_land_title">Sharing screen</string>
     <string name="privacy_screen_share_notification_protect_content">"Sensitive items won't be displayed on the external device"</string>
     <string name="privacy_screen_share_notification_protect_title">Screen content is protected</string>
     <string name="privacy_screen_share_notification_title">Casting screen content</string>
@@ -4565,6 +4654,10 @@ Withdraw consent now?"</string>
     <string name="privacy_using_record">Recording audio</string>
     <string name="privacyapp_number_masked_text">Notification content is hidden</string>
     <string name="privacyapp_number_unmasked_text">Notification content can be hidden</string>
+    <string name="private_file">Private files</string>
+    <string name="private_note">Hidden notes</string>
+    <string name="private_photo">Private album</string>
+    <string name="private_sms">Private messages</string>
     <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Media server</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
@@ -4573,6 +4666,7 @@ Withdraw consent now?"</string>
     <string name="prompt_input_time_illegal">"Can't set this time, change it and try again"</string>
     <string name="protocol_exception_title">Network protocol diagnostics</string>
     <string name="protocol_loop_back_exception_summary">Local loop back test failed. To report this issue, go to the Feedback app and send a log from your device.</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">Back</string>
     <string name="provision_next">Next</string>
     <string name="provision_skip_underline">Skip</string>
@@ -5683,6 +5777,7 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="traffic_remind_switch">Data usage warning</string>
     <string name="traffic_reminder_settings">Set data usage warning</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">Select carrier</string>
     <string name="traffic_setting_fragment_area">Locale</string>
     <string name="traffic_setting_fragment_brand">Brand</string>
     <string name="traffic_setting_fragment_button1_text">Cancel</string>

@@ -340,6 +340,7 @@
     <string name="app_management_for_install">Блокиране на изтеглянията на приложения</string>
     <string name="app_management_for_install_desc">Предотвратяване на това приложение да изтегля или инсталира други приложения</string>
     <string name="app_management_measures">Управление на приложението</string>
+    <string name="app_manager_ad_text_btn_resume">Поднови</string>
     <string name="app_manager_advanced_setting">Разширени настройки</string>
     <string name="app_manager_airtel_dlg_msg">Ако имате въпроси, свържете се с Airtel</string>
     <string name="app_manager_airtel_dlg_title">Блокиран от Airtel</string>
@@ -462,8 +463,8 @@
     <string name="app_manager_uninstall_notify_title">Деинсталирайте рядко използвани приложения</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Деинсталирането на системни приложения може да попречи на някои системни компоненти да работят правилно. Желаете ли да деинсталирате въпреки това?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Деинсталиране на системни приложения</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Съответните клонирани приложения ще бъдат премахнати заедно с данните за приложенията.</string>
-    <string name="app_manager_uninstall_xspace_app_dlg_msg">Деинсталирането на клонирано приложение ще премахне всички данни за приложението.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Клонираното приложение ще бъде деинсталирано заедно с това.</string>
+    <string name="app_manager_uninstall_xspace_app_dlg_msg">Съответните клонирани приложения ще бъдат деинсталирани заедно с данните за приложенията.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Деинсталиране на клонирано приложение?</string>
     <string name="app_manager_unstall_application">Деинсталиране</string>
     <string name="app_managere_not_have_app">Празно</string>
@@ -570,8 +571,8 @@
     <string name="applock_lock_mode_locked_or_exit">След изход от приложението</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">Когато устройството е заключено или %d мин след затваряне на приложението</string>
     <string name="applock_login_and_add_account">Вписване и добавяне</string>
-    <string name="applock_mixtype_hidepwd_icon">Скрий</string>
-    <string name="applock_mixtype_showpwd_icon">Покажи</string>
+    <string name="applock_mixtype_hidepwd_icon">Скриване на паролата</string>
+    <string name="applock_mixtype_showpwd_icon">Показване на паролата</string>
     <string name="applock_no_account_login">Не сте вписани във Вашия Xiaomi Профил</string>
     <string name="applock_not_add_account"><u>Не сега</u></string>
     <string name="applock_not_add_account_normal">Не добавяй профил</string>
@@ -583,6 +584,12 @@
     <string name="applock_operate_fingerprint_title">Използване на пръстов отпечатък</string>
     <string name="applock_operate_hidenoti_summary">Заключване на приложения може да помогне с това за защитени приложения</string>
     <string name="applock_operate_hidenoti_title">Желаете да скриете чувствителни известия?</string>
+    <string name="applock_password_set_luck_button">Настройки</string>
+    <string name="applock_password_set_luck_comment">Трябва да зададеш модел за отключване на екрана, за да използваш лични функции на това устройство.</string>
+    <string name="applock_password_set_luck_message">"За да извършва сигурен достъп до поверителни функции на устройството, по подразбиране Xiaomi HyperOS използва модела за отключването на екрана за потвърждение на самоличността.
+
+Ако все още не е зададен модел за отключване на екрана, следвай инструкциите, за да го направиш."</string>
+    <string name="applock_password_set_luck_title">Първо настройте заключването на екрана</string>
     <string name="applock_recommend_tips">%s от потребителите защитават тези приложения</string>
     <string name="applock_recommend_title">Изберете приложения</string>
     <string name="applock_set_complete">Използвайте Заключване на приложения</string>
@@ -867,6 +874,22 @@
     <string name="bind_xiaomi_account_success">Xiaomi Профила е добавен успешно</string>
     <string name="bind_xiaomi_account_summary">Използвайте Xiaomi Профил, за да нулирате паролата</string>
     <string name="bind_xiaomi_account_title">Добавяне на Xiaomi Профил</string>
+    <string name="biometric_applock_password_lockout_title">Твърде много неуспешни опити</string>
+    <string name="biometric_applock_pwd">Потвърждение с отключване на приложение</string>
+    <string name="biometric_applock_pwd_or_finger">Потвърди с пръстов отпечатък или отключване на преложението</string>
+    <string name="biometric_face_error">Неуспешно потвърждаване</string>
+    <string name="biometric_face_finger_change">Биометричните данни са променени. Въведи паролата за потвърждение.</string>
+    <string name="biometric_finger_verify">Проверка на пръстовия отпечатък</string>
+    <string name="biometric_lockscreen_pwd">Потвърждение с отключване на екран</string>
+    <string name="biometric_lockscreen_pwd_or_finger">Потвърди с пръстов отпечатък или отключване на екрана</string>
+    <string name="biometric_private_password">Потвърждение с парола за защита на поверителността</string>
+    <string name="biometric_private_password_lockout_title">Твърде много неуспешни опити</string>
+    <string name="biometric_private_pwd_or_finger">Потвърди с пръстов отпечатък или парола за защита на поверителността</string>
+    <string name="biometric_reset_password_tips">Паролата е променена успешно. Въведи нова парола за отключване.</string>
+    <string name="biometric_screen_lock_password_lockout_title">Твърде много неуспешни опити</string>
+    <string name="biometric_subtitle">За отваряне на %1$s</string>
+    <string name="biometric_subtitle_default">Проверка на идентичността</string>
+    <string name="biometric_verify_retry">Опитай отново</string>
     <string name="birthday">Рожден ден</string>
     <string name="bl_no_blacklist">Няма блокирани номера.</string>
     <string name="bl_no_block_call">Няма блокирани обаждания.</string>
@@ -1002,6 +1025,8 @@
     <string name="car_sickness_relief_comment_text">Когато бъде засечено движение на превозното средство, от двете страни на екрана се показват точки, които показват дали превозното средство се движи, което може да помогне за забавяне на появата на прилошаване при пътуване.</string>
     <string name="car_sickness_relief_example_text_1">Когато превозното средство ускорява или забавя</string>
     <string name="car_sickness_relief_example_text_2">Когато превозното средство завива или сменя лентите</string>
+    <string name="car_sickness_relief_exit_text">Облекчаването на прилошаване при пътуване спря да работи</string>
+    <string name="car_sickness_relief_start_text">Облекчаването на прилошаване при пътуване работи</string>
     <string name="car_sickness_remind_time_title">Индикатори за движение</string>
     <string name="car_sickness_title">Облекчаване на прилошаване при пътуване</string>
     <string name="card_main_apkclean_title">Изтриване на APK</string>
@@ -1178,6 +1203,7 @@
     <string name="connected_devices_notification_title">Разрешавате ли на устройството по-горе да показва известията на това устройство?</string>
     <string name="connected_devices_permission">Взаимосвързаност и разрешения</string>
     <string name="connected_devices_permission_settings">Взаимосвързаност и разрешения</string>
+    <string name="connected_devices_permission_summary">Управлявайте достъпа до това устройство</string>
     <string name="connected_devices_record">Запис</string>
     <string name="connected_devices_record_desc">Разрешаване на устройства наблизо, влезли в същия профил, да записват аудио на това устройство</string>
     <string name="connected_devices_record_title">Разрешавате ли на горното устройство да записва аудио на това устройство?</string>
@@ -1344,6 +1370,8 @@
     <string name="deep_save_ontime_boot_shutdown_summary">Включване и изключване на устройството по график</string>
     <string name="delete">Изтриване</string>
     <string name="delete_all_sms">Изтриване на всички</string>
+    <string name="delete_connected_devices">Желаете ли да изтриете избраните устройства сега?</string>
+    <string name="delete_connected_devices_title">Желаете ли да изтриете %1$s сега?</string>
     <string name="delete_from_manual_item_white_list">Да се премахне ли от изключенията?</string>
     <string name="delete_input">Изтрий</string>
     <string name="deleted_apps">Изтрити прил.</string>
@@ -1819,6 +1847,8 @@
     <string name="game_anti_disturb_msg">Игра в режим Не безпокойте</string>
     <string name="game_balance_more_setting_title">Разширени настройки</string>
     <string name="game_balance_vision_enhance_subtitle">Подобрен контраст и детайли за игри</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_sr">Достъпно само, когато резолюцията на играта е зададена на най-високата стойност</string>
+    <string name="game_balance_vision_enhance_subtitle_xring_ys">Достъпно само, когато прецизността на рендиране на играта е зададена на най-високата стойност</string>
     <string name="game_balance_vision_enhance_title">Подобрена визуализация</string>
     <string name="game_booster">Game Turbo</string>
     <string name="game_booster_close">Ускорителят на игри е изключен.</string>
@@ -1856,8 +1886,13 @@
     <string name="game_toolbox_ai_upgrade_dialog_btn">Обнови</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">Налично е обновление за услугите за AI игри. Обновете, преди да използвате свързани функции.</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Проверка за обновления</string>
+    <string name="game_toolbox_auto_brightness_talkback">Автоматична яркост</string>
+    <string name="game_toolbox_btn_back_talkback">Назад</string>
+    <string name="game_toolbox_cellular_network">Увеличаване на скоростта на мобилната мрежа</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Включете, за да намалите леко качеството на картината и значително да намалите консумацията на енергия</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice">"Забележка:
+Когато „Интелигентна скорост на кадрите“ е включена, инструментите за определяне на честота на кадрите в играта и на трети страни може да не определят точната честота на кадрите. Вижте таблото за управление на производителността за действителната честота на кадрите."</string>
     <string name="game_toolbox_display_style_desc">Регулирайте визуалния стил (поддържа HDR на играта)</string>
     <string name="game_toolbox_display_style_game_hdr">HDR на играта</string>
     <string name="game_toolbox_display_style_title">Визуален стил</string>
@@ -1866,10 +1901,20 @@
     <string name="game_toolbox_fps_shake">Трептене %d кадъра в секунда</string>
     <string name="game_toolbox_immersion_sound_desc">Когато използвате слушалки, улавяйте точно звукови ефекти като стъпки и гласове, подобрявайки потапянето в играта</string>
     <string name="game_toolbox_immersion_sound_title">Завладяващ звук</string>
+    <string name="game_toolbox_item_joystick_key_mapping">Бутон на контролера</string>
+    <string name="game_toolbox_margin_restrain_description">Задайте диапазон на отхвърляне на докосване, за да намалите случайните докосвания</string>
     <string name="game_toolbox_mem_clean_desc">Изчистете паметта и подобрете скоростта</string>
     <string name="game_toolbox_more_tools_title">Още инструменти</string>
     <string name="game_toolbox_perf_config_desc">Конфигурирайте настройките за производителност на играта</string>
     <string name="game_toolbox_perf_config_title">Настройки за производителност</string>
+    <string name="game_toolbox_performance_config_custom_notice_new">Можете да персонализирате „Супер резолюция“ и „Интелигентна скорост на кадрите“, за да управлявате честотата на кадрите и качеството на картината. &lt;font color=%s>Действителната честота на кадрите е показана на таблото за управление на производителността.&lt;/font></string>
+    <string name="game_toolbox_performance_config_frc_notice">Когато е включен приоритетът за честота на кадрите, действителната честота на кадрите е показана на таблото за управление на производителността</string>
+    <string name="game_toolbox_performance_config_frc_notice_new">Приоритетът върху честотата на кадрите подобрява честотата на кадрите чрез интелигентната скорост на кадрите. &lt;font color=%s>Действителната честота на кадрите е показана на таблото за управление на производителността.&lt;/font></string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_resolution_notice">Когато е включен приоритетът за картина, действителната честота на кадрите е показана на таблото за управление на производителността</string>
+    <string name="game_toolbox_performance_config_resolution_notice_new">Приоритетът върху картината подобрява качеството на картината чрез супер резолюция и управлява честотата на кадрите чрез интелигентната скорост на кадрите. &lt;font color=%s>Действителната честота на кадрите е показана на таблото за управление на производителността.&lt;/font></string>
+    <string name="game_toolbox_screen_brightness_talkback">Яркост на екрана</string>
+    <string name="game_toolbox_settings_talkback">Настройки</string>
     <string name="game_toolbox_slow_charge_desc">Включете тази функция, за да подобрите изживяването на играта по време на зареждане, като намалите скоростта на зареждане. Това може да предпази устройството Ви от прегряване. Включване сега?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Разбрах</string>
     <string name="game_toolbox_slow_charge_negative_btn">Отказ</string>
@@ -1878,6 +1923,12 @@
     <string name="game_toolbox_slow_charge_positive_btn">Включване</string>
     <string name="game_toolbox_slow_charge_title">Бавно зареждане</string>
     <string name="game_toolbox_slow_charge_toast">Бавното зареждане е включено</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Тактилната обратна връзка не работи с оригинални оформления. Тактилната обратна връзка е изключена.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Тактилната обратна връзка не работи с оригинални оформления</string>
+    <string name="game_toolbox_smotion_vibrate_desc">Добавете тактилна обратна връзка в съответствие с движенията в играта. Поддържат се само някои игри.</string>
+    <string name="game_toolbox_smotion_vibrate_title">Тактилна обратна връзка</string>
+    <string name="game_toolbox_super_follow_up_msg">Подобрете реакцията на докосване и проследяването чрез пълния хардуерно-софтуерен конвейер</string>
+    <string name="game_toolbox_super_shake_msg">Намалете трептенето при докосване и плъзгане, подобрявайки стабилността на управлението</string>
     <string name="game_toolbox_title">Инструменти за игра</string>
     <string name="game_toolbox_title_game_center">Игри</string>
     <string name="game_toolbox_title_wild">Краен режим</string>
@@ -1893,7 +1944,7 @@
     <string name="game_wid_viewpoint_buttom">Направи кратка почивка.</string>
     <string name="gamebooster_confirm_dialog_negative_btn">Не приемам</string>
     <string name="gamebooster_confirm_dialog_positive_btn">Приемам</string>
-    <string name="gamebooster_confirm_dialog_tip"><Data>Xunyou Game Booster &lt;br>&lt;a href=\"%1$s\">Privacy Policy&lt;/a></Data></string>
+    <string name="gamebooster_confirm_dialog_tip"><Data>&lt;br>&lt;a href=\"%1$s\">Правила за поверителност&lt;/a> на Xunyou Game Booster</Data></string>
     <string name="gamebooster_confirm_dialog_title">Приемете нашите Правила за поверителност</string>
     <string name="gamebooster_dialog_recover">Поднови</string>
     <string name="gamebooster_dialog_start_booster">Начало</string>
@@ -2486,7 +2537,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gtb_dialog_hint_smart_5g">Можете да включвате и изключвате тази функция в Game Turbo > Настройки.</string>
     <string name="gtb_dialog_privacy_speed_message">Ще използвате Xunyou Ускоряване на Игри. Тази услуга ще получи достъп до Вашия Номер на Xiaomi Профил, за да записва продължителността на Вашето членство.</string>
     <string name="gtb_dialog_privacy_speed_tips"><Data>Прочетох и приемам &lt;a href=\"%1$s\">Правилата за поверителност&lt;/a> на Xunyou Ускоряване на Игри.</Data></string>
-    <string name="gtb_dialog_privacy_speed_tips_new"><Data>"I've read and agreed to the Xunyou Game Booster &lt;a href=\"%1$s\">Privacy Policy&lt;/a>."</Data></string>
+    <string name="gtb_dialog_privacy_speed_tips_new"><Data>Прочетох и приемам &lt;a href=\"%1$s\">Правилата за поверителност&lt;/a> на Xunyou Game Booster.</Data></string>
     <string name="gtb_dialog_privacy_speed_title">Xunyou Ускоряване на Игри</string>
     <string name="gtb_dialog_privacy_voice_message">Ще използвате Xunyou Промяна на Гласа в Игри. Тази услуга ще получи достъп до Вашия Номер на Xiaomi Профил, за да записва продължителността на Вашето членство.</string>
     <string name="gtb_dialog_privacy_voice_tips"><Data>Прочетох и приемам &lt;a href=\"%1$s\">Правилата за поверителност&lt;/a> на Xunyou Промяна на Гласа в Игри.</Data></string>
@@ -2743,6 +2794,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="main_alert_message_no_imsi">SIM картата не е открита</string>
     <string name="main_alert_message_open_traffic_ctrl">Препоръчваме да ограничите използването на мобилни данни</string>
     <string name="main_balance_check">Проверка на баланса</string>
+    <string name="main_bill_out_talkback">Отрицателен баланс %1$.2f</string>
     <string name="main_bill_remained">Оставащ кредит</string>
     <string name="main_button_mi_sim_close">Активирай Mi SIM</string>
     <string name="main_button_mi_sim_open">Покажи подробности</string>
@@ -3341,6 +3393,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="open_extreme_power_save_mode_title">Включете Свръх икономия на батерия</string>
     <string name="open_game">Отваряне</string>
     <string name="open_now">Позволи на приложението да използва мобилни данни</string>
+    <string name="open_physical_sim_self_detection_noti_centent">Вашата роуминг връзка може да не работи правилно</string>
+    <string name="open_physical_sim_self_detection_noti_title">Опитайте диагностика на роуминг мрежата</string>
     <string name="open_wlan_title">Разрешете на това приложение да включва и изключва Wi-Fi</string>
     <string name="operator_location_settings">Задайте оператор и местоположение</string>
     <string name="operator_location_settings_message">Не са разпознати Вашия оператор и местоположение. Не е достъпно задаване на предупреждения за баланс на телефона и за използване на данни в момента.</string>
@@ -3429,6 +3483,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="password_unlock">Отключване чрез парола</string>
     <string name="password_xspace_forget_pattern_message">За да смените паролата за вашето Второ пространство, трябва да изтриете текущото Второ пространство и да създадете ново.</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Зареждайте по-бързо с високомощно обратно зареждане. USB връзката се използва само за зареждане.</string>
+    <string name="pc_18W_high_power_reverse_charging_summary_new">Зареждай по-бързо с високомощно обратно зареждане.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Обратно зареждане</string>
     <string name="pc_abnormal_scan_button_text">Затворете приложенията</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Не дава на системата преминаване в режим на готовност</string>
@@ -3643,6 +3698,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Сгънете устройството преди зареждане за по-бързо и по-стабилно зареждане.</string>
     <string name="pc_remind_close_cover_to_charge_title">Сгънете, за да заредите</string>
     <string name="pc_reminder_always_protect_summary">Преминете към ограничено зареждане, за да намалите стареенето на батерията</string>
+    <string name="pc_remove_shell_charging_notification_msg">Не може да се използва безжично зареждане, когато се използва геймърски калъф. Махни го и опитай отново или използвай кабелно зареждане.</string>
+    <string name="pc_remove_shell_charging_notification_title">Махни калъфа, за да използваш безжично зареждане</string>
+    <string name="pc_remove_shell_charging_toast">Махни калъфа, за да използваш обратно безжично зареждане</string>
     <string name="pc_satellite_auto_enter_super_power">Включена е Свръх икономия на батерия, за да се осигурят сателитни комуникации</string>
     <string name="pc_save_charge">Зареждане</string>
     <string name="pc_save_other_setting">Други настройки</string>
@@ -4056,6 +4114,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">Преминаване към %d Hz скорост на опресняване</string>
     <string name="power_dialog_super_save_msg">Свръх икономия на батерията ограничава повечето услуги, които консумират енергия и забавят работата на Вашето устройство. Функционалността ще бъде сведена до основните неща за един телефон: обаждания, SMS и връзката с клетъчната мрежа. Те ще работят колкото се може по - дълго. Да включа ли режим Свръх икономия на батерията?</string>
     <string name="power_dialog_super_save_msg_5g">Ултра пестене на батерия ограничава повечето консумиращи енергия функции (напр. 5G свързаност), които намаляват ефективността на устройството Ви. Няма да бъдат ограничени само обажданията, съобщенията и мрежовата свързаност. Включване на Ултра пестене на батерия?</string>
+    <string name="power_dialog_super_save_msg_p2">Свръхикономията на батерията изключва задния дисплей и ограничава повечето услуги, които консумират енергия и забавят работата на Вашето устройство, като оставя само основни функционалности (напр. обаждания, SMS и връзка с клетъчната мрежа) възможно най-дълго. Желаете ли да включите режима „Свръхикономия на батерията“?</string>
     <string name="power_dialog_super_save_title">Свръх икономия на батерията</string>
     <string name="power_idle">Устройството е неактивно</string>
     <string name="power_main_battery_last_day_hour">Остават %1$sден %2$sч</string>
@@ -4265,6 +4324,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_over_traffic_limit">Когато сте надвишили вашия лимит за данни</string>
     <string name="pref_package_traffic_settings">План за данни</string>
+    <string name="pref_physical_sim_self_detection_cat_title">Тест на мрежата</string>
     <string name="pref_pkg_begin_date">Дата за нулиране на сметката</string>
     <string name="pref_roaming_daily_limit_setting">Дневен лимит за данни при роуминг</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Дневен лимит за данни</string>
@@ -4276,6 +4336,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pref_title_diagnostics_show_float_notification">Плаващи известия</string>
     <string name="pref_title_manual_check_virus_db_update">Проверка за обновления</string>
     <string name="pref_title_over_traffic_limit_warning">При превишаване</string>
+    <string name="pref_title_physical_sim_self_detection">Диагностика на роуминг мрежата</string>
     <string name="pref_title_traffic_limit_number">Размер</string>
     <string name="pref_title_traffic_package_type">Вид план за данни</string>
     <string name="pref_title_traffic_speed_state">Показване на скороста на мрежата</string>
@@ -4328,6 +4389,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_apps_tutorial_prompt_pageone">Тази услуга Ви дава възможност да скриете икона на дадено приложение, така че тя повече да не се показва на Вашия Начален екран.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">След като въведете паролата си, скритата папка ще се покаже.</string>
     <string name="privacy_apps_tutorial_prompt_pagetwo">Разтворете два пръста върху екрана. Ще видите съобщение, което ви подканя да въведете вашата парола за Заключване на приложения.</string>
+    <string name="privacy_custom_password_long">Въведи до %d цифри</string>
+    <string name="privacy_custom_password_too_short">Въведи мин. %d цифри</string>
     <string name="privacy_danger_permission_status_summary">Управлявайте приложения, които изискват чувствителни разрешения</string>
     <string name="privacy_danger_permission_status_title">Чувствителни действия</string>
     <string name="privacy_danger_permission_summary">Следете как приложенията използват вашите разрешения</string>
@@ -4387,6 +4450,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_global_guide_permission_guide_text">Ще получавате предупреждение в статус лентата когато приложение запише аудио или използва камерата. За да научите кое приложение извършва това действие натиснете предупреждението.</string>
     <string name="privacy_guide_permission_guide_text">Можете да получавате известия в статус лентата когато приложения получат достъп до вашето местоположение, запишат аудио или направят снимки.</string>
     <string name="privacy_hide_other_permissions">Скриване на други разрешения</string>
+    <string name="privacy_hybrid_password_long">Въведи до %d символа</string>
+    <string name="privacy_hybrid_password_too_short">Въведи мин. %d символа</string>
     <string name="privacy_informed_title">Статистика</string>
     <string name="privacy_input_mode">Сигурно въвеждане</string>
     <string name="privacy_input_model_tips">Включен е Сигурен вход. Вашата клавиатура не може да показва изскачащи прозорци или да получава достъп до контакти, информация за местоположение и хронология на повикванията.</string>
@@ -4407,6 +4472,28 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_notification_title_mic">%1s използва микрофона във фонов режим</string>
     <string name="privacy_other_permission_manage_summary">Управлявайте други разрешения свързани с лични данни</string>
     <string name="privacy_other_permission_manage_title">Други разрешения</string>
+    <string name="privacy_password_chanage_process">Промени паролата за защита на поверителността</string>
+    <string name="privacy_password_custom_password">Персонализиран ПИН</string>
+    <string name="privacy_password_digital_password">%d-цифров ПИН</string>
+    <string name="privacy_password_enter_custom_password">Въведи своя %1$d – %2$d-цифров ПИН</string>
+    <string name="privacy_password_enter_custom_password_again">Въведи отново своя ПИН</string>
+    <string name="privacy_password_enter_custom_password_not_match">ПИН кодовете не съвпадат</string>
+    <string name="privacy_password_enter_digital_password">Въведи своя %d-цифров ПИН</string>
+    <string name="privacy_password_enter_digital_password_again">Въведи отново своя %d-цифров ПИН</string>
+    <string name="privacy_password_enter_graphic_password">Начертай шаблон за отключване. Свържи поне %d точки.</string>
+    <string name="privacy_password_enter_hybrid_password">Въведи своята парола от %1$d–%2$d символа</string>
+    <string name="privacy_password_enter_hybrid_password_again">Въведи отново паролата</string>
+    <string name="privacy_password_enter_hybrid_password_invalid">Паролата не може да съдържа невалидни символи</string>
+    <string name="privacy_password_enter_hybrid_password_not_match">Паролите не съвпадат</string>
+    <string name="privacy_password_graphic_password">Шаблон</string>
+    <string name="privacy_password_hybrid_password">Парола</string>
+    <string name="privacy_password_other_password">Друга парола</string>
+    <string name="privacy_password_setup_confirm">ОК</string>
+    <string name="privacy_password_setup_hint">Въведи паролата си</string>
+    <string name="privacy_password_setup_next">Напред</string>
+    <string name="privacy_password_setup_not_match">Опитай отново</string>
+    <string name="privacy_password_setup_process">Задай парола за защита на поверителността</string>
+    <string name="privacy_password_update_type">Избери тип парола</string>
     <string name="privacy_permission_call">Получаване на достъп до или редактиране на хронология на повикванията</string>
     <string name="privacy_permission_call_title">Защитете повиквания</string>
     <string name="privacy_permission_camera_title">Ограничаване на употреба на камера във фонов режим</string>
@@ -4519,6 +4606,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_risk_uninstall_title">Деинсталиране на приложения</string>
     <string name="privacy_risk_work_encryption">Работни файлове и файлове от социалните медии не са защитени</string>
     <string name="privacy_screen_share_notification_content">Прожектирате на друго устройство. Активирана е Защитата на личните данни.</string>
+    <string name="privacy_screen_share_notification_land_protect_sub_title">Защита на поверителността</string>
+    <string name="privacy_screen_share_notification_land_title">Споделяне на екран</string>
     <string name="privacy_screen_share_notification_protect_content">Чувствителните елементи няма да се показват на външното устройство</string>
     <string name="privacy_screen_share_notification_protect_title">Екранното съдържание е защитено</string>
     <string name="privacy_screen_share_notification_title">Прожектиране на екранно съдържание</string>
@@ -4565,6 +4654,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_using_record">Запис на аудио</string>
     <string name="privacyapp_number_masked_text">Съдържанието на известията е скрито</string>
     <string name="privacyapp_number_unmasked_text">Съдържанието на известията може да се скрие</string>
+    <string name="private_file">Лични файлове</string>
+    <string name="private_note">Скрити бележки</string>
+    <string name="private_photo">Личен албум</string>
+    <string name="private_sms">Лични съобщения</string>
     <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
@@ -4573,6 +4666,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="prompt_input_time_illegal">Не може да се зададе това време, променете го и опитайте отново</string>
     <string name="protocol_exception_title">Диагностика на мрежата</string>
     <string name="protocol_loop_back_exception_summary">Неуспешен обратен тест на локалната линия. За да съобщите за този проблем, отидете в приложението Обратна връзка и изпратете доклад от своето устройство.</string>
+    <string name="province_selected_talkback" />
     <string name="provision_back">Назад</string>
     <string name="provision_next">Напред</string>
     <string name="provision_skip_underline">Пропускане</string>
@@ -5683,6 +5777,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="traffic_remind_switch">Предупреждение за употреба на данни</string>
     <string name="traffic_reminder_settings">Задаване на предупреждение за използване на данни</string>
     <string name="traffic_reminder_settings_card" />
+    <string name="traffic_select_dialog_title">Избери оператор</string>
     <string name="traffic_setting_fragment_area">Локално</string>
     <string name="traffic_setting_fragment_brand">Марка</string>
     <string name="traffic_setting_fragment_button1_text">Отказ</string>
