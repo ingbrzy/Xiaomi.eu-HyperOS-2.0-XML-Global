@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="PRD_summary_4">Вимкнення Wi-Fi або перемикання мереж Wi-Fi під час процесу передачі може призвести до збою.</string>
-    <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
+    <string name="PRD_summary_4_china">Вимкнення WLAN або перемикання мереж WLAN під час процесу передачі може призвести до збою.</string>
     <string name="PRD_summary_5">Висока швидкість передачі даних може призвести до того, що ваш пристрій нагріється більше, ніж зазвичай. Після закінчення передачі пристрій охолоне.</string>
     <string name="abc_action_bar_home_description">Перейти на головну</string>
     <string name="abc_action_bar_up_description">Перейти вгору</string>
@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with">Поділитися:</string>
     <string name="abc_shareactionprovider_share_with_application">Поділитися через додаток %s</string>
     <string name="abc_toolbar_collapse_description">Згорнути</string>
-    <string name="accessibility_sliding_button_state_description_off">вимкнено</string>
-    <string name="accessibility_sliding_button_state_description_on">увімкнено</string>
+    <string name="accessibility_sliding_button_state_description_off">Вимкнено</string>
+    <string name="accessibility_sliding_button_state_description_on">Увімкнено</string>
     <string name="accessibility_tab_state_description_unselect">Не вибрано</string>
-    <string name="accessibility_tab_statedesc_unselect">Не вибрано</string>
     <string name="account_or_password_incorrect">Неправильний акаунт або пароль</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Після обіду</string>
@@ -70,6 +69,9 @@
     <string name="ble_guest_connecting_title">Підключення до нового пристрою…</string>
     <string name="ble_host_verification_summary">Введіть %d-значний код на вашому старому пристрої.</string>
     <string name="ble_host_verification_title">Підключення до старого пристрою…</string>
+    <string name="ble_manual_authorization_content">"Надайте необхідні дозволи, щоб мати можливість переміщувати об'єкти за допомогою Mi Mover. Ви можете надати ці дозволи в Налаштуваннях."</string>
+    <string name="ble_manual_authorization_positive_btn">Налаштування</string>
+    <string name="ble_manual_authorization_title">Необхідні дозволи</string>
     <string name="ble_manual_connect">Підключатися вручну</string>
     <string name="ble_refuse_button">Відхилити</string>
     <string name="ble_start_ap_successed">Точку доступу створено успішно. Очікування на підключення…</string>
@@ -179,7 +181,7 @@
     <string name="dialog_request_permission_message_extra_summary">Ці дозволи необхідні, щоб зробити доступними основні функції та послуги програми.</string>
     <string name="dialog_request_permission_message_extra_title">"Обов'язкові дозволи"</string>
     <string name="dialog_request_permission_message_global">Для правильної роботи програмі необхідно отримати наступні дозволи:</string>
-    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"Щоб повністю зрозуміти свої права як користувача, а також способи, у які ми використовуємо ваші дані, прочитайте та погодьтеся з нашою &lt;a href='%1s'>Угодою користувача операційної системи Xiaomi&lt;/a> та&lt;a href='%2s'>Політикою конфіденційності Mi Mover&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">У той же час, щоб дізнатися про свої права користувача, а також способи використання ваших даних, ознайомтеся та погодьтеся з нашою %1$s та %2$s.</string>
     <string name="dialog_request_permission_title">Увага</string>
     <string name="dialog_request_permission_title_global">Необхідні дозволи</string>
@@ -421,8 +423,10 @@
     <string name="miui_wait_link_title_2">%d. Щоб підключитися, виберіть цю точку доступу на вашому старому пристрої.</string>
     <string name="miuix_access_state_desc">Вибрано</string>
     <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Згорнуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Розгорнуто</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Вийти з режиму редагування</string>
-    <string name="miuix_appcompat_accessibility_new_message">Нове повідомлення</string>
+    <string name="miuix_appcompat_accessibility_new_message">Нове сповіщення</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Ввійти в режим редагування</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняти вибір</string>
     <string name="miuix_appcompat_action_mode_select_all">Вибрати все</string>
@@ -439,6 +443,7 @@
     <string name="miuix_appcompat_select_all">Вибрати все</string>
     <string name="miuix_appcompat_select_all_description">Вибрати все</string>
     <string name="miuix_appcompat_select_item">Вибрати елементи</string>
+    <string name="miuix_appcompat_show_dialog_description">Спливаюче вікно</string>
     <string name="miuix_progressbar_loading">Завантаження</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потягніть вниз для оновлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Оновлено</string>
@@ -449,6 +454,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Хвилинку…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не вдалося завантажити елементи</string>
     <string name="miuix_show_password">Показати пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Згорнуто</string>
+    <string name="miuix_stretchablewidget_expanded">Розгорнуто</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Повідомлення, контакти та історія викликів</string>
     <string name="monday">Понеділок</string>
@@ -876,7 +883,7 @@
     <string name="trans_apple_hint_1_title">%d. Встановіть Mi Mover</string>
     <string name="trans_apple_hint_2_content">"Відкрийте Mi Mover на своєму пристрої Apple, виберіть \"Натисніть, щоб відправити об'єкти\" та відскануйте QR-код."</string>
     <string name="trans_apple_hint_2_title">%d. Підключіть пристрої</string>
-    <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
+    <string name="trans_apple_hint_china">Не залишайте сторінку або продовжуйте використовувати підклчення до WLAN до завершення завантаження.</string>
     <string name="trans_apple_interrupt_sub">Торкніться нижче, щоб підключитися повторно</string>
     <string name="trans_apple_interrupt_title">Перервано</string>
     <string name="trans_detail_item_app_data_skip_data">Неможливо перемістити дані програми</string>

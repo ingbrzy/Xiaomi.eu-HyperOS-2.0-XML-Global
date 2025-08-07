@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="PRD_summary_4">Desactivar el Wi-Fi o cambiar de red Wi-Fi durante el proceso de transferencia podría provocar que el proceso de transferencia falle.</string>
-    <string name="PRD_summary_4_china">Turning off WLAN or switching WLAN networks during the transfer process may cause the transfer process to fail.</string>
+    <string name="PRD_summary_4_china">Desactivar la WLAN o cambiar de redes WLAN durante el proceso de transferencia puede hacer que el proceso de transferencia falle.</string>
     <string name="PRD_summary_5">Las transferencias de alta velocidad pueden hacer que su dispositivo se caliente más de lo normal. Tenga la seguridad de que su dispositivo se enfriará cuando finalice la transferencia.</string>
     <string name="abc_action_bar_home_description">Navegar a la página principal</string>
     <string name="abc_action_bar_up_description">Navegar hacia arriba</string>
@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with">Compartir con</string>
     <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
     <string name="abc_toolbar_collapse_description">Contraer</string>
-    <string name="accessibility_sliding_button_state_description_off">desactivado</string>
-    <string name="accessibility_sliding_button_state_description_on">activado</string>
+    <string name="accessibility_sliding_button_state_description_off">Desactivado</string>
+    <string name="accessibility_sliding_button_state_description_on">Activado</string>
     <string name="accessibility_tab_state_description_unselect">No seleccionado</string>
-    <string name="accessibility_tab_statedesc_unselect">No seleccionado</string>
     <string name="account_or_password_incorrect">Usuario ID o contraseña incorrectos</string>
     <string name="actionbar_button_up_description">Atrás</string>
     <string name="afternoon">Tarde</string>
@@ -70,6 +69,9 @@
     <string name="ble_guest_connecting_title">Conectándose a nuevo dispositivo…</string>
     <string name="ble_host_verification_summary">Introduzca un código de %d dígitos en su dispositivo antiguo.</string>
     <string name="ble_host_verification_title">Conectando con el dispositivo antiguo…</string>
+    <string name="ble_manual_authorization_content">Otorgue los permisos necesarios para transferir elementos con Mi Mudanza. Puede otorgarlos en Configuración.</string>
+    <string name="ble_manual_authorization_positive_btn">Configuración</string>
+    <string name="ble_manual_authorization_title">Permisos requeridos</string>
     <string name="ble_manual_connect">Conectar manualmente</string>
     <string name="ble_refuse_button">Rechazar</string>
     <string name="ble_start_ap_successed">Punto de acceso creado con éxito. Esperando para conectar…</string>
@@ -179,7 +181,7 @@ visite https://appleid.apple.com/#!&amp;page=signin para desactivar"</string>
     <string name="dialog_request_permission_message_extra_summary">Estos permisos son necesarios para que las funciones y servicios básicos de esta aplicación estén disponibles.</string>
     <string name="dialog_request_permission_message_extra_title">Permisos obligatorios</string>
     <string name="dialog_request_permission_message_global">Esta aplicación necesita los siguientes permisos para poder funcionar con normalidad:</string>
-    <string name="dialog_request_permission_message_link" formatted="false"><Data>"To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href='%1s'>Xiaomi Operating System User Agreement&lt;/a> and &lt;a href='%2s'>Mi Mover Privacy Policy&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"Para comprender completamente sus derechos como usuario, así como las formas en que usamos sus datos, lea y acepte nuestro &lt;a href='%1s'>Acuerdo de Usuario del Sistema Operativo Xiaomi&lt;/a> y la &lt;a href='%2s'>Política de Privacidad de Mi Mudanza&lt;/a>."</Data></string>
     <string name="dialog_request_permission_message_provision_link">Al mismo tiempo, para comprender plenamente sus derechos como usuario y las formas en que usamos sus datos, lea y acepte nuestro %1$s y nuestra%2$s.</string>
     <string name="dialog_request_permission_title">Atención</string>
     <string name="dialog_request_permission_title_global">Permisos necesarios</string>
@@ -421,8 +423,10 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="miui_wait_link_title_2">%d. Seleccione este punto de acceso en su dispositivo antiguo para conectar.</string>
     <string name="miuix_access_state_desc">Seleccionado</string>
     <string name="miuix_accessibility_title">Título</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Contraído</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expandido</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Salir del modo de edición</string>
-    <string name="miuix_appcompat_accessibility_new_message">Nuevo mensaje</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nueva notificación</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entrar en modo de edición</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleccionar todo</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleccionar todo</string>
@@ -439,6 +443,7 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="miuix_appcompat_select_all">Seleccionar todo</string>
     <string name="miuix_appcompat_select_all_description">Seleccionar todo</string>
     <string name="miuix_appcompat_select_item">Seleccionar elementos</string>
+    <string name="miuix_appcompat_show_dialog_description">Ventana emergente</string>
     <string name="miuix_progressbar_loading">Cargando</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Deslice hacia abajo para actualizar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Actualizado con éxito</string>
@@ -449,6 +454,8 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Un momento…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">No se pudieron cargar los elementos</string>
     <string name="miuix_show_password">Mostrar contraseña</string>
+    <string name="miuix_stretchablewidget_collapsed">Contraído</string>
+    <string name="miuix_stretchablewidget_expanded">Expandido</string>
     <string name="mms">MMS</string>
     <string name="mms_contacts_calllog">Mensajes, contactos e historial de llamadas</string>
     <string name="monday">Lunes</string>
@@ -876,7 +883,7 @@ Libere al menos %s."</string>
     <string name="trans_apple_hint_1_title">%d. Instalar Mi Mudanza</string>
     <string name="trans_apple_hint_2_content">Abra Mi Mover en su dispositivo Apple, toque \"Pulsar para enviar elementos\" y escanee el código QR.</string>
     <string name="trans_apple_hint_2_title">%d. Conectar dispositivos</string>
-    <string name="trans_apple_hint_china">"Don't leave this page or use WLAN until the transfer is complete."</string>
+    <string name="trans_apple_hint_china">No abandone esta página ni utilice la WLAN hasta que la transferencia haya terminado.</string>
     <string name="trans_apple_interrupt_sub">Toque abajo para reconectar</string>
     <string name="trans_apple_interrupt_title">Interrumpido</string>
     <string name="trans_detail_item_app_data_skip_data">No puede transferir datos de aplicaciones</string>
