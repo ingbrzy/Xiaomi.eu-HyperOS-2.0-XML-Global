@@ -50,6 +50,7 @@
     <string name="agenda_not_today_empty_hint">אין כאן עדיין אירועים. לחצו כדי ליצור אירוע.</string>
     <string name="agenda_tomorrow">מחר, %1$s</string>
     <string name="agenda_view">אירועים</string>
+    <string name="ai_introduce_card_sub_title">לאפשר ל-AI להוסיף באופן אוטומטי נסיעות, כרטיסים וסוגי אירועים אחרים ללוח השנה</string>
     <string name="alarm_close_reminder">תזכורת לכיבוי התראה</string>
     <string name="alarm_label">הבנתי</string>
     <string name="alarm_open_reminder">הגדרת שעון מעורר</string>
@@ -62,8 +63,10 @@
     <string name="anniversary_event_title">יום השנה: %1$s</string>
     <string name="anniversary_secondary_tag">יום השנה</string>
     <string name="app_label">לוח שנה</string>
+    <string name="apply_auto_insert_ai_event_button">הפעלה</string>
     <string name="attendees">משתתפים</string>
     <string name="auto_import_birthday_from_contact">ייבוא ימי ההולדת של אנשי הקשר</string>
+    <string name="auto_insert_ai_event_toast">עוזר AI לאירועים מופעל</string>
     <string name="back_to_today">היום</string>
     <string name="birthday_born">תאריך לידה</string>
     <string name="birthday_calendar_display_name">תזכורת ימי הולדת</string>
@@ -540,6 +543,7 @@
     <string name="notification_open_setting_button_ok">לאפשר</string>
     <string name="notification_open_setting_message">יש לאפשר ללוח השנה לשלוח לך התראות כדי לקבל התראות על אירועים.</string>
     <string name="notification_open_setting_title">האם לאפשר התראות לוח שנה?</string>
+    <string name="pasport_register_dialog_message">ליצור חשבון Xiaomi דרך מספר הטלפון %s עכשיו?</string>
     <string name="passenger">נוסע</string>
     <string name="passport_access_denied">הגישה נדחתה</string>
     <string name="passport_account_crop_user_avatar">חיתוך תמונה</string>
@@ -557,7 +561,7 @@
     <string name="passport_account_secure_info_pref_title">פרטי החשבון</string>
     <string name="passport_account_security_info_pref_title">פרטי אבטחה</string>
     <string name="passport_account_user_avatar">תמונת פרופיל</string>
-    <string name="passport_account_user_avatar_from_album">גלריה</string>
+    <string name="passport_account_user_avatar_from_album">לבחור מהגלריה</string>
     <string name="passport_account_user_avatar_from_camera">מצלמה</string>
     <string name="passport_account_user_base_info">מידע בסיסי</string>
     <string name="passport_account_user_details">פרטים אישיים</string>
@@ -629,7 +633,6 @@
     <string name="passport_login_register_by_local_phone_long_text">יצירת חשבון</string>
     <string name="passport_login_with_sns">דרכים אחרות להתחבר</string>
     <string name="passport_logout_account">התנתקות</string>
-    <string name="passport_mi_account_first_title">אם זה השימוש הראשון שלך במספר הטלפון שלך, אנו ניצור עבורך חשבון באופן אוטומטי.</string>
     <string name="passport_mi_account_title">היכנס באמצעות חשבון Xiaomi</string>
     <string name="passport_network_error">אירעה שגיאת רשת. יש לבדוק את הגדרות הרשת ולנסות שוב.</string>
     <string name="passport_network_error_hint">נא לבדוק את כתובת ה-URL ולנסות שוב, או להעתיק את כתובת ה-URL ולפתוח אותה בדפדפן שלך.</string>
@@ -638,6 +641,7 @@
     <string name="passport_no_account">לא מחובר</string>
     <string name="passport_open_settings">הגדרות</string>
     <string name="passport_page_load_failed">לא ניתן לפתוח את הדף</string>
+    <string name="passport_password_hide_show">הסתרת הסיסמה</string>
     <string name="passport_password_login_btn">התחברות</string>
     <string name="passport_password_not_show">לא להציג את הסיסמה</string>
     <string name="passport_password_show">להציג את הסיסמה</string>
@@ -649,6 +653,8 @@
     <string name="passport_reging">יוצר חשבון…</string>
     <string name="passport_register_by_local_phone_long_text">יצירת חשבון</string>
     <string name="passport_register_by_local_phone_short_text">יצירת חשבון</string>
+    <string name="passport_register_dialog_positive">ליצור</string>
+    <string name="passport_register_dialog_title">יצירת חשבון Xiaomi</string>
     <string name="passport_register_restricted">למספר זה קושרו יותר מדי חשבונות. נסה מספר אחר.</string>
     <string name="passport_relogin_notice">עליך להיכנס שוב</string>
     <string name="passport_request_agree">לאפשר</string>
@@ -657,7 +663,8 @@
     <string name="passport_request_error_invalid_token">לא ניתן היה לאמת</string>
     <string name="passport_request_error_network">אירעה שגיאת רשת. יש לבדוק את הגדרות הרשת ולנסות שוב.</string>
     <string name="passport_request_error_unknown">אירעה שגיאת מערכת. יש לחזור לאחור ולנסות שנית.</string>
-    <string name="passport_request_gallery_permission_message">לאפשר גישה לגלריה:&lt;br />להגדרת תמונות פרופיל</string>
+    <string name="passport_request_gallery_permission_message">יישום זה זקוק לגישה לתוכן הגלריה כדי להגדיר את תמונת הפרופיל שלך. לתת את ההרשאה עכשיו?</string>
+    <string name="passport_request_permission_title">נדרשות הרשאות</string>
     <string name="passport_resend_ticket">שליחת הקוד מחדש</string>
     <string name="passport_retry">נא לנסות שוב</string>
     <string name="passport_send_sms_to">הקוד נשלח ל-%1$s</string>
@@ -826,6 +833,7 @@
     <string name="setting_about_calendar_version">גרסת לוח שנה: %1$s-%2$s</string>
     <string name="setting_about_summary">גרסה:</string>
     <string name="setting_accounts">חשבונות לוח שנה</string>
+    <string name="setting_auto_insert">AI עוזר לאירועים</string>
     <string name="setting_daysoff_no_update">המידע על חגים ציבוריים מעודכן.</string>
     <string name="setting_daysoff_update">עדכון מידע על חגים ציבוריים</string>
     <string name="setting_daysoff_update_cta_cancel">אפשר ללוח השנה להתחבר לאינטרנט</string>

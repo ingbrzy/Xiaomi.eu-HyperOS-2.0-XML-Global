@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Ingen begivenheder her endnu. Tryk for at oprette en.</string>
     <string name="agenda_tomorrow">I MORGEN, %1$s</string>
     <string name="agenda_view">Events</string>
+    <string name="ai_introduce_card_sub_title">Lad AI automatisk tilføje rejser, billetter og andre typer begivenheder til din kalender</string>
     <string name="alarm_close_reminder">Deaktiverer alarmpåmindelse</string>
     <string name="alarm_label">Forstået</string>
     <string name="alarm_open_reminder">Indstil alarm</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Jubilæum: %1$s</string>
     <string name="anniversary_secondary_tag">Jubilæum</string>
     <string name="app_label">Kalender</string>
+    <string name="apply_auto_insert_ai_event_button">Slå til</string>
     <string name="attendees">Deltagere</string>
     <string name="auto_import_birthday_from_contact">Importér kontakters fødselsdage</string>
+    <string name="auto_insert_ai_event_toast">AI-begivenhedsassistent er slået til</string>
     <string name="back_to_today">I dag</string>
     <string name="birthday_born">Fødselsdato</string>
     <string name="birthday_calendar_display_name">Fødselsdagsremindere</string>
@@ -576,6 +579,7 @@ Tjek netværksindstillinger og prøv igen."</string>
     <string name="notification_open_setting_button_ok">Tillad</string>
     <string name="notification_open_setting_message">Du vil ikke kunne modtage notifikationer om begivenheder, medmindre du giver Kalender tilladelse til at sende dig notifikationer.</string>
     <string name="notification_open_setting_title">Tillad kalender-notifikationer?</string>
+    <string name="pasport_register_dialog_message">Vil du oprette en Xiaomi-konto via dit telefonnummer %s nu?</string>
     <string name="passenger">Passager</string>
     <string name="passport_access_denied">Adgang nægtet</string>
     <string name="passport_account_crop_user_avatar">Beskær foto</string>
@@ -593,7 +597,7 @@ Tjek netværksindstillinger og prøv igen."</string>
     <string name="passport_account_secure_info_pref_title">Kontooplysninger</string>
     <string name="passport_account_security_info_pref_title">Sikkerhedsoplysninger</string>
     <string name="passport_account_user_avatar">Profilbillede</string>
-    <string name="passport_account_user_avatar_from_album">Galleri</string>
+    <string name="passport_account_user_avatar_from_album">Vælg fra Galleri</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Basisoplysninger</string>
     <string name="passport_account_user_details">Personoplysning</string>
@@ -665,7 +669,6 @@ Tjek netværksindstillinger og prøv igen."</string>
     <string name="passport_login_register_by_local_phone_long_text">Opret konto</string>
     <string name="passport_login_with_sns">Andre måder at logge ind på</string>
     <string name="passport_logout_account">Log ud</string>
-    <string name="passport_mi_account_first_title">Vi opretter automatisk en konto, hvis du bruger dit telefonnummer for første gang.</string>
     <string name="passport_mi_account_title">Log ind med Xiaomi-konto</string>
     <string name="passport_network_error">Der opstod en netværksfejl. Kontrollér dine netværksindstillinger, og prøv igen.</string>
     <string name="passport_network_error_hint">"Tjek URL'en og prøv igen, eller kopiér URL'en og åbn den i din browser."</string>
@@ -674,6 +677,7 @@ Tjek netværksindstillinger og prøv igen."</string>
     <string name="passport_no_account">Ikke logget ind</string>
     <string name="passport_open_settings">Indstillinger</string>
     <string name="passport_page_load_failed">Kan ikke åbne side</string>
+    <string name="passport_password_hide_show">Skjul adgangskode</string>
     <string name="passport_password_login_btn">Log ind</string>
     <string name="passport_password_not_show">Vis ikke adgangskode</string>
     <string name="passport_password_show">Vis adgangskode</string>
@@ -685,6 +689,8 @@ Tjek netværksindstillinger og prøv igen."</string>
     <string name="passport_reging">Opretter konto…</string>
     <string name="passport_register_by_local_phone_long_text">Opret konto</string>
     <string name="passport_register_by_local_phone_short_text">Opret konto</string>
+    <string name="passport_register_dialog_positive">Opret</string>
+    <string name="passport_register_dialog_title">Opret Xiaomi-konto</string>
     <string name="passport_register_restricted">For mange konti er blevet knyttet til dette nummer. Prøv et andet nummer.</string>
     <string name="passport_relogin_notice">Du skal logge på igen</string>
     <string name="passport_request_agree">Tillad</string>
@@ -693,7 +699,8 @@ Tjek netværksindstillinger og prøv igen."</string>
     <string name="passport_request_error_invalid_token">Kunne ikke verificere</string>
     <string name="passport_request_error_network">Der opstod en netværksfejl. Kontrollér dine netværksindstillinger, og prøv igen.</string>
     <string name="passport_request_error_unknown">Der opstod en systemfejl. Gå tilbage, og prøv igen.</string>
-    <string name="passport_request_gallery_permission_message">Tillad adgang til Galleri:&lt;br />For at vælge profilbilleder</string>
+    <string name="passport_request_gallery_permission_message">Denne app har brug for adgang til udvalgte elementer i dit galleri for at indstille dit profilbillede. Tillad nu?</string>
+    <string name="passport_request_permission_title">Tilladelser er påkrævet</string>
     <string name="passport_resend_ticket">Gensend kode</string>
     <string name="passport_retry">Prøv igen</string>
     <string name="passport_send_sms_to">Kode sendt til %1$s</string>
@@ -865,6 +872,7 @@ Tjek netværksindstillinger og prøv igen."</string>
     <string name="setting_about_calendar_version">Kalender-version: %1$s-%2$s</string>
     <string name="setting_about_summary">Version:</string>
     <string name="setting_accounts">Kalenderkonti</string>
+    <string name="setting_auto_insert">AI-begivenhedsassistent</string>
     <string name="setting_daysoff_no_update">Oplysningerne om helligdage er opdaterede.</string>
     <string name="setting_daysoff_update">Opdatér oplysninger om helligdage</string>
     <string name="setting_daysoff_update_cta_cancel">Tillad Kalender at tilslutte til internettet først</string>

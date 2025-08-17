@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Tukaj še ni dogodkov. Tapnite, da ustvarite dogodek.</string>
     <string name="agenda_tomorrow">Jutri, %1$s</string>
     <string name="agenda_view">Dogodki</string>
+    <string name="ai_introduce_card_sub_title">Naj umetna inteligenca samodejno doda izlete, vstopnice in druge vrste dogodkov v vaš koledar</string>
     <string name="alarm_close_reminder">Izklop alarmnega opomnika</string>
     <string name="alarm_label">Razumem</string>
     <string name="alarm_open_reminder">Nastavi alarm</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Obletnica: %1$s</string>
     <string name="anniversary_secondary_tag">Obletnica</string>
     <string name="app_label">Koledar</string>
+    <string name="apply_auto_insert_ai_event_button">Vklopi</string>
     <string name="attendees">Udeleženci</string>
     <string name="auto_import_birthday_from_contact">Uvoz rojstnih dni stikov</string>
+    <string name="auto_insert_ai_event_toast">AI pomočnik za dogodke je vklopljen</string>
     <string name="back_to_today">Danes</string>
     <string name="birthday_born">Datum rojstva</string>
     <string name="birthday_calendar_display_name">Opomniki rojstnih dni</string>
@@ -574,6 +577,7 @@ Preverite nastavitve in poskusite ponovno."</string>
     <string name="notification_open_setting_button_ok">Dovoli</string>
     <string name="notification_open_setting_message">Ne boste mogli prejemati obvestil o dogodkih, razen če aplikaciji Koledar dovolite, da vam pošilja obvestila.</string>
     <string name="notification_open_setting_title">Želite dovoliti obvestila Koledarja?</string>
+    <string name="pasport_register_dialog_message">Želite ustvariti Xiaomi Račun preko vaše telefonske številke %s zdaj?</string>
     <string name="passenger">Potnik</string>
     <string name="passport_access_denied">Dostop zavrnjen</string>
     <string name="passport_account_crop_user_avatar">Obreži sliko</string>
@@ -591,7 +595,7 @@ Preverite nastavitve in poskusite ponovno."</string>
     <string name="passport_account_secure_info_pref_title">Podatki računa</string>
     <string name="passport_account_security_info_pref_title">Varnostne informacije</string>
     <string name="passport_account_user_avatar">Profilna slika</string>
-    <string name="passport_account_user_avatar_from_album">Galerija</string>
+    <string name="passport_account_user_avatar_from_album">Izberite iz Galerije</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Osnovne informacije</string>
     <string name="passport_account_user_details">Osebni podatki</string>
@@ -663,7 +667,6 @@ Preverite nastavitve in poskusite ponovno."</string>
     <string name="passport_login_register_by_local_phone_long_text">Ustvarite račun</string>
     <string name="passport_login_with_sns">Drugi načini prijave</string>
     <string name="passport_logout_account">Odjava</string>
-    <string name="passport_mi_account_first_title">Če telefonsko številko uporabljate prvič, bomo samodejno ustvarili račun.</string>
     <string name="passport_mi_account_title">Vpis z Xiaomi Računom</string>
     <string name="passport_network_error">Prišlo je do omrežne napake. Preverite vaše omrežne nastavitve in poskusite ponovno.</string>
     <string name="passport_network_error_hint">Preverite povezavo in poskusite ponovno ali kopirajte povezavo in jo odprite v brskalniku.</string>
@@ -672,6 +675,7 @@ Preverite nastavitve in poskusite ponovno."</string>
     <string name="passport_no_account">Niste vpisani</string>
     <string name="passport_open_settings">Nastavitve</string>
     <string name="passport_page_load_failed">Strani ni mogoče odpreti</string>
+    <string name="passport_password_hide_show">Skrij geslo</string>
     <string name="passport_password_login_btn">Vpis</string>
     <string name="passport_password_not_show">Ne pokaži gesla</string>
     <string name="passport_password_show">Prikaži geslo</string>
@@ -683,6 +687,8 @@ Preverite nastavitve in poskusite ponovno."</string>
     <string name="passport_reging">Ustvarjanje računa…</string>
     <string name="passport_register_by_local_phone_long_text">Ustvarite račun</string>
     <string name="passport_register_by_local_phone_short_text">Ustvarite račun</string>
+    <string name="passport_register_dialog_positive">Ustvari</string>
+    <string name="passport_register_dialog_title">Ustvarite Xiaomi Račun</string>
     <string name="passport_register_restricted">Preveč računov je povezanih s to številko. Poskusite z drugo.</string>
     <string name="passport_relogin_notice">Ponovno se morate prijaviti</string>
     <string name="passport_request_agree">Dovoli</string>
@@ -691,7 +697,8 @@ Preverite nastavitve in poskusite ponovno."</string>
     <string name="passport_request_error_invalid_token">Ni mogoče preveriti</string>
     <string name="passport_request_error_network">Prišlo je do omrežne napake. Preverite vaše omrežne nastavitve in poskusite ponovno.</string>
     <string name="passport_request_error_unknown">Prišlo je do sistemske napake. Pojdite nazaj in poskusite ponovno.</string>
-    <string name="passport_request_gallery_permission_message">Dovolite dostop do Galerije:&lt;br />Za nastavljanje fotografije profila</string>
+    <string name="passport_request_gallery_permission_message">Ta aplikacija potrebuje dostop do izbranih elementov galerije, da lahko nastavi profilno fotografijo. Dovolite dostop?</string>
+    <string name="passport_request_permission_title">Zahtevana dovoljenja</string>
     <string name="passport_resend_ticket">Ponovno pošlji kodo</string>
     <string name="passport_retry">Poskusite ponovno</string>
     <string name="passport_send_sms_to">Koda poslana na %1$s</string>
@@ -862,6 +869,7 @@ Preverite nastavitve in poskusite ponovno."</string>
     <string name="setting_about_calendar_version">Koledar različica: %1$s-%2$s</string>
     <string name="setting_about_summary">Različica:</string>
     <string name="setting_accounts">Računi koledarja</string>
+    <string name="setting_auto_insert">AI pomočnik za dogodke</string>
     <string name="setting_daysoff_no_update">Podatki o javnih praznikih so posodobljeni.</string>
     <string name="setting_daysoff_update">Posodobitev podatkov o javnih praznikih</string>
     <string name="setting_daysoff_update_cta_cancel">Najprej dovolite aplikaciji Koledar povezavo na splet.</string>

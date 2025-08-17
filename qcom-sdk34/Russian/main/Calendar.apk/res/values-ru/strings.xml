@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Нет событий. Нажмите, чтобы создать.</string>
     <string name="agenda_tomorrow">ЗАВТРА, %1$s</string>
     <string name="agenda_view">Расписание</string>
+    <string name="ai_introduce_card_sub_title">Позвольте AI автоматически добавлять поездки, билеты и другие типы событий в ваш календарь</string>
     <string name="alarm_close_reminder">Отключение напоминания</string>
     <string name="alarm_label">Понятно</string>
     <string name="alarm_open_reminder">Установить напоминание</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Годовщина: %1$s</string>
     <string name="anniversary_secondary_tag">Годовщина</string>
     <string name="app_label">Календарь</string>
+    <string name="apply_auto_insert_ai_event_button">Включить</string>
     <string name="attendees">Участники</string>
     <string name="auto_import_birthday_from_contact">Импорт дней рождения контактов</string>
+    <string name="auto_insert_ai_event_toast">AI-ассистент событий включен</string>
     <string name="back_to_today">Сегодня</string>
     <string name="birthday_born">Дата рождения</string>
     <string name="birthday_calendar_display_name">Напоминания о днях рождения</string>
@@ -576,6 +579,7 @@
     <string name="notification_open_setting_button_ok">Разрешить</string>
     <string name="notification_open_setting_message">Вы не сможете получать уведомления о предстоящих событиях, если не разрешите Календарю отправку уведомлений.</string>
     <string name="notification_open_setting_title">Разрешить Календарю отправку уведомлений?</string>
+    <string name="pasport_register_dialog_message">Создать аккаунт Xiaomi с помощью вашего номера телефона %s?</string>
     <string name="passenger">Пассажир</string>
     <string name="passport_access_denied">Доступ запрещен</string>
     <string name="passport_account_crop_user_avatar">Кадрирование</string>
@@ -593,7 +597,7 @@
     <string name="passport_account_secure_info_pref_title">Информация об аккаунте</string>
     <string name="passport_account_security_info_pref_title">Информация о безопасности</string>
     <string name="passport_account_user_avatar">Фото профиля</string>
-    <string name="passport_account_user_avatar_from_album">Галерея</string>
+    <string name="passport_account_user_avatar_from_album">Выбрать из Галереи</string>
     <string name="passport_account_user_avatar_from_camera">Камера</string>
     <string name="passport_account_user_base_info">Основная информация</string>
     <string name="passport_account_user_details">Личная информация</string>
@@ -665,7 +669,6 @@
     <string name="passport_login_register_by_local_phone_long_text">Создать аккаунт</string>
     <string name="passport_login_with_sns">Другие способы входа</string>
     <string name="passport_logout_account">Выйти</string>
-    <string name="passport_mi_account_first_title">Если вы используете номер телефона в первый раз, аккаунт будет создан автоматически.</string>
     <string name="passport_mi_account_title">Вход через аккаунт Xiaomi</string>
     <string name="passport_network_error">Произошла ошибка сети. Проверьте настройки и повторите попытку.</string>
     <string name="passport_network_error_hint">Проверьте URL-адрес и повторите попытку или скопируйте его, а затем откройте в браузере.</string>
@@ -674,6 +677,7 @@
     <string name="passport_no_account">Вход не выполнен</string>
     <string name="passport_open_settings">Настройки</string>
     <string name="passport_page_load_failed">Не удалось открыть страницу</string>
+    <string name="passport_password_hide_show">Скрыть пароль</string>
     <string name="passport_password_login_btn">Войти</string>
     <string name="passport_password_not_show">Не показывать пароль</string>
     <string name="passport_password_show">Показать пароль</string>
@@ -685,6 +689,8 @@
     <string name="passport_reging">Создание аккаунта…</string>
     <string name="passport_register_by_local_phone_long_text">Создать аккаунт</string>
     <string name="passport_register_by_local_phone_short_text">Создать аккаунт</string>
+    <string name="passport_register_dialog_positive">Создать</string>
+    <string name="passport_register_dialog_title">Создать аккаунт Xiaomi</string>
     <string name="passport_register_restricted">С этим номером телефона связано слишком много аккаунтов. Выберите другой номер.</string>
     <string name="passport_relogin_notice">Необходимо повторно войти в систему</string>
     <string name="passport_request_agree">Разрешить</string>
@@ -693,7 +699,8 @@
     <string name="passport_request_error_invalid_token">Ошибка проверки</string>
     <string name="passport_request_error_network">Произошла ошибка сети. Проверьте настройки и повторите попытку.</string>
     <string name="passport_request_error_unknown">Ошибка системы. Вернитесь назад и повторите попытку.</string>
-    <string name="passport_request_gallery_permission_message">Разрешите доступ к Галерее:&lt;br />Для установки фото профиля</string>
+    <string name="passport_request_gallery_permission_message">Этому приложению необходим доступ к выбранным объектам галереи, чтобы установить ваше фото профиля. Разрешить доступ?</string>
+    <string name="passport_request_permission_title">Требуются разрешения</string>
     <string name="passport_resend_ticket">Отправить еще раз</string>
     <string name="passport_retry">Повторить</string>
     <string name="passport_send_sms_to">Код был отправлен на номер %1$s</string>
@@ -865,6 +872,7 @@
     <string name="setting_about_calendar_version">Версия Календаря: %1$s-%2$s</string>
     <string name="setting_about_summary">Версия:</string>
     <string name="setting_accounts">Аккаунты календаря</string>
+    <string name="setting_auto_insert">AI-ассистент событий</string>
     <string name="setting_daysoff_no_update">Информация о праздниках актуальна.</string>
     <string name="setting_daysoff_update">Обновить информацию о праздниках</string>
     <string name="setting_daysoff_update_cta_cancel">Сначала разрешите Календарю подключаться к интернету</string>

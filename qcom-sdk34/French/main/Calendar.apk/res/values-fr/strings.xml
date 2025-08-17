@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">"Pas encore d'événements. Appuyez pour en créer un."</string>
     <string name="agenda_tomorrow">DEMAIN, %1$s</string>
     <string name="agenda_view">Événements</string>
+    <string name="ai_introduce_card_sub_title">"Laissez l'IA ajouter automatiquement des voyages, des billets et d'autres types d'événements à votre agenda"</string>
     <string name="alarm_close_reminder">"Désactivation du rappel d'alarme"</string>
     <string name="alarm_label">OK</string>
     <string name="alarm_open_reminder">Définir une alerte</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Anniversaire : %1$s</string>
     <string name="anniversary_secondary_tag">Anniversaire</string>
     <string name="app_label">Agenda</string>
+    <string name="apply_auto_insert_ai_event_button">Activer</string>
     <string name="attendees">Participants</string>
     <string name="auto_import_birthday_from_contact">Importer les anniversaires des contacts</string>
+    <string name="auto_insert_ai_event_toast">"Assistant d'événement IA activé"</string>
     <string name="back_to_today">"Aujourd'hui"</string>
     <string name="birthday_born">Date de naissance</string>
     <string name="birthday_calendar_display_name">"Rappels d'anniversaire"</string>
@@ -576,6 +579,7 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="notification_open_setting_button_ok">Autoriser</string>
     <string name="notification_open_setting_message">"Vous ne pourrez pas recevoir de notifications sur les événements à moins d'autoriser Agenda à vous envoyer des notifications."</string>
     <string name="notification_open_setting_title">"Autoriser les notifications d'Agenda ?"</string>
+    <string name="pasport_register_dialog_message">Créer un Compte Xiaomi avec votre numéro de téléphone %s maintenant ?</string>
     <string name="passenger">Passager</string>
     <string name="passport_access_denied">Accès refusé</string>
     <string name="passport_account_crop_user_avatar">Rogner une photo</string>
@@ -593,7 +597,7 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="passport_account_secure_info_pref_title">Informations du compte</string>
     <string name="passport_account_security_info_pref_title">Informations de sécurité</string>
     <string name="passport_account_user_avatar">Photo de profil</string>
-    <string name="passport_account_user_avatar_from_album">Galerie</string>
+    <string name="passport_account_user_avatar_from_album">Sélectionnez depuis Galerie</string>
     <string name="passport_account_user_avatar_from_camera">Appareil photo</string>
     <string name="passport_account_user_base_info">Informations de base</string>
     <string name="passport_account_user_details">Informations personnelles</string>
@@ -665,7 +669,6 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="passport_login_register_by_local_phone_long_text">Créer un compte</string>
     <string name="passport_login_with_sns">Autres méthodes pour se connecter</string>
     <string name="passport_logout_account">Se déconnecter</string>
-    <string name="passport_mi_account_first_title">Nous créerons automatiquement un compte si vous utilisez votre numéro de téléphone pour la première fois.</string>
     <string name="passport_mi_account_title">Se connecter avec Compte Xiaomi</string>
     <string name="passport_network_error">"Une erreur de réseau s'est produite. Vérifiez vos paramètres de réseau et réessayez."</string>
     <string name="passport_network_error_hint">"Vérifiez l'URL et réessayez, ou copiez l'URL et ouvrez-le dans votre navigateur."</string>
@@ -674,6 +677,7 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="passport_no_account">Non connecté</string>
     <string name="passport_open_settings">Paramètres</string>
     <string name="passport_page_load_failed">"Impossible d'ouvrir la page"</string>
+    <string name="passport_password_hide_show">Masquer le mot de passe</string>
     <string name="passport_password_login_btn">Se connecter</string>
     <string name="passport_password_not_show">Ne pas afficher le mot de passe</string>
     <string name="passport_password_show">Afficher le mot de passe</string>
@@ -685,6 +689,8 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="passport_reging">Création du compte en cours…</string>
     <string name="passport_register_by_local_phone_long_text">Créer un compte</string>
     <string name="passport_register_by_local_phone_short_text">Créer un compte</string>
+    <string name="passport_register_dialog_positive">Créer</string>
+    <string name="passport_register_dialog_title">Créer un Compte Xiaomi</string>
     <string name="passport_register_restricted">Trop de comptes ont été associés à ce numéro. Essayez avec un numéro différent.</string>
     <string name="passport_relogin_notice">Vous devez de nouveau vous connecter</string>
     <string name="passport_request_agree">Autoriser</string>
@@ -693,7 +699,8 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="passport_request_error_invalid_token">Impossible de vérifier</string>
     <string name="passport_request_error_network">"Une erreur de réseau s'est produite. Vérifiez vos paramètres de réseau et réessayez."</string>
     <string name="passport_request_error_unknown">"Une erreur système s'est produite. Revenez en arrière et réessayez."</string>
-    <string name="passport_request_gallery_permission_message">"Autoriser l'accès à la Galerie :&lt;br />Pour définir les photos de profil"</string>
+    <string name="passport_request_gallery_permission_message">Cette application doit accéder à certains éléments de la Galerie pour pouvoir définir votre photo de profil. Autoriser maintenant ?</string>
+    <string name="passport_request_permission_title">Autorisations requises</string>
     <string name="passport_resend_ticket">Renvoyer le code</string>
     <string name="passport_retry">Réessayer</string>
     <string name="passport_send_sms_to">Code envoyé à %1$s</string>
@@ -865,6 +872,7 @@ Vérifiez vos paramètres réseau, puis réessayez."</string>
     <string name="setting_about_calendar_version">Version Agenda : %1$s-%2$s</string>
     <string name="setting_about_summary">Version :</string>
     <string name="setting_accounts">Comptes Calendrier</string>
+    <string name="setting_auto_insert">"Assistant d'événement IA"</string>
     <string name="setting_daysoff_no_update">"L'information sur les jours fériés est à jour."</string>
     <string name="setting_daysoff_update">Mise à jour des informations sur les jours fériés</string>
     <string name="setting_daysoff_update_cta_cancel">"Autoriser d'abord Agenda à se connecter à Internet"</string>

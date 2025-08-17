@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Burada henüz etkinlik yok. Oluşturmak için dokunun.</string>
     <string name="agenda_tomorrow">YARIN, %1$s</string>
     <string name="agenda_view">Etkinlikler</string>
+    <string name="ai_introduce_card_sub_title">"AI'ın takviminize gezileri, biletleri ve diğer etkinlik türlerini otomatik olarak eklemesine izin verin"</string>
     <string name="alarm_close_reminder">Alarm hatırlatıcısını kapatmak</string>
     <string name="alarm_label">Anladım</string>
     <string name="alarm_open_reminder">Alarm kur</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Yıl dönümü: %1$s</string>
     <string name="anniversary_secondary_tag">Yıl dönümü</string>
     <string name="app_label">Takvim</string>
+    <string name="apply_auto_insert_ai_event_button">Aç</string>
     <string name="attendees">Katılımcılar</string>
     <string name="auto_import_birthday_from_contact">Kişilerin doğum günlerini içe aktar</string>
+    <string name="auto_insert_ai_event_toast">AI Etkinlik Yardımcısı açık</string>
     <string name="back_to_today">Bugün</string>
     <string name="birthday_born">Doğum tarihi</string>
     <string name="birthday_calendar_display_name">Doğum günü hatırlatıcıları</string>
@@ -574,6 +577,7 @@ Ağ ayarlarını kontrol edin ve tekrar deneyin."</string>
     <string name="notification_open_setting_button_ok">İzin ver</string>
     <string name="notification_open_setting_message">"Bildirim göndermesi için Takvim'e izin vermezseniz etkinlikler hakkında bildirim alamayacaksınız."</string>
     <string name="notification_open_setting_title">Takvim bildirimlerine izin verilsin mi?</string>
+    <string name="pasport_register_dialog_message">Şimdi %s telefon numaranız ile bir Xiaomi Hesabı oluşturulsun mu?</string>
     <string name="passenger">Yolcu</string>
     <string name="passport_access_denied">Erişim engellendi</string>
     <string name="passport_account_crop_user_avatar">Fotoğrafı kırp</string>
@@ -591,7 +595,7 @@ Ağ ayarlarını kontrol edin ve tekrar deneyin."</string>
     <string name="passport_account_secure_info_pref_title">Hesap bilgileri</string>
     <string name="passport_account_security_info_pref_title">Güvenlik bilgisi</string>
     <string name="passport_account_user_avatar">Profil fotoğrafı</string>
-    <string name="passport_account_user_avatar_from_album">Galeri</string>
+    <string name="passport_account_user_avatar_from_album">Galeriden seçin</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Temel bilgiler</string>
     <string name="passport_account_user_details">Kişisel bilgiler</string>
@@ -663,7 +667,6 @@ Ağ ayarlarını kontrol edin ve tekrar deneyin."</string>
     <string name="passport_login_register_by_local_phone_long_text">Hesap oluştur</string>
     <string name="passport_login_with_sns">Diğer oturum açma yolları</string>
     <string name="passport_logout_account">Oturumu kapat</string>
-    <string name="passport_mi_account_first_title">Telefon numaranızı ilk kez kullanıyorsanız otomatik olarak bir hesap oluşturacağız.</string>
     <string name="passport_mi_account_title">Xiaomi Hesabı ile oturum aç</string>
     <string name="passport_network_error">Bir ağ hatası oluştu. Ağ ayarlarınızı kontrol edin ve tekrar deneyin.</string>
     <string name="passport_network_error_hint">"URL'yi kontrol edin ve tekrar deneyin veya URL'yi kopyalayın ve tarayıcınızda açın."</string>
@@ -672,6 +675,7 @@ Ağ ayarlarını kontrol edin ve tekrar deneyin."</string>
     <string name="passport_no_account">Giriş yapılmadı</string>
     <string name="passport_open_settings">Ayarlar</string>
     <string name="passport_page_load_failed">Sayfa açılamıyor</string>
+    <string name="passport_password_hide_show">Şifreyi gizle</string>
     <string name="passport_password_login_btn">Oturum aç</string>
     <string name="passport_password_not_show">Şifreyi gösterme</string>
     <string name="passport_password_show">Şifreyi göster</string>
@@ -683,6 +687,8 @@ Ağ ayarlarını kontrol edin ve tekrar deneyin."</string>
     <string name="passport_reging">Hesap oluşturuluyor…</string>
     <string name="passport_register_by_local_phone_long_text">Hesap oluştur</string>
     <string name="passport_register_by_local_phone_short_text">Hesap oluştur</string>
+    <string name="passport_register_dialog_positive">Oluştur</string>
+    <string name="passport_register_dialog_title">Xiaomi Hesabı oluştur</string>
     <string name="passport_register_restricted">Bu numara ile çok fazla sayıda hesap ilişkilendirildi. Başka bir numara deneyin.</string>
     <string name="passport_relogin_notice">Tekrar oturum açmanız gerekmektedir</string>
     <string name="passport_request_agree">İzin ver</string>
@@ -691,7 +697,8 @@ Ağ ayarlarını kontrol edin ve tekrar deneyin."</string>
     <string name="passport_request_error_invalid_token">Doğrulanamadı</string>
     <string name="passport_request_error_network">Bir ağ hatası oluştu. Ağ ayarlarınızı kontrol edin ve tekrar deneyin.</string>
     <string name="passport_request_error_unknown">Bir sistem hatası oluştu. Geri gidin ve tekrar deneyin.</string>
-    <string name="passport_request_gallery_permission_message">Galeriye erişim izni ver:&lt;br />Profil fotoğrafı ayarı için</string>
+    <string name="passport_request_gallery_permission_message">Bu uygulamanın profil fotoğrafınızı ayarlayabilmesi için seçili galeri ögelerine erişmesi gerekir. Şimdi izin verilsin mi?</string>
+    <string name="passport_request_permission_title">İzin gerekli</string>
     <string name="passport_resend_ticket">Tekrar kod gönder</string>
     <string name="passport_retry">Tekrar dene</string>
     <string name="passport_send_sms_to">Kod gönderildi: %1$s</string>
@@ -862,6 +869,7 @@ Ağ ayarlarını kontrol edin ve tekrar deneyin."</string>
     <string name="setting_about_calendar_version">Takvim sürümü: %1$s-%2$s</string>
     <string name="setting_about_summary">Sürüm:</string>
     <string name="setting_accounts">Takvim hesapları</string>
+    <string name="setting_auto_insert">AI Etkinlik Yardımcısı</string>
     <string name="setting_daysoff_no_update">Resmi tatiller hakkındaki bilgiler güncel.</string>
     <string name="setting_daysoff_update">Resmi tatiller hakkındaki bilgileri güncelle</string>
     <string name="setting_daysoff_update_cta_cancel">"Önce Takvim'in internete bağlanmasına izin verin"</string>

@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">لا توجد أحداث بعد. أنقر للإنشاء.</string>
     <string name="agenda_tomorrow">غدا، %1$s</string>
     <string name="agenda_view">الأحداث</string>
+    <string name="ai_introduce_card_sub_title">دع الذكاء الاصطناعي يضيف تلقائيًا رحلاتك وتذاكرك وأنواع أخرى من الأحداث إلى تقويمك.</string>
     <string name="alarm_close_reminder">إيقاف تشغيل التذكير بالمنبه</string>
     <string name="alarm_label">حسنا</string>
     <string name="alarm_open_reminder">تعيين المنبه</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">ذكرى سنوية: %1$s</string>
     <string name="anniversary_secondary_tag">ذكرى سنوية</string>
     <string name="app_label">التقويم</string>
+    <string name="apply_auto_insert_ai_event_button">تشغيل</string>
     <string name="attendees">المشاركين</string>
     <string name="auto_import_birthday_from_contact">استيراد تواريخ ميلاد جهات الاتصال</string>
+    <string name="auto_insert_ai_event_toast">تم تشغيل مساعد الأحداث AI</string>
     <string name="back_to_today">اليوم</string>
     <string name="birthday_born">تاريخ الميلاد</string>
     <string name="birthday_calendar_display_name">تذكيرات أعياد الميلاد</string>
@@ -576,6 +579,7 @@
     <string name="notification_open_setting_button_ok">سماح</string>
     <string name="notification_open_setting_message">لن تتمكن من استلام إشعارات عن الأحداث إذا لم تمنح التقويم إذن إرسال الإشعارات.</string>
     <string name="notification_open_setting_title">السماح بإشعارات التقويم؟</string>
+    <string name="pasport_register_dialog_message">هل ترغب في إنشاء حساب Mi باستخدام رقم الهاتف %s الآن؟</string>
     <string name="passenger">الراكب</string>
     <string name="passport_access_denied">تم رفض الدخول</string>
     <string name="passport_account_crop_user_avatar">قص الصورة</string>
@@ -593,7 +597,7 @@
     <string name="passport_account_secure_info_pref_title">معلومات الحساب</string>
     <string name="passport_account_security_info_pref_title">معلومات الحماية</string>
     <string name="passport_account_user_avatar">صورة الملف الشخصي</string>
-    <string name="passport_account_user_avatar_from_album">المعرض</string>
+    <string name="passport_account_user_avatar_from_album">تحديد من المعرض</string>
     <string name="passport_account_user_avatar_from_camera">الكاميرا</string>
     <string name="passport_account_user_base_info">المعلومات الأساسية</string>
     <string name="passport_account_user_details">المعلومات الشخصية</string>
@@ -665,7 +669,6 @@
     <string name="passport_login_register_by_local_phone_long_text">إنشاء حساب</string>
     <string name="passport_login_with_sns">طرق أخرى لتسجيل الدخول</string>
     <string name="passport_logout_account">تسجيل الخروج</string>
-    <string name="passport_mi_account_first_title">سيتم إنشاء حساب تلقائي في المرة الأولى التي تستخدم فيها رقم هاتفك.</string>
     <string name="passport_mi_account_title">تسجيل الدخول باستخدام حساب Mi</string>
     <string name="passport_network_error">حدث خطأ ما. تحقق من إعدادات الشبكة ثم حاول مجددا.</string>
     <string name="passport_network_error_hint">يرجى التحقق من عنوان URL والمحاولة مرة أخرى، أو نسخ وفتح URL في المتصفح.</string>
@@ -674,6 +677,7 @@
     <string name="passport_no_account">لم تسجل الدخول</string>
     <string name="passport_open_settings">الإعدادات</string>
     <string name="passport_page_load_failed">لا يمكن فتح الصفحة</string>
+    <string name="passport_password_hide_show">إخفاء كلمة المرور</string>
     <string name="passport_password_login_btn">تسجيل الدخول</string>
     <string name="passport_password_not_show">أخفاء كلمة المرور</string>
     <string name="passport_password_show">إظهار كلمة المرور</string>
@@ -685,6 +689,8 @@
     <string name="passport_reging">جارٍ إنشاء الحساب…</string>
     <string name="passport_register_by_local_phone_long_text">إنشاء حساب</string>
     <string name="passport_register_by_local_phone_short_text">إنشاء حساب</string>
+    <string name="passport_register_dialog_positive">إنشاء</string>
+    <string name="passport_register_dialog_title">إنشاء حساب Mi</string>
     <string name="passport_register_restricted">تم ربط الكثير من الحسابات بهذا الرقم، حاول استخدام رقم آخر.</string>
     <string name="passport_relogin_notice">تحتاج إلى تسجيل الدخول مرة أخرى</string>
     <string name="passport_request_agree">سماح</string>
@@ -693,7 +699,8 @@
     <string name="passport_request_error_invalid_token">تعذر التحقق</string>
     <string name="passport_request_error_network">حدث خطأ ما. تحقق من إعدادات الشبكة ثم حاول مجددا.</string>
     <string name="passport_request_error_unknown">حدث خطأ ما في النظام، يرجى الرجوع والمحاولة مجددا.</string>
-    <string name="passport_request_gallery_permission_message">اسمح بالوصول إلى المعرض:&lt;br />لتعيين صورة الملف الشخصي</string>
+    <string name="passport_request_gallery_permission_message">يحتاج هذا التطبيق إلى الوصول إلى عناصر المعرض المحددة ليتمكن من تعيين صورة ملفك الشخصي. السماح الآن؟</string>
+    <string name="passport_request_permission_title">الأذونات المطلوبة</string>
     <string name="passport_resend_ticket">إعادة إرسال</string>
     <string name="passport_retry">حاول مجدداً</string>
     <string name="passport_send_sms_to">تم إرسال الرمز إلى %1$s</string>
@@ -865,6 +872,7 @@
     <string name="setting_about_calendar_version">إصدار التقويم: %1$s-%2$s</string>
     <string name="setting_about_summary">الإصدار:</string>
     <string name="setting_accounts">حسابات التقويم</string>
+    <string name="setting_auto_insert">مساعد الأحداث AI</string>
     <string name="setting_daysoff_no_update">معلومات العطل الرسمية محدثه.</string>
     <string name="setting_daysoff_update">تحديث معلومات العطل الرسمية</string>
     <string name="setting_daysoff_update_cta_cancel">اسمح للتقويم بالاتصال بالإنترنت أولاً</string>
