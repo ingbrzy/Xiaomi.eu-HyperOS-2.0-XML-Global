@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Không có sự kiện ở đây. Chạm để tạo.</string>
     <string name="agenda_tomorrow">NGÀY MAI, %1$s</string>
     <string name="agenda_view">Sự kiện</string>
+    <string name="ai_introduce_card_sub_title">Để AI tự động thêm các chuyến đi, vé và các loại sự kiện khác vào lịch của bạn</string>
     <string name="alarm_close_reminder">Tắt báo thức nhắc nhở</string>
     <string name="alarm_label">Tôi biết</string>
     <string name="alarm_open_reminder">Đặt báo thức</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Kỷ niệm: %1$s</string>
     <string name="anniversary_secondary_tag">Kỷ niệm</string>
     <string name="app_label">Lịch</string>
+    <string name="apply_auto_insert_ai_event_button">Bật</string>
     <string name="attendees">Người tham gia</string>
     <string name="auto_import_birthday_from_contact">Nhập sinh nhật của liên hệ</string>
+    <string name="auto_insert_ai_event_toast">Trợ lý Sự kiện AI đã bật</string>
     <string name="back_to_today">Hôm nay</string>
     <string name="birthday_born">Ngày sinh</string>
     <string name="birthday_calendar_display_name">Nhắc nhở sinh nhật</string>
@@ -574,6 +577,7 @@ Kiểm tra cài đặt mạng và thử lại."</string>
     <string name="notification_open_setting_button_ok">Cho phép</string>
     <string name="notification_open_setting_message">Bạn sẽ không thể nhận thông báo về sự kiện trừ khi bạn cho phép Lịch gửi thông báo.</string>
     <string name="notification_open_setting_title">Cho phép thông báo Lịch?</string>
+    <string name="pasport_register_dialog_message">Tạo Tài khoản Xiaomi thông qua số điện thoại %s ngay?</string>
     <string name="passenger">Hành khách</string>
     <string name="passport_access_denied">Đã từ chối truy cập</string>
     <string name="passport_account_crop_user_avatar">Cắt ảnh</string>
@@ -591,7 +595,7 @@ Kiểm tra cài đặt mạng và thử lại."</string>
     <string name="passport_account_secure_info_pref_title">Thông tin tài khoản</string>
     <string name="passport_account_security_info_pref_title">Thông tin bảo mật</string>
     <string name="passport_account_user_avatar">Ảnh hồ sơ</string>
-    <string name="passport_account_user_avatar_from_album">Thư viện</string>
+    <string name="passport_account_user_avatar_from_album">Chọn từ Thư viện</string>
     <string name="passport_account_user_avatar_from_camera">Camera</string>
     <string name="passport_account_user_base_info">Thông tin cơ bản</string>
     <string name="passport_account_user_details">Thông tin cá nhân</string>
@@ -663,7 +667,6 @@ Kiểm tra cài đặt mạng và thử lại."</string>
     <string name="passport_login_register_by_local_phone_long_text">Tạo tài khoản</string>
     <string name="passport_login_with_sns">Đăng nhập theo cách khác</string>
     <string name="passport_logout_account">Đăng xuất</string>
-    <string name="passport_mi_account_first_title">Chúng tôi sẽ tự động tạo tài khoản nếu bạn sử dụng số điện thoại của mình lần đầu tiên.</string>
     <string name="passport_mi_account_title">Đăng nhập Tài khoản Xiaomi</string>
     <string name="passport_network_error">Lỗi mạng. Kiểm tra cài đặt mạng và thử lại.</string>
     <string name="passport_network_error_hint">Kiểm tra URL và thử lại hoặc sao chép URL và mở trong trình duyệt của bạn.</string>
@@ -672,6 +675,7 @@ Kiểm tra cài đặt mạng và thử lại."</string>
     <string name="passport_no_account">Chưa đăng nhập</string>
     <string name="passport_open_settings">Cài đặt</string>
     <string name="passport_page_load_failed">Không thể mở trang</string>
+    <string name="passport_password_hide_show">Ẩn mật khẩu</string>
     <string name="passport_password_login_btn">Đăng nhập</string>
     <string name="passport_password_not_show">Không hiển thị mật khẩu</string>
     <string name="passport_password_show">Hiển thị mật khẩu</string>
@@ -683,6 +687,8 @@ Kiểm tra cài đặt mạng và thử lại."</string>
     <string name="passport_reging">Đang tạo tài khoản…</string>
     <string name="passport_register_by_local_phone_long_text">Tạo tài khoản</string>
     <string name="passport_register_by_local_phone_short_text">Tạo tài khoản</string>
+    <string name="passport_register_dialog_positive">Tạo</string>
+    <string name="passport_register_dialog_title">Tạo Tài khoản Xiaomi</string>
     <string name="passport_register_restricted">Số điện thoại này được liên kết với quá nhiều tài khoản. Thử sử dụng số điện thoại khác.</string>
     <string name="passport_relogin_notice">Bạn cần phải đăng nhập lại</string>
     <string name="passport_request_agree">Cho phép</string>
@@ -691,7 +697,8 @@ Kiểm tra cài đặt mạng và thử lại."</string>
     <string name="passport_request_error_invalid_token">Không thể xác minh</string>
     <string name="passport_request_error_network">Lỗi mạng. Kiểm tra cài đặt mạng và thử lại.</string>
     <string name="passport_request_error_unknown">Lỗi hệ thống. Quay lại và thử lại.</string>
-    <string name="passport_request_gallery_permission_message">Cho phép truy cập Thư viện:&lt;br />Để cài đặt ảnh hồ sơ</string>
+    <string name="passport_request_gallery_permission_message">Ứng dụng này cần truy cập vào các mục Thư viện đã chọn để có thể đặt ảnh hồ sơ của bạn. Cho phép ngay?</string>
+    <string name="passport_request_permission_title">Yêu cầu quyền</string>
     <string name="passport_resend_ticket">Gửi lại mã</string>
     <string name="passport_retry">Thử lại</string>
     <string name="passport_send_sms_to">Mã đã được gửi đến %1$s</string>
@@ -862,6 +869,7 @@ Kiểm tra cài đặt mạng và thử lại."</string>
     <string name="setting_about_calendar_version">Phiên bản Lịch: %1$s-%2$s</string>
     <string name="setting_about_summary">Phiên bản:</string>
     <string name="setting_accounts">Tài khoản lịch</string>
+    <string name="setting_auto_insert">Trợ lý Sự kiện AI</string>
     <string name="setting_daysoff_no_update">Thông tin về các ngày lễ đã được cập nhật.</string>
     <string name="setting_daysoff_update">Cập nhật thông tin về ngày lễ</string>
     <string name="setting_daysoff_update_cta_cancel">Cho phép Lịch kết nối với internet trước</string>

@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Ancora nessun evento. Tocca per crearne uno.</string>
     <string name="agenda_tomorrow">DOMANI, %1$s</string>
     <string name="agenda_view">Eventi</string>
+    <string name="ai_introduce_card_sub_title">"Consenti all'AI di aggiungere automaticamente viaggi, biglietti e altri tipi di eventi al tuo calendario"</string>
     <string name="alarm_close_reminder">Disattivare il promemoria della sveglia</string>
     <string name="alarm_label">Ho capito</string>
     <string name="alarm_open_reminder">Imposta sveglia</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Anniversario: %1$s</string>
     <string name="anniversary_secondary_tag">Anniversario</string>
     <string name="app_label">Calendario</string>
+    <string name="apply_auto_insert_ai_event_button">Attiva</string>
     <string name="attendees">Partecipanti</string>
     <string name="auto_import_birthday_from_contact">Importa i compleanni dei contatti</string>
+    <string name="auto_insert_ai_event_toast">Assistente eventi AI attivo</string>
     <string name="back_to_today">Oggi</string>
     <string name="birthday_born">Data di nascita</string>
     <string name="birthday_calendar_display_name">Promemoria compleanni</string>
@@ -576,6 +579,7 @@ Verifica le impostazioni di rete e riprova."</string>
     <string name="notification_open_setting_button_ok">Consenti</string>
     <string name="notification_open_setting_message">Non sarai in grado di ricevere notifiche sugli eventi se non consenti a Calendario di inviarti notifiche.</string>
     <string name="notification_open_setting_title">Consentire le notifiche da Calendario?</string>
+    <string name="pasport_register_dialog_message">Desideri creare uno Xiaomi Account tramite il tuo numero di telefono %s ora?</string>
     <string name="passenger">Passeggero</string>
     <string name="passport_access_denied">Accesso negato</string>
     <string name="passport_account_crop_user_avatar">Ritaglia la foto</string>
@@ -593,7 +597,7 @@ Verifica le impostazioni di rete e riprova."</string>
     <string name="passport_account_secure_info_pref_title">Informazioni account</string>
     <string name="passport_account_security_info_pref_title">Informazioni di sicurezza</string>
     <string name="passport_account_user_avatar">Foto del profilo</string>
-    <string name="passport_account_user_avatar_from_album">Galleria</string>
+    <string name="passport_account_user_avatar_from_album">Seleziona dalla Galleria</string>
     <string name="passport_account_user_avatar_from_camera">Fotocamera</string>
     <string name="passport_account_user_base_info">Informazioni di base</string>
     <string name="passport_account_user_details">Informazioni personali</string>
@@ -665,7 +669,6 @@ Verifica le impostazioni di rete e riprova."</string>
     <string name="passport_login_register_by_local_phone_long_text">Crea un account</string>
     <string name="passport_login_with_sns">Altri modi per accedere</string>
     <string name="passport_logout_account">Esci</string>
-    <string name="passport_mi_account_first_title">Creeremo automaticamente un account se utilizzi il tuo numero di telefono per la prima volta.</string>
     <string name="passport_mi_account_title">Accedi con Xiaomi Account</string>
     <string name="passport_network_error">Si è verificato un errore di rete. Verifica le impostazioni di rete e riprova.</string>
     <string name="passport_network_error_hint">"Controlla l'URL e riprova, oppure copia l'URL e aprilo nel browser."</string>
@@ -674,6 +677,7 @@ Verifica le impostazioni di rete e riprova."</string>
     <string name="passport_no_account">Accesso non effettuato</string>
     <string name="passport_open_settings">Impostazioni</string>
     <string name="passport_page_load_failed">Impossibile aprire la pagina</string>
+    <string name="passport_password_hide_show">Nascondi password</string>
     <string name="passport_password_login_btn">Accedi</string>
     <string name="passport_password_not_show">Non mostrare la password</string>
     <string name="passport_password_show">Mostra la password</string>
@@ -685,6 +689,8 @@ Verifica le impostazioni di rete e riprova."</string>
     <string name="passport_reging">Creazione account…</string>
     <string name="passport_register_by_local_phone_long_text">Crea un account</string>
     <string name="passport_register_by_local_phone_short_text">Crea un account</string>
+    <string name="passport_register_dialog_positive">Crea</string>
+    <string name="passport_register_dialog_title">Crea Xiaomi Account</string>
     <string name="passport_register_restricted">Troppi account associati a questo numero. Provane uno diverso.</string>
     <string name="passport_relogin_notice">"Devi eseguire di nuovo l'accesso"</string>
     <string name="passport_request_agree">Consenti</string>
@@ -693,7 +699,8 @@ Verifica le impostazioni di rete e riprova."</string>
     <string name="passport_request_error_invalid_token">Impossibile verificare</string>
     <string name="passport_request_error_network">Si è verificato un errore di rete. Verifica le impostazioni di rete e riprova.</string>
     <string name="passport_request_error_unknown">Si è verificato un errore di sistema. Torna indietro e riprova.</string>
-    <string name="passport_request_gallery_permission_message">"Consenti l'accesso alla Galleria:&lt;br />Per impostare le foto profilo"</string>
+    <string name="passport_request_gallery_permission_message">Questa applicazione deve accedere agli elementi della Galleria selezionati per poter impostare la foto profilo. Rimborsare ora?</string>
+    <string name="passport_request_permission_title">Permessi richiesti</string>
     <string name="passport_resend_ticket">Reinvia il codice</string>
     <string name="passport_retry">Riprova</string>
     <string name="passport_send_sms_to">Codice inviato a %1$s</string>
@@ -865,6 +872,7 @@ Verifica le impostazioni di rete e riprova."</string>
     <string name="setting_about_calendar_version">Versione di Calendario: %1$s-%2$s</string>
     <string name="setting_about_summary">Versione:</string>
     <string name="setting_accounts">Account Calendario</string>
+    <string name="setting_auto_insert">Assistente eventi AI</string>
     <string name="setting_daysoff_no_update">Le informazioni sui giorni festivi sono aggiornate.</string>
     <string name="setting_daysoff_update">Aggiorna le informazioni sui giorni festivi</string>
     <string name="setting_daysoff_update_cta_cancel">Consenti prima a Calendario di connettersi a Internet</string>

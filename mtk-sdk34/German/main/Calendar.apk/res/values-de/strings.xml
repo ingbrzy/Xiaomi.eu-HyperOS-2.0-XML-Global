@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Hier gibt es noch keine Ereignisse. Tippen, um eines zu erstellen.</string>
     <string name="agenda_tomorrow">MORGEN, %1$s</string>
     <string name="agenda_view">Ereignisse</string>
+    <string name="ai_introduce_card_sub_title">KI kann automatisch Reisen, Tickets und andere Arten von Ereignissen zu deinem Kalender hinzufügen</string>
     <string name="alarm_close_reminder">Wecker-Erinnerung ausschalten</string>
     <string name="alarm_label">Verstanden</string>
     <string name="alarm_open_reminder">Wecker stellen</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Jahrestag: %1$s</string>
     <string name="anniversary_secondary_tag">Jahrestag</string>
     <string name="app_label">Kalender</string>
+    <string name="apply_auto_insert_ai_event_button">Einschalten</string>
     <string name="attendees">Teilnehmer</string>
     <string name="auto_import_birthday_from_contact">Geburtstage von Kontakten importieren</string>
+    <string name="auto_insert_ai_event_toast">KI-Ereignisassistent ist an</string>
     <string name="back_to_today">Heute</string>
     <string name="birthday_born">Geburtsdatum</string>
     <string name="birthday_calendar_display_name">Geburtstagserinnerungen</string>
@@ -576,6 +579,7 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="notification_open_setting_button_ok">Erlauben</string>
     <string name="notification_open_setting_message">Du kannst keine Benachrichtigungen über Ereignisse erhalten, es sei denn, du erlaubst dem Kalender, dir Benachrichtigungen zu senden.</string>
     <string name="notification_open_setting_title">Kalender-Benachrichtigungen erlauben?</string>
+    <string name="pasport_register_dialog_message">Jetzt ein Xiaomi-Konto mit deiner Telefonnummer %s erstellen?</string>
     <string name="passenger">Passagier</string>
     <string name="passport_access_denied">Zugriff verweigert</string>
     <string name="passport_account_crop_user_avatar">Foto zuschneiden</string>
@@ -593,7 +597,7 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="passport_account_secure_info_pref_title">Kontoinformationen</string>
     <string name="passport_account_security_info_pref_title">Sicherheitsinformationen</string>
     <string name="passport_account_user_avatar">Profilfoto</string>
-    <string name="passport_account_user_avatar_from_album">Galerie</string>
+    <string name="passport_account_user_avatar_from_album">Von Galerie auswählen</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Grundlegende Infos</string>
     <string name="passport_account_user_details">Persönliche Infos</string>
@@ -665,7 +669,6 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="passport_login_register_by_local_phone_long_text">Konto erstellen</string>
     <string name="passport_login_with_sns">Andere Möglichkeiten zum Anmelden</string>
     <string name="passport_logout_account">Abmelden</string>
-    <string name="passport_mi_account_first_title">Bei erstmaliger Verwendung deiner Telefonnummer erstellen wir automatisch ein Konto.</string>
     <string name="passport_mi_account_title">Mit Xiaomi-Konto anmelden</string>
     <string name="passport_network_error">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="passport_network_error_hint">Überprüfe die URL und versuche es erneut oder kopiere die URL und öffne sie in deinem Browser.</string>
@@ -674,6 +677,7 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="passport_no_account">Nicht angemeldet</string>
     <string name="passport_open_settings">Einstellungen</string>
     <string name="passport_page_load_failed">Seite lässt sich nicht öffnen</string>
+    <string name="passport_password_hide_show">Passwort ausblenden</string>
     <string name="passport_password_login_btn">Anmelden</string>
     <string name="passport_password_not_show">Passwort nicht anzeigen</string>
     <string name="passport_password_show">Passwort anzeigen</string>
@@ -685,6 +689,8 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="passport_reging">Konto wird erstellt…</string>
     <string name="passport_register_by_local_phone_long_text">Konto erstellen</string>
     <string name="passport_register_by_local_phone_short_text">Konto erstellen</string>
+    <string name="passport_register_dialog_positive">Erstellen</string>
+    <string name="passport_register_dialog_title">Xiaomi-Konto erstellen</string>
     <string name="passport_register_restricted">Mit dieser Nummer wurden zu viele Konten verknüpft. Probiere bitte eine andere.</string>
     <string name="passport_relogin_notice">Du musst dich erneut anmelden</string>
     <string name="passport_request_agree">Zulassen</string>
@@ -693,7 +699,8 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="passport_request_error_invalid_token">Verifizierung nicht möglich</string>
     <string name="passport_request_error_network">Ein Netzwerkfehler ist aufgetreten. Netzwerkeinstellungen prüfen und erneut versuchen.</string>
     <string name="passport_request_error_unknown">Ein Systemfehler ist aufgetreten. Gehe zurück und versuche es erneut.</string>
-    <string name="passport_request_gallery_permission_message">Zugriff auf Galerie erlauben:&lt;br />Zum Einstellen von Profilfotos</string>
+    <string name="passport_request_gallery_permission_message">Diese App muss auf ausgewählte Galerieelemente zugreifen, um dein Profilfoto festlegen zu können. Jetzt erlauben?</string>
+    <string name="passport_request_permission_title">Berechtigung erforderlich</string>
     <string name="passport_resend_ticket">Code erneut senden</string>
     <string name="passport_retry">Wiederholen</string>
     <string name="passport_send_sms_to">Code wurde an %1$s gesendet</string>
@@ -865,6 +872,7 @@ Netzwerkeinstellungen überprüfen und erneut versuchen."</string>
     <string name="setting_about_calendar_version">Kalender-Version: %1$s–%2$s</string>
     <string name="setting_about_summary">Version:</string>
     <string name="setting_accounts">Kalenderkonten</string>
+    <string name="setting_auto_insert">KI-Ereignisassistent</string>
     <string name="setting_daysoff_no_update">Die Informationen über Feiertage sind auf dem neuesten Stand.</string>
     <string name="setting_daysoff_update">Informationen über Feiertage aktualisieren</string>
     <string name="setting_daysoff_update_cta_cancel">Kalender zunächst erlauben, sich mit dem Internet zu verbinden</string>

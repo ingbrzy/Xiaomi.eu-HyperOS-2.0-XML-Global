@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Още няма събития. Създайте едно.</string>
     <string name="agenda_tomorrow">УТРЕ, %1$s</string>
     <string name="agenda_view">Събития</string>
+    <string name="ai_introduce_card_sub_title">Позволете на AI автоматично да добавя пътувания, билети и други видове събития към вашия календар</string>
     <string name="alarm_close_reminder">Изключване на напомнянето за аларма</string>
     <string name="alarm_label">Разбрах</string>
     <string name="alarm_open_reminder">Настройване на аларма</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Годишнина: %1$s</string>
     <string name="anniversary_secondary_tag">Годишнина</string>
     <string name="app_label">Календар</string>
+    <string name="apply_auto_insert_ai_event_button">Включване</string>
     <string name="attendees">Участници</string>
     <string name="auto_import_birthday_from_contact">Внасяне на рождени дни на контакти</string>
+    <string name="auto_insert_ai_event_toast">AI Асистента за събития е включен</string>
     <string name="back_to_today">Днес</string>
     <string name="birthday_born">Дата на раждане</string>
     <string name="birthday_calendar_display_name">Напомняне за рожден ден</string>
@@ -576,6 +579,7 @@
     <string name="notification_open_setting_button_ok">Разрешаване</string>
     <string name="notification_open_setting_message">Няма да можете да получавате известия за събития, освен ако не позволите на Календар да Ви изпраща известия.</string>
     <string name="notification_open_setting_title">Разрешавате ли известия от Календара?</string>
+    <string name="pasport_register_dialog_message">Желаете ли да създадете Xiaomi Профил чрез своя телефонен номер %s?</string>
     <string name="passenger">Пътник</string>
     <string name="passport_access_denied">Достъпът е отказан</string>
     <string name="passport_account_crop_user_avatar">Изрязване на снимка</string>
@@ -593,7 +597,7 @@
     <string name="passport_account_secure_info_pref_title">Информация за профила</string>
     <string name="passport_account_security_info_pref_title">Информация за сигурност</string>
     <string name="passport_account_user_avatar">Профилна снимка</string>
-    <string name="passport_account_user_avatar_from_album">Галерия</string>
+    <string name="passport_account_user_avatar_from_album">Изберете от Галерията</string>
     <string name="passport_account_user_avatar_from_camera">Камера</string>
     <string name="passport_account_user_base_info">Основна информация</string>
     <string name="passport_account_user_details">Лична информация</string>
@@ -665,7 +669,6 @@
     <string name="passport_login_register_by_local_phone_long_text">Създаване на профил</string>
     <string name="passport_login_with_sns">Други начини за вписване</string>
     <string name="passport_logout_account">Отписване</string>
-    <string name="passport_mi_account_first_title">Ако използвате телефонния си номер за пръв път ние ще създадем профил автоматично.</string>
     <string name="passport_mi_account_title">Вписване с Xiaomi Профил</string>
     <string name="passport_network_error">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="passport_network_error_hint">Проверете URL адреса и опитайте отново, или копирайте URL адреса и го отворете в браузъра си.</string>
@@ -674,6 +677,7 @@
     <string name="passport_no_account">Не сте вписани</string>
     <string name="passport_open_settings">Настройки</string>
     <string name="passport_page_load_failed">Страницата не може да бъде отворена</string>
+    <string name="passport_password_hide_show">Скрий паролата</string>
     <string name="passport_password_login_btn">Вписване</string>
     <string name="passport_password_not_show">Не показвай паролата</string>
     <string name="passport_password_show">Покажи паролата</string>
@@ -685,6 +689,8 @@
     <string name="passport_reging">Създаване на профил…</string>
     <string name="passport_register_by_local_phone_long_text">Създаване на профил</string>
     <string name="passport_register_by_local_phone_short_text">Създаване на профил</string>
+    <string name="passport_register_dialog_positive">Създай</string>
+    <string name="passport_register_dialog_title">Създаване на Xiaomi Профил</string>
     <string name="passport_register_restricted">Твърде много профили са асоциирани с този номер. Опитайте с друг.</string>
     <string name="passport_relogin_notice">Трябва да се впишете отново</string>
     <string name="passport_request_agree">Разреши</string>
@@ -693,7 +699,8 @@
     <string name="passport_request_error_invalid_token">Неуспешно потвърждаване</string>
     <string name="passport_request_error_network">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="passport_request_error_unknown">Възникна системна грешка. Върнете се назад и опитайте отново.</string>
-    <string name="passport_request_gallery_permission_message">Разрешете достъп до Галерия:&lt;br />За настройване на профилни снимки</string>
+    <string name="passport_request_gallery_permission_message">Това приложение се нуждае от достъп до избрани елементи от Галерията, за да може да зададе Вашата профилна снимка. Желаете ли да дадете разрешение?</string>
+    <string name="passport_request_permission_title">Необходими са разрешения</string>
     <string name="passport_resend_ticket">Повторно изпращане</string>
     <string name="passport_retry">Опитайте отново</string>
     <string name="passport_send_sms_to">Беше изпратен код до %1$s</string>
@@ -865,6 +872,7 @@
     <string name="setting_about_calendar_version">Версия на Календара: %1$s-%2$s</string>
     <string name="setting_about_summary">Версия:</string>
     <string name="setting_accounts">Календарни профили</string>
+    <string name="setting_auto_insert">AI Асистент за събития</string>
     <string name="setting_daysoff_no_update">Информацията за официалните празници е актуална.</string>
     <string name="setting_daysoff_update">Обновяване на информацията за официални празници</string>
     <string name="setting_daysoff_update_cta_cancel">Първо разрешете на Календара да се свърже с интернет</string>
