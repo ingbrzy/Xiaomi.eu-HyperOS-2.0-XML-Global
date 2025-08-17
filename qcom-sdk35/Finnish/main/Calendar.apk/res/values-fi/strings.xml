@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Ei tapahtumia täällä vielä. Luo sellainen napauttamalla.</string>
     <string name="agenda_tomorrow">HUOMENNA, %1$s</string>
     <string name="agenda_view">Tapahtumat</string>
+    <string name="ai_introduce_card_sub_title">Anna tekoälyn lisätä automaattisesti matkoja, lippuja ja muita tapahtumia kalenteriisi</string>
     <string name="alarm_close_reminder">Hälytysmuistutuksen sammuttaminen</string>
     <string name="alarm_label">Selvä</string>
     <string name="alarm_open_reminder">Aseta hälytys</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Vuosipäivä: %1$s</string>
     <string name="anniversary_secondary_tag">Vuosipäivä</string>
     <string name="app_label">Kalenteri</string>
+    <string name="apply_auto_insert_ai_event_button">Ota käyttöön</string>
     <string name="attendees">Osallistujat</string>
     <string name="auto_import_birthday_from_contact">Tuo yhteystietojen syntymäpäivät</string>
+    <string name="auto_insert_ai_event_toast">Tekoälytapahtuma-avustaja on käytössä</string>
     <string name="back_to_today">Tänään</string>
     <string name="birthday_born">Syntymäpäivä</string>
     <string name="birthday_calendar_display_name">Syntymäpäivämuistutukset</string>
@@ -576,6 +579,7 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="notification_open_setting_button_ok">Salli</string>
     <string name="notification_open_setting_message">Et voi vastaanottaa ilmoituksia tapahtumista, ellet anna Kalenterin lähettää sinulle ilmoituksia.</string>
     <string name="notification_open_setting_title">Salli Kalenteri-ilmoitukset?</string>
+    <string name="pasport_register_dialog_message">Luodaanko Xiaomi-tili puhelinnumerollasi %s nyt?</string>
     <string name="passenger">Matkustaja</string>
     <string name="passport_access_denied">Pääsy evätty</string>
     <string name="passport_account_crop_user_avatar">Rajaa kuva</string>
@@ -593,7 +597,7 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="passport_account_secure_info_pref_title">Tilitiedot</string>
     <string name="passport_account_security_info_pref_title">Tietoturvatiedot</string>
     <string name="passport_account_user_avatar">Profiilikuva</string>
-    <string name="passport_account_user_avatar_from_album">Galleria</string>
+    <string name="passport_account_user_avatar_from_album">Valitse Galleriasta</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Perustiedot</string>
     <string name="passport_account_user_details">Henkilökohtaiset tiedot</string>
@@ -665,7 +669,6 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="passport_login_register_by_local_phone_long_text">Luo tili</string>
     <string name="passport_login_with_sns">Muita kirjautumistapoja</string>
     <string name="passport_logout_account">Kirjaudu ulos</string>
-    <string name="passport_mi_account_first_title">Luomme tilin automaattisesti, jos käytät puhelinnumeroasi ensimmäistä kertaa.</string>
     <string name="passport_mi_account_title">Kirjaudu Xiaomi-tililläsi</string>
     <string name="passport_network_error">Tapahtui verkkovirhe. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="passport_network_error_hint">Tarkista URL-osoite ja yritä uudelleen tai kopioi URL-osoite ja avaa se selaimessasi.</string>
@@ -674,6 +677,7 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="passport_no_account">Ei kirjautunut</string>
     <string name="passport_open_settings">Asetukset</string>
     <string name="passport_page_load_failed">Sivua ei voitu avata</string>
+    <string name="passport_password_hide_show">Piilota salasana</string>
     <string name="passport_password_login_btn">Kirjaudu sisään</string>
     <string name="passport_password_not_show">Älä näytä salasanaa</string>
     <string name="passport_password_show">Näytä salasana</string>
@@ -685,6 +689,8 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="passport_reging">Luodaan tiliä…</string>
     <string name="passport_register_by_local_phone_long_text">Luo tili</string>
     <string name="passport_register_by_local_phone_short_text">Luo tili</string>
+    <string name="passport_register_dialog_positive">Luo</string>
+    <string name="passport_register_dialog_title">Luo Xiaomi-tili</string>
     <string name="passport_register_restricted">Liian monta tiliä on liitettynä tämän numeron kanssa. Kokeile toista.</string>
     <string name="passport_relogin_notice">Sinun täytyy kirjautua uudelleen</string>
     <string name="passport_request_agree">Salli</string>
@@ -693,7 +699,8 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="passport_request_error_invalid_token">Ei voitu vahvistaa</string>
     <string name="passport_request_error_network">Tapahtui verkkovirhe. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="passport_request_error_unknown">Tapahtui järjestelmävirhe. Palaa takaisin ja yritä uudelleen.</string>
-    <string name="passport_request_gallery_permission_message">Salli pääsy Galleriaan:&lt;br />Profiilikuvien asettamiseen</string>
+    <string name="passport_request_gallery_permission_message">Tämän sovelluksen on käytettävä valittuja Gallerian kohteita voidakseen asettaa profiilikuvasi. Salli nyt?</string>
+    <string name="passport_request_permission_title">Käyttöoikeuksia vaaditaan</string>
     <string name="passport_resend_ticket">Lähetä koodi uudelleen</string>
     <string name="passport_retry">Yritä uudelleen</string>
     <string name="passport_send_sms_to">Koodi lähetetty kohteeseen %1$s</string>
@@ -865,6 +872,7 @@ Tarkista verkkoasetukset ja yritä uudelleen."</string>
     <string name="setting_about_calendar_version">Kalenteriversio: %1$s-%2$s</string>
     <string name="setting_about_summary">Versio:</string>
     <string name="setting_accounts">Kalenteritilit</string>
+    <string name="setting_auto_insert">Tekoälytapahtuma-avustaja</string>
     <string name="setting_daysoff_no_update">Yleisiä vapaapäiviä koskevat tiedot ovat ajan tasalla.</string>
     <string name="setting_daysoff_update">Päivitä tiedot yleisistä juhlapyhistä</string>
     <string name="setting_daysoff_update_cta_cancel">Anna Kalenterin muodostaa ensin yhteys Internetiin</string>
