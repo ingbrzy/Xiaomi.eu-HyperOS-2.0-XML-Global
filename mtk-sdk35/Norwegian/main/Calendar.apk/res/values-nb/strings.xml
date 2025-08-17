@@ -76,6 +76,7 @@
     <string name="agenda_not_today_empty_hint">Ingen hendelser her enda. Trykk for å opprette en.</string>
     <string name="agenda_tomorrow">I MORGEN, %1$s</string>
     <string name="agenda_view">Hendelser</string>
+    <string name="ai_introduce_card_sub_title">La KI automatisk legge til reiser, billetter og andre typer hendelser i kalenderen din</string>
     <string name="alarm_close_reminder">Deaktivere alarmpåminnelse</string>
     <string name="alarm_label">Skjønner</string>
     <string name="alarm_open_reminder">Still alarm</string>
@@ -88,8 +89,10 @@
     <string name="anniversary_event_title">Jubileum: %1$s</string>
     <string name="anniversary_secondary_tag">Jubileum</string>
     <string name="app_label">Kalender</string>
+    <string name="apply_auto_insert_ai_event_button">Aktiver</string>
     <string name="attendees">Deltakere</string>
     <string name="auto_import_birthday_from_contact">Importer kontakters bursdager</string>
+    <string name="auto_insert_ai_event_toast">KI-hendelsesassistent er aktivert</string>
     <string name="back_to_today">I dag</string>
     <string name="birthday_born">Fødselsdato</string>
     <string name="birthday_calendar_display_name">Bursdagspåminnelser</string>
@@ -574,6 +577,7 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="notification_open_setting_button_ok">Tillat</string>
     <string name="notification_open_setting_message">Du vil ikke kunne motta varsler om hendelser hvis du ikke tillater Kalender å sende varsler.</string>
     <string name="notification_open_setting_title">Tillate kalendervarsler?</string>
+    <string name="pasport_register_dialog_message">Opprette en Mi-konto med telefonnummeret %s nå?</string>
     <string name="passenger">Passasjer</string>
     <string name="passport_access_denied">Tilgang avslått</string>
     <string name="passport_account_crop_user_avatar">Beskjær bilde</string>
@@ -591,7 +595,7 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="passport_account_secure_info_pref_title">Kontoinformasjon</string>
     <string name="passport_account_security_info_pref_title">Sikkerhetsinformasjon</string>
     <string name="passport_account_user_avatar">Profilbilde</string>
-    <string name="passport_account_user_avatar_from_album">Galleri</string>
+    <string name="passport_account_user_avatar_from_album">Velg fra Galleri</string>
     <string name="passport_account_user_avatar_from_camera">Kamera</string>
     <string name="passport_account_user_base_info">Grunnleggende informasjon</string>
     <string name="passport_account_user_details">Personopplysninger</string>
@@ -663,7 +667,6 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="passport_login_register_by_local_phone_long_text">Opprett konto</string>
     <string name="passport_login_with_sns">Andre måter å logge inn</string>
     <string name="passport_logout_account">Logg ut</string>
-    <string name="passport_mi_account_first_title">Vi oppretter en konto automatisk hvis du bruker telefonnummeret ditt for første gang.</string>
     <string name="passport_mi_account_title">Logg inn med Mi-konto</string>
     <string name="passport_network_error">En nettverksfeil oppstod. Sjekk nettverksinnstillingene, og prøv igjen.</string>
     <string name="passport_network_error_hint">Sjekk nettstedsadressen og prøv igjen, eller kopier nettstedsadressen og åpne den i nettleseren din.</string>
@@ -672,6 +675,7 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="passport_no_account">Ikke logget inn</string>
     <string name="passport_open_settings">Innstillinger</string>
     <string name="passport_page_load_failed">Kan ikke åpne side</string>
+    <string name="passport_password_hide_show">Skul passord</string>
     <string name="passport_password_login_btn">Logg inn</string>
     <string name="passport_password_not_show">Ikke vis passord</string>
     <string name="passport_password_show">Vis passord</string>
@@ -683,6 +687,8 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="passport_reging">Oppretter konto…</string>
     <string name="passport_register_by_local_phone_long_text">Opprett konto</string>
     <string name="passport_register_by_local_phone_short_text">Opprett konto</string>
+    <string name="passport_register_dialog_positive">Opprett</string>
+    <string name="passport_register_dialog_title">Opprett Mi-konto</string>
     <string name="passport_register_restricted">For mange kontoer er tilknyttet dette nummeret, prøv et annet.</string>
     <string name="passport_relogin_notice">Du må logge inn på nytt</string>
     <string name="passport_request_agree">Tillat</string>
@@ -691,7 +697,8 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="passport_request_error_invalid_token">Kunne ikke bekrefte</string>
     <string name="passport_request_error_network">En nettverksfeil oppstod. Sjekk dine nettverksinnstillinger og prøv igjen.</string>
     <string name="passport_request_error_unknown">Det oppstod en systemfeil. Gå tilbake og prøv igjen.</string>
-    <string name="passport_request_gallery_permission_message">Gi tilgang til Galleri:&lt;br />For å angi profilbilder</string>
+    <string name="passport_request_gallery_permission_message">Denne appen trenger tilgang til de valgte Galleri-elementene for å kunne angi profilbildet ditt. Tillate nå?</string>
+    <string name="passport_request_permission_title">Tillatelser kreves</string>
     <string name="passport_resend_ticket">Send koden på nytt</string>
     <string name="passport_retry">Prøv igjen</string>
     <string name="passport_send_sms_to">Kode sendt til %1$s</string>
@@ -862,6 +869,7 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="setting_about_calendar_version">Kalender-versjon: %1$s-%2$s</string>
     <string name="setting_about_summary">Versjon:</string>
     <string name="setting_accounts">Kalenderkontoer</string>
+    <string name="setting_auto_insert">KI-hendelsesassistent</string>
     <string name="setting_daysoff_no_update">Informasjonen om offentlige helligdager er oppdatert.</string>
     <string name="setting_daysoff_update">Oppdater info om offentlige fridager</string>
     <string name="setting_daysoff_update_cta_cancel">Gi kalenderen tillatelse til å koble til Internett først</string>

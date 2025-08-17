@@ -50,6 +50,7 @@
     <string name="agenda_not_today_empty_hint">هنوز رویدادی اینجا نیست. برای ایجاد ضربه بزنید.</string>
     <string name="agenda_tomorrow">فردا، %1$s</string>
     <string name="agenda_view">رویدادها</string>
+    <string name="ai_introduce_card_sub_title">به AI اجازه دهید به طور خودکار سفرها، بلیط‌ها و انواع دیگر رویدادها را به سالنامه شما بیافزاید.</string>
     <string name="alarm_close_reminder">خاموش کردن یادآور هشدار</string>
     <string name="alarm_label">متوجه‌ام</string>
     <string name="alarm_open_reminder">تنظیم هشدار</string>
@@ -62,8 +63,10 @@
     <string name="anniversary_event_title">سالگرد: %1$s</string>
     <string name="anniversary_secondary_tag">سالگرد</string>
     <string name="app_label">سالنامه</string>
+    <string name="apply_auto_insert_ai_event_button">روشن</string>
     <string name="attendees">شرکت کنندگان</string>
     <string name="auto_import_birthday_from_contact">وارد کردن روز تولد مخاطبان</string>
+    <string name="auto_insert_ai_event_toast">دستیار رویداد AI روشن است</string>
     <string name="back_to_today">امروز</string>
     <string name="birthday_born">تاریخ تولد</string>
     <string name="birthday_calendar_display_name">یادآورهای زادروز</string>
@@ -540,6 +543,7 @@
     <string name="notification_open_setting_button_ok">اجازه دادن</string>
     <string name="notification_open_setting_message">تا زمانی که به سالنامه اجازه ارسال اعلان‌ها را ندهید، هیچ اعلانی درباره رویدادها دریافت نخواهید کرد.</string>
     <string name="notification_open_setting_title">اجازه اعلان‌های سالنامه داده شود؟</string>
+    <string name="pasport_register_dialog_message">از طریق شماره تلفن شما %s حساب Xiaomi ایجاد شود؟</string>
     <string name="passenger">مسافر</string>
     <string name="passport_access_denied">دسترسی رد شد</string>
     <string name="passport_account_crop_user_avatar">بریدن عکس</string>
@@ -557,7 +561,7 @@
     <string name="passport_account_secure_info_pref_title">اطلاعات حساب</string>
     <string name="passport_account_security_info_pref_title">اطلاعات امنیتی</string>
     <string name="passport_account_user_avatar">عکس نمایه</string>
-    <string name="passport_account_user_avatar_from_album">گالری</string>
+    <string name="passport_account_user_avatar_from_album">انتخاب از گالری</string>
     <string name="passport_account_user_avatar_from_camera">دوربین</string>
     <string name="passport_account_user_base_info">اطلاعات پایه‌ای</string>
     <string name="passport_account_user_details">اطلاعات شخصی</string>
@@ -629,7 +633,6 @@
     <string name="passport_login_register_by_local_phone_long_text">ایجاد حساب</string>
     <string name="passport_login_with_sns">راه‌های دیگر برای ورود</string>
     <string name="passport_logout_account">خروج از حساب</string>
-    <string name="passport_mi_account_first_title">چنانچه نخستین بار است از شماره تلفن خود استفاده می‌کنید، ما برای شما به صورت خودکار حسابی ایجاد خواهیم کرد.</string>
     <string name="passport_mi_account_title">ورود با حساب Xiaomi</string>
     <string name="passport_network_error">یک خطای شبکه رخ داد. تنظیمات شبکه خود را بررسی کرده و سپس دوباره تلاش کنید.</string>
     <string name="passport_network_error_hint">پیوند را بررسی کرده و سپس دوباره تلاش کرده و یا پیوند را کپی کرده و آن را در مرورگر خود باز کنید.</string>
@@ -638,6 +641,7 @@
     <string name="passport_no_account">وارد حساب نشده است</string>
     <string name="passport_open_settings">تنظیمات</string>
     <string name="passport_page_load_failed">صفحه باز نمی‌شود</string>
+    <string name="passport_password_hide_show">پنهان کردن گذرواژه</string>
     <string name="passport_password_login_btn">ورود به حساب</string>
     <string name="passport_password_not_show">عدم نمایش گذرواژه</string>
     <string name="passport_password_show">نمایش گذرواژه</string>
@@ -649,6 +653,8 @@
     <string name="passport_reging">درحال ایجاد حساب…</string>
     <string name="passport_register_by_local_phone_long_text">ایجاد حساب</string>
     <string name="passport_register_by_local_phone_short_text">ایجاد حساب</string>
+    <string name="passport_register_dialog_positive">ایجاد</string>
+    <string name="passport_register_dialog_title">ایجاد حساب Xiaomi</string>
     <string name="passport_register_restricted">حساب‌های کاربری زیادی به این شماره تلفن متصل شده‌اند. یک شماره دیگر را امتحان کنید.</string>
     <string name="passport_relogin_notice">باید دوباره وارد شوید</string>
     <string name="passport_request_agree">اجازه دادن</string>
@@ -657,7 +663,8 @@
     <string name="passport_request_error_invalid_token">تأیید نشد</string>
     <string name="passport_request_error_network">یک خطای شبکه رخ داد. تنظیمات شبکه خود را بررسی کرده و سپس دوباره تلاش کنید.</string>
     <string name="passport_request_error_unknown">خطای سیستم رخ داده است. بازگردید و دوباره تلاش کنید.</string>
-    <string name="passport_request_gallery_permission_message">اجازه دسترسی به گالری:&lt;br />برای تنظیمات عکس‌های نمایه</string>
+    <string name="passport_request_gallery_permission_message">این برنامه برای امکان تنظیم عکس نمایه شما، نیاز به دسترسی به موارد انتخاب شده گالری دارد. اجازه داده شود؟</string>
+    <string name="passport_request_permission_title">نیازمند مجوز است</string>
     <string name="passport_resend_ticket">ارسال دوباره کد</string>
     <string name="passport_retry">تلاش دوباره</string>
     <string name="passport_send_sms_to">کد به %1$s ارسال شد</string>
@@ -826,6 +833,7 @@
     <string name="setting_about_calendar_version">نسخه سالنامه: %1$s-%2$s</string>
     <string name="setting_about_summary">نسخه:</string>
     <string name="setting_accounts">حساب‌های سالنامه</string>
+    <string name="setting_auto_insert">دستیار رویداد AI</string>
     <string name="setting_daysoff_no_update">اطلاعات درباره تعطیلات عمومی به‌روز است.</string>
     <string name="setting_daysoff_update">به‌روزرسانی اطلاعات درباره تعطیلات عمومی</string>
     <string name="setting_daysoff_update_cta_cancel">ابتدا به سالنامه اجازه اتصال به اینترنت را بدهید</string>
