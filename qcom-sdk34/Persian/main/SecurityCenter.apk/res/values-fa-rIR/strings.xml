@@ -939,6 +939,7 @@
     <string name="bubble_notification">حباب‌های گفتگو</string>
     <string name="bubble_notification_switch">نمایش حباب‌های گفتگو</string>
     <string name="bubble_notification_switch_desc">هنگامی که یک برنامه پیام‌رسان در یک پنجره شناور در لبه صفحه پنهان می‌شود، پیام‌های دریافتی به صورت حباب نمایان می‌شوند</string>
+    <string name="bubble_pickup_voice_print_auto">درحال ضبط اثر صدا…</string>
     <string name="button_background_connection">اجازه دادن</string>
     <string name="button_block_calls_from_cantacts">رفع انسداد</string>
     <string name="button_block_calls_from_strangers">رفع انسداد</string>
@@ -946,6 +947,8 @@
     <string name="button_do_not_disturb">خاموش کردن</string>
     <string name="button_eye_shield">خاموش کردن</string>
     <string name="button_first_aid_kit">تعمیر</string>
+    <string name="button_pickup_voice_print_auto_agree">ضبط</string>
+    <string name="button_pickup_voice_print_auto_disagree">اکنون نه</string>
     <string name="button_restrict_data_usage">اجازه دادن</string>
     <string name="button_text_accept">پذیرفتن</string>
     <string name="button_text_accept_timer">پذیرفتن (%d)</string>
@@ -1174,6 +1177,7 @@
     <string name="cpu_usage_view_action_btn_text">برای نمایش ضربه بزنید</string>
     <string name="create_gamebooster_destop">میان‌بر صفحه اصلی با موفقیت ایجاد شد</string>
     <string name="create_shortcut">یک میانبر صفحه اصلی برای افزاینده سرعت بازی ایجاد کنید</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">هنگام استفاده از دوربین‌های بین دستگاهی از این ویژگی استفاده نمی‌شود</string>
     <string name="cs_color_sense">دمای رنگ</string>
     <string name="cs_conversation_record_using">ضبط کردن</string>
@@ -1207,6 +1211,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">ضبط صدا</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">پیش از انتخاب «تک شرکت کننده» صدا را ضبط کنید</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">دستگاه‌های خارجی را قطع کرده و سپس دوباره تلاش کنید</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"صدای شما فقط برای این دستگاه ضبط و پردازش می‌شود.
+برای نتایج بهتر، تنها در یک محیط ساکت ضبط کنید."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">برای کاهش سر و صدای شخصی‌سازی شده اثر صدا لازم است</string>
     <string name="cs_pickup_voice_print_desc">برداشت صدای فقط یک نفر</string>
     <string name="cs_privacy_camera_global_settings_title">حریم خصوصی تماس</string>
     <string name="cs_record_voice_title">ضبط</string>
@@ -3190,8 +3197,7 @@
     <string name="oaid_apps_title">مدیریت شناسه مجازی</string>
     <string name="oaid_reset_content_tip">اگر شناسه مجازی را خاموش کنید، ممکن است کارکرد عادی برخی برنامه‌ها متوقف شده و بخشی از داده‌های برنامه شما ممکن است از بین رفته یا ناپایدار شود.</string>
     <string name="oaid_reset_final_tip">در هر صورت شناسه مجازی خاموش شود؟</string>
-    <string name="oaid_string">"شناسه مجازی کنونی:
-%1s"</string>
+    <string name="oaid_string">شناسه مجازی کنونی: %1s</string>
     <string name="oaid_tips_content">شناسه‌های مجازی (OAID) می‌تواند برای ردیابی رفتار شما و شخصی‌سازی تبلیغات برای شما استفاده شود. می‌توانید انتخاب کنید کدام برنامه‌ها اجازه دسترسی به شناسه مجازی شما را دارند. توجه داشته باشید که چنانچه دسترسی را محدود کنید، ممکن است پیشنهادهای تبلیغاتی بی ربط باشند یا برنامه‌ها نتوانند به طور عادی کار کنند.</string>
     <string name="ok">تأیید</string>
     <string name="ok_button">تأیید</string>
@@ -3535,7 +3541,6 @@
     <string name="pc_remind_close_cover_to_charge_summary">برای تجربه شارژ سریعتر و پایدارتر، پیش از شارژ کردن، دستگاه را تا کنید.</string>
     <string name="pc_remind_close_cover_to_charge_title">شارژ با تا کردن</string>
     <string name="pc_reminder_always_protect_summary">برای افزایش عمر باتری به شارژ محدود شده تعویض کنید</string>
-    <string name="pc_remove_shell_charging_notification_msg">در هنگام استفاده از قاب بازی کردن، از شارژ بی‌سیم نمی‌توان استفاده کرد. آن را جدا کرده و سپس دوباره تلاش کنید و یا از شارژ سیمی استفاده کنید.</string>
     <string name="pc_remove_shell_charging_notification_title">برای استفاده از شارژ بی‌سیم قاب گوشی را جدا کنید</string>
     <string name="pc_remove_shell_charging_toast">برای استفاده از شارژ بی‌سیم معکوس قاب گوشی را جدا کنید</string>
     <string name="pc_satellite_auto_enter_super_power">برای اطمینان از ارتباطات ماهواره‌ای، بهینه‌ساز فوق‌العاده باتری را روشن کرد</string>
@@ -3555,6 +3560,8 @@
     <string name="pc_smart_charge_notify_summary_high_temp_protect">برای محافظت از دستگاهتان در برابر داغ کردن، وقتی سطح باتری به %1$s رسید، شارژ متوقف می‌شود</string>
     <string name="pc_smart_charge_notify_summary_navagition">درحال پیمایش… شارژ کردن پس از رسیدن باتری به سطح %1$s متوقف خواهد شد</string>
     <string name="pc_smart_charge_notify_summary_night_charge">شارژ در %s متوقف خواهد شد</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">شارژ کردن در %1$s مکث شد. در %2$s ادامه خواهد یافت.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">شارژ زمانی که باتری به %1$s برسد مکث می‌شود و بر اساس میزان استفاده شما، به صورت خودکار از سر گرفته خواهد شد</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">برای افزایش طول عمر باتری، باتری این دستگاه هنگام اتصال به خودرو از سطح کنونی بالاتر نمی‌رود.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">دوباره نمایش داده نشود</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">محافظت از باتری</string>
@@ -3574,6 +3581,7 @@
     <string name="pc_suggest_open_fast_charge">شارژ فوری %d واتی را روشن کنید</string>
     <string name="pc_temperature_too_high">دستگاه داغ شده است</string>
     <string name="pc_this_time_charge_full">این بار کامل شارژ شود</string>
+    <string name="pc_this_time_charge_full_now">شارژ کامل</string>
     <string name="pc_this_time_charge_full_work">تقریباً کامل شارژ شده است</string>
     <string name="pc_timely_charging_summary">سطح باتری کمتر از %1$s است. اگر دستگاه در زمانی که باتری کم است بیش از حد گرم شود، ممکن است به باتری آسیب برسد.</string>
     <string name="pc_timely_charging_title">دستگاه خود را شارژ کنید</string>
@@ -3951,7 +3959,6 @@
     <string name="power_dialog_performance_mode_checkbox">تعویض به نرخ تازه‌سازی %d هرتز</string>
     <string name="power_dialog_super_save_msg">بهینه‌ساز باتری فوق‌العاده ویژگی‌های پر مصرف را محدود کرده و کارایی دستگاه شما را کاهش می‌دهد تا امکانات پایه‌ای (مانند تماس، پیامک و اتصال به اینترنت) را تا جایی که امکان دارد در دسترس نگه دارد. بهینه‌ساز باتری فوق‌العاده روشن شود؟</string>
     <string name="power_dialog_super_save_msg_5g">بهینه‌ساز فوق‌العاده باتری بیشتر ویژگی‌های پر مصرف (همچون اتصال 5G) که کارایی دستگاه شما را کاهش می‌دهند را محدود می‌کند. فقط تماس‌ها، پیام‌ها و اتصال شبکه تحت تأثیر قرار نمی‌گیرند. بهینه‌ساز فوق‌العاده روشن شود؟</string>
-    <string name="power_dialog_super_save_msg_p2">بهینه‌ساز باتری فوق‌العاده نمایشگر پشتی را خاموش کرده، ویژگی‌های پر مصرف را محدود کرده و کارایی دستگاه شما را کاهش می‌دهد تا امکانات پایه‌ای (مانند تماس، پیامک و اتصال به اینترنت) را تا جایی که امکان دارد در دسترس نگه دارد. بهینه‌ساز فوق‌العاده باتری روشن شود؟</string>
     <string name="power_dialog_super_save_title">بهینه‌ساز فوق‌العاده باتری</string>
     <string name="power_idle">بی‌کار بودن گوشی</string>
     <string name="power_main_battery_last_day_hour">%1$s روز و %2$s ساعت باقی مانده</string>
@@ -5653,10 +5660,14 @@ Rolled over extra data"</string>
     <string name="uninstall_app_dialog_msg">حذف برنامه تمام داده‌های برنامه را نیز حذف می‌کند.</string>
     <string name="uninstall_app_dialog_title">حالا حذف شود؟</string>
     <string name="uninstall_app_done">با موفقیت حذف شد</string>
+    <string name="uninstall_app_reminder_msg">من متوجه هستم داده‌های برنامه استفاده شده بازیابی نمی‌شوند</string>
+    <string name="uninstall_app_reminder_pre_title">حذف %s</string>
+    <string name="uninstall_app_reminder_toast">تأیید کنید که متوجه هستید داده‌های برنامه حذف شده بازیابی نخواهند شد</string>
     <string name="uninstall_danagerous_btn">حذف</string>
     <string name="uninstall_danagerous_desc">«%s» ممکن است به دستگاه شما آسیب برساند</string>
     <string name="uninstall_danagerous_msg">«%s» ممکن است به دستگاه شما آسیب برساند، کارایی آن را کاهش داده یا باعث راه‌اندازی دوباره می‌شود.</string>
     <string name="uninstall_danagerous_title">حذف برنامه‌های مخرب</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">حذف برنامه همزاد %s</string>
     <string name="unknown_operator">برای اطمینان از جزئیات طرح خود می‌توانید با %2$s به شماره %1$s تماس بگیرید.</string>
     <string name="unknown_package">مطمئن نیستید طرح شما کدام است؟</string>
     <string name="unlike">خیر، سپاسگزارم</string>
@@ -5871,7 +5882,7 @@ Rolled over extra data"</string>
     <string name="wakepath_delete_app_start_all">در صورت ادامه، مجوز باز کردن هر برنامه دیگری را باید دوباره به %s جداگانه اعطا کنید. در هر صورت ادامه یابد؟</string>
     <string name="wakepath_delete_app_start_other_app">در صورت ادامه، مجوز باز کردن %2$s را باید دوباره به %1$s جداگانه اعطا کنید. در هر صورت ادامه یابد؟</string>
     <string name="wakepath_manager_allow_list">مجاز</string>
-    <string name="wakepath_manager_allow_start">مجاز</string>
+    <string name="wakepath_manager_allow_start">همیشه اجازه داده شود</string>
     <string name="wakepath_manager_checkbox_desc">به %1$s اجازه اجرای برنامه‌های دیگر را می‌دهد</string>
     <string name="wakepath_manager_checkbox_title">اجازه آغاز زنجیره‌ای</string>
     <string name="wakepath_manager_empty_list">هیچ برنامه‌ای مجاز به اجرا نیست</string>

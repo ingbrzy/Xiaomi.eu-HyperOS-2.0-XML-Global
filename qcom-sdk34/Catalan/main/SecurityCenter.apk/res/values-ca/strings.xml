@@ -966,6 +966,7 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="bubble_notification">Bombolles de conversa</string>
     <string name="bubble_notification_switch">Mostra bombolles de conversa</string>
     <string name="bubble_notification_switch_desc">"Quan una aplicació de missatgeria en una finestra flotant s'amaga a la vora de la pantalla, mostra els missatges entrants en bombolles"</string>
+    <string name="bubble_pickup_voice_print_auto">"S'està gravant l'empremta de veu…"</string>
     <string name="button_background_connection">Permet</string>
     <string name="button_block_calls_from_cantacts">Desbloqueja</string>
     <string name="button_block_calls_from_strangers">Desbloqueja</string>
@@ -973,6 +974,8 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="button_do_not_disturb">Desactiva</string>
     <string name="button_eye_shield">Desactiva</string>
     <string name="button_first_aid_kit">Solucionar ara</string>
+    <string name="button_pickup_voice_print_auto_agree">Grava</string>
+    <string name="button_pickup_voice_print_auto_disagree">Ara no</string>
     <string name="button_restrict_data_usage">Permet</string>
     <string name="button_text_accept">"D'acord"</string>
     <string name="button_text_accept_timer">"D'acord (%d)"</string>
@@ -1231,6 +1234,7 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="cpu_usage_view_action_btn_text">Toqueu per veure</string>
     <string name="create_gamebooster_destop">"S'ha creat una drecera a la Pantalla d'inici amb èxit"</string>
     <string name="create_shortcut">"Crea una drecera a la Pantalla d'inici per l'Accelerador de Jocs"</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">"No es pot utilitzar aquesta funció mentre s'utilitza una càmera multidispositiu"</string>
     <string name="cs_color_sense">Temperatura del color</string>
     <string name="cs_conversation_record_using">"S'està enregistrant"</string>
@@ -1264,6 +1268,9 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="cs_pickup_vioce_print_private_dialog_title">"Enregistreu l'empremta de veu"</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">"Grava l'empremta de veu abans de seleccionar \"Participant únic\""</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Desconnecteu els dispositius externs i torneu-ho a provar</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"La vostra veu es gravarà i processarà només en aquest dispositiu.
+Per obtenir els millors resultats, graveu sol en un lloc tranquil."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Cal empremta vocal per a la reducció de soroll personalitzada</string>
     <string name="cs_pickup_voice_print_desc">"Capta el so només d'una persona"</string>
     <string name="cs_privacy_camera_global_settings_title">Privacitat de les trucades</string>
     <string name="cs_record_voice_title">Enregistra</string>
@@ -3352,8 +3359,7 @@ Proveu a fer servir un altre cable Ethernet per connectar l'encaminador. Si sosp
     <string name="oaid_apps_title">"Gestionar l'ID virtual"</string>
     <string name="oaid_reset_content_tip">"Si desactives l'ID virtual ara, és possible que algunes aplicacions deixin de funcionar correctament i que perdis part de les dades de les teves aplicacions, o que es tornin inestables."</string>
     <string name="oaid_reset_final_tip">"Segur que vols desactivar l'ID virtual?"</string>
-    <string name="oaid_string">"ID virtual actual:
-%1s"</string>
+    <string name="oaid_string">ID virtual actual:%1s</string>
     <string name="oaid_tips_content">"Els ID virtuals (OAID) es poden utilitzar per fer un seguiment del vostre comportament i personalitzar els anuncis. Podeu seleccionar quines aplicacions tenen permís per accedir al vostre identificador virtual. Tingueu en compte que, si restringiu l'accés, és possible que les recomanacions d'anuncis siguin irrellevants o que les aplicacions no funcionin amb normalitat."</string>
     <string name="ok">"D'acord"</string>
     <string name="ok_button">"D'acord"</string>
@@ -3699,7 +3705,6 @@ l'Estalvi de bateria ultra"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Plega el dispositiu abans de carregar per obtenir una experiència de càrrega més ràpida i estable.</string>
     <string name="pc_remind_close_cover_to_charge_title">Plega per carregar</string>
     <string name="pc_reminder_always_protect_summary">"Canvia a la càrrega limitada per reduir l'envelliment de la bateria"</string>
-    <string name="pc_remove_shell_charging_notification_msg">"No es pot utilitzar la càrrega sense fil quan s'utilitza una funda per a jocs. Treieu-la i torneu-ho a provar o utilitza la càrrega amb cable."</string>
     <string name="pc_remove_shell_charging_notification_title">Retireu la funda per utilitzar la càrrega sense fil</string>
     <string name="pc_remove_shell_charging_toast">Retireu la funda per utilitzar la càrrega sense fil inversa</string>
     <string name="pc_satellite_auto_enter_super_power">"S'ha activat l'Estalvi de bateria ultra per garantir les comunicacions per satèl·lit"</string>
@@ -3719,6 +3724,8 @@ l'Estalvi de bateria ultra"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">"Per protegir el dispositiu del sobreescalfament, la càrrega s'aturarà quan el nivell de la bateria arribi a %1$s"</string>
     <string name="pc_smart_charge_notify_summary_navagition">"S'està navegant… La càrrega s'aturarà quan el nivell de la bateria arribi a %1$s"</string>
     <string name="pc_smart_charge_notify_summary_night_charge">"La càrrega s'aturarà a %s"</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">"La càrrega s'ha pausat a %1$s. Es reprendrà a %2$s."</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">La càrrega es pausarà quan la bateria arribi al %1$s i es reprendrà automàticament en funció del vostre ús</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">"Per allargar la vida útil de la bateria, la bateria d'aquest dispositiu no superarà el nivell actual mentre estigui connectat al cotxe."</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">No ho tornis a mostrar</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Protecció de la bateria</string>
@@ -3738,6 +3745,7 @@ l'Estalvi de bateria ultra"</string>
     <string name="pc_suggest_open_fast_charge">Activa la càrrega ràpida de %dW</string>
     <string name="pc_temperature_too_high">Dispositiu sobreescalfat</string>
     <string name="pc_this_time_charge_full">Carregueu completament aquesta vegada</string>
+    <string name="pc_this_time_charge_full_now">Carrega completament</string>
     <string name="pc_this_time_charge_full_work">Quasi carregada</string>
     <string name="pc_timely_charging_summary">La bateria està per sota de %1$s. Si el dispositiu es sobreescalfa mentre la bateria és baixa, això pot danyar-la.</string>
     <string name="pc_timely_charging_title">Carrega el teu dispositiu</string>
@@ -4115,7 +4123,6 @@ l'Estalvi de bateria ultra"</string>
     <string name="power_dialog_performance_mode_checkbox">"Canvia a %d freqüència d'actualització Hz"</string>
     <string name="power_dialog_super_save_msg">"L'Estalvi de bateria ultra restringeix la majoria de les funcions que consumeixen energia i disminueix el rendiment del vostre dispositiu per tal de deixar disponible la funcionalitat bàsica (per exemple, trucades, SMS i connexió a la xarxa) el més llarg possible. Voleu activar l'Estalvi de bateria ultra?"</string>
     <string name="power_dialog_super_save_msg_5g">"L'Estalvi de bateria ultra restringeix la majoria de funcions d'alt consum energètic (per exemple, la connectivitat 5G), fent disminuir el rendiment del teu dispositiu. Només quedaran intactes les trucades, els missatges i la connectivitat de xarxa. Vols encendre l'Estalvi de bateria ultra?"</string>
-    <string name="power_dialog_super_save_msg_p2">"L'estalvi de bateria ultra desactiva la pantalla posterior i restringeix la majoria de les funcions que consumeixen energia, cosa que disminueix el rendiment del dispositiu per tal de mantenir les funcions bàsiques (per exemple, trucades, SMS i connexió a la xarxa) disponibles el màxim temps possible. Voleu activar l'estalvi de bateria ultra?"</string>
     <string name="power_dialog_super_save_title">Estalvi de bateria ultra</string>
     <string name="power_idle">Telèfon inactiu</string>
     <string name="power_main_battery_last_day_hour">%1$sd %2$sh restant</string>
@@ -5821,10 +5828,14 @@ Les dades restants inclouen dades excedents del mes anterior."</string>
     <string name="uninstall_app_dialog_msg">"La desinstal·lació eliminarà totes les dades de l'aplicació."</string>
     <string name="uninstall_app_dialog_title">Voleu desinstal·lar-ho ara?</string>
     <string name="uninstall_app_done">"S'ha desinstal·lat correctament"</string>
+    <string name="uninstall_app_reminder_msg">"Entenc que les dades d'aplicacions suprimides no es poden restaurar"</string>
+    <string name="uninstall_app_reminder_pre_title">Desinstal·la %s</string>
+    <string name="uninstall_app_reminder_toast">Confirmeu que enteneu que les dades de les aplicacions suprimides no es poden restaurar</string>
     <string name="uninstall_danagerous_btn">Desinstal·leu</string>
     <string name="uninstall_danagerous_desc">«%s» pot danyar el vostre dispositiu</string>
     <string name="uninstall_danagerous_msg">«%s» pot danyar el vostre dispositiu, reduir el rendiment o provocar reinicis.</string>
     <string name="uninstall_danagerous_title">Desinstal·la aplicacions malicioses</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Desinstal·la %s aplicació dual</string>
     <string name="unknown_operator">Pots trucar a %2$s per confirmar els detalls del teu pla amb %1$s.</string>
     <string name="unknown_package">No esteu segur del vostre pla?</string>
     <string name="unlike">No, gràcies</string>
@@ -6041,7 +6052,7 @@ Aquesta funció requereix un consum d'energia més elevat.
     <string name="wakepath_delete_app_start_all">Si continueu, haureu de tornar a concedir permís a %s per obrir qualsevol altra aplicació. Voleu continuar igualment?</string>
     <string name="wakepath_delete_app_start_other_app">Si continueu, haureu de tornar a concedir permís a %1$s per obrir %2$s. Voleu continuar igualment?</string>
     <string name="wakepath_manager_allow_list">Permès</string>
-    <string name="wakepath_manager_allow_start">Permès</string>
+    <string name="wakepath_manager_allow_start">Permet sempre</string>
     <string name="wakepath_manager_checkbox_desc">Permet que %1$s iniciï altres aplicacions</string>
     <string name="wakepath_manager_checkbox_title">"Permet l'inici de la cadena"</string>
     <string name="wakepath_manager_empty_list">No es permet iniciar cap aplicació</string>

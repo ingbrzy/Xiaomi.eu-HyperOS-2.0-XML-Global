@@ -966,6 +966,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="bubble_notification">Bolhas de conversas</string>
     <string name="bubble_notification_switch">Mostrar bolhas de conversas</string>
     <string name="bubble_notification_switch_desc">Quando um app de mensagens em uma janela flutuante estiver oculto na borda da tela, mostrar mensagens recebidas em bolhas</string>
+    <string name="bubble_pickup_voice_print_auto">Gravando impressão de voz…</string>
     <string name="button_background_connection">Permitir</string>
     <string name="button_block_calls_from_cantacts">Desbloquear</string>
     <string name="button_block_calls_from_strangers">Desbloquear</string>
@@ -973,6 +974,8 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="button_do_not_disturb">Desativar</string>
     <string name="button_eye_shield">Desativar</string>
     <string name="button_first_aid_kit">Corrigir agora</string>
+    <string name="button_pickup_voice_print_auto_agree">Gravar</string>
+    <string name="button_pickup_voice_print_auto_disagree">Agora não</string>
     <string name="button_restrict_data_usage">Permitir</string>
     <string name="button_text_accept">Permitir</string>
     <string name="button_text_accept_timer">Permitir (%d)</string>
@@ -1231,6 +1234,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="cpu_usage_view_action_btn_text">Toque para ver</string>
     <string name="create_gamebooster_destop">Atalho na Tela inicial criado com sucesso</string>
     <string name="create_shortcut">Criar um atalho na Tela inicial para o Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Não é possível utilizar este recurso ao utilizar a Câmera entre dispositivos</string>
     <string name="cs_color_sense">Temperatura da cor</string>
     <string name="cs_conversation_record_using">Gravando</string>
@@ -1264,6 +1268,9 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="cs_pickup_vioce_print_private_dialog_title">Gravar impressão de voz</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Registre a impressão de voz antes de selecionar \"Participante único\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Desconecte dispositivos externos e tente novamente</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"A sua voz será gravada e processada somente neste dispositivo.
+Para melhores resultados, grave sozinho em um lugar silencioso."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Impressão de voz requerida para a Redução de ruídos personalizada</string>
     <string name="cs_pickup_voice_print_desc">Capturar som de apenas uma pessoa</string>
     <string name="cs_privacy_camera_global_settings_title">Privacidade de chamadas</string>
     <string name="cs_record_voice_title">Gravar</string>
@@ -3303,8 +3310,7 @@ Tente usar outro cabo de rede para conectar seu roteador. Caso você suspeite qu
     <string name="oaid_apps_title">Gerenciar ID Virtual</string>
     <string name="oaid_reset_content_tip">Se você desativar a ID Virtual agora, alguns apps podem parar de funcionar corretamente, uma parte dos dados do seu app pode ser perdida ou se tornar inutilizável.</string>
     <string name="oaid_reset_final_tip">Desativar a ID Virtual mesmo assim?</string>
-    <string name="oaid_string">"ID Virtual atual:
-%1s"</string>
+    <string name="oaid_string">ID virtual atual: %1s</string>
     <string name="oaid_tips_content">IDs Virtuais (OAID) podem ser usados para monitorar o seu comportamento e personalizar seus anúncios. Você pode selecionar quais apps tem permissão para acessar sua ID virtual. Observe que se você restringir o acesso, recomendações de anúncios poderão ser irrelevantes ou apps poderão não funcionar normalmente.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3649,7 +3655,6 @@ a Ultra economia de bateria"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Dobre o dispositivo antes de carregar para um carregamento mais rápido e estável.</string>
     <string name="pc_remind_close_cover_to_charge_title">Dobre para carregar</string>
     <string name="pc_reminder_always_protect_summary">Altere para o carregamento limitado para reduzir o desgaste da bateria</string>
-    <string name="pc_remove_shell_charging_notification_msg">Não é possível usar o carregamento sem fio quando se usa uma capa para jogos. Remova-a e tente novamente ou use o carregamento com fio.</string>
     <string name="pc_remove_shell_charging_notification_title">Remova a capa para usar o carregamento sem fio</string>
     <string name="pc_remove_shell_charging_toast">Remova a capa para usar o carregamento sem fio reverso</string>
     <string name="pc_satellite_auto_enter_super_power">Ultra economia de bateria ativada para garantir a comunicação por satélite</string>
@@ -3669,6 +3674,8 @@ a Ultra economia de bateria"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Para impedir que o seu dispositivo superaqueça, o carregamento será interrompido quando a bateria chegar a %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navegando… O carregamento será interrompido quando o nível da bateria atingir %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">O carregamento será interrompido às %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Carregamento pausado em %1$s. Ele será retomado em %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">O carregamento será pausado quando a bateria estiver carregada até %1$s e retomará automaticamente com base no seu uso</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Para aumentar a vida útil da bateria, a bateria desse dispositivo não ultrapassará o nível atual enquanto estiver conectada ao carro.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Não mostrar novamente</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Proteção da bateria</string>
@@ -3688,6 +3695,7 @@ a Ultra economia de bateria"</string>
     <string name="pc_suggest_open_fast_charge">Ativar Carregamento rápido %dW</string>
     <string name="pc_temperature_too_high">Dispositivo superaquecido</string>
     <string name="pc_this_time_charge_full">Carregar totalmente desta vez</string>
+    <string name="pc_this_time_charge_full_now">Carregar totalmente</string>
     <string name="pc_this_time_charge_full_work">Quase totalmente carregado</string>
     <string name="pc_timely_charging_summary">A bateria está abaixo de %1$s. Se o dispositivo superaquecer com a bateria fraca, isto poderá danificar a bateria.</string>
     <string name="pc_timely_charging_title">Carregue o seu dispositivo</string>
@@ -4065,7 +4073,6 @@ a Ultra economia de bateria"</string>
     <string name="power_dialog_performance_mode_checkbox">Alternar para taxa de atualização de %d Hz</string>
     <string name="power_dialog_super_save_msg">A Ultra economia de bateria restringe os recursos que mais consomem energia e reduz o desempenho do dispositivo para manter os recursos básicos (ex.: chamadas, SMS e conexão à rede) disponíveis o máximo possível. Ativar a Ultra economia de bateria?</string>
     <string name="power_dialog_super_save_msg_5g">A Ultra economia de bateria restringe a maioria dos recursos com alto consumo de energia (por exemplo, conectividade 5G), reduzindo o desempenho do seu dispositivo. Apenas chamadas, mensagens e conectividade de rede não serão afetadas. Ativar a Ultra economia de bateria?</string>
-    <string name="power_dialog_super_save_msg_p2">A Ultra economia de bateria desliga a tela traseira e restringe os recursos com grande consumo de energia, diminuindo o desempenho do dispositivo para manter as funcionalidades básicas (ex.: chamadas, SMS e conexão de rede) funcionando pelo máximo de tempo possível. Ativar a Ultra economia de energia?</string>
     <string name="power_dialog_super_save_title">Ultra economia de bateria</string>
     <string name="power_idle">Telefone inativo</string>
     <string name="power_main_battery_last_day_hour">%1$sd %2$sh restante(s)</string>
@@ -5771,10 +5778,14 @@ Os dados restantes incluem dados remanescentes do mês anterior."</string>
     <string name="uninstall_app_dialog_msg">A desinstalação removerá todos os dados deste app.</string>
     <string name="uninstall_app_dialog_title">Desinstalar agora?</string>
     <string name="uninstall_app_done">Desinstalado com sucesso</string>
+    <string name="uninstall_app_reminder_msg">Eu entendo que os dados excluídos de apps não podem ser restaurados</string>
+    <string name="uninstall_app_reminder_pre_title">Desinstalar %s</string>
+    <string name="uninstall_app_reminder_toast">Confirme que você entende que os dados excluídos do app não podem ser restaurados</string>
     <string name="uninstall_danagerous_btn">Desinstalar</string>
     <string name="uninstall_danagerous_desc">\"%s\" pode danificar seu dispositivo</string>
     <string name="uninstall_danagerous_msg">\"%s\" pode danificar seu dispositivo, diminuir seu desempenho ou causar instabilidade.</string>
     <string name="uninstall_danagerous_title">Desinstalar apps maliciosos</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Desinstalar dual app de %s</string>
     <string name="unknown_operator">Você pode ligar para %2$s para confirmar os detalhes do seu plano com %1$s.</string>
     <string name="unknown_package">Não tem certeza sobre qual é o seu plano?</string>
     <string name="unlike">Não, obrigado</string>
@@ -5991,7 +6002,7 @@ Este recurso não funcionará quando a Economia de bateria ou a Ultra Economia d
     <string name="wakepath_delete_app_start_all">Ao continuar, você terá que conceder ao %s a permissão para abrir outros apps novamente. Continuar mesmo assim?</string>
     <string name="wakepath_delete_app_start_other_app">Ao continuar, você terá que conceder ao %1$s a permissão para abrir %2$s novamente. Continuar mesmo assim?</string>
     <string name="wakepath_manager_allow_list">Permitido</string>
-    <string name="wakepath_manager_allow_start">Permitido</string>
+    <string name="wakepath_manager_allow_start">Sempre permitir</string>
     <string name="wakepath_manager_checkbox_desc">Permitir que %1$s execute outros apps</string>
     <string name="wakepath_manager_checkbox_title">Permitir início sequencial</string>
     <string name="wakepath_manager_empty_list">Nenhum app permitido para iniciar</string>

@@ -966,6 +966,7 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="bubble_notification">Boblenotifikationer</string>
     <string name="bubble_notification_switch">Vis boblenotifikationer</string>
     <string name="bubble_notification_switch_desc">Når en messenger-app i et flydende vindue er skjult i kanten af skærmen, vises indgående beskeder i bobler</string>
+    <string name="bubble_pickup_voice_print_auto">Optager stemmeprint…</string>
     <string name="button_background_connection">Tillad</string>
     <string name="button_block_calls_from_cantacts">Fjern blokering</string>
     <string name="button_block_calls_from_strangers">Fjern blokering</string>
@@ -973,6 +974,8 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="button_do_not_disturb">Slå fra</string>
     <string name="button_eye_shield">Slå fra</string>
     <string name="button_first_aid_kit">Løs nu</string>
+    <string name="button_pickup_voice_print_auto_agree">Optag</string>
+    <string name="button_pickup_voice_print_auto_disagree">Ikke nu</string>
     <string name="button_restrict_data_usage">Tillad</string>
     <string name="button_text_accept">Accepter</string>
     <string name="button_text_accept_timer">Accepter (%d)</string>
@@ -1231,6 +1234,7 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="cpu_usage_view_action_btn_text">Tryk for at se</string>
     <string name="create_gamebooster_destop">Oprettelse af Hjemmeskærmsgenvej lykkedes</string>
     <string name="create_shortcut">Opret en genvej til startskærmen for Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Kan ikke bruge funktion, mens kamera på tværs af enheder er i brug</string>
     <string name="cs_color_sense">Farvetemperatur</string>
     <string name="cs_conversation_record_using">Optager</string>
@@ -1264,6 +1268,9 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="cs_pickup_vioce_print_private_dialog_title">Optag stemmeprint</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Optag stemmeprint, før du vælger \"Enkelt deltager\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Frakobl eksterne enheder, og prøv igen</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Din stemme optages og behandles kun på denne enhed.
+For det bedste resultat skal du optage et sted, hvor du er alene, og der er stille."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Stemmeprint er påkrævet til tilpasset støjreduktion</string>
     <string name="cs_pickup_voice_print_desc">Opfang lyd fra kun én person</string>
     <string name="cs_privacy_camera_global_settings_title">Privatliv for opkald</string>
     <string name="cs_record_voice_title">Optag</string>
@@ -3352,8 +3359,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="oaid_apps_title">Administrer virtuel id</string>
     <string name="oaid_reset_content_tip">Hvis du slukker for virtuelt id nu, stopper nogle apps muligvis med at fungere korrekt, en del af dine app-data kan gå tabt eller blive ubrugelige.</string>
     <string name="oaid_reset_final_tip">Vil du slukke for virtuelt id alligevel?</string>
-    <string name="oaid_string">"Nuværende virtuelt id:
-%1s"</string>
+    <string name="oaid_string">Nuværende virtuelt id:%1s</string>
     <string name="oaid_tips_content">"Virtuelle id'er (OAID) kan bruges til at spore din adfærd og lave personlige reklamer til dig. Du kan vælge, hvile apps der har tilladelse til at få adgang til din virtuelle id. Bemærk, at hvis du begrænser adgangen, kan reklameanbefalinger blive irrelevante, og apps vil muligvis ikke fungere normalt."</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ slås fra"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Fold enheden sammen før opladning for at opnå en hurtigere og mere stabil opladning.</string>
     <string name="pc_remind_close_cover_to_charge_title">Fold sammen for at oplade</string>
     <string name="pc_reminder_always_protect_summary">Skift til begrænset opladning for at reducere batteriets ældning</string>
-    <string name="pc_remove_shell_charging_notification_msg">Trådløs opladning virker ikke, når der bruges et gaming-cover. Fjern coveret og prøv igen, eller oplad via kabel.</string>
     <string name="pc_remove_shell_charging_notification_title">Fjern coveret for at bruge trådløs opladning</string>
     <string name="pc_remove_shell_charging_toast">Fjern coveret for at bruge omvendt trådløs opladning</string>
     <string name="pc_satellite_auto_enter_super_power">Aktiveret ultra-batterispareren for at sikre satellitkommunikation</string>
@@ -3718,6 +3723,8 @@ slås fra"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">For at beskytte din enhed mod overophedning stoppes opladningen, når batteriniveauet når %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigerer… Opladningen stoppes, når batteriniveauet når %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Opladningen stopper ved %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Opladning sat på pause ved %1$s. Den genoptages kl. %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Opladning sættes på pause, når batteriet når %1$s, og genoptages automatisk baseret på dit forbrug</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">For at forlænge batteriets levetid overstiger batteriet i denne enhed ikke det nuværende niveau, mens den er tilsluttet bilen.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Vis ikke igen</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Batteribeskyttelse</string>
@@ -3737,6 +3744,7 @@ slås fra"</string>
     <string name="pc_suggest_open_fast_charge">Aktivér %d W hurtigopladning</string>
     <string name="pc_temperature_too_high">Enhed er overophedet</string>
     <string name="pc_this_time_charge_full">Oplad fuldt denne gang</string>
+    <string name="pc_this_time_charge_full_now">Oplad helt</string>
     <string name="pc_this_time_charge_full_work">Næsten fuldt opladet</string>
     <string name="pc_timely_charging_summary">Batteriet er under %1$s. Hvis enheden overophedes, mens batteriniveauet er lavt, kan det beskadige batteriet.</string>
     <string name="pc_timely_charging_title">Skift din enhed</string>
@@ -3910,7 +3918,7 @@ slås fra"</string>
     <string name="permission_upgrade_virtual">Hvis du ikke ønsker at tillade, at apps får adgang til dine kontakter eller opkaldshistorik, kan du vælge \"Returnér blanke SMS-beskeder\", når du giver tilsvarende tilladelser.</string>
     <string name="permission_warning_for_cancel">Annuller</string>
     <string name="permission_warning_for_ensure">Tillad</string>
-    <string name="permission_warning_for_risk">Hvis du beslutter dig for at give tilladelser, sendes tomme beskeder tilbage til appen for at beskytte din privatliv.</string>
+    <string name="permission_warning_for_risk">Hvis du beslutter dig for at give tilladelser, sendes tomme beskeder tilbage til appen for at beskytte dit privatliv.</string>
     <string name="permission_with_SMS_and_MMS">Tilladelser relateret til SMS og MMS</string>
     <string name="permission_with_call_and_contact">Tilladelser vedrørende telefonopkald, kontaktoplysninger og opkaldshistorik.</string>
     <string name="permission_with_read_write_clipboard">Tillad apps at få adgang til og gemme elementer i udklipsholderen</string>
@@ -4114,7 +4122,6 @@ slås fra"</string>
     <string name="power_dialog_performance_mode_checkbox">Skift til %d Hz opdateringsfrekvens</string>
     <string name="power_dialog_super_save_msg">Ultrabatteribesparelse begrænser de mest energiforbrugende funktioner og sænker din enheds præstation for at holde basisfunktionerne (f.eks. opkald, SMS og oprette forbindelse til netværk) tilgængelige længst muligt. Tænd for ultrabatteribesparelse?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra batterisparer begrænser de funktioner, der bruger mest energi (f.eks. 5G-forbindelse) og mindsker din enheds præstation. Kun opkald, beskeder og netværksforbindelser påvirkes ikke. Tænd for Ultra batterisparer?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultra-batterisparer lukker bagskærmen og begrænser de fleste funktioner, der bruger meget strøm. Det nedsætter enhedens ydeevne for at bevare de mest grundlæggende funktioner (f.eks. opkald, SMS og netværksforbindelse) så længe som muligt. Slå Ultra-batterisparer til?</string>
     <string name="power_dialog_super_save_title">Ultrabatteribesparelse</string>
     <string name="power_idle">Telefon inaktiv</string>
     <string name="power_main_battery_last_day_hour">%1$s: %2$s timer tilbage</string>
@@ -5820,10 +5827,14 @@ Tilbageværende data inkluderer data, der er overført fra den foregående måne
     <string name="uninstall_app_dialog_msg">Afinstallation fjerner alle appdata.</string>
     <string name="uninstall_app_dialog_title">Afinstaller nu?</string>
     <string name="uninstall_app_done">Afinstallation fuldført</string>
+    <string name="uninstall_app_reminder_msg">Jeg forstår, at slettede appdata ikke kan gendannes</string>
+    <string name="uninstall_app_reminder_pre_title">Afinstaller %s</string>
+    <string name="uninstall_app_reminder_toast">Bekræft, at du forstår, at slettede appdata ikke kan gendannes</string>
     <string name="uninstall_danagerous_btn">Afinstaller</string>
     <string name="uninstall_danagerous_desc">\"%s\" kan beskadige din enhed</string>
     <string name="uninstall_danagerous_msg">\"%s\" kan beskadige din enhed, sænke dens ydeevne eller forårsage genstart.</string>
     <string name="uninstall_danagerous_title">Afinstaller skadelig app</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Afinstallér dobbelte app for %s</string>
     <string name="unknown_operator">Du kan ringe til %2$s for at bekræfte din plans oplysninger med %1$s.</string>
     <string name="unknown_package">Er du ikke sikker på, hvad din dataplan er?</string>
     <string name="unlike">Nej tak</string>
@@ -6040,7 +6051,7 @@ Funktionen deaktiveres, når Batterisparer eller Ultra-batterisparer er slået t
     <string name="wakepath_delete_app_start_all">Hvis du fortsætter, skal du give %s tilladelse på ny for at åbne andre apps. Fortsæt alligevel?</string>
     <string name="wakepath_delete_app_start_other_app">Hvis du fortsætter, skal du give %1$s tilladelse på ny for at åbne %2$s. Fortsæt alligevel?</string>
     <string name="wakepath_manager_allow_list">Tilladt</string>
-    <string name="wakepath_manager_allow_start">Tilladt</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Tillad, at %1$s starter andre apps</string>
     <string name="wakepath_manager_checkbox_title">Tillad kædestart</string>
     <string name="wakepath_manager_empty_list">Ingen apps har tilladelse til at starte</string>

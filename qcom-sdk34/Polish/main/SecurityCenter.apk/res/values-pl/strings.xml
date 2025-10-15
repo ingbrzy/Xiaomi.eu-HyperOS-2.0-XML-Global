@@ -966,6 +966,7 @@ Jednakże niektóre z Twoich transakcji nie zostały zakończone. Aby móc wycof
     <string name="bubble_notification">Dymki konwersacji</string>
     <string name="bubble_notification_switch">Wyświetl dymki konwersacji</string>
     <string name="bubble_notification_switch_desc">Pokazuj przychodzące powiadomienia w dymkach, gdy komunikator jest uruchomiony w pływającym oknie ukrytym na krawędzi ekranu</string>
+    <string name="bubble_pickup_voice_print_auto">Nagrywanie próbki głosu…</string>
     <string name="button_background_connection">Zezwól</string>
     <string name="button_block_calls_from_cantacts">Odblokuj</string>
     <string name="button_block_calls_from_strangers">Odblokuj</string>
@@ -973,6 +974,8 @@ Jednakże niektóre z Twoich transakcji nie zostały zakończone. Aby móc wycof
     <string name="button_do_not_disturb">Wyłącz</string>
     <string name="button_eye_shield">Wyłącz</string>
     <string name="button_first_aid_kit">Napraw teraz</string>
+    <string name="button_pickup_voice_print_auto_agree">Nagraj</string>
+    <string name="button_pickup_voice_print_auto_disagree">Nie teraz</string>
     <string name="button_restrict_data_usage">Zezwól</string>
     <string name="button_text_accept">Akceptuj</string>
     <string name="button_text_accept_timer">Akceptuj (%d)</string>
@@ -1231,6 +1234,7 @@ Jednakże niektóre z Twoich transakcji nie zostały zakończone. Aby móc wycof
     <string name="cpu_usage_view_action_btn_text">Dotknij, aby wyświetlić</string>
     <string name="create_gamebooster_destop">Pomyślnie utworzono skrót na Ekranie głównym</string>
     <string name="create_shortcut">Utwórz skrót na Ekranie głównym dla Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Nie można używać tej funkcji podczas korzystania z aparatu na różnych urządzeniach</string>
     <string name="cs_color_sense">Temperatura kolorów</string>
     <string name="cs_conversation_record_using">Nagrywanie</string>
@@ -1264,6 +1268,9 @@ Jednakże niektóre z Twoich transakcji nie zostały zakończone. Aby móc wycof
     <string name="cs_pickup_vioce_print_private_dialog_title">Nagraj próbkę głosu</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Nagraj zapis głosowy przed wybraniem opcji „Pojedynczy uczestnik”</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Odłącz urządzenia zewnętrzne i spróbuj ponownie</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Głos będzie nagrywany i przetwarzany wyłącznie na tym urządzeniu.
+Aby uzyskać jak najlepszy efekt, nagrywaj w samotności i w cichym miejscu."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Próbka głosu jest wymagana do spersonalizowanej redukcji szumów</string>
     <string name="cs_pickup_voice_print_desc">Odbieraj dźwięk tylko od jednej osoby</string>
     <string name="cs_privacy_camera_global_settings_title">Prywatność połączeń</string>
     <string name="cs_record_voice_title">Nagraj</string>
@@ -3352,8 +3359,7 @@ Spróbuj wykorzystać inny kabel internetowy do podłączenia routera. Jeśli po
     <string name="oaid_apps_title">Zarządzaj wirtualnym ID</string>
     <string name="oaid_reset_content_tip">Jeśli teraz wyłączysz wirtualne ID, niektóre aplikacje mogą przestać działać poprawnie, część danych aplikacji może zostać utracona lub stać się bezużyteczna.</string>
     <string name="oaid_reset_final_tip">Czy mimo to wyłączyć wirtualne ID?</string>
-    <string name="oaid_string">"Obecne wirtualne ID:
-%1s"</string>
+    <string name="oaid_string">Bieżące wirtualne ID: %1s</string>
     <string name="oaid_tips_content">Wirtualne identyfikatory (OAID) mogą służyć do śledzenia Twojego zachowania i personalizowania reklam. Możesz wybrać, które aplikacje będą miały dostęp do Twojego wirtualnego identyfikatora. Pamiętaj, że jeśli ograniczysz dostęp, rekomendacje reklam mogą stać się nietrafne lub aplikacje mogą nie działać normalnie.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ Ultra oszczędzanie baterii"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Złóż urządzenie przed ładowaniem, aby móc szybciej i bardziej stabilnie ładować.</string>
     <string name="pc_remind_close_cover_to_charge_title">Złóż, aby móc ładować</string>
     <string name="pc_reminder_always_protect_summary">Przełącz na ograniczone ładowanie, aby zapobiec starzeniu się baterii</string>
-    <string name="pc_remove_shell_charging_notification_msg">Nie można używać ładowania bezprzewodowego, jeśli urządzenie znajduje się w obudowie. Zdejmij obudowę i spróbuj ponownie albo skorzystaj z ładowania przewodowego.</string>
     <string name="pc_remove_shell_charging_notification_title">Zdejmij obudowę, aby korzystać z ładowania bezprzewodowego</string>
     <string name="pc_remove_shell_charging_toast">Zdejmij obudowę, aby korzystać z odwrotnego ładowania bezprzewodowego</string>
     <string name="pc_satellite_auto_enter_super_power">Włączono Ultra oszczędzanie baterii, aby zapewnić komunikację satelitarną</string>
@@ -3718,6 +3723,8 @@ Ultra oszczędzanie baterii"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Aby nie dopuścić do przegrzania urządzenia, ładowanie zostanie wstrzymane, gdy poziom naładowania baterii osiągnie %1$s.</string>
     <string name="pc_smart_charge_notify_summary_navagition">Nawigacja… Ładowanie zostanie wstrzymane, gdy poziom naładowania baterii osiągnie %1$s.</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Ładowanie zostanie wstrzymane przy %s naładowania</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Ładowanie zatrzymano na %1$s. Zostanie wznowione, gdy poziom baterii osiągnie %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Ładowanie zostanie zatrzymane, gdy poziom baterii osiągnie %1$s i zostanie wznowione automatycznie w zależności od użycia</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Aby wydłużyć żywotność baterii, poziom naładowania urządzenia podłączonego do samochodu nie przekroczy ustalonej wartości.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Nie pokazuj ponownie</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Ochrona baterii</string>
@@ -3737,6 +3744,7 @@ Ultra oszczędzanie baterii"</string>
     <string name="pc_suggest_open_fast_charge">Włącz szybkie ładowanie %dW</string>
     <string name="pc_temperature_too_high">Urządzenie jest przegrzane</string>
     <string name="pc_this_time_charge_full">Tym razem naładuj do pełna</string>
+    <string name="pc_this_time_charge_full_now">Ładuj do pełna</string>
     <string name="pc_this_time_charge_full_work">Prawie naładowano do pełna</string>
     <string name="pc_timely_charging_summary">Stan baterii: poniżej %1$s. Przegrzanie urządzenia przy niskim stanie baterii może uszkodzić baterię.</string>
     <string name="pc_timely_charging_title">Podłącz telefon do ładowarki</string>
@@ -4114,7 +4122,6 @@ Ultra oszczędzanie baterii"</string>
     <string name="power_dialog_performance_mode_checkbox">Przełącz na częstotliwość odświeżania %d Hz</string>
     <string name="power_dialog_super_save_msg">Ultra oszczędzanie baterii ogranicza większość funkcji zużywających energię i zmniejsza wydajność urządzenia, aby pozostawić podstawowe funkcje (np. połączenia, SMS i łączenie się z siecią) dostępne tak długo, jak to możliwe. Włączyć Ultra oszczędzanie baterii?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra oszczędzanie baterii ogranicza większość funkcji zużywających energię (np. łączność 5G), obniżając wydajność urządzenia. Nie będzie to miało wpływu tylko na połączenia, wiadomości i połączenia sieciowe. Włączyć Ultra oszczędzanie baterii?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultraoszczędzanie baterii powoduje wyłączenie tylnego wyświetlacza oraz ograniczenie większość funkcji zużywających energię i zmniejszających wydajność urządzenia, pozostawiając podstawowe funkcje (np. połączenia, SMS i łączenie się z siecią) tak długo, jak to możliwe. Włączyć ultraoszczędzanie baterii?</string>
     <string name="power_dialog_super_save_title">Ultra oszczędzanie baterii</string>
     <string name="power_idle">Telefon w gotowości</string>
     <string name="power_main_battery_last_day_hour">Pozostało %1$s dni %2$s godz.</string>
@@ -5820,10 +5827,14 @@ Pozostałe dane zawierają dane, które zostały przeniesione z poprzedniego mie
     <string name="uninstall_app_dialog_msg">Odinstalowanie usunie wszystkie dane aplikacji.</string>
     <string name="uninstall_app_dialog_title">Odinstalować teraz?</string>
     <string name="uninstall_app_done">Pomyślnie odinstalowano</string>
+    <string name="uninstall_app_reminder_msg">Rozumiem, że nie można przywrócić usuniętych danych aplikacji</string>
+    <string name="uninstall_app_reminder_pre_title">Odinstaluj aplikację %s</string>
+    <string name="uninstall_app_reminder_toast">Potwierdź, że rozumiesz, iż nie można przywrócić usuniętych danych aplikacji</string>
     <string name="uninstall_danagerous_btn">Odinstaluj</string>
     <string name="uninstall_danagerous_desc">\"%s\" może uszkodzić twoje urządzenie</string>
     <string name="uninstall_danagerous_msg">\"%s\" może uszkodzić twoje urządzenie, obniżyć wydajność lub powodować restarty.</string>
     <string name="uninstall_danagerous_title">Odinstaluj podejrzane aplikacje</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Odinstaluj sklonowaną aplikację %s</string>
     <string name="unknown_operator">Skontaktuj się z %1$s pod numerem %2$s, aby potwierdzić szczegóły planu.</string>
     <string name="unknown_package">Nie wiesz, jaki masz plan?</string>
     <string name="unlike">Nie, dziękuję</string>
@@ -6040,7 +6051,7 @@ Ta funkcja nie będzie działać, gdy włączone jest Oszczędzanie baterii lub 
     <string name="wakepath_delete_app_start_all">Jeśli będziesz kontynuować, będziesz musiał ponownie przyznać aplikacji %s uprawnienia do otwierania innych aplikacji. Kontynuować mimo to?</string>
     <string name="wakepath_delete_app_start_other_app">Jeśli będziesz kontynuować, będziesz musiał ponownie przyznać aplikacji %1$s uprawnienia do otwierania aplikacji %2$s. Kontynuować mimo to?</string>
     <string name="wakepath_manager_allow_list">Zezwolono</string>
-    <string name="wakepath_manager_allow_start">Zezwolono</string>
+    <string name="wakepath_manager_allow_start">Zawsze zezwalaj</string>
     <string name="wakepath_manager_checkbox_desc">Zezwól %1$s uruchamiać inne aplikacje</string>
     <string name="wakepath_manager_checkbox_title">Zezwól na uruchamianie łańcuchowe</string>
     <string name="wakepath_manager_empty_list">Żadna aplikacja nie może zostać uruchomiona</string>
