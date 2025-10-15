@@ -966,6 +966,7 @@
     <string name="bubble_notification">محادثات فقاعية</string>
     <string name="bubble_notification_switch">عرض المحادثات الفقاعية</string>
     <string name="bubble_notification_switch_desc">إذا كان تطبيق الرسائل مخفي في النافذة المنبثقة على حافة الشاشة، فسيتم عرض الرسائل الواردة في فقاعات.</string>
+    <string name="bubble_pickup_voice_print_auto">تسجيل بصمة الصوت…</string>
     <string name="button_background_connection">السماح</string>
     <string name="button_block_calls_from_cantacts">إلغاء الحظر</string>
     <string name="button_block_calls_from_strangers">إلغاء الحظر</string>
@@ -973,6 +974,8 @@
     <string name="button_do_not_disturb">إيقاف التشغيل</string>
     <string name="button_eye_shield">إيقاف التشغيل</string>
     <string name="button_first_aid_kit">إصلاح الآن</string>
+    <string name="button_pickup_voice_print_auto_agree">سجل</string>
+    <string name="button_pickup_voice_print_auto_disagree">ليس الآن</string>
     <string name="button_restrict_data_usage">السماح</string>
     <string name="button_text_accept">قبول</string>
     <string name="button_text_accept_timer">قبول (%d)</string>
@@ -1231,6 +1234,7 @@
     <string name="cpu_usage_view_action_btn_text">انقر للعرض</string>
     <string name="create_gamebooster_destop">تم إنشاء الاختصار في الشاشة الرئيسية بنجاح</string>
     <string name="create_shortcut">إنشاء إختصار على الشاشة الرئيسية لمسرع الألعاب</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">لا يمكن استخدام هذه الميزة إثناء استخدام الكاميرا عبر الأجهزة</string>
     <string name="cs_color_sense">درجة حرارة اللون</string>
     <string name="cs_conversation_record_using">جارٍٍ التسجيل</string>
@@ -1264,6 +1268,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">تسجيل بصمة الصوت</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">سجل بصمة الصوت قبل اختيار \"مشارك واحد\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">يرجى فصل الأجهزة الخارجية ثم حاول مجددا</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"سيتم تسجيل صوتك ومعالجته على هذا الجهاز فقط.
+للحصول على أفضل النتائج، قم بالتسجيل بمفردك في مكان هادئ."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">بصمة الصوت مطلوبة لتقليل الضوضاء الشخصية</string>
     <string name="cs_pickup_voice_print_desc">التقاط الصوت من شخص واحد</string>
     <string name="cs_privacy_camera_global_settings_title">خصوصية المكالمة</string>
     <string name="cs_record_voice_title">تسجيل</string>
@@ -1925,8 +1932,8 @@
     <string name="game_toolbox_slow_charge_positive_btn">تشغيل</string>
     <string name="game_toolbox_slow_charge_title">يشحن ببطء</string>
     <string name="game_toolbox_slow_charge_toast">الشحن البطيء قيد التشغيل</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">لا تعمل ردود الفعل اللمسية مع التصميمات الأصلية. ردود الفعل اللمسية معطلة.</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">لا تعمل ردود الفعل اللمسية مع التخطيطات الأصلية</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">لا تعمل خاصية الاستجابه للمس مع التصميمات الأصلية. الاستجابه للمس متوقفه.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">لا تعمل الاستجابه للمس مع التخطيطات الأصلية</string>
     <string name="game_toolbox_smotion_vibrate_desc">أضف ردود فعل لمسية وفقًا لحركات اللعبة. بعض الألعاب فقط مدعومة.</string>
     <string name="game_toolbox_smotion_vibrate_title">الاستجابة للمس</string>
     <string name="game_toolbox_super_follow_up_msg">استجابة محسّنة للمس وتتبع عبر مسار الأجهزة والبرامج بالكامل</string>
@@ -3354,8 +3361,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="oaid_apps_title">إدارة الهوية الافتراضية</string>
     <string name="oaid_reset_content_tip">إذا قمت بإيقاف تشغيل الهوية الافتراضية الآن، فقد تتوقف بعض التطبيقات عن العمل بشكل صحيح، أو قد تفقد بعض بيانات التطبيق، أو قد تكون غير قابلة للاستخدام.</string>
     <string name="oaid_reset_final_tip">متابعة إيقاف تشغيل الهوية الافتراضية؟</string>
-    <string name="oaid_string">"الهوية الافتراضية الحالية:
-%1s"</string>
+    <string name="oaid_string">هوية افتراضية الحالي: %1s</string>
     <string name="oaid_tips_content">يمكن استخدام معرف الهوية الافتراضية (OAID) لتتبع سلوكك ثم تخصيص إعلانات مناسبة لذوقك. يمكنك اختيار التطبيقات التي تسمح لها بالوصول إلى هويتك الافتراضية. يرجى ملاحظة أنه إذا قمت بتعطيل هذه الخدمة، فقد تصبح محتويات الإعلانات المقدمة لك غير مناسبة أوقد لا تتمكن بعض التطبيقات من العمل بشكل صحيح.</string>
     <string name="ok">موافق</string>
     <string name="ok_button">موافق</string>
@@ -3700,7 +3706,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">قم بطي الجهاز قبل الشحن للحصول لشحن أسرع وأكثر استقرارًا.</string>
     <string name="pc_remind_close_cover_to_charge_title">قم بطي الجهاز للشحن</string>
     <string name="pc_reminder_always_protect_summary">التبديل إلى الشحن المحدود لتقليل عمر البطارية</string>
-    <string name="pc_remove_shell_charging_notification_msg">لا يمكن استخدام الشحن اللاسلكي عند استخدام علبة ألعاب. أزلها وحاول مرة أخرى، أو استخدم الشحن السلكي.</string>
     <string name="pc_remove_shell_charging_notification_title">قم بإزالة الغطاء لاستخدام الشحن اللاسلكي</string>
     <string name="pc_remove_shell_charging_toast">قم بإزالة الغطاء لاستخدام الشحن العكسي اللاسلكي</string>
     <string name="pc_satellite_auto_enter_super_power">تم تشغيل موفر البطارية الفائق لضمان الاتصالات عبر الأقمار الصناعية</string>
@@ -3720,6 +3725,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">لحماية الجهاز من الحرارة الزائدة، سيتوقف الشحن عندما يصل مستوى البطارية إلى %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">أثناء التنقل…، سيتم إيقاف الشحن عندما تصل البطارية إلى %1$s.</string>
     <string name="pc_smart_charge_notify_summary_night_charge">سيتوقف الشحن عند %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">تم إيقاف الشحن مؤقتًا عند %1$s. سيُستأنف عند %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">سيتم إيقاف الشحن مؤقتًا عند وصول مستوى البطارية إلى %1$s وسيتم استئنافه تلقائيًا بناءً على استخدامك</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">لإطالة عمر البطارية، لن تتجاوز بطارية هذا الجهاز المستوى الحالي أثناء توصيلها بالسيارة.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">لا تظهر مرة اخرى</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">حماية البطارية</string>
@@ -3739,6 +3746,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_suggest_open_fast_charge">قم بتشغيل الشحن السريع %d واط</string>
     <string name="pc_temperature_too_high">الجهاز ساخن</string>
     <string name="pc_this_time_charge_full">مشحونة بالكامل هذه المرة</string>
+    <string name="pc_this_time_charge_full_now">شحن كامل</string>
     <string name="pc_this_time_charge_full_work">تقريباً مشحونة بالكامل</string>
     <string name="pc_timely_charging_summary">مستوى البطارية أقل من %1$s. إذا ارتفعت درجة حرارة الجهاز أثناء انخفاض طاقة البطارية، فقد يؤدي ذلك إلى تلف البطارية.</string>
     <string name="pc_timely_charging_title">قم بشحن جهازك</string>
@@ -4116,7 +4124,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">التبديل إلى معدل التحديث %d هرتز</string>
     <string name="power_dialog_super_save_msg">يعمل موفر البطارية الفائق على تقييد معظم الميزات التي تستهلك الطاقة وتقلل من أداء جهازك وذلك لترك الوظائف الأساسية تعمل (مثل المكالمات والرسائل النصية واتصال الشبكة) لأطول فترة ممكنة. تشغيله؟</string>
     <string name="power_dialog_super_save_msg_5g">يعمل موفر البطارية الفائق على تقييد معظم الميزات التي تستهلك الطاقة (مثل اتصال 5G) ويقلل من أداء جهازك. فقط المكالمات والرسائل النصية واتصال الشبكة الأساسية لن تتأثر. تشغيله؟</string>
-    <string name="power_dialog_super_save_msg_p2">يُوقف وضع موفر البطارية الفائق الشاشة الخلفية ويقيد معظم الميزات المستهلكة للطاقة، مما يُخفّض أداء جهازك ليُبقي الوظائف الأساسية (مثل المكالمات والرسائل النصية والاتصال بالشبكة) متاحة لأطول فترة ممكنة. هل ترغب في تفعيل وضع موفر البطارية الفائق؟</string>
     <string name="power_dialog_super_save_title">موفر البطارية الفائق</string>
     <string name="power_idle">سكون الهاتف</string>
     <string name="power_main_battery_last_day_hour">تبقى %1$s يوم و %2$s ساعة للاستخدام</string>
@@ -5824,10 +5831,14 @@ Xiaomi Gaming Cooler"</string>
     <string name="uninstall_app_dialog_msg">إلغاء التثبيت سيزيل كل بيانات التطبيق.</string>
     <string name="uninstall_app_dialog_title">إلغاء التثبيت الآن؟</string>
     <string name="uninstall_app_done">تم إلغاء التثبيت بنجاح</string>
+    <string name="uninstall_app_reminder_msg">أتفهم أنه لا يمكن استعادة بيانات التطبيق المحذوفة</string>
+    <string name="uninstall_app_reminder_pre_title">إلغاء تثبيت %s</string>
+    <string name="uninstall_app_reminder_toast">تأكد من فهمك أنه لا يمكن استعادة بيانات التطبيق المحذوفة</string>
     <string name="uninstall_danagerous_btn">إلغاء التثبيت</string>
     <string name="uninstall_danagerous_desc">\"%s\" قد يؤدي إلى تلف جهازك</string>
     <string name="uninstall_danagerous_msg">\"%s\" قد يؤدي إلى تلف جهازك أو تقليل أدائه أو إعادة تشغيله.</string>
     <string name="uninstall_danagerous_title">إلغاء تثبيت التطبيقات الخبيثة</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">إلغاء تثبيت التطبيق المزدوج لـ %s</string>
     <string name="unknown_operator">يمكنك الاتصال برقم الهاتف %2$s لتأكيد نوع وتفاصيل خطتك مع %1$s.</string>
     <string name="unknown_package">لست متأكد من خطة البيانات التي تمتلكها؟</string>
     <string name="unlike">لا شكراً</string>
@@ -6044,7 +6055,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="wakepath_delete_app_start_all">إذا تابعت، فسيتعين عليك منح %s الإذن مرة أخرى لفتح تطبيقات أي أخرى. المتابعة؟</string>
     <string name="wakepath_delete_app_start_other_app">إذا تابعت، فسيتعين عليك منح %1$s الإذن مرة أخرى لفتح %2$s. المتابعة؟</string>
     <string name="wakepath_manager_allow_list">المسموح لها</string>
-    <string name="wakepath_manager_allow_start">المسموح لها</string>
+    <string name="wakepath_manager_allow_start">السماح دائمًا</string>
     <string name="wakepath_manager_checkbox_desc">السماح لتطبيق %1$s ببدء تشغيل التطبيقات الأخرى</string>
     <string name="wakepath_manager_checkbox_title">السماح ببدء السلسلة</string>
     <string name="wakepath_manager_empty_list">لا يُسمح بتشغيل أي تطبيقات</string>

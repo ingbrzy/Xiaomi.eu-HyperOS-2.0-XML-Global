@@ -966,6 +966,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="bubble_notification">Bolle di conversazione</string>
     <string name="bubble_notification_switch">Mostra le bolle di conversazione</string>
     <string name="bubble_notification_switch_desc">"Quando un'app di messaggistica in una finestra a comparsa è nascosta sul bordo dello schermo, mostra i messaggi in arrivo sotto forma di bolle"</string>
+    <string name="bubble_pickup_voice_print_auto">Registrazione impronta vocale…</string>
     <string name="button_background_connection">Consenti</string>
     <string name="button_block_calls_from_cantacts">Sblocca</string>
     <string name="button_block_calls_from_strangers">Sblocca</string>
@@ -973,6 +974,8 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="button_do_not_disturb">Disattiva</string>
     <string name="button_eye_shield">Disattiva</string>
     <string name="button_first_aid_kit">Risolvi ora</string>
+    <string name="button_pickup_voice_print_auto_agree">Registra</string>
+    <string name="button_pickup_voice_print_auto_disagree">Non ora</string>
     <string name="button_restrict_data_usage">Consenti</string>
     <string name="button_text_accept">Accetta</string>
     <string name="button_text_accept_timer">Accetta (%d)</string>
@@ -1231,6 +1234,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="cpu_usage_view_action_btn_text">Tocca per visualizzare</string>
     <string name="create_gamebooster_destop">Collegamento sulla Home creato correttamente</string>
     <string name="create_shortcut">Crea un collegamento sulla schermata Home per Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Non è possibile utilizzare questa funzione quando si usa la fotocamera multidispositivo</string>
     <string name="cs_color_sense">Temperatura del colore</string>
     <string name="cs_conversation_record_using">Registrazione</string>
@@ -1264,6 +1268,9 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="cs_pickup_vioce_print_private_dialog_title">Registra impronta vocale</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Registra impronta vocale prima di selezionare \"Partecipante singolo\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Disconnetti i dispositivi esterni e riprova</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"La tua voce verrà registrata ed elaborata soltanto su questo dispositivo.
+Per migliori risultati, registra in un luogo silenzioso mentre sei da solo."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Impronta vocale necessaria per la Riduzione personalizzata dei rumori</string>
     <string name="cs_pickup_voice_print_desc">Rileva suono solo da una persona</string>
     <string name="cs_privacy_camera_global_settings_title">Privacy chiamata</string>
     <string name="cs_record_voice_title">Registra</string>
@@ -3352,8 +3359,7 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="oaid_apps_title">"Gestisci l'ID virtuale"</string>
     <string name="oaid_reset_content_tip">"Se disattivi l'ID virtuale, alcune app potrebbero smettere di funzionare correttamente, una parte dei dati app potrebbe andare persa o diventare inutilizzabile."</string>
     <string name="oaid_reset_final_tip">"Disattivare comunque l'ID virtuale?"</string>
-    <string name="oaid_string">"ID virtuale corrente:
-%1s"</string>
+    <string name="oaid_string">ID virtuale corrente:%1s</string>
     <string name="oaid_tips_content">"Gli ID virtuali (OAID) possono essere utilizzati per monitorare il tuo comportamento e personalizzare gli annunci per te. Puoi selezionare quali app possono accedere al tuo ID virtuale. Tieni presente che se limiti l'accesso, i consigli sugli annunci potrebbero diventare irrilevanti o le app potrebbero non funzionare normalmente."</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ Super risparmio energetico"</string>
     <string name="pc_remind_close_cover_to_charge_summary">"Piega il dispositivo prima di caricarlo per un'esperienza di ricarica più rapida e stabile."</string>
     <string name="pc_remind_close_cover_to_charge_title">Piega per caricare</string>
     <string name="pc_reminder_always_protect_summary">"Passa alla ricarica limitata per ridurre l'usura della batteria"</string>
-    <string name="pc_remove_shell_charging_notification_msg">Non è possibile utilizzare la ricarica wireless quando si utilizza un case da gaming. Rimuovilo e riprova, oppure utilizza la ricarica via cavo.</string>
     <string name="pc_remove_shell_charging_notification_title">Rimuovi il case per utilizzare la ricarica wireless</string>
     <string name="pc_remove_shell_charging_toast">Rimuovi il case per utilizzare la ricarica wireless inversa</string>
     <string name="pc_satellite_auto_enter_super_power">È stato attivato il Super risparmio energetico per garantire le comunicazioni satellitari.</string>
@@ -3718,6 +3723,8 @@ Super risparmio energetico"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Per proteggere il dispositivo dal surriscaldamento, la carica viene interrotta quando il livello della batteria raggiunge il %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigazione… La ricarica verrà interrotta quando il livello della batteria raggiungerà il %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">La ricarica si interromperà al %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Ricarica in pausa a %1$s. Riprenderà a %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">La ricarica si interromperà quando la batteria raggiungerà %1$s e riprenderà automaticamente in base al tuo utilizzo</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">"Per prolungare la durata della batteria, la batteria di questo dispositivo non supererà il livello attuale mentre è collegato all'auto."</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Non mostrare più</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Protezione della batteria</string>
@@ -3737,6 +3744,7 @@ Super risparmio energetico"</string>
     <string name="pc_suggest_open_fast_charge">Attiva la ricarica rapida da %dW</string>
     <string name="pc_temperature_too_high">Dispositivo surriscaldato</string>
     <string name="pc_this_time_charge_full">Carica completamente questa volta</string>
+    <string name="pc_this_time_charge_full_now">Carica completamente</string>
     <string name="pc_this_time_charge_full_work">Quasi completamente carico</string>
     <string name="pc_timely_charging_summary">La carica della batteria è inferiore a %1$s. Il surriscaldamento del dispositivo quando la batteria è scarica può danneggiare la batteria.</string>
     <string name="pc_timely_charging_title">Carica il dispositivo</string>
@@ -4114,7 +4122,6 @@ Super risparmio energetico"</string>
     <string name="power_dialog_performance_mode_checkbox">Passa alla frequenza di aggiornamento di %d Hz</string>
     <string name="power_dialog_super_save_msg">Super risparmio energetico limita la maggior parte delle funzionalità che consumano energia e diminuisce le prestazioni del dispositivo in modo da lasciare disponibili le funzionalità di base (ad esempio chiamate, SMS e connessione alla rete) il più a lungo possibile. Attivare Super risparmio energetico?</string>
     <string name="power_dialog_super_save_msg_5g">Super risparmio energetico limita la maggior parte delle funzionalità che consumano energia riducendo le prestazioni del dispositivo (ad es. la connettività 5G). Solo le chiamate, i messaggi e la connettività di rete non saranno interessati. Attivare Super risparmio energetico?</string>
-    <string name="power_dialog_super_save_msg_p2">Super risparmio energetico spegne il display posteriore e limita le funzionalità che consumano più energia, riducendo le prestazioni del dispositivo, in modo da lasciare disponibili le funzionalità di base (ad esempio chiamate, SMS e connessione alla rete) il più a lungo possibile. Attivare Super risparmio energetico?</string>
     <string name="power_dialog_super_save_title">Super risparmio energetico</string>
     <string name="power_idle">Telefono inattivo</string>
     <string name="power_main_battery_last_day_hour">%1$sg %2$so rimanenti</string>
@@ -5820,10 +5827,14 @@ I dati rimanenti includono dati che sono stati riportati dal mese precedente."</
     <string name="uninstall_app_dialog_msg">La disinstallazione eliminerà tutti i dati app.</string>
     <string name="uninstall_app_dialog_title">Disinstallare?</string>
     <string name="uninstall_app_done">Disinstallazione completata</string>
+    <string name="uninstall_app_reminder_msg">Sono consapevole che i dati delle app eliminate non potranno essere ripristinati</string>
+    <string name="uninstall_app_reminder_pre_title">Disinstalla %s</string>
+    <string name="uninstall_app_reminder_toast">Conferma di essere consapevole che i dati delle app eliminate non potranno essere ripristinati</string>
     <string name="uninstall_danagerous_btn">Disinstalla</string>
     <string name="uninstall_danagerous_desc">\"%s\" potrebbe danneggiare il tuo dispositivo</string>
     <string name="uninstall_danagerous_msg">\"%s\" potrebbe danneggiare il tuo dispositivo, peggiorare le sue prestazioni, o causare riavvii.</string>
     <string name="uninstall_danagerous_title">Disinstalla le applicazioni pericolose</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">"Disinstalla l'app clonata di %s"</string>
     <string name="unknown_operator">Puoi chiamare %2$s per confermare i dettagli del tuo piano con %1$s.</string>
     <string name="unknown_package">Non sei sicuro di quale sia il tuo piano?</string>
     <string name="unlike">No grazie</string>
@@ -6040,7 +6051,7 @@ Questa funzione non funziona quando è attivo il Risparmio energetico o il Super
     <string name="wakepath_delete_app_start_all">Se continui, dovrai concedere nuovamente il permesso %s per aprire qualsiasi altra app. Vuoi continuare comunque?</string>
     <string name="wakepath_delete_app_start_other_app">Se continui, dovrai concedere nuovamente il permesso %1$s per aprire %2$s. Vuoi continuare comunque?</string>
     <string name="wakepath_manager_allow_list">Consentito</string>
-    <string name="wakepath_manager_allow_start">Consentito</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Consenti %1$s per avviare altre app</string>
     <string name="wakepath_manager_checkbox_title">Consenti avvio a catena</string>
     <string name="wakepath_manager_empty_list">Non è consentito avviare alcuna app</string>

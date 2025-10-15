@@ -966,6 +966,7 @@ Tuy nhiên, một số giao dịch của bạn vẫn chưa hoàn thành. Để 
     <string name="bubble_notification">Bong bóng hội thoại</string>
     <string name="bubble_notification_switch">Hiển thị bong bóng hội thoại</string>
     <string name="bubble_notification_switch_desc">Khi ứng dụng nhắn tin trong cửa sổ nổi được ẩn ở cạnh màn hình, hiển thị tin nhắn đến trong bong bóng</string>
+    <string name="bubble_pickup_voice_print_auto">Đang ghi vết giọng nói…</string>
     <string name="button_background_connection">Cho phép</string>
     <string name="button_block_calls_from_cantacts">Bỏ chặn</string>
     <string name="button_block_calls_from_strangers">Bỏ chặn</string>
@@ -973,6 +974,8 @@ Tuy nhiên, một số giao dịch của bạn vẫn chưa hoàn thành. Để 
     <string name="button_do_not_disturb">Tắt</string>
     <string name="button_eye_shield">Tắt</string>
     <string name="button_first_aid_kit">Sửa ngay</string>
+    <string name="button_pickup_voice_print_auto_agree">Ghi âm</string>
+    <string name="button_pickup_voice_print_auto_disagree">Lần tới</string>
     <string name="button_restrict_data_usage">Cho phép</string>
     <string name="button_text_accept">Chấp nhận</string>
     <string name="button_text_accept_timer">Chấp nhận (%d)</string>
@@ -1231,6 +1234,7 @@ Tuy nhiên, một số giao dịch của bạn vẫn chưa hoàn thành. Để 
     <string name="cpu_usage_view_action_btn_text">Chạm để xem</string>
     <string name="create_gamebooster_destop">Tạo lối tắt Màn hình chính thành công</string>
     <string name="create_shortcut">Tạo lối tắt Game Turbo trên Màn hình chính</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Không thể sử dụng tính năng này khi đang sử dụng camera đa thiết bị</string>
     <string name="cs_color_sense">Nhiệt độ màu</string>
     <string name="cs_conversation_record_using">Đang ghi âm</string>
@@ -1264,6 +1268,9 @@ Tuy nhiên, một số giao dịch của bạn vẫn chưa hoàn thành. Để 
     <string name="cs_pickup_vioce_print_private_dialog_title">Ghi vết giọng nói</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Ghi vết giọng nói trước khi chọn \"Một người tham gia\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Ngắt kết nối các thiết bị bên ngoài và thử lại</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Giọng nói của bạn sẽ được ghi âm và chỉ xử lý trên thiết bị này.
+Để có kết quả tốt nhất, ghi âm một mình ở nơi yên tĩnh."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Yêu cầu vết giọng nói cho Giảm tiếng ồn cá nhân</string>
     <string name="cs_pickup_voice_print_desc">Chỉ lấy âm thanh từ một người</string>
     <string name="cs_privacy_camera_global_settings_title">Chụp ảnh riêng tư cuộc gọi</string>
     <string name="cs_record_voice_title">Ghi âm</string>
@@ -3353,8 +3360,7 @@ Thử sử dụng cáp Ethernet để kết nối bộ định tuyến của b�
     <string name="oaid_apps_title">Quản lý ID ảo</string>
     <string name="oaid_reset_content_tip">Nếu bạn tắt ID ảo bây giờ, một số ứng dụng có thể không hoạt động, một phần dữ liệu ứng dụng có thể bị mất hoặc không thể sử dụng được.</string>
     <string name="oaid_reset_final_tip">Vẫn tắt ID ảo?</string>
-    <string name="oaid_string">"ID ảo hiện tại:
-%1s"</string>
+    <string name="oaid_string">ID ảo hiện tại:%1s</string>
     <string name="oaid_tips_content">ID ảo (OAID) có thể được sử dụng để theo dõi hành vi của bạn và cá nhân hóa quảng cáo cho bạn. Bạn có thể chọn ứng dụng nào được phép truy cập ID ảo của mình. Lưu ý rằng nếu bạn giới hạn truy cập, các kiến nghị quảng cáo có thể trở nên không liên quan hoặc các ứng dụng có thể không hoạt động bình thường.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3699,7 +3705,6 @@ Tiết kiệm pin tối ưu"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Gập thiết bị trước khi sạc để có trải nghiệm sạc nhanh hơn và ổn định hơn.</string>
     <string name="pc_remind_close_cover_to_charge_title">Gập để sạc</string>
     <string name="pc_reminder_always_protect_summary">Chuyển sang sạc giới hạn để giảm sự lão hóa của pin</string>
-    <string name="pc_remove_shell_charging_notification_msg">Không thể sử dụng sạc không dây khi sử dụng vỏ bảo vệ chơi game. Tháo ra và thử lại hoặc sử dụng sạc có dây.</string>
     <string name="pc_remove_shell_charging_notification_title">Tháo vỏ bảo vệ để sử dụng sạc không dây</string>
     <string name="pc_remove_shell_charging_toast">Tháo vỏ bảo vệ để sử dụng sạc ngược không dây</string>
     <string name="pc_satellite_auto_enter_super_power">Đã bật Tiết kiệm pin tối ưu để đảm bảo liên lạc vệ tinh</string>
@@ -3719,6 +3724,8 @@ Tiết kiệm pin tối ưu"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Để bảo vệ thiết bị của bạn khỏi tình trạng quá nhiệt, quá trình sạc sẽ dừng lại khi mức pin đạt %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Đang điều hướng… Sạc sẽ dừng khi mức pin đạt đến %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Sạc sẽ dừng lúc %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Sạc đã tạm dừng ở %1$s. Sạc sẽ tiếp tục ở %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Sạc sẽ tạm dừng khi pin đạt %1$s và tự động tiếp tục dựa trên sử dụng của bạn</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Để kéo dài thời gian sử dụng pin, pin của thiết bị này sẽ không vượt quá mức hiện tại khi kết nối với ô tô.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Không hiển thị lại</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Bảo vệ pin</string>
@@ -3738,6 +3745,7 @@ Tiết kiệm pin tối ưu"</string>
     <string name="pc_suggest_open_fast_charge">Bật sạc nhanh %dW</string>
     <string name="pc_temperature_too_high">Thiết bị quá nhiệt</string>
     <string name="pc_this_time_charge_full">Sạc đầy lần này</string>
+    <string name="pc_this_time_charge_full_now">Sạc đầy</string>
     <string name="pc_this_time_charge_full_work">Sắp đầy pin</string>
     <string name="pc_timely_charging_summary">Pin dưới %1$s. Nếu thiết bị quá nhiệt trong khi pin yếu, điều này có thể làm hỏng pin.</string>
     <string name="pc_timely_charging_title">Sạc thiết bị của bạn</string>
@@ -4115,7 +4123,6 @@ Tiết kiệm pin tối ưu"</string>
     <string name="power_dialog_performance_mode_checkbox">Chuyển sang tốc độ làm mới %d Hz</string>
     <string name="power_dialog_super_save_msg">Tiết kiệm pin tối ưu cực hạn chế hầu hết các tính năng tiêu thụ pin và giảm hiệu suất thiết bị để duy trì chức năng cơ bản (ví dụ: cuộc gọi, SMS và kết nối với mạng) càng lâu càng tốt. Bật Tiết kiệm pin tối ưu?</string>
     <string name="power_dialog_super_save_msg_5g">Tiết kiệm pin tối ưu giới hạn hầu hết các tính năng tiêu thụ điện năng (ví dụ: kết nối 5G) làm giảm hiệu suất của thiết bị. Chỉ các cuộc gọi, tin nhắn và kết nối mạng sẽ không bị ảnh hưởng. Bật Tiết kiệm pin tối ưu?</string>
-    <string name="power_dialog_super_save_msg_p2">Tiết kiệm pin tối ưu sẽ tắt màn hình phụ và giới hạn hầu hết các tính năng tiêu thụ năng lượng, làm giảm hiệu suất thiết bị nhằm duy trì các chức năng cơ bản (ví dụ: gọi điện, SMS và kết nối mạng) khả dụng lâu nhất có thể. Bạn có muốn bật Tiết kiệm pin tối ưu không?</string>
     <string name="power_dialog_super_save_title">Tiết kiệm pin tối ưu</string>
     <string name="power_idle">Điện thoại trạng thái chờ</string>
     <string name="power_main_battery_last_day_hour">Còn lại %1$s ngày %2$s giờ</string>
@@ -5821,10 +5828,14 @@ Dữ liệu còn lại bao gồm dữ liệu đã gia hạn từ tháng trước
     <string name="uninstall_app_dialog_msg">Gỡ cài đặt sẽ xóa tất cả dữ liệu ứng dụng.</string>
     <string name="uninstall_app_dialog_title">Gỡ cài đặt ngay?</string>
     <string name="uninstall_app_done">Đã gỡ cài đặt thành công</string>
+    <string name="uninstall_app_reminder_msg">Tôi hiểu dữ liệu ứng dụng đã xóa không thể khôi phục được</string>
+    <string name="uninstall_app_reminder_pre_title">Gỡ cài đặt %s</string>
+    <string name="uninstall_app_reminder_toast">Xác nhận bạn hiểu dữ liệu ứng dụng đã xóa không thể khôi phục được</string>
     <string name="uninstall_danagerous_btn">Gỡ cài đặt</string>
     <string name="uninstall_danagerous_desc">\"%s\" có thể làm hư hại thiết bị của bạn</string>
     <string name="uninstall_danagerous_msg">\"%s\" có thể làm hư hại thiết bị, giảm hiệu suất, hoặc là nguyên nhân khởi động lại thiết bị.</string>
     <string name="uninstall_danagerous_title">Gỡ cài đặt ứng dụng độc hại</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Gỡ cài đặt ứng dụng kép của %s</string>
     <string name="unknown_operator">Bạn có thể gọi đến %2$s để xác nhận chi tiết gói dịch vụ của %1$s.</string>
     <string name="unknown_package">Không rõ gói dữ liệu là gì?</string>
     <string name="unlike">Không, cảm ơn</string>
@@ -6041,7 +6052,7 @@ Tính năng này sẽ không hoạt động khi Tết kiệm pin hoặc Tiết k
     <string name="wakepath_delete_app_start_all">Nếu tiếp tục, bạn sẽ phải cấp lại quyền cho %s để mở bất kỳ ứng dụng nào khác. Vẫn tiếp tục?</string>
     <string name="wakepath_delete_app_start_other_app">Nếu tiếp tục, bạn sẽ phải cấp lại quyền cho %1$s để mở %2$s. Vẫn tiếp tục?</string>
     <string name="wakepath_manager_allow_list">Đã cho phép</string>
-    <string name="wakepath_manager_allow_start">Đã cho phép</string>
+    <string name="wakepath_manager_allow_start">Luôn cho phép</string>
     <string name="wakepath_manager_checkbox_desc">Cho phép %1$s khởi chạy ứng dụng khác</string>
     <string name="wakepath_manager_checkbox_title">Cho phép khởi chạy dây chuyền</string>
     <string name="wakepath_manager_empty_list">Không có ứng dụng được phép khởi chạy</string>

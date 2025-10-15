@@ -966,6 +966,7 @@
     <string name="bubble_notification">대화 버블</string>
     <string name="bubble_notification_switch">대화 버블 표시</string>
     <string name="bubble_notification_switch_desc">플로팅 창의 메신저 앱이 화면의 구석에 숨겨져 있을 시 수신되는 메시지를 버블로 표시</string>
+    <string name="bubble_pickup_voice_print_auto">성문 녹음 중…</string>
     <string name="button_background_connection">허용</string>
     <string name="button_block_calls_from_cantacts">차단 해제</string>
     <string name="button_block_calls_from_strangers">차단 해제</string>
@@ -973,6 +974,8 @@
     <string name="button_do_not_disturb">끄기</string>
     <string name="button_eye_shield">끄기</string>
     <string name="button_first_aid_kit">지금 수정</string>
+    <string name="button_pickup_voice_print_auto_agree">녹음</string>
+    <string name="button_pickup_voice_print_auto_disagree">지금 안 함</string>
     <string name="button_restrict_data_usage">허용</string>
     <string name="button_text_accept">승인</string>
     <string name="button_text_accept_timer">승인(%d)</string>
@@ -1231,6 +1234,7 @@
     <string name="cpu_usage_view_action_btn_text">탭하여 보기</string>
     <string name="create_gamebooster_destop">홈 화면 바로가기 생성 성공</string>
     <string name="create_shortcut">게임 터보를 위한 홈 화면 바로가기 생성</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">기기 간 카메라 사용 중에는 이 기능을 사용할 수 없음</string>
     <string name="cs_color_sense">색상 온도</string>
     <string name="cs_conversation_record_using">녹음 중</string>
@@ -1264,6 +1268,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">성문 녹음</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">\"단일 참여자\"를 선택하기 전에 성문을 녹음하세요</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">외부 기기의 연결을 해제하고 다시 시도하세요</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"귀하의 음성은 이 기기에서만 녹음되고 처리됩니다.
+최상의 결과를 위해 조용한 곳에서 혼자 녹음하세요."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">맞춤형 노이즈 캔슬링을 위해 성문이 필요함</string>
     <string name="cs_pickup_voice_print_desc">한 사람의 소리만 듣기</string>
     <string name="cs_privacy_camera_global_settings_title">통화 개인 정보 보호</string>
     <string name="cs_record_voice_title">녹음</string>
@@ -1925,8 +1932,8 @@
     <string name="game_toolbox_slow_charge_positive_btn">켜기</string>
     <string name="game_toolbox_slow_charge_title">저속 충전</string>
     <string name="game_toolbox_slow_charge_toast">저속 충전 켜짐</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">햅틱 피드백은 원본 레이아웃에서 작동하지 않습니다. 햅틱 피드백이 꺼져 있습니다.</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">햅틱 피드백은 원본 레이아웃에서 작동하지 않음</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">기본 레이아웃에서는 햅틱 피드백이 지원되지 않습니다. 햅틱 피드백이 꺼져 있습니다.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">기본 레이아웃에서는 햅틱 피드백이 지원되지 않습니다.</string>
     <string name="game_toolbox_smotion_vibrate_desc">게임 동작에 따라 햅틱 피드백을 추가합니다. 일부 게임만 지원됩니다.</string>
     <string name="game_toolbox_smotion_vibrate_title">햅틱 피드백</string>
     <string name="game_toolbox_super_follow_up_msg">하드웨어 및 소프트웨어의 모든 파이프라인을 통해 터치 응답 및 추적을 강화</string>
@@ -3354,8 +3361,7 @@ SMS 전송"</string>
     <string name="oaid_apps_title">가상 ID 관리</string>
     <string name="oaid_reset_content_tip">지금 가상 ID를 끄시는 경우, 일부 앱 작동이 중지될 수 있으며, 앱 데이터가 손실되거나 사용할 수 없게 됩니다.</string>
     <string name="oaid_reset_final_tip">그래도 가상 ID를 끄시겠습니까?</string>
-    <string name="oaid_string">"현재 가상 ID:
-%1s"</string>
+    <string name="oaid_string">현재 가상 ID: %1s</string>
     <string name="oaid_tips_content">가상 ID (OAID)는 행동을 추적하고 맞춤형 광고에 사용될 수 있습니다. 가상 ID에 접근할 수 있는 앱을 선택할 수 있습니다. 접근을 제한하면 광고 추천에 관련성이 사라지거나 앱이 제대로 작동하지 않을 수 있습니다.</string>
     <string name="ok">확인</string>
     <string name="ok_button">확인</string>
@@ -3442,7 +3448,7 @@ SMS 전송"</string>
     <string name="optmizingbar_optimize_done">최적화됨</string>
     <string name="optmizingbar_ready">최적화 중…</string>
     <string name="optmizingbar_stop_optmize">정지</string>
-    <string name="optmizingbar_title_acceleration">최적화 중...</string>
+    <string name="optmizingbar_title_acceleration">최적화 중…</string>
     <string name="optmizingbar_title_clear">캐시 삭제</string>
     <string name="optmizingbar_title_security">보안</string>
     <string name="optmizingbar_title_system">시스템 보안</string>
@@ -3700,7 +3706,6 @@ SMS 전송"</string>
     <string name="pc_remind_close_cover_to_charge_summary">더 빠르고 안정적인 충전 경험을 위해 충전하기 전에 기기를 접으세요.</string>
     <string name="pc_remind_close_cover_to_charge_title">접어서 충전</string>
     <string name="pc_reminder_always_protect_summary">배터리 노후화 방지를 위해 제한된 충전으로 전환</string>
-    <string name="pc_remove_shell_charging_notification_msg">게이밍 케이스를 사용할 때는 무선 충전을 사용할 수 없습니다. 케이스를 제거한 후 다시 시도하거나 유선 충전을 사용하세요.</string>
     <string name="pc_remove_shell_charging_notification_title">무선 충전을 사용하려면 케이스를 제거하세요</string>
     <string name="pc_remove_shell_charging_toast">역방향 무선 충전을 사용하려면 케이스를 제거하세요</string>
     <string name="pc_satellite_auto_enter_super_power">위성 통신을 보장하기 위해 울트라 배터리 절약 켜짐</string>
@@ -3720,6 +3725,8 @@ SMS 전송"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">기기 과열을 방지하기 위해, 배터리가 %1$s에 도달하면 충전 중지</string>
     <string name="pc_smart_charge_notify_summary_navagition">내비게이션 중… 배터리가 %1$s에 도달하면 충전 중지</string>
     <string name="pc_smart_charge_notify_summary_night_charge">%s에 충전 중지</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">%1$s 충전된 후 충전이 중단되었습니다. %2$s에 충전이 다시 시작됩니다.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">배터리가 %1$s 충전되면 충전이 중단되며, 사용 상황에 따라 충전이 다시 시작됩니다.</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">배터리 수명을 연장하기 위해 이 기기의 배터리는 자동차에 연결되어 있는 동안 현재 수준을 초과하지 않습니다.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">다시 표시하지 않기</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">배터리 보호</string>
@@ -3739,6 +3746,7 @@ SMS 전송"</string>
     <string name="pc_suggest_open_fast_charge">%dW 급속 충전 켜기</string>
     <string name="pc_temperature_too_high">기기 과열됨</string>
     <string name="pc_this_time_charge_full">이번에는 완전히 충전</string>
+    <string name="pc_this_time_charge_full_now">완전 충전</string>
     <string name="pc_this_time_charge_full_work">거의 완전히 충전됨</string>
     <string name="pc_timely_charging_summary">배터리가 %1$s 미만입니다. 배터리가 부족한 상태에서 기기가 과열되면 배터리가 손상될 수 있습니다.</string>
     <string name="pc_timely_charging_title">기기를 충전하세요</string>
@@ -4116,7 +4124,6 @@ SMS 전송"</string>
     <string name="power_dialog_performance_mode_checkbox">%d Hz 재생률로 전환</string>
     <string name="power_dialog_super_save_msg">울트라 배터리 절약은 전력 소모가 큰 대부분의 기능 및 기본 기능 (예: 통화, SMS, 네트워크 연결)을 제외한 기기의 성능을 감소시키는 기능을 제한하여 기기를 더 오래 사용할 수 있게 해줍니다. 울트라 배터리 절약을 켜시겠습니까?</string>
     <string name="power_dialog_super_save_msg_5g">울트라 배터리 절약은 대부분의 전력 소비 기능 (예: 5G 연결) 및 기기의 성능을 저하시키는 기능을 제한합니다. 통화, 메시지, 네트워크에는 영향이 없습니다. 울트라 배터리 절약을 켜시겠습니까?</string>
-    <string name="power_dialog_super_save_msg_p2">울트라 배터리 절약은 후면 디스플레이를 끄고 전력이 소모되는 기능 대부분을 제한하여 기기의 성능을 낮춰 기본 기능(예: 통화, SMS, 네트워크 연결)을 최대한 오래 사용할 수 있도록 하는 기능입니다. 울트라 배터리 절약을 켜시겠습니까?</string>
     <string name="power_dialog_super_save_title">울트라 배터리 절약</string>
     <string name="power_idle">휴대폰 유휴상태</string>
     <string name="power_main_battery_last_day_hour">%1$s일 %2$s시간 남음</string>
@@ -5822,10 +5829,14 @@ Rolled over extra data"</string>
     <string name="uninstall_app_dialog_msg">설치 제거하시면 모든 앱 데이터가 삭제됩니다.</string>
     <string name="uninstall_app_dialog_title">지금 제거하시겠습니까?</string>
     <string name="uninstall_app_done">설치 제거 성공</string>
+    <string name="uninstall_app_reminder_msg">삭제된 앱 데이터는 복구할 수 없음을 이해합니다.</string>
+    <string name="uninstall_app_reminder_pre_title">%s 설치 삭제</string>
+    <string name="uninstall_app_reminder_toast">삭제된 앱 데이터는 복구할 수없다는 점을 이해했음을 확인해 주세요.</string>
     <string name="uninstall_danagerous_btn">설치 제거</string>
     <string name="uninstall_danagerous_desc">\"%s\"이(가) 디바이스를 손상시킬 수 있습니다</string>
     <string name="uninstall_danagerous_msg">\"%s\"이(가) 디바이스를 손상시키거나 성능 저하 또는 재부팅을 일으킬 수 있습니다.</string>
     <string name="uninstall_danagerous_title">악성 앱 설치 제거</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">%s의 듀얼 앱 삭제</string>
     <string name="unknown_operator">%2$s에 연락하여 %1$s에 요금제를 확인하실 수 있습니다.</string>
     <string name="unknown_package">플랜을 잘 모르시겠습니까?</string>
     <string name="unlike">사양하겠습니다.</string>
@@ -6042,7 +6053,7 @@ Rolled over extra data"</string>
     <string name="wakepath_delete_app_start_all">계속하시면 다른 앱을 실행할 수 있도록 %s 권한을 부여하셔야 합니다. 그래도 계속하시겠습니까?</string>
     <string name="wakepath_delete_app_start_other_app">계속하시면 %2$s을(를) 실행할 수 있도록 %1$s 권한을 다시 부여하셔야 합니다. 그래도 계속하시겠습니까?</string>
     <string name="wakepath_manager_allow_list">허용됨</string>
-    <string name="wakepath_manager_allow_start">허용됨</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">%1$s의 다른 앱 실행을 허용</string>
     <string name="wakepath_manager_checkbox_title">연속 실행 허용</string>
     <string name="wakepath_manager_empty_list">실행이 허용된 앱 없음</string>

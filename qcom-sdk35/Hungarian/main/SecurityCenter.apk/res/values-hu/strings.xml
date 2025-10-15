@@ -966,6 +966,7 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="bubble_notification">Párbeszéd buborékok</string>
     <string name="bubble_notification_switch">Párbeszéd buborékok megjelenítése</string>
     <string name="bubble_notification_switch_desc">Ha egy üzenetküldő alkalmazás egy lebegő ablakban el van rejtve a képernyő szélén, a bejövő üzenetek buborékokban jelennek meg</string>
+    <string name="bubble_pickup_voice_print_auto">Hangminta rögzítése…</string>
     <string name="button_background_connection">Engedélyezés</string>
     <string name="button_block_calls_from_cantacts">Tiltás feloldása</string>
     <string name="button_block_calls_from_strangers">Tiltás feloldása</string>
@@ -973,6 +974,8 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="button_do_not_disturb">Kikapcsolás</string>
     <string name="button_eye_shield">Kikapcsolás</string>
     <string name="button_first_aid_kit">Javítás most</string>
+    <string name="button_pickup_voice_print_auto_agree">Rögzítés</string>
+    <string name="button_pickup_voice_print_auto_disagree">Nem most</string>
     <string name="button_restrict_data_usage">Engedélyezés</string>
     <string name="button_text_accept">Engedélyezés</string>
     <string name="button_text_accept_timer">Engedélyez (%d)</string>
@@ -1231,6 +1234,7 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="cpu_usage_view_action_btn_text">Érintse meg a megtekintéshez</string>
     <string name="create_gamebooster_destop">Kezdőképernyő-parancsikon sikeresen létrehozva</string>
     <string name="create_shortcut">Játékgyorsító parancsikon létrehozása a Kezdőképernyőn</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Nem lehet használni ezt a funkciót a készülékek közötti kamera használatakor</string>
     <string name="cs_color_sense">Színhőmérséklet</string>
     <string name="cs_conversation_record_using">Rögzítés</string>
@@ -1264,6 +1268,9 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="cs_pickup_vioce_print_private_dialog_title">Hangminta rögzítése</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Hanglenyomat rögzítése az „Egy résztvevős” lehetőség kiválasztása előtt</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Válassza le a külső fülhallgatót, és próbálja újra</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"A hangját csak ezen a készüléken rögzítjük és dolgozzuk fel.
+A legjobb eredmény érdekében csendes helyen, egyedül rögzítse a hangját."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Hangminta szükséges a Személyre szabott zajcsökkentéshez</string>
     <string name="cs_pickup_voice_print_desc">Csak egy személytől vegye fel a hangot</string>
     <string name="cs_privacy_camera_global_settings_title">Hívásvédelem</string>
     <string name="cs_record_voice_title">Felvétel</string>
@@ -3352,8 +3359,7 @@ Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondo
     <string name="oaid_apps_title">Virtuális azonosító kezelése</string>
     <string name="oaid_reset_content_tip">Ha most kikapcsolja a virtuális azonosítót, lehetséges, hogy némelyik alkalmazás nem fog megfelelően működni, az alkalmazásadatok egy része elveszik vagy használhatatlanná válik.</string>
     <string name="oaid_reset_final_tip">Mégis kikapcsolja a virtuális azonosítót?</string>
-    <string name="oaid_string">"Jelenlegi virtuális azonosító:
-%1s"</string>
+    <string name="oaid_string">Jelenlegi virtuális azonosító:%1s</string>
     <string name="oaid_tips_content">A virtuális azonosítók (OAID) felhasználhatók az Ön viselkedésének nyomon követésére és a hirdetések személyre szabására. Kiválaszthatja, hogy mely alkalmazások férhetnek hozzá virtuális azonosítójához. Vegye figyelembe, hogy ha korlátozza a hozzáférést, a hirdetési ajánlások irrelevánssá válhatnak, vagy az alkalmazások nem tudnak normálisan működni.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3501,7 +3507,7 @@ Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondo
     <string name="pc_battery_charging_error_message">Töltési hiba történt. Forduljon egy szervizközponthoz a javításhoz.</string>
     <string name="pc_battery_charging_error_title">Töltési hiba</string>
     <string name="pc_battery_chart_loading">Egy pillanat…</string>
-    <string name="pc_battery_date_year_month_format">yyyy. MMM.</string>
+    <string name="pc_battery_date_year_month_format">yyyy. MMM</string>
     <string name="pc_battery_detail_curve_reference_now">Most</string>
     <string name="pc_battery_detail_device_item_title">Akkuhasználati statisztikák</string>
     <string name="pc_battery_health_revise_title">Akkumulátorállapot információ kalibrálása</string>
@@ -3698,7 +3704,6 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Töltés előtt hajtsa össze a készüléket a gyorsabb és stabilabb töltés érdekében.</string>
     <string name="pc_remind_close_cover_to_charge_title">A töltéshez hajtsa össze</string>
     <string name="pc_reminder_always_protect_summary">Váltson korlátozott töltésre, hogy mérsékelje az akkumulátor öregedését</string>
-    <string name="pc_remove_shell_charging_notification_msg">Gaming tok használata esetén a vezeték nélküli töltés nem használható. Vegye le a tokot, és próbálja újra, vagy használjon vezetékes töltést.</string>
     <string name="pc_remove_shell_charging_notification_title">A vezeték nélküli töltéshez vegye le a tokot</string>
     <string name="pc_remove_shell_charging_toast">Vegye le a tokot a fordított vezeték nélküli töltés használásához</string>
     <string name="pc_satellite_auto_enter_super_power">Ultraerős akkumulátorkímélő a műholdas kommunikáció biztosítása érdekében bekapcsolt</string>
@@ -3718,6 +3723,8 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Az eszköz túlmelegedés elleni védelme érdekében a töltés leáll, ha az akkumulátor töltöttségi szintje eléri a %1$s értéket</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigálás… A töltés leáll, ha az akkumulátor töltöttségi szintje eléri a %1$s értéket</string>
     <string name="pc_smart_charge_notify_summary_night_charge">A töltés leáll, ha eléri a(z) %s értéket</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">A töltés szünetel %1$s-nál. %2$s-nál folytatódik.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">A töltés szünetel, amikor az akkumulátor eléri a(z) %1$s -ot, és automatikusan folytatódik a használat alapján.</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Az akkumulátor élettartamának meghosszabbítása érdekében az eszköz akkumulátora nem haladja meg az aktuális szintet, amíg az autóhoz csatlakozik.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Ne jelenjen meg újra</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Akkumulátorvédelem</string>
@@ -3737,6 +3744,7 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pc_suggest_open_fast_charge">%dW gyorstöltés bekapcsolása</string>
     <string name="pc_temperature_too_high">Az eszköz túlmelegedett</string>
     <string name="pc_this_time_charge_full">Ezúttal teljesen töltse fel</string>
+    <string name="pc_this_time_charge_full_now">Teljes feltöltés</string>
     <string name="pc_this_time_charge_full_work">Majdnem teljesen feltöltve</string>
     <string name="pc_timely_charging_summary">Az akkumulátor töltöttsége %1$s alatt van. Károsodhat az akkumulátor, ha a készülék túlmelegszik, miközben a töltöttségi szint alacsony.</string>
     <string name="pc_timely_charging_title">Töltse fel készülékét</string>
@@ -4114,7 +4122,6 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="power_dialog_performance_mode_checkbox">Váltás %d Hz-es frissítési frekvenciára</string>
     <string name="power_dialog_super_save_msg">Az ultraerős akkumulátorkímélő korlátozza a legtöbb energiaigényes funkciót és csökkenti az készülék teljesítményét, hogy az alapvető funkciókat (pl. hívások, SMS és a hálózathoz való csatlakozás) a lehető leghosszabb ideig elérhetővé tegye. Bekapcsolja az Ultraerős akkumulátorkímélőt?</string>
     <string name="power_dialog_super_save_msg_5g">Az Ultra akkumulátorkímélő korlátozza a legtöbb olyan energiaigényes funkciót (pl. 5G-kapcsolat), amely csökkenti készülékének teljesítményét. Csak a hívások, az üzenetek és a hálózati kapcsolat nem érintett. Bekapcsolja az Ultra akkumulátorkímélőt?</string>
-    <string name="power_dialog_super_save_msg_p2">Az Ultra akkumulátorkímélő kikapcsolja a hátsó kijelzőt és korlátozza a legtöbb energiát fogyasztó funkciót, csökkentve a készülék teljesítményét annak érdekében, hogy az alapvető funkciók (pl. hívások, SMS-ek és a hálózathoz való csatlakozás) a lehető leghosszabb ideig rendelkezésre álljanak. Bekapcsolja az Ultra akkumulátorkímélőt?</string>
     <string name="power_dialog_super_save_title">Ultraerős akkumulátorkímélő</string>
     <string name="power_idle">Telefon - tétlen</string>
     <string name="power_main_battery_last_day_hour">%1$s nap %2$s óra van hátra</string>
@@ -5820,10 +5827,14 @@ A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyisége
     <string name="uninstall_app_dialog_msg">Az eltávolítás törölni fog minden adatot.</string>
     <string name="uninstall_app_dialog_title">Eltávolítás most?</string>
     <string name="uninstall_app_done">Sikeresen eltávolítva</string>
+    <string name="uninstall_app_reminder_msg">Megértettem, hogy a törölt alkalmazásadatok nem állíthatók vissza</string>
+    <string name="uninstall_app_reminder_pre_title">%s eltávolítása</string>
+    <string name="uninstall_app_reminder_toast">Erősítse meg, hogy megértette, hogy a törölt alkalmazásadatok nem állíthatók vissza</string>
     <string name="uninstall_danagerous_btn">Eltávolítás</string>
     <string name="uninstall_danagerous_desc">\"%s\" tönkreteheti az Ön készülékét</string>
     <string name="uninstall_danagerous_msg">\"%s\" tönkreteheti az Ön készülékét, teljesítmény-visszaesést vagy újraindulásokat okozhat.</string>
     <string name="uninstall_danagerous_title">Rosszindulatú alkalmazások eltávolítása</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">%s klónozott alkalmazásának eltávolítása</string>
     <string name="unknown_operator">%2$s szám hívható a csomag részleteinek (%1$s) megerősítéséhez.</string>
     <string name="unknown_package">Nem biztos benne, hogy milyen csomagja van?</string>
     <string name="unlike">Nem, köszönöm</string>
@@ -6040,7 +6051,7 @@ Ez a funkció nem működik, ha az Akkumulátorkímélő vagy az Ultraerős akku
     <string name="wakepath_delete_app_start_all">Ha folytatja, ismét engedélyt kell adnia %s számára a többi alkalmazás megnyitásához. Biztosan folytatja?</string>
     <string name="wakepath_delete_app_start_other_app">Ha folytatja, ismét engedélyt kell adnia %1$s számára a(z) %2$s megnyitásához. Biztosan folytatja?</string>
     <string name="wakepath_manager_allow_list">Engedélyezve</string>
-    <string name="wakepath_manager_allow_start">Engedélyezve</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Engedélyezi, hogy %1$s más alkalmazásokat indítson el</string>
     <string name="wakepath_manager_checkbox_title">Láncindítás engedélyezése</string>
     <string name="wakepath_manager_empty_list">Egyetlen alkalmazás sem indítható el</string>

@@ -141,6 +141,7 @@
     <string name="disable_nfc">ปิด NFC สำหรับการชาร์จแบบไร้สาย</string>
     <string name="disable_nfc_haptic_reverse">ปิด NFC และการสั่นเพื่อชาร์จไร้สายย้อนกลับ</string>
     <string name="disable_nfc_reverse">ปิดการชาร์จแบบไร้สายย้อนกลับปิด NFC สำหรับการชาร์จแบบไร้สายย้อนกลับ</string>
+    <string name="earpiece_callmode_tip">พลิกเพื่อใช้หูฟัง</string>
     <string name="echo">อีโค้</string>
     <string name="eighthours">8 ชั่วโมง</string>
     <string name="enable_livetalk_summary">ประหยัดค่าโทร 70%</string>
@@ -521,10 +522,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">ไม่สามารถใช้กล้องในขณะที่ใช้การสื่อสารผ่านดาวเทียม</string>
     <string name="toast_mic_muted">ไมโครโฟนปิดอยู่</string>
     <string name="toast_mic_unmuted">ไมโครโฟนเปิดอยู่</string>
-    <string name="tof_music_support_scene_des">รองรับการควบคุมเครื่องเล่นเพลง</string>
-    <string name="tof_office_support_scene_des">รองรับเอกสาร Word และการนำเสนอ PowerPoint</string>
-    <string name="tof_short_video_support_scene_des">รองรับการสลับระหว่างวิดีโอ</string>
-    <string name="tof_video_support_scene_des">รองรับการควบคุมเครื่องเล่นวิดีโอแบบเต็มหน้าจอ</string>
     <string name="total">DND</string>
     <string name="total_description">ปิดเสียงและปิดการสั่นสะเทือนสำหรับทุกรายการยกเว้นนาฬิกาปลุก</string>
     <string name="total_title">DND</string>
@@ -610,8 +607,15 @@
     <string name="ability_dialog_button">รับทราบ</string>
     <string name="ability_dialog_text">เนื่องจากขนาดหน้าจอ แอปบางแอปอาจแสดงไม่ถูกต้องบนหน้าจอด้านนอก</string>
     <string name="ability_dialog_title">โปรดทราบ</string>
-    <string name="aon_reader_support_scene_des">พลิกหน้าขณะอ่าน</string>
-    <string name="aon_video_support_scene_des">ควบคุมการเล่นวิดีโอ</string>
+    <string name="aon_music_double_press_support_scene_des">เล่นหรือพักเพลง</string>
+    <string name="aon_music_left_right_support_scene_des">สลับไปยังเพลงก่อนหน้าหรือเพลงถัดไป</string>
+    <string name="aon_music_up_down_support_scene_des">ปรับระดับเสียงเพลง</string>
+    <string name="aon_office_up_down_support_scene_des">ไปที่หน้าก่อนหน้าหรือหน้าถัดไปของการนำเสนอหรือเอกสาร</string>
+    <string name="aon_reader_support_scene_des">ไปที่หน้าก่อนหน้าหรือหน้าถัดไปของหนังสือ</string>
+    <string name="aon_short_video_up_down_support_scene_des">สลับไปยังวีดีโอก่อนหน้าหรือวีดีโอถัดไป</string>
+    <string name="aon_video_double_press_support_scene_des">เล่นหรือหยุดวิดีโอ</string>
+    <string name="aon_video_left_right_support_scene_des">ปรับความคืบหน้าของวิดีโอเมื่อรับชมในโหมดแนวนอน</string>
+    <string name="aon_video_up_down_support_scene_des">ปรับระดับเสียงวิดีโอ</string>
     <string name="config_quick_scanner_notification_content_text">สแกนรหัส QR และเปิดหน้าเว็บโดยตรง</string>
     <string name="config_quick_scanner_notification_title">ตัวสแกนด่วน</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"ต่อไปนี้คือวิธีที่คุณสามารถลบประกาศนี้:

@@ -966,6 +966,7 @@ Cependant, certaines de vos transactions ne sont pas encore terminées. Pour pou
     <string name="bubble_notification">Bulles de conversation</string>
     <string name="bubble_notification_switch">Afficher les bulles de conversation</string>
     <string name="bubble_notification_switch_desc">"Lorsqu'une application de messagerie dans une fenêtre flottante est masquée au bord de l'écran, afficher les messages entrants dans des bulles"</string>
+    <string name="bubble_pickup_voice_print_auto">"Enregistrement de l'empreinte vocale…"</string>
     <string name="button_background_connection">Autoriser</string>
     <string name="button_block_calls_from_cantacts">Débloquer</string>
     <string name="button_block_calls_from_strangers">Débloquer</string>
@@ -973,6 +974,8 @@ Cependant, certaines de vos transactions ne sont pas encore terminées. Pour pou
     <string name="button_do_not_disturb">Désactiver</string>
     <string name="button_eye_shield">Désactiver</string>
     <string name="button_first_aid_kit">Réparer maintenant</string>
+    <string name="button_pickup_voice_print_auto_agree">Enregistrer</string>
+    <string name="button_pickup_voice_print_auto_disagree">Pas maintenant</string>
     <string name="button_restrict_data_usage">Autoriser</string>
     <string name="button_text_accept">Accepter</string>
     <string name="button_text_accept_timer">Accepter (%d)</string>
@@ -1231,6 +1234,7 @@ Cependant, certaines de vos transactions ne sont pas encore terminées. Pour pou
     <string name="cpu_usage_view_action_btn_text">Appuyer pour afficher</string>
     <string name="create_gamebooster_destop">"Création du raccourci de l'écran d'accueil avec succès"</string>
     <string name="create_shortcut">"Créer un raccourci pour Game Turbo sur l'écran d'accueil"</string>
+    <string name="cs_camera_bubble">Caméra disponible détectée.<annotation key="action" value="switchCamera">Appuyez pour changer.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">"Impossible d'utiliser cette fonctionnalité lors de l'utilisation de l'Appareil photo multi-appareils"</string>
     <string name="cs_color_sense">Température de couleur</string>
     <string name="cs_conversation_record_using">Enregistrement</string>
@@ -1264,6 +1268,9 @@ Cependant, certaines de vos transactions ne sont pas encore terminées. Pour pou
     <string name="cs_pickup_vioce_print_private_dialog_title">"Enregistrer l'empreinte vocale"</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">"Enregistrez l'empreinte vocale avant de sélectionner \"Participant unique\""</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Déconnectez les périphériques externes et réessayez</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Votre voix sera enregistrée et traitée uniquement sur cet appareil.
+Pour de meilleurs résultats, enregistrez seul dans un endroit calme."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Empreinte vocale requise pour la réduction personnalisée du bruit</string>
     <string name="cs_pickup_voice_print_desc">"Captez le son d'une seule personne"</string>
     <string name="cs_privacy_camera_global_settings_title">Appels confidentiels</string>
     <string name="cs_record_voice_title">Enregistrer</string>
@@ -3354,8 +3361,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="oaid_apps_title">"Gérer l'identifiant virtuel"</string>
     <string name="oaid_reset_content_tip">"Si vous désactivez l'identifiant virtuel maintenant, certaines applications peuvent cesser de fonctionner correctement, une partie des données de votre application peut être perdue ou devenir inutilisable."</string>
     <string name="oaid_reset_final_tip">"Désactiver l'identifiant virtuel en tous les cas?"</string>
-    <string name="oaid_string">"Identifiant virtuel actuel:
-%1s"</string>
+    <string name="oaid_string">ID virtuel actuel : %1s</string>
     <string name="oaid_tips_content">"Les identifiants virtuels (OAID) peuvent être utilisés pour suivre votre comportement et personnaliser les publicités pour vous. Vous pouvez sélectionner les applications autorisées à accéder à votre identifiant virtuel. Notez que si vous restreignez l'accès, les recommandations publicitaires peuvent devenir inutiles ou les applications peuvent ne pas fonctionner normalement."</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK </string>
@@ -3700,7 +3706,6 @@ de l'économiseur de batterie Ultra"</string>
     <string name="pc_remind_close_cover_to_charge_summary">"Pliez l'appareil avant de charger pour une expérience de charge plus rapide et plus stable."</string>
     <string name="pc_remind_close_cover_to_charge_title">Plier pour charger</string>
     <string name="pc_reminder_always_protect_summary">Passez à une charge limitée pour réduire le vieillissement de la batterie</string>
-    <string name="pc_remove_shell_charging_notification_msg">"Impossible d'utiliser la charge sans fil avec un étui de jeu. Retirez-le et réessayez, ou utilisez la charge filaire."</string>
     <string name="pc_remove_shell_charging_notification_title">"Retirez l'étui pour utiliser le chargement sans fil"</string>
     <string name="pc_remove_shell_charging_toast">"Retirez l'étui pour utiliser la recharge sans fil inversée"</string>
     <string name="pc_satellite_auto_enter_super_power">Activé Ultra économiseur de batterie pour assurer les communications par satellite</string>
@@ -3720,6 +3725,8 @@ de l'économiseur de batterie Ultra"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">"Pour protéger votre appareil contre la surchauffe, le chargement s'arrête lorsque le niveau de batterie atteint %1$s"</string>
     <string name="pc_smart_charge_notify_summary_navagition">"Navigation… La charge s'arrête lorsque le niveau de la batterie atteint %1$s"</string>
     <string name="pc_smart_charge_notify_summary_night_charge">"La charge s'arrêtera à %s"</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Chargement interrompu à %1$s. Il reprendra à %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">"La charge s'interrompt lorsque la batterie atteint %1$s et reprend automatiquement en fonction de votre utilisation"</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">"Pour prolonger l'autonomie de la batterie, la batterie de cet appareil ne dépassera pas le niveau actuel lorsqu'il est connecté à la voiture."</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Ne plus afficher</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Protection de la batterie</string>
@@ -3739,6 +3746,7 @@ de l'économiseur de batterie Ultra"</string>
     <string name="pc_suggest_open_fast_charge">Activer %dW charge rapide</string>
     <string name="pc_temperature_too_high">Appareil en surchauffe</string>
     <string name="pc_this_time_charge_full">Charger entièrement cette fois</string>
+    <string name="pc_this_time_charge_full_now">Charger complètement</string>
     <string name="pc_this_time_charge_full_work">Presque pleinement chargé</string>
     <string name="pc_timely_charging_summary">"La batterie est inférieure à %1$s. Si l'appareil surchauffe alors que la batterie est faible, cela peut endommager la batterie."</string>
     <string name="pc_timely_charging_title">Charger votre appareil</string>
@@ -4116,7 +4124,6 @@ de l'économiseur de batterie Ultra"</string>
     <string name="power_dialog_performance_mode_checkbox">Passer à la fréquence de rafraîchissement %d Hz</string>
     <string name="power_dialog_super_save_msg">"L'économiseur de batterie Ultra restreint la plupart des fonctionnalités énergivores et diminue les performances de votre appareil afin de laisser les fonctionnalités de base (appels, SMS et connexion au réseau, par exemple) disponibles le plus longtemps possible. Activer l'économiseur de batterie Ultra?"</string>
     <string name="power_dialog_super_save_msg_5g">"L'économiseur de batterie Ultra restreint la plupart des fonctions consommant de l'énergie ( ex., connectivité 5G), ce qui diminue les performances de votre appareil. Seuls les appels, les messages et la connectivité réseau ne seront pas affectés. Activer l'économiseur de batterie Ultra?"</string>
-    <string name="power_dialog_super_save_msg_p2">"L'économiseur de batterie Ultra désactive l'affichage arrière et restreint les fonctionnalités consommant le plus d'énergie, diminuant la performance de votre appareil afin de préserver les fonctionnalités de bases ( e.g. appels, SMS, et connexion au réseau) le plus longtemps possible. Activer l'économiseur de batterie Ultra ?"</string>
     <string name="power_dialog_super_save_title">Économiseur de batterie Ultra</string>
     <string name="power_idle">Téléphone en veille</string>
     <string name="power_main_battery_last_day_hour">%1$sj %2$sh restants</string>
@@ -5822,10 +5829,14 @@ Le volume de données restant inclut l'excédent du mois précédent."</string>
     <string name="uninstall_app_dialog_msg">"La désinstallation va supprimer toutes les données de l'application."</string>
     <string name="uninstall_app_dialog_title">Désinstaller maintenant ?</string>
     <string name="uninstall_app_done">Désinstallé avec succès</string>
+    <string name="uninstall_app_reminder_msg">"Je comprends que les données d'application supprimées ne peuvent pas être restaurées"</string>
+    <string name="uninstall_app_reminder_pre_title">Désinstaller %s</string>
+    <string name="uninstall_app_reminder_toast">"Confirmez que vous comprenez que les données d'application supprimées ne peuvent pas être restaurées"</string>
     <string name="uninstall_danagerous_btn">Désinstaller</string>
     <string name="uninstall_danagerous_desc">\" %s \" peut endommager votre appareil</string>
     <string name="uninstall_danagerous_msg">\" %s \" peut endommager votre appareil, réduire les performances ou provoquer des redémarrages.</string>
     <string name="uninstall_danagerous_title">Désinstaller les applications malveillantes</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">"Désinstaller l'application clonée de %s"</string>
     <string name="unknown_operator">Vous pouvez appeler %2$s pour confirmer les détails de votre forfait avec %1$s</string>
     <string name="unknown_package">Vous ne savez pas quel est votre forfait?</string>
     <string name="unlike">Non merci</string>
@@ -6042,7 +6053,7 @@ Cette fonctionnalité ne fonctionne pas lorsque l'économiseur de batterie ou l'
     <string name="wakepath_delete_app_start_all">"Si vous continuez, vous devrez accorder à nouveau l'autorisation %s pour ouvrir d'autres applications. Continuer quand même ?"</string>
     <string name="wakepath_delete_app_start_other_app">"Si vous continuez, vous devrez accorder à nouveau l'autorisation %1$s pour ouvrir %2$s. Continuer quand même ?"</string>
     <string name="wakepath_manager_allow_list">Autorisé</string>
-    <string name="wakepath_manager_allow_start">Autorisé</string>
+    <string name="wakepath_manager_allow_start">Toujours autoriser</string>
     <string name="wakepath_manager_checkbox_desc">"Autoriser %1$s à lancer d'autres applications"</string>
     <string name="wakepath_manager_checkbox_title">Autoriser le début de la chaîne</string>
     <string name="wakepath_manager_empty_list">"Aucune application n'est autorisée à se lancer"</string>

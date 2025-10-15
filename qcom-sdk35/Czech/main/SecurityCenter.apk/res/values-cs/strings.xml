@@ -966,6 +966,7 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="bubble_notification">Bubliny konverzací</string>
     <string name="bubble_notification_switch">Zobrazit bubliny konverzací</string>
     <string name="bubble_notification_switch_desc">Pokud je aplikace zpráv v plovoucím okně skryta na okraji obrazovky, příchozí zprávy budou zobrazeny v bublině.</string>
+    <string name="bubble_pickup_voice_print_auto">Zaznamenávání hlasového otisku…</string>
     <string name="button_background_connection">Povolit</string>
     <string name="button_block_calls_from_cantacts">Odblokovat</string>
     <string name="button_block_calls_from_strangers">Odblokovat</string>
@@ -973,6 +974,8 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="button_do_not_disturb">Vypnout</string>
     <string name="button_eye_shield">Vypnout</string>
     <string name="button_first_aid_kit">Opravit nyní</string>
+    <string name="button_pickup_voice_print_auto_agree">Zaznamenat</string>
+    <string name="button_pickup_voice_print_auto_disagree">Nyní ne</string>
     <string name="button_restrict_data_usage">Povolit</string>
     <string name="button_text_accept">Přijmout</string>
     <string name="button_text_accept_timer">Přijmout (%d)</string>
@@ -1231,6 +1234,7 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="cpu_usage_view_action_btn_text">Klepněte pro zobrazení</string>
     <string name="create_gamebooster_destop">Zástupce na Domovské obrazovce úspěšně vytvořen</string>
     <string name="create_shortcut">Vytvořit zástupce pro Game Turbo na Domovské obrazovce</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Tuto funkci nelze použít při využívání sdílení fotoaparátů v zařízeních</string>
     <string name="cs_color_sense">Teplota barev</string>
     <string name="cs_conversation_record_using">Nahrávání</string>
@@ -1264,6 +1268,9 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="cs_pickup_vioce_print_private_dialog_title">Nahrajte hlas</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Než vyberete možnost „Jeden účastník“, nahrajte hlas.</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Odpojte externí zařízení a zkuste to znovu.</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Váš hlas bude zaznamenán a zpracován pouze na tomto zařízení.
+Chcete-li dosáhnout nejlepších výsledků, zaznamenejte jej, když jste sami a na tichém místě."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Pro personalizovanou redukci šumu je je vyžadován hlasový otisk</string>
     <string name="cs_pickup_voice_print_desc">Zachytávejte hlas pouze jedné osoby</string>
     <string name="cs_privacy_camera_global_settings_title">Soukromí hovorů</string>
     <string name="cs_record_voice_title">Nahrát</string>
@@ -1923,8 +1930,8 @@ Když je zapnutá funkce Chytrá snímková frekvence, nástroje pro pro měřen
     <string name="game_toolbox_slow_charge_positive_btn">Zapnout</string>
     <string name="game_toolbox_slow_charge_title">Pomalé nabíjení</string>
     <string name="game_toolbox_slow_charge_toast">Pomalé nabíjení je zapnuté</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">Funkce haptická odezva nefunguje s původními rozloženími. Tato funkce je vypnutá.</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptická odezva nefunguje s původními rozloženími</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Haptická odezva nefunguje s původními rozvrženími. Haptická odezva je vypnutá.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptická odezva nefunguje s původními rozvrženími</string>
     <string name="game_toolbox_smotion_vibrate_desc">Přidání haptické odezvy odpovídající pohybům ve hře. Podporovány jsou pouze některé hry.</string>
     <string name="game_toolbox_smotion_vibrate_title">Haptická odezva</string>
     <string name="game_toolbox_super_follow_up_msg">Zlepšete citlivost na dotek a sledování pomocí kompletního propojení hardwaru a softwaru</string>
@@ -3352,8 +3359,7 @@ Zkuste použít jiný ethernetový kabel pro připojení routeru. Pokud se domn�
     <string name="oaid_apps_title">Správa virtuálního ID</string>
     <string name="oaid_reset_content_tip">Pokud nyní virtuální ID vypnete, některé aplikace mohou přestat správně fungovat, část dat aplikací může být ztracena nebo může být nepoužitelná.</string>
     <string name="oaid_reset_final_tip">Chcete virtuální ID přesto vypnout?</string>
-    <string name="oaid_string">"Aktuální virtuální ID:
-%1s"</string>
+    <string name="oaid_string">Aktuální virtuální ID:%1s</string>
     <string name="oaid_tips_content">Virtuální ID (OAID) je využíváno k zaznamenávání vašeho chování a následného přizpůsobení zobrazovaných reklam. Můžete sami zvolit, které aplikace budou mít přístup k vašemu virtuálnímu ID. Upozorňujeme, že pokud zakážete oprávnění této služby, obsah doporučených reklam se může stát irelevantním a některé aplikace možná nebudou schopny fungovat správně.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ Ultra spořiče baterie"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Před nabíjením zařízení složte, abyste zajistili rychlejší a stabilnější průběh nabíjení.</string>
     <string name="pc_remind_close_cover_to_charge_title">Pro nabíjení složte</string>
     <string name="pc_reminder_always_protect_summary">Přepněte na omezené nabíjení, abyte omezili stárnutí baterie</string>
-    <string name="pc_remove_shell_charging_notification_msg">Při používání herního pouzdra nelze využít bezdrátové nabíjení. Sundejte pouzdro a zkuste to znovu, nebo použijte kabelové nabíjení.</string>
     <string name="pc_remove_shell_charging_notification_title">Pro využití bezdrátového nabíjení sundejte pouzdro</string>
     <string name="pc_remove_shell_charging_toast">Pro využití zpětného bezdrátového nabíjení sundejte pouzdro</string>
     <string name="pc_satellite_auto_enter_super_power">Zapnutý Ultra spořič baterie k zajištění satelitní komunikace</string>
@@ -3718,6 +3723,8 @@ Ultra spořiče baterie"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Kvůli ochraně zařízení před přehřátím se nabíjení ukončí po dosažení %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigování… Nabíjení se zastaví, až úroveň baterie dosáhne %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Nabíjení se zastaví po dosažení %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Nabíjení bylo pozastaveno při %1$s. Bude pokračovat při %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Nabíjení se pozastaví, když baterie dosáhne %1$s a automaticky se obnoví na základě vašeho používání</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Baterie tohoto zařízení se během připojení k automobilu nebude nabíjet nad aktuální úroveň, aby se prodloužila její životnost.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Znovu nezobrazovat</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Ochrana baterie</string>
@@ -3737,6 +3744,7 @@ Ultra spořiče baterie"</string>
     <string name="pc_suggest_open_fast_charge">Zapněte %drychlonabíjení W</string>
     <string name="pc_temperature_too_high">Zařízení se přehřívá</string>
     <string name="pc_this_time_charge_full">Tentokrát nabít plně</string>
+    <string name="pc_this_time_charge_full_now">Úplně nabít</string>
     <string name="pc_this_time_charge_full_work">Téměř plně nabito</string>
     <string name="pc_timely_charging_summary">Kapacita baterie je méně než %1$s. Pokud se zařízení přehřeje, když je nízká kapacita baterie, může se baterie poškodit.</string>
     <string name="pc_timely_charging_title">Nabijte zařízení</string>
@@ -4114,7 +4122,6 @@ Ultra spořiče baterie"</string>
     <string name="power_dialog_performance_mode_checkbox">Přepnout do frekvence obnovení %d Hz</string>
     <string name="power_dialog_super_save_msg">Ultra spořič baterie zakáže většinu funkcí, které spotřebovávají velké množství energie. Zároveň sníží výkon zařízení, díky čemuž budete moci využívat základní funkce telefonu (např. volání, SMS a připojení k internetu) po co nejdelší možnou dobu. Chcete zapnout Ultra spořič baterie?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra spořič baterie omezí funkce zařízení, které nadměrně vybíjejí baterii (např. připojení 5G) a snižují tak výkon vašeho zařízení. Toto nastavení neovlivní volání, zprávy a připojení k internetu. Zapnout Ultra spořič baterie?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultra spořič baterie vypne zadní displej a zakáže většinu funkcí, které spotřebovávají velké množství energie. Zároveň sníží výkon zařízení, díky čemuž budete moci využívat základní funkce telefonu (např. volání, SMS a připojení k internetu) po co nejdelší možnou dobu. Chcete zapnout Ultra spořič baterie?</string>
     <string name="power_dialog_super_save_title">Ultra spořič baterie</string>
     <string name="power_idle">Zařízení v nečinnosti</string>
     <string name="power_main_battery_last_day_hour">Zbývá %1$s d %2$s hod.</string>
@@ -5820,10 +5827,14 @@ Zbývající data včetně dat, která byla přenesena z minulého měsíce."</s
     <string name="uninstall_app_dialog_msg">Při odinstalování dojde k odstranění veškerých dat aplikace.</string>
     <string name="uninstall_app_dialog_title">Odinstalovat nyní?</string>
     <string name="uninstall_app_done">Úspěšně odinstalováno</string>
+    <string name="uninstall_app_reminder_msg">Rozumím tomu, že odstraněná data aplikace nelze obnovit.</string>
+    <string name="uninstall_app_reminder_pre_title">Odinstalovat %s</string>
+    <string name="uninstall_app_reminder_toast">Potvrďte, že rozumíte tomu, že odstraněná data aplikace nelze obnovit.</string>
     <string name="uninstall_danagerous_btn">Odinstalovat</string>
     <string name="uninstall_danagerous_desc">\"%s\" může poškodit vaše zařízení</string>
     <string name="uninstall_danagerous_msg">\"%s\" může poškodit vaše zařízení, snížit výkon nebo způsobit restartování zařízení.</string>
     <string name="uninstall_danagerous_title">Odinstalovat škodlivé aplikace</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Odinstalovat duální aplikaci %s</string>
     <string name="unknown_operator">Pro upřesnění podrobností vašeho plánu můžete kontaktovat svého operátora %1$s na čísle %2$s.</string>
     <string name="unknown_package">Nejste si jisti, který datový plán je ten váš?</string>
     <string name="unlike">Ne, děkuji</string>
@@ -6040,7 +6051,7 @@ Funkci nelze využít, pokud je zapnutý Spořič baterie nebo Ultra spořič ba
     <string name="wakepath_delete_app_start_all">Pokud budete pokračovat, budete muset znovu udělit %s oprávnění k otevření jiných aplikací. Chcete přesto pokračovat?</string>
     <string name="wakepath_delete_app_start_other_app">Pokud budete pokračovat, budete muset znovu udělit %1$s oprávnění k otevření %2$s. Chcete přesto pokračovat?</string>
     <string name="wakepath_manager_allow_list">Povoleno</string>
-    <string name="wakepath_manager_allow_start">Povoleno</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Aplikaci %1$s bude povoleno spouštět jiné aplikace</string>
     <string name="wakepath_manager_checkbox_title">Povolit řetězové spuštění</string>
     <string name="wakepath_manager_empty_list">Není povoleno spuštění žádné aplikace</string>

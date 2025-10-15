@@ -966,6 +966,7 @@
     <string name="bubble_notification">Бурбалкі дыялогаў</string>
     <string name="bubble_notification_switch">Паказваць бурбалкі дыялогаў</string>
     <string name="bubble_notification_switch_desc">Калі праграма для абмену паведамленнямі ўтоена ў плывучым акне ў краю экрана, уваходныя паведамленні будуць адлюстроўвацца ў бурбалках.</string>
+    <string name="bubble_pickup_voice_print_auto">Запіс узору голасу…</string>
     <string name="button_background_connection">Дазволіць</string>
     <string name="button_block_calls_from_cantacts">Разблакаваць</string>
     <string name="button_block_calls_from_strangers">Разблакаваць</string>
@@ -973,6 +974,8 @@
     <string name="button_do_not_disturb">Адключыць</string>
     <string name="button_eye_shield">Адключыць</string>
     <string name="button_first_aid_kit">Выправіць</string>
+    <string name="button_pickup_voice_print_auto_agree">Запіс</string>
+    <string name="button_pickup_voice_print_auto_disagree">Не зараз</string>
     <string name="button_restrict_data_usage">Дазволіць</string>
     <string name="button_text_accept">Прыняць</string>
     <string name="button_text_accept_timer">Дазволіць (%d)</string>
@@ -1231,6 +1234,7 @@
     <string name="cpu_usage_view_action_btn_text">Націсніце для прагляду</string>
     <string name="create_gamebooster_destop">Ярлык паспяхова дададзены на Галоўны экран</string>
     <string name="create_shortcut">Стварыць ярлык на Галоўным экране для Паскарэння гульняў</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Немагчыма выкарыстаць гэту функцыю пры выкарыстанні камер некалькіх прылад</string>
     <string name="cs_color_sense">Каляровая тэмпература</string>
     <string name="cs_conversation_record_using">Запіс</string>
@@ -1264,6 +1268,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">Запісаць узор голасу</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Запішыце ўзор голасу, перш чым абраць «Адзін удзельнік»</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Адключыце знешнія прылады і паспрабуйце яшчэ раз</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Ваш голас будзе запісаны і апрацаваны толькі на гэтай прыладзе.
+Для дасягнення найлепшых вынікаў запісвайце ў адзіноце ў ціхім месцы."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Для персаналізаванага шумапрыглушэння патрабуецца ўзор голасу</string>
     <string name="cs_pickup_voice_print_desc">Улоўліваць гук толькі ад аднаго чалавека</string>
     <string name="cs_privacy_camera_global_settings_title">Прыватнасць выклікаў</string>
     <string name="cs_record_voice_title">Запіс</string>
@@ -1923,8 +1930,8 @@
     <string name="game_toolbox_slow_charge_positive_btn">Уключыць</string>
     <string name="game_toolbox_slow_charge_title">Павольная зарадка</string>
     <string name="game_toolbox_slow_charge_toast">Павольная зарадка ўключана</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">Тактыльны водгук не працуе з арыгінальнымі макетамі. Тактыльны водгук адключаны.</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">Тактыльны водгук не працуе з арыгінальнымі макетамі</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Тактыльныя аддача не працуе з арыгінальнымі макетамі. Тактыльныя аддача адключана.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Тактыльныя аддача не працуе з арыгінальнымі макетамі</string>
     <string name="game_toolbox_smotion_vibrate_desc">Дадайце тактыльны водгук у адпаведнасці з гульнявымі хадамі. Падтрымліваюцца толькі некаторыя гульні.</string>
     <string name="game_toolbox_smotion_vibrate_title">Тактыльныя аддача</string>
     <string name="game_toolbox_super_follow_up_msg">Палепшыце рэакцыю на дотык і адсочванне з дапамогай усяго апаратна-праграмнага канвеера</string>
@@ -3352,8 +3359,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="oaid_apps_title">Кіраванне віртуальным ID</string>
     <string name="oaid_reset_content_tip">Калі вы зараз выключыце віртуальны ID, некаторыя праграмы могуць працаваць няправільна, а некаторая частка дадзеных праграм можа быць страчана або стаць недаступнай.</string>
     <string name="oaid_reset_final_tip">Выключыць віртуальны ID?</string>
-    <string name="oaid_string">"Бягучы віртуальны ID:
-%1s"</string>
+    <string name="oaid_string">Бягучы віртуальны ID:%1s</string>
     <string name="oaid_tips_content">Віртуальныя ідэнтыфікатары (OAD) можна выкарыстоўваць для адсочвання вашых паводзінаў і персаналізацыі рэкламы для вас. Вы можаце выбраць праграмы, якія могуць атрымліваць доступ да вашага віртуальнай ідэнтыфікатару. Звярніце ўвагу, што калі вы абмежавалі доступ, рэкамендацыі па рэкламе могуць стаць неактуальнымі, а праграмы могуць перастаць працаваць нармальна.</string>
     <string name="ok">ОК</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Складзіце прыладу перад зарадкай для больш хуткай і стабільнай зарадкі.</string>
     <string name="pc_remind_close_cover_to_charge_title">Складзіце для зарадкі</string>
     <string name="pc_reminder_always_protect_summary">Пераключыцеся на абмежаваную зарадку, каб паменшыць старэнне акумулятара</string>
-    <string name="pc_remove_shell_charging_notification_msg">Немагчыма выкарыстоўваць бесправадную зарадку пры выкарыстанні гульнявога чахла. Зніміце яго і паспрабуйце яшчэ раз або скарыстайцеся правадной зарадкай.</string>
     <string name="pc_remove_shell_charging_notification_title">Зніміце чахол, каб выкарыстоўваць бесправадную зарадку</string>
     <string name="pc_remove_shell_charging_toast">Зніміце чахол, каб выкарыстоўваць зваротную бесправадную зарадку</string>
     <string name="pc_satellite_auto_enter_super_power">Уключана функцыя «Ультра-эканомія энергіі» для забеспячэння спадарожнікавай сувязі.</string>
@@ -3718,6 +3723,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Каб абараніць вашу прыладу ад перагрэву, зарадка будзе спынена, калі ўзровень зарада акумулятара дасягне %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Пераход… Зарадка спыніцца, калі ўзровень зарада акумулятара дасягне %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Зарадка спыніцца пры %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Зарадка прыпынена на %1$s. Яна будзе адноўлена на %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Зарадка прыпыніцца, калі ўзровень зарада батарэі дасягне %1$s, і аднавіцца аўтаматычна ў залежнасці ад выкарыстання</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Каб падоўжыць тэрмін службы акумулятара, узровень зарада акумулятара гэтай прылады не будзе перавышаць бягучы ўзровень пры падключэнні да аўтамабіля.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Больш не паказваць</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Абарона акумулятара</string>
@@ -3737,6 +3744,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_suggest_open_fast_charge">Уключыце %d-ватную хуткую зарадку</string>
     <string name="pc_temperature_too_high">Прылада перагрэлася</string>
     <string name="pc_this_time_charge_full">На гэты раз зарадзіць поўнасцю</string>
+    <string name="pc_this_time_charge_full_now">Зарадзіць цалкам</string>
     <string name="pc_this_time_charge_full_work">Амаль зараджана</string>
     <string name="pc_timely_charging_summary">Зарад акумулятара менш за %1$s. Акумулятар можа быць пашкоджаны, калі прылада пераграваецца пры нізкім узроўні зарада.</string>
     <string name="pc_timely_charging_title">Зарадзіце прыладу</string>
@@ -4114,7 +4122,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">Пераключыцца на частату абнаўлення %d Гц</string>
     <string name="power_dialog_super_save_msg">Ультра-эканомія энергіі абмяжоўвае большасць функцый, якія спажываюць энергію, і зніжае прадукцыйнасць вашай прылады, каб зрабіць асноўныя функцыі (напрыклад, званкі, SMS і падлучэнне да сеткі) даступнымі як мага даўжэй. Уключыць яе?</string>
     <string name="power_dialog_super_save_msg_5g">Ультра-эканомія энергіі абмяжоўвае функцыі з найбольшым энергаспажываннем (напрыклад, cувязь 5G), зніжаючы прадукцыйнасць вашай прылады. Толькі выклікі, паведамленні і сеткавае злучэнне не будуць закрануты. Уключыць Ультра-эканомію энергіі?</string>
-    <string name="power_dialog_super_save_msg_p2">У рэжыме ультра-эканоміі энергіі выключаецца задні экран і абмяжоўваецца большасць функцый, якія спажываюць энергію, зніжаючы прадукцыйнасць прылады, каб асноўныя функцыі (напрыклад, званкі, SMS і падключэнне да сеткі) заставаліся даступнымі як мага даўжэй. Уключыць яе?</string>
     <string name="power_dialog_super_save_title">Ультра-эканомія энергіі</string>
     <string name="power_idle">Рэжым чакання</string>
     <string name="power_main_battery_last_day_hour">Застаецца %1$s д %2$s г</string>
@@ -5820,10 +5827,14 @@ Rolled over extra data"</string>
     <string name="uninstall_app_dialog_msg">Выдаленне праграмы ачысціць усе яе дадзеныя.</string>
     <string name="uninstall_app_dialog_title">Выдаліць зараз?</string>
     <string name="uninstall_app_done">Паспяхова выдалена</string>
+    <string name="uninstall_app_reminder_msg">Я разумею, што выдаленыя даныя праграмы нельга аднавіць</string>
+    <string name="uninstall_app_reminder_pre_title">Выдаліць %s</string>
+    <string name="uninstall_app_reminder_toast">Пацвердзіце, што вы разумееце, што выдаленыя даныя праграмы нельга аднавіць</string>
     <string name="uninstall_danagerous_btn">Выдаліць</string>
     <string name="uninstall_danagerous_desc">\"%s\" можа прычыніць шкоду прыладзе</string>
     <string name="uninstall_danagerous_msg">\"%s\" можа прычыніць шкоду прыладзе, знізіць яго прадукцыйнасць або выклікаць перазагрузкі.</string>
     <string name="uninstall_danagerous_title">Выдаліць шкодныя праграмы</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Выдаліць клон праграмы %s</string>
     <string name="unknown_operator">Вы можаце патэлефанаваць па нумары %2$s для атрымання падрабязнай інфармацыі аб вашым тарыфным плане ў %1$s.</string>
     <string name="unknown_package">Не ведаеце, які ваш план?</string>
     <string name="unlike">Не, дзякуй</string>
@@ -6040,7 +6051,7 @@ Rolled over extra data"</string>
     <string name="wakepath_delete_app_start_all">Калі вы працягнеце, вам давядзецца зноў даць праграме %s дазвол на запуск іншых праграм. Усё роўна працягнуць?</string>
     <string name="wakepath_delete_app_start_other_app">Калі вы працягнеце, вам давядзецца зноў даць праграме %1$s дазвол на запуск %2$s. Усё роўна працягнуць?</string>
     <string name="wakepath_manager_allow_list">Дазволена</string>
-    <string name="wakepath_manager_allow_start">Дазволена</string>
+    <string name="wakepath_manager_allow_start">Заўсёды дазваляць</string>
     <string name="wakepath_manager_checkbox_desc">Дазволіць %1$s запускаць іншыя праграмы</string>
     <string name="wakepath_manager_checkbox_title">Дазволіць ланцужковы запуск</string>
     <string name="wakepath_manager_empty_list">Ніякія праграмы не могуць запускацца</string>

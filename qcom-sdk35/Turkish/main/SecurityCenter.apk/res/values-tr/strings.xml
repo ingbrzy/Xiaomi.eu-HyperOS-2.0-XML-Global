@@ -966,6 +966,7 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="bubble_notification">Konuşma baloncukları</string>
     <string name="bubble_notification_switch">Konuşma baloncuklarını göster</string>
     <string name="bubble_notification_switch_desc">Kayan bir pencerede bir mesajlaşma uygulaması ekranın kenarına gizlendiğinde, gelen mesajlar baloncuklarda gösterilir</string>
+    <string name="bubble_pickup_voice_print_auto">Ses izi kaydediliyor…</string>
     <string name="button_background_connection">İzin ver</string>
     <string name="button_block_calls_from_cantacts">Engeli kaldır</string>
     <string name="button_block_calls_from_strangers">Engeli kaldır</string>
@@ -973,6 +974,8 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="button_do_not_disturb">Kapat</string>
     <string name="button_eye_shield">Kapat</string>
     <string name="button_first_aid_kit">Şimdi düzelt</string>
+    <string name="button_pickup_voice_print_auto_agree">Kaydet</string>
+    <string name="button_pickup_voice_print_auto_disagree">Şimdi değil</string>
     <string name="button_restrict_data_usage">İzin ver</string>
     <string name="button_text_accept">Kabul et</string>
     <string name="button_text_accept_timer">Kabul et (%d)</string>
@@ -1231,6 +1234,7 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="cpu_usage_view_action_btn_text">Görüntülemek için dokunun</string>
     <string name="create_gamebooster_destop">Ana ekran kısayolu başarıyla oluşturuldu</string>
     <string name="create_shortcut">Game Turbo için Ana ekran kısayolu oluştur</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Cihazlar arası kamera kullanılıyorken bu özellik kullanılamaz</string>
     <string name="cs_color_sense">Renk sıcaklığı</string>
     <string name="cs_conversation_record_using">Kaydediliyor</string>
@@ -1264,6 +1268,9 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="cs_pickup_vioce_print_private_dialog_title">Ses izini kaydet</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">"''Tek katılımcı''yı seçmeden önce ses izini kaydedin"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Harici cihazların bağlantısını kesin ve tekrar deneyin</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Sesiniz yalnızca bu cihazda kaydedilecek ve işlenecek.
+En iyi sonuçlar için sessiz bir alanda yalnız kayıt yapın."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Kişiselleştirilmiş gürültü azaltma için ses izi gereklidir</string>
     <string name="cs_pickup_voice_print_desc">Yalnızca bir kişiden ses alın</string>
     <string name="cs_privacy_camera_global_settings_title">Arama gizliliği</string>
     <string name="cs_record_voice_title">Kaydet</string>
@@ -3379,8 +3386,7 @@ Yönlendiriciniz ile bağlantı için kullandığınız Ethernet kablosunu deği
     <string name="oaid_apps_title">Sanal Kimliği yönet</string>
     <string name="oaid_reset_content_tip">Sanal Kimliği şimdi kapatırsanız, bazı uygulamalar düzgün çalışmayabilir, uygulama verilerinin bir kısmı kaybolabilir veya kullanılamayabilir.</string>
     <string name="oaid_reset_final_tip">Sanal Kimlik yine de kapatılsın mı?</string>
-    <string name="oaid_string">"Mevcut sanal Kimlik:
-%1s"</string>
+    <string name="oaid_string">Mevcut Sanal Kimlik: %1s</string>
     <string name="oaid_tips_content">Sanal Kimlik (OAID), davranışınızı izlemek ve sizin için reklamları kişiselleştirmek için kullanılabilir. Hangi uygulamaların sanal kimliğinize erişimine izin verileceğini seçebilirsiniz. Erişimi kısıtlamak isterseniz, reklam önerilerinin alakasız olabileceğini veya uygulamaların normal çalışmayabileceğini unutmayın.</string>
     <string name="ok">Tamam</string>
     <string name="ok_button">Tamam</string>
@@ -3725,7 +3731,6 @@ kapatılıyor"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Daha hızlı ve daha sabit bir şarj deneyimi için şarj etmeden önce cihazı katlayın.</string>
     <string name="pc_remind_close_cover_to_charge_title">Şarj etmek için katla</string>
     <string name="pc_reminder_always_protect_summary">Pil yaşlanmasını azaltmak için sınırlı şarj özelliğine geçin</string>
-    <string name="pc_remove_shell_charging_notification_msg">Oyun kılıfı kullanırken kablosuz şarj kullanılamıyor. Kılıfı çıkarın ve tekrar deneyin veya kablolu şarjı kullanın.</string>
     <string name="pc_remove_shell_charging_notification_title">Kablosuz şarjı kullanmak için kılıfı çıkarın</string>
     <string name="pc_remove_shell_charging_toast">Ters kablosuz şarjı kullanmak için kılıfı çıkarın</string>
     <string name="pc_satellite_auto_enter_super_power">Uydu iletişimlerini sağlamak için Ultra pil tasarrufu açıldı</string>
@@ -3745,6 +3750,8 @@ kapatılıyor"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Cihazınızı aşırı ısınmaktan korumak için pil seviyesi %1$s olduğunda şarj durdurulacak</string>
     <string name="pc_smart_charge_notify_summary_navagition">Konum bulunuyor… Pil %1$s seviyesine ulaştığında şarj durdurulacak</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Şarj duracak: %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">"Şarj %1$s'de duraklatıldı. %2$s seviyesinde devam edecek."</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Pil seviyesi %1$s olduğunda şarj duraklatılacak ve kullanımınıza göre otomatik olarak devam ettirilecek</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Pil ömrünü uzatmak için bu cihazın pili araca bağlıyken mevcut seviyenin üzerine çıkmayacak.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Tekrar gösterme</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Pil koruması</string>
@@ -3764,6 +3771,7 @@ kapatılıyor"</string>
     <string name="pc_suggest_open_fast_charge">%dW hızlı şarjı açın</string>
     <string name="pc_temperature_too_high">Cihaz aşırı ısınmış</string>
     <string name="pc_this_time_charge_full">Bu kez tamamen şarj et</string>
+    <string name="pc_this_time_charge_full_now">Tamamen şarj et</string>
     <string name="pc_this_time_charge_full_work">Neredeyse tamamen şarj edildi</string>
     <string name="pc_timely_charging_summary">"Pil %1$s'in altında. Pil düşük iken cihaz aşırı ısınırsa bu, pile zarar verebilir."</string>
     <string name="pc_timely_charging_title">Cihazınızı şarj edin</string>
@@ -4141,7 +4149,6 @@ kapatılıyor"</string>
     <string name="power_dialog_performance_mode_checkbox">%d Hz yenileme hızına geç</string>
     <string name="power_dialog_super_save_msg">Ultra pil tasarrufu, temel işlevleri (örn. aramalar, SMS, ağ bağlantısı) en uzun süre yürütebilmek için en çok güç tüketen özellikleri kısıtlar ve cihazınızın performansını azaltır. Ultra pil tasarrufu açılsın mı?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra pil tasarrufu, cihazınızın performansını düşüren, güç tüketen özellikleri kısıtlar (5G bağlanabilirliği gibi). Sadece aramalar, iletiler ve ağ bağlantısı etkilenmeyecek. Ultra pil tasarrufu etkinleştirilsin mi?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultra pil tasarrufu arka ekranı kapatır ve en çok güç tüketen özellikleri kısıtlayarak cihazın performansını düşürür ve temel işlevlerin (ör. aramalar, SMS ve ağa bağlanmak) mümkün olduğunca uzun süre kullanılmasını sağlar. Ultra pil tasarrufu açılsın mı?</string>
     <string name="power_dialog_super_save_title">Ultra pil tasarrufu</string>
     <string name="power_idle">Telefon beklemede</string>
     <string name="power_main_battery_last_day_hour">%1$sgün %2$ssa kaldı</string>
@@ -5847,10 +5854,14 @@ Kalan veri miktarı geçen aydan kalan veri miktarınıda içerir."</string>
     <string name="uninstall_app_dialog_msg">Kaldırma işlemi uygulama verilerinin tamamını silecektir.</string>
     <string name="uninstall_app_dialog_title">Şimdi kaldır?</string>
     <string name="uninstall_app_done">Başarıyla kaldırıldı</string>
+    <string name="uninstall_app_reminder_msg">Silinen uygulama verilerinin geri yüklenemeyeceğini anlıyorum</string>
+    <string name="uninstall_app_reminder_pre_title">Kaldır: %s</string>
+    <string name="uninstall_app_reminder_toast">Silinen uygulama verilerinin geri yüklenemeyeceğini anladığınızı onaylıyorsunuz</string>
     <string name="uninstall_danagerous_btn">Kaldır</string>
     <string name="uninstall_danagerous_desc">\"%s\" cihazınıza zarar verebilir</string>
     <string name="uninstall_danagerous_msg">\"%s\" cihazınıza zarar verebilir, cihaz performansını düşürebilir veya cihazı yeniden başlatabilir.</string>
     <string name="uninstall_danagerous_title">Zararlı yazılımları kaldır</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">%s uygulamasının çift uygulamasını kaldır</string>
     <string name="unknown_operator">Plan ayrıntılarını onaylamak için %1$s ile %2$s numarasını arayabilirsiniz.</string>
     <string name="unknown_package">Paketinizin ne olduğundan emin değil misiniz?</string>
     <string name="unlike">Hayır, teşekkürler</string>
@@ -6067,7 +6078,7 @@ Pil tasarrufu veya Ultra pil tasarrufu açık olduğunda bu özellik çalışmaz
     <string name="wakepath_delete_app_start_all">Devam ederseniz diğer uygulamaları açmak için %s izin vermeniz gerekecek. Yine de devam edilsin mi?</string>
     <string name="wakepath_delete_app_start_other_app">Devam ederseniz %2$s açmak için %1$s izin vermeniz gerekecek. Yine de devam edilsin mi?</string>
     <string name="wakepath_manager_allow_list">İzin verildi</string>
-    <string name="wakepath_manager_allow_start">İzin verildi</string>
+    <string name="wakepath_manager_allow_start">Her zaman izin ver</string>
     <string name="wakepath_manager_checkbox_desc">Diğer uygulamaları başlatması için %1$s uygulamasına izin verin</string>
     <string name="wakepath_manager_checkbox_title">Art arda başlatmaya izin ver</string>
     <string name="wakepath_manager_empty_list">Hiçbir uygulamanın başlatılmasına izin verilmiyor</string>
