@@ -141,6 +141,7 @@
     <string name="disable_nfc">ကြိုးမဲ့အားသွင်းရန် NFC ကို ပိတ်ထားသည်</string>
     <string name="disable_nfc_haptic_reverse">ကြိုးမဲ့အားပြောင်းစနစ်အတွက် NFC နှင့် တုန်ခါမှုကို ပိတ်ထားသည်</string>
     <string name="disable_nfc_reverse">ကြိုးမဲ့အားသွင်းရန် ပြောင်းခြင်းအတွက် NFC ကို ပိတ်ထားသည်</string>
+    <string name="earpiece_callmode_tip">နားကြပ်သုံးရန် ဖုန်းကိုလှန်ပါ</string>
     <string name="echo">ပဲ့တင်သံ</string>
     <string name="eighthours">၈ နာရီ</string>
     <string name="enable_livetalk_summary">သင့်ဖုန်းခေါ်ဆိုများ၏70%အား ခ​ျွေတာပါ</string>
@@ -351,6 +352,10 @@
     <string name="popup_camera_tip">သတိပြုရန်</string>
     <string name="popup_camera_using_camera_background">%s မှ အရှေ့ကင်မရာအား သုံးနေသည်</string>
     <string name="potion">ဗုံသံ</string>
+    <string name="presentation_payphone">အများသုံး ဖုန်း</string>
+    <string name="presentation_private">သီးသန့် နံပါတ်</string>
+    <string name="presentation_unknown">အမည်မသိ နံပါတ်</string>
+    <string name="propotional_freeform_tip">ဤအက်(ပ်)သည် မျောလွင့်အကွက်များကို အပြည့်အဝပံ့ပိုးပုံမရပါ</string>
     <string name="radar">ရေဒါ</string>
     <string name="raindrops">မိုးစက်</string>
     <string name="realme">realme</string>
@@ -516,10 +521,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">ဂြိုဟ်တုဆက်သွယ်ရေးများသုံးချိန်တွင် ကင်မရာသုံးမရပါ</string>
     <string name="toast_mic_muted">မိုက်ခရိုဖုန်းပိတ်ထားသည်</string>
     <string name="toast_mic_unmuted">မိုက်ခရိုဖုန်းဖွင့်ထားသည်</string>
-    <string name="tof_music_support_scene_des">ဂီတပလေယာထိန်းချုပ်မှုများ ပံ့ပိုးသည်</string>
-    <string name="tof_office_support_scene_des">Word စာရွက်စာတမ်းနှင့် PowerPoint တင်ဆက်မှုများ ပံ့ပိုးသည်</string>
-    <string name="tof_short_video_support_scene_des">ဗီဒီယိုပြောင်းခြင်း ပံ့ပိုးသည်</string>
-    <string name="tof_video_support_scene_des">မျက်နှာပြင်အပြည့် ဗီဒီယိုပလေယာထိန်းချုပ်မှုများ ပံ့ပိုးသည်</string>
     <string name="total">မနှောင့်ယှက်ပါနှင့်</string>
     <string name="total_description">နှိုးစက်သံမှတစ်ပါး အခြားအသံများနှင့် တုန်ခါမှုအားလုံး ပိတ်မည်</string>
     <string name="total_title">မနှောင့်ယှက်ပါနှင့်</string>
@@ -541,6 +542,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">ပန်းအလှဆင်</string>
+    <string name="wallpaper_geometrically_irregular_title">စိတ္တဇဂျီသြမေထြီ</string>
     <string name="wallpaper_gradient_title">ရောင်စဉ်လှိုင်း</string>
     <string name="wallpaper_group_black_white_title">အဖြူအမည်း</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -604,14 +606,26 @@
     <string name="ability_dialog_button">ရပါပြီ</string>
     <string name="ability_dialog_text">မျက်နှာပြင်အရွယ်ကြောင့် အချို့အက်(ပ်)များကို အပြင်မျက်နှာပြင်၌ မှန်ကန်စွာမပြသနိုင်ပါ။</string>
     <string name="ability_dialog_title">သတိပြုရန်</string>
-    <string name="aon_reader_support_scene_des">စာမျက်နှာများ ဖတ်ရင်းလှန်ရန်</string>
-    <string name="aon_video_support_scene_des">ဗီဒီယိုပြန်ဖွင့်ခြင်း ထိန်းချုပ်ရန်</string>
+    <string name="aon_music_double_press_support_scene_des">သီချင်း ဖွင့်ရန် သို့မဟုတ် ရပ်ရန်</string>
+    <string name="aon_music_left_right_support_scene_des">ရှေ့ သို့မဟုတ် နောက်သီချင်းသို့ ပြောင်းရန်</string>
+    <string name="aon_music_up_down_support_scene_des">သီချင်းသံ အတိုးအကျယ်ညှိရန်</string>
+    <string name="aon_office_up_down_support_scene_des">တင်ဆက်မှု သို့မဟုတ် စာရွက်စာတမ်း၏ ရှေ့ သို့မဟုတ် နောက်စာမျက်နှာသို့ သွားရန်</string>
+    <string name="aon_reader_support_scene_des">စာဖတ်ခြင်းဆိုင်ရာ ထိန်းချုပ်မှုများ ပံ့ပိုးသည်</string>
+    <string name="aon_short_video_up_down_support_scene_des">ရှေ့ သို့မဟုတ် နောက်ဗီဒီယိုသို့ ပြောင်းရန်</string>
+    <string name="aon_video_double_press_support_scene_des">ဗီဒီယို ဖွင့်ပါ သို့မဟုတ် ရပ်တန့်ပါ</string>
+    <string name="aon_video_left_right_support_scene_des">အလျားလိုက်မြင်ကွင်းတွင်ကြည့်ပြီး ဗီဒီယိုလုပ်ငန်းစဉ်ကို ညှိရန်</string>
+    <string name="aon_video_up_down_support_scene_des">ဗီဒီယိုအသံ အတိုးအကျယ်ညှိရန်</string>
+    <string name="config_quick_scanner_notification_content_text">QR ကုဒ် စကန်ဖတ်ပြီး ဝက်ဘဆိုက်စာမျက်နှာများကို တိုက်ရိုက်ဖွင့်ပါ</string>
+    <string name="config_quick_scanner_notification_title">အမြန်စကန်နာ</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"ဤသတိပေးချက်ဖြုတ်နည်းကို ကြည့်ပါ -
 %1$s။ ကင်မရာတစ်ဝိုက်နေရာမှ အတားအဆီးများကို ဖြုတ်ပါ။
 %2$s။ ထိုသို့လုပ်မရပါက အသံမြှင့်ခလုတ်ကိုနှိပ်ပြီး အိတ်ဆောင်မုဒ်ကို ပိတ်ပါ။"</string>
     <string name="global_help">စက်ရှာမတွေ့ပါ</string>
     <string name="global_my">"ကျွန်ုပ်၏စက်
 %1$s"</string>
+    <string name="ime_rotation_tip">ဤရှုထောင့်တွင် စာသားထည့်မရပါ။ စက်ကိုဦးစွာလှည့်ပါ။</string>
+    <string name="ks_switch_tasks">လတ်တလောအက်(ပ်)များကို ပြောင်းရန်</string>
+    <string name="linked_wallpaper">နောက်ခံပုံအတွဲများ</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 ပရို</string>
     <string name="motorola">Motorola</string>
@@ -624,14 +638,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"ဤသတိပေးချက်ဖြုတ်နည်းကို ကြည့်ပါ -
 %1$s။ ပုံရှိ အနီရောင်အမှတ်အသားပါ နေရာမှ အတားအဆီးများကို ဖြုတ်ပါ။
 %2$s။ ထိုသို့လုပ်မရပါက အသံမြှင့်ခလုတ်ကိုနှိပ်ပြီး အိတ်ဆောင်မုဒ်ကို ပိတ်ပါ။"</string>
+    <string name="share_device_near_share">အနီးအနားရှိချိန် မျှဝေရန်</string>
+    <string name="share_device_near_share_hide">ဖုံးထားရန်</string>
+    <string name="share_device_near_share_image_describe">မျှဝေခြင်းစရန် စက်နှစ်လုံး၏ NFC ဧရိယာကို နီးကပ်စွာထားပါ</string>
     <string name="skipcoreappanr_notification_text">စနစ်ပြဿနာကို အလိုအလျောက် ပြင်ပြီးပါပြီ</string>
     <string name="skipcoreappanr_notification_title">%1$s တုံ့ပြန်မှုမရှိပါ</string>
     <string name="skipprocessanr_notification_text">လုပ်ငန်းစဉ် \"%1$s\" တုံ့ပြန်မှုမရှိပါ</string>
     <string name="skipprocessanr_notification_title">စနစ်တုံ့ပြန်မှုမရှိပါ</string>
     <string name="super_wallpaper_list_label">စူပါ နောက်ခံပုံများ</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">ဂန္ထဝင်</string>
+    <string name="theme_titile_classis_scenery">ရှုခင်း</string>
+    <string name="typec_acc_not_support_cancel">ရပါပြီ</string>
+    <string name="typec_acc_not_support_message">ဤပစ္စည်း၏ USB Type-C ပေါ့က ဒစ်ဂျစ်တယ်အသံကိရိယာများကိုသာ ပံ့ပိုးသည်။</string>
+    <string name="typec_acc_not_support_tile">စက်ကို မပံ့ပိုးပါ</string>
     <string name="wallpaper_Fragrant_title">ပန်း</string>
     <string name="wallpaper_glazed_valley_title">ကြွေရည်</string>
+    <string name="wallpaper_group_pets_title">အိမ်မွေးတိရစ္ဆာန်</string>
     <string name="wallpaper_softlight_title">အလင်းမှိန်</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>

@@ -966,6 +966,7 @@ However, some of your transactions aren't completed yet. To be able to withdraw 
     <string name="bubble_notification">Conversation bubbles</string>
     <string name="bubble_notification_switch">Show conversation bubbles</string>
     <string name="bubble_notification_switch_desc">When a messenger app in a floating window is hidden at the edge of the screen, show incoming messages in bubbles</string>
+    <string name="bubble_pickup_voice_print_auto">Recording voiceprint…</string>
     <string name="button_background_connection">Allow</string>
     <string name="button_block_calls_from_cantacts">Unblock</string>
     <string name="button_block_calls_from_strangers">Unblock</string>
@@ -973,6 +974,8 @@ However, some of your transactions aren't completed yet. To be able to withdraw 
     <string name="button_do_not_disturb">Turn off</string>
     <string name="button_eye_shield">Turn off</string>
     <string name="button_first_aid_kit">Fix now</string>
+    <string name="button_pickup_voice_print_auto_agree">Record</string>
+    <string name="button_pickup_voice_print_auto_disagree">Not now</string>
     <string name="button_restrict_data_usage">Allow</string>
     <string name="button_text_accept">Accept</string>
     <string name="button_text_accept_timer">Accept (%d)</string>
@@ -1231,6 +1234,7 @@ However, some of your transactions aren't completed yet. To be able to withdraw 
     <string name="cpu_usage_view_action_btn_text">Tap to view</string>
     <string name="create_gamebooster_destop">Created Home screen shortcut successfully</string>
     <string name="create_shortcut">Create a Home screen shortcut for Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">"Can't use this feature while using cross-device camera"</string>
     <string name="cs_color_sense">Colour temperature</string>
     <string name="cs_conversation_record_using">Recording</string>
@@ -1264,6 +1268,9 @@ However, some of your transactions aren't completed yet. To be able to withdraw 
     <string name="cs_pickup_vioce_print_private_dialog_title">Record voiceprint</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Record voiceprint before selecting \"Single participant\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Disconnect external devices and try again</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Your voice will be recorded and processed only on this device.
+For best results, record alone in a quiet place."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Voiceprint required for Personalised noise reduction</string>
     <string name="cs_pickup_voice_print_desc">Pick up sound only from one person</string>
     <string name="cs_privacy_camera_global_settings_title">Call privacy</string>
     <string name="cs_record_voice_title">Record</string>
@@ -1923,8 +1930,8 @@ When Smart frame rate is on, in-game and third-party frame rate detection tools 
     <string name="game_toolbox_slow_charge_positive_btn">Turn on</string>
     <string name="game_toolbox_slow_charge_title">Slow charging</string>
     <string name="game_toolbox_slow_charge_toast">Slow charging is on</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">"Hapitic feedback doesn't work with original layouts. Hapitic feedback is off."</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">"Hapitic feedback doesn't work with original layouts"</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">"Haptic feedback doesn't work with original layouts. Haptic feedback is off."</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">"Haptic feedback doesn't work with original layouts"</string>
     <string name="game_toolbox_smotion_vibrate_desc">Add haptic feedback in accordance with game moves. Only some games are supported.</string>
     <string name="game_toolbox_smotion_vibrate_title">Haptic feedback</string>
     <string name="game_toolbox_super_follow_up_msg">Enhance touch response and tracking through the full hardware-software pipeline</string>
@@ -3352,8 +3359,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="oaid_apps_title">Manage virtual ID</string>
     <string name="oaid_reset_content_tip">If you turn off virtual ID now, some apps might stop working properly, a part of your app data might be lost or become unusable.</string>
     <string name="oaid_reset_final_tip">Turn off virtual ID anyway?</string>
-    <string name="oaid_string">"Current virtual ID:
-%1s"</string>
+    <string name="oaid_string">Current virtual ID:%1s</string>
     <string name="oaid_tips_content">Virtual IDs (OAID) can be used for tracking your behaviour and personalising ads for you. You can select which apps are allowed to access your virtual ID. Note that if you restrict access, ad recommendations might become irrelevant or apps might not be able to work normally.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ Ultra battery saver"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Fold the device before charging for a faster and more stable charging experience.</string>
     <string name="pc_remind_close_cover_to_charge_title">Fold to charge</string>
     <string name="pc_reminder_always_protect_summary">Switch to limited charging to reduce battery ageing</string>
-    <string name="pc_remove_shell_charging_notification_msg">"Can't use wireless charging when using a gaming case. Remove it and try again, or use wired charging."</string>
     <string name="pc_remove_shell_charging_notification_title">Remove case to use wireless charging</string>
     <string name="pc_remove_shell_charging_toast">Remove case to use reverse wireless charging</string>
     <string name="pc_satellite_auto_enter_super_power">Turned on Ultra battery saver to ensure satellite communications</string>
@@ -3718,6 +3723,8 @@ Ultra battery saver"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">To protect your device from overheating, charging will be stopped when battery level reaches %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigating… Charging will be stopped when battery level reaches %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Charging will stop at %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Charging paused at %1$s. It will resume at %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Charging will pause when battery reaches %1$s and resume automatically based on your usage</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">"To extend battery life span, this device's battery won't go above the current level while connected to the car."</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">"Don't show again"</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Battery protection</string>
@@ -3737,6 +3744,7 @@ Ultra battery saver"</string>
     <string name="pc_suggest_open_fast_charge">Turn on %dW quick charge</string>
     <string name="pc_temperature_too_high">Device overheated</string>
     <string name="pc_this_time_charge_full">Charge fully this time</string>
+    <string name="pc_this_time_charge_full_now">Charge fully</string>
     <string name="pc_this_time_charge_full_work">Almost fully charged</string>
     <string name="pc_timely_charging_summary">Battery is below %1$s. If the device overheats while battery is low, this may damage the battery.</string>
     <string name="pc_timely_charging_title">Charge your device</string>
@@ -4114,7 +4122,6 @@ Ultra battery saver"</string>
     <string name="power_dialog_performance_mode_checkbox">Switch to %d Hz refresh rate</string>
     <string name="power_dialog_super_save_msg">"Ultra battery saver restricts most power-consuming features and decreases your device's performance in order to leave basic functionality (e.g. calls, SMS, and connecting to the network) available as long as possible. Turn on Ultra battery saver?"</string>
     <string name="power_dialog_super_save_msg_5g">"Ultra battery saver restricts most power consuming features (e.g. 5G connectivity) lowering your device's performance. Only calls, messages, and network connectivity won't be affected. Turn on Ultra battery saver?"</string>
-    <string name="power_dialog_super_save_msg_p2">"Ultra battery saver turns off rear display and restricts most power-consuming features, decreasing your device's performance in order to leave basic functionality (e.g. calls, SMS, and connecting to the network) available as long as possible. Turn on Ultra battery saver?"</string>
     <string name="power_dialog_super_save_title">Ultra battery saver</string>
     <string name="power_idle">Phone idle</string>
     <string name="power_main_battery_last_day_hour">%1$sd %2$sh remaining</string>
@@ -5466,7 +5473,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="system_app_permission_instruction">This app needs the following permissions to provide basic system services. Managing permissions is restricted for this app, as changing permission statuses will lead to system operation abnormalities.</string>
     <string name="system_application">System apps</string>
     <string name="system_permission_declare_agree">Agree</string>
-    <string name="system_permission_declare_analytics_declare">"We invite you to enrol in our User Experience Programme. This app needs to connect to the Internet and use the following permissions or features to collect stats in order to improve the services we provide to you. We collect data here only for statistical purposes, and we can't identify you personally based on the data we collect."</string>
+    <string name="system_permission_declare_analytics_declare">"We invite you to enrol in our User Experience Program. This app needs to connect to the Internet and use the following permissions or features to collect stats in order to improve the services we provide to you. We collect data here only for statistical purposes, and we can't identify you personally based on the data we collect."</string>
     <string name="system_permission_declare_disagree">Disagree</string>
     <string name="system_permission_declare_double_link"><Data>Read and agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> and &lt;a href=\"%2$s\">Privacy Policy&lt;/a> before you continue.</Data></string>
     <string name="system_permission_declare_main_purpose" formatted="false">Welcome to %1s! This app allows you to use the following feature: %2s.</string>
@@ -5474,7 +5481,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="system_permission_declare_meanwhile_privacy_policy"><Data>Read and agree to our &lt;a href=\"%1$s\">Privacy Policy&lt;/a> before you continue.</Data></string>
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Read and agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> before you continue.</Data></string>
     <string name="system_permission_declare_no_say_no">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work normally."</string>
-    <string name="system_permission_declare_no_say_no_analytics">"If you don't want to grant these permissions, you can unenrol in Settings > Additional settings > Privacy > User Experience Programme."</string>
+    <string name="system_permission_declare_no_say_no_analytics">"If you don't want to grant these permissions, you can unenrol in Settings > Additional settings > Privacy > User Experience Program."</string>
     <string name="system_permission_declare_no_say_no_non_mandatory">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work partially."</string>
     <string name="system_permission_declare_optional">"To provide you with additional services while you're using the app, we might need the following permissions: %s. You can always adjust your permissions preferences in the Settings."</string>
     <string name="system_permission_declare_optional_default_grant"><Data>In order to provide a better user experience, this app needs the following additional permissions: %1s. For more details on how we process your personal information, tap &lt;a href=\"test\">here&lt;/a>. You can manage your permissions at any time in Settings.</Data></string>
@@ -5820,10 +5827,14 @@ Remaining data includes data that has been rolled over from the previous month."
     <string name="uninstall_app_dialog_msg">Uninstalling will remove all app data.</string>
     <string name="uninstall_app_dialog_title">Uninstall now?</string>
     <string name="uninstall_app_done">Uninstalled successfully</string>
+    <string name="uninstall_app_reminder_msg">"I understand that deleted app data can't be restored"</string>
+    <string name="uninstall_app_reminder_pre_title">Uninstall %s</string>
+    <string name="uninstall_app_reminder_toast">"Confirm you understand deleted app data can't be restored"</string>
     <string name="uninstall_danagerous_btn">Uninstall</string>
     <string name="uninstall_danagerous_desc">\"%s\" may damage your device</string>
     <string name="uninstall_danagerous_msg">\"%s\" may damage your device, lower its performance, or cause reboots.</string>
     <string name="uninstall_danagerous_title">Uninstall malicious apps</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">"Uninstall %s's dual app"</string>
     <string name="unknown_operator">"You can call %2$s to confirm your plan's details with %1$s."</string>
     <string name="unknown_package">Not sure what your plan is?</string>
     <string name="unlike">No thanks</string>

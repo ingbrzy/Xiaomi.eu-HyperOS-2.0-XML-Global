@@ -966,6 +966,7 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="bubble_notification">Konversationsubblor</string>
     <string name="bubble_notification_switch">Visa konversationsbubblor</string>
     <string name="bubble_notification_switch_desc">När en meddelandeapp i ett flytande fönster är dold i kanten av skärmen, visa då inkommande meddlanden i bubblor</string>
+    <string name="bubble_pickup_voice_print_auto">Spelar in Röstprofil…</string>
     <string name="button_background_connection">Tillåt</string>
     <string name="button_block_calls_from_cantacts">Ta bort blockering</string>
     <string name="button_block_calls_from_strangers">Ta bort blockering</string>
@@ -973,6 +974,8 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="button_do_not_disturb">Avaktivera</string>
     <string name="button_eye_shield">Avaktivera</string>
     <string name="button_first_aid_kit">Lös nu</string>
+    <string name="button_pickup_voice_print_auto_agree">Registrera</string>
+    <string name="button_pickup_voice_print_auto_disagree">Inte nu</string>
     <string name="button_restrict_data_usage">Tillåt</string>
     <string name="button_text_accept">Acceptera</string>
     <string name="button_text_accept_timer">Acceptera (%d)</string>
@@ -1231,6 +1234,7 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="cpu_usage_view_action_btn_text">Tryck för att visa</string>
     <string name="create_gamebooster_destop">Genväg på Hemskärmen skapad</string>
     <string name="create_shortcut">Skapa en genväg på Hemskärmen för Spelturbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Kan inte använda den här funktionen medan funktionen Kamera mellan enheter används</string>
     <string name="cs_color_sense">Färgtemperatur</string>
     <string name="cs_conversation_record_using">Spelar in</string>
@@ -1264,6 +1268,9 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="cs_pickup_vioce_print_private_dialog_title">Spela in röstprofil</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Spela in röstprofil innan du väljer \"En deltagare\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Koppla bort externa enheter och försök igen</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Din röst kommer att spelas in och behandlas endast på den här enheten.
+Spela in ensam på en lugn plats, för bästa resultat."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Röstprofil krävs för Anpassad brusreduktion</string>
     <string name="cs_pickup_voice_print_desc">Ta upp ljud från endast en person</string>
     <string name="cs_privacy_camera_global_settings_title">Samtalsintegritet</string>
     <string name="cs_record_voice_title">Spela in</string>
@@ -3352,8 +3359,7 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="oaid_apps_title">Hantera virtuellt ID</string>
     <string name="oaid_reset_content_tip">Om du stänger av virtuellt ID nu kan vissa appar sluta att fungera riktigt, en del av din app-data kan gå förlorad eller bli oanvändbar.</string>
     <string name="oaid_reset_final_tip">Stäng av virtuellt ID ändå?</string>
-    <string name="oaid_string">"Aktuellt virtuellt ID:
-%1s"</string>
+    <string name="oaid_string">Aktuellt virtuellt-ID:%1s</string>
     <string name="oaid_tips_content">Virtuella ID:er (OAID) kan användas för att spåra ditt beteende och anpassa annonser åt dig. Du kan välja de appar som tillåts få åtkomst till ditt virtuella ID. Observera att om du begränsar åtkomsten kan annonsrekommendationer bli irrelevanta eller så kan kanske appar inte fungera normalt.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ Ultra batterisparare"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Vik enheten innan laddning för en snabbare och stabilare laddningsupplevelse.</string>
     <string name="pc_remind_close_cover_to_charge_title">Vik för att ladda</string>
     <string name="pc_reminder_always_protect_summary">Växla till begränsad laddning för att minska batteriets åldrande</string>
-    <string name="pc_remove_shell_charging_notification_msg">Kan inte använda trådlös laddning när spelfodral används. Ta bort det och försök igen, eller använda laddning via kabel.</string>
     <string name="pc_remove_shell_charging_notification_title">Ta bort fodralet för att använda trådlös laddning</string>
     <string name="pc_remove_shell_charging_toast">Ta bort fodralet för att använda omvänd trådlös laddning</string>
     <string name="pc_satellite_auto_enter_super_power">Aktiverade ultra batterisparare för att säkerställa satellitkommunikation</string>
@@ -3718,6 +3723,8 @@ Ultra batterisparare"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">För att skydda din enhet från överhettning, kommer laddningen att stängas av när batterinivån når %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigerar… Laddningen avslutas när batterinivån når %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Laddningen kommer att avslutas vid %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Laddningen pasuades vid %1$s. Den kommer återupptas vid %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Laddningen kommer att pausas när batteriet når %1$s och återupptas automatiskt baserat på ditt användande</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">För att förlänga batteritiden kommer den här enhetens batteri inte att gå över den aktuella nivån, medan den är ansluten till bilen.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Visa inte igen</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Batteriskydd</string>
@@ -3737,6 +3744,7 @@ Ultra batterisparare"</string>
     <string name="pc_suggest_open_fast_charge">Aktivera %d W snabbladdning</string>
     <string name="pc_temperature_too_high">Enheten överhettad</string>
     <string name="pc_this_time_charge_full">Ladda helt den här gången</string>
+    <string name="pc_this_time_charge_full_now">Ladda helt</string>
     <string name="pc_this_time_charge_full_work">Nästan fulladdat</string>
     <string name="pc_timely_charging_summary">Batteriet är under %1$s. Om enheten överhettas medan batteriet är svagt kan detta skada batteriet.</string>
     <string name="pc_timely_charging_title">Ladda din enhet</string>
@@ -4114,7 +4122,6 @@ Ultra batterisparare"</string>
     <string name="power_dialog_performance_mode_checkbox">Växla till %d Hx uppdateringsintervall</string>
     <string name="power_dialog_super_save_msg">Ultra batterisparare begränsar de flesta kraftkrävande funktionerna och minskar enhetens prestanda. Detta ger telefonen en grundläggande funktionalitet (t.ex. samtal, SMS och anslutning till nätverket). Slå på Ultra batterisparare?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra batterisparare begränsar de flesta strömförbrukande funktionerna (t. ex. 5G-anslutning) som minskar din enhets prestanda. Endast samtal, meddelanden och nätverksanslutning kommer inte att påverkas. Slå på Ultra batterisparare?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultra batterisparare stänger av bakre skärmen och begränsar de flesta kraftkrävande funktionerna, minskar enhetens prestanda för att lämna grundläggande funktionalitet (t.ex. samtal, SMS och anslutning till nätverket) så länge som möjligt. Slå på Ultra batterisparare?</string>
     <string name="power_dialog_super_save_title">Ultra Batterisparare</string>
     <string name="power_idle">Telefon inaktiv</string>
     <string name="power_main_battery_last_day_hour">%1$s dag(ar): %2$s tim(mar) återstår</string>
@@ -5820,10 +5827,14 @@ Kvarvarande data inkluderar sparad data från förra månaden."</string>
     <string name="uninstall_app_dialog_msg">Avinstallera tar bort alla appdata.</string>
     <string name="uninstall_app_dialog_title">Avinstallera nu?</string>
     <string name="uninstall_app_done">Avinstallation lyckades</string>
+    <string name="uninstall_app_reminder_msg">Jag förstår att raderad appdata inte kan återställas</string>
+    <string name="uninstall_app_reminder_pre_title">Avinstallera %s</string>
+    <string name="uninstall_app_reminder_toast">Bekräfta att du förstår att raderad appdata inte kan återställas</string>
     <string name="uninstall_danagerous_btn">Avinstallera</string>
     <string name="uninstall_danagerous_desc">\"%s\" kan skada din enhet</string>
     <string name="uninstall_danagerous_msg">\"%s\" kan skada din enhet, sänka prestandan eller orsaka omstarter.</string>
     <string name="uninstall_danagerous_title">Avinstallera skadliga appar</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Avinstallera %ss dubbelapp</string>
     <string name="unknown_operator">Du kan ringa %2$s för att bekräfta planens uppgifter med %1$s.</string>
     <string name="unknown_package">Inte säker på vad din plan är?</string>
     <string name="unlike">Nej tack</string>
@@ -6040,7 +6051,7 @@ Den här funktionen kommer inte att fungera när batterispararen eller ultra bat
     <string name="wakepath_delete_app_start_all">Om du fortsätter kommer du att behöva bevilja %s behörighet igen för att öppna några andra appar. Fortsätt ändå?</string>
     <string name="wakepath_delete_app_start_other_app">Om du fortsätter kommer du att behöva bevilja %1$s behörighet igen för att öppna %2$s. Fortsätt ändå?</string>
     <string name="wakepath_manager_allow_list">Tillåts</string>
-    <string name="wakepath_manager_allow_start">Tillåts</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Tillåt %1$s att starta upp andra appar</string>
     <string name="wakepath_manager_checkbox_title">Tillåt kedjestart</string>
     <string name="wakepath_manager_empty_list">Inga appar får starta upp</string>

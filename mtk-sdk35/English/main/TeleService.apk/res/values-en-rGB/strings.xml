@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accessibility_settings_activity_title">Accessibility</string>
-    <string name="accessibility_sliding_button_state_description_off">off</string>
-    <string name="accessibility_sliding_button_state_description_on">on</string>
-    <string name="accessibility_tab_state_description_unselect">Unselected</string>
-    <string name="accessibility_tab_statedesc_unselect">Unselected</string>
+    <string name="accessibility_sliding_button_state_description_off">Turned off</string>
+    <string name="accessibility_sliding_button_state_description_on">Turned on</string>
+    <string name="accessibility_tab_state_description_unselect">Not selected</string>
     <string name="actionBarCBVideo">Video call barring (%s)</string>
     <string name="actionBarCBVoice">Voice call barring (%s)</string>
     <string name="actionBarCFVideo">Video call forwarding (%s)</string>
@@ -139,6 +138,10 @@ Do you want to exit now?}}"</string>
     <string name="band_mode_set">Set</string>
     <string name="band_mode_succeeded">Successful</string>
     <string name="band_mode_title">Set radio band mode</string>
+    <string name="beidou_findout_settings_title">About BeiDou satellite messaging</string>
+    <string name="beidou_mobile_settings_summary">Only available to China Mobile users</string>
+    <string name="beidou_mobile_settings_title">BeiDou satellite communications</string>
+    <string name="beidou_sms_location_fail_toast">Allow this feature to access your location first</string>
     <string name="bf_news_settings">Business and Financial News</string>
     <string name="business_hall_settings_summary">Control your calls and data usage</string>
     <string name="business_hall_settings_title">Carrier plan settings</string>
@@ -249,6 +252,8 @@ Do you want to exit now?}}"</string>
     <string name="call_record_on_summary">On</string>
     <string name="call_record_setting">Call recording</string>
     <string name="call_record_whitelist_custom">Selected numbers</string>
+    <string name="call_recording_disclaimer_msg">"Applicable law in the jurisdiction in which you or other call participants are located may require all parties to consent to recording. You are obliged to comply with such laws, and Xiaomi will not be liable for any illegal use of this feature. Call recordings are only stored on your device and can't be accessed by Xiaomi."</string>
+    <string name="call_recording_disclaimer_title">Disclaimer</string>
     <string name="call_recording_notification_message">Tap to listen.</string>
     <string name="call_recording_notification_message_low_storage">SD card is full.</string>
     <string name="call_recording_notification_message_sd_unmounted">SD card has been removed.</string>
@@ -624,7 +629,7 @@ Do you want to exit now?}}"</string>
     <string name="enable_esim_dialog_title">Turn on eSIM</string>
     <string name="enable_esim_error_toast_message">"Couldn't turn on eSIM"</string>
     <string name="enable_esim_progress_activating_message">Turning on eSIM…</string>
-    <string name="enable_esim_summary">Disable SIM %s after turning on</string>
+    <string name="enable_esim_summary">eSIM will replace SIM %s</string>
     <string name="enable_esim_title">Turn on eSIM</string>
     <string name="enable_fdn">Enable FDN</string>
     <string name="enable_fdn_ok">Disable FDN</string>
@@ -649,6 +654,8 @@ Do you want to exit now?}}"</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Advanced Calling</string>
     <string name="enter_callbarring_password">Enter call barring password (%d digits)</string>
     <string name="enter_esim_manager_title">Manage eSIM</string>
+    <string name="enter_esim_service_support_summary">View a list of supported carriers</string>
+    <string name="enter_esim_service_support_title">Supported carriers</string>
     <string name="enter_input">USSD message must be between %1$d and %2$d characters. Please try again.</string>
     <string name="enter_mep_esim_manager_title">Manage SIM</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -694,10 +701,15 @@ Do you want to exit now?}}"</string>
     <string name="fdn_summary">Restrict outgoing calls to listed FDNs or to numbers with certain prefixes</string>
     <string name="fdn_with_label">Fixed dialling numbers (%s)</string>
     <string name="feedback_title">Feedback</string>
+    <string name="filp_auto_answer_call_title">Unfold to answer calls</string>
+    <string name="filp_auto_hangup_call_summary">Works only when Bluetooth or wired earphones are connected</string>
+    <string name="filp_auto_hangup_call_title">Fold to end calls</string>
     <string name="fire_type_description">Fire</string>
     <string name="fiveg_carrier_aggregation_title">5G carrier aggregation</string>
     <string name="fiveg_hosted_mode_summary">Select best network automatically to save battery</string>
     <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
+    <string name="fiveg_interruption_remind">"Looks like your SIM %s can't use 5G SA services. Contact your carrier for more information."</string>
+    <string name="fiveg_interruption_remind_title">"Can't use 5G services"</string>
     <string name="fiveg_network_mode_default">Auto</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1002,8 +1014,10 @@ You can still make emergency calls."</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: No service</string>
     <string name="miuix_access_state_desc">Selected</string>
     <string name="miuix_accessibility_title">Title</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Collapsed</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expanded</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Exit edit mode</string>
-    <string name="miuix_appcompat_accessibility_new_message">New message</string>
+    <string name="miuix_appcompat_accessibility_new_message">New notification</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Enter edit mode</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect all</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
@@ -1020,6 +1034,7 @@ You can still make emergency calls."</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop-up window</string>
     <string name="miuix_progressbar_loading">Loading</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
@@ -1030,6 +1045,8 @@ You can still make emergency calls."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Just a sec…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
     <string name="miuix_show_password">Show password</string>
+    <string name="miuix_stretchablewidget_collapsed">Collapsed</string>
+    <string name="miuix_stretchablewidget_expanded">Expanded</string>
     <string name="mmiCancelled">MMI code cancelled</string>
     <string name="mmiStarted">MMI code started</string>
     <string name="mobile_advanced_dns_server_title">DNS server address</string>
@@ -1243,6 +1260,10 @@ Using preferred network instead."</string>
     <string name="obtain_location_information">Location</string>
     <string name="obtain_location_information_summary">For optimising current network environment</string>
     <string name="oem_radio_info_label">OEM-specific info/settings</string>
+    <string name="offline_call">Xiaomi Offline Communication</string>
+    <string name="offline_call_has_call">Other person is busy. Try again in a minute or two.</string>
+    <string name="offline_call_not_match_contact">"Couldn't call. You're not the other person's contact."</string>
+    <string name="offline_call_summary">Call nearby Xiaomi phones via Bluetooth without a network connection</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Old PIN2</string>
     <string name="oldPinLabel">Old PIN</string>
@@ -1645,6 +1666,7 @@ UT interface: %5$s"</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Exit now</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Satellite network</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">"Don't show again"</string>
@@ -1798,6 +1820,7 @@ Please confirm your default calling account setting."</string>
     <string name="speed_limit_sim_summary">"You've reached your plan's data limit. Data speed will slow down. Contact your carrier for details."</string>
     <string name="speed_limit_sim_title">Data speed is limited</string>
     <string name="sports_news_settings">Sports News</string>
+    <string name="start_call_record">Start</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Wi-Fi call from</string>
     <string name="status_hint_label_wifi_call">Wi-Fi call</string>
@@ -1983,6 +2006,8 @@ Next period starts in %2$d days (%3$s)"</string>
     <string name="turnover_mute_summary">When phone is on a horizontal surface with screen facing up, flip it over to silence ringer, turn off vibration, and stop flashing notification light.</string>
     <string name="turnover_mute_title">Flip to silence ringer</string>
     <string name="undefined">None</string>
+    <string name="unfold_show_bublle_pref_summary">Unfold the device during calls to show them in floating windows</string>
+    <string name="unfold_show_bublle_pref_title">Unfold to minimise calls</string>
     <string name="unknown">Unknown</string>
     <string name="unlock_failed">Network unlock request unsuccessful.</string>
     <string name="unlock_success">Network unlock successful.</string>
@@ -2093,6 +2118,7 @@ Emergency calls are only possible in areas with cellular coverage."</string>
     <string name="wednesday_short">Wed</string>
     <string name="wednesday_shortest">Wed</string>
     <string name="wfc_internet_connection_lost">Internet connection lost.</string>
+    <string name="wfc_mode_ims_preferred_title">Call over IMS</string>
     <string name="wfc_no_network">No available qualified mobile network.</string>
     <string name="wfc_provisioned_switch_string">Wi-Fi calling provisioned</string>
     <string name="wfc_wifi_call_drop">Wi-Fi call dropped.</string>

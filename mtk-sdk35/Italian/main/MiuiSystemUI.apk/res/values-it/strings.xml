@@ -204,6 +204,8 @@
     <string name="accessibility_qs_edit_tile_removed">%1$s è stata rimossa</string>
     <string name="accessibility_qs_edit_tile_start_add">Aggiungi riquadro</string>
     <string name="accessibility_qs_edit_tile_start_move">Sposta riquadro</string>
+    <string name="accessibility_qs_item_drag">Trascinamento</string>
+    <string name="accessibility_qs_position_hint">Posizionato alla riga %1$d, colonna %2$d</string>
     <string name="accessibility_quick_settings_alarm">Sveglia impostata per le %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">attiva</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Impugnatura connessa</string>
     <string name="accessibility_quick_settings_open_settings">Apri le impostazioni %s.</string>
     <string name="accessibility_quick_settings_page">Pagina %1$d di %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Indicatore di pagina</string>
     <string name="accessibility_quick_settings_power_menu">Menu del tasto di accensione</string>
     <string name="accessibility_quick_settings_rotation">Rotazione automatica dello schermo</string>
     <string name="accessibility_quick_settings_settings">Apri le impostazioni.</string>
@@ -429,7 +432,7 @@ Riprova tra %d secondi."</string>
     <string name="bluetooth_battery_level_untethered_left_lea_support">Connesso (supporta la condivisione audio). Sinistro: %1$s di batteria.</string>
     <string name="bluetooth_battery_level_untethered_right">Destro: %1$s di batteria</string>
     <string name="bluetooth_battery_level_untethered_right_lea_support">Connesso (supporta la condivisione audio). Destro: %1$s di batteria.</string>
-    <string name="bluetooth_connected">%1$s Connesso</string>
+    <string name="bluetooth_connected">Connessione a %1$s</string>
     <string name="bluetooth_connected_battery_level">%2$s connesso, batteria al %1$s</string>
     <string name="bluetooth_connected_no_a2dp">%1$s connesso (contenuti multimediali esclusi)</string>
     <string name="bluetooth_connected_no_a2dp_battery_level">%2$s connesso (contenuti multimediali esclusi), batteria al %1$s</string>
@@ -465,7 +468,7 @@ Riprova tra %d secondi."</string>
     <string name="bluetooth_map_profile_summary_use_for">Utilizza per la mappa</string>
     <string name="bluetooth_no_battery_level_lea_support">Connesso (supporta la condivisione audio)</string>
     <string name="bluetooth_opp_profile_summary_connected">Collegato al server di trasferimento file</string>
-    <string name="bluetooth_opp_profile_summary_not_connected">Non collegato al server di trasferimento file</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">Non connesso al server di trasferimento file</string>
     <string name="bluetooth_opp_profile_summary_use_for">Usa per trasferimento file</string>
     <string name="bluetooth_paired">Salvato</string>
     <string name="bluetooth_pairing">Accoppiamento in corso…</string>
@@ -479,7 +482,7 @@ Riprova tra %d secondi."</string>
     <string name="bluetooth_pairing_will_share_phonebook">"L'accoppiamento consente l'accesso ai tuoi contatti e alla cronologia chiamate quando i dispositivi sono connessi."</string>
     <string name="bluetooth_pan_nap_profile_summary_connected">Connessione Internet locale condivisa con dispositivo</string>
     <string name="bluetooth_pan_profile_summary_use_for">Usa per accesso a Internet</string>
-    <string name="bluetooth_pan_user_profile_summary_connected">Connesso a dispositivo per accesso Internet</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">Connesso per internet</string>
     <string name="bluetooth_profile_a2dp">Audio multimediale</string>
     <string name="bluetooth_profile_a2dp_high_quality">Audio HD: %1$s</string>
     <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Audio HD</string>
@@ -739,7 +742,7 @@ Puoi apportare modifiche in qualsiasi momento in Impostazioni."</string>
     <string name="custom_lockscreen">Personalizza la Schermata di blocco</string>
     <string name="daltonizer_mode_deuteranomaly">Deuteranomalìa (rosso-verde)</string>
     <string name="daltonizer_mode_disabled">Disattivato</string>
-    <string name="daltonizer_mode_monochromacy">Monocromìa</string>
+    <string name="daltonizer_mode_monochromacy">Monocromatismo</string>
     <string name="daltonizer_mode_protanomaly">Protanomalìa (rosso-verde)</string>
     <string name="daltonizer_mode_tritanomaly">Tritanomalìa (blu-giallo)</string>
     <string name="daltonizer_type_overridden">Valore sostituito da %1$s</string>
@@ -892,6 +895,7 @@ Se li riattivi, potrebbero essere applicati costi per l'utilizzo dei dati."</str
     <string name="enable_verbose_vendor_logging_summary">Includi log aggiuntivi di fornitori relativi a un dispositivo specifico nelle segnalazioni di bug che potrebbero contenere informazioni private, causare un maggior consumo della batteria e/o utilizzare più spazio di archiviazione</string>
     <string name="enabled_by_admin">"Attivata dall'amministratore"</string>
     <string name="enhanced_connectivity_summary">Consente di attivare la funzionalità Connettività migliorata.</string>
+    <string name="enrol_fingerprint_process_talkback">"Aggiunta dell'impronta..."</string>
     <string name="eras_ad">d.C.</string>
     <string name="eras_bc">a.C.</string>
     <string name="error_disable_esim_msg">Impossibile disattivare la eSIM a causa di un errore.</string>
@@ -1057,6 +1061,7 @@ Spegnila premendo il pulsante di accensione."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s, giorno del mese: %2$s</string>
+    <string name="free_form_recommend_tip">Finestra a comparsa</string>
     <string name="friday">Venerdì</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
@@ -1191,6 +1196,15 @@ Tocca per maggiori informazioni"</string>
     <string name="inattentive_sleep_warning_message">Presto il dispositivo si spegnerà. Premi per tenerlo acceso.</string>
     <string name="inattentive_sleep_warning_title">Standby</string>
     <string name="indeterminate">Elemento parzialmente selezionato</string>
+    <string name="info_focus_download_end">Download completato</string>
+    <string name="info_focus_download_start">Apri una finestra a comparsa e attendi che il download sia completato</string>
+    <string name="info_focus_download_update">Avanzamento del download</string>
+    <string name="info_focus_match_end">Abbinamento completato</string>
+    <string name="info_focus_match_start">"Apri una finestra a comparsa e attendi l'abbinamento"</string>
+    <string name="info_focus_match_update">Abbinamento…</string>
+    <string name="info_focus_rebirth_end">Rigenerato</string>
+    <string name="info_focus_rebirth_start">Apri una finestra a comparsa e attendi la rigenerazione</string>
+    <string name="info_focus_rebirth_update">In attesa di rigenerazione</string>
     <string name="inline_done_button">Fine</string>
     <string name="inline_ok_button">Applica</string>
     <string name="inline_turn_off_notifications">Disattiva notifiche</string>
@@ -1473,6 +1487,7 @@ Se neghi l'accesso a tutti i log del dispositivo, questa app può comunque acced
     <string name="log_access_confirmation_learn_more">Scopri di più</string>
     <string name="log_access_confirmation_learn_more_at">"Scopri di più all'indirizzo %s"</string>
     <string name="log_access_confirmation_title">"Vuoi consentire all'app %s di accedere a tutti i log del dispositivo?"</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Dispositivo surriscaldato. Riduzione della luminosità della torcia.</string>
     <string name="m3c_search_bar_search">Cerca</string>
     <string name="m3c_suggestions_available">Suggerimenti sotto</string>
     <string name="magnification_close_settings_click_label">Chiudi impostazioni di ingrandimento</string>
@@ -1977,7 +1992,7 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="phone_locked_string">Questo dispositivo è bloccato</string>
     <string name="physical_keyboard_title">Tastiera fisica</string>
     <string name="picture_color_mode">Modalità colori immagini</string>
-    <string name="picture_color_mode_desc">Use sRGB</string>
+    <string name="picture_color_mode_desc">Usa sRGB</string>
     <string name="pin_toast">"Scorri verso l'alto partendo dal fondo della schermata e metti in pausa per rimuovere quest'app da quelle fissate in alto"</string>
     <string name="pin_toast_nav">"Tieni premuti i pulsanti \"Indietro\" e \"Anteprima\" per rimuovere quest'app da quelle fissate in alto"</string>
     <string name="pip_close">Chiudi</string>
@@ -2074,6 +2089,7 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="qs_control_big_tile_state_connected">Connesso</string>
     <string name="qs_control_big_tile_state_connecting">Connessione…</string>
     <string name="qs_control_big_tile_state_disconnected">Non connesso</string>
+    <string name="qs_control_big_tile_state_opened">Attivo</string>
     <string name="qs_control_big_tile_state_opening">Attivazione in corso…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">Utilizzo del segnale Wi-Fi del telefono</string>
     <string name="qs_control_big_tile_state_tethered_wlan">Utilizzo del segnale WLAN del telefono</string>
@@ -2493,6 +2509,7 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="speed_label_okay">OK</string>
     <string name="speed_label_slow">Lenta</string>
     <string name="speed_label_very_fast">Molto veloce</string>
+    <string name="split_screen_recommend_tip">Multi schermo</string>
     <string name="split_screen_text">Schermo diviso</string>
     <string name="standby_bucket_summary">"Stato di standby dell'app:  %s"</string>
     <string name="start_dreams">Salvaschermo</string>
@@ -2714,7 +2731,7 @@ Tocca per maggiori informazioni"</string>
     <string name="tv_media_transfer_earc_fallback_title">eARC HDMI</string>
     <string name="tv_media_transfer_earc_subtitle">Connessione tramite eARC</string>
     <string name="tv_media_transfer_hdmi">Uscita HDMI</string>
-    <string name="tv_media_transfer_internal_speakers">Speaker interni</string>
+    <string name="tv_media_transfer_internal_speakers">Altoparlanti interni</string>
     <string name="two_weeks_timestamp">2 settimane fa</string>
     <string name="unknown">Sconosciuta</string>
     <string name="unlock_failed">Errore interno</string>

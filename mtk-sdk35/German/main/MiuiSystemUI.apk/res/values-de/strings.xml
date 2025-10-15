@@ -191,19 +191,21 @@
     <string name="accessibility_phone_three_bars">Telefonsignal - drei Balken</string>
     <string name="accessibility_phone_two_bars">Telefonsignal - zwei Balken</string>
     <string name="accessibility_qr_code_scanner_button">QR-Code-Scanner</string>
-    <string name="accessibility_qs_edit_move_tile">%1$s bewegen</string>
+    <string name="accessibility_qs_edit_move_tile">%1$s verschieben</string>
     <string name="accessibility_qs_edit_position">Position %1$d</string>
     <string name="accessibility_qs_edit_remove_tile">%1$s entfernen</string>
     <string name="accessibility_qs_edit_remove_tile_action">Entfernen der Kachel</string>
-    <string name="accessibility_qs_edit_tile_add">%1$s zur Position %2$d hinzufügen</string>
+    <string name="accessibility_qs_edit_tile_add">%1$szur Position %2$d hinzufügen</string>
     <string name="accessibility_qs_edit_tile_add_action">Hinzufügen der Kachel am Ende</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Zur Position %1$d hinzufügen</string>
     <string name="accessibility_qs_edit_tile_added">%1$s wurde zur Position %2$d hinzugefügt</string>
-    <string name="accessibility_qs_edit_tile_move">%1$s zur Position %2$d verschieben</string>
+    <string name="accessibility_qs_edit_tile_move">%1$szur Position %2$d verschieben</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Auf Position %1$d verschieben</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s wurde entfernt</string>
     <string name="accessibility_qs_edit_tile_start_add">Kachel hinzufügen</string>
     <string name="accessibility_qs_edit_tile_start_move">Kachel verschieben</string>
+    <string name="accessibility_qs_item_drag">Ziehen</string>
+    <string name="accessibility_qs_position_hint">Platziert in Zeile %1$d, Spalte %2$d</string>
     <string name="accessibility_quick_settings_alarm">Wecker gestellt für %s</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">aktivieren</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Griff verbunden</string>
     <string name="accessibility_quick_settings_open_settings">Einstellungen für %s öffnen.</string>
     <string name="accessibility_quick_settings_page">Seite %1$d von %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Seitenanzeige</string>
     <string name="accessibility_quick_settings_power_menu">Ein-/Aus-Menü</string>
     <string name="accessibility_quick_settings_rotation">Bildschirm automatisch drehen</string>
     <string name="accessibility_quick_settings_settings">Einstellungen öffnen.</string>
@@ -892,6 +895,7 @@ Wenn du weiterhin mobile Daten nutzt, können Gebühren anfallen."</string>
     <string name="enable_verbose_vendor_logging_summary">Schließt zusätzliche gerätespezifische Anbieterprotokolle in Fehlerberichten ein, die private Informationen enthalten, den Akkuverbrauch erhöhen und/oder zusätzlichen Speicher benötigen können.</string>
     <string name="enabled_by_admin">Vom Administrator aktiviert</string>
     <string name="enhanced_connectivity_summary">Aktiviert die Funktion \"Verbesserte Konnektivität\".</string>
+    <string name="enrol_fingerprint_process_talkback">Fingerabdruck wird hinzugefügt</string>
     <string name="eras_ad">n. Chr.</string>
     <string name="eras_bc">v. Chr.</string>
     <string name="error_disable_esim_msg">Die eSim kann aufgrund eines Fehlers nicht deaktiviert werden.</string>
@@ -1057,6 +1061,7 @@ Mit der Ein/Aus-Taste ausschalten."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s, Monatstag: %2$s</string>
+    <string name="free_form_recommend_tip">Schwebendes Fenster</string>
     <string name="friday">Freitag</string>
     <string name="friday_short">Fr</string>
     <string name="friday_shortest">Fr</string>
@@ -1191,6 +1196,15 @@ Für mehr Informationen tippen."</string>
     <string name="inattentive_sleep_warning_message">Das Gerät wird gleich ausgeschaltet. Falls es eingeschaltet bleiben soll, drücke beispielsweise eine Taste oder berühre den Bildschirm.</string>
     <string name="inattentive_sleep_warning_title">Standby</string>
     <string name="indeterminate">Teilweise aktiviert</string>
+    <string name="info_focus_download_end">Heruntergeladen</string>
+    <string name="info_focus_download_start">Öffne ein schwebendes Fenster und warte, bis der Download abgeschlossen ist.</string>
+    <string name="info_focus_download_update">Download-Fortschritt</string>
+    <string name="info_focus_match_end">Erfolgreich zugeordnet</string>
+    <string name="info_focus_match_start">Öffne ein schwebendes Fenster und warte, bis du zugeordnet wirst</string>
+    <string name="info_focus_match_update">Zuordnen…</string>
+    <string name="info_focus_rebirth_end">Wiedererschienen</string>
+    <string name="info_focus_rebirth_start">Öffne ein schwebendes Fenster und warte auf das Wiedererscheinen</string>
+    <string name="info_focus_rebirth_update">Warten auf Wiedererscheinen</string>
     <string name="inline_done_button">Fertig</string>
     <string name="inline_ok_button">Anwenden</string>
     <string name="inline_turn_off_notifications">Benachrichtigungen deaktivieren</string>
@@ -1473,6 +1487,7 @@ Wenn du dieser App keinen Zugriff auf alle Geräteprotokolle gewährst, kann sie
     <string name="log_access_confirmation_learn_more">Weitere Informationen</string>
     <string name="log_access_confirmation_learn_more_at">Weitere Informationen unter %s</string>
     <string name="log_access_confirmation_title">%s den Zugriff auf alle Geräteprotokolle erlauben?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Gerät überhitzt. Die Helligkeit der Taschenlampe wird reduziert.</string>
     <string name="m3c_search_bar_search">Suche</string>
     <string name="m3c_suggestions_available">Vorschläge unten</string>
     <string name="magnification_close_settings_click_label">Vergrößerungseinstellungen schließen</string>
@@ -2074,6 +2089,7 @@ Falls du Fragen hast, wende dich an %2$s."</string>
     <string name="qs_control_big_tile_state_connected">Verbunden</string>
     <string name="qs_control_big_tile_state_connecting">Wird verbunden…</string>
     <string name="qs_control_big_tile_state_disconnected">Nicht verbunden</string>
+    <string name="qs_control_big_tile_state_opened">Ein</string>
     <string name="qs_control_big_tile_state_opening">Wird eingeschaltet…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">WLAN-Signal des Telefons wird verwendet</string>
     <string name="qs_control_big_tile_state_tethered_wlan">WLAN-Signal des Telefons wird verwendet</string>
@@ -2493,6 +2509,7 @@ Falls du Fragen hast, wende dich an %2$s."</string>
     <string name="speed_label_okay">Mittel</string>
     <string name="speed_label_slow">Langsam</string>
     <string name="speed_label_very_fast">Sehr schnell</string>
+    <string name="split_screen_recommend_tip">Mehrfenster-Modus</string>
     <string name="split_screen_text">Splitscreen</string>
     <string name="standby_bucket_summary">Standby-Status der App: %s</string>
     <string name="start_dreams">Bildschirmschoner</string>
@@ -2703,7 +2720,7 @@ Für mehr Informationen tippen."</string>
     <string name="turn_on_bluetooth_auto_info_enabled">Bluetooth wird morgen früh aktiviert</string>
     <string name="turn_on_bluetooth_auto_tomorrow">Morgen automatisch aktivieren</string>
     <string name="turn_on_wifi">WLAN</string>
-    <string name="turn_screen_on_title">Steuerelement zum Aktivieren des Displays</string>
+    <string name="turn_screen_on_title">Berechtigung zum Aktivieren des Displays</string>
     <string name="tv_bluetooth_battery_level">Akku – %1$s</string>
     <string name="tv_bluetooth_battery_level_untethered_left">Links – %1$s</string>
     <string name="tv_bluetooth_battery_level_untethered_right">Rechts – %1$s</string>

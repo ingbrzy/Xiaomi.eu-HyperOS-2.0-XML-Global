@@ -141,6 +141,7 @@
     <string name="disable_nfc">Tắt NFC để sạc không dây</string>
     <string name="disable_nfc_haptic_reverse">Tắt NFC và rung để sạc ngược không dây</string>
     <string name="disable_nfc_reverse">Tắt NFC để sạc ngược không dây</string>
+    <string name="earpiece_callmode_tip">Lật để sử dụng tai nghe</string>
     <string name="echo">Echo</string>
     <string name="eighthours">8 giờ</string>
     <string name="enable_livetalk_summary">Tiết kiệm 70% chi phí cuộc gọi</string>
@@ -351,6 +352,10 @@
     <string name="popup_camera_tip">Chú ý</string>
     <string name="popup_camera_using_camera_background">%s đang sử dụng camera trước</string>
     <string name="potion">Thần dược</string>
+    <string name="presentation_payphone">Điện thoại công cộng</string>
+    <string name="presentation_private">Số cá nhân</string>
+    <string name="presentation_unknown">Số không xác định</string>
+    <string name="propotional_freeform_tip">Dường như ứng dụng này không hỗ trợ hoàn toàn cửa sổ nổi</string>
     <string name="radar">Radar</string>
     <string name="raindrops">Mưa rơi</string>
     <string name="realme">realme</string>
@@ -516,10 +521,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">Không thể sử dụng máy ảnh khi đang sử dụng liên lạc qua vệ tinh</string>
     <string name="toast_mic_muted">Micro đã tắt</string>
     <string name="toast_mic_unmuted">Micro đang bật</string>
-    <string name="tof_music_support_scene_des">Hỗ trợ điều khiển trình phát nhạc</string>
-    <string name="tof_office_support_scene_des">Hỗ trợ tài liệu Word và trang trình bày PowerPoint</string>
-    <string name="tof_short_video_support_scene_des">Hỗ trợ chuyển đổi giữa các video</string>
-    <string name="tof_video_support_scene_des">Hỗ trợ điều khiển trình phát video toàn màn hình</string>
     <string name="total">Không làm phiền</string>
     <string name="total_description">Im lặng và tắt rung (trừ báo thức)</string>
     <string name="total_title">Không làm phiền</string>
@@ -541,6 +542,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">Trang trí hoa</string>
+    <string name="wallpaper_geometrically_irregular_title">Hình học trừu tượng</string>
     <string name="wallpaper_gradient_title">Dốc màu</string>
     <string name="wallpaper_group_black_white_title">Đen và trắng</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -604,14 +606,26 @@
     <string name="ability_dialog_button">Tôi biết</string>
     <string name="ability_dialog_text">Do kích thước màn hình, một số ứng dụng có thể hiển thị không chính xác ở màn hình ngoài.</string>
     <string name="ability_dialog_title">Chú ý</string>
-    <string name="aon_reader_support_scene_des">Lật trang khi đọc</string>
-    <string name="aon_video_support_scene_des">Hỗ trợ phát video</string>
+    <string name="aon_music_double_press_support_scene_des">Phát hoặc tạm dừng phát nhạc</string>
+    <string name="aon_music_left_right_support_scene_des">Chuyển sang bài hát trước hoặc tiếp theo</string>
+    <string name="aon_music_up_down_support_scene_des">Điều chỉnh âm lượng nhạc</string>
+    <string name="aon_office_up_down_support_scene_des">Đến trang trước hoặc trang tiếp theo của bài thuyết trình hoặc tài liệu</string>
+    <string name="aon_reader_support_scene_des">Hỗ trợ điều khiển liên quan đến đọc</string>
+    <string name="aon_short_video_up_down_support_scene_des">Chuyển sang video trước hoặc tiếp theo</string>
+    <string name="aon_video_double_press_support_scene_des">Phát hoặc tạm dừng video</string>
+    <string name="aon_video_left_right_support_scene_des">Điều chỉnh tiến trình video khi xem ở chế độ nằm ngang</string>
+    <string name="aon_video_up_down_support_scene_des">Điều chỉnh âm lượng video</string>
+    <string name="config_quick_scanner_notification_content_text">Quét mã QR và mở trực tiếp các trang web</string>
+    <string name="config_quick_scanner_notification_title">Quét nhanh</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"Đây là cách bạn có thể xóa thông báo này:
 %1$s. Loại bỏ vật cản khỏi khu vực xung quanh camera.
 %2$s. Nếu cách này không hiệu quả, bấm nút Tăng âm lượng để tắt Chế độ bỏ túi."</string>
     <string name="global_help">Không tìm thấy thiết bị</string>
     <string name="global_my">"Thiết bị của tôi
 %1$s"</string>
+    <string name="ime_rotation_tip">Không thể nhập văn bản ở góc này. Xoay thiết bị trước.</string>
+    <string name="ks_switch_tasks">Chuyển đổi Gần đây</string>
+    <string name="linked_wallpaper">Bộ hình nền</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="motorola">Motorola</string>
@@ -624,14 +638,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"Đây là cách bạn có thể xóa thông báo này:
 %1$s. Loại bỏ vật cản khỏi khu vực được đánh dấu màu đỏ trên ảnh.
 %2$s. Nếu cách này không hiệu quả, bấm nút Tăng âm lượng để tắt Chế độ bỏ túi."</string>
+    <string name="share_device_near_share">Chia sẻ khi lân cận</string>
+    <string name="share_device_near_share_hide">Ẩn</string>
+    <string name="share_device_near_share_image_describe">Đặt khu vực NFC của hai thiết bị gần nhau để bắt đầu chia sẻ</string>
     <string name="skipcoreappanr_notification_text">Vấn đề hệ thống đã được khắc phục tự động</string>
     <string name="skipcoreappanr_notification_title">%1$s không phản hồi</string>
     <string name="skipprocessanr_notification_text">Tiến trình \"%1$s\" không phản hồi</string>
     <string name="skipprocessanr_notification_title">Hệ thống không phản hồi</string>
     <string name="super_wallpaper_list_label">Siêu hình nền</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">Cổ điển</string>
+    <string name="theme_titile_classis_scenery">Cảnh quan</string>
+    <string name="typec_acc_not_support_cancel">Tôi biết</string>
+    <string name="typec_acc_not_support_message">Cổng USB Type-C của sản phẩm này chỉ hỗ trợ các thiết bị âm thanh kỹ thuật số.</string>
+    <string name="typec_acc_not_support_tile">Thiết bị không được hỗ trợ</string>
     <string name="wallpaper_Fragrant_title">Hoa</string>
     <string name="wallpaper_glazed_valley_title">Phủ bóng</string>
+    <string name="wallpaper_group_pets_title">Vật nuôi</string>
     <string name="wallpaper_softlight_title">Ánh sáng dịu</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>

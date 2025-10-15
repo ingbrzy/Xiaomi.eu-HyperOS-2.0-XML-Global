@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Comparteix amb %s</string>
     <string name="abc_toolbar_collapse_description">Replega</string>
     <string name="accessibility_settings_activity_title">Accessibilitat</string>
-    <string name="accessibility_sliding_button_state_description_off">desactivat</string>
-    <string name="accessibility_sliding_button_state_description_on">activat</string>
-    <string name="accessibility_tab_state_description_unselect">No seleccionat</string>
-    <string name="accessibility_tab_statedesc_unselect">No seleccionat</string>
+    <string name="accessibility_sliding_button_state_description_off">Desactivat</string>
+    <string name="accessibility_sliding_button_state_description_on">Activat</string>
+    <string name="accessibility_tab_state_description_unselect">"No s'ha seleccionat"</string>
     <string name="actionBarCBVideo">Bloqueig de trucades de veu (%s)</string>
     <string name="actionBarCBVoice">Bloqueig de trucades de veu (%s)</string>
     <string name="actionBarCFVideo">Reenviament de trucades de veu (%s)</string>
@@ -139,6 +138,10 @@ En vols sortir ara?}}"</string>
     <string name="band_mode_set">Defineix</string>
     <string name="band_mode_succeeded">Correcte</string>
     <string name="band_mode_title">Configura el mode de banda de senyal mòbil</string>
+    <string name="beidou_findout_settings_title">Quant a la missatgeria per satèl·lit BeiDou</string>
+    <string name="beidou_mobile_settings_summary">Només disponible per als usuaris de China Mobile</string>
+    <string name="beidou_mobile_settings_title">Comunicacions per satèl·lit BeiDou</string>
+    <string name="beidou_sms_location_fail_toast">Permet que aquesta funció accedeixi primer a la vostra ubicació</string>
     <string name="bf_news_settings">Notícies financeres i de negocis</string>
     <string name="business_hall_settings_summary">"Controla les teves trucades i l'ús de dades"</string>
     <string name="business_hall_settings_title">"Configuració del pla de l'operador"</string>
@@ -249,6 +252,8 @@ En vols sortir ara?}}"</string>
     <string name="call_record_on_summary">Activat</string>
     <string name="call_record_setting">Enregistrament de trucades</string>
     <string name="call_record_whitelist_custom">Números seleccionats</string>
+    <string name="call_recording_disclaimer_msg">"La legislació aplicable a la jurisdicció en què us trobeu vosaltres o altres participants de la trucada pot exigir que totes les parts donin el consentiment per a la gravació. Esteu obligat a complir aquestes lleis i Xiaomi no serà responsable de cap ús il·legal d'aquesta funció. Les gravacions de trucades només s'emmagatzemen al vostre dispositiu i Xiaomi no hi pot accedir."</string>
+    <string name="call_recording_disclaimer_title">Avís</string>
     <string name="call_recording_notification_message">Premeu per escoltar.</string>
     <string name="call_recording_notification_message_low_storage">La targeta SD està plena.</string>
     <string name="call_recording_notification_message_sd_unmounted">"S'ha tret la targeta SD."</string>
@@ -624,7 +629,7 @@ En vols sortir ara?}}"</string>
     <string name="enable_esim_dialog_title">Activa la eSIM</string>
     <string name="enable_esim_error_toast_message">"No s'ha pogut activar la eSIM"</string>
     <string name="enable_esim_progress_activating_message">"S'està activant la eSIM…"</string>
-    <string name="enable_esim_summary">"Desactiveu la SIM %s després d'activar"</string>
+    <string name="enable_esim_summary">eSIM substituirà la SIM %s</string>
     <string name="enable_esim_title">Activa la eSIM</string>
     <string name="enable_fdn">Activa FDN</string>
     <string name="enable_fdn_ok">Desactiva FDN</string>
@@ -649,6 +654,8 @@ En vols sortir ara?}}"</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Trucades avançades</string>
     <string name="enter_callbarring_password">Introdueix la contrasenya de bloqueig de trucades (%d dígits)</string>
     <string name="enter_esim_manager_title">Gestiona la eSIM</string>
+    <string name="enter_esim_service_support_summary">"Veure una llista d'operadors admesos"</string>
+    <string name="enter_esim_service_support_title">Operadors admesos</string>
     <string name="enter_input">El missatge USSD ha de contenir entre %1$d i %2$d caràcters. Torna-ho a provar.</string>
     <string name="enter_mep_esim_manager_title">Gestiona la SIM</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -693,10 +700,15 @@ En vols sortir ara?}}"</string>
     <string name="fdn_summary">Restringeix les trucades sortints als NMP llistats o a números amb determinats prefixos</string>
     <string name="fdn_with_label">Números de marcatge fix (%s)</string>
     <string name="feedback_title">Comentaris</string>
+    <string name="filp_auto_answer_call_title">Desplegueu per respondre trucades</string>
+    <string name="filp_auto_hangup_call_summary">Només funciona quan hi ha auriculars Bluetooth o amb cable connectats</string>
+    <string name="filp_auto_hangup_call_title">Plega per finalitzar les trucades</string>
     <string name="fire_type_description">Bombers</string>
     <string name="fiveg_carrier_aggregation_title">"Agregació d'operadors 5G"</string>
     <string name="fiveg_hosted_mode_summary">Seleccioneu automàticament la millor xarxa per estalviar bateria</string>
     <string name="fiveg_hosted_mode_title">Canvia automàticament el 5G</string>
+    <string name="fiveg_interruption_remind">Sembla que la vostra SIM %s no pot utilitzar els serveis 5G SA. Contacteu amb el vostre operador per obtenir més informació.</string>
+    <string name="fiveg_interruption_remind_title">No es poden utilitzar els serveis 5G</string>
     <string name="fiveg_network_mode_default">Automàtic</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1001,8 +1013,10 @@ Pots fer trucades d'emergència igualment."</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: No hi ha servei</string>
     <string name="miuix_access_state_desc">Seleccionat</string>
     <string name="miuix_accessibility_title">Títol</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Reduït</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expandit</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">"Surt del mode d'edició"</string>
-    <string name="miuix_appcompat_accessibility_new_message">Nou missatge</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nova notificació</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">"Entra al mode d'edició"</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleccionar tot</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleccioneu-ho tot</string>
@@ -1019,6 +1033,7 @@ Pots fer trucades d'emergència igualment."</string>
     <string name="miuix_appcompat_select_all">Seleccioneu-ho tot</string>
     <string name="miuix_appcompat_select_all_description">Seleccioneu-ho tot</string>
     <string name="miuix_appcompat_select_item">Selecciona elements</string>
+    <string name="miuix_appcompat_show_dialog_description">Finestra emergent</string>
     <string name="miuix_progressbar_loading">Carregant</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Tira cap avall per a refrescar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">"S'ha refrescat correctament"</string>
@@ -1029,6 +1044,8 @@ Pots fer trucades d'emergència igualment."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Un segon…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"No s'han pogut carregar els elements"</string>
     <string name="miuix_show_password">Mostra la contrasenya</string>
+    <string name="miuix_stretchablewidget_collapsed">Reduït</string>
+    <string name="miuix_stretchablewidget_expanded">Expandit</string>
     <string name="mmiCancelled">Codi MMI cancel·lat</string>
     <string name="mmiStarted">Codi MMI iniciat</string>
     <string name="mobile_advanced_dns_server_title">Adreça del servidor DNS</string>
@@ -1222,7 +1239,7 @@ S'utilitza en el seu lloc la xarxa preferida.\""</string>
     <string name="not_voice_capable">"No s'admeten les trucades de veu"</string>
     <string name="notallow">Sense concedir</string>
     <string name="notification_channel_sip_account">Comptes SIP obsolets</string>
-    <string name="notification_network_selection_text">La xarxa seleccionada (%s) no està disponible</string>
+    <string name="notification_network_selection_text">La xarxa seleccionada%s no està disponible</string>
     <string name="notification_network_selection_title">Sense servei</string>
     <string name="notification_switch_auto_text">"Sembla que has tornat. S'ha fet un canvi a xarxes locals."</string>
     <string name="notification_switch_auto_title">Xarxes mòbils</string>
@@ -1242,6 +1259,10 @@ S'utilitza en el seu lloc la xarxa preferida.\""</string>
     <string name="obtain_location_information">Ubicació</string>
     <string name="obtain_location_information_summary">"Per optimitzar l'entorn de xarxa actual"</string>
     <string name="oem_radio_info_label">"Informació/configuració específica d'OEM"</string>
+    <string name="offline_call">Comunicació fora de línia de Xiaomi</string>
+    <string name="offline_call_has_call">"Una altra persona està ocupada. Torneu-ho a provar d'aquí a un minut o dos."</string>
+    <string name="offline_call_not_match_contact">"No s'ha pogut trucar. No sou el contacte de l'altra persona."</string>
+    <string name="offline_call_summary">Truca a telèfons Xiaomi propers a través de Bluetooth sense connexió de xarxa</string>
     <string name="ok">"D'acord"</string>
     <string name="oldPin2Label">PIN2 antic</string>
     <string name="oldPinLabel">PIN antic</string>
@@ -1642,6 +1663,7 @@ Interfície d'UT: %5$s"</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Surt ara</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Xarxa de satèl·lit</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">No ho tornis a mostrar</string>
@@ -1795,6 +1817,7 @@ Confirma la configuració predeterminada de trucades del teu compte."</string>
     <string name="speed_limit_sim_summary">Heu arribat al límit de dades del vostre pla. La velocitat de les dades es reduirà. Contacta amb el teu operador per obtenir més informació.</string>
     <string name="speed_limit_sim_title">La velocitat de les dades és limitada</string>
     <string name="sports_news_settings">"Notícies d'esports"</string>
+    <string name="start_call_record">Inicia</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Trucada per Wi-Fi de</string>
     <string name="status_hint_label_wifi_call">Trucada per Wi-Fi</string>
@@ -1980,6 +2003,8 @@ El període següent comença d'aquí a %2$d dies (%3$s)"</string>
     <string name="turnover_mute_summary">Quan el telèfon està sobre una superfície horitzontal amb la pantalla cap amunt, doneu-li la volta per silenciar el timbre, desactivar la vibració i aturar el parpalleig de la llum de notificacions.</string>
     <string name="turnover_mute_title">Gira per silenciar la trucada</string>
     <string name="undefined">Cap</string>
+    <string name="unfold_show_bublle_pref_summary">Desplegueu el dispositiu durant les trucades per mostrar-les a les finestres flotants</string>
+    <string name="unfold_show_bublle_pref_title">Desplegueu per minimitzar les trucades</string>
     <string name="unknown">Desconegut</string>
     <string name="unlock_failed">Sol·licitud de desbloqueig de xarxa incorrecta.</string>
     <string name="unlock_success">Desbloqueig de la xarxa correcte.</string>
@@ -2090,6 +2115,7 @@ Les trucades d'emergència només són possibles en zones amb cobertura mòbil."
     <string name="wednesday_short">Dc</string>
     <string name="wednesday_shortest">Dc</string>
     <string name="wfc_internet_connection_lost">"S'ha perdut la connexió a Internet"</string>
+    <string name="wfc_mode_ims_preferred_title">Trucades per IMS</string>
     <string name="wfc_no_network">No hi ha xarxa de telefonia mòbil qualificada disponible</string>
     <string name="wfc_provisioned_switch_string">Es proporcionen trucades per Wi-Fi</string>
     <string name="wfc_wifi_call_drop">"La trucada Wi-Fi s'ha perdut"</string>

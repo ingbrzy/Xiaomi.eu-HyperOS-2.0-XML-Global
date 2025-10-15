@@ -966,6 +966,7 @@
     <string name="bubble_notification">Облачићи за разговор</string>
     <string name="bubble_notification_switch">Прикажи облачиће за разговор</string>
     <string name="bubble_notification_switch_desc">Када је апликација за слање порука у плутајућем прозору сакривена на ивици екрана, долазне поруке се приказују у облачићима</string>
+    <string name="bubble_pickup_voice_print_auto">Снимање узорка гласа…</string>
     <string name="button_background_connection">Дозволи</string>
     <string name="button_block_calls_from_cantacts">Деблокирај</string>
     <string name="button_block_calls_from_strangers">Деблокирај</string>
@@ -973,6 +974,8 @@
     <string name="button_do_not_disturb">Искључи</string>
     <string name="button_eye_shield">Искључи</string>
     <string name="button_first_aid_kit">Реши сада</string>
+    <string name="button_pickup_voice_print_auto_agree">Сними</string>
+    <string name="button_pickup_voice_print_auto_disagree">Не сада</string>
     <string name="button_restrict_data_usage">Дозволи</string>
     <string name="button_text_accept">Прихвати</string>
     <string name="button_text_accept_timer">Прихвати (%d)</string>
@@ -1231,6 +1234,7 @@
     <string name="cpu_usage_view_action_btn_text">Тапните да би сте прегледали</string>
     <string name="create_gamebooster_destop">Креирана је пречица на Почетном екрану</string>
     <string name="create_shortcut">Креирај Game Turbo пречицу на Почетном екрану</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Не може се користити ова функција док користите камеру на различитим уређајима</string>
     <string name="cs_color_sense">Температура боје</string>
     <string name="cs_conversation_record_using">Снимак</string>
@@ -1264,6 +1268,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">Сними узорак гласа</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Снимите узорак гласа пре него што изаберете „Појединачни учесник“</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Искључите спољне уређаје и покушајте опет</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Ваш глас ће бити снимљен и обрађен само на овом уређају.
+За најбоље резултате, снимајте сами на тихом месту."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Узорак гласа је потребан за Персонализовано смањење шума</string>
     <string name="cs_pickup_voice_print_desc">Прихватајте звук само од једне особе</string>
     <string name="cs_privacy_camera_global_settings_title">Приватност позива</string>
     <string name="cs_record_voice_title">Снимак</string>
@@ -3352,8 +3359,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="oaid_apps_title">Управљај виртуелним ID-ем</string>
     <string name="oaid_reset_content_tip">Ако сада искључите виртуелни ID, неке апликације би могле да престану са нормалим радом, а део података апликације би се могао изгубити или постати неупотребљив.</string>
     <string name="oaid_reset_final_tip">Ипак искључити виртуални ID?</string>
-    <string name="oaid_string">"Тренутни виртуелни ID:
-%1s"</string>
+    <string name="oaid_string">Тренутни виртуелни ID:%1s</string>
     <string name="oaid_tips_content">Виртуелни ID-ови (OAID) се могу користити за праћење вашег понашања и персонализовање огласа за вас. Можете да изаберете којим апликацијама је дозвољен приступ вашем виртуелном ID-у. Имајте на уму да ако ограничите приступ, препоруке за огласе могу постати небитне или апликације можда неће моћи нормално да раде.</string>
     <string name="ok">У реду</string>
     <string name="ok_button">У реду</string>
@@ -3698,7 +3704,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Склопите уређај пре пуњења да би пуњење било брже и стабилније.</string>
     <string name="pc_remind_close_cover_to_charge_title">Склопите ради пуњења</string>
     <string name="pc_reminder_always_protect_summary">Пређите на ограничено пуњење да бисте умањили старење батерије</string>
-    <string name="pc_remove_shell_charging_notification_msg">Не може се користити бежично пуњење када користите футролу за игре. Уклоните је и покушајте опет или користите пуњење преко кабла.</string>
     <string name="pc_remove_shell_charging_notification_title">Уклоните футролу да бисте користили бежично пуњење</string>
     <string name="pc_remove_shell_charging_toast">Уклоните футролу да бисте користили бежично обрнуто пуњење</string>
     <string name="pc_satellite_auto_enter_super_power">Укључена је Ултра уштеда батерије да би се обезбедила сателитска комуникација</string>
@@ -3718,6 +3723,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Да бисте заштитили уређај од прегревања, пуњење ће бити заустављено када ниво батерије достигне %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Навигација… Пуњење ће бити заустављено када ниво батерије достигне %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Пуњење ће се зауставити на %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Пуњење је паузирано на %1$s. Наставиће се на %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Пуњење ће се паузирати када батерија достигне %1$s и аутоматски ће се наставити на основу ваше потрошње</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Да би се продужио век трајања батерије, батерија овог уређаја неће прећи тренутни ниво док је повезан са аутомобилом.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Више не приказуј</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Заштита батерије</string>
@@ -3737,6 +3744,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_suggest_open_fast_charge">Укључи брзо пуњење од %dW</string>
     <string name="pc_temperature_too_high">Уређај се прегрејао</string>
     <string name="pc_this_time_charge_full">Овај пут напуните у потпуности</string>
+    <string name="pc_this_time_charge_full_now">Напуни у потпуности</string>
     <string name="pc_this_time_charge_full_work">Скоро пуна</string>
     <string name="pc_timely_charging_summary">Батерија је испод %1$s. Ако се уређај прегреје док је батерија празна, то може оштетити батерију.</string>
     <string name="pc_timely_charging_title">Напуните уређај</string>
@@ -4114,7 +4122,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">Пребаци на %d Hz брзину освежавања</string>
     <string name="power_dialog_super_save_msg">Ултра уштеда батерије ограничава већину функција које троше енергију и тиме смањује перформансе уређаја да би очувала основне функционалности (нпр. позиве, SMS и повезивање на мрежу) што је могуће дуже. Укључити Ултра уштеду батерије?</string>
     <string name="power_dialog_super_save_msg_5g">Ултра уштеда батерије ограничава највеће потрошаче (нпр. 5G везу) чиме се умањују перформансе уређаја. Ово неће утицати само на позиве, поруке и мрежно повезивање. Укључити Ултра уштеду батерије?</string>
-    <string name="power_dialog_super_save_msg_p2">Ултра уштеда батерије искључује задњи екран и ограничава већину функција које троше енергију, чиме смањује перформансе уређаја како би основне функционалности (нпр. позиви, SMS и повезивање са мрежом) биле доступне што је дуже могуће. Укључити Ултра уштеду батерије?</string>
     <string name="power_dialog_super_save_title">Ултра уштеда батерије</string>
     <string name="power_idle">Уређај је у стању мировања</string>
     <string name="power_main_battery_last_day_hour">Преостало: %1$sд %2$sч</string>
@@ -5820,10 +5827,14 @@ Rolled over extra data"</string>
     <string name="uninstall_app_dialog_msg">Деинсталирање ће уклонити све податке апликације.</string>
     <string name="uninstall_app_dialog_title">Деинсталирајте сада?</string>
     <string name="uninstall_app_done">Успешно деинсталирано</string>
+    <string name="uninstall_app_reminder_msg">Разумем да се обрисани подаци апликације не могу вратити</string>
+    <string name="uninstall_app_reminder_pre_title">Деинсталирај %s</string>
+    <string name="uninstall_app_reminder_toast">Потврдите да разумете да се обрисани подаци апликације не могу вратити</string>
     <string name="uninstall_danagerous_btn">Деинсталирај</string>
     <string name="uninstall_danagerous_desc">\"%s\" може оштетити ваш уређај</string>
     <string name="uninstall_danagerous_msg">\"%s\" може оштетити ваш уређај, смањити његове перформансе или узроковати поновна покретања.</string>
     <string name="uninstall_danagerous_title">Деинсталирај малициозне апликације</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Деинсталирај дуалну апликацију %s</string>
     <string name="unknown_operator">Можете да позовете %2$s да потврдите детаље вашег плана са %1$s.</string>
     <string name="unknown_package">Нисте сигурни који је ваш план?</string>
     <string name="unlike">Не, хвала</string>
@@ -6040,7 +6051,7 @@ Rolled over extra data"</string>
     <string name="wakepath_delete_app_start_all">Ако наставите, мораћете поново да дате %s дозволу за отварање било које друге апликације. Ипак наставити?</string>
     <string name="wakepath_delete_app_start_other_app">Ако наставите, мораћете поново да дате %1$s дозволу да отворите %2$s. Ипак наставити?</string>
     <string name="wakepath_manager_allow_list">Дозвољено</string>
-    <string name="wakepath_manager_allow_start">Дозвољено</string>
+    <string name="wakepath_manager_allow_start">Увек дозволи</string>
     <string name="wakepath_manager_checkbox_desc">Дозволите да %1$s покреће друге апликације</string>
     <string name="wakepath_manager_checkbox_title">Дозволите ланчано покретање</string>
     <string name="wakepath_manager_empty_list">Није дозвољено покретање ниједне апликације</string>

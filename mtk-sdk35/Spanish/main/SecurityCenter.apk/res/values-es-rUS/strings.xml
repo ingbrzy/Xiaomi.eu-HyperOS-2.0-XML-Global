@@ -966,6 +966,7 @@ Sin embargo, algunas de sus transacciones aún no se han completado. Para poder 
     <string name="bubble_notification">Burbujas de conversación</string>
     <string name="bubble_notification_switch">Mostrar burbujas de conversación</string>
     <string name="bubble_notification_switch_desc">Cuando una aplicación de mensajería en una ventana flotante está oculta en el borde de la pantalla, muestra los mensajes entrantes en burbujas</string>
+    <string name="bubble_pickup_voice_print_auto">Grabando huella de voz…</string>
     <string name="button_background_connection">Permitir</string>
     <string name="button_block_calls_from_cantacts">Desbloquear</string>
     <string name="button_block_calls_from_strangers">Desbloquear</string>
@@ -973,6 +974,8 @@ Sin embargo, algunas de sus transacciones aún no se han completado. Para poder 
     <string name="button_do_not_disturb">Desactivar</string>
     <string name="button_eye_shield">Desactivar</string>
     <string name="button_first_aid_kit">Solucionar ahora</string>
+    <string name="button_pickup_voice_print_auto_agree">Grabar</string>
+    <string name="button_pickup_voice_print_auto_disagree">Ahora no</string>
     <string name="button_restrict_data_usage">Permitir</string>
     <string name="button_text_accept">Aceptar</string>
     <string name="button_text_accept_timer">Aceptar (%d)</string>
@@ -1231,6 +1234,7 @@ Sin embargo, algunas de sus transacciones aún no se han completado. Para poder 
     <string name="cpu_usage_view_action_btn_text">Toque para ver</string>
     <string name="create_gamebooster_destop">Acceso directo en la Pantalla de inicio creado con éxito</string>
     <string name="create_shortcut">Crear acceso directo a la Pantalla de inicio para Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">No se puede utilizar esta función mientras se utiliza la cámara multidispositivo</string>
     <string name="cs_color_sense">Temperatura del color</string>
     <string name="cs_conversation_record_using">Grabando</string>
@@ -1264,6 +1268,9 @@ Sin embargo, algunas de sus transacciones aún no se han completado. Para poder 
     <string name="cs_pickup_vioce_print_private_dialog_title">Grabar huella de voz</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Grabe la huella de voz antes de seleccionar \"Un único participante\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Desconecte los dispositivos externos y vuelva a intentarlo</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Su voz se grabará y procesará únicamente en este dispositivo.
+Para obtener mejores resultados, grabe solo en un lugar tranquilo."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Se requiere huella de voz para la reducción de ruido personalizada</string>
     <string name="cs_pickup_voice_print_desc">Capte el sonido solo de una persona</string>
     <string name="cs_privacy_camera_global_settings_title">Privacidad de llamadas</string>
     <string name="cs_record_voice_title">Grabar</string>
@@ -3354,8 +3361,7 @@ Intente usar otro cable Ethernet para conectar el router. Si sospecha que hay un
     <string name="oaid_apps_title">Gestionar ID virtual</string>
     <string name="oaid_reset_content_tip">Si desactiva la ID virtual ahora, algunas aplicaciones podrían dejar de funcionar correctamente, una parte de sus datos de aplicaciones podrían perderse o quedar inutilizables.</string>
     <string name="oaid_reset_final_tip">¿Desactiva la ID virtual de todas formas?</string>
-    <string name="oaid_string">"ID virtual actual:
-%1s"</string>
+    <string name="oaid_string">ID virtual actual:%1s</string>
     <string name="oaid_tips_content">Las identificaciones virtuales (OAID) se pueden usar para rastrear su comportamiento y personalizar anuncios para usted. Puede seleccionar qué aplicaciones pueden acceder a su ID virtual. Tenga en cuenta que si restringe el acceso, las recomendaciones de anuncios pueden volverse irrelevantes o es posible que las aplicaciones no funcionen con normalidad.</string>
     <string name="ok">Aceptar</string>
     <string name="ok_button">Aceptar</string>
@@ -3700,7 +3706,6 @@ el Ahorro de batería extremo"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Cierre el dispositivo antes de cargarlo para una experiencia de carga más rápida y estable.</string>
     <string name="pc_remind_close_cover_to_charge_title">Cierre para cargar</string>
     <string name="pc_reminder_always_protect_summary">Cambie a una carga limitada para reducir el envejecimiento de la batería</string>
-    <string name="pc_remove_shell_charging_notification_msg">No se puede usar la carga inalámbrica al usar una funda gaming. Retírela y vuelva a intentarlo, o use la carga por cable.</string>
     <string name="pc_remove_shell_charging_notification_title">Retire la funda para usar la carga inalámbrica</string>
     <string name="pc_remove_shell_charging_toast">Retire la funda para usar la carga inalámbrica inversa</string>
     <string name="pc_satellite_auto_enter_super_power">Se activó el Ahorro de batería extremo para garantizar las comunicaciones por satélite</string>
@@ -3720,6 +3725,8 @@ el Ahorro de batería extremo"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Para proteger su dispositivo del sobrecalentamiento, la carga se detendrá cuando el nivel de batería alcance el %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navegando… La carga se detendrá cuando el nivel de la batería alcance %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">La carga se detendrá al %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">La carga se detuvo al %1$s. Se reanudará al %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">La carga se detendrá cuando la batería alcance %1$s y se reanudará automáticamente según su uso</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Para prolongar la vida útil de la batería, la batería de este dispositivo no superará el nivel actual mientras esté conectada al auto.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">No mostrar de nuevo</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Protección de la batería</string>
@@ -3739,6 +3746,7 @@ el Ahorro de batería extremo"</string>
     <string name="pc_suggest_open_fast_charge">Activar la carga rápida de %dW</string>
     <string name="pc_temperature_too_high">Dispositivo sobrecalentado</string>
     <string name="pc_this_time_charge_full">Cargar al completo esta vez</string>
+    <string name="pc_this_time_charge_full_now">Cargar completamente</string>
     <string name="pc_this_time_charge_full_work">Casi completamente cargado</string>
     <string name="pc_timely_charging_summary">La batería está por debajo del %1$s. Si el dispositivo se sobrecalienta mientras la batería está baja, esto podría dañarla.</string>
     <string name="pc_timely_charging_title">Cargue su dispositivo</string>
@@ -4089,7 +4097,7 @@ el Ahorro de batería extremo"</string>
     <string name="power_center_surface_temp_lower">Fresco</string>
     <string name="power_center_surface_temp_normal">Medio</string>
     <string name="power_center_time_to_boot">Hora</string>
-    <string name="power_center_time_to_shutdown">Tiempo</string>
+    <string name="power_center_time_to_shutdown">Hora</string>
     <string name="power_center_title">Batería</string>
     <string name="power_center_unoffical_battery_button">Encuentre un proveedor de servicios autorizado</string>
     <string name="power_center_unoffical_battery_dialog">Advertencia de batería no autorizada</string>
@@ -4116,7 +4124,6 @@ el Ahorro de batería extremo"</string>
     <string name="power_dialog_performance_mode_checkbox">Cambiar a tasa de refresco de %d Hz</string>
     <string name="power_dialog_super_save_msg">El Ahorro de batería ultra restringe las funciones con mayor consumo de energía y reduce el rendimiento de su dispositivo para mantener las funciones básicas (p. ej. llamadas, mensajes y conexión a la red) disponibles el mayor tiempo posible. ¿Activar ahorrador de batería ultra?</string>
     <string name="power_dialog_super_save_msg_5g">Ahorro de batería ultra restringe la mayoría de las funciones que consumen energía (por ejemplo, conectividad 5G) reduciendo el rendimiento de su dispositivo. Solo las llamadas, los mensajes y la conectividad de red no se verán afectados. ¿Activar Ahorro de batería Ultra?</string>
-    <string name="power_dialog_super_save_msg_p2">El Ahorro de batería extremo desactiva la pantalla trasera y restringe la mayoría de las funciones que consumen mucha energía, lo que reduce el rendimiento del dispositivo para que las funciones básicas (como llamadas, SMS y conexión a la red) estén disponibles el mayor tiempo posible. ¿Activar el Ahorro de batería extremo?</string>
     <string name="power_dialog_super_save_title">Ahorro de batería ultra</string>
     <string name="power_idle">Teléfono inactivo</string>
     <string name="power_main_battery_last_day_hour">%1$s d y %2$s h restantes</string>
@@ -5822,10 +5829,14 @@ Los datos restantes incluyen datos transferidos desde el mes anterior."</string>
     <string name="uninstall_app_dialog_msg">Desinstalar eliminará todos los datos de la aplicación.</string>
     <string name="uninstall_app_dialog_title">¿Desinstalar ahora?</string>
     <string name="uninstall_app_done">Desinstalada con éxito</string>
+    <string name="uninstall_app_reminder_msg">Entiendo que los datos de aplicaciones eliminadas no se pueden restaurar</string>
+    <string name="uninstall_app_reminder_pre_title">Desinstalar %s</string>
+    <string name="uninstall_app_reminder_toast">Confirma que comprendes que los datos de las aplicaciones eliminadas no se pueden restaurar</string>
     <string name="uninstall_danagerous_btn">Desinstalar</string>
     <string name="uninstall_danagerous_desc">\"%s\" puede dañar su dispositivo</string>
     <string name="uninstall_danagerous_msg">\"%s\" podría dañar su dispositivo, reducir su rendimiento o causar reinicios.</string>
     <string name="uninstall_danagerous_title">Desinstalar aplicaciones maliciosas</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Desinstalar aplicación dual de %s</string>
     <string name="unknown_operator">Puede llamar a %2$s para confirmar los detalles de su plan con %1$s.</string>
     <string name="unknown_package">¿No está seguro de cuál es su plan?</string>
     <string name="unlike">No, gracias</string>
@@ -6042,7 +6053,7 @@ Esta función requiere un mayor consumo de energía.
     <string name="wakepath_delete_app_start_all">Si continúa, tendrá que otorgar permiso a %s nuevamente para abrir otras aplicaciones. ¿Continuar de todas formas?</string>
     <string name="wakepath_delete_app_start_other_app">Si continúa, tendrá que otorgar permiso a %1$s nuevamente para abrir %2$s. ¿Continuar de todas formas?</string>
     <string name="wakepath_manager_allow_list">Permitido</string>
-    <string name="wakepath_manager_allow_start">Permitido</string>
+    <string name="wakepath_manager_allow_start">Permitir siempre</string>
     <string name="wakepath_manager_checkbox_desc">Permitir que %1$s ejecute otras aplicaciones</string>
     <string name="wakepath_manager_checkbox_title">Permitir inicio en cadena</string>
     <string name="wakepath_manager_empty_list">No se permite iniciar ninguna aplicación</string>

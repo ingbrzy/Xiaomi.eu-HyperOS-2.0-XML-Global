@@ -966,6 +966,7 @@
     <string name="bubble_notification">บทสนทนาแบบฟองสบู่</string>
     <string name="bubble_notification_switch">แสดงบทสนทนาแบบฟองสบู่</string>
     <string name="bubble_notification_switch_desc">เมื่อแอป Messenger ในหน้าต่างลอยถูกซ่อนไว้ที่ขอบหน้าจอ ให้แสดงข้อความเข้าแบบฟองสบู่</string>
+    <string name="bubble_pickup_voice_print_auto">กำลังบันทึกพิมพ์เสียง…</string>
     <string name="button_background_connection">อนุญาต</string>
     <string name="button_block_calls_from_cantacts">ปลดบล็อก</string>
     <string name="button_block_calls_from_strangers">ปลดบล็อก</string>
@@ -973,6 +974,8 @@
     <string name="button_do_not_disturb">ปิดใช้งาน</string>
     <string name="button_eye_shield">ปิดใช้งาน</string>
     <string name="button_first_aid_kit">แก้ไขตอนนี้</string>
+    <string name="button_pickup_voice_print_auto_agree">บันทึก</string>
+    <string name="button_pickup_voice_print_auto_disagree">ไม่ใช่ตอนนี้</string>
     <string name="button_restrict_data_usage">อนุญาต</string>
     <string name="button_text_accept">ยอมรับ</string>
     <string name="button_text_accept_timer">ยอมรับ (%d)</string>
@@ -1231,6 +1234,7 @@
     <string name="cpu_usage_view_action_btn_text">แตะเพื่อเรียกดู</string>
     <string name="create_gamebooster_destop">สร้างปุ่มลัดหน้าจอหลักสำเร็จ</string>
     <string name="create_shortcut">สร้างปุ่มลัดหน้าจอหลักสำหรับ Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">ไม่สามารถใช้คุณสมบัตินี้ในขณะที่ใช้กล้องข้ามอุปกรณ์</string>
     <string name="cs_color_sense">อุณหภูมิสี</string>
     <string name="cs_conversation_record_using">การบันทึกเสียง</string>
@@ -1264,6 +1268,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">บันทึกพิมพ์เสียง</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">บันทึกเสียงพิมพ์ก่อนเลือก \"ผู้เข้าร่วมคนเดียว\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">ตัดการเชื่อมต่ออุปกรณ์ภายนอกแล้วลองอีกครั้ง</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"เสียงของคุณจะถูกบันทึกและประมวลผลบนอุปกรณ์นี้เท่านั้น
+สำหรับผลลัพธ์ที่ดีที่สุด ควรบันทึกเพียงลำพังในสถานที่เงียบสงบ"</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">ต้องใช้พิมพ์เสียงเพื่อลดเสียงรบกวนส่วนบุคคล</string>
     <string name="cs_pickup_voice_print_desc">รับเสียงจากบุคคลเดียวเท่านั้น</string>
     <string name="cs_privacy_camera_global_settings_title">ความเป็นส่วนตัวในการโทร</string>
     <string name="cs_record_voice_title">บันทึก</string>
@@ -1925,8 +1932,8 @@
     <string name="game_toolbox_slow_charge_positive_btn">เปิดใช้งาน</string>
     <string name="game_toolbox_slow_charge_title">ชาร์จช้า</string>
     <string name="game_toolbox_slow_charge_toast">ชาร์จช้าเปิดอยู่</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">การตอบสนองแบบสัมผัสไม่ทำงานกับเค้าโครงเดิม การตอบสนองแบบสัมผัสปิดอยู่</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">การตอบสนองแบบสัมผัสไม่ทำงานกับเค้าโครงเดิม</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">การตอบสนองการสัมผัสไม่ทำงานกับเค้าโครงเดิม การตอบสนองการสัมผัสปิดอยู่</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">การตอบสนองการสัมผัสไม่ทำงานกับเค้าโครงเดิม</string>
     <string name="game_toolbox_smotion_vibrate_desc">เพิ่มการตอบสนองแบบสัมผัสตามการเคลื่อนไหวของเกม รองรับเฉพาะบางเกมเท่านั้น</string>
     <string name="game_toolbox_smotion_vibrate_title">การตอบสนองการสัมผัส</string>
     <string name="game_toolbox_super_follow_up_msg">ปรับปรุงการตอบสนองการสัมผัสและการติดตามผ่านทางไปป์ไลน์ฮาร์ดแวร์-ซอฟต์แวร์เต็มรูปแบบ</string>
@@ -3354,8 +3361,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="oaid_apps_title">จัดการ ID เสมือน</string>
     <string name="oaid_reset_content_tip">หากคุณปิด ID เสมือนตอนนี้บางแอปอาจหยุดทำงานอย่างถูกต้องส่วนหนึ่งของข้อมูลแอปของคุณอาจสูญหายหรือใช้ไม่ได้</string>
     <string name="oaid_reset_final_tip">ปิดใช้งาน ID เสมือนหรือไม่?</string>
-    <string name="oaid_string">"ID เสมือนปัจจุบัน:
-%1s"</string>
+    <string name="oaid_string">ID เสมือนปัจจุบัน:%1s</string>
     <string name="oaid_tips_content">สามารถใช้ ID เสมือน (OAID) เพื่อติดตามพฤติกรรมของคุณและปรับแต่งโฆษณาให้เหมาะกับคุณ คุณสามารถเลือกแอปที่ได้รับอนุญาตให้เข้าถึงรหัสเสมือนของคุณ โปรดทราบว่าหากคุณจำกัดการเข้าถึงคำแนะนำโฆษณาอาจไม่เกี่ยวข้องหรือแอปอาจไม่สามารถทำงานได้ตามปกติ</string>
     <string name="ok">ตกลง</string>
     <string name="ok_button">ตกลง</string>
@@ -3700,7 +3706,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">พับอุปกรณ์ก่อนชาร์จเพื่อประสบการณ์การชาร์จที่รวดเร็วและเสถียรยิ่งขึ้น</string>
     <string name="pc_remind_close_cover_to_charge_title">พับเพื่อชาร์จ</string>
     <string name="pc_reminder_always_protect_summary">เปลี่ยนไปใช้การชาร์จแบบจำกัดเพื่อยืดอายุแบตเตอรี่</string>
-    <string name="pc_remove_shell_charging_notification_msg">ไม่สามารถใช้การชาร์จแบบไร้สายได้เมื่อใช้เคสเกม ถอดเคสออกแล้วลองอีกครั้ง หรือใช้การชาร์จแบบมีสาย</string>
     <string name="pc_remove_shell_charging_notification_title">ถอดเคสออกเพื่อใช้การชาร์จแบบไร้สาย</string>
     <string name="pc_remove_shell_charging_toast">ถอดเคสออกเพื่อใช้การชาร์จไร้สายแบบย้อนกลับ</string>
     <string name="pc_satellite_auto_enter_super_power">เปิดตัวประหยัดแบตเตอรี่อัลตร้าเพื่อให้แน่ใจว่ามีการสื่อสารผ่านดาวเทียม</string>
@@ -3720,6 +3725,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">เพื่อป้องกันอุปกรณ์ของคุณไม่ให้ร้อนเกินไป การชาร์จจะหยุดลงเมื่อระดับแบตเตอรี่ถึง %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">กำลังนำทาง… การชาร์จจะหยุดลงเมื่อระดับแบตเตอรี่ถึง %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">การชาร์จจะหยุดที่ %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">การชาร์จหยุดชั่วคราวที่ %1$s การชาร์จจะกลับมาทำงานอีกครั้งในเวลา %2$s</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">การชาร์จจะหยุดชั่วคราวเมื่อแบตเตอรี่ถึง %1$s และจะกลับมาชาร์จต่อโดยอัตโนมัติตามการใช้งานของคุณ</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">เพื่อยืดอายุการใช้งานแบตเตอรี่ แบตเตอรี่ของอุปกรณ์นี้จะไม่เกินระดับปัจจุบันขณะเชื่อมต่อกับรถยนต์</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">ไม่ต้องแสดงอีก</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">การป้องกันแบตเตอรี่</string>
@@ -3739,6 +3746,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_suggest_open_fast_charge">เปิดใช้งานชาร์จด่วน %dW</string>
     <string name="pc_temperature_too_high">อุปกรณ์ร้อนเกินไป</string>
     <string name="pc_this_time_charge_full">ชาร์จให้เต็มในครั้งนี้</string>
+    <string name="pc_this_time_charge_full_now">ชาร์จเต็ม</string>
     <string name="pc_this_time_charge_full_work">แบตชาร์จใกล้เต็มแล้ว</string>
     <string name="pc_timely_charging_summary">แบตเตอรี่ต่ำกว่า %1$s หากอุปกรณ์ร้อนเกินไปในขณะที่แบตเตอรี่เหลือน้อย อาจทำให้แบตเตอรี่เสียหายได้</string>
     <string name="pc_timely_charging_title">กรุณาชาร์ทแบตอุปกรณ์ของคุณ</string>
@@ -4116,7 +4124,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">เปลี่ยนเป็นอัตราการรีเฟรช %d Hz</string>
     <string name="power_dialog_super_save_msg">ตัวประหยัดแบตเตอรี่อัลตร้าจำกัดคุณลักษณะการใช้พลังงานมากที่สุดและลดประสิทธิภาพของอุปกรณ์ของคุณเพื่อที่จะออกจากฟังก์ชั่นพื้นฐาน (เช่น การโทร SMS และการเชื่อมต่อกับเครือข่าย) ใช้ได้นานที่สุด เปิดตัวประหยัดแบตเตอรี่อัลตร้าหรือไม่?</string>
     <string name="power_dialog_super_save_msg_5g">ตังประหยัดแบตเตอรี่อัลตร้าจะจำกัดคุณสมบัติที่ใช้พลังงานสูงส่วนใหญ่ (เช่น การเชื่อมต่อ 5G) ลดประสิทธิภาพของอุปกรณ์ของคุณ เฉพาะการโทร ข้อความ และการเชื่อมต่อเครือข่ายจะไม่ได้รับผลกระทบ เปิดตัวประหยัดแบตเตอรี่อัลตร้าหรือไม่?</string>
-    <string name="power_dialog_super_save_msg_p2">ตัวประหยัดแบตเตอรี่อัลตร้า จะปิดจอแสดงผลด้านหลังและจำกัดคุณสมบัติที่กินไฟมากที่สุด ทำให้ประสิทธิภาพการทำงานของอุปกรณ์ลดลงเพื่อให้ฟังก์ชันพื้นฐาน (เช่น การโทร SMS และการเชื่อมต่อกับเครือข่าย) ใช้งานได้นานที่สุด เปิด ตัวประหยัดแบตเตอรี่อัลตร้า หรือไม่?</string>
     <string name="power_dialog_super_save_title">ตัวประหยัดแบตเตอรี่อัลตร้า</string>
     <string name="power_idle">โทรศัพท์ไม่ได้ใช้งาน</string>
     <string name="power_main_battery_last_day_hour">ใช้ได้อีก %1$s วัน %2$s ชม.</string>
@@ -5822,10 +5829,14 @@ Xiaomi Gaming Cooler"</string>
     <string name="uninstall_app_dialog_msg">เมื่อถอนการติดตั้งแล้วข้อมูลในแอปทั้งหมดจะถูกลบออก</string>
     <string name="uninstall_app_dialog_title">ถอนการติดตั้งตอนนี้?</string>
     <string name="uninstall_app_done">ถอนการติดตั้งเรียบร้อยแล้ว</string>
+    <string name="uninstall_app_reminder_msg">ฉันเข้าใจว่าข้อมูลแอปที่ถูกลบไปแล้วไม่สามารถเรียกคืนได้</string>
+    <string name="uninstall_app_reminder_pre_title">ถอนการติดตั้ง %s</string>
+    <string name="uninstall_app_reminder_toast">ยืนยันว่าคุณเข้าใจว่าข้อมูลแอปที่ถูกลบไม่สามารถเรียกคืนได้</string>
     <string name="uninstall_danagerous_btn">ถอนการติดตั้ง</string>
     <string name="uninstall_danagerous_desc">\"%s\" อาจทําให้อุปกรณ์ของคุณเสียหาย</string>
     <string name="uninstall_danagerous_msg">\"%s\" อาจทําให้อุปกรณ์ของคุณเสียหาย ประสิทธิภาพลดลง หรือรีบูตเอง</string>
     <string name="uninstall_danagerous_title">ถอนการติดตั้งแอปที่น่าสงสัย</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">ถอนการติดตั้ง %s แอปโคลน</string>
     <string name="unknown_operator">คุณสามารถโทร %2$s เพื่อยืนยันรายละเอียดแผนของคุณด้วย %1$s</string>
     <string name="unknown_package">ไม่แน่ใจว่าแผนของคุณคืออะไร?</string>
     <string name="unlike">ไม่ ขอบคุณ</string>
@@ -6042,7 +6053,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="wakepath_delete_app_start_all">หากคุณดำเนินการต่อ คุณจะต้องให้สิทธิ์ %s อีกครั้งเพื่อเปิดแอปอื่นๆ ดำเนินการต่อ?</string>
     <string name="wakepath_delete_app_start_other_app">หากคุณดำเนินการต่อ คุณจะต้องให้สิทธิ์ %1$s อีกครั้งเพื่อเปิด %2$s ดำเนินการต่อ?</string>
     <string name="wakepath_manager_allow_list">ได้รับอนุญาต</string>
-    <string name="wakepath_manager_allow_start">ได้รับอนุญาต</string>
+    <string name="wakepath_manager_allow_start">อนุญาตเสมอ</string>
     <string name="wakepath_manager_checkbox_desc">อนุญาตให้ %1$s เปิดแอปอื่นๆ</string>
     <string name="wakepath_manager_checkbox_title">อนุญาตให้เปิดพ่วง</string>
     <string name="wakepath_manager_empty_list">ไม่อนุญาตให้เปิดแอป</string>

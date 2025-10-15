@@ -141,6 +141,7 @@
     <string name="disable_nfc">ปิด NFC สำหรับการชาร์จแบบไร้สาย</string>
     <string name="disable_nfc_haptic_reverse">ปิด NFC และการสั่นเพื่อชาร์จไร้สายย้อนกลับ</string>
     <string name="disable_nfc_reverse">ปิดการชาร์จแบบไร้สายย้อนกลับปิด NFC สำหรับการชาร์จแบบไร้สายย้อนกลับ</string>
+    <string name="earpiece_callmode_tip">พลิกเพื่อใช้หูฟัง</string>
     <string name="echo">อีโค้</string>
     <string name="eighthours">8 ชั่วโมง</string>
     <string name="enable_livetalk_summary">ประหยัดค่าโทร 70%</string>
@@ -351,6 +352,10 @@
     <string name="popup_camera_tip">โปรดทราบ</string>
     <string name="popup_camera_using_camera_background">%s กำลังใช้กล้องหน้า</string>
     <string name="potion">เสน่ห์</string>
+    <string name="presentation_payphone">โทรศัพท์สาธารณะ</string>
+    <string name="presentation_private">เลขหมายส่วนตัว</string>
+    <string name="presentation_unknown">เลขหมายที่ไม่รู้จัก</string>
+    <string name="propotional_freeform_tip">ดูเหมือนว่าแอปนี้ไม่รองรับหน้าต่างแบบลอยอย่างสมบูรณ์</string>
     <string name="radar">เรดาร์</string>
     <string name="raindrops">เม็ดฝน</string>
     <string name="realme">realme</string>
@@ -521,10 +526,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">ไม่สามารถใช้กล้องในขณะที่ใช้การสื่อสารผ่านดาวเทียม</string>
     <string name="toast_mic_muted">ไมโครโฟนปิดอยู่</string>
     <string name="toast_mic_unmuted">ไมโครโฟนเปิดอยู่</string>
-    <string name="tof_music_support_scene_des">รองรับการควบคุมเครื่องเล่นเพลง</string>
-    <string name="tof_office_support_scene_des">รองรับเอกสาร Word และการนำเสนอ PowerPoint</string>
-    <string name="tof_short_video_support_scene_des">รองรับการสลับระหว่างวิดีโอ</string>
-    <string name="tof_video_support_scene_des">รองรับการควบคุมเครื่องเล่นวิดีโอแบบเต็มหน้าจอ</string>
     <string name="total">DND</string>
     <string name="total_description">ปิดเสียงและปิดการสั่นสะเทือนสำหรับทุกรายการยกเว้นนาฬิกาปลุก</string>
     <string name="total_title">DND</string>
@@ -546,6 +547,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">การจัดดอกไม้</string>
+    <string name="wallpaper_geometrically_irregular_title">เรขาคณิตเชิงนามธรรม</string>
     <string name="wallpaper_gradient_title">การไล่ระดับสี</string>
     <string name="wallpaper_group_black_white_title">ขาวดำ</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -609,14 +611,26 @@
     <string name="ability_dialog_button">รับทราบ</string>
     <string name="ability_dialog_text">เนื่องจากขนาดหน้าจอ แอปบางแอปอาจแสดงไม่ถูกต้องบนหน้าจอด้านนอก</string>
     <string name="ability_dialog_title">โปรดทราบ</string>
-    <string name="aon_reader_support_scene_des">พลิกหน้าขณะอ่าน</string>
-    <string name="aon_video_support_scene_des">ควบคุมการเล่นวิดีโอ</string>
+    <string name="aon_music_double_press_support_scene_des">เล่นหรือพักเพลง</string>
+    <string name="aon_music_left_right_support_scene_des">สลับไปยังเพลงก่อนหน้าหรือเพลงถัดไป</string>
+    <string name="aon_music_up_down_support_scene_des">ปรับระดับเสียงเพลง</string>
+    <string name="aon_office_up_down_support_scene_des">ไปที่หน้าก่อนหน้าหรือหน้าถัดไปของการนำเสนอหรือเอกสาร</string>
+    <string name="aon_reader_support_scene_des">รองรับการควบคุมที่เกี่ยวข้องกับการอ่าน</string>
+    <string name="aon_short_video_up_down_support_scene_des">สลับไปยังวีดีโอก่อนหน้าหรือวีดีโอถัดไป</string>
+    <string name="aon_video_double_press_support_scene_des">เล่นหรือหยุดวิดีโอ</string>
+    <string name="aon_video_left_right_support_scene_des">ปรับความคืบหน้าของวิดีโอเมื่อรับชมในโหมดแนวนอน</string>
+    <string name="aon_video_up_down_support_scene_des">ปรับระดับเสียงวิดีโอ</string>
+    <string name="config_quick_scanner_notification_content_text">สแกนรหัส QR และเปิดหน้าเว็บโดยตรง</string>
+    <string name="config_quick_scanner_notification_title">ตัวสแกนด่วน</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"ต่อไปนี้คือวิธีที่คุณสามารถลบประกาศนี้:
 %1$s นำสิ่งกีดขวางออกจากบริเวณรอบๆ กล้อง
 %2$s หากวิธีนี้ไม่ได้ผล ให้กดปุ่มเพิ่มระดับเสียงเพื่อปิดโหมดพกพา"</string>
     <string name="global_help">ไม่พบอุปกรณ์</string>
     <string name="global_my">"อุปกรณ์ของฉัน
 %1$s"</string>
+    <string name="ime_rotation_tip">ไม่สามารถป้อนข้อความในมุมนี้ได้ หมุนอุปกรณ์ก่อน</string>
+    <string name="ks_switch_tasks">สลับรายการล่าสุด</string>
+    <string name="linked_wallpaper">ตั้งค่าภาพพื้นหลัง</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="motorola">Motorola</string>
@@ -629,14 +643,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"ต่อไปนี้คือวิธีที่คุณสามารถลบประกาศนี้:
 %1$s ลบสิ่งกีดขวางออกจากบริเวณที่ทำเครื่องหมายเป็นสีแดงบนรูปภาพ
 %2$s หากวิธีนี้ไม่ได้ผล ให้กดปุ่มเพิ่มระดับเสียงเพื่อปิดโหมดพกพา"</string>
+    <string name="share_device_near_share">แชร์เมื่ออยู่ใกล้ๆ</string>
+    <string name="share_device_near_share_hide">ซ่อน</string>
+    <string name="share_device_near_share_image_describe">วางพื้นที่ NFC ของอุปกรณ์ทั้งสองไว้ใกล้กันเพื่อเริ่มแชร์</string>
     <string name="skipcoreappanr_notification_text">ปัญหาของระบบได้รับการแก้ไขโดยอัตโนมัติ</string>
     <string name="skipcoreappanr_notification_title">%1$s ไม่ตอบสนอง</string>
     <string name="skipprocessanr_notification_text">กระบวนการ \"%1$s\" ไม่ตอบสนอง</string>
     <string name="skipprocessanr_notification_title">ระบบไม่ตอบสนอง</string>
     <string name="super_wallpaper_list_label">ภาพพื้นหลังความละเอียดสูง</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">คลาสสิก</string>
+    <string name="theme_titile_classis_scenery">ทัศนียภาพ</string>
+    <string name="typec_acc_not_support_cancel">รับทราบ</string>
+    <string name="typec_acc_not_support_message">พอร์ต USB Type-C ของผลิตภัณฑ์นี้รองรับเฉพาะอุปกรณ์เสียงดิจิทัลเท่านั้น</string>
+    <string name="typec_acc_not_support_tile">ระบบไม่รองรับอุปกรณ์นี้</string>
     <string name="wallpaper_Fragrant_title">ดอกไม้</string>
     <string name="wallpaper_glazed_valley_title">เคลือบ</string>
+    <string name="wallpaper_group_pets_title">สัตว์เลี้ยง</string>
     <string name="wallpaper_softlight_title">แสงอ่อน</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>

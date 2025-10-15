@@ -204,6 +204,8 @@
     <string name="accessibility_qs_edit_tile_removed">%1$s eliminado</string>
     <string name="accessibility_qs_edit_tile_start_add">Añadir recuadro</string>
     <string name="accessibility_qs_edit_tile_start_move">Mover recuadro</string>
+    <string name="accessibility_qs_item_drag">Arrastrando</string>
+    <string name="accessibility_qs_position_hint">Colocado en la fila %1$d, columna %2$d</string>
     <string name="accessibility_quick_settings_alarm">La alarma sonará a la(s) %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">activar</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Grip conectado</string>
     <string name="accessibility_quick_settings_open_settings">Abrir ajustes de %s.</string>
     <string name="accessibility_quick_settings_page">Página %1$d de %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Indicador de página</string>
     <string name="accessibility_quick_settings_power_menu">Menú de encendido</string>
     <string name="accessibility_quick_settings_rotation">Girar pantalla automáticamente</string>
     <string name="accessibility_quick_settings_settings">Abrir ajustes.</string>
@@ -726,7 +729,7 @@ Puedes hacer cambios en cualquier momento en Ajustes."</string>
     <string name="controls_tile_locked">Dispositivo bloqueado</string>
     <string name="copy">Copiar</string>
     <string name="creating_new_guest_dialog_message">Creando nuevo invitado…</string>
-    <string name="creating_new_user_dialog_message">Creando nuevo usuario…</string>
+    <string name="creating_new_user_dialog_message">Creando usuario…</string>
     <string name="csd_500_system_lowered_text">El volumen de los auriculares ha superado el límite de seguridad de esta semana</string>
     <string name="csd_button_keep_listening">Seguir escuchando</string>
     <string name="csd_button_lower_volume">Bajar volumen</string>
@@ -783,7 +786,7 @@ Si vuelves a activar el uso de datos, es posible que se apliquen cargos."</strin
     <string name="debug_debugging_category">Depuración</string>
     <string name="debug_drawing_category">Dibujo</string>
     <string name="debug_hw_drawing_category">Renderización acelerada por hardware</string>
-    <string name="debug_hw_overdraw">Depurar overdraw de GPU</string>
+    <string name="debug_hw_overdraw">Depurar sobredibujos de GPU</string>
     <string name="debug_input_category">Entrada</string>
     <string name="debug_layout">Mostrar límites de diseño</string>
     <string name="debug_layout_summary">Muestra límites de vídeo, márgenes, etc.</string>
@@ -892,6 +895,7 @@ Si vuelves a activar el uso de datos, es posible que se apliquen cargos."</strin
     <string name="enable_verbose_vendor_logging_summary">Incluye otros registros de proveedor específicos del dispositivo en informes de errores, lo que puede añadir información privada, usar más batería u ocupar más espacio de almacenamiento.</string>
     <string name="enabled_by_admin">Habilitado por el administrador</string>
     <string name="enhanced_connectivity_summary">Habilita la función de conectividad mejorada.</string>
+    <string name="enrol_fingerprint_process_talkback">Añadiendo huella dactilar</string>
     <string name="eras_ad">d.C</string>
     <string name="eras_bc">a.C</string>
     <string name="error_disable_esim_msg">No se puede mostrar la tarjeta eSIM debido a un error.</string>
@@ -1057,6 +1061,7 @@ Apágala con el botón de encendido del teléfono."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s, día del mes: %2$s</string>
+    <string name="free_form_recommend_tip">Ventana flotante</string>
     <string name="friday">Viernes</string>
     <string name="friday_short">Vie</string>
     <string name="friday_shortest">Vie</string>
@@ -1177,7 +1182,7 @@ Toca para ver más información."</string>
     <string name="ime_security_warning_global">Los métodos de entrada podrían recoger todos los textos que escribas, incluyendo los datos personales como contraseñas y números de tarjetas de crédito. ¿Usar %1$s?</string>
     <string name="ime_security_warning_title_global">Activando teclado</string>
     <string name="immediately_destroy_activities">No mantener actividades</string>
-    <string name="immediately_destroy_activities_summary">Destruye actividades cuando el usuario deja de usarlas</string>
+    <string name="immediately_destroy_activities_summary">Destruir actividades cuando el usuario salga de ellas</string>
     <string name="immersive_cling_description">Para salir, desliza hacia abajo desde la parte superior de la pantalla</string>
     <string name="immersive_cling_positive">Entendido</string>
     <string name="immersive_cling_title">Visualización en pantalla completa</string>
@@ -1191,6 +1196,15 @@ Toca para ver más información."</string>
     <string name="inattentive_sleep_warning_message">El dispositivo pronto se apagará si no interactúas con él.</string>
     <string name="inattentive_sleep_warning_title">En espera</string>
     <string name="indeterminate">Marcado parcialmente</string>
+    <string name="info_focus_download_end">Descargado</string>
+    <string name="info_focus_download_start">Abre una ventana flotante y espera a que finalice la descarga</string>
+    <string name="info_focus_download_update">Descargar progreso</string>
+    <string name="info_focus_match_end">Emparejado con éxito</string>
+    <string name="info_focus_match_start">Abre una ventana flotante y espera a que se emparejen</string>
+    <string name="info_focus_match_update">Emparejando…</string>
+    <string name="info_focus_rebirth_end">Reaparecido</string>
+    <string name="info_focus_rebirth_start">Abre una ventana flotante y espera a que reaparezca</string>
+    <string name="info_focus_rebirth_update">Esperando a que reaparezca</string>
     <string name="inline_done_button">Hecho</string>
     <string name="inline_ok_button">Aplicar</string>
     <string name="inline_turn_off_notifications">Desactivar notificaciones</string>
@@ -1473,6 +1487,7 @@ Aunque no permitas que esta aplicación acceda a todos los registros del disposi
     <string name="log_access_confirmation_learn_more">Más información</string>
     <string name="log_access_confirmation_learn_more_at">Más información en %s</string>
     <string name="log_access_confirmation_title">¿Permitir que %s acceda a todos los registros del dispositivo?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Dispositivo sobrecalentado. Reduciendo el brillo de la linterna.</string>
     <string name="m3c_search_bar_search">Buscar</string>
     <string name="m3c_suggestions_available">Sugerencias a continuación</string>
     <string name="magnification_close_settings_click_label">Cerrar ajustes de ampliación</string>
@@ -2027,7 +2042,7 @@ Si tienes alguna pregunta, ponte en contacto con %2$s."</string>
     <string name="power_remaining_settings_home_page">%1$s: %2$s</string>
     <string name="power_suggestion_battery_run_out">Puede que se agote la batería sobre las %1$s</string>
     <string name="preference_copied">\"%1$s\" se ha copiado en el portapapeles.</string>
-    <string name="preference_summary_default_combination">%1$s/%2$s</string>
+    <string name="preference_summary_default_combination">%1$s / %2$s</string>
     <string name="priority_conversations">Conversaciones prioritarias</string>
     <string name="priority_mode_dream_overlay_content_description">No molestar</string>
     <string name="privacy_dialog_active_app_usage">En uso por %1$s</string>
@@ -2074,6 +2089,7 @@ Si tienes alguna pregunta, ponte en contacto con %2$s."</string>
     <string name="qs_control_big_tile_state_connected">Conectado</string>
     <string name="qs_control_big_tile_state_connecting">Conectando…</string>
     <string name="qs_control_big_tile_state_disconnected">No conectado</string>
+    <string name="qs_control_big_tile_state_opened">Activado</string>
     <string name="qs_control_big_tile_state_opening">Activando…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">Usando señal Wi-Fi del teléfono</string>
     <string name="qs_control_big_tile_state_tethered_wlan">Usando señal WLAN del teléfono</string>
@@ -2493,6 +2509,7 @@ Si tienes alguna pregunta, ponte en contacto con %2$s."</string>
     <string name="speed_label_okay">Aceptable</string>
     <string name="speed_label_slow">Lenta</string>
     <string name="speed_label_very_fast">Muy rápida</string>
+    <string name="split_screen_recommend_tip">Pantalla dividida</string>
     <string name="split_screen_text">Pantalla dividida</string>
     <string name="standby_bucket_summary">"Estado de la aplicación en espera:  %s"</string>
     <string name="start_dreams">Salvapantallas</string>
@@ -2749,7 +2766,7 @@ Recibirás una notificación cuando puedas volver a usarlo."</string>
     <string name="user_add_user">Añadir usuario</string>
     <string name="user_add_user_item_summary">Los usuarios tienen contenido y aplicaciones propios</string>
     <string name="user_add_user_item_title">Usuario</string>
-    <string name="user_add_user_message_long">"Puedes compartir este dispositivo si creas más usuarios. Cada uno tendrá su propio espacio y podrá personalizarlo con aplicaciones, un fondo de pantalla y mucho más. Los usuarios también pueden ajustar opciones del dispositivo, como la conexión Wi‑Fi, que afectan a todos los usuarios.
+    <string name="user_add_user_message_long">"Puedes compartir este dispositivo si creas más usuarios. Cada uno tendrá su propio espacio y podrá personalizarlo con aplicaciones, un fondo de pantalla y más. Los usuarios también pueden ajustar opciones del dispositivo, como la conexión Wi‑Fi, que afectan a todos los usuarios.
 
 Cuando añadas un usuario, tendrá que configurar su espacio.
 

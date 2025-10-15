@@ -193,17 +193,19 @@
     <string name="accessibility_qr_code_scanner_button">Lecteur code QR</string>
     <string name="accessibility_qs_edit_move_tile">Déplacer %1$s</string>
     <string name="accessibility_qs_edit_position">Position %1$d</string>
-    <string name="accessibility_qs_edit_remove_tile">Supprimer %1$s</string>
+    <string name="accessibility_qs_edit_remove_tile">Retirer %1$s</string>
     <string name="accessibility_qs_edit_remove_tile_action">supprimer le bloc</string>
-    <string name="accessibility_qs_edit_tile_add">Ajoutez %1$s à la position%2$d</string>
+    <string name="accessibility_qs_edit_tile_add">Ajouter %1$s pour positionner %2$d</string>
     <string name="accessibility_qs_edit_tile_add_action">ajouter le bloc à la fin</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Ajouter à la position %1$d</string>
     <string name="accessibility_qs_edit_tile_added">%1$s est ajouté à la position %2$d</string>
-    <string name="accessibility_qs_edit_tile_move">Déplacez %1$s vers la position %2$d</string>
+    <string name="accessibility_qs_edit_tile_move">Déplacer %1$s pour positionner %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Déplacer vers %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s est supprimé</string>
     <string name="accessibility_qs_edit_tile_start_add">Ajouter un bloc</string>
     <string name="accessibility_qs_edit_tile_start_move">Déplacer le bloc</string>
+    <string name="accessibility_qs_item_drag">Faire glisser</string>
+    <string name="accessibility_qs_position_hint">Placer à la ligne %2$d, colonne %1$d</string>
     <string name="accessibility_quick_settings_alarm">Alarme réglée sur %s</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">activer</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Poignée connectée</string>
     <string name="accessibility_quick_settings_open_settings">Ouvrir les paramètres %s.</string>
     <string name="accessibility_quick_settings_page">Page %1$d sur %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Indicateur de page</string>
     <string name="accessibility_quick_settings_power_menu">Menu Marche/Arrêt</string>
     <string name="accessibility_quick_settings_rotation">"Rotation automatique de l'écran"</string>
     <string name="accessibility_quick_settings_settings">Ouvrir les paramètres.</string>
@@ -892,6 +895,7 @@ Si vous réactivez les données, des frais peuvent s'appliquer."</string>
     <string name="enable_verbose_vendor_logging_summary">"Inclure les journaux supplémentaires du fournisseur, spécifiques à l'appareil, dans les rapports de bug. Ils peuvent contenir des informations personnelles, solliciter davantage la batterie et/ou utiliser plus d'espace de stockage."</string>
     <string name="enabled_by_admin">"Activé par l'administrateur"</string>
     <string name="enhanced_connectivity_summary">Active la fonctionnalité Connectivité améliorée.</string>
+    <string name="enrol_fingerprint_process_talkback">"Ajout d'empreintes digitales"</string>
     <string name="eras_ad">EC</string>
     <string name="eras_bc">BCE</string>
     <string name="error_disable_esim_msg">"Impossible de désactiver la carte eSIM en raison d'une erreur."</string>
@@ -1057,6 +1061,7 @@ Après leur suppression, vous devrez reconfigurer le déverrouillage par emprein
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s, jour du mois : %2$s</string>
+    <string name="free_form_recommend_tip">Fenêtre flottante</string>
     <string name="friday">Vendredi</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
@@ -1191,6 +1196,15 @@ Appuyer pour en savoir plus"</string>
     <string name="inattentive_sleep_warning_message">"L'appareil va bientôt passer en mode Veille. Appuyez dessus pour qu'il reste allumé."</string>
     <string name="inattentive_sleep_warning_title">Mode Veille imminent</string>
     <string name="indeterminate">Partiellement coché</string>
+    <string name="info_focus_download_end">Téléchargé</string>
+    <string name="info_focus_download_start">Ouvrir une fenêtre flottante et attendre que le téléchargement se termine</string>
+    <string name="info_focus_download_update">Progression du téléchargement</string>
+    <string name="info_focus_match_end">Apparié avec succès</string>
+    <string name="info_focus_match_start">"Ouvrir une fenêtre flottante et attendre d'être appariés"</string>
+    <string name="info_focus_match_update">Correspondance…</string>
+    <string name="info_focus_rebirth_end">Réapparue</string>
+    <string name="info_focus_rebirth_start">Ouvrir une fenêtre flottante et attendre la réapparition</string>
+    <string name="info_focus_rebirth_update">En attente de réapparition</string>
     <string name="inline_done_button">OK</string>
     <string name="inline_ok_button">Appliquer</string>
     <string name="inline_turn_off_notifications">Désactiver les notifications</string>
@@ -1473,6 +1487,7 @@ Si vous refusez à cette appli l'accès à tous les journaux de l'appareil, elle
     <string name="log_access_confirmation_learn_more">En savoir plus</string>
     <string name="log_access_confirmation_learn_more_at">Pour en savoir plus, rendez-vous sur %s</string>
     <string name="log_access_confirmation_title">"Autoriser %s à accéder à tous les journaux de l'appareil ?"</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Appareil surchauffé. Réduction de la luminosité de la lampe torche.</string>
     <string name="m3c_search_bar_search">Rechercher</string>
     <string name="m3c_suggestions_available">Suggestions ci-dessous</string>
     <string name="magnification_close_settings_click_label">"Fermer les paramètres d'agrandissement"</string>
@@ -2074,6 +2089,7 @@ Si vous avez des questions, contactez %2$s."</string>
     <string name="qs_control_big_tile_state_connected">Connecté</string>
     <string name="qs_control_big_tile_state_connecting">Connexion…</string>
     <string name="qs_control_big_tile_state_disconnected">Non connecté</string>
+    <string name="qs_control_big_tile_state_opened">Activé</string>
     <string name="qs_control_big_tile_state_opening">Activation…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">Utilisation du signal Wi-Fi du téléphone</string>
     <string name="qs_control_big_tile_state_tethered_wlan">Utilisation du signal WLAN du téléphone</string>
@@ -2493,6 +2509,7 @@ Si vous avez des questions, contactez %2$s."</string>
     <string name="speed_label_okay">Correcte</string>
     <string name="speed_label_slow">Lente</string>
     <string name="speed_label_very_fast">Très rapide</string>
+    <string name="split_screen_recommend_tip">Écran divisé</string>
     <string name="split_screen_text">Écran partagé</string>
     <string name="standby_bucket_summary">"État de mise en veille de l'application :  %s"</string>
     <string name="start_dreams">"Économiseur d'écran"</string>

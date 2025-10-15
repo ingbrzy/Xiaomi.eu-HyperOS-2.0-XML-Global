@@ -141,6 +141,7 @@
     <string name="disable_nfc">무선 충전을 위해 NFC 꺼짐</string>
     <string name="disable_nfc_haptic_reverse">역방향 무선 충전을 위해 NFC 및 진동 끄기</string>
     <string name="disable_nfc_reverse">역방향 무선 충전을 위해 NFC 꺼짐</string>
+    <string name="earpiece_callmode_tip">뒤집어서 이어피스 사용</string>
     <string name="echo">에코</string>
     <string name="eighthours">8시간</string>
     <string name="enable_livetalk_summary">70%의 통화 요금을 절약합니다.</string>
@@ -351,6 +352,10 @@
     <string name="popup_camera_tip">참고</string>
     <string name="popup_camera_using_camera_background">%s이(가) 전면 카메라를 사용 중</string>
     <string name="potion">포션</string>
+    <string name="presentation_payphone">공중전화</string>
+    <string name="presentation_private">발신번호 표시 제한</string>
+    <string name="presentation_unknown">알 수 없는 번호</string>
+    <string name="propotional_freeform_tip">해당 앱이 플로팅 창을 완전히 지원하지는 않는 것으로 보입니다</string>
     <string name="radar">레이더</string>
     <string name="raindrops">레인드롭</string>
     <string name="realme">realme</string>
@@ -516,10 +521,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">위성 통신을 사용하는 동안 카메라를 사용할 수 없음</string>
     <string name="toast_mic_muted">마이크 꺼짐</string>
     <string name="toast_mic_unmuted">마이크 켜짐</string>
-    <string name="tof_music_support_scene_des">뮤직 플레이어 제어 지원</string>
-    <string name="tof_office_support_scene_des">워드 문서 및 파워포인트 프리젠테이션 지원</string>
-    <string name="tof_short_video_support_scene_des">동영상 간 전환 지원</string>
-    <string name="tof_video_support_scene_des">전체화면 동영상 플레이어 제어 지원</string>
     <string name="total">방해금지 모드</string>
     <string name="total_description">알람 시계를 제외한 모든 항목에 대해 무음 및 진동 끄기</string>
     <string name="total_title">방해금지 모드</string>
@@ -541,6 +542,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">플로랄 어레인지먼트</string>
+    <string name="wallpaper_geometrically_irregular_title">추상 기하학</string>
     <string name="wallpaper_gradient_title">그래디언트</string>
     <string name="wallpaper_group_black_white_title">블랙 앤 화이트</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -604,14 +606,26 @@
     <string name="ability_dialog_button">알겠습니다</string>
     <string name="ability_dialog_text">화면 크기로 인해 일부 앱이 외부 화면에 제대로 표시되지 않을 수 있습니다.</string>
     <string name="ability_dialog_title">참고</string>
-    <string name="aon_reader_support_scene_des">독서 중 페이지 넘기</string>
-    <string name="aon_video_support_scene_des">동영상 재생 제어</string>
+    <string name="aon_music_double_press_support_scene_des">음악 재생 또는 일시정지</string>
+    <string name="aon_music_left_right_support_scene_des">이전 또는 다음 노래로 전환</string>
+    <string name="aon_music_up_down_support_scene_des">음악 볼륨 조정</string>
+    <string name="aon_office_up_down_support_scene_des">프레젠테이션이나 문서의 이전 또는 다음 페이지로 이동</string>
+    <string name="aon_reader_support_scene_des">읽기 관련 제어 지원</string>
+    <string name="aon_short_video_up_down_support_scene_des">이전 또는 다음 동영상으로 전환</string>
+    <string name="aon_video_double_press_support_scene_des">동영상 재생 또는 일시정지</string>
+    <string name="aon_video_left_right_support_scene_des">가로 모드에서 시청 시 동영상 진행률 조정</string>
+    <string name="aon_video_up_down_support_scene_des">동영상 볼륨 조정</string>
+    <string name="config_quick_scanner_notification_content_text">QR 코드 스캔 및 웹페이지 바로 열기</string>
+    <string name="config_quick_scanner_notification_title">퀵 스캐너</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"이 알림을 제거하는 방법은 다음과 같습니다:
 %1$s. 카메라 주변에 있는 장애물을 제거하십시오.
 %2$s. 이 방법이 도움이 되지 않는 경우에는 볼륨 업 버튼을 눌러 주머니 모드를 종료하십시오."</string>
     <string name="global_help">기기를 찾을 수 없음</string>
     <string name="global_my">"내 기기
 %1$s"</string>
+    <string name="ime_rotation_tip">이 각도에서는 텍스트를 입력할 수 없습니다. 먼저 기기를 회전하십시오.</string>
+    <string name="ks_switch_tasks">최근 작업 전환</string>
+    <string name="linked_wallpaper">배경화면 세트</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="motorola">Motorola</string>
@@ -624,14 +638,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"이 알림을 제거하는 방법은 다음과 같습니다:
 %1$s. 이미지에서 빨간색으로 표시된 부분의 장애물을 제거하십시오.
 %2$s. 이 방법이 도움이 되지 않는 경우에는 볼륨 업 버튼을 눌러 주머니 모드를 종료하십시오."</string>
+    <string name="share_device_near_share">근처에 있을 때 공유</string>
+    <string name="share_device_near_share_hide">숨기기</string>
+    <string name="share_device_near_share_image_describe">두 기기의 NFC 영역을 서로 가깝게 두어 공유 시작</string>
     <string name="skipcoreappanr_notification_text">시스템 문제가 자동으로 수정되었습니다</string>
     <string name="skipcoreappanr_notification_title">%1$s이(가) 응답하지 않습니다</string>
     <string name="skipprocessanr_notification_text">\"%1$s\" 프로세스가 응답하지 않습니다</string>
     <string name="skipprocessanr_notification_title">시스템이 응답하지 않습니다</string>
     <string name="super_wallpaper_list_label">슈퍼 배경화면</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">클래식</string>
+    <string name="theme_titile_classis_scenery">풍경</string>
+    <string name="typec_acc_not_support_cancel">알겠습니다</string>
+    <string name="typec_acc_not_support_message">이 제품의 USB Type-C 포트는 디지털 오디오 기기만 지원합니다.</string>
+    <string name="typec_acc_not_support_tile">기기가 지원되지 않음</string>
     <string name="wallpaper_Fragrant_title">블로섬</string>
     <string name="wallpaper_glazed_valley_title">글레이즈</string>
+    <string name="wallpaper_group_pets_title">동물</string>
     <string name="wallpaper_softlight_title">소프트 라이트</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>

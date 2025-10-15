@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Sdílet s aplikací %s</string>
     <string name="abc_toolbar_collapse_description">Sbalit</string>
     <string name="accessibility_settings_activity_title">Přístupnost</string>
-    <string name="accessibility_sliding_button_state_description_off">vypnuto</string>
-    <string name="accessibility_sliding_button_state_description_on">zapnuto</string>
+    <string name="accessibility_sliding_button_state_description_off">Vypnuto</string>
+    <string name="accessibility_sliding_button_state_description_on">Zapnuto</string>
     <string name="accessibility_tab_state_description_unselect">Nevybráno</string>
-    <string name="accessibility_tab_statedesc_unselect">Nevybráno</string>
     <string name="actionBarCBVideo">Blokování videohovorů (%s)</string>
     <string name="actionBarCBVoice">Blokování hlasových hovorů (%s)</string>
     <string name="actionBarCFVideo">Přesměrování videohovorů (%s)</string>
@@ -134,6 +133,10 @@
     <string name="band_mode_set">Nastavit</string>
     <string name="band_mode_succeeded">Úspěšné</string>
     <string name="band_mode_title">Nastavit režim pásma bezdrátového modulu</string>
+    <string name="beidou_findout_settings_title">O satelitních zprávách BeiDou</string>
+    <string name="beidou_mobile_settings_summary">K dispozici pouze pro uživatele China Mobile</string>
+    <string name="beidou_mobile_settings_title">Satelitní komunikace BeiDou</string>
+    <string name="beidou_sms_location_fail_toast">Nejdříve této funkci povolte přístup k vaší poloze</string>
     <string name="bf_news_settings">Ekonomika a finance</string>
     <string name="business_hall_settings_summary">Mějte přehled o poplatcích za volání a datové služby</string>
     <string name="business_hall_settings_title">Nastavení tarifu operátora</string>
@@ -244,6 +247,8 @@
     <string name="call_record_on_summary">Zap.</string>
     <string name="call_record_setting">Nahrávání hovorů</string>
     <string name="call_record_whitelist_custom">Vybraná čísla</string>
+    <string name="call_recording_disclaimer_msg">Platné zákony v jurisdikci, ve které se nacházíte vy nebo ostatní účastníci hovoru, mohou vyžadovat souhlas všech stran s nahráváním. Tyto zákony máte povinnost dodržovat a společnost Xiaomi nenese odpovědnost za jakékoli nezákonné použití této funkce. Nahrávky hovorů se ukládají pouze do vašeho zařízení a společnost Xiaomi k nim nemá přístup.</string>
+    <string name="call_recording_disclaimer_title">Upozornění</string>
     <string name="call_recording_notification_message">Klepněte pro poslechnutí.</string>
     <string name="call_recording_notification_message_low_storage">SD karta je plná.</string>
     <string name="call_recording_notification_message_sd_unmounted">SD karta byla odebrána.</string>
@@ -619,7 +624,7 @@
     <string name="enable_esim_dialog_title">Zapnout eSIM</string>
     <string name="enable_esim_error_toast_message">eSIM se nepodařilo zapnout</string>
     <string name="enable_esim_progress_activating_message">Zapínání eSIM…</string>
-    <string name="enable_esim_summary">Po zapnutí se vypne SIM %s</string>
+    <string name="enable_esim_summary">eSIM nahradí SIM %s</string>
     <string name="enable_esim_title">Zapnout eSIM</string>
     <string name="enable_fdn">Zapnout funkci Povolená tel. čísla</string>
     <string name="enable_fdn_ok">Vypnout funkci Povolená tel. čísla</string>
@@ -644,6 +649,8 @@
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Rozšířené volání</string>
     <string name="enter_callbarring_password">Zadejte heslo pro blokování hovorů (%d čísla)</string>
     <string name="enter_esim_manager_title">Správa eSIM</string>
+    <string name="enter_esim_service_support_summary">Zobrazit všechny podporované operátory</string>
+    <string name="enter_esim_service_support_title">Podporovaní operátoři</string>
     <string name="enter_input">Zpráva USSD musí mít délku od %1$d do %2$d znaků. Zkuste to znovu.</string>
     <string name="enter_mep_esim_manager_title">Spravovat SIM</string>
     <string name="enter_pin2_text">PIN %d</string>
@@ -689,10 +696,15 @@
     <string name="fdn_summary">Omezit odchozí hovory jen na čísla v seznamu FDN nebo čísla s určitými předčíslími</string>
     <string name="fdn_with_label">Povolená tel. čísla (%s)</string>
     <string name="feedback_title">Zpětná vazba</string>
+    <string name="filp_auto_answer_call_title">Otevřením hovory přijměte</string>
+    <string name="filp_auto_hangup_call_summary">Funguje, pouze když jsou připojena Bluetooth nebo drátová sluchátka</string>
+    <string name="filp_auto_hangup_call_title">Zavřením hovory ukončete</string>
     <string name="fire_type_description">Hasiči</string>
     <string name="fiveg_carrier_aggregation_title">Agregace 5G operátorů</string>
     <string name="fiveg_hosted_mode_summary">Automaticky vybrat nejvhodnější síť pro úsporu baterie</string>
     <string name="fiveg_hosted_mode_title">Chytrý přepínač 5G</string>
+    <string name="fiveg_interruption_remind">Vypadá to, že vaše SIM %s nemůže využívat služby 5G SA. Další informace vám poskytne váš operátor.</string>
+    <string name="fiveg_interruption_remind_title">Služby 5G nelze použít</string>
     <string name="fiveg_network_mode_default">Autom.</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -997,8 +1009,10 @@ Tísňové volání máte pořád k dispozici."</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: žádná služba</string>
     <string name="miuix_access_state_desc">Vybráno</string>
     <string name="miuix_accessibility_title">Nadpis</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Sbaleno</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Rozbaleno</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Ukončit režim úprav</string>
-    <string name="miuix_appcompat_accessibility_new_message">Nová zpráva</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nové oznámení</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Začít režim úprav</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Zrušit výběr</string>
     <string name="miuix_appcompat_action_mode_select_all">Vybrat vše</string>
@@ -1015,6 +1029,7 @@ Tísňové volání máte pořád k dispozici."</string>
     <string name="miuix_appcompat_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_select_all_description">Vybrat vše</string>
     <string name="miuix_appcompat_select_item">Vybrat položky</string>
+    <string name="miuix_appcompat_show_dialog_description">Vyskakovací okno</string>
     <string name="miuix_progressbar_loading">Načítání</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Potáhněte pro obnovení</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Úspěšně obnoveno</string>
@@ -1025,6 +1040,8 @@ Tísňové volání máte pořád k dispozici."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Ještě chvilku…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Načtení položek se nezdařilo</string>
     <string name="miuix_show_password">Zobrazit heslo</string>
+    <string name="miuix_stretchablewidget_collapsed">Sbaleno</string>
+    <string name="miuix_stretchablewidget_expanded">Rozbaleno</string>
     <string name="mmiCancelled">Kód MMI byl zrušen</string>
     <string name="mmiStarted">Kód MMI byl spuštěn</string>
     <string name="mobile_advanced_dns_server_title">Adresa DNS serveru</string>
@@ -1218,7 +1235,7 @@ Vyberte místo ní preferovanou síť."</string>
     <string name="not_voice_capable">Hlasové volání není podporováno</string>
     <string name="notallow">Neuděleno</string>
     <string name="notification_channel_sip_account">Zastaralé účty SIP</string>
-    <string name="notification_network_selection_text">Vybraná síť (%s) není k dispozici</string>
+    <string name="notification_network_selection_text">Vybraná síť%s není k dispozici</string>
     <string name="notification_network_selection_title">Žádný signál</string>
     <string name="notification_switch_auto_text">Vítejte zpět! Přepnuto na místní sítě.</string>
     <string name="notification_switch_auto_title">Mobilní sítě</string>
@@ -1238,6 +1255,10 @@ Vyberte místo ní preferovanou síť."</string>
     <string name="obtain_location_information">Poloha</string>
     <string name="obtain_location_information_summary">Pro optimalizaci aktuálního síťového prostředí</string>
     <string name="oem_radio_info_label">Informace a nastavení specifické pro výrobce OEM</string>
+    <string name="offline_call">Offline komunikace Xiaomi</string>
+    <string name="offline_call_has_call">Druhá osoba je zaneprázdněná. Zkuste to znovu za jednu nebo dvě minuty.</string>
+    <string name="offline_call_not_match_contact">Nelze volat. Nejste kontaktem druhé osoby.</string>
+    <string name="offline_call_summary">Volejte telefonům Xiaomi v okolí přes Bluetooth i bez připojení síti</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Původní kód PIN2</string>
     <string name="oldPinLabel">Původní kód PIN</string>
@@ -1640,6 +1661,7 @@ Rozhraní UT: %5$s"</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Ukončit nyní</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Satelitní síť</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">Znovu nezobrazovat</string>
@@ -1793,6 +1815,7 @@ Potvrďte výchozí nastavení účtu pro volání."</string>
     <string name="speed_limit_sim_summary">Dosáhli jste datového limitu svého tarifu. Rychlost přenosu dat se sníží. Podrobnosti vám sdělí váš operátor.</string>
     <string name="speed_limit_sim_title">Rychlost přenosu dat je omezena</string>
     <string name="sports_news_settings">Sportovní zprávy</string>
+    <string name="start_call_record">Spustit</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Hovor přes Wi-Fi:</string>
     <string name="status_hint_label_wifi_call">Volání přes Wi-Fi</string>
@@ -1978,6 +2001,8 @@ Počet dní do začátku dalšího období: %2$d (%3$s)"</string>
     <string name="turnover_mute_summary">Pokud je telefon položen na rovném povrchu a displej směřuje vzhůru, převrácení telefonu ztiší vyzvánění, vypne vibrace a zastaví blikání oznamovací kontrolky.</string>
     <string name="turnover_mute_title">Otočením ztišit</string>
     <string name="undefined">Žádný</string>
+    <string name="unfold_show_bublle_pref_summary">Po otevření telefonu během volání bude hovor zobrazen v plovoucím okně</string>
+    <string name="unfold_show_bublle_pref_title">Po otevření minimalizovat volání</string>
     <string name="unknown">Neznámé</string>
     <string name="unlock_failed">Požadavek na odblokování sítě se nezdařil.</string>
     <string name="unlock_success">Síť byla úspěšně odblokována.</string>
@@ -2088,6 +2113,7 @@ Tísňová volání jsou dostupná pouze v oblastech s mobilním signálem."</st
     <string name="wednesday_short">Stř</string>
     <string name="wednesday_shortest">Stř</string>
     <string name="wfc_internet_connection_lost">Připojení k Internetu ztraceno</string>
+    <string name="wfc_mode_ims_preferred_title">Volání přes IMS</string>
     <string name="wfc_no_network">Kvalifikovaná mobilní síť není k dispozici</string>
     <string name="wfc_provisioned_switch_string">Zajištění volání přes Wi-Fi</string>
     <string name="wfc_wifi_call_drop">Volání Wi-Fi přerušeno</string>

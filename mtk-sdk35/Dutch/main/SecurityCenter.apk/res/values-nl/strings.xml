@@ -966,6 +966,7 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="bubble_notification">Gespreksballonnen</string>
     <string name="bubble_notification_switch">Gespreksballonnen weergeven</string>
     <string name="bubble_notification_switch_desc">Wanneer een messenger-app in een zwevend venster aan de rand van het scherm is verborgen, toon inkomende berichten dan in ballonnen</string>
+    <string name="bubble_pickup_voice_print_auto">Stemafdruk opnemen…</string>
     <string name="button_background_connection">Toestaan</string>
     <string name="button_block_calls_from_cantacts">Deblokkeren</string>
     <string name="button_block_calls_from_strangers">Deblokkeren</string>
@@ -973,6 +974,8 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="button_do_not_disturb">Uitschakelen</string>
     <string name="button_eye_shield">Uitschakelen</string>
     <string name="button_first_aid_kit">Nu repareren</string>
+    <string name="button_pickup_voice_print_auto_agree">Opnemen</string>
+    <string name="button_pickup_voice_print_auto_disagree">Niet nu</string>
     <string name="button_restrict_data_usage">Toestaan</string>
     <string name="button_text_accept">Accepteren</string>
     <string name="button_text_accept_timer">Accepteren (%d)</string>
@@ -1231,6 +1234,7 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="cpu_usage_view_action_btn_text">Tik om te bekijken</string>
     <string name="create_gamebooster_destop">Startscherm snelkoppeling succesvol gecreëerd</string>
     <string name="create_shortcut">Maak een snelkoppeling aan naar het Startscherm voor Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Kan deze functie niet gebruiken tijdens het gebruik van een camera voor meerdere apparaten</string>
     <string name="cs_color_sense">Kleurtemperatuur</string>
     <string name="cs_conversation_record_using">Aan het opnemen</string>
@@ -1264,6 +1268,9 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="cs_pickup_vioce_print_private_dialog_title">Neem stemafdruk op</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Neem stemafdruk op voordat u \"Eén deelnemer\" selecteert</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Koppel externe apparaten los en probeer het opnieuw</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Uw stem wordt alleen op dit apparaat opgenomen en verwerkt.
+Voor het beste resultaat neemt u alleen op in een rustige omgeving."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Stemafdruk vereist voor Gepersonaliseerde ruisonderdrukking</string>
     <string name="cs_pickup_voice_print_desc">Neem het geluid van slechts één persoon op</string>
     <string name="cs_privacy_camera_global_settings_title">Bel privacy</string>
     <string name="cs_record_voice_title">Opnemen</string>
@@ -3352,8 +3359,7 @@ Probeer een andere ethernetkabel om je router aan te sluiten. Als je vermoedt da
     <string name="oaid_apps_title">Virtuele ID beheren</string>
     <string name="oaid_reset_content_tip">Als u de virtuele ID nu uitschakelt, werken sommige apps mogelijk niet meer correct, kan een deel van uw app-gegevens verloren gaan of onbruikbaar worden.</string>
     <string name="oaid_reset_final_tip">Toch virtuele ID uitschakelen?</string>
-    <string name="oaid_string">"Huidige virtuele ID:
-%1s"</string>
+    <string name="oaid_string">Huidige virtuele ID:%1s</string>
     <string name="oaid_tips_content">"Virtuele ID's (OAID) kunnen worden gebruikt om uw gedrag te volgen en advertenties voor u te personaliseren. U kunt selecteren welke apps toegang hebben tot uw virtuele ID. Let er op indien u de toegang beperkt, advertentieaanbevelingen mogelijk irrelevant worden of dat apps mogelijk niet normaal werken."</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ Ultra batterijbesparing"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Vouw het apparaat op voordat u het oplaadt voor een snellere en stabielere oplaadervaring.</string>
     <string name="pc_remind_close_cover_to_charge_title">Vouw om op te laden</string>
     <string name="pc_reminder_always_protect_summary">Schakel over naar beperkt opladen om veroudering van de batterij te verminderen</string>
-    <string name="pc_remove_shell_charging_notification_msg">Draadloos opladen werkt niet met een gaming-hoesje. Verwijder de hoes en probeer het opnieuw, of gebruik een kabel om op te laden.</string>
     <string name="pc_remove_shell_charging_notification_title">Verwijder de hoes om draadloos opladen te gebruiken</string>
     <string name="pc_remove_shell_charging_toast">Verwijder de hoes om omgekeerd draadloos opladen te gebruiken</string>
     <string name="pc_satellite_auto_enter_super_power">Ultra batterijbesparing ingeschakeld om satellietcommunicatie te garanderen</string>
@@ -3718,6 +3723,8 @@ Ultra batterijbesparing"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Om uw apparaat te beschermen tegen oververhitting, wordt het opladen gestopt wanneer het batterijniveau %1$s bereikt</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigeren… Het opladen wordt gestopt wanneer het batterijniveau %1$s bereikt</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Het opladen stopt bij %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Opladen gepauzeerd bij %1$s. Wordt hervat bij %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Het opladen wordt gepauzeerd wanneer de batterij %1$s bereikt en wordt automatisch hervat op basis van uw gebruik</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Om de levensduur van de batterij te verlengen, komt de batterij van dit apparaat niet boven het huidige niveau wanneer het is aangesloten op de auto.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Niet meer tonen</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Batterijbescherming</string>
@@ -3737,6 +3744,7 @@ Ultra batterijbesparing"</string>
     <string name="pc_suggest_open_fast_charge">Schakel %dW snel opladen in</string>
     <string name="pc_temperature_too_high">Apparaat oververhit</string>
     <string name="pc_this_time_charge_full">Deze keer volledig opladen</string>
+    <string name="pc_this_time_charge_full_now">Volledig opladen</string>
     <string name="pc_this_time_charge_full_work">Bijna volledig opgeladen</string>
     <string name="pc_timely_charging_summary">Batterij is minder dan %1$s. Als het apparaat oververhit raakt terwijl de batterij bijna leeg is, kan dit de batterij beschadigen.</string>
     <string name="pc_timely_charging_title">Laad uw apparaat op</string>
@@ -4114,7 +4122,6 @@ Ultra batterijbesparing"</string>
     <string name="power_dialog_performance_mode_checkbox">Overschakelen naar %d Hz ververssnelheid</string>
     <string name="power_dialog_super_save_msg">Ultra batterijbesparing beperkt de meeste energieverbruikende functies en vermindert de prestaties van uw apparaat om de basisfunctionaliteit te behouden (bijv. oproepen, sms en verbinden met het netwerk) zo lang mogelijk beschikbaar te houden. Ultra batterijbesparing inschakelen?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra batterijbesparing beperkt de meeste stroomverbruikende functies (bijv. 5G-connectiviteit) en verlaagt de prestaties van uw apparaat. Alleen oproepen, berichten en netwerkverbindingen worden niet beïnvloed. Ultra batterijbesparing inschakelen?</string>
-    <string name="power_dialog_super_save_msg_p2">"Met de functie Ultra batterijbesparing wordt het achterdisplay uitgeschakeld en worden de meeste energieverslindende functies beperkt. Hierdoor worden de prestaties van uw apparaat verlaagd om basisfunctionaliteit (zoals bellen, sms'en en verbinding maken met het netwerk) zo lang mogelijk beschikbaar te houden. Ultra batterijbesparing inschakelen?"</string>
     <string name="power_dialog_super_save_title">Ultra batterijbesparing</string>
     <string name="power_idle">Telefoon niet in gebruik</string>
     <string name="power_main_battery_last_day_hour">%1$sd %2$su resterend</string>
@@ -5820,10 +5827,14 @@ De overgebleven data bevat de data die is meegenomen van de vorige maand."</stri
     <string name="uninstall_app_dialog_msg">Deïnstalleren zal alle gegevens verwijderen.</string>
     <string name="uninstall_app_dialog_title">Nu deïnstalleren?</string>
     <string name="uninstall_app_done">Succesvol verwijderd</string>
+    <string name="uninstall_app_reminder_msg">Ik begrijp dat verwijderde app-gegevens niet kunnen worden hersteld</string>
+    <string name="uninstall_app_reminder_pre_title">%s verwijderen</string>
+    <string name="uninstall_app_reminder_toast">Bevestig dat u begrijpt dat verwijderde app-gegevens niet kunnen worden hersteld</string>
     <string name="uninstall_danagerous_btn">Verwijderen</string>
     <string name="uninstall_danagerous_desc">\"%s\" zou je toestel kunnen beschadigen</string>
     <string name="uninstall_danagerous_msg">\"%s\" zou je toestel kunnen beschadigen, de prestaties kunnen verlagen of opnieuw opstarten kunnen veroorzaken.</string>
     <string name="uninstall_danagerous_title">Verwijder kwaadaardige apps</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Verwijder de dubbele app van %s</string>
     <string name="unknown_operator">U kunt %2$s bellen om de details van uw abonnement te bevestigen met %1$s.</string>
     <string name="unknown_package">Weet u niet zeker wat uw eigen data-abonnement is?</string>
     <string name="unlike">Nee, bedankt</string>
@@ -6040,7 +6051,7 @@ Deze functie werkt niet als Batterijbesparing of Ultra batterijbesparing is inge
     <string name="wakepath_delete_app_start_all">Als u doorgaat, moet u %s opnieuw toestemming geven om andere apps te openen. Toch doorgaan?</string>
     <string name="wakepath_delete_app_start_other_app">Als u doorgaat, moet u %1$s opnieuw toestemming geven om %2$s te openen. Toch doorgaan?</string>
     <string name="wakepath_manager_allow_list">Toegestaan</string>
-    <string name="wakepath_manager_allow_start">Toegestaan</string>
+    <string name="wakepath_manager_allow_start">Altijd toestaan</string>
     <string name="wakepath_manager_checkbox_desc">Toestaan ​​dat %1$s andere apps start</string>
     <string name="wakepath_manager_checkbox_title">Ketenstart toestaan</string>
     <string name="wakepath_manager_empty_list">Er mogen geen apps worden gestart</string>

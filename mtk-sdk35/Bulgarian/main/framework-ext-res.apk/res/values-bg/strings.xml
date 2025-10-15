@@ -141,6 +141,7 @@
     <string name="disable_nfc">Изключен е NFC за безжично зареждане</string>
     <string name="disable_nfc_haptic_reverse">Изключени са NFC и вибрация за обратно безжично зареждане</string>
     <string name="disable_nfc_reverse">Изключен е NFC за обратно безжично зареждане</string>
+    <string name="earpiece_callmode_tip">Обърнете телефона, за да използвате слушалката</string>
     <string name="echo">Ехо</string>
     <string name="eighthours">8 часа</string>
     <string name="enable_livetalk_summary">Спести до 70% от цената за обаждане</string>
@@ -353,6 +354,10 @@
     <string name="popup_camera_tip">Внимание</string>
     <string name="popup_camera_using_camera_background">%sизползва селфи камерата</string>
     <string name="potion">Отвара</string>
+    <string name="presentation_payphone">Уличен телефон</string>
+    <string name="presentation_private">Частен номер</string>
+    <string name="presentation_unknown">Неизвестен номер</string>
+    <string name="propotional_freeform_tip">Това приложение не поддържа напълно плаващи прозорци</string>
     <string name="radar">Радар</string>
     <string name="raindrops">Дъждовни капки</string>
     <string name="realme">realme</string>
@@ -518,10 +523,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">Не можете да използвате камера, докато се използват сателитни комуникации</string>
     <string name="toast_mic_muted">Микрофона е изключен</string>
     <string name="toast_mic_unmuted">Микрофона е включен</string>
-    <string name="tof_music_support_scene_des">Поддържа контроли за музикален плейър</string>
-    <string name="tof_office_support_scene_des">Поддържа Word документи и PowerPoint презентации</string>
-    <string name="tof_short_video_support_scene_des">Поддържа превключване между видеоклипове</string>
-    <string name="tof_video_support_scene_des">Поддържа контроли за видеоплейър на цял екран</string>
     <string name="total">Режим Не безпокойте</string>
     <string name="total_description">Заглушаване на звуците и изключване на вибрацията за всички, освен Будилника</string>
     <string name="total_title">Режим Не безпокойте</string>
@@ -543,6 +544,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">Флорална аранжировка</string>
+    <string name="wallpaper_geometrically_irregular_title">Абстрактна геометрия</string>
     <string name="wallpaper_gradient_title">Градиент</string>
     <string name="wallpaper_group_black_white_title">Черно бяло</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -606,14 +608,26 @@
     <string name="ability_dialog_button">Разбрах</string>
     <string name="ability_dialog_text">Поради размера на екрана, някои приложения може да се показват неправилно на външния екран.</string>
     <string name="ability_dialog_title">Внимание</string>
-    <string name="aon_reader_support_scene_des">Сменяйте страници докато четете</string>
-    <string name="aon_video_support_scene_des">Контролирайте видео възпроизвеждането</string>
+    <string name="aon_music_double_press_support_scene_des">Пускай или поставяй музика на пауза.</string>
+    <string name="aon_music_left_right_support_scene_des">Превключи към предишната или следващата песен</string>
+    <string name="aon_music_up_down_support_scene_des">Регулирай силата на звука на музиката</string>
+    <string name="aon_office_up_down_support_scene_des">Премини към предишна или следваща страница на презентация или документ</string>
+    <string name="aon_reader_support_scene_des">Поддържа контроли, свързани с четенето</string>
+    <string name="aon_short_video_up_down_support_scene_des">Превключи към предишното или следващото видео</string>
+    <string name="aon_video_double_press_support_scene_des">Пуснете видеото или го сложете на пауза</string>
+    <string name="aon_video_left_right_support_scene_des">Коригирай напредъка на видеото, когато гледаш в пейзажен режим</string>
+    <string name="aon_video_up_down_support_scene_des">Регулирай силата на звука на видеото</string>
+    <string name="config_quick_scanner_notification_content_text">Сканирай QR кодове и отваряй уебстраници директно</string>
+    <string name="config_quick_scanner_notification_title">Бърз скенер</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"Ето как можете да премахнете това известие:
 %1$s. Премахнете препятствията от областта около камерата.
 %2$s. Ако това не помогне, натиснете бутона за увеличаване на звука, за да изключите джобния режим."</string>
     <string name="global_help">Не откривам устройство</string>
     <string name="global_my">"Моето устройство
 %1$s"</string>
+    <string name="ime_rotation_tip">Не можете да въвеждате текст под този ъгъл. Първо завъртете устройството.</string>
+    <string name="ks_switch_tasks">Превключване на Скорошни</string>
+    <string name="linked_wallpaper">Комплекти тапети</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="motorola">Motorola</string>
@@ -626,14 +640,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"Ето как можете да премахнете това известие:
 %1$s. Премахнете препятствията от областта, маркирана с червено на изображението.
 %2$s. Ако това не помогне, натиснете бутона за увеличаване на звука, за да изключите джобния режим."</string>
+    <string name="share_device_near_share">Споделяйте, когато сте наблизо</string>
+    <string name="share_device_near_share_hide">Скрий</string>
+    <string name="share_device_near_share_image_describe">Поставете NFC зоните на две устройства близо едно до друго, за да започнете да споделяте</string>
     <string name="skipcoreappanr_notification_text">Системният проблем беше отстранен автоматично</string>
     <string name="skipcoreappanr_notification_title">%1$s не отговаря</string>
     <string name="skipprocessanr_notification_text">Процес \"%1$s\" не отговаря</string>
     <string name="skipprocessanr_notification_title">Системата не отговаря</string>
     <string name="super_wallpaper_list_label">Супер тапети</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">Класическо</string>
+    <string name="theme_titile_classis_scenery">Природа</string>
+    <string name="typec_acc_not_support_cancel">Разбрах</string>
+    <string name="typec_acc_not_support_message">USB Type-C портът на този продукт поддържа само цифрови аудио устройства.</string>
+    <string name="typec_acc_not_support_tile">Устройство не се поддържа</string>
     <string name="wallpaper_Fragrant_title">Разцъфване</string>
     <string name="wallpaper_glazed_valley_title">Глазура</string>
+    <string name="wallpaper_group_pets_title">Домашни любимци</string>
     <string name="wallpaper_softlight_title">Мека светлина</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>

@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="accessibility_settings_activity_title">Достъпност</string>
-    <string name="accessibility_sliding_button_state_description_off">изключено</string>
-    <string name="accessibility_sliding_button_state_description_on">включено</string>
-    <string name="accessibility_tab_state_description_unselect">Немаркиран</string>
-    <string name="accessibility_tab_statedesc_unselect">Немаркиран</string>
+    <string name="accessibility_sliding_button_state_description_off">Изключено</string>
+    <string name="accessibility_sliding_button_state_description_on">Включено</string>
+    <string name="accessibility_tab_state_description_unselect">Неизбрани</string>
     <string name="actionBarCBVideo">Забрана на видеоповикване(%s)</string>
     <string name="actionBarCBVoice">Забрана на гласово повикване(%s)</string>
     <string name="actionBarCFVideo">Препращане на видеоповикване (%s)</string>
@@ -139,6 +138,10 @@
     <string name="band_mode_set">Задаване</string>
     <string name="band_mode_succeeded">Успешно</string>
     <string name="band_mode_title">Задаване на режима за радиодиапазона</string>
+    <string name="beidou_findout_settings_title">Относно сателитните съобщения BeiDou</string>
+    <string name="beidou_mobile_settings_summary">Предлага се само за потребители на China Mobile</string>
+    <string name="beidou_mobile_settings_title">Сателитни комуникации BeiDou</string>
+    <string name="beidou_sms_location_fail_toast">Първо разрешете на тази функция достъп до Вашето местоположение</string>
     <string name="bf_news_settings">Новини за бизнес и финанси</string>
     <string name="business_hall_settings_summary">Контролирайте повикванията си и мобилните данни</string>
     <string name="business_hall_settings_title">Настройки за план от Оператора</string>
@@ -249,6 +252,8 @@
     <string name="call_record_on_summary">Автоматичният запис е включен</string>
     <string name="call_record_setting">Настройки за запис на разговори</string>
     <string name="call_record_whitelist_custom">За избрани номера</string>
+    <string name="call_recording_disclaimer_msg">Приложимото законодателство в юрисдикцията, в която се намирате Вие или други участници в разговора, може да изисква от всички страни да дадат съгласие за запис. Вие сте длъжни да спазвате тези закони и Xiaomi няма да носи отговорност за незаконно използване на тази функция. Записите на разговори се съхраняват само на Вашето устройство и не са достъпни за Xiaomi.</string>
+    <string name="call_recording_disclaimer_title">Отказ от отговорност</string>
     <string name="call_recording_notification_message">Докоснете за прослушване.</string>
     <string name="call_recording_notification_message_low_storage">Записът бе спрян, няма достатъчно място.</string>
     <string name="call_recording_notification_message_sd_unmounted">Записът спря, тъй като SD картата не е включена.</string>
@@ -624,7 +629,7 @@
     <string name="enable_esim_dialog_title">Включване на eSIM</string>
     <string name="enable_esim_error_toast_message">Неуспешно включване на eSIM</string>
     <string name="enable_esim_progress_activating_message">Включване на eSIM…</string>
-    <string name="enable_esim_summary">Деактивирайте SIM %s след включване</string>
+    <string name="enable_esim_summary">eSIM ще замени SIM %s</string>
     <string name="enable_esim_title">Включване на eSIM</string>
     <string name="enable_fdn">Активиране на FDN</string>
     <string name="enable_fdn_ok">Деактивиране на FDN</string>
@@ -649,6 +654,8 @@
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Разширени обаждания</string>
     <string name="enter_callbarring_password">Въведете парола за забрана на повиквания (%d цифри)</string>
     <string name="enter_esim_manager_title">Управление на eSIM</string>
+    <string name="enter_esim_service_support_summary">Прегледайте списък с поддържани оператори</string>
+    <string name="enter_esim_service_support_title">Поддържани оператори</string>
     <string name="enter_input">Съобщението с USSD трябва да бъде между %1$d и %2$d знака. Моля, опитайте отново.</string>
     <string name="enter_mep_esim_manager_title">Управление на SIM</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -694,10 +701,15 @@
     <string name="fdn_summary">Горните опции са изключени, когато FDN е включен</string>
     <string name="fdn_with_label">Фиксирани номера за набиране (%s)</string>
     <string name="feedback_title">Отзиви</string>
+    <string name="filp_auto_answer_call_title">Разгънете, за да приемете повикване</string>
+    <string name="filp_auto_hangup_call_summary">Работи само когато са свързани Bluetooth или слушалки с кабел</string>
+    <string name="filp_auto_hangup_call_title">Сгънете, за да прекратите повикване</string>
     <string name="fire_type_description">Пожар</string>
     <string name="fiveg_carrier_aggregation_title">Агрегация на Оператор на 5G</string>
     <string name="fiveg_hosted_mode_summary">Автоматично избиране на най-добра мрежа, за да спестите батерия</string>
     <string name="fiveg_hosted_mode_title">Смарт Превключване към 5G</string>
+    <string name="fiveg_interruption_remind">Вашата SIM %s не може да използва 5G SA услуги. За повече информация се свържете с Вашия оператор.</string>
+    <string name="fiveg_interruption_remind_title">Услугите 5G не могат да бъдат използвани</string>
     <string name="fiveg_network_mode_default">Автоматично</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1002,8 +1014,10 @@
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Няма услуга</string>
     <string name="miuix_access_state_desc">Избрани</string>
     <string name="miuix_accessibility_title">Заглавие</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Прибрани</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Разширени</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Изход от режим на редактиране</string>
-    <string name="miuix_appcompat_accessibility_new_message">Ново съобщение</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ново известие</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Стартуване на режим редактиране</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
@@ -1020,6 +1034,7 @@
     <string name="miuix_appcompat_select_all">Избери всички</string>
     <string name="miuix_appcompat_select_all_description">Избери всички</string>
     <string name="miuix_appcompat_select_item">Изберете елементи</string>
+    <string name="miuix_appcompat_show_dialog_description">Изскачащ прозорец</string>
     <string name="miuix_progressbar_loading">Зареждане</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
@@ -1030,6 +1045,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
     <string name="miuix_show_password">Покажи паролата</string>
+    <string name="miuix_stretchablewidget_collapsed">Прибрани</string>
+    <string name="miuix_stretchablewidget_expanded">Разширени</string>
     <string name="mmiCancelled">MMI кодът бе анулиран</string>
     <string name="mmiStarted">MMI кодът бе стартиран</string>
     <string name="mobile_advanced_dns_server_title">Адрес на DNS сървъра</string>
@@ -1243,6 +1260,10 @@
     <string name="obtain_location_information">Местоположение</string>
     <string name="obtain_location_information_summary">За оптимизиране на настоящата мрежова обстановка</string>
     <string name="oem_radio_info_label">Информация/настройки, специфични за ОЕМ</string>
+    <string name="offline_call">Офлайн комуникация на Xiaomi</string>
+    <string name="offline_call_has_call">Другото лице е заето. Опитайте отново след минута-две.</string>
+    <string name="offline_call_not_match_contact">Неуспешно обаждане. Не сте в контактите на другото лице.</string>
+    <string name="offline_call_summary">Обаждайте се на разположени наблизо телефони Xiaomi чрез Bluetooth без мрежова връзка</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Стар PIN2</string>
     <string name="oldPinLabel">Стар PIN</string>
@@ -1645,6 +1666,7 @@ Wi-Fi телефония: %3$s
     <string name="satellite_camera_enable_toast">Затворете Камерата, преди да отворите Сателитните комуникации Tiantong</string>
     <string name="satellite_exit_now_battery">Излизане сега</string>
     <string name="satellite_findout_settings_title">За Сателитни комуникации Tiantong</string>
+    <string name="satellite_management_title">Сателитна мрежа</string>
     <string name="satellite_mobile_settings_summary">Поддържа само сателитни SIM карти от China Telecom или други поддържани оператори</string>
     <string name="satellite_mobile_settings_title">Активиране на сателитни комуникации</string>
     <string name="satellite_not_show_again">Не показвай отново</string>
@@ -1798,6 +1820,7 @@ Wi-Fi телефония: %3$s
     <string name="speed_limit_sim_summary">Достигнахте лимита за данни на Вашия план. Скоростта на данните ще се забави. Свържете се със своя оператор за подробности.</string>
     <string name="speed_limit_sim_title">Скоростта на данни е ограничена</string>
     <string name="sports_news_settings">Спортни новини</string>
+    <string name="start_call_record">Начало</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Обаждане през Wi-Fi от</string>
     <string name="status_hint_label_wifi_call">Обаждане през Wi-Fi</string>
@@ -1983,6 +2006,8 @@ Wi-Fi телефония: %3$s
     <string name="turnover_mute_summary">Когато телефонът е в хоризонтален режим с екран към Вас, можете да спрете звука, да изключите вибрацията и мигането на индикатора за известия.</string>
     <string name="turnover_mute_title">Обръщане за заглушаване</string>
     <string name="undefined">Неопределено</string>
+    <string name="unfold_show_bublle_pref_summary">Разгънете устройството по време на повиквания, за да ги преглеждате в плаващи прозорци</string>
+    <string name="unfold_show_bublle_pref_title">Разгънете, за да минимизирате повиквания</string>
     <string name="unknown">Непознат</string>
     <string name="unlock_failed">Заявката за отключване на мрежата не бе успешна.</string>
     <string name="unlock_success">Отключването на мрежата бе успешно.</string>
@@ -2093,6 +2118,7 @@ Wi-Fi телефония: %3$s
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
     <string name="wfc_internet_connection_lost">Изгубена е интернет връзката</string>
+    <string name="wfc_mode_ims_preferred_title">Обаждане през IMS</string>
     <string name="wfc_no_network">Няма налична отговаряща на условията мобилна мрежа</string>
     <string name="wfc_provisioned_switch_string">Обажданията през Wi-Fi са обезпечени</string>
     <string name="wfc_wifi_call_drop">Wi-Fi повикване се разпадна</string>

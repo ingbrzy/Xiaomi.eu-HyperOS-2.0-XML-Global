@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
     <string name="abc_toolbar_collapse_description">折りたたむ</string>
     <string name="accessibility_settings_activity_title">ユーザー補助機能</string>
-    <string name="accessibility_sliding_button_state_description_off">オフ</string>
-    <string name="accessibility_sliding_button_state_description_on">オン</string>
-    <string name="accessibility_tab_state_description_unselect">未選択</string>
-    <string name="accessibility_tab_statedesc_unselect">未選択</string>
+    <string name="accessibility_sliding_button_state_description_off">オフにしました</string>
+    <string name="accessibility_sliding_button_state_description_on">オンにしました</string>
+    <string name="accessibility_tab_state_description_unselect">選択されていません</string>
     <string name="actionBarCBVideo">ビデオ通話制限 (%s)</string>
     <string name="actionBarCBVoice">音声通話制限 (%s)</string>
     <string name="actionBarCFVideo">ビデオ通話転送 (%s)</string>
@@ -139,6 +138,10 @@
     <string name="band_mode_set">設定</string>
     <string name="band_mode_succeeded">成功</string>
     <string name="band_mode_title">無線バンドモードの設定</string>
+    <string name="beidou_findout_settings_title">BeiDou 衛星メッセージングについて</string>
+    <string name="beidou_mobile_settings_summary">チャイナ・モバイルユーザーのみ利用可能</string>
+    <string name="beidou_mobile_settings_title">BeiDou 衛星通信</string>
+    <string name="beidou_sms_location_fail_toast">まず、この機能が位置情報にアクセスすることを許可してください</string>
     <string name="bf_news_settings">ビジネス金融ニュース</string>
     <string name="business_hall_settings_summary">通話とデータ使用量を管理する</string>
     <string name="business_hall_settings_title">通信事業者プラン設定</string>
@@ -249,6 +252,8 @@
     <string name="call_record_on_summary">オン</string>
     <string name="call_record_setting">通話記録</string>
     <string name="call_record_whitelist_custom">選択した番号</string>
+    <string name="call_recording_disclaimer_msg">ご利用者または他の通話参加者がお住まいの管轄区域の適用法では、すべての当事者の録音への同意が求められる場合があります。ご利用者は当該法律を遵守する義務があり、Xiaomi はこの機能の違法使用について一切責任を負いません。通話録音はお使いのデバイスにのみ保存され、Xiaomi がアクセスすることはできません。</string>
+    <string name="call_recording_disclaimer_title">免責事項</string>
     <string name="call_recording_notification_message">タップして再生します。</string>
     <string name="call_recording_notification_message_low_storage">SDカードがいっぱいです。</string>
     <string name="call_recording_notification_message_sd_unmounted">SDカードが取り外されました。</string>
@@ -623,7 +628,7 @@
     <string name="enable_esim_dialog_title">eSIMをオンにする</string>
     <string name="enable_esim_error_toast_message">eSIMをオンにできませんでした。</string>
     <string name="enable_esim_progress_activating_message">eSIMをオンにしています…</string>
-    <string name="enable_esim_summary">オンにすると、SIM %s が無効になります</string>
+    <string name="enable_esim_summary">eSIM は SIM %s を置き換えます</string>
     <string name="enable_esim_title">eSIMをオンにする</string>
     <string name="enable_fdn">発信番号制限をONにする</string>
     <string name="enable_fdn_ok">発信番号制限をOFFにする</string>
@@ -649,6 +654,8 @@
     <string name="enter_callbarring_password">発着信制限パスワード (%d桁の数字) を入力してください</string>
     <string name="enter_esim_manager">eSIMを管理</string>
     <string name="enter_esim_manager_title">eSIMを管理</string>
+    <string name="enter_esim_service_support_summary">対応通信事業者の一覧を表示</string>
+    <string name="enter_esim_service_support_title">対応通信事業者</string>
     <string name="enter_input">USSDメッセージの文字数は%1$d～%2$dです。もう一度お試しください。</string>
     <string name="enter_mep_esim_manager_title">SIMを管理</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -698,10 +705,15 @@
     <string name="fdn_summary">発信番号制限リスト上の番号や特定の接頭番号を持つ番号への発信を制限する</string>
     <string name="fdn_with_label">発信番号制限（%s）</string>
     <string name="feedback_title">フィードバック</string>
+    <string name="filp_auto_answer_call_title">開いて通話に応答</string>
+    <string name="filp_auto_hangup_call_summary">Bluetoothまたは有線イヤホンが接続されている場合にのみ機能します</string>
+    <string name="filp_auto_hangup_call_title">折りたたんで通話を終了</string>
     <string name="fire_type_description">消防車</string>
     <string name="fiveg_carrier_aggregation_title">5Gキャリアアグリゲーション</string>
     <string name="fiveg_hosted_mode_summary">バッテリーを節約するために最適なネットワークを自動的に選択する</string>
     <string name="fiveg_hosted_mode_title">5Gスマートスイッチ</string>
+    <string name="fiveg_interruption_remind">お使いの SIM %s では 5G SA サービスを使用できないようです。詳細については、通信事業者にお問い合わせください。</string>
+    <string name="fiveg_interruption_remind_title">5Gサービスが利用できません</string>
     <string name="fiveg_network_mode_default">自動</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1014,8 +1026,10 @@
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: サービスなし</string>
     <string name="miuix_access_state_desc">選択済み</string>
     <string name="miuix_accessibility_title">タイトル</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">折りたたみました</string>
+    <string name="miuix_appcompat_accessibility_expand_state">展開しました</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">編集モードを終了</string>
-    <string name="miuix_appcompat_accessibility_new_message">新しいメッセージ</string>
+    <string name="miuix_appcompat_accessibility_new_message">新しい通知</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">編集モードに入る</string>
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
@@ -1032,6 +1046,7 @@
     <string name="miuix_appcompat_select_all">すべて選択</string>
     <string name="miuix_appcompat_select_all_description">すべて選択</string>
     <string name="miuix_appcompat_select_item">アイテムを選択</string>
+    <string name="miuix_appcompat_show_dialog_description">ポップアップウィンドウ</string>
     <string name="miuix_progressbar_loading">読み込み中</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">プルダウンして更新</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">正常に更新されました</string>
@@ -1042,6 +1057,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">お待ちください…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">アイテムを読み込めませんでした</string>
     <string name="miuix_show_password">パスワードを表示</string>
+    <string name="miuix_stretchablewidget_collapsed">折りたたみました</string>
+    <string name="miuix_stretchablewidget_expanded">展開しました</string>
     <string name="mmiCancelled">MMIコードはキャンセルされました</string>
     <string name="mmiStarted">MMIコードの開始</string>
     <string name="mobile_advanced_dns_server_title">DNSサーバーアドレス</string>
@@ -1235,7 +1252,7 @@
     <string name="not_voice_capable">音声通話はサポートされていません</string>
     <string name="notallow">未付与</string>
     <string name="notification_channel_sip_account">サポートが終了した SIP アカウント</string>
-    <string name="notification_network_selection_text">選択したネットワーク（%s）は利用できません</string>
+    <string name="notification_network_selection_text">選択したネットワー%s は利用できません</string>
     <string name="notification_network_selection_title">通信サービスなし</string>
     <string name="notification_switch_auto_text">ローカルネットワークに戻ったようなので、自動的に切り替えました。</string>
     <string name="notification_switch_auto_title">モバイルネットワーク</string>
@@ -1255,6 +1272,10 @@
     <string name="obtain_location_information">位置情報</string>
     <string name="obtain_location_information_summary">現在のネットワーク環境を最適化するため</string>
     <string name="oem_radio_info_label">OEM 固有の情報 / 設定</string>
+    <string name="offline_call">Xiaomi オフライン通信</string>
+    <string name="offline_call_has_call">相手は通話中です。1、2分後にもう一度お試しください。</string>
+    <string name="offline_call_not_match_contact">通話を発信できませんでした。あなたは相手の連絡先に登録されていません。</string>
+    <string name="offline_call_summary">ネットワーク接続なしで Bluetooth 経由で付近の Xiaomi スマートフォンに通話を発信する</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">古いPIN2</string>
     <string name="oldPinLabel">古いPIN</string>
@@ -1659,6 +1680,7 @@ UT インターフェース: %5$s"</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">今すぐ終了</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">衛星ネットワーク</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">今後表示しない</string>
@@ -1812,6 +1834,7 @@ UT インターフェース: %5$s"</string>
     <string name="speed_limit_sim_summary">プランのデータ制限に達しました。データ速度が低下します。詳細については、通信事業者にお問い合わせください。</string>
     <string name="speed_limit_sim_title">データ速度が制限されています</string>
     <string name="sports_news_settings">スポーツニュース</string>
+    <string name="start_call_record">開始</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Wi-Fi 通話の着信</string>
     <string name="status_hint_label_wifi_call">Wi-Fi 通話</string>
@@ -1997,6 +2020,8 @@ UT インターフェース: %5$s"</string>
     <string name="turnover_mute_summary">デバイスが画面を上にして水平に置かれているとき、デバイスを裏返して着信音とバイブレーション、通知ライトの点灯を止めます。</string>
     <string name="turnover_mute_title">フリップしてサイレント</string>
     <string name="undefined">なし</string>
+    <string name="unfold_show_bublle_pref_summary">通話中にデバイスを開くと、通話をフローティングウィンドウで表示します</string>
+    <string name="unfold_show_bublle_pref_title">開いて通話を最小化</string>
     <string name="unknown">不明</string>
     <string name="unlock_failed">ネットワークロックを解除できませんでした。</string>
     <string name="unlock_success">ネットワークロックを解除しました。</string>
@@ -2107,6 +2132,7 @@ UT インターフェース: %5$s"</string>
     <string name="wednesday_short">水</string>
     <string name="wednesday_shortest">水</string>
     <string name="wfc_internet_connection_lost">インターネット接続が失われました</string>
+    <string name="wfc_mode_ims_preferred_title">IMS 経由で通話</string>
     <string name="wfc_no_network">利用可能な正規のモバイルネットワークがありません</string>
     <string name="wfc_provisioned_switch_string">Wi-Fi 通話プロビジョニング有効</string>
     <string name="wfc_wifi_call_drop">Wi-Fi通話が途切れました</string>

@@ -141,6 +141,7 @@
     <string name="disable_nfc">NFC je během bezdrátového nabíjení vypnuto</string>
     <string name="disable_nfc_haptic_reverse">Pro využití zpětného bezdrátového nabíjení byly funkce NFC a vibrace vypnuty</string>
     <string name="disable_nfc_reverse">NFC je během zpětného bezdrátového nabíjení vypnuto</string>
+    <string name="earpiece_callmode_tip">Překlopte, abyste mohli použít sluchátko</string>
     <string name="echo">Echo</string>
     <string name="eighthours">8 hodin</string>
     <string name="enable_livetalk_summary">Ušetřete 70% na vašich výdajích za volání</string>
@@ -351,6 +352,10 @@
     <string name="popup_camera_tip">Upozornění</string>
     <string name="popup_camera_using_camera_background">%s právě využívá přední fotoaparát</string>
     <string name="potion">Lektvar</string>
+    <string name="presentation_payphone">Veřejný telefon</string>
+    <string name="presentation_private">Soukromé číslo</string>
+    <string name="presentation_unknown">Neznámé číslo</string>
+    <string name="propotional_freeform_tip">Tato aplikace pravděpodobně nepodporuje plovoucí okna</string>
     <string name="radar">Radar</string>
     <string name="raindrops">Dešťové kapky</string>
     <string name="realme">realme</string>
@@ -516,10 +521,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">Při používání satelitní komunikace nelze používat fotoaparát</string>
     <string name="toast_mic_muted">Mikrofon je vypnutý</string>
     <string name="toast_mic_unmuted">Mikrofon je zapnutý</string>
-    <string name="tof_music_support_scene_des">Podporuje ovládací prvky přehrávače hudby</string>
-    <string name="tof_office_support_scene_des">Podporuje dokumenty Word a prezentace v PowerPointu</string>
-    <string name="tof_short_video_support_scene_des">Podporuje přepínání mezi videi</string>
-    <string name="tof_video_support_scene_des">Podporuje ovládací prvky videopřehrávače v režimu celé obrazovky</string>
     <string name="total">Nerušit</string>
     <string name="total_description">Ztišit zvuky a vypnout vibrace pro všechny položky kromě budíku</string>
     <string name="total_title">Nerušit</string>
@@ -541,6 +542,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">Květinové aranžmá</string>
+    <string name="wallpaper_geometrically_irregular_title">Abstraktní geometrie</string>
     <string name="wallpaper_gradient_title">Gradient</string>
     <string name="wallpaper_group_black_white_title">Černobílý</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -604,14 +606,26 @@
     <string name="ability_dialog_button">Rozumím</string>
     <string name="ability_dialog_text">Kvůli velikosti obrazovky se některé aplikace mohou nesprávně zobrazovat na vnější obrazovce.</string>
     <string name="ability_dialog_title">Upozornění</string>
-    <string name="aon_reader_support_scene_des">Převracet stránky při čtení</string>
-    <string name="aon_video_support_scene_des">Ovládat přehrávání videa</string>
+    <string name="aon_music_double_press_support_scene_des">Přehrát nebo pozastavit hudbu</string>
+    <string name="aon_music_left_right_support_scene_des">Přejít na předchozí nebo následující skladbu</string>
+    <string name="aon_music_up_down_support_scene_des">Upravit hlasitost hudby</string>
+    <string name="aon_office_up_down_support_scene_des">Přejít na přechozí nebo následující stránku prezentace nebo dokumentu</string>
+    <string name="aon_reader_support_scene_des">Podporuje kontroly související se čtením</string>
+    <string name="aon_short_video_up_down_support_scene_des">Přejít na předchozí nebo následující video</string>
+    <string name="aon_video_double_press_support_scene_des">Přehrát nebo pozastavit video</string>
+    <string name="aon_video_left_right_support_scene_des">Upravit průběh videa při sledování v režimu na šířku</string>
+    <string name="aon_video_up_down_support_scene_des">Upravit hlasitost videa</string>
+    <string name="config_quick_scanner_notification_content_text">Naskenujte QR kódy a přímo otevírejte webové stránky</string>
+    <string name="config_quick_scanner_notification_title">Rychlý skener</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"Takto můžete odebrat toto oznámení:
 %1$s. Odstraňte překážky z oblasti kolem kamery.
 %2$s. Pokud to nepomůže, vypněte Kapesní režim stisknutím tlačítka pro zvýšení hlasitosti."</string>
     <string name="global_help">Zařízení nelze najít</string>
     <string name="global_my">"Moje zařízení
 %1$s"</string>
+    <string name="ime_rotation_tip">V tomto úhlu nelze zadat text. Nejdříve otočte zařízení.</string>
+    <string name="ks_switch_tasks">Přepínat nedávné</string>
+    <string name="linked_wallpaper">Sety tapet</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="motorola">Motorola</string>
@@ -624,14 +638,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"Takto můžete odebrat toto oznámení:
 %1$s. Odstraňte překážky z oblasti označené na snímku červeně.
 %2$s. Pokud to nepomůže, vypněte Kapesní režim stisknutím tlačítka pro zvýšení hlasitosti."</string>
+    <string name="share_device_near_share">Sdílet, když se nachází v okolí</string>
+    <string name="share_device_near_share_hide">Skrýt</string>
+    <string name="share_device_near_share_image_describe">Chcete-li zahájit sdílení, umístěte poblíž sebe NFC oblasti dvou zařízení</string>
     <string name="skipcoreappanr_notification_text">Problém se systémem byl automaticky odstraněn</string>
     <string name="skipcoreappanr_notification_title">%1$s nereaguje</string>
     <string name="skipprocessanr_notification_text">Proces „%1$s“ nereaguje</string>
     <string name="skipprocessanr_notification_title">Systém nereaguje</string>
     <string name="super_wallpaper_list_label">Super tapety</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">Klasická</string>
+    <string name="theme_titile_classis_scenery">Scenérie</string>
+    <string name="typec_acc_not_support_cancel">Rozumím</string>
+    <string name="typec_acc_not_support_message">Port USB typu C tohoto zařízení podporuje pouze digitální zvuková zařízení.</string>
+    <string name="typec_acc_not_support_tile">Zařízení není podporováno</string>
     <string name="wallpaper_Fragrant_title">Rozkvět</string>
     <string name="wallpaper_glazed_valley_title">Glazura</string>
+    <string name="wallpaper_group_pets_title">Domácí mazlíčci</string>
     <string name="wallpaper_softlight_title">Lehké osvětlení</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>

@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Udostępnij przez: %s</string>
     <string name="abc_toolbar_collapse_description">Zwiń</string>
     <string name="accessibility_settings_activity_title">Ułatwienia dostępu</string>
-    <string name="accessibility_sliding_button_state_description_off">wyłączony</string>
-    <string name="accessibility_sliding_button_state_description_on">włączone</string>
-    <string name="accessibility_tab_state_description_unselect">Niezaznaczone</string>
-    <string name="accessibility_tab_statedesc_unselect">Niezaznaczone</string>
+    <string name="accessibility_sliding_button_state_description_off">Wyłączono</string>
+    <string name="accessibility_sliding_button_state_description_on">Włączono</string>
+    <string name="accessibility_tab_state_description_unselect">Nie wybrano</string>
     <string name="actionBarCBVideo">Blokowanie połączenia wideo (%s)</string>
     <string name="actionBarCBVoice">Blokowanie połączenia głosowego (%s)</string>
     <string name="actionBarCFVideo">Przekazywanie połączenia wideo (%s)</string>
@@ -134,6 +133,10 @@
     <string name="band_mode_set">Ustaw</string>
     <string name="band_mode_succeeded">Udało się</string>
     <string name="band_mode_title">Ustawianie trybu pasma radiowego</string>
+    <string name="beidou_findout_settings_title">Informacje o komunikacji satelitarnej BeiDou</string>
+    <string name="beidou_mobile_settings_summary">Dostępne wyłącznie dla użytkowników China Mobile</string>
+    <string name="beidou_mobile_settings_title">Łączność satelitarna BeiDou</string>
+    <string name="beidou_sms_location_fail_toast">Najpierw zezwól funkcji na dostęp do Twojej lokalizacji</string>
     <string name="bf_news_settings">Wiadomości biznesowe i finansowe</string>
     <string name="business_hall_settings_summary">Kontroluj swoje połączenia i wykorzystanie danych</string>
     <string name="business_hall_settings_title">Ustawienia planu taryfowego</string>
@@ -244,6 +247,8 @@
     <string name="call_record_on_summary">Włączone</string>
     <string name="call_record_setting">Nagrywanie połączeń</string>
     <string name="call_record_whitelist_custom">Wybrane numery</string>
+    <string name="call_recording_disclaimer_msg">Prawo obowiązujące w jurysdykcji, w której przebywa użytkownik lub inni uczestnicy rozmowy, może wymagać od wszystkich stron wyrażenia zgody na nagrywanie. Użytkownik jest zobowiązany do przestrzegania obowiązujących przepisów, a Xiaomi nie ponosi odpowiedzialności za wykorzystanie funkcji w sposób niezgodny z prawem. Nagrania rozmów są przechowywane wyłącznie na urządzeniu użytkownika i Xiaomi nie ma do nich dostępu.</string>
+    <string name="call_recording_disclaimer_title">Zastrzeżenie</string>
     <string name="call_recording_notification_message">Dotknij, aby posłuchać.</string>
     <string name="call_recording_notification_message_low_storage">Karta SD jest pełna.</string>
     <string name="call_recording_notification_message_sd_unmounted">Karta SD została usunięta.</string>
@@ -619,7 +624,7 @@
     <string name="enable_esim_dialog_title">Włącz eSIM</string>
     <string name="enable_esim_error_toast_message">Nie udało się włączyć eSIM</string>
     <string name="enable_esim_progress_activating_message">Włączanie eSIM…</string>
-    <string name="enable_esim_summary">Wyłącz kartę SIM %s po włączeniu</string>
+    <string name="enable_esim_summary">Karta eSIM zastąpi SIM %s</string>
     <string name="enable_esim_title">Włącz eSIM</string>
     <string name="enable_fdn">Włącz ustalone numery</string>
     <string name="enable_fdn_ok">Wyłącz usługę ustalonych numerów</string>
@@ -644,6 +649,8 @@
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Połączenia zaawansowane</string>
     <string name="enter_callbarring_password">Wprowadź hasło blokowania połączeń (%d cyfry)</string>
     <string name="enter_esim_manager_title">Zarządzaj eSIM</string>
+    <string name="enter_esim_service_support_summary">Wyświetl listę obsługiwanych operatorów</string>
+    <string name="enter_esim_service_support_title">Obsługiwani operatorzy</string>
     <string name="enter_input">Komunikat USSD musi mieć od %1$d do %2$d znaków. Spróbuj ponownie.</string>
     <string name="enter_mep_esim_manager_title">Zarządzaj eSIM</string>
     <string name="enter_pin2_text">PIN %d</string>
@@ -689,10 +696,15 @@
     <string name="fdn_summary">Ogranicz połączenia wychodzące do ustalonych numerów lub numerów z prefixem</string>
     <string name="fdn_with_label">Ustalone numery (%s)</string>
     <string name="feedback_title">Opinie</string>
+    <string name="filp_auto_answer_call_title">Rozłóż, aby odbierać połączenia</string>
+    <string name="filp_auto_hangup_call_summary">Działa tylko wtedy, gdy podłączone są słuchawki Bluetooth lub przewodowe</string>
+    <string name="filp_auto_hangup_call_title">Złóż, aby kończyć połączenia</string>
     <string name="fire_type_description">Straż pożarna</string>
     <string name="fiveg_carrier_aggregation_title">Zbiór operatorów 5G</string>
     <string name="fiveg_hosted_mode_summary">Wybierz najlepszą sieć automatycznie, aby oszczędzać baterię</string>
     <string name="fiveg_hosted_mode_title">Inteligentny przełącznik 5G</string>
+    <string name="fiveg_interruption_remind">Wygląda na to, że Twoja karta SIM %s nie może korzystać z usług 5G SA. Skontaktuj się z operatorem, by uzyskać więcej informacji.</string>
+    <string name="fiveg_interruption_remind_title">Nie można użyć usług 5G</string>
     <string name="fiveg_network_mode_default">Automatycznie</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -975,7 +987,8 @@ Nadal możesz wykonywać połączenia alarmowe."</string>
     <string name="mhh_enable">Placówki medyczne, zakłady opieki zdrowotnej i szpitale włączone</string>
     <string name="mi_mobile_settings_summary">Plany danych dostarczone przez Xiaomi</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Aktywuj SIM %1$d, aby móc korzystać z Mi Mobile. Może to zająć %2$d-%3$d minut.</string>
+    <string name="mi_mobile_sim_activate_message">Wygląda na to, że karta SIM %1$d nie została aktywowana. Aby rozpocząć, kliknij „Aktywuj” i postępuj według instrukcji.</string>
+    <string name="mi_mobile_sim_activate_title">Aktywacja karty SIM Mi Mobile</string>
     <string name="mi_sim_settings_summary">Używaj danych mobilnych bez karty SIM</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Noc</string>
@@ -997,8 +1010,10 @@ Nadal możesz wykonywać połączenia alarmowe."</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Brak usługi</string>
     <string name="miuix_access_state_desc">Wybrane</string>
     <string name="miuix_accessibility_title">Tytuł</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Zwinięto</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Rozwinięto</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Wyjdź z trybu edycji</string>
-    <string name="miuix_appcompat_accessibility_new_message">Nowa wiadomość</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nowe powiadomienie</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Wprowadź tryb edycji</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Odznacz wszystko</string>
     <string name="miuix_appcompat_action_mode_select_all">Zaznacz wszystko</string>
@@ -1015,6 +1030,7 @@ Nadal możesz wykonywać połączenia alarmowe."</string>
     <string name="miuix_appcompat_select_all">Zaznacz wszystko</string>
     <string name="miuix_appcompat_select_all_description">Wybierz wszystko</string>
     <string name="miuix_appcompat_select_item">Wybierz elementy</string>
+    <string name="miuix_appcompat_show_dialog_description">Wyskakujące okno</string>
     <string name="miuix_progressbar_loading">Wczytywanie</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Przeciągnij w dół, aby odświeżyć</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Pomyślnie odświeżono</string>
@@ -1025,6 +1041,8 @@ Nadal możesz wykonywać połączenia alarmowe."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Chwileczkę…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Nie udało się załadować elementów</string>
     <string name="miuix_show_password">Pokaż hasło</string>
+    <string name="miuix_stretchablewidget_collapsed">Zwinięto</string>
+    <string name="miuix_stretchablewidget_expanded">Rozwinięto</string>
     <string name="mmiCancelled">Kod MMI został anulowany</string>
     <string name="mmiStarted">Kod MMI został rozpoczęty</string>
     <string name="mobile_advanced_dns_server_title">Adres serwera DNS</string>
@@ -1218,7 +1236,7 @@ Zostanie wybrana sieć preferowana."</string>
     <string name="not_voice_capable">Połączenia głosowe nie są obsługiwane</string>
     <string name="notallow">Nie przyznano</string>
     <string name="notification_channel_sip_account">Wycofane konta SIP</string>
-    <string name="notification_network_selection_text">Wybrana sieć (%s) jest niedostępna</string>
+    <string name="notification_network_selection_text">Wybrana sieć%s jest niedostępna</string>
     <string name="notification_network_selection_title">Brak usługi</string>
     <string name="notification_switch_auto_text">Wygląda na to, że wróciłeś. Przełączono na sieci lokalne.</string>
     <string name="notification_switch_auto_title">Sieci komórkowe</string>
@@ -1238,6 +1256,10 @@ Zostanie wybrana sieć preferowana."</string>
     <string name="obtain_location_information">Lokalizacja</string>
     <string name="obtain_location_information_summary">Do optymalizacji aktualnego otoczenia sieciowego</string>
     <string name="oem_radio_info_label">Informacje/ustawienia specyficzne dla producenta OEM</string>
+    <string name="offline_call">Komunikacja offline Xiaomi</string>
+    <string name="offline_call_has_call">Numer jest zajęty. Spróbuj ponownie za minutę lub dwie.</string>
+    <string name="offline_call_not_match_contact">Nie udało się dodzwonić. Nie znajdujesz się na liście kontaktów odbiorcy.</string>
+    <string name="offline_call_summary">Dzwoń na pobliskie telefony Xiaomi bez połączenia z siecią, wykorzystując Bluetooth</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Stary kod PIN2</string>
     <string name="oldPinLabel">Stary kod PIN</string>
@@ -1640,6 +1662,7 @@ Interfejs UT: %5$s"</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Wyjdź teraz</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Sieć satelitarna</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">Nie pokazuj ponownie</string>
@@ -1793,6 +1816,7 @@ Potwierdź ustawienie domyślnego konta do połączeń."</string>
     <string name="speed_limit_sim_summary">Osiągnięto limit transferu danych określony w abonamencie. Prędkość przesyłu danych zostanie ograniczona. Skontaktuj się z operatorem, by uzyskać szczegółowe informacje.</string>
     <string name="speed_limit_sim_title">Prędkość transferu danych jest ograniczona</string>
     <string name="sports_news_settings">Wiadomości sportowe</string>
+    <string name="start_call_record">Rozpocznij</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Połączenie przez Wi-Fi od:</string>
     <string name="status_hint_label_wifi_call">Połączenie przez Wi-Fi</string>
@@ -1978,6 +2002,8 @@ Następny okres za: %2$d dni (%3$s)"</string>
     <string name="turnover_mute_summary">Gdy telefon znajduje się na płaskiej powierzchni, ekranem do góry, obróć go, aby wyciszyć dźwięk dzwona, wyłączyć wibracje i diodę powiadomień.</string>
     <string name="turnover_mute_title">Odwróć, aby wyciszyć</string>
     <string name="undefined">Brak</string>
+    <string name="unfold_show_bublle_pref_summary">Rozłóż urządzenie podczas połączeń, aby wyświetlić je w pływających oknach</string>
+    <string name="unfold_show_bublle_pref_title">Rozłóż, aby zminimalizować połączenia</string>
     <string name="unknown">Nieznany</string>
     <string name="unlock_failed">Żądanie odblokowania sieci zakończyło się niepowodzeniem.</string>
     <string name="unlock_success">Sieć została pomyślnie odblokowana.</string>
@@ -2088,6 +2114,7 @@ Połączenia alarmowe są możliwe tylko w obszarach z zasięgiem sieci komórko
     <string name="wednesday_short">Śr.</string>
     <string name="wednesday_shortest">Śr.</string>
     <string name="wfc_internet_connection_lost">Utracono połączenie z Internetem</string>
+    <string name="wfc_mode_ims_preferred_title">Rozmowa przez IMS</string>
     <string name="wfc_no_network">Brak odpowiedniej sieci komórkowej</string>
     <string name="wfc_provisioned_switch_string">Możliwość prowadzenia rozmów przez Wi-Fi</string>
     <string name="wfc_wifi_call_drop">Przerwano połączenie z Wi-Fi</string>

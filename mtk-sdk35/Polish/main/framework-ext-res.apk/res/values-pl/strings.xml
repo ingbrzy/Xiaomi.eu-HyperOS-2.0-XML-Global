@@ -141,6 +141,7 @@
     <string name="disable_nfc">Wyłączono bezprzewodowe ładowanie przez NFC</string>
     <string name="disable_nfc_haptic_reverse">Włączono bezprzewodowe ładowanie zwrotne. NFC i wibracje zostały wyłączone.</string>
     <string name="disable_nfc_reverse">Włączono bezprzewodowe ładowanie zwrotne. NFC zostało wyłączone.</string>
+    <string name="earpiece_callmode_tip">Odwróć, aby użyć słuchawki</string>
     <string name="echo">Echo</string>
     <string name="eighthours">8 godzin</string>
     <string name="enable_livetalk_summary">Zaoszczędź do 70% na rachunku za połączenia</string>
@@ -351,6 +352,10 @@
     <string name="popup_camera_tip">Powiadomienie</string>
     <string name="popup_camera_using_camera_background">%s używa przedniego aparatu</string>
     <string name="potion">Eliksir</string>
+    <string name="presentation_payphone">Płatny</string>
+    <string name="presentation_private">Numer prywatny</string>
+    <string name="presentation_unknown">Nieznany numer</string>
+    <string name="propotional_freeform_tip">Wygląda na to, że aplikacja nie obsługuje w pełni pływających okien</string>
     <string name="radar">Radar</string>
     <string name="raindrops">Krople deszczu</string>
     <string name="realme">realme</string>
@@ -516,10 +521,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">Nie można używać aparatu podczas korzystania z komunikacji satelitarnej</string>
     <string name="toast_mic_muted">Mikrofon jest wyłączony</string>
     <string name="toast_mic_unmuted">Mikrofon jest włączony</string>
-    <string name="tof_music_support_scene_des">Obsługuje sterowanie odtwarzaczem muzyki</string>
-    <string name="tof_office_support_scene_des">Obsługuje dokumenty Word i prezentacje PowerPoint</string>
-    <string name="tof_short_video_support_scene_des">Obsługuje przełączanie między filmami</string>
-    <string name="tof_video_support_scene_des">Obsługuje pełnoekranowe sterowanie odtwarzaczem wideo</string>
     <string name="total">Nie przeszkadzać</string>
     <string name="total_description">Wycisza dźwięki i wyłącza wibracje dla wszystkich elementów z wyjątkiem Budzika</string>
     <string name="total_title">Nie przeszkadzać</string>
@@ -541,6 +542,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">Kwiatowa aranżacja</string>
+    <string name="wallpaper_geometrically_irregular_title">Abstrakcyjna geometria</string>
     <string name="wallpaper_gradient_title">Gradient</string>
     <string name="wallpaper_group_black_white_title">Czarno-biały</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -604,14 +606,26 @@
     <string name="ability_dialog_button">Rozumiem</string>
     <string name="ability_dialog_text">Ze względu na rozmiar ekranu niektóre aplikacje mogą być wyświetlane nieprawidłowo na ekranie zewnętrznym.</string>
     <string name="ability_dialog_title">Uwaga</string>
-    <string name="aon_reader_support_scene_des">Przewracaj strony podczas czytania</string>
-    <string name="aon_video_support_scene_des">Sterowanie odtwarzaniem wideo</string>
+    <string name="aon_music_double_press_support_scene_des">Odtwórz lub wstrzymaj muzykę</string>
+    <string name="aon_music_left_right_support_scene_des">Przełącz na poprzednią lub następną piosenkę</string>
+    <string name="aon_music_up_down_support_scene_des">Dostosuj głośność muzyki</string>
+    <string name="aon_office_up_down_support_scene_des">Przejdź na poprzednią lub następną stronę prezentacji lub dokumentu</string>
+    <string name="aon_reader_support_scene_des">Obsługuje sterowanie związane z czytaniem</string>
+    <string name="aon_short_video_up_down_support_scene_des">Przełącz na poprzedni lub następny klip wideo</string>
+    <string name="aon_video_double_press_support_scene_des">Odtwórz lub wstrzymaj wideo</string>
+    <string name="aon_video_left_right_support_scene_des">Dostosuj postęp oglądania wideo w trybie poziomym</string>
+    <string name="aon_video_up_down_support_scene_des">Dostosuj głośność wideo</string>
+    <string name="config_quick_scanner_notification_content_text">Skanuj kody QR i bezpośrednio otwieraj strony internetowe</string>
+    <string name="config_quick_scanner_notification_title">Szybkie skanowanie</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"Aby usunąć to powiadomienie:
 %1$s. Usuń przeszkody z obszaru w pobliżu aparatu.
 %2$s. Jeśli to nie pomoże, naciśnij przycisk zwiększania głośności, aby wyłączyć tryb kieszonkowy."</string>
     <string name="global_help">Nie można znaleźć urządzenia</string>
     <string name="global_my">"Moje urządzenie
 %1$s"</string>
+    <string name="ime_rotation_tip">Nie można wprowadzić tekstu pod tym kątem. Najpierw obróć urządzenie.</string>
+    <string name="ks_switch_tasks">Przełącz ostatnie zadania</string>
+    <string name="linked_wallpaper">Zestawy tapet</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="motorola">Motorola</string>
@@ -624,14 +638,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"Aby usunąć to powiadomienie:
 %1$s. Usuń przeszkody z obszaru zaznaczonego na czerwono na obrazku.
 %2$s. Jeśli to nie pomoże, naciśnij przycisk zwiększania głośności, aby wyłączyć tryb kieszonkowy."</string>
+    <string name="share_device_near_share">Udostępnij urządzeniom w pobliżu</string>
+    <string name="share_device_near_share_hide">Ukryj</string>
+    <string name="share_device_near_share_image_describe">Zbliż do siebie obszary NFC dwóch różnych urządzeń, aby rozpocząć udostępnianie</string>
     <string name="skipcoreappanr_notification_text">Problem z systemem został naprawiony automatycznie</string>
     <string name="skipcoreappanr_notification_title">%1$s nie odpowiada</string>
     <string name="skipprocessanr_notification_text">Proces „%1$s” nie odpowiada</string>
     <string name="skipprocessanr_notification_title">System nie odpowiada</string>
     <string name="super_wallpaper_list_label">Super tapety</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">Klasyczny</string>
+    <string name="theme_titile_classis_scenery">Krajobraz</string>
+    <string name="typec_acc_not_support_cancel">Rozumiem</string>
+    <string name="typec_acc_not_support_message">Port USB typu C tego produktu obsługuje tylko cyfrowe urządzenia audio.</string>
+    <string name="typec_acc_not_support_tile">Urządzenie nie jest wspierane</string>
     <string name="wallpaper_Fragrant_title">Różowy</string>
     <string name="wallpaper_glazed_valley_title">Glazura</string>
+    <string name="wallpaper_group_pets_title">Zwierzęta</string>
     <string name="wallpaper_softlight_title">Delikatne światło</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>

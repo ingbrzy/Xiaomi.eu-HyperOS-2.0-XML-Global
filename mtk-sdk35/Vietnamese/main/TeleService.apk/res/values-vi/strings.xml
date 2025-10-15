@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
     <string name="abc_toolbar_collapse_description">Thu gọn</string>
     <string name="accessibility_settings_activity_title">Hỗ trợ tiếp cận</string>
-    <string name="accessibility_sliding_button_state_description_off">tắt</string>
-    <string name="accessibility_sliding_button_state_description_on">bật</string>
-    <string name="accessibility_tab_state_description_unselect">Không được chọn</string>
-    <string name="accessibility_tab_statedesc_unselect">Không được chọn</string>
+    <string name="accessibility_sliding_button_state_description_off">Đã tắt</string>
+    <string name="accessibility_sliding_button_state_description_on">Đã bật</string>
+    <string name="accessibility_tab_state_description_unselect">Chưa chọn</string>
     <string name="actionBarCBVideo">Chặn cuộc gọi video (%s)</string>
     <string name="actionBarCBVoice">Chuyển cuộc gọi thoại (%s)</string>
     <string name="actionBarCFVideo">Chuyển tiếp cuộc gọi video (%s)</string>
@@ -139,6 +138,10 @@ Bạn có muốn thoát ngay không?}}"</string>
     <string name="band_mode_set">Đặt</string>
     <string name="band_mode_succeeded">Thành công</string>
     <string name="band_mode_title">Đặt chế độ dải tần số</string>
+    <string name="beidou_findout_settings_title">Giới thiệu tin nhắn vệ tinh BeiDou</string>
+    <string name="beidou_mobile_settings_summary">Chỉ khả dụng cho người dùng China Mobile</string>
+    <string name="beidou_mobile_settings_title">Liên lạc vệ tinh BeiDou</string>
+    <string name="beidou_sms_location_fail_toast">Cho phép tính năng này truy cập vị trí của bạn trước</string>
     <string name="bf_news_settings">Tin tức Kinh doanh và Tài chính</string>
     <string name="business_hall_settings_summary">Kiểm soát cuộc gọi và sử dụng dữ liệu</string>
     <string name="business_hall_settings_title">Cài đặt gói nhà cung cấp</string>
@@ -626,7 +629,7 @@ Bạn có muốn thoát ngay không?}}"</string>
     <string name="enable_esim_dialog_title">Bật eSIM</string>
     <string name="enable_esim_error_toast_message">Không thể bật eSIM</string>
     <string name="enable_esim_progress_activating_message">Đang bật eSIM…</string>
-    <string name="enable_esim_summary">Tắt SIM %s sau khi bật</string>
+    <string name="enable_esim_summary">eSIM sẽ thay thế SIM %s</string>
     <string name="enable_esim_title">Bật eSIM</string>
     <string name="enable_fdn">Bật FDN</string>
     <string name="enable_fdn_ok">Vô hiệu hóa FDN</string>
@@ -651,6 +654,8 @@ Bạn có muốn thoát ngay không?}}"</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Gọi nâng cao</string>
     <string name="enter_callbarring_password">Nhập mật khẩu chặn cuộc gọi (%d chữ số)</string>
     <string name="enter_esim_manager_title">Quản lý eSIM</string>
+    <string name="enter_esim_service_support_summary">Xem danh sách các nhà cung cấp được hỗ trợ</string>
+    <string name="enter_esim_service_support_title">Nhà cung cấp được hỗ trợ</string>
     <string name="enter_input">Tin nhắn USSD phải có độ dài trong khoảng từ %1$d đến %2$d ký tự. Vui lòng thử lại.</string>
     <string name="enter_mep_esim_manager_title">Quản lý SIM</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -696,10 +701,15 @@ Bạn có muốn thoát ngay không?}}"</string>
     <string name="fdn_summary">Quay số cố định chỉ có thể gọi đến số chỉ định</string>
     <string name="fdn_with_label">Số gọi định sẵn (%s)</string>
     <string name="feedback_title">Phản hồi</string>
+    <string name="filp_auto_answer_call_title">Mở để trả lời cuộc gọi</string>
+    <string name="filp_auto_hangup_call_summary">Chỉ hoạt động khi tai nghe có dây hoặc Bluetooth được kết nối</string>
+    <string name="filp_auto_hangup_call_title">Gập để kết thúc cuộc gọi</string>
     <string name="fire_type_description">Hỏa hoạn</string>
     <string name="fiveg_carrier_aggregation_title">Kết hợp sóng mang 5G</string>
     <string name="fiveg_hosted_mode_summary">Chọn mạng tốt nhất tự động để tiết kiệm pin</string>
     <string name="fiveg_hosted_mode_title">Chuyển đổi thông minh 5G</string>
+    <string name="fiveg_interruption_remind">Dường như SIM %s của bạn không thể sử dụng dịch vụ 5G SA. Liên hệ với nhà cung cấp để biết thêm thông tin.</string>
+    <string name="fiveg_interruption_remind_title">Không thể sử dụng dịch vụ 5G</string>
     <string name="fiveg_network_mode_default">Tự động</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -982,7 +992,8 @@ Bạn vẫn có thể thực hiện cuộc gọi khẩn cấp."</string>
     <string name="mhh_enable">Đã bật Y tế, Sức khoẻ và Bệnh viện</string>
     <string name="mi_mobile_settings_summary">Gói dữ liệu do Xiaomi cung cấp</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Kích hoạt SIM %1$d để có thể sử dụng Mi Mobile. Điều này có thể mất đến %2$d-%3$d phút.</string>
+    <string name="mi_mobile_sim_activate_message">Dường như SIM %1$d chưa được kích hoạt. Chạm \"Kích hoạt\" và thực hiện theo hướng dẫn để bắt đầu.</string>
+    <string name="mi_mobile_sim_activate_title">Kích hoạt SIM Mi Mobile</string>
     <string name="mi_sim_settings_summary">Sử dụng dữ liệu di động mà không cần thẻ SIM</string>
     <string name="mi_sim_settings_title">SIM Mi</string>
     <string name="midnight">Ban đêm</string>
@@ -1004,8 +1015,10 @@ Bạn vẫn có thể thực hiện cuộc gọi khẩn cấp."</string>
     <string name="miui_notification_network_selection_title_by_sim">Thẻ SIM %s không có dịch vụ</string>
     <string name="miuix_access_state_desc">Đã chọn</string>
     <string name="miuix_accessibility_title">Tiêu đề</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Thu gọn</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Mở rộng</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Thoát khỏi chế độ chỉnh sửa</string>
-    <string name="miuix_appcompat_accessibility_new_message">Có tin nhắn mới</string>
+    <string name="miuix_appcompat_accessibility_new_message">Thông báo mới</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Vào chế độ chỉnh sửa</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Bỏ chọn tất cả</string>
     <string name="miuix_appcompat_action_mode_select_all">Chọn tất cả</string>
@@ -1022,6 +1035,7 @@ Bạn vẫn có thể thực hiện cuộc gọi khẩn cấp."</string>
     <string name="miuix_appcompat_select_all">Chọn tất cả</string>
     <string name="miuix_appcompat_select_all_description">Chọn tất cả</string>
     <string name="miuix_appcompat_select_item">Chọn mục</string>
+    <string name="miuix_appcompat_show_dialog_description">Cửa sổ nổi</string>
     <string name="miuix_progressbar_loading">Đang tải</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Kéo xuống để làm mới</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Làm mới thành công</string>
@@ -1032,6 +1046,8 @@ Bạn vẫn có thể thực hiện cuộc gọi khẩn cấp."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Vui lòng chờ…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Không thể tải mục</string>
     <string name="miuix_show_password">Hiển thị mật khẩu</string>
+    <string name="miuix_stretchablewidget_collapsed">Thu gọn</string>
+    <string name="miuix_stretchablewidget_expanded">Mở rộng</string>
     <string name="mmiCancelled">Mã MMI đã bị hủy</string>
     <string name="mmiStarted">Đã bắt đầu mã MMI</string>
     <string name="mobile_advanced_dns_server_title">Địa chỉ máy chủ DNS</string>
@@ -1245,6 +1261,10 @@ Dùng mạng ưu tiên thay thế."</string>
     <string name="obtain_location_information">Vị trí</string>
     <string name="obtain_location_information_summary">Để tối ưu môi trường mạng hiện tại</string>
     <string name="oem_radio_info_label">Thông tin/Cài đặt dành riêng cho OEM</string>
+    <string name="offline_call">Liên lạc Ngoại tuyến Xiaomi</string>
+    <string name="offline_call_has_call">Đối phương đang bận. Thử lại sau một hoặc hai phút.</string>
+    <string name="offline_call_not_match_contact">Không thể gọi. Bạn không phải là liên hệ của đối phương.</string>
+    <string name="offline_call_summary">Gọi điện thoại Xiaomi lân cận qua Bluetooth mà không cần kết nối mạng</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Mã PIN2 cũ</string>
     <string name="oldPinLabel">Mã PIN cũ</string>
@@ -1647,6 +1667,7 @@ Giao diện UT: %5$s"</string>
     <string name="satellite_camera_enable_toast">Đóng Camera trước khi mở Liên lạc Vệ tinh Tiantong</string>
     <string name="satellite_exit_now_battery">Thoát ngay</string>
     <string name="satellite_findout_settings_title">Giới thiệu Liên lạc Vệ tinh Tiantong</string>
+    <string name="satellite_management_title">Mạng vệ tinh</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">Không hiển thị lại</string>
@@ -1986,6 +2007,8 @@ Thời gian tiếp theo sẽ bắt đầu trong %2$d ngày (%3$s)"</string>
     <string name="turnover_mute_summary">Khi điện thoại đặt nằm ngang với màn hình hướng lên, lật úp để im lặng, tắt rung, và tắt đèn thông báo nhấp nháy.</string>
     <string name="turnover_mute_title">Lật để im lặng</string>
     <string name="undefined">Không</string>
+    <string name="unfold_show_bublle_pref_summary">Mở thiết bị ra trong khi gọi để hiển trị cuộc gọi trên cửa sổ nổi</string>
+    <string name="unfold_show_bublle_pref_title">Mở ra để thu nhỏ cửa sổ cuộc gọi</string>
     <string name="unknown">Không xác định</string>
     <string name="unlock_failed">Yêu cầu mở khóa mạng không thành công.</string>
     <string name="unlock_success">Mở khóa mạng thành công.</string>
@@ -2096,6 +2119,7 @@ Chỉ có thể thực hiện các cuộc gọi khẩn cấp trong khu vực có
     <string name="wednesday_short">Th 4</string>
     <string name="wednesday_shortest">Th 4</string>
     <string name="wfc_internet_connection_lost">Đã mất kết nối internet</string>
+    <string name="wfc_mode_ims_preferred_title">Gọi qua IMS</string>
     <string name="wfc_no_network">Ko có sẵn mạng di động đáng tin cậy</string>
     <string name="wfc_provisioned_switch_string">Đã cấp phép Gọi qua Wi-Fi</string>
     <string name="wfc_wifi_call_drop">Đã ngắt gọi qua Wi-Fi</string>

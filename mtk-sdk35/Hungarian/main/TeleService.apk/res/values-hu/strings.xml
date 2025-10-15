@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
     <string name="accessibility_settings_activity_title">Kisegítő lehetőségek</string>
-    <string name="accessibility_sliding_button_state_description_off">ki</string>
-    <string name="accessibility_sliding_button_state_description_on">bekapcsolva</string>
-    <string name="accessibility_tab_state_description_unselect">Nincs kiválasztva</string>
-    <string name="accessibility_tab_statedesc_unselect">Nincs kiválasztva</string>
+    <string name="accessibility_sliding_button_state_description_off">Kikapcsolva</string>
+    <string name="accessibility_sliding_button_state_description_on">Bekapcsolva</string>
+    <string name="accessibility_tab_state_description_unselect">Nem kiválaszott</string>
     <string name="actionBarCBVideo">Videohívás letiltása (%s)</string>
     <string name="actionBarCBVoice">Hanghívás letiltása (%s)</string>
     <string name="actionBarCFVideo">Videohívás továbbítása (%s)</string>
@@ -139,6 +138,10 @@ Kilép?}}"</string>
     <string name="band_mode_set">Beállítás</string>
     <string name="band_mode_succeeded">Sikeres</string>
     <string name="band_mode_title">Rádióhullámsáv mód beállítása</string>
+    <string name="beidou_findout_settings_title">A BeiDou műholdas üzenetküldésről</string>
+    <string name="beidou_mobile_settings_summary">Csak China Mobile-felhasználók számára érhető el</string>
+    <string name="beidou_mobile_settings_title">BeiDou műholdas kommunikáció</string>
+    <string name="beidou_sms_location_fail_toast">Engedélyezze, hogy a funkció először hozzáférjen az Ön tartózkodási helyéhez</string>
     <string name="bf_news_settings">Üzleti és pénzügyi hírek</string>
     <string name="business_hall_settings_summary">Kezelje hívásait és az adathasználatot</string>
     <string name="business_hall_settings_title">Szolgáltatáscsomag beállítások</string>
@@ -249,6 +252,8 @@ Kilép?}}"</string>
     <string name="call_record_on_summary">Be</string>
     <string name="call_record_setting">Hívásrögzítés</string>
     <string name="call_record_whitelist_custom">Saját lista</string>
+    <string name="call_recording_disclaimer_msg">Az Ön vagy a hívás többi résztvevőjének tartózkodási helye szerinti joghatóság alkalmazandó jogszabályai előírhatják, hogy minden félnek bele kell egyeznie a felvételek rögzítésébe. Ön köteles betartani az ilyen törvényeket, és a Xiaomi nem vállal felelősséget e funkció bármilyen jogellenes használatáért. A hívásfelvételek csak az Ön készülékén kerülnek tárolásra, és a Xiaomi nem férhet hozzá.</string>
+    <string name="call_recording_disclaimer_title">Nyilatkozat</string>
     <string name="call_recording_notification_message">Kattintson a meghallgatáshoz.</string>
     <string name="call_recording_notification_message_low_storage">Az SD-kártya megtelt.</string>
     <string name="call_recording_notification_message_sd_unmounted">SD-kártya eltávolítva.</string>
@@ -624,7 +629,7 @@ Kilép?}}"</string>
     <string name="enable_esim_dialog_title">eSIM bekapcsolása</string>
     <string name="enable_esim_error_toast_message">Nem sikerült az eSIM bekapcsolása</string>
     <string name="enable_esim_progress_activating_message">eSIM bekapcsolása…</string>
-    <string name="enable_esim_summary">%s SIM letiltása a bekapcsolás után</string>
+    <string name="enable_esim_summary">Az eSIM felváltja a %s SIM-kártyát</string>
     <string name="enable_esim_title">eSIM bekapcsolása</string>
     <string name="enable_fdn">Fix hívószám engedélyezése</string>
     <string name="enable_fdn_ok">Fix hívószám letiltása</string>
@@ -649,6 +654,8 @@ Kilép?}}"</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Továbbfejlesztett telefonhívás</string>
     <string name="enter_callbarring_password">Adja meg a jelszót a híváskorlátozáshoz (%d számjegy)</string>
     <string name="enter_esim_manager_title">eSIM kezelése</string>
+    <string name="enter_esim_service_support_summary">A támogatott szolgáltatók listájának megtekintése</string>
+    <string name="enter_esim_service_support_title">Támogatott szolgáltatók</string>
     <string name="enter_input">Az USSD-üzenet hossza %1$d és %2$d karakter között lehet. Kérjük, próbálja újra.</string>
     <string name="enter_mep_esim_manager_title">SIM kezelése</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -694,10 +701,15 @@ Kilép?}}"</string>
     <string name="fdn_summary">A fenti beállítások mindegyike tiltva van, ha engedélyezve van az FDN</string>
     <string name="fdn_with_label">Fix hívószámok (%s)</string>
     <string name="feedback_title">Visszajelzés</string>
+    <string name="filp_auto_answer_call_title">Kihajtás a hívások fogadásához</string>
+    <string name="filp_auto_hangup_call_summary">Csak akkor működik, amikor csatlakoztatva van Bluetooth vagy vezetékes fejhallgató</string>
+    <string name="filp_auto_hangup_call_title">Behajtás a hívások befejezéséhez</string>
     <string name="fire_type_description">Tűzoltóság</string>
     <string name="fiveg_carrier_aggregation_title">5G szolgáltatói aggregáció</string>
     <string name="fiveg_hosted_mode_summary">A legjobb hálózat automatikus kiválasztása az akkumulátor kímélése érdekében</string>
     <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
+    <string name="fiveg_interruption_remind">Úgy tűnik, hogy a(z) %s SIM nem tudja használni az 5G SA szolgáltatásokat. További információkért forduljon a szolgáltatójához.</string>
+    <string name="fiveg_interruption_remind_title">Nem lehet használni az 5G szolgáltatásokat</string>
     <string name="fiveg_network_mode_default">Automatikus</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1002,8 +1014,10 @@ Segélyhívást így is indíthat."</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Nincs szolgáltatás</string>
     <string name="miuix_access_state_desc">Kiválasztott</string>
     <string name="miuix_accessibility_title">Cím</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Összecsukott</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Kibontott</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Kilépés a szerkesztő módból</string>
-    <string name="miuix_appcompat_accessibility_new_message">Új üzenet</string>
+    <string name="miuix_appcompat_accessibility_new_message">Új értesítés</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Nyissa meg a szerkesztési módot</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kijelölések törlése</string>
     <string name="miuix_appcompat_action_mode_select_all">Összes kijelölése</string>
@@ -1020,6 +1034,7 @@ Segélyhívást így is indíthat."</string>
     <string name="miuix_appcompat_select_all">Az összes kiválasztása</string>
     <string name="miuix_appcompat_select_all_description">Összes kijelölése</string>
     <string name="miuix_appcompat_select_item">Elemek kiválasztása</string>
+    <string name="miuix_appcompat_show_dialog_description">Felugró ablak</string>
     <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sikeresen frissítve</string>
@@ -1030,6 +1045,8 @@ Segélyhívást így is indíthat."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Egy pillanat...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemek betöltése sikertelen</string>
     <string name="miuix_show_password">Jelszó megjelenítése</string>
+    <string name="miuix_stretchablewidget_collapsed">Összecsukott</string>
+    <string name="miuix_stretchablewidget_expanded">Kibontott</string>
     <string name="mmiCancelled">MMI-kód megszakítva</string>
     <string name="mmiStarted">MMI-kód elindítva</string>
     <string name="mobile_advanced_dns_server_title">DNS-kiszolgálócím</string>
@@ -1223,7 +1240,7 @@ Használja az elsődleges hálózatot ehelyett."</string>
     <string name="not_voice_capable">A hanghívás nem támogatott</string>
     <string name="notallow">Az engedély nincs megadva</string>
     <string name="notification_channel_sip_account">Elavult SIP-fiókok</string>
-    <string name="notification_network_selection_text">A kiválasztott hálózat (%s) nem érhető el</string>
+    <string name="notification_network_selection_text">A kiválasztott hálózat%s nem érhető el</string>
     <string name="notification_network_selection_title">Nincs szolgáltatás</string>
     <string name="notification_switch_auto_text">Úgy látjuk, Ön visszatért. Átváltottunk helyi hálózatokra.</string>
     <string name="notification_switch_auto_title">Mobilhálózatok</string>
@@ -1243,6 +1260,10 @@ Használja az elsődleges hálózatot ehelyett."</string>
     <string name="obtain_location_information">Tartózkodási hely</string>
     <string name="obtain_location_information_summary">Az aktuális környezet optimalizálásához</string>
     <string name="oem_radio_info_label">OEM-specifikus adatok és beállítások:</string>
+    <string name="offline_call">Xiaomi offline kommunikáció</string>
+    <string name="offline_call_has_call">A másik személy foglalt. Próbálja újra pár percel később.</string>
+    <string name="offline_call_not_match_contact">A hívás sikertelen. Nem Ön a másik személy kapcsolattartója.</string>
+    <string name="offline_call_summary">Közeli Xiaomi telefonok felhívása Bluetooth-on keresztül hálózati kapcsolat nélkül</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Régi PIN2-kód</string>
     <string name="oldPinLabel">Régi PIN-kód</string>
@@ -1645,6 +1666,7 @@ UT-felület: %5$s"</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Kilép most</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Műholdhálózat</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">Ne jelenjen meg újra</string>
@@ -1798,6 +1820,7 @@ Erősítse meg az alapértelmezett hívásfiók beállítását."</string>
     <string name="speed_limit_sim_summary">Elérte a díjcsomagja adatforgalmi korlátját. Az adatsebesség lassulni fog. A részletekért forduljon a szolgáltatójához.</string>
     <string name="speed_limit_sim_title">Az adatsebesség korlátozott</string>
     <string name="sports_news_settings">Sporthírek</string>
+    <string name="start_call_record">Indítás</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Wi-Fi-hívás tőle:</string>
     <string name="status_hint_label_wifi_call">Wi-Fi-hívás</string>
@@ -1983,6 +2006,8 @@ A következő időszak %2$d nap múlva kezdődik (%3$s)"</string>
     <string name="turnover_mute_summary">Ha a telefon vízszintes felületen van és a képernyő felfelé néz, fordítsa át az elnémításhoz, a rezgés kikapcsolásához és értesítési jelzőfények leállításához.</string>
     <string name="turnover_mute_title">Lefordításkor némítás</string>
     <string name="undefined">Nincs megadva</string>
+    <string name="unfold_show_bublle_pref_summary">Nyissa ki a készüléket a hívások alatt, hogy lebegő ablakokban jelenítse meg őket</string>
+    <string name="unfold_show_bublle_pref_title">Nyissa ki a hívások minimalizálására</string>
     <string name="unknown">Ismeretlen</string>
     <string name="unlock_failed">A hálózatzárolás feloldására vonatkozó kérelem sikertelen volt.</string>
     <string name="unlock_success">A függetlenítés sikerült.</string>
@@ -2093,6 +2118,7 @@ A segélyhívások csak a cellákkal lefedett területeken lehetségesek."</stri
     <string name="wednesday_short">Sze</string>
     <string name="wednesday_shortest">Sze</string>
     <string name="wfc_internet_connection_lost">Internetkapcsolat megszakadt</string>
+    <string name="wfc_mode_ims_preferred_title">Hívás IMS-hálózaton</string>
     <string name="wfc_no_network">Nincs elérhető megfelelő mobilhálózat</string>
     <string name="wfc_provisioned_switch_string">Wi-Fi-hívás beütemezve</string>
     <string name="wfc_wifi_call_drop">Wi-Fi hívás megszakadt</string>

@@ -966,6 +966,7 @@
     <string name="bubble_notification">Пузыри диалогов</string>
     <string name="bubble_notification_switch">Показывать пузыри диалогов</string>
     <string name="bubble_notification_switch_desc">Когда приложение для обмена сообщениями в плавающем окне скрыто у края экрана, входящие сообщения будут отображаться в пузырях.</string>
+    <string name="bubble_pickup_voice_print_auto">Запись голосового отпечатка…</string>
     <string name="button_background_connection">Разрешить</string>
     <string name="button_block_calls_from_cantacts">Разблокировать</string>
     <string name="button_block_calls_from_strangers">Разблокировать</string>
@@ -973,6 +974,8 @@
     <string name="button_do_not_disturb">Отключить</string>
     <string name="button_eye_shield">Отключить</string>
     <string name="button_first_aid_kit">Проверить</string>
+    <string name="button_pickup_voice_print_auto_agree">Запись</string>
+    <string name="button_pickup_voice_print_auto_disagree">Не сейчас</string>
     <string name="button_restrict_data_usage">Разрешить</string>
     <string name="button_text_accept">Принять</string>
     <string name="button_text_accept_timer">Принять (%d)</string>
@@ -1231,6 +1234,7 @@
     <string name="cpu_usage_view_action_btn_text">Просмотреть</string>
     <string name="create_gamebooster_destop">Ярлык добавлен на рабочий стол</string>
     <string name="create_shortcut">На рабочем столе будет создан ярлык для Ускорения игр</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Невозможно использовать эту функцию при использовании камеры для нескольких устройств</string>
     <string name="cs_color_sense">Цветовой тон</string>
     <string name="cs_conversation_record_using">Запись</string>
@@ -1264,6 +1268,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">Запись голосового отпечатка</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Запишите отпечаток голоса, прежде чем выбрать \"Один участник\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Отключите внешние устройства и повторите попытку</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Ваш голос будет записан и обработан только на этом устройстве.
+Для достижения наилучших результатов записывайте в одиночестве в тихом месте."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Для персонализированного распознавания голоса требуется голосовой отпечаток</string>
     <string name="cs_pickup_voice_print_desc">Регистрировать звук только от одного человека</string>
     <string name="cs_privacy_camera_global_settings_title">Конфиденциальность вызовов</string>
     <string name="cs_record_voice_title">Запись</string>
@@ -3352,8 +3359,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="oaid_apps_title">Изменить виртуальный идентификатор</string>
     <string name="oaid_reset_content_tip">Если вы отключите виртуальный идентификатор, некоторые приложения могут перестать работать правильно, а часть их данных может быть потеряна или станет непригодной для использования.</string>
     <string name="oaid_reset_final_tip">Отключить виртуальный идентификатор?</string>
-    <string name="oaid_string">"Текущий виртуальный идентификатор:
-%1s"</string>
+    <string name="oaid_string">Текущий виртуальный идентификатор:%1s</string>
     <string name="oaid_tips_content">Виртуальный идентификатор (OAID) может быть использован для отслеживания ваших действий и персонализации предлагаемой рекламы. Вы можете выбрать приложения, которым будет разрешено получать доступ к вашему виртуальному идентификатору. Обратите внимание, что если вы запретите доступ к идентификатору, предлагаемая реклама может стать менее релевантна, а некоторые приложения могут начать работать неправильно.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Сложите устройство перед началом зарядки, чтобы увеличить ее скорость и стабильность.</string>
     <string name="pc_remind_close_cover_to_charge_title">Сложите, чтобы начать зарядку</string>
     <string name="pc_reminder_always_protect_summary">Переключитесь на ограниченную зарядку, чтобы уменьшить износ батареи.</string>
-    <string name="pc_remove_shell_charging_notification_msg">Невозможно использовать беспроводную зарядку при надетом игровом чехле. Снимите его и попробуйте снова или используйте проводную зарядку.</string>
     <string name="pc_remove_shell_charging_notification_title">Снимите чехол, чтобы использовать беспроводную зарядку</string>
     <string name="pc_remove_shell_charging_toast">Снимите чехол, чтобы использовать реверсивную беспроводную зарядку</string>
     <string name="pc_satellite_auto_enter_super_power">Для обеспечения спутниковой связи включен режим ультраэкономии энергии</string>
@@ -3718,6 +3723,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Чтобы защитить ваше устройство от перегрева, зарядка будет остановлена, когда уровень заряда аккумулятора достигнет %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Переход… Зарядка прекратится, когда уровень заряда аккумулятора достигнет %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Зарядка прекратится при %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Зарядка приостановлена при %1$s. Она возобновится при %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Зарядка приостановится, когда уровень заряда аккумулятора достигнет %1$s, и автоматически возобновится в зависимости от вашего использования</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Чтобы продлить срок службы аккумулятора, уровень заряда аккумулятора этого устройства не будет превышать текущий уровень при подключении к автомобилю.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Больше не показывать</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Защита батареи</string>
@@ -3737,6 +3744,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_suggest_open_fast_charge">Включите %d-Вт быструю зарядку</string>
     <string name="pc_temperature_too_high">Перегрев устройства</string>
     <string name="pc_this_time_charge_full">На этот раз зарядить полностью</string>
+    <string name="pc_this_time_charge_full_now">Зарядить полностью</string>
     <string name="pc_this_time_charge_full_work">Почти заряжено</string>
     <string name="pc_timely_charging_summary">Заряд менее %1$s. Перегрев с разряженной батарей может привести к ее сильному износу.</string>
     <string name="pc_timely_charging_title">Зарядите устройство</string>
@@ -4114,7 +4122,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">Использовать частоту обновления %d Гц</string>
     <string name="power_dialog_super_save_msg">Ультраэкономия энергии ограничивает большинство энергоемких функций и снижает производительность вашего устройства, чтобы сделать основные функции (например, звонки, SMS и подключение к сети) доступными как можно дольше. Включить Ультраэкономию энергии?</string>
     <string name="power_dialog_super_save_msg_5g">Ультраэкономия энергии ограничивает функции с наибольшим энергопотреблением (например, 5G-соединение), снижая производительность вашего устройства. Вызовы, сообщения и сетевое соединение затронуты не будут. Включить Ультраэкономию энергии?</string>
-    <string name="power_dialog_super_save_msg_p2">Ультраэкономия энергии отключает задний экран и ограничивает большинство энергоемких функций, снижая производительность устройства, чтобы основные функции (например, звонки, SMS и подключение к сети) оставались доступными как можно дольше. Включить Ультраэкономию энергии?</string>
     <string name="power_dialog_super_save_title">Ультраэкономия энергии</string>
     <string name="power_idle">Режим ожидания</string>
     <string name="power_main_battery_last_day_hour">Заряда хватит на %1$s д %2$s ч</string>
@@ -5820,10 +5827,14 @@ Xiaomi Gaming Cooler"</string>
     <string name="uninstall_app_dialog_msg">Удаление приложения очистит все его данные.</string>
     <string name="uninstall_app_dialog_title">Удалить это приложение?</string>
     <string name="uninstall_app_done">Удаление завершено</string>
+    <string name="uninstall_app_reminder_msg">Я понимаю, что данные удалённого приложения не подлежат восстановлению</string>
+    <string name="uninstall_app_reminder_pre_title">Удалить %s</string>
+    <string name="uninstall_app_reminder_toast">Подтвердите, что вы понимаете: удалённые данные приложения не подлежат восстановлению</string>
     <string name="uninstall_danagerous_btn">Удалить</string>
     <string name="uninstall_danagerous_desc">\"%s\" может нанести вред устройству</string>
     <string name="uninstall_danagerous_msg">\"%s\" может нанести вред устройству, снизить его производительность или вызвать перезагрузки.</string>
     <string name="uninstall_danagerous_title">Вредоносное приложение</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Удалить клон приложения %s</string>
     <string name="unknown_operator">Позвоните по номеру %2$s, чтобы связаться с %1$s и подтвердить сведения о тарифном плане.</string>
     <string name="unknown_package">Не знаете, какой у вас тарифный план?</string>
     <string name="unlike">Нет, спасибо</string>
@@ -6040,7 +6051,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="wakepath_delete_app_start_all">Если вы продолжите, вам придется предоставить приложению %s разрешение на запуск других приложений заново. Продолжить?</string>
     <string name="wakepath_delete_app_start_other_app">Если вы продолжите, вам придется предоставить приложению %1$s разрешение на запуск %2$s заново. Продолжить?</string>
     <string name="wakepath_manager_allow_list">Разрешено</string>
-    <string name="wakepath_manager_allow_start">Разрешено</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Разрешите %1$s запускать другие приложения</string>
     <string name="wakepath_manager_checkbox_title">Разрешить взаимный запуск</string>
     <string name="wakepath_manager_empty_list">Никакие приложения не могут запускаться</string>

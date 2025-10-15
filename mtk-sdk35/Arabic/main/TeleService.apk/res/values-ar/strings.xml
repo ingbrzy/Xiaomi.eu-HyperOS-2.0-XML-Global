@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
     <string name="abc_toolbar_collapse_description">تصغير</string>
     <string name="accessibility_settings_activity_title">إعدادات تمكين الوصول</string>
-    <string name="accessibility_sliding_button_state_description_off">إيقاف</string>
-    <string name="accessibility_sliding_button_state_description_on">تشغيل</string>
+    <string name="accessibility_sliding_button_state_description_off">تم إيقاف التشغيل</string>
+    <string name="accessibility_sliding_button_state_description_on">تم التشغيل</string>
     <string name="accessibility_tab_state_description_unselect">غير محدد</string>
-    <string name="accessibility_tab_statedesc_unselect">غير محدد</string>
     <string name="actionBarCBVideo">حظر مكالمات الفيديو (%s)</string>
     <string name="actionBarCBVoice">حظر المكالمات الصوتية (%s)</string>
     <string name="actionBarCFVideo">إعادة توجيه مكالمات الفيديو (%s)</string>
@@ -134,6 +133,10 @@
     <string name="band_mode_set">ضبط</string>
     <string name="band_mode_succeeded">تم بنجاح</string>
     <string name="band_mode_title">تحديد وضع النطاق اللاسلكي</string>
+    <string name="beidou_findout_settings_title">حول رسائل الأقمار الصناعية BeiDou</string>
+    <string name="beidou_mobile_settings_summary">متاح فقط لمستخدمي تشاينا موبايل</string>
+    <string name="beidou_mobile_settings_title">اتصالات الأقمار الصناعية BeiDou</string>
+    <string name="beidou_sms_location_fail_toast">اسمح لهذه الميزة بالوصول إلى موقعك أولاً</string>
     <string name="bf_news_settings">أخبار الأعمال والأخبار المالية</string>
     <string name="business_hall_settings_summary">التحكم بمكالماتك واستخدام البيانات</string>
     <string name="business_hall_settings_title">إعدادات خطة شركة الاتصالات</string>
@@ -446,7 +449,7 @@
     <string name="data_disable_warning_no_mms">لن تتمكن من إرسال أو استقبال رسائل الوسائط المتعددة إذا قمت بإيقاف التشغيل بيانات الهاتف (WCDMA/LTE). ولكنك ستتمكن من القيام بذلك إذا اتصلت بشبكة Wi-Fi.</string>
     <string name="data_disable_warning_with_mms">ستظل قادرًا على إرسال أو استقبال رسائل الوسائط المتعددة إذا قمت بإيقاف التشغيل بيانات الهاتف (WCDMA/LTE). اتصل بشبكة Wi-Fi لإستخدام الإنترنت.</string>
     <string name="data_enable_always_warn">أسال قبل استخدام بيانات الجوال</string>
-    <string name="data_enable_summary">السماح لهذا الجهاز باستخدام بيانات الجوال</string>
+    <string name="data_enable_summary">السماح لهذا الجهاز باستخدام بيانات الهاتف</string>
     <string name="data_enable_warning">يؤدي السماح بإستخدام بيانات الهاتف دائمًا إلى فرض رسوم إضافية خارج خطة شركة الاتصالات الخاصة بك. هل مازلت ترغب في المتابعة؟</string>
     <string name="data_enabled">بيانات الجوال</string>
     <string name="data_for_high_temperature_toast">"Your device is overheated. Can't use this feature now."</string>
@@ -621,7 +624,7 @@
     <string name="enable_esim_dialog_title">تشغيل بطاقة eSIM</string>
     <string name="enable_esim_error_toast_message">تعذر تشغيل بطاقة eSIM</string>
     <string name="enable_esim_progress_activating_message">جارٍ تشغيل بطاقة eSIM…</string>
-    <string name="enable_esim_summary">تعطيل SIM %s بعد تشغيلها</string>
+    <string name="enable_esim_summary">ستستبدل eSIM بطاقة SIM %s</string>
     <string name="enable_esim_title">تشغيل بطاقة eSIM</string>
     <string name="enable_fdn">تفعيل أرقام الطلب الثابتة</string>
     <string name="enable_fdn_ok">‏إيقاف FDN</string>
@@ -646,6 +649,8 @@
     <string name="enhanced_4g_lte_mode_title_advanced_calling">اتصال متقدِّم</string>
     <string name="enter_callbarring_password">أدخل كلمة مرور حظر المكالمات (%d أرقام)</string>
     <string name="enter_esim_manager_title">إدارة eSIM</string>
+    <string name="enter_esim_service_support_summary">عرض قائمة شركة الاتصالات المدعومة</string>
+    <string name="enter_esim_service_support_title">شركات الهاتف المعتمدة</string>
     <string name="enter_input">‏يجب أن تتراوح حروف رسالة USSD بين %1$d و%2$d. يُرجى إعادة المحاولة.</string>
     <string name="enter_mep_esim_manager_title">إدارة بطاقة SIM</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -691,10 +696,15 @@
     <string name="fdn_summary">تقييد المكالمات الصادرة على FDNs المدرجة أو على أرقام ذات ببادئات محددة</string>
     <string name="fdn_with_label">أرقام الاتصال الثابت (%s)</string>
     <string name="feedback_title">التعليقات</string>
+    <string name="filp_auto_answer_call_title">توسيع الهاتف للرد على المكالمات</string>
+    <string name="filp_auto_hangup_call_summary">يعمل فقط عند توصيل سماعات الأذن السلكية أو البلوتوث</string>
+    <string name="filp_auto_hangup_call_title">طي الهاتف لإنهاء المكالمة</string>
     <string name="fire_type_description">حريق</string>
     <string name="fiveg_carrier_aggregation_title">تجميع مشغلي 5G</string>
     <string name="fiveg_hosted_mode_summary">اختيار افضل شبكة تلقائيًا لحفظ البطارية</string>
     <string name="fiveg_hosted_mode_title">التبديل الذكي 5G</string>
+    <string name="fiveg_interruption_remind">يبدو أن شريحة SIM %s الخاصة بك لا يمكنها استخدام خدمات 5G SA. اتصل بشركة الاتصالات للحصول على مزيد من المعلومات.</string>
+    <string name="fiveg_interruption_remind_title">لا يمكن استخدام خدمات 5G</string>
     <string name="fiveg_network_mode_default">تلقائي</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -998,9 +1008,11 @@
     <string name="miui_notification_network_selection_title">SIM: لا توجد خدمة</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: لا توجد خدمة</string>
     <string name="miuix_access_state_desc">محدد</string>
-    <string name="miuix_accessibility_title">عنوان</string>
+    <string name="miuix_accessibility_title">العنوان</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">تم التقليص</string>
+    <string name="miuix_appcompat_accessibility_expand_state">تم التوسيع</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">الخروج من وضع التحرير</string>
-    <string name="miuix_appcompat_accessibility_new_message">رسالة جديدة</string>
+    <string name="miuix_appcompat_accessibility_new_message">إشعار جديد</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">ابدأ وضع التحرير</string>
     <string name="miuix_appcompat_action_mode_deselect_all">الغاء تحديد الكل</string>
     <string name="miuix_appcompat_action_mode_select_all">تحديد الكل</string>
@@ -1017,6 +1029,7 @@
     <string name="miuix_appcompat_select_all">تحديد الكل</string>
     <string name="miuix_appcompat_select_all_description">تحديد الكل</string>
     <string name="miuix_appcompat_select_item">تحديد العناصر</string>
+    <string name="miuix_appcompat_show_dialog_description">نافذة منبثقة</string>
     <string name="miuix_progressbar_loading">تحميل</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">اسحب لأسفل للتحديث</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">تم التحديث بنجاح</string>
@@ -1027,6 +1040,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">لحظة من فضلك…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">تعذر تحميل العناصر</string>
     <string name="miuix_show_password">إظهار كلمة المرور</string>
+    <string name="miuix_stretchablewidget_collapsed">تم التقليص</string>
+    <string name="miuix_stretchablewidget_expanded">تم التوسيع</string>
     <string name="mmiCancelled">‏تم إلغاء رمز MMI</string>
     <string name="mmiStarted">‏بدأ رمز MMI</string>
     <string name="mobile_advanced_dns_server_title">عنوان خادم DNS</string>
@@ -1186,7 +1201,7 @@
     <string name="network_settings_query_failed_message">تعذر البحث عن شبكات جوال.</string>
     <string name="network_settings_select_automatic_hint">"لا يمكن التسجيل في الشبكة التي أخترتها.
 استخدام شبكة مفضلة بدلاً عنها."</string>
-    <string name="network_settings_title">شبكات الجوال</string>
+    <string name="network_settings_title">شبكات الهاتف</string>
     <string name="network_settings_turn_off">إيقاف</string>
     <string name="network_settings_warn_message">سيتصل جهازك فقط بالشبكات المختارة يدويًا.</string>
     <string name="network_state_display">إظهار حالة الشبكة</string>
@@ -1220,7 +1235,7 @@
     <string name="not_voice_capable">الاتصال الصوتي غير معتمد</string>
     <string name="notallow">غير ممنوح</string>
     <string name="notification_channel_sip_account">‏حسابات SIP المتوقّفة</string>
-    <string name="notification_network_selection_text">الشبكة المحدّدة (%s) غير مُتاحة</string>
+    <string name="notification_network_selection_text">الشبكة المحدّدة%s غير مُتاحة</string>
     <string name="notification_network_selection_title">لا خدمة</string>
     <string name="notification_switch_auto_text">لقد عدت إلى شبكاتك المحلية. تم التبديل تلقائيًا.</string>
     <string name="notification_switch_auto_title">شبكات الهاتف</string>
@@ -1240,6 +1255,10 @@
     <string name="obtain_location_information">الموقع</string>
     <string name="obtain_location_information_summary">لتحسين بيئة الشبكة الحالية</string>
     <string name="oem_radio_info_label">المعلومات/الإعدادات المتعلّقة بالمصنّع الأصلي للجهاز</string>
+    <string name="offline_call">اتصال Xiaomi دون اتصال بالإنترنت</string>
+    <string name="offline_call_has_call">الشخص الآخر مشغول. حاول مُجددًا في غضون دقيقة أو دقيقتين</string>
+    <string name="offline_call_not_match_contact">لا يمكن الاتصال. أنت لست من جهات الاتصال لدى الشخص الآخر</string>
+    <string name="offline_call_summary">اتصل بهواتف Xiaomi القريبة عبر البلوتوث دون اتصال بالشبكة</string>
     <string name="ok">حسنًا</string>
     <string name="oldPin2Label">‏PIN2 القديم</string>
     <string name="oldPinLabel">‏رمز PIN القديم</string>
@@ -1642,6 +1661,7 @@
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">خروج الآن</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">شبكة الأقمار الصناعية</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">لا تظهر مرة اخرى</string>
@@ -1981,6 +2001,8 @@
     <string name="turnover_mute_summary">عندما يكون الهاتف على سطح أفقي والشاشة مواجهة لأعلى، فقم بقلبه لكتم صوت الرنين وإيقاف تشغيل الاهتزاز وإيقاف وميض ضوء الإشعار.</string>
     <string name="turnover_mute_title">اقلب لكتم الرنين</string>
     <string name="undefined">لا شيء</string>
+    <string name="unfold_show_bublle_pref_summary">توسيع الهاتف أثناء المكالمات لإظهارها في نوافذ منبثقة</string>
+    <string name="unfold_show_bublle_pref_title">توسيع الهاتف لتصغير نافذة الاتصال</string>
     <string name="unknown">غير معروف</string>
     <string name="unlock_failed">لم ينجح طلب فتح قفل الشبكة.</string>
     <string name="unlock_success">نجح فتح قفل الشبكة.</string>
@@ -2091,6 +2113,7 @@
     <string name="wednesday_short">الأربعاء</string>
     <string name="wednesday_shortest">الأربعاء</string>
     <string name="wfc_internet_connection_lost">تم فقد الاتصال بالإنترنت</string>
+    <string name="wfc_mode_ims_preferred_title">‏الاتصال عبر IMS</string>
     <string name="wfc_no_network">لا يوجد شبكة إنترنت مؤهلة</string>
     <string name="wfc_provisioned_switch_string">‏تم توفير اتصال Wifi</string>
     <string name="wfc_wifi_call_drop">تم قطع مكالمة Wi-Fi</string>

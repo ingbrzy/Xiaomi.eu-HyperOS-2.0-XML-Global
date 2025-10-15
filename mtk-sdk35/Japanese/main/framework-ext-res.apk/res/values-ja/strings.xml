@@ -141,6 +141,7 @@
     <string name="disable_nfc">ワイヤレス充電のためにNFCをオフにしました</string>
     <string name="disable_nfc_haptic_reverse">リバースワイヤレス充電のためにNFCとバイブレーションをオフにしました</string>
     <string name="disable_nfc_reverse">リバースワイヤレス充電のためにNFCをオフにしました</string>
+    <string name="earpiece_callmode_tip">裏返してイヤホンを使用する</string>
     <string name="echo">エコー</string>
     <string name="eighthours">8時間</string>
     <string name="enable_livetalk_summary">通話料金を70%節約する</string>
@@ -351,6 +352,10 @@
     <string name="popup_camera_tip">注意</string>
     <string name="popup_camera_using_camera_background">%sがフロントカメラを使用しています</string>
     <string name="potion">ドラムビート</string>
+    <string name="presentation_payphone">公衆電話</string>
+    <string name="presentation_private">プライベート番号</string>
+    <string name="presentation_unknown">不明な番号</string>
+    <string name="propotional_freeform_tip">このアプリはフローティングウィンドウを完全にはサポートしていないようです</string>
     <string name="radar">レーダー</string>
     <string name="raindrops">雨のしずく</string>
     <string name="realme">realme</string>
@@ -516,10 +521,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">衛星通信使用中はカメラを使用できません</string>
     <string name="toast_mic_muted">マイクはオフです</string>
     <string name="toast_mic_unmuted">マイクはオンです</string>
-    <string name="tof_music_support_scene_des">音楽プレーヤーの操作をサポート</string>
-    <string name="tof_office_support_scene_des">Word ドキュメントと PowerPoint プレゼンテーションをサポート</string>
-    <string name="tof_short_video_support_scene_des">ビデオ間の切り替えをサポート</string>
-    <string name="tof_video_support_scene_des">全画面ビデオプレーヤーの操作をサポート</string>
     <string name="total">DND</string>
     <string name="total_description">アラーム時計以外のすべてのアイテムの通知音を無音にし、バイブレーションをオフにします</string>
     <string name="total_title">DND</string>
@@ -541,6 +542,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">フラワーアレンジメント</string>
+    <string name="wallpaper_geometrically_irregular_title">抽象幾何学</string>
     <string name="wallpaper_gradient_title">グラディエント</string>
     <string name="wallpaper_group_black_white_title">黒と白</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -604,14 +606,26 @@
     <string name="ability_dialog_button">了解</string>
     <string name="ability_dialog_text">画面サイズの関係で、一部のアプリが外側の画面に正しく表示されない場合があります。</string>
     <string name="ability_dialog_title">注意</string>
-    <string name="aon_reader_support_scene_des">読書中にページをめくる</string>
-    <string name="aon_video_support_scene_des">ビデオ再生の操作</string>
+    <string name="aon_music_double_press_support_scene_des">音楽を再生または一時停止</string>
+    <string name="aon_music_left_right_support_scene_des">前の曲または次の曲に切り替える</string>
+    <string name="aon_music_up_down_support_scene_des">音楽の音量を調整</string>
+    <string name="aon_office_up_down_support_scene_des">プレゼンテーションまたはドキュメントの前のページまたは次のページに移動する</string>
+    <string name="aon_reader_support_scene_des">読書関連の操作をサポートします</string>
+    <string name="aon_short_video_up_down_support_scene_des">前のビデオまたは次のビデオに切り替える</string>
+    <string name="aon_video_double_press_support_scene_des">ビデオを再生または一時停止</string>
+    <string name="aon_video_left_right_support_scene_des">横向きモードで視聴する場合にビデオの進行を調整する</string>
+    <string name="aon_video_up_down_support_scene_des">ビデオの音量を調整</string>
+    <string name="config_quick_scanner_notification_content_text">QRコードをスキャンしてウェブページを直接開く</string>
+    <string name="config_quick_scanner_notification_title">クイックスキャナー</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"この通知を削除する方法は以下の通りです。
 %1$s. カメラの周囲の障害物を取り除きます。
 %2$s. それでも問題が解決しない場合は、音量アップボタンを押してポケットモードをオフにします。"</string>
     <string name="global_help">デバイスが見つかりません</string>
     <string name="global_my">"自分のデバイス
 %1$s"</string>
+    <string name="ime_rotation_tip">この角度では文字を入力できません。まずデバイスを回転させてください。</string>
+    <string name="ks_switch_tasks">最近のタスクを切り替える</string>
+    <string name="linked_wallpaper">壁紙セット</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="motorola">Motorola</string>
@@ -624,14 +638,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"この通知を削除する方法は以下の通りです。
 %1$s. 画像上の赤くマークされた領域から障害物を取り除きます。
 %2$s. それでも問題が解決しない場合は、音量アップボタンを押してポケットモードをオフにします。"</string>
+    <string name="share_device_near_share">付近での共有</string>
+    <string name="share_device_near_share_hide">非表示</string>
+    <string name="share_device_near_share_image_describe">共有を開始するには、2 つのデバイスの NFC エリアを近づけてください</string>
     <string name="skipcoreappanr_notification_text">システムの問題は自動的に修正されました</string>
     <string name="skipcoreappanr_notification_title">%1$s が応答していません</string>
     <string name="skipprocessanr_notification_text">プロセス \"%1$s\" が応答していません</string>
     <string name="skipprocessanr_notification_title">システムが応答していません</string>
     <string name="super_wallpaper_list_label">スーパー壁紙</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">クラシック</string>
+    <string name="theme_titile_classis_scenery">風景</string>
+    <string name="typec_acc_not_support_cancel">了解</string>
+    <string name="typec_acc_not_support_message">この製品の USB Type-C ポートはデジタルオーディオデバイスのみをサポートします。</string>
+    <string name="typec_acc_not_support_tile">デバイスがサポートされていません</string>
     <string name="wallpaper_Fragrant_title">ブロッサム</string>
     <string name="wallpaper_glazed_valley_title">グレーズ</string>
+    <string name="wallpaper_group_pets_title">ペット</string>
     <string name="wallpaper_softlight_title">ソフトライト</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>

@@ -966,6 +966,7 @@
     <string name="bubble_notification">会話バブル</string>
     <string name="bubble_notification_switch">会話バブルを表示する</string>
     <string name="bubble_notification_switch_desc">フローティングウィンドウのメッセンジャーアプリが画面の端に隠れている場合、着信メッセージをバブルで表示します</string>
+    <string name="bubble_pickup_voice_print_auto">声紋を録音中…</string>
     <string name="button_background_connection">許可</string>
     <string name="button_block_calls_from_cantacts">ブロック解除</string>
     <string name="button_block_calls_from_strangers">ブロック解除</string>
@@ -973,6 +974,8 @@
     <string name="button_do_not_disturb">オフにする</string>
     <string name="button_eye_shield">オフにする</string>
     <string name="button_first_aid_kit">今すぐ修正</string>
+    <string name="button_pickup_voice_print_auto_agree">録音</string>
+    <string name="button_pickup_voice_print_auto_disagree">今はしない</string>
     <string name="button_restrict_data_usage">許可</string>
     <string name="button_text_accept">同意</string>
     <string name="button_text_accept_timer">同意 (%d)</string>
@@ -1231,6 +1234,7 @@
     <string name="cpu_usage_view_action_btn_text">タップして表示</string>
     <string name="create_gamebooster_destop">ホーム画面ショートカットを正常に作成しました</string>
     <string name="create_shortcut">ゲームターボのホーム画面ショートカットを作成する</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">クロスデバイスカメラを使用している間はこの機能は使用できません</string>
     <string name="cs_color_sense">色温度</string>
     <string name="cs_conversation_record_using">録音中</string>
@@ -1264,6 +1268,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">声紋を録音</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">「単一参加者」を選択する前に声紋を録音してください</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">外部デバイスを取り外し、もう一度お試しください</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"あなたの音声は、このデバイス上でのみ録音および処理されます。
+最良の結果を得るには、静かな場所で一人で録音してください。"</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">パーソナライズされたノイズ低減には声紋が必要です</string>
     <string name="cs_pickup_voice_print_desc">1 人の音だけを拾う</string>
     <string name="cs_privacy_camera_global_settings_title">通話プライバシー</string>
     <string name="cs_record_voice_title">録音</string>
@@ -3354,8 +3361,7 @@
     <string name="oaid_apps_title">仮想IDを管理</string>
     <string name="oaid_reset_content_tip">ここで仮想IDをオフにすると、一部のアプリが正常に動作しなくなり、アプリデータの一部が失われたり、使用できなくなったりする可能性があります。</string>
     <string name="oaid_reset_final_tip">仮想IDをオフにしてもよろしいですか？</string>
-    <string name="oaid_string">"現在の仮想ID：
-%1s"</string>
+    <string name="oaid_string">現在の仮想 ID:%1s</string>
     <string name="oaid_tips_content">仮想ID (OAID) は、ユーザーの行動を追跡し、広告をパーソナライズするために使用できます。仮想IDへのアクセスを許可するアプリを選択できます。アクセスを制限すると、おすすめの広告が表示されなくなったり、アプリが正常に動作しなくなったりする場合がありますのでご注意ください。</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3700,7 +3706,6 @@
     <string name="pc_remind_close_cover_to_charge_summary">充電前にデバイスを折りたたむと、より高速で安定した充電が可能です。</string>
     <string name="pc_remind_close_cover_to_charge_title">折りたたんで充電</string>
     <string name="pc_reminder_always_protect_summary">制限付き充電に切り替えてバッテリーの劣化を軽減します</string>
-    <string name="pc_remove_shell_charging_notification_msg">ゲーミングケースを装着している場合はワイヤレス充電を利用できません。ケースを取り外してもう一度お試しください。または、有線充電を利用してください。</string>
     <string name="pc_remove_shell_charging_notification_title">ケースを取り外してワイヤレス充電を使用</string>
     <string name="pc_remove_shell_charging_toast">ケースを取り外してリバースワイヤレス充電を使用</string>
     <string name="pc_satellite_auto_enter_super_power">衛星通信を維持するため、ウルトラバッテリーセーバーをオンにしました</string>
@@ -3720,6 +3725,8 @@
     <string name="pc_smart_charge_notify_summary_high_temp_protect">デバイスの発熱から保護するため、バッテリー残量が %1$s に達すると充電が停止されます</string>
     <string name="pc_smart_charge_notify_summary_navagition">ナビゲート中… バッテリー残量が %1$s に達すると充電が停止します。</string>
     <string name="pc_smart_charge_notify_summary_night_charge">充電は %s に停止します</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">充電は %1$s で一時停止しました。%2$sに再開されます。</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">バッテリー残量が %1$s に達すると充電が一時停止し、使用状況に応じて自動的に再開されます</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">バッテリーの寿命を延ばすため、このデバイスのバッテリーは、自動車に接続されている間は現在のレベル以上にはなりません。</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">今後表示しない</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">バッテリー保護</string>
@@ -3739,6 +3746,7 @@
     <string name="pc_suggest_open_fast_charge">%dW 急速充電をオンにする</string>
     <string name="pc_temperature_too_high">デバイスが発熱しています</string>
     <string name="pc_this_time_charge_full">今回はフル充電</string>
+    <string name="pc_this_time_charge_full_now">フル充電</string>
     <string name="pc_this_time_charge_full_work">ほぼフル充電</string>
     <string name="pc_timely_charging_summary">バッテリーが %1$s を下回っています。バッテリー残量が少ないときにデバイスが発熱すると、バッテリーが損傷する可能性があります。</string>
     <string name="pc_timely_charging_title">デバイスを充電してください</string>
@@ -4116,7 +4124,6 @@
     <string name="power_dialog_performance_mode_checkbox">%dHzのリフレッシュレートに切り替える</string>
     <string name="power_dialog_super_save_msg">ウルトラバッテリーセーバーは、基本的な機能（通話、SMS、ネットワーク接続など）をできるだけ長く利用できるようにするため、大部分の電力消費機能を制限し、デバイスのパフォーマンスを低下させます。ウルトラバッテリーセーバーをオンにしますか？</string>
     <string name="power_dialog_super_save_msg_5g">ウルトラバッテリーセーバーは、デバイスのパフォーマンスを低下させるほとんどの電力消費機能（5G接続など）を制限します。通話、メッセージ、およびネットワーク接続のみが影響を受けません。ウルトラバッテリーセーバーをオンにしますか？</string>
-    <string name="power_dialog_super_save_msg_p2">ウルトラバッテリーセーバーは、背面ディスプレイをオフにし、電力を消費する機能のほとんどを制限します。通話、SMS、ネットワーク接続などの基本機能は利用可能ですが、デバイスのパフォーマンスが低下します。ウルトラバッテリーセーバーをオンにしますか？</string>
     <string name="power_dialog_super_save_title">ウルトラバッテリーセーバー</string>
     <string name="power_idle">デバイスはアイドル状態です</string>
     <string name="power_main_battery_last_day_hour">残り%1$s日%2$s時間</string>
@@ -5822,10 +5829,14 @@ Rolled over extra data"</string>
     <string name="uninstall_app_dialog_msg">アンインストールすると、すべてのアプリデータが削除されます。</string>
     <string name="uninstall_app_dialog_title">今すぐアンインストールしますか？</string>
     <string name="uninstall_app_done">正常にアンインストールされました</string>
+    <string name="uninstall_app_reminder_msg">削除したアプリデータは復元できないことを理解しています</string>
+    <string name="uninstall_app_reminder_pre_title">%sをアンインストール</string>
+    <string name="uninstall_app_reminder_toast">削除したアプリデータは復元できないことを確認してください</string>
     <string name="uninstall_danagerous_btn">アンインストール</string>
     <string name="uninstall_danagerous_desc">\"%s\" はお使いのデバイスに損害を与える可能性があります</string>
     <string name="uninstall_danagerous_msg">\"%s\" はお使いのデバイスに損害を与える可能性があります。パフォーマンスを低下させたり、再起動を引き起こしたりする恐れもあります。</string>
     <string name="uninstall_danagerous_title">悪意のあるアプリをアンインストール</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">%sのデュアルアプリをアンインストール</string>
     <string name="unknown_operator">%2$sに電話して、%1$sのプランの詳細を確認することができます。</string>
     <string name="unknown_package">どのようなプランかわかりませんか？</string>
     <string name="unlike">今はしない</string>
@@ -6042,7 +6053,7 @@ Rolled over extra data"</string>
     <string name="wakepath_delete_app_start_all">続けると、他のアプリを開くために %s 権限を再度付与する必要があります。続けてもよろしいですか？</string>
     <string name="wakepath_delete_app_start_other_app">続けると、%2$s を開くために %1$s 権限を再度付与する必要があります。続けてもよろしいですか？</string>
     <string name="wakepath_manager_allow_list">許可済み</string>
-    <string name="wakepath_manager_allow_start">許可済み</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">%1$s が他のアプリを起動することを許可する</string>
     <string name="wakepath_manager_checkbox_title">チェーン起動を許可</string>
     <string name="wakepath_manager_empty_list">アプリの起動は許可されていません</string>

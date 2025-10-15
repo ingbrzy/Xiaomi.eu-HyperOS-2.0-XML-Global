@@ -140,7 +140,8 @@
     <string name="digitaluniverse">Цифровий всесвіт (стерео)</string>
     <string name="disable_nfc">NFC-модуль було відключено для безпровідної зарядки</string>
     <string name="disable_nfc_haptic_reverse">Вібрація і NFC-модуль були відключені для реверсивної бездротової зарядки</string>
-    <string name="disable_nfc_reverse">NFC-модуль було відключено для реверсивної безпровідної зарядки</string>
+    <string name="disable_nfc_reverse">NFC-модуль було відключено для реверсивної бездротової зарядки</string>
+    <string name="earpiece_callmode_tip">Переверніть, щоб скористатися навушником</string>
     <string name="echo">Ехо</string>
     <string name="eighthours">8 годин</string>
     <string name="enable_livetalk_summary">Заощаджуйте до 70% під час здійснення дзвінків</string>
@@ -352,6 +353,10 @@
     <string name="popup_camera_tip">Увага</string>
     <string name="popup_camera_using_camera_background">%s використовує фронтальну камеру</string>
     <string name="potion">Зілля</string>
+    <string name="presentation_payphone">Таксофон</string>
+    <string name="presentation_private">Прихований номер</string>
+    <string name="presentation_unknown">Невідомий номер</string>
+    <string name="propotional_freeform_tip">Ця програма підтримує спливаючі вікна з деякими обмеженнями</string>
     <string name="radar">Радар</string>
     <string name="raindrops">Краплі</string>
     <string name="realme">realme</string>
@@ -517,10 +522,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">"Камера недоступна під час використання супутникового зв'язку"</string>
     <string name="toast_mic_muted">Мікрофон вимк.</string>
     <string name="toast_mic_unmuted">Мікрофон увімк.</string>
-    <string name="tof_music_support_scene_des">Підтримує елементи керування музичним плеєром</string>
-    <string name="tof_office_support_scene_des">Підтримує документи Word та презентації PowerPoint</string>
-    <string name="tof_short_video_support_scene_des">Підтримує перемикання між відео</string>
-    <string name="tof_video_support_scene_des">Підтримує елементи керування повноекранним відеоплеєром</string>
     <string name="total">Не турбувати</string>
     <string name="total_description">Вимкнення звуку та вібрації для всіх режимів, крім будильника</string>
     <string name="total_title">Не турбувати</string>
@@ -542,6 +543,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">Квіткова композиція</string>
+    <string name="wallpaper_geometrically_irregular_title">Абстрактна геометрія</string>
     <string name="wallpaper_gradient_title">Градієнт</string>
     <string name="wallpaper_group_black_white_title">Ч/Б</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -605,14 +607,26 @@
     <string name="ability_dialog_button">Зрозуміло</string>
     <string name="ability_dialog_text">Через розмір зовнішнього екрана деякі програми можуть відображатися на ньому не повністю.</string>
     <string name="ability_dialog_title">Увага</string>
-    <string name="aon_reader_support_scene_des">Перегортайте сторінки під час читання</string>
-    <string name="aon_video_support_scene_des">Контролюйте відтворення відео</string>
+    <string name="aon_music_double_press_support_scene_des">Відтворення та зупинка музики</string>
+    <string name="aon_music_left_right_support_scene_des">Перехід до попередньої або наступної пісні</string>
+    <string name="aon_music_up_down_support_scene_des">Відрегулюйте гучність музики</string>
+    <string name="aon_office_up_down_support_scene_des">Перехід до попередньої або наступної сторінки презентації чи документа</string>
+    <string name="aon_reader_support_scene_des">"Підтримує елементи керування, пов'язані з читанням"</string>
+    <string name="aon_short_video_up_down_support_scene_des">Перейти до попереднього або наступного відео</string>
+    <string name="aon_video_double_press_support_scene_des">Відтворити або призупинити відео</string>
+    <string name="aon_video_left_right_support_scene_des">Налаштуйте прогрес відео під час перегляду в альбомній орієнтації</string>
+    <string name="aon_video_up_down_support_scene_des">Відрегулюйте гучність відео</string>
+    <string name="config_quick_scanner_notification_content_text">Скануйте QR-коди та відразу відкривайте веб-сторінки</string>
+    <string name="config_quick_scanner_notification_title">Швидкий сканер</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"Ось як видалити це сповіщення:
 %1$s. Видаліть перешкоди з області навкруги камери.
 %2$s. Якщо це не допомогло, натисніть кнопку збільшення гучності, щоб вимкнути режим \"У кишені\"."</string>
     <string name="global_help">Не вдалося знайти пристрій</string>
     <string name="global_my">"Мій пристрій
 %1$s"</string>
+    <string name="ime_rotation_tip">Не вдається ввести текст під таким кутом. Спочатку поверніть пристрій.</string>
+    <string name="ks_switch_tasks">Змінити Нещодавні</string>
+    <string name="linked_wallpaper">Набори шпалери</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="motorola">Motorola</string>
@@ -625,14 +639,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"Ось як видалити це сповіщення:
 %1$s. Видаліть перешкоди з області, позначеної червоним кольором на зображенні.
 %2$s. Якщо це не допомогло, натисніть кнопку збільшення гучності, щоб вимкнути режим \"У кишені\"."</string>
+    <string name="share_device_near_share">Діліться, коли поруч</string>
+    <string name="share_device_near_share_hide">Приховати</string>
+    <string name="share_device_near_share_image_describe">Розташуйте NFC-зони двох пристроїв близько один до одного, щоб почати обмін даними</string>
     <string name="skipcoreappanr_notification_text">Помилка системи була усунена автоматично</string>
     <string name="skipcoreappanr_notification_title">\"%1$s\" не відповідає</string>
     <string name="skipprocessanr_notification_text">Процес \"%1$s\" не відповідає</string>
     <string name="skipprocessanr_notification_title">Система не відповідає</string>
     <string name="super_wallpaper_list_label">Супершпалери</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">Класичний</string>
+    <string name="theme_titile_classis_scenery">Природа</string>
+    <string name="typec_acc_not_support_cancel">Зрозуміло</string>
+    <string name="typec_acc_not_support_message">Порт USB Type-C даного виробу підтримує тільки цифрові аудіопристрої.</string>
+    <string name="typec_acc_not_support_tile">Пристрій не підтримується</string>
     <string name="wallpaper_Fragrant_title">Цвітіння</string>
     <string name="wallpaper_glazed_valley_title">Глазур</string>
+    <string name="wallpaper_group_pets_title">Тварини</string>
     <string name="wallpaper_softlight_title">"М'яке світло"</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>

@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
     <string name="abc_toolbar_collapse_description">Skjul</string>
     <string name="accessibility_settings_activity_title">Hjælpefunktioner</string>
-    <string name="accessibility_sliding_button_state_description_off">slukket</string>
-    <string name="accessibility_sliding_button_state_description_on">tændt</string>
+    <string name="accessibility_sliding_button_state_description_off">Slået fra</string>
+    <string name="accessibility_sliding_button_state_description_on">Slået til</string>
     <string name="accessibility_tab_state_description_unselect">Ikke valgt</string>
-    <string name="accessibility_tab_statedesc_unselect">Ikke valgt</string>
     <string name="actionBarCBVideo">Spærring af videoopkald (%s)</string>
     <string name="actionBarCBVoice">Spærring af stemmeopkald (%s)</string>
     <string name="actionBarCFVideo">Viderestilling af videoopkald (%s)</string>
@@ -134,6 +133,10 @@
     <string name="band_mode_set">Angiv</string>
     <string name="band_mode_succeeded">Fuldført</string>
     <string name="band_mode_title">Konfigurer radiobåndstilstand</string>
+    <string name="beidou_findout_settings_title">Om BeiDou-satellitkommunikation</string>
+    <string name="beidou_mobile_settings_summary">Kun tilgængelig for China Mobile-brugere</string>
+    <string name="beidou_mobile_settings_title">BeiDou-satellitkommunikation</string>
+    <string name="beidou_sms_location_fail_toast">Tillad denne funktion at få adgang til din placering først</string>
     <string name="bf_news_settings">Erhvervs- og økonomiske nyheder</string>
     <string name="business_hall_settings_summary">Administrer dine opkald og dit dataforbrug</string>
     <string name="business_hall_settings_title">Indstillinger for operatør-abonnementer</string>
@@ -244,6 +247,8 @@
     <string name="call_record_on_summary">Slået til</string>
     <string name="call_record_setting">Opkaldsoptagelse</string>
     <string name="call_record_whitelist_custom">Valgte numre</string>
+    <string name="call_recording_disclaimer_msg">Den gældende lov i det område, hvor du eller andre deltagere befinder jer, kan kræve, at alle parter giver samtykke til optagelse af opkald. Du er ansvarlig for at overholde disse love, og Xiaomi påtager sig intet ansvar for ulovlig brug af denne funktion. Optagelserne af dine opkald gemmes kun på din enhed og er ikke tilgængelige for Xiaomi.</string>
+    <string name="call_recording_disclaimer_title">Ansvarsfraskrivelse</string>
     <string name="call_recording_notification_message">Tryk for at lytte.</string>
     <string name="call_recording_notification_message_low_storage">SD-kort er fyldt.</string>
     <string name="call_recording_notification_message_sd_unmounted">SD-kort er fjernet.</string>
@@ -619,7 +624,7 @@
     <string name="enable_esim_dialog_title">Aktivér eSIM</string>
     <string name="enable_esim_error_toast_message">Kunne ikke aktivere eSIM</string>
     <string name="enable_esim_progress_activating_message">Aktiverer eSIM…</string>
-    <string name="enable_esim_summary">Deaktivér SIM %s efter opstart</string>
+    <string name="enable_esim_summary">eSIM erstatter SIM %s</string>
     <string name="enable_esim_title">Aktivér eSIM</string>
     <string name="enable_fdn">Aktivér nummer til begrænset opkald</string>
     <string name="enable_fdn_ok">Deaktiver nummer til begrænset opkald</string>
@@ -644,6 +649,8 @@
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Avancerede opkald</string>
     <string name="enter_callbarring_password">Indtast adgangskode til opkaldsspærring (%d cifre)</string>
     <string name="enter_esim_manager_title">Administrer eSIM</string>
+    <string name="enter_esim_service_support_summary">Se en liste over understøttede operatører</string>
+    <string name="enter_esim_service_support_title">Understøttede operatør</string>
     <string name="enter_input">USSD-meddelelse skal være mellem %1$d og %2$d tegn. Prøv igen.</string>
     <string name="enter_mep_esim_manager_title">Administrer SIM</string>
     <string name="enter_pin2_text">Pinkode%d</string>
@@ -689,10 +696,15 @@
     <string name="fdn_summary">"Begræns udgående opkald til de angivne FDN'er eller til numre med bestemte præfikser"</string>
     <string name="fdn_with_label">Begrænset opkald (%s)</string>
     <string name="feedback_title">Feedback</string>
+    <string name="filp_auto_answer_call_title">Fold ud for at besvare opkald</string>
+    <string name="filp_auto_hangup_call_summary">Fungerer kun, når Bluetooth eller øretelefoner med kabel er tilsluttet</string>
+    <string name="filp_auto_hangup_call_title">Fold sammen for at afslutte opkald</string>
     <string name="fire_type_description">Brand</string>
     <string name="fiveg_carrier_aggregation_title">5G-operatør-aggregering</string>
     <string name="fiveg_hosted_mode_summary">Vælg det bedste netværk automatisk for at spare batteri</string>
     <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
+    <string name="fiveg_interruption_remind">Det ser ud til, at dit SIM-kort %s ikke understøtter 5G SA-tjenester. Kontakt din mobiludbyder for flere oplysninger.</string>
+    <string name="fiveg_interruption_remind_title">Kan ikke bruge 5G-tjenester</string>
     <string name="fiveg_network_mode_default">Automatisk</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -997,8 +1009,10 @@ Du kan stadig foretage nødopkald."</string>
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Ingen service</string>
     <string name="miuix_access_state_desc">Valgt</string>
     <string name="miuix_accessibility_title">Titel</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Skjult</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Udvidet</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Afslut redigeringsvisning</string>
-    <string name="miuix_appcompat_accessibility_new_message">Ny besked</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ny notifikation</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Start redigeringsvisning</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Fravælg alt</string>
     <string name="miuix_appcompat_action_mode_select_all">Vælg alle</string>
@@ -1015,6 +1029,7 @@ Du kan stadig foretage nødopkald."</string>
     <string name="miuix_appcompat_select_all">Vælg alle</string>
     <string name="miuix_appcompat_select_all_description">Vælg alle</string>
     <string name="miuix_appcompat_select_item">Vælg emner</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop op-vindue</string>
     <string name="miuix_progressbar_loading">Indlæser</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Træk ned for at opdatere</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Opdateret</string>
@@ -1025,6 +1040,8 @@ Du kan stadig foretage nødopkald."</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Lige et øjeblik…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kunne ikke loade elementer</string>
     <string name="miuix_show_password">Vis adgangskode</string>
+    <string name="miuix_stretchablewidget_collapsed">Skjult</string>
+    <string name="miuix_stretchablewidget_expanded">Udvidet</string>
     <string name="mmiCancelled">MMI-nummer annulleret</string>
     <string name="mmiStarted">MMI-nummer er startet</string>
     <string name="mobile_advanced_dns_server_title">DNS-serveradresse</string>
@@ -1218,7 +1235,7 @@ Bruger foretrukket netværk i stedet."</string>
     <string name="not_voice_capable">Taleopkald understøttes ikke</string>
     <string name="notallow">Ikke bevilget</string>
     <string name="notification_channel_sip_account">Udfasede SIP-konti</string>
-    <string name="notification_network_selection_text">Det valgte netværk %s er ikke tilgængeligt</string>
+    <string name="notification_network_selection_text">Det valgte netværk%s er ikke tilgængeligt</string>
     <string name="notification_network_selection_title">Ingen dækning</string>
     <string name="notification_switch_auto_text">Det ser ud til, at du er tilbage. Skiftede til lokale netværk.</string>
     <string name="notification_switch_auto_title">Mobilnetværk</string>
@@ -1238,6 +1255,10 @@ Bruger foretrukket netværk i stedet."</string>
     <string name="obtain_location_information">Placering</string>
     <string name="obtain_location_information_summary">Til optimering af det nuværende netværksmiljø</string>
     <string name="oem_radio_info_label">OEM-specifikke oplysninger/indstillinger</string>
+    <string name="offline_call">Xiaomi offline kommunikation</string>
+    <string name="offline_call_has_call">Den anden person er optaget. Prøv igen om et minut eller to.</string>
+    <string name="offline_call_not_match_contact">Opkald mislykkedes. Du er ikke på den anden persons kontaktliste.</string>
+    <string name="offline_call_summary">Ring til Xiaomi-enheder i nræheden via Bluetooth uden netværksforbindelse</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Nuværende PIN2-kode</string>
     <string name="oldPinLabel">Nuværende pinkode</string>
@@ -1640,6 +1661,7 @@ UT-grænseflade: %5$s"</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Afslut nu</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Satellitnetværk</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">Vis ikke igen</string>
@@ -1793,6 +1815,7 @@ Bekræft din standardkontoindstilling for opkald."</string>
     <string name="speed_limit_sim_summary">Du har nået dit abonnements datagrænse. Datahastighed vil blive langsommere. Kontakt din udbyder for flere oplysninger.</string>
     <string name="speed_limit_sim_title">Datahastighed er begrænset</string>
     <string name="sports_news_settings">Sportsnyheder</string>
+    <string name="start_call_record">Start</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">Wi-Fi-opkald fra</string>
     <string name="status_hint_label_wifi_call">Wi-Fi-opkald</string>
@@ -1978,6 +2001,8 @@ Næste periode om %2$d dage (%3$s)"</string>
     <string name="turnover_mute_summary">Når telefonen ligger på et vandret underlag med skærmen opad, vend den om for at slå ringelyden, vibratoren og blinklys-notifikationer fra.</string>
     <string name="turnover_mute_title">Vend for lydløs ringetone</string>
     <string name="undefined">Ingen</string>
+    <string name="unfold_show_bublle_pref_summary">Fold enheden ud under opkald for at vise dem i flydende vinduer</string>
+    <string name="unfold_show_bublle_pref_title">Fold ud for at minimere opkald</string>
     <string name="unknown">Ukendt</string>
     <string name="unlock_failed">Anmodningen om oplåsning af netværk mislykkedes.</string>
     <string name="unlock_success">Netværket blev låst op.</string>
@@ -2088,6 +2113,7 @@ Nødopkald er kun mulige i områder med mobildækning."</string>
     <string name="wednesday_short">Ons</string>
     <string name="wednesday_shortest">Ons</string>
     <string name="wfc_internet_connection_lost">Internetforbindelse nede</string>
+    <string name="wfc_mode_ims_preferred_title">Ring via IMS</string>
     <string name="wfc_no_network">Intet tilgængeligt kvalificeret mobilnetværk</string>
     <string name="wfc_provisioned_switch_string">Wi-Fi-opkald er provisioneret</string>
     <string name="wfc_wifi_call_drop">Wi-Fi-opkald afbrudt</string>

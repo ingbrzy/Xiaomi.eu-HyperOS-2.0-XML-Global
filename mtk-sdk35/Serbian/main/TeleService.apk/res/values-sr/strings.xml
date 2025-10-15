@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Делите помоћу апликације %s</string>
     <string name="abc_toolbar_collapse_description">Скупи</string>
     <string name="accessibility_settings_activity_title">Приступачност</string>
-    <string name="accessibility_sliding_button_state_description_off">искључено</string>
-    <string name="accessibility_sliding_button_state_description_on">укључено</string>
+    <string name="accessibility_sliding_button_state_description_off">Искључен</string>
+    <string name="accessibility_sliding_button_state_description_on">Укључено</string>
     <string name="accessibility_tab_state_description_unselect">Није изабрано</string>
-    <string name="accessibility_tab_statedesc_unselect">Није изабрано</string>
     <string name="actionBarCBVideo">Blokiranje video poziva (%s)</string>
     <string name="actionBarCBVoice">Blokiranje glasovnog poziva (%s)</string>
     <string name="actionBarCFVideo">Prosleđivanje video poziva (%s)</string>
@@ -134,6 +133,10 @@
     <string name="band_mode_set">Подеси</string>
     <string name="band_mode_succeeded">Успело је</string>
     <string name="band_mode_title">Подесите режим радијског опсега</string>
+    <string name="beidou_findout_settings_title">О BeiDou сателитским порукама</string>
+    <string name="beidou_mobile_settings_summary">Доступно само корисницима услуга China Mobile</string>
+    <string name="beidou_mobile_settings_title">BeiDou сателитска комуникација</string>
+    <string name="beidou_sms_location_fail_toast">Дозволите овој функцији да прво приступи вашој локацији</string>
     <string name="bf_news_settings">Пословне и финансијске вести</string>
     <string name="business_hall_settings_summary">Контролишите своје позиве и употребу података</string>
     <string name="business_hall_settings_title">Подешавања плана оператора</string>
@@ -244,6 +247,8 @@
     <string name="call_record_on_summary">Укључено</string>
     <string name="call_record_setting">Снимање позива</string>
     <string name="call_record_whitelist_custom">Изабрани бројеви</string>
+    <string name="call_recording_disclaimer_msg">Важећи закон у јурисдикцији у којој се налазите ви или други учесници позива може захтевати од свих страна да пристану на снимање. Обавезни сте да се придржавате таквих закона, а Xiaomi није одговоран за било какву незакониту употребу ове функције. Снимци позива се чувају само на вашем уређају и Xiaomi им не може приступити.</string>
+    <string name="call_recording_disclaimer_title">Одрицање одговорности</string>
     <string name="call_recording_notification_message">Додирните за слушање.</string>
     <string name="call_recording_notification_message_low_storage">SD картица је пуна.</string>
     <string name="call_recording_notification_message_sd_unmounted">SD картица је уклоњена.</string>
@@ -619,7 +624,7 @@
     <string name="enable_esim_dialog_title">Укључи eSIM</string>
     <string name="enable_esim_error_toast_message">Не може се искључити eSIM</string>
     <string name="enable_esim_progress_activating_message">Укључује се eSIM…</string>
-    <string name="enable_esim_summary">Онемогућите SIM %s након укључивања</string>
+    <string name="enable_esim_summary">eSIM ће заменити SIM %s</string>
     <string name="enable_esim_title">Укључи eSIM</string>
     <string name="enable_fdn">Омогући број за фиксно бирање</string>
     <string name="enable_fdn_ok">Онемогући број за фиксно бирање</string>
@@ -644,6 +649,8 @@
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Напредно позивање</string>
     <string name="enter_callbarring_password">Унесите лозинку за блокирање позива (%d цифре)</string>
     <string name="enter_esim_manager_title">Управљај eSIM-ом</string>
+    <string name="enter_esim_service_support_summary">Прикажи листу подржаних оператора</string>
+    <string name="enter_esim_service_support_title">Подржани оператори</string>
     <string name="enter_input">USSD порука мора да има између %1$d и %2$d знакова. Пробајте поново.</string>
     <string name="enter_mep_esim_manager_title">Управљај SIM-ом</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -689,10 +696,15 @@
     <string name="fdn_summary">Ограничите одлазне позиве наведене на листи FDN или бројевима са одређеним префикса</string>
     <string name="fdn_with_label">Бројеви за фиксно бирање (%s)</string>
     <string name="feedback_title">Повратне информације</string>
+    <string name="filp_auto_answer_call_title">Расклопите да бисте одговорили на позиве</string>
+    <string name="filp_auto_hangup_call_summary">Ради само када су повезане Bluetooth или жичане слушалице</string>
+    <string name="filp_auto_hangup_call_title">Склопите да бисте завршили позиве</string>
     <string name="fire_type_description">Ватрогасци</string>
     <string name="fiveg_carrier_aggregation_title">Агрегација 5G оператора</string>
     <string name="fiveg_hosted_mode_summary">Аутоматско бирање мреже ради уштеде батерије</string>
     <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
+    <string name="fiveg_interruption_remind">Изгледа да ваша SIM %s не може да користи 5G SA услуге. Обратите се свом оператору за више информација.</string>
+    <string name="fiveg_interruption_remind_title">Не могу се користити 5G услуге</string>
     <string name="fiveg_network_mode_default">Аутоматски</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -975,7 +987,8 @@
     <string name="mhh_enable">Медицина, здравље и болница су омогућени</string>
     <string name="mi_mobile_settings_summary">Xiaomi пакети података</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Активирајте SIM %1$d да бисте могли да користите Mi Mobile. Ово може да потраје до %2$d-%3$d минута.</string>
+    <string name="mi_mobile_sim_activate_message">Изгледа да SIM %1$d није активиран. Додирните „Активирај“ и пратите упутства да бисте започели.</string>
+    <string name="mi_mobile_sim_activate_title">Mi Mobile SIM активација</string>
     <string name="mi_sim_settings_summary">Користите преносне податке без SIМ картице</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Ноћ</string>
@@ -997,8 +1010,10 @@
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Hема услуге</string>
     <string name="miuix_access_state_desc">Изабрано</string>
     <string name="miuix_accessibility_title">Наслов</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Скупљено</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Проширено</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Изађи из режима уређивања</string>
-    <string name="miuix_appcompat_accessibility_new_message">Нова порука</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ново обавештење</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Улаз у режим за уређивање</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
@@ -1015,6 +1030,7 @@
     <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
     <string name="miuix_appcompat_select_item">Одаберите ставке</string>
+    <string name="miuix_appcompat_show_dialog_description">Искачући прозор</string>
     <string name="miuix_progressbar_loading">Учитавање</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
@@ -1025,6 +1041,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
     <string name="miuix_show_password">Прикажи лозинку</string>
+    <string name="miuix_stretchablewidget_collapsed">Скупљено</string>
+    <string name="miuix_stretchablewidget_expanded">Проширено</string>
     <string name="mmiCancelled">MMI кôд је отказан</string>
     <string name="mmiStarted">Покренут је MMI кôд.</string>
     <string name="mobile_advanced_dns_server_title">Адреса DNS сервера</string>
@@ -1238,6 +1256,10 @@
     <string name="obtain_location_information">Локација</string>
     <string name="obtain_location_information_summary">За оптимизацију тренутног мрежног окружења</string>
     <string name="oem_radio_info_label">Информације/подешавања специфична за произвођача оригиналне опреме</string>
+    <string name="offline_call">Xiaomi офлајн комуникација</string>
+    <string name="offline_call_has_call">Друга особа је заузета. Покушајте опет за минут-два.</string>
+    <string name="offline_call_not_match_contact">Не може се назвати. Ви нисте контакт друге особе.</string>
+    <string name="offline_call_summary">Позовите Xiaomi телефоне у близини путем Bluetooth-а без мрежне везе</string>
     <string name="ok">Потврди</string>
     <string name="oldPin2Label">Стари PIN2</string>
     <string name="oldPinLabel">Стари PIN</string>
@@ -1640,6 +1662,7 @@ UT интерфејс: %5$s"</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Напустити сада</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Сателитска мрежа</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">Више не приказуј</string>
@@ -1793,6 +1816,7 @@ UT интерфејс: %5$s"</string>
     <string name="speed_limit_sim_summary">Достигли сте ограничење пакета података. Брзина података ће се успорити. Контактирајте свог оператора за детаље.</string>
     <string name="speed_limit_sim_title">Брзина података је ограничена</string>
     <string name="sports_news_settings">Спортске вести</string>
+    <string name="start_call_record">Започни</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_hint_label_incoming_wifi_call">WiFi позив од</string>
     <string name="status_hint_label_wifi_call">WiFi позив</string>
@@ -1978,6 +2002,8 @@ UT интерфејс: %5$s"</string>
     <string name="turnover_mute_summary">Када је телефон у хоризонталном положају, обрните га за утишавање звона, искључивање вибрације и заустављање светла обавештења.</string>
     <string name="turnover_mute_title">Окрените како бисте утишали звоно</string>
     <string name="undefined">Ништа</string>
+    <string name="unfold_show_bublle_pref_summary">Расклопите уређај током позива да би били приказани у плутајућим прозорима</string>
+    <string name="unfold_show_bublle_pref_title">Расклопите да бисте минимизирали позиве</string>
     <string name="unknown">Непознато</string>
     <string name="unlock_failed">Неуспешан захтев за закључавање мреже.</string>
     <string name="unlock_success">Успешно откључавање мреже</string>
@@ -2088,6 +2114,7 @@ UT интерфејс: %5$s"</string>
     <string name="wednesday_short">Сре</string>
     <string name="wednesday_shortest">Сре</string>
     <string name="wfc_internet_connection_lost">Интернет веза прекинута</string>
+    <string name="wfc_mode_ims_preferred_title">Позивање преко IMS-а</string>
     <string name="wfc_no_network">Квалификована мобилна мрежа није доступна</string>
     <string name="wfc_provisioned_switch_string">Позивање преко WiFi-а је додељено</string>
     <string name="wfc_wifi_call_drop">Wi-Fi позив прекинут</string>

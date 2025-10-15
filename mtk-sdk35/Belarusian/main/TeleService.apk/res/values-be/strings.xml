@@ -30,10 +30,9 @@
     <string name="abc_shareactionprovider_share_with_application">Абагуліць праз праграму \"%s\"</string>
     <string name="abc_toolbar_collapse_description">Згарнуць</string>
     <string name="accessibility_settings_activity_title">Спецыяльныя магчымасці</string>
-    <string name="accessibility_sliding_button_state_description_off">выключаны</string>
-    <string name="accessibility_sliding_button_state_description_on">уключана</string>
-    <string name="accessibility_tab_state_description_unselect">Неабраны</string>
-    <string name="accessibility_tab_statedesc_unselect">Неабраны</string>
+    <string name="accessibility_sliding_button_state_description_off">Адключана</string>
+    <string name="accessibility_sliding_button_state_description_on">Уключана</string>
+    <string name="accessibility_tab_state_description_unselect">Не выбрана</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="activity_title_fakecell">Protection from fake base stations</string>
     <string name="add">Дадаць</string>
@@ -128,6 +127,10 @@
     <string name="band_mode_set">Задаць</string>
     <string name="band_mode_succeeded">Паспяхова</string>
     <string name="band_mode_title">Задаць рэжым радыёдыяпазону</string>
+    <string name="beidou_findout_settings_title">Аб спадарожнікавых паведамленнях BeiDou</string>
+    <string name="beidou_mobile_settings_summary">Даступна толькі карыстальнікам China Mobile</string>
+    <string name="beidou_mobile_settings_title">Спадарожнікавая сувязь BeiDou</string>
+    <string name="beidou_sms_location_fail_toast">Спачатку дазвольце гэтай функцыі атрымліваць доступ да вашага месцазнаходжання</string>
     <string name="bf_news_settings">Навіны бізнэсу і фінансаў</string>
     <string name="business_hall_settings_summary">Кіраванне выклікамі і мабільным інтэрнэтам</string>
     <string name="business_hall_settings_title">Налады плана мабільнага аператара</string>
@@ -604,7 +607,7 @@
     <string name="enable_esim_dialog_title">Уключыць eSIM</string>
     <string name="enable_esim_error_toast_message">Не атрымалася ўключыць eSIM</string>
     <string name="enable_esim_progress_activating_message">Уключэнне eSIM…</string>
-    <string name="enable_esim_summary">Адключыць SIM %s пасля ўключэння</string>
+    <string name="enable_esim_summary">eSIM заменіць SIM %s</string>
     <string name="enable_esim_title">Уключыць eSIM</string>
     <string name="enable_fdn">Уключыць дазволеныя нумары</string>
     <string name="enable_fdn_ok">Адключыць дазволеныя нумары</string>
@@ -627,8 +630,10 @@
     <string name="enhanced_4g_lte_mode_title">VoLTE</string>
     <string name="enhanced_4g_lte_mode_title_4g_calling">Выклік у 4G</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling">Пашыраныя магчымасці выкліку</string>
-    <string name="enter_callbarring_password">Увядзіце пароль забароны выклікаў (%d лічбы(-аў)</string>
+    <string name="enter_callbarring_password">Увядзіце пароль забароны выклікаў (%d лічбы)</string>
     <string name="enter_esim_manager_title">Кіраванне eSIM</string>
+    <string name="enter_esim_service_support_summary">Паглядзець спіс аператараў, якія падтрымліваюцца</string>
+    <string name="enter_esim_service_support_title">Аператары, якія падтрымліваюцца</string>
     <string name="enter_input">"Паведамленне USSD павінна складацца з наступнай колькасцi знакаў:  ад %1$d да %2$d. Паспрабуйце яшчэ раз."</string>
     <string name="enter_mep_esim_manager_title">Упраўленне SIM</string>
     <string name="enter_pin2_text">PIN %d</string>
@@ -665,10 +670,15 @@
     <string name="fdn_summary">Абмежаваць выходныя выклікі на нумары са спісу фіксаванага набору або на нумары з вызначанымі прэфіксамі</string>
     <string name="fdn_with_label">Нумары закрытай абаненцкай групы (%s)</string>
     <string name="feedback_title">Водгук</string>
+    <string name="filp_auto_answer_call_title">Раскладзеце, каб адказаць на выклікі</string>
+    <string name="filp_auto_hangup_call_summary">Працуе толькі пры падключэнні Bluetooth або правадных навушнікаў</string>
+    <string name="filp_auto_hangup_call_title">Складзеце, каб завяршыць выклікі</string>
     <string name="fire_type_description">Пажарная служба</string>
     <string name="fiveg_carrier_aggregation_title">Агрэгацыя аператараў сувязі 5G</string>
     <string name="fiveg_hosted_mode_summary">Аўтаматычны выбар лепшай сеткі для эканоміі зарада батарэі</string>
     <string name="fiveg_hosted_mode_title">Смарт-пераключэнне 5G</string>
+    <string name="fiveg_interruption_remind">Падобна на тое, што ваша SIM-карта %s не падтрымлівае паслугі 5G SA. Звяжыцеся са сваім аператарам сувязі для атрымання дадатковай інфармацыі.</string>
+    <string name="fiveg_interruption_remind_title">Немагчыма выкарыстаць паслугі 5G</string>
     <string name="fiveg_network_mode_default">Аўта</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -971,8 +981,10 @@
     <string name="miui_notification_network_selection_title_by_sim">SIM %s: Няма сеткі</string>
     <string name="miuix_access_state_desc">Выбрана</string>
     <string name="miuix_accessibility_title">Загаловак</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Згорнута</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Разгорнута</string>
     <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйсці з рэжыма рэдагавання</string>
-    <string name="miuix_appcompat_accessibility_new_message">Новае паведамленне</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новае апавяшчэнне</string>
     <string name="miuix_appcompat_accessibility_start_edit_action_mode">Пачаць рэдагаванне</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняць выбар з усіх</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбраць усё</string>
@@ -989,6 +1001,7 @@
     <string name="miuix_appcompat_select_all">Выбраць усё</string>
     <string name="miuix_appcompat_select_all_description">Выбраць усё</string>
     <string name="miuix_appcompat_select_item">"Выберыце аб'екты"</string>
+    <string name="miuix_appcompat_show_dialog_description">Усплывальнае акно</string>
     <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Пацягніце ўніз для абнаўлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Абноўлена</string>
@@ -999,6 +1012,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Хвілінку…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Не атрымалася загрузіць аб'екты"</string>
     <string name="miuix_show_password">Паказаць пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Згорнута</string>
+    <string name="miuix_stretchablewidget_expanded">Разгорнута</string>
     <string name="mmiCancelled">Код MMI адменены</string>
     <string name="mmiStarted">Пачалося выкананне MMI кода</string>
     <string name="mobile_advanced_dns_server_title">DNS-адрас сервера</string>
@@ -1192,7 +1207,7 @@
     <string name="not_voice_capable">Галасавы выклік не падтрымліваецца</string>
     <string name="notallow">Не прадастаўлены</string>
     <string name="notification_channel_sip_account">Састарэлыя ўліковыя запісы SIP</string>
-    <string name="notification_network_selection_text">Выбраная сетка аператара %s недаступная</string>
+    <string name="notification_network_selection_text">Выбраная сетка аператара%s недаступная</string>
     <string name="notification_network_selection_title">Не абслугоўваецца</string>
     <string name="notification_switch_auto_text">Здаецца, вы вярнуліся. Пераключыцеся на мясцовыя сеткі.</string>
     <string name="notification_switch_auto_title">Мабільныя сеткі</string>
@@ -1212,6 +1227,10 @@
     <string name="obtain_location_information">Месцазнаходжанне</string>
     <string name="obtain_location_information_summary">Для аптымізацыі бягучага сеткавага асяроддзя</string>
     <string name="oem_radio_info_label">Інфармацыя/налады пастаўшчыка</string>
+    <string name="offline_call">Афлайн-камунікацыі Xiaomi</string>
+    <string name="offline_call_has_call">Іншы чалавек заняты. Паўторыце спробу праз адну–дзве мнуты.</string>
+    <string name="offline_call_not_match_contact">"Не атрымалася выклікаць. Вы не з'яўляецеся кантактам іншага чалавека."</string>
+    <string name="offline_call_summary">Тэлефануйце на бліжэйшыя тэлефоны Xiaomi праз Bluetooth без падключэння да сеткі</string>
     <string name="ok">ОК</string>
     <string name="oldPin2Label">Стары PIN2</string>
     <string name="oldPinLabel">Стары PIN</string>
@@ -1613,6 +1632,7 @@ SIM-карта будзе заблакавана пры няўдалай спр�
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Выйсці</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
+    <string name="satellite_management_title">Спадарожнікавая сетка</string>
     <string name="satellite_mobile_settings_summary">Only supports satellite-enabled SIM cards from China Telecom or other supported carriers</string>
     <string name="satellite_mobile_settings_title">Enable satellite communications</string>
     <string name="satellite_not_show_again">Больш не паказываць</string>
@@ -1952,6 +1972,8 @@ SIM-карта будзе заблакавана пры няўдалай спр�
     <string name="turnover_mute_summary">Калі тэлефон, які звоніць, ляжыць экранам уверх, перавярніце яго экранам уніз для адключэння званка, вібрацыі і светлавых сігналаў.</string>
     <string name="turnover_mute_title">Перавярнуць для адключэння гуку</string>
     <string name="undefined">Адсутнічае</string>
+    <string name="unfold_show_bublle_pref_summary">Раскладвайце прыладу падчас выклікаў, каб паказваць іх у плывучых вокнах</string>
+    <string name="unfold_show_bublle_pref_title">Разгарніце, каб звесці да мінімуму выклікі</string>
     <string name="unknown">Невядома</string>
     <string name="unlock_failed">Запыт разблакавання сеткі няўдалы.</string>
     <string name="unlock_success">Сетка паспяхова разблакавана.</string>

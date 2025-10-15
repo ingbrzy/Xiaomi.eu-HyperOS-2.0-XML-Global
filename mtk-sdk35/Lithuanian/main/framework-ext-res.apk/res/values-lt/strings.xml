@@ -141,6 +141,7 @@
     <string name="disable_nfc">Išjungiamas belaidžio krovimo NFC</string>
     <string name="disable_nfc_haptic_reverse">NFC ir vibracija išjungti atvirkštiniam belaidžiam įkrovimui</string>
     <string name="disable_nfc_reverse">NFC išjungtas atvirkštiniam belaidžiam įkrovimui</string>
+    <string name="earpiece_callmode_tip">Apverskite, norėdami naudoti ausinę</string>
     <string name="echo">Aidas</string>
     <string name="eighthours">8 valandos</string>
     <string name="enable_livetalk_summary">Sutaupykite iki 70% savo skambučių išlaidų</string>
@@ -351,6 +352,10 @@
     <string name="popup_camera_tip">Įspėjimas</string>
     <string name="popup_camera_using_camera_background">%s naudoja priekinį fotoaparatą</string>
     <string name="potion">Stebuklingas gėrimas</string>
+    <string name="presentation_payphone">Telefono automatas</string>
+    <string name="presentation_private">Privatus numeris</string>
+    <string name="presentation_unknown">Nežinomas numeris</string>
+    <string name="propotional_freeform_tip">Atrodo, ši programėlė nepalaiko laikinųjų langų visų funkcijų</string>
     <string name="radar">Radaras</string>
     <string name="raindrops">Lietaus lašai</string>
     <string name="realme">realme</string>
@@ -516,10 +521,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">Naudojant palydovinį ryšį negalima naudoti fotoaparato</string>
     <string name="toast_mic_muted">Mikrofonas išjungtas</string>
     <string name="toast_mic_unmuted">Mikrofonas įjungtas</string>
-    <string name="tof_music_support_scene_des">Palaiko vaizdo grotuvo valdiklius</string>
-    <string name="tof_office_support_scene_des">Palaiko „Word“ dokumentus ir „PowerPoint“ pristatymus</string>
-    <string name="tof_short_video_support_scene_des">Palaiko vaizdo įrašų perjungimą</string>
-    <string name="tof_video_support_scene_des">Palaiko viso ekrano vaizdo grotuvo valdiklius</string>
     <string name="total">Netrukdyti</string>
     <string name="total_description">Nutildyti garsus ir išjungti vibraciją visiems elementams, išskyrus žadintuvą</string>
     <string name="total_title">Netrukdyti</string>
@@ -541,6 +542,7 @@
     <string name="vivo">„vivo“</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">Gėlių kompozicija</string>
+    <string name="wallpaper_geometrically_irregular_title">Abstrakti geometrija</string>
     <string name="wallpaper_gradient_title">Gradientas</string>
     <string name="wallpaper_group_black_white_title">Juoda ir balta</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -604,14 +606,26 @@
     <string name="ability_dialog_button">Supratau</string>
     <string name="ability_dialog_text">Dėl ekrano dydžio kai kurios programos gali būti netinkamai rodomos išoriniame ekrane.</string>
     <string name="ability_dialog_title">Dėmesio</string>
-    <string name="aon_reader_support_scene_des">Puslapių vartymas skaitant</string>
-    <string name="aon_video_support_scene_des">Vaizdo įrašų atkūrimo valdymas</string>
+    <string name="aon_music_double_press_support_scene_des">Groti arba pristabdyti muziką</string>
+    <string name="aon_music_left_right_support_scene_des">Perjungti į pirmesnę arba kitą dainą</string>
+    <string name="aon_music_up_down_support_scene_des">Muzikos garsumo derinimas</string>
+    <string name="aon_office_up_down_support_scene_des">Eiti į prezentacijos ar dokumento pirmesnį arba kitą puslapį</string>
+    <string name="aon_reader_support_scene_des">Palaikomi su skaitymu susiję valdikliai</string>
+    <string name="aon_short_video_up_down_support_scene_des">Perjungti į pirmesnį arba kitą vaizdo įrašą</string>
+    <string name="aon_video_double_press_support_scene_des">Groti arba pristabdyti vaizdo įrašą</string>
+    <string name="aon_video_left_right_support_scene_des">Pritaikykite vaizdo progresą, kai žiūrite gulsčiuoju režimu</string>
+    <string name="aon_video_up_down_support_scene_des">Vaizdo įrašo garsumo derinimas</string>
+    <string name="config_quick_scanner_notification_content_text">Nuskaitykite QR kodus ir atidarykite tinklalapius tiesiogiai</string>
+    <string name="config_quick_scanner_notification_title">Greitasis skaitytuvas</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"Štai kaip galite pašalinti šį pranešimą:
 %1$s. Pašalinkite kliūtis iš srities aplink fotoaparatą.
 %2$s. Jei tai nepadeda, paspauskite garsumo didinimo mygtuką, kad išjungtumėte kišeninį režimą."</string>
     <string name="global_help">Nepavyksta rasti įrenginio</string>
     <string name="global_my">"Mano įrenginys
 %1$s"</string>
+    <string name="ime_rotation_tip">Šiuo kampu negalima įvesti teksto. Pirmiausia pakreipkite įrenginį.</string>
+    <string name="ks_switch_tasks">Perjungti į „Naujausi“</string>
+    <string name="linked_wallpaper">Fono paveikslėlių rinkiniai</string>
     <string name="mi_pad_6">„Xiaomi Pad 6“</string>
     <string name="mi_pad_6_pro">„Xiaomi Pad 6 Pro“</string>
     <string name="motorola">„Motorola“</string>
@@ -624,14 +638,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"Štai kaip galite pašalinti šį pranešimą:
 %1$s. Pašalinkite kliūtis iš raudonai paveikslėlyje pažymėtos srities.
 %2$s. Jei tai nepadeda, paspauskite garsumo didinimo mygtuką, kad išjungtumėte kišeninį režimą."</string>
+    <string name="share_device_near_share">Bendrinkite, kai esate netoliese</string>
+    <string name="share_device_near_share_hide">Slėpti</string>
+    <string name="share_device_near_share_image_describe">Priartinkite dviejų įrenginių NFC sritis, kad pradėtumėte bendrinti</string>
     <string name="skipcoreappanr_notification_text">Sistemos problema buvo ištaisyta automatiškai</string>
     <string name="skipcoreappanr_notification_title">%1$s neatsako</string>
     <string name="skipprocessanr_notification_text">Procesas „%1$s“ neatsako</string>
     <string name="skipprocessanr_notification_title">Sistema neatsako</string>
     <string name="super_wallpaper_list_label">Super fono paveikslėliai</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">Klasikinis</string>
+    <string name="theme_titile_classis_scenery">Scenos</string>
+    <string name="typec_acc_not_support_cancel">Supratau</string>
+    <string name="typec_acc_not_support_message">Šio gaminio USB C tipo prievadas palaiko tik skaitmeninius garso įrenginius.</string>
+    <string name="typec_acc_not_support_tile">Įrenginys nepalaikomas</string>
     <string name="wallpaper_Fragrant_title">Žiedai</string>
     <string name="wallpaper_glazed_valley_title">Blizgesys</string>
+    <string name="wallpaper_group_pets_title">Gyvūnai</string>
     <string name="wallpaper_softlight_title">Lengvas apšvietimas</string>
     <string name="xiaomi_13">„Xiaomi 13“</string>
     <string name="xiaomi_13t">„Xiaomi 13T“</string>

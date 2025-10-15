@@ -195,15 +195,17 @@
     <string name="accessibility_qs_edit_position">%1$d 위치</string>
     <string name="accessibility_qs_edit_remove_tile">%1$s 제거</string>
     <string name="accessibility_qs_edit_remove_tile_action">타일 삭제</string>
-    <string name="accessibility_qs_edit_tile_add">%1$s을(를) %2$d 위치에 추가</string>
+    <string name="accessibility_qs_edit_tile_add">위치 %2$d에 %1$s 추가</string>
     <string name="accessibility_qs_edit_tile_add_action">끝에 타일 추가</string>
     <string name="accessibility_qs_edit_tile_add_to_position">%1$d 위치에 추가</string>
     <string name="accessibility_qs_edit_tile_added">%1$s이(가) %2$d 위치에 추가되었습니다.</string>
-    <string name="accessibility_qs_edit_tile_move">%1$s을(를) %2$d 위치로 이동</string>
+    <string name="accessibility_qs_edit_tile_move">위치 %2$d(으)로 %1$s 이동</string>
     <string name="accessibility_qs_edit_tile_move_to_position">%1$d 위치로 이동</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s 제거됨</string>
     <string name="accessibility_qs_edit_tile_start_add">타일 추가</string>
     <string name="accessibility_qs_edit_tile_start_move">타일 이동</string>
+    <string name="accessibility_qs_item_drag">드래그 중</string>
+    <string name="accessibility_qs_position_hint">%1$d행 %2$d열에 위치됨</string>
     <string name="accessibility_quick_settings_alarm">알람이 %s(으)로 설정되었습니다.</string>
     <string name="accessibility_quick_settings_bluetooth">블루투스</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">실행</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">연결된 그립</string>
     <string name="accessibility_quick_settings_open_settings">%s 설정 열기</string>
     <string name="accessibility_quick_settings_page">%2$d페이지 중 %1$d페이지</string>
+    <string name="accessibility_quick_settings_page_indicator">페이지 표시기</string>
     <string name="accessibility_quick_settings_power_menu">전원 메뉴</string>
     <string name="accessibility_quick_settings_rotation">화면 자동 회전</string>
     <string name="accessibility_quick_settings_settings">설정 열기</string>
@@ -892,6 +895,7 @@
     <string name="enable_verbose_vendor_logging_summary">버그 신고에 추가적인 기기별 공급업체 로그를 포함합니다. 여기에는 개인정보가 포함될 수 있으며, 배터리 또는 저장공간 사용량이 늘어날 수 있습니다.</string>
     <string name="enabled_by_admin">관리자가 사용 설정함</string>
     <string name="enhanced_connectivity_summary">향상된 연결 기능을 사용 설정합니다.</string>
+    <string name="enrol_fingerprint_process_talkback">지문 추가 중</string>
     <string name="eras_ad">서기</string>
     <string name="eras_bc">기원전</string>
     <string name="error_disable_esim_msg">오류로 인해 eSIM을 사용 중지할 수 없습니다.</string>
@@ -1057,6 +1061,7 @@ PIN을 입력하여 잠금을 해제하십시오."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">d일 EE</string>
     <string name="format_week_day_style1_desc">%1$s, 해당 월의 일: %2$s</string>
+    <string name="free_form_recommend_tip">플로팅 창</string>
     <string name="friday">금요일</string>
     <string name="friday_short">금</string>
     <string name="friday_shortest">금</string>
@@ -1191,6 +1196,15 @@ PIN을 입력하여 잠금을 해제하십시오."</string>
     <string name="inattentive_sleep_warning_message">기기가 곧 꺼집니다. 계속 켜 두려면 누르세요.</string>
     <string name="inattentive_sleep_warning_title">대기</string>
     <string name="indeterminate">일부 선택됨</string>
+    <string name="info_focus_download_end">다운로드됨</string>
+    <string name="info_focus_download_start">플로팅 창을 열고 다운로드가 완료될 때까지 대기하십시오</string>
+    <string name="info_focus_download_update">다운로드 진행 과정</string>
+    <string name="info_focus_match_end">매칭 성공</string>
+    <string name="info_focus_match_start">플로팅 창을 열고 매칭될 때까지 대기하십시오</string>
+    <string name="info_focus_match_update">매칭하는 중…</string>
+    <string name="info_focus_rebirth_end">리스폰됨</string>
+    <string name="info_focus_rebirth_start">플로팅 창을 열고 리스폰될 때까지 대기하십시오</string>
+    <string name="info_focus_rebirth_update">리스폰 대기 중</string>
     <string name="inline_done_button">완료</string>
     <string name="inline_ok_button">적용</string>
     <string name="inline_turn_off_notifications">알림 사용 중지</string>
@@ -1473,6 +1487,7 @@ PIN을 입력하여 잠금을 해제하십시오."</string>
     <string name="log_access_confirmation_learn_more">자세히 알아보기</string>
     <string name="log_access_confirmation_learn_more_at">%s에서 자세히 알아보세요.</string>
     <string name="log_access_confirmation_title">%s에서 전체 기기 로그에 액세스하도록 허용하시겠습니까?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">기기가 과열되었습니다. 손전등 밝기를 낮추십시오.</string>
     <string name="m3c_search_bar_search">검색</string>
     <string name="m3c_suggestions_available">아래의 추천 검색어</string>
     <string name="magnification_close_settings_click_label">확대 설정 닫기</string>
@@ -2074,6 +2089,7 @@ IT 관리자가 설정, 기업 액세스, 앱, 기기와 연결된 데이터, �
     <string name="qs_control_big_tile_state_connected">연결됨</string>
     <string name="qs_control_big_tile_state_connecting">연결 중…</string>
     <string name="qs_control_big_tile_state_disconnected">연결되지 않음</string>
+    <string name="qs_control_big_tile_state_opened">켜짐</string>
     <string name="qs_control_big_tile_state_opening">켜는 중…</string>
     <string name="qs_control_big_tile_state_tethered_wifi">휴대전화 Wi-Fi 신호 사용 중</string>
     <string name="qs_control_big_tile_state_tethered_wlan">휴대전화 WLAN 신호 사용 중</string>
@@ -2493,6 +2509,7 @@ IT 관리자가 설정, 기업 액세스, 앱, 기기와 연결된 데이터, �
     <string name="speed_label_okay">보통</string>
     <string name="speed_label_slow">느림</string>
     <string name="speed_label_very_fast">매우 빠름</string>
+    <string name="split_screen_recommend_tip">분할 화면</string>
     <string name="split_screen_text">화면 분할</string>
     <string name="standby_bucket_summary">앱 대기 상태: %s</string>
     <string name="start_dreams">화면 보호기</string>

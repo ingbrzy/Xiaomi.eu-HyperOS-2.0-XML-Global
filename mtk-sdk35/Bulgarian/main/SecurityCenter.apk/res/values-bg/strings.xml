@@ -966,6 +966,7 @@
     <string name="bubble_notification">Чат балони</string>
     <string name="bubble_notification_switch">Показване на чат балони</string>
     <string name="bubble_notification_switch_desc">Когато приложение за съобщения е скрито в плаващ прозорец в края на екрана, входящите съобщения ще бъдат показвани в балони</string>
+    <string name="bubble_pickup_voice_print_auto">Записане на гласов отпечатък…</string>
     <string name="button_background_connection">Позволи</string>
     <string name="button_block_calls_from_cantacts">Отблокирай</string>
     <string name="button_block_calls_from_strangers">Отблокирай</string>
@@ -973,6 +974,8 @@
     <string name="button_do_not_disturb">Изключи</string>
     <string name="button_eye_shield">Изключи</string>
     <string name="button_first_aid_kit">Поправи сега</string>
+    <string name="button_pickup_voice_print_auto_agree">Запис</string>
+    <string name="button_pickup_voice_print_auto_disagree">Не сега</string>
     <string name="button_restrict_data_usage">Позволи</string>
     <string name="button_text_accept">Приеми</string>
     <string name="button_text_accept_timer">Приеми (%d)</string>
@@ -1231,6 +1234,7 @@
     <string name="cpu_usage_view_action_btn_text">Натиснете за преглед</string>
     <string name="create_gamebooster_destop">Успешно създаден пряк път на Началния екран</string>
     <string name="create_shortcut">Създайте пряк път на Началния екран за Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Не можете да използвате тази функция, докато използвате камера за различни устройства</string>
     <string name="cs_color_sense">Температура на цвета</string>
     <string name="cs_conversation_record_using">Записване</string>
@@ -1264,6 +1268,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">Запишете гласов отпечатък</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Запишете гласов отпечатък, преди да изберете „Един участник“</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Изключете външните устройства и опитайте отново</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Гласът Ви ще бъде записан и обработен само на това устройство. 
+За най-добри резултати записвайте сами на тихо място."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Необходим е гласов отпечатък за функцията „Персонализирано намаляване на шума\"</string>
     <string name="cs_pickup_voice_print_desc">Улавяйте звук само от един човек</string>
     <string name="cs_privacy_camera_global_settings_title">Поверителност на повикването</string>
     <string name="cs_record_voice_title">Записване</string>
@@ -3352,8 +3359,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="oaid_apps_title">Управление на виртуално ID</string>
     <string name="oaid_reset_content_tip">Ако изключите виртуалното ID сега, някои приложения може да спрат да функционират правилно, а част от вашите данни за приложения може да бъдат изгубени или да станат неизползваеми.</string>
     <string name="oaid_reset_final_tip">Желаете ли да изключите виртуалното ID въпреки това?</string>
-    <string name="oaid_string">"Текущо виртуално ID:
-%1s"</string>
+    <string name="oaid_string">Текущо виртуално ID:%1s</string>
     <string name="oaid_tips_content">Виртуалните ID (OAID) могат да бъдат използвани за следене на Вашето поведение и персонализация на рекламите за Вас. Можете да изберете кои приложения да получават достъп до Вашето виртуално ID. Забележете, че ако ограничите достъпа, препоръките за реклами може да станат незначителни и е възможно някои приложения да не работят правилно.</string>
     <string name="ok">ОК</string>
     <string name="ok_button">ОК</string>
@@ -3614,7 +3620,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_have_no_battery_issue">Няма проблеми</string>
     <string name="pc_health_charge_default">Пълно зареждане</string>
     <string name="pc_health_charge_protect_noti_summary_title">Устройството ще спре да се зарежда когато нивото на батерията достигне %1$s</string>
-    <string name="pc_health_charge_protect_notification_summary">Включете Защитата на батерията, за да намалите стареенето на батерията</string>
+    <string name="pc_health_charge_protect_notification_summary">Активирайте защита на батерията, за да забавите нейното остаряване.</string>
     <string name="pc_health_charge_protect_summary">За да удължи живота на батерията, устройството ще спре да се зарежда, когато нивото на батерията достигне %1$s</string>
     <string name="pc_health_charge_protect_summary_new">За да удължи живота на батерията, устройството ще спре да се зарежда, когато нивото на батерията достигне %1$s и ще се зарежда напълно само когато е планирано</string>
     <string name="pc_health_charge_protect_title">Защита на батерията</string>
@@ -3698,7 +3704,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Сгънете устройството преди зареждане за по-бързо и по-стабилно зареждане.</string>
     <string name="pc_remind_close_cover_to_charge_title">Сгънете, за да заредите</string>
     <string name="pc_reminder_always_protect_summary">Преминете към ограничено зареждане, за да намалите стареенето на батерията</string>
-    <string name="pc_remove_shell_charging_notification_msg">Не може да се използва безжично зареждане, когато се използва геймърски калъф. Махни го и опитай отново или използвай кабелно зареждане.</string>
     <string name="pc_remove_shell_charging_notification_title">Махни калъфа, за да използваш безжично зареждане</string>
     <string name="pc_remove_shell_charging_toast">Махни калъфа, за да използваш обратно безжично зареждане</string>
     <string name="pc_satellite_auto_enter_super_power">Включена е Свръх икономия на батерия, за да се осигурят сателитни комуникации</string>
@@ -3718,6 +3723,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">За да предпазиш устройство от прегряване, зареждането ще бъде спряно, когато нивото на батерията достигне %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Навигиране… Зареждането ще бъде спряно, когато нивото на батерията достигне %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Зареждането ще спре на %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Зареждането е прекъснато на %1$s. Ще се възобнови в %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Зареждането ще бъде прекъснато, когато батерията достигне %1$s, и ще се поднови автоматично съобразно използването.</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">За да се удължи живота на батерията, батерията на това устройство няма да надхвърли текущото ниво, докато е свързано към колата.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Не показвай отново</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Защита на батерията</string>
@@ -3737,6 +3744,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_suggest_open_fast_charge">Активиране на %dW бързо зареждане</string>
     <string name="pc_temperature_too_high">Устройството прегря</string>
     <string name="pc_this_time_charge_full">Този път зареди изцяло</string>
+    <string name="pc_this_time_charge_full_now">Зареди напълно</string>
     <string name="pc_this_time_charge_full_work">Почти заредена изцяло</string>
     <string name="pc_timely_charging_summary">Батерията е под %1$s. Ако устройството прегрее, докато батерията е изтощена, това може да я повреди.</string>
     <string name="pc_timely_charging_title">Заредете батерията</string>
@@ -4114,7 +4122,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">Преминаване към %d Hz скорост на опресняване</string>
     <string name="power_dialog_super_save_msg">Свръх икономия на батерията ограничава повечето услуги, които консумират енергия и забавят работата на Вашето устройство. Функционалността ще бъде сведена до основните неща за един телефон: обаждания, SMS и връзката с клетъчната мрежа. Те ще работят колкото се може по - дълго. Да включа ли режим Свръх икономия на батерията?</string>
     <string name="power_dialog_super_save_msg_5g">Ултра пестене на батерия ограничава повечето консумиращи енергия функции (напр. 5G свързаност), които намаляват ефективността на устройството Ви. Няма да бъдат ограничени само обажданията, съобщенията и мрежовата свързаност. Включване на Ултра пестене на батерия?</string>
-    <string name="power_dialog_super_save_msg_p2">Свръхикономията на батерията изключва задния дисплей и ограничава повечето услуги, които консумират енергия и забавят работата на Вашето устройство, като оставя само основни функционалности (напр. обаждания, SMS и връзка с клетъчната мрежа) възможно най-дълго. Желаете ли да включите режима „Свръхикономия на батерията“?</string>
     <string name="power_dialog_super_save_title">Свръх икономия на батерията</string>
     <string name="power_idle">Устройството е неактивно</string>
     <string name="power_main_battery_last_day_hour">Остават %1$sден %2$sч</string>
@@ -5820,10 +5827,14 @@ Xiaomi Gaming Cooler"</string>
     <string name="uninstall_app_dialog_msg">Деинсталирането ще премахне всички данни на приложението.</string>
     <string name="uninstall_app_dialog_title">Деинсталиране сега?</string>
     <string name="uninstall_app_done">Успешно деинсталиране</string>
+    <string name="uninstall_app_reminder_msg">Разбирам, че изтрите данни от приложението не могат да бъдат възстановени</string>
+    <string name="uninstall_app_reminder_pre_title">Деинсталиране на %s</string>
+    <string name="uninstall_app_reminder_toast">Потвърдете, че разбирате, че изтрите данни от приложението не могат да бъдат възстановени</string>
     <string name="uninstall_danagerous_btn">Деинсталирай</string>
     <string name="uninstall_danagerous_desc">\"%s\" може да повреди вашето устройство</string>
     <string name="uninstall_danagerous_msg">\"%s\" може да повреди вашето устройство, да забави работата му или да предизвика често рестартиране.</string>
     <string name="uninstall_danagerous_title">Премахване на вредните приложения</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Деинсталиране на клонирано прил. на %s</string>
     <string name="unknown_operator">Можете да се позвъните на телефон %2$s, за да потвърдите подробностите за плана си с %1$s.</string>
     <string name="unknown_package">Не сте сигурен какъв е вашия абонамент?</string>
     <string name="unlike">Не, благодаря</string>
@@ -6040,7 +6051,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="wakepath_delete_app_start_all">Ако продължите, ще трябва да дадете отново разрешение на %s, за да отваряте други приложения. Желаете ли да продължите въпреки това?</string>
     <string name="wakepath_delete_app_start_other_app">Ако продължите, ще трябва да дадете отново разрешение на %1$s, за да отворите %2$s. Желаете ли да продължите въпреки това?</string>
     <string name="wakepath_manager_allow_list">Разрешено</string>
-    <string name="wakepath_manager_allow_start">Разрешено</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Разрешете на %1$s да стартира други приложения</string>
     <string name="wakepath_manager_checkbox_title">Разрешаване на верижно стартиране</string>
     <string name="wakepath_manager_empty_list">Нито едно приложение няма разрешение да стартира</string>

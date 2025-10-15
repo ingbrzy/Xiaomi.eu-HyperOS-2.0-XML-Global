@@ -967,6 +967,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="bubble_notification">Pokalbių debesėliai</string>
     <string name="bubble_notification_switch">Rodyti pokalbių debesėlius</string>
     <string name="bubble_notification_switch_desc">Kai pranešimų programa laikinajame lange yra paslėpta ekrano krašte, rodyti gaunamus pranešimus debesėliais</string>
+    <string name="bubble_pickup_voice_print_auto">Įrašomos balso ypatybės…</string>
     <string name="button_background_connection">Leisti</string>
     <string name="button_block_calls_from_cantacts">Atblokuoti</string>
     <string name="button_block_calls_from_strangers">Atblokuoti</string>
@@ -974,6 +975,8 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="button_do_not_disturb">Išjungti</string>
     <string name="button_eye_shield">Išjungti</string>
     <string name="button_first_aid_kit">Ištaisyti dabar</string>
+    <string name="button_pickup_voice_print_auto_agree">Įrašyti</string>
+    <string name="button_pickup_voice_print_auto_disagree">Ne dabar</string>
     <string name="button_restrict_data_usage">Leisti</string>
     <string name="button_text_accept">Priimti</string>
     <string name="button_text_accept_timer">Priimti (%d)</string>
@@ -1232,6 +1235,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="cpu_usage_view_action_btn_text">Peržiūrai - palieskite</string>
     <string name="create_gamebooster_destop">Pagrindinio ekrano nuoroda sėkmingai sukurta</string>
     <string name="create_shortcut">Sukurti „Turbo žaidimų“ nuorodą pagrindiniame ekrane</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Negalima naudoti šios funkcijos, kai naudojate kelių įrenginių fotoaparatą</string>
     <string name="cs_color_sense">Spalvų temperatūra</string>
     <string name="cs_conversation_record_using">Įrašoma</string>
@@ -1265,6 +1269,9 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="cs_pickup_vioce_print_private_dialog_title">Įrašyti balso ypatybes</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Prieš pasirinkdami „Vienas dalyvis“, įrašykite jo balso ypatybes</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Atjunkite išorinius įrenginius ir bandykite dar kartą.</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Jūsų balsas bus įrašytas ir apdorotas tik šiame įrenginyje.
+Geriausiems rezultatams pasiekti įrašykite būdami vieni ramioje vietoje."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Norint naudoti suasmenintą triukšmo mažinimą, reikalingas balso ypatybių nustatymas</string>
     <string name="cs_pickup_voice_print_desc">Fiksuoti tik vieno asmens balsą</string>
     <string name="cs_privacy_camera_global_settings_title">Skambučio privatumas</string>
     <string name="cs_record_voice_title">Įrašyti</string>
@@ -3354,8 +3361,7 @@ Bandykite naudoti kitą Interneto kabelį, prijungti maršrutizatoriui. Jei įta
     <string name="oaid_apps_title">Valdyti virtualų ID</string>
     <string name="oaid_reset_content_tip">Išjungus virtualujį ID dabar, kai kurios programos gali nustoti tinkamai veikti, dalis jūsų programų duomenų gali būti prarasta arba nebenadojama.</string>
     <string name="oaid_reset_final_tip">Vis tiek išjungti virtualųjį ID?</string>
-    <string name="oaid_string">"Dabartinis virtualus ID:
-%1s"</string>
+    <string name="oaid_string">Dabartinis virtualus ID:%1s</string>
     <string name="oaid_tips_content">Virtualūs ID (OAID) gali būti naudojami jūsų elgesiui sekti ir suasmeninti jums rodomas reklamas. Galite pasirinkti, kurioms programėlėms bus leidžiama gauti prieigą prie jūsų virtualaus ID. Atkreipkite dėmesį, kad jeigu apribosite prieigą, reklamų rekomendacijos gali tapti nebeaktualios arba programėlės gali nebeveikti tinkamai.</string>
     <string name="ok">Gerai</string>
     <string name="ok_button">Gerai</string>
@@ -3700,7 +3706,6 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Sulenkite įrenginį prieš kraunant, kad įkrovimas būtų greitesnis ir stabilesnis.</string>
     <string name="pc_remind_close_cover_to_charge_title">Sulenkite, norėdami įkrauti</string>
     <string name="pc_reminder_always_protect_summary">Perjunkite į ribotą krovimą, kad lėčiau sentų akumuliatorius</string>
-    <string name="pc_remove_shell_charging_notification_msg">Negalima naudoti belaidžio įkrovimo uždėjus žaidimų dėklą. Nuimkite jį ir bandykite dar kartą arba naudokite laidinį įkrovimą.</string>
     <string name="pc_remove_shell_charging_notification_title">Nuimkite dėklą, kad galėtumėte naudoti belaidį įkrovimą</string>
     <string name="pc_remove_shell_charging_toast">Nuimkite dėklą, kad galėtumėte naudoti atvirkštinį belaidį įkrovimą</string>
     <string name="pc_satellite_auto_enter_super_power">Įjungtas ultra energijos taupymas, siekiant užtikrinti palydovinį ryšį</string>
@@ -3720,6 +3725,8 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Siekiant apsaugoti įrenginį nuo perkaitimo, įkrovimas bus sustabdytas, pasiekus %1$s baterijos lygį</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigavimas… Krovimas sustos, kai baterijos lygis pasieks %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Krovimas sustos, kai bus %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Įkrovimas sustabdytas ties %1$s. Automatiškai prasitęs pasiekus %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Įkrovimas bus pristabdytas akumuliatoriui pasiekus %1$s ir vėl prasitęs automatiškai priklausomai nuo jūsų naudojimo</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Siekiant pratęsti baterijos gyvavimo laiką, prie automobilio prijungta šio įrenginio baterija nesikraus daugiau nei šiuo metu esamas lygis.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Daugiau neberodyti</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Baterijos apsauga</string>
@@ -3739,6 +3746,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pc_suggest_open_fast_charge">Įjunkite %dW greitąjį įkrovimą</string>
     <string name="pc_temperature_too_high">Įrenginys perkaito</string>
     <string name="pc_this_time_charge_full">Šįkart įkrauti pilnai</string>
+    <string name="pc_this_time_charge_full_now">Įkrauti pilnai</string>
     <string name="pc_this_time_charge_full_work">Beveik pilnai įkrauta</string>
     <string name="pc_timely_charging_summary">Baterijos įkrovos lygis nesiekia %1$s. Jei įrenginys perkais, kai akumuliatoriaus įkrova žema, įrenginys gali būti sugadintas.</string>
     <string name="pc_timely_charging_title">Įkraukite įrenginį</string>
@@ -4116,7 +4124,6 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="power_dialog_performance_mode_checkbox">Perjungti į %d Hz naujinimo dažnį</string>
     <string name="power_dialog_super_save_msg">„Ultra energijos taupymas“ apriboja daugumą energiją naudojančių funkcijų ir sumažina jūsų įrenginio spartą, siekiant išlaikyti bazinį įrenginio funkcionalumą (pvz., skambučius, SMS ir interneto prieigą) pasiekiamą kuo ilgiau. Įjungti ultra energijos taupymą?</string>
     <string name="power_dialog_super_save_msg_5g">„Ultra“ energijos taupymas apriboja daugumą energiją eikvojančių funkcijų (pvz., 5G ryšį), sumažindamas jūsų įrenginio našumą. Šis pokytis nepaveiks tik skambučių, pranešimų ir tinklo ryšio. Įjungti „Ultra“ energijos taupymą?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultra energijos taupymas išjungia galinį ekraną ir apriboja daugumą energiją eikvojančių funkcijų, sumažindamas įrenginio našumą, kad pagrindinės funkcijos (pvz., skambučiai, SMS žinutės ir prisijungimas prie tinklo) veiktų kuo ilgiau. Įjungti ultra energijos taupymą?</string>
     <string name="power_dialog_super_save_title">Ultra energijos taupymas</string>
     <string name="power_idle">Telefonas budėjimo režimu</string>
     <string name="power_main_battery_last_day_hour">Liko %1$s d. %2$s val.</string>
@@ -5823,10 +5830,14 @@ Rolled over extra data"</string>
     <string name="uninstall_app_dialog_msg">Išdiegiant programą bus panaikinti visi programos duomenys.</string>
     <string name="uninstall_app_dialog_title">Išdiegti dabar?</string>
     <string name="uninstall_app_done">Išdiegta sėkmingai</string>
+    <string name="uninstall_app_reminder_msg">Suprantu, jog negalima atkurti pašalintos programėlės duomenų</string>
+    <string name="uninstall_app_reminder_pre_title">Išdiegti %s</string>
+    <string name="uninstall_app_reminder_toast">Patvirtinkite, kad suprantate, jog negalima atkurti pašalintos programėlės duomenų</string>
     <string name="uninstall_danagerous_btn">Išdiegti</string>
     <string name="uninstall_danagerous_desc">„%s“ gali pažeisti jūsų įrenginį</string>
     <string name="uninstall_danagerous_msg">„%s“ gali pažeisti jūsų įrenginį, sumažinti jo efektyvumą ar priversti telefoną pasileisti iš naujo.</string>
     <string name="uninstall_danagerous_title">Išdiegti kenkėjiškas programas</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">"Išdiegti %s's dvigubą programėlę"</string>
     <string name="unknown_operator">Galite paskambinti %2$s, kad patvirtintumėte savo %1$s plano duomenis.</string>
     <string name="unknown_package">Nežinote, koks jūsų planas?</string>
     <string name="unlike">Ne, ačiū</string>
@@ -6043,7 +6054,7 @@ Funkcija neveiks, jei įjungtas energijos taupymas arba Ultra energijos taupymas
     <string name="wakepath_delete_app_start_all">Jei tęsite, turėsite vėl suteikti %s teisę atidaryti kitas programėles. Vis tiek tęsti?</string>
     <string name="wakepath_delete_app_start_other_app">Jei tęsite, turėsite vėl suteikti %1$s teisę atidaryti %2$s. Vis tiek tęsti?</string>
     <string name="wakepath_manager_allow_list">Leidžiama</string>
-    <string name="wakepath_manager_allow_start">Leidžiama</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Leisti %1$s paleisti kitas programas</string>
     <string name="wakepath_manager_checkbox_title">Leisti paleidimo grandinę</string>
     <string name="wakepath_manager_empty_list">Neleidžiama paleisti jokių programų</string>

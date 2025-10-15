@@ -141,6 +141,7 @@
     <string name="disable_nfc">NFC را برای شارژ بی‌سیم خاموش کرد</string>
     <string name="disable_nfc_haptic_reverse">لرزش و NFC را برای شارژ بی‌سیم معکوس خاموش کرد</string>
     <string name="disable_nfc_reverse">NFC را برای شارژ بی‌سیم معکوس خاموش کرد</string>
+    <string name="earpiece_callmode_tip">با برگرداندن گوشی از ریزگوشی استفاده کنید</string>
     <string name="echo">پژواک</string>
     <string name="eighthours">۸ ساعت</string>
     <string name="enable_livetalk_summary">70% صرفه جویی در هزینه‌های تماس</string>
@@ -351,6 +352,10 @@
     <string name="popup_camera_tip">توجه</string>
     <string name="popup_camera_using_camera_background">%s درحال استفاده از دوربین جلوست</string>
     <string name="potion">معجون</string>
+    <string name="presentation_payphone">تلفن همگانی</string>
+    <string name="presentation_private">شماره خصوصی</string>
+    <string name="presentation_unknown">شماره ناشناس</string>
+    <string name="propotional_freeform_tip">به نظر می‌رسد این برنامه به طور کامل از پنجره‌های شناور پشتیبانی نمی‌کند</string>
     <string name="radar">رادار</string>
     <string name="raindrops">قطره‌های باران</string>
     <string name="realme">realme</string>
@@ -516,10 +521,6 @@
     <string name="toast_camera_satellite_mutually_exclusive">هنگام استفاده از ارتباطات ماهواره‌ای امکان استفاده از دوربین وجود ندارد</string>
     <string name="toast_mic_muted">میکروفن خاموش است</string>
     <string name="toast_mic_unmuted">میکروفن روشن است</string>
-    <string name="tof_music_support_scene_des">از کنترل‌ها پخش‌کننده موسیقی پشتیبانی می‌کند</string>
-    <string name="tof_office_support_scene_des">از اسناد Word و ارائه‌های PowerPoint پشتیبانی می‌کند</string>
-    <string name="tof_short_video_support_scene_des">از تعویض میان ویدئوها پشتیبانی می‌کند</string>
-    <string name="tof_video_support_scene_des">از کنترل‌های پخش کننده ویدئوی تمام‌صفحه پشتیبانی می‌کند</string>
     <string name="total">مزاحم نشوید</string>
     <string name="total_description">بی‌صدا کردن صداها و خاموش کردن لرزش برای همه موارد به‌جز هشدار ساعت</string>
     <string name="total_title">مزاحم نشوید</string>
@@ -541,6 +542,7 @@
     <string name="vivo">vivo</string>
     <string name="vivo_phone">vivo</string>
     <string name="wallpaper_floral_arrangement_title">گل آرایی</string>
+    <string name="wallpaper_geometrically_irregular_title">هندسه انتزاعی</string>
     <string name="wallpaper_gradient_title">چند لایه</string>
     <string name="wallpaper_group_black_white_title">سیاه و سفید</string>
     <string name="wallpaper_group_dynamic_nebula_subtitle">Teun van der Zalm</string>
@@ -604,14 +606,26 @@
     <string name="ability_dialog_button">متوجه‌ام</string>
     <string name="ability_dialog_text">به دلیل اندازه صفحه، ممکن است برخی از برنامه‌ها به اشتباه در صفحه بیرونی نمایش داده شوند.</string>
     <string name="ability_dialog_title">توجه</string>
-    <string name="aon_reader_support_scene_des">صفحه را هنگام مطالعه ورق می‌زند</string>
-    <string name="aon_video_support_scene_des">کنترل بازپخش ویدئو</string>
+    <string name="aon_music_double_press_support_scene_des">پخش یا مکث ویدئو</string>
+    <string name="aon_music_left_right_support_scene_des">تعویض به آهنگ قبلی یا بعدی</string>
+    <string name="aon_music_up_down_support_scene_des">تنظیم میزان صدای موسیقی</string>
+    <string name="aon_office_up_down_support_scene_des">رفتن به صفحه قبلی یا بعدی یک ارائه یا سند</string>
+    <string name="aon_reader_support_scene_des">از کنترل‌های مربوط به خواندن پشتیبانی می‌کند</string>
+    <string name="aon_short_video_up_down_support_scene_des">تعویض به ویدئوی قبلی یا بعدی</string>
+    <string name="aon_video_double_press_support_scene_des">پخش یا مکث ویدئو</string>
+    <string name="aon_video_left_right_support_scene_des">تنظیم روند ویدئو هنگام تماشا در حالت افقی</string>
+    <string name="aon_video_up_down_support_scene_des">تنظیم میزان صدای ویدئو</string>
+    <string name="config_quick_scanner_notification_content_text">با اسکن کدهای QR تارنماها را به صورت مستقیم باز کنید</string>
+    <string name="config_quick_scanner_notification_title">اسکنر فوری</string>
     <string name="flip_out_screen_on_proximity_sensor_summary_text">"در اینجا نحوه حذف این اعلان آمده است:
 %1$s. موانع را از ناحیه اطراف دوربین بردارید.
 %2$s. اگر این کمکی نکرد، دکمه افزایش صدا را فشار داده تا حالت جیبی خاموش شود."</string>
     <string name="global_help">دستگاه یافت نمی‌شود</string>
     <string name="global_my">"دستگاه‌ من
 %1$s"</string>
+    <string name="ime_rotation_tip">در این زاویه نمی‌توان متن را وارد کرد. ابتدا دستگاه را بچرخانید.</string>
+    <string name="ks_switch_tasks">تعویض موارد تازه</string>
+    <string name="linked_wallpaper">مجموعه‌های تصویر زمینه</string>
     <string name="mi_pad_6">Xiaomi Pad 6</string>
     <string name="mi_pad_6_pro">Xiaomi Pad 6 Pro</string>
     <string name="motorola">Motorola</string>
@@ -624,14 +638,23 @@
     <string name="screen_on_proximity_sensor_summary_text">"در اینجا روش حذف این اعلان آمده است:
 %1$s. موانع را از ناحیه‌ای که روی تصویر قرمز مشخص شده است بردارید.
 %2$s. اگر این کمکی نکرد، دکمه افزایش صدا را فشار داده تا حالت جیبی خاموش شود."</string>
+    <string name="share_device_near_share">هم‌رسانی در زمان نزدیک بودن</string>
+    <string name="share_device_near_share_hide">پنهان کردن</string>
+    <string name="share_device_near_share_image_describe">برای آغاز هم‌رسانی، بخش‌های NFC هر دو دستگاه را نزدیک یکدیگر قرار دهید</string>
     <string name="skipcoreappanr_notification_text">مشکل سیستم به صورت خودکار رفع شد</string>
     <string name="skipcoreappanr_notification_title">%1$s پاسخ نمی‌دهد</string>
     <string name="skipprocessanr_notification_text">فرآیند \"%1$s\" پاسخ نمی‌دهد</string>
     <string name="skipprocessanr_notification_title">سیستم پاسخ نمی‌دهد</string>
     <string name="super_wallpaper_list_label">تصاویر زمینه فوق‌العاده</string>
     <string name="switch_keyboard_layout_toast_hint" />
+    <string name="theme_titile_classis">کلاسیک</string>
+    <string name="theme_titile_classis_scenery">چشم‌انداز</string>
+    <string name="typec_acc_not_support_cancel">فهمیدم</string>
+    <string name="typec_acc_not_support_message">درگاه USB Type-C این محصول فقط از دستگاه‌های صوتی دیجیتال پشتیبانی می‌کند.</string>
+    <string name="typec_acc_not_support_tile">دستگاه پشتیبانی نمی‌شود</string>
     <string name="wallpaper_Fragrant_title">شکوفه</string>
     <string name="wallpaper_glazed_valley_title">Glaze</string>
+    <string name="wallpaper_group_pets_title">حیوانات خانگی</string>
     <string name="wallpaper_softlight_title">نور ملایم</string>
     <string name="xiaomi_13">Xiaomi 13</string>
     <string name="xiaomi_13t">Xiaomi 13T</string>
