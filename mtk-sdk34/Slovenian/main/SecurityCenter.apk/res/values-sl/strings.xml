@@ -966,6 +966,7 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="bubble_notification">Obvestila v mehurčku</string>
     <string name="bubble_notification_switch">Prikaži obvestila v mehurčku</string>
     <string name="bubble_notification_switch_desc">Ko bo plavajoče okno aplikacije za sporočila skrito na robu zaslona, bosta dohodna sporočila prikazana v mehurčkih</string>
+    <string name="bubble_pickup_voice_print_auto">Snemanje glasovnega odtisa…</string>
     <string name="button_background_connection">Dovoli</string>
     <string name="button_block_calls_from_cantacts">Odblokiraj</string>
     <string name="button_block_calls_from_strangers">Odblokiraj</string>
@@ -973,6 +974,8 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="button_do_not_disturb">Izklopi</string>
     <string name="button_eye_shield">Izklopi</string>
     <string name="button_first_aid_kit">Popravi zdaj</string>
+    <string name="button_pickup_voice_print_auto_agree">Snemaj</string>
+    <string name="button_pickup_voice_print_auto_disagree">Ne zdaj</string>
     <string name="button_restrict_data_usage">Dovoli</string>
     <string name="button_text_accept">Sprejmem</string>
     <string name="button_text_accept_timer">Sprejmem (%d)</string>
@@ -1231,6 +1234,7 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="cpu_usage_view_action_btn_text">Tapnite za prikaz</string>
     <string name="create_gamebooster_destop">Uspešno ustvarjena bližnjica na Začetnem zaslonu</string>
     <string name="create_shortcut">Ustvarite bližnjico za Game Turbo na Začetnem zaslonu</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Te funkcije ne morete uporabiti, ko je v uporabi Kamera med napravami</string>
     <string name="cs_color_sense">Temperatura barve</string>
     <string name="cs_conversation_record_using">Snemanje</string>
@@ -1264,6 +1268,9 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="cs_pickup_vioce_print_private_dialog_title">Posnemite glasovni odtis</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Posnemite glasovni odtis, preden izberete »En udeleženec«</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Odklopite zunanje naprave in poskusite ponovno</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Vaš glas bo posnet in obdelan samo v tej napravi.
+Za najboljše rezultate snemajte sami v tihem prostoru."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Za prilagojeno zmanjševanje šumov je potreben glasovni odtis</string>
     <string name="cs_pickup_voice_print_desc">Zajemi glas samo ene osebe</string>
     <string name="cs_privacy_camera_global_settings_title">Zasebnost klicev</string>
     <string name="cs_record_voice_title">Posnemi</string>
@@ -3352,8 +3359,7 @@ Poskusite povezati usmerjevalnik z drugim omrežnim kablom. Če mislite, da je t
     <string name="oaid_apps_title">Uredi virtualni ID</string>
     <string name="oaid_reset_content_tip">Če zdaj izklopite virtualni ID, nekatere aplikacije lahko prenehajo delovati pravilno, del podatkov aplikacij se lahko izgubi ali postane neuporaben.</string>
     <string name="oaid_reset_final_tip">Želite vseeno izklopiti virtualni ID?</string>
-    <string name="oaid_string">"Trenutni virtualni ID:
-%1s"</string>
+    <string name="oaid_string">Trenutni virtualni ID: %1s</string>
     <string name="oaid_tips_content">Virtualne ID-je (OAID) lahko uporabite za sledenje vašemu vedenju in prilagajanje oglasov za vas. Izberete lahko, katere aplikacije lahko dostopajo do vašega virtualnega ID-ja. Če omejite dostop, lahko priporočila za oglase postanejo neprimerna, aplikacije pa mogoče ne bodo normalno delovale.</string>
     <string name="ok">V redu</string>
     <string name="ok_button">V redu</string>
@@ -3698,7 +3704,6 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Za hitrejše in stabilnejše polnjenje, pred polnjenjem zložite napravo.</string>
     <string name="pc_remind_close_cover_to_charge_title">Zložite za polnjenje</string>
     <string name="pc_reminder_always_protect_summary">Preklopite na omejeno polnjenje, da zmanjšate staranje baterije</string>
-    <string name="pc_remove_shell_charging_notification_msg">Brezžično polnjenje ni mogoče, če uporabljate igralni ovitek. Odstranite ga in poskusite znova ali uporabite žično polnjenje.</string>
     <string name="pc_remove_shell_charging_notification_title">Za brezžično polnjenje odstranite ovitek</string>
     <string name="pc_remove_shell_charging_toast">Za uporabo povratnega brezžičnega polnjenja odstranite ovitek</string>
     <string name="pc_satellite_auto_enter_super_power">Vklopljeno skrajno varčevanje z baterijo za zagotavljanje satelitskih komunikacij</string>
@@ -3718,6 +3723,8 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Za zaščito naprave pred pregrevanjem se bo polnjenje ustavilo, ko bo baterija dosegla raven %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigacija… Polnjenje se bo ustavilo, ko bo raven baterije dosegla %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Polnjenje se bo ustavilo pri %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Polnjenje je ustavljeno pri %1$s. Nadaljevalo se bo pri %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Polnjenje se prekine, ko baterija doseže %1$s in se samodejno nadaljuje glede na vašo uporabo.</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Da bi podaljšali življenjsko dobo baterije, baterija te naprave ne bo presegla trenutne ravni, medtem ko je priključena na avtomobil.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Ne prikaži več</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Zaščita baterije</string>
@@ -3737,6 +3744,7 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pc_suggest_open_fast_charge">Vklopi hitro polnjenje %dW</string>
     <string name="pc_temperature_too_high">Naprava prevroča</string>
     <string name="pc_this_time_charge_full">Tokrat napolni do konca</string>
+    <string name="pc_this_time_charge_full_now">V celoti napolnite</string>
     <string name="pc_this_time_charge_full_work">Skoraj v celoti napolnjeno</string>
     <string name="pc_timely_charging_summary">Baterija je pod %1$s. Če se naprava pregreje, ko je baterija prazna, lahko to poškoduje baterijo.</string>
     <string name="pc_timely_charging_title">Napolnite vašo napravo</string>
@@ -4114,7 +4122,6 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="power_dialog_performance_mode_checkbox">Preklopite na %d Hz stopnjo osveževanja</string>
     <string name="power_dialog_super_save_msg">Skrajno varčevanje z baterijo omeji večino storitev, ki porabljajo baterijo (npr. 5G povezljivost), kar zniža učinkovitost delovanja naprave.To ne bo vplivalo le na klice, sporočila ter omrežno povezanost. Želite vklopiti Skrajno varčevanje z baterijo?</string>
     <string name="power_dialog_super_save_msg_5g">Skrajno varčevanje z baterijo omeji večino storitev, ki porabljajo baterijo (npr. 5G povezljivost), kar zniža učinkovitost delovanja naprave.To ne bo vplivalo le na klice, sporočila ter omrežno povezanost. Želite vklopiti Skrajno varčevanje z baterijo?</string>
-    <string name="power_dialog_super_save_msg_p2">Skrajno varčevanje z baterijo izklopi zaslon na zadnji strani in omeji večino funkcij, ki porabljajo baterijo, kar zniža učinkovitost delovanja naprave na osnovne funkcionalnosti (npr. klici, SMS sporočila in povezovanje z omrežjem), ki so na voljo toliko časa, kot je mogoče. Želite vklopiti Skrajno varčevanje z baterijo?</string>
     <string name="power_dialog_super_save_title">Skrajno varčevanje z baterijo</string>
     <string name="power_idle">Nedejavnost telefona</string>
     <string name="power_main_battery_last_day_hour">Prestalo še %1$s d %2$s u</string>
@@ -5820,10 +5827,14 @@ Preostali podatki vključujejo podatke, ki so prenešeni iz prejšnega meseca."<
     <string name="uninstall_app_dialog_msg">Odstranitev bo odstranila vse podatke aplikacije.</string>
     <string name="uninstall_app_dialog_title">Odstranim zdaj?</string>
     <string name="uninstall_app_done">Uspešno odstranjeno</string>
+    <string name="uninstall_app_reminder_msg">Razumem, da izbrisanih podatkov aplikacije ni mogoče obnoviti</string>
+    <string name="uninstall_app_reminder_pre_title">Odstrani %s</string>
+    <string name="uninstall_app_reminder_toast">Potrdite, da razumete, da izbrisanih podatkov aplikacije ni mogoče obnoviti</string>
     <string name="uninstall_danagerous_btn">Odstrani</string>
     <string name="uninstall_danagerous_desc">\"%s\" lahko poškoduje vašo napravo</string>
     <string name="uninstall_danagerous_msg">\"%s\" lahko poškoduje vašo napravo, zmanjša učinkovitost delovanja ali povzroči ponovne zagone.</string>
     <string name="uninstall_danagerous_title">Odstranite sumljive aplikacije</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Odstrani dvojno aplikacijo uporabnika %s</string>
     <string name="unknown_operator">Lahko pokličete na %2$s, in potrdite podrobnosti vašega paketa z operaterjem %1$s.</string>
     <string name="unknown_package">Niste prepričani, katero naročnino imate?</string>
     <string name="unlike">Ne, hvala</string>
@@ -6040,7 +6051,7 @@ Ta funkcija ne bo delovala, ko je vklopljeno varčevanje z baterijo ali skrajno 
     <string name="wakepath_delete_app_start_all">Če boste nadaljevali, boste morali dodeliti %s dovoljenje za odpiranje drugih aplikacij. Želite vseeno nadaljevati?</string>
     <string name="wakepath_delete_app_start_other_app">Če boste nadaljevali, boste morali za odprtje %2$s ponovno odobriti dovoljenje %1$s. Želite vseeno nadaljevati?</string>
     <string name="wakepath_manager_allow_list">Dovoljeno</string>
-    <string name="wakepath_manager_allow_start">Dovoljeno</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Dovoli %1$s zagon drugih aplikacij</string>
     <string name="wakepath_manager_checkbox_title">Dovoli verižni zagon</string>
     <string name="wakepath_manager_empty_list">Zagon ni dovoljen nobeni aplikaciji</string>

@@ -966,6 +966,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="bubble_notification">Samtalebobler</string>
     <string name="bubble_notification_switch">Vis samtalebobler</string>
     <string name="bubble_notification_switch_desc">Når en meldingsapp i et flytende vindu skjules på kanten av skjermen, skal innkommende meldinger vises i bobler</string>
+    <string name="bubble_pickup_voice_print_auto">Tar opp stemmeavtrykk…</string>
     <string name="button_background_connection">Tillat</string>
     <string name="button_block_calls_from_cantacts">Fjern blokkering</string>
     <string name="button_block_calls_from_strangers">Fjern blokkering</string>
@@ -973,6 +974,8 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="button_do_not_disturb">Slå av</string>
     <string name="button_eye_shield">Slå av</string>
     <string name="button_first_aid_kit">Reparer nå</string>
+    <string name="button_pickup_voice_print_auto_agree">Ta opp</string>
+    <string name="button_pickup_voice_print_auto_disagree">Ikke nå</string>
     <string name="button_restrict_data_usage">Tillat</string>
     <string name="button_text_accept">Godta</string>
     <string name="button_text_accept_timer">Aksepter (%d)</string>
@@ -1231,6 +1234,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="cpu_usage_view_action_btn_text">Trykk for å se</string>
     <string name="create_gamebooster_destop">Snarvei på startskjermen er opprettet</string>
     <string name="create_shortcut">Lag en Startskjerm med snarvei til Spillturbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Kan ikke bruke denne funksjonen mens kamera på tvers av enheten er i bruk</string>
     <string name="cs_color_sense">Fargetemperatur</string>
     <string name="cs_conversation_record_using">Tar opp</string>
@@ -1264,6 +1268,9 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="cs_pickup_vioce_print_private_dialog_title">Ta opp stemmeavtrykk</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Gjør opptak av stemmeavtrykk før du velger \"Enkelt deltaker\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Koble fra eksterne enheter og prøv igjen</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Det gjøres opptak av stemmen din, og dette behandles bare på denne enheten.
+For best mulig resultat bør du gjøre opptaket alene, på et rolig sted."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Stemmeavtrykk kreves f or persontilpasset støyreduksjon</string>
     <string name="cs_pickup_voice_print_desc">Fang opp lyd fra bare én person</string>
     <string name="cs_privacy_camera_global_settings_title">Samtaleintegritet</string>
     <string name="cs_record_voice_title">Ta opp</string>
@@ -1923,8 +1930,8 @@ Når Smart bildefrekvens er aktivert, vil oppdagingsverktøyene for bildefrekven
     <string name="game_toolbox_slow_charge_positive_btn">Aktiver</string>
     <string name="game_toolbox_slow_charge_title">Treg lading</string>
     <string name="game_toolbox_slow_charge_toast">Saktelading er aktivert</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">Hapitisk feedback fungerer ikke med originale oppsett. Hapitisk feedback er deaktivert.</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">Hapitisk feedback fungerer ikke med originale oppsett</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Haptisk tilbakemelding fungerer ikke med originale oppsett. Haptisk tilbakemelding er deaktivert.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptisk tilbakemelding fungerer ikke med originale oppsett</string>
     <string name="game_toolbox_smotion_vibrate_desc">Legg til haptisk feedback i samsvar med spillets bevegelser. Støttes bare av enkelte spill.</string>
     <string name="game_toolbox_smotion_vibrate_title">Haptisk tilbakemelding</string>
     <string name="game_toolbox_super_follow_up_msg">Forbedre berøringsrespons og sporing gjennom hele maskinvare- og programvarelinjen</string>
@@ -3352,8 +3359,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="oaid_apps_title">Administrer virtuell ID</string>
     <string name="oaid_reset_content_tip">Hvis du deaktiverer virtuell ID nå, kan det hende at noen apper ikke fungerer som de skal. Deler av appdataene kan gå tapt eller bli ubrukelige.</string>
     <string name="oaid_reset_final_tip">Deaktivere virtuell ID likevel?</string>
-    <string name="oaid_string">"Nåværende virtuelle ID:
-%1s"</string>
+    <string name="oaid_string">Aktuell virtuell ID:%1s</string>
     <string name="oaid_tips_content">Virtuelle ID-er (OAID) kan brukes til å spore aktiviteten din og tilpasse annonser for deg. Du kan velge hvilke apper som får tilgang til din virtuelle ID. Vær oppmerksom på at hvis du begrenser tilgangen, kan annonseanbefalinger bli irrelevante, eller apper vil kanskje ikke fungere normalt.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ Ultrabatterisparer"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Brett sammen enheten før du lader for en raskere og mer stabil ladeopplevelse.</string>
     <string name="pc_remind_close_cover_to_charge_title">Brett sammen for å lade</string>
     <string name="pc_reminder_always_protect_summary">Bytt til begrenset lading for å redusere batterislitasje</string>
-    <string name="pc_remove_shell_charging_notification_msg">Kan ikke bruke trådløs lading når du bruker et spilletui. Fjern den og prøv igjen, eller bruk kablet lading.</string>
     <string name="pc_remove_shell_charging_notification_title">Fjern etuiet for å bruke trådløs lading</string>
     <string name="pc_remove_shell_charging_toast">Fjern etuiet for å bruke omvendt trådløs lading</string>
     <string name="pc_satellite_auto_enter_super_power">Aktiverte ultrabatterisparing for å sikre satelittkommunikasjon</string>
@@ -3718,6 +3723,8 @@ Ultrabatterisparer"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">For å beskytte enheten mot overoppheting stanses ladingen når batterinivået er oppe på %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigerer… Ladingen stoppes når batterinivået når %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Ladingen stoppes på %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Lading satt på pause på %1$s. Den gjenopptas på %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Lading settes på pause når batterinivået når %1$s, og gjenoppta automatisk basert på bruken din</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">For å forlenge batteriets levetid vil batteriet til denne enheten ikke gå over gjeldende nivå når den er koblet til bilen.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Ikke vis igjen</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Batteribeskyttelse</string>
@@ -3737,6 +3744,7 @@ Ultrabatterisparer"</string>
     <string name="pc_suggest_open_fast_charge">Aktiver %dW hurtiglading</string>
     <string name="pc_temperature_too_high">Enhet er overopphetet</string>
     <string name="pc_this_time_charge_full">Lade helt opp denne gangen</string>
+    <string name="pc_this_time_charge_full_now">Lade helt opp</string>
     <string name="pc_this_time_charge_full_work">Nesten fulladet</string>
     <string name="pc_timely_charging_summary">Batterinivået er under %1$s. Hvis enheten overopphetes mens batterinivået er lavt, kan det skade batteriet.</string>
     <string name="pc_timely_charging_title">Lad enheten din</string>
@@ -4114,7 +4122,6 @@ Ultrabatterisparer"</string>
     <string name="power_dialog_performance_mode_checkbox">Bytt til %d Hz oppdateringsfrekvens</string>
     <string name="power_dialog_super_save_msg">Ultrabatterisparer begrenser de fleste strømforbrukende funksjonene og reduserer ytelsen til enheten for at basisfunksjonene (f.eks. anrop, SMS og tilkobling til nettverk) skal være tilgjengelige så lenge som mulig. Aktivere ultrabatterisparer?</string>
     <string name="power_dialog_super_save_msg_5g">Ultrabatterisparer begrenser de fleste funksjoner som bruker strøm (f.eks. 5G-tilkobling), noe som senker ytelsen på enheten. Anrop, meldinger og nettverkstilkobling er alt som ikke blir påvirket. Aktivere Ultrabatterisparer?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultrabatterisparer slår av den bakre skjermen og begrenser de fleste strømforbrukende funksjonene slik at ytelsen til enheten reduseres for at basisfunksjonene (f.eks. anrop, SMS og tilkobling til nettverk) skal være tilgjengelige så lenge som mulig. Aktivere ultrabatterisparer?</string>
     <string name="power_dialog_super_save_title">Ultrabatterisparer</string>
     <string name="power_idle">Telefon inaktiv</string>
     <string name="power_main_battery_last_day_hour">%1$sd %2$st gjenstår</string>
@@ -4255,7 +4262,7 @@ Ultrabatterisparer"</string>
     <string name="power_wireless_update_dialog_message">Lad opp enheten til minst %s for å kunne oppdatere fastvare for trådløs lading.</string>
     <string name="power_wireless_update_dialog_title">Lite batteri</string>
     <string name="power_wireless_update_driver">Fastvareoppdateringer</string>
-    <string name="power_wireless_update_driver_note">Du kan se etter fastvareoppdateringer og installere nye versjoner autmatisk når de gis ut. Ikke slå av enheten mens den ser etter eller installerer oppdateringer.</string>
+    <string name="power_wireless_update_driver_note">Du kan se etter fastvareoppdateringer og installere nye versjoner automatisk når de gis ut. Ikke slå av enheten mens den ser etter eller installerer oppdateringer.</string>
     <string name="power_wireless_update_error">Kunne ikke oppdatere. Prøv igjen.</string>
     <string name="power_wireless_update_in_progress">Oppdaterer fastvare …</string>
     <string name="power_wireless_update_notification_button">Vis</string>
@@ -5820,10 +5827,14 @@ Gjenstående data inkluderer data som har blitt videreført fra den forrige mån
     <string name="uninstall_app_dialog_msg">Avinstallering vil fjerne alle appdata.</string>
     <string name="uninstall_app_dialog_title">Avinstallere nå?</string>
     <string name="uninstall_app_done">Avinstalleringen var vellykket</string>
+    <string name="uninstall_app_reminder_msg">Jeg forstår at slettede appdata ikke kan gjenopprettes</string>
+    <string name="uninstall_app_reminder_pre_title">Avinstaller %s</string>
+    <string name="uninstall_app_reminder_toast">Bekreft at du forstår at slettede appdata ikke kan gjenopprettes</string>
     <string name="uninstall_danagerous_btn">Avinstaller</string>
     <string name="uninstall_danagerous_desc">\"%s\" kan skade enheten din</string>
     <string name="uninstall_danagerous_msg">\"%s\" kan skade enheten din, senke ytelsen eller forårsake reboots.</string>
     <string name="uninstall_danagerous_title">Avinstaller ond apps</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Avsintaller dobbeltappen til %s</string>
     <string name="unknown_operator">Du kan ringe %2$s for å bekrefte pakkens detaljer med %1$s.</string>
     <string name="unknown_package">Ikke sikker på hva planen din er?</string>
     <string name="unlike">Nei takk</string>
@@ -6040,7 +6051,7 @@ Denne funksjonen fungerer ikke når Batterisparer eller Ultrabatterisparer er ak
     <string name="wakepath_delete_app_start_all">Hvis du fortsetter, må du gi %s tillatelse igjen for å kunne åpne andre apper. Fortsette likevel?</string>
     <string name="wakepath_delete_app_start_other_app">Hvis du fortsetter, må du gi %1$s tillatelse igjen for å kunne åpne %2$s. Fortsette likevel?</string>
     <string name="wakepath_manager_allow_list">Tillatt</string>
-    <string name="wakepath_manager_allow_start">Tillatt</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Tillat %1$s å starte andre apper</string>
     <string name="wakepath_manager_checkbox_title">Tillat kjedestart</string>
     <string name="wakepath_manager_empty_list">Ingen apper har tillatelse til å starte</string>

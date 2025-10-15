@@ -966,6 +966,7 @@
     <string name="bubble_notification">Φούσκες συνομιλίας</string>
     <string name="bubble_notification_switch">Προβολή φούσκων συνομιλίας</string>
     <string name="bubble_notification_switch_desc">Όταν μια εφαρμογή μηνυμάτων σε ένα αναδυόμενο παράθυρο είναι κρυμμένη στην άκρη της οθόνης, εμφανίστε τα εισερχόμενα μηνύματα σε φούσκες</string>
+    <string name="bubble_pickup_voice_print_auto">Ηχογράφηση φωνητικού αποτυπώματος…</string>
     <string name="button_background_connection">Αποδοχή</string>
     <string name="button_block_calls_from_cantacts">Άρση αποκλεισμού</string>
     <string name="button_block_calls_from_strangers">Άρση αποκλεισμού</string>
@@ -973,6 +974,8 @@
     <string name="button_do_not_disturb">Απενεργοποίηση</string>
     <string name="button_eye_shield">Απενεργοποίηση</string>
     <string name="button_first_aid_kit">Επιδιόρθωση τώρα</string>
+    <string name="button_pickup_voice_print_auto_agree">Ηχογράφηση</string>
+    <string name="button_pickup_voice_print_auto_disagree">Όχι τώρα</string>
     <string name="button_restrict_data_usage">Αποδοχή</string>
     <string name="button_text_accept">Αποδοχή</string>
     <string name="button_text_accept_timer">Αποδοχή (%d)</string>
@@ -1231,6 +1234,7 @@
     <string name="cpu_usage_view_action_btn_text">Αγγίξτε για προβολή</string>
     <string name="create_gamebooster_destop">Επιτυχής δημιουργία συντόμευσης Αρχικής οθόνης</string>
     <string name="create_shortcut">Δημιουργία συντόμευσης Αρχικής οθόνης για το Τούρμπο παιχνιδιού</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Δεν είναι δυνατή η χρήση αυτής της λειτουργίας κατά τη χρήση κάμερας μεταξύ συσκευών</string>
     <string name="cs_color_sense">Θερμοκρασία χρώματος</string>
     <string name="cs_conversation_record_using">Ηχογράφηση</string>
@@ -1264,6 +1268,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">Ηχογράφηση φωνητικού αποτυπώματος</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Ηχογραφήστε το φωνητικό αποτύπωμα πριν επιλέξετε \"Μεμονωμένος συμμετέχων\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Αποσυνδέστε τις εξωτερικές συσκευές και δοκιμάστε ξανά</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Η φωνή σας θα ηχογραφηθεί και θα υποβληθεί σε επεξεργασία μόνο σε αυτήν τη συσκευή.
+Για καλύτερα αποτελέσματα, ηχογραφήστε μόνοι σας σε ένα ήσυχο μέρος."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Απαιτείται Φωνητικό αποτύπωμα για Εξατομικευμένη μείωση θορύβου</string>
     <string name="cs_pickup_voice_print_desc">Εστίαση στον ήχο μόνο ενός ατόμου</string>
     <string name="cs_privacy_camera_global_settings_title">Απόρρητο κλήσεων</string>
     <string name="cs_record_voice_title">Ηχογράφηση</string>
@@ -1925,8 +1932,8 @@
     <string name="game_toolbox_slow_charge_positive_btn">Ενεργοποίηση</string>
     <string name="game_toolbox_slow_charge_title">Αργή φόρτιση</string>
     <string name="game_toolbox_slow_charge_toast">Αργή φόρτιση ενεργή</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">Η απτική ανάδραση δεν λειτουργεί με τις αρχικές διατάξεις. Η απτική ανάδραση είναι απενεργοποιημένη.</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">Η απτική ανάδραση δεν λειτουργεί με τις αρχικές διατάξεις</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Η Απτική ανάδραση δεν λειτουργεί με τις αρχικές διατάξεις. Η Απτική ανάδραση είναι απενεργοποιημένη.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Η Απτική ανάδραση δεν λειτουργεί με τις αρχικές διατάξεις</string>
     <string name="game_toolbox_smotion_vibrate_desc">Προσθήκη απτικής ανάδρασης σύμφωνα με τις κινήσεις του παιχνιδιού. Υποστηρίζονται μόνο ορισμένα παιχνίδια.</string>
     <string name="game_toolbox_smotion_vibrate_title">Απτική ανάδραση</string>
     <string name="game_toolbox_super_follow_up_msg">Ενίσχυση απόκρισης αφής και παρακολούθησης μέσω του ολοκληρωμένου συστήματος υλικολογισμικού</string>
@@ -3354,8 +3361,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="oaid_apps_title">Διαχείριση εικονικού αναγνωριστικού</string>
     <string name="oaid_reset_content_tip">Εάν απενεργοποιήσετε τώρα το εικονικό σας αναγνωριστικό, ορισμένες εφαρμογές μπορεί να σταματήσουν να λειτουργούν κανονικά και ένα μέρος των δεδομένων εφαρμογής μπορεί να χαθεί ή να γίνει άχρηστο.</string>
     <string name="oaid_reset_final_tip">"Απενεργοποίηση του εικονικού αναγνωριστικού παρ' όλα αυτά;"</string>
-    <string name="oaid_string">"Τρέχον εικονικό αναγνωριστικό:
-%1s"</string>
+    <string name="oaid_string">Τρέχον Εικονικό αναγνωριστικό:%1s</string>
     <string name="oaid_tips_content">Τα Εικονικά Αναγνωριστικά (OAID) μπορούν να χρησιμοποιηθούν για την παρακολούθηση της συμπεριφοράς σας και την εξατομίκευση διαφημίσεων για εσάς. Μπορείτε να επιλέξετε ποιες εφαρμογές επιτρέπεται να έχουν πρόσβαση στο εικονικό σας αναγνωριστικό. Λάβετε υπόψη ότι εάν περιορίσετε την πρόσβαση, οι προτάσεις διαφημίσεων ενδέχεται να μην είναι σχετικές ή οι εφαρμογές να μην μπορούν να λειτουργήσουν κανονικά.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3700,7 +3706,6 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Διπλώστε τη συσκευή πριν τη φόρτιση για μια ταχύτερη και πιο σταθερή εμπειρία φόρτισης.</string>
     <string name="pc_remind_close_cover_to_charge_title">Διπλώστε για να φορτίσετε</string>
     <string name="pc_reminder_always_protect_summary">Κάντε εναλλαγή σε περιορισμένη φόρτιση για μείωση της γήρανσης της μπαταρίας</string>
-    <string name="pc_remove_shell_charging_notification_msg">Δεν είναι δυνατή η χρήση ασύρματης φόρτισης όταν χρησιμοποιείτε θήκη gaming. Αφαιρέστε την και δοκιμάστε ξανά ή χρησιμοποιήστε ενσύρματη φόρτιση.</string>
     <string name="pc_remove_shell_charging_notification_title">Αφαιρέστε τη θήκη για να χρησιμοποιήσετε την ασύρματη φόρτιση</string>
     <string name="pc_remove_shell_charging_toast">Αφαιρέστε τη θήκη για να χρησιμοποιήσετε την αντίστροφη ασύρματη φόρτιση</string>
     <string name="pc_satellite_auto_enter_super_power">Ενεργοποιήθηκε η Ultra εξοικονόμηση μπαταρίας για τη διασφάλιση δορυφορικών επικοινωνιών</string>
@@ -3720,6 +3725,8 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Για να προστατεύσετε τη συσκευή σας από υπερθέρμανση, η φόρτιση θα σταματήσει όταν το επίπεδο της μπαταρίας φτάσει στο %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Πλοήγηση… Η φόρτιση θα σταματήσει όταν το επίπεδο της μπαταρίας φτάσει στο %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Η φόρτιση θα σταματήσει στο %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Η φόρτιση διακόπηκε στο %1$s. Θα συνεχίσει στο %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Η φόρτιση θα διακοπεί όταν η μπαταρία φτάσει στο %1$s και θα συνεχιστεί αυτόματα ανάλογα με τη χρήση σας.</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Για να παρατείνετε τη διάρκεια ζωής της μπαταρίας, η μπαταρία αυτής της συσκευής δεν θα υπερβαίνει το τρέχον επίπεδο όταν είναι συνδεδεμένη στο αυτοκίνητο.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Να μην εμφανιστεί ξανά</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Προστασία μπαταρίας</string>
@@ -3739,6 +3746,7 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="pc_suggest_open_fast_charge">Ενεργοποίηση γρήγορης φόρτισης %dW</string>
     <string name="pc_temperature_too_high">Η συσκευή έχει ζεσταθεί υπερβολικά</string>
     <string name="pc_this_time_charge_full">Πλήρης φόρτιση αυτήν τη φορά</string>
+    <string name="pc_this_time_charge_full_now">Πλήρης φόρτιση</string>
     <string name="pc_this_time_charge_full_work">Σχεδόν πλήρης φόρτιση</string>
     <string name="pc_timely_charging_summary">Η μπαταρία είναι κάτω από το %1$s. Εάν η συσκευή υπερθερμανθεί ενώ η μπαταρία είναι χαμηλή, αυτό μπορεί να προκαλέσει βλάβη στην μπαταρία.</string>
     <string name="pc_timely_charging_title">Φορτίστε τη συσκευή σας</string>
@@ -4116,7 +4124,6 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="power_dialog_performance_mode_checkbox">Εναλλαγή σε %d ρυθμό ανανέωσης Hz</string>
     <string name="power_dialog_super_save_msg">Η Εξαιρετική εξοικονόμηση μπαταρίας περιορίζει τις λειτουργίες που καταναλώνουν περισσότερη ενέργεια και μειώνει την απόδοση της συσκευής σας, ώστε να παραμείνουν διαθέσιμες όσο το δυνατόν περισσότερο οι βασικές λειτουργίες (π.χ. κλήσεις, SMS και σύνδεση στο δίκτυο). Ενεργοποίηση Εξαιρετικής εξοικονόμησης μπαταρίας;</string>
     <string name="power_dialog_super_save_msg_5g">Η Εξαιρετική εξοικονόμηση μπαταρίας περιορίζει τις περισσότερες λειτουργίες που καταναλώνουν ενέργεια (π.χ., συνδεσιμότητα 5G) με μείωση των αποδόσεων της συσκευής σας. Δεν θα επηρεαστούν μόνο οι κλήσεις, τα μηνύματα και η συνδεσιμότητα δικτύου. Ενεργοποίηση της Εξαιρετική εξοικονόμηση μπαταρίας;</string>
-    <string name="power_dialog_super_save_msg_p2">Η Εξαιρετική εξοικονόμηση μπαταρίας απενεργοποιεί την πίσω οθόνη και περιορίζει τις λειτουργίες που καταναλώνουν περισσότερη ενέργεια της συσκευής σας, μειώνοντας την απόδοση της συσκευής σας, ώστε να παραμείνουν διαθέσιμες όσο το δυνατόν περισσότερο οι βασικές λειτουργίες (π.χ. κλήσεις, SMS και σύνδεση στο δίκτυο). Ενεργοποίηση Εξαιρετικής εξοικονόμησης μπαταρίας;</string>
     <string name="power_dialog_super_save_title">Εξαιρετική εξοικονόμηση μπαταρίας</string>
     <string name="power_idle">Τηλέφωνο αδρανές</string>
     <string name="power_main_battery_last_day_hour">%1$sμ %2$sω απομένουν</string>
@@ -5821,10 +5828,14 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="uninstall_app_dialog_msg">Η απεγκατάσταση θα αφαιρέσει όλα τα δεδομένα εφαρμογής.</string>
     <string name="uninstall_app_dialog_title">Απεγκατάσταση τώρα;</string>
     <string name="uninstall_app_done">Επιτυχής απεγκατάσταση</string>
+    <string name="uninstall_app_reminder_msg">Κατανοώ πως τα δεδομένα της διαγραμμένης εφαρμογής δεν μπορούν να αποκατασταθούν</string>
+    <string name="uninstall_app_reminder_pre_title">Απεγκατάσταση %s</string>
+    <string name="uninstall_app_reminder_toast">Επιβεβαιώστε ότι κατανοείτε πως τα δεδομένα της διαγραμμένης εφαρμογής δεν μπορούν να αποκατασταθούν</string>
     <string name="uninstall_danagerous_btn">Απεγκατάσταση</string>
     <string name="uninstall_danagerous_desc">\"%s\" μπορεί να επιφέρει βλάβη στην συσκευή σας</string>
     <string name="uninstall_danagerous_msg">\"%s\" μπορεί να επιφέρει βλάβη στην συσκευή σας, να μειώσει την απόδοση, ή να προκαλέσει επανεκκινήσεις.</string>
     <string name="uninstall_danagerous_title">Απεγκατάσταση κακόβουλων εφαρμογών</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Απεγκατάσταση διπλότυπης εφαρμογής του/της %s</string>
     <string name="unknown_operator">Μπορείτε να καλέσετε στο %2$s για να επιβεβαιώσετε τα στοιχεία του σχεδίου σας με %1$s.</string>
     <string name="unknown_package">Δεν είστε σίγουροι τι σχέδιο έχετε;</string>
     <string name="unlike">Όχι ευχαριστώ</string>
@@ -6041,7 +6052,7 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="wakepath_delete_app_start_all">Εάν συνεχίσετε, θα πρέπει να παραχωρήσετε ξανά στο %s άδεια για να ανοίξει άλλες εφαρμογές. Συνέχεια ούτως ή άλλως;</string>
     <string name="wakepath_delete_app_start_other_app">Εάν συνεχίσετε, θα πρέπει να παραχωρήσετε ξανά στο %1$s την άδεια για να ανοίξει το %2$s. Συνέχεια ούτως ή άλλως;</string>
     <string name="wakepath_manager_allow_list">Έγινε αποδοχή</string>
-    <string name="wakepath_manager_allow_start">Έγινε αποδοχή</string>
+    <string name="wakepath_manager_allow_start">Να επιτρέπεται πάντα</string>
     <string name="wakepath_manager_checkbox_desc">Επιτρέψτε στο %1$s να εκκινήσει άλλες εφαρμογές</string>
     <string name="wakepath_manager_checkbox_title">Να επιτραπεί η έναρξη αλυσίδας</string>
     <string name="wakepath_manager_empty_list">Δεν επιτρέπεται η εκκίνηση εφαρμογών</string>

@@ -939,6 +939,7 @@
     <string name="bubble_notification">בועות שיחה</string>
     <string name="bubble_notification_switch">להציג בועות שיחה</string>
     <string name="bubble_notification_switch_desc">להציג הודעות נכנסות בבועות כאשר יישום הודעות בחלון צף מוסתר בשולי המסך</string>
+    <string name="bubble_pickup_voice_print_auto">מקליט טביעת קול…</string>
     <string name="button_background_connection">אשר</string>
     <string name="button_block_calls_from_cantacts">בטל חסימה</string>
     <string name="button_block_calls_from_strangers">בטל חסימה</string>
@@ -946,6 +947,8 @@
     <string name="button_do_not_disturb">כבה</string>
     <string name="button_eye_shield">כבה</string>
     <string name="button_first_aid_kit">תקן עכשיו</string>
+    <string name="button_pickup_voice_print_auto_agree">להקליט</string>
+    <string name="button_pickup_voice_print_auto_disagree">לא עכשיו</string>
     <string name="button_restrict_data_usage">אשר</string>
     <string name="button_text_accept">קבל</string>
     <string name="button_text_accept_timer">קבל (%d)</string>
@@ -1174,6 +1177,7 @@
     <string name="cpu_usage_view_action_btn_text">לחץ לצפיה</string>
     <string name="create_gamebooster_destop">קיצור הדרך במסך הבית נוצר בהצלחה</string>
     <string name="create_shortcut">צור קיצור דרך למאיץ המשחקים במסך הבית</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">לא ניתן להשתמש במאפיין זה בזמן שימוש במצלמה למכשירים מרובים</string>
     <string name="cs_color_sense">טמפרטורת צבע</string>
     <string name="cs_conversation_record_using">מקליט</string>
@@ -1207,6 +1211,9 @@
     <string name="cs_pickup_vioce_print_private_dialog_title">הקלטת טביעת קול</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">יש להקליט טביעת קול לפני בחירת \"משתתף יחיד\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">יש לנתק מכשירים חיצוניים ולנסות שוב</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"הקול שלך יוקלט ויעובד במכשיר זה בלבד.
+לתוצאות מיטביות, יש לבצע הקלטה לבד, במקום שקט."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">נדרשת טביעת קול להפחתת רעשים בהתאמה אישית</string>
     <string name="cs_pickup_voice_print_desc">להקליט קול מאדם אחד בלבד</string>
     <string name="cs_privacy_camera_global_settings_title">פרטיות בשיחות</string>
     <string name="cs_record_voice_title">להקליט</string>
@@ -1808,8 +1815,8 @@
     <string name="game_toolbox_slow_charge_positive_btn">להפעיל</string>
     <string name="game_toolbox_slow_charge_title">טעינה איטית</string>
     <string name="game_toolbox_slow_charge_toast">טעינה איטית מופעלת</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">משוב מישוש לא עובד עם פריסות מקוריות. משוב המישוש מובשת.</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">משוב מישוש לא עובד עם פריסות מקוריות</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">משוב מישושי לא עובד עם פריסות מקוריות. המשוב המישושי מושבת.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">משוב מישושי לא עובד עם פריסות מקוריות</string>
     <string name="game_toolbox_smotion_vibrate_desc">הוספת משוב מישוש בהתאם לתנועות במשחק. רק חלק מהמשחקים נתמכים.</string>
     <string name="game_toolbox_smotion_vibrate_title">משוב מישוש</string>
     <string name="game_toolbox_super_follow_up_msg">הגברת התגובה למגע וניטור באמצעות צנרת חומרה-תוכנה מלאה</string>
@@ -3190,8 +3197,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="oaid_apps_title">נהל מזהה וירטואלי</string>
     <string name="oaid_reset_content_tip">אם תכבו את המזהה הוירטואלי (Virtual ID) כעת, חלק מהיישומים עלולים שלא לעבוד כראוי. ייתכן שחלק מנתוני היישומים שלכם יאבדו או יהפכו לבלתי שמישי.</string>
     <string name="oaid_reset_final_tip">האם בכל זאת לכבות את המזהה הוירטואלי (Virtual ID)?</string>
-    <string name="oaid_string">"מזהה וירטואלי נוכחי:
-%1s"</string>
+    <string name="oaid_string">המזהה הווירטואלי הנוכחי: %1s</string>
     <string name="oaid_tips_content">מזהים וירטואלים (OAID) יכולים לשמש למעקב אחר ההתנהגות שלך ולהתאים לך פרסומות באופן אישי. ניתן לבחור אילו יישומים מורשים לגשת למזהה הוירטואלי שלך.</string>
     <string name="ok">אישור</string>
     <string name="ok_button">אישור</string>
@@ -3535,7 +3541,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_remind_close_cover_to_charge_summary">יש לקפל את המכשיר לפני הטעינה לחוויית טעינה מהירה ויציבה יותר.</string>
     <string name="pc_remind_close_cover_to_charge_title">יש לקפל כדי לטעון</string>
     <string name="pc_reminder_always_protect_summary">מעבר לטעינה מוגבלת כדי לצמצם את בלאי הסוללה</string>
-    <string name="pc_remove_shell_charging_notification_msg">לא ניתן להתשמש בטעינה אלחוטית כשמשתמשים במארז גיימינג. יש להסיר אותו לנסות מחדש, או להשתמש בטעינה עם כבל.</string>
     <string name="pc_remove_shell_charging_notification_title">יש להסיר את המארז כדי להשתמש בטעינה אלחוטית</string>
     <string name="pc_remove_shell_charging_toast">הסירו את המארז לשימוש בטעינת רשת אלחוטית אחורית</string>
     <string name="pc_satellite_auto_enter_super_power">הופעל חיסכון קיצוני בסוללה כדי להבטיח תקשורת לוויינית</string>
@@ -3555,6 +3560,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">כדי להגן על המכשיר מפני התחממות יתר, הטעינה תופסק ברגע שרמת הסוללה תגיע ל-%1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">מנווט… הטעינה תופסק ברגע שרמת הסוללה תגיע ל-%1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">הטעינה תופסק ב-%s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">טעינה הושהתה ב-%1$s. היא תתחדש ב-%2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">טעינה תושהה כשרמת הסוללה תגיע ל-%1$s, ותתחדש אוטומטית בהתאם לשימוש שלך</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">כדי להאריך את משך חיי הסוללה, רמת הסוללה של המכשיר לא תעלה על רמתה הנוכחית בזמן שהמכשיר מחובר למכונית.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">לא להציג שוב</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">הגנת הסוללה</string>
@@ -3574,6 +3581,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_suggest_open_fast_charge">הפעל טעינה מהירה ב-%dW</string>
     <string name="pc_temperature_too_high">המכשיר התחמם יתר על המידה</string>
     <string name="pc_this_time_charge_full">לבצע טעינה מלאה הפעם</string>
+    <string name="pc_this_time_charge_full_now">לטעון עד הסוף</string>
     <string name="pc_this_time_charge_full_work">הסוללה נטענה כמעט במלואה</string>
     <string name="pc_timely_charging_summary">אחוז הסוללה הוא מתחת ל-%1$s. התחממות יתר של המכשיר כשהסוללה חלשה עלולה לפגוע בסוללה.</string>
     <string name="pc_timely_charging_title">טען את מכשירך</string>
@@ -3951,7 +3959,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="power_dialog_performance_mode_checkbox">מעבר לקצב רענון של %d הרץ</string>
     <string name="power_dialog_super_save_msg">חיסכון קיצוני בסוללה יגביל את רוב תכונות צריכת החשמל ותקטין את ביצועי המכשיר בכדי לאפשר שמירה על פונקציונליות בסיסית (למשל שיחות, SMS, וחיבור לרשת) לזמן ארוך ככל שניתן. האם להפעיל חיסכון קיצוני בסוללה?</string>
     <string name="power_dialog_super_save_msg_5g">מצב חיסכון סוללה קיצוני מגביל את רוב המאפיינים עם צריכת סוללה גבוהה (למשל, קישוריות 5G), מה שפוגע בביצועי המכשיר. רק שיחות, הודעות וקישוריות לרשת לא ייפגעו. להפעיל מצב של חיסכון סוללה קיצוני?</string>
-    <string name="power_dialog_super_save_msg_p2">מצב חיסכון קיצוני בסוללה מכבה את התצוגה האחורית ומגביל את רוב המאפיינים עם צריכת חשמל גבוהה, מה שמפחית את ביצועי המכשיר כדי לאפשר שימוש בפונקציות בסיסיות (למשל, שיחות, מסרונים וחיבור לרשת) למשך זמן ארוך ככל שניתן. האם להפעיל את מצב חיסכון קיצוני בסוללה?</string>
     <string name="power_dialog_super_save_title">חיסכון קיצוני בסוללה</string>
     <string name="power_idle">מצב המתנה</string>
     <string name="power_main_battery_last_day_hour">"%1$s ימים %2$s ש' נותרו"</string>
@@ -5653,10 +5660,14 @@ Rolled over extra data"</string>
     <string name="uninstall_app_dialog_msg">הסרת התקנת היישום תסיר את כל הנתונים שלו.</string>
     <string name="uninstall_app_dialog_title">להסיר התקנה כעת?</string>
     <string name="uninstall_app_done">הוסר בהצלחה</string>
+    <string name="uninstall_app_reminder_msg">מובן לי שלא ניתן לשחזר את הנתונים של יישום שנמחק</string>
+    <string name="uninstall_app_reminder_pre_title">להסיר את התקנת %s</string>
+    <string name="uninstall_app_reminder_toast">יש לאשר כי מובן לך שלא ניתן לשחזר את הנתונים של יישום שנמחק</string>
     <string name="uninstall_danagerous_btn">הסר</string>
     <string name="uninstall_danagerous_desc">\"%s\" עלול להזיק למכשירך</string>
     <string name="uninstall_danagerous_msg">\"%s\" עלול להזיק למכשירך, להאט את ביצועיו או לגרום לאתחולים.</string>
     <string name="uninstall_danagerous_title">הסרת התקנה של יישומים זדוניים</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">להסיר את התקנת היישום המשוכפל של %s</string>
     <string name="unknown_operator">תוכל להתקשר אל %2$s כדי לאשר את פרטי התוכנית שלך עם %1$s.</string>
     <string name="unknown_package">לא בטוח איזה תוכנית יש לך?</string>
     <string name="unlike">לא תודה</string>
@@ -5871,7 +5882,7 @@ Rolled over extra data"</string>
     <string name="wakepath_delete_app_start_all">אם תמשיכו, תצטרכו לאשר ל-%s מחדש לפתוח יישומים אחרים. להמשיך בכל זאת?</string>
     <string name="wakepath_delete_app_start_other_app">אם תמשיכו, תצטרכו לאשר ל-%1$s מחדש לפתוח את %2$s. להמשיך בכל זאת?</string>
     <string name="wakepath_manager_allow_list">מותר</string>
-    <string name="wakepath_manager_allow_start">מותר</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">לאפשר ל-%1$s להפעיל יישומים אחרים</string>
     <string name="wakepath_manager_checkbox_title">לאפשר התחלת שרשרת</string>
     <string name="wakepath_manager_empty_list">אין יישומים שהפעלתם מותרת</string>

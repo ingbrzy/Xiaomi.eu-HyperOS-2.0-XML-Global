@@ -966,6 +966,7 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="bubble_notification">Keskustelukuplat</string>
     <string name="bubble_notification_switch">Näytä keskustelukuplat</string>
     <string name="bubble_notification_switch_desc">Kun kelluvassa ikkunassa oleva viestimissovellus on piilotettu näytön reunaan, näytä saapuvat viestit kuplina</string>
+    <string name="bubble_pickup_voice_print_auto">Tallennetaan äänijälkeä…</string>
     <string name="button_background_connection">Salli</string>
     <string name="button_block_calls_from_cantacts">Poista esto</string>
     <string name="button_block_calls_from_strangers">Poista esto</string>
@@ -973,6 +974,8 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="button_do_not_disturb">Poista käytöstä</string>
     <string name="button_eye_shield">Poista käytöstä</string>
     <string name="button_first_aid_kit">Korjaa nyt</string>
+    <string name="button_pickup_voice_print_auto_agree">Tallenna</string>
+    <string name="button_pickup_voice_print_auto_disagree">Ei nyt</string>
     <string name="button_restrict_data_usage">Salli</string>
     <string name="button_text_accept">Hyväksy</string>
     <string name="button_text_accept_timer">Hyväksy (%d)</string>
@@ -1231,6 +1234,7 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="cpu_usage_view_action_btn_text">Napauta katsoaksesi</string>
     <string name="create_gamebooster_destop">Aloitusnäytön pikavalinta luotiin onnistuneesti</string>
     <string name="create_shortcut">Luo aloitusnäytön pikavalinta Game Turbolle</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Et voi käyttää tätä ominaisuutta, kun käytät laitteiden välistä kameraa</string>
     <string name="cs_color_sense">Värilämpötila</string>
     <string name="cs_conversation_record_using">Nauhoitetaan</string>
@@ -1264,6 +1268,9 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="cs_pickup_vioce_print_private_dialog_title">Nauhoita äänitulostus</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Nauhoita äänijälki ennen kuin valitset \"Yksi osallistuja\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Irrota ulkoiset laitteet ja yritä uudelleen</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Äänesi tallennetaan ja sitä käsitellään vain tällä laitteella.
+Parhaan tuloksen saavuttamiseksi tallenna yksin hiljaisessa paikassa."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Äänijälki tarvitaan henkilökohtaiseen melunvaimennukseen</string>
     <string name="cs_pickup_voice_print_desc">Poimi äänen vain yhdeltä henkilöltä</string>
     <string name="cs_privacy_camera_global_settings_title">Puheluyksityisyys</string>
     <string name="cs_record_voice_title">Nauhoita</string>
@@ -3352,8 +3359,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="oaid_apps_title">Hallinnoi virtuaalitunnusta</string>
     <string name="oaid_reset_content_tip">Jos poistat virtuaalitunnuksen käytöstä nyt, jotkut sovellukset saattavat lakata toimimasta kunnolla, osa sovellustiedoista saattaa kadota tai tulla käyttökelvottomiksi.</string>
     <string name="oaid_reset_final_tip">Poistetaanko virtuaalitunnus käytöstä?</string>
-    <string name="oaid_string">"Nykyinen virtuaalinen tunnus:
-%1s"</string>
+    <string name="oaid_string">Nykyinen virtuaalitunnus:%1s</string>
     <string name="oaid_tips_content">Virtuaalitunnuksia (OAID) voidaan käyttää käyttäytymisen seuraamiseen ja mainosten mukauttamiseen puolestasi. Voit valita, mitkä sovellukset saavat käyttää virtuaalitunnustasi. Huomaa, että jos rajoitat pääsyä, mainossuositukset voivat olla merkityksettömiä tai sovellukset eivät välttämättä toimi normaalisti.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3698,7 +3704,6 @@ ultravirransäästö"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Taita laite ennen lataamista nopeamman ja vakaamman latauskokemuksen saavuttamiseksi.</string>
     <string name="pc_remind_close_cover_to_charge_title">Taita ladataksesi</string>
     <string name="pc_reminder_always_protect_summary">Vaihda rajoitettuun lataukseen vähentääksesi akun ikääntymistä</string>
-    <string name="pc_remove_shell_charging_notification_msg">Langatonta latausta ei voi käyttää pelikuoria käytettäessä. Poista kuoret ja yritä uudelleen tai käytä langallista latausta.</string>
     <string name="pc_remove_shell_charging_notification_title">Poista kuoret langatonta latausta varten</string>
     <string name="pc_remove_shell_charging_toast">Poista kuoret käänteistä langatonta latausta varten</string>
     <string name="pc_satellite_auto_enter_super_power">Ultravirransäästö on otettu käyttöön satelliittiviestinnän varmistamiseksi</string>
@@ -3718,6 +3723,8 @@ ultravirransäästö"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Laitteen suojaamiseksi ylikuumenemiselta lataus keskeytyy, kun akun varaustaso saavuttaa %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigoidaan… Lataus lopetetaan, kun akun varaustaso saavuttaa %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Lataus pysähtyy %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Lataus keskeytetty varaustasolla %1$s. Se jatkuu taas, kun varaus laskee arvoon %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Lataus keskeytetään, kun akun varaus saavuttaa %1$s, ja se jatkuu automaattisesti käyttötottumustesi mukaan</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Akun keston pidentämiseksi tämän laitteen akku ei ylitä nykyistä tasoa, kun se on liitettynä autoon.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Älä näytä uudelleen</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Akun suojaus</string>
@@ -3737,6 +3744,7 @@ ultravirransäästö"</string>
     <string name="pc_suggest_open_fast_charge">Ota %dW pikalataus käyttöön</string>
     <string name="pc_temperature_too_high">Laite ylikuumentunut</string>
     <string name="pc_this_time_charge_full">Lataa täyteen tällä kertaa</string>
+    <string name="pc_this_time_charge_full_now">Lataa täyteen</string>
     <string name="pc_this_time_charge_full_work">Melkein ladattu täyteen</string>
     <string name="pc_timely_charging_summary">Akun varaustaso on alle %1$s. Jos laite ylikuumenee akun ollessa vähissä, se voi vahingoittaa akkua.</string>
     <string name="pc_timely_charging_title">Lataa laitteesi</string>
@@ -4114,7 +4122,6 @@ ultravirransäästö"</string>
     <string name="power_dialog_performance_mode_checkbox">Vaihda virkistystaajuuteen %d Hz</string>
     <string name="power_dialog_super_save_msg">Ultravirransäästö rajoittaa valtaosa akkua kuluttavia ominaisuuksia ja laskee laitteesi suorituskykyä salliakseen perustoiminnot (esim. puhelut, tekstiviestit ja verkkoon yhdistäminen) toimimaan mahdollisimman kauan. Otetaanko ultravirransäästö käyttöön?</string>
     <string name="power_dialog_super_save_msg_5g">Ultravirransäästö rajoittaa useimpia akkua kuluttavia ominaisuuksia (esim. 5G-liitettävyys), mikä heikentää laitteen suorituskykyä. Vain puhelut, viestit ja verkkoyhteydet eivät ole vaikutuksenalaisia. Otetaanko ultravirransäästö käyttöön?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultravirransäästö sammuttaa takanäytön ja rajoittaa eniten akkua kuluttavia ominaisuuksia, mikä alentaa laitteesi suorituskykyä ja pitää perustoiminnot (esim. puhelut, tekstiviestit ja verkkoon yhdistäminen) käytettävissä mahdollisimman kauan. Otetaanko ultravirransäästö käyttöön?</string>
     <string name="power_dialog_super_save_title">Ultravirransäästö</string>
     <string name="power_idle">Puhelin käyttämättömänä</string>
     <string name="power_main_battery_last_day_hour">%1$spv %2$st jäljellä</string>
@@ -5820,10 +5827,14 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="uninstall_app_dialog_msg">Poistaminen hävittää kaikki sovellustiedot.</string>
     <string name="uninstall_app_dialog_title">Poistetaanko nyt?</string>
     <string name="uninstall_app_done">Poistettu onnistuneesti</string>
+    <string name="uninstall_app_reminder_msg">Ymmärrän, ettei poistettuja sovellustietoja voida palauttaa</string>
+    <string name="uninstall_app_reminder_pre_title">Poista %s</string>
+    <string name="uninstall_app_reminder_toast">Vahvista ymmärtäväsi, ettei poistettuja sovellustietoja voida palauttaa</string>
     <string name="uninstall_danagerous_btn">Poista</string>
     <string name="uninstall_danagerous_desc">\"%s\" voi vahingoittaa laitettasi</string>
     <string name="uninstall_danagerous_msg">\"%s\" voi vahingoittaa laitettasi, laskea sen suorituskykyä tai aiheuttaa uudelleen käynnistyksiä.</string>
     <string name="uninstall_danagerous_title">Poista haitalliset sovellukset</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Poista sovelluksen %s kaksoissovellus</string>
     <string name="unknown_operator">Voit soittaa numerolle %2$s vahvistaaksesi suunnitelmasi tiedot sovelluksella %1$s.</string>
     <string name="unknown_package">Etkö ole varma, mikä on pakettisi?</string>
     <string name="unlike">Ei kiitos</string>
@@ -6040,7 +6051,7 @@ Tämä ominaisuus ei toimi, kun virransäästö tai ultravirransäästö on käy
     <string name="wakepath_delete_app_start_all">Jos jatkat, sinun on myönnettävä käyttäjälle %s uudelleen lupa muiden sovellusten avaamiseen. Jatka silti?</string>
     <string name="wakepath_delete_app_start_other_app">Jos jatkat, sinun on myönnettävä %1$s uudelleen lupa avata %2$s. Jatka silti?</string>
     <string name="wakepath_manager_allow_list">Sallittu</string>
-    <string name="wakepath_manager_allow_start">Sallittu</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Salli sovelluksen %1$s käynnistää muita sovelluksia</string>
     <string name="wakepath_manager_checkbox_title">Salli ketjun aloitusta</string>
     <string name="wakepath_manager_empty_list">Sovelluksia ei voi käynnistää</string>

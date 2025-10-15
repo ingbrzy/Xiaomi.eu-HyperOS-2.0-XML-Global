@@ -939,6 +939,7 @@ Lakin, bəzi əməliyyatlarınız hələ tamamlanmayıb. Razılığı geri çək
     <string name="bubble_notification">Söhbət qabarcıqları</string>
     <string name="bubble_notification_switch">Söhbət qabarcıqlarını göstər</string>
     <string name="bubble_notification_switch_desc">Sürüşən pəncərələr mesajlaşma tətbiqi ekranın kənarında gizlədildikdə, gələn mesajları qabarcıqlarda göstərin</string>
+    <string name="bubble_pickup_voice_print_auto">Səs yazısı qeydə alınır…</string>
     <string name="button_background_connection">İcazə ver</string>
     <string name="button_block_calls_from_cantacts">Əngəldən çıxar</string>
     <string name="button_block_calls_from_strangers">Əngəldən çıxar</string>
@@ -946,6 +947,8 @@ Lakin, bəzi əməliyyatlarınız hələ tamamlanmayıb. Razılığı geri çək
     <string name="button_do_not_disturb">Söndür</string>
     <string name="button_eye_shield">Söndür</string>
     <string name="button_first_aid_kit">İndi düzəlt</string>
+    <string name="button_pickup_voice_print_auto_agree">Qeyd et</string>
+    <string name="button_pickup_voice_print_auto_disagree">İndi yox</string>
     <string name="button_restrict_data_usage">İcazə ver</string>
     <string name="button_text_accept">Qəbul et</string>
     <string name="button_text_accept_timer">Qəbul et (%d)</string>
@@ -1174,6 +1177,7 @@ Lakin, bəzi əməliyyatlarınız hələ tamamlanmayıb. Razılığı geri çək
     <string name="cpu_usage_view_action_btn_text">Baxmaq üçün toxunun</string>
     <string name="create_gamebooster_destop">Əsas ekran qısayolu uğurla yaradıldı</string>
     <string name="create_shortcut">Game Turbo üçün Əsas ekran qısayolu yarat</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Cihazlar arası kameradan istifadə edərkən bu funksiyadan istifadə etmək mümkün deyil</string>
     <string name="cs_color_sense">Rəng temperaturu</string>
     <string name="cs_conversation_record_using">Qeyd edilir</string>
@@ -1207,6 +1211,9 @@ Lakin, bəzi əməliyyatlarınız hələ tamamlanmayıb. Razılığı geri çək
     <string name="cs_pickup_vioce_print_private_dialog_title">Səs yazısı qeyd edin</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">\"Tək iştirakçı\" seçimini etməzdən əvvəl səs yazısını qeyd edin</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Xarici cihazları ayırın və yenidən cəhd edin</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Səsiniz yalnız bu cihazda qeyd olunacaq və işlənəcək.
+Ən yaxşı nəticələr üçün sakit yerdə tək qeyd edin."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Fərdi səs-küy azaldılması üçün səs yazısı tələb olunur</string>
     <string name="cs_pickup_voice_print_desc">Səsi yalnız bir nəfərdən götürün</string>
     <string name="cs_privacy_camera_global_settings_title">Zəng gizliliyi</string>
     <string name="cs_record_voice_title">Qeyd et</string>
@@ -1843,7 +1850,7 @@ Ağıllı kadr tezliyi aktiv olduqda, oyundaxili və üçüncü tərəf kadr tez
     <string name="gamebooster_push_expiring_soon_title">Game Turbo</string>
     <string name="gamebox_ai_accelerate">Mobil trafik Sİ dəstəyi</string>
     <string name="gamebox_ai_accelerate_description">Mobil şəbəkənin qoşulma sürətini gücləndirmək və mobil trafiki yaddaşda saxlamaq üçün şəbəkə mühitini təhlil et</string>
-    <string name="gamebox_ai_subtitle">Sİ altyazıları</string>
+    <string name="gamebox_ai_subtitle">AI Altyazıları</string>
     <string name="gamebox_app_not_find">Əvvəlcə tətbiqi quraşdırın.</string>
     <string name="gamebox_brightness">Parlaqlıq</string>
     <string name="gamebox_browser_not_find">Əvvəlcə Mi Brauzer quraşdırın</string>
@@ -3190,8 +3197,7 @@ Marşurutlayıcınıza qoşulmaq üçün başqa Ethernet kabelindən istifadə e
     <string name="oaid_apps_title">Virtual Kimliyi idarə et</string>
     <string name="oaid_reset_content_tip">İndi virtual Kimliyi söndürsəniz, bəzi tətbiqlər düzgün işləməyini dayandıra bilər, tətbiq məlumatlarınızın bir hissəsi itirilə bilər və ya yararsız hala düşə bilər.</string>
     <string name="oaid_reset_final_tip">Hər halda virtual Kimlik söndürülsün?</string>
-    <string name="oaid_string">"Mövcud virtual Kimlik:
-%1s"</string>
+    <string name="oaid_string">Cari virtual Kimlik:%1s</string>
     <string name="oaid_tips_content">Virtual Kimlik-lər (OAID) davranışlarınızı izləmək və sizin üçün reklamları fərdiləşdirmək üçün istifadə edilə bilər. Virtual kimliyinizə hansı tətbiqlərə icazə veriləcəyini seçə bilərsiniz. Nəzərə alın ki, girişi məhdudlaşdırsanız, reklam tövsiyələri əhəmiyyətsiz ola bilər və ya tətbiqlər normal işləyə bilməz.</string>
     <string name="ok">Oldu</string>
     <string name="ok_button">Oldu</string>
@@ -3535,7 +3541,6 @@ qənaət söndürülür"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Daha sürətli və daha sabit şarj təcrübəsi üçün şarj etməzdən əvvəl cihazı qatlayın.</string>
     <string name="pc_remind_close_cover_to_charge_title">Şarj etmək üçün qatlayın</string>
     <string name="pc_reminder_always_protect_summary">Batareyanın köhnəlməsini azaltmaq üçün məhdud şarja keçin</string>
-    <string name="pc_remove_shell_charging_notification_msg">Oyun korpusundan istifadə edərkən simsiz enerji yığmadan istifadə etmək mümkün deyil. Onu çıxarın və yenidən cəhd edin və ya simli enerji yığmadan istifadə edin.</string>
     <string name="pc_remove_shell_charging_notification_title">Simsiz enerji yığmadan istifadə etmək üçün korpusu çıxarın</string>
     <string name="pc_remove_shell_charging_toast">Tərs simsiz enerji yığmadan istifadə etmək üçün korpusu çıxarın</string>
     <string name="pc_satellite_auto_enter_super_power">Peyk rabitəsini təmin etmək üçün Ultra batareya qənaəti aktivləşdirildi</string>
@@ -3555,6 +3560,8 @@ qənaət söndürülür"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Cihazınızı həddindən artıq istiləşmədən qorumaq üçün batareyanın səviyyəsi %1$s çatdıqda şarj dayandırılacaq</string>
     <string name="pc_smart_charge_notify_summary_navagition">Naviqasiya… Batareya %1$s çatanda enerji yığma dayanacaq</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Enerji yığma %s dayanacaq</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Şarj %1$s-də dayandırıldı. %2$s-də davam edəcək.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Batareya %1$s-ə çatdıqda şarj etmə dayandırılacaq və istifadənizə əsasən avtomatik olaraq davam etdiriləcək</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Batayeranın ömrünü uzatmaq üçün bu cihazın batareya enerjisi avtomobilə qoşularkən cari səviyyədən yuxarı qalxmayacaq.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Təkrar göstərmə</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Batareyanın qorunması</string>
@@ -3574,6 +3581,7 @@ qənaət söndürülür"</string>
     <string name="pc_suggest_open_fast_charge">%dW sürətli enerji yığmanı aç</string>
     <string name="pc_temperature_too_high">Cihaz həddindən artıq isindi</string>
     <string name="pc_this_time_charge_full">Bu dəfə tam enerji yığ</string>
+    <string name="pc_this_time_charge_full_now">Tamamilə şarj edin</string>
     <string name="pc_this_time_charge_full_work">Demək olar ki tam enerji yığdı</string>
     <string name="pc_timely_charging_summary">Batareya %1$s-dən aşağıdır. Batareya az olarkən cihaz həddindən artıq qızarsa, bu, batareyaya zərər verə bilər.</string>
     <string name="pc_timely_charging_title">Cihazınıza enerji yığın</string>
@@ -3951,7 +3959,6 @@ qənaət söndürülür"</string>
     <string name="power_dialog_performance_mode_checkbox">%d Hz yeniləmə tezliyinə dəyişdir</string>
     <string name="power_dialog_super_save_msg">Ultra batareya qənaəti, əsas funksionallığı (məs. zənglər, SMS, və şəbəkəyə qoşulma) daha uzun müddət istifadə edilə bilən saxlaması üçün ən çox enerji sərf edən xüsusiyyətləri məhdudlaşdırar və cihaz performansını azaldar. Ultra batareya qənaəti açılsın?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra batareya qənaəti rejimi cihazınızın performansını azaldan və ən çox enerji sərf edən xüsusiyyətləri (məs. 5G bağlantısı) məhdudlaşdırır. Yalnız zənglər, mesajlar və şəbəkə əlaqəsinə təsir etməyəcək. Ultra batareya qənaəti rejimi açılsın?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultra batareya qənaəti arxa ekranı söndürür və ən çox enerji sərf edən funksiyaları məhdudlaşdırır, əsas funksiyaları (məsələn, zənglər, SMS və şəbəkəyə qoşulma) mümkün qədər istifadədə saxlamaq üçün cihazınızın performansını azaldır. Ultra batareya qənaəti aktiv edilsin?</string>
     <string name="power_dialog_super_save_title">Ultra batareya qənaəti</string>
     <string name="power_idle">Telefon gözləmədə</string>
     <string name="power_main_battery_last_day_hour">%1$sgün %2$ssa qaldı</string>
@@ -5653,10 +5660,14 @@ Qalan məlumata əvvəlki aydan qalan məlumatda daxildir."</string>
     <string name="uninstall_app_dialog_msg">Silmə əməliyyatı tətbiq məlumatlarının hamısını siləcək.</string>
     <string name="uninstall_app_dialog_title">İndi silinsin?</string>
     <string name="uninstall_app_done">Uğurla silindi</string>
+    <string name="uninstall_app_reminder_msg">Silinmiş tətbiq məlumatlarının bərpa edilə bilməyəcəyini başa düşürəm</string>
+    <string name="uninstall_app_reminder_pre_title">Sil %s</string>
+    <string name="uninstall_app_reminder_toast">Silinmiş tətbiq məlumatlarının bərpa edilə bilməyəcəyini başa düşdüyünüzü təsdiqləyin</string>
     <string name="uninstall_danagerous_btn">Sil</string>
     <string name="uninstall_danagerous_desc">\"%s\" cihazınıza zərər verə bilər</string>
     <string name="uninstall_danagerous_msg">\"%s\" cihazınıza zərər verə bilər, performansını daha zəiflədər və ya yenidən başlada bilər.</string>
     <string name="uninstall_danagerous_title">Pisniyyətli tətbiqi sil</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">%s-in ikili tətbiqini sil</string>
     <string name="unknown_operator">Planınızın təfərrüatlarını %1$s ilə təsdiqləmək üçün %2$s nömrəsinə zəng edə bilərsiniz.</string>
     <string name="unknown_package">Planınızın nə olduğundan əmin deyilsiniz?</string>
     <string name="unlike">Xeyr, təşəkkürlər</string>
@@ -5845,7 +5856,7 @@ Dəqiqliyi artırmağı sınayın!"</string>
     <string name="virus_update_tips_title">Xəbərdarlıq</string>
     <string name="virus_wait_network_dialog_message">Telefonunuz indi Wi-Fi-ya qoşulu deyil. Mobil internet əlaqəsi istifadə edilsin?</string>
     <string name="vtb_ai_subtitle">Altyazılar</string>
-    <string name="vtb_ai_subtitle_intl">Sİ altyazıları</string>
+    <string name="vtb_ai_subtitle_intl">AI Altyazıları</string>
     <string name="vtb_func_desc">Bu xüsusiyyət haqqında</string>
     <string name="vtb_func_display_style_desc0">AI videolarda yer alan insanları, heyvanları, bitkiləri, səmanı, binaları və digər əşyaları tanıyır və onları dinamik şəkildə artırır.</string>
     <string name="vtb_func_display_style_desc1">Seçilmiş effektlər seçilmiş cihazlarda HDR videolarına tətbiq olunmayacaq.</string>
@@ -5871,7 +5882,7 @@ Dəqiqliyi artırmağı sınayın!"</string>
     <string name="wakepath_delete_app_start_all">Davam etsəniz, hər hansı digər tətbiqləri açmaq üçün yenidən %s icazəsi verməli olacaqsınız. Hər halda davam edilsin?</string>
     <string name="wakepath_delete_app_start_other_app">Davam etsəniz, %2$s-ı açmaq üçün yenidən %1$s icazəsi verməli olacaqsınız. Hər halda davam edilsin?</string>
     <string name="wakepath_manager_allow_list">İcazə verildi</string>
-    <string name="wakepath_manager_allow_start">İcazə verildi</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Digər tətbiqləri işə salmaq üçün %1$s icazə ver</string>
     <string name="wakepath_manager_checkbox_title">Zəncirvari başlanğıca icazə ver</string>
     <string name="wakepath_manager_empty_list">Başlatmaq üçün heç bir tətbiqə icazə verilmir</string>

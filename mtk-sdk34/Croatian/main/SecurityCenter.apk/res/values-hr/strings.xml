@@ -966,6 +966,7 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="bubble_notification">Oblačići razgovora</string>
     <string name="bubble_notification_switch">Prikaži oblačiće razgovora</string>
     <string name="bubble_notification_switch_desc">Kada je aplikacija za slanje poruka u plutajućem prozoru skrivena na rubu zaslona, ​​prikažite dolazne poruke u oblačićima</string>
+    <string name="bubble_pickup_voice_print_auto">Snimanje uzorka glasa…</string>
     <string name="button_background_connection">Dopusti</string>
     <string name="button_block_calls_from_cantacts">Odblokiraj</string>
     <string name="button_block_calls_from_strangers">Odblokiraj</string>
@@ -973,6 +974,8 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="button_do_not_disturb">Isključi</string>
     <string name="button_eye_shield">Isključi</string>
     <string name="button_first_aid_kit">Popravi odmah</string>
+    <string name="button_pickup_voice_print_auto_agree">Snimi</string>
+    <string name="button_pickup_voice_print_auto_disagree">Ne sada</string>
     <string name="button_restrict_data_usage">Dopusti</string>
     <string name="button_text_accept">Odobri</string>
     <string name="button_text_accept_timer">Odobri (%d)</string>
@@ -1231,6 +1234,7 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="cpu_usage_view_action_btn_text">Dodirni za prikaz</string>
     <string name="create_gamebooster_destop">Uspješno stvorena prečica Početnog zaslona</string>
     <string name="create_shortcut">Izradi prečicu na Početnom zaslonu za Game Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Ne možete koristiti ovu značajku dok koristite fotoaparat preko više uređaja</string>
     <string name="cs_color_sense">Toplina boje</string>
     <string name="cs_conversation_record_using">Snimanje</string>
@@ -1264,6 +1268,9 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="cs_pickup_vioce_print_private_dialog_title">Snimi uzorak glasa</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Snimi uzorak glasa prije biranja \"Jedan sudionik\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Odspoji vanjske uređaje i pokušaj ponovo</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Vaš će glas biti snimljen i obrađen samo na ovom uređaju.
+Za najbolje rezultate snimajte sami na tihom mjestu."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Za Prilagođeno smanjenje buke potreban je Uzorak glasa</string>
     <string name="cs_pickup_voice_print_desc">Primite zvuk samo od jedne osobe</string>
     <string name="cs_privacy_camera_global_settings_title">Privatnost poziva</string>
     <string name="cs_record_voice_title">Snimi</string>
@@ -1924,8 +1931,8 @@ Kada je uključena pametna brzina kadrova, alati za detekciju brzine kadrova u i
     <string name="game_toolbox_slow_charge_positive_btn">Uključi</string>
     <string name="game_toolbox_slow_charge_title">Sporo punjenje</string>
     <string name="game_toolbox_slow_charge_toast">Sporo punjenje uključeno</string>
-    <string name="game_toolbox_smotion_vibrate_close_toast">Hapatičke povratne informacije ne rade s originalnim izgledima. Hapatičke povratne informacije su isključene.</string>
-    <string name="game_toolbox_smotion_vibrate_conflic_toast">Hapatičke povratne informacije ne rade s originalnim izgledima</string>
+    <string name="game_toolbox_smotion_vibrate_close_toast">Taktilna povratna informacija ne radi s originalnim izgledima. Taktilna povratna informacija je isključena.</string>
+    <string name="game_toolbox_smotion_vibrate_conflic_toast">Taktilna povratna informacija ne radi s originalnim izgledima</string>
     <string name="game_toolbox_smotion_vibrate_desc">Dodajte haptičku povratnu informaciju u skladu s potezima u igri. Podržane su samo neke igre.</string>
     <string name="game_toolbox_smotion_vibrate_title">Taktilna povratna informacija</string>
     <string name="game_toolbox_super_follow_up_msg">Poboljašajte reaktivnost na dodir i praćenje kroz povezanost hardvera i softvera</string>
@@ -3353,8 +3360,7 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="oaid_apps_title">Upravljaj virtualnim ID-jem</string>
     <string name="oaid_reset_content_tip">Ako sada ugasite virtualni ID, neke aplikacije će možda prestat s normalnim radom, dio Vaših podataka u aplikacijama možda će se izgubiti ili postati neupotrebljiv.</string>
     <string name="oaid_reset_final_tip">Svejedno isključiti virtualni ID?</string>
-    <string name="oaid_string">"Trenutni virtualni ID:
-%1s"</string>
+    <string name="oaid_string">Trenutni virtualni ID:%1s</string>
     <string name="oaid_tips_content">Virtualni ID-ji (OAID) mogu se koristiti za praćenje Vašeg ponašanja i prilagođavanje oglasa Vašim interesima. Možete odabrati kojim aplikacijama će biti dozvoljen pristup virtualnom ID-ju. Ne zaboravite da će ako ograničite pristup, oglasi koje vidite biti nasumični, a neke aplikacije ne će moći normalno raditi.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3699,7 +3705,6 @@ Ultra štednje baterije"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Preklopite uređaj prije punjenja za brže i stabilnije iskustvo punjenja.</string>
     <string name="pc_remind_close_cover_to_charge_title">Preklopite za punjenje</string>
     <string name="pc_reminder_always_protect_summary">Prijeđite na ograničeno punjenje kako biste usporili starenje baterije</string>
-    <string name="pc_remove_shell_charging_notification_msg">Bežično punjenje nije moguće kada se koristi kućište za igranje. Uklonite ga i pokušajte ponovno ili koristite žičano punjenje.</string>
     <string name="pc_remove_shell_charging_notification_title">Uklonite maskicu za bežično punjenje</string>
     <string name="pc_remove_shell_charging_toast">Uklonite maskicu za obrnuto bežično punjenje</string>
     <string name="pc_satellite_auto_enter_super_power">Uključena Ultra štednja baterije kako bi se osigurala satelitska komunikacija</string>
@@ -3719,6 +3724,8 @@ Ultra štednje baterije"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Kako biste zaštitili svoj uređaj od pregrijavanja, punjenje će se zaustaviti kada razina baterije dosegne %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigacija… Punjenje će se zaustaviti kada razina baterije dosegne %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Punjenje će prestati na %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Punjenje je pauzirano na %1$s. Nastavit će se na %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Punjenje će se pauzirati kada baterija dosegne %1$s i automatski će se nastaviti na temelju vaše upotrebe</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Kako bi se produžio životni vijek baterije, baterija ovog uređaja neće prijeći trenutnu razinu dok je povezan s automobilom.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Ne prikazuj ponovno</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Zaštita baterije</string>
@@ -3738,6 +3745,7 @@ Ultra štednje baterije"</string>
     <string name="pc_suggest_open_fast_charge">Uključi %dW brzo punjenje</string>
     <string name="pc_temperature_too_high">Uređaj je pregrijan</string>
     <string name="pc_this_time_charge_full">Ovaj puta napuni do kraja</string>
+    <string name="pc_this_time_charge_full_now">Punjenje do kraja</string>
     <string name="pc_this_time_charge_full_work">Skoro napunjeno</string>
     <string name="pc_timely_charging_summary">Baterija je ispod %1$s. Ako se uređaj pregrije dok je baterija slaba, to može oštetiti bateriju.</string>
     <string name="pc_timely_charging_title">Napunite svoj uređaj</string>
@@ -4115,7 +4123,6 @@ Ultra štednje baterije"</string>
     <string name="power_dialog_performance_mode_checkbox">Prebacite se na %d Hz brzinu osvježavanja</string>
     <string name="power_dialog_super_save_msg">Ultra štednja baterije ograničava značajke koje najviše troše energiju i smanjuje izvedbu uređaja kako bi osnovne funkcije (npr. Pozivi, SMS poruke i povezivanje s mrežom) bile dostupne koliko je god moguće. Uključite Ultra štednju bateriju?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra štednja baterije ograničava većinu funkcija koje troše veliku količinu energije (npr. 5G veza) i tako smanjuje izvedbu uređaja. Samo pozivi, poruke i povezanost na mrežu ne će biti ograničeni. Uključiti Ultra štednju baterije?</string>
-    <string name="power_dialog_super_save_msg_p2">Ultra štednja baterije isključuje stražnji zaslon i ograničava većinu značajki koje troše energiju, smanjujući performanse uređaja kako bi osnovne funkcionalnosti (npr. pozivi, SMS i povezivanje s mrežom) ostale dostupne što je dulje moguće. Uključiti Ultra štednju baterije?</string>
     <string name="power_dialog_super_save_title">Ultra štednja baterije</string>
     <string name="power_idle">Uređaj u mirovanju</string>
     <string name="power_main_battery_last_day_hour">%1$sd %2$sh preostalo</string>
@@ -5821,10 +5828,14 @@ Preostali podaci uključuju podatke koji se prenjeli iz prethodnog mjeseca."</st
     <string name="uninstall_app_dialog_msg">Deinstaliranje će ukloniti sve podatke aplikacije.</string>
     <string name="uninstall_app_dialog_title">Deinstalirati sada?</string>
     <string name="uninstall_app_done">Uspješno deinstalirano</string>
+    <string name="uninstall_app_reminder_msg">Razumijem da se izbrisani podaci aplikacije ne mogu vratiti</string>
+    <string name="uninstall_app_reminder_pre_title">Deinstaliranje %s</string>
+    <string name="uninstall_app_reminder_toast">Potvrdite da razumijete da se izbrisani podaci aplikacije ne mogu vratiti</string>
     <string name="uninstall_danagerous_btn">Deinstaliraj</string>
     <string name="uninstall_danagerous_desc">\"%s\" može oštetiti vaš uređaj</string>
     <string name="uninstall_danagerous_msg">\"%s\" može vaš oštetiti uređaj, smanjiti njegovu izvedbu ili uzrokovati ponovno pokretanje.</string>
     <string name="uninstall_danagerous_title">Deinstaliraj zlonamjerne aplikacije</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Deinstaliraj %s dualnu aplikaciju</string>
     <string name="unknown_operator">Možete nazvati %2$s za potvrdu pojedinosti vašeg plana s %1$s.</string>
     <string name="unknown_package">Niste sigurni koji je Vaš plan?</string>
     <string name="unlike">Ne hvala</string>
@@ -6041,7 +6052,7 @@ Ova značajka neće raditi kada je uključena Štednja baterije ili Ultra štedn
     <string name="wakepath_delete_app_start_all">Ako nastavite, morat ćete %s ponovno dati dopuštenje za otvaranje drugih aplikacija. Svejedno nastaviti?</string>
     <string name="wakepath_delete_app_start_other_app">Ako nastavite, morat ćete %1$s ponovno dati dopuštenje za otvaranje %2$s. Svejedno nastaviti?</string>
     <string name="wakepath_manager_allow_list">Dopušteno</string>
-    <string name="wakepath_manager_allow_start">Dopušteno</string>
+    <string name="wakepath_manager_allow_start">Always allow</string>
     <string name="wakepath_manager_checkbox_desc">Dopusti %1$s pokretanje drugih aplikacija</string>
     <string name="wakepath_manager_checkbox_title">Dopusti lančano pokretanje</string>
     <string name="wakepath_manager_empty_list">Nije dopušteno pokretanje nijedne aplikacije</string>

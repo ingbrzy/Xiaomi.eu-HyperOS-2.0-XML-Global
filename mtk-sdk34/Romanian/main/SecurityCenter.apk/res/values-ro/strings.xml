@@ -966,6 +966,7 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="bubble_notification">Bule de conversație</string>
     <string name="bubble_notification_switch">Afișează bule de conversație</string>
     <string name="bubble_notification_switch_desc">Când o aplicație de mesagerie într-o fereastră plutitoare este ascunsă la marginea ecranului, afișează mesajele primite în bule</string>
+    <string name="bubble_pickup_voice_print_auto">Se înregistrează amprenta vocală…</string>
     <string name="button_background_connection">Permite</string>
     <string name="button_block_calls_from_cantacts">Deblochează</string>
     <string name="button_block_calls_from_strangers">Deblochează</string>
@@ -973,6 +974,8 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="button_do_not_disturb">Dezactivează</string>
     <string name="button_eye_shield">Dezactivează</string>
     <string name="button_first_aid_kit">Remediați acum</string>
+    <string name="button_pickup_voice_print_auto_agree">Înregistrează</string>
+    <string name="button_pickup_voice_print_auto_disagree">Nu acum</string>
     <string name="button_restrict_data_usage">Permite</string>
     <string name="button_text_accept">Accept</string>
     <string name="button_text_accept_timer">Accept (%d)</string>
@@ -1231,6 +1234,7 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="cpu_usage_view_action_btn_text">Atinge pentru a vizualiza</string>
     <string name="create_gamebooster_destop">Comandă rapidă pentru Ecranul principal creată cu succes</string>
     <string name="create_shortcut">Creați o comandă rapidă pe Ecranul principal pentru Joc Turbo</string>
+    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Nu se poate folosi această funcție în timp ce utilizați cameră între dispozitive</string>
     <string name="cs_color_sense">Culoare temperatură</string>
     <string name="cs_conversation_record_using">Se înregistrează</string>
@@ -1264,6 +1268,9 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="cs_pickup_vioce_print_private_dialog_title">Înregistrează amprentă vocală</string>
     <string name="cs_pickup_vioce_print_unsupport_tips">Înregistrați amprenta vocală înainte de a selecta \"Participant unic\"</string>
     <string name="cs_pickup_vioce_print_unsupport_toast">Deconectați căștile și încercați din nou</string>
+    <string name="cs_pickup_voice_print_auto_dialog_tips">"Vocea ta va fi înregistrată și procesată doar pe acest dispozitiv.
+Pentru cele mai bune rezultate, înregistrează singur într-un loc liniștit."</string>
+    <string name="cs_pickup_voice_print_auto_dialog_title">Amprentă vocală necesară pentru reducerea personalizată a zgomotului</string>
     <string name="cs_pickup_voice_print_desc">Captează sunetul de la o singură persoană</string>
     <string name="cs_privacy_camera_global_settings_title">Confidențialitate la apeluri</string>
     <string name="cs_record_voice_title">Înregistrează</string>
@@ -3350,8 +3357,7 @@ Citiți intrucțiunile care însoțesc routerul și restaurați routerul la set�
     <string name="oaid_apps_title">Gestionați ID-ul virtual</string>
     <string name="oaid_reset_content_tip">Dacă dezactivați ID-ul virtual acum, unele aplicații ar putea înceta să funcționeze corect, o parte din datele aplicației dvs. ar putea fi pierdute sau deveni inutilizabile.</string>
     <string name="oaid_reset_final_tip">Dezactivați oricum ID-ul virtual?</string>
-    <string name="oaid_string">"ID virtual curent:
-%1s"</string>
+    <string name="oaid_string">ID-ul virtual actual:%1s</string>
     <string name="oaid_tips_content">ID-urile virtuale (OAID) pot fi utilizate pentru urmărirea comportamentului dvs. și personalizarea anunțurilor pentru dvs. Puteți selecta ce aplicații au permisiunea de a vă accesa ID-ul virtual. Rețineți că, dacă restricționați accesul, recomandările publicitare ar putea deveni irelevante sau aplicațiile ar putea să nu funcționeze normal.</string>
     <string name="ok">OK</string>
     <string name="ok_button">OK</string>
@@ -3696,7 +3702,6 @@ Economizator baterie ultra"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Pliați dispozitivul înainte de încărcare pentru o experiență de încărcare mai rapidă și mai stabilă.</string>
     <string name="pc_remind_close_cover_to_charge_title">Pliați pentru a încărca</string>
     <string name="pc_reminder_always_protect_summary">Treceți la încărcare limitată pentru a reduce durata de uzură a bateriei</string>
-    <string name="pc_remove_shell_charging_notification_msg">Nu se poate folosi încărcarea wireless când se folosește o carcasă de gaming. Scoateți-o și încercați din nou sau folosiți încărcarea cu fir.</string>
     <string name="pc_remove_shell_charging_notification_title">Scoateți carcasa pentru a utiliza încărcarea wireless</string>
     <string name="pc_remove_shell_charging_toast">Scoateți carcasa pentru a utiliza încărcarea wireless inversă</string>
     <string name="pc_satellite_auto_enter_super_power">A fost activat Economizator baterie ultra pentru a asigura comunicațiile prin satelit</string>
@@ -3716,6 +3721,8 @@ Economizator baterie ultra"</string>
     <string name="pc_smart_charge_notify_summary_high_temp_protect">Pentru a vă proteja dispozitivul de supraîncălzire, încărcarea va fi oprită când nivelul bateriei atinge %1$s</string>
     <string name="pc_smart_charge_notify_summary_navagition">Navigarea… Încărcarea va fi oprită când nivelul bateriei atinge %1$s</string>
     <string name="pc_smart_charge_notify_summary_night_charge">Încărcarea se va opri la %s</string>
+    <string name="pc_smart_charge_notify_summary_night_pause_charge">Încărcarea a fost întreruptă la %1$s. Se va relua la %2$s.</string>
+    <string name="pc_smart_charge_notify_summary_night_start_charge">Încărcarea se va întrerupe când bateria atinge %1$s și se va relua automat în funcție de utilizarea dvs.</string>
     <string name="pc_smart_charge_pogo_project_dialog_content">Pentru a prelungi durata de viață a bateriei, bateria acestui dispozitiv nu va depăși nivelul actual atunci când este conectat la mașină.</string>
     <string name="pc_smart_charge_pogo_project_dialog_not_show_again">Nu mai afișa din nou</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Protecție baterie</string>
@@ -3735,6 +3742,7 @@ Economizator baterie ultra"</string>
     <string name="pc_suggest_open_fast_charge">Activați %dW încărcare rapidă</string>
     <string name="pc_temperature_too_high">Dispozitiv supraîncălzit</string>
     <string name="pc_this_time_charge_full">Încărcați complet de data aceasta</string>
+    <string name="pc_this_time_charge_full_now">Încărcat complet</string>
     <string name="pc_this_time_charge_full_work">Aproape complet încărcat</string>
     <string name="pc_timely_charging_summary">Bateria este sub %1$s. Dacă dispozitivul se supraîncălzește în timp ce bateria este descărcată, aceasta poate deteriora bateria.</string>
     <string name="pc_timely_charging_title">Încarcă dispozitivul</string>
@@ -4112,7 +4120,6 @@ Economizator baterie ultra"</string>
     <string name="power_dialog_performance_mode_checkbox">Schimbă rata de reîmprospătare la %d Hz</string>
     <string name="power_dialog_super_save_msg">Economizatorul de baterie ultra restricționează cele mai multe funcții consumatoare de energie și reduce performanța dispozitivului pentru a lăsa funcționalitatea de bază (de exemplu, apeluri, SMS și conectarea la rețea) disponibilă cât mai mult posibil.Porniți economizorul de baterie ultra?</string>
     <string name="power_dialog_super_save_msg_5g">Economizatorul de baterie ultra restricționează cele mai multe funcții consumatoare de baterie (de exemplu conectivitate 5G) scăzând performanțele dispozitivului? Doar apelurile, mesajele și conectivitatea rețelei nu vor fi afectate. Activați economizatorul de baterie ultra?</string>
-    <string name="power_dialog_super_save_msg_p2">Economizator baterie ultra dezactivează afișajul din spate și restricționează majoritatea funcțiilor consumatoare de energie, reducând performanța dispozitivului pentru a menține funcționalitățile de bază (de exemplu: apeluri, SMS-uri și conectarea la rețea) disponibile cât mai mult timp posibil. Activați Economizator baterie ultra?</string>
     <string name="power_dialog_super_save_title">Economizator baterie ultra</string>
     <string name="power_idle">Telefon inactiv</string>
     <string name="power_main_battery_last_day_hour">%1$sz %2$sh rămase</string>
@@ -5818,10 +5825,14 @@ Datele rămase includ datele care au fost raportate din luna precedentă."</stri
     <string name="uninstall_app_dialog_msg">Dezinstalarea va șterge toate datele aplicației.</string>
     <string name="uninstall_app_dialog_title">Dezinstalați acum?</string>
     <string name="uninstall_app_done">Dezinstalat cu succes</string>
+    <string name="uninstall_app_reminder_msg">Înțeleg că datele șterse ale aplicației nu pot fi restabilite</string>
+    <string name="uninstall_app_reminder_pre_title">Dezinstalează %s</string>
+    <string name="uninstall_app_reminder_toast">Confirmă că ai înțeles că datele șterse ale aplicației nu pot fi restabilite</string>
     <string name="uninstall_danagerous_btn">Dezinstalează</string>
     <string name="uninstall_danagerous_desc">\"%s\" poate deteriora dispozitivul</string>
     <string name="uninstall_danagerous_msg">\"%s\" Poate să vă deterioreze dispozitivul, să-i diminueze performanțele sau să provoace reporniri.</string>
     <string name="uninstall_danagerous_title">Dezinstalați aplicațiile rău intenționate</string>
+    <string name="uninstall_xspace_app_reminder_pre_title">Dezinstalează aplicația duală a lui %s</string>
     <string name="unknown_operator">Puteți să sunați %2$s pentru a vă confirma detaliile planului dvs. cu %1$s.</string>
     <string name="unknown_package">Nu sunteți sigur care este planul dvs. de date?</string>
     <string name="unlike">Nu, mulțumesc</string>
@@ -6038,7 +6049,7 @@ Această funcție nu va funcționa când Economizator baterie sau Economizator b
     <string name="wakepath_delete_app_start_all">Dacă continuați, va trebui să acordați din nou permisiunea %s pentru a deschide orice alte aplicații. Continuați oricum?</string>
     <string name="wakepath_delete_app_start_other_app">Dacă continuați, va trebui să acordați din nou permisiunea %1$s pentru%2$s. Continuați oricum?</string>
     <string name="wakepath_manager_allow_list">Permis</string>
-    <string name="wakepath_manager_allow_start">Permis</string>
+    <string name="wakepath_manager_allow_start">Permite întotdeauna</string>
     <string name="wakepath_manager_checkbox_desc">Permite ca %1$s să lanseze alte aplicații</string>
     <string name="wakepath_manager_checkbox_title">Permite start în lanț</string>
     <string name="wakepath_manager_empty_list">Nicio aplicație nu are voie să se lanseze</string>
