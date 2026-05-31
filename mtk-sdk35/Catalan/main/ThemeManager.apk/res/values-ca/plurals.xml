@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Fa 1 hora</item>
-        <item quantity="other">Fa 1 hora</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">Fa %d hora</item>
         <item quantity="other">Fa %d hores</item>
@@ -36,25 +32,9 @@
         <item quantity="one">Fa %d minut</item>
         <item quantity="other">Fa %d minuts</item>
     </plurals>
-    <plurals name="account_coins_num">
-        <item quantity="one">%1s moneda</item>
-        <item quantity="other">%1s monedes</item>
-    </plurals>
     <plurals name="atmospheric_pressure_desc">
         <item quantity="one">Pressió atmosfèrica: %s hectopascal</item>
         <item quantity="other">Pressió atmosfèrica: %s hectopascals</item>
-    </plurals>
-    <plurals name="author_fans_number">
-        <item quantity="one">%d seguidor</item>
-        <item quantity="other">%d seguidors</item>
-    </plurals>
-    <plurals name="author_popularity_quantity">
-        <item quantity="one">%d vista</item>
-        <item quantity="other">%d vistes</item>
-    </plurals>
-    <plurals name="author_themes_number">
-        <item quantity="one">%d tema</item>
-        <item quantity="other">%d temes</item>
     </plurals>
     <plurals name="columbus_exo_controls_fastforward_by_amount_description">
         <item quantity="one">Avança ràpidament %d segon</item>
@@ -79,10 +59,6 @@
     <plurals name="exo_controls_rewind_by_amount_description">
         <item quantity="one">Rebobina %d segon</item>
         <item quantity="other">Rebobina %d segons</item>
-    </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Fa mitja hora</item>
-        <item quantity="other">Fa mitja hora</item>
     </plurals>
     <plurals name="health_chart_calories_burned_schedule_format_desc">
         <item quantity="one">%1$s caloria cremada</item>
@@ -132,26 +108,6 @@
         <item quantity="one">%1$s/%2$s passa</item>
         <item quantity="other">%1$s/%2$s passes</item>
     </plurals>
-    <plurals name="in_a_hour">
-        <item quantity="one">En 1 hora</item>
-        <item quantity="other">En 1 hora</item>
-    </plurals>
-    <plurals name="in_half_hour">
-        <item quantity="one">En mitja hora</item>
-        <item quantity="other">En mitja hora</item>
-    </plurals>
-    <plurals name="in_less_than_one_minute">
-        <item quantity="one">Immediatament</item>
-        <item quantity="other">Immediatament</item>
-    </plurals>
-    <plurals name="in_num_minutes">
-        <item quantity="one">en 1 minut</item>
-        <item quantity="other">en %d minuts</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Ara mateix</item>
-        <item quantity="other">Ara mateix</item>
-    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="one">%d element seleccionat</item>
         <item quantity="other">%d elements seleccionats</item>
@@ -160,15 +116,9 @@
         <item quantity="one">%d notificació nova</item>
         <item quantity="other">%d notificacions noves</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">Fa 1 minut</item>
-        <item quantity="other">Fa %d minuts</item>
-    </plurals>
-    <plurals name="payment_coins_tips">
-        <item quantity="one">"%1$d crèdit = %2$d IDR
-Els crèdits no són reemborsables"</item>
-        <item quantity="other">"%1$d crèdits = %2$d IDR
-Els crèdits no són reemborsables"</item>
+    <plurals name="points_detail_retain_days_tips">
+        <item quantity="one">Només es mostren els detalls del darrer %1$d dia</item>
+        <item quantity="other">Només es mostren els detalls dels darrers %1$d dies</item>
     </plurals>
     <plurals name="portfolio">
         <item quantity="one">%d treball</item>
@@ -178,33 +128,25 @@ Els crèdits no són reemborsables"</item>
         <item quantity="one">"La vostra sol·licitud es processarà d'aquí a %1$d segon aproximadament."</item>
         <item quantity="other">"La vostra sol·licitud es processarà d'aquí a %1$d segons aproximadament."</item>
     </plurals>
-    <plurals name="purchase_refund_success_diag_notice_one">
-        <item quantity="one">"%d comanda reemborsada amb èxit. "</item>
-        <item quantity="other">"%d comandes reemborsades amb èxit. "</item>
-    </plurals>
-    <plurals name="purchase_refund_success_diag_notice_two">
-        <item quantity="one">Els teus crèdits es dipositaran en %d hora.</item>
-        <item quantity="other">Els teus crèdits es dipositaran en %d hores.</item>
-    </plurals>
-    <plurals name="purchase_refund_success_notice">
-        <item quantity="one">"El vostre reemborsament s'ha processat. Les teves monedes es dipositaran en %d hora."</item>
-        <item quantity="other">"El vostre reemborsament s'ha processat. Les teves monedes es dipositaran en %d hores."</item>
-    </plurals>
     <plurals name="purchased_authorizing_dialog_content">
         <item quantity="one">Això pot trigar una mica. Si no heu rebut els articles que heu comprat en %d hora, envieu comentaris per informar-nos del problema.</item>
         <item quantity="other">Això pot trigar una mica. Si no heu rebut els articles que heu comprat en %d hores, envieu comentaris per informar-nos del problema.</item>
     </plurals>
-    <plurals name="purchased_instructions">
-        <item quantity="one">&lt;Data>"En completar el pagament, accepteu el &lt;a href=\"%1$s\">Avís sobre compres des de l'aplicació&lt;/a>.&lt;br>Els reembossaments estan disponibles durant &lt;xliff:g id=time>%2$d&lt;/xliff:g> hora després de fer les compres."&lt;/Data></item>
-        <item quantity="other">&lt;Data>"En completar el pagament, accepteu el &lt;a href=\"%1$s\">Avís sobre compres des de l'aplicació&lt;/a>.&lt;br>Els reembossaments estan disponibles durant &lt;xliff:g id=time>%2$d&lt;/xliff:g> hores després de fer les compres."&lt;/Data></item>
+    <plurals name="redemption_consume_points">
+        <item quantity="one">Voleu bescanviar aquest article per %1$d punt?</item>
+        <item quantity="other">Voleu bescanviar aquest article per %1$d punts?</item>
     </plurals>
-    <plurals name="purchased_refund_constact_us_success_dialog_message">
-        <item quantity="one">La comanda es va completar fa més de %d hora. Envieu-nos un correu electrònic.</item>
-        <item quantity="other">La comanda es va completar fa més de %d hores. Envieu-nos un correu electrònic.</item>
+    <plurals name="redemption_current_own_points">
+        <item quantity="one">Actualment teniu %1$d punt.</item>
+        <item quantity="other">Actualment teniu %1$d punts.</item>
     </plurals>
-    <plurals name="purchased_refund_success_dialog_message">
-        <item quantity="one">Rebràs les monedes en %d hora.</item>
-        <item quantity="other">Rebràs les monedes en %d hores.</item>
+    <plurals name="redemption_current_points_tips">
+        <item quantity="one">Punts actuals: %1$d</item>
+        <item quantity="other">Punts actuals: %1$d</item>
+    </plurals>
+    <plurals name="redemption_insufficient_points_tips">
+        <item quantity="one">Punts insuficients. Punts actuals: %1$d</item>
+        <item quantity="other">Punts insuficients. Punts actuals: %1$d</item>
     </plurals>
     <plurals name="resource_font_download_notification_title_many">
         <item quantity="one">"S'ha descarregat %1$s font correctament"</item>
@@ -237,10 +179,6 @@ Els crèdits no són reemborsables"</item>
     <plurals name="tiny_accessibility_battery_level_charging">
         <item quantity="one">"S'està carregant. Bateria al %d per cent."</item>
         <item quantity="other">"S'està carregant. Bateria al %d per cent."</item>
-    </plurals>
-    <plurals name="wallpaper_staggered_item_text">
-        <item quantity="one">%1$s | %2$d imatge</item>
-        <item quantity="other">%1$s | %2$d imatges</item>
     </plurals>
     <plurals name="weather_temperature_desc">
         <item quantity="one">Temperatura: %1$s grau, %2$s</item>

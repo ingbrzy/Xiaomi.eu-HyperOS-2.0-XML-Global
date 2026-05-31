@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">1 hora atrás</item>
-        <item quantity="other">1 hora atrás</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">%d hora atrás</item>
         <item quantity="other">%d hora atrás</item>
@@ -36,25 +32,9 @@
         <item quantity="one">%d min atrás</item>
         <item quantity="other">%d min atrás</item>
     </plurals>
-    <plurals name="account_coins_num">
-        <item quantity="one">%1s moeda</item>
-        <item quantity="other">%1s moedas</item>
-    </plurals>
     <plurals name="atmospheric_pressure_desc">
         <item quantity="one">Pressão atmosférica: %s hectopascal</item>
         <item quantity="other">Pressão atmosférica: %s hectopascais</item>
-    </plurals>
-    <plurals name="author_fans_number">
-        <item quantity="one">%d seguidor</item>
-        <item quantity="other">%d seguidores</item>
-    </plurals>
-    <plurals name="author_popularity_quantity">
-        <item quantity="one">%d visualização</item>
-        <item quantity="other">%d visualizações</item>
-    </plurals>
-    <plurals name="author_themes_number">
-        <item quantity="one">%d tema</item>
-        <item quantity="other">%d temas</item>
     </plurals>
     <plurals name="columbus_exo_controls_fastforward_by_amount_description">
         <item quantity="one">Avançar %d segundo</item>
@@ -79,10 +59,6 @@
     <plurals name="exo_controls_rewind_by_amount_description">
         <item quantity="one">Retroceder %d segundo</item>
         <item quantity="other">Retroceder %d segundos</item>
-    </plurals>
-    <plurals name="half_hour_ago">
-        <item quantity="one">Meia hora atrás</item>
-        <item quantity="other">Meia hora atrás</item>
     </plurals>
     <plurals name="health_chart_calories_burned_schedule_format_desc">
         <item quantity="one">Queimou %1$s caloria</item>
@@ -132,26 +108,6 @@
         <item quantity="one">%1$s/%2$s passo</item>
         <item quantity="other">%1$s/%2$s passos</item>
     </plurals>
-    <plurals name="in_a_hour">
-        <item quantity="one">Em 1 hora</item>
-        <item quantity="other">Em 1 hora</item>
-    </plurals>
-    <plurals name="in_half_hour">
-        <item quantity="one">Em meia hora</item>
-        <item quantity="other">Em meia hora</item>
-    </plurals>
-    <plurals name="in_less_than_one_minute">
-        <item quantity="one">Imediatamente</item>
-        <item quantity="other">Imediatamente</item>
-    </plurals>
-    <plurals name="in_num_minutes">
-        <item quantity="one">em 1 minuto</item>
-        <item quantity="other">em %d minutos</item>
-    </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Agora mesmo</item>
-        <item quantity="other">Agora mesmo</item>
-    </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="one">%d item selecionado</item>
         <item quantity="other">%d itens selecionados</item>
@@ -160,15 +116,9 @@
         <item quantity="one">%d nova notificação</item>
         <item quantity="other">%d novas notificações</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">1 minuto atrás</item>
-        <item quantity="other">%d minutos atrás</item>
-    </plurals>
-    <plurals name="payment_coins_tips">
-        <item quantity="one">"%1$d moeda = %2$d IDR
-As moedas não são reembolsáveis"</item>
-        <item quantity="other">"%1$d moedas = %2$d IDR
-As moedas não são reembolsáveis"</item>
+    <plurals name="points_detail_retain_days_tips">
+        <item quantity="one">Somente exibindo detalhes do último %1$d dia</item>
+        <item quantity="other">Somenet exibindo detalhes dos últimos %1$d dias</item>
     </plurals>
     <plurals name="portfolio">
         <item quantity="one">%d trabalho</item>
@@ -178,33 +128,25 @@ As moedas não são reembolsáveis"</item>
         <item quantity="one">O seu pedido será processado em cerca de %1$d segundo.</item>
         <item quantity="other">O seu pedido será processado em cerca de %1$d segundos.</item>
     </plurals>
-    <plurals name="purchase_refund_success_diag_notice_one">
-        <item quantity="one">"%d pedido reembolsado com sucesso. "</item>
-        <item quantity="other">"%d pedidos reembolsados com sucesso. "</item>
-    </plurals>
-    <plurals name="purchase_refund_success_diag_notice_two">
-        <item quantity="one">As suas moedas serão depositadas dentro de %d hora.</item>
-        <item quantity="other">As suas moedas serão depositadas dentro de %d horas.</item>
-    </plurals>
-    <plurals name="purchase_refund_success_notice">
-        <item quantity="one">O seu reembolso foi processado. As suas moedas serão depositadas dentro de %d hora.</item>
-        <item quantity="other">O seu reembolso foi processado. As suas moedas serão depositadas dentro de %d horas.</item>
-    </plurals>
     <plurals name="purchased_authorizing_dialog_content">
         <item quantity="one">Este processo pode demorar algum tempo. Se não tiver recebido os artigos que comprou no espaço de %d hora, envie-nos os seus comentários para tomarmos conhecimento da ocorrência.</item>
         <item quantity="other">Este processo pode demorar algum tempo. Se não tiver recebido os artigos que comprou no espaço de %d horas, envie-nos os seus comentários para tomarmos conhecimento da ocorrência.</item>
     </plurals>
-    <plurals name="purchased_instructions">
-        <item quantity="one">&lt;Data>Ao concluir este pagamento, estará a concordar com o &lt;a href=\"%1$s\">Aviso sobre Compras na Aplicação&lt;/a>.&lt;br>O reembolso é possível durante &lt;xliff:g id=time>%2$d&lt;/xliff:g> hora após as compras terem sido efetuadas.&lt;/Data></item>
-        <item quantity="other">&lt;Data>Ao concluir este pagamento, estará a concordar com o &lt;a href=\"%1$s\">Aviso sobre Compras na Aplicação&lt;/a>.&lt;br>O reembolso é possível durante &lt;xliff:g id=time>%2$d&lt;/xliff:g> horas após as compras terem sido efetuadas.&lt;/Data></item>
+    <plurals name="redemption_consume_points">
+        <item quantity="one">Resgatar este item por %1$d ponto?</item>
+        <item quantity="other">Resgatar este item por %1$d pontos?</item>
     </plurals>
-    <plurals name="purchased_refund_constact_us_success_dialog_message">
-        <item quantity="one">O pedido foi concluído há mais de %d hora. Contacte-nos por e-mail.</item>
-        <item quantity="other">O pedido foi concluído há mais de %d horas. Contacte-nos por e-mail.</item>
+    <plurals name="redemption_current_own_points">
+        <item quantity="one">Atualmente tens %1$d ponto.</item>
+        <item quantity="other">Atualmente tens %1$d pontos.</item>
     </plurals>
-    <plurals name="purchased_refund_success_dialog_message">
-        <item quantity="one">Irá receber as moedas dentro de %d hora.</item>
-        <item quantity="other">Irá receber as moedas dentro de %d horas.</item>
+    <plurals name="redemption_current_points_tips">
+        <item quantity="one">Pontos atuais: %1$d</item>
+        <item quantity="other">Pontos atuais: %1$d</item>
+    </plurals>
+    <plurals name="redemption_insufficient_points_tips">
+        <item quantity="one">Pontos insuficientes. Pontos atuais: %1$d</item>
+        <item quantity="other">Pontos insuficientes. Pontos atuais: %1$d</item>
     </plurals>
     <plurals name="resource_font_download_notification_title_many">
         <item quantity="one">Fonte %1$s transferida com sucesso</item>
@@ -237,10 +179,6 @@ As moedas não são reembolsáveis"</item>
     <plurals name="tiny_accessibility_battery_level_charging">
         <item quantity="one">A carregar. O nível da bateria está a %d por cento agora.</item>
         <item quantity="other">A carregar. O nível da bateria está a %d por cento agora.</item>
-    </plurals>
-    <plurals name="wallpaper_staggered_item_text">
-        <item quantity="one">%1$s | %2$d imagem</item>
-        <item quantity="other">%1$s | %2$d imagens</item>
     </plurals>
     <plurals name="weather_temperature_desc">
         <item quantity="one">Temperatura: %1$s grau, %2$s</item>
