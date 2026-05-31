@@ -40,10 +40,10 @@
     <string name="SMS_and_MMS">SMS e MMS</string>
     <string name="SMSpass">Consenti SMS</string>
     <string name="Setting_lock">Impostazioni</string>
-    <string name="Settings_title_anti_spam">Impostazioni lista blocchi</string>
+    <string name="Settings_title_anti_spam">Impostazioni lista di blocco</string>
     <string name="Settings_title_anti_virus">Impostazioni scansione di sicurezza</string>
     <string name="Settings_title_anti_virus_kddi">Impostazioni scansione di sicurezza</string>
-    <string name="Settings_title_garbage_cleanup">Impostazioni Pulitore</string>
+    <string name="Settings_title_garbage_cleanup">Impostazioni Pulizia</string>
     <string name="Settings_title_network_assistants">Impostazioni utilizzo dati</string>
     <string name="Settings_title_power_center">Impostazioni ottimizzazione batteria</string>
     <string name="abc_action_bar_home_description">Portami a casa</string>
@@ -131,9 +131,9 @@
     <string name="activity_title_apps_settings">App</string>
     <string name="activity_title_auto_start_manager">Avvio automatico</string>
     <string name="activity_title_auto_start_manager_global">Avvio automatico in background</string>
-    <string name="activity_title_garbage_cleanup">Pulitore</string>
+    <string name="activity_title_garbage_cleanup">Pulizia</string>
     <string name="activity_title_license_manager">Permessi</string>
-    <string name="activity_title_networkassistants">Utilizzo dei dati</string>
+    <string name="activity_title_networkassistants">Utilizzo dati</string>
     <string name="activity_title_other_permission_manager">Altri permessi</string>
     <string name="activity_title_permission_manager">Permessi</string>
     <string name="activity_title_permissions_instruction">Dettagli sui permessi</string>
@@ -141,7 +141,7 @@
     <string name="activity_title_power_manager">Ottimizzazione batteria</string>
     <string name="activity_title_risk_app_install_manager">App con possibili rischi</string>
     <string name="activity_title_root_acquired">Consenti accesso root</string>
-    <string name="activity_title_root_manager">Accesso root</string>
+    <string name="activity_title_root_manager">Accesso come root</string>
     <string name="activity_title_root_note">"Informazioni sull'accesso root"</string>
     <string name="activity_title_settings">Impostazioni</string>
     <string name="activity_title_virus">Virus</string>
@@ -217,8 +217,6 @@
     <string name="antispam_st_wlan_net">Solo con Wi-Fi</string>
     <string name="antispam_st_wlan_net_china">Solo con WLAN</string>
     <string name="antispam_xpace_text">Torna a Primo spazio per impostare la lista blocchi</string>
-    <string name="antivirus_browser_check">Controlla i siti web in Mi Browser</string>
-    <string name="antivirus_browser_check_summary">Controlla automaticamente i siti web in Mi Browser e ricevi avvisi sui possibili rischi</string>
     <string name="antivirus_choose_engine">%s</string>
     <string name="antivirus_choose_engine_dialog_title">Scegli definizioni</string>
     <string name="antivirus_choose_engine_settings">Impostazioni definizioni virus</string>
@@ -245,8 +243,6 @@
     <string name="antivirus_privacy_dialog_title_kddi">Termini e condizioni</string>
     <string name="antivirus_riskapp_title">Possibili rischi</string>
     <string name="antivirus_sec_network_unavailable">Sicurezza non può aggiornarsi perché hai limitato la connessione a Internet. Consentire a Sicurezza di connettersi a Internet?</string>
-    <string name="antivirus_sms_check">Controlla i link in Messaggi</string>
-    <string name="antivirus_sms_check_summary">Controlla i link nei messaggi in arrivo e ricevi avvisi sui possibili rischi</string>
     <string name="antivirus_third_privacy_title">Informative sulla privacy di terze parti</string>
     <string name="antivirus_toast_already_update">Aggiornato</string>
     <string name="antivirus_toast_network_unavailable">Impossibile connettersi alla rete</string>
@@ -256,7 +252,6 @@
     <string name="antivirus_update_btn_contiue">Continua</string>
     <string name="antivirus_update_btn_open">Consenti</string>
     <string name="antivirus_update_btn_update">Aggiorna</string>
-    <string name="antivirus_website_check_status">Attiva</string>
     <string name="antivirus_website_check_title">Navigazione web sicura</string>
     <string name="apn_exception_modify_summary">"Il punto d'accesso dell'operatore predefinito non viene utilizzato o modificato"</string>
     <string name="apn_exception_summary">"Verifica le configurazioni dell'APN dell'operatore"</string>
@@ -503,11 +498,14 @@ Non perderai alcun dato applicazione."</string>
     <string name="app_powerkeeper_no_restrict_summary">"Risparmio energetico non limita l'attività dell'applicazione"</string>
     <string name="app_powerkeeper_restrict_bg">Limita le applicazioni in background</string>
     <string name="app_powerkeeper_restrict_running">Chiudi le app dopo %d minuti di attività in background</string>
+    <string name="app_right">Fornito da Xiaomi</string>
     <string name="app_running_tip_dialog_negative">Annulla</string>
     <string name="app_running_tip_dialog_positive">Chiudi</string>
     <string name="app_running_tip_dialog_text">Sembra che questa app sia in esecuzione in background. Puoi chiuderla per velocizzare il dispositivo e ridurre il consumo energetico.</string>
     <string name="app_running_tip_dialog_title">Chiudi %1$s</string>
     <string name="app_settings_link">"Impostazioni aggiuntive nell'app"</string>
+    <string name="app_summary">"Assistente Buste rosse per WeChat e QQ
+Supporta sia le chat di gruppo che quelle individuali"</string>
     <string name="app_usage_half_year">Ultimi %d mesi</string>
     <string name="app_usage_more_year">Più di %d anno fa</string>
     <string name="app_usage_never">Mai usata</string>
@@ -803,6 +801,10 @@ Se non hai ancora impostato un blocco schermo, segui le istruzioni per impostarl
     <string name="behavior_widget_read_contact">Accesso ai contatti</string>
     <string name="behavior_widget_read_write_external_storage">Accesso ai file</string>
     <string name="best_booster_status">Velocità di gioco al massimo.</string>
+    <string name="best_warning_dialog_button">Ho capito</string>
+    <string name="best_warning_dialog_message">"Suggerimento: l'uso di Assistente Buste rosse ti aiuterà a richiedere le buste rosse più velocemente. Tuttavia, se sarai sempre il primo ad aprirle, &lt;font color='#F30018'>WeChat potrebbe pensare erroneamente che tu stia usando un plugin automatico per richiedere le buste rosse&lt;/font>, il che potrebbe compromettere le tue possibilità future. Sii cauto e controlla il tuo ritmo. Le buste rosse sono fantastiche, ma non essere avido!"</string>
+    <string name="best_warning_dialog_message1">"L'utilizzo di Assistente Buste rosse ti aiuterà a richiedere le buste rosse più velocemente. Tuttavia, se sarai sempre il primo ad aprirle, &lt;font color='#F22424'>WeChat potrebbe pensare erroneamente che tu stia usando un plugin automatico per richiedere le buste rosse&lt;/font>, che potrebbero influenzare le tue possibilità future. Sii cauto e controlla il tuo ritmo. Le buste rosse sono fantastiche, ma non essere avido!"</string>
+    <string name="best_warning_dialog_title">Attenzione</string>
     <string name="bg_network_exception_title">Connessione in background limitata</string>
     <string name="bh_buy_order_fail_tips_text">Si è verificato un errore. Aspetta un minuto o due e riprova.</string>
     <string name="bh_charge_for_more">Altro</string>
@@ -958,7 +960,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="btn_text_quick_cleanup">Pulizia</string>
     <string name="btn_text_quick_save_power">Raffreddamento</string>
     <string name="btn_text_quick_scan">Scansiona</string>
-    <string name="btn_text_stop">Interrompi</string>
+    <string name="btn_text_stop">Ferma</string>
     <string name="bubble_app_empty_page">Impossibile trovare app che supportano le bolle di conversazione su questo dispositivo</string>
     <string name="bubble_app_manage">Gestisci le bolle di conversazione</string>
     <string name="bubble_mode_barrage_switch_tips">Attiva per mostrare le bolle di conversazione per le app ridotte a icona come commenti sullo schermo</string>
@@ -991,7 +993,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="button_text_known">OK</string>
     <string name="button_text_let_me_select">Ho capito</string>
     <string name="button_text_next_step">Avanti</string>
-    <string name="button_text_next_step_timer">Avanti (%d)</string>
+    <string name="button_text_next_step_timer">Prossimo passo (%d)</string>
     <string name="button_text_once_accept">Consenti questa volta</string>
     <string name="button_text_open_now">Apri</string>
     <string name="button_text_reject">Rifiuta</string>
@@ -1128,6 +1130,9 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="clipboard_ai_allow_summary">"Permeti al sistema di determinare se un'applicazione può accedere al contenuto degli appunti e segnala quando lo fa."</string>
     <string name="close">Chiudi</string>
     <string name="close_callwait">Disattivato</string>
+    <string name="close_lucky_money_dialog_ok">Disattiva</string>
+    <string name="close_lucky_money_dialog_summary">Se disattivi Assistente Buste rosse non riceverai più i promemoria delle nuove buste rosse e potresti perderle. Se desideri disattivare le finestre a comparsa, puoi farlo dalle impostazioni aggiuntive. Disattivare Assistente Buste rosse ora?</string>
+    <string name="close_lucky_money_dialog_title">Disattiva Assistente Buste rosse</string>
     <string name="cmcc_app_check_dialog_message">Riavvia il dispositivo per completare la riparazione.</string>
     <string name="cmcc_app_check_dialog_negative">Più tardi</string>
     <string name="cmcc_app_check_dialog_positive">Riavvia adesso</string>
@@ -1170,6 +1175,8 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="confirm_fingerprint_msg">Verifica la tua impronta</string>
     <string name="confirm_leave">No grazie</string>
     <string name="confirm_open">Attiva</string>
+    <string name="confirm_open_shut_down_password_content">Imposta un blocco schermo prima di attivare la conferma di spegnimento.</string>
+    <string name="confirm_open_shut_down_password_title">Imposta blocco schermo</string>
     <string name="confirm_package_type">Conferma il tuo piano dati</string>
     <string name="confirm_prompt_all_permission">Chiedere per i permessi per tutte le app?</string>
     <string name="confirm_reject_all_permission">"Limitare l'utilizzo di questa funzionalità per tutte le app?"</string>
@@ -1234,7 +1241,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="cpu_usage_view_action_btn_text">Tocca per visualizzare</string>
     <string name="create_gamebooster_destop">Collegamento sulla Home creato correttamente</string>
     <string name="create_shortcut">Crea un collegamento sulla schermata Home per Game Turbo</string>
-    <string name="cs_camera_bubble">Available camera detected.<annotation key="action" value="switchCamera">Tap to switch.</annotation></string>
+    <string name="cs_camera_bubble">Rilevata fotocamera disponibile. <annotation key="action" value="switchCamera">Tocca per cambiare</annotation></string>
     <string name="cs_close_vt_camera_first_tips">Non è possibile utilizzare questa funzione quando si usa la fotocamera multidispositivo</string>
     <string name="cs_color_sense">Temperatura del colore</string>
     <string name="cs_conversation_record_using">Registrazione</string>
@@ -1382,8 +1389,9 @@ Per migliori risultati, registra in un luogo silenzioso mentre sei da solo."</st
     <string name="delete_from_manual_item_white_list">Rimuovi dalle eccezioni</string>
     <string name="delete_input">Elimina</string>
     <string name="deleted_apps">Applicazioni eliminate</string>
+    <string name="demo_number">241</string>
     <string name="desc_share_uid_sec" formatted="false">%1s. %2s</string>
-    <string name="descx_quick_scan_cancel">Scansione annullata</string>
+    <string name="descx_quick_scan_cancel">Scansione interrotta</string>
     <string name="descx_quick_scan_preparation">Solo un secondo…</string>
     <string name="detail_app_button">Informazioni app</string>
     <string name="details_subtitle">Dettagli utilizzo</string>
@@ -1415,6 +1423,9 @@ Tutti i dati sul dispositivo potrebbero essere cancellati e la password della sc
     <string name="dialog_msg_auto_start_declare_global">Alcune app potrebbero indicare erroneamente che il sistema ha impedito loro di avviarsi. Verifica che siano stati concessi i permessi alle singole app nel menu Impostazioni.</string>
     <string name="dialog_msg_stop_virus_scan">Interrompere la scansione di sicurezza prima che sia terminata?</string>
     <string name="dialog_no_longer_alert">Non chiedere più</string>
+    <string name="dialog_remobe_luckymoney_cancle">Annulla</string>
+    <string name="dialog_remobe_luckymoney_ok">Attiva</string>
+    <string name="dialog_remove_luckymoney">La versione di sistema che stai utilizzando ha una funzione buste rosse già esistente. Continuando, eliminerai la funzione esistente e utilizzerai Assistente Buste rosse di Xiaomi, più veloce e più stabile. Annulla per continuare a utilizzare la funzione di sistema. Attivare Assistente Buste rosse ora?</string>
     <string name="dialog_restrict_all_mobile_summary">%s La connessione dati mobile sarà limitata per tutte le app.</string>
     <string name="dialog_restrict_all_mobile_title">Limita i dati mobili di %s</string>
     <string name="dialog_restrict_all_wlan_summary">La connessione Wi-Fi sarà limitata per tutte le app.</string>
@@ -1498,6 +1509,9 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="dlg_white_address_antispam_message">Aggiungere questa posizione alle eccezioni?</string>
     <string name="dlg_white_antispam_hint">Eccezioni</string>
     <string name="dlg_white_antispam_message">Aggiungere questo numero alle eccezioni?</string>
+    <string name="dnd_mode_type">Metodo ND</string>
+    <string name="dnd_no_everything">Blocca i promemoria</string>
+    <string name="dnd_no_sound">Silenzia suono</string>
     <string name="dns_exception_summary">Verifica le impostazione dei DNS del router</string>
     <string name="dns_exception_title">Verifica le impostazioni dei DNS</string>
     <string name="do_clean">Pulizia…</string>
@@ -1532,7 +1546,7 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="evening">Pomeriggio</string>
     <string name="every_day">Ogni giorno</string>
     <string name="examination_score_100">Sembra tutto a posto!</string>
-    <string name="examination_score_60_0">Scansiona adesso</string>
+    <string name="examination_score_60_0">Controlla adesso</string>
     <string name="examination_score_80_100">Alcune cose possono essere ottimizzate</string>
     <string name="examination_score_80_60">Parecchie cose possono essere ottimizzate</string>
     <string name="examination_score_has_virus">Sono state rilevate alcune applicazioni sospette.</string>
@@ -1631,6 +1645,12 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="fallback_menu_item_copy_link">Copia link</string>
     <string name="fallback_menu_item_open_in_browser">Apri nel browser</string>
     <string name="fallback_menu_item_share_link">Condividi link</string>
+    <string name="fast_open">Modalità apertura rapida</string>
+    <string name="fast_open_dialog_message">"Se attivi questa funzione, la pagina dell'app con la busta rossa verrà aperta automaticamente quando riceverai una nuova notifica di busta rossa. L'attività dell'app in corso verrà interrotta. Attivare ora?"</string>
+    <string name="fast_open_dialog_message_summary">Non consigliamo di consentire alla modalità Apertura rapida di interrompere le app di navigazione, video e gaming. La modalità Apertura rapida non funziona quando lo schermo del dispositivo è disattivato.</string>
+    <string name="fast_open_dialog_ok">Turn on</string>
+    <string name="fast_open_noti_summary">%s ti ha inviato una busta rossa</string>
+    <string name="fast_open_summary">"Quando riceverai una nuova notifica di busta rossa la tua attività corrente verrà interrotta e al suo posto verrà aperta la pagina dell'app con la busta rossa"</string>
     <string name="fcm_fallback_notification_channel_label">Varie</string>
     <string name="file_confirm_start_activity">%s non è autorizzata ad accedere alla Galleria e alle app dei social media. Questa app vuole accedere ai file archiviati su questo dispositivo per condividere elementi. Consentire?</string>
     <string name="finger_or_face_unlock">Sblocca tramite impronta o dati del viso</string>
@@ -1917,7 +1937,7 @@ Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di ri
     <string name="game_toolbox_performance_config_custom_notice_new">"Puoi personalizzare Super risoluzione e Frequenza dei fotogrammi smart per gestire la frequenza dei fotogrammi e la qualità dell'immagine. &lt;font color=%s>La frequenza effettiva dei fotogrammi è mostrata nella dashboard delle prestazioni.&lt;/font>"</string>
     <string name="game_toolbox_performance_config_frc_notice">Quando è attiva la Priorità alla frequenza dei fotogrammi, la frequenza dei fotogrammi effettiva è quella mostrata nella dashboard delle prestazioni</string>
     <string name="game_toolbox_performance_config_frc_notice_new">La Priorità alla frequenza dei fotogrammi migliora la frequenza dei fotogrammi tramite la funzione Frequenza dei fotogrammi smart. &lt;font color=%s>La frequenza effettiva dei fotogrammi è mostrata nella dashboard delle prestazioni.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">\#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
     <string name="game_toolbox_performance_config_resolution_notice">Quando è attiva la Priorità alle immagini, la frequenza dei fotogrammi effettiva è quella mostrata nella dashboard delle prestazioni</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">La Priorità alle immagini migliora la qualità delle immagini tramite la Super risoluzione e gestisce la frequenza dei fotogrammi tramite la funzione Frequenza dei fotogrammi smart. &lt;font color=%s>La frequenza effettiva dei fotogrammi è mostrata nella dashboard delle prestazioni.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Luminosità dello schermo</string>
@@ -2436,6 +2456,7 @@ delle tue sessioni di gioco"</string>
     <string name="gd_sidebar_long_press_tips">"Tenere premuto l'indicatore per spostarlo tenendo il dispositivo in verticale"</string>
     <string name="gd_splite_screen_tips">Schermo diviso non supporta le finestre a comparsa</string>
     <string name="gdpr_msg"><Data>Per poter rilevare i rischi per la sicurezza e proteggere i tuoi dati, dobbiamo raccogliere le informazioni necessarie sul tuo dispositivo. Leggi e accetta la nostra &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Informativa sulla privacy&lt;/a> prima di utilizzare i nostri servizi. Se non accetti di fornire tali informazioni, sarai comunque in grado di utilizzare questa app, ma alcune funzionalità non saranno disponibili. </Data></string>
+    <string name="ge" />
     <string name="get_detail_by_click">Tocca per visualizzare i dettagli</string>
     <string name="get_phone_num_fail">Numero sconosciuto</string>
     <string name="get_sys_info">Recupero informazioni in corso…</string>
@@ -2645,7 +2666,10 @@ per partecipare alla nostra caccia alle uova!"</string>
     <string name="hints_virus_apk_summary">%s (apk)</string>
     <string name="hints_virus_app_list_item_summary">app</string>
     <string name="hints_virus_app_summary">%s (app)</string>
-    <string name="hints_virus_lib_update_default_summary">"Data dell'ultimo aggiornamento sconosciuta"</string>
+    <string name="hints_virus_lib_update_default_summary">Data ultimo aggiornamento sconosciuta</string>
+    <string name="hongbao_cancel">Annulla</string>
+    <string name="hongbao_message_slogon">È il tuo giorno fortunato</string>
+    <string name="hongbao_name">Assistente Buste rosse</string>
     <string name="hot">Popolari</string>
     <string name="hot_today">Popolari oggi</string>
     <string name="how_to_modify_risk_app_permission">Passaggi</string>
@@ -2721,7 +2745,7 @@ per partecipare alla nostra caccia alle uova!"</string>
     <string name="item_thirty">%d CNY</string>
     <string name="item_usb_debug">Debug USB</string>
     <string name="item_view_role_description">Scheda</string>
-    <string name="item_virus_lib">Aggiorna automaticamente le definizioni dei virus</string>
+    <string name="item_virus_lib">Aggiorna definizioni virus automaticamente</string>
     <string name="item_zero">%d CNY</string>
     <string name="keyboard_key_back">Indietro</string>
     <string name="keyboard_key_space">Spazio</string>
@@ -2730,7 +2754,7 @@ per partecipare alla nostra caccia alle uova!"</string>
     <string name="kilobyte_per_second">KB/s</string>
     <string name="label_callwait">Notifica di chiamata in attesa</string>
     <string name="label_mi_stats">Mi analytics</string>
-    <string name="last_check_canceled">Scansione precedente annullata</string>
+    <string name="last_check_canceled">Controllo precedente annullato</string>
     <string name="launch_instant_app">Apri</string>
     <string name="layoutDirection">rtl</string>
     <string name="learn_risk_app_permission_settings">Sblocco delle autorizzazioni</string>
@@ -2753,6 +2777,7 @@ Il tuo operatore potrebbe addebitarti dei costi aggiuntivi in caso usassi nuovam
     <string name="lock_all_title">Blocca tutte le app</string>
     <string name="lock_app_input_invalid_car">Alcuni simboli non sono supportati</string>
     <string name="lock_mode_title">Impostazioni blocco</string>
+    <string name="lock_screen_hongbao_message">Da %1$s</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s usato sulla schermata di blocco</string>
     <string name="lock_screen_traffic_guide_notification_title">"Tocca per gestire l'utilizzo dei dati."</string>
     <string name="lock_screen_traffic_notify_body">Bloccato per %2$s a %1$s, dati usati %3$s</string>
@@ -2796,6 +2821,13 @@ Il tuo operatore potrebbe addebitarti dei costi aggiuntivi in caso usassi nuovam
     <string name="low_temperature_button_ok">Ho capito</string>
     <string name="low_temperature_warning_message">"Fa troppo freddo, il telefono potrebbe spegnersi da un momento all'altro. Salva le modifiche importanti."</string>
     <string name="low_temperature_warning_title">Temperatura molto bassa</string>
+    <string name="lucky_assistant_description">"Fornito da Xiaomi
+Assistente Buste rosse per WeChat e QQ
+Il promemoria non è supportato per i gruppi bloccati o quando si utilizza il software ND sul computer"</string>
+    <string name="lucky_money_close">Chiudi</string>
+    <string name="lucky_money_group_summary">Ricevi promemoria solo per le buste rosse inviate in gruppo. Consigliato per diminuire le notifiche.</string>
+    <string name="lucky_sound_mode_lucky">Fortunato</string>
+    <string name="lucky_sound_warn">Promemoria audio</string>
     <string name="main_activity_content_summary_root">Accesso root</string>
     <string name="main_activity_content_summary_update">Aggiornamento di sistema</string>
     <string name="main_alert_message_no_imsi">Scheda SIM non rilevata</string>
@@ -2903,7 +2935,7 @@ dell'operatore"</string>
     <string name="memory_clean_no_need_clean_1_new" formatted="false">"Liberati %s.
 Velocità dispositivo incrementata del %s."</string>
     <string name="memory_clear_unused">Pulisci la cache (%s)</string>
-    <string name="memory_title">Disponibili: %1$s\u0009\u0009Totali: %2$s</string>
+    <string name="memory_title">Disponibili: %1$s\t\tTotali: %2$s</string>
     <string name="menu_add">Aggiungi</string>
     <string name="menu_bl_call_log">Visualizza le chiamate bloccate</string>
     <string name="menu_bl_remove">Sblocca</string>
@@ -2919,7 +2951,7 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="menu_item_about_title">Informazioni</string>
     <string name="menu_item_app_details">Dettagli</string>
     <string name="menu_item_app_permissions_control">Gestione permessi</string>
-    <string name="menu_item_control_app_permissions">Verrà richiesto il tuo permesso prima di consentire alle applicazioni di leggere i tuoi contatti, leggere la cronologia delle chiamate, modificare le impostazioni di sistema, accedere alla fotocamera o ad altre risorse del dispositivo</string>
+    <string name="menu_item_control_app_permissions">Verrà richiesto il tuo permesso prima di consentire alle applicazioni di leggere i tuoi contatti, il registro delle chiamate, modificare le impostazioni di sistema, accedere alla fotocamera o ad altre risorse del dispositivo</string>
     <string name="menu_item_force_stop">Chiusura forzata</string>
     <string name="menu_item_install_debug_package">Installa il pacchetto di debug</string>
     <string name="menu_item_notification_antispam_text_avail">Lista blocchi</string>
@@ -2931,9 +2963,9 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="menu_item_shortcut_summary">Crea collegamenti sulla schermata Home per alcune funzionalità</string>
     <string name="menu_item_shortcut_title">Collegamento per le funzionalità di base</string>
     <string name="menu_item_uninstall">Disinstalla</string>
-    <string name="menu_item_virus_cloud_scan_summary">Carica i nomi e i dettagli delle applicazioni e scansionali utilizzando le definizioni online dei virus</string>
+    <string name="menu_item_virus_cloud_scan_summary">Carica dettagli e nomi delle applicazioni e scansionali utilizzando le definizioni online dei virus</string>
     <string name="menu_item_virus_cloud_scan_title">Definizioni online</string>
-    <string name="menu_item_virus_install_monitor_summary">Verifica la presenza di virus nelle applicazioni prima di installarle</string>
+    <string name="menu_item_virus_install_monitor_summary">Esegui scansione antivirus prima di installare le app</string>
     <string name="menu_item_virus_install_monitor_title">Scansiona prima di installare</string>
     <string name="menu_item_virus_lib_auto_update_summary">Aggiornato il %s</string>
     <string name="menu_remove">Elimina</string>
@@ -2964,13 +2996,13 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="menu_text_antivirus">Scansione di sicurezza</string>
     <string name="menu_text_antivirus_kddi">Scansione di sicurezza</string>
     <string name="menu_text_deepclean_summary">%1$s/%2$s occupati</string>
-    <string name="menu_text_garbage_cleanup">Pulitore</string>
+    <string name="menu_text_garbage_cleanup">Pulizia</string>
     <string name="menu_text_garbage_cleanup_danger">%s da pulire</string>
     <string name="menu_text_license_manager">Permessi</string>
-    <string name="menu_text_networkassistants">Utilizzo dei dati</string>
-    <string name="menu_text_networkassistants_danger">%s sopra al limite</string>
+    <string name="menu_text_networkassistants">Utilizzo dati</string>
+    <string name="menu_text_networkassistants_danger">%s fuori soglia</string>
     <string name="menu_text_networkassistants_data">%1$s%2$s</string>
-    <string name="menu_text_networkassistants_remain">%s residui</string>
+    <string name="menu_text_networkassistants_remain">%s rimasti</string>
     <string name="menu_text_networkassistants_unit_b">B</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -3109,6 +3141,7 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="more">Altro</string>
     <string name="more_game">Altri giochi</string>
     <string name="more_lock">Altro</string>
+    <string name="more_setting_summary">"Personalizza i promemoria e imposta l'ND per questa funzione"</string>
     <string name="more_settings">Altro</string>
     <string name="morning">Buongiorno</string>
     <string name="mtp_ptp_mode_summary">MTP or PTP attivo</string>
@@ -3171,6 +3204,7 @@ Puoi disattivare l'opzione \"Modifica automaticamente le statistiche sull'utiliz
     <string name="net_boostering">Aumento della velocità di rete…</string>
     <string name="net_boosting">Incremento della velocità…</string>
     <string name="net_delay_title">Ritardo</string>
+    <string name="net_error">Si è verificato un errore di rete</string>
     <string name="net_free_booster_new_user_tip">Ricevi un booster di gioco gratuito e partecipa per vincere un telefono Xiaomi!</string>
     <string name="net_free_booster_new_user_title">Omaggio per il nuovo utente</string>
     <string name="net_overdue">Sessione terminata</string>
@@ -3237,6 +3271,7 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="nickname">Nickname</string>
     <string name="night">Sera</string>
     <string name="no_game">Impossibile trovare giochi</string>
+    <string name="no_lucky_money">Non hai ancora ricevuto alcuna busta rossa</string>
     <string name="no_open">Non ora</string>
     <string name="no_privacy_permission">"Consenso all'Informativa sulla privacy non richiesto"</string>
     <string name="no_sim_card_by_tips">"Per impostare il saldo del telefono e gli avvisi sull'utilizzo dei dati, inserisci prima una scheda SIM."</string>
@@ -3348,6 +3383,7 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="notify_weekly_traffic_title_for_slotnum">La %1$s ha usato %2$s questa settimana</string>
     <string name="now_inquiry">Dettagli</string>
     <string name="number_address">Posizione</string>
+    <string name="number_of_lucky_money">Buste rosse per le quali hai ricevuto promemoria</string>
     <string name="numeric_need_to_confirm">Inserisci di nuovo per confermare</string>
     <string name="numeric_password_confirmed_header_confirm">Impostato correttamente. Tocca per confermare.</string>
     <string name="numeric_password_confirmed_header_continue">Impostato correttamente. Tocca \"Avanti\".</string>
@@ -3396,11 +3432,19 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="open_activity_err">"Impossibile trovare l'applicazione"</string>
     <string name="open_app">Apri</string>
     <string name="open_callwait">Attivo</string>
+    <string name="open_dnd_mode">Modalità ND</string>
+    <string name="open_dnd_mode_summary">Silenzia i promemoria durante un periodo di tempo prestabilito</string>
     <string name="open_extreme_power_save_mode_title">Attiva Risparmio energetico estremo</string>
+    <string name="open_fast_open_mode">Modalità apertura rapida</string>
+    <string name="open_fast_open_mode_summary">"Quando riceverai una nuova notifica di busta rossa la pagina dell'app con la busta rossa verrà aperta automaticamente"</string>
     <string name="open_game">Apri</string>
+    <string name="open_lucky">Attiva</string>
     <string name="open_now">"Consenti all'applicazione di utilizzare la connessione dati"</string>
     <string name="open_physical_sim_self_detection_noti_centent">La tua connessione in roaming potrebbe non funzionare correttamente</string>
     <string name="open_physical_sim_self_detection_noti_title">Prova la diagnostica della rete in roaming</string>
+    <string name="open_right_now">Apri</string>
+    <string name="open_right_now_short">Apri</string>
+    <string name="open_shut_down_password">Attiva</string>
     <string name="open_wlan_title">Consenti a questa app di attivare e disattivare il Wi-Fi</string>
     <string name="operator_location_settings">"Imposta l'operatore e la posizione"</string>
     <string name="operator_location_settings_message">"Impossibile riconoscere il tuo operatore e la tua posizione. Impossibile impostare il saldo del telefono e gli avvisi sull'utilizzo dei dati."</string>
@@ -3730,7 +3774,7 @@ Super risparmio energetico"</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Protezione della batteria</string>
     <string name="pc_smart_charge_pogo_project_notification_content">"Per prolungare la durata della batteria, la batteria di questo dispositivo non supererà il livello attuale mentre è collegato all'auto."</string>
     <string name="pc_smart_charge_pogo_project_notification_title">Protezione della batteria</string>
-    <string name="pc_smart_charge_title">Ricarica smart</string>
+    <string name="pc_smart_charge_title">Ricarica intelligente</string>
     <string name="pc_smart_discharge_checkbox_summary">Quando si utilizzano le funzionalità di navigazione, la ricarica si interromperà automaticamente a una percentuale specificata. Risparmio energetico verrà disattivato.</string>
     <string name="pc_smart_discharge_checkbox_title">Disconnessione automatica della ricarica</string>
     <string name="pc_smart_discharge_drop_down_title">Impostazioni di disconnessione automatica</string>
@@ -3814,7 +3858,7 @@ Super risparmio energetico"</string>
     <string name="permission_action_virtual">Manda messaggi vuoti</string>
     <string name="permission_action_virtual_common_summary">Concede alle app i permessi necessari, ma restituisce messaggi vuoti per proteggere la tua privacy</string>
     <string name="permission_action_virtual_phone_summary">Concedi alle app i permessi necessari, ma non consentire loro di accedere al numero di telefono reale della scheda SIM.</string>
-    <string name="permission_close_permission_control_dialog_msg">Quando la gestione permessi viene disattivata, le app non chiederanno il permesso prima di leggere i tuoi contatti, visualizzare la cronologia delle chiamate, modificare le impostazioni di sistema o accedere alle risorse della fotocamera o ad altre risorse del dispositivo.</string>
+    <string name="permission_close_permission_control_dialog_msg">Quando la Gestione Permessi viene disattivata, le applicazioni non chiederanno il tuo consenso prima di leggere i tuoi contatti, visualizzare il registro delle chiamate, modificare le impostazioni di sistema, accedere alla fotocamera o ad altre risorse del dispositivo.</string>
     <string name="permission_close_permission_control_dialog_title">Disattivare?</string>
     <string name="permission_exception_title">Connessione limitata per le app</string>
     <string name="permission_group_audio">Questo permesso consente alle app di accedere alla musica e ad altri file audio memorizzati sul dispositivo.</string>
@@ -3920,9 +3964,10 @@ Super risparmio energetico"</string>
     <string name="permission_warning_for_ensure">Concedi</string>
     <string name="permission_warning_for_risk">"Se decidi di concedere i permessi, i messaggi vuoti verranno restituiti all'app per proteggere la tua privacy."</string>
     <string name="permission_with_SMS_and_MMS">Permessi relativi a SMS e MMS</string>
-    <string name="permission_with_call_and_contact">Permessi relativi a telefonate, informazioni di contatto e cronologia delle chiamate.</string>
+    <string name="permission_with_call_and_contact">Permessi relativi a telefonate, info dei contatti e registro delle chiamate.</string>
     <string name="permission_with_read_write_clipboard">Consenti alle app di accedere e salvare elementi negli appunti</string>
     <string name="permit_running_network">Dati in background</string>
+    <string name="person_have_hongbao">%1$s ti ha inviato una busta rossa!</string>
     <string name="person_hotpot">Hotspot mobili</string>
     <string name="phone">Telefono</string>
     <string name="phone_manage">Risorse</string>
@@ -4261,7 +4306,7 @@ Super risparmio energetico"</string>
     <string name="power_wireless_update_dialog_button">Ho capito</string>
     <string name="power_wireless_update_dialog_message">Carica il dispositivo almeno al %s per poter aggiornare il firmware di ricarica wireless.</string>
     <string name="power_wireless_update_dialog_title">Batteria scarica</string>
-    <string name="power_wireless_update_driver">Aggiornamenti del firmware</string>
+    <string name="power_wireless_update_driver">Aggiornamenti del firmware per la ricarica wireless</string>
     <string name="power_wireless_update_driver_note">Puoi verificare la presenza di aggiornamenti del firmware e installare automaticamente le nuove versioni una volta rilasciate. Non spegnere il dispositivo mentre sta controllando gli aggiornamenti o li sta installando.</string>
     <string name="power_wireless_update_error">Impossibile aggiornare. Riprova.</string>
     <string name="power_wireless_update_in_progress">Aggiornamento firmware…</string>
@@ -4298,7 +4343,7 @@ Super risparmio energetico"</string>
     <string name="pref_category_extra_package_tile">Pacchetto ricarica</string>
     <string name="pref_category_half_year_package_tile">Pacchetto ricarica per metà anno</string>
     <string name="pref_category_package_type_title">Tipo di piano dati</string>
-    <string name="pref_category_title_module_settings">Impostazioni funzioni</string>
+    <string name="pref_category_title_module_settings">Impostazione funzionalità</string>
     <string name="pref_category_title_other">Impostazioni aggiuntive</string>
     <string name="pref_category_title_securitycenter_settings">Generale</string>
     <string name="pref_correction_setting">Impostazioni di calibrazione del modello</string>
@@ -4421,7 +4466,7 @@ Super risparmio energetico"</string>
     <string name="privacy_dialog_danger_mission_message">Android dispone di vari permessi ad alto rischio (ad es. il permesso di inviarti notifiche push). Per proteggere la tua privacy, il sistema ti chiederà se consentire tale comportamento, fornendo delle opzioni di limitazione.</string>
     <string name="privacy_dialog_danger_mission_title">Permessi ad alto rischio</string>
     <string name="privacy_dialog_feedback">Feedback</string>
-    <string name="privacy_dialog_message">"Quando ti connetti ad internet, questo messaggio, così come le informazioni sull'operatore, verranno entrambi criptati e caricati sui server Mi per aiutarci a migliorare il monitoraggio dell'utilizzo dei dati."</string>
+    <string name="privacy_dialog_message">"Quando ti connetti ad internet, questo messaggio, così come le informazioni sull'operatore, verranno entrambi crittografati e caricati sui server Mi per aiutarci a migliorare il monitoraggio dell'utilizzo dei dati."</string>
     <string name="privacy_dialog_negative_button_text">Esci</string>
     <string name="privacy_dialog_ok">Ho capito</string>
     <string name="privacy_dialog_ok_with_num">Ho capito (%ss)</string>
@@ -4523,7 +4568,7 @@ Super risparmio energetico"</string>
     <string name="privacy_pop_record">Ha registrato audio oggi</string>
     <string name="privacy_pop_storage">"Ha effettuato l'accesso all'archiviazione oggi"</string>
     <string name="privacy_privacy_title">Informativa sulla privacy</string>
-    <string name="privacy_prompt_tc_sms_report_message">"Il tuo numero di telefono ed i dettagli sul tuo operatore saranno criptati e caricati sui server Mi per aggiornare le tue informazioni sull'utilizzo dati."</string>
+    <string name="privacy_prompt_tc_sms_report_message">"Il tuo numero di telefono ed i dettagli sul tuo operatore saranno crittografati e caricati sui server Mi per aggiornare le tue informazioni sull'utilizzo dati."</string>
     <string name="privacy_prompt_upload">Carica</string>
     <string name="privacy_protect_summary">Proteggi gli elementi privati</string>
     <string name="privacy_protect_title">Protezione della privacy</string>
@@ -4677,6 +4722,7 @@ Revocare il consenso?"</string>
     <string name="provision_back">Indietro</string>
     <string name="provision_next">Avanti</string>
     <string name="provision_skip_underline">Salta</string>
+    <string name="qq_lucky_warning">Buste rosse QQ</string>
     <string name="qucick_replay_instrument">Usa risposte rapide nelle notifiche dei servizi di messaggistica selezionati (ad esempio WhatsApp, WeChat, QQ)</string>
     <string name="quick_optimize_checking">Scansione</string>
     <string name="quick_optimize_no_fix_issue_subtitle">"Impossibile prolungare l'autonomia"</string>
@@ -4793,11 +4839,11 @@ Revocare il consenso?"</string>
     <string name="roaming_start_body">Tocca per visualizzare le eccezioni in roaming.</string>
     <string name="roaming_start_title">Roaming dati</string>
     <string name="root">Accesso root</string>
-    <string name="root_apply_step_1">"Concedere a %s l'accesso root?"</string>
-    <string name="root_apply_step_2">"Concedere l'accesso root alle applicazioni può rendere instabile il dispositivo."</string>
-    <string name="root_apply_step_3">"I tuoi dati sono più vulnerabili agli attacchi da parte delle applicazioni che hanno l'accesso root."</string>
-    <string name="root_apply_step_4">"Concedi l'accesso root alle applicazioni a tuo rischio."</string>
-    <string name="root_apply_step_5">"Concedere a %s l'accesso root?"</string>
+    <string name="root_apply_step_1">"Concedere a %s l'accesso come root?"</string>
+    <string name="root_apply_step_2">"Concedere l'accesso di root può portare il tuo dispositivo a diventare instabile."</string>
+    <string name="root_apply_step_3">"I tuoi dati sono più vulnerabili agli attacchi da parte delle applicazioni che hanno l'accesso come root."</string>
+    <string name="root_apply_step_4">"Concedi l'accesso di root a tuo rischio."</string>
+    <string name="root_apply_step_5">"Concedere a %s l'accesso come root?"</string>
     <string name="root_apply_title">Avviso importante</string>
     <string name="safe_result_header_info_protecting">Protezione</string>
     <string name="safe_result_item_button_monitor">Controllando le Impostazioni</string>
@@ -4845,6 +4891,7 @@ Revocare il consenso?"</string>
     <string name="search_keyword_voice">Voce</string>
     <string name="search_menu_title">Cerca</string>
     <string name="search_result_text">Impossibile trovare applicazioni</string>
+    <string name="secondart_setting_title">Impostazioni promemoria</string>
     <string name="section_clear_acc_item_title">"%s. Se non c'è ancora abbastanza spazio libero, prova ad usare Pulitore."</string>
     <string name="section_security_defend_item_title">Proteggi i tuoi dati con Blocco app</string>
     <string name="section_system_item_fixed">Risolto</string>
@@ -4916,6 +4963,7 @@ Revocare il consenso?"</string>
     <string name="show_traffic_dialog_message">"Le tue informazioni sull'utilizzo dati verranno visualizzate nell'area delle notifiche. Puoi attivare o disattivare questa funzionalità in qualsiasi momento in Utilizzo dei dati > Impostazioni."</string>
     <string name="show_traffic_dialog_title">"Visualizza l'utilizzo nell'area delle notifiche"</string>
     <string name="showpattern">Mostra la sequenza</string>
+    <string name="shut_down_password_content">Se smarrisci il tuo dispositivo, la conferma di spegnimento lo proteggerà dallo spegnimento da parte di chi lo ritrova.</string>
     <string name="shutdown_cancel_reminder">Non si è spento</string>
     <string name="shutdown_cancel_reminder_detail">Il dispositivo non si è spento perché era in corso una chiamata</string>
     <string name="shutdown_cancel_reminder_detail2">Sembra che tu stia giocando. Lo spegnimento programmato è stato annullato.</string>
@@ -5397,8 +5445,8 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="summary_flow_purchase">Sembra che non ci siano molti dati mobili residui. Acquista altri dati per rimanere connesso.</string>
     <string name="summary_flow_verify_failed">"Regola automaticamente l'uso dei dati per evitare costi aggiuntivi"</string>
     <string name="summary_garbage_clean">Elimina la cache per liberare spazio</string>
-    <string name="summary_garbage_lib">Usa le più recenti definizioni per rimuovere spyware, adware ed altri elementi indesiderati</string>
-    <string name="summary_install_virus">Verifica la presenza di virus nelle applicazioni prima di installarle</string>
+    <string name="summary_garbage_lib">Usa le definizioni più recenti per rimuovere spyware, adware e altri rifiuti indesiderati</string>
+    <string name="summary_install_virus">Verifica le app per la presenza di virus prima di installarle</string>
     <string name="summary_mifi_insurance">Ottieni 1 anno di piano di sostituzione che copre qualsiasi danno fisico</string>
     <string name="summary_miui_update">Aggiornamento disponibile per %s.</string>
     <string name="summary_mms">Blocca automaticamente gli SMS di spam</string>
@@ -5413,10 +5461,10 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="summary_restrict_data_usage">"Hai limitato l'utilizzo di dati per questa applicazione."</string>
     <string name="summary_safe_mode">"Neutralizzare i rischi durante l'installazione"</string>
     <string name="summary_show_notification">"Cancella la cache, visualizza lo stato della batteria, e blocca elementi nell'area delle notifiche"</string>
-    <string name="summary_telecom_operator">"Ricevi mensilmente le statistiche sull'utilizzo dei dati da parte del tuo operatore"</string>
+    <string name="summary_telecom_operator">Ottieni le statistiche di utilizzo mensile dati dal tuo operatore</string>
     <string name="summary_usb">Impedisci la trasmissione di malware via USB</string>
     <string name="summary_virus">Rimuovi i virus per mantenere al sicuro il tuo dispositivo</string>
-    <string name="summary_virus_cloudscan">Carica i nomi e i dettagli delle applicazioni e scansionali utilizzando le definizioni online dei virus</string>
+    <string name="summary_virus_cloudscan">Carica dettagli e nomi delle applicazioni e scansionali utilizzando le definizioni dei virus online</string>
     <string name="summary_virus_scan_model">Elimina questi rischi per la sicurezza il prima possibile</string>
     <string name="summary_virus_update">Ottieni automaticamente le definizioni virus più aggiornate</string>
     <string name="summary_xiaomi_roaming">CNY 0.01/MB per dati mobili in roaming.</string>
@@ -5570,6 +5618,7 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="tether_over_limit_warning_notify_message">"Disattiva l'hotspot personale."</string>
     <string name="tether_over_limit_warning_notify_title">"Limite dati per l'hotspot portatile raggiunto"</string>
     <string name="textDirection">ltr</string>
+    <string name="text_all_control_summary">Quando viene rilevata una busta rossa, lo schermo si illumina come promemoria</string>
     <string name="text_button">Ho capito</string>
     <string name="text_cycle_day">%s</string>
     <string name="text_day" />
@@ -5640,7 +5689,7 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="tips_of_app_manage">Elimina le applicazioni che usi raramente per risparmiare spazio</string>
     <string name="tips_of_auto_launch_manage">Impedisci alle applicazioni usate raramente di avviarsi automaticamente</string>
     <string name="title_app_lock_disable">Blocco app</string>
-    <string name="title_app_update">Aggiornamenti disponibili</string>
+    <string name="title_app_update">Aggiornamento disponibile</string>
     <string name="title_auto_update">Aggiorna automaticamente</string>
     <string name="title_background_connection">Impossibile usare %s in background</string>
     <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
@@ -5685,15 +5734,16 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="title_miui_update_latest">Il sistema è aggiornato</string>
     <string name="title_mms_no">Filtro messaggi disattivato</string>
     <string name="title_mms_yes">Filtro messaggi attivato</string>
+    <string name="title_more_setting">Impostazioni aggiuntive</string>
     <string name="title_network_switch">Connessione di rete</string>
     <string name="title_of_app_manage">Applicazioni</string>
     <string name="title_of_auto_launch_manage">Avvio automatico</string>
     <string name="title_password_manager">Attiva il Gestore password</string>
     <string name="title_payment_protection">I pagamenti sono sicuri</string>
     <string name="title_payment_risk">Rischi di pagamento trovati</string>
-    <string name="title_permission_no">Gestione permessi disattivata</string>
+    <string name="title_permission_no">Gestione autorizzazioni disattivata</string>
     <string name="title_permission_root">Accesso root</string>
-    <string name="title_permission_yes">Gestione permessi attiva</string>
+    <string name="title_permission_yes">Gestione autorizzazioni attivata</string>
     <string name="title_power_optimizer">Risparmio energetico</string>
     <string name="title_realname_verify">Verifica ID</string>
     <string name="title_reply">Commenta</string>
@@ -5705,7 +5755,7 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="title_usb_no">Debug USB attivato</string>
     <string name="title_usb_yes">Debug USB disattivato</string>
     <string name="title_virus_cloudscan">Scansione virus cloud</string>
-    <string name="title_virus_no">Virus trovati</string>
+    <string name="title_virus_no">Virus trovato(i)</string>
     <string name="title_virus_update_no">Auto aggiornamento definizione virus disattivato</string>
     <string name="title_virus_update_yes">Auto aggiornamento definizione virus attivato</string>
     <string name="title_virus_yes">Nessun virus trovato</string>
@@ -5715,20 +5765,20 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="toast_cinema_mode">"Impostazioni di visualizzazione e audio regolate automaticamente per un'esperienza di visione più coinvolgente"</string>
     <string name="toast_cleaner_cloudscan">Pulitore utilizzerà le definizioni online</string>
     <string name="toast_dark_mode_fixed">Risolto con successo. Lascia questa pagina per applicare le modifiche.</string>
-    <string name="toast_flow_notification">"Notifiche sull'utilizzo dei dati attivate"</string>
+    <string name="toast_flow_notification">Attiva le notifiche di utilizzo dati</string>
     <string name="toast_gamembox_unenable_pad">Attiva Game Turbo nella sezione Security first</string>
     <string name="toast_gamembox_unenable_phone">Attiva Game Turbo nella sezione Security first</string>
-    <string name="toast_garbage_lib">Aggiornamenti automatici Pulitore attivati</string>
+    <string name="toast_garbage_lib">Attivati gli aggiornamenti automatici per Cleaner</string>
     <string name="toast_keyword_blank">Devi inserire una parola chiave</string>
     <string name="toast_keyword_exist">Parola chiave aggiunta</string>
     <string name="toast_keyword_invalid">Parola chiave non valida</string>
     <string name="toast_lockscreen_glogin_empty_password">Password richiesta</string>
     <string name="toast_network_eror">Impossibile connettersi alla rete</string>
-    <string name="toast_network_switch">Questa applicazione può connettersi ad internet</string>
+    <string name="toast_network_switch">Questa applicazione può connettersi a internet</string>
     <string name="toast_reject_sms_read_permission_success">Impostato correttamente</string>
     <string name="toast_removed_from_virus_white_list">"Rimosso dalle eccezioni. L'elemento sarà scansionato la prossima volta."</string>
-    <string name="toast_root_apply_accept">Accesso root concesso a %s</string>
-    <string name="toast_root_apply_reject">"È stato negato l'accesso root a %s"</string>
+    <string name="toast_root_apply_accept">Accesso come root concesso a %s</string>
+    <string name="toast_root_apply_reject">"E' stato negato l'accesso come root a %s"</string>
     <string name="toast_set_success">Attivato correttamente</string>
     <string name="toast_show_notification">"Spostato in alto nell'area delle notifiche"</string>
     <string name="toast_update_fail">Impossibile aggiornare</string>
@@ -5822,6 +5872,12 @@ I dati rimanenti includono dati che sono stati riportati dal mese precedente."</
     <string name="tuesday_shortest">Mar</string>
     <string name="turn_off_auto_correction">Disattivazione della sincronizzazione automatica</string>
     <string name="two_address_choose_hint">%1$s e %2$s</string>
+    <string name="txv_dnd_end_time_title">Orario di fine</string>
+    <string name="txv_dnd_start_time">00:00</string>
+    <string name="txv_dnd_start_time_title">Orario di inizio</string>
+    <string name="txv_dnd_type_demo">Silenzia suono</string>
+    <string name="txv_dnd_type_title">Metodo ND</string>
+    <string name="txv_lucky_money_group_text">Solo notifiche di gruppo</string>
     <string name="ufs_size_suffix">%1$s+%2$s</string>
     <string name="unable_connect_internet">Nessuna connessione internet</string>
     <string name="uninstall_app_dialog_msg">La disinstallazione eliminerà tutti i dati app.</string>
@@ -5927,7 +5983,7 @@ Attivarla li disattiverà e viceversa."</string>
 Questa funzionalità non funziona con i video migliorati.
 
 Attivarla li disattiverà e viceversa."</string>
-    <string name="vb_ve_settings_pic_border_stronger">Migliora bordi</string>
+    <string name="vb_ve_settings_pic_border_stronger">Migliora i bordi</string>
     <string name="vb_ve_settings_picture_stronger">Migliora animazione</string>
     <string name="vb_video_effects_3d">Suono surround</string>
     <string name="vb_video_effects_3d_summary">Migliora la profondità della riproduzione sonora per auricolari e altoparlanti</string>
@@ -5979,6 +6035,8 @@ Attivare una delle due disattiverà l'altra."</string>
 Prova ad aumentare la risoluzione!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Le animazioni migliorate sono disattivate</string>
     <string name="vb_voice_adjust">Audio da cinema</string>
+    <string name="verify_shut_down_password_content">Richiede la conferma del blocco schermo se il dispositivo è spento mentre è bloccato</string>
+    <string name="verify_shut_down_password_title">Conferma di spegnimento</string>
     <string name="video_repeat">Riproduci di nuovo</string>
     <string name="videobox_double_core_visual">Immagini dual-core</string>
     <string name="videobox_double_core_visual_description1">"Migliora la risoluzione video, la frequenza dei fotogrammi e ottimizza l'HDR grazie a un chip dedicato"</string>
@@ -6037,7 +6095,7 @@ Questa funzione non funziona quando è attivo il Risparmio energetico o il Super
     <string name="vtb_func_frc_desc4">Con i video HDR</string>
     <string name="vtb_func_frc_title">Movimenti fluidi</string>
     <string name="vtb_func_vpp_desc4">Questa funzionalità non funziona quando la risoluzione video è superiore a 4K.</string>
-    <string name="vtb_func_vpp_title">Migliora i contorni</string>
+    <string name="vtb_func_vpp_title">Migliora i bordi</string>
     <string name="vtb_function_video_translation">Traduzione in tempo reale</string>
     <string name="vtb_other_milink_connect">Impossibile proiettare il video. Altri elementi in proiezione…</string>
     <string name="vtb_stop_milink_connect">Proiezione video interrotta</string>
@@ -6051,14 +6109,16 @@ Questa funzione non funziona quando è attivo il Risparmio energetico o il Super
     <string name="wakepath_delete_app_start_all">Se continui, dovrai concedere nuovamente il permesso %s per aprire qualsiasi altra app. Vuoi continuare comunque?</string>
     <string name="wakepath_delete_app_start_other_app">Se continui, dovrai concedere nuovamente il permesso %1$s per aprire %2$s. Vuoi continuare comunque?</string>
     <string name="wakepath_manager_allow_list">Consentito</string>
-    <string name="wakepath_manager_allow_start">Always allow</string>
+    <string name="wakepath_manager_allow_start">Consenti sempre</string>
     <string name="wakepath_manager_checkbox_desc">Consenti %1$s per avviare altre app</string>
     <string name="wakepath_manager_checkbox_title">Consenti avvio a catena</string>
     <string name="wakepath_manager_empty_list">Non è consentito avviare alcuna app</string>
     <string name="wakepath_manager_reject_list">Limitato</string>
     <string name="wakepath_manager_reject_toast">"Cerca \"Gestisci avvio a catena\", in Impostazioni, per consentire a quest'app di avviare altre app."</string>
     <string name="wakepath_manager_title">"Gestisci l'avvio a catena"</string>
+    <string name="warn_function_no_work">&lt;u>Non stai ricevendo i promemoria?&lt;/u></string>
     <string name="website">Sito web</string>
+    <string name="wechat_lucky_warning">Buste rosse WeChat</string>
     <string name="wednesday">Mercoledì</string>
     <string name="wednesday_short">Mer</string>
     <string name="wednesday_shortest">Mer</string>
@@ -6090,6 +6150,12 @@ Questa funzione non funziona quando è attivo il Risparmio energetico o il Super
     <string name="wireless_charging_saver_cancel">Disattiva</string>
     <string name="wireless_charging_saver_message">Risparmio energetico è attivo. Mantenere disponibile la ricarica wireless inversa?</string>
     <string name="wireless_charging_saver_ok">Mantieni</string>
+    <string name="wireless_high_temp_notification_warning_title">La ricarica wireless si è interrotta a causa del surriscaldamento</string>
+    <string name="wireless_high_temp_warning_dialog_ok">Ho capito</string>
+    <string name="wireless_high_temp_warning_text">La ricarica wireless riprenderà una volta che il dispositivo si sarà raffreddato</string>
+    <string name="wireless_high_temp_warning_title">Ricarica wireless interrotta</string>
+    <string name="wireless_hottemp_warning_button_ok">Ho capito</string>
+    <string name="wireless_hottemp_warning_message">Il dispositivo è surriscaldato. La ricarica wireless si è interrotta e riprenderà automaticamente non appena il dispositivo si sarà raffreddato.</string>
     <string name="wl_no_whitelist">Nessuna eccezione.</string>
     <string name="wlan_booster">Ottimizzazione Wi-Fi</string>
     <string name="wlan_change_protection_detail">Non passare automaticamente alla rete Wi-Fi quando connesso ad una rete dati mobile</string>
